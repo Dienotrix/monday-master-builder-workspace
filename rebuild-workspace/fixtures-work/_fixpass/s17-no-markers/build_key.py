@@ -4,10 +4,10 @@ readiness block introduces is looked up in the transcript at its stamp and label
 verbatim substring of that turn before anything is written. Run once; the script refuses to run
 twice (it checks that `readiness` and `direction` are absent first)."""
 import json, re, sys, collections
-sys.path.insert(0, "/Users/caramelm4/DelOps/rebuild-workspace/fixtures-work/_fixpass/s17-no-markers")
+sys.path.insert(0, "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures-work/_fixpass/s17-no-markers")
 import keystyle
 
-F = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s17-no-markers/"
+F = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s17-no-markers/"
 OD = collections.OrderedDict
 raw = open(F + "answer-key.json", encoding="utf-8").read()
 k = json.loads(raw, object_pairs_hook=OD)

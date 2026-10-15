@@ -11,7 +11,7 @@ import json
 import re
 import sys
 
-FIX = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s2-discovery-gaps"
+FIX = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s2-discovery-gaps"
 KEY = FIX + "/answer-key.json"
 TX = FIX + "/transcript.txt"
 

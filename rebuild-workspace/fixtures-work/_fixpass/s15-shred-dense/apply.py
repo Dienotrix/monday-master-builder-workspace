@@ -6,7 +6,7 @@ import json, re, sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import keystyle
 
-FIX = '/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s15-shred-dense'
+FIX = '/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s15-shred-dense'
 KEY = FIX + '/answer-key.json'
 TR = FIX + '/transcript.txt'
 

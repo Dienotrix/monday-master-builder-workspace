@@ -3,7 +3,7 @@
 import json
 import re
 
-BASE = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s1-discovery-strong/"
+BASE = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s1-discovery-strong/"
 ROLES = {"Tess Kowalczyk": "COO", "Jordan Pruitt": "Operations Manager"}
 
 lines = open(BASE + "transcript.txt", encoding="utf-8").read().splitlines()

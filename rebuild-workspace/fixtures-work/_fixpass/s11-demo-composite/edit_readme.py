@@ -1,4 +1,4 @@
-P='/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s11-demo-composite/README.md'
+P='/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s11-demo-composite/README.md'
 t=open(P,encoding='utf-8').read()
 def rep(old,new):
     global t; assert t.count(old)==1, old[:70]; t=t.replace(old,new)

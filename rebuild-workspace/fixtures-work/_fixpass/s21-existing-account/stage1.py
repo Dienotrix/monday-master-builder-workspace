@@ -1,7 +1,7 @@
 import json, sys
 sys.path.insert(0, '.')
 from render import dump
-P = '/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s21-existing-account/answer-key.json'
+P = '/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s21-existing-account/answer-key.json'
 k = json.load(open(P, encoding='utf-8'))
 
 def rep(s, old, new):

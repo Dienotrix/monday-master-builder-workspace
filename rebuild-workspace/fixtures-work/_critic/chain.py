@@ -1,5 +1,5 @@
 import json,os,re
-F="/Users/caramelm4/DelOps/rebuild-workspace/fixtures"
+F="/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures"
 A=["s1-discovery-strong","s3-followup-demo-feedback","s10-support-checkin"]
 B=["s8-discovery-enterprise-pmo","s9-followup-no-portfolio-unlabelled"]
 def load(s):

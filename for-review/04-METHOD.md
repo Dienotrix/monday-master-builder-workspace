@@ -541,7 +541,7 @@ The rules above were written for generated text, and the most damaging claims in
 
 ## 8. Method-to-record mapping
 
-Paths are inside `~/DelOps/clients/<slug>/`; strand-level paths are inside `strands/<id>/` (A14).
+Paths are inside `~/DelOps/monday-master-builder-dev/clients/<slug>/`; strand-level paths are inside `strands/<id>/` (A14).
 
 | Method element | File | Current or history | Notes |
 |---|---|---|---|

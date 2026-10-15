@@ -8,7 +8,7 @@ types and decision roles to the method spec's vocabulary.
 import json
 from collections import OrderedDict
 
-KEY = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s1-discovery-strong/answer-key.json"
+KEY = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s1-discovery-strong/answer-key.json"
 
 FIELD_ORDER = [
     "scenario_id", "call_type", "purpose_of_this_fixture", "transcript_format", "company",

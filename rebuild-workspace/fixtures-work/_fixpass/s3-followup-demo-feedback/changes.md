@@ -103,7 +103,7 @@ One. `entities_and_workflows[12]` ("Owner approvals stay deferred; only the bill
 
 ## 10. Verifier output
 
-`python3 -I /Users/caramelm4/DelOps/rebuild-workspace/fixtures-work/_fixpass/verify_quotes.py /Users/caramelm4/DelOps/rebuild-workspace/fixtures/s3-followup-demo-feedback`, run after the only edit, exit code 0:
+`python3 -I ~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures-work/_fixpass/verify_quotes.py ~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s3-followup-demo-feedback`, run after the only edit, exit code 0:
 
 ```
 Fixture: s3-followup-demo-feedback

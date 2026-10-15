@@ -3,13 +3,13 @@
 Written 2026-10-14. You add the readiness `goals` list to a batch of fixture answer keys and classify each readiness assumption. You change nothing else in any key.
 
 ## Paths
-- Fixtures: `/Users/caramelm4/DelOps/rebuild-workspace/fixtures/<fixture>/` — `answer-key.json`, the transcript or transcripts (`.txt`), sometimes documents, and a `README.md` on s11 to s25.
-- Helper: `/Users/caramelm4/DelOps/rebuild-workspace/fixtures-work/_goals/add_goals.py` (read its docstring).
-- Verifier: `/Users/caramelm4/DelOps/rebuild-workspace/fixtures-work/_fixpass/verify_quotes.py <fixture folder> --json` (its docstring explains statuses and the location grammars).
-- Your plans: `/Users/caramelm4/DelOps/rebuild-workspace/fixtures-work/_goals/plans/<fixture>.json`.
-- The log: `/Users/caramelm4/DelOps/rebuild-workspace/fixtures-work/_goals/log.md` (append; create with a title line if missing).
-- Baseline verifier results (before this pass, all zero misses): `/Users/caramelm4/DelOps/rebuild-workspace/fixtures-work/_goals/baseline/<fixture>.json`.
-- The shape, pinned: `/Users/caramelm4/DelOps/monday-master-builder/plugins/monday-master-builder/shared/record-map.md`, section "Pinned: readiness", rows `goals[]` and `assumptions[]`. The design reason: `/Users/caramelm4/DelOps/rebuild-workspace/design/AMENDMENTS.md`, A27 (readiness opens with goals and pains, so the user sees what the client wants before what hurts).
+- Fixtures: `~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/<fixture>/` — `answer-key.json`, the transcript or transcripts (`.txt`), sometimes documents, and a `README.md` on s11 to s25.
+- Helper: `~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures-work/_goals/add_goals.py` (read its docstring).
+- Verifier: `~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures-work/_fixpass/verify_quotes.py <fixture folder> --json` (its docstring explains statuses and the location grammars).
+- Your plans: `~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures-work/_goals/plans/<fixture>.json`.
+- The log: `~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures-work/_goals/log.md` (append; create with a title line if missing).
+- Baseline verifier results (before this pass, all zero misses): `~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures-work/_goals/baseline/<fixture>.json`.
+- The shape, pinned: `~/DelOps/monday-master-builder-dev/monday-master-builder/plugins/monday-master-builder/shared/record-map.md`, section "Pinned: readiness", rows `goals[]` and `assumptions[]`. The design reason: `~/DelOps/monday-master-builder-dev/rebuild-workspace/design/AMENDMENTS.md`, A27 (readiness opens with goals and pains, so the user sees what the client wants before what hurts).
 
 ## Per fixture, in order
 1. If the key's `readiness` already has `goals`, or `plans/<fixture>.json` exists and the log has a line for it, skip it (the pass is resumable).

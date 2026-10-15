@@ -1,5 +1,5 @@
 import io
-P='/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s11-demo-composite/transcript.txt'
+P='/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s11-demo-composite/transcript.txt'
 t=open(P,encoding='utf-8').read()
 edits=[
  # 01:49 opening: a false start

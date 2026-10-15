@@ -1,5 +1,5 @@
 import json,os,re
-F="/Users/caramelm4/DelOps/rebuild-workspace/fixtures"
+F="/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures"
 SC=["s1-discovery-strong","s2-discovery-gaps","s3-followup-demo-feedback","s4-discovery-software","s5-intro-thin","s6-discovery-crm-sales","s7-discovery-service-desk","s8-discovery-enterprise-pmo","s9-followup-no-portfolio-unlabelled","s10-support-checkin"]
 def walk(o,kind="quote"):
     out=[]

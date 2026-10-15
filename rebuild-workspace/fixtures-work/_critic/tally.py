@@ -1,5 +1,5 @@
 import json,os,collections
-F="/Users/caramelm4/DelOps/rebuild-workspace/fixtures"
+F="/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures"
 SC=["s1-discovery-strong","s2-discovery-gaps","s3-followup-demo-feedback","s4-discovery-software","s5-intro-thin","s6-discovery-crm-sales","s7-discovery-service-desk","s8-discovery-enterprise-pmo","s9-followup-no-portfolio-unlabelled","s10-support-checkin"]
 SPEC=["Price feels high","Needs to think it over","Must check with someone","Wrong time, next quarter","We'll build it ourselves","Talking to other partners","Just send a proposal or pricing","monday itself is the problem","Team won't adopt it"]
 K={s:json.load(open(os.path.join(F,s,"answer-key.json"))) for s in SC}

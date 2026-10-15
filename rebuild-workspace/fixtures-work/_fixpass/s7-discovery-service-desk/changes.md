@@ -93,7 +93,7 @@ Counts COVERAGE tracks for s7 that did not move: traps 35, pains 18, vocabulary 
 
 ## 7. Verifier output
 
-`python3 -I verify_quotes.py /Users/caramelm4/DelOps/rebuild-workspace/fixtures/s7-discovery-service-desk`, run after the single edit that touched quotes (the build script), exit code 0:
+`python3 -I verify_quotes.py ~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s7-discovery-service-desk`, run after the single edit that touched quotes (the build script), exit code 0:
 
 ```
 Fixture: s7-discovery-service-desk

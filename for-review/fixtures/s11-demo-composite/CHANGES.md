@@ -79,7 +79,7 @@ README: the files table (257 lines, 86 turns, 9,006 words, the by-label shares, 
 
 ## 9. Verifier output
 
-`python3 -I verify_quotes.py /Users/caramelm4/DelOps/rebuild-workspace/fixtures/s11-demo-composite`, run after all edits, exit code 0:
+`python3 -I verify_quotes.py ~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s11-demo-composite`, run after all edits, exit code 0:
 
 ```
 Fixture: s11-demo-composite

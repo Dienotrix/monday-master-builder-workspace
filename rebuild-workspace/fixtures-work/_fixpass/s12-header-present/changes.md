@@ -102,7 +102,7 @@ Counts brought in line: 5,390 words and 66.2% in the files table; 550 lines and 
 
 ## 11. Verifier output
 
-`python3 -I verify_quotes.py /Users/caramelm4/DelOps/rebuild-workspace/fixtures/s12-header-present`, run after the last edit to the key and the transcript (and again after the README, unchanged), exit code 0:
+`python3 -I verify_quotes.py ~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s12-header-present`, run after the last edit to the key and the transcript (and again after the README, unchanged), exit code 0:
 
 ```
 Fixture: s12-header-present

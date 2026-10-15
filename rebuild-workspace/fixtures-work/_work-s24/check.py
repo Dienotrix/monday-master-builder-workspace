@@ -14,7 +14,7 @@ import re
 import sys
 from collections import Counter, defaultdict
 
-F = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s24-package"
+F = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s24-package"
 ORDER = ["scenario_id", "call_type", "purpose_of_this_fixture", "transcript_format", "company", "attendees",
          "expected_monday_products", "rubric", "pains", "numbers", "vocabulary", "entities_and_workflows",
          "integrations_mentioned", "compliance_or_security_signals", "objections", "commitments_and_next_steps",

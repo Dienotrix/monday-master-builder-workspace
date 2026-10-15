@@ -595,7 +595,7 @@ The reference page covers Fable 5.1, Mythos 5.1, Fable 5, Mythos 5, Opus 5, Opus
    - Follow the documented habits: short index files, one line per entry, and detail in topic files.
 10. **Close-out archive.** Plan to run git and gh from Claude Code on the Mac, where credentials live, unless git push from inside Cowork is verified.
     - Deleting the local folder will trigger Cowork's explicit delete permission prompt.
-11. **One Cowork project per client.** Attach `~/DelOps/clients/<slug>/` and keep project instructions short, pointing to CLIENT.md.
+11. **One Cowork project per client.** Attach `~/DelOps/monday-master-builder-dev/clients/<slug>/` and keep project instructions short, pointing to CLIENT.md.
     - Archiving the project at close-out removes only its metadata and memory.
 12. **Verification steps.** Keep read-back verification and the auditor as explicit, named workflow steps; they are deliverables.
     - Avoid generic "double-check your work" wording, which causes over-verification on Opus 5.

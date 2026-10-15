@@ -2,7 +2,7 @@
 """Fix-pass edit for s9-followup-no-portfolio-unlabelled: field corrections and the readiness block.
 Every quote the block introduces is proven verbatim at its paragraph before the file is written."""
 import json, re, sys, collections
-FIX = '/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s9-followup-no-portfolio-unlabelled'
+FIX = '/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s9-followup-no-portfolio-unlabelled'
 KEY = FIX + '/answer-key.json'
 raw = open(KEY, 'rb').read()
 d = json.loads(raw.decode('utf-8'), object_pairs_hook=collections.OrderedDict)

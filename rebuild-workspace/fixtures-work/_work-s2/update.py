@@ -7,7 +7,7 @@ revision touches. Everything else is carried through untouched.
 import json
 from collections import OrderedDict
 
-BASE = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s2-discovery-gaps/"
+BASE = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s2-discovery-gaps/"
 k = json.load(open(BASE + "answer-key.json", encoding="utf-8"))
 
 ORDER = ["scenario_id", "call_type", "purpose_of_this_fixture", "transcript_format", "company",

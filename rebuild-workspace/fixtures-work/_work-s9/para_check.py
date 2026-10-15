@@ -1,5 +1,5 @@
 import json,re,sys
-BASE='/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s9-followup-no-portfolio-unlabelled'
+BASE='/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s9-followup-no-portfolio-unlabelled'
 t=open(BASE+'/transcript.txt',encoding='utf-8').read()
 paras=[p for p in t.split('\n\n') if p.strip()]
 key=json.load(open(BASE+'/answer-key.json',encoding='utf-8'))

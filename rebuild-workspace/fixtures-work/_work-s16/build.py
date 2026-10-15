@@ -15,7 +15,7 @@ import random
 import re
 import sys
 
-OUT = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s16-shred-cue"
+OUT = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s16-shred-cue"
 
 C = "Consultant"
 I = "Ingrid Falkenrath"

@@ -113,7 +113,7 @@ Layout note for the verifier: the key prints every list entry and every second-l
 
 ## 9. Verifier output
 
-`python3 -I verify_quotes.py /Users/caramelm4/DelOps/rebuild-workspace/fixtures/s22-degrading-commitment`, the final run after every edit, exit code 0:
+`python3 -I verify_quotes.py ~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s22-degrading-commitment`, the final run after every edit, exit code 0:
 
 ```
 Fixture: s22-degrading-commitment

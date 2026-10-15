@@ -4,7 +4,7 @@ import json
 import re
 import sys
 
-BASE = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s2-discovery-gaps/"
+BASE = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s2-discovery-gaps/"
 t = open(BASE + "transcript.txt", encoding="utf-8").read()
 lines = t.splitlines()
 raw = open(BASE + "answer-key.json", encoding="utf-8").read()

@@ -1,5 +1,5 @@
 import json,os,re
-F="/Users/caramelm4/DelOps/rebuild-workspace/fixtures"
+F="/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures"
 PAIRS=[("s1-discovery-strong","Ravi"),("s3-followup-demo-feedback","Ravi"),("s6-discovery-crm-sales","Ravi"),
 ("s7-discovery-service-desk","Junie"),("s7-discovery-service-desk","Delia"),("s7-discovery-service-desk","Corinne"),
 ("s8-discovery-enterprise-pmo","Corinne"),("s6-discovery-crm-sales","Kestrel"),("s10-support-checkin","Kestrel"),

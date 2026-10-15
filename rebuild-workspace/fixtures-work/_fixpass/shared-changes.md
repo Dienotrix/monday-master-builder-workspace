@@ -37,7 +37,7 @@ Seen and left alone, because the task said to change nothing else; for the plann
 
 Neither the lint nor a test assumed a moved or removed file, so no compensating change was needed: the lint's only shared-file check (`shared-copy`) iterates whatever is under `shared/`, its link check reads Markdown links and `${CLAUDE_PLUGIN_ROOT}` paths and the remaining references to the moved files are backticked prose, and the lint tests run against their own synthetic trees. The unit count fell from 31 to 21, the ten retired scan tests.
 
-`python3 tools/lint_plugin.py`, from `/Users/caramelm4/DelOps/monday-master-builder`, exit 0:
+`python3 tools/lint_plugin.py`, from `~/DelOps/monday-master-builder-dev/monday-master-builder`, exit 0:
 
 ```
 info: skills/: frontmatter: not present yet
@@ -50,7 +50,7 @@ warning: personal-names-index.json: personal-name: name list not found at /Users
 lint_plugin: 0 error(s), 1 warning(s), 6 not present yet, 7 file(s)
 ```
 
-`python3 -m unittest discover -s /Users/caramelm4/DelOps/monday-master-builder/tests/unit`, from the same folder, exit 0:
+`python3 -m unittest discover -s ~/DelOps/monday-master-builder-dev/monday-master-builder/tests/unit`, from the same folder, exit 0:
 
 ```
 .....................
@@ -68,20 +68,20 @@ OK
 ## 8. Paths created, moved or removed
 
 Created:
-- `/Users/caramelm4/DelOps/monday-master-builder/deferred/README.md`
-- `/Users/caramelm4/DelOps/rebuild-workspace/fixtures-work/_fixpass/shared-changes.md` (this log)
+- `~/DelOps/monday-master-builder-dev/monday-master-builder/deferred/README.md`
+- `~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures-work/_fixpass/shared-changes.md` (this log)
 
 Moved (`git mv`):
-- `/Users/caramelm4/DelOps/monday-master-builder/plugins/monday-master-builder/shared/sales-method.md` → `/Users/caramelm4/DelOps/monday-master-builder/deferred/shared/sales-method.md`
-- `/Users/caramelm4/DelOps/monday-master-builder/plugins/monday-master-builder/shared/house-style.md` → `/Users/caramelm4/DelOps/monday-master-builder/deferred/shared/house-style.md`
+- `~/DelOps/monday-master-builder-dev/monday-master-builder/plugins/monday-master-builder/shared/sales-method.md` → `~/DelOps/monday-master-builder-dev/monday-master-builder/deferred/shared/sales-method.md`
+- `~/DelOps/monday-master-builder-dev/monday-master-builder/plugins/monday-master-builder/shared/house-style.md` → `~/DelOps/monday-master-builder-dev/monday-master-builder/deferred/shared/house-style.md`
 
 Removed (`git rm`):
-- `/Users/caramelm4/DelOps/monday-master-builder/plugins/monday-master-builder/shared/sandbox-accounts.txt`
-- `/Users/caramelm4/DelOps/monday-master-builder/tools/cleanroom_scan.py`
-- `/Users/caramelm4/DelOps/monday-master-builder/tests/unit/test_cleanroom_scan.py`
-- `/Users/caramelm4/DelOps/monday-master-builder/tests/unit/fixtures/tools/cleanroom/` (four files: `quarantine/learn-notes.md`, `tree/allowed.md`, `tree/clean.md`, `tree/copied.md`)
+- `~/DelOps/monday-master-builder-dev/monday-master-builder/plugins/monday-master-builder/shared/sandbox-accounts.txt`
+- `~/DelOps/monday-master-builder-dev/monday-master-builder/tools/cleanroom_scan.py`
+- `~/DelOps/monday-master-builder-dev/monday-master-builder/tests/unit/test_cleanroom_scan.py`
+- `~/DelOps/monday-master-builder-dev/monday-master-builder/tests/unit/fixtures/tools/cleanroom/` (four files: `quarantine/learn-notes.md`, `tree/allowed.md`, `tree/clean.md`, `tree/copied.md`)
 
 Edited in place:
-- `/Users/caramelm4/DelOps/monday-master-builder/plugins/monday-master-builder/shared/record-map.md`
-- `/Users/caramelm4/DelOps/monday-master-builder/plugins/monday-master-builder/shared/leak-terms.txt`
-- `/Users/caramelm4/DelOps/monday-master-builder/tools/README.md`
+- `~/DelOps/monday-master-builder-dev/monday-master-builder/plugins/monday-master-builder/shared/record-map.md`
+- `~/DelOps/monday-master-builder-dev/monday-master-builder/plugins/monday-master-builder/shared/leak-terms.txt`
+- `~/DelOps/monday-master-builder-dev/monday-master-builder/tools/README.md`

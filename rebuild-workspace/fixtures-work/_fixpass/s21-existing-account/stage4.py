@@ -2,7 +2,7 @@ import json, re, sys
 from collections import Counter
 sys.path.insert(0, '.')
 from render import dump
-F = '/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s21-existing-account/'
+F = '/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s21-existing-account/'
 def rep(s, old, new):
     assert s.count(old) == 1, (s.count(old), old[:70]); return s.replace(old, new)
 

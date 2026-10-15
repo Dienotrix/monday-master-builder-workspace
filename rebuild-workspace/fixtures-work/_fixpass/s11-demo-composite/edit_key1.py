@@ -1,6 +1,6 @@
 import sys; sys.path.insert(0,'.')
 import keyfmt
-K='/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s11-demo-composite/answer-key.json'
+K='/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s11-demo-composite/answer-key.json'
 k=keyfmt.load(K)
 log=[]
 def rep(obj,key,old,new,where):

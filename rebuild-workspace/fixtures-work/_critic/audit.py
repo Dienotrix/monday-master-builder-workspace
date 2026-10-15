@@ -1,5 +1,5 @@
 import json,os,re,sys
-F="/Users/caramelm4/DelOps/rebuild-workspace/fixtures"
+F="/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures"
 SC=["s1-discovery-strong","s2-discovery-gaps","s3-followup-demo-feedback","s4-discovery-software","s5-intro-thin","s6-discovery-crm-sales","s7-discovery-service-desk","s8-discovery-enterprise-pmo","s9-followup-no-portfolio-unlabelled","s10-support-checkin"]
 ORDER=["scenario_id","call_type","purpose_of_this_fixture","transcript_format","company","attendees","expected_monday_products","rubric","pains","numbers","vocabulary","entities_and_workflows","integrations_mentioned","compliance_or_security_signals","objections","commitments_and_next_steps","traps","requested_changes","should_plugin_propose_a_build","expected_questions_before_building","expected_verdict","account_context","expected_structures","accepted_behaviours","expected_leak_blocklist"]
 keys={};txt={}

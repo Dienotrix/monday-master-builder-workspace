@@ -18,7 +18,7 @@ import json
 import re
 import sys
 
-BASE = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s8-discovery-enterprise-pmo/"
+BASE = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s8-discovery-enterprise-pmo/"
 t = open(BASE + "transcript.txt", encoding="utf-8").read()
 raw = open(BASE + "answer-key.json", encoding="utf-8").read()
 k = json.loads(raw)

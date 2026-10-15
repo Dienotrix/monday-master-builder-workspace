@@ -10,7 +10,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import turns  # noqa: E402
 
-OUT = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s24-package"
+OUT = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s24-package"
 
 NAMES = {
     "M": "Clodagh Rennard",

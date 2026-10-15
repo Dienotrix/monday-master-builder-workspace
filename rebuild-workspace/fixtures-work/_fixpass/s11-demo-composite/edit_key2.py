@@ -1,6 +1,6 @@
 import sys, re; sys.path.insert(0,'.')
 import keyfmt
-K='/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s11-demo-composite/answer-key.json'
+K='/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s11-demo-composite/answer-key.json'
 k=keyfmt.load(K)
 tr=k['traps']
 i=[n for n,t in enumerate(tr) if t.startswith("Talk share by label (client 18.4%)")][0]
@@ -207,7 +207,7 @@ print("entities with parent all carry moves_independently:",all(e['moves_indepen
 print("questions",len(questions),"leanings",len(leanings),"entities",len(entities),"signals",len(signals),"assumptions",len(assumptions),"unmet",len(unmet_needs),"ai",len(ai_opportunities),"incumbents",len(existing['incumbents']))
 # outcome strings verbatim at a transcript unit
 import re as _re
-T=open('/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s11-demo-composite/transcript.txt').read()
+T=open('/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s11-demo-composite/transcript.txt').read()
 for p in pains:
     if p['outcome']: assert p['outcome'] in T, p['outcome']
 print("outcomes verbatim: ok; field order:",list(k.keys())[-3:])

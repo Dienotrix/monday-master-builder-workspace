@@ -104,7 +104,7 @@ Quotes the block introduces: 70 quote-and-location pairs were proven verbatim at
 
 ## 8. Verifier output
 
-`python3 -I verify_quotes.py /Users/caramelm4/DelOps/rebuild-workspace/fixtures/s8-discovery-enterprise-pmo`, run after the last edit, exit code 0:
+`python3 -I verify_quotes.py ~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s8-discovery-enterprise-pmo`, run after the last edit, exit code 0:
 
 ```
 Fixture: s8-discovery-enterprise-pmo

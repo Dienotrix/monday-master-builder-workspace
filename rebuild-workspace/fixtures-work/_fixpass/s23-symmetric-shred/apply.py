@@ -4,7 +4,7 @@ import json, re, sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from keyfmt import dumps
 
-FX = '/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s23-symmetric-shred'
+FX = '/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s23-symmetric-shred'
 KEY = os.path.join(FX, 'answer-key.json')
 TR = os.path.join(FX, 'transcript.txt')
 

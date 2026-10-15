@@ -90,7 +90,7 @@ Counts COVERAGE tracks for s2 elsewhere, unchanged: traps 27, pains 15, vocabula
 
 ## 7. Verifier output
 
-`python3 -I verify_quotes.py /Users/caramelm4/DelOps/rebuild-workspace/fixtures/s2-discovery-gaps`, run after the last edit (the same command was run after the only edit this pass made, since every change to the key landed in one scripted write; the run before any edit gave 98 pairs, 98 verified):
+`python3 -I verify_quotes.py ~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s2-discovery-gaps`, run after the last edit (the same command was run after the only edit this pass made, since every change to the key landed in one scripted write; the run before any edit gave 98 pairs, 98 verified):
 
 ```
 Fixture: s2-discovery-gaps

@@ -98,7 +98,7 @@ The s11 rule, applied with judgment. The Consultant's turns in s13 already carry
 
 ## 11. Verifier output
 
-`python3 -I verify_quotes.py /Users/caramelm4/DelOps/rebuild-workspace/fixtures/s13-header-absent`, run after the last edit to the key or the transcript (the README edits came after and touch no quote), exit code 0:
+`python3 -I verify_quotes.py ~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s13-header-absent`, run after the last edit to the key or the transcript (the README edits came after and touch no quote), exit code 0:
 
 ```
 Fixture: s13-header-absent

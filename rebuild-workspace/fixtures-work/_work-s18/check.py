@@ -2,8 +2,8 @@
 import json, re, os, glob, sys
 from collections import Counter, OrderedDict
 
-DIR = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s18-identity-collapse/"
-FIX = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/"
+DIR = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s18-identity-collapse/"
+FIX = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/"
 ORDER = ["scenario_id", "call_type", "purpose_of_this_fixture", "transcript_format", "company", "attendees", "expected_monday_products", "rubric", "pains", "numbers", "vocabulary", "entities_and_workflows", "integrations_mentioned", "compliance_or_security_signals", "objections", "commitments_and_next_steps", "traps", "requested_changes", "should_plugin_propose_a_build", "expected_questions_before_building", "expected_verdict", "account_context", "expected_structures", "accepted_behaviours", "expected_leak_blocklist"]
 k = json.load(open(DIR + "answer-key.json"), object_pairs_hook=OrderedDict)
 tx = open(DIR + "transcript.txt").read()

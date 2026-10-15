@@ -2,10 +2,10 @@
 """Fix-pass edit of fixtures/s16-shred-cue/answer-key.json. Load, change, dump (keyfmt reproduces the
 file's own style). Every quote introduced here is proved verbatim at its cue before anything is written."""
 import json, re, sys
-sys.path.insert(0, "/Users/caramelm4/DelOps/rebuild-workspace/fixtures-work/_fixpass/s16-shred-cue")
+sys.path.insert(0, "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures-work/_fixpass/s16-shred-cue")
 import keyfmt
 
-FIX = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s16-shred-cue"
+FIX = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s16-shred-cue"
 KEY = FIX + "/answer-key.json"
 raw = open(KEY, encoding="utf-8").read()
 k = json.loads(raw)

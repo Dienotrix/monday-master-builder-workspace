@@ -22,7 +22,7 @@ import os
 import re
 import sys
 
-FIXTURES = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures"
+FIXTURES = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures"
 
 FIELD_ORDER = [
     "scenario_id",

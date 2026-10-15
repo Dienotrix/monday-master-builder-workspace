@@ -132,7 +132,7 @@ Brought in line: the transcript row (6,023 words), the key row (`intake` then `r
 
 ## 11. Verifier output
 
-`python3 -I verify_quotes.py /Users/caramelm4/DelOps/rebuild-workspace/fixtures/s20-large-group`, run after every stage and finally after the mess pass and the count updates, exit code 0:
+`python3 -I verify_quotes.py ~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s20-large-group`, run after every stage and finally after the mess pass and the count updates, exit code 0:
 
 ```
 Fixture: s20-large-group

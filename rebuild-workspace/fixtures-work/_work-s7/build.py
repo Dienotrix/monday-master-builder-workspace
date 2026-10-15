@@ -3,8 +3,8 @@
 import os
 import re
 
-WORK = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures-work/_work-s7/"
-OUT = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s7-discovery-service-desk/"
+WORK = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures-work/_work-s7/"
+OUT = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s7-discovery-service-desk/"
 os.makedirs(OUT, exist_ok=True)
 
 turns = []

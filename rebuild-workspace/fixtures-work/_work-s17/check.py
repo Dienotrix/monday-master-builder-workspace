@@ -1,6 +1,6 @@
 """Read-only checks for s17-no-markers: field order, quote validity per turn, counts. Never writes."""
 import json, re, sys
-F = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s17-no-markers/"
+F = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s17-no-markers/"
 ORDER = ["scenario_id","call_type","purpose_of_this_fixture","transcript_format","company","attendees","expected_monday_products","rubric","pains","numbers","vocabulary","entities_and_workflows","integrations_mentioned","compliance_or_security_signals","objections","commitments_and_next_steps","traps","requested_changes","should_plugin_propose_a_build","expected_questions_before_building","expected_verdict","account_context","expected_structures","accepted_behaviours","expected_leak_blocklist"]
 k = json.load(open(F+"answer-key.json"))
 keys = list(k.keys())

@@ -6,7 +6,7 @@ Run: 2026-09-11 (America/New_York) · read-only except for this report file.
 Cloud session — the main shell runs in an ephemeral Anthropic-hosted Linux container, **not** on your Mac. It is additionally linked to your Mac ("mac-lan", darwin/arm64) through a device bridge, so there are two shells. Cloud shell: Ubuntu 24.04.4 LTS, Linux 6.18.44, x86_64. Device shell (your Mac's Cowork VM): Linux 6.8.0-136, aarch64.
 
 ## 2. Folder access
-Connected folder: `/Users/caramelm4/DelOps/rebuild-workspace` (seen from the device shell as `$HOME/mnt/rebuild-workspace`). Read/write confirmed — this report was created there. Note: the check spec said to connect `~/DelOps/cowork-check`; the folder actually connected is `rebuild-workspace`, so the report landed there. File deletion was initially blocked ("Operation not permitted") and required a one-time approval prompt, which was granted for this session only.
+Connected folder: `~/DelOps/monday-master-builder-dev/rebuild-workspace` (seen from the device shell as `$HOME/mnt/rebuild-workspace`). Read/write confirmed — this report was created there. Note: the check spec said to connect `~/DelOps/cowork-check`; the folder actually connected is `rebuild-workspace`, so the report landed there. File deletion was initially blocked ("Operation not permitted") and required a one-time approval prompt, which was granted for this session only.
 
 ## 3. Shell and languages
 Two shells: `Bash` (cloud container) and `device_bash` (your Mac, scoped to connected folders, ~45s per call, no deletes without approval).

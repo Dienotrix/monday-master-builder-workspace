@@ -380,9 +380,9 @@ Inferred:
 - Every link inside a client folder is relative. No absolute paths, no references to plugin files, no references to other clients.
 - CLIENT.md opens with a five-line map of the folder, so a teammate without the plugin can navigate it.
 - Client-facing content lives only in `sop/` and `deliverables/`, with no sales notes, so those folders can be shared alone.
-- Connect only `~/DelOps/clients/<slug>` to that client's Cowork project, never all of `~/DelOps` [1].
+- Connect only `~/DelOps/monday-master-builder-dev/clients/<slug>` to that client's Cowork project, never all of `~/DelOps` [1].
 - Sharing later works per repo. Inviting a teammate to `client-<slug>` exposes one client; one repo for all clients would expose every client.
-- Consequence of wrapping `~/DelOps/clients/<slug>` as the Cowork project: it is desktop-only, not synced, and cannot use Cowork's own project sharing. The files on disk, backed by GitHub, are the record. This is a deliberate trade-off (see Open questions).
+- Consequence of wrapping `~/DelOps/monday-master-builder-dev/clients/<slug>` as the Cowork project: it is desktop-only, not synced, and cannot use Cowork's own project sharing. The files on disk, backed by GitHub, are the record. This is a deliberate trade-off (see Open questions).
 
 ### B7. Archiving to a private GitHub repo with gh
 
@@ -432,14 +432,14 @@ Inferred close-out flow. Run it where gh is signed in: on the host through Claud
 3. **Commit.** Run `git init -b main` if the folder has no repo yet, add `.gitignore`, and commit.
 4. **Create the private repo:**
    ```
-   gh repo create client-<slug> --private --source ~/DelOps/clients/<slug> --push --disable-issues --disable-wiki --description "DelOps client record"
+   gh repo create client-<slug> --private --source ~/DelOps/monday-master-builder-dev/clients/<slug> --push --disable-issues --disable-wiki --description "DelOps client record"
    ```
 5. **Verify.** Clone into a temporary folder. Compare `git ls-files` with the local folder and run the validator on the clone.
 6. **Archive:** `gh repo archive <owner>/client-<slug> -y`.
 7. **Delete the local folder only after step 5 passes and the user says yes in chat.** Moving it to the Trash is reversible; `rm -rf` is not. Record the archive date and repo URL on the client card.
 
 Inferred restore flow:
-1. `gh repo clone <owner>/client-<slug> ~/DelOps/clients/<slug>`
+1. `gh repo clone <owner>/client-<slug> ~/DelOps/monday-master-builder-dev/clients/<slug>`
 2. Only if changes are needed: `gh repo unarchive <owner>/client-<slug>`.
 3. Run the validator. Wrap the folder in a Cowork project again. Add a "restored" entry to `log.md`.
 4. At the next close-out, push and archive again.
@@ -490,7 +490,7 @@ Inferred:
 
 ## Open questions for the user
 
-1. **Cowork project type.** Wrap `~/DelOps/clients/<slug>` as the project (desktop-only, not synced, no Cowork sharing)? Or create Cowork-native projects (synced to the account) and keep the files alongside?
+1. **Cowork project type.** Wrap `~/DelOps/monday-master-builder-dev/clients/<slug>` as the project (desktop-only, not synced, no Cowork sharing)? Or create Cowork-native projects (synced to the account) and keep the files alongside?
 2. **Where validation and close-out run.** Can Cowork sessions (cloud by default) run the Python validator with PyYAML and jsonschema, and git or gh with the user's credentials? If not, those steps run from Claude Code on the Mac.
 3. **Local git from the start.** Use a local git repo in each client folder from day one (checkpoints, checkable append-only rule), or only at close-out?
 4. **Transcript retention.** Delete raw transcripts at close-out, or archive them with a retain-until date? Do client contracts or NDAs say anything about this?

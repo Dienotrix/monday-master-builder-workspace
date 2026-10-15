@@ -118,7 +118,7 @@ Coverage row in `coverage-row.md`: same columns as the existing row, quote strin
 
 ## 10. Verifier output
 
-`python3 -I verify_quotes.py /Users/caramelm4/DelOps/rebuild-workspace/fixtures/s15-shred-dense`, final run after the last file write, exit code 0:
+`python3 -I verify_quotes.py ~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s15-shred-dense`, final run after the last file write, exit code 0:
 
 ```
 Fixture: s15-shred-dense

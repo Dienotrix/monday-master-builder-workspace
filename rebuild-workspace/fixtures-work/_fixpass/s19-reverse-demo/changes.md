@@ -117,7 +117,7 @@ Brought in line: the transcript word and share counts; the key's line count and 
 
 ## 11. Verifier output
 
-`python3 -I verify_quotes.py /Users/caramelm4/DelOps/rebuild-workspace/fixtures/s19-reverse-demo`, final run after all edits:
+`python3 -I verify_quotes.py ~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s19-reverse-demo`, final run after all edits:
 
 ```
 Fixture: s19-reverse-demo

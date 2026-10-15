@@ -4,7 +4,7 @@
 import json
 from collections import OrderedDict
 
-KEY = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s4-discovery-software/answer-key.json"
+KEY = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s4-discovery-software/answer-key.json"
 k = json.load(open(KEY, encoding="utf-8"))
 
 ORDER = ["scenario_id", "call_type", "purpose_of_this_fixture", "transcript_format", "company",

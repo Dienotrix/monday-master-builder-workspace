@@ -6,7 +6,7 @@ Do not re-run after review: it overwrites the reviewed key. check.py is the read
 import json, re, sys
 from collections import OrderedDict, Counter
 
-DIR = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s18-identity-collapse/"
+DIR = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s18-identity-collapse/"
 tx = open(DIR + "transcript.txt").read()
 LINES = tx.split("\n")
 PAT = re.compile(r"^\[(\d\d:\d\d:\d\d)\] ([A-Za-z ]+): (.*)$")

@@ -6,7 +6,7 @@ method spec's names, appends v1-scope traps, and writes the file back.
 """
 import json
 
-KEY = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s5-intro-thin/answer-key.json"
+KEY = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s5-intro-thin/answer-key.json"
 
 ORDER = ["scenario_id", "call_type", "purpose_of_this_fixture", "transcript_format", "company",
          "attendees", "expected_monday_products", "rubric", "pains", "numbers", "vocabulary",

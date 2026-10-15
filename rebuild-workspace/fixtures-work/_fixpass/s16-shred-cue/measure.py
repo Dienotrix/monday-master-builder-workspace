@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Re-measure the s16 transcript statistics the key and README assert."""
 import re, sys, json, datetime
-path = sys.argv[1] if len(sys.argv) > 1 else "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s16-shred-cue/transcript.txt"
+path = sys.argv[1] if len(sys.argv) > 1 else "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s16-shred-cue/transcript.txt"
 txt = open(path, encoding="utf-8").read()
 blocks = [b for b in txt.split("\n\n") if b.strip() and not b.startswith("WEBVTT")]
 cues = []

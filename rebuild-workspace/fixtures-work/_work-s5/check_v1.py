@@ -7,7 +7,7 @@ import json
 import re
 import sys
 
-base = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s5-intro-thin/"
+base = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s5-intro-thin/"
 t = open(base + "transcript.txt", encoding="utf-8").read()
 lines = t.splitlines()
 raw = open(base + "answer-key.json", encoding="utf-8").read()

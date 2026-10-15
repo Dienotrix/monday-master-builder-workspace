@@ -6,8 +6,8 @@ Output line: Speaker (HH:MM:SS): text
 """
 import sys
 
-WORK = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/_work-s3/"
-OUT = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s3-followup-demo-feedback/transcript.txt"
+WORK = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/_work-s3/"
+OUT = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s3-followup-demo-feedback/transcript.txt"
 TARGET_LAST_START = float(sys.argv[1]) if len(sys.argv) > 1 else 1805.0
 
 rows = []

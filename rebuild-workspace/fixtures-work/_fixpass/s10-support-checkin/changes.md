@@ -90,7 +90,7 @@ Counts COVERAGE tracks for s10 that did not move: traps 21, pains 7, vocabulary 
 
 ## 8. Verifier output
 
-`python3 -I verify_quotes.py /Users/caramelm4/DelOps/rebuild-workspace/fixtures/s10-support-checkin`, run after the last edit, exit code 0:
+`python3 -I verify_quotes.py ~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s10-support-checkin`, run after the last edit, exit code 0:
 
 ```
 Fixture: s10-support-checkin

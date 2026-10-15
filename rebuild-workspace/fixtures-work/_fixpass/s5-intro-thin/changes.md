@@ -67,7 +67,7 @@ A search of the key for "never written", "written to", "written back", "write ba
 
 ## 7. Verifier output
 
-`python3 verify_quotes.py /Users/caramelm4/DelOps/rebuild-workspace/fixtures/s5-intro-thin`, run after the edit:
+`python3 verify_quotes.py ~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s5-intro-thin`, run after the edit:
 
 ```
 Fixture: s5-intro-thin

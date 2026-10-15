@@ -1,4 +1,4 @@
-P='/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s11-demo-composite/transcript.txt'
+P='/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s11-demo-composite/transcript.txt'
 t=open(P,encoding='utf-8').read()
 old_principle="[25:39] Consultant\nThen those are the items that get the committed column first, and chairs can wait. The two tents and the dance floor sections, and anything else there's only one or two of, which you'll know and I won't. That's a better version than the one I built, because it's smaller, and it's the version I'd have built if I'd asked you instead of Anjali. I'll list it that way tonight.\n\n[26:09] Anjali Venkataraman\nFine. Do the crew board. That's the one Des needs to see.\n\n[26:17] Consultant\n"
 assert t.count(old_principle)==1

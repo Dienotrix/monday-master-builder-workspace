@@ -80,7 +80,7 @@ The new `existing.incumbents` lines use the rule's wording from the start. For Z
 
 ## 7. Verifier output
 
-`python3 -I verify_quotes.py /Users/caramelm4/DelOps/rebuild-workspace/fixtures/s4-discovery-software`, run after all edits (and once before them, when it read 121 pairs clean), exit code 0:
+`python3 -I verify_quotes.py ~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s4-discovery-software`, run after all edits (and once before them, when it read 121 pairs clean), exit code 0:
 
 ```
 Fixture: s4-discovery-software

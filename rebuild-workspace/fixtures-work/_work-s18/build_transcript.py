@@ -5,7 +5,7 @@ Stamps are derived from word counts with a seeded gap, start-only, one-second re
 """
 import random, os
 
-OUT = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s18-identity-collapse/transcript.txt"
+OUT = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s18-identity-collapse/transcript.txt"
 
 C, T, B, JA, JR = "Consultant", "Tadhg Devlin", "Maxine Bassett", "Jon Ashby", "John Rudge"
 

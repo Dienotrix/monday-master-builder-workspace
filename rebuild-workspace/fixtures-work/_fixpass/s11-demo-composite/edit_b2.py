@@ -1,5 +1,5 @@
 import re
-P='/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s11-demo-composite/transcript.txt'
+P='/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s11-demo-composite/transcript.txt'
 t=open(P,encoding='utf-8').read()
 split_after="and the crew lead marks eight short and two damaged, and that's it, their job is done, they go home. "
 resume_old="The second it's marked, and this is the first of the two automatic things I've built, sales get told."

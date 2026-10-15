@@ -1,5 +1,5 @@
 import sys
-P = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s16-shred-cue/README.md"
+P = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s16-shred-cue/README.md"
 t = open(P, encoding="utf-8").read()
 R = [
  ("22.7 minutes, about 3,173 spoken words, client share 75% by words and 75% by seconds. 1,193 lines. |",

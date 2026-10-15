@@ -31,8 +31,8 @@ No coverage-row.md was missing. None was malformed in the sense of a bad row; th
 
 ## Paths refreshed
 
-- /Users/caramelm4/DelOps/rebuild-workspace/fixtures/COVERAGE.md
-- /Users/caramelm4/DelOps/for-review/FEEDBACK.md
-- /Users/caramelm4/DelOps/for-review/fixtures/COVERAGE.md
-- /Users/caramelm4/DelOps/for-review/fixtures/00-HOW-TO-REVIEW.md
-- /Users/caramelm4/DelOps/for-review/fixtures/s11-demo-composite to s25-client-documents (15 folders)
+- ~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/COVERAGE.md
+- ~/DelOps/monday-master-builder-dev/for-review/FEEDBACK.md
+- ~/DelOps/monday-master-builder-dev/for-review/fixtures/COVERAGE.md
+- ~/DelOps/monday-master-builder-dev/for-review/fixtures/00-HOW-TO-REVIEW.md
+- ~/DelOps/monday-master-builder-dev/for-review/fixtures/s11-demo-composite to s25-client-documents (15 folders)

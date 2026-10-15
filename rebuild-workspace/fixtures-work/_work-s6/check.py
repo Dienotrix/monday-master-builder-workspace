@@ -12,7 +12,7 @@ import json
 import re
 import sys
 
-BASE = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s6-discovery-crm-sales/"
+BASE = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s6-discovery-crm-sales/"
 T = open(BASE + "transcript.txt", encoding="utf-8").read()
 LINES = [l for l in T.splitlines() if l.strip()]
 RAW = open(BASE + "answer-key.json", encoding="utf-8").read()

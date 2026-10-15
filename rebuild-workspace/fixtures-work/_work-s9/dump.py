@@ -1,5 +1,5 @@
 import re,sys
-p='/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s9-followup-no-portfolio-unlabelled/transcript.txt'
+p='/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s9-followup-no-portfolio-unlabelled/transcript.txt'
 t=open(p,encoding='utf-8').read()
 paras=[x for x in t.split('\n\n') if x.strip()]
 words=len(t.split())

@@ -373,7 +373,7 @@ Notes on `shared/`. The never-say block and the generated "Tools relied on" bloc
 | `tools/cleanroom_scan.py` | L165 | 0 L28 | unclear (it scans against the quarantined files of an earlier plugin; part 8) | no |
 | `tools/release.sh` | L166 | 2 | v1-core | no |
 | `.work/` runtime folder (`lock.json`, `intake/`, `backup/`, `tools/`) | L63, L345, L348, L353, L367 | 5.2, 5.3, 9.8 | v1-core | no |
-| `~/DelOps/clients/<slug>/` (the record root) | L394 | 7.1 | v1-core | no |
+| `~/DelOps/monday-master-builder-dev/clients/<slug>/` (the record root) | L394 | 7.1 | v1-core | no |
 | `MMB_HOME/clients-index.json` (hashed client names) | L458 | 9.6 L927 | v1-core | no |
 | `MMB_HOME/cards/<slug>.md` (one-page cards) | L458 | 8.10 L844 | unclear (client card) | no |
 | `MMB_HOME/monday-knowledge/` (`overlay.md`, `roster-baseline.json`, `schema-baselines/`, `flags.json`, `checks.log`) | L458, L1034 | 10.3 | v1-core | no |
@@ -414,7 +414,7 @@ Passages that assume Cowork, a Cowork Project per client, the device shell, the 
 | L158, L382 | `project-instructions.txt`: six lines the user pastes into each Cowork Project. | Becomes instructions the client folder inherits (part 9); no paste step. Its content (read `CLIENT.md` first, fresh chat for heavy work) carries over. |
 | L159 | `archive-handoff.md`, the HANDOVER note of what exists only locally (L291). | Not needed when the record is already on the Mac; keep only a local-versus-archived list if wanted. |
 | L177 | "Cowork and claude.ai uploads reject XML-like tags in descriptions." | The no-angle-bracket rule can stay as portability; drop the Cowork reason. |
-| L192 | `engagement` locates the record via "the Project's connected folder, or the path the user names", and detects the runtime once per chat. | Locate the record from the current folder (`~/DelOps/clients/<client>/`). Runtime detection shrinks to checking Python and the plugin path. |
+| L192 | `engagement` locates the record via "the Project's connected folder, or the path the user names", and detects the runtime once per chat. | Locate the record from the current folder (`~/DelOps/monday-master-builder-dev/clients/<client>/`). Runtime detection shrinks to checking Python and the plugin path. |
 | L261 | `client-sop` export "follows the tier chosen by `sop_tools.py doctor`". | Tiers rest on cloud-shell tools; deferred with the SOP (v2-or-v3). |
 | L332–L340 | All of 5.1, heading marked [cowork]. | Rewrite as one Mac shell, one row. |
 | L336 | Device shell: aarch64 VM, Python 3.10, Node 22, git 2.34, about 45 s per call, deletes need a one-time approval. | Replace with the Mac's own shell facts (Python 3.9.6 on the Mac, per L338). The call limit and the delete prompt go. |
@@ -429,13 +429,13 @@ Passages that assume Cowork, a Cowork Project per client, the device shell, the 
 | L460 | The slug "is the folder, the Project and the archive repo name". | Drop "the Project". |
 | L754 | 8.1 step 1: detect the runtime once, "which shells exist, whether the scripts are reachable, which document tools are present". | Shrinks to checking Python and the plugin path. Document tools matter only for the deferred SOP. |
 | L759 | 8.1 step 6: a different client is always a fresh chat "since that is a different Project and folder". | A session opened in that client's folder (A20, interview Q11). |
-| L763 | 8.2 step 1: check the connected folder is empty. | Check `~/DelOps/clients/<slug>/`. |
+| L763 | 8.2 step 1: check the connected folder is empty. | Check `~/DelOps/monday-master-builder-dev/clients/<slug>/`. |
 | L765 | 8.2 step 3: print `project-instructions.txt` to paste into the Cowork Project. | Write the instructions into the client folder instead (part 9). |
 | L766 | 8.2 step 4: refuse ids listed in `shared/sandbox-accounts.txt`. | The mechanism stays; the list moves to local settings (part 9). |
 | L842, L844 | 8.10: strand close marked Cowork; record close split into a "Cowork part" and a "Mac part"; `archive-handoff.md` lists what exists only locally. | One session on the Mac does both halves. The surface split and the handoff note go. |
 | L868, L869, L875 | 9.1 "Where" column: close a strand "Cowork", close the record "Cowork, then the Mac", archive "Claude Code on the Mac". | Every cell becomes the Mac session. |
 | L899 | 9.4 row: asset upload "only for SOP images, on the Mac, at the user's request". | v2-or-v3, with the doc copy; the Mac qualifier goes. |
-| L927 | The cross-client lint check "works in Cowork" through a hashed copy of the index in `.work/cards-index.json`, refreshed at init and close-out, with a 90-day warning; the Mac close-out step "runs it for real". | Read `~/DelOps/clients-index.json` directly; the copy, the 90-day rule and the warning go. |
+| L927 | The cross-client lint check "works in Cowork" through a hashed copy of the index in `.work/cards-index.json`, refreshed at init and close-out, with a 90-day warning; the Mac close-out step "runs it for real". | Read `~/DelOps/monday-master-builder-dev/clients-index.json` directly; the copy, the 90-day rule and the warning go. |
 | L939, L943 | The lock file holds a `surface` field and the chat label is built from "the surface"; within-record contention is authoritative because the file is "reachable from the client's own Project"; the cross-client line is written "where that root is reachable" (S0-15). | One surface value; reachability is assumed. This ties to the lease simplification (part 9). |
 | L967 | Hooks: "behaviour in Cowork is unverified (probe S0-12)". | Reword for Code; S0-12 stays on A20's list. |
 | L987 | Claims store fallback: "Where the root is unreachable (S0-15)" the prep removes figures and queues entries "for the Mac to fold in". | v2 anyway; drop the fallback. |

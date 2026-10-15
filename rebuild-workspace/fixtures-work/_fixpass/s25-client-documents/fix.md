@@ -9,7 +9,7 @@ Fixer's log, 2026-10-13. Everything here is fictional and stays fictional. Both 
 
 ## Verifier output
 
-`python3 -I fixtures-work/_fixpass/verify_quotes.py /Users/caramelm4/DelOps/rebuild-workspace/fixtures/s25-client-documents`, run after the key edit and again after the Markdown edits, identical both times, exit code 0:
+`python3 -I fixtures-work/_fixpass/verify_quotes.py ~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s25-client-documents`, run after the key edit and again after the Markdown edits, identical both times, exit code 0:
 
 ```
 Fixture: s25-client-documents

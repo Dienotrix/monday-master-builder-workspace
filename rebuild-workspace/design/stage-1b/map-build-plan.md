@@ -136,7 +136,7 @@ ROADMAP's re-cut stage table (ROADMAP L53–L64) already folds the AI-offering e
 | Cowork smoke layer and release check 12 | L357, L531 | Later. A Code-side install smoke test replaces it. |
 | "Both surfaces", "the two surfaces", install paths | L254, L267 | One surface. |
 | `project-instructions.txt` | L88 (S0-8), L193 | Surface-later; v1 needs another way to brief a client-folder session (section 9). |
-| Record location | A20 L13 | Record at `~/DelOps/clients/<client>/`, session opened in that folder. `guard.py` already finds the record root from the working directory (L264). |
+| Record location | A20 L13 | Record at `~/DelOps/monday-master-builder-dev/clients/<client>/`, session opened in that folder. `guard.py` already finds the record root from the working directory (L264). |
 | Leak lint as the wall between clients | A20 L13 | New requirement on WP4; the plan has no cross-client check. |
 | Rendering in a cloud shell | L186 | The `doctor` Chromium path "for the cloud shell" is Cowork wording; moot while WP6 is deferred. |
 | Mac-only assumptions (A20 L15: no Mac-only feature where a file-based equivalent would do) | L178, L254, L425, L520 | Mac-only dependencies in the plan: `gh` for the archive push (has a manual fallback), `pdftotext` for PDFs (absent on this Mac), `claude -p` for the runner (a Code-side tool, fine). The out-of-record files under `MMB_HOME` are plain files and already comply. |
@@ -619,7 +619,7 @@ The intro says no row is live (L537). Rows 5, 7 and 8 describe earlier revisions
 
 ### 9.3 Surface and safety
 
-12. **Briefing a client-folder session.** Records at `~/DelOps/clients/<client>/` inherit the development `CLAUDE.md` (HANDOFF section 7). The interview notes list three fixes: records outside the development folder, the development workspace moved, or development instructions that stand down. WP0's no-`CLAUDE.md` rule (L96) covers the repo only, and `project-instructions.txt` (L193) is surface-later. How does a client session get its instructions in v1?
+12. **Briefing a client-folder session.** Records at `~/DelOps/monday-master-builder-dev/clients/<client>/` inherit the development `CLAUDE.md` (HANDOFF section 7). The interview notes list three fixes: records outside the development folder, the development workspace moved, or development instructions that stand down. WP0's no-`CLAUDE.md` rule (L96) covers the repo only, and `project-instructions.txt` (L193) is surface-later. How does a client session get its instructions in v1?
 13. **Default home.** `MMB_HOME` defaults to `~/DelOps` (L66, L88, L125, L210), a folder named for the publisher. A20 fixes it for v1. Keep it, or ship a neutral default with the user's value in local settings?
 14. **The wall between clients.** A20 makes the leak lint the wall (A20 L13). WP4 has no cross-client check. Should it compare a payload with other clients' vocabulary, using hashes the way `clients-index.json` does (L291)?
 15. **`never-demo` accounts.** They are in ROADMAP's v1 list (ROADMAP L33), but the plan homes them in WP17 (v2) and in `sandbox-accounts.txt`. Which v1 component enforces them (`ledger.py bind`, the hook, the account check)? And where do the ids live, given that account ids stay out of project files (L116)?

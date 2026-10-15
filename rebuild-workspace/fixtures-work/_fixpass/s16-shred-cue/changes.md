@@ -107,7 +107,7 @@ Brought in line: the file table (3,195 words, the talk shares, the key's 537 lin
 
 ## 10. Verifier output
 
-`python3 -I verify_quotes.py /Users/caramelm4/DelOps/rebuild-workspace/fixtures/s16-shred-cue`, final run after all edits, exit code 0:
+`python3 -I verify_quotes.py ~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s16-shred-cue`, final run after all edits, exit code 0:
 
 ```
 Fixture: s16-shred-cue

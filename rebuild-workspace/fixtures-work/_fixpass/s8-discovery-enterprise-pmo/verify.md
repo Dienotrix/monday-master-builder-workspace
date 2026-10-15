@@ -38,8 +38,8 @@ Fixture files: `answer-key.json` (edited), `transcript.txt` (WebVTT, unchanged).
 
 FAIL
 
-1. `/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s8-discovery-enterprise-pmo/answer-key.json`, `readiness.questions[2].text`: replace 'confirmed, verbally, in the hall' with a verbatim quote from the transcript, for example 'Verbally, in the hall, which is the problem' (Ines, cue 156), or drop the quote marks and paraphrase ("the June collision was a verbal confirmation in the hall"). Rerun `verify_quotes.py` and the inline-quote check afterwards; the key must stay at zero misses.
-2. `/Users/caramelm4/DelOps/rebuild-workspace/fixtures-work/_fixpass/s8-discovery-enterprise-pmo/coverage-row.md`, last paragraph: either add the line `reviewed 2026-10-13; fix pass applied 2026-10-13` to `changes.md` (the s1 exemplar's coverage-row.md carries the same sentence, so the merge step may expect it there) or reword the paragraph so it no longer says the line already lives in `changes.md`.
+1. `~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s8-discovery-enterprise-pmo/answer-key.json`, `readiness.questions[2].text`: replace 'confirmed, verbally, in the hall' with a verbatim quote from the transcript, for example 'Verbally, in the hall, which is the problem' (Ines, cue 156), or drop the quote marks and paraphrase ("the June collision was a verbal confirmation in the hall"). Rerun `verify_quotes.py` and the inline-quote check afterwards; the key must stay at zero misses.
+2. `~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures-work/_fixpass/s8-discovery-enterprise-pmo/coverage-row.md`, last paragraph: either add the line `reviewed 2026-10-13; fix pass applied 2026-10-13` to `changes.md` (the s1 exemplar's coverage-row.md carries the same sentence, so the merge step may expect it there) or reword the paragraph so it no longer says the line already lives in `changes.md`.
 
 
 ---

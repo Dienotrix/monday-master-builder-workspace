@@ -8,7 +8,7 @@ Fixer's log, 2026-10-13. Everything in this fixture is fictional and stays ficti
 
 ## Verifier output
 
-`python3 verify_quotes.py /Users/caramelm4/DelOps/rebuild-workspace/fixtures/s24-package`, run after the edit, exit code 0:
+`python3 verify_quotes.py ~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s24-package`, run after the edit, exit code 0:
 
 ```
 Fixture: s24-package

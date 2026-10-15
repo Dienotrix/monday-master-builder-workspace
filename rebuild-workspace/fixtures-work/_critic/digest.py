@@ -1,5 +1,5 @@
 import json,os
-F="/Users/caramelm4/DelOps/rebuild-workspace/fixtures"
+F="/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures"
 SC=["s1-discovery-strong","s2-discovery-gaps","s3-followup-demo-feedback","s4-discovery-software","s5-intro-thin","s6-discovery-crm-sales","s7-discovery-service-desk","s8-discovery-enterprise-pmo","s9-followup-no-portfolio-unlabelled","s10-support-checkin"]
 out=[]
 for s in SC:
@@ -36,5 +36,5 @@ for s in SC:
     out.append("REQUESTED_CHANGES: "+ " || ".join(f"[{r.get('type')}] {str(r.get('description'))[:110]}" for r in k["requested_changes"]))
     out.append("COMMITMENTS: "+ " || ".join(f"{str(cm.get('what'))[:90]} ~{cm.get('owner')} ~{cm.get('date')}" for cm in k["commitments_and_next_steps"]))
     out.append("OBJ_TYPES: "+ " || ".join(o["type"].split(" (")[0].split(":")[0] for o in k["objections"]))
-open("/Users/caramelm4/DelOps/rebuild-workspace/fixtures-work/_critic/digest.txt","w").write("\n".join(out))
+open("/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures-work/_critic/digest.txt","w").write("\n".join(out))
 print("\n".join(out))

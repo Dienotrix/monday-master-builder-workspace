@@ -113,7 +113,7 @@ Also run after the edits: the fixture's own read-only `fixtures-work/_work-s24/c
 
 ## 10. Verifier output
 
-`python3 -I verify_quotes.py /Users/caramelm4/DelOps/rebuild-workspace/fixtures/s24-package`, run after all edits, exit code 0:
+`python3 -I verify_quotes.py ~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s24-package`, run after all edits, exit code 0:
 
 ```
 Fixture: s24-package

@@ -1,6 +1,6 @@
 import json,os,re,shutil
-F="/Users/caramelm4/DelOps/rebuild-workspace/fixtures"
-BK="/Users/caramelm4/DelOps/rebuild-workspace/fixtures-work/_critic/backup"
+F="/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures"
+BK="/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures-work/_critic/backup"
 os.makedirs(BK,exist_ok=True)
 # (fixture, old, new) - rename the LESS entrenched side of each cross-scenario collision
 RENAMES=[

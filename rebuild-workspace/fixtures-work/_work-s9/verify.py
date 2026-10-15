@@ -2,7 +2,7 @@
 """Checker for the s9 fixture: exact-substring quotes + complete, ordered field set."""
 import json, sys, re, os
 
-BASE = '/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s9-followup-no-portfolio-unlabelled'
+BASE = '/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s9-followup-no-portfolio-unlabelled'
 TRANSCRIPT = os.path.join(BASE, 'transcript.txt')
 KEY = os.path.join(BASE, 'answer-key.json')
 

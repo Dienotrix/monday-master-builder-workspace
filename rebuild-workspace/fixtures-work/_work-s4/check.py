@@ -4,7 +4,7 @@ import json
 import re
 import sys
 
-BASE = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s4-discovery-software/"
+BASE = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s4-discovery-software/"
 t = open(BASE + "transcript.txt", encoding="utf-8").read()
 raw = open(BASE + "answer-key.json", encoding="utf-8").read()
 

@@ -2,7 +2,7 @@
 line, each anchored on the exact old text; never inside a protected span. Words and commas only:
 no bracket, ellipsis, dash or parenthesis, because the fixture's point is zero markers."""
 import sys
-P = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s17-no-markers/transcript.txt"
+P = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s17-no-markers/transcript.txt"
 EDITS = {
   # our side
   26: ("Before we get into it, let me say how I'd like to use the time.",

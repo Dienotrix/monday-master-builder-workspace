@@ -18,9 +18,9 @@ import json
 import re
 import sys
 
-S10 = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s10-support-checkin"
-S1T = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s1-discovery-strong/transcript.txt"
-S3T = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s3-followup-demo-feedback/transcript.txt"
+S10 = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s10-support-checkin"
+S1T = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s1-discovery-strong/transcript.txt"
+S3T = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s3-followup-demo-feedback/transcript.txt"
 
 # Re-typed from the brief, not imported from check.py.
 EXPECTED_FIELDS = """scenario_id call_type purpose_of_this_fixture transcript_format company

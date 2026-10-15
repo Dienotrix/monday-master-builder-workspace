@@ -1,6 +1,6 @@
-# DelOps workspace
+# monday Master Builder: development workspace
 
-**Scope of this file (A22).** These instructions apply to sessions opened at `~/DelOps` or in its development folders: `monday-master-builder/`, `rebuild-workspace/` and `for-review/`. A session opened inside `~/DelOps/clients/` is a client session: ignore this file entirely, read nothing in `~/DelOps` outside the client's own folder and the plugin's shared home folders, and never open or edit `HANDOFF.md`.
+**Scope of this file (A22).** These instructions apply to sessions opened in this project folder (`~/DelOps/monday-master-builder-dev/` on the Mac, wherever it is cloned on Windows) or in its development folders: `monday-master-builder/`, `rebuild-workspace/` and `for-review/`. A session opened inside this folder's `clients/` is a client session: ignore this file entirely, read nothing in this project folder outside the client's own folder and the plugin's shared home folders, and never open or edit `HANDOFF.md`.
 
 This folder holds the monday Master Builder build: the product repo (`monday-master-builder/`), the design and research working material (`rebuild-workspace/`), and the user's review folder (`for-review/`).
 

@@ -88,7 +88,7 @@ Brought in line: the transcript row (words and shares), the key row (27 fields, 
 
 ## 11. Verifier output
 
-`python3 -I verify_quotes.py /Users/caramelm4/DelOps/rebuild-workspace/fixtures/s21-existing-account`, final run after every edit, exit code 0:
+`python3 -I verify_quotes.py ~/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s21-existing-account`, final run after every edit, exit code 0:
 
 ```
 Fixture: s21-existing-account

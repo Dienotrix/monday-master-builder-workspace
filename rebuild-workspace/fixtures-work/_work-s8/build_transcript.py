@@ -13,8 +13,8 @@ Markers in the draft text:
 import re
 import sys
 
-WORK = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures-work/_work-s8/"
-OUT = "/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s8-discovery-enterprise-pmo/transcript.txt"
+WORK = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures-work/_work-s8/"
+OUT = "/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s8-discovery-enterprise-pmo/transcript.txt"
 
 SPEAKERS = {"Consultant", "Marisol Bettencourt", "Warren Tibbetts", "Ines Kovalenko", "Speaker 2"}
 MAX_CUE_WORDS = 32

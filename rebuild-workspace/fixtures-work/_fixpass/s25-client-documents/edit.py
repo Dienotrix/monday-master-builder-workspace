@@ -6,10 +6,10 @@ import re
 import sys
 from collections import OrderedDict
 
-sys.path.insert(0, '/Users/caramelm4/DelOps/rebuild-workspace/fixtures-work/_fixpass/s25-client-documents')
+sys.path.insert(0, '/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures-work/_fixpass/s25-client-documents')
 import render  # noqa: E402
 
-FIX = '/Users/caramelm4/DelOps/rebuild-workspace/fixtures/s25-client-documents/'
+FIX = '/Users/caramelm4/DelOps/monday-master-builder-dev/rebuild-workspace/fixtures/s25-client-documents/'
 KEY = FIX + 'answer-key.json'
 
 raw = open(KEY, encoding='utf-8').read()
