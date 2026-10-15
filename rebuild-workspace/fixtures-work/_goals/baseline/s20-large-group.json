@@ -1,0 +1,2085 @@
+{
+  "fixture": "s20-large-group",
+  "sources": [
+    {
+      "name": "transcript.txt",
+      "kind": "transcript",
+      "format": "line-bracket",
+      "units": 265,
+      "unsupported": null
+    }
+  ],
+  "counts": {
+    "pairs": 278,
+    "verified": 278,
+    "verified_presence_only": 28,
+    "skipped": 0,
+    "unparsed_prose": 0,
+    "near_misses": 0,
+    "misses": 0,
+    "unsupported": 0,
+    "warnings": 0
+  },
+  "refused_quotes_not_checked": [],
+  "skipped": [],
+  "pairs": [
+    {
+      "path": "/rubric[0]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It starts with a request. A customer, or a general contractor, or an architect sends us drawings or a brief.",
+      "location": "00:11:00 Fergus Nygaard (Sales Director)",
+      "cited": "transcript.txt, L64, 00:11:00, Fergus Nygaard"
+    },
+    {
+      "path": "/rubric[0]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "A form on a clipboard and photos on a phone. Dimensions, wall type, power, access, whether we need a lift.",
+      "location": "00:12:03 Kwame Oduya (Account Manager)",
+      "cited": "transcript.txt, L70, 00:12:03, Kwame Oduya"
+    },
+    {
+      "path": "/rubric[0]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "It becomes an email to Henrike. That's the handover. I send Henrike the quote and I say, we won it.",
+      "location": "00:12:41 Fergus Nygaard (Sales Director)",
+      "cited": "transcript.txt, L75, 00:12:41, Fergus Nygaard"
+    },
+    {
+      "path": "/rubric[0]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "The job sheet is a spreadsheet. It's one file, one row per job, about forty columns. It lives on the shared drive.",
+      "location": "00:13:11 Henrike Solano (Project Coordination Lead)",
+      "cited": "transcript.txt, L79, 00:13:11, Henrike Solano"
+    },
+    {
+      "path": "/rubric[0]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Then I ask Hester for a job number, because the job number comes out of the accounting system. And then it goes to Emeric.",
+      "location": "00:14:42 Henrike Solano (Project Coordination Lead)",
+      "cited": "transcript.txt, L85, 00:14:42, Henrike Solano"
+    },
+    {
+      "path": "/rubric[0]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "And the customer signs it off by email. That's the whole approval system. Someone replies to the proof saying approved, and that email is the record.",
+      "location": "00:15:28 Emeric Villanueva (Studio Manager)",
+      "cited": "transcript.txt, L89, 00:15:28, Emeric Villanueva"
+    },
+    {
+      "path": "/rubric[0]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "The floor gets a job ticket. Lettie prints it off the job sheet, one ticket per job, and it goes in a plastic sleeve on the floor board.",
+      "location": "00:17:31 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L101, 00:17:31, Imogen Achebe"
+    },
+    {
+      "path": "/rubric[0]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "I schedule them on a spreadsheet, a week at a time.",
+      "location": "00:33:26 Calum Fairweather (Installation Manager)",
+      "cited": "transcript.txt, L192, 00:33:26, Calum Fairweather"
+    },
+    {
+      "path": "/rubric[0]/evidence[8]/quote",
+      "status": "verified",
+      "quote": "And I invoice it at the end, when I know it's installed.",
+      "location": "00:20:24 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L119, 00:20:24, Hester Tsai"
+    },
+    {
+      "path": "/rubric[0]/evidence[9]/quote",
+      "status": "verified",
+      "quote": "We keep our own copy of the job sheet.",
+      "location": "00:21:52 Ximena Brekke (Flint Branch Manager)",
+      "cited": "transcript.txt, L126, 00:21:52, Ximena Brekke"
+    },
+    {
+      "path": "/rubric[0]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Let's walk a job, then, from the first phone call to the invoice, and I'd like each of you to take your own part. Fergus, it starts with you.",
+      "location": "00:10:46 Consultant",
+      "cited": "transcript.txt, L63, 00:10:46, Consultant"
+    },
+    {
+      "path": "/rubric[1]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We built it, we shipped it, Calum's crew hung it, and eleven of the twenty-two were the wrong size.",
+      "location": "00:07:22 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L43, 00:07:22, Imogen Achebe"
+    },
+    {
+      "path": "/rubric[1]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The university library job went to print on version four. The customer had approved version five.",
+      "location": "00:16:10 Emeric Villanueva (Studio Manager)",
+      "cited": "transcript.txt, L93, 00:16:10, Emeric Villanueva"
+    },
+    {
+      "path": "/rubric[1]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I counted one day. Thirty-one calls asking where a job is. Thirty-one.",
+      "location": "00:14:18 Henrike Solano (Project Coordination Lead)",
+      "cited": "transcript.txt, L83, 00:14:18, Henrike Solano"
+    },
+    {
+      "path": "/rubric[1]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Average from install to invoice, forty-one days. Forty-one. For work we've already done and already paid the crew for.",
+      "location": "00:21:00 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L121, 00:21:00, Hester Tsai"
+    },
+    {
+      "path": "/rubric[1]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Crew drove up, hung three, drove home, drove up again the following Tuesday for one panel.",
+      "location": "00:34:04 Calum Fairweather (Installation Manager)",
+      "cited": "transcript.txt, L194, 00:34:04, Calum Fairweather"
+    },
+    {
+      "path": "/rubric[1]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Has that gone wrong recently?",
+      "location": "00:16:06 Consultant",
+      "cited": "transcript.txt, L92, 00:16:06, Consultant"
+    },
+    {
+      "path": "/rubric[2]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The first is we won a rollout. A pharmacy chain, a hundred and forty stores, and I can't name them until the contract's countersigned, so don't write the name down because I'm not going to say it.",
+      "location": "00:05:18 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L34, 00:05:18, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[2]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "First stores go in the week of February ninth and it runs through to June.",
+      "location": "00:05:18 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L34, 00:05:18, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[2]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "The second thing is Quarrington.",
+      "location": "00:07:16 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L42, 00:07:16, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[2]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "August. The remake shipped the first week of September.",
+      "location": "00:08:52 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L50, 00:08:52, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[2]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Volume. Fergus can speak to it, but quotes are up. We're a bigger company than the way we run suggests.",
+      "location": "00:09:06 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L52, 00:09:06, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[2]/asked_quote/quote",
+      "status": "verified",
+      "quote": "But first, why now. What's made this matter this autumn rather than last year?",
+      "location": "00:05:01 Consultant",
+      "cited": "transcript.txt, L33, 00:05:01, Consultant"
+    },
+    {
+      "path": "/rubric[3]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "If I'm honest, six hours a week each on things that only exist because the quote and the ticket and the proof don't talk to each other. Six each, and there are six of us.",
+      "location": "00:23:44 Henrike Solano (Project Coordination Lead)",
+      "cited": "transcript.txt, L136, 00:23:44, Henrike Solano"
+    },
+    {
+      "path": "/rubric[3]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Thirty-eight an hour loaded, give or take. Production leads are fifty-two.",
+      "location": "00:24:27 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L140, 00:24:27, Hester Tsai"
+    },
+    {
+      "path": "/rubric[3]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Call it eight hours a week between the two of them standing at the board with a ticket in one hand and a phone in the other, waiting for someone to tell them what the job actually is.",
+      "location": "00:24:57 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L142, 00:24:57, Imogen Achebe"
+    },
+    {
+      "path": "/rubric[3]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Last year we actually wrote off, I want to say fifty-five. Fifty-five, fifty-six, on remake materials. That's the actual, and it's materials, it doesn't have the hours in it.",
+      "location": "00:29:02 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L165, 00:29:02, Hester Tsai"
+    },
+    {
+      "path": "/rubric[3]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Correct. Don't add them together, they're not the same thing.",
+      "location": "00:29:31 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L167, 00:29:31, Hester Tsai"
+    },
+    {
+      "path": "/rubric[3]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "Thirty-six times thirty-eight is... thirteen sixty-eight a week. Times fifty-two. Seventy-one thousand and change.",
+      "location": "00:29:50 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L169, 00:29:50, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[3]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "So seventy-one, plus twenty-two, plus fifty-five. A hundred and forty-eight thousand, near enough. A year. And that's without the remake hours, which nobody's counted, and without the install side, which we haven't got to.",
+      "location": "00:30:10 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L173, 00:30:10, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[3]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "That's about right, and it's light. The remake hours would be the biggest number in there if we had it.",
+      "location": "00:30:36 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L175, 00:30:36, Hester Tsai"
+    },
+    {
+      "path": "/rubric[3]/asked_quote/quote",
+      "status": "verified",
+      "quote": "A hundred and forty-eight thousand a year, without remake labour and without install. Hester, does that feel right?",
+      "location": "00:30:27 Consultant",
+      "cited": "transcript.txt, L174, 00:30:27, Consultant"
+    },
+    {
+      "path": "/rubric[4]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Answer the phone. Half of what comes in is customers asking where their job is, and we can't tell them without ringing the floor.",
+      "location": "00:31:53 Henrike Solano (Project Coordination Lead)",
+      "cited": "transcript.txt, L184, 00:31:53, Henrike Solano"
+    },
+    {
+      "path": "/rubric[4]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Maybe two a month, I'd guess, maybe, where the customer gets bored and goes to someone quicker. I couldn't put a value on that, it's a guess.",
+      "location": "00:32:04 Fergus Nygaard (Sales Director)",
+      "cited": "transcript.txt, L185, 00:32:04, Fergus Nygaard"
+    },
+    {
+      "path": "/rubric[4]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "There's a regional health system that tenders its signage on a five-year framework, and we've not bid, because I can't show them how we'd run forty sites at once. That's the one. I'm not putting a number on it either.",
+      "location": "00:32:40 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L187, 00:32:40, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[4]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Delphine, is there something you'd go after if the building could take it?",
+      "location": "00:32:27 Consultant",
+      "cited": "transcript.txt, L186, 00:32:27, Consultant"
+    },
+    {
+      "path": "/rubric[5]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I open one thing and I can see every live job, where it is, who's got it, and what's late. One screen.",
+      "location": "00:36:23 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L208, 00:36:23, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[5]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And when a customer changes a panel, the floor knows before the panel's cut, not after.",
+      "location": "00:36:23 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L208, 00:36:23, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[5]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "For me, the ticket is never wrong. Whatever the floor is looking at is the same thing the customer signed.",
+      "location": "00:36:48 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L209, 00:36:48, Imogen Achebe"
+    },
+    {
+      "path": "/rubric[5]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "And I stop being a switchboard. Somebody asks where their job is and I can tell them without ringing anyone.",
+      "location": "00:37:12 Henrike Solano (Project Coordination Lead)",
+      "cited": "transcript.txt, L212, 00:37:12, Henrike Solano"
+    },
+    {
+      "path": "/rubric[5]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "And Flint sees the same screen as Saginaw.",
+      "location": "00:37:22 Ximena Brekke (Flint Branch Manager)",
+      "cited": "transcript.txt, L214, 00:37:22, Ximena Brekke"
+    },
+    {
+      "path": "/rubric[5]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "I can tell you what he's said to me, which is that he wants the rollout to go in without a Quarrington, and he wants the cash position to stop being a surprise.",
+      "location": "00:37:42 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L216, 00:37:42, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[5]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Imagine this is running well by the time the pharmacy stores are going in. It's a normal Tuesday in March. What's different?",
+      "location": "00:36:09 Consultant",
+      "cited": "transcript.txt, L207, 00:36:09, Consultant"
+    },
+    {
+      "path": "/rubric[6]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I own operations systems. Up to twenty thousand a year I can sign it, and I'd still tell Gideon. Over twenty it's Gideon, full stop.",
+      "location": "00:38:45 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L221, 00:38:45, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[6]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Hester raises a purchase order, or if it's a subscription it goes on the company card and she'd rather it didn't.",
+      "location": "00:39:12 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L223, 00:39:12, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[6]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Anton's firm will have a security checklist, they always do, and I'll get that to you rather than make you guess.",
+      "location": "00:39:12 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L223, 00:39:12, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[6]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Then it's me and Henrike rolling it out, and Saoirse on the training.",
+      "location": "00:39:12 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L223, 00:39:12, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[6]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "She should. That's on me. I'll bring her in for the next one.",
+      "location": "00:39:47 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L225, 00:39:47, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[6]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "I did a one-page case, what it cost and what it saved, and he signed it inside a fortnight. If the numbers are on one page, he's fast.",
+      "location": "00:40:02 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L227, 00:40:02, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[6]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "The rollout. That we can run a hundred and forty stores without me living in the job sheet. And the cash thing, Hester's forty-one days. That's what he'll ask about.",
+      "location": "00:40:32 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L229, 00:40:32, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[6]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "Nothing touches the accounting system before November.",
+      "location": "00:30:59 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L178, 00:30:59, Hester Tsai"
+    },
+    {
+      "path": "/rubric[6]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Delphine, if you decided this was worth doing, what actually happens?",
+      "location": "00:38:29 Consultant",
+      "cited": "transcript.txt, L220, 00:38:29, Consultant"
+    },
+    {
+      "path": "/rubric[7]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Before the rollout. The first stores go in the week of February ninth, and I want the building running on it in January, not learning it in February. So, this quarter to build, January to be live. If it slips into February we've missed the point.",
+      "location": "00:40:54 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L231, 00:40:54, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[7]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "We're mid-audit until the end of the month and I'm not opening a connection to anything while they're in the building. After November, talk to me.",
+      "location": "00:30:59 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L178, 00:30:59, Hester Tsai"
+    },
+    {
+      "path": "/rubric[7]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Understood. Priority and timing. Is this a fix for this quarter, or later on?",
+      "location": "00:40:48 Consultant",
+      "cited": "transcript.txt, L230, 00:40:48, Consultant"
+    },
+    {
+      "path": "/rubric[8]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The floor won't touch a tablet with gloves on. I'm telling you now. If the answer is everyone gets a tablet, it's dead by the second week.",
+      "location": "00:41:47 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L235, 00:41:47, Imogen Achebe"
+    },
+    {
+      "path": "/rubric[8]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And Flint runs its own sheet and, honestly, we like it that way. If this means we go back to the Saginaw one, I'll be polite about it and then we'll quietly keep ours.",
+      "location": "00:42:08 Ximena Brekke (Flint Branch Manager)",
+      "cited": "transcript.txt, L236, 00:42:08, Ximena Brekke"
+    },
+    {
+      "path": "/rubric[8]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "If it's another thing to keep up to date, it's dead. We tried a job-tracking app two years ago, the crews never opened it, and the coordinators ended up updating it and the job sheet. Double work. It lasted a quarter.",
+      "location": "00:42:30 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L238, 00:42:30, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[8]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "He may have dropped. He had a four o'clock print deadline. I'll ask him.",
+      "location": "00:43:06 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L241, 00:43:06, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[8]/asked_quote/quote",
+      "status": "verified",
+      "quote": "On her list. What could get in the way of this going ahead? Anyone.",
+      "location": "00:41:40 Consultant",
+      "cited": "transcript.txt, L234, 00:41:40, Consultant"
+    },
+    {
+      "path": "/rubric[9]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Wednesday the twenty-first at two works. Same room, or as much of it as I can get. I'll ask Gideon.",
+      "location": "00:46:43 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L254, 00:46:43, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[9]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Wednesday the twenty-first, two o'clock Eastern. I'll send the invite to you today and you forward it to whoever should be there.",
+      "location": "00:46:52 Consultant",
+      "cited": "transcript.txt, L255, 00:46:52, Consultant"
+    },
+    {
+      "path": "/rubric[9]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I'll forward it today. And I'll send you the job sheet by Friday, both of them, so you can see what forty columns looks like. Names off, if that's all right.",
+      "location": "00:47:04 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L256, 00:47:04, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[9]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "In a week. I'll count it myself so it's counted the same way all the way through.",
+      "location": "00:47:26 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L258, 00:47:26, Imogen Achebe"
+    },
+    {
+      "path": "/rubric[9]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Forty-five minutes. Wednesday the twenty-first, two o'clock Eastern?",
+      "location": "00:46:20 Consultant",
+      "cited": "transcript.txt, L253, 00:46:20, Consultant"
+    },
+    {
+      "path": "/rubric[11]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "That's the right shape. Two things. Don't build the quoting in it, ever, Fergus will never forgive me. The estimating tool stays. And the job number has to come from the accounting system, we're not typing that twice either.",
+      "location": "00:44:48 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L245, 00:44:48, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[11]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And the floor gets a screen on the wall, not tablets. I said it, I'll say it again so it's written down.",
+      "location": "00:45:23 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L247, 00:45:23, Imogen Achebe"
+    },
+    {
+      "path": "/rubric[11]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "He's nodding. Take that as a yes. He's not going to say anything on a call with fourteen people on it, he never does.",
+      "location": "00:45:39 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L249, 00:45:39, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[11]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Yes. Show me something. I don't want a proposal, I don't want a price, I want to see it run a job.",
+      "location": "00:46:09 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L251, 00:46:09, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[11]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Let me play back what I'd put in a first version, just so you can hear it, not to sign anything.",
+      "location": "00:43:29 Consultant",
+      "cited": "transcript.txt, L244, 00:43:29, Consultant"
+    },
+    {
+      "path": "/rubric[12]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The point is the ticket said one thing and the drawing said another and nobody on the floor had the drawing in front of them.",
+      "location": "00:08:17 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L47, 00:08:17, Imogen Achebe"
+    },
+    {
+      "path": "/rubric[12]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Then the ticket's wrong and nobody knows. That's Quarrington in one sentence. That's most of our remakes in one sentence.",
+      "location": "00:18:55 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L109, 00:18:55, Imogen Achebe"
+    },
+    {
+      "path": "/rubric[12]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And if the job sheet changes after the ticket's printed?",
+      "location": "00:18:49 Consultant",
+      "cited": "transcript.txt, L108, 00:18:49, Consultant"
+    },
+    {
+      "path": "/rubric[13]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The dimensions on the job ticket were the survey dimensions, not the approved drawing dimensions. Somebody typed the wrong column into the ticket.",
+      "location": "00:07:52 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L45, 00:07:52, Imogen Achebe"
+    },
+    {
+      "path": "/rubric[13]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Version five moved the directory panel from the left wall to the right wall, which changes the reading direction of every arrow on it.",
+      "location": "00:16:10 Emeric Villanueva (Studio Manager)",
+      "cited": "transcript.txt, L93, 00:16:10, Emeric Villanueva"
+    },
+    {
+      "path": "/rubric[13]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Nineteen. But yes.",
+      "location": "00:16:32 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L94, 00:16:32, Imogen Achebe"
+    },
+    {
+      "path": "/rubric[13]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What happened?",
+      "location": "00:07:48 Consultant",
+      "cited": "transcript.txt, L44, 00:07:48, Consultant"
+    },
+    {
+      "path": "/rubric[14]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We ring. A coordinator rings the floor and reads the ticket back against the quote, on the big ones. On the small ones we don't, there isn't time, and the small ones are where it goes wrong.",
+      "location": "00:25:31 Henrike Solano (Project Coordination Lead)",
+      "cited": "transcript.txt, L144, 00:25:31, Henrike Solano"
+    },
+    {
+      "path": "/rubric[14]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "A hundred and forty stores. I can't read a hundred and forty tickets down the phone. And it depends on who's in. When I'm off, nobody reads anything back.",
+      "location": "00:25:55 Henrike Solano (Project Coordination Lead)",
+      "cited": "transcript.txt, L146, 00:25:55, Henrike Solano"
+    },
+    {
+      "path": "/rubric[14]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "You ask me. Or you ask a coordinator, who asks me. I'm the one who can find the reply. If I'm off, you wait, or you guess.",
+      "location": "00:16:59 Emeric Villanueva (Studio Manager)",
+      "cited": "transcript.txt, L97, 00:16:59, Emeric Villanueva"
+    },
+    {
+      "path": "/rubric[14]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Me being off. And a hundred and forty stores, which will each have their own proof, and I have five designers.",
+      "location": "00:17:17 Emeric Villanueva (Studio Manager)",
+      "cited": "transcript.txt, L99, 00:17:17, Emeric Villanueva"
+    },
+    {
+      "path": "/rubric[14]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What stops you carrying on with the read-back?",
+      "location": "00:25:50 Consultant",
+      "cited": "transcript.txt, L145, 00:25:50, Consultant"
+    },
+    {
+      "path": "/rubric[15]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "My leads, who wait. Calum's crew, who go back out. Kwame, who explains it to the customer. And Hester, who writes it off. It's everybody.",
+      "location": "00:26:13 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L148, 00:26:13, Imogen Achebe"
+    },
+    {
+      "path": "/rubric[15]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "So we remade eleven panels, we re-sent a crew, and the customer's regional director was standing in the lobby when the second set went up.",
+      "location": "00:08:33 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L48, 00:08:33, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[15]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Who else ends up dealing with a wrong ticket?",
+      "location": "00:26:08 Consultant",
+      "cited": "transcript.txt, L147, 00:26:08, Consultant"
+    },
+    {
+      "path": "/rubric[16]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Eight hours a week, easily. And that's the leads, not the people behind them who are also waiting.",
+      "location": "00:24:57 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L142, 00:24:57, Imogen Achebe"
+    },
+    {
+      "path": "/rubric[16]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "There's a budget line. We budget ninety a year for remake materials, that's materials only.",
+      "location": "00:29:02 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L165, 00:29:02, Hester Tsai"
+    },
+    {
+      "path": "/rubric[16]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Honestly? One in ten. One in ten jobs has something remade.",
+      "location": "00:26:36 Fergus Nygaard (Sales Director)",
+      "cited": "transcript.txt, L150, 00:26:36, Fergus Nygaard"
+    },
+    {
+      "path": "/rubric[16]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "No. It is not one in ten. From where I stand it's closer to one in four. One in four jobs has at least one panel go through the shop twice.",
+      "location": "00:27:39 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L156, 00:27:39, Imogen Achebe"
+    },
+    {
+      "path": "/rubric[16]/asked_quote/quote",
+      "status": "verified",
+      "quote": "When a ticket's wrong or a proof's missing, what does it cost you in time, not materials, time?",
+      "location": "00:24:43 Consultant",
+      "cited": "transcript.txt, L141, 00:24:43, Consultant"
+    },
+    {
+      "path": "/rubric[17]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And it's a hundred and forty of nearly the same job, which we've never done. We do one hospital. We do one hotel. We don't do a hundred and forty of anything.",
+      "location": "00:05:57 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L36, 00:05:57, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[17]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And a hundred and forty stores, which will each have their own proof, and I have five designers.",
+      "location": "00:17:17 Emeric Villanueva (Studio Manager)",
+      "cited": "transcript.txt, L99, 00:17:17, Emeric Villanueva"
+    },
+    {
+      "path": "/rubric[17]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And what stops you carrying on that way?",
+      "location": "00:17:12 Consultant",
+      "cited": "transcript.txt, L98, 00:17:12, Consultant"
+    },
+    {
+      "path": "/rubric[18]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We retype the quote into it. Customer, site, panel count, sizes, materials, finishes, the due date. It's all in the quote already.",
+      "location": "00:13:35 Henrike Solano (Project Coordination Lead)",
+      "cited": "transcript.txt, L80, 00:13:35, Henrike Solano"
+    },
+    {
+      "path": "/rubric[18]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And every one of those steps, somebody rings me.",
+      "location": "00:14:18 Henrike Solano (Project Coordination Lead)",
+      "cited": "transcript.txt, L83, 00:14:18, Henrike Solano"
+    },
+    {
+      "path": "/rubric[18]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Henrike, take it from the moment you know.",
+      "location": "00:13:05 Consultant",
+      "cited": "transcript.txt, L78, 00:13:05, Consultant"
+    },
+    {
+      "path": "/rubric[19]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Not one of them was something I could answer without ringing someone else first.",
+      "location": "00:14:18 Henrike Solano (Project Coordination Lead)",
+      "cited": "transcript.txt, L83, 00:14:18, Henrike Solano"
+    },
+    {
+      "path": "/rubric[19]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Sometimes you say we won it. Sometimes I find out because the customer rings me asking where the proof is.",
+      "location": "00:12:51 Henrike Solano (Project Coordination Lead)",
+      "cited": "transcript.txt, L76, 00:12:51, Henrike Solano"
+    },
+    {
+      "path": "/rubric[19]/asked_quote/quote",
+      "status": "verified",
+      "quote": "How long does that take, per job?",
+      "location": "00:13:55 Consultant",
+      "cited": "transcript.txt, L81, 00:13:55, Consultant"
+    },
+    {
+      "path": "/rubric[20]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Twenty minutes on a small one. An hour on a hospital. And then the chasing, which is most of it, honestly.",
+      "location": "00:13:59 Henrike Solano (Project Coordination Lead)",
+      "cited": "transcript.txt, L82, 00:13:59, Henrike Solano"
+    },
+    {
+      "path": "/rubric[20]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The Saginaw one is unusable by Wednesday, there are two hundred rows and half the filters are somebody's leftovers.",
+      "location": "00:21:52 Ximena Brekke (Flint Branch Manager)",
+      "cited": "transcript.txt, L126, 00:21:52, Ximena Brekke"
+    },
+    {
+      "path": "/rubric[20]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "There are two job sheets and one truth, and they're not the same thing. Yes.",
+      "location": "00:22:31 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L131, 00:22:31, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[20]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "And their project manager wants a weekly status on all hundred and forty, which today would mean Henrike building it by hand every Friday.",
+      "location": "00:06:22 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L38, 00:06:22, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[20]/asked_quote/quote",
+      "status": "verified",
+      "quote": "So there are two job sheets.",
+      "location": "00:22:26 Consultant",
+      "cited": "transcript.txt, L129, 00:22:26, Consultant"
+    },
+    {
+      "path": "/rubric[21]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Half of what comes in is customers asking where their job is, and we can't tell them without ringing the floor.",
+      "location": "00:31:53 Henrike Solano (Project Coordination Lead)",
+      "cited": "transcript.txt, L184, 00:31:53, Henrike Solano"
+    },
+    {
+      "path": "/rubric[21]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "There's a lag between winning and the proof going out, and we lose jobs in that lag.",
+      "location": "00:32:04 Fergus Nygaard (Sales Director)",
+      "cited": "transcript.txt, L185, 00:32:04, Fergus Nygaard"
+    },
+    {
+      "path": "/rubric[22]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Retyping alone, maybe two hours a week each. The chasing is the rest of it.",
+      "location": "00:23:44 Henrike Solano (Project Coordination Lead)",
+      "cited": "transcript.txt, L136, 00:23:44, Henrike Solano"
+    },
+    {
+      "path": "/rubric[22]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Thirty-eight an hour loaded, give or take.",
+      "location": "00:24:27 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L140, 00:24:27, Hester Tsai"
+    },
+    {
+      "path": "/rubric[22]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Across the six of you, roughly how many hours a week go into retyping and chasing?",
+      "location": "00:23:19 Consultant",
+      "cited": "transcript.txt, L135, 00:23:19, Consultant"
+    },
+    {
+      "path": "/rubric[23]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Which I would do. I want that on the record. I'd do it and I'd hate it.",
+      "location": "00:06:55 Henrike Solano (Project Coordination Lead)",
+      "cited": "transcript.txt, L39, 00:06:55, Henrike Solano"
+    },
+    {
+      "path": "/rubric[23]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "We run like thirty people with ninety-five people's work.",
+      "location": "00:09:06 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L52, 00:09:06, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[23]/asked_quote/quote",
+      "status": "verified",
+      "quote": "How does a hundred and forty stores compare with what you do today?",
+      "location": "00:05:49 Consultant",
+      "cited": "transcript.txt, L35, 00:05:49, Consultant"
+    },
+    {
+      "path": "/rubric[24]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And there's the problem. I don't know it's installed. Nobody tells finance a job is on the wall.",
+      "location": "00:20:24 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L119, 00:20:24, Hester Tsai"
+    },
+    {
+      "path": "/rubric[24]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Hester, I promised you early. Where does finance touch a job?",
+      "location": "00:20:16 Consultant",
+      "cited": "transcript.txt, L118, 00:20:16, Consultant"
+    },
+    {
+      "path": "/rubric[25]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I pulled it before this call. Average from install to invoice, forty-one days.",
+      "location": "00:21:00 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L121, 00:21:00, Hester Tsai"
+    },
+    {
+      "path": "/rubric[25]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "There's about a million two sitting installed and not invoiced at any moment.",
+      "location": "00:21:16 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L123, 00:21:16, Hester Tsai"
+    },
+    {
+      "path": "/rubric[25]/asked_quote/quote",
+      "status": "verified",
+      "quote": "How late does that make the invoice?",
+      "location": "00:20:56 Consultant",
+      "cited": "transcript.txt, L120, 00:20:56, Consultant"
+    },
+    {
+      "path": "/rubric[26]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I find out because a coordinator mentions it, or a customer rings about something else, or I walk the floor on a Friday and ask.",
+      "location": "00:20:24 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L119, 00:20:24, Hester Tsai"
+    },
+    {
+      "path": "/rubric[26]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It doesn't scale. I can walk the Saginaw floor. I can't walk Flint, and I certainly can't walk a hundred and forty pharmacies.",
+      "location": "00:21:40 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L125, 00:21:40, Hester Tsai"
+    },
+    {
+      "path": "/rubric[26]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And Hester finds out we've installed something when I email her, which I do, mostly.",
+      "location": "00:21:52 Ximena Brekke (Flint Branch Manager)",
+      "cited": "transcript.txt, L126, 00:21:52, Ximena Brekke"
+    },
+    {
+      "path": "/rubric[26]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And the Friday walk is the workaround. What stops you carrying on that way?",
+      "location": "00:21:33 Consultant",
+      "cited": "transcript.txt, L124, 00:21:33, Consultant"
+    },
+    {
+      "path": "/rubric[27]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Me, and the line of credit.",
+      "location": "00:21:16 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L123, 00:21:16, Hester Tsai"
+    },
+    {
+      "path": "/rubric[27]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Gideon feels it when I show him the cash position, which is why he's here, I imagine.",
+      "location": "00:21:16 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L123, 00:21:16, Hester Tsai"
+    },
+    {
+      "path": "/rubric[27]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Who feels that?",
+      "location": "00:21:13 Consultant",
+      "cited": "transcript.txt, L122, 00:21:13, Consultant"
+    },
+    {
+      "path": "/rubric[28]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Forty-one. For work we've already done and already paid the crew for.",
+      "location": "00:21:00 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L121, 00:21:00, Hester Tsai"
+    },
+    {
+      "path": "/rubric[28]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "There's about a million two sitting installed and not invoiced at any moment.",
+      "location": "00:21:16 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L123, 00:21:16, Hester Tsai"
+    },
+    {
+      "path": "/rubric[29]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "That's a Hester question and she's gone. I'd be guessing. Put it on her list.",
+      "location": "00:41:31 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L233, 00:41:31, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[29]/asked_quote/quote",
+      "status": "verified",
+      "quote": "The invoicing lag, the forty-one days. Say nothing changes. What does that look like a year from now, with the rollout on top?",
+      "location": "00:41:16 Consultant",
+      "cited": "transcript.txt, L232, 00:41:16, Consultant"
+    },
+    {
+      "path": "/rubric[30]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And the thing nobody's said is that a crew turns up to a site and the job isn't ready.",
+      "location": "00:33:26 Calum Fairweather (Installation Manager)",
+      "cited": "transcript.txt, L192, 00:33:26, Calum Fairweather"
+    },
+    {
+      "path": "/rubric[30]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Is there a part of how a job moves through this building that hasn't come up yet? Anyone. I'm happy with silence.",
+      "location": "00:33:00 Consultant",
+      "cited": "transcript.txt, L188, 00:33:00, Consultant"
+    },
+    {
+      "path": "/rubric[31]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Traverse City, three weeks ago. Retail unit, four panels. The ticket said ready. The board said ready. One panel was in paint because it had been remade, and nobody moved the ticket back.",
+      "location": "00:34:04 Calum Fairweather (Installation Manager)",
+      "cited": "transcript.txt, L194, 00:34:04, Calum Fairweather"
+    },
+    {
+      "path": "/rubric[31]/asked_quote/quote",
+      "status": "verified",
+      "quote": "When did that last happen?",
+      "location": "00:34:01 Consultant",
+      "cited": "transcript.txt, L193, 00:34:01, Consultant"
+    },
+    {
+      "path": "/rubric[32]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I ring the floor every morning. I walk it if I'm in. I ring Ximena for hers.",
+      "location": "00:34:31 Calum Fairweather (Installation Manager)",
+      "cited": "transcript.txt, L196, 00:34:31, Calum Fairweather"
+    },
+    {
+      "path": "/rubric[32]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The rollout. Eight crews on the road instead of six, if we hire, in five states. I can't ring five states every morning. I can barely ring Flint.",
+      "location": "00:34:54 Calum Fairweather (Installation Manager)",
+      "cited": "transcript.txt, L198, 00:34:54, Calum Fairweather"
+    },
+    {
+      "path": "/rubric[32]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And what stops you carrying on ringing?",
+      "location": "00:34:50 Consultant",
+      "cited": "transcript.txt, L197, 00:34:50, Consultant"
+    },
+    {
+      "path": "/rubric[33]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The crew, because it's overtime nobody planned. The customer, because we've turned up twice. And the next job, because that crew was supposed to be somewhere else the day they go back.",
+      "location": "00:35:12 Calum Fairweather (Installation Manager)",
+      "cited": "transcript.txt, L200, 00:35:12, Calum Fairweather"
+    },
+    {
+      "path": "/rubric[33]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Who else feels a wasted trip?",
+      "location": "00:35:08 Consultant",
+      "cited": "transcript.txt, L199, 00:35:08, Consultant"
+    },
+    {
+      "path": "/rubric[34]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Two a month. Some months three. Call it two. Four hours each, two people, so sixteen hours a month of crew time, before the fuel.",
+      "location": "00:35:33 Calum Fairweather (Installation Manager)",
+      "cited": "transcript.txt, L202, 00:35:33, Calum Fairweather"
+    },
+    {
+      "path": "/rubric[34]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "No. That's a Hester number.",
+      "location": "00:35:51 Calum Fairweather (Installation Manager)",
+      "cited": "transcript.txt, L204, 00:35:51, Calum Fairweather"
+    },
+    {
+      "path": "/rubric[34]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "That's a Hester number and she's gone. Put it on her list.",
+      "location": "00:35:55 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L205, 00:35:55, Delphine Castellane"
+    },
+    {
+      "path": "/rubric[34]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Sixteen hours a month. And the crew rate, is that something you carry?",
+      "location": "00:35:45 Consultant",
+      "cited": "transcript.txt, L203, 00:35:45, Consultant"
+    },
+    {
+      "path": "/rubric[35]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Eight crews on the road instead of six, if we hire, in five states.",
+      "location": "00:34:54 Calum Fairweather (Installation Manager)",
+      "cited": "transcript.txt, L198, 00:34:54, Calum Fairweather"
+    },
+    {
+      "path": "/rubric[35]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And what stops you carrying on ringing?",
+      "location": "00:34:50 Consultant",
+      "cited": "transcript.txt, L197, 00:34:50, Consultant"
+    },
+    {
+      "path": "/pains[0]/quote",
+      "status": "verified",
+      "quote": "Then the ticket's wrong and nobody knows. That's Quarrington in one sentence. That's most of our remakes in one sentence.",
+      "location": "00:18:55 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L109, 00:18:55, Imogen Achebe"
+    },
+    {
+      "path": "/pains[1]/quote",
+      "status": "verified",
+      "quote": "Every one is a file. We name them, we're disciplined about it, but the approval is a reply to one of them and you have to find which one.",
+      "location": "00:15:43 Emeric Villanueva (Studio Manager)",
+      "cited": "transcript.txt, L91, 00:15:43, Emeric Villanueva"
+    },
+    {
+      "path": "/pains[2]/quote",
+      "status": "verified",
+      "quote": "The proof's a separate print-out if someone remembers to attach it, and it might be the wrong version, which is how we got nineteen backwards arrows.",
+      "location": "00:18:09 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L103, 00:18:09, Imogen Achebe"
+    },
+    {
+      "path": "/pains[3]/quote",
+      "status": "verified",
+      "quote": "We type it again, because the quote lives in the estimating tool and the floor can't see the estimating tool.",
+      "location": "00:13:35 Henrike Solano (Project Coordination Lead)",
+      "cited": "transcript.txt, L80, 00:13:35, Henrike Solano"
+    },
+    {
+      "path": "/pains[4]/quote",
+      "status": "verified",
+      "quote": "I counted one day. Thirty-one calls asking where a job is. Thirty-one.",
+      "location": "00:14:18 Henrike Solano (Project Coordination Lead)",
+      "cited": "transcript.txt, L83, 00:14:18, Henrike Solano"
+    },
+    {
+      "path": "/pains[5]/quote",
+      "status": "verified",
+      "quote": "There are two job sheets and one truth, and they're not the same thing. Yes.",
+      "location": "00:22:31 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L131, 00:22:31, Delphine Castellane"
+    },
+    {
+      "path": "/pains[6]/quote",
+      "status": "verified",
+      "quote": "And their project manager wants a weekly status on all hundred and forty, which today would mean Henrike building it by hand every Friday.",
+      "location": "00:06:22 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L38, 00:06:22, Delphine Castellane"
+    },
+    {
+      "path": "/pains[7]/quote",
+      "status": "verified",
+      "quote": "I don't know it's installed. Nobody tells finance a job is on the wall.",
+      "location": "00:20:24 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L119, 00:20:24, Hester Tsai"
+    },
+    {
+      "path": "/pains[8]/quote",
+      "status": "verified",
+      "quote": "Average from install to invoice, forty-one days.",
+      "location": "00:21:00 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L121, 00:21:00, Hester Tsai"
+    },
+    {
+      "path": "/pains[9]/quote",
+      "status": "verified",
+      "quote": "The sign's still in paint, or the permit's not through, or the site's not ready for us, and two people have driven two hours for nothing.",
+      "location": "00:33:26 Calum Fairweather (Installation Manager)",
+      "cited": "transcript.txt, L192, 00:33:26, Calum Fairweather"
+    },
+    {
+      "path": "/pains[10]/quote",
+      "status": "verified",
+      "quote": "Whether that reaches the floor before the panel's cut is a coin flip, and I'm not exaggerating, it's about half.",
+      "location": "00:19:06 Kwame Oduya (Account Manager)",
+      "cited": "transcript.txt, L110, 00:19:06, Kwame Oduya"
+    },
+    {
+      "path": "/numbers/bleed/quote",
+      "status": "verified",
+      "quote": "So seventy-one, plus twenty-two, plus fifty-five. A hundred and forty-eight thousand, near enough. A year. And that's without the remake hours, which nobody's counted, and without the install side, which we haven't got to.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L173, 00:30:10, Delphine Castellane"
+      ]
+    },
+    {
+      "path": "/numbers/upside/quote",
+      "status": "verified",
+      "quote": "Maybe two a month, I'd guess, maybe, where the customer gets bored and goes to someone quicker. I couldn't put a value on that, it's a guess.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L185, 00:32:04, Fergus Nygaard"
+      ]
+    },
+    {
+      "path": "/objections[0]/quote",
+      "status": "verified",
+      "quote": "The floor won't touch a tablet with gloves on. I'm telling you now. If the answer is everyone gets a tablet, it's dead by the second week.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L235, 00:41:47, Imogen Achebe"
+      ]
+    },
+    {
+      "path": "/objections[1]/quote",
+      "status": "verified",
+      "quote": "And Flint runs its own sheet and, honestly, we like it that way. If this means we go back to the Saginaw one, I'll be polite about it and then we'll quietly keep ours.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L236, 00:42:08, Ximena Brekke"
+      ]
+    },
+    {
+      "path": "/objections[2]/quote",
+      "status": "verified",
+      "quote": "If it's another thing to keep up to date, it's dead. We tried a job-tracking app two years ago, the crews never opened it, and the coordinators ended up updating it and the job sheet. Double work. It lasted a quarter.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L238, 00:42:30, Delphine Castellane"
+      ]
+    },
+    {
+      "path": "/objections[3]/quote",
+      "status": "verified",
+      "quote": "Nothing touches the accounting system before November. We're mid-audit until the end of the month and I'm not opening a connection to anything while they're in the building.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L178, 00:30:59, Hester Tsai"
+      ]
+    },
+    {
+      "path": "/objections[4]/quote",
+      "status": "verified",
+      "quote": "If everyone who touches a job needs a login, that's the crews, that's the floor. Are we going to end up paying per head for people who'd open it twice a month?",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L132, 00:22:38, Kwame Oduya"
+      ]
+    },
+    {
+      "path": "/objections[5]/quote",
+      "status": "verified",
+      "quote": "Over twenty it's Gideon, full stop.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L221, 00:38:45, Delphine Castellane"
+      ]
+    },
+    {
+      "path": "/objections[6]/quote",
+      "status": "verified",
+      "quote": "Shouldn't Cordelia be on this? If it's her account we'd be going into.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L224, 00:39:38, Henrike Solano"
+      ]
+    },
+    {
+      "path": "/objections[7]/quote",
+      "status": "verified",
+      "quote": "He's not going to say anything on a call with fourteen people on it, he never does.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L249, 00:45:39, Delphine Castellane"
+      ]
+    },
+    {
+      "path": "/objections[8]/quote",
+      "status": "verified",
+      "quote": "Don't build the quoting in it, ever, Fergus will never forgive me. The estimating tool stays.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L245, 00:44:48, Delphine Castellane"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[0]/quote",
+      "status": "verified",
+      "quote": "Wednesday the twenty-first at two works. Same room, or as much of it as I can get. I'll ask Gideon.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L254, 00:46:43, Delphine Castellane"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[1]/quote",
+      "status": "verified",
+      "quote": "I'll send the invite to you today and you forward it to whoever should be there.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L255, 00:46:52, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[2]/quote",
+      "status": "verified",
+      "quote": "I'll forward it today. And I'll send you the job sheet by Friday, both of them, so you can see what forty columns looks like. Names off, if that's all right.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L256, 00:47:04, Delphine Castellane"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[3]/quote",
+      "status": "verified",
+      "quote": "In a week. I'll count it myself so it's counted the same way all the way through.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L258, 00:47:26, Imogen Achebe"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[4]/quote",
+      "status": "verified",
+      "quote": "And Hester's list. The crew rate, the write-off figure from the books, and the invoicing question. I'll send that to her tonight.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L259, 00:47:35, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[5]/quote",
+      "status": "verified",
+      "quote": "Send me the list of what you need and I'll get you the numbers by end of week, the write-off figure properly and whatever else.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L180, 00:31:20, Hester Tsai"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[6]/quote",
+      "status": "verified",
+      "quote": "I'll find out who the admin is. And I'll get Anton's list. He's still on, he'll have heard that.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L262, 00:48:10, Delphine Castellane"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[7]/quote",
+      "status": "verified",
+      "quote": "And I'll send a short recap by end of day tomorrow, what I heard and the next steps, so you can correct anything I've got wrong.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L263, 00:48:19, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[8]/quote",
+      "status": "verified",
+      "quote": "I'll put it in the recap with a straight answer.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L133, 00:22:58, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[9]/quote",
+      "status": "verified",
+      "quote": "She should. That's on me. I'll bring her in for the next one.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L225, 00:39:47, Delphine Castellane"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[10]/quote",
+      "status": "verified",
+      "quote": "He may have dropped. He had a four o'clock print deadline. I'll ask him.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L241, 00:43:06, Delphine Castellane"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[11]/quote",
+      "status": "verified",
+      "quote": "After November, talk to me.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L178, 00:30:59, Hester Tsai"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[12]/quote",
+      "status": "verified",
+      "quote": "I put a first version together with those five pieces, in your words, jobs, tickets, proofs, crews, installed, on made-up jobs unless you'd rather I used real ones, and we walk through it together.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L253, 00:46:20, Consultant"
+      ]
+    },
+    {
+      "path": "/requested_changes[0]/quote",
+      "status": "verified",
+      "quote": "And the floor gets a screen on the wall, not tablets. I said it, I'll say it again so it's written down.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L247, 00:45:23, Imogen Achebe"
+      ]
+    },
+    {
+      "path": "/requested_changes[1]/quote",
+      "status": "verified",
+      "quote": "Don't build the quoting in it, ever, Fergus will never forgive me. The estimating tool stays.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L245, 00:44:48, Delphine Castellane"
+      ]
+    },
+    {
+      "path": "/requested_changes[2]/quote",
+      "status": "verified",
+      "quote": "The job number has to come from the accounting system. That's mine as well.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L246, 00:45:06, Henrike Solano"
+      ]
+    },
+    {
+      "path": "/account_context/evidence_quote_or_null",
+      "status": "verified",
+      "quote": "We dropped to Standard in January when we trimmed the seats, I signed the renewal myself. Standard. Twenty-five seats on Standard.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L59, 00:10:01, Delphine Castellane"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[0]/quote/quote",
+      "status": "verified",
+      "quote": "This is a conversation, not a demo. I'm not going to show you anything today.",
+      "location": "00:02:17 Consultant",
+      "cited": "transcript.txt, L22, 00:02:17, Consultant"
+    },
+    {
+      "path": "/intake/type_header/signals[2]/quote/quote",
+      "status": "verified",
+      "quote": "That would be a first.",
+      "location": "00:02:50 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L23, 00:02:50, Delphine Castellane"
+    },
+    {
+      "path": "/intake/type_header/signals[3]/quote/quote",
+      "status": "verified",
+      "quote": "If that's on a screen on the wall, fine. If it's a printed ticket that reprints itself when something changes, also fine.",
+      "location": "00:36:48 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L209, 00:36:48, Imogen Achebe"
+    },
+    {
+      "path": "/intake/type_header/signals[4]/quote/quote",
+      "status": "verified",
+      "quote": "Up to twenty thousand a year I can sign it, and I'd still tell Gideon. Over twenty it's Gideon, full stop.",
+      "location": "00:38:45 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L221, 00:38:45, Delphine Castellane"
+    },
+    {
+      "path": "/intake/roster/narrated[0]/quote",
+      "status": "verified",
+      "quote": "Right. I can see Hester. Imogen's on. Henrike. Fergus, you're on mute, I think. Kwame's on.",
+      "location": "00:00:26 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L7, 00:00:26, Delphine Castellane"
+    },
+    {
+      "path": "/intake/roster/narrated[1]/quote",
+      "status": "verified",
+      "quote": "Emeric's on. Calum. Lettie's on. Saoirse. Anton, are you there? He's on the list, camera off, that's Anton. And Gideon's here. Gideon's our MD, he said he's here to listen, so don't expect a lot out of him.",
+      "location": "00:01:03 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L13, 00:01:03, Delphine Castellane"
+    },
+    {
+      "path": "/intake/roster/narrated[2]/quote",
+      "status": "verified",
+      "quote": "Fergus sells it. Henrike's team turn it into a job. Emeric's studio draws it. Imogen builds it. Calum puts it on a wall. Hester invoices it, eventually, when someone remembers to tell her.",
+      "location": "00:03:06 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L25, 00:03:06, Delphine Castellane"
+    },
+    {
+      "path": "/intake/roster/narrated[3]/quote",
+      "status": "verified",
+      "quote": "Saoirse's here from HR because whatever we pick, the training lands on her. Anton's from our IT provider, so nobody promises anything about passwords. And Lettie, who does the job tickets for the floor, so she lives this more than any of us.",
+      "location": "00:03:37 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L26, 00:03:37, Delphine Castellane"
+    },
+    {
+      "path": "/intake/risk_row/approaches_through_a_colleague[0]/quote",
+      "status": "verified",
+      "quote": "And leadership. What would count as a win, from where Gideon sits?",
+      "location": "00:37:35 Consultant",
+      "cited": "transcript.txt, L215, 00:37:35, Consultant"
+    },
+    {
+      "path": "/intake/risk_row/approaches_through_a_colleague[1]/quote",
+      "status": "verified",
+      "quote": "Written down. Delphine, Gideon's view on that shape?",
+      "location": "00:45:34 Consultant",
+      "cited": "transcript.txt, L248, 00:45:34, Consultant"
+    },
+    {
+      "path": "/intake/risk_row/relayed_agreement_refused/quote",
+      "status": "verified",
+      "quote": "He's nodding. Take that as a yes.",
+      "location": "00:45:39 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L249, 00:45:39, Delphine Castellane"
+    },
+    {
+      "path": "/intake/risk_row/our_handling_on_the_call/quote",
+      "status": "verified",
+      "quote": "I can see a few nods, which I'll take as encouragement and not as an answer.",
+      "location": "00:45:51 Consultant",
+      "cited": "transcript.txt, L250, 00:45:51, Consultant"
+    },
+    {
+      "path": "/intake/presence_changes[0]/evidence/quote",
+      "status": "verified",
+      "quote": "Sorry, sorry. The highway was shut at the river.",
+      "location": "00:09:20 Ximena Brekke (Flint Branch Manager)",
+      "cited": "transcript.txt, L53, 00:09:20, Ximena Brekke"
+    },
+    {
+      "path": "/intake/presence_changes[1]/evidence/quote",
+      "status": "verified",
+      "quote": "That's me, I'm afraid. Auditors.",
+      "location": "00:31:20 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L180, 00:31:20, Hester Tsai"
+    },
+    {
+      "path": "/intake/presence_changes[2]/evidence/quote",
+      "status": "verified",
+      "quote": "Fergus has had to drop, by the way, he's got the Quarrington call at three. He said to say sorry.",
+      "location": "00:38:10 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L218, 00:38:10, Delphine Castellane"
+    },
+    {
+      "path": "/intake/presence_changes[3]/evidence/quote",
+      "status": "verified",
+      "quote": "And I'm going with him, I'm on the same call. Sorry. Send me anything you need.",
+      "location": "00:38:20 Kwame Oduya (Account Manager)",
+      "cited": "transcript.txt, L219, 00:38:20, Kwame Oduya"
+    },
+    {
+      "path": "/intake/presence_changes[4]/evidence/quote",
+      "status": "verified",
+      "quote": "He may have dropped. He had a four o'clock print deadline. I'll ask him.",
+      "location": "00:43:06 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L241, 00:43:06, Delphine Castellane"
+    },
+    {
+      "path": "/intake/presence_changes[5]/evidence/quote",
+      "status": "verified",
+      "quote": "He's still on, he'll have heard that.",
+      "location": "00:48:10 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L262, 00:48:10, Delphine Castellane"
+    },
+    {
+      "path": "/intake/conflicts[0]/a/quote",
+      "status": "verified",
+      "quote": "Honestly? One in ten. One in ten jobs has something remade.",
+      "location": "00:26:36 Fergus Nygaard (Sales Director)",
+      "cited": "transcript.txt, L150, 00:26:36, Fergus Nygaard"
+    },
+    {
+      "path": "/intake/conflicts[0]/a_supported_by/quote",
+      "status": "verified",
+      "quote": "That's about what I'd have said.",
+      "location": "00:26:57 Kwame Oduya (Account Manager)",
+      "cited": "transcript.txt, L152, 00:26:57, Kwame Oduya"
+    },
+    {
+      "path": "/intake/conflicts[0]/b/quote",
+      "status": "verified",
+      "quote": "No. It is not one in ten. From where I stand it's closer to one in four. One in four jobs has at least one panel go through the shop twice.",
+      "location": "00:27:39 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L156, 00:27:39, Imogen Achebe"
+    },
+    {
+      "path": "/intake/conflicts[0]/basis_a/quote",
+      "status": "verified",
+      "quote": "Depends what you count. I count what the customer sees.",
+      "location": "00:28:17 Fergus Nygaard (Sales Director)",
+      "cited": "transcript.txt, L160, 00:28:17, Fergus Nygaard"
+    },
+    {
+      "path": "/intake/conflicts[0]/basis_b/quote",
+      "status": "verified",
+      "quote": "And I count what the shop builds twice.",
+      "location": "00:28:23 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L161, 00:28:23, Imogen Achebe"
+    },
+    {
+      "path": "/intake/conflicts[0]/convener/quote",
+      "status": "verified",
+      "quote": "We've never measured it. That's the honest answer.",
+      "location": "00:28:29 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L162, 00:28:29, Delphine Castellane"
+    },
+    {
+      "path": "/intake/conflicts[0]/our_handling_on_the_call/quote",
+      "status": "verified",
+      "quote": "Then I'll write down both numbers and neither of them, if that makes sense, until the book says.",
+      "location": "00:28:50 Consultant",
+      "cited": "transcript.txt, L164, 00:28:50, Consultant"
+    },
+    {
+      "path": "/intake/superseded_same_speaker[0]/quote/quote",
+      "status": "verified",
+      "quote": "Cordelia's team run their content calendar on it, twenty-five seats, and we're on the Pro plan. Actually, no. Hang on. We dropped to Standard in January when we trimmed the seats, I signed the renewal myself. Standard. Twenty-five seats on Standard.",
+      "location": "00:10:01 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L59, 00:10:01, Delphine Castellane"
+    },
+    {
+      "path": "/intake/superseded_same_speaker[1]/quote/quote",
+      "status": "verified",
+      "quote": "It's a lot.",
+      "location": "00:19:30 Kwame Oduya (Account Manager)",
+      "cited": "transcript.txt, L112, 00:19:30, Kwame Oduya"
+    },
+    {
+      "path": "/intake/superseded_same_speaker[1]/prompted_by/quote",
+      "status": "verified",
+      "quote": "It's not half.",
+      "location": "00:19:27 Henrike Solano (Project Coordination Lead)",
+      "cited": "transcript.txt, L111, 00:19:27, Henrike Solano"
+    },
+    {
+      "path": "/intake/superseded_same_speaker[2]/quote/quote",
+      "status": "verified",
+      "quote": "Nineteen, then.",
+      "location": "00:16:35 Emeric Villanueva (Studio Manager)",
+      "cited": "transcript.txt, L95, 00:16:35, Emeric Villanueva"
+    },
+    {
+      "path": "/intake/superseded_same_speaker[2]/prompted_by/quote",
+      "status": "verified",
+      "quote": "Nineteen. But yes.",
+      "location": "00:16:32 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L94, 00:16:32, Imogen Achebe"
+    },
+    {
+      "path": "/intake/superseded_same_speaker[3]/quote/quote",
+      "status": "verified",
+      "quote": "Two a month. Some months three. Call it two.",
+      "location": "00:35:33 Calum Fairweather (Installation Manager)",
+      "cited": "transcript.txt, L202, 00:35:33, Calum Fairweather"
+    },
+    {
+      "path": "/intake/relayed_statements[0]/quote/quote",
+      "status": "verified",
+      "quote": "I can tell you what he's said to me, which is that he wants the rollout to go in without a Quarrington, and he wants the cash position to stop being a surprise. Those are his two. I'm not going to put words in his mouth beyond that.",
+      "location": "00:37:42 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L216, 00:37:42, Delphine Castellane"
+    },
+    {
+      "path": "/intake/relayed_statements[0]/our_handling/quote",
+      "status": "verified",
+      "quote": "Fair. I'll write those down as yours until they're his.",
+      "location": "00:38:04 Consultant",
+      "cited": "transcript.txt, L217, 00:38:04, Consultant"
+    },
+    {
+      "path": "/intake/relayed_statements[1]/quote/quote",
+      "status": "verified",
+      "quote": "He's nodding. Take that as a yes.",
+      "location": "00:45:39 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L249, 00:45:39, Delphine Castellane"
+    },
+    {
+      "path": "/intake/relayed_statements[2]/quote/quote",
+      "status": "verified",
+      "quote": "He said to say sorry.",
+      "location": "00:38:10 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L218, 00:38:10, Delphine Castellane"
+    },
+    {
+      "path": "/intake/check_ins[0]/quote/quote",
+      "status": "verified",
+      "quote": "Is there a part of how a job moves through this building that hasn't come up yet? Anyone. I'm happy with silence.",
+      "location": "00:33:00 Consultant",
+      "cited": "transcript.txt, L188, 00:33:00, Consultant"
+    },
+    {
+      "path": "/intake/check_ins[1]/quote/quote",
+      "status": "verified",
+      "quote": "Hester, does that feel right?",
+      "location": "00:30:27 Consultant",
+      "cited": "transcript.txt, L174, 00:30:27, Consultant"
+    },
+    {
+      "path": "/intake/check_ins[1]/answered/quote",
+      "status": "verified",
+      "quote": "That's about right, and it's light.",
+      "location": "00:30:36 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L175, 00:30:36, Hester Tsai"
+    },
+    {
+      "path": "/intake/check_ins[2]/quote/quote",
+      "status": "verified",
+      "quote": "Six hours a week, six people. Does that feel right to the room?",
+      "location": "00:24:07 Consultant",
+      "cited": "transcript.txt, L137, 00:24:07, Consultant"
+    },
+    {
+      "path": "/intake/check_ins[2]/answered/quote",
+      "status": "verified",
+      "quote": "It feels light, but it's Henrike's number and she'd know.",
+      "location": "00:24:15 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L138, 00:24:15, Delphine Castellane"
+    },
+    {
+      "path": "/intake/deferred_answers_register[0]/question/quote",
+      "status": "verified",
+      "quote": "Are we going to end up paying per head for people who'd open it twice a month?",
+      "location": "00:22:38 Kwame Oduya (Account Manager)",
+      "cited": "transcript.txt, L132, 00:22:38, Kwame Oduya"
+    },
+    {
+      "path": "/intake/deferred_answers_register[0]/our_answer/quote",
+      "status": "verified",
+      "quote": "It depends on the plan and on how it's set up, and I'd rather answer that properly than off the top of my head. I'll put it in the recap with a straight answer.",
+      "location": "00:22:58 Consultant",
+      "cited": "transcript.txt, L133, 00:22:58, Consultant"
+    },
+    {
+      "path": "/readiness/pains[0]/quote",
+      "status": "verified",
+      "quote": "Then the ticket's wrong and nobody knows. That's Quarrington in one sentence. That's most of our remakes in one sentence.",
+      "location": "00:18:55 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L109, 00:18:55, Imogen Achebe"
+    },
+    {
+      "path": "/readiness/pains[1]/quote",
+      "status": "verified",
+      "quote": "Every one is a file. We name them, we're disciplined about it, but the approval is a reply to one of them and you have to find which one.",
+      "location": "00:15:43 Emeric Villanueva (Studio Manager)",
+      "cited": "transcript.txt, L91, 00:15:43, Emeric Villanueva"
+    },
+    {
+      "path": "/readiness/pains[2]/quote",
+      "status": "verified",
+      "quote": "The proof's a separate print-out if someone remembers to attach it, and it might be the wrong version, which is how we got nineteen backwards arrows.",
+      "location": "00:18:09 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L103, 00:18:09, Imogen Achebe"
+    },
+    {
+      "path": "/readiness/pains[3]/quote",
+      "status": "verified",
+      "quote": "We type it again, because the quote lives in the estimating tool and the floor can't see the estimating tool.",
+      "location": "00:13:35 Henrike Solano (Project Coordination Lead)",
+      "cited": "transcript.txt, L80, 00:13:35, Henrike Solano"
+    },
+    {
+      "path": "/readiness/pains[4]/quote",
+      "status": "verified",
+      "quote": "I counted one day. Thirty-one calls asking where a job is. Thirty-one.",
+      "location": "00:14:18 Henrike Solano (Project Coordination Lead)",
+      "cited": "transcript.txt, L83, 00:14:18, Henrike Solano"
+    },
+    {
+      "path": "/readiness/pains[5]/quote",
+      "status": "verified",
+      "quote": "There are two job sheets and one truth, and they're not the same thing. Yes.",
+      "location": "00:22:31 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L131, 00:22:31, Delphine Castellane"
+    },
+    {
+      "path": "/readiness/pains[6]/quote",
+      "status": "verified",
+      "quote": "And their project manager wants a weekly status on all hundred and forty, which today would mean Henrike building it by hand every Friday.",
+      "location": "00:06:22 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L38, 00:06:22, Delphine Castellane"
+    },
+    {
+      "path": "/readiness/pains[7]/quote",
+      "status": "verified",
+      "quote": "I don't know it's installed. Nobody tells finance a job is on the wall.",
+      "location": "00:20:24 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L119, 00:20:24, Hester Tsai"
+    },
+    {
+      "path": "/readiness/pains[8]/quote",
+      "status": "verified",
+      "quote": "Average from install to invoice, forty-one days.",
+      "location": "00:21:00 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L121, 00:21:00, Hester Tsai"
+    },
+    {
+      "path": "/readiness/pains[9]/quote",
+      "status": "verified",
+      "quote": "The sign's still in paint, or the permit's not through, or the site's not ready for us, and two people have driven two hours for nothing.",
+      "location": "00:33:26 Calum Fairweather (Installation Manager)",
+      "cited": "transcript.txt, L192, 00:33:26, Calum Fairweather"
+    },
+    {
+      "path": "/readiness/pains[10]/quote",
+      "status": "verified",
+      "quote": "Whether that reaches the floor before the panel's cut is a coin flip, and I'm not exaggerating, it's about half.",
+      "location": "00:19:06 Kwame Oduya (Account Manager)",
+      "cited": "transcript.txt, L110, 00:19:06, Kwame Oduya"
+    },
+    {
+      "path": "/readiness/signals[0]/quote",
+      "status": "verified",
+      "quote": "If that's on a screen on the wall, fine. If it's a printed ticket that reprints itself when something changes, also fine. I don't care how. I care that it's the same thing.",
+      "location": "00:36:48 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L209, 00:36:48, Imogen Achebe"
+    },
+    {
+      "path": "/readiness/signals[1]/quote",
+      "status": "verified",
+      "quote": "And Lettie, who does the job tickets for the floor, so she lives this more than any of us.",
+      "location": "00:03:37 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L26, 00:03:37, Delphine Castellane"
+    },
+    {
+      "path": "/readiness/signals[2]/quote",
+      "status": "verified",
+      "quote": "That's the right shape.",
+      "location": "00:44:48 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L245, 00:44:48, Delphine Castellane"
+    },
+    {
+      "path": "/readiness/signals[3]/quote",
+      "status": "verified",
+      "quote": "It doesn't scale. I can walk the Saginaw floor. I can't walk Flint, and I certainly can't walk a hundred and forty pharmacies.",
+      "location": "00:21:40 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L125, 00:21:40, Hester Tsai"
+    },
+    {
+      "path": "/readiness/signals[4]/quote",
+      "status": "verified",
+      "quote": "The ticket said ready. The board said ready. One panel was in paint because it had been remade, and nobody moved the ticket back.",
+      "location": "00:34:04 Calum Fairweather (Installation Manager)",
+      "cited": "transcript.txt, L194, 00:34:04, Calum Fairweather"
+    },
+    {
+      "path": "/readiness/signals[5]/quote",
+      "status": "verified",
+      "quote": "And Flint sees the same screen as Saginaw. I'll say that now so I'm on the record as having said it, given, you know, what I said earlier.",
+      "location": "00:37:22 Ximena Brekke (Flint Branch Manager)",
+      "cited": "transcript.txt, L214, 00:37:22, Ximena Brekke"
+    },
+    {
+      "path": "/readiness/signals[6]/quote",
+      "status": "verified",
+      "quote": "I can tell you what he's said to me, which is that he wants the rollout to go in without a Quarrington, and he wants the cash position to stop being a surprise.",
+      "location": "00:37:42 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L216, 00:37:42, Delphine Castellane"
+    },
+    {
+      "path": "/readiness/signals[7]/quote",
+      "status": "verified",
+      "quote": "The job number has to come from the accounting system. That's mine as well. If a coordinator's typing it, it'll be wrong one time in fifty, and that's the one that goes to the wrong customer, guaranteed.",
+      "location": "00:45:06 Henrike Solano (Project Coordination Lead)",
+      "cited": "transcript.txt, L246, 00:45:06, Henrike Solano"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[0]",
+      "status": "verified",
+      "quote": "Three things per store. An exterior fascia sign, which is the big one and the one with the permits. An interior wayfinding package, eight to twelve panels, depends on the store. And a pharmacy counter set, which is small but it's the one their compliance people care about.",
+      "location": "00:06:22 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L38, 00:06:22, Delphine Castellane"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[1]",
+      "status": "verified",
+      "quote": "The floor board is a whiteboard, twelve feet of it, columns for print, cut, fab, paint, assembly, ready. The ticket moves along the board as the job moves.",
+      "location": "00:17:31 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L101, 00:17:31, Imogen Achebe"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[2]",
+      "status": "verified",
+      "quote": "with the stages you use, proofing, production, ready, installed, invoiced",
+      "location": "00:43:29 Consultant",
+      "cited": "transcript.txt, L244, 00:43:29, Consultant"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[3]",
+      "status": "verified",
+      "quote": "That's the right shape.",
+      "location": "00:44:48 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L245, 00:44:48, Delphine Castellane"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[0]",
+      "status": "verified",
+      "quote": "Then the ticket's wrong and nobody knows.",
+      "location": "00:18:55 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L109, 00:18:55, Imogen Achebe"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[1]",
+      "status": "verified",
+      "quote": "Whatever was in the job sheet when Lettie printed it.",
+      "location": "00:18:09 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L103, 00:18:09, Imogen Achebe"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[2]",
+      "status": "verified",
+      "quote": "The dimensions on the job ticket were the survey dimensions, not the approved drawing dimensions.",
+      "location": "00:07:52 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L45, 00:07:52, Imogen Achebe"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[3]",
+      "status": "verified",
+      "quote": "If it's a printed ticket that reprints itself when something changes, also fine. I don't care how. I care that it's the same thing.",
+      "location": "00:36:48 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L209, 00:36:48, Imogen Achebe"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[4]",
+      "status": "verified",
+      "quote": "Lettie prints it off the job sheet, one ticket per job",
+      "location": "00:17:31 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L101, 00:17:31, Imogen Achebe"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[0]",
+      "status": "verified",
+      "quote": "Every one is a file. We name them, we're disciplined about it, but the approval is a reply to one of them and you have to find which one.",
+      "location": "00:15:43 Emeric Villanueva (Studio Manager)",
+      "cited": "transcript.txt, L91, 00:15:43, Emeric Villanueva"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[1]",
+      "status": "verified",
+      "quote": "Someone replies to the proof saying approved, and that email is the record.",
+      "location": "00:15:28 Emeric Villanueva (Studio Manager)",
+      "cited": "transcript.txt, L89, 00:15:28, Emeric Villanueva"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[2]",
+      "status": "verified",
+      "quote": "And a hundred and forty stores, which will each have their own proof, and I have five designers.",
+      "location": "00:17:17 Emeric Villanueva (Studio Manager)",
+      "cited": "transcript.txt, L99, 00:17:17, Emeric Villanueva"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[0]",
+      "status": "verified",
+      "quote": "One in four jobs has at least one panel go through the shop twice.",
+      "location": "00:27:39 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L156, 00:27:39, Imogen Achebe"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[1]",
+      "status": "verified",
+      "quote": "Depends what you count. I count what the customer sees.",
+      "location": "00:28:17 Fergus Nygaard (Sales Director)",
+      "cited": "transcript.txt, L160, 00:28:17, Fergus Nygaard"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[2]",
+      "status": "verified",
+      "quote": "And I count what the shop builds twice.",
+      "location": "00:28:23 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L161, 00:28:23, Imogen Achebe"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[3]",
+      "status": "verified",
+      "quote": "It's a paper book by the router, it's literally a book, but I can count it.",
+      "location": "00:28:40 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L163, 00:28:40, Imogen Achebe"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[0]",
+      "status": "verified",
+      "quote": "I schedule them on a spreadsheet, a week at a time.",
+      "location": "00:33:26 Calum Fairweather (Installation Manager)",
+      "cited": "transcript.txt, L192, 00:33:26, Calum Fairweather"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[1]",
+      "status": "verified",
+      "quote": "The sign's still in paint, or the permit's not through, or the site's not ready for us, and two people have driven two hours for nothing.",
+      "location": "00:33:26 Calum Fairweather (Installation Manager)",
+      "cited": "transcript.txt, L192, 00:33:26, Calum Fairweather"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[2]",
+      "status": "verified",
+      "quote": "And the next job, because that crew was supposed to be somewhere else the day they go back.",
+      "location": "00:35:12 Calum Fairweather (Installation Manager)",
+      "cited": "transcript.txt, L200, 00:35:12, Calum Fairweather"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[3]",
+      "status": "verified",
+      "quote": "And I ring the site the day before, if I remember, and I don't always remember, because I've got six crews and there's one of me.",
+      "location": "00:34:31 Calum Fairweather (Installation Manager)",
+      "cited": "transcript.txt, L196, 00:34:31, Calum Fairweather"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[0]",
+      "status": "verified",
+      "quote": "We keep our own copy of the job sheet.",
+      "location": "00:21:52 Ximena Brekke (Flint Branch Manager)",
+      "cited": "transcript.txt, L126, 00:21:52, Ximena Brekke"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[1]",
+      "status": "verified",
+      "quote": "And Flint sees the same screen as Saginaw.",
+      "location": "00:37:22 Ximena Brekke (Flint Branch Manager)",
+      "cited": "transcript.txt, L214, 00:37:22, Ximena Brekke"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[2]",
+      "status": "verified",
+      "quote": "If this means we go back to the Saginaw one, I'll be polite about it and then we'll quietly keep ours.",
+      "location": "00:42:08 Ximena Brekke (Flint Branch Manager)",
+      "cited": "transcript.txt, L236, 00:42:08, Ximena Brekke"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[0]",
+      "status": "verified",
+      "quote": "I don't know it's installed. Nobody tells finance a job is on the wall.",
+      "location": "00:20:24 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L119, 00:20:24, Hester Tsai"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[1]",
+      "status": "verified",
+      "quote": "Nothing touches the accounting system before November.",
+      "location": "00:30:59 Hester Tsai (Financial Controller)",
+      "cited": "transcript.txt, L178, 00:30:59, Hester Tsai"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[2]",
+      "status": "verified",
+      "quote": "An installed flag that tells Hester, so the invoice follows the install and not the Friday walk.",
+      "location": "00:43:29 Consultant",
+      "cited": "transcript.txt, L244, 00:43:29, Consultant"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[0]",
+      "status": "verified",
+      "quote": "We type it again, because the quote lives in the estimating tool and the floor can't see the estimating tool.",
+      "location": "00:13:35 Henrike Solano (Project Coordination Lead)",
+      "cited": "transcript.txt, L80, 00:13:35, Henrike Solano"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[1]",
+      "status": "verified",
+      "quote": "Don't build the quoting in it, ever, Fergus will never forgive me. The estimating tool stays.",
+      "location": "00:44:48 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L245, 00:44:48, Delphine Castellane"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[2]",
+      "status": "verified",
+      "quote": "The estimating tool is fine. It's after we win that it, that it falls apart.",
+      "location": "00:11:00 Fergus Nygaard (Sales Director)",
+      "cited": "transcript.txt, L64, 00:11:00, Fergus Nygaard"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[0]",
+      "status": "verified",
+      "quote": "And their project manager wants a weekly status on all hundred and forty, which today would mean Henrike building it by hand every Friday.",
+      "location": "00:06:22 Delphine Castellane (Operations Director)",
+      "cited": "transcript.txt, L38, 00:06:22, Delphine Castellane"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[1]",
+      "status": "verified",
+      "quote": "Which I would do. I want that on the record. I'd do it and I'd hate it.",
+      "location": "00:06:55 Henrike Solano (Project Coordination Lead)",
+      "cited": "transcript.txt, L39, 00:06:55, Henrike Solano"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[2]",
+      "status": "verified",
+      "quote": "They asked for the weekly status in the tender. We said yes.",
+      "location": "00:07:04 Fergus Nygaard (Sales Director)",
+      "cited": "transcript.txt, L40, 00:07:04, Fergus Nygaard"
+    },
+    {
+      "path": "/readiness/structure/leanings[9]/quotes[0]",
+      "status": "verified",
+      "quote": "Screens on the wall, big ones, and the ticket prints. That's the only version that lives, I'm sorry, but it is.",
+      "location": "00:41:47 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L235, 00:41:47, Imogen Achebe"
+    },
+    {
+      "path": "/readiness/structure/leanings[9]/quotes[1]",
+      "status": "verified",
+      "quote": "And the floor gets a screen on the wall, not tablets.",
+      "location": "00:45:23 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L247, 00:45:23, Imogen Achebe"
+    },
+    {
+      "path": "/readiness/structure/leanings[9]/quotes[2]",
+      "status": "verified",
+      "quote": "That's the system, and honestly, honestly it works better than anything on a screen has ever worked for us.",
+      "location": "00:17:31 Imogen Achebe (Production Manager)",
+      "cited": "transcript.txt, L101, 00:17:31, Imogen Achebe"
+    }
+  ]
+}

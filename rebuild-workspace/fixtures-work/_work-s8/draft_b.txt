@@ -1,0 +1,199 @@
+# s8 draft part B: sections 6b-12 (budget burn, templates, warranty, why now, bleed, upside, outcome, decision, scope, close)
+Consultant: Let me turn to money on the jobs. Warren, you said Sage actuals come after the month closes. Walk me through the timing.
+Warren Tibbetts: Month ends, Roland's team does their thing, and job cost reports come out around the tenth or the twelfth. So on the twelfth of September I find out what August really cost me.
+Consultant: [[DUP]] Six weeks after the start of the spend.
+Warren Tibbetts: Up to, yes. And that's fine on a job that's behaving. It's not fine on a job that isn't.
+Consultant: When did that last bite you?
+Marisol Bettencourt: I'll take that one. Cumberland West. The medical office building. We were four hundred and eighty thousand over on the mechanical buyout and we found out six weeks after it happened.
+Consultant: How did it surface?
+Marisol Bettencourt: Roland closed the month and called me. Which is not how I want to learn things.
+Consultant: What had gone on?
+Marisol Bettencourt: The buyout came in high, the PM knew the buyout came in high, and he was working a change order with the owner to cover part of it. He wasn't hiding it. But it never got to a number I could see, and by the time it did we'd already committed the next two phases.
+Consultant: Could any of it have been avoided with earlier sight of it?
+Marisol Bettencourt: Some. Maybe half of it, if I'm honest, and I'm not going to pretend I know which half. It's the kind of thing where if I see it in week two I go and sit with the owner myself, and that conversation goes differently than it does in week eight.
+Consultant: And the workaround today is the PMs' own forecasts.
+Warren Tibbetts: Mine's good. I'll say that again for the record.
+Marisol Bettencourt: Warren's is good. Warren is also not the problem. The problem is that I have fourteen of these and no two are built the same, so I cannot add them up. There's no such thing as a portfolio number for us. There's fourteen spreadsheets.
+Consultant: Who else does that reach?
+Marisol Bettencourt: Roland, because he's the one making the call. Corinne, because she's forecasting cash off it. And the owner, honestly, because a change order conversation in week eight looks like we weren't watching.
+Consultant: And if nothing changes?
+Marisol Bettencourt: It doesn't get better. I don't have a number for that one, it just doesn't get better.
+Consultant: Fair. Let me come back to the startup checklist, because you flagged it. Every PM starts a job their own way. What does that cost you?
+Marisol Bettencourt: Consistency. And I can't point you at one job and say, here, this went wrong. It's all of them, a little bit. Somebody's baseline schedule is in the system, somebody's is in their drawer. Somebody's ICRA is tracked with an expiry date, somebody's is a PDF in a folder.
+Warren Tibbetts: And the new PMs suffer most. We hired two last year out of the general market, not healthcare, and they didn't know what they didn't know.
+Consultant: Who else does that reach?
+Warren Tibbetts: The project engineers, because they're the ones actually doing the steps. The admin who does badging. Lonnie, our safety director. And the owner sees it, because their first impression of us is whether the first three weeks are organized.
+Consultant: If you had a standard template per project type, would one template do it?
+Marisol Bettencourt: No. Three, probably. Ground-up is one thing. Occupied renovation is another, that's where all the infection control and the interim life safety stuff lives. And equipment jobs are their own animal, short and permit-heavy. The milestones are different, the whole list is different.
+Consultant: That's useful. One more thing on process, then I want to talk about why now. What happens after you hand a job over?
+Warren Tibbetts: Turnover, punch list, closeout documents, and then warranty for a year.
+Consultant: How do warranty calls come in?
+Warren Tibbetts: An inbox. Warranty at Bellamy Ridge. Somebody watches it, mostly.
+Consultant: Mostly?
+Warren Tibbetts: We lost one for three weeks. A door closer at Waverly. Which is a small thing, except the person who called it in was their facilities director, who decides who gets the next fit-out.
+Consultant: Is that in scope for what you're thinking about, or is that a different conversation?
+Marisol Bettencourt: Different conversation. I know it's a mess. It's not this year's mess.
+Consultant: Understood, I'll park it. So: why now? You mentioned the symposium, but what changed?
+Marisol Bettencourt: The Cumberland agreement. Four years, and it's not a project, it's a program. All their capital work in East Tennessee comes through us on a rolling basis. That was signed in August.
+Consultant: And it changes what for you?
+Marisol Bettencourt: Volume and reporting. Volume, we go to fifty-five-ish active. Reporting, their PMO has a quarterly program review and the first one is January fifteenth, and I have to stand up in front of their vice president of facilities and show program-level health, budget and milestones across every job we're doing for them.
+Consultant: In their format?
+Marisol Bettencourt: In something. They sent a template. It's a spreadsheet, of course. And right now the way I'd do that is Bridget, by hand, and Bridget is on leave.
+Consultant: Is there anything else with a date on it?
+Marisol Bettencourt: Next year's budget locks in November. If I want software money in my line for next year, it has to be in the number I give Corinne in November. And the two extra PMs I've asked for are in that same conversation.
+Consultant: So where does this sit on a now-versus-later scale?
+Marisol Bettencourt: Now. This is the thing I'm working on. If you'd called me in March I'd have been polite and slow.
+Consultant: What does now mean in dates?
+Marisol Bettencourt: I'd want something real running on a handful of jobs by the middle of November, so we've shaken it out before the holidays, and everything on it in time for January fifteenth.
+Consultant: A handful being?
+Marisol Bettencourt: Six. Warren's three, and three of the Chattanooga ones so it's not all one office.
+Consultant: Good. I want to put some numbers around the current state, and I'd rather build them with you than guess. Tell me if I get an input wrong. Fourteen PMs?
+Marisol Bettencourt: Fourteen. Fifteen if you count the one in Huntsville who's half estimating.
+Consultant: I'll use fourteen. Warren said four hours a week on assembling. Is four fair across the fourteen?
+Marisol Bettencourt: Four is fair. Some are quicker because they cut corners, which costs me later.
+Consultant: And a loaded hourly cost for a PM, with burden?
+Marisol Bettencourt: About ninety-five an hour.
+Consultant: So fourteen people, four hours a week, is fifty-six hours a week. Times fifty-two is two thousand nine hundred and twelve hours a year. At ninety-five, that's two hundred seventy-six thousand, six hundred and forty dollars a year.
+Marisol Bettencourt: Say that number again.
+Consultant: Two hundred seventy-six thousand, six hundred and forty.
+Marisol Bettencourt: And that's just assembling status. That's not doing anything with it.
+Consultant: That's just the assembling. Ines, ten hours a week on the grid. What's your loaded rate, Marisol, roughly?
+Marisol Bettencourt: Call it seventy-two.
+Consultant: Ten hours, fifty-two weeks, at seventy-two is thirty-seven thousand, four hundred and forty.
+Ines Kovalenko: For a spreadsheet.
+Consultant: For a spreadsheet. And the deck. Bridget, two days a month.
+Marisol Bettencourt: Sixteen hours. She's at about sixty-five loaded.
+Consultant: And your own time on it?
+Marisol Bettencourt: Half a day a month, reviewing and rewriting the summary page. Four hours. I'm at a hundred and fifteen.
+Consultant: So the deck is sixteen at sixty-five, which is one thousand and forty, plus four at one fifteen, four hundred and sixty. Fifteen hundred a month. Eighteen thousand a year.
+Marisol Bettencourt: That one feels small next to the others.
+Consultant: It does, and it's still eighteen thousand dollars of two people's time producing something you told me you don't believe. Now the staffing collisions. You said two a year, maybe three, at about fifty thousand.
+Marisol Bettencourt: That's what June cost. I'd say two is the honest average.
+Consultant: Then I'll use two, not three, and I'll show it as a range so nobody accuses us of building the case. Two at fifty is a hundred thousand a year, and it could be a hundred and fifty.
+Marisol Bettencourt: Use two.
+Consultant: So: two seventy-six six forty for PM assembling, thirty-seven four forty for the grid, eighteen thousand for the deck, a hundred thousand for collisions. That's four hundred and thirty-two thousand and eighty dollars a year.
+Marisol Bettencourt: Four hundred and thirty-two thousand.
+Consultant: With the collision piece at the low end.
+Marisol Bettencourt: That number is low, if anything. You haven't got the four hundred and eighty thousand in it.
+Consultant: I deliberately haven't, because you told me you don't know which half was avoidable, and I'd rather your number be one you can defend. It sits next to the total as a separate line, unquantified.
+Marisol Bettencourt: Okay. I like that better, actually. Four thirty-two. Huh.
+Consultant: Does that land as high, low, or about right?
+Marisol Bettencourt: About right and also horrible. It's about what one and a half PMs cost me, and it buys nothing.
+Consultant: Let's do the other direction. If the PMs got half of that assembling time back, what happens to it?
+Marisol Bettencourt: Two things. I've got two PMs in next year's budget request, at about a hundred and fifty thousand each all in. If the fourteen I have can actually carry their jobs, I hold one of those.
+Consultant: You'd hold one, not both?
+Marisol Bettencourt: I'd hold one. I'm not going to tell Curt the software means I need nobody, that's not true and he'd know it.
+Consultant: Fair. That's a hundred and fifty thousand of deferred hire, and it comes out of the same hours as the reporting number, so it isn't extra money on top, it's the same hours spent twice.
+Marisol Bettencourt: Understood.
+Consultant: What about work you're not taking today?
+Ines Kovalenko: We turned down two invitations last year because we couldn't staff them.
+Consultant: Tell me about those.
+Marisol Bettencourt: A bed tower addition in Chattanooga and an outpatient campus. Both invitations, both ours to lose. We no-bid because I could not put a name against the super line and I'm not going to bid work I can't staff.
+Consultant: What's a job like that worth to you?
+Marisol Bettencourt: Eight to twelve million in revenue, and we make about three and a half points on that kind of work.
+Consultant: So on eight million, three and a half points is two hundred and eighty thousand.
+Marisol Bettencourt: Right.
+Consultant: Is one more of those a year realistic if you could see your people properly?
+Marisol Bettencourt: One is realistic. Two is me being greedy in front of you.
+Consultant: One it is. And if capacity genuinely weren't the limit, is there something you'd go after that you can't today?
+Marisol Bettencourt: Yes, and this one keeps me up. Waverly wants one partner for their whole outpatient program. Everything, all their clinics, multi-year, same shape as the Cumberland deal. They've hinted twice. And I can't credibly say yes, because I cannot show them how we'd run twenty of their jobs at once when I can't show anybody how we run forty now.
+Consultant: That's the real one, isn't it.
+Marisol Bettencourt: That's the real one.
+Consultant: Let me ask about the finish line. Imagine this is running well in the spring. What's different in a normal week for you?
+Marisol Bettencourt: I open one screen on Monday morning and I see forty projects, with a color and a number, and I believe it. And I stop emailing people for it. If I want to know which ones are in trouble I look, I don't ask.
+Consultant: And the number is?
+Marisol Bettencourt: Budget. Where they are against where they should be. And the next owner milestone, with its date, and whether it moved.
+Consultant: What would Curt count as a win?
+Marisol Bettencourt: Curt's version is simpler than mine. He wants to walk into the second Tuesday and not be surprised. That's it. If the deck stops being a reveal, he's happy.
+Consultant: And Cumberland, in January?
+Marisol Bettencourt: If I can pull their program up on a screen in front of their VP of facilities and it's current, that's the win. That would be the best meeting I've had in two years.
+Consultant: Warren, same question. What's different for you?
+Warren Tibbetts: I enter my numbers once. That's it, that's my whole list. If I update my forecast and Marisol's summary page fills itself in, I'll be your biggest fan.
+Ines Kovalenko: And I'd like somebody to be able to answer Warren without me. If he can see that Junie's committed in October without asking me, I've got my Mondays back.
+Consultant: Okay. Let's talk about how a decision like this gets made here. If the three of you decided this was right, what happens next?
+Marisol Bettencourt: It's my budget. PMO systems come out of my line, and I've got room in it.
+Consultant: Is there a threshold where that changes?
+Marisol Bettencourt: Anything over a hundred and fifty thousand a year goes to Corinne and then the executive committee. This isn't that. So practically, I decide, Corinne's team raises the PO, and Stefan does his security review.
+Consultant: Stefan is?
+Marisol Bettencourt: IT director. And he will have a questionnaire. Single sign-on through our Microsoft tenant, where the data sits, who can export it. Two to three weeks, and he's thorough.
+Consultant: Anyone else who has to be comfortable?
+Marisol Bettencourt: Roland. Nothing touches Sage without Roland, and he is protective of Sage, and I'd say rightly. Sage is the book of record for anything with a dollar sign in this company.
+Consultant: Have you bought something like this before? How did it go?
+Marisol Bettencourt: Procore, three years ago. So I know the drill here. Security review, a pilot, then a rollout with training. That one went fine, mostly because preconstruction and the PMs actually wanted it.
+Consultant: What could get in the way of this going ahead?
+Marisol Bettencourt: Adoption. Straight away, adoption. We tried Smartsheet in twenty twenty-three and it lasted about a quarter.
+Consultant: What happened?
+Marisol Bettencourt: Double entry. You had to keep it updated and keep doing everything you were already doing, and nobody made the old thing go away. So it became another thing to update, and the PMs smiled at me and quietly didn't.
+Warren Tibbetts: I'll be blunter. If it's another thing to update, it's dead. And if the supers have to log in, it's dead twice, because they're on a phone in a trailer with one bar.
+Consultant: What would a superintendent realistically do on a phone?
+Warren Tibbetts: Two things a week. Tell you whether his date moved, and flag whatever's blocking him. That's it. Ask him for eight fields and he'll do it twice and then stop.
+Ines Kovalenko: And half our sites have no signal inside the building. They walk out to the parking lot to send anything.
+Consultant: That's exactly the right thing to tell me now rather than in March. Anything else?
+Warren Tibbetts: Yeah. We already have monday and nobody uses it.
+Consultant: Tell me about that.
+Warren Tibbetts: Preconstruction has a board in monday for tracking bids. I've been in it twice. Half the columns are empty and nobody trusts what's in it.
+Marisol Bettencourt: That's fair but it needs context. Dwayne set that up, and Dwayne left in, what, February? And nobody picked it up. Safety has one too, Lonnie's incident board, and that one's actually used every day.
+Consultant: That's a useful distinction. So one board with an owner who left, and one board with an owner who's still here and uses it daily.
+Marisol Bettencourt: When you say it like that, yes.
+Consultant: Which account is that in? Do you know what you're on?
+Marisol Bettencourt: We're on the enterprise plan, work management, about two hundred and twenty seats. Stefan owns the contract and Kyle in preconstruction is the one who actually builds things in it.
+Consultant: Is there anything of the PMO's in there today, or would this all be new?
+Marisol Bettencourt: Nothing of mine is in it. I'd assume ours would sit somewhere separate from preconstruction's, but that's yours to advise on. Whatever Stefan and Kyle can live with.
+Consultant: And should Kyle be able to change what we build?
+Marisol Bettencourt: Kyle should be able to, yes. He's the only person here who actually knows the tool. Bridget too, when she's back.
+Consultant: That's helpful, and it changes what I'd propose, so thank you. Anything else that could stop this?
+Marisol Bettencourt: Two things, and I'd rather say both out loud. Stefan's guy told him he could build this in Power BI in a couple of weeks.
+Consultant: What do you make of that?
+Marisol Bettencourt: I think he could build a report. I don't think he can build the place where people enter the information, and if the information isn't there, the report is still Bridget with a spreadsheet. But it'll come up.
+Consultant: It's a fair thing to raise, and the honest answer is a dashboard is the easy half. What's the second thing?
+Marisol Bettencourt: I should tell you we're also talking to another partner. A firm out of Nashville that did Waverly's rollout. Curt asked around and their name came up, and they're coming in next week.
+Consultant: That's a sensible thing to do, and I appreciate you telling me. What have you seen from them so far, and what would make the choice clear for you?
+Marisol Bettencourt: We've had one call. They were good, they talked a lot about their methodology. What would make it clear is whoever can show me my forty projects, with health and burn and a milestone, using our actual project names, and tell me honestly what part of it Procore and Sage still do.
+Consultant: That's a fair test and I'd rather be measured on it than on a methodology slide. Warren, one more from earlier. Kyle or somebody will ask why this isn't just Procore. What would you say?
+Warren Tibbetts: Procore is the job. Drawings, RFIs, submittals, daily reports, that's where my job lives and I'm not moving it.
+Marisol Bettencourt: And Procore doesn't do what I need, which is the thirty-thousand-foot version across forty jobs, plus the people. It does one project beautifully. I don't have a one-project problem.
+Consultant: Good, that's the line I'd hold too. Let me also ask about anything sensitive I need to know before designing anything.
+Marisol Bettencourt: Yes, and this one's not negotiable. No patient information goes in any system of ours. Ever. No photos with a patient in them, no photos of a whiteboard with names on it. Our guys work in occupied units and they have phones.
+Warren Tibbetts: Their compliance people do walk-throughs. It's a real thing.
+Marisol Bettencourt: Also our field staff's immunization records and background checks live with HR and they stay with HR. I've had people ask if that can go in a project system and the answer is no.
+Consultant: Understood, and that shapes what I'd even put a photo field on. Anything about who can see what internally?
+Marisol Bettencourt: Loaded rates. PMs see hours, they don't see each other's rates, and they don't see the numbers you and I just did. And budget, I'd want to think about. A PM seeing his own job's cost, fine. A PM seeing every job's margin, no.
+Consultant: Noted. And one more from the August meeting. If a PM moves a health status from yellow to green, do you need to know who did that and when?
+Marisol Bettencourt: Oh, yes. Yes. And if they change a milestone date I want the old date to still exist somewhere. That's the whole trust problem in one question.
+Consultant: Then let me play back what I think you'd want, and you tell me where I'm wrong. Five things.
+Marisol Bettencourt: Go.
+Consultant: One, a portfolio view of all active projects, with health, budget burn against plan, and the next owner milestone and its date. Two, a standard project template per project type, three of them, so every job starts the same way and the ICRA expiry is a tracked thing rather than a PDF. Three, allocation for PMs, superintendents and project engineers in one place that Warren can look at without asking Ines, including who's qualified for occupied work, and not field crews. Four, a view for the executive committee and something you can put in front of Cumberland in January. Five, a pilot on six projects by mid-November, then the rest.
+Marisol Bettencourt: Yes. Those five. That's what I'd sign up for.
+Consultant: Anything you'd take off?
+Marisol Bettencourt: No. I'd add that Warren enters his numbers once, but that's inside number one.
+Warren Tibbetts: I was going to say it, so yes.
+Ines Kovalenko: And field crews stay out. That's the supers' job and I don't want it.
+Consultant: Agreed, and I'll write it down as out of scope so nobody helpfully adds it later.
+Marisol Bettencourt: Then here's what I need from you. Send me a scope and a number I can put against my line before the budget lock in November. I can't take a verbal to Corinne.
+Consultant: You'll get both. And because you said the January review is the real deadline, I'd rather agree the scope with you properly than send a document that guesses. We've just done most of that.
+Marisol Bettencourt: We have.
+Consultant: So here's what I'd suggest as the next step. Give me a week and let me come back with a first cut built with your project names in it, on six jobs, so you're reacting to something real rather than to my description of it. Forty-five minutes, you three.
+Marisol Bettencourt: What day?
+Consultant: I could do Wednesday the twenty-third, early afternoon.
+Marisol Bettencourt: Warren, the twenty-third?
+Warren Tibbetts: After one, I've got an OAC at eleven.
+Marisol Bettencourt: Two o'clock Eastern on the twenty-third, then. Ines?
+Ines Kovalenko: Works.
+Consultant: Two o'clock Eastern, Wednesday the twenty-third, forty-five minutes. I'll send the invite this afternoon.
+Marisol Bettencourt: And I'll send you Cumberland's template and the summary page from August so you can see the shape of it.
+Consultant: That would help a lot. Ines, could I see the grid? Two tabs is plenty, and scrub the rates if any are in there.
+Ines Kovalenko: There aren't, but I'll look. I can send it today.
+Consultant: Warren, your forecast sheet, if you're willing.
+Warren Tibbetts: You can have it. Be kind about the formatting.
+Consultant: I have seen worse, I promise. Marisol, one more ask. Could you start Stefan's security questionnaire now rather than in three weeks? It's usually the longest thing.
+Marisol Bettencourt: I'll email him today and tell him it's coming. He'll want documentation from your side.
+Consultant: I'll send what he needs with the invite. Last question, and then I'll let you all go. Is there anything I should have asked and didn't?
+Marisol Bettencourt: Ask me in November whether I sound this motivated when the budget's due.
+Consultant: [laughs] I'll put it on the list.
+Marisol Bettencourt: No, seriously, one thing. Whatever you show me on the twenty-third, use real names. Cumberland bed tower, Waverly cath lab, Pellham. If it says Project A I'll stop listening.
+Consultant: Real names, six real jobs. Understood.
+Warren Tibbetts: And don't make it pretty at the expense of being true. I'd rather see an ugly screen with the right dates.
+Consultant: Ugly and true. That I can do. Thank you all, genuinely. Marisol, invite this afternoon.
+Marisol Bettencourt: Thanks. This was more useful than I expected, which I mean as a compliment.
+Ines Kovalenko: Bye.
+Warren Tibbetts: Thanks. Bye.

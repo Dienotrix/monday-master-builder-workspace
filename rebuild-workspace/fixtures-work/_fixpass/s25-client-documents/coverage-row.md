@@ -1,0 +1,1 @@
+| `s25-client-documents/` | the document fixture | `QP-07-sample-receipt-testing-certification-v3.2.docx`, `QP-07-F1-sample-flow.png`, `sample-tracking-what-we-need.pdf`, `transcript.txt`, `answer-key.json`, `README.md` | A16 (no lessons row) | none | 24 (11 / 8 / 1 / 3 / 1) | 2 (2) | 7 | 36 (6) | 18 | 5 (3 / 2 / 0) | 167 | reviewed 2026-10-13; fix pass applied 2026-10-13 |

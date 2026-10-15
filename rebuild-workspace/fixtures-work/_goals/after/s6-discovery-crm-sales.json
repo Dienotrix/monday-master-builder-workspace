@@ -1,0 +1,1485 @@
+{
+  "fixture": "s6-discovery-crm-sales",
+  "sources": [
+    {
+      "name": "transcript.txt",
+      "kind": "transcript",
+      "format": "line-bracket",
+      "units": 270,
+      "unsupported": null
+    }
+  ],
+  "counts": {
+    "pairs": 194,
+    "verified": 194,
+    "verified_presence_only": 25,
+    "skipped": 0,
+    "unparsed_prose": 0,
+    "near_misses": 0,
+    "misses": 0,
+    "unsupported": 0,
+    "warnings": 0
+  },
+  "refused_quotes_not_checked": [],
+  "skipped": [],
+  "pairs": [
+    {
+      "path": "/rubric[0]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Tuesday morning I pull every open quote out of P twenty-one, that's our ERP, Prophet twenty-one, and I paste them into the workbook.",
+      "location": "[03:02] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L20, 03:02, Delia Ostrowski"
+    },
+    {
+      "path": "/rubric[0]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Every rep keeps their own tab, and the columns are different in almost every one, because they set them up themselves back in twenty-nineteen and nobody ever standardised it.",
+      "location": "[03:44] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L24, 03:44, Delia Ostrowski"
+    },
+    {
+      "path": "/rubric[0]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "The quote lives in P twenty-one, the pricing lives in P twenty-one, the stock lives in P twenty-one, and everything about whether anybody's actually going to buy it lives in somebody's head.",
+      "location": "[05:11] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L32, 05:11, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[0]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Then it depends entirely on the rep. It goes in his phone, or on a sticky note, or in his tab in the workbook if he's one of the organised ones.",
+      "location": "[08:50] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L55, 08:50, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[0]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "My Monday morning call is a bunch of people telling me what they think they're going to close and me writing it on a legal pad.",
+      "location": "[13:46] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L87, 13:46, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[0]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "Nobody has opened it since, what, twenty-twenty-three?",
+      "location": "[05:58] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L40, 05:58, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[0]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "We bought monday about nine months ago for the operations side.",
+      "location": "[07:41] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L49, 07:41, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[0]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "It says Pro when I log in. And there's a whole sales CRM section in there with nothing in it, which I've clicked into maybe twice.",
+      "location": "[08:01] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L51, 08:01, Delia Ostrowski"
+    },
+    {
+      "path": "/rubric[1]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We had a sixty-two thousand dollar stocking quote sitting at Brightline for five weeks and nobody touched it.",
+      "location": "[11:34] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L73, 11:34, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[1]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Of the quotes over five thousand dollars we sent out last year, thirty-eight percent had no activity after the day they went out.",
+      "location": "[12:20] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L77, 12:20, Delia Ostrowski"
+    },
+    {
+      "path": "/rubric[1]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Nothing. There's no follow-up step. It's whether the rep remembers, and some of them are excellent and some of them are not.",
+      "location": "[13:05] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L82, 13:05, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[1]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "I cannot tell you today what's going to close this month. I can tell you what twenty-two people told me they hope will close, which is not the same thing.",
+      "location": "[04:35] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L28, 04:35, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[2]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We're launching western Pennsylvania on January fifth. Four reps, two already signed, and the first one starts December first.",
+      "location": "[19:00] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L119, 19:00, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[2]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It's real. The two signed reps start December first and January fifth, and their guarantee period starts when they start.",
+      "location": "[19:46] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L123, 19:46, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[2]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Gene wants a rolling ninety-day forecast on his desk every month starting in January.",
+      "location": "[20:02] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L125, 20:02, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[2]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "because we picked up the Northgate abrasives line for that geography in June",
+      "location": "[19:18] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L121, 19:18, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[3]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Tuesday morning and Friday morning. So call it six hours a week, and that's a quiet week.",
+      "location": "[21:33] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L132, 21:33, Delia Ostrowski"
+    },
+    {
+      "path": "/rubric[3]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Delia loaded is about thirty-five an hour. That's close enough.",
+      "location": "[21:50] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L134, 21:50, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[3]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Three hours a week, easy. Some of them more. And a chunk of that is calling Fort Wayne to ask a question they could have looked up if it was written anywhere.",
+      "location": "[22:12] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L137, 22:12, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[3]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "With the truck, the phone, benefits, all of it, about sixty an hour.",
+      "location": "[22:29] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L139, 22:29, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[3]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Four hours. The Monday call is an hour and a half of it and then I'm calling people all week to fill in what they didn't say on the call. And there's three of us doing that.",
+      "location": "[22:43] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L141, 22:43, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[3]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "Call a manager seventy an hour loaded.",
+      "location": "[22:57] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L142, 22:57, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[3]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "Managers, four hours each, three of you, that's twelve hours a week at seventy, times fifty-two, forty-three thousand six hundred and eighty. So on time alone that's two hundred and sixty thousand five hundred and twenty.",
+      "location": "[23:44] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L148, 23:44, Delia Ostrowski"
+    },
+    {
+      "path": "/rubric[3]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "Average quote over five thousand is about eight thousand. We make about twenty-five points on that kind of work.",
+      "location": "[24:20] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L150, 24:20, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[3]/evidence[8]/quote",
+      "status": "verified",
+      "quote": "If I'm honest, one in twenty of the ones we didn't chase. Some of them were never real. So twenty-three orders. Twenty-three times two thousand, that's forty-six thousand.",
+      "location": "[25:01] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L154, 25:01, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[3]/evidence[9]/quote",
+      "status": "verified",
+      "quote": "Two hundred and sixty thousand five hundred and twenty plus forty-six thousand. Three hundred and six thousand five hundred and twenty.",
+      "location": "[25:32] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L158, 25:32, Delia Ostrowski"
+    },
+    {
+      "path": "/rubric[3]/evidence[10]/quote",
+      "status": "verified",
+      "quote": "Three hundred and six thousand a year.",
+      "location": "[25:43] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L159, 25:43, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[3]/evidence[11]/quote",
+      "status": "verified",
+      "quote": "It feels low, if anything. It doesn't have my time in it, and it doesn't have the house accounts nobody's calling.",
+      "location": "[26:00] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L161, 26:00, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[4]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "About two point two million a year in revenue, at roughly the same twenty-five points.",
+      "location": "[26:21] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L163, 26:21, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[4]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Nine months, historically. That's what the last three hires took to get to a normal book.",
+      "location": "[26:32] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L165, 26:32, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[4]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Six. I'd say six, and I'd be annoyed if it wasn't.",
+      "location": "[26:48] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L167, 26:48, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[4]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "A ramping rep isn't doing full rate, so say half. Half of two point two is one point one, so a quarter of that is two hundred and seventy-five thousand each in that quarter. Four reps, that's one point one million in revenue.",
+      "location": "[27:00] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L169, 27:00, Delia Ostrowski"
+    },
+    {
+      "path": "/rubric[4]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "And a quarter of that is margin, so two hundred and seventy-five thousand. In the launch year.",
+      "location": "[27:20] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L170, 27:20, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[4]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "If I weren't rebuilding that workbook twice a week I'd be doing win-loss on the city bids. Nobody has ever looked at why we lose those.",
+      "location": "[27:44] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L174, 27:44, Delia Ostrowski"
+    },
+    {
+      "path": "/rubric[4]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "House accounts. Two hundred-odd companies that buy from us when they happen to call. Nobody's ever worked that list and I've asked for somebody to work it for three years.",
+      "location": "[27:59] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L175, 27:59, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[5]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "A normal week is: I open one screen on Monday morning and I know what's out there, what's stuck, and what closed. I don't ask twenty-two people and I don't wait for Friday.",
+      "location": "[28:26] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L177, 28:26, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[5]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "If the forecast I give him in January is within ten percent. That's it. That's his whole test. He's a numbers guy and he doesn't care how it's made.",
+      "location": "[28:44] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L179, 28:44, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[5]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Knowing who's been in front of a customer without asking anybody. And the new four getting to productive without me living in Pennsylvania.",
+      "location": "[29:00] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L181, 29:00, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[5]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Not retyping. Genuinely, that's my answer. If the summary builds itself I don't care what it looks like.",
+      "location": "[29:13] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L183, 29:13, Delia Ostrowski"
+    },
+    {
+      "path": "/rubric[6]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "This is my call. I've got a line in the sales budget and I don't need Gene's signature under forty thousand a year. Gene wants to be told, not asked.",
+      "location": "[29:34] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L185, 29:34, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[6]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Then it's a conversation with him and probably with our accountant, and it gets slower. I'd rather stay under it.",
+      "location": "[29:51] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L187, 29:51, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[6]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "We don't have an IT department, we have Halbrook Technology, and Anil over there has to bless anything that touches P twenty-one.",
+      "location": "[30:07] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L189, 30:07, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[6]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "A week or two if you ask him nicely and give him a document. Longer if it sounds like it writes anything back into P twenty-one.",
+      "location": "[30:27] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L191, 30:27, Delia Ostrowski"
+    },
+    {
+      "path": "/rubric[6]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Delia. She's the one who'd have to keep it alive, which is the part I want to ask about actually.",
+      "location": "[30:44] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L193, 30:44, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[6]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "We paid for GoldMine for six years and used it for about one. I'm not doing that again.",
+      "location": "[06:45] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L45, 06:45, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[7]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Top of the list. This is a now thing. If it's not working before December first, it's not worth doing for this launch, and then I'd rather wait until after the spring.",
+      "location": "[34:32] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L217, 34:32, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[7]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Don't try to train anybody the week of Thanksgiving. Nothing happens that week, nobody's here.",
+      "location": "[34:51] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L219, 34:51, Delia Ostrowski"
+    },
+    {
+      "path": "/rubric[7]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And the first week of the month is order entry, so the reps are useless for anything else Monday and Tuesday.",
+      "location": "[34:59] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L220, 34:59, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[8]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The reps. That's the whole risk. If it's one more thing to update, they won't, and then I've paid for GoldMine twice.",
+      "location": "[33:47] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L213, 33:47, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[8]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And if it's slow on a phone in a parking lot, forget it. My guys are not sitting down at a desk. If logging a visit takes more than about a minute in a truck, it won't happen.",
+      "location": "[33:58] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L214, 33:58, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[8]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And me getting pulled onto the inventory count again in October. That's a real risk, it happens every year.",
+      "location": "[34:13] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L215, 34:13, Delia Ostrowski"
+    },
+    {
+      "path": "/rubric[9]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Twenty-third works. Two o'clock. I'm in Toledo that day.",
+      "location": "[39:31] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L250, 39:31, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[9]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I'm free.",
+      "location": "[39:37] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L251, 39:37, Delia Ostrowski"
+    },
+    {
+      "path": "/rubric[9]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Yep, put it in.",
+      "location": "[39:39] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L252, 39:39, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[11]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "No. That's the scope. All five, nothing else for now. New rep onboarding, the bid calendar, the house account campaign, all of that can wait until this is alive.",
+      "location": "[36:52] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L234, 36:52, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[11]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Agreed. I'd add, whatever we do with my Prospects board, don't leave two of them.",
+      "location": "[37:16] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L236, 37:16, Delia Ostrowski"
+    },
+    {
+      "path": "/rubric[11]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Works for me. Five is enough.",
+      "location": "[37:33] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L238, 37:33, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[11]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Yes. And the quote itself stays in P twenty-one. You're not rebuilding our quoting.",
+      "location": "[36:01] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L226, 36:01, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[12]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I cannot tell you today what's going to close this month. I can tell you what twenty-two people told me they hope will close, which is not the same thing.",
+      "location": "[04:35] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L28, 04:35, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[12]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "A rep says a quote is hot because he remembers the visit, not because anything happened this week.",
+      "location": "[04:54] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L30, 04:54, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[13]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We had a sixty-two thousand dollar stocking quote sitting at Brightline for five weeks and nobody touched it.",
+      "location": "[11:34] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L73, 11:34, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[13]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Retyping. Honestly. Some of them put the customer in one column, some of them put customer and city together, one guy puts the quote number in the notes field. I copy it into the shape the summary needs.",
+      "location": "[04:13] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L26, 04:13, Delia Ostrowski"
+    },
+    {
+      "path": "/rubric[14]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "My Monday morning call is a bunch of people telling me what they think they're going to close and me writing it on a legal pad.",
+      "location": "[13:46] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L87, 13:46, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[14]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "A legal pad. I have a drawer of them. If you want to know what happened in March you can go read March.",
+      "location": "[14:07] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L89, 14:07, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[14]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "With four more reps and a territory we've never sold into, the legal pad stops working. It barely works now. I've got seven and I'm at the edge of it.",
+      "location": "[20:43] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L128, 20:43, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[15]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And it's not just Emmett who can't see it. I don't know what my own seven guys have out there unless I call them and ask.",
+      "location": "[13:46] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L87, 13:46, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[15]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It matters when I'm asked why a region is down and the honest answer is I don't know if anybody went out there. Gene asked me that in June about Fort Wayne and I didn't have an answer.",
+      "location": "[17:08] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L107, 17:08, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[16]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Tuesday morning and Friday morning. So call it six hours a week, and that's a quiet week.",
+      "location": "[21:33] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L132, 21:33, Delia Ostrowski"
+    },
+    {
+      "path": "/rubric[16]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Three hours a week, easy. Some of them more. And a chunk of that is calling Fort Wayne to ask a question they could have looked up if it was written anywhere.",
+      "location": "[22:12] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L137, 22:12, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[16]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Four hours. The Monday call is an hour and a half of it and then I'm calling people all week to fill in what they didn't say on the call. And there's three of us doing that.",
+      "location": "[22:43] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L141, 22:43, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[17]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Twenty-six tabs instead of twenty-two. And four tabs from people who don't know how we do it, so I'd be building those columns for them. It's worse than linear, honestly, because new people ask more questions.",
+      "location": "[21:02] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L130, 21:02, Delia Ostrowski"
+    },
+    {
+      "path": "/rubric[17]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Four new people with no history, no account records, nothing to hand them except a list out of P twenty-one of who bought what. And Wes managing seven plus four across two states off a legal pad.",
+      "location": "[20:26] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L127, 20:26, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[18]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Of the quotes over five thousand dollars we sent out last year, thirty-eight percent had no activity after the day they went out.",
+      "location": "[12:20] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L77, 12:20, Delia Ostrowski"
+    },
+    {
+      "path": "/rubric[18]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Thirty-eight percent. That number made me feel sick, honestly. I've been carrying it around since August.",
+      "location": "[12:51] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L80, 12:51, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[19]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "There were four hundred and seventy-one of them over five thousand.",
+      "location": "[12:45] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L79, 12:45, Delia Ostrowski"
+    },
+    {
+      "path": "/rubric[19]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Somebody was supposed to call them. That's it. That's the whole thing. There was no fight, we didn't get beaten on price, we just went quiet on a sixty-two thousand dollar quote.",
+      "location": "[12:01] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L75, 12:01, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[20]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Nothing. There's no follow-up step. It's whether the rep remembers, and some of them are excellent and some of them are not.",
+      "location": "[13:05] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L82, 13:05, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[20]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "P twenty-one will show me an open quote until it expires, but it won't tell anybody to do anything about it, and nobody's looking at that list except me on Tuesday.",
+      "location": "[13:19] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L84, 13:19, Delia Ostrowski"
+    },
+    {
+      "path": "/rubric[21]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Me, eventually, because it shows up as a month that missed. Wes gets it first.",
+      "location": "[13:38] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L86, 13:38, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[21]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It confuses me on Tuesdays. A rep will say the quote's dead and mean the whole thing is dead, or mean he requoted it with different pricing and there's a new number.",
+      "location": "[09:38] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L61, 09:38, Delia Ostrowski"
+    },
+    {
+      "path": "/rubric[22]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Average quote over five thousand is about eight thousand. We make about twenty-five points on that kind of work.",
+      "location": "[24:20] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L150, 24:20, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[22]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "If I'm honest, one in twenty of the ones we didn't chase. Some of them were never real. So twenty-three orders. Twenty-three times two thousand, that's forty-six thousand.",
+      "location": "[25:01] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L154, 25:01, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[23]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It feels low, if anything. It doesn't have my time in it, and it doesn't have the house accounts nobody's calling.",
+      "location": "[26:00] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L161, 26:00, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[24]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "When Rudy left in March he took his notebook with him. And that was the account history for about ninety customers. A paper notebook that walked out the door.",
+      "location": "[14:21] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L91, 14:21, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[24]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "But there's no notes, no, this guy only buys in July, no, don't call before ten. That's all gone.",
+      "location": "[15:44] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L99, 15:44, Delia Ostrowski"
+    },
+    {
+      "path": "/rubric[25]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Practically? Two of my guys called Kestrel Fabrication in the same week and neither knew the other had been there, and the buyer told the second one, your company already came in on Tuesday, are you not talking to each other. That was embarrassing. And then we gave away a price on a repeat order because the new guy didn't know what we'd quoted the year before.",
+      "location": "[14:40] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L93, 14:40, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[26]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I tell people to write things down. That's it. That's my whole system. And I can't make a rep write things down, I've tried.",
+      "location": "[15:28] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L97, 15:28, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[26]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I get the tab. I get their tab in the workbook, which is usually about a third filled in. And I'll pull their quote history out of P twenty-one for whoever takes over.",
+      "location": "[15:44] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L99, 15:44, Delia Ostrowski"
+    },
+    {
+      "path": "/rubric[27]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Not exactly. A few hundred dollars of margin on that order. But the Kestrel thing, I mean, they're a good customer, and we looked like a mess.",
+      "location": "[15:10] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L95, 15:10, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[27]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I'd want it to become the account. We shouldn't have the same company twice, that's half of what's wrong with GoldMine.",
+      "location": "[38:47] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L246, 38:47, Delia Ostrowski"
+    },
+    {
+      "path": "/rubric[28]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Not exactly. A few hundred dollars of margin on that order. But the Kestrel thing, I mean, they're a good customer, and we looked like a mess.",
+      "location": "[15:10] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L95, 15:10, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[29]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Four new people with no history, no account records, nothing to hand them except a list out of P twenty-one of who bought what. And Wes managing seven plus four across two states off a legal pad.",
+      "location": "[20:26] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L127, 20:26, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[30]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I don't. I plan ride-alongs off memory. I couldn't tell you who's actually been in front of a customer in the last ninety days, and that's the part that keeps me up, honestly, because with the new territory I'm going to have four people I've never managed.",
+      "location": "[16:13] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L101, 16:13, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[31]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Call reports were a thing we did for about six months in twenty-twenty-one. It was an email at the end of the day. It died because nobody read them, including me.",
+      "location": "[16:39] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L103, 16:39, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[31]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It matters when I'm asked why a region is down and the honest answer is I don't know if anybody went out there. Gene asked me that in June about Fort Wayne and I didn't have an answer.",
+      "location": "[17:08] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L107, 17:08, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[32]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I plan ride-alongs off memory.",
+      "location": "[16:13] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L101, 16:13, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[32]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "If it was a list I could sort. Not twenty-two emails.",
+      "location": "[16:56] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L105, 16:56, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[33]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And if it's slow on a phone in a parking lot, forget it. My guys are not sitting down at a desk. If logging a visit takes more than about a minute in a truck, it won't happen.",
+      "location": "[33:58] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L214, 33:58, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[33]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It matters when I'm asked why a region is down and the honest answer is I don't know if anybody went out there. Gene asked me that in June about Fort Wayne and I didn't have an answer.",
+      "location": "[17:08] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L107, 17:08, Emmett Thibault"
+    },
+    {
+      "path": "/rubric[34]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Four hours. The Monday call is an hour and a half of it and then I'm calling people all week to fill in what they didn't say on the call. And there's three of us doing that.",
+      "location": "[22:43] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L141, 22:43, Wes Kubiak"
+    },
+    {
+      "path": "/rubric[35]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "and that's the part that keeps me up, honestly, because with the new territory I'm going to have four people I've never managed",
+      "location": "[16:13] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L101, 16:13, Wes Kubiak"
+    },
+    {
+      "path": "/pains[0]/quote",
+      "status": "verified",
+      "quote": "I cannot tell you today what's going to close this month. I can tell you what twenty-two people told me they hope will close, which is not the same thing.",
+      "location": "[04:35] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L28, 04:35, Emmett Thibault"
+    },
+    {
+      "path": "/pains[1]/quote",
+      "status": "verified",
+      "quote": "A guess. I'll be straight with you.",
+      "location": "[04:35] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L28, 04:35, Emmett Thibault"
+    },
+    {
+      "path": "/pains[2]/quote",
+      "status": "verified",
+      "quote": "Retyping. Honestly.",
+      "location": "[04:13] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L26, 04:13, Delia Ostrowski"
+    },
+    {
+      "path": "/pains[3]/quote",
+      "status": "verified",
+      "quote": "A legal pad. I have a drawer of them. If you want to know what happened in March you can go read March.",
+      "location": "[14:07] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L89, 14:07, Wes Kubiak"
+    },
+    {
+      "path": "/pains[4]/quote",
+      "status": "verified",
+      "quote": "Or in the workbook, for about four days after I ask.",
+      "location": "[05:27] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L33, 05:27, Delia Ostrowski"
+    },
+    {
+      "path": "/pains[5]/quote",
+      "status": "verified",
+      "quote": "With four more reps and a territory we've never sold into, the legal pad stops working. It barely works now. I've got seven and I'm at the edge of it.",
+      "location": "[20:43] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L128, 20:43, Wes Kubiak"
+    },
+    {
+      "path": "/pains[6]/quote",
+      "status": "verified",
+      "quote": "We had a sixty-two thousand dollar stocking quote sitting at Brightline for five weeks and nobody touched it.",
+      "location": "[11:34] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L73, 11:34, Emmett Thibault"
+    },
+    {
+      "path": "/pains[7]/quote",
+      "status": "verified",
+      "quote": "Of the quotes over five thousand dollars we sent out last year, thirty-eight percent had no activity after the day they went out.",
+      "location": "[12:20] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L77, 12:20, Delia Ostrowski"
+    },
+    {
+      "path": "/pains[8]/quote",
+      "status": "verified",
+      "quote": "Nothing. There's no follow-up step. It's whether the rep remembers, and some of them are excellent and some of them are not.",
+      "location": "[13:05] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L82, 13:05, Wes Kubiak"
+    },
+    {
+      "path": "/pains[9]/quote",
+      "status": "verified",
+      "quote": "P twenty-one will show me an open quote until it expires, but it won't tell anybody to do anything about it, and nobody's looking at that list except me on Tuesday.",
+      "location": "[13:19] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L84, 13:19, Delia Ostrowski"
+    },
+    {
+      "path": "/pains[10]/quote",
+      "status": "verified",
+      "quote": "When Rudy left in March he took his notebook with him. And that was the account history for about ninety customers. A paper notebook that walked out the door.",
+      "location": "[14:21] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L91, 14:21, Wes Kubiak"
+    },
+    {
+      "path": "/pains[11]/quote",
+      "status": "verified",
+      "quote": "Practically? Two of my guys called Kestrel Fabrication in the same week and neither knew the other had been there, and the buyer told the second one, your company already came in on Tuesday, are you not talking to each other. That was embarrassing. And then we gave away a price on a repeat order because the new guy didn't know what we'd quoted the year before.",
+      "location": "[14:40] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L93, 14:40, Wes Kubiak"
+    },
+    {
+      "path": "/pains[12]/quote",
+      "status": "verified",
+      "quote": "But there's no notes, no, this guy only buys in July, no, don't call before ten. That's all gone.",
+      "location": "[15:44] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L99, 15:44, Delia Ostrowski"
+    },
+    {
+      "path": "/pains[13]/quote",
+      "status": "verified",
+      "quote": "I tell people to write things down. That's it. That's my whole system. And I can't make a rep write things down, I've tried.",
+      "location": "[15:28] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L97, 15:28, Wes Kubiak"
+    },
+    {
+      "path": "/pains[14]/quote",
+      "status": "verified",
+      "quote": "I don't. I plan ride-alongs off memory. I couldn't tell you who's actually been in front of a customer in the last ninety days, and that's the part that keeps me up, honestly, because with the new territory I'm going to have four people I've never managed.",
+      "location": "[16:13] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L101, 16:13, Wes Kubiak"
+    },
+    {
+      "path": "/pains[15]/quote",
+      "status": "verified",
+      "quote": "Call reports were a thing we did for about six months in twenty-twenty-one. It was an email at the end of the day. It died because nobody read them, including me.",
+      "location": "[16:39] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L103, 16:39, Wes Kubiak"
+    },
+    {
+      "path": "/pains[16]/quote",
+      "status": "verified",
+      "quote": "It matters when I'm asked why a region is down and the honest answer is I don't know if anybody went out there. Gene asked me that in June about Fort Wayne and I didn't have an answer.",
+      "location": "[17:08] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L107, 17:08, Emmett Thibault"
+    },
+    {
+      "path": "/pains[17]/quote",
+      "status": "verified",
+      "quote": "House accounts. Two hundred-odd companies that buy from us when they happen to call. Nobody's ever worked that list and I've asked for somebody to work it for three years.",
+      "location": "[27:59] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L175, 27:59, Wes Kubiak"
+    },
+    {
+      "path": "/pains[18]/quote",
+      "status": "verified",
+      "quote": "If I weren't rebuilding that workbook twice a week I'd be doing win-loss on the city bids. Nobody has ever looked at why we lose those.",
+      "location": "[27:44] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L174, 27:44, Delia Ostrowski"
+    },
+    {
+      "path": "/pains[19]/quote",
+      "status": "verified",
+      "quote": "A spreadsheet. A different spreadsheet. With due dates I update when I remember.",
+      "location": "[18:31] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L115, 18:31, Delia Ostrowski"
+    },
+    {
+      "path": "/pains[20]/quote",
+      "status": "verified",
+      "quote": "Four new people with no history, no account records, nothing to hand them except a list out of P twenty-one of who bought what. And Wes managing seven plus four across two states off a legal pad.",
+      "location": "[20:26] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L127, 20:26, Emmett Thibault"
+    },
+    {
+      "path": "/numbers/bleed/quote",
+      "status": "verified",
+      "quote": "Three hundred and six thousand a year.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L159, 25:43, Emmett Thibault"
+      ]
+    },
+    {
+      "path": "/numbers/upside/quote",
+      "status": "verified",
+      "quote": "And a quarter of that is margin, so two hundred and seventy-five thousand. In the launch year.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L170, 27:20, Emmett Thibault"
+      ]
+    },
+    {
+      "path": "/objections[0]/quote",
+      "status": "verified",
+      "quote": "Honestly, part of me thinks Delia could just build this herself in monday and we keep the money. We've already got the licences. What am I paying for?",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L195, 30:54, Emmett Thibault"
+      ]
+    },
+    {
+      "path": "/objections[1]/quote",
+      "status": "verified",
+      "quote": "I built a Prospects board in April and it died in three weeks, because I got pulled onto the physical inventory count and never went back.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L197, 31:19, Delia Ostrowski"
+      ]
+    },
+    {
+      "path": "/objections[2]/quote",
+      "status": "verified",
+      "quote": "The reps. That's the whole risk. If it's one more thing to update, they won't, and then I've paid for GoldMine twice.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L213, 33:47, Emmett Thibault"
+      ]
+    },
+    {
+      "path": "/objections[3]/quote",
+      "status": "verified",
+      "quote": "The boards purchasing built are a mess, honestly. Things in the wrong place, columns nobody fills in. Is that monday, or is that us?",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L207, 33:00, Wes Kubiak"
+      ]
+    },
+    {
+      "path": "/objections[4]/quote",
+      "status": "verified",
+      "quote": "And send me a proposal with a number by the end of next week, would you?",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L254, 39:58, Emmett Thibault"
+      ]
+    },
+    {
+      "path": "/objections[5]/quote",
+      "status": "verified",
+      "quote": "We don't have an IT department, we have Halbrook Technology, and Anil over there has to bless anything that touches P twenty-one.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L189, 30:07, Emmett Thibault"
+      ]
+    },
+    {
+      "path": "/objections[6]/quote",
+      "status": "verified",
+      "quote": "Then it's a conversation with him and probably with our accountant, and it gets slower. I'd rather stay under it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L187, 29:51, Emmett Thibault"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[0]/quote",
+      "status": "verified",
+      "quote": "Twenty-third works. Two o'clock. I'm in Toledo that day.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L250, 39:31, Emmett Thibault"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[1]/quote",
+      "status": "verified",
+      "quote": "I'll send the invite when we hang up.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L253, 39:42, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[2]/quote",
+      "status": "verified",
+      "quote": "Yes. I'll scrub it and send it. Friday?",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L240, 37:50, Delia Ostrowski"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[3]/quote",
+      "status": "verified",
+      "quote": "I'll email him this week. He'll ask you for a document, I'll warn you now.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L242, 38:11, Emmett Thibault"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[4]/quote",
+      "status": "verified",
+      "quote": "[laughs] It'll be a photo of the legal pad. I'll send it tonight.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L244, 38:28, Wes Kubiak"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[5]/quote",
+      "status": "verified",
+      "quote": "I'll look at those boards before I build anything so we're not repeating whatever happened there.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L210, 33:25, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[6]/quote",
+      "status": "verified",
+      "quote": "We won't. It's either the base for this or it gets cleaned up, and I'll come back to you with which.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L237, 37:24, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[7]/quote",
+      "status": "verified",
+      "quote": "I'll come back to you on the commercial side separately, and I'll make sure the scope in it is exactly the five we just agreed, in your words.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L255, 40:12, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[8]/quote",
+      "status": "verified",
+      "quote": "That's a good catch and I'll come back to you about where they fit.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L259, 40:52, Consultant"
+      ]
+    },
+    {
+      "path": "/requested_changes[0]/quote",
+      "status": "verified",
+      "quote": "Yes. And the quote itself stays in P twenty-one. You're not rebuilding our quoting.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L226, 36:01, Emmett Thibault"
+      ]
+    },
+    {
+      "path": "/requested_changes[1]/quote",
+      "status": "verified",
+      "quote": "I'd want it to become the account. We shouldn't have the same company twice, that's half of what's wrong with GoldMine.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L246, 38:47, Delia Ostrowski"
+      ]
+    },
+    {
+      "path": "/requested_changes[2]/quote",
+      "status": "verified",
+      "quote": "Owner, their manager, Delia, me, Gene. Not other reps. Ever.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L248, 39:01, Emmett Thibault"
+      ]
+    },
+    {
+      "path": "/requested_changes[3]/quote",
+      "status": "verified",
+      "quote": "If logging a visit takes more than about a minute in a truck, it won't happen.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L214, 33:58, Wes Kubiak"
+      ]
+    },
+    {
+      "path": "/requested_changes[4]/quote",
+      "status": "verified",
+      "quote": "Sortable. Not emails.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L230, 36:31, Wes Kubiak"
+      ]
+    },
+    {
+      "path": "/requested_changes[5]/quote",
+      "status": "verified",
+      "quote": "Agreed. I'd add, whatever we do with my Prospects board, don't leave two of them.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L236, 37:16, Delia Ostrowski"
+      ]
+    },
+    {
+      "path": "/account_context/evidence_quote_or_null",
+      "status": "verified",
+      "quote": "It says Pro when I log in. And there's a whole sales CRM section in there with nothing in it, which I've clicked into maybe twice.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L51, 08:01, Delia Ostrowski"
+      ]
+    },
+    {
+      "path": "/readiness/goals[0]/quote",
+      "status": "verified",
+      "quote": "A normal week is: I open one screen on Monday morning and I know what's out there, what's stuck, and what closed.",
+      "location": "[28:26] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L177, 28:26, Emmett Thibault"
+    },
+    {
+      "path": "/readiness/goals[1]/quote",
+      "status": "verified",
+      "quote": "If the forecast I give him in January is within ten percent.",
+      "location": "[28:44] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L179, 28:44, Emmett Thibault"
+    },
+    {
+      "path": "/readiness/goals[2]/quote",
+      "status": "verified",
+      "quote": "Knowing who's been in front of a customer without asking anybody.",
+      "location": "[29:00] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L181, 29:00, Wes Kubiak"
+    },
+    {
+      "path": "/readiness/goals[3]/quote",
+      "status": "verified",
+      "quote": "And the new four getting to productive without me living in Pennsylvania.",
+      "location": "[29:00] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L181, 29:00, Wes Kubiak"
+    },
+    {
+      "path": "/readiness/pains[0]/quote",
+      "status": "verified",
+      "quote": "I cannot tell you today what's going to close this month. I can tell you what twenty-two people told me they hope will close, which is not the same thing.",
+      "location": "[04:35] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L28, 04:35, Emmett Thibault"
+    },
+    {
+      "path": "/readiness/pains[1]/quote",
+      "status": "verified",
+      "quote": "A guess. I'll be straight with you.",
+      "location": "[04:35] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L28, 04:35, Emmett Thibault"
+    },
+    {
+      "path": "/readiness/pains[2]/quote",
+      "status": "verified",
+      "quote": "Retyping. Honestly.",
+      "location": "[04:13] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L26, 04:13, Delia Ostrowski"
+    },
+    {
+      "path": "/readiness/pains[3]/quote",
+      "status": "verified",
+      "quote": "A legal pad. I have a drawer of them. If you want to know what happened in March you can go read March.",
+      "location": "[14:07] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L89, 14:07, Wes Kubiak"
+    },
+    {
+      "path": "/readiness/pains[4]/quote",
+      "status": "verified",
+      "quote": "Or in the workbook, for about four days after I ask.",
+      "location": "[05:27] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L33, 05:27, Delia Ostrowski"
+    },
+    {
+      "path": "/readiness/pains[5]/quote",
+      "status": "verified",
+      "quote": "With four more reps and a territory we've never sold into, the legal pad stops working. It barely works now. I've got seven and I'm at the edge of it.",
+      "location": "[20:43] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L128, 20:43, Wes Kubiak"
+    },
+    {
+      "path": "/readiness/pains[6]/quote",
+      "status": "verified",
+      "quote": "We had a sixty-two thousand dollar stocking quote sitting at Brightline for five weeks and nobody touched it.",
+      "location": "[11:34] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L73, 11:34, Emmett Thibault"
+    },
+    {
+      "path": "/readiness/pains[7]/quote",
+      "status": "verified",
+      "quote": "Of the quotes over five thousand dollars we sent out last year, thirty-eight percent had no activity after the day they went out.",
+      "location": "[12:20] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L77, 12:20, Delia Ostrowski"
+    },
+    {
+      "path": "/readiness/pains[8]/quote",
+      "status": "verified",
+      "quote": "Nothing. There's no follow-up step. It's whether the rep remembers, and some of them are excellent and some of them are not.",
+      "location": "[13:05] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L82, 13:05, Wes Kubiak"
+    },
+    {
+      "path": "/readiness/pains[9]/quote",
+      "status": "verified",
+      "quote": "P twenty-one will show me an open quote until it expires, but it won't tell anybody to do anything about it, and nobody's looking at that list except me on Tuesday.",
+      "location": "[13:19] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L84, 13:19, Delia Ostrowski"
+    },
+    {
+      "path": "/readiness/pains[10]/quote",
+      "status": "verified",
+      "quote": "When Rudy left in March he took his notebook with him. And that was the account history for about ninety customers. A paper notebook that walked out the door.",
+      "location": "[14:21] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L91, 14:21, Wes Kubiak"
+    },
+    {
+      "path": "/readiness/pains[11]/quote",
+      "status": "verified",
+      "quote": "Practically? Two of my guys called Kestrel Fabrication in the same week and neither knew the other had been there, and the buyer told the second one, your company already came in on Tuesday, are you not talking to each other. That was embarrassing. And then we gave away a price on a repeat order because the new guy didn't know what we'd quoted the year before.",
+      "location": "[14:40] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L93, 14:40, Wes Kubiak"
+    },
+    {
+      "path": "/readiness/pains[12]/quote",
+      "status": "verified",
+      "quote": "But there's no notes, no, this guy only buys in July, no, don't call before ten. That's all gone.",
+      "location": "[15:44] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L99, 15:44, Delia Ostrowski"
+    },
+    {
+      "path": "/readiness/pains[13]/quote",
+      "status": "verified",
+      "quote": "I tell people to write things down. That's it. That's my whole system. And I can't make a rep write things down, I've tried.",
+      "location": "[15:28] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L97, 15:28, Wes Kubiak"
+    },
+    {
+      "path": "/readiness/pains[14]/quote",
+      "status": "verified",
+      "quote": "I don't. I plan ride-alongs off memory. I couldn't tell you who's actually been in front of a customer in the last ninety days, and that's the part that keeps me up, honestly, because with the new territory I'm going to have four people I've never managed.",
+      "location": "[16:13] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L101, 16:13, Wes Kubiak"
+    },
+    {
+      "path": "/readiness/pains[15]/quote",
+      "status": "verified",
+      "quote": "Call reports were a thing we did for about six months in twenty-twenty-one. It was an email at the end of the day. It died because nobody read them, including me.",
+      "location": "[16:39] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L103, 16:39, Wes Kubiak"
+    },
+    {
+      "path": "/readiness/pains[16]/quote",
+      "status": "verified",
+      "quote": "It matters when I'm asked why a region is down and the honest answer is I don't know if anybody went out there. Gene asked me that in June about Fort Wayne and I didn't have an answer.",
+      "location": "[17:08] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L107, 17:08, Emmett Thibault"
+    },
+    {
+      "path": "/readiness/pains[17]/quote",
+      "status": "verified",
+      "quote": "House accounts. Two hundred-odd companies that buy from us when they happen to call. Nobody's ever worked that list and I've asked for somebody to work it for three years.",
+      "location": "[27:59] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L175, 27:59, Wes Kubiak"
+    },
+    {
+      "path": "/readiness/pains[18]/quote",
+      "status": "verified",
+      "quote": "If I weren't rebuilding that workbook twice a week I'd be doing win-loss on the city bids. Nobody has ever looked at why we lose those.",
+      "location": "[27:44] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L174, 27:44, Delia Ostrowski"
+    },
+    {
+      "path": "/readiness/pains[19]/quote",
+      "status": "verified",
+      "quote": "A spreadsheet. A different spreadsheet. With due dates I update when I remember.",
+      "location": "[18:31] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L115, 18:31, Delia Ostrowski"
+    },
+    {
+      "path": "/readiness/pains[20]/quote",
+      "status": "verified",
+      "quote": "Four new people with no history, no account records, nothing to hand them except a list out of P twenty-one of who bought what. And Wes managing seven plus four across two states off a legal pad.",
+      "location": "[20:26] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L127, 20:26, Emmett Thibault"
+    },
+    {
+      "path": "/readiness/signals[0]/quote",
+      "status": "verified",
+      "quote": "If the forecast I give him in January is within ten percent. That's it. That's his whole test.",
+      "location": "[28:44] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L179, 28:44, Emmett Thibault"
+    },
+    {
+      "path": "/readiness/signals[1]/quote",
+      "status": "verified",
+      "quote": "And there's a whole sales CRM section in there with nothing in it, which I've clicked into maybe twice.",
+      "location": "[08:01] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L51, 08:01, Delia Ostrowski"
+    },
+    {
+      "path": "/readiness/signals[2]/quote",
+      "status": "verified",
+      "quote": "Inside sales takes maybe a third of the orders and they'd be typing into this too.",
+      "location": "[40:38] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L258, 40:38, Delia Ostrowski"
+    },
+    {
+      "path": "/readiness/signals[3]/quote",
+      "status": "verified",
+      "quote": "I couldn't work out how to link a company to its quotes without it getting messy.",
+      "location": "[31:44] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L199, 31:44, Delia Ostrowski"
+    },
+    {
+      "path": "/readiness/signals[4]/quote",
+      "status": "verified",
+      "quote": "A rep will say the quote's dead and mean the whole thing is dead, or mean he requoted it with different pricing and there's a new number.",
+      "location": "[09:38] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L61, 09:38, Delia Ostrowski"
+    },
+    {
+      "path": "/readiness/signals[5]/quote",
+      "status": "verified",
+      "quote": "And a chunk of that is calling Fort Wayne to ask a question they could have looked up if it was written anywhere.",
+      "location": "[22:12] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L137, 22:12, Wes Kubiak"
+    },
+    {
+      "path": "/readiness/signals[6]/quote",
+      "status": "verified",
+      "quote": "There's a couple hundred of those and they're probably worth more than we think.",
+      "location": "[10:13] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L65, 10:13, Emmett Thibault"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[0]",
+      "status": "verified",
+      "quote": "It confuses me on Tuesdays. A rep will say the quote's dead and mean the whole thing is dead, or mean he requoted it with different pricing and there's a new number.",
+      "location": "[09:38] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L61, 09:38, Delia Ostrowski"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[1]",
+      "status": "verified",
+      "quote": "Yeah. Both. Nobody's ever confused by it internally, but I can see how it's confusing from outside.",
+      "location": "[09:29] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L60, 09:29, Emmett Thibault"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[0]",
+      "status": "verified",
+      "quote": "We agree to hold their fasteners on our shelf and they commit to buying them over a year. Blanket order, same idea. Those are the good ones, they're sticky.",
+      "location": "[11:14] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L71, 11:14, Wes Kubiak"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[0]",
+      "status": "verified",
+      "quote": "No. That's the scope. All five, nothing else for now. New rep onboarding, the bid calendar, the house account campaign, all of that can wait until this is alive.",
+      "location": "[36:52] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L234, 36:52, Emmett Thibault"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[1]",
+      "status": "verified",
+      "quote": "Separate. Let's not boil the ocean. I want the pipeline first.",
+      "location": "[18:45] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L117, 18:45, Emmett Thibault"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[0]",
+      "status": "verified",
+      "quote": "I tell people to write things down. That's it. That's my whole system. And I can't make a rep write things down, I've tried.",
+      "location": "[15:28] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L97, 15:28, Wes Kubiak"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[1]",
+      "status": "verified",
+      "quote": "Because we bought it for the managers and rolled it out to the reps, and the reps decided it was a surveillance tool, and after about a year of me nagging I gave up.",
+      "location": "[06:45] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L45, 06:45, Emmett Thibault"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[0]",
+      "status": "verified",
+      "quote": "from a prospect through quoted, verbal, won or lost",
+      "location": "[35:44] Consultant",
+      "cited": "transcript.txt, L225, 35:44, Consultant"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[1]",
+      "status": "verified",
+      "quote": "Yes. And the quote itself stays in P twenty-one. You're not rebuilding our quoting.",
+      "location": "[36:01] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L226, 36:01, Emmett Thibault"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[0]",
+      "status": "verified",
+      "quote": "Two of my guys called Kestrel Fabrication in the same week and neither knew the other had been there, and the buyer told the second one, your company already came in on Tuesday, are you not talking to each other.",
+      "location": "[14:40] Wes Kubiak (Regional Sales Manager)",
+      "cited": "transcript.txt, L93, 14:40, Wes Kubiak"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[1]",
+      "status": "verified",
+      "quote": "We shouldn't have the same company twice, that's half of what's wrong with GoldMine.",
+      "location": "[38:47] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L246, 38:47, Delia Ostrowski"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[0]",
+      "status": "verified",
+      "quote": "P twenty-one will show me an open quote until it expires, but it won't tell anybody to do anything about it, and nobody's looking at that list except me on Tuesday.",
+      "location": "[13:19] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L84, 13:19, Delia Ostrowski"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[1]",
+      "status": "verified",
+      "quote": "Of the quotes over five thousand dollars we sent out last year, thirty-eight percent had no activity after the day they went out. None. No call logged, no note, no requote, nothing.",
+      "location": "[12:20] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L77, 12:20, Delia Ostrowski"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[0]",
+      "status": "verified",
+      "quote": "Or in the workbook, for about four days after I ask.",
+      "location": "[05:27] Delia Ostrowski (Sales Operations Analyst)",
+      "cited": "transcript.txt, L33, 05:27, Delia Ostrowski"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[1]",
+      "status": "verified",
+      "quote": "Gene wants a rolling ninety-day forecast on his desk every month starting in January. He asked for it in August, after Brightline, and right now I'd be making it up.",
+      "location": "[20:02] Emmett Thibault (VP of Sales)",
+      "cited": "transcript.txt, L125, 20:02, Emmett Thibault"
+    }
+  ]
+}

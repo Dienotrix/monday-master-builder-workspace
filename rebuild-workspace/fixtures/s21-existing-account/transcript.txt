@@ -1,0 +1,262 @@
+[00:00:03] Consultant: Henrietta, hi. Can you hear me all right?
+[00:00:07] Henrietta Weyland: I can hear you. Hang on, I'm going to move rooms, someone's booked the one I'm in. Give me thirty seconds.
+[00:00:16] Consultant: Take your time.
+[00:00:51] Henrietta Weyland: Okay. Better. Hi. Sorry about that. Bethan's here with me, she's just -- she's getting a coffee, and Idris is dialling in from the recruitment room, so if you hear phones, that's him.
+[00:01:04] Consultant: That's fine, I've had worse. So, how's the autumn been? Last time we spoke you had, what was it, two waves overlapping.
+[00:01:12] Henrietta Weyland: Three, in the end. It was a lot. It's calmer now, which is why I wanted to do this before it isn't.
+[00:01:22] Consultant: That's usually the right moment. And the second centre, is that open now?
+[00:01:28] Henrietta Weyland: Thornbury's open. Six recruiters up there and a room that echoes, we're working on the room. Idris can tell you more than I can, he's been up twice a week.
+[00:01:40] Consultant: Twice a week is a lot of motorway.
+[00:01:44] Henrietta Weyland: It is. He's got a playlist. Anyway.
+[00:01:48] Bethan Tull: Hi. Sorry. The machine on our floor's been broken for a week so it's a walk.
+[00:01:55] Consultant: Hi Bethan. No rush. I've been looking forward to this one, you've been building things, I hear.
+[00:02:03] Bethan Tull: [laughs] I've been building something. Whether it's a thing, we'll find out.
+[00:02:09] Henrietta Weyland: It's a thing. Don't let her do that.
+[00:02:13] Idris Machado: [crosstalk] -- sorry, hi, I'm here. Phones are going but I've shut the door.
+[00:02:20] Consultant: Hi Idris. Good to see you again. Are you still up on the third floor?
+[00:02:27] Idris Machado: Still the third floor. Still the same phones.
+[00:02:32] Consultant: [laughs] Some things don't change. Okay. So, you emailed saying two things. You want the costing board Bethan's been building to actually get finished, and you want the recruiter side back in some form. I'd like to spend most of the time on where each of those really is, and I'll stay off the renewal except for one thing I need to say from my side, later.
+[00:03:00] Henrietta Weyland: That's it. And the costing piece is the bigger one, by a distance.
+[00:03:07] Consultant: Then let's start there in a minute. First, just so I've got it straight, tell me what's actually live from what we did, and what isn't. Don't spare me.
+[00:03:20] Henrietta Weyland: The Studies board is the thing that works. Every brief goes on it, the account leads live on it, and the Friday email goes out off it without anybody touching it.
+[00:03:33] Henrietta Weyland: Don't touch the Friday email. I mean that. The account leads would notice before I did.
+[00:03:41] Consultant: Who reads it, these days?
+[00:03:44] Henrietta Weyland: The five account leads, me, Hamish on his phone at the weekend, which I wish he wouldn't. It's the status column, basically, um, one line per study, what's fielding, what's costed, what's waiting on the agency. That column's got, what, seven labels, and two of them mean the same thing now, but nobody's touched it.
+[00:04:07] Consultant: Understood. What else?
+[00:04:10] Henrietta Weyland: Finance runs the Incentives board and Philippa would riot if anyone went near it. That one's hers now, honestly, more than it's ours.
+[00:04:20] Consultant: That's the best outcome for that board. And the rota?
+[00:04:25] Idris Machado: The rota board's dead. It's still in there, but nobody's put anything on it in about a year.
+[00:04:34] Consultant: What happened to it?
+[00:04:36] Idris Machado: They went back to the sheet inside three months. Leonie was doing it twice, once on the board and once on the sheet, and the sheet won.
+[00:04:48] Henrietta Weyland: Which, to be fair to Leonie, was always -- that was always going to happen. Nobody was checking.
+[00:04:55] Consultant: That's on both of us, and I'd rather -- I'd rather own my half of it. And the Studies board, who changes things on it now? Labels, columns, um, that sort of thing.
+[00:05:08] Henrietta Weyland: Nobody, really. The honest thing is every time we wanted a label changed we had to email you and wait, and after a while people stopped asking.
+[00:05:20] Consultant: That's fair, and I'd rather hear it than not.
+[00:05:25] Henrietta Weyland: I'm not blaming you. We didn't know how to do it ourselves and I'm not sure anyone was meant to.
+[00:05:34] Bethan Tull: I think you're still an admin on it. You and Hamish, and that's it. I'm a member, I think, I've never checked.
+[00:05:44] Consultant: We'll check that rather than guess it. It's one of the things I'd want to, er, to leave different this time, so it's yours to change.
+[00:05:55] Henrietta Weyland: That's the thing I'd do differently, honestly. Last time it was built and handed over and the handover was a call. This time I want someone here who can change things.
+[00:06:09] Bethan Tull: Which is partly why I built the costing thing on my own. I didn't want to email and wait.
+[00:06:18] Consultant: Say more about that. What is it, roughly, before we look at it?
+[00:06:24] Bethan Tull: It's a board with a form on the front, one item per brief, and the cells are subitems. I'll show you, it's easier than describing it.
+[00:06:36] Consultant: Good, let's do that in a bit. Anything else running that I should know about? Anything of ours that's changed since I last looked?
+[00:06:47] Henrietta Weyland: No. Studies, Incentives, the Friday email. The rota's dead, the costing board is Bethan's. That's the estate.
+[00:06:55] Consultant: And headcount, roughly, since I last had it?
+[00:06:59] Henrietta Weyland: About seventy. Seventy-ish. Twenty-eight recruiters across the two centres, five account leads, three fieldwork managers, a small analysis team, and the office. Philippa's finance, all of finance, on her own with a part-timer.
+[00:07:13] Henrietta Weyland: We're on Pro, I think it's thirty-something seats, the renewal's got the actual number on it. I haven't looked at it properly yet, sorry.
+[00:07:24] Consultant: No need to apologise, that's what it's for. Okay. That matches what I've got. So, costing. Bethan, walk me through it as it is today, before your board. Where does a brief start?
+[00:07:39] Bethan Tull: A brief comes in from an agency, usually by email, sometimes a call. The account lead puts it on the Studies board, that bit's -- that bit's fine. Then one of us, one of the three fieldwork managers, costs it.
+[00:07:55] Bethan Tull: And costing it means the sheet. Every brief gets costed in the sheet, and the sheet is a copy of a copy of a copy. There's no version of it that's the real one.
+[00:08:10] Consultant: What's in the sheet?
+[00:08:12] Bethan Tull: Cells. So a study has, say, four cells, four audience groups, sorry, that's what a cell is, each one's got an n, that's how many people, an incentive per head, a recruit cost per head, and moderation hours if it's qual. You cost each cell and then you add them up at the bottom.
+[00:08:33] Consultant: And cells is your word, or the agencies'?
+[00:08:38] Bethan Tull: Everyone's. Agencies say cells, we say cells. Sometimes they say quotas and mean the same thing, which doesn't help.
+[00:08:46] Consultant: And qual versus quant, does the sheet change?
+[00:08:51] Bethan Tull: If it's quant there's no moderation line, it's all incentive and recruit, and the n is bigger. Qual's small n, big moderation. Same sheet, different columns filled in. Which is another way for it to go wrong, because someone fills in moderation on a quant study and nobody notices.
+[00:09:12] Consultant: Noted. And where does it go wrong?
+[00:09:16] Bethan Tull: Where doesn't it. The Farraday one. The incentive line was in there twice, once per cell and once at the bottom, and I didn't catch it, and the number went to the agency doubled up on the incentives and light everywhere else, and we ate it.
+[00:09:36] Henrietta Weyland: About six thousand, all in.
+[00:09:39] Consultant: When was that?
+[00:09:41] Henrietta Weyland: End of the summer. It was the thing that tipped it, for me.
+[00:09:47] Bethan Tull: It wasn't even a hard study. It was four cells.
+[00:09:52] Henrietta Weyland: Beth did the corrected one at eleven at night, from home, because the agency wanted it first thing. That's the bit that annoys me, more than the money.
+[00:10:05] Bethan Tull: It's fine.
+[00:10:07] Henrietta Weyland: It's not fine, but okay.
+[00:10:10] Consultant: How long does the sheet take you, a normal week?
+[00:10:15] Bethan Tull: The costing sheet is my Friday. Every Friday. Four hours, sometimes five, just re-keying cells and checking the sums against each other.
+[00:10:25] Consultant: Every Friday.
+[00:10:27] Bethan Tull: Every Friday. And the other two fieldwork managers do the same for theirs, less than me, they've got fewer cells, call it half that each.
+[00:10:38] Consultant: What does re-keying actually mean, like, minute to minute? Walk me through a Friday.
+[00:10:44] Bethan Tull: I open the brief email. I copy each cell into the sheet, n, incentive, recruit cost, by hand, because the agencies all send it differently. I check the sums against last month's version of the sheet, because the formulas drift when someone's copied it. Then I type the total onto the Studies board so the account lead can see it, and then I email the account lead anyway, because they don't always look.
+[00:11:16] Bethan Tull: And then on Monday one of them adds a cell and I do it again, smaller.
+[00:11:23] Henrietta Weyland: And the version of the sheet Philippa has is a different file. It's the same sheet, it's just not the same file.
+[00:11:33] Consultant: How many briefs are we talking about, a month?
+[00:11:38] Bethan Tull: Between the three of us we cost, what, twelve, fifteen briefs a month? Fifteen in a busy month.
+[00:11:46] Henrietta Weyland: Fifteen's high. Twelve, twelve is normal.
+[00:11:49] Henrietta Weyland: Beth, how many of those get a cell added after you've costed them? Actually, not roughly.
+[00:11:57] Bethan Tull: Once a study. Nearly every study. The agency comes back with one more audience, or the brand wants a boost sample, and it's a fifth cell.
+[00:12:08] Henrietta Weyland: So every study is costed twice.
+[00:12:12] Bethan Tull: At least twice. Some of them three times.
+[00:12:16] Consultant: Okay, twelve to fifteen. And who else is stuck while that's happening?
+[00:12:22] Bethan Tull: The account leads sit on their hands until I'm done, because they can't send a number they haven't got. And then Philippa re-keys the whole thing into the accounting system for the invoice, so it's typed three times before anyone gets paid.
+[00:12:40] Bethan Tull: And the number the client gets is not the number finance sees, because they're two different sheets by then.
+[00:12:49] Consultant: The client being the agency.
+[00:12:52] Bethan Tull: The agency, yes. Or the brand, if it's direct, but mostly the agency.
+[00:12:59] Consultant: What's changed that makes this the thing now? Because you've had the sheet for, what, years.
+[00:13:05] Henrietta Weyland: What's changed is we picked up three, no, two new agency clients since the summer, and both of them want a costed brief back inside forty-eight hours. We've never worked like that.
+[00:13:19] Henrietta Weyland: We've always been a week. A week was fine. It's not fine any more.
+[00:13:26] Consultant: And if it stays as it is?
+[00:13:30] Henrietta Weyland: If we keep doing it in the sheet we will lose one of them. Not might. Will. They've said so.
+[00:13:39] Consultant: They've said so.
+[00:13:41] Henrietta Weyland: In a review. Politely. But yes.
+[00:13:45] Consultant: Okay. Let me ask the money question, because I have to. What's that time worth, roughly? Do you carry a loaded rate for a fieldwork manager?
+[00:13:57] Henrietta Weyland: I don't carry loaded rates around in my head. That's Philippa's, and I'd rather she gave you the real number than I guessed at one.
+[00:14:08] Consultant: Sure. If we said, I don't know, forty an hour just to --
+[00:14:14] Henrietta Weyland: Don't. Get it from Philippa.
+[00:14:17] Consultant: Fair. Withdrawn. I'll get it from Philippa.
+[00:14:21] Henrietta Weyland: She'll have it to the penny. She'll enjoy being asked.
+[00:14:26] Consultant: Then let's look at the board. Bethan?
+[00:14:30] Bethan Tull: Can I share my screen? It's easier if you just see it.
+[00:14:34] Consultant: Please.
+[00:14:51] Bethan Tull: Right. Can you see it? Okay. So this is the costing board. Ignore the numbers, those are made up, I put test rows in so the formulas had something to chew on.
+[00:15:05] Consultant: I can see it. Take me through it the way you'd take a new fieldwork manager through it.
+[00:15:14] Bethan Tull: Form on the front. So the account lead fills it in, brief name, agency, field dates, how many cells, um, that makes the item. Then I go in and add the cells.
+[00:15:27] Bethan Tull: Each cell is a subitem. n, incentive per head, recruit cost per head, moderation hours. The formula on the subitem gives me a cell total, that works.
+[00:15:39] Consultant: Where does n come from, the brief or the screener?
+[00:15:44] Bethan Tull: The brief. It changes when the screener's signed off, and then I change it by hand.
+[00:15:52] Consultant: And the brief name here, is that the code or the agency's title?
+[00:15:58] Bethan Tull: The code. Same as the Studies board. We never put the brand on a board.
+[00:16:05] Consultant: And the code here and the code on Studies, how do they meet? Is it typed twice?
+[00:16:13] Bethan Tull: Typed twice. I type it on the form, well, the account lead types it on the form, and they've already typed it on Studies. If they don't match, they don't match. I've had one with a space in it that never lined up.
+[00:16:32] Consultant: What's the incentive field, a number or text?
+[00:16:36] Bethan Tull: Number. Well. It was text for a month, because I built it in a hurry, and the formula did nothing and I couldn't work out why. I fixed that. It's a number now.
+[00:16:51] Consultant: Good. Keep going.
+[00:16:53] Bethan Tull: Here's where I'm stuck. The subitem summary gives me the sum of the cell totals, fine, I can see it. But I can't get that number into a formula on the parent, and I can't get the Studies board to read it, and I've tried it four ways.
+[00:17:14] Consultant: Four ways.
+[00:17:16] Bethan Tull: Four that I can remember. A formula on the parent, a mirror, a, um, a number column I typed into, which defeats the point, and something with a dashboard that I gave up on.
+[00:17:30] Consultant: What was the dashboard trying to do?
+[00:17:34] Bethan Tull: Add up the study totals per agency, per month. Which is the other thing I want, so I'll come back to it. It showed me a number I didn't trust, so I stopped.
+[00:17:49] Consultant: Can you click into the summary column, the one on the parent, and show me what it offers you?
+[00:17:57] Bethan Tull: This one? It offers me... sum, average, and whatever this is. And I can't reference it from the formula, see, it's not in the list.
+[00:18:09] Bethan Tull: See. That's what I mean.
+[00:18:12] Consultant: I see it. What breaks it, day to day? Say it all worked. What's the thing that goes wrong?
+[00:18:20] Bethan Tull: Someone adds a cell after it's costed. Then the summary moves and the parent doesn't, and nobody -- nobody notices until Philippa does.
+[00:18:30] Consultant: Who adds cells late?
+[00:18:33] Bethan Tull: Account leads. The agency comes back with a fifth audience and they just add it. Which is right, that's what it's for. It's the number that doesn't follow.
+[00:18:45] Consultant: And when the screener changes n, same thing?
+[00:18:49] Bethan Tull: Same thing. Anything that changes after I've looked at it, I have to go back and look at it again, and I don't always know it's changed.
+[00:19:02] Henrietta Weyland: Which is the sheet problem again, just on a board.
+[00:19:07] Bethan Tull: It's the sheet problem again. I did wonder, honestly, whether it's just not the right tool for the costing bit.
+[00:19:16] Consultant: It might be the setup rather than the tool, and I'd rather check that on your board than tell you either way now. There are two ways I'd want to try. One, keep your cells as subitems and get the total onto the parent in a way the Studies board can read through a connection. Two, put the costing onto the Studies board itself and retire the second board.
+[00:19:46] Consultant: I've built the first before. I haven't tried it against a form like yours, so I'm not promising it until I've done it on a copy.
+[00:19:57] Bethan Tull: Either of those would do it, honestly. The first one. I don't want to lose the form.
+[00:20:05] Consultant: Why the form?
+[00:20:07] Bethan Tull: Because the account leads will fill in a form. They will not open a board and add an item. I've watched them not do it.
+[00:20:19] Henrietta Weyland: That's true. That's very true.
+[00:20:22] Consultant: Noted, the form stays. Am I on this board?
+[00:20:26] Bethan Tull: No. It's in my own workspace. I'd have to add you, and I'll need to ask the IT people how you're meant to come in, they have opinions about guests.
+[00:20:40] Consultant: That's their call, not mine. Ask them and tell me what they say, and I'll do it whichever way they, whichever way they want.
+[00:20:49] Bethan Tull: I'm, like, eighty percent there. It's the last bit.
+[00:20:54] Henrietta Weyland: How long would that take you, the first one?
+[00:20:59] Consultant: I'm not going to -- I'm not going to put a number or a time on it until I've read the board properly. What I've seen is the form and the cells. What I still need to look at is the connection to the Studies board and what happens when a cell's added late. That's the session I'd want next.
+[00:21:23] Henrietta Weyland: Fine. I'd rather that than a guess.
+[00:21:26] Bethan Tull: Let me stop sharing. Hang on.
+[00:21:36] Consultant: Thanks, that was useful. Genuinely, that's -- that's most of the work already done, and it's done in your words, which is the part I can't do, so.
+[00:21:47] Bethan Tull: The other thing I want out of it, and this is the bit Henrietta actually cares about, is a monthly view per agency of what we costed against what --
+[00:22:01] Consultant: Mm-hm.
+[00:22:02] Bethan Tull: -- against what it actually came in at. Costed versus actual. Because right now that's a question I get asked and can't answer.
+[00:22:12] Henrietta Weyland: I ask it about once a month and get a shrug. A polite shrug.
+[00:22:19] Bethan Tull: A very polite shrug.
+[00:22:22] Consultant: Where does actual live today?
+[00:22:25] Bethan Tull: In Philippa's system. The accounting one. It doesn't live anywhere I can see.
+[00:22:31] Consultant: Okay. That's a question for later, not now, but I've written it down. Idris, the recruiters. Tell me where it is.
+[00:22:41] Idris Machado: So the recruiters don't know their week until Leonie's done the sheet, and Leonie doesn't do the sheet until the field dates are in, and the field dates move.
+[00:22:54] Idris Machado: So it's always late and it's always wrong somewhere.
+[00:22:58] Idris Machado: Sorry, hang on. [crosstalk] No, tell her I'll ring her back. Sorry. Where was I.
+[00:23:05] Consultant: Always late and always wrong somewhere.
+[00:23:09] Idris Machado: Right. Yes.
+[00:23:10] Consultant: What does wrong look like?
+[00:23:13] Idris Machado: Three weeks ago we had a Saturday session with two recruiters booked on it and neither of them knew. Twelve respondents turned up to an empty room and the account lead had to ring round apologising.
+[00:23:29] Consultant: How did that happen, do you know?
+[00:23:33] Idris Machado: The field dates moved on the Wednesday. The Studies board had the new dates, because the account lead changed them, which is right. Leonie's sheet had the old ones, because nobody told her. And the photo in the chat was from the Monday. The two things don't know about each other.
+[00:23:55] Idris Machado: And the recruiters look at the photo. Not the board. The board's never had the sessions on it.
+[00:24:04] Henrietta Weyland: That one got to Hamish.
+[00:24:07] Consultant: How does the sheet work, day to day?
+[00:24:11] Idris Machado: Leonie does the sheet, colour codes it, and takes a photo of it. The photo goes in the group chat. That's the system.
+[00:24:21] Consultant: A photo of the sheet.
+[00:24:24] Idris Machado: A photo of the sheet. And it works, mostly, because Leonie's very good. When she was off for a week in the summer nobody could read the colours and we lost two sessions.
+[00:24:39] Consultant: Who else ends up dealing with it when it goes wrong?
+[00:24:45] Idris Machado: The recruiters, obviously. The respondents, who've given up a Saturday. And whichever account lead has to ring the agency and explain.
+[00:24:54] Consultant: How long does the sheet take Leonie, do you know?
+[00:24:59] Idris Machado: I genuinely don't. It's not something I've timed and I'd be making it up. Ask Leonie.
+[00:25:07] Henrietta Weyland: Ask Leonie. Don't take a number from us on that.
+[00:25:12] Consultant: I won't. And if nothing changes, a year from now?
+[00:25:17] Idris Machado: It'll be worse with the second centre, probably. Thornbury's got its own recruiters and they'll want the same sheet. I don't know.
+[00:25:27] Idris Machado: It's the same sheet, just [inaudible] for Thornbury.
+[00:25:31] Consultant: Sorry, you dropped out for a second there.
+[00:25:35] Idris Machado: A second copy. For Thornbury. Which is exactly what we said we wouldn't do.
+[00:25:42] Consultant: Right. And the recruiters themselves. Last time it was the board, they went back to the sheet, we've said that. So what's, what's different this time?
+[00:25:52] Idris Machado: Leonie's got the sheet down to a fine art, honestly. She'd rather keep it. That's the thing you're up against.
+[00:26:01] Idris Machado: But if it was on the screen in the recruitment room, the big one, and it was right, they'd use it. They used the board when it was right. It just stopped being right.
+[00:26:16] Consultant: What made it stop being right?
+[00:26:20] Idris Machado: Nobody owned it. Leonie owned the sheet, nobody owned the board.
+[00:26:25] Consultant: Would Leonie own a board, if it was hers?
+[00:26:30] Idris Machado: If it was hers and not something done to her, maybe. Maybe. She'd need to be in the room when it's built, not shown it after. That's what happened last time, she was -- she was shown it after.
+[00:26:45] Henrietta Weyland: That's fair. That's on me, that one.
+[00:26:49] Consultant: And the screen in the recruitment room, what's on it now?
+[00:26:54] Idris Machado: The phone queue. Who's on a call, who's waiting. It's a big telly on the wall, it's, er, it could show anything, it's just a browser.
+[00:27:05] Consultant: One thing I want to ask while we're here, um, before I forget. The recruiters have respondent details somewhere. Where do those live?
+[00:27:14] Idris Machado: The panel software. Names, numbers, what they've done before, all of that stays in there. It never goes near a board and it never will, we've been through that with the, er, the agencies' compliance people more than once.
+[00:27:31] Consultant: Good. So a recruiter week on a board is sessions and names of recruiters, not respondents.
+[00:27:38] Idris Machado: Sessions, rooms, which recruiter, how many needed. Never who the respondents are. That's the line.
+[00:27:45] Henrietta Weyland: The rota I'd want to see how you'd do it before I say yes to it. We've been here before.
+[00:27:54] Consultant: That's fair, and I'd want you to. Anything else on that side?
+[00:28:00] Idris Machado: The one thing is recruitment can't take anything new in the last two weeks of a wave, and there's one starting the week after next. So whatever we do, it's not then.
+[00:28:15] Consultant: Noted. Okay. Henrietta, let me ask the outcome question. Imagine this is running well in the spring. What's different in a normal week?
+[00:28:25] Henrietta Weyland: A brief comes in, Bethan costs it once, in one place, and the number that goes to the agency is the number Philippa sees. That's it. That's the whole thing.
+[00:28:38] Consultant: One place meaning?
+[00:28:41] Henrietta Weyland: Meaning I don't care where, as long as there's one of it. If the number's on Beth's board and the Studies board shows it and Philippa reads it off the same thing, that's one place. If it's three files that agree, that's not.
+[00:28:59] Bethan Tull: And I get my Fridays back.
+[00:29:03] Idris Machado: And the recruiters can see their week without Leonie retyping it.
+[00:29:08] Henrietta Weyland: Hamish just wants to stop hearing about the sheet. That's his win condition, if you want one.
+[00:29:16] Consultant: I'll take it. Is this something for this quarter, or later on?
+[00:29:22] Henrietta Weyland: Now. The costing piece, now. I'm not going to put a date on it, we did that with the rota and it just moved.
+[00:29:33] Consultant: Fair. Is there anything on your side that puts a date on this? A wave, a contract, a year end?
+[00:29:42] Henrietta Weyland: No. Honestly, no. There's no date. It's just been getting worse and I'm tired of it.
+[00:29:50] Consultant: Okay. And the other way round. If a costed brief went back in a day instead of a week, what does that do for you?
+[00:30:01] Henrietta Weyland: We'd stop losing the short-notice ones. I'm not going to put a number on that today, I'd be guessing.
+[00:30:10] Bethan Tull: It's more than you'd think.
+[00:30:13] Henrietta Weyland: It's more than I'd like to say out loud without checking.
+[00:30:19] Consultant: That's fine, I'd rather no number than a guessed one. Decision-wise. If we go ahead, who's involved, and who says yes?
+[00:30:28] Henrietta Weyland: Bethan runs it. I am not going to be in the weeds on this one. But anything that touches the Studies board or the Friday email, I want to see it and say yes before it goes live.
+[00:30:45] Henrietta Weyland: Spend is mine, up to what Hamish set for systems this year. The renewal plus this is inside that, I think. I'd want to check the number before I say it out loud.
+[00:31:00] Consultant: That's fine. I don't need it today.
+[00:31:03] Consultant: And if it's over?
+[00:31:06] Henrietta Weyland: Then it's a conversation with Hamish, and he'll say yes if it's the sheet. But I don't think it's over.
+[00:31:15] Henrietta Weyland: Philippa has to be fine with anything that goes near the Incentives board. She doesn't sign, but she can stop it.
+[00:31:25] Consultant: And after a yes, what actually happens? Purchase order, contract?
+[00:31:30] Henrietta Weyland: We don't do purchase orders for this. It goes on the card, same as the renewal. Then it's Beth's.
+[00:31:39] Consultant: And last time, the rota build, did that go through the same way?
+[00:31:45] Henrietta Weyland: Same way. On the card, nobody blinked. The number was small enough that it never went near Hamish, and it won't this time either unless the two of you go mad.
+[00:31:59] Consultant: We won't. And one more, while I think of it, sorry. The Incentives board, does it hold anything about how people get paid? Bank details, that kind of thing?
+[00:32:11] Henrietta Weyland: No. No, Philippa keeps all of that in the accounting system. The board says who's owed what and whether it's paid, and that's all it says. She was very clear about that when you built it, and she's still clear about it.
+[00:32:29] Consultant: What could stop it? Honestly.
+[00:32:32] Henrietta Weyland: The recruiters, we've talked about. The IT people and how you get in. And Philippa, if she thinks it touches her board.
+[00:32:42] Idris Machado: And the wave.
+[00:32:45] Henrietta Weyland: And the wave.
+[00:32:47] Consultant: Okay. That's clear, thank you.
+[00:32:50] Henrietta Weyland: One thing. When you send the renewal through, can the extra piece be on the same sheet? I'd rather sign one thing.
+[00:33:00] Consultant: Happy to, once we've agreed what it covers, and I won't put a number on the costing piece until I've read Bethan's board. So it may be two sheets, or one sheet later. I'd rather it was right.
+[00:33:17] Henrietta Weyland: Later is fine if it's one thing.
+[00:33:20] Consultant: Which brings me to the one thing from my side. The pricing on the renewal quote I sent you is held until the twentieth of November. That's my constraint, not yours, and I'm saying it so it's on the table and not a surprise.
+[00:33:40] Henrietta Weyland: Noted.
+[00:33:41] Bethan Tull: Right. So the monthly view. Does that come with the first bit or after?
+[00:33:48] Consultant: After, I think, but let me play back what I think the whole shape is, and tell me where I'm wrong.
+[00:33:57] Consultant: Inherited. Bethan's costing board as it stands, the form, the cells as subitems, the cell totals. In scope from me. Getting the total onto the parent, the Studies board reading it, the monthly costed-versus-actual view per agency, and a recruiter week view, if Henrietta says yes to it after she's seen how. On your side. Bethan adds me to the board, and Idris gets me the columns off Leonie's sheet. And the access piece, whatever the IT people say. That's it. Four parts.
+[00:34:33] Henrietta Weyland: That's the shape. The rota is a maybe until I've seen it. The rest, yes.
+[00:34:40] Henrietta Weyland: One condition on the Studies board. No new columns the account leads have to fill in. They fill in the form and they read the status, that's all they'll do, and I'm not going to make them do more.
+[00:34:57] Consultant: Understood. Anything that lands on Studies is read, not typed.
+[00:35:02] Henrietta Weyland: Read, not typed. Good way of putting it.
+[00:35:06] Bethan Tull: And I want to be able to change a label on the Studies board without emailing you.
+[00:35:14] Consultant: That's a change to something that's live, so it's your yes, Henrietta, not mine.
+[00:35:21] Henrietta Weyland: Yes to that. Show her how and then it's hers.
+[00:35:26] Idris Machado: And bin the old rota board. Nothing on it's been real for a year.
+[00:35:33] Consultant: I'd archive it rather than delete it, so it's out of the way and still there if anyone asks.
+[00:35:42] Idris Machado: Fine. Whatever gets it out of the sidebar.
+[00:35:46] Consultant: Before we do next steps. Is this worth taking forward, from where you sit?
+[00:35:53] Henrietta Weyland: Yes. The costing piece, yes, today. The rota, show me.
+[00:35:58] Consultant: Then here's what I'd suggest. I'll send Bethan a booking link today, for forty-five minutes, just the two of us, where you walk me through the costing board cell by cell and I try the two approaches on a copy of it. Bethan, you pick the slot.
+[00:36:18] Bethan Tull: Yes. Send it. I'll grab something next week, once the wave's started it goes quiet for me.
+[00:36:26] Consultant: And Henrietta, on the rate, shall I find some times with Philippa?
+[00:36:32] Henrietta Weyland: I'll put you two in touch. Leave that with me.
+[00:36:37] Consultant: Thank you. I'll send a short recap tomorrow, what I heard and the next steps, so you can correct anything I got wrong. And I'll say plainly in it that there's no number on the costing piece yet.
+[00:36:54] Henrietta Weyland: Good. Say that. Hamish reads those.
+[00:36:57] Bethan Tull: I'll add you to the board once the IT people come back to me. Might be a few days.
+[00:37:06] Consultant: That's fine. Idris, the columns off Leonie's sheet, whenever's easy, a photo is fine.
+[00:37:13] Idris Machado: [laughs] A photo is literally how we do it. I'll send one today.
+[00:37:19] Consultant: Then that's everything from me. Thank you, all three of you.
+[00:37:25] Henrietta Weyland: Thanks. Speak soon.
+[00:37:27] Idris Machado: Cheers. Bye.
+[00:37:29] Bethan Tull: Bye.
+[00:37:30] Henrietta Weyland: Beth, hang on a second, I want to go through the Farraday invoice before Philippa sends it.
+[00:37:38] Bethan Tull: Yep. Let me end the --

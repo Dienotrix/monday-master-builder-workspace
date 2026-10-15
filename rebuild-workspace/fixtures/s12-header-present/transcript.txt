@@ -1,0 +1,674 @@
+================================================================
+TRANSCRIPT
+Title:        Ashenholt sample tracking - discovery
+Recorded:     Thursday, 8 October 2026, 14:02 Central
+Duration:     00:43:44
+Meeting ID:   552 019 8834
+Account ID:   7720-4418-3391
+Organizer:    Fenella Bracewell
+
+Participants (14), captured at recording start
+
+  Ashenholt Environmental Laboratories
+    Matthias Okonkwo-Reyes ......... Laboratory Director
+    Fenella Bracewell .............. Client Services Manager
+    Ronan Kavanagh ................. Administrative Assistant
+    Beatrix Oyelaran ............... Controller
+    Casimir Wendl ..................
+    Arjun Chandrasekar ............. IT Systems Administrator
+    Temitope Adebayo ............... Laboratory Information Systems Lead
+    Winifred Quintero .............. Business Development Director
+    Meeting Notes Assistant ........
+  Marrowfell Group
+    Sigrid Thorvaldsen ............. VP Operations, Laboratories
+    Ebenezer Mensah ................ Health and Safety Officer
+
+  External
+    Consultant ..................... (guest)
+    Celeste Nwachukwu .............. Project Manager (guest)
+    Recorder .......................
+Speaker labels are taken from voice profiles where a participant has one
+enrolled, otherwise from the sign-in name.
+================================================================
+
+Consultant   14:02:15
+Hi, hello. I think I can see most of you now. Can you hear me all right?
+
+Fenella Bracewell   14:02:24
+We can hear you. Give it a -- give it a second, people are still trickling in. Matthias, are you on?
+
+Matthias Okonkwo-Reyes   14:02:34
+I'm on. I'm in the conference room off the main lab, and Bartholomew's in here with me, so if you hear a second voice out of my square, that's him.
+
+Bartholomew Nkemelu   14:02:47
+Hello. Bartholomew. I do quality. I'll mostly listen.
+
+Consultant   14:02:53
+Hi Bartholomew, good to have you. Listening is fine, and if I say anything that would make an assessor twitch, please stop me.
+
+Bartholomew Nkemelu   14:03:04
+[laughs] I will.
+
+Fenella Bracewell   14:03:08
+Sigrid's here, Ronan's here, Casimir is -- Casimir, are you in the van?
+
+Casimir Wendl   14:03:16
+I'm in the van. I'm parked, I'm parked. I'm not driving, before anyone asks.
+
+Fenella Bracewell   14:03:22
+Good. Celeste is on her phone from a site, Arjun's on for the IT side. Winifred's on but she's double-booked, she said she'd follow in the chat. And Beatrix and Temitope and Ebenezer are on, I think, they're just quiet.
+
+Sigrid Thorvaldsen   14:03:41
+Hi. Sigrid. I'm the one who asked Fenella to set this up, so blame me for the crowd.
+
+Consultant   14:03:50
+No blame at all, a crowd is useful. It means I hear it from the people who do it rather than from a summary. Sigrid, how are things at the group end? Fenella mentioned you're between three labs most weeks.
+
+Sigrid Thorvaldsen   14:04:09
+Three labs, two states, one car. It's fine. It's, um, it's October, which is the tail of the field season, so everyone's tired and everything's late. Which is sort of why we're here.
+
+Consultant   14:04:22
+Then let me say how I'd like to use the time, and you tell me if it's wrong. This is a, this is a conversation, not a pitch. I'm not going to show you anything today. I want to understand how a sample gets from a client's site to a report on their desk, where that hurts, and what you'd want instead. If the honest answer at the end is that you need two changes in the lab system and nothing from me, I'll say so.
+
+Sigrid Thorvaldsen   14:04:56
+That's the version I wanted. The last person we talked to opened with a slideshow.
+
+Matthias Okonkwo-Reyes   14:05:05
+Forty slides. I counted.
+
+Consultant   14:05:09
+I have no slides. Sigrid, give me the thirty-second version of Ashenholt. What you test, for whom, how big.
+
+Sigrid Thorvaldsen   14:05:19
+Sure. So we're an environmental testing lab. Water, soil, air, some, uh, some waste characterization. The main lab is here, and there's two smaller satellite labs that mostly do receiving and the quick stuff. About a hundred and forty people across the three. My group, Marrowfell, owns us plus two other lab businesses that have nothing to do with today. Clients are consulting engineers, a couple of utilities, remediation contractors, developers who need a phase two done. And Teldrey County Water Authority is the biggest, the county, they're about a fifth of revenue on their own.
+
+Consultant   14:05:59
+A fifth from one client. That'll come up, I suspect.
+
+Sigrid Thorvaldsen   14:06:05
+It'll come up.
+
+Consultant   14:06:08
+Matthias, you run the main lab day to day?
+
+Matthias Okonkwo-Reyes   14:06:14
+I run the science side of all three, and the main lab's floor. The satellites have a, a supervisor each. Fenella runs client services, which is the front of the house, and Bartholomew runs quality, which is the part where I get told no.
+
+Bartholomew Nkemelu   14:06:34
+Accurately described.
+
+Consultant   14:06:36
+Okay. Let's walk it. A client calls with a site. What happens first?
+
+Fenella Bracewell   14:06:43
+So first there's a proposal, usually. The engineer sends a scope, so many wells, so many soil borings, this list of analyses, and we quote it. That's Winifred's world, she and her two people do the quotes. If they take it, it becomes a project. It gets a project number and a, and a PM. Celeste is one of our PMs.
+
+Celeste Nwachukwu   14:07:09
+Hi, yes. Sorry, I'm on my personal login, I'm at a client site and the work laptop wouldn't -- it wouldn't connect. I look after, what, about thirty active projects. Mostly the engineering firms.
+
+Consultant   14:07:23
+Thirty active. Is a project one site, or one client?
+
+Celeste Nwachukwu   14:07:29
+One site, usually. One client can have ten sites. The county has, um, I want to say forty-something. Each one's its own project number because each one bills separately.
+
+Consultant   14:07:44
+Got it. So the project exists. Then?
+
+Fenella Bracewell   14:07:50
+Then bottles. Somebody has to go and collect the samples, and they need the right bottles with the right preservative, labelled. Either the client's own people sample, and we ship them a bottle order, or Casimir's crews go.
+
+Casimir Wendl   14:08:07
+That's me. I've got four crews, three vans, and I schedule all of it. If it's ours I'm on site. If it's theirs, I'm the one who packs the cooler and, and puts it on the courier.
+
+Consultant   14:08:25
+Casimir, sorry, I don't think I know your title. What do they call you?
+
+Casimir Wendl   14:08:32
+[laughs] Field. They call me field. Officially I don't think I've got one, I came in as a sampler and it grew. I coordinate field sampling. Put that.
+
+Consultant   14:08:46
+Field sampling coordinator, then. So the cooler arrives at receiving. Ronan, that's you?
+
+Ronan Kavanagh   14:08:53
+That's me. Every cooler that comes through the door, I open it, check the temperature, check the chain of custody form against what's actually in it, and log it in. If something's wrong, missing bottle, wrong preservative, broken, whatever it is, I call the PM.
+
+Consultant   14:09:13
+And your title says administrative assistant, if I've got the list right.
+
+Ronan Kavanagh   14:09:20
+Officially I'm admin. Unofficially, yes, I run receiving. There's two of us on the bench, I train them, I do the rush calls, I own the login sheet. HR never caught up.
+
+Matthias Okonkwo-Reyes   14:09:36
+He runs receiving. We should fix the title, that's on me.
+
+Consultant   14:09:43
+Noted, and I'll go by what you actually do rather than by the list. What's the login sheet?
+
+Ronan Kavanagh   14:09:53
+It's a spreadsheet. Just a spreadsheet. Every batch that comes in gets a row, date received, project number, how many bottles, which analyses, and the earliest hold time. I keep it because the lab system doesn't give me one place to see what's due.
+
+Consultant   14:10:11
+And at the satellites? Same sheet?
+
+Ronan Kavanagh   14:10:16
+No. That's the thing. They log into the lab system, same as us. Then they're supposed to, they're supposed to email me the batch numbers. And I add them to my sheet. Some days they do. Some days I find out when the cooler shows up here on the transfer run.
+
+Matthias Okonkwo-Reyes   14:10:36
+The transfer run is a van that goes between the three labs twice a day. Half our samples move at least once before they're analysed.
+
+Consultant   14:10:49
+So a batch can be logged in one building and analysed in another.
+
+Matthias Okonkwo-Reyes   14:10:57
+Routinely. And the clock doesn't care which building it's in.
+
+Consultant   14:11:03
+Say more about hold time, for someone who's not a chemist.
+
+Bartholomew Nkemelu   14:11:10
+Every analysis has a clock. From the moment the sample's collected, you've got so many hours or days, depending, before it's no longer valid for that test. Some are seven days, some are forty-eight hours, some are twenty-eight days. One bottle can be on three clocks if it's down for three analyses. If a clock runs out before the analysis starts, the result is not reportable. You go back and sample again.
+
+Consultant   14:11:41
+And the lab system knows the clocks?
+
+Bartholomew Nkemelu   14:11:46
+It knows them per analysis, yes. It's very good at the science. It's not good at telling a human what to do this morning.
+
+Matthias Okonkwo-Reyes   14:11:57
+That's the whole thing, really. It'll tell you a hold time is exceeded after it's exceeded. It doesn't tell you it's tomorrow.
+
+Consultant   14:12:07
+Okay. So the batch is logged. Who decides what -- who decides what runs where?
+
+Matthias Okonkwo-Reyes   14:12:14
+The section leads pick up from the login queue. Metals, organics, micro, wet chem. If we don't do a test in-house, and there's a handful we don't, it goes to a sub. Two, uh, two subcontract labs we use. Solveig handles that, she's not on today.
+
+Consultant   14:12:35
+And how does a sub know something's coming?
+
+Matthias Okonkwo-Reyes   14:12:40
+Email. Solveig emails them the chain of custody, ships the bottles, and then it's a waiting game. When the result comes back it lands in her inbox. And she keys the numbers in by hand.
+
+Consultant   14:12:56
+And a rush? Ronan mentioned rush calls.
+
+Anouk Verstraeten   14:13:02
+That's the rush desk, which is me, sorry, I've just come in, I was on a call. A rush is a three-day turnaround instead of ten. We charge double for it. I've got a, um, a sticky note system, and I mean actual sticky notes, on the edge of my monitor.
+
+Consultant   14:13:23
+Hi Anouk, welcome. Actual sticky notes. And how does a section lead know a batch is a rush?
+
+Anouk Verstraeten   14:13:32
+I walk over and tell them. Or I call Ronan and he writes it on the board in red. It's in the lab system as a flag too. The flag doesn't sort anything, though, it's just a flag.
+
+Consultant   14:13:48
+And then quality.
+
+Bartholomew Nkemelu   14:13:52
+Then I, or one of my two, review the batch. Calibration, blanks, duplicates, all of that has to pass. If it passes, the report gets generated out of the lab system and Fenella's team sends it.
+
+Fenella Bracewell   14:14:09
+Or Anouk does. And for the county it's not just sending, we have to load it into their portal as well, which is their system, not ours. So every county report is done twice.
+
+Consultant   14:14:26
+Whose portal?
+
+Fenella Bracewell   14:14:29
+The authority's. Their compliance team runs it. We get a login, we upload the PDF, and we fill in four fields that are already in the PDF. Anouk does most of it. It's twenty minutes a report and there's forty-odd a month for them.
+
+Consultant   14:14:48
+And the invoice?
+
+Fenella Bracewell   14:14:52
+When the report goes, Beatrix's team invoices off the project number. That side's fine, honestly. Beatrix would tell you if it weren't. Beatrix, it's fine, right?
+
+Fenella Bracewell   14:15:14
+She's on mute. I'll take that as fine.
+
+Consultant   14:15:20
+I'll ask her directly another time rather than take the silence. So let me, let me play back the shape. Proposal, project number, bottle order or crew, cooler arrives, Ronan logs it in, sections run it or a sub does, quality signs, report goes, county gets a second copy in their portal, invoice. Is that the shape?
+
+Matthias Okonkwo-Reyes   14:15:43
+That's the shape. It's the gaps between those boxes that are the problem.
+
+Consultant   14:15:51
+Then tell me about the gaps. Where does it hurt most?
+
+Matthias Okonkwo-Reyes   14:15:58
+Hold times. I'll just say it. Last month we blew four. Four batches where an analysis didn't start in time and the result wasn't reportable. One of them was county samples. Sixteen wells.
+
+Consultant   14:16:15
+What happened with the county one?
+
+Matthias Okonkwo-Reyes   14:16:20
+We had to re-sample. Casimir sent a crew back out, at our cost, and the report was nine days late. And we got a letter. Not a phone call, a letter, from their compliance manager, saying that the renewal is going to have a turnaround clause in it and they'd like to know how we're going to meet it.
+
+Sigrid Thorvaldsen   14:16:46
+I have the letter. It's very polite. It's the politest threat I've ever read.
+
+Consultant   14:16:55
+When is the renewal?
+
+Sigrid Thorvaldsen   14:16:59
+January first. The contract's up for renewal January first, and the clause is new. Ten business days from receipt to report, with a status they can see. That last part's the bit that scares me, because right now the status is Fenella.
+
+Fenella Bracewell   14:17:18
+The status is me. [laughs] Yes.
+
+Consultant   14:17:24
+Let's stay on the four for a minute. How do four get missed? Walk me through what a morning looks like, Ronan.
+
+Ronan Kavanagh   14:17:34
+So I come in at six thirty. I print the login sheet. I go through every open row and I look at the hold times and I put a mark next to anything that's within two days. Then I walk it round the sections. Literally walk, I mean I walk round. I put the marked ones on the whiteboard by the metals lab.
+
+Consultant   14:17:58
+And where does it go wrong?
+
+Ronan Kavanagh   14:18:02
+It goes wrong when I'm not there. Or when a batch came in on the satellite side and they logged it into the lab system. And not onto my sheet, because it's my sheet. Or when the section lead reads the board and then a rush comes in and -- [crosstalk] -- and the board gets overwritten. Three of the four last month were satellite batches.
+
+Fenella Bracewell   14:18:32
+And the fourth was one I moved. I asked metals to bump a rush ahead and the thing behind it slipped. That's on me.
+
+Consultant   14:18:44
+Okay. So the workaround is a printout, a walk, and a whiteboard, and it works when you're in.
+
+Ronan Kavanagh   14:18:54
+When I'm in and when it came through my door. Yeah.
+
+Consultant   14:19:02
+What does it do on a Friday?
+
+Fenella Bracewell   14:19:07
+Friday I do a hunt. I go through everything due next week and I ask each section lead if they've got it, if they've started it. It takes me most of the afternoon, most of it, and I still get surprised on Monday.
+
+Consultant   14:19:24
+Who feels it when a hold time goes? Beyond the client.
+
+Casimir Wendl   14:19:32
+Me. My crew. A re-sample is a day. I have to find a van and two people and go back to a site that might be three hours away, and the client has to let us on again, which sometimes means their guy has to drive out too. And it's bottles and ice and courier all over again.
+
+Consultant   14:19:55
+Can you put a number on a re-sample?
+
+Casimir Wendl   14:20:00
+Roughly. Two people for a day is about twelve hundred in labour with the van. Bottles and preservative, couple hundred. Courier back, if it's overnight, another couple hundred. So call it eighteen hundred all in. More if it's the far sites. I'm not counting the client's guy.
+
+Consultant   14:20:19
+Eighteen hundred, and that's your number, not mine. And Matthias, four last month. Is that a bad month or a normal one?
+
+Matthias Okonkwo-Reyes   14:20:29
+Bad-ish. Three is normal. Some months it's five. Field season it's worse, winter it's two. Three a month is fair.
+
+Consultant   14:20:40
+And on the lab side, does a re-sample cost you anything beyond the field cost? Re-running the analysis, reagents, analyst time?
+
+Matthias Okonkwo-Reyes   14:20:51
+It does, but I don't have that number. That's a Beatrix question, she's got the cost per test, I don't carry it in my head. I'm not going to make one up.
+
+Consultant   14:21:07
+Good, don't. I'll put it on the list for her. Is the three a month getting worse?
+
+Matthias Okonkwo-Reyes   14:21:15
+Honestly the person who'd know is Winifred, because it's about what's in the pipeline. If the second district comes in, volume goes up a lot and the satellites take more of it. She's on but she's on another call. I'd be guessing.
+
+Consultant   14:21:35
+Then I won't make you guess. Let's leave that one open, then. Casimir, one more on the field side. When a crew's out, how do they know what's due back?
+
+Casimir Wendl   14:21:48
+They don't. I tell them. I text them the morning list. And Ebenezer'd want the site safety form on there too, before anyone asks, because at the moment that's a paper form in the van.
+
+Consultant   14:22:05
+Understood. Fenella, you said the status is you. Tell me about that.
+
+Fenella Bracewell   14:22:12
+So a client wants to know where their report is. They call, or they email. Usually the engineer, because their client is asking them. And to answer I have to go and -- I have to go and look. I open the lab system and find the batch. Then I check whether it's in a section or at a sub. If it's at a sub I go to Solveig, or if she's out, I go through her inbox. Then I call them back.
+
+Consultant   14:22:45
+How long is one of those?
+
+Fenella Bracewell   14:22:49
+Ten minutes if it's clean. Fifteen if it's at a sub. Longer if it's the county, because they want it in writing.
+
+Consultant   14:23:00
+How many in a month?
+
+Fenella Bracewell   14:23:05
+Anouk logs them, she started logging them in the spring because I asked her to. Anouk, do you have the number?
+
+Anouk Verstraeten   14:23:15
+I do. It was a hundred and ninety last month. September. August was a hundred and seventy-something. I've got the sheet open if you want the exact.
+
+Consultant   14:23:28
+A hundred and ninety in September is plenty exact. Between how many of you?
+
+Anouk Verstraeten   14:23:35
+Mostly me and Fenella. Celeste gets some direct, for her projects.
+
+Celeste Nwachukwu   14:23:42
+I get a lot direct. I don't log them, I just answer them. Probably thirty a month for me, and I'm one of six PMs.
+
+Consultant   14:23:52
+So a hundred and ninety logged, plus whatever the PMs absorb. Fenella, if you had to say what that costs you in time, between you and Anouk?
+
+Fenella Bracewell   14:24:07
+It's about half of Anouk's day, honestly. And two, two and a half hours of mine. Call it five hours a day between us. Every day.
+
+Consultant   14:24:19
+Five hours a day. Sigrid, is that a fair number?
+
+Sigrid Thorvaldsen   14:24:24
+It's fair. I'd have said more. Fenella's being modest because she's on the call.
+
+Consultant   14:24:32
+Do you know what an hour of client services costs, loaded? I don't want to guess a rate for you.
+
+Sigrid Thorvaldsen   14:24:43
+I do, roughly. Client services is about fifty-five an hour loaded. That's salary, benefits, the desk. Not what we bill, we don't bill it.
+
+Consultant   14:24:56
+Then I'll leave the arithmetic to you rather than do it at you.
+
+Sigrid Thorvaldsen   14:25:03
+[laughs] Fine. Five hours a day, five days, call it forty-eight weeks because nobody's answering in the week between Christmas and New Year. That's twelve hundred hours. Twelve hundred at fifty-five is sixty-six thousand.
+
+Fenella Bracewell   14:25:20
+That's just the answering. It doesn't count the ones where I'm wrong because the sub hasn't told anyone.
+
+Consultant   14:25:29
+Say more about the subs.
+
+Matthias Okonkwo-Reyes   14:25:34
+Subs are the black hole. We send it, and we wait. There's no due date anywhere that's ours. Solveig has a sense of it, she'll chase after a week. But if she's off, nobody chases. We had one sit for nineteen days in August. The client got a report with a hole in it and a note saying the rest was to follow.
+
+Consultant   14:26:02
+Is there a cost on that you'd stand behind?
+
+Matthias Okonkwo-Reyes   14:26:08
+Not one I'd stand behind. Solveig would know how often it happens. It's hers, she's the one who'd have the number, and she's on leave until the twentieth.
+
+Consultant   14:26:21
+Then that stays as a question for her, not a number from me. Celeste, from the PM side, what does a late sub do to you?
+
+Celeste Nwachukwu   14:26:34
+It means I send a partial report, and then a revised report, and the engineer has to explain to their client why there's two versions. And every revision is Bartholomew's team again, because a revised report is, um, it's a new review.
+
+Bartholomew Nkemelu   14:26:52
+It is. Every revision is a full review. We don't do partial reviews, the assessor wouldn't accept it.
+
+Consultant   14:27:02
+Okay. I want to come back to the proposal end before we lose it. Fenella, you said quotes are Winifred's world. How are they tracked?
+
+Fenella Bracewell   14:27:14
+In Winifred's spreadsheet. She's -- hang on, she's put something in the chat. She says two hundred and twelve proposals last year, seventy-one won, and the tracker is hers and nobody else touches it. Which is true. If she's on holiday, we don't know what's out.
+
+Consultant   14:27:34
+I'll take that from her message rather than from me repeating it, and I'll come back to her on it. Does a won proposal turn into a project by itself, or does someone re-key it?
+
+Celeste Nwachukwu   14:27:50
+Someone re-keys it. Me, usually. The scope's in her sheet. The project's in the lab system. So I type the analyte list in again, it's twenty minutes a project, and I get it wrong about one in ten because her sheet's abbreviated.
+
+Consultant   14:28:08
+Noted. Let me check where we are on numbers, because I want to, um, I want to make sure I've got yours and not mine. Field re-samples, three a month at eighteen hundred, Casimir's figure. Status enquiries, five hours a day at fifty-five, Fenella's hours and Sigrid's rate. Subs, unknown, Solveig's. Lab-side re-run cost, unknown, Beatrix's. Have I got it?
+
+Sigrid Thorvaldsen   14:28:31
+You've got it. Do you want me to add it up, or are you going to leave that to me too?
+
+Consultant   14:28:41
+I'd rather it was your number.
+
+Sigrid Thorvaldsen   14:28:45
+Three a month is thirty-six a year. Thirty-six at eighteen hundred is, what, sixty-four eight. Sixty-four thousand eight hundred. Plus the sixty-six. A hundred and thirty thousand eight hundred. A year. And that's without the subs and without the lab re-runs, and without the county walking.
+
+Consultant   14:29:06
+Does that number feel right to you, or does it feel light?
+
+Sigrid Thorvaldsen   14:29:13
+It feels light, because the county is the number I actually lose sleep over. But it's the number I'd put in front of Beatrix, because it's the one I can defend line by line.
+
+Matthias Okonkwo-Reyes   14:29:29
+It's light. But it's real.
+
+Consultant   14:29:33
+Then let's talk about the county, because that's the other side of it. If the status thing were fixed and the turnaround were met, what changes?
+
+Sigrid Thorvaldsen   14:29:45
+The renewal, first. But the bigger one is the second district. The authority has two districts and we've only ever had the north one. The south district's contract is up next summer, and their compliance manager has said to me in as many words that if we can show them live status, we're, um, we're in the running. That's about four hundred thousand a year on top of what we've got.
+
+Consultant   14:30:14
+Four hundred thousand a year, if you win it.
+
+Sigrid Thorvaldsen   14:30:21
+If. Don't add that to the other number. It's a maybe. The other number is a certainty.
+
+Consultant   14:30:29
+I won't. I'll keep them apart. What about the time you'd get back, Fenella? Five hours a day.
+
+Fenella Bracewell   14:30:39
+I'd put Anouk on the sub chasing, honestly. And I'd actually do account management, which is supposedly my job. I haven't visited a client in a year.
+
+Consultant   14:30:52
+Okay. Sigrid, imagine it's next October and this worked. What does that look like to you? Not features, the outcome.
+
+Sigrid Thorvaldsen   14:31:01
+One screen where I can see every batch that's due this week, across all three labs, without asking Ronan. And the county can see theirs without calling Fenella. And Ronan doesn't print anything at six thirty in the morning.
+
+Ronan Kavanagh   14:31:20
+I'd still come in at six thirty. I'd just have coffee first.
+
+Consultant   14:31:26
+[laughs] That's a fair outcome. Matthias, same question.
+
+Matthias Okonkwo-Reyes   14:31:31
+Zero hold-time misses on anything that came through our door in time. If the client sampled late, that's theirs. But if it was in the building with a day left and we missed it, that's the number I want at zero. And I want to know a sub is late before the client does.
+
+Consultant   14:31:54
+That's specific, thank you. Bartholomew, anything from your side on what good looks like?
+
+Bartholomew Nkemelu   14:32:02
+Only a boundary. Anything that touches a result has to go through our validation. If this thing shows a result, it's in scope for the assessor. If it shows a status, a date, a who's-got-it, that's fine. I'd like it to show status and never a result.
+
+Consultant   14:32:23
+That's a clear line and I'd rather have it now than in the audit. Status, dates, ownership, never a number from an analysis. The lab system stays the record for results.
+
+Bartholomew Nkemelu   14:32:38
+Then we're fine.
+
+Consultant   14:32:42
+Let me ask the awkward one. Why now? You've had hold times for years, presumably.
+
+Matthias Okonkwo-Reyes   14:32:51
+Three things, honestly. The letter. The lab system's status module, the vendor's told us it's end of life next year, and the replacement's a different price. And we're bigger than we were. Three labs was one lab four years ago.
+
+Sigrid Thorvaldsen   14:33:10
+And the renewal's got a date on it. January first. I don't get to pick that.
+
+Consultant   14:33:19
+That's three reasons from your side and a date, and I notice I didn't supply any of them. Good. Who decides this, if it goes ahead?
+
+Sigrid Thorvaldsen   14:33:30
+Me. It's my budget, the labs' operations line is mine up to a limit, and this is under it. Matthias runs it day to day. Beatrix signs the PO, every PO, so Beatrix will want to see it before a PO goes anywhere. And anything that connects to the lab system, Temitope has to be in the room, that's hers.
+
+Consultant   14:33:56
+Is Temitope on? I haven't heard her.
+
+Matthias Okonkwo-Reyes   14:34:02
+She's on. She's in the middle of a validation run so she's listening with one ear. Temitope can pull an export out of the lab system, I think. I'm fairly sure. She'd know.
+
+Consultant   14:34:17
+I'll ask her rather than assume. And Beatrix, what will she care about most?
+
+Sigrid Thorvaldsen   14:34:24
+Beatrix will ask what it costs against what it saves. That's the whole conversation with Beatrix. That's why I did the sum out loud.
+
+Consultant   14:34:37
+Then the sum was well spent. What would get in the way? Be blunt.
+
+Matthias Okonkwo-Reyes   14:34:46
+The bench won't type into two systems. They barely type into one. If a chemist has to log a status in the lab system and then again somewhere else, it won't happen, and I won't make them.
+
+Consultant   14:35:02
+Okay. Then it can't be two systems. Whatever this is, it either reads, either it reads from the lab system or somebody's job is the bridge, and that somebody has to be a person who already does it. That's a design constraint, not a promise.
+
+Ronan Kavanagh   14:35:21
+I already do it. I'm the bridge now. I'd rather be the bridge in something that isn't a printout.
+
+Arjun Chandrasekar   14:35:31
+Can I come in on the lab system bit? Arjun, I'm with Vossenkirk, we're the IT provider. We look after the lab's network and the lab system's server, so I'm the one who'd get asked to, you know, open anything up. Two things. One, the lab system does have an export, it's a scheduled file, we already use it for the finance side. Two, Temitope could probably build the status view in the lab system's report module, honestly. I don't know why that hasn't happened.
+
+Matthias Okonkwo-Reyes   14:36:06
+Because she's been saying that for a year and she's got a validation queue the length of my arm. It's not that she can't. It's that she never will, because results come first, and they should.
+
+Arjun Chandrasekar   14:36:22
+Fair. I'll retract the honestly.
+
+Consultant   14:36:26
+Both of those are useful. Arjun, the scheduled file, the, um, the nightly one, do you know what's in it and how often?
+
+Arjun Chandrasekar   14:36:35
+Nightly. Project, batch, analyses, status codes, dates, that sort of thing. I'd have to check whether hold time's in it, I think it's a derived field. I can send you the header row.
+
+Consultant   14:36:49
+A header row would be perfect, and nothing with results in it. Arjun, one more. Does the lab have a monday account already, or anything like it?
+
+Arjun Chandrasekar   14:37:01
+There's a monday account, yeah. HR set it up for onboarding checklists, five seats, the basic plan I think. I've got admin on it because they asked me to. Nobody else has looked at it.
+
+Consultant   14:37:17
+Five seats, basic, HR's. Okay, that tells me what I need for now, and I'll want to look at what's actually on it before anything's built there. Celeste, you've been quiet. What gets in the way from where you sit?
+
+Celeste Nwachukwu   14:37:35
+Timing. We're in the middle of the county audit and I can't have my PMs learning a tool in November. December's worse. If the receiving side goes first and the PMs come later, fine. But not November.
+
+Sigrid Thorvaldsen   14:37:52
+That's fine. Do the receiving side first. If that works, the rest follows. Nobody's asking six PMs to change anything before the audit's done.
+
+Celeste Nwachukwu   14:38:04
+Then I'm fine.
+
+Arjun Chandrasekar   14:38:08
+One more from me, and it's not a blocker, it's more of a scar. We tried one of these boards tools two years ago, for the satellite openings, and -- yeah. It turned into a wall of stale cards inside a month because nobody owned it. I just want somebody to own it this time.
+
+Matthias Okonkwo-Reyes   14:38:31
+Ronan owns it. Sorry, Ronan.
+
+Ronan Kavanagh   14:38:35
+I was going to say I'd own it. Yeah.
+
+Consultant   14:38:40
+Then that's recorded, Ronan owns receiving, and I'd rather that came from you than from me. Casimir, anything from the field?
+
+Casimir Wendl   14:38:51
+Only that whatever it is, I need to see it on a phone. In a van. With one bar. If it needs a laptop, I'm not in it.
+
+Consultant   14:39:05
+Phone, one bar. Noted. Let me play back what I've heard, and you tell me what I've got wrong. Hold times first, three misses a month, each one a crew day and a late report, and the county's watching. Second, status lives in Fenella's head, five hours a day of answering. Third, subs, a black hole with no date, and that one needs Solveig. Fourth, proposals in Winifred's sheet, re-keyed. Have I got the order right?
+
+Sigrid Thorvaldsen   14:39:39
+That's the order.
+
+Matthias Okonkwo-Reyes   14:39:42
+I'd put subs above status, but I'm not the one answering the phone.
+
+Fenella Bracewell   14:39:51
+[laughs] You're not.
+
+Consultant   14:39:55
+Then here's a first cut of a shape, and it's a shape, not a design. A receiving board that's the login sheet, but shared, every batch with its earliest hold time and who's got it, fed from Arjun's nightly file so nobody types twice, and something that tells Ronan and the section lead the day before, not the day after. A view of it the county could be given, status and dates only, never a result. Subs as a line on the same batch with a date somebody owns. Proposals, a separate question for Winifred directly. Is that the right first cut?
+
+Sigrid Thorvaldsen   14:40:39
+It's the right first cut. Receiving first. And the county view, if that's real, is the thing I'd show their compliance manager in December.
+
+Matthias Okonkwo-Reyes   14:40:51
+It's right. I'd want to see what the day-before thing actually looks like before I believe it.
+
+Consultant   14:41:00
+You should. I won't ask you to, I won't ask you to believe it from a description. Celeste?
+
+Celeste Nwachukwu   14:41:08
+Fine for receiving. The client portal question, whether the engineers get a login, can we park that for the second call? I don't want to design that before the county audit.
+
+Consultant   14:41:21
+Parked, and recorded as parked rather than dropped. Fenella, Winifred's put something else in the chat, I can see it. Do you want to read it or shall I?
+
+Fenella Bracewell   14:41:36
+She says yes please to including proposals, if it doesn't slow the samples side down. And she can do a call.
+
+Consultant   14:41:45
+Then I'll take that as a yes to a conversation with her, not as a scope decision made by chat, and I'll set it up separately. Sigrid, one thing I want to be straight about. I don't do pricing on a first call and I won't put a number in a recap. When there's a scope we've both said yes to, with Beatrix in the room, that's a different conversation.
+
+Sigrid Thorvaldsen   14:42:17
+Can you put a number in the recap? Even a range. Beatrix will ask.
+
+Consultant   14:42:25
+I'd rather not, and here's why. A range now would be my guess, my guess about your scope. When we've agreed a first version and Beatrix has seen it, I'll give a number that's about that version. If that's a problem for Beatrix, I'll take that conversation with her directly.
+
+Sigrid Thorvaldsen   14:42:45
+Fine. I'll tell her it's coming. She'll grumble.
+
+Consultant   14:42:51
+She's welcome to grumble at me. So, um, the next step. I'd like to build a first version of the receiving board, with sample data, not your data, your data stays where it is, and walk you through it. Not a slideshow, a working thing you can click. Forty-five minutes. Who needs to be in that?
+
+Sigrid Thorvaldsen   14:43:12
+Me, Matthias, Ronan, Fenella. Beatrix, if I can get her. Temitope for the lab system bit. Casimir on his phone.
+
+Matthias Okonkwo-Reyes   14:43:22
+Bartholomew.
+
+Bartholomew Nkemelu   14:43:25
+I'll be there.
+
+Consultant   14:43:28
+When? I've got Wednesday the twenty-first at one, Central, or Thursday the twenty-second in the morning.
+
+Sigrid Thorvaldsen   14:43:36
+Wednesday the twenty-first at one. Thursday I'm at the south lab.
+
+Fenella Bracewell   14:43:43
+Wednesday works. I'll move the section leads' meeting.
+
+Consultant   14:43:48
+Wednesday the twenty-first, one o'clock Central, forty-five minutes. I'll send the invite this afternoon, to everyone on this call plus Beatrix, and Sigrid, if you can get her to actually come, that's the one I'd push for.
+
+Sigrid Thorvaldsen   14:44:06
+I'll get her. I'll walk to her office.
+
+Consultant   14:44:11
+Two things I'll ask for before then, and neither is urgent. Arjun, the header row of the nightly file, just the header, no results. And Ronan, could you send me a blank copy of the login sheet, just the columns, no rows?
+
+Ronan Kavanagh   14:44:29
+Just the columns. Yeah, I can do that today.
+
+Arjun Chandrasekar   14:44:35
+Header row tomorrow. I'll strip it.
+
+Consultant   14:44:40
+Thank you. And Winifred, if you're reading, I'll email you separately about the proposals side. Anything anyone wants to add that I didn't ask?
+
+Casimir Wendl   14:44:51
+[breaking up] Only that the van's got about four percent battery, so if I drop, that's why.
+
+Sigrid Thorvaldsen   14:44:58
+Go, Casimir. Thank you.
+
+Casimir Wendl   14:45:02
+Bye all.
+
+Matthias Okonkwo-Reyes   14:45:05
+Nothing from me. Bartholomew?
+
+Bartholomew Nkemelu   14:45:07
+Nothing. The boundary stands.
+
+Consultant   14:45:12
+The boundary stands. Thank you all, genuinely, this was a good hour. Sigrid, I'll write it up and send you the recap by tomorrow, and I'll keep the numbers as yours.
+
+Sigrid Thorvaldsen   14:45:26
+Thanks. And thanks for not bringing slides.
+
+Fenella Bracewell   14:45:32
+Bye. Thank you.
+
+Consultant   14:45:35
+Bye everyone.

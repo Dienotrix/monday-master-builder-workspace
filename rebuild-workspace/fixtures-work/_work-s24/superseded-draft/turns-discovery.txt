@@ -1,0 +1,200 @@
+# Topic: Introductions
+Ilse: Dale, hi. Can everyone hear me okay?
+Dale: We can hear you. Give me one second, I'm going to grab Teodor from the shop. He's, uh -- Marguerite, is he coming?
+Marguerite: He's washing his hands. He'll be thirty seconds.
+Ilse: No rush. How's the week going?
+Marguerite: It's Wednesday. So it's a normal amount of on fire. [laughs]
+Dale: It's fine. It's August, everybody wants their sign up before school starts. Okay, here he is.
+Teodor: Hi. Sorry. Paint.
+Ilse: No problem at all. So, quick round of who's who for my notes, and then I'll say what I'd like to do with the time. Dale, you want to start?
+Dale: Sure. Dale Okonkwo, operations director. Basically everything after the estimate is signed lands on me. Scheduling, the shop, the install crews, the coordinators.
+Marguerite: Marguerite Sallis, project coordinator. I'm the one the customers call. And I keep the Job Board, which we'll get to.
+Teodor: Teodor. Shop foreman. I run fabrication. Everything from the material coming in to the sign going on the truck.
+Ilse: Great. And Renata?
+Dale: Renata couldn't make it. She's the owner. Her dad started the company, she's run it for, what, twelve years? She said to tell you she'll be at the next one if it's worth it. Her words.
+Ilse: [laughs] Fair enough. And how big is Harrow Point these days?
+Dale: Fifty-five, give or take. About twenty in the shop, four install crews, three here and one out of Dayton, design is four people, and then the office. Me, Marguerite, two project leads, Renata and Cy who does the estimating.
+Ilse: And when you say project leads --
+Dale: Bex and Amir. They each run a stack of jobs. Survey, proofs, permits, they're the ones on the phone with the city.
+Ilse: Okay. Just so I'm not carrying a wrong assumption, that's a project lead, not a sales lead.
+Dale: God, no. Renata is sales. Renata and Cy. The leads are ours.
+Ilse: Good. So what I'd like to do today, if you're okay with it, is understand how a job actually runs today, from the estimate being signed to the sign being up, where that goes wrong, and what it costs you when it does. And then at the end we talk about whether it's worth a next step. I'm not going to show you anything today.
+Dale: That's what I was hoping. Rowan showed us a thirty-second thing at the trade show and I've been trying not to get excited.
+# Topic: How a job runs today
+Ilse: Okay. So walk me through it. A customer signs an estimate. Then what?
+Dale: So the estimate lives in the accounting system, that's Renata and Cy's world. When the customer signs, Cy converts it and it gets a job number out of the accounting system. That job number is the job for the rest of its life.
+Marguerite: And that's when it comes to me. Cy emails me the number and the estimate PDF and I put it on the Job Board.
+Ilse: The Job Board is?
+Marguerite: It's a spreadsheet. Shared. One row per job. Job number, customer, what the signs are, who's the lead, survey date, proof status, permit status, install date, notes. The notes column is, uh, it's long.
+Dale: It's a novel.
+Marguerite: It's a novel. [laughs] Because every phone call goes in the notes.
+Ilse: And who reads the Job Board?
+Marguerite: Me. Dale sometimes. The leads have their own version, which is a different problem.
+Dale: They keep their own list because the Job Board doesn't have the stuff they care about. Bex has a whole thing about proof revisions.
+Ilse: Okay, hold that. So a job's on the board. What happens first?
+Dale: Survey. One of the leads goes out, measures, checks power, checks the fascia, takes photos. Then design gets it and does the proof.
+Marguerite: Proofs go to the customer by email. They approve by email. Or they don't and I chase.
+Ilse: How many rounds, typically?
+Marguerite: Two. Sometimes six. There's a dentist right now on round five.
+Ilse: And after the proof?
+Dale: Permits. Two things, and they're different. There's the city sign permit, which goes through the city's portal, the lead files it, and it takes what it takes. And then there's the landlord. If it's a leased space, the landlord has to approve the sign. That's an email, or a letter, depends on the landlord.
+Ilse: And which of those is the slow one?
+Dale: The landlord side's never the problem, honestly. They sign within a day or two. It's the city that sits on it. Three weeks, four weeks, and you can't call anyone.
+Marguerite: Mm.
+Ilse: Marguerite, you were going to say something.
+Marguerite: No, it's -- no. Go on. Permits, yeah.
+Ilse: Okay. So while permits are out, what's the shop doing?
+Teodor: Depends. If it's channel letters, I'm not cutting anything until the proof's approved, because the proof is the drawing. Once it's approved I can start. I don't wait for the permit, I can't, the permit's a month.
+Ilse: How does the shop find out a proof's approved?
+Teodor: Marguerite walks over. Or Bex walks over. Or somebody puts a traveler on my bench.
+Ilse: A traveler?
+Teodor: Paper ticket. One per sign. Says what it is, what material, what colours, when it's due. It goes with the sign from station to station. Cut, paint, assembly, electrical, QC, out the door.
+Ilse: One per sign, not one per job.
+Teodor: One per sign. A job's, I don't know, one sign, twelve signs. A storefront package is usually four. Channel letters, a blade sign, window vinyl, maybe a monument. They're all at different stations at different times.
+Dale: And that's, we should say, that's the thing. The office thinks in jobs. The shop thinks in signs.
+Marguerite: The customer thinks in jobs. They don't call about the blade sign, they call about their sign. Singular.
+Ilse: Noted. Teodor, how do you know what's coming next week?
+Teodor: I have a whiteboard. Big one, by the paint booth. Columns for the stations, magnets for the travelers. I move the magnets.
+Ilse: And what feeds the whiteboard?
+Teodor: Me. Friday afternoon I walk to the office and I ask what's approved and what's due, and I write it up. If I don't do it, I find out about a rush job when the traveler lands on my bench.
+Ilse: How often does that happen?
+Teodor: Once a week? It happened Monday.
+Ilse: Okay. And then installs. Dale, that's you?
+Dale: That's me. When the shop says a job's ready, or nearly ready, I schedule a crew. There's a shared calendar for the three Columbus crews, and I text the crew lead the night before with the address and the drawing.
+Ilse: And Dayton?
+Dale: Dayton is Frank. Frank has his own list. I text Frank, Frank texts me back, and that's the system. I genuinely couldn't tell you what Frank's crew is doing on a given Tuesday.
+Ilse: Does anyone know?
+Dale: Frank. [laughs]
+Ilse: And after the install?
+Marguerite: I mark it done on the Job Board and Cy invoices out of the accounting system. Off the job number.
+Ilse: Okay. So let me play that back, because I want to make sure I've got the tools right. The estimate and the job number and the invoice live in the accounting system. The Job Board is a spreadsheet, one row per job, Marguerite's. The leads keep their own lists. Proofs go by email. City permits through the city portal. Landlord approvals by email or letter. The shop runs on paper travelers and a whiteboard. Installs on a shared calendar and text messages. Dayton on Frank.
+Dale: That's it. That's the whole thing. It's not a lot of systems, it's a lot of walking.
+Ilse: Anything with monday today?
+Dale: We don't have one. I signed up for a trial once and never logged in. Rowan's thing at the show was the first time I'd actually seen it.
+# Topic: Where it breaks
+Ilse: Okay. So tell me where it breaks. Marguerite, you first, because I've heard the word chase four times.
+Marguerite: [laughs] So. My morning is, a customer calls and says where's my sign. And I look at the Job Board and the Job Board says proof approved, permit pending, which it has said for nine days. So I walk to the shop and ask Teodor, and Teodor says it's in paint, and I walk back and I call the customer. And then Bex comes in and says actually the city called and they want a revised drawing, and nobody told me. That's one call.
+Ilse: How many of those a day?
+Marguerite: Ten? On a bad day twenty. I'd say I spend two hours a day just finding out where things are. Not doing anything. Finding out.
+Ilse: Two hours a day.
+Marguerite: Easily. Monday mornings I do the customer update emails and that's the whole morning, because I have to go find out about every job before I can write anything.
+Ilse: And the leads, Dale, do they have the same problem?
+Dale: They have the opposite problem. They know where their jobs are because they're the ones doing it, but they're retyping it. Bex keeps her list, then updates Marguerite's board, then answers Marguerite's questions anyway. I'd say the two leads spend maybe five hours a week each on status. Updating, being asked, re-updating.
+Ilse: Five hours a week each.
+Dale: About that. Maybe more for Bex, she's the careful one.
+Ilse: Teodor, from the shop side?
+Teodor: I don't know what's coming. That's it, really. I know what's on my bench. I don't know what got approved this morning, so I can't order material until somebody tells me, and then it's a rush. And nobody tells me when a job's install date moves, so I've got signs sitting finished for two weeks and other signs I'm rushing for Thursday that don't need to be there till the twentieth.
+Ilse: How do you find out when an install moves?
+Teodor: When the truck doesn't show up. [laughs] No. Dale tells me. Usually.
+Dale: Usually.
+Ilse: Okay. Dale, the one I want to hear about is the wasted trips. You mentioned that at the show.
+Dale: Yeah. So. Westgate. That was June. Storefront package, four signs, shop finished it early, I scheduled the crew because the calendar was open. Truck goes out, two guys, the bucket truck, they get there, the property manager comes out and says you can't put that up, we haven't approved it. And we hadn't. The landlord approval was sitting in somebody's inbox, unanswered, and the Job Board said permit pending and nobody read that as a stop.
+Ilse: What did that cost?
+Dale: A day. Truck and two guys, call it eighteen hundred for the day, and we went back the next week. And the customer got a story about it.
+Ilse: How often does that happen?
+Dale: Since March? Four times. Not always the landlord. Once it was the city permit wasn't actually issued, it was approved but not issued, which is a thing. Once the power wasn't there because the survey missed it. But four trucks that came back with the sign still on them.
+Teodor: Five. The Parsons one.
+Dale: Parsons was a re-set, that was our fault in the shop, that's different.
+Teodor: It's still a truck.
+Dale: Fine. Four that I'm counting.
+Ilse: Okay. I'll use four. What's the rule today for when an install can be scheduled?
+Dale: There isn't one. It's me looking at the calendar and the whiteboard and going, that looks done. Which it was. It was done. It wasn't approved.
+Marguerite: The board doesn't have a landlord column. It has permit. I put landlord in the notes.
+Ilse: So the information existed.
+Marguerite: It was in the novel.
+# Topic: The rollout
+Ilse: Okay. Dale, at the show you said something was changing this fall. What is it?
+Dale: So we won a rollout. I'm not supposed to say who yet, it's a rebrand, a credit union, they're announcing in October. Forty storefronts. Every branch gets a new package, letters, blade, window graphics, some get a monument. Over six months, starting the first week of October. The first ten have to be set before Thanksgiving because they've got some marketing thing.
+Ilse: Forty jobs.
+Dale: Forty jobs, a hundred and sixty-some signs, on top of the sixty-odd we've got open at any given time. And three of the forty are in Dayton, so Frank gets them.
+Ilse: Have you done a rollout that size before?
+Dale: Eleven. A pharmacy chain, four years ago. It was, um. It was bad. Marguerite wasn't here, the coordinator before her quit in the middle of it, and I'm not saying that's why, but.
+Marguerite: I've heard about it.
+Dale: So the thing is, we cannot run forty storefronts off the Job Board. The Job Board can't tell me which of forty jobs has its landlord approval, and every one of those forty has a landlord, they're all leased. And Renata's line is, and I'm quoting her, she wants to stop apologising to customers. That's what she said when I told her I was taking this call.
+Ilse: So the rollout is the reason this is now.
+Dale: The rollout is the reason, and Westgate is the reason I believed it. If Westgate happens on the credit union job, that's, I mean, that's a phone call from their marketing director to Renata.
+Ilse: And timing. When would this need to be working?
+Dale: Before the first storefront. So, first week of October, realistically the middle of October, because the first ten aren't set until November. But October is the rollout. Nobody's learning a system in October. If it isn't in by the end of September I'd rather wait till spring.
+Ilse: Understood.
+# Topic: Cost of the current state
+Ilse: Okay. I want to try to put a number on today, if you're willing. Not to sell you anything, just because Renata is going to ask, and I'd rather it was your number than mine.
+Dale: She will ask. Go on.
+Ilse: So we've got Marguerite at two hours a day finding out where things are. What's a loaded hour for Marguerite, roughly? Shall we say fifty an hour?
+Dale: No. Forty-six. I know because I just did her review. [laughs] Sorry, Marguerite.
+Marguerite: It's fine. I'm cheap.
+Ilse: Forty-six. So ten hours a week at forty-six. And you take?
+Dale: We do fifty weeks. She takes two.
+Marguerite: I take one and a half and you know it.
+Dale: Fifty weeks. So that's, ten times forty-six is four-sixty, times fifty is twenty-three thousand.
+Ilse: Twenty-three thousand a year on finding out. And the leads, five hours a week each, and a loaded hour for a lead is --
+Dale: Fifty-eight. Both of them, near enough.
+Ilse: Ten hours a week between them at fifty-eight.
+Dale: Five-eighty a week, times fifty, twenty-nine thousand. That feels high. But it's not wrong.
+Ilse: And the wasted trips. Four since March, at eighteen hundred.
+Dale: Four since March is, that's five months, so call it eight a year. Eight times eighteen hundred is fourteen thousand four hundred.
+Ilse: So twenty-three, plus twenty-nine, plus fourteen four.
+Dale: So that's... sixty-six four. Sixty-six thousand four hundred. A year. Huh.
+Ilse: Does that feel right?
+Dale: Yeah. I believe that. It's not the number I'd have guessed but I believe every piece of it.
+Teodor: That's low. You're not counting me.
+Ilse: What would you add?
+Teodor: My Friday afternoons. The material rushes. The signs sitting finished. I don't know what that costs. It costs me my Fridays.
+Ilse: Okay. I'm going to leave that out of the number rather than guess it, and I'll write down that it's not in there. Dale, anything else that's not in there?
+Dale: Renata's time. She gets on the phone when a customer's angry. And the customer that doesn't come back, which I can't count.
+Ilse: Right. So sixty-six four, with the shop, Renata, and lost customers not in it. Is that a number you'd stand behind if Renata asks?
+Dale: Yes. Because it's mine. [laughs]
+Ilse: Good. Now the other side. If Marguerite got her two hours back and the leads got their five, what happens to that time?
+Dale: Honestly, it goes to the rollout. Here's the thing. Forty storefronts, I was going to hire a second coordinator. Renata's already said yes to it, we'd budgeted it. If we can run forty at once without adding a coordinator, that's a hire we don't make. Call it fifty-five with benefits.
+Ilse: Fifty-five thousand.
+Dale: Ish. That's the number Renata had in the budget.
+Marguerite: I'd still like the help.
+Dale: You'd get Bex's time back, that's the help.
+Ilse: Anything on the revenue side? Work you turn down?
+Dale: Renata reckons we turn away about a job a month because we can't promise a date. I don't know what a job is worth on average, that's Cy's number. I'm not going to guess it.
+Ilse: I'll leave it as a thing you can't do today, without a figure.
+# Topic: What good looks like
+Ilse: So say this is solved. It's a Tuesday in November, the rollout's running. Marguerite, what does your morning look like?
+Marguerite: I open one thing and I can see every job, every sign, where it is, and I don't walk to the shop. A customer calls, I look, I answer. The Monday emails write themselves, or nearly.
+Ilse: Teodor?
+Teodor: I see next week's work on Friday, not when the traveler lands. I know what got approved today. I know when an install moved. And I don't want to type. If it's not on my phone in the shop, it doesn't exist.
+Ilse: Dale?
+Dale: Nobody rolls a truck until both approvals are in. That's the one. And I can see Dayton without texting Frank.
+Ilse: And for Renata? What would she call a win?
+Dale: Like I said, she wants to stop apologising. If the rollout goes through without a Westgate, that's the win. She hasn't put a number on it and I wouldn't put one in her mouth.
+Ilse: Fair. I'll write it as her words as relayed by you, not as hers.
+# Topic: Decision and timing
+Ilse: Okay. Let's talk about how a decision like this gets made. Whose call is it?
+Dale: Mine up to a point. I've got an operations budget, tools come out of it. Anything over fifteen, that's Renata.
+Ilse: Fifteen thousand.
+Dale: Fifteen thousand. Over that she signs, and honestly for something the whole company's going to live in, I'd want her to see it either way. She's not going to read a proposal. She'll want to see it, not read about it.
+Ilse: What does she care about?
+Dale: Are we apologising less, and what does it cost. In that order, but the second one loudly.
+Ilse: Anyone else who can stop it?
+Dale: Teodor can stop it by not using it. [laughs]
+Teodor: True.
+Dale: No IT, we don't have IT. The accounting system is Cy's and I wouldn't touch it. Nobody's asking to touch it.
+Ilse: And after a yes, what happens?
+Dale: I put it on the card or Cy raises a PO, depends on the size. Then it's me and Marguerite rolling it out. Last thing we bought was the design software, the subscription, Renata approved that off a one-page email in about a week because the number was clear.
+Ilse: And the blockers. What stops this working?
+Dale: The shop. We put a job app in two years ago and the shop never opened it. Not once. Double entry, it was all typing, and it didn't have the whiteboard.
+Teodor: It didn't have anything I needed. It was for the office.
+Dale: And October. If it lands in the middle of the rollout it's dead. And Renata's going to look at the price and do her face.
+Ilse: Her face.
+Dale: You'll see it.
+# Topic: Next steps
+Ilse: Okay. So here's what I'd suggest. Rowan and I build a first version with your words on it. Jobs, signs, the two approvals, the install calendar, something Teodor can look at on a phone. And we show it to the three of you, and you tell us what's wrong. Not a sales demo. A first cut. Is that worth an hour?
+Dale: Yes. When?
+Ilse: Next Thursday? The twenty-seventh. Two o'clock Eastern?
+Dale: Two works. Marguerite?
+Marguerite: Two's fine. Not before one, I have the Monday emails on Thursday too now, don't ask.
+Teodor: I'll come if it's on a phone.
+Ilse: It'll be on a phone. And I'll send the invite this afternoon. Dale, is there any chance of Renata?
+Dale: For the first one, no. She said the next one if it's worth it. I'll tell her it's worth it after I've seen it.
+Ilse: Understood. Two things from me before then. Marguerite, could you send me the Job Board? Customer names blanked if you want.
+Marguerite: I can send it. I'll blank the customer names, and the notes, honestly, you don't want the notes.
+Ilse: And a photo of the whiteboard, if Teodor doesn't mind.
+Teodor: Take it now. It's ugly.
+Ilse: Perfect. And I'll send a short recap tonight, what I heard, so you can tell me what I got wrong.
+Dale: Do that. Sixty-six four, don't round it up.
+Ilse: I won't. Thanks, all three of you. Thursday.
+Dale: Thursday.

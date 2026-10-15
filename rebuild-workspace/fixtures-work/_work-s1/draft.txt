@@ -1,0 +1,255 @@
+C: Hi, hi. There you are. Can you hear me okay?
+T: Yep, I've got you. Sorry, I'm in the Milwaukee office today and the room booking thing bumped me out of the room I'd reserved, so I'm in what we very generously call the phone booth. It is a closet. With a chair.
+C: Ha, I've taken plenty of calls from closets. Good acoustics, usually. Is Jordan joining?
+T: He should be, he said he was grabbing coffee. Oh, there he is.
+J: Hey, sorry, sorry. The Keurig on our floor has been broken for over a week and I refuse to drink the pot in the kitchen, it's been sitting there since, like, seven. Hi.
+C: Hi Jordan. No rush at all. You're in Madison today?
+J: Madison, yeah. Home base.
+C: And Tess, you mentioned in your email you're opening a new office. Des Moines, is that right? How's that going?
+T: It's, um. It's exciting and it's a little terrifying? We signed the lease in, what, June, Jordan?
+J: Late June.
+T: Late June. It's an old seed company warehouse in the East Village there, which, you know, as a design firm, of course we had to pick the building with no insulation and a freight elevator from nineteen-twenty-something. But it is beautiful. Brick, big timber columns. The contractor says we can move in November second. I am choosing to believe him.
+C: That's a great kind of building to be in, as long as the heating bill doesn't get you. Was that your team's design?
+T: Our interiors studio did it, yeah. They're very proud of it, and they should be, it looks great. Anyway. Sorry. We could talk about that building all day.
+C: I'd happily let you, but I'll behave. So, just so you know how I'd like to use the time. This is really a conversation. I'm going to ask a lot of questions about how things run today, where it's painful, and what you'd want instead. I'm not going to show you anything today. And honestly, if it turns out that what you need is a couple of fixes to spreadsheets you already have, I'll tell you that. Does that work?
+T: That's, yeah. That's refreshing, actually.
+J: Works for me.
+C: Great. Maybe to start, give me the thirty-second version of {CO}. Who you are, what kind of work you do.
+T: Sure. So we're a full-service A and E firm, architecture and engineering. About a hundred and twenty people, well, a hundred and eighteen the last time I looked at the HR report. Three offices. Madison's the main one, then Milwaukee, and Rockford down in Illinois. Des Moines will make four. We do a lot of K-twelve, a lot of municipal and civic, so libraries, fire stations, city halls, and a healthcare practice that's growing, mostly outpatient clinics. And we have structural and MEP in-house, which is honestly a big part of how we win, because a school district can hire one firm instead of stitching three together.
+C: How long has the firm been around?
+T: Gordon's father started it in nineteen seventy-eight, as a two-person structural shop. Which is why the engineers still think they run the place.
+J: They do run the place.
+T: [laughs] They kind of do.
+C: And where do the two of you sit in all that?
+T: I'm COO, so anything that isn't design, or the partners doing partner things, ends up on my desk. Finance reports through me, IT, HR, operations.
+J: And I'm the operations manager, which mostly means I'm the guy who knows where everybody is supposed to be this week. Staffing, project setup, a bunch of reporting. And I get pulled into pursuits more than I would like.
+C: Pursuits being the new work you're going after?
+J: Yeah, sorry. Bids, proposals. We call them pursuits.
+C: Got it, I'll use your words. So Tess, what made you reach out now, as opposed to, say, a year ago?
+T: Two things. Well, honestly, one thing, and then another thing that made the first thing urgent. The first one is Des Moines. We are about to open a fourth office, and everything we run on is spreadsheets and Jordan's memory. And the second thing is we lost a pursuit in July that we should not have lost. And we didn't lose it on merit. We lost it because we missed the deadline.
+C: Ouch. Can you walk me through what happened?
+T: Yeah. Okay. So, Larkspur Falls School District. It's a middle school addition plus a renovation of the existing building. A big one for us, the fee was going to be around one point four million. And we'd been talking to that district for, what, two years?
+J: Longer. We did their facilities assessment before COVID.
+T: Right, we did the facilities study, so we were the favorite, basically. The RFP comes out, Hallie, she's our marketing coordinator, she logs it in the pursuit log, due date is a Friday at two p.m. Everybody's working to Friday. And then the district puts out an addendum that moves the due date up a day, to Thursday, because of some school board thing.
+C: And where did the addendum go?
+T: That's the thing. It went to whoever was registered on the bid portal, which was Luis, the PM we had lined up, and Luis was on vacation up in Door County with no cell signal. So it just sat in his inbox.
+J: And nobody else was registered on the portal. Which, that's on us. That's partly on me.
+T: It's not on you. It's on how we do it. Anyway, Thursday morning, around eleven, Hallie goes to the portal to download something else, sees addendum two, and goes, oh no. So now it's due in three hours. The fee proposal isn't signed off, because Gordon, our managing partner, signs every fee proposal, and he's on a job site in Beloit. And the hours sheet that fed the fee still had last year's rates in it. So Hallie and Jordan are rebuilding the fee at, like, one o'clock --
+J: One-fifteen.
+T: One-fifteen. Gordon signs off on his phone from a parking lot. And we upload at two-oh-four. The portal closed at two. It just, it wouldn't take it.
+C: Four minutes.
+T: Four minutes. A million four in fee. And I think we'd have won it. Their facilities director basically told us afterwards we'd have been, quote, a strong contender. Which, great. Thanks.
+C: How did that land inside the firm?
+T: Badly. Gordon was, I mean, he was calm about it, he's not a yeller. But at the partner meeting he said, and I'm quoting him, "We are not a firm that misses deadlines." And everyone sort of looked at me.
+C: That's a rough one. I'm sorry. Looking back at it, what actually broke? Was it the addendum, the sign-off, the rates?
+T: All of it, kind of? The addendum went to one person. There's no one place where a pursuit lives, with the due date and who's on it and what's changed. Hallie's spreadsheet is a list, it doesn't know about addenda. And the fee sign-off is basically, you email Gordon a PDF and you hope.
+C: Walk me through how a pursuit runs today, start to finish. Say an RFQ lands on a Monday. What happens?
+J: So it depends how it comes in. Some of it comes through the public bid portals, some of it comes in because a PIC knows somebody -- principal in charge, sorry -- and they get a call. Either way it should get to Hallie, and she puts it in the pursuit log. Which is an Excel file on SharePoint.
+T: Should.
+J: Should. Then Fridays we have the pursuit huddle. It's supposed to be thirty minutes. We go through what's new and do go/no-go. If it's a go, we assign a PIC and a PM, and the PM builds the fee in the fee builder, which is another spreadsheet, hours by phase and by discipline, times rates. Hallie builds the actual document, the quals, resumes, project sheets. Then Gordon signs off on the fee, then it goes out. If we're short-listed, there's an interview. And if we win, Bev, our controller, sets it up in Ajera as a job and it gets a job number.
+C: Ajera is your accounting system?
+J: Accounting, timesheets, billing. It's the, um, the book of record, as Bev likes to say.
+C: And how much of Hallie's week goes into keeping that pursuit log straight and chasing people?
+J: Oh, a lot. I'd say ten hours a week? And that's just the chasing, not the writing.
+T: At least. She told me she spends basically every Thursday afternoon emailing PMs going, "Is this still a go? Did you look at the fee?"
+C: How many pursuits are live at any one time?
+J: Right now? Hang on, I've got the log open... it says thirty-one open. But I'd bet half of those are dead and nobody ever closed them out.
+T: Which is the other thing. I can't tell you our win rate with a straight face.
+J: Hallie worked it out once, it came to something like thirty-five percent? But it depends what you count as a pursuit. Some of those are just a PIC having lunch with somebody.
+C: So what stops you from carrying on like that? You've run it this way for years, and mostly it works.
+T: Mostly it works. That's the dangerous part. It works right up until it doesn't, and when it doesn't, it costs us a million four. And Des Moines is going to start chasing work on its own. They'll have their own PIC, we're hiring a marketing person out there. So now it's another inbox and another copy of the spreadsheet. I can already see it. Someone's going to save "pursuit log DSM final v2" on their desktop.
+J: That someone is going to be me.
+T: [laughs] It's not going to be you.
+C: Say nothing changes on the pursuit side. What does next year look like?
+T: More pursuits, same process, more places for it to break. We're planning to go from, I think we said six or seven fee proposals a month to ten, once Des Moines is up and running. It doesn't scale. And the next Larkspur is, honestly, it's a when, not an if.
+C: Who else feels it when a pursuit goes sideways, apart from you and Hallie?
+T: The PICs, because it's their relationship. Gordon, obviously. The PM who's writing the fee at midnight. And, you know, the people we would have staffed on it. That middle school would have been two years of work for maybe eight people.
+C: Let me switch over to delivery for a bit. Once a pursuit becomes a job, how does it run? Jordan, maybe you.
+J: Yeah. So Bev sets the job up in Ajera with its phases. For a typical architecture job that's SD, DD, CDs, bidding, and CA. So schematic design, design development --
+C: Construction documents, construction administration. Yep.
+J: Right, you know the lingo. Each phase has its own fee. The PM runs the job. Everybody enters their time in Ajera every week, against the job and the phase. And then staffing, which is my world, happens on the Wall.
+C: The Wall?
+J: [laughs] Sorry. The Wall is the staffing spreadsheet. Before COVID it was a literal wall in the Madison office, a whiteboard with magnets with everyone's names on them. Now it's an Excel file with a tab per office, every person down the side, weeks across the top, and percentages. And every week I rebuild it.
+C: Rebuild it how?
+J: So the PMs are supposed to update their people's allocations, and they don't. Or they do it in their own copy. Or they tell me in Teams. So Monday I go through the Teams messages, I go through the project schedules, I pull who charged time where out of Ajera, and I basically reconcile it all by hand. That's most of Monday and half of Tuesday morning. And then Tuesday at one we have the staffing call.
+C: Sorry, Jordan, you froze for a second there. Tuesday at one?
+J: Oh, sorry, the Wi-Fi in this corner is garbage. Yeah, Tuesday at one, the staffing call.
+C: Who's on the staffing call?
+J: Studio leads from each office, a couple of the PICs, me. Twelve people, give or take. It's supposed to be forty-five minutes. It's an hour. Every time. And it's mostly me reading percentages out loud and people going, "No, she's not on that anymore."
+C: And the percentages, is that percent of a forty-hour week?
+J: Forty hours is a hundred percent, yeah. Except the part-timers, we've got, I think, six? And they're all on different schedules, so that's its own little mess.
+C: When did it last actually go wrong? A specific week.
+J: Oh, okay. Three weeks ago? So Dev, one of our structural engineers in Milwaukee, he's great, everybody wants Dev. He was on the Wall at a hundred percent on the Oak Street fire station CDs. But two other PMs had also, separately, told him he was on their jobs. The clinic in Rockford and a library renovation. And all three had deadlines that same week. And nobody knew until Wednesday, when Dev messaged me, basically going, "I can't do this."
+T: And he was right.
+J: He was right. He was at, what, a hundred and forty, a hundred and fifty percent that week, in reality. And meanwhile Rockford had two engineers who were, I found out later, pretty light that week. They could have helped, if anyone had known.
+C: What happened in the end?
+J: We pushed the library issue by a week, which the owner was not thrilled about. The school -- sorry, the fire station went out on time. Dev worked the weekend. Dev did not love that.
+C: When you say "owner" there, you mean the client?
+J: Yeah, sorry. The owner is the building owner, the client. The city, the school district, whoever. Architect-speak.
+C: Good to know. And what stops you from just carrying on with the Wall? It sounds like you've made it work.
+J: Because it lives in my head, honestly. If I get hit by a bus, nobody knows who's on what. And I'm about to add a fourth tab with, eventually, fifteen-ish people on it, in an office I'm not in. I can't just walk over and ask somebody in Des Moines what they're working on.
+T: And we're about to make hiring decisions for Des Moines partly off the Wall. Do we hire another structural engineer, or not? And I don't trust those numbers enough to make a hundred-thousand-dollar decision off them.
+C: How big is Des Moines on day one?
+T: Four people. A PIC, two designers, and the marketing hire. And the plan is fifteen or so within two years. If the work's there.
+C: Who else ends up dealing with it when the Wall is wrong?
+J: The staff, first. People like Dev. Then the PMs, because they don't get the people they planned for. The studio leads, who basically spend their lives negotiating. And the owner, if a date slips.
+T: And me, because people come to me when they're burnt out. We had two resignations last year, and workload came up in both exit interviews. I'm not saying it was the Wall. But it wasn't nothing.
+C: You said people enter time in Ajera against the phase. How do you know when a phase is going over its fee?
+T: [sighs] So. That's the other thing. Mostly, we find out when it's too late.
+C: Say more about that.
+T: Bev runs the WIP report monthly, work in progress, after billing closes, so that's usually around the tenth or twelfth of the following month. So if a phase starts running hot at the beginning of a month, the PM might not see it for five, six weeks. Some PMs are great, they export their hours from Ajera into their own burn sheet every week. Half of them don't. And by the time it shows up on the WIP report, DD is at a hundred and forty percent and there's no fixing it.
+C: Has that happened recently?
+T: The Rockford clinic, actually, the same one Jordan mentioned. DD burned through its fee and then some. By the time we saw it, we'd spent about thirty-eight thousand over the phase fee. And we couldn't go back to the owner for it, because it was our own team going round and round on the layout. So we wrote it off.
+C: Do you know what write-offs look like across a whole year?
+T: Sorry, one sec, somebody's knocking. [muffled] I'm on a call, can it wait ten minutes? Thanks. Sorry. Apparently the closet is also where we keep the plotter paper. What was the question?
+C: No problem. Write-offs across a whole year, do you know roughly what those look like?
+T: Right. Last fiscal year, which ended September thirtieth, so a year ago now, it was about two hundred and ten thousand, firm-wide.
+C: And how much of that comes from seeing it late, would you say?
+T: Hmm. I honestly wouldn't put a number on that. Some of it's scope creep. Some of it is just us being bad at saying no to owners. Some of it's visibility. Bev could probably go job by job and tell you. I don't want to guess.
+C: That's fair. We'll leave that one open. What does a PM do today when they want to know where a job stands?
+J: Ask Bev, and Bev's busy. Or run the export out of Ajera. It's a canned report, you pick the job, it spits out hours by phase and person, and then you're doing a VLOOKUP against your fee. Twenty minutes if you know what you're doing. An hour if you don't. Oh, and it's not even the same math on every job. Most of our phases are lump sum, but a lot of the municipal work is hourly, not-to-exceed. So on those, burning hours isn't automatically bad, as long as you don't hit the cap.
+C: Why not just make everyone keep a burn sheet? Make it a rule.
+T: We did! It was a rule. It was a rule for about one quarter. And, I mean, the PMs aren't wrong, it's busywork. They'd rather be designing, and I'd rather they were billing.
+C: In your email you also mentioned submittals and owner approvals. Where does that fit in?
+J: That's CA. So once a job's in construction, the contractor sends us submittals. Shop drawings, product data, samples. Steel shop drawings, door hardware, whatever. We have to review them and send them back, and most of our contracts say ten business days. Some say fourteen calendar days.
+C: How do they come in?
+J: Depends on the GC. About half of them use Procore, so we get a login to their Procore and it comes in there. The other half just email us a PDF. Then the PM logs it in the submittal log, which, you guessed it, is an Excel file in the job folder on SharePoint. The reviewer marks it up in Bluebeam, stamps it, and it goes back.
+T: And the log is only as good as the PM keeping it.
+C: Has one slipped?
+J: This spring, yeah. A steel shop drawing on a school addition sat for nineteen days. It had gone to our structural reviewer, he was out sick for a week, and nobody reassigned it. Contract said ten business days. The GC sent a letter claiming a delay.
+T: It didn't turn into an actual claim, thank God. But it cost us with that contractor. And those contractors talk to school districts.
+C: And owner approvals, the sign-offs. How are those tracked?
+J: Email, mostly. End of SD, end of DD, we send the owner the package and a sign-off letter, and they sign it and send it back. Or they don't, and we keep going anyway because the schedule says so, and then six months later somebody on a school board says "we never approved that." The PMs track it however they track it.
+C: If you add up that kind of chasing across the PMs, the submittal logs, following up on sign-offs, rebuilding burn sheets, roughly how many hours a week are we talking?
+J: Per PM?
+C: Per PM, and then how many PMs.
+J: Um. I'd say three hours a week each. Some more, some less. If you're deep in CA, it's way more than three.
+T: Three's fair. Maybe conservative.
+C: And how many PMs do you have?
+J: Twenty-two. Twenty-three if you count Dev -- no, not Dev. Anneke, who's half PM, half designer. Call it twenty-two.
+C: Do you use a loaded hourly cost for PM time? Not the bill rate, what it actually costs you.
+T: Yeah, we use one-oh-five internally for a PM, loaded. The bill rate's higher, about one-sixty-five on average.
+C: Would you mind doing the math on that? I'd rather it's your number than mine.
+J: Sure, hang on, I've got the calculator up. So twenty-two times three is sixty-six hours a week. Sixty-six times one-oh-five is... six thousand nine hundred thirty. A week. Times fifty-two is... three hundred sixty thousand, three hundred sixty. Huh.
+T: Three-sixty a year. On PMs chasing stuff.
+C: And the staffing side. Your Monday and half of Tuesday on the Wall, plus the call?
+J: So I'm, call it twelve hours a week on the Wall. And the call is twelve people for an hour, so twelve hours. Twenty-four hours a week, all in.
+T: Blended for that group, I'd use ninety an hour loaded. The studio leads cost more than Jordan, sorry, Jordan.
+J: I'm aware.
+T: So twenty-four times ninety is two thousand one hundred sixty a week, times fifty-two is... a hundred and twelve thousand. And change.
+C: And Hallie's ten hours on pursuits?
+J: Hallie's loaded rate is, what, sixty-two?
+T: About that.
+J: So six-twenty a week, times fifty-two, thirty-two thousand two hundred forty.
+T: So three-sixty, plus one-twelve, plus thirty-two. That's five hundred and four thousand. A year.
+C: Does that number feel right to you? Or does it feel inflated?
+T: No, it feels... honestly, it feels light. I didn't count the principals at all, and they're on the staffing call and they're the ones people chase for fee sign-offs. And that's before write-offs. And before Larkspur.
+J: Yeah, if anything it's more. I was being nice with the three hours.
+C: Okay. So I'll note it as about five hundred and four thousand a year from your numbers, with the write-offs and the lost pursuit on top of that and not counted in it. Is that fair?
+T: That's fair.
+C: Flip side, then. If your PMs got a good chunk of those sixty-six hours back, where does that time go?
+J: Billable. Honestly.
+T: Most of our PMs are also doing real project work, so yeah, it would mostly go to billable time. Not all of it. Let's say half.
+C: What would half be worth?
+T: Thirty-three hours a week at one-sixty-five is... Jordan?
+J: Five thousand four hundred forty-five a week. Times fifty-two, two hundred eighty-three thousand, roughly.
+T: Two-eighty-ish. In billable time. Okay.
+C: And beyond the hours, is there something you'd go after if capacity weren't the limit?
+T: Healthcare. Absolutely. We no-go, I'd say, two, sometimes three healthcare pursuits a quarter, because we just can't staff the proposal on top of everything else, never mind the job. And those fees run four to six hundred thousand.
+C: If you did go after those, what would you realistically win?
+T: Our hit rate on healthcare, when we actually chase it, is maybe one in four? So if we chased those, two more wins a year feels realistic. That's eight hundred thousand to one point two million in fee. And Gordon would love that. That's the practice he wants to grow.
+C: Jordan, for you personally, what would getting Monday and half of Tuesday back mean?
+J: Honestly? Leaving before six on a Tuesday. And actually doing the Des Moines setup properly instead of at nine at night.
+C: Let's say this is all running well by spring. What's different in a normal week?
+T: Monday morning, I open one screen and I can see every pursuit that's due in the next two weeks, who owns it, whether an addendum came in, and whether the fee's signed off. And I can see which jobs are burning faster than they should, while there's still time to do something about it. Not six weeks later.
+J: For me, I'm not rebuilding the Wall. The PMs update their own people, or it comes from what they've already planned. And the Tuesday call is a fifteen-minute exceptions call. Who's over, who's light, done.
+C: And what would Gordon count as a win?
+T: He's said it out loud, at the retreat in May, which is part of why I'm on this call. No more missed submissions, and write-offs coming down. And I'd add, Des Moines opening on the same system as everyone else, not its own set of spreadsheets.
+C: When he says write-offs coming down, do you know what "down" would mean to him?
+T: He didn't give a number. I'd guess he'd be happy with half, but I'd want to ask him before we write that down anywhere.
+C: A couple of questions on tools. So far I've heard Excel, SharePoint, Ajera, Bluebeam, some Procore through contractors, Teams, Outlook. Anything else touching all this?
+J: That's pretty much it. Oh, and monday, technically.
+C: Tell me about that.
+J: So Anneke, in interiors, set up a free monday board last year to track furniture selections, FF and E, on a couple of jobs. She liked it. It kind of fizzled when the trial ended and nobody was paying for it. Nobody else ever touched it.
+T: Which is actually part of why I thought of monday. Anneke is not a tech person and she built that herself in an afternoon.
+C: That's useful. Is her board still around?
+J: Probably? I'd have to ask her. I don't think there's anything in it we'd need.
+C: How do the tools connect today? Does anything feed anything?
+J: Nope. Everything's an export and a copy-paste. Ajera exports to Excel, Excel goes to the Wall, the pursuit log is standalone. When we win something, Bev sets the job up in Ajera by reading the fee proposal PDF and typing it in.
+C: If we did something here, what has to be true on the Ajera side?
+J: Okay, so the one thing, and I mean this is non-negotiable, is it has to talk to Ajera. Job numbers, phases, phase fees, hours. Time entry stays in Ajera. The PMs are not entering time in two places. Bev would, honestly, she would walk out.
+T: She would. And she'd be right. Ajera is the book of record for anything with a dollar sign on it.
+J: And when a pursuit turns into a job, I'd love for the job number to come from Ajera instead of somebody retyping it. But I have no idea what's possible there.
+C: Do you know how you're set up with Ajera? Is it hosted, or on a server in your office?
+T: We're on the cloud version, I think? We moved a couple of years ago. Bev would know. Or Marcus, he's our IT guy. Well, he's at the managed services company we use.
+C: No problem, that's a question for Bev and Marcus, I'll note it. Anything on the security side I should know about? Sign-in, who can see what?
+T: Marcus will want everything on Microsoft sign-in, single sign-on, whatever we do. And a couple of things. Loaded rates and salaries, nobody outside of Bev, me, and the partners sees those. The PMs see hours, not rates. And we have a few justice jobs, there's a county jail addition right now, where the county wants the drawings and anything about the security layout kept to named people on the team.
+J: And public clients. Anything we write about a school district job can end up in a records request. So people need to keep their comments professional.
+T: [laughs] Which is its own training program.
+C: Let's talk about how a decision like this gets made. Say you both like what you see. What happens next?
+T: So I own the operations systems budget. But anything over twenty-five thousand, Gordon signs. And honestly, for something like this, even if it came in under that, I'd want Gordon on board, because if the partners aren't using it, the PMs won't either.
+C: What does Gordon care about most?
+T: Two things. Are we winning work, and are we writing it off. He is not going to care about the Wall. No offense, Jordan.
+J: None taken. He has never once asked me about the Wall.
+C: Anyone else with a say?
+T: Bev. Anything that touches Ajera, she has to be comfortable with. She doesn't sign off, exactly, but she can kill it. Marcus on the IT side, but that's more of a checklist. And formally, it goes on the agenda for the partner meeting. That's the first Thursday of the month.
+C: So the next one is...?
+T: October first. Which, now that I say it out loud, is also when the partners lock the systems budget for the new fiscal year. Our fiscal year starts October first.
+C: So if this is going to be in this year's budget, it needs to be in front of them on October first.
+T: Yeah. I mean, I could get it approved later as a one-off. But it's a lot easier if it's in the budget.
+C: And after the partners say yes, what happens?
+T: Bev cuts a PO, or if it's a subscription we just put it on the card, and then it's on me and Jordan to roll it out.
+C: Have you taken something like this to Gordon before? How did that go?
+T: When we bought Bluebeam licenses for everybody, two years ago. I did a one-pager, the cost and what it would save, and he signed it in about a week. If the numbers are clear, he's quick.
+C: What would he want to see on this one, specifically?
+T: The pursuit side. That we would not miss another Larkspur. And that the PMs will actually use it.
+C: Would it make sense for him to join the next conversation, so he hears it first-hand instead of through a one-pager?
+T: Yes. That's a good idea, actually. He'd much rather see something than read about it. I'll ask him.
+C: Are you looking at anything else alongside this? Other tools, or other people?
+T: Not really. Marcus suggested we just use Planner, since we already pay for Microsoft. I poked at it for an afternoon. It's fine for to-do lists, but it doesn't know anything about fees or phases. So, no.
+J: And Bev asked whether Ajera has a project module we're not using. Which, maybe? Nobody's actually checked.
+C: Where does this sit for you, priority-wise? Something to fix this quarter, or later on?
+T: This quarter. At the very least, the pursuits side has to be in place before Des Moines starts chasing work, and they open November second.
+C: And the rest of it? Jobs, staffing, burn?
+T: Ideally the whole thing's live before Des Moines opens. But, I mean, I don't want to hold anyone to that. Let's see what it looks like first.
+C: That's fair. What could get in the way of this going ahead?
+T: Honestly? The PMs. We tried a project management tool, I want to say four years ago, and it was dead in about two months. Nobody updated it, so it was wrong, so nobody trusted it, and then it was just... gone.
+C: What do you think killed it?
+J: Double entry. You had to put your stuff in there and still do everything else you were already doing. And nobody asked the PMs what they wanted before we bought it.
+T: That's fair. That was, that was partly me.
+J: And October is brutal. We've got four CD sets going out in October. Nobody's going to want training in October.
+T: And if Bev decides this is going to mess with Ajera, that's a hard stop. So, those three.
+C: That's really helpful. On the PMs, would it make sense for me to talk to one or two of them before we get too far along?
+J: Luis. Luis would be great. He's the one who was on vacation, so he's very motivated. [laughs]
+T: And someone who's a skeptic. Karen, one of our PMs in Rockford. If Karen likes it, everyone will like it.
+C: Okay. Let me play back what I'd put in a first version, just to show you, not to sign anything. One, pursuits, from the moment an RFQ lands, through go/no-go, the fee proposal, Gordon's sign-off, and the due date, with addenda in the same place. Two, jobs and phases, with hours and fees from Ajera, so PMs see burn weekly instead of monthly. Three, a staffing view that replaces the Wall. Submittals and owner approvals I'd hold for a second pass. Does that feel like the right first cut?
+T: Yes. That's the right first cut. Although Jordan's going to argue for submittals.
+J: I'm going to argue for submittals. CA is where the letters from contractors come from.
+T: Put a basic submittal log in, then. But don't spend a lot of time on it. I care more about the pursuits.
+C: Fair enough, a simple submittal log. And on Ajera, for a first look, I'd use sample hours so you can see how it works, and we work out the real connection with Bev. Is that okay?
+T: That's fine. As long as Bev hears it from us early, and not from someone else.
+C: So from everything we've talked through, is this worth taking forward? Where would you like to go from here?
+T: Yes. I want to see it. And I want Gordon to see it before October first.
+C: Then how about this. I put together a first version with those pieces, in your language, pursuits, jobs, phases, the Wall, and we walk through it together with Gordon. Could we do Thursday the twenty-fourth? That's a week before the partner meeting.
+T: Let me look. The twenty-fourth... I have a ten o'clock I can move. Jordan?
+J: I'm free all morning.
+T: Ten a.m. Central on the twenty-fourth, then. I'll have to check Gordon's calendar, but he's usually in the office on Thursdays.
+C: How long do you think he'll give us?
+T: Thirty minutes. Forty-five if it's going well.
+C: Let's book forty-five and aim to be done in thirty. I'll send the invite to you both today. Tess, could you forward it to Gordon?
+T: I'll forward it to him today and let you know by Friday the eighteenth if he's in.
+C: Perfect. And it would help a lot to build from real examples. Jordan, could you send me a copy of the Wall, the pursuit log, and an Ajera export for one job? Scrub the names and rates if you want.
+J: Yeah, I can do that. By Tuesday? The fifteenth?
+C: Tuesday the fifteenth is great. And Tess, would you mind giving Bev a heads-up that I may have a couple of questions about Ajera?
+T: I'll talk to her tomorrow.
+C: And I'll send you a short recap by end of day tomorrow, what I heard and the next steps, so you can correct anything I got wrong.
+T: Great.
+J: Sounds good.
+C: Last thing. Is there anything I didn't ask that I should have?
+T: Hmm. Not really. Oh -- maybe one thing. One project can have more than one job. Like, the Oak Street fire station is one building, but it's two jobs in Ajera. The base building, and then the apparatus bay equipment package, which we did as an additional service. So don't assume one project is one job.
+J: And engineering-only jobs, where we're the structural engineer for some other architect, don't have the same phases. Sometimes it's just design and CA. So don't hard-code SD, DD, CD for everything.
+C: Both really good to know. I'll check with you how you want those set up before I build anything.
+T: Great. Thank you. Honestly, this was a good use of an hour.
+C: Glad to hear it. Good luck with the freight elevator. Talk to you both on the twenty-fourth.
+T: [laughs] Thanks. Bye.
+J: Bye, thanks.

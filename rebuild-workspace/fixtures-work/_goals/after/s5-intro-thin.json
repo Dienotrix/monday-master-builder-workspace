@@ -1,0 +1,723 @@
+{
+  "fixture": "s5-intro-thin",
+  "sources": [
+    {
+      "name": "transcript.txt",
+      "kind": "transcript",
+      "format": "line-bracket",
+      "units": 75,
+      "unsupported": null
+    }
+  ],
+  "counts": {
+    "pairs": 89,
+    "verified": 89,
+    "verified_presence_only": 16,
+    "skipped": 2,
+    "unparsed_prose": 0,
+    "near_misses": 0,
+    "misses": 0,
+    "unsupported": 0,
+    "warnings": 0
+  },
+  "refused_quotes_not_checked": [],
+  "skipped": [
+    {
+      "path": "/numbers/bleed/quote",
+      "reason": "null or empty"
+    },
+    {
+      "path": "/numbers/upside/quote",
+      "reason": "null or empty"
+    }
+  ],
+  "pairs": [
+    {
+      "path": "/rubric[0]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "the member records are in our database, it's called [inaudible] something, it's old, we just call it the portal",
+      "location": "00:04:04 Jolene Varga",
+      "cited": "transcript.txt, L26, 00:04:04, Jolene Varga"
+    },
+    {
+      "path": "/rubric[0]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "i also keep my own tracker in excel because i don't totally trust it",
+      "location": "00:04:04 Jolene Varga",
+      "cited": "transcript.txt, L26, 00:04:04, Jolene Varga"
+    },
+    {
+      "path": "/rubric[0]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "some of it goes through event bright and some of it's just a form on our website",
+      "location": "00:05:28 Jolene Varga",
+      "cited": "transcript.txt, L34, 00:05:28, Jolene Varga"
+    },
+    {
+      "path": "/rubric[0]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "google docs, email chains, one of the chairs just likes to call people",
+      "location": "00:06:09 Jolene Varga",
+      "cited": "transcript.txt, L36, 00:06:09, Jolene Varga"
+    },
+    {
+      "path": "/rubric[0]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "the conference committee tried trello a while back i think? or it might have been monday actually. i really don't remember",
+      "location": "00:06:09 Jolene Varga",
+      "cited": "transcript.txt, L36, 00:06:09, Jolene Varga"
+    },
+    {
+      "path": "/rubric[1]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "i mean it's just kind of messy? like everybody has their own spreadsheets and their own way of doing things",
+      "location": "00:03:18 Jolene Varga",
+      "cited": "transcript.txt, L22, 00:03:18, Jolene Varga"
+    },
+    {
+      "path": "/rubric[1]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "not really one that jumps out? it's more of a general feeling.",
+      "location": "00:03:42 Jolene Varga",
+      "cited": "transcript.txt, L24, 00:03:42, Jolene Varga"
+    },
+    {
+      "path": "/rubric[2]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "i think it came up at the board retreat? or maybe it was before that. i honestly don't know what kicked it off.",
+      "location": "00:02:58 Jolene Varga",
+      "cited": "transcript.txt, L20, 00:02:58, Jolene Varga"
+    },
+    {
+      "path": "/rubric[2]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "i think the contract's up next year? maybe. i'd have to ask denise",
+      "location": "00:04:35 Jolene Varga",
+      "cited": "transcript.txt, L28, 00:04:35, Jolene Varga"
+    },
+    {
+      "path": "/rubric[2]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "i mean it'd be nice before renewal season gets crazy again but she didn't give me a date or anything",
+      "location": "00:07:28 Jolene Varga",
+      "cited": "transcript.txt, L44, 00:07:28, Jolene Varga"
+    },
+    {
+      "path": "/rubric[3]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "i've never actually thought about it in hours",
+      "location": "00:08:34 Jolene Varga",
+      "cited": "transcript.txt, L50, 00:08:34, Jolene Varga"
+    },
+    {
+      "path": "/rubric[5]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "i guess just like one place where we can see stuff? instead of asking five people.",
+      "location": "00:06:45 Jolene Varga",
+      "cited": "transcript.txt, L40, 00:06:45, Jolene Varga"
+    },
+    {
+      "path": "/rubric[5]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "i think denise just wants to feel like she knows what's going on without having to chase everybody. but you'd really have to ask her that",
+      "location": "00:06:45 Jolene Varga",
+      "cited": "transcript.txt, L40, 00:06:45, Jolene Varga"
+    },
+    {
+      "path": "/rubric[6]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "i'm not the one who'd decide anything",
+      "location": "00:02:37 Jolene Varga",
+      "cited": "transcript.txt, L18, 00:02:37, Jolene Varga"
+    },
+    {
+      "path": "/rubric[6]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "honestly that's above my pay grade. i don't know how that works with the money side, if it goes to the board or what. you'd have to ask denise",
+      "location": "00:07:09 Jolene Varga",
+      "cited": "transcript.txt, L42, 00:07:09, Jolene Varga"
+    },
+    {
+      "path": "/rubric[7]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "i don't think it's like urgent urgent. no rush really.",
+      "location": "00:07:28 Jolene Varga",
+      "cited": "transcript.txt, L44, 00:07:28, Jolene Varga"
+    },
+    {
+      "path": "/rubric[7]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "she didn't give me a date or anything",
+      "location": "00:07:28 Jolene Varga",
+      "cited": "transcript.txt, L44, 00:07:28, Jolene Varga"
+    },
+    {
+      "path": "/rubric[8]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "well we're a nonprofit so budget's always a thing",
+      "location": "00:07:46 Jolene Varga",
+      "cited": "transcript.txt, L46, 00:07:46, Jolene Varga"
+    },
+    {
+      "path": "/rubric[8]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "one of our board members apparently uses some association software at the other group he's on, so she might be looking at that too? i don't know.",
+      "location": "00:07:46 Jolene Varga",
+      "cited": "transcript.txt, L46, 00:07:46, Jolene Varga"
+    },
+    {
+      "path": "/rubric[8]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "i'm not even sure we're the kind of place that needs a whole system",
+      "location": "00:07:46 Jolene Varga",
+      "cited": "transcript.txt, L46, 00:07:46, Jolene Varga"
+    },
+    {
+      "path": "/rubric[9]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "tuesday the twenty second. let me look. [inaudible] okay ten thirty works for me.",
+      "location": "00:10:15 Jolene Varga",
+      "cited": "transcript.txt, L60, 00:10:15, Jolene Varga"
+    },
+    {
+      "path": "/rubric[9]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "yeah eastern",
+      "location": "00:10:34 Jolene Varga",
+      "cited": "transcript.txt, L62, 00:10:34, Jolene Varga"
+    },
+    {
+      "path": "/rubric[9]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "so tuesday the twenty second at ten thirty eastern. i'll send the invite today.",
+      "location": "00:10:36 Consultant",
+      "cited": "transcript.txt, L63, 00:10:36, Consultant"
+    },
+    {
+      "path": "/rubric[11]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "do you have like a demo or a price sheet or something i could send denise though? she's going to ask",
+      "location": "00:09:20 Jolene Varga",
+      "cited": "transcript.txt, L54, 00:09:20, Jolene Varga"
+    },
+    {
+      "path": "/rubric[12]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "i mean it's just kind of messy? like everybody has their own spreadsheets and their own way of doing things, and a lot of stuff lives in email.",
+      "location": "00:03:18 Jolene Varga",
+      "cited": "transcript.txt, L22, 00:03:18, Jolene Varga"
+    },
+    {
+      "path": "/rubric[12]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "and i think things fall through the cracks sometimes",
+      "location": "00:03:18 Jolene Varga",
+      "cited": "transcript.txt, L22, 00:03:18, Jolene Varga"
+    },
+    {
+      "path": "/rubric[13]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "not really one that jumps out? it's more of a general feeling.",
+      "location": "00:03:42 Jolene Varga",
+      "cited": "transcript.txt, L24, 00:03:42, Jolene Varga"
+    },
+    {
+      "path": "/rubric[13]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "but i couldn't point to like one big disaster or anything",
+      "location": "00:03:18 Jolene Varga",
+      "cited": "transcript.txt, L22, 00:03:18, Jolene Varga"
+    },
+    {
+      "path": "/rubric[14]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "i also keep my own tracker in excel because i don't totally trust it",
+      "location": "00:04:04 Jolene Varga",
+      "cited": "transcript.txt, L26, 00:04:04, Jolene Varga"
+    },
+    {
+      "path": "/rubric[14]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "everybody has a spreadsheet, that's kind of the theme here",
+      "location": "00:05:28 Jolene Varga",
+      "cited": "transcript.txt, L34, 00:05:28, Jolene Varga"
+    },
+    {
+      "path": "/rubric[15]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "sometimes the bookkeeper asks me who's paid",
+      "location": "00:04:54 Jolene Varga",
+      "cited": "transcript.txt, L30, 00:04:54, Jolene Varga"
+    },
+    {
+      "path": "/rubric[15]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "with the committees it's hard to know what's happening sometimes",
+      "location": "00:02:24 Jolene Varga",
+      "cited": "transcript.txt, L16, 00:02:24, Jolene Varga"
+    },
+    {
+      "path": "/rubric[15]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "instead of asking five people",
+      "location": "00:06:45 Jolene Varga",
+      "cited": "transcript.txt, L40, 00:06:45, Jolene Varga"
+    },
+    {
+      "path": "/rubric[16]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "some weeks it's most of what i do and some weeks it's barely anything",
+      "location": "00:08:34 Jolene Varga",
+      "cited": "transcript.txt, L50, 00:08:34, Jolene Varga"
+    },
+    {
+      "path": "/rubric[16]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "i've never actually thought about it in hours",
+      "location": "00:08:34 Jolene Varga",
+      "cited": "transcript.txt, L50, 00:08:34, Jolene Varga"
+    },
+    {
+      "path": "/pains[0]/quote",
+      "status": "verified",
+      "quote": "i mean it's just kind of messy? like everybody has their own spreadsheets and their own way of doing things, and a lot of stuff lives in email.",
+      "location": "00:03:18 Jolene Varga",
+      "cited": "transcript.txt, L22, 00:03:18, Jolene Varga"
+    },
+    {
+      "path": "/pains[1]/quote",
+      "status": "verified",
+      "quote": "i think things fall through the cracks sometimes. but i couldn't point to like one big disaster or anything",
+      "location": "00:03:18 Jolene Varga",
+      "cited": "transcript.txt, L22, 00:03:18, Jolene Varga"
+    },
+    {
+      "path": "/pains[2]/quote",
+      "status": "verified",
+      "quote": "like you don't always know where something's at",
+      "location": "00:03:42 Jolene Varga",
+      "cited": "transcript.txt, L24, 00:03:42, Jolene Varga"
+    },
+    {
+      "path": "/pains[3]/quote",
+      "status": "verified",
+      "quote": "one place where we can see stuff? instead of asking five people",
+      "location": "00:06:45 Jolene Varga",
+      "cited": "transcript.txt, L40, 00:06:45, Jolene Varga"
+    },
+    {
+      "path": "/pains[4]/quote",
+      "status": "verified",
+      "quote": "she just said we're all over the place and could i see what's out there",
+      "location": "00:02:58 Jolene Varga",
+      "cited": "transcript.txt, L20, 00:02:58, Jolene Varga"
+    },
+    {
+      "path": "/pains[5]/quote",
+      "status": "verified",
+      "quote": "with the committees it's hard to know what's happening sometimes. who's doing what",
+      "location": "00:02:24 Jolene Varga",
+      "cited": "transcript.txt, L16, 00:02:24, Jolene Varga"
+    },
+    {
+      "path": "/pains[6]/quote",
+      "status": "verified",
+      "quote": "each one kind of runs however their chair wants to run it",
+      "location": "00:01:51 Jolene Varga",
+      "cited": "transcript.txt, L14, 00:01:51, Jolene Varga"
+    },
+    {
+      "path": "/pains[7]/quote",
+      "status": "verified",
+      "quote": "all over. google docs, email chains, one of the chairs just likes to call people",
+      "location": "00:06:09 Jolene Varga",
+      "cited": "transcript.txt, L36, 00:06:09, Jolene Varga"
+    },
+    {
+      "path": "/pains[8]/quote",
+      "status": "verified",
+      "quote": "the portal sends the reminder emails, well it's supposed to, and then i also keep my own tracker in excel because i don't totally trust it",
+      "location": "00:04:04 Jolene Varga",
+      "cited": "transcript.txt, L26, 00:04:04, Jolene Varga"
+    },
+    {
+      "path": "/pains[9]/quote",
+      "status": "verified",
+      "quote": "oh just, it's clunky. i don't know if it's the portal or how it got set up, that was before my time.",
+      "location": "00:04:35 Jolene Varga",
+      "cited": "transcript.txt, L28, 00:04:35, Jolene Varga"
+    },
+    {
+      "path": "/pains[10]/quote",
+      "status": "verified",
+      "quote": "everybody has a spreadsheet, that's kind of the theme here",
+      "location": "00:05:28 Jolene Varga",
+      "cited": "transcript.txt, L34, 00:05:28, Jolene Varga"
+    },
+    {
+      "path": "/objections[0]/quote",
+      "status": "verified",
+      "quote": "and honestly i don't want to waste your time, i'm not even sure we're the kind of place that needs a whole system",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L46, 00:07:46, Jolene Varga"
+      ]
+    },
+    {
+      "path": "/objections[1]/quote",
+      "status": "verified",
+      "quote": "well we're a nonprofit so budget's always a thing",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L46, 00:07:46, Jolene Varga"
+      ]
+    },
+    {
+      "path": "/objections[2]/quote",
+      "status": "verified",
+      "quote": "one of our board members apparently uses some association software at the other group he's on",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L46, 00:07:46, Jolene Varga"
+      ]
+    },
+    {
+      "path": "/objections[3]/quote",
+      "status": "verified",
+      "quote": "honestly that's above my pay grade",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L42, 00:07:09, Jolene Varga"
+      ]
+    },
+    {
+      "path": "/objections[4]/quote",
+      "status": "verified",
+      "quote": "no rush really",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L44, 00:07:28, Jolene Varga"
+      ]
+    },
+    {
+      "path": "/objections[5]/quote",
+      "status": "verified",
+      "quote": "do you have like a demo or a price sheet or something i could send denise though? she's going to ask",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L54, 00:09:20, Jolene Varga"
+      ]
+    },
+    {
+      "path": "/objections[6]/quote",
+      "status": "verified",
+      "quote": "somebody set something up and then nobody used it",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L36, 00:06:09, Jolene Varga"
+      ]
+    },
+    {
+      "path": "/objections[7]/quote",
+      "status": "verified",
+      "quote": "is monday like a project management thing? i thought it was for marketing agencies",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L52, 00:08:56, Jolene Varga"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[0]/quote",
+      "status": "verified",
+      "quote": "so tuesday the twenty second at ten thirty eastern. i'll send the invite today.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L63, 00:10:36, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[1]/quote",
+      "status": "verified",
+      "quote": "i'll put a few lines in the invite about what we'll cover so she knows what she's walking into",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L65, 00:10:51, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[2]/quote",
+      "status": "verified",
+      "quote": "just send it to me and i'll forward it. i want to check with her first",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L64, 00:10:46, Jolene Varga"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[3]/quote",
+      "status": "verified",
+      "quote": "i'll ask denise if she can hop on, she might only be able to do half",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L60, 00:10:15, Jolene Varga"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[4]/quote",
+      "status": "verified",
+      "quote": "yeah i can ask wendell, he'd know",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L38, 00:06:35, Jolene Varga"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[5]/quote",
+      "status": "verified",
+      "quote": "okay yeah i can do that. roughly",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L52, 00:08:56, Jolene Varga"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[6]/quote",
+      "status": "verified",
+      "quote": "let me check if i'm allowed to send that",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L66, 00:10:58, Jolene Varga"
+      ]
+    },
+    {
+      "path": "/account_context/evidence_quote_or_null",
+      "status": "verified",
+      "quote": "the conference committee tried trello a while back i think? or it might have been monday actually. i really don't remember",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L36, 00:06:09, Jolene Varga"
+      ]
+    },
+    {
+      "path": "/readiness/goals[0]/quote",
+      "status": "verified",
+      "quote": "i guess just like one place where we can see stuff? instead of asking five people.",
+      "location": "00:06:45 Jolene Varga",
+      "cited": "transcript.txt, L40, 00:06:45, Jolene Varga"
+    },
+    {
+      "path": "/readiness/pains[0]/quote",
+      "status": "verified",
+      "quote": "i mean it's just kind of messy? like everybody has their own spreadsheets and their own way of doing things, and a lot of stuff lives in email.",
+      "location": "00:03:18 Jolene Varga",
+      "cited": "transcript.txt, L22, 00:03:18, Jolene Varga"
+    },
+    {
+      "path": "/readiness/pains[1]/quote",
+      "status": "verified",
+      "quote": "i think things fall through the cracks sometimes. but i couldn't point to like one big disaster or anything",
+      "location": "00:03:18 Jolene Varga",
+      "cited": "transcript.txt, L22, 00:03:18, Jolene Varga"
+    },
+    {
+      "path": "/readiness/pains[2]/quote",
+      "status": "verified",
+      "quote": "like you don't always know where something's at",
+      "location": "00:03:42 Jolene Varga",
+      "cited": "transcript.txt, L24, 00:03:42, Jolene Varga"
+    },
+    {
+      "path": "/readiness/pains[3]/quote",
+      "status": "verified",
+      "quote": "one place where we can see stuff? instead of asking five people",
+      "location": "00:06:45 Jolene Varga",
+      "cited": "transcript.txt, L40, 00:06:45, Jolene Varga"
+    },
+    {
+      "path": "/readiness/pains[4]/quote",
+      "status": "verified",
+      "quote": "she just said we're all over the place and could i see what's out there",
+      "location": "00:02:58 Jolene Varga",
+      "cited": "transcript.txt, L20, 00:02:58, Jolene Varga"
+    },
+    {
+      "path": "/readiness/pains[5]/quote",
+      "status": "verified",
+      "quote": "with the committees it's hard to know what's happening sometimes. who's doing what",
+      "location": "00:02:24 Jolene Varga",
+      "cited": "transcript.txt, L16, 00:02:24, Jolene Varga"
+    },
+    {
+      "path": "/readiness/pains[6]/quote",
+      "status": "verified",
+      "quote": "each one kind of runs however their chair wants to run it",
+      "location": "00:01:51 Jolene Varga",
+      "cited": "transcript.txt, L14, 00:01:51, Jolene Varga"
+    },
+    {
+      "path": "/readiness/pains[7]/quote",
+      "status": "verified",
+      "quote": "all over. google docs, email chains, one of the chairs just likes to call people",
+      "location": "00:06:09 Jolene Varga",
+      "cited": "transcript.txt, L36, 00:06:09, Jolene Varga"
+    },
+    {
+      "path": "/readiness/pains[8]/quote",
+      "status": "verified",
+      "quote": "the portal sends the reminder emails, well it's supposed to, and then i also keep my own tracker in excel because i don't totally trust it",
+      "location": "00:04:04 Jolene Varga",
+      "cited": "transcript.txt, L26, 00:04:04, Jolene Varga"
+    },
+    {
+      "path": "/readiness/pains[9]/quote",
+      "status": "verified",
+      "quote": "oh just, it's clunky. i don't know if it's the portal or how it got set up, that was before my time.",
+      "location": "00:04:35 Jolene Varga",
+      "cited": "transcript.txt, L28, 00:04:35, Jolene Varga"
+    },
+    {
+      "path": "/readiness/pains[10]/quote",
+      "status": "verified",
+      "quote": "everybody has a spreadsheet, that's kind of the theme here",
+      "location": "00:05:28 Jolene Varga",
+      "cited": "transcript.txt, L34, 00:05:28, Jolene Varga"
+    },
+    {
+      "path": "/readiness/signals[0]/quote",
+      "status": "verified",
+      "quote": "she just said we're all over the place and could i see what's out there",
+      "location": "00:02:58 Jolene Varga",
+      "cited": "transcript.txt, L20, 00:02:58, Jolene Varga"
+    },
+    {
+      "path": "/readiness/signals[1]/quote",
+      "status": "verified",
+      "quote": "i think denise just wants to feel like she knows what's going on without having to chase everybody. but you'd really have to ask her that",
+      "location": "00:06:45 Jolene Varga",
+      "cited": "transcript.txt, L40, 00:06:45, Jolene Varga"
+    },
+    {
+      "path": "/readiness/signals[2]/quote",
+      "status": "verified",
+      "quote": "and if people don't renew they go lapsed and then i follow up with some of them. email mostly",
+      "location": "00:04:04 Jolene Varga",
+      "cited": "transcript.txt, L26, 00:04:04, Jolene Varga"
+    },
+    {
+      "path": "/readiness/signals[3]/quote",
+      "status": "verified",
+      "quote": "i think the contract's up next year? maybe. i'd have to ask denise",
+      "location": "00:04:35 Jolene Varga",
+      "cited": "transcript.txt, L28, 00:04:35, Jolene Varga"
+    },
+    {
+      "path": "/readiness/signals[4]/quote",
+      "status": "verified",
+      "quote": "sometimes the bookkeeper asks me who's paid",
+      "location": "00:04:54 Jolene Varga",
+      "cited": "transcript.txt, L30, 00:04:54, Jolene Varga"
+    },
+    {
+      "path": "/readiness/signals[5]/quote",
+      "status": "verified",
+      "quote": "they need to know who has their credits, their ce hours, the pdh stuff, but that's kind of separate. that's a different spreadsheet. i think. yeah",
+      "location": "00:04:54 Jolene Varga",
+      "cited": "transcript.txt, L30, 00:04:54, Jolene Varga"
+    },
+    {
+      "path": "/readiness/signals[6]/quote",
+      "status": "verified",
+      "quote": "somebody set something up and then nobody used it",
+      "location": "00:06:09 Jolene Varga",
+      "cited": "transcript.txt, L36, 00:06:09, Jolene Varga"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[0]",
+      "status": "verified",
+      "quote": "with the committees it's hard to know what's happening sometimes. who's doing what",
+      "location": "00:02:24 Jolene Varga",
+      "cited": "transcript.txt, L16, 00:02:24, Jolene Varga"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[1]",
+      "status": "verified",
+      "quote": "each one kind of runs however their chair wants to run it",
+      "location": "00:01:51 Jolene Varga",
+      "cited": "transcript.txt, L14, 00:01:51, Jolene Varga"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[0]",
+      "status": "verified",
+      "quote": "the portal sends the reminder emails, well it's supposed to, and then i also keep my own tracker in excel because i don't totally trust it",
+      "location": "00:04:04 Jolene Varga",
+      "cited": "transcript.txt, L26, 00:04:04, Jolene Varga"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[1]",
+      "status": "verified",
+      "quote": "i think the contract's up next year? maybe. i'd have to ask denise",
+      "location": "00:04:35 Jolene Varga",
+      "cited": "transcript.txt, L28, 00:04:35, Jolene Varga"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[0]",
+      "status": "verified",
+      "quote": "oh just, it's clunky. i don't know if it's the portal or how it got set up, that was before my time.",
+      "location": "00:04:35 Jolene Varga",
+      "cited": "transcript.txt, L28, 00:04:35, Jolene Varga"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[0]",
+      "status": "verified",
+      "quote": "registration is, some of it goes through event bright and some of it's just a form on our website, and then he has, he has his own spreadsheet too",
+      "location": "00:05:28 Jolene Varga",
+      "cited": "transcript.txt, L34, 00:05:28, Jolene Varga"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[0]",
+      "status": "verified",
+      "quote": "somebody set something up and then nobody used it",
+      "location": "00:06:09 Jolene Varga",
+      "cited": "transcript.txt, L36, 00:06:09, Jolene Varga"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[1]",
+      "status": "verified",
+      "quote": "all over. google docs, email chains, one of the chairs just likes to call people",
+      "location": "00:06:09 Jolene Varga",
+      "cited": "transcript.txt, L36, 00:06:09, Jolene Varga"
+    }
+  ]
+}

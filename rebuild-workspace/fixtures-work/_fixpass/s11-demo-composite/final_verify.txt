@@ -1,0 +1,10 @@
+Fixture: s11-demo-composite
+Sources: transcript.txt (transcript/header-bracket, 86 units)
+
+pairs found      151
+verified         151  (of which presence only, no location cited: 25)
+skipped          0  (null, empty or a bare location pointer)
+unparsed prose   0
+near-misses      0
+misses           0
+unsupported      0

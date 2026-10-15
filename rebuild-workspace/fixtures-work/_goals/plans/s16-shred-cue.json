@@ -1,0 +1,55 @@
+{
+  "goals": [
+    {
+      "id": "G1",
+      "goal": "The founder out of the day-to-day by spring",
+      "quote": "He wants to be out of the day-to-day by spring.",
+      "location": "cue 217, 00:16:06.393, Rosamund Achterberg",
+      "speaker_role": "general manager in practice, the founder's daughter, relaying her father's aim, not his words",
+      "pains": ["P5.1", "P2.3"]
+    },
+    {
+      "id": "G2",
+      "goal": "Monday morning, every job: where on the floor, when it installs, whether the permit's good",
+      "quote": "I open something on Monday morning and I see every job, where it is on the floor, when it installs, and whether the permit's good.",
+      "location": "cues 222-223, 00:16:31.119, Rosamund Achterberg",
+      "speaker_role": "general manager in practice, the founder's daughter",
+      "pains": ["P1.3", "P2.3", "P2.4", "P4.1"]
+    },
+    {
+      "id": "G3",
+      "goal": "The permit tells her before it expires, not her telling herself",
+      "quote": "For me it's the permit tells me before it expires.",
+      "location": "cue 225, 00:16:46.144, Nkechi Brandvold",
+      "speaker_role": "office and permits coordinator",
+      "pains": ["P1.1", "P1.2"]
+    },
+    {
+      "id": "G4",
+      "goal": "The board big on a shop screen, magnets moving when a change comes in",
+      "quote": "I want the board on a screen in the shop, big, and I want the magnets to move when a change comes in without me hearing about it in the parking lot.",
+      "location": "cue 227, 00:16:57.485, R",
+      "speaker_role": "shop floor lead (Ruairi, labelled R)",
+      "pains": ["P2.1", "P2.2"]
+    }
+  ],
+  "assumption_kinds": [
+    "leaning",
+    "leaning",
+    "leaning",
+    "gap",
+    "leaning",
+    "gap",
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "board-architecture",
+    "gap",
+    "leaning",
+    "gap",
+    "board-architecture"
+  ],
+  "note_add": null
+}

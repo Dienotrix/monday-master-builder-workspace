@@ -1,0 +1,29 @@
+{
+  "goals": [
+    {
+      "id": "G1",
+      "goal": "The whiteboard gone before the Larchmere Hall contract starts in March",
+      "quote": "Larchmere Hall starts in March and Gerald has said the whiteboard has to be gone before then, so.",
+      "location": "51:23 Anjali Venkataraman (General Manager)",
+      "speaker_role": "General Manager",
+      "pains": ["P3.1", "P3.2", "P3.3", "P3.4"]
+    }
+  ],
+  "assumption_kinds": [
+    "call-type",
+    "leaning",
+    "leaning",
+    "leaning",
+    "gap",
+    "leaning",
+    "leaning",
+    "leaning",
+    "gap",
+    "gap",
+    "gap",
+    "gap",
+    "board-architecture",
+    "gap"
+  ],
+  "note_add": null
+}

@@ -1,0 +1,54 @@
+{
+  "goals": [
+    {
+      "id": "G1",
+      "goal": "Every work order in one place, with a clock on it and a name on it",
+      "quote": "Every work order is in one place, with a clock on it and a name on it.",
+      "location": "cue 186, 00:27:16,530, Yvette Carnahan",
+      "speaker_role": "director of client services (decides the tool; holds the client relationships)",
+      "pains": ["P1.1", "P1.2", "P1.3", "P1.4", "P1.5"]
+    },
+    {
+      "id": "G2",
+      "goal": "Quarterly review numbers that came out of the system, open to any line",
+      "quote": "And when I walk into a quarterly review, the numbers on my slide came out of the system, and I can click into any line of it while they're watching.",
+      "location": "cue 186, 00:27:16,530, Yvette Carnahan",
+      "speaker_role": "director of client services (decides the tool; holds the client relationships)",
+      "pains": ["P2.1", "P2.2", "P2.3"]
+    },
+    {
+      "id": "G3",
+      "goal": "The help desk lead no longer the system; it still works when she's on vacation",
+      "quote": "I'd like to go on vacation and have it still work.",
+      "location": "cue 187, 00:27:45,350, Tansy Whitlock",
+      "speaker_role": "help desk lead (runs intake and dispatch; builds the monthly report)",
+      "pains": ["P3.3", "P5.1", "P5.2"]
+    },
+    {
+      "id": "G4",
+      "goal": "Something in front of Brightmoor at the December quarterly, before the January renewal",
+      "quote": "I want to put something in front of Brightmoor at the December quarterly, even if it's partial.",
+      "location": "cue 202, 00:29:46,110, Yvette Carnahan",
+      "speaker_role": "director of client services (decides the tool; holds the client relationships)",
+      "pains": ["P1.1", "P2.2"]
+    }
+  ],
+  "assumption_kinds": [
+    "board-architecture",
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "board-architecture",
+    "gap",
+    "gap",
+    "gap",
+    "gap",
+    "leaning"
+  ],
+  "note_add": null
+}

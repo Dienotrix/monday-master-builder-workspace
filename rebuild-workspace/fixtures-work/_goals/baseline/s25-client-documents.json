@@ -1,0 +1,1270 @@
+{
+  "fixture": "s25-client-documents",
+  "sources": [
+    {
+      "name": "QP-07-F1-sample-flow.png",
+      "kind": "image",
+      "format": "image",
+      "units": 0,
+      "unsupported": "image: not checkable here, skipped"
+    },
+    {
+      "name": "QP-07-sample-receipt-testing-certification-v3.2.docx",
+      "kind": "docx",
+      "format": "docx",
+      "units": 33,
+      "unsupported": null
+    },
+    {
+      "name": "sample-tracking-what-we-need.pdf",
+      "kind": "pdf",
+      "format": "pdf",
+      "units": 6,
+      "unsupported": null
+    },
+    {
+      "name": "transcript.txt",
+      "kind": "transcript",
+      "format": "line-bracket",
+      "units": 88,
+      "unsupported": null
+    }
+  ],
+  "counts": {
+    "pairs": 167,
+    "verified": 166,
+    "verified_presence_only": 11,
+    "skipped": 2,
+    "unparsed_prose": 0,
+    "near_misses": 0,
+    "misses": 0,
+    "unsupported": 1,
+    "warnings": 0
+  },
+  "refused_quotes_not_checked": [],
+  "skipped": [
+    {
+      "path": "/numbers/upside/quote",
+      "reason": "null or empty"
+    },
+    {
+      "path": "/intake/second_hand[1]/true_source/quote",
+      "reason": "null or empty"
+    }
+  ],
+  "pairs": [
+    {
+      "path": "/rubric[0]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Each sample is given the next sample number in sequence and is entered in the sample register with the submitter, the crop and variety, the lot reference, the tests requested and the date of receipt.",
+      "location": "QP-07 section 3.2",
+      "cited": "QP-07-sample-receipt-testing-certification-v3.2.docx, section 3.2"
+    },
+    {
+      "path": "/rubric[0]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Each morning the Laboratory Supervisor takes the samples received on the previous working day from the receipt store and allocates them to the benches in order of receipt.",
+      "location": "QP-07 section 4.1",
+      "cited": "QP-07-sample-receipt-testing-certification-v3.2.docx, section 4.1"
+    },
+    {
+      "path": "/rubric[0]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "On completion of the test, the analyst enters the results from the bench sheet into the results database and signs the bench sheet.",
+      "location": "QP-07 section 5.3",
+      "cited": "QP-07-sample-receipt-testing-certification-v3.2.docx, section 5.3"
+    },
+    {
+      "path": "/rubric[0]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "The results are transcribed onto the certificate from the results database and are checked against the database before the certificate is printed.",
+      "location": "QP-07 section 6.3",
+      "cited": "QP-07-sample-receipt-testing-certification-v3.2.docx, section 6.3"
+    },
+    {
+      "path": "/rubric[0]/evidence[4]/quote",
+      "status": "unsupported",
+      "quote": "Log in sample register",
+      "location": "figure 1 p.1",
+      "reason": "image: not checkable here, skipped"
+    },
+    {
+      "path": "/rubric[0]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "In the register. Which is a spreadsheet.",
+      "location": "00:01:26 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L8, 00:01:26, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[0]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "She prints it. Prints the previous day. That's the allocation sheet, basically, she writes the bench on the printout.",
+      "location": "00:02:14 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L12, 00:02:14, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[0]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "A book. A paper book. It's not in the procedure, I know it's not in the procedure.",
+      "location": "00:01:43 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L10, 00:01:43, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[0]/evidence[8]/quote",
+      "status": "verified",
+      "quote": "It's two hours a day, some days. Most days. Just the walking and the ringing back.",
+      "location": "00:03:31 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L20, 00:03:31, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[0]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Let's start at the door, then. A box arrives. What happens?",
+      "location": "00:00:55 Consultant",
+      "cited": "transcript.txt, L5, 00:00:55, Consultant"
+    },
+    {
+      "path": "/rubric[1]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "But germination's a seven-day test and nobody on germination knew it was urgent, so it went in the normal queue, and it came out the Thursday after.",
+      "location": "00:06:03 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L34, 00:06:03, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[1]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "They'd sown it on the Saturday. Untested. And then they rang to tell us.",
+      "location": "00:06:03 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L34, 00:06:03, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[1]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "A germination went out as sixty-eight instead of eighty-six. Transposed.",
+      "location": "00:09:00 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L50, 00:09:00, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[1]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "We cannot see where a sample is without going to the bench or ringing.",
+      "location": "write-up p.1 section 1",
+      "cited": "sample-tracking-what-we-need.pdf, p.1 section 1"
+    },
+    {
+      "path": "/rubric[1]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Priority. Has the priority thing ever actually gone wrong?",
+      "location": "00:05:58 Consultant",
+      "cited": "transcript.txt, L33, 00:05:58, Consultant"
+    },
+    {
+      "path": "/rubric[2]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The co-op, the Harrowfield growers, they've signed with us from October. Next week's the first lorry, actually. It's about two thousand samples a year on top.",
+      "location": "00:07:17 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L38, 00:07:17, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[2]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "We had a finding at the surveillance visit in May about the register, because the assessor asked me to show where a sample was and I had to go and find it.",
+      "location": "00:07:53 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L42, 00:07:53, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[2]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "So that's a finding, and it has to be closed before the next visit.",
+      "location": "00:07:53 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L42, 00:07:53, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[2]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "March, I think. Annelise would know. It's a year, roughly.",
+      "location": "00:08:18 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L44, 00:08:18, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[2]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And is there anything else that made Annelise write the what-we-need notes now rather than last year?",
+      "location": "00:07:45 Consultant",
+      "cited": "transcript.txt, L41, 00:07:45, Consultant"
+    },
+    {
+      "path": "/rubric[3]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It's two hours a day, some days. Most days. Just the walking and the ringing back.",
+      "location": "00:03:31 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L20, 00:03:31, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[3]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Ten minutes? Fifteen if it's a multi-test. And it's, what, thirty a day in the season.",
+      "location": "00:09:31 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L54, 00:09:31, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[3]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "The laboratory receives approximately 9,000 samples a year.",
+      "location": "QP-07 section 3.5",
+      "cited": "QP-07-sample-receipt-testing-certification-v3.2.docx, section 3.5"
+    },
+    {
+      "path": "/rubric[3]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "I don't know. That's a Marguerite question. I don't want to guess at their time, they'd be cross with me.",
+      "location": "00:09:48 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L56, 00:09:48, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[3]/asked_quote/quote",
+      "status": "verified",
+      "quote": "How much of your day is that?",
+      "location": "00:03:28 Consultant",
+      "cited": "transcript.txt, L19, 00:03:28, Consultant"
+    },
+    {
+      "path": "/rubric[4]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Turn away? I wouldn't know. That's Cormac. He'd know what we've lost, if we've lost anything. I just know who rings.",
+      "location": "00:10:30 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L60, 00:10:30, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[4]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Is there work you turn away, or lose, because of the turnaround?",
+      "location": "00:10:24 Consultant",
+      "cited": "transcript.txt, L59, 00:10:24, Consultant"
+    },
+    {
+      "path": "/rubric[5]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The status of every sample visible at each stage, from receipt to certificate",
+      "location": "write-up p.1 section 2, W-2",
+      "cited": "sample-tracking-what-we-need.pdf, p.1 section 2, W-2"
+    },
+    {
+      "path": "/rubric[5]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The certificate prepared from recorded results without re-typing, ready to sign.",
+      "location": "write-up p.1 section 2, W-5",
+      "cited": "sample-tracking-what-we-need.pdf, p.1 section 2, W-5"
+    },
+    {
+      "path": "/rubric[5]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Turnaround measured for every sample against the targets in QP-07 section 6.5",
+      "location": "write-up p.1 section 2, W-6",
+      "cited": "sample-tracking-what-we-need.pdf, p.1 section 2, W-6"
+    },
+    {
+      "path": "/rubric[5]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "I don't walk. [laughs] I look at a screen and I can tell Marlowe's where their sample is without getting up.",
+      "location": "00:10:46 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L62, 00:10:46, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[5]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Turnaround, probably. He gets the complaints. And the audit finding closed, Annelise would say that.",
+      "location": "00:11:11 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L64, 00:11:11, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[5]/asked_quote/quote",
+      "status": "verified",
+      "quote": "All right. If this worked, what's different in a normal week for you?",
+      "location": "00:10:40 Consultant",
+      "cited": "transcript.txt, L61, 00:10:40, Consultant"
+    },
+    {
+      "path": "/rubric[6]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Annelise owns the procedure, so it's her project. But anything that costs money is Cormac. I don't know what the number is where it becomes Cormac.",
+      "location": "00:11:27 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L66, 00:11:27, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[6]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I'll get them in the room. Cormac I can't promise.",
+      "location": "00:14:44 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L82, 00:14:44, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[6]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Who decides on something like this, if it costs money?",
+      "location": "00:11:21 Consultant",
+      "cited": "transcript.txt, L65, 00:11:21, Consultant"
+    },
+    {
+      "path": "/rubric[7]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Before the season's properly going, so, yesterday. [laughs] Realistically Annelise said before the visit. But that's her saying it, not me. Ask her.",
+      "location": "00:11:46 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L68, 00:11:46, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[7]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "If it just did the register and the where-is-it, that'd be most of it for me.",
+      "location": "00:13:23 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L74, 00:13:23, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[7]/asked_quote/quote",
+      "status": "verified",
+      "quote": "That's fine. When would this need to be in by?",
+      "location": "00:11:42 Consultant",
+      "cited": "transcript.txt, L67, 00:11:42, Consultant"
+    },
+    {
+      "path": "/rubric[8]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The analysts have got seed dust on their hands all day, they're not going to touch a screen. Tobiah will, the others won't.",
+      "location": "00:12:03 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L70, 00:12:03, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[8]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Whatever this is, it can't be the place results live.",
+      "location": "00:12:03 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L70, 00:12:03, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[8]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "The results database cannot be replaced or altered.",
+      "location": "write-up p.2 section 3",
+      "cited": "sample-tracking-what-we-need.pdf, p.2 section 3"
+    },
+    {
+      "path": "/rubric[8]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Nothing may issue a certificate without a signature.",
+      "location": "write-up p.2 section 3",
+      "cited": "sample-tracking-what-we-need.pdf, p.2 section 3"
+    },
+    {
+      "path": "/rubric[8]/asked_quote/quote",
+      "status": "verified",
+      "quote": "I will. What could get in the way of it?",
+      "location": "00:11:58 Consultant",
+      "cited": "transcript.txt, L69, 00:11:58, Consultant"
+    },
+    {
+      "path": "/rubric[9]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Annelise said to book it through me. Friday the ninth? Two o'clock? Marguerite does allocation in the morning so afternoons are better.",
+      "location": "00:14:24 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L80, 00:14:24, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[9]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Friday the ninth at two, then. I'll send the invite to you today, and you'll get Annelise and Marguerite in the room?",
+      "location": "00:14:34 Consultant",
+      "cited": "transcript.txt, L81, 00:14:34, Consultant"
+    },
+    {
+      "path": "/rubric[9]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I'll get them in the room. Cormac I can't promise.",
+      "location": "00:14:44 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L82, 00:14:44, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[9]/asked_quote/quote",
+      "status": "verified",
+      "quote": "When could we get the three of you together? You, Annelise and Marguerite.",
+      "location": "00:14:18 Consultant",
+      "cited": "transcript.txt, L79, 00:14:18, Consultant"
+    },
+    {
+      "path": "/rubric[11]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "If it just did the register and the where-is-it, that'd be most of it for me. The certificate thing would be lovely. Annelise will want the turnaround numbers, she's asked for them twice.",
+      "location": "00:13:23 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L74, 00:13:23, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[11]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Okay. Let me play back what I think the first version is, and you tell me where I've got it wrong.",
+      "location": "00:12:48 Consultant",
+      "cited": "transcript.txt, L73, 00:12:48, Consultant"
+    },
+    {
+      "path": "/rubric[12]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We cannot see where a sample is without going to the bench or ringing.",
+      "location": "write-up p.1 section 1",
+      "cited": "sample-tracking-what-we-need.pdf, p.1 section 1"
+    },
+    {
+      "path": "/rubric[12]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Then I walk. [laughs] Honestly. I walk to purity, I walk to germination, I ask whoever's there, and if it's in the germinator I have to find the bench sheet, and the bench sheet's wherever Tobiah left it.",
+      "location": "00:03:03 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L18, 00:03:03, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[12]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "That box on the form? Nobody uses it.",
+      "location": "00:04:01 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L22, 00:04:01, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[12]/asked_quote/quote",
+      "status": "verified",
+      "quote": "So a submitter rings and asks where their sample is.",
+      "location": "00:02:57 Consultant",
+      "cited": "transcript.txt, L17, 00:02:57, Consultant"
+    },
+    {
+      "path": "/rubric[13]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "they rang on the Monday and said it was urgent, sowing that weekend, and I did my usual, top of the pile, told purity",
+      "location": "00:06:03 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L34, 00:06:03, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[13]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The certificate went out on the eleventh day. They'd sown it on the Saturday. Untested.",
+      "location": "00:06:03 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L34, 00:06:03, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[13]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Priority. Has the priority thing ever actually gone wrong?",
+      "location": "00:05:58 Consultant",
+      "cited": "transcript.txt, L33, 00:05:58, Consultant"
+    },
+    {
+      "path": "/rubric[14]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Or I ring, if I can't leave the desk, and then I'm waiting for someone to ring me back.",
+      "location": "00:03:03 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L18, 00:03:03, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[14]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I put it at the top of the pile and I tell whoever's on purity. Marguerite finds out when she sees it on the list. If she looks.",
+      "location": "00:04:01 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L22, 00:04:01, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[14]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Where a submitter enquires about the progress of a sample, the Sample Reception Coordinator establishes its status with the bench and responds to the submitter on the same working day.",
+      "location": "QP-07 section 3.4",
+      "cited": "QP-07-sample-receipt-testing-certification-v3.2.docx, section 3.4"
+    },
+    {
+      "path": "/rubric[14]/asked_quote/quote",
+      "status": "verified",
+      "quote": "So a submitter rings and asks where their sample is.",
+      "location": "00:02:57 Consultant",
+      "cited": "transcript.txt, L17, 00:02:57, Consultant"
+    },
+    {
+      "path": "/rubric[15]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Annelise had to write to them. I don't know if it cost money. It cost, you know. Them not trusting us in the first month of a contract we'd only just won.",
+      "location": "00:06:48 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L36, 00:06:48, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[15]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Turnaround, probably. He gets the complaints.",
+      "location": "00:11:11 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L64, 00:11:11, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[16]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It's two hours a day, some days. Most days. Just the walking and the ringing back.",
+      "location": "00:03:31 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L20, 00:03:31, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[16]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "In the season it's more, but then everything's more in the season.",
+      "location": "00:03:31 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L20, 00:03:31, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[16]/asked_quote/quote",
+      "status": "verified",
+      "quote": "How much of your day is that?",
+      "location": "00:03:28 Consultant",
+      "cited": "transcript.txt, L19, 00:03:28, Consultant"
+    },
+    {
+      "path": "/rubric[17]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It's about two thousand samples a year on top.",
+      "location": "00:07:17 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L38, 00:07:17, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[17]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "-- ninety-two hundred, something like that, last year.",
+      "location": "00:07:35 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L40, 00:07:35, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[17]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "In the season it's more, but then everything's more in the season.",
+      "location": "00:03:31 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L20, 00:03:31, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[17]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Tell me about the contract, because that sounds like part of why now.",
+      "location": "00:07:05 Consultant",
+      "cited": "transcript.txt, L37, 00:07:05, Consultant"
+    },
+    {
+      "path": "/rubric[18]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Every result is written three times: bench sheet, results database, certificate.",
+      "location": "write-up p.1 section 1",
+      "cited": "sample-tracking-what-we-need.pdf, p.1 section 1"
+    },
+    {
+      "path": "/rubric[18]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Three times. And the certificate is me, typing, from the database into the template. And then checking it against the database again, because I've typed it.",
+      "location": "00:08:36 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L46, 00:08:36, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[18]/asked_quote/quote",
+      "status": "verified",
+      "quote": "The procedure has results going onto the bench sheet, then into the results database, then onto the certificate. Three times.",
+      "location": "00:08:23 Consultant",
+      "cited": "transcript.txt, L45, 00:08:23, Consultant"
+    },
+    {
+      "path": "/rubric[19]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "A germination went out as sixty-eight instead of eighty-six. Transposed. In, um, June? The merchant rang, we reissued.",
+      "location": "00:09:00 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L50, 00:09:00, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[19]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Not often. Twice this year that I know of.",
+      "location": "00:09:17 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L52, 00:09:17, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[19]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Has the typing ever gone wrong?",
+      "location": "00:08:57 Consultant",
+      "cited": "transcript.txt, L49, 00:08:57, Consultant"
+    },
+    {
+      "path": "/rubric[20]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It's the checking that takes the time, not the mistakes. Every certificate, I check every number twice.",
+      "location": "00:09:17 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L52, 00:09:17, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[20]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The Sample Reception Coordinator prepares the certificate from the certificate template.",
+      "location": "QP-07 section 6.3",
+      "cited": "QP-07-sample-receipt-testing-certification-v3.2.docx, section 6.3"
+    },
+    {
+      "path": "/rubric[20]/asked_quote/quote",
+      "status": "verified",
+      "quote": "How long is that, per certificate?",
+      "location": "00:09:28 Consultant",
+      "cited": "transcript.txt, L53, 00:09:28, Consultant"
+    },
+    {
+      "path": "/rubric[21]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Marguerite had to sign the reissue and she wasn't happy.",
+      "location": "00:09:00 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L50, 00:09:00, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[22]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Ten minutes? Fifteen if it's a multi-test. And it's, what, thirty a day in the season.",
+      "location": "00:09:31 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L54, 00:09:31, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[22]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "That's a Marguerite question.",
+      "location": "00:09:48 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L56, 00:09:48, Rosalind Okonjo"
+    },
+    {
+      "path": "/rubric[22]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And the bench side, the time the analysts spend entering --",
+      "location": "00:09:43 Consultant",
+      "cited": "transcript.txt, L55, 00:09:43, Consultant"
+    },
+    {
+      "path": "/rubric[23]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Less now. Well, not less now, it's the season now.",
+      "location": "00:09:31 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L54, 00:09:31, Rosalind Okonjo"
+    },
+    {
+      "path": "/pains[0]/quote",
+      "status": "verified",
+      "quote": "We cannot see where a sample is without going to the bench or ringing.",
+      "location": "write-up p.1 section 1",
+      "cited": "sample-tracking-what-we-need.pdf, p.1 section 1"
+    },
+    {
+      "path": "/pains[1]/quote",
+      "status": "verified",
+      "quote": "Then I walk. [laughs] Honestly.",
+      "location": "00:03:03 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L18, 00:03:03, Rosalind Okonjo"
+    },
+    {
+      "path": "/pains[2]/quote",
+      "status": "verified",
+      "quote": "That box on the form? Nobody uses it.",
+      "location": "00:04:01 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L22, 00:04:01, Rosalind Okonjo"
+    },
+    {
+      "path": "/pains[3]/quote",
+      "status": "verified",
+      "quote": "nobody on germination knew it was urgent, so it went in the normal queue",
+      "location": "00:06:03 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L34, 00:06:03, Rosalind Okonjo"
+    },
+    {
+      "path": "/pains[4]/quote",
+      "status": "verified",
+      "quote": "But by then it's late. We find out it's late when they ring.",
+      "location": "00:10:11 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L58, 00:10:11, Rosalind Okonjo"
+    },
+    {
+      "path": "/pains[5]/quote",
+      "status": "verified",
+      "quote": "Every result is written three times: bench sheet, results database, certificate.",
+      "location": "write-up p.1 section 1",
+      "cited": "sample-tracking-what-we-need.pdf, p.1 section 1"
+    },
+    {
+      "path": "/pains[6]/quote",
+      "status": "verified",
+      "quote": "And the certificate is me, typing, from the database into the template.",
+      "location": "00:08:36 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L46, 00:08:36, Rosalind Okonjo"
+    },
+    {
+      "path": "/pains[7]/quote",
+      "status": "verified",
+      "quote": "It's the checking that takes the time, not the mistakes.",
+      "location": "00:09:17 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L52, 00:09:17, Rosalind Okonjo"
+    },
+    {
+      "path": "/pains[8]/quote",
+      "status": "verified",
+      "quote": "The spreadsheet's been corrupted twice, once in the season, and I lost a day and a half of receipts",
+      "location": "00:01:43 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L10, 00:01:43, Rosalind Okonjo"
+    },
+    {
+      "path": "/pains[9]/quote",
+      "status": "verified",
+      "quote": "the assessor asked me to show where a sample was and I had to go and find it",
+      "location": "00:07:53 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L42, 00:07:53, Rosalind Okonjo"
+    },
+    {
+      "path": "/numbers/bleed/quote",
+      "status": "verified",
+      "quote": "It's two hours a day, some days. Most days. Just the walking and the ringing back.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L20, 00:03:31, Rosalind Okonjo"
+      ]
+    },
+    {
+      "path": "/objections[0]/quote",
+      "status": "verified",
+      "quote": "The analysts have got seed dust on their hands all day, they're not going to touch a screen.",
+      "location": "00:12:03 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L70, 00:12:03, Rosalind Okonjo"
+    },
+    {
+      "path": "/objections[1]/quote",
+      "status": "verified",
+      "quote": "Whatever this is, it can't be the place results live.",
+      "location": "00:12:03 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L70, 00:12:03, Rosalind Okonjo"
+    },
+    {
+      "path": "/objections[2]/quote",
+      "status": "verified",
+      "quote": "Cormac I can't promise.",
+      "location": "00:14:44 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L82, 00:14:44, Rosalind Okonjo"
+    },
+    {
+      "path": "/objections[3]/quote",
+      "status": "verified",
+      "quote": "But that's her saying it, not me. Ask her.",
+      "location": "00:11:46 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L68, 00:11:46, Rosalind Okonjo"
+    },
+    {
+      "path": "/objections[4]/quote",
+      "status": "verified",
+      "quote": "Don't make it sound like I've dobbed anyone in.",
+      "location": "00:15:04 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L84, 00:15:04, Rosalind Okonjo"
+    },
+    {
+      "path": "/objections[5]/quote",
+      "status": "verified",
+      "quote": "[laughs] Good luck.",
+      "location": "00:14:14 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L78, 00:14:14, Rosalind Okonjo"
+    },
+    {
+      "path": "/objections[6]/quote",
+      "status": "verified",
+      "quote": "I'm not going to say she doesn't know.",
+      "location": "00:04:49 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L26, 00:04:49, Rosalind Okonjo"
+    },
+    {
+      "path": "/commitments_and_next_steps[0]/quote",
+      "status": "verified",
+      "quote": "Friday the ninth at two, then. I'll send the invite to you today, and you'll get Annelise and Marguerite in the room?",
+      "location": "00:14:34 Consultant",
+      "cited": "transcript.txt, L81, 00:14:34, Consultant"
+    },
+    {
+      "path": "/commitments_and_next_steps[1]/quote",
+      "status": "verified",
+      "quote": "I'll get them in the room.",
+      "location": "00:14:44 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L82, 00:14:44, Rosalind Okonjo"
+    },
+    {
+      "path": "/commitments_and_next_steps[2]/quote",
+      "status": "verified",
+      "quote": "I'd rather ask Cormac through Annelise anyway.",
+      "location": "00:14:49 Consultant",
+      "cited": "transcript.txt, L83, 00:14:49, Consultant"
+    },
+    {
+      "path": "/commitments_and_next_steps[3]/quote",
+      "status": "verified",
+      "quote": "Before then I'll write up what you've told me, and where it's different from the procedure I'll put it as a question for Annelise, not as a finding.",
+      "location": "00:14:49 Consultant",
+      "cited": "transcript.txt, L83, 00:14:49, Consultant"
+    },
+    {
+      "path": "/commitments_and_next_steps[4]/quote",
+      "status": "verified",
+      "quote": "That's fair, and I'll ask her, and I'll ask it as a question, not as a finding.",
+      "location": "00:05:02 Consultant",
+      "cited": "transcript.txt, L27, 00:05:02, Consultant"
+    },
+    {
+      "path": "/commitments_and_next_steps[5]/quote",
+      "status": "verified",
+      "quote": "Fair enough, I'll take that to Marguerite rather than guess.",
+      "location": "00:09:57 Consultant",
+      "cited": "transcript.txt, L57, 00:09:57, Consultant"
+    },
+    {
+      "path": "/commitments_and_next_steps[6]/quote",
+      "status": "verified",
+      "quote": "Okay, I'll ask her that too.",
+      "location": "00:08:23 Consultant",
+      "cited": "transcript.txt, L45, 00:08:23, Consultant"
+    },
+    {
+      "path": "/commitments_and_next_steps[7]/quote",
+      "status": "verified",
+      "quote": "What it should do about the approval is what I want to ask Annelise and Marguerite, because the procedure says one thing and you've told me another, and I don't want to build either without them in the room.",
+      "location": "00:13:51 Consultant",
+      "cited": "transcript.txt, L77, 00:13:51, Consultant"
+    },
+    {
+      "path": "/requested_changes[0]/quote",
+      "status": "verified",
+      "quote": "The results database stays the system of record for results.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "sample-tracking-what-we-need.pdf, p.1 section 2"
+      ]
+    },
+    {
+      "path": "/requested_changes[1]/quote",
+      "status": "verified",
+      "quote": "Nothing may issue a certificate without a signature.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "sample-tracking-what-we-need.pdf, p.2 section 3"
+      ]
+    },
+    {
+      "path": "/requested_changes[2]/quote",
+      "status": "verified",
+      "quote": "they're not going to touch a screen. Tobiah will, the others won't.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L70, 00:12:03, Rosalind Okonjo"
+      ]
+    },
+    {
+      "path": "/requested_changes[3]/quote",
+      "status": "verified",
+      "quote": "And the priority thing is visible, so when I say it's urgent, germination knows it's urgent, not just purity.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L62, 00:10:46, Rosalind Okonjo"
+      ]
+    },
+    {
+      "path": "/requested_changes[4]/quote",
+      "status": "verified",
+      "quote": "Annelise will want the turnaround numbers, she's asked for them twice.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L74, 00:13:23, Rosalind Okonjo"
+      ]
+    },
+    {
+      "path": "/account_context/evidence_quote_or_null",
+      "status": "verified",
+      "quote": "No. Annelise has got a login to something from her last place, I think. I don't know what.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L72, 00:12:36, Rosalind Okonjo"
+      ]
+    },
+    {
+      "path": "/intake/files[3]/type_quote/quote",
+      "status": "verified",
+      "quote": "Yeah, that's fine. She said you'd want the real version. [laughs] Ask away.",
+      "location": "00:00:48 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L4, 00:00:48, Rosalind Okonjo"
+    },
+    {
+      "path": "/intake/type_header/signals[0]/quote",
+      "status": "verified",
+      "quote": "I'm not going to show you anything today.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L3, 00:00:16, Consultant"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[2]/quote",
+      "status": "verified",
+      "quote": "Yeah, that's fine. She said you'd want the real version. [laughs] Ask away.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L4, 00:00:48, Rosalind Okonjo"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[3]/quote",
+      "status": "verified",
+      "quote": "If it just did the register and the where-is-it, that'd be most of it for me.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L74, 00:13:23, Rosalind Okonjo"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[4]/quote",
+      "status": "verified",
+      "quote": "But anything that costs money is Cormac.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L66, 00:11:27, Rosalind Okonjo"
+      ]
+    },
+    {
+      "path": "/intake/conflicts[0]/document/quote",
+      "status": "verified",
+      "quote": "A priority request is approved by the Laboratory Manager before the sample is allocated.",
+      "location": "QP-07 section 4.2",
+      "cited": "QP-07-sample-receipt-testing-certification-v3.2.docx, section 4.2"
+    },
+    {
+      "path": "/intake/conflicts[0]/dependent_requirement/quote",
+      "status": "verified",
+      "quote": "Priority requests approved by the Laboratory Manager on screen, not on the form",
+      "location": "write-up p.1 section 2, W-3",
+      "cited": "sample-tracking-what-we-need.pdf, p.1 section 2, W-3"
+    },
+    {
+      "path": "/intake/conflicts[0]/call[0]/quote",
+      "status": "verified",
+      "quote": "That box on the form? Nobody uses it.",
+      "location": "00:04:01 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L22, 00:04:01, Rosalind Okonjo"
+    },
+    {
+      "path": "/intake/conflicts[0]/call[1]/quote",
+      "status": "verified",
+      "quote": "It doesn't happen. I mean, it's in the procedure, and Annelise wrote the procedure, so it's not that nobody knows it's there.",
+      "location": "00:04:25 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L24, 00:04:25, Rosalind Okonjo"
+    },
+    {
+      "path": "/intake/second_hand[0]/requote/quote",
+      "status": "verified",
+      "quote": "-- ninety-two hundred, something like that, last year. It's in the procedure, it's Annelise's number, I don't count them.",
+      "location": "00:07:35 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L40, 00:07:35, Rosalind Okonjo"
+    },
+    {
+      "path": "/intake/second_hand[0]/true_source/quote",
+      "status": "verified",
+      "quote": "The laboratory receives approximately 9,000 samples a year.",
+      "location": "QP-07 section 3.5",
+      "cited": "QP-07-sample-receipt-testing-certification-v3.2.docx, section 3.5"
+    },
+    {
+      "path": "/intake/second_hand[1]/requote/quote",
+      "status": "verified",
+      "quote": "Realistically Annelise said before the visit. But that's her saying it, not me. Ask her.",
+      "location": "00:11:46 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L68, 00:11:46, Rosalind Okonjo"
+    },
+    {
+      "path": "/intake/second_hand[1]/also[0]/quote",
+      "status": "verified",
+      "quote": "Annelise will want the turnaround numbers, she's asked for them twice.",
+      "location": "00:13:23 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L74, 00:13:23, Rosalind Okonjo"
+    },
+    {
+      "path": "/intake/second_hand[1]/also[1]/quote",
+      "status": "verified",
+      "quote": "And the audit finding closed, Annelise would say that.",
+      "location": "00:11:11 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L64, 00:11:11, Rosalind Okonjo"
+    },
+    {
+      "path": "/intake/claims_by_our_side[0]/quote",
+      "status": "verified",
+      "quote": "A flag that notifies someone is a normal thing for it to do.",
+      "location": "00:13:51 Consultant",
+      "cited": "transcript.txt, L77, 00:13:51, Consultant"
+    },
+    {
+      "path": "/readiness/pains[0]/quote",
+      "status": "verified",
+      "quote": "We cannot see where a sample is without going to the bench or ringing.",
+      "location": "write-up p.1 section 1",
+      "cited": "sample-tracking-what-we-need.pdf, p.1 section 1"
+    },
+    {
+      "path": "/readiness/pains[1]/quote",
+      "status": "verified",
+      "quote": "Then I walk. [laughs] Honestly.",
+      "location": "00:03:03 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L18, 00:03:03, Rosalind Okonjo"
+    },
+    {
+      "path": "/readiness/pains[2]/quote",
+      "status": "verified",
+      "quote": "That box on the form? Nobody uses it.",
+      "location": "00:04:01 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L22, 00:04:01, Rosalind Okonjo"
+    },
+    {
+      "path": "/readiness/pains[3]/quote",
+      "status": "verified",
+      "quote": "nobody on germination knew it was urgent, so it went in the normal queue",
+      "location": "00:06:03 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L34, 00:06:03, Rosalind Okonjo"
+    },
+    {
+      "path": "/readiness/pains[4]/quote",
+      "status": "verified",
+      "quote": "But by then it's late. We find out it's late when they ring.",
+      "location": "00:10:11 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L58, 00:10:11, Rosalind Okonjo"
+    },
+    {
+      "path": "/readiness/pains[5]/quote",
+      "status": "verified",
+      "quote": "Every result is written three times: bench sheet, results database, certificate.",
+      "location": "write-up p.1 section 1",
+      "cited": "sample-tracking-what-we-need.pdf, p.1 section 1"
+    },
+    {
+      "path": "/readiness/pains[6]/quote",
+      "status": "verified",
+      "quote": "And the certificate is me, typing, from the database into the template.",
+      "location": "00:08:36 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L46, 00:08:36, Rosalind Okonjo"
+    },
+    {
+      "path": "/readiness/pains[7]/quote",
+      "status": "verified",
+      "quote": "It's the checking that takes the time, not the mistakes.",
+      "location": "00:09:17 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L52, 00:09:17, Rosalind Okonjo"
+    },
+    {
+      "path": "/readiness/pains[8]/quote",
+      "status": "verified",
+      "quote": "The spreadsheet's been corrupted twice, once in the season, and I lost a day and a half of receipts",
+      "location": "00:01:43 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L10, 00:01:43, Rosalind Okonjo"
+    },
+    {
+      "path": "/readiness/pains[9]/quote",
+      "status": "verified",
+      "quote": "the assessor asked me to show where a sample was and I had to go and find it",
+      "location": "00:07:53 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L42, 00:07:53, Rosalind Okonjo"
+    },
+    {
+      "path": "/readiness/signals[0]/quote",
+      "status": "verified",
+      "quote": "Can it tell Marguerite when I flag something? Because that's the whole thing, really, for me.",
+      "location": "00:13:45 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L76, 00:13:45, Rosalind Okonjo"
+    },
+    {
+      "path": "/readiness/signals[1]/quote",
+      "status": "verified",
+      "quote": "If it just did the register and the where-is-it, that'd be most of it for me.",
+      "location": "00:13:23 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L74, 00:13:23, Rosalind Okonjo"
+    },
+    {
+      "path": "/readiness/signals[2]/quote",
+      "status": "verified",
+      "quote": "The certificate thing would be lovely.",
+      "location": "00:13:23 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L74, 00:13:23, Rosalind Okonjo"
+    },
+    {
+      "path": "/readiness/signals[3]/quote",
+      "status": "verified",
+      "quote": "Annelise will want the turnaround numbers, she's asked for them twice.",
+      "location": "00:13:23 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L74, 00:13:23, Rosalind Okonjo"
+    },
+    {
+      "path": "/readiness/signals[4]/quote",
+      "status": "verified",
+      "quote": "Turnaround, probably. He gets the complaints. And the audit finding closed, Annelise would say that.",
+      "location": "00:11:11 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L64, 00:11:11, Rosalind Okonjo"
+    },
+    {
+      "path": "/readiness/signals[5]/quote",
+      "status": "verified",
+      "quote": "Realistically Annelise said before the visit. But that's her saying it, not me. Ask her.",
+      "location": "00:11:46 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L68, 00:11:46, Rosalind Okonjo"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[0]",
+      "status": "verified",
+      "quote": "Fifteen if it's a multi-test.",
+      "location": "00:09:31 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L54, 00:09:31, Rosalind Okonjo"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[1]",
+      "status": "verified",
+      "quote": "And purity was fine, purity did it that day. But germination's a seven-day test and nobody on germination knew it was urgent, so it went in the normal queue, and it came out the Thursday after.",
+      "location": "00:06:03 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L34, 00:06:03, Rosalind Okonjo"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[2]",
+      "status": "verified",
+      "quote": "Certificates are normally issued within 21 days of receipt for germination and vigour tests and within 10 days of receipt for purity and moisture tests.",
+      "location": "QP-07 section 6.5",
+      "cited": "QP-07-sample-receipt-testing-certification-v3.2.docx, section 6.5"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[0]",
+      "status": "verified",
+      "quote": "The analysts have got seed dust on their hands all day, they're not going to touch a screen. Tobiah will, the others won't.",
+      "location": "00:12:03 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L70, 00:12:03, Rosalind Okonjo"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[1]",
+      "status": "verified",
+      "quote": "Analysts must not need a keyboard at the bench while they are handling seed.",
+      "location": "write-up p.2 section 3",
+      "cited": "sample-tracking-what-we-need.pdf, p.2 section 3"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[0]",
+      "status": "verified",
+      "quote": "A priority request is approved by the Laboratory Manager before the sample is allocated.",
+      "location": "QP-07 section 4.2",
+      "cited": "QP-07-sample-receipt-testing-certification-v3.2.docx, section 4.2"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[1]",
+      "status": "verified",
+      "quote": "That box on the form? Nobody uses it.",
+      "location": "00:04:01 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L22, 00:04:01, Rosalind Okonjo"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[2]",
+      "status": "verified",
+      "quote": "It doesn't happen. I mean, it's in the procedure, and Annelise wrote the procedure, so it's not that nobody knows it's there.",
+      "location": "00:04:25 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L24, 00:04:25, Rosalind Okonjo"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[3]",
+      "status": "verified",
+      "quote": "Priority requests approved by the Laboratory Manager on screen, not on the form, and visible to every bench the same day.",
+      "location": "write-up p.1 section 2, W-3",
+      "cited": "sample-tracking-what-we-need.pdf, p.1 section 2, W-3"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[0]",
+      "status": "verified",
+      "quote": "And the certificate is me, typing, from the database into the template.",
+      "location": "00:08:36 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L46, 00:08:36, Rosalind Okonjo"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[1]",
+      "status": "verified",
+      "quote": "The certificate prepared from recorded results without re-typing, ready to sign.",
+      "location": "write-up p.1 section 2, W-5",
+      "cited": "sample-tracking-what-we-need.pdf, p.1 section 2, W-5"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[2]",
+      "status": "verified",
+      "quote": "Results entered once. The results database stays the system of record for results.",
+      "location": "write-up p.1 section 2, W-4",
+      "cited": "sample-tracking-what-we-need.pdf, p.1 section 2, W-4"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[0]",
+      "status": "verified",
+      "quote": "Where a result falls outside the tolerance for the test, a re-test is authorised under section 4.3 before any certificate is prepared.",
+      "location": "QP-07 section 6.2",
+      "cited": "QP-07-sample-receipt-testing-certification-v3.2.docx, section 6.2"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[1]",
+      "status": "verified",
+      "quote": "The merchant rang, we reissued.",
+      "location": "00:09:00 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L50, 00:09:00, Rosalind Okonjo"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[0]",
+      "status": "verified",
+      "quote": "She prints it. Prints the previous day. That's the allocation sheet, basically, she writes the bench on the printout.",
+      "location": "00:02:14 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L12, 00:02:14, Rosalind Okonjo"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[1]",
+      "status": "verified",
+      "quote": "Marguerite finds out when she sees it on the list. If she looks.",
+      "location": "00:04:01 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L22, 00:04:01, Rosalind Okonjo"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[2]",
+      "status": "verified",
+      "quote": "A daily list for each bench of the samples allocated to it, in priority order.",
+      "location": "write-up p.1 section 2, W-8",
+      "cited": "sample-tracking-what-we-need.pdf, p.1 section 2, W-8"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[0]",
+      "status": "verified",
+      "quote": "Each morning the Laboratory Supervisor takes the samples received on the previous working day from the receipt store and allocates them to the benches in order of receipt.",
+      "location": "QP-07 section 4.1",
+      "cited": "QP-07-sample-receipt-testing-certification-v3.2.docx, section 4.1"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[1]",
+      "status": "verified",
+      "quote": "Marguerite, mostly. Annelise if Marguerite's off.",
+      "location": "00:08:50 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L48, 00:08:50, Rosalind Okonjo"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[2]",
+      "status": "verified",
+      "quote": "Marguerite does allocation in the morning so afternoons are better.",
+      "location": "00:14:24 Rosalind Okonjo (Sample Reception Coordinator)",
+      "cited": "transcript.txt, L80, 00:14:24, Rosalind Okonjo"
+    }
+  ]
+}

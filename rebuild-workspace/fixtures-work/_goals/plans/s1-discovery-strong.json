@@ -1,0 +1,64 @@
+{
+ "goals": [
+  {
+   "id": "G1",
+   "goal": "Chase the healthcare pursuits now turned down, for two more wins a year",
+   "quote": "So if we chased those, two more wins a year feels realistic.",
+   "location": "00:28:51 Tess Kowalczyk (COO)",
+   "speaker_role": "COO",
+   "pains": []
+  },
+  {
+   "id": "G2",
+   "goal": "One screen on Monday showing every pursuit due, its owner, addenda and fee sign-off",
+   "quote": "Monday morning, I open one screen and I can see every pursuit that's due in the next two weeks, who owns it, whether an addendum came in, and whether the fee's signed off.",
+   "location": "00:29:39 Tess Kowalczyk (COO)",
+   "speaker_role": "COO",
+   "pains": [
+    "P1.1",
+    "P1.2",
+    "P1.3",
+    "P1.4",
+    "P1.5",
+    "P1.6",
+    "P1.7"
+   ]
+  },
+  {
+   "id": "G3",
+   "goal": "No more missed submissions, and write-offs coming down",
+   "quote": "No more missed submissions, and write-offs coming down.",
+   "location": "00:30:23 Tess Kowalczyk (COO)",
+   "speaker_role": "COO",
+   "pains": [
+    "P1.1",
+    "P3.1",
+    "P3.2"
+   ]
+  },
+  {
+   "id": "G4",
+   "goal": "Des Moines opens on the same system as everyone else, not its own spreadsheets",
+   "quote": "And I'd add, Des Moines opening on the same system as everyone else, not its own set of spreadsheets.",
+   "location": "00:30:23 Tess Kowalczyk (COO)",
+   "speaker_role": "COO",
+   "pains": [
+    "P1.7",
+    "P2.1"
+   ]
+  }
+ ],
+ "assumption_kinds": [
+  "gap",
+  "leaning",
+  "gap",
+  "board-architecture",
+  "board-architecture",
+  "gap",
+  "board-architecture",
+  "board-architecture",
+  "gap",
+  "leaning"
+ ],
+ "note_add": null
+}

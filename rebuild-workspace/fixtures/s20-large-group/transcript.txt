@@ -1,0 +1,268 @@
+Ostlerby Signs - operations discovery
+Participants (14): Consultant, Delphine Castellane, Gideon Ashworth-Pell, Hester Tsai, Fergus Nygaard, Imogen Achebe, Emeric Villanueva, Henrike Solano, Calum Fairweather, Ximena Brekke, Kwame Oduya, Anton Petrakis, Saoirse Nakamura, Lettie Havlicek
+
+[00:00:03] Consultant: Hi. Hello. I can see people arriving. Delphine, is that you at the top? Sorry, I've got a grid of tiny boxes here.
+[00:00:11] Delphine Castellane: It's me. Yeah, give it a minute, half the building is still finding the link. We sent the wrong one round first, so.
+[00:00:22] Consultant: No rush at all.
+[00:00:26] Delphine Castellane: Right. I can see Hester. Imogen's on. Henrike. Fergus, you're on mute, I think. Kwame's on.
+[00:00:35] Fergus Nygaard: Not on mute now. Hi.
+[00:00:37] Kwame Oduya: Hi. Afternoon.
+[00:00:39] Hester Tsai: Sorry, before we start. I have to drop at half past, the auditors are in this week and I've got them at, um, half past two. So if you want numbers out of me, get them early.
+[00:00:55] Consultant: Noted, thank you. I'll come to you early, then.
+[00:01:01] Hester Tsai: Appreciated.
+[00:01:03] Delphine Castellane: Emeric's on. Calum. Lettie's on. Saoirse. Anton, are you there? He's on the list, camera off, that's Anton. And Gideon's here. Gideon's our MD, he said he's here to listen, so don't expect a lot out of him.
+[00:01:22] Consultant: Understood. Welcome, all of you, and thank you for making the time, I know a Tuesday afternoon is not, um, is not free for anyone in a sign shop.
+[00:01:35] Imogen Achebe: Tuesday's the least bad day. Ask for a Thursday and you'd get me and nobody else.
+[00:01:44] Consultant: How's the week going, apart from this?
+[00:01:48] Imogen Achebe: The router's been down since Friday. So, you know. Great.
+[00:01:53] Delphine Castellane: It's back up. Imogen, it's back up.
+[00:01:58] Imogen Achebe: It's back up as of an hour ago and I'll believe it at five o'clock.
+[00:02:06] Consultant: [laughs] Noted. Are we waiting on anyone?
+[00:02:10] Delphine Castellane: Ximena. She runs Flint. She's driving back from a site, she'll appear.
+[00:02:17] Consultant: Okay. So, let me say how I'd like to use the hour, and you tell me if that's wrong. This is a conversation, not a demo. I'm not going to show you anything today. I want to understand how a job actually moves through this building, where it hurts, what you'd want instead. And if the honest answer turns out to be, you know, that you need two changes to what you've already got, I'll say that.
+[00:02:50] Delphine Castellane: That would be a first.
+[00:02:54] Consultant: [laughs] I hear that a lot. Delphine, you pulled this room together, and it's a big room. Before we do the company, tell me why these people.
+[00:03:06] Delphine Castellane: Because, honestly? Because a job touches every one of them and none of them can see what the others are doing. Fergus sells it. Henrike's team turn it into a job. Emeric's studio draws it. Imogen builds it. Calum puts it on a wall. Hester invoices it, eventually, when someone remembers to tell her. And then something goes wrong in the middle and all of them, all of them end up in my office at once.
+[00:03:37] Delphine Castellane: So I wanted everybody hearing the same thing at the same time. Saoirse's here from HR because whatever we pick, the training lands on her. Anton's from our IT provider, so nobody promises anything about passwords. And Lettie, who does the job tickets for the floor, so she lives this more than any of us.
+[00:04:03] Consultant: Good. And the thirty-second version of Ostlerby, for me.
+[00:04:09] Delphine Castellane: We make signs. Wayfinding, mostly, for hospitals, universities, hotels, um, retail rollouts. We design them, we fabricate them, so print, cut, paint, and we install them. About ninety-five people, give or take. Saginaw is the main plant, that's where most of us are sitting. Flint is a branch, twelve people and one install crew, that's Ximena's.
+[00:04:32] Consultant: And roughly how many jobs at a time?
+[00:04:36] Delphine Castellane: Live jobs. Imogen?
+[00:04:39] Imogen Achebe: On the floor board right now, um, a hundred and ten, a hundred and fifteen. That's what's in production. Live in the sense of -- if you mean sold and not invoiced, it's more like two hundred and something.
+[00:04:55] Delphine Castellane: Two-forty was the number I had in August. It's gone up.
+[00:05:01] Consultant: Okay. Two-forty-ish, and it's gone up. I'll come back to what a job is, because I suspect it means a few things. But first, why now. What's made this matter this autumn rather than last year?
+[00:05:18] Delphine Castellane: Two things. The first is we won a rollout. A pharmacy chain, a hundred and forty stores, and I can't name them until the contract's countersigned, so don't write the name down because I'm not going to say it. Every store gets an exterior sign, a wayfinding package inside, and a pharmacy counter set. First stores go in the week of February ninth and it runs through to June.
+[00:05:49] Consultant: How does a hundred and forty stores compare with what you do today?
+[00:05:57] Delphine Castellane: It's about a third again on top of everything else we do. And it's a hundred and forty of nearly the same job, which we've never done. We do one hospital. We do one hotel. We don't do a hundred and forty of anything.
+[00:06:17] Consultant: What does a store actually get, in your terms?
+[00:06:22] Delphine Castellane: Three things per store. An exterior fascia sign, which is the big one and the one with the permits. An interior wayfinding package, eight to twelve panels, depends on the store. And a pharmacy counter set, which is small but it's the one their compliance people care about. Five states, phased by region, I think it's region, yeah. And their project manager wants a weekly status on all hundred and forty, which today would mean Henrike building it by hand every Friday.
+[00:06:55] Henrike Solano: Which I would do. I want that on the record. I'd do it and I'd hate it.
+[00:07:04] Fergus Nygaard: They asked for the weekly status in the tender. We said yes. I said yes. I'm aware.
+[00:07:13] Consultant: And the second thing?
+[00:07:16] Delphine Castellane: The second thing is Quarrington. Imogen, you tell it, you were closest.
+[00:07:22] Imogen Achebe: Quarrington Hotels. Lobby package for their flagship, twenty-two panels, brushed aluminium, routed letters. We built it, we shipped it, Calum's crew hung it, and eleven of the twenty-two were the wrong size. Not by a lot. By, what, an inch and a half on the width, which on a routed panel is the whole panel.
+[00:07:48] Consultant: What happened?
+[00:07:52] Imogen Achebe: The dimensions on the job ticket were the survey dimensions, not the approved drawing dimensions. Somebody typed the wrong column into the ticket. We never found out who, and I'm not looking, honestly, because it could have been anyone.
+[00:08:10] Henrike Solano: It was one of mine. It's fine. It was one of mine.
+[00:08:17] Imogen Achebe: It doesn't matter whose it was. The point is the ticket said one thing and the drawing said another and nobody on the floor had the drawing in front of them.
+[00:08:33] Delphine Castellane: So we remade eleven panels, we re-sent a crew, and the customer's regional director was standing in the lobby when the second set went up. Which is not the sort of thing that goes away.
+[00:08:49] Consultant: When was that?
+[00:08:52] Delphine Castellane: August. The remake shipped the first week of September.
+[00:08:58] Consultant: And that's the trigger, and the rollout is the clock. Is there anything else that's changed?
+[00:09:06] Delphine Castellane: Volume. Fergus can speak to it, but quotes are up. We're a bigger company than the way we run suggests. We run like thirty people with ninety-five people's work.
+[00:09:20] Ximena Brekke: Sorry, sorry. The highway was shut at the river. [inaudible] I'm here. Ximena.
+[00:09:25] Delphine Castellane: There she is.
+[00:09:28] Consultant: Hi Ximena, no problem at all. We've just done, um, why now, and we're about to walk through how a job moves today. Delphine's told me Flint has its own crew.
+[00:09:42] Ximena Brekke: One crew, twelve of us, and our own way of doing things, which, yeah, I'm sure will come up.
+[00:09:50] Delphine Castellane: It will.
+[00:09:53] Consultant: Before the walk, one thing I always ask. Does anything of yours live in monday today?
+[00:10:01] Delphine Castellane: We do, actually. We have one. Marketing has it. Cordelia's team run their content calendar on it, twenty-five seats, and we're on the Pro plan. Actually, no. Hang on. We dropped to Standard in January when we trimmed the seats, I signed the renewal myself. Standard. Twenty-five seats on Standard. Who set it up originally I genuinely couldn't tell you, it predates me.
+[00:10:29] Consultant: Standard, twenty-five seats, marketing's calendar. And nobody outside marketing uses it?
+[00:10:34] Delphine Castellane: Nobody. I've logged in twice, maybe. Fergus, have you?
+[00:10:40] Fergus Nygaard: I've seen it over Cordelia's shoulder. That's my whole experience of it.
+[00:10:46] Consultant: Fine. Let's walk a job, then, from the first phone call to the invoice, and I'd like each of you to take your own part. Fergus, it starts with you.
+[00:11:00] Fergus Nygaard: It starts with a request. A customer, or a general contractor, or an architect sends us drawings or a brief. Kwame or I go and survey the site, or Calum's crew do if it's local. Then we build the quote in the estimating tool. And that part works, I want to say that now, because I know where this conversation goes, I've been on these calls. The estimating tool is fine. It's after we win that it, that it falls apart.
+[00:11:33] Consultant: How many quotes a week?
+[00:11:36] Fergus Nygaard: Sixty, seventy. We win about a third. [inaudible] Kwame?
+[00:11:42] Kwame Oduya: A third's generous on retail. On hospitals it's better than that. Call it a third, across everything.
+[00:11:51] Ximena Brekke: Flint's quotes go through Saginaw too, for the record. We survey, Fergus's team prices it.
+[00:11:58] Consultant: And the survey. What is it, physically?
+[00:12:03] Kwame Oduya: A form on a clipboard and photos on a phone. Dimensions, wall type, power, access, whether we need a lift. It gets typed up into the quote. And then the original stays in the van, or in a drawer, or, famously, in Kwame's car, which is where the Quarrington one was when we needed it.
+[00:12:27] Consultant: You're Kwame.
+[00:12:31] Kwame Oduya: I'm aware. It was in my car.
+[00:12:34] Fergus Nygaard: It's always in his car.
+[00:12:36] Consultant: And a won quote becomes what?
+[00:12:41] Fergus Nygaard: It becomes an email to Henrike. That's the handover. I send Henrike the quote and I say, we won it.
+[00:12:51] Henrike Solano: Sometimes you say we won it. Sometimes I find out because the customer rings me asking where the proof is.
+[00:13:02] Fergus Nygaard: [laughs] Sometimes that.
+[00:13:05] Consultant: Henrike, take it from the moment you know.
+[00:13:11] Henrike Solano: So, I've got six coordinators, including me, and we own a job from won to installed. First thing we do is open the job in the job sheet. The job sheet is a spreadsheet. It's one file, one row per job, about forty columns. It lives on the shared drive.
+[00:13:35] Henrike Solano: We retype the quote into it. Customer, site, panel count, sizes, materials, finishes, the due date. It's all in the quote already. We type it again, because the quote lives in the estimating tool and the floor can't see the estimating tool.
+[00:13:55] Consultant: How long does that take, per job?
+[00:13:59] Henrike Solano: Twenty minutes on a small one. An hour on a hospital. And then the chasing, which is most of it, honestly. Where's the proof, has the customer signed it off, is it on the floor yet, when's install. All day.
+[00:14:18] Henrike Solano: And every one of those steps, somebody rings me. I counted one day. Thirty-one calls asking where a job is. Thirty-one. Not one of them was something I could answer without ringing someone else first.
+[00:14:35] Consultant: We'll come back and put hours on that. Then the job goes to Emeric?
+[00:14:42] Henrike Solano: Then I ask Hester for a job number, because the job number comes out of the accounting system. And then it goes to Emeric.
+[00:14:54] Hester Tsai: I open the job in the accounting system and it gives me a number. Same day, usually. Unless I'm in an audit, in which case, sorry, you're waiting.
+[00:15:07] Consultant: Emeric.
+[00:15:09] Emeric Villanueva: So we get the job sheet row and the survey and whatever the customer sent, and we draw the proof. The proof is the -- so the proof is the drawing the customer signs off. Sizes, layout, colours, mounting, all of it. Everything the floor needs is on the proof, or should be.
+[00:15:28] Emeric Villanueva: And the customer signs it off by email. That's the whole approval system. Someone replies to the proof saying approved, and that email is the record.
+[00:15:40] Consultant: And revisions?
+[00:15:43] Emeric Villanueva: Yeah. Revisions are where we die. A hospital proof goes round four, five times. Version two, version three, version three b, final, final final. Every one is a file. We name them, we're disciplined about it, but the approval is a reply to one of them and you have to find which one.
+[00:16:06] Consultant: Has that gone wrong recently?
+[00:16:10] Emeric Villanueva: The university library job went to print on version four. The customer had approved version five. Version five moved the directory panel from the left wall to the right wall, which changes the reading direction of every arrow on it. We printed twenty-two arrows pointing the wrong way.
+[00:16:32] Imogen Achebe: Nineteen. But yes.
+[00:16:35] Emeric Villanueva: Nineteen, then. It's the same problem as Quarrington from a different door. The floor built what it was handed, and what it was handed was wrong.
+[00:16:48] Consultant: So today, if I'm on the floor and I want to know which proof is approved, what do I do?
+[00:16:59] Emeric Villanueva: You ask me. Or you ask a coordinator, who asks me. I'm the one who can find the reply. If I'm off, you wait, or you guess.
+[00:17:12] Consultant: And what stops you carrying on that way?
+[00:17:17] Emeric Villanueva: Me being off. And a hundred and forty stores, which will each have their own proof, and I have five designers.
+[00:17:28] Consultant: Imogen, the floor.
+[00:17:31] Imogen Achebe: The floor gets a job ticket. Lettie prints it off the job sheet, one ticket per job, and it goes in a plastic sleeve on the floor board. The floor board is a whiteboard, twelve feet of it, columns for print, cut, fab, paint, assembly, ready. The ticket moves along the board as the job moves. That's the system, and honestly, honestly it works better than anything on a screen has ever worked for us.
+[00:18:04] Consultant: What's on the ticket?
+[00:18:09] Imogen Achebe: Whatever was in the job sheet when Lettie printed it. Sizes, quantities, material, finish, due date. Not the proof. The proof's a separate print-out if someone remembers to attach it, and it might be the wrong version, which is how we got nineteen backwards arrows.
+[00:18:29] Consultant: What does ready mean on the board?
+[00:18:34] Imogen Achebe: Ready means it's in the ready column. Which means someone moved it there. Which usually means it's ready. Usually.
+[00:18:43] Delphine Castellane: Usually is the word doing all the work in that sentence.
+[00:18:46] Imogen Achebe: It is. Yeah.
+[00:18:49] Consultant: And if the job sheet changes after the ticket's printed?
+[00:18:55] Imogen Achebe: Then the ticket's wrong and nobody knows. That's Quarrington in one sentence. That's most of our remakes in one sentence.
+[00:19:06] Kwame Oduya: Can I add to that, because that's mine, that one. A customer changes the copy on a panel after sign-off. Happens every week. Every week. I tell Henrike by email. Whether that reaches the floor before the panel's cut is a coin flip, and I'm not exaggerating, it's about half.
+[00:19:27] Henrike Solano: It's not half.
+[00:19:30] Kwame Oduya: It's a lot.
+[00:19:33] Henrike Solano: It's a lot. It's not half.
+[00:19:37] Consultant: What do you call that, a customer changing something after sign-off?
+[00:19:44] Kwame Oduya: A change order. If it's big enough to charge for. If it's small we just, we just do it, which is its own problem.
+[00:19:55] Consultant: Okay. Delphine, is install next, or does something happen between the floor and the van?
+[00:20:03] Delphine Castellane: Install's next. Calum will tell you, install is where it all lands, because he gets the job last and he gets it with whatever's gone wrong upstream.
+[00:20:16] Consultant: We'll come to install. Hester, I promised you early. Where does finance touch a job?
+[00:20:24] Hester Tsai: Twice. I open it and give it a number at the start, we've done that. And I invoice it at the end, when I know it's installed. And there's the problem. I don't know it's installed. Nobody tells finance a job is on the wall. I find out because a coordinator mentions it, or a customer rings about something else, or I walk the floor on a Friday and ask.
+[00:20:56] Consultant: How late does that make the invoice?
+[00:21:00] Hester Tsai: I pulled it before this call. Average from install to invoice, forty-one days. Forty-one. For work we've already done and already paid the crew for.
+[00:21:13] Consultant: Who feels that?
+[00:21:16] Hester Tsai: Me, and the line of credit. There's about a million two sitting installed and not invoiced at any moment. Gideon feels it when I show him the cash position, which is why he's here, I imagine.
+[00:21:33] Consultant: And the Friday walk is the workaround. What stops you carrying on that way?
+[00:21:40] Hester Tsai: It doesn't scale. I can walk the Saginaw floor. I can't walk Flint, and I certainly can't walk a hundred and forty pharmacies.
+[00:21:52] Ximena Brekke: Can I, sorry, can I say how Flint does it, since it's come up twice. We keep our own copy of the job sheet. The Saginaw one is unusable by Wednesday, there are two hundred rows and half the filters are somebody's leftovers. So we have the Flint sheet, twelve of us, one crew, and it's clean. It's clean. And Hester finds out we've installed something when I email her, which I do, mostly.
+[00:22:23] Hester Tsai: Mostly.
+[00:22:25] Ximena Brekke: Mostly.
+[00:22:26] Consultant: So there are two job sheets.
+[00:22:28] Ximena Brekke: Yeah.
+[00:22:31] Delphine Castellane: There are two job sheets and one truth, and they're not the same thing. Yes.
+[00:22:38] Kwame Oduya: Sorry, can I ask a boring one before I forget? If everyone who touches a job needs a login, that's the crews, that's the floor. Are we going to end up paying per head for people who'd open it twice a month?
+[00:22:58] Consultant: It depends on the plan and on how it's set up, and I'd rather answer that properly than off the top of my head. I'll put it in the recap with a straight answer.
+[00:23:14] Kwame Oduya: Fine. Yeah. As long as someone answers it.
+[00:23:19] Consultant: Okay. Let me pause the walk there, because I want to go back over the pieces that hurt and put some, um, some weight on them. Henrike, the retyping. You said twenty minutes to an hour per job, and then the chasing. Across the six of you, roughly how many hours a week go into retyping and chasing?
+[00:23:44] Henrike Solano: Retyping alone, maybe two hours a week each. The chasing is the rest of it. If I'm honest, six hours a week each on things that only exist because the quote and the ticket and the proof don't talk to each other. Six each, and there are six of us.
+[00:24:07] Consultant: Six hours a week, six people. Does that feel right to the room?
+[00:24:15] Delphine Castellane: It feels light, but it's Henrike's number and she'd know.
+[00:24:21] Consultant: Hester, while you're here, sorry. A coordinator, loaded, what do you carry them at?
+[00:24:27] Hester Tsai: Thirty-eight an hour loaded, give or take. Production leads are fifty-two. I'm not giving you the crew rate off the top of my head, it's a different structure, with the overtime and the, no. Not off the top of my head.
+[00:24:43] Consultant: Understood. Imogen, the floor side of the same problem. When a ticket's wrong or a proof's missing, what does it cost you in time, not materials, time?
+[00:24:57] Imogen Achebe: My two leads. So. Call it eight hours a week between the two of them standing at the board with a ticket in one hand and a phone in the other, waiting for someone to tell them what the job actually is. Eight hours a week, easily. And that's the leads, not the people behind them who are also waiting.
+[00:25:25] Consultant: And today, how do you stop a wrong ticket getting to the floor?
+[00:25:31] Henrike Solano: We ring. A coordinator rings the floor and reads the ticket back against the quote, on the big ones. On the small ones we don't, there isn't time, and the small ones are where it goes wrong.
+[00:25:50] Consultant: What stops you carrying on with the read-back?
+[00:25:55] Henrike Solano: A hundred and forty stores. I can't read a hundred and forty tickets down the phone. And it depends on who's in. When I'm off, nobody reads anything back.
+[00:26:08] Consultant: Who else ends up dealing with a wrong ticket?
+[00:26:13] Imogen Achebe: My leads, who wait. Calum's crew, who go back out. Kwame, who explains it to the customer. And Hester, who writes it off. It's everybody. That's the point Delphine made at the start.
+[00:26:29] Consultant: And the materials. Remakes. How often does a job get remade?
+[00:26:36] Fergus Nygaard: Honestly? One in ten. One in ten jobs has something remade. At our volume that's just, it's a cost of doing business, and I say that as the person who has to explain it to the customer.
+[00:26:54] Consultant: One in ten.
+[00:26:57] Kwame Oduya: That's about what I'd have said.
+[00:27:02] Consultant: And what does a remake actually involve? Walk me through one.
+[00:27:09] Imogen Achebe: Depends on the panel. A vinyl panel, you reprint it, it's an hour and some material. A routed aluminium panel like Quarrington, that's a new blank, a day on the router, paint, cure, cure's overnight, and the crew going back out. So a remake is anything from an hour to, what, three days.
+[00:27:32] Consultant: And the one-in-ten, does that match what you see?
+[00:27:39] Imogen Achebe: No. It is not one in ten. From where I stand it's closer to one in four. One in four jobs has at least one panel go through the shop twice. I would put money on that. I would.
+[00:27:56] Fergus Nygaard: [crosstalk] That's not -- that can't be right, we'd be --
+[00:28:03] Imogen Achebe: [crosstalk] It depends whether you count the ones we catch before they ship.
+[00:28:10] Consultant: So one in ten and one in four. Which is it?
+[00:28:17] Fergus Nygaard: Depends what you count. I count what the customer sees.
+[00:28:23] Imogen Achebe: And I count what the shop builds twice.
+[00:28:29] Delphine Castellane: We've never measured it. That's the honest answer. Imogen, you keep the remake log, can you pull it for the last quarter?
+[00:28:40] Imogen Achebe: I can pull it. It's a paper book by the router, it's literally a book, but I can count it. Give me a week.
+[00:28:50] Consultant: Then I'll write down both numbers and neither of them, if that makes sense, until the book says. Hester, is there a money figure on remakes?
+[00:29:02] Hester Tsai: There's a budget line. We budget ninety a year for remake materials, that's materials only. Last year we actually wrote off, I want to say fifty-five. Fifty-five, fifty-six, on remake materials. That's the actual, and it's materials, it doesn't have the hours in it.
+[00:29:23] Consultant: So the ninety is the budget and the fifty-five is what happened.
+[00:29:31] Hester Tsai: Correct. Don't add them together, they're not the same thing.
+[00:29:36] Consultant: I won't. Let me do the arithmetic out loud and you stop me. Coordinators, six people at six hours a week, so thirty-six hours, at thirty-eight an hour, times fifty-two.
+[00:29:50] Delphine Castellane: Thirty-six times thirty-eight is... thirteen sixty-eight a week. Times fifty-two. Seventy-one thousand and change.
+[00:29:57] Consultant: Production leads, eight hours at fifty-two.
+[00:30:00] Delphine Castellane: Four-sixteen a week. Times fifty-two. Twenty-one, twenty-two thousand. Ish.
+[00:30:06] Consultant: And the remake materials, the actual, fifty-five.
+[00:30:10] Delphine Castellane: So seventy-one, plus twenty-two, plus fifty-five. A hundred and forty-eight thousand, near enough. A year. And that's without the remake hours, which nobody's counted, and without the install side, which we haven't got to.
+[00:30:27] Consultant: A hundred and forty-eight thousand a year, without remake labour and without install. Hester, does that feel right?
+[00:30:36] Hester Tsai: That's about right, and it's light. The remake hours would be the biggest number in there if we had it.
+[00:30:47] Consultant: Understood. I'll carry it as light.
+[00:30:52] Delphine Castellane: Hester, before you go, sorry, the audit. Say it so it's said.
+[00:30:59] Hester Tsai: Nothing touches the accounting system before November. We're mid-audit until the end of the month and I'm not opening a connection to anything while they're in the building. After November, talk to me.
+[00:31:16] Consultant: After November. Understood.
+[00:31:20] Hester Tsai: That's me, I'm afraid. Auditors. Send me the list of what you need and I'll get you the numbers by end of week, the write-off figure properly and whatever else.
+[00:31:34] Consultant: Thank you, Hester. I will.
+[00:31:37] Delphine Castellane: Go. We'll manage.
+[00:31:41] Consultant: Okay. Let me turn it round. If the retyping and the chasing went away, the, um, the thirty-six hours a week, what would the coordinators do with it?
+[00:31:53] Henrike Solano: Answer the phone. Half of what comes in is customers asking where their job is, and we can't tell them without ringing the floor.
+[00:32:04] Fergus Nygaard: From my side, we'd, I think we'd quote faster. There's a lag between winning and the proof going out, and we lose jobs in that lag. Maybe two a month, I'd guess, maybe, where the customer gets bored and goes to someone quicker. I couldn't put a value on that, it's a guess.
+[00:32:27] Consultant: Two a month, and you'd call that a guess. Fine, I'll carry it as one. Delphine, is there something you'd go after if the building could take it?
+[00:32:40] Delphine Castellane: The hospital framework. Yeah. There's a regional health system that tenders its signage on a five-year framework, and we've not bid, because I can't show them how we'd run forty sites at once. That's the one. I'm not putting a number on it either.
+[00:33:00] Consultant: Understood. Before we go to what solved looks like, let me, let me stop and ask the room something. Is there a part of how a job moves through this building that hasn't come up yet? Anyone. I'm happy with silence.
+[00:33:18] Consultant: Take your time.
+[00:33:21] Calum Fairweather: Sorry, am I unmuted? Install.
+[00:33:23] Consultant: Sorry, who's that? Calum. Go on.
+[00:33:26] Calum Fairweather: Yeah. Install's where it lands, like Delphine said. So I've got six crews, two people each, five here and Ximena's one. I schedule them on a spreadsheet, a week at a time. And the thing nobody's said is that a crew turns up to a site and the job isn't ready. The sign's still in paint, or the permit's not through, or the site's not ready for us, and two people have driven two hours for nothing.
+[00:34:01] Consultant: When did that last happen?
+[00:34:04] Calum Fairweather: Traverse City, three weeks ago. Retail unit, four panels. The ticket said ready. The board said ready. One panel was in paint because it had been remade, and nobody moved the ticket back. Crew drove up, hung three, drove home, drove up again the following Tuesday for one panel.
+[00:34:26] Consultant: How do you try to stop that today?
+[00:34:31] Calum Fairweather: I ring the floor every morning. I walk it if I'm in. I ring Ximena for hers. And I ring the site the day before, if I remember, and I don't always remember, because I've got six crews and there's one of me.
+[00:34:50] Consultant: And what stops you carrying on ringing?
+[00:34:54] Calum Fairweather: The rollout. Eight crews on the road instead of six, if we hire, in five states. I can't ring five states every morning. I can barely ring Flint.
+[00:35:08] Consultant: Who else feels a wasted trip?
+[00:35:12] Calum Fairweather: The crew, because it's overtime nobody planned. The customer, because we've turned up twice. And the next job, because that crew was supposed to be somewhere else the day they go back.
+[00:35:28] Consultant: And how often does a wasted trip happen?
+[00:35:33] Calum Fairweather: Two a month. Some months three. Call it two. Four hours each, two people, so sixteen hours a month of crew time, before the fuel.
+[00:35:45] Consultant: Sixteen hours a month. And the crew rate, is that something you carry?
+[00:35:51] Calum Fairweather: No. That's a Hester number.
+[00:35:55] Delphine Castellane: That's a Hester number and she's gone. Put it on her list.
+[00:36:02] Consultant: On her list. Thank you, Calum, that's, that's exactly the thing I was hoping someone would say.
+[00:36:09] Consultant: Let me ask the forward question, then. Imagine this is running well by the time the pharmacy stores are going in. It's a normal Tuesday in March. What's different?
+[00:36:23] Delphine Castellane: I open one thing and I can see every live job, where it is, who's got it, and what's late. One screen. Not the job sheet, not two job sheets, not me asking Henrike to ask Imogen. And when a customer changes a panel, the floor knows before the panel's cut, not after.
+[00:36:48] Imogen Achebe: For me, the ticket is never wrong. Whatever the floor is looking at is the same thing the customer signed. If that's on a screen on the wall, fine. If it's a printed ticket that reprints itself when something changes, also fine. I don't care how. I care that it's the same thing.
+[00:37:09] Henrike Solano: And --
+[00:37:10] Ximena Brekke: Sorry, go on.
+[00:37:12] Henrike Solano: And I stop being a switchboard. Somebody asks where their job is and I can tell them without ringing anyone.
+[00:37:18] Delphine Castellane: Yes.
+[00:37:22] Ximena Brekke: And Flint sees the same screen as Saginaw. I'll say that now so I'm on the record as having said it, given, you know, what I said earlier.
+[00:37:35] Consultant: And leadership. What would count as a win, from where Gideon sits?
+[00:37:42] Delphine Castellane: I can tell you what he's said to me, which is that he wants the rollout to go in without a Quarrington, and he wants the cash position to stop being a surprise. Those are his two. I'm not going to put words in his mouth beyond that.
+[00:38:04] Consultant: Fair. I'll write those down as yours until they're his.
+[00:38:10] Delphine Castellane: Fergus has had to drop, by the way, he's got the Quarrington call at three. He said to say sorry.
+[00:38:20] Kwame Oduya: And I'm going with him, I'm on the same call. Sorry. Send me anything you need.
+[00:38:29] Consultant: No problem, thank you both. Okay. Let's talk about, let's talk about how a decision like this gets made here, then, while I've still got most of you. Delphine, if you decided this was worth doing, what actually happens?
+[00:38:45] Delphine Castellane: I own operations systems. Up to twenty thousand a year I can sign it, and I'd still tell Gideon. Over twenty it's Gideon, full stop. And for something like this, honestly, even under twenty I'd want him in, because if he's not using it, the managers won't. They won't.
+[00:39:08] Consultant: And after a yes?
+[00:39:12] Delphine Castellane: Hester raises a purchase order, or if it's a subscription it goes on the company card and she'd rather it didn't. Anton's firm will have a security checklist, they always do, and I'll get that to you rather than make you guess. Then it's me and Henrike rolling it out, and Saoirse on the training.
+[00:39:38] Henrike Solano: Sorry, can I ask something. Shouldn't Cordelia be on this? If it's her account we'd be going into.
+[00:39:47] Delphine Castellane: She should. That's on me. I'll bring her in for the next one.
+[00:39:55] Consultant: Has Gideon bought something like this before? And how did that go?
+[00:40:02] Delphine Castellane: The router. The big CNC router, two years ago, two and a bit, which was a lot more than twenty. I did a one-page case, what it cost and what it saved, and he signed it inside a fortnight. If the numbers are on one page, he's fast. If they're not, he asks a lot of questions. A lot.
+[00:40:27] Consultant: And what will he want to see from this?
+[00:40:32] Delphine Castellane: The rollout. That we can run a hundred and forty stores without me living in the job sheet. And the cash thing, Hester's forty-one days. That's what he'll ask about.
+[00:40:48] Consultant: Understood. Priority and timing. Is this a fix for this quarter, or later on?
+[00:40:54] Delphine Castellane: Before the rollout. The first stores go in the week of February ninth, and I want the building running on it in January, not learning it in February. So, this quarter to build, January to be live. If it slips into February we've missed the point.
+[00:41:16] Consultant: January live. Okay. One more forward question, and it's Hester's really. The invoicing lag, the forty-one days. Say nothing changes. What does that look like a year from now, with the rollout on top?
+[00:41:31] Delphine Castellane: That's a Hester question and she's gone. I'd be guessing. Put it on her list.
+[00:41:40] Consultant: On her list. What could get in the way of this going ahead? Anyone.
+[00:41:47] Imogen Achebe: The floor won't touch a tablet with gloves on. I'm telling you now. If the answer is everyone gets a tablet, it's dead by the second week. Screens on the wall, big ones, and the ticket prints. That's the only version that lives, I'm sorry, but it is.
+[00:42:08] Ximena Brekke: And Flint runs its own sheet and, honestly, we like it that way. If this means we go back to the Saginaw one, I'll be polite about it and then we'll quietly keep ours.
+[00:42:24] Delphine Castellane: Which is exactly what happens now, so, noted.
+[00:42:30] Delphine Castellane: And mine's the one I always say. If it's another thing to keep up to date, it's dead. We tried a job-tracking app two years ago, the crews never opened it, and the coordinators ended up updating it and the job sheet. Double work. It lasted a quarter.
+[00:42:53] Henrike Solano: Less than a quarter.
+[00:42:56] Delphine Castellane: Emeric, you'll have the same worry for the studio, presumably, anything that takes them out of the design tool? Emeric?
+[00:43:06] Delphine Castellane: He may have dropped. He had a four o'clock print deadline. I'll ask him.
+[00:43:13] Consultant: Understood. Three, then. Gloves and screens, Flint's sheet, and the, the second-thing-to-update problem. And Hester's audit, which I heard earlier, nothing near the accounting system before November.
+[00:43:26] Delphine Castellane: Four, yes.
+[00:43:29] Consultant: Let me play back what I'd put in a first version, just so you can hear it, not to sign anything. One. A job board, one row per job, from won quote to invoiced, with the stages you use, proofing, production, ready, installed, invoiced. Both sites on it, with a site column, so Flint has its own view of the same thing rather than its own copy. Two. The proof and its approval on the job, so the floor sees the signed version and only the signed version, and a change after sign-off is a visible change, not a reply in someone's inbox. Three. The ticket printed from the job, so it reprints when the job changes. Four. Install, um, install scheduling for the six crews, off the same jobs, so a job that's gone back into paint can't show as ready. Five. An installed flag that tells Hester, so the invoice follows the install and not the Friday walk. Quoting stays in the estimating tool, I've heard that. And the job number keeps coming from the accounting system. Is that, is that the right shape?
+[00:44:48] Delphine Castellane: That's the right shape. Two things. Don't build the quoting in it, ever, Fergus will never forgive me. The estimating tool stays. And the job number has to come from the accounting system, we're not typing that twice either.
+[00:45:06] Henrike Solano: The job number has to come from the accounting system. That's mine as well. If a coordinator's typing it, it'll be wrong one time in fifty, and that's the one that goes to the wrong customer, guaranteed.
+[00:45:23] Imogen Achebe: And the floor gets a screen on the wall, not tablets. I said it, I'll say it again so it's written down.
+[00:45:34] Consultant: Written down. Delphine, Gideon's view on that shape?
+[00:45:39] Delphine Castellane: He's nodding. Take that as a yes. He's not going to say anything on a call with fourteen people on it, he never does.
+[00:45:51] Consultant: I can see a few nods, which I'll take as encouragement and not as an answer. So let me ask it properly. Delphine, is this worth taking forward to, to a first version you can look at?
+[00:46:09] Delphine Castellane: Yes. Show me something. I don't want a proposal, I don't want a price, I want to see it run a job.
+[00:46:17] Imogen Achebe: Same.
+[00:46:20] Consultant: Then here's what I'd propose. I put a first version together with those five pieces, in your words, jobs, tickets, proofs, crews, installed, on made-up jobs unless you'd rather I used real ones, and we walk through it together. Forty-five minutes. Wednesday the twenty-first, two o'clock Eastern?
+[00:46:43] Delphine Castellane: Wednesday the twenty-first at two works. Same room, or as much of it as I can get. I'll ask Gideon.
+[00:46:52] Consultant: Wednesday the twenty-first, two o'clock Eastern. I'll send the invite to you today and you forward it to whoever should be there.
+[00:47:04] Delphine Castellane: I'll forward it today. And I'll send you the job sheet by Friday, both of them, so you can see what forty columns looks like. Names off, if that's all right.
+[00:47:18] Consultant: Names off is fine, names off is better. Imogen, the remake log count for the last quarter, in a week?
+[00:47:26] Imogen Achebe: In a week. I'll count it myself so it's counted the same way all the way through.
+[00:47:35] Consultant: And Hester's list. The crew rate, the write-off figure from the books, and the invoicing question. I'll send that to her tonight.
+[00:47:47] Delphine Castellane: Copy me on it and I'll chase her.
+[00:47:51] Consultant: One more, and it's a question rather than an action. Anton's checklist, and who in marketing, who actually looks after the account you've already got. I'd want to know both before I build anything in an account that's already got people in it.
+[00:48:10] Delphine Castellane: I'll find out who the admin is. And I'll get Anton's list. He's still on, he'll have heard that.
+[00:48:19] Consultant: Thank you. And I'll send a short recap by end of day tomorrow, what I heard and the next steps, so you can correct anything I've got wrong. That's it from me. Thank you all, genuinely, this was a lot of people giving up an hour, and I know what a Tuesday is.
+[00:48:40] Delphine Castellane: Thank you. Right, everyone, back to it.
+[00:48:44] Imogen Achebe: Thanks.
+[00:48:46] Henrike Solano: Thanks, bye.
+[00:48:49] Ximena Brekke: Bye all.
+[00:48:51] Calum Fairweather: Cheers.

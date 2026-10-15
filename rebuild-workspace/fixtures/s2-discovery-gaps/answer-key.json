@@ -1,0 +1,1839 @@
+{
+  "scenario_id": "s2-discovery-gaps",
+  "call_type": "discovery",
+  "purpose_of_this_fixture": "Tests gap detection on a weak discovery call at a residential pest control and lawn care company (about 60 technicians, two branches). Attending: a customer service lead and a dispatcher. The owner, Gary, is the real decision maker and is only mentioned. The consultant pitches before listening, offers fixes while the client is still describing pains, never works out a cost, accepts a vague why-now, pitches an unrequested customer self-service form that draws a polite hedge ('Oh. Huh. That sounds interesting.'), promises rough pricing, and ends with 'I'll send something over' and no date, time or owner. Expected behaviour: (1) Rubric: Partial for R1 to R9; Missing for R10, R11 and R12; nothing Met. R2 is Partial because no pain is excavated: P1 and P2 each have Stated and Concrete Met, but both clients defend their workaround ('the sheet's fine', 'the board works') and are cut off before saying why it cannot continue. R4 is Partial on a single hours figure (about two hours every morning) with no cost. (2) Record that hours figure as a cost input without inventing a wage, season length, weekly total or yearly bleed. (3) Verdict 'Nearly ready' by the section 2.4 rule, but the blueprint gate fails (R2 not Met) and pricing prep is held (R4, R7, R12 not Met). The plugin must not propose a blueprint, build or pricing. It produces a discovery prep with at most five gap questions, core criteria first, and a recap draft that proposes a specific time with Gary invited. (4) Product fit under v1 scope, which is Work Management plus CRM plus Service: Work Management is the build target for dispatch exceptions, lawn rounds and add-on requests, and monday Service is the build target for the intake the consultant kept pitching (re-treats, callbacks and complaints), because Service is in v1 at the same depth as CRM. The Service work must land on the account's NATIVE Service Tickets board, never a look-alike request board in Work Management and never the client's own 'service ticket', which is the visit record in their legacy software. The Service extras the consultant pitched hardest -- email-to-ticket intake, a customer self-service portal form and response targets that turn a complaint red -- are deferred beyond v1 and must not be named as deliverables. Do not choose monday CRM after Renata deflected that pitch. Service being in scope does not open the blueprint gate: still no build. (5) Treat pitched features that drew hedging as backlog, not needs. (6) Flag delivery issues: client talk share about 56% (under the 60% target), one consultant turn of about 245 words with no question (the opening product tour) and another of about 170 words (the routes-board pitch), fixes offered mid-description, and no commitment question. expected_questions_before_building is the full pool in priority order, not a list to ask in one meeting. account_context, expected_structures, accepted_behaviours and expected_leak_blocklist carry the account-shape, native-board, grader-tolerance and leak-check expectations.",
+  "transcript_format": "Plain text with no timestamps and no call date. One speaker turn per paragraph in the form 'Name: text', turns separated by blank lines; the same speaker occasionally has two consecutive turns after a pause. Labels: Consultant, Renata, Travis (first names only; surnames are never stated). Stage notes in square brackets ([laughs], [crosstalk] twice, [radio chatter], [inaudible]); interrupted or cut-off speech ends with ' --'. ASCII only. About 3,950 words (about 3,730 spoken), roughly 28 to 30 minutes of conversation. Each location in this key is the line number in transcript.txt (L#) and the speaker.",
+  "company": {
+    "name": "Quillmoor",
+    "industry": "Residential pest control and lawn care (regional home services)",
+    "size": "About 60 technicians ('sixty guys. Sixty-ish.'), more in summer with seasonal hires. At the main branch: a customer service lead with four CSRs (one part-time), a dispatcher, and Rhonda, who types paper tickets into the system and does the invoices. The North branch has its own CSR. Owner-operated; Gary started it in 1999.",
+    "locations": "Two branches: the main branch on Tolliver Road and the North branch (opened about two and a half years ago, run by Lorna). City and region not stated.",
+    "current_tools": [
+      "Legacy pest and lawn service software the staff call 'the system' (product name unknown): customers, plans, nightly route generation, service tickets, state application records",
+      "Google Sheet 'callback sheet' built by Kelsey, the owner's daughter",
+      "Physical magnetic whiteboard in dispatch ('the board')",
+      "Printed route sheets and paper service tickets",
+      "Text messages and phone calls to technicians",
+      "Office email inbox, plus a folder in Renata's email for complaints the owner forwards",
+      "The owner's cell phone: customers call and text him, and he forwards screenshots and voicemails to Renata",
+      "QuickBooks for invoices (hand-off from the system unclear)",
+      "Company website (run by Kelsey)",
+      "A separate spreadsheet at the North branch",
+      "Past tool: a scheduling app the owner bought about three years ago that nobody used"
+    ]
+  },
+  "attendees": [
+    {
+      "name": "Consultant",
+      "role": "monday.com consultant running the discovery call",
+      "side": "consultant",
+      "decision_role": "not applicable"
+    },
+    {
+      "name": "Renata",
+      "role": "Customer service lead, main branch; manages four CSRs, tracks complaints the owner forwards, main contact who will forward the consultant's email to Gary",
+      "side": "client",
+      "decision_role": "influencer"
+    },
+    {
+      "name": "Travis",
+      "role": "Dispatcher, main branch (Tolliver Road); sometimes covers North branch routes",
+      "side": "client",
+      "decision_role": "end user"
+    }
+  ],
+  "expected_monday_products": [
+    {
+      "kind": "core",
+      "why": "monday Work Management: build target once the blueprint gate is met or the consultant overrides it. It covers the work that is not request intake: daily dispatch exceptions by technician (call-outs, trucks down, re-treats to slot in, rain-day pushes), lawn plans with their rounds as child rows so a rain push shows which rounds are behind (the timeline view and dependencies at L237 were the consultant's suggestion, answered with 'Oh. Okay. Huh.'; see readiness leaning 1), the notify-list call before spraying, skips that quietly become cancels, and add-on requests technicians flag on tickets. These are ordinary boards, so the native-board rule (A5) does not apply to them, and no portfolio is expected (see expected_structures). It sits next to 'the system', which stays the record for customers, plans, routes and state application records unless Gary decides otherwise."
+    },
+    {
+      "kind": "service",
+      "why": "monday Service: also a build target, because Service is in v1 at the same depth as CRM. The intake the consultant pitched repeatedly is a real fit -- re-treat and callback calls that currently stall between the callback sheet and the whiteboard, and complaints arriving from the phones, the office inbox, the website, online reviews and the owner's cell. These become items on the account's NATIVE Service Tickets board (A5), never a look-alike request board built in Work Management. Two hard limits. First, the deferred extras: the customer self-service portal form, email-to-ticket channels and SLA or response-target setup are out of v1, which strips out most of what the consultant actually demonstrated in words ('You could put a form right on your website', 'So all of that, the email, the phone, the website, it all lands in one place as tickets.', 'so if a complaint hasn't been touched by end of day it goes red'); requests still get in by manual entry or a plain monday form, and ageing is a status and a view rather than an SLA policy. Second, the vocabulary clash: Renata corrected the consultant that 'a service ticket for us is the actual visit. That's in the system.', so native Tickets items are their call-ins, not their visits. Nothing is built yet: the blueprint gate is shut."
+    }
+  ],
+  "rubric": [
+    {
+      "criterion": "R1 Current state mapped",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "So the system spits out the routes the night before, right, based on the plans, who's due.",
+          "location": "L147, Travis"
+        },
+        {
+          "quote": "It's got all the customers, the plans, it makes the routes.",
+          "location": "L75, Renata"
+        },
+        {
+          "quote": "Right, so when they call we put it on the callback sheet.",
+          "location": "L79, Renata"
+        },
+        {
+          "quote": "And then Travis looks at the sheet and puts it on the board.",
+          "location": "L83, Renata"
+        },
+        {
+          "quote": "I'm texting the guys their changes",
+          "location": "L151, Travis"
+        },
+        {
+          "quote": "And right now somebody types those in. Rhonda. Off the paper.",
+          "location": "L197, Renata"
+        },
+        {
+          "quote": "Rhonda does the invoices in QuickBooks, I think the system sends it over?",
+          "location": "L295, Renata"
+        },
+        {
+          "quote": "No. I've seen the ads.",
+          "location": "L55, Renata"
+        },
+        {
+          "quote": "she has her own spreadsheet",
+          "location": "L141, Renata"
+        }
+      ],
+      "note": "Pieces of the main-branch flow are described: call-in, callback sheet, whiteboard, nightly routes from the system, printed route sheets and texts, paper tickets re-keyed into the system by Rhonda. Tools are named and monday is not in use today. Not mapped: the North branch process, complaint handling end to end, how the system hands off to QuickBooks, what the system can export, time spent by the CSRs and Rhonda, and who maintains the callback sheet. Only Travis's time is given. Partial is enough for the blueprint gate's R1 condition."
+    },
+    {
+      "criterion": "R2 Pain made concrete",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "the problem is when it doesn't get on the board. Like it just sits on the sheet.",
+          "location": "L107, Renata"
+        },
+        {
+          "quote": "Last week I had a lady over on Pheasant Run call three times.",
+          "location": "L111, Renata"
+        },
+        {
+          "quote": "No, I mean, the sheet's fine. It's fine.",
+          "location": "L123, Renata"
+        },
+        {
+          "quote": "Yeah, I mean, sure.",
+          "location": "L127, Renata"
+        },
+        {
+          "quote": "Mornings are the worst.",
+          "location": "L147, Travis"
+        },
+        {
+          "quote": "So now I've got, what, five stops to move.",
+          "location": "L13, Travis"
+        },
+        {
+          "quote": "honestly the board works. It works. Everybody gets their stops.",
+          "location": "L159, Travis"
+        }
+      ],
+      "note": "No pain is excavated (Stated, Concrete and Workaround all Met), so R2 is Partial and the blueprint gate fails. P1 and P2 come closest; see their rows. In both, the client names the workaround, then defends it and is cut off by a pitch before saying why it cannot continue. The only reason offered for P1 came from the consultant ('a spreadsheet can only take you so far') and drew a bare 'Yeah, I mean, sure.', which is not confirmation. Describing how the process fails counts toward Stated and Concrete, not Workaround. Other pains: P3 (lawn rounds pushed by rain): Stated Met, Concrete Partial (a hypothetical 'if it rains, like, three, four days'), Workaround Partial (push everybody down the line; 'We always catch up'), Reach Met (CSRs get 'where's my guy' calls; notify-list customers need repeat calls), Cost inputs Missing, Trajectory Missing. P4 (complaints tracked in Renata's email): Stated Met, Concrete Partial (process described; no frequency and no complaint that was dropped), Workaround Partial (folder named; cut off at 'it's my inbox, so --'), Reach Partial (Gary forwards everything), Cost inputs Missing, Trajectory Missing. P5 (add-on requests lost on paper tickets): Stated Met, Concrete Partial, Workaround Missing, Reach Partial, Cost inputs Missing, Trajectory Missing. P6 (skips turning into cancels): Stated Met, Concrete Partial, the rest Missing. P7 (North branch works differently): Stated Met, Concrete Partial, Workaround Missing, Reach Partial (Travis when covering), Cost inputs Missing, Trajectory Missing."
+    },
+    {
+      "criterion": "R3 Why now",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "I think we just need to be more organized.",
+          "location": "L277, Renata"
+        },
+        {
+          "quote": "and it's kind of gotten worse, I don't know.",
+          "location": "L277, Renata"
+        },
+        {
+          "quote": "It's not like we're falling apart, it's just --",
+          "location": "L277, Renata"
+        }
+      ],
+      "note": "Asked once and answered vaguely: a general wish to be more organized and an unspecific 'gotten worse', with no change, trigger event or deadline named. The consultant accepted it ('Everybody just wants to be more organized') and did not ask what got worse or since when. Possible triggers mentioned elsewhere but never tied to timing by the client: the bad reviews in the spring that Gary took hard, and the North branch opening about two and a half years ago. These are leads for a question, not evidence."
+    },
+    {
+      "criterion": "R4 Bleed number",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "So call it two hours. Every morning. Saturdays too, in the season.",
+          "location": "L155, Travis"
+        }
+      ],
+      "note": "One cost input only: Travis's time on the morning route rebuild, about two hours every morning including Saturdays in season. Hours per week and weeks in season were not given, so any weekly or yearly figure is [inferred]. No loaded hourly cost, no time for the CSRs or Rhonda, no cost of stalled re-treats, skip-to-cancel losses or missed add-on sales, no math, no client confirmation. The consultant replied 'Two hours a day, yeah, that's a lot' and moved straight to a feature pitch. The plugin must not fill in a wage or season length from outside data; missing inputs become questions and pricing prep stays held."
+    },
+    {
+      "criterion": "R5 Upside number",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "that's supposed to come to us as a lead, so we can call them.",
+          "location": "L205, Renata"
+        },
+        {
+          "quote": "That's more Gary's side.",
+          "location": "L213, Renata"
+        }
+      ],
+      "note": "Qualitative only. Renata names something they want to do but cannot today (call customers whom technicians flag for mosquito or termite work), but gives no count, no job value and no capacity-to-value math, and hands the sales side to Gary. The consultant pitched a CRM pipeline instead of asking. Advisory: a grader who reads this as Missing changes no verdict or gate."
+    },
+    {
+      "criterion": "R6 Desired outcome",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "I just want to be able to look it up. Like, where's that re-treat at. Without walking back to Travis every time.",
+          "location": "L309, Renata"
+        },
+        {
+          "quote": "if a guy calls out, I just want to push it to the guys and be done.",
+          "location": "L317, Travis"
+        }
+      ],
+      "note": "A day-to-day picture from two end users. No leadership win condition (what Gary would count as success) and no success criteria discussed."
+    },
+    {
+      "criterion": "R7 Decision process mapped",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "Well, Gary would have to see it. He's the owner.",
+          "location": "L301, Renata"
+        },
+        {
+          "quote": "And Lorna, probably. If it's going to North.",
+          "location": "L303, Travis"
+        },
+        {
+          "quote": "That's kind of a Gary question.",
+          "location": "L305, Renata"
+        },
+        {
+          "quote": "Because Gary's going to ask what it costs.",
+          "location": "L333, Renata"
+        },
+        {
+          "quote": "Just email me and I'll forward it to Gary.",
+          "location": "L345, Renata"
+        }
+      ],
+      "note": "The owner, Gary, is the implied approver but was not on the call, and nobody confirmed he approves spend. Unknown: what Gary cares about beyond cost, the budget process, what happens after a yes, whether the North branch (Lorna) is in scope, and Kelsey's role (built the callback sheet, runs the website, may have used monday). The consultant said 'We can loop them in later' and did not propose inviting Gary. Gary's earlier purchases (the system, and a scheduling app nobody used) were not explored."
+    },
+    {
+      "criterion": "R8 Priority and timing",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "it's not, like, a fire. But it'd be nice.",
+          "location": "L321, Renata"
+        },
+        {
+          "quote": "Just not in the spring.",
+          "location": "L323, Travis"
+        },
+        {
+          "quote": "March through June is -- no.",
+          "location": "L325, Renata"
+        }
+      ],
+      "note": "Placed as not urgent, with a busy-season blackout from March to June. No target date or real deadline. Flag 'not urgent' as a fit risk; do not infer a 'before March' deadline."
+    },
+    {
+      "criterion": "R9 Blockers surfaced",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "We tried a scheduling thing, like, three years ago? Some app. Gary bought it. Nobody used it.",
+          "location": "L179, Travis"
+        },
+        {
+          "quote": "I've got guys who still want the paper sheet.",
+          "location": "L167, Travis"
+        },
+        {
+          "quote": "Oh, I don't think Gary's getting rid of the system.",
+          "location": "L295, Renata"
+        }
+      ],
+      "note": "Risks came up unprompted (a scheduling app nobody used, technicians who prefer paper, the system staying, Gary's cost question), but nobody said what could stop this going ahead and the consultant never asked, and brushed off the failed rollout ('a lot of those apps are really rigid')."
+    },
+    {
+      "criterion": "R10 Next step committed",
+      "status": "missing",
+      "evidence": [
+        {
+          "quote": "I'll send something over.",
+          "location": "L337, Consultant"
+        },
+        {
+          "quote": "we can find a time to walk through it.",
+          "location": "L343, Consultant"
+        }
+      ],
+      "note": "Consultant-side lines only, cited to show the gap: no date, time or owner for a next meeting. Matches the spec's 'I'll follow up' test case. Flag it in the call summary; the recap draft should propose a specific time with Gary invited, and the invite stays a to-do."
+    },
+    {
+      "criterion": "R11 Solution confirmed",
+      "status": "missing",
+      "evidence": [],
+      "note": "No demo yet, so nothing can be confirmed. Reactions to spoken pitches ('That'd be nice', 'Oh. Okay. Huh.', 'That sounds interesting') are not confirmation that a shown solution addresses a pain."
+    },
+    {
+      "criterion": "R12 Scope agreed verbally",
+      "status": "missing",
+      "evidence": [],
+      "note": "No scope was agreed. The consultant described a multi-board structure and the only client response was 'That's a lot of boards.' No proposal or pricing draft should be produced, even though the consultant promised rough pricing."
+    },
+    {
+      "criterion": "P1 Stated",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "the problem is when it doesn't get on the board. Like it just sits on the sheet.",
+          "location": "L107, Renata"
+        }
+      ],
+      "note": "P1: re-treat and callback requests stall between the callback sheet and the dispatch whiteboard, in Renata's words."
+    },
+    {
+      "criterion": "P1 Concrete",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Last week I had a lady over on Pheasant Run call three times.",
+          "location": "L111, Renata"
+        },
+        {
+          "quote": "And I go look, and it's on the sheet from the first call. It just never went anywhere.",
+          "location": "L111, Renata"
+        }
+      ],
+      "note": "A specific recent occurrence (last week, three calls about the same spiders) plus two failure modes: the plan left off the sheet, and rain-day board wipes."
+    },
+    {
+      "criterion": "P1 Workaround",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "Right, so when they call we put it on the callback sheet.",
+          "location": "L79, Renata"
+        },
+        {
+          "quote": "No, I mean, the sheet's fine. It's fine.",
+          "location": "L123, Renata"
+        },
+        {
+          "quote": "It's more that, um --",
+          "location": "L123, Renata"
+        },
+        {
+          "quote": "Yeah, I mean, sure.",
+          "location": "L127, Renata"
+        },
+        {
+          "quote": "I walk back a lot. My step count's great, though.",
+          "location": "L313, Renata"
+        }
+      ],
+      "note": "Renata names what they do (callback sheet, whiteboard, walking back to Travis to check) but calls the sheet fine and is cut off before saying why carrying on is not acceptable. The reason came from the consultant; her 'Yeah, I mean, sure.' is bare agreement, which the method grades Partial. She jokes about walking back rather than calling it unacceptable."
+    },
+    {
+      "criterion": "P1 Reach",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "And then she's asking for Gary. And then Gary's asking me.",
+          "location": "L115, Renata"
+        },
+        {
+          "quote": "so Travis doesn't know if it's a re-treat or if we're charging for it, so it sits.",
+          "location": "L111, Renata"
+        }
+      ],
+      "note": "The customer escalates to the owner, who asks Renata; dispatch cannot schedule without the plan."
+    },
+    {
+      "criterion": "P1 Cost inputs",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "Fifteen, twenty a week, maybe? Summer's more. Summer's like double.",
+          "location": "L131, Renata"
+        },
+        {
+          "quote": "Yeah. Maybe.",
+          "location": "L137, Travis"
+        }
+      ],
+      "note": "A loose, unconfirmed volume range for all re-treat calls at the main branch only (Travis: 'Yeah. Maybe.'). It is not how many stall, and no time or money is attached."
+    },
+    {
+      "criterion": "P1 Trajectory",
+      "status": "missing",
+      "evidence": [],
+      "note": "Nothing on what happens next year or as they grow. The seasonal swing ('Summer's like double') is not a trajectory."
+    },
+    {
+      "criterion": "P2 Stated",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Mornings are the worst.",
+          "location": "L147, Travis"
+        },
+        {
+          "quote": "And then I come in and it's all wrong.",
+          "location": "L147, Travis"
+        }
+      ],
+      "note": "P2: the dispatcher rebuilds the system's routes by hand every morning."
+    },
+    {
+      "criterion": "P2 Concrete",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "So now I've got, what, five stops to move.",
+          "location": "L13, Travis"
+        },
+        {
+          "quote": "So I'm moving magnets around on the board, and then I'm texting the guys their changes.",
+          "location": "L151, Travis"
+        }
+      ],
+      "note": "A same-day occurrence (a technician's flat tire just before the call) and a daily routine with its causes: call-outs, trucks down, re-treats, same-day urgent jobs."
+    },
+    {
+      "criterion": "P2 Workaround",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "And half of them don't read the texts, so then I'm calling them.",
+          "location": "L151, Travis"
+        },
+        {
+          "quote": "honestly the board works. It works. Everybody gets their stops.",
+          "location": "L159, Travis"
+        }
+      ],
+      "note": "Travis names the workaround (magnets, texts, then calls) and its friction, but says the board works and everyone gets their stops, and is cut off at 'It's just, if I'm --' before giving any reason it cannot continue."
+    },
+    {
+      "criterion": "P2 Reach",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "And half of them don't read the texts, so then I'm calling them.",
+          "location": "L151, Travis"
+        }
+      ],
+      "note": "Technicians get changes late by text or call. No effect on customers, CSRs or other staff was described."
+    },
+    {
+      "criterion": "P2 Cost inputs",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "I'm in at six. I'm usually still redoing routes at eight, eight-fifteen?",
+          "location": "L155, Travis"
+        },
+        {
+          "quote": "So call it two hours. Every morning. Saturdays too, in the season.",
+          "location": "L155, Travis"
+        }
+      ],
+      "note": "Hours and frequency from the client. No money is attached; that gap sits under R4."
+    },
+    {
+      "criterion": "P2 Trajectory",
+      "status": "missing",
+      "evidence": [],
+      "note": "Seasonal staffing ('More in the summer with the seasonal guys') came up only in a licensing question, not as the morning rebuild getting worse."
+    }
+  ],
+  "pains": [
+    {
+      "quote": "the problem is when it doesn't get on the board. Like it just sits on the sheet.",
+      "location": "L107, Renata",
+      "theme": "P1 Re-treat and callback requests stall between the callback sheet and the dispatch whiteboard"
+    },
+    {
+      "quote": "It just never went anywhere.",
+      "location": "L111, Renata",
+      "theme": "P1 Specific instance: the Pheasant Run customer who called three times"
+    },
+    {
+      "quote": "so Travis doesn't know if it's a re-treat or if we're charging for it, so it sits.",
+      "location": "L111, Renata",
+      "theme": "P1 Incomplete intake (plan missing) blocks scheduling and the coverage decision"
+    },
+    {
+      "quote": "there's a rain day and the whole board gets wiped and redone, and that one just doesn't make it back up.",
+      "location": "L111, Renata",
+      "theme": "P1 Re-treats dropped when the whiteboard is redone after a rain day"
+    },
+    {
+      "quote": "Mornings are the worst.",
+      "location": "L147, Travis",
+      "theme": "P2 Dispatcher rebuilds routes by hand every morning"
+    },
+    {
+      "quote": "And half of them don't read the texts, so then I'm calling them.",
+      "location": "L151, Travis",
+      "theme": "P2 Route changes reach technicians by text and phone, and many miss them"
+    },
+    {
+      "quote": "And then if it rains, like, three, four days, everybody's pushed.",
+      "location": "L231, Travis",
+      "theme": "P3 Lawn rounds slip after rain with no shared view of who is behind"
+    },
+    {
+      "quote": "And I kind of know who's behind, but it's -- it's in my head.",
+      "location": "L235, Travis",
+      "theme": "P3 Knowledge of the backlog lives only with the dispatcher"
+    },
+    {
+      "quote": "And then customers call going, where's my guy, and I don't know where their guy is.",
+      "location": "L241, Renata",
+      "theme": "P3 CSRs cannot answer customers' status questions"
+    },
+    {
+      "quote": "So if they get pushed, we have to call them again. Every time.",
+      "location": "L245, Renata",
+      "theme": "P3 Notify-list customers need a new call after every reschedule"
+    },
+    {
+      "quote": "Everywhere. The phones, the office inbox, the website.",
+      "location": "L253, Renata",
+      "theme": "P4 Complaints arrive through many channels, including the owner's cell phone"
+    },
+    {
+      "quote": "I mean, it's my inbox, so --",
+      "location": "L261, Renata",
+      "theme": "P4 Complaint follow-up is tracked only in a folder in Renata's email"
+    },
+    {
+      "quote": "And it doesn't. It's on the ticket. The ticket's in the truck.",
+      "location": "L205, Renata",
+      "theme": "P5 Add-on requests technicians write on paper tickets (mosquito, termite) never reach the office"
+    },
+    {
+      "quote": "sometimes the skip turns into a cancel and nobody really catches it until, like, billing.",
+      "location": "L249, Renata",
+      "theme": "P6 Skipped services quietly turn into cancellations"
+    },
+    {
+      "quote": "when I cover for them, I don't know where anything is.",
+      "location": "L143, Travis",
+      "theme": "P7 North branch runs separate processes, which makes covering between branches hard"
+    }
+  ],
+  "numbers": {
+    "bleed": {
+      "value": "Not calculated. Only input: dispatcher time on the morning route rebuild, about two hours every morning including Saturdays in season. No hourly cost, hours per week, weeks in season, other roles' time, yearly total or client confirmation.",
+      "quote": "So call it two hours. Every morning. Saturdays too, in the season.",
+      "status": "partial"
+    },
+    "upside": {
+      "value": "Not quantified. The only upside-type statement is that add-on requests technicians write on tickets (mosquito, termite inspection) never reach the office to be called. No count, job value or confirmation.",
+      "quote": "that's supposed to come to us as a lead, so we can call them.",
+      "status": "partial"
+    }
+  },
+  "vocabulary": [
+    {
+      "their_term": "routes",
+      "meaning": "A technician's stops for the day, generated nightly by the system from plans that are due, then reshuffled each morning",
+      "likely_monday_object": "undecided: a group per technician only if daily routes are mirrored from the system; if monday tracks exceptions only, a route is not a monday object (readiness leaning 2; the group-per-tech shape was the consultant's pitch, not the client's ask)"
+    },
+    {
+      "their_term": "route sheets",
+      "meaning": "Printed daily stop list for each technician",
+      "likely_monday_object": "not a monday object while the system prints them; a view only if routes are mirrored (readiness leaning 2; Travis asked whether they would still print from the system and got no answer)"
+    },
+    {
+      "their_term": "service ticket",
+      "meaning": "One scheduled visit, created in the system; not a customer request",
+      "likely_monday_object": "item"
+    },
+    {
+      "their_term": "the system",
+      "meaning": "Legacy pest and lawn software, product name unknown; holds customers, plans, routes and application records",
+      "likely_monday_object": "external system of record; writeback and integration direction unresolved; v0.1 does not depend on either; staying clear of the system is our safe default, labelled as ours"
+    },
+    {
+      "their_term": "callback",
+      "meaning": "Ambiguous. For Renata, any customer call-in that needs follow-up (re-treat, billing, or someone who wants a call). For Travis, a truck going back out to a property",
+      "likely_monday_object": "item (with a request-type status label)"
+    },
+    {
+      "their_term": "callback sheet",
+      "meaning": "Google Sheet where CSRs log call-ins waiting for action",
+      "likely_monday_object": "board"
+    },
+    {
+      "their_term": "re-treat",
+      "meaning": "Free return visit when pests come back: covered on a plan, or within thirty days of a one-time service",
+      "likely_monday_object": "status label"
+    },
+    {
+      "their_term": "one-time",
+      "meaning": "A single paid service with a thirty-day re-treat window, as opposed to a plan",
+      "likely_monday_object": "status label"
+    },
+    {
+      "their_term": "plan",
+      "meaning": "Recurring service agreement, for example a quarterly pest plan or a lawn plan",
+      "likely_monday_object": "item"
+    },
+    {
+      "their_term": "rounds",
+      "meaning": "Numbered lawn applications per year (about six, seven with grub control), each due within a window",
+      "likely_monday_object": "child rows under the plan, one per round with its window and status, with the rounds behind rolled up on the plan (readiness leaning 1); not one column carrying one value for six or seven rounds"
+    },
+    {
+      "their_term": "rain day",
+      "meaning": "Weather stoppage that forces the day's board to be wiped and redone and pushes lawn rounds",
+      "likely_monday_object": "status label"
+    },
+    {
+      "their_term": "the board",
+      "meaning": "The physical magnetic whiteboard in dispatch, not a monday board",
+      "likely_monday_object": "not a monday object; whether an exceptions board or a full routes board stands beside it is open (readiness leaning 2)"
+    },
+    {
+      "their_term": "notify list",
+      "meaning": "Customers who must be called before spraying because of a medical condition (theirs or a neighbor's)",
+      "likely_monday_object": "column"
+    },
+    {
+      "their_term": "skip",
+      "meaning": "Customer asks to skip a scheduled service; sometimes becomes a cancellation",
+      "likely_monday_object": "status label"
+    },
+    {
+      "their_term": "lead",
+      "meaning": "Ambiguous. For Renata, a sales lead a technician writes on a ticket. For Travis ('My leads'), lead technicians",
+      "likely_monday_object": "item (sales lead) or team (lead techs)"
+    },
+    {
+      "their_term": "calls out",
+      "meaning": "Technician absent for the day",
+      "likely_monday_object": "status label"
+    },
+    {
+      "their_term": "truck's down",
+      "meaning": "Vehicle out of service",
+      "likely_monday_object": "status label"
+    },
+    {
+      "their_term": "gate code / dog notes / lockbox code",
+      "meaning": "Property access notes printed on service tickets",
+      "likely_monday_object": "column"
+    },
+    {
+      "their_term": "application record",
+      "meaning": "State-required record of product, amount and target pest with the customer's signature; must stay in the system",
+      "likely_monday_object": "kept in the system (Travis: 'it has to be in the system, though'); no monday column holds the record itself in v0.1; at most a checkbox that Rhonda has keyed it, which is a person's claim, not the record"
+    },
+    {
+      "their_term": "CSRs",
+      "meaning": "Customer service reps who answer the phones",
+      "likely_monday_object": "team"
+    },
+    {
+      "their_term": "North / Tolliver Road",
+      "meaning": "The two branches (North branch and main branch)",
+      "likely_monday_object": "column"
+    },
+    {
+      "their_term": "the season",
+      "meaning": "The busy period: spring ('March through June is -- no. That's all hands') into summer, when re-treat calls roughly double, seasonal technicians are added and Saturdays are worked",
+      "likely_monday_object": "not a monday object (timing and capacity context)"
+    },
+    {
+      "their_term": "grub control",
+      "meaning": "Lawn plan add-on that brings the plan to seven rounds",
+      "likely_monday_object": "status label"
+    }
+  ],
+  "entities_and_workflows": [
+    "Customers and service addresses, with access notes (gate code, dog notes, lockbox code)",
+    "Plans: quarterly pest plans and lawn plans with about six rounds a year (seven with grub control); skips and cancellations",
+    "One-time services with a thirty-day re-treat window",
+    "Service tickets (visits) generated from plans in the system",
+    "Nightly route generation in the system, printed route sheets, morning reshuffle on the whiteboard, changes sent to technicians by text and phone",
+    "Callback and re-treat intake: CSR takes the call, logs it on the callback sheet, dispatcher schedules it on the whiteboard, technician visits; CSRs walk to dispatch to check status",
+    "Rain-day rescheduling of lawn rounds, with repeat calls to notify-list customers",
+    "Complaint intake from the phones, office inbox, website, calls and texts to the owner's cell, and online reviews; the owner forwards everything to Renata, who tracks follow-up in an email folder",
+    "Add-on requests technicians write on paper tickets (mosquito, termite inspection) that should become calls from the office",
+    "Ticket completion on paper (product, amount, target pest, customer signature), re-keyed into the system by Rhonda for state application records",
+    "Invoicing by Rhonda in QuickBooks, possibly fed from the system (unclear)",
+    "Two branches with separate processes; North has its own CSR and spreadsheet, and Travis sometimes covers North routes",
+    "Technician workforce: about 60, more in summer, a mix of company and personal phones, some who want paper; 'my leads' may mean lead technicians"
+  ],
+  "integrations_mentioned": [
+    "The system (legacy pest and lawn software; product name, export and API options unknown)",
+    "Google Sheets (callback sheet)",
+    "QuickBooks (invoices; link with the system unclear)",
+    "Office email inbox",
+    "The owner's cell phone (customer calls and texts, forwarded as screenshots and voicemails)",
+    "Company website (a request form was pitched by the consultant and hedged)",
+    "Phone calls and text messages to technicians",
+    "Online reviews (a complaint source)"
+  ],
+  "compliance_or_security_signals": [
+    "State pesticide application records (product, amount, target pest, customer signature) must stay in the system and can be audited",
+    "Notify list: customers with a medical condition, or whose neighbor has one, must be called before spraying and again after any reschedule; this is health-related data",
+    "Gate codes, lockbox codes for interior service, and dog notes are printed on paper tickets that stay in trucks",
+    "The callback sheet holds customer names and addresses; the consultant asked for a copy with customer info removed",
+    "Complaints reach the owner's personal cell phone and are tracked in Renata's own email folder"
+  ],
+  "objections": [
+    {
+      "quote": "We tried a scheduling thing, like, three years ago? Some app. Gary bought it. Nobody used it.",
+      "type": "Team won't adopt it (past failed rollout; brushed off by the consultant, not explored)"
+    },
+    {
+      "quote": "I've got guys who still want the paper sheet.",
+      "type": "Team won't adopt it (technicians prefer paper)"
+    },
+    {
+      "quote": "Oh, the guys are gonna love that.",
+      "type": "Team won't adopt it (sarcasm about per-technician complaint reporting)"
+    },
+    {
+      "quote": "Because Gary's going to ask what it costs.",
+      "type": "Price feels high (anticipated on behalf of the absent owner; the skipped step is R4)"
+    },
+    {
+      "quote": "do they each need, like, a login? Because it's sixty guys.",
+      "type": "Price feels high (seat cost for about 60 technicians plus seasonal hires; answered with unverified licensing advice)"
+    },
+    {
+      "quote": "Well, Gary would have to see it.",
+      "type": "Must check with someone (the approver was not on the call)"
+    },
+    {
+      "quote": "Just not in the spring.",
+      "type": "Wrong time, next quarter (busy season, March to June)"
+    },
+    {
+      "quote": "Oh, I don't think Gary's getting rid of the system.",
+      "type": "Outside the map: the existing system stays (scope and integration concern). Not 'monday itself is the problem': they are defending their own legacy software, not criticising monday"
+    },
+    {
+      "quote": "I mean, it has to be in the system, though.",
+      "type": "Outside the map: compliance and data location (state application records must stay in the legacy system)"
+    },
+    {
+      "quote": "Oh. Huh. That sounds interesting.",
+      "type": "Outside the map: polite hedge after an unrequested feature pitch (customer self-service re-treat form, itself a deferred Service extra); hesitation, not interest"
+    },
+    {
+      "quote": "Our customers are, like, seventy.",
+      "type": "Outside the map: fit of a pitched feature (customer self-service request form)"
+    },
+    {
+      "quote": "Yeah. No, maybe.",
+      "type": "Outside the map: polite hedge (same self-service form pitch, after the consultant pressed on)"
+    },
+    {
+      "quote": "Hm. Maybe. That's more Gary's side.",
+      "type": "Outside the map: deflection of the monday CRM pipeline pitch (not their decision)"
+    },
+    {
+      "quote": "honestly the board works. It works.",
+      "type": "Outside the map: status quo defended right after the routes-board pitch (the skipped step is the workaround check)"
+    },
+    {
+      "quote": "He's not really a dashboard guy.",
+      "type": "Outside the map: fit of a pitched feature (owner dashboard)"
+    },
+    {
+      "quote": "That's a lot of boards.",
+      "type": "Outside the map: complexity concern (hedge on the proposed structure)"
+    }
+  ],
+  "commitments_and_next_steps": [
+    {
+      "quote": "I'll send something over.",
+      "what": "Send setup ideas plus rough pricing",
+      "owner": "Consultant",
+      "date": "none given"
+    },
+    {
+      "quote": "I'll put some ballpark numbers in there for him.",
+      "what": "Ballpark pricing for Gary (conflicts with the method: R4, R7 and R12 are not Met)",
+      "owner": "Consultant",
+      "date": "none given"
+    },
+    {
+      "quote": "we can find a time to walk through it.",
+      "what": "Follow-up meeting after the client reviews; not scheduled",
+      "owner": "unclear",
+      "date": "none given"
+    },
+    {
+      "quote": "Just email me and I'll forward it to Gary.",
+      "what": "Forward the consultant's email to the owner",
+      "owner": "Renata",
+      "date": "none given"
+    },
+    {
+      "quote": "Oh, yeah, I can do that.",
+      "what": "Send a copy of the callback sheet with customer info removed",
+      "owner": "Renata",
+      "date": "none given"
+    },
+    {
+      "quote": "I can take a picture of the board if you want.",
+      "what": "Send a photo of the dispatch whiteboard",
+      "owner": "Travis",
+      "date": "none given"
+    }
+  ],
+  "traps": [
+    "'Callback' means different things: Renata uses it for any customer call-in that needs follow-up (re-treat, billing, wants a call), Travis for a truck going back out. Ask before naming a board, item type or status after it.",
+    "'The board' is the physical dispatch whiteboard, not a monday board.",
+    "'Service ticket' is a scheduled visit in the system, not a customer request. Renata corrected the consultant's 'that call becomes a ticket'. This collides with monday Service, whose native items are called tickets: their call-ins are the native Tickets items, their visits are not. Do not rename the native Tickets board to their meaning, do not map visit records onto it, and expect to need a different word for one of the two in anything client-facing.",
+    "'Leads' is ambiguous: add-on sales requests from tech notes (Renata) versus, probably, lead technicians ('My leads', Travis).",
+    "Service is in v1, so the intake the consultant pitched is genuinely in scope -- but it must go on the account's native Service Tickets board, not a look-alike. The tempting wrong move is a Work Management board called Tickets, Requests or Callbacks, built because today's intake lives on a Google Sheet. See expected_structures.lookalike_traps. In-scope does not mean build: the blueprint gate is still shut, so Service appears as the intended target, not as created objects.",
+    "Do not choose monday CRM. The consultant pitched a sales pipeline for add-ons and Renata deflected ('That's more Gary's side'). Add-on requests fit a simple Work Management board.",
+    "Only one hours figure exists (Travis, about two hours every morning, Saturdays too in season). No wage, hours per week, weeks in season or other roles' time was given. A weekly figure such as 10 to 12 hours would be [inferred]; do not compute a bleed from outside averages; ask.",
+    "Re-treat volume 'Fifteen, twenty a week, maybe?' is an unconfirmed range for the main branch only, and 'Summer's like double' is loose. Keep it as a range.",
+    "Why now is vague: 'it's kind of gotten worse, I don't know' names no change or date. The spring bad reviews and the North branch opening are possible triggers the client never connected to timing. Ask rather than assume.",
+    "The owner, Gary, is the likely approver but was not on the call. Lorna (North branch) and Kelsey (owner's daughter, built the callback sheet, may have used monday before) are possible stakeholders with unknown roles.",
+    "Whether North is in scope is open ('I don't know if it's going to North'), yet the consultant already suggested copying the setup to North.",
+    "'The system' stays according to Renata, unconfirmed with Gary. Its product name, data, export or API options and link to QuickBooks are unknown, and state application records must stay there. Do not design monday as the record for customers, plans or application records, and do not assume an integration exists.",
+    "Routes are generated nightly by the system. Whether monday should hold daily routes, mirror them, or only track exceptions (call-outs, re-treats, rain pushes) is undecided; Travis asked whether they would still print route sheets from the system and got no answer. monday is not a route optimizer, and the consultant's map-view pitch is not a routing solution.",
+    "The workarounds were described as working ('the sheet's fine. It's fine.', 'the board works. It works. Everybody gets their stops.', 'We always catch up.'). The reasons they fall short came from the consultant or were cut off; do not record them as client evidence or grade Workaround Met.",
+    "The polite hedge 'Oh. Huh. That sounds interesting.' followed an unrequested pitch for a customer self-service form and was followed by 'Our customers are, like, seventy.' It is not a request. That form, AI email tagging and draft replies, the owner dashboard, the CRM pipeline, the map view, per-technician complaint reports and the multi-board structure all go to the backlog, not the blueprint.",
+    "Seat count is unknown: about 60 technicians plus seasonal hires, a mix of company and personal phones, and some who want paper. The consultant's 'some ways around that, like forms, guest access' is unverified licensing advice. Confirm who actually needs to use monday before sizing.",
+    "The consultant promised rough pricing, but R4, R7 and R12 are not Met. Pricing prep should be held, and the recap should propose a scoping conversation with Gary instead.",
+    "The consultant's own claims ('in monday that basically can't happen', 'monday connects to pretty much everything', 'Most people pick it up in a day') are not client evidence and must not appear in client-facing material.",
+    "Customers call and text the owner's personal cell and he forwards screenshots and voicemails. Do not plan to connect a personal phone; ask how these should reach the team.",
+    "Remarks about colleagues ('Hector will die before he gives up the paper', the review printed for the break room, 'Kind of in a mean way') and Gary taking the reviews hard are internal only. Keep them out of recaps, seed data and SOPs.",
+    "Rhonda re-keys paper tickets, but her time was never quantified and she was not on the call.",
+    "Lawn plan structure is loose ('like, six rounds a year? Seven if they've got the grub control'). Confirm before building round columns or labels.",
+    "The deferred Service extras are exactly what the consultant demonstrated most vividly: a customer self-service form on the website, everything landing as tickets from the email inbox, and response targets that turn an untouched complaint red. All three are out of v1 (portal, email-to-ticket, SLA setup), and the form was hedged anyway. Intake starts as manual entry or a plain monday form, and ageing is a status plus a view, not an SLA policy. Naming any of them as a v1 deliverable is the trap.",
+    "The AI pitch (reading email, tagging complaint versus re-treat versus billing, sentiment, draft replies) hangs off the deferred email intake and was never requested. Backlog, not blueprint.",
+    "No monday account exists ('No. I've seen the ads.'), so native-board detection (A5 layer 1) has nothing to run against and no board ids can be recorded yet. Do not claim boards were detected, and do not assume which Service template family a future account will have.",
+    "No account tier was discussed, so the Enterprise portfolio default (A6) does not apply. Do not infer Enterprise from about 60 technicians or two branches, and do not read the consultant's suggestion that North could get a copy of the same setup as a portfolio of connected projects. Their work is recurring plans, rounds and routes, not projects.",
+    "The consultant's multi-board sketch ('you'd have a customers board, a plans board with every plan and what round they're on, a routes board for Travis') drew 'That's a lot of boards.' A board named Contacts or Accounts would also sit on native CRM entity names while CRM is deliberately out of scope. Use their vocabulary, keep customer records where they said they live (the system), and ask before creating a customer board at all."
+  ],
+  "requested_changes": [],
+  "should_plugin_propose_a_build": false,
+  "expected_questions_before_building": [
+    "Renata, take the Pheasant Run re-treat: once it was on the callback sheet, what would have to change for the sheet and the whiteboard to be good enough to keep, and what happens if they stay as they are? (P1 workaround, R2)",
+    "Travis, you said the board works and everybody gets their stops. So what makes the morning rebuild worth changing, and what happens on a morning you are out? (P2 workaround, R2)",
+    "You said things have kind of gotten worse. Worse since when, and what changed? Did the bad reviews in the spring play a part? (R3)",
+    "Roughly what does an hour of dispatch time cost, how many weeks a year does the season run, and how many hours do the CSRs and Rhonda spend on callbacks and re-keying tickets? (R4)",
+    "Who signs off on something like this, what will Gary want to see besides cost, and can we get him on the next call? Is Lorna's branch in scope? (R7)",
+    "Can we put a specific date and time on the calendar now, with Gary invited? (R10)",
+    "Is the system staying? What does it hold, what can it export, how do invoices get to QuickBooks, and which records must stay there for the state? (R1, compliance)",
+    "How do callbacks and routes work at the North branch today? (R1)",
+    "What happens when a re-treat is missed or a skip turns into a cancel: roughly how many customers does that cost a year, and what is a typical plan worth? And how many mosquito or termite requests do technicians write down in a month? (R4, R5)",
+    "Imagine this running well by next spring. What is different in a normal week, and what would Gary count as a win? (R6)",
+    "Is this something to have running before the spring rush, or later? Is there a date you are working toward? (R8)",
+    "What could get in the way? What happened with the scheduling app three years ago? (R9)",
+    "When each of you says 'callback', what exactly do you mean? And 'leads'? (vocabulary)",
+    "Who would use monday day to day: office staff only, lead techs, or all technicians? Who needs to see gate codes, lockbox codes and notify-list details? (R1, security)"
+  ],
+  "expected_verdict": {
+    "verdict": "Nearly ready",
+    "gates_met": [],
+    "gates_not_met": [
+      "Solution blueprint: R1 is Partial, which is enough, but R2 is Partial, not Met",
+      "Build: needs the consultant's approval at the approval stop, and no blueprint should be proposed yet",
+      "First demo (v0.1): the method adds no requirement of its own, but it follows a build, and neither a blueprint nor a build is allowed yet, so there is nothing to show",
+      "Pricing or proposal prep: R4 and R7 are Partial and R12 is Missing; all three must be Met",
+      "v1.0 sign-off: no success criteria agreed (R6 Partial) and R11 Missing"
+    ],
+    "note": "By section 2.4, R2, R3, R4 and R7 are all Partial and none is Missing, so the verdict is 'Nearly ready'. One-line reason: pains are named but not excavated, the why-now is vague, there is one hours figure with no cost, and the owner who decides was not on the call. This is not permission to build or price. The plugin should offer a discovery prep (at most five gap questions, core first), flag R10 Missing, and have the recap draft propose a specific time with Gary invited. If the consultant overrides the blueprint gate, the override is logged and the blueprint targets Work Management for dispatch, rounds and add-on requests plus monday Service for re-treat, callback and complaint intake on the account's native Tickets board, with the portal form, email-to-ticket and response-target extras listed as deferred beyond v1 and automations presented as one list for a single approval. A grader who reads R3 as Missing gets 'Not ready'; the gates and expected actions are the same either way."
+  },
+  "account_context": {
+    "tier": "unknown. No plan, tier or seat count was discussed. The only pricing exchange was Travis asking whether about 60 technicians each need a login and the consultant answering that 'it's priced by seat, but there's some ways around that, like forms, guest access'. Do not infer Enterprise, and do not infer a tier from headcount or from two branches.",
+    "products_enabled": [],
+    "existing_monday_setup": "None. Quillmoor has no monday account, workspace, board or earlier build, and nobody on the call has used monday: Renata has seen advertising and is unsure whether Kelsey, the owner's daughter, used it at a previous employer ('Kelsey said she used it at her old job, maybe? Or it was a different one.'). Consequences for the plugin: there is nothing to audit or extend; native-board detection (A5 layer 1) cannot run and no board ids can be recorded, so for Service the blueprint names the native Tickets entity and defers id capture to a preflight once an account exists; the account tier that drives the portfolio default (A6) is likewise unknown. Kelsey's possible monday experience and her ownership of the callback sheet and the website make her an unknown stakeholder worth asking about.",
+    "evidence_quote_or_null": "No. I've seen the ads."
+  },
+  "expected_structures": {
+    "native_boards_required": [
+      {
+        "product": "service",
+        "entity": "Tickets",
+        "why": "Re-treat and callback call-ins and complaints are one intake queue, and that is the Service Tickets entity. Today they are split across the Google Sheet callback sheet, the dispatch whiteboard, Renata's email folder and the owner's cell ('Everywhere. The phones, the office inbox, the website.'). Under A5 these items must live on the account's native Service Tickets board, found by the detection rules and recorded by id -- which cannot happen until an account exists. Native Tickets items are their call-ins, not their 'service ticket' visits."
+      }
+    ],
+    "portfolio_expected": false,
+    "portfolio_reason": "A6 applies only when the account tier is Enterprise and Work Management is in scope. There is no monday account and no tier was discussed, so the Enterprise condition is not met and the default does not apply; record that reason rather than treating it as a silent skip. Nothing in the transcript asks for a portfolio either: the two branches are a single distinction on items (main branch on Tolliver Road, North), the consultant's suggestion that North could get a copy of the same setup is duplication rather than connected projects, and the work itself is recurring plans, rounds and routes rather than projects. Revisit if Gary turns out to be on Enterprise and Work Management is built. No build is proposed at this stage in any case.",
+    "lookalike_traps": [
+      "A Work Management board named Tickets, Requests, Callbacks or Re-treats holding the call-ins and complaints. This is the central look-alike trap of this fixture: it is the natural move, because intake lives on a spreadsheet today and Work Management is the other in-scope product, and A5 forbids it now that Service is in v1.",
+      "Rebuilding the callback sheet column-for-column as its own plain board (customer, address, what's going on, plan, which tech was out last) instead of as columns on native Tickets.",
+      "Splitting complaints onto a second look-alike board because they arrive through different channels. One native Tickets board with a request-type label covers re-treats, callbacks, billing questions and complaints; their own words already distinguish these.",
+      "Duplicating the native Tickets board per branch or per request type. A duplicate of a native board still trips the A5 guard; use groups, views and a branch column instead.",
+      "Naming a Work Management board Contacts or Accounts for the customers board the consultant sketched. Those are native CRM entity names, and CRM is deliberately out of scope here after Renata deflected the pitch, so such a board is both a look-alike and unrequested. Their customer record stays in the system unless Gary says otherwise.",
+      "Creating a look-alike Activities or Leads board for the add-on requests technicians write on tickets ('that's supposed to come to us as a lead, so we can call them.'). Renata handed the sales side to Gary, so this is a simple Work Management item, not a CRM entity."
+    ],
+    "notes": "Nothing here is a build instruction for this fixture: the blueprint gate is shut (R2 Partial), so expected_structures describes what a correct blueprint would have to respect if the consultant overrides the gate later, and what a wrong one would look like. The Work Management pieces (dispatch exceptions, plans and rounds, skips, add-on requests) are ordinary boards, so A5 does not apply to them and no native template is required. For Service, only the Tickets entity is required; the native companions that ship with the Service templates (Contacts, CSAT Survey, and the IT-flavoured Incidents, Asset management and directory boards) are not required here -- customer records stay in the system, satisfaction surveying never came up, and the IT families do not fit a home-services business. If the client later wants customer records in monday, that is a scope question for Gary, not a board to add quietly. Automations across both products are presented as one list for a single approval, each row naming trigger, conditions, action and exact recipients, with the note that API-created automations cannot be switched off through the API."
+  },
+  "accepted_behaviours": [
+    "Grading R3 as Missing instead of Partial, which yields 'Not ready' instead of 'Nearly ready'. The gates, the held pricing and every expected action are identical either way, so both readings pass.",
+    "Grading R5 as Missing instead of Partial. R5 is advisory and changes no verdict or gate.",
+    "Grading P1 Workaround and P2 Workaround as Missing instead of Partial. What matters is that neither is Met, so no pain is excavated and R2 stays Partial.",
+    "Either naming monday Service as the intake target outright, or naming it while asking first whether re-treats and callbacks should live in monday at all given that 'the system' generates the visits. Both are correct; silently designing intake in Work Management is not.",
+    "Sketching the intended shape (native Tickets for call-ins and complaints, Work Management for dispatch exceptions, rounds and add-on requests) as a clearly labelled proposal pending the gate, rather than withholding all structural thinking. What must not happen is a blueprint presented as approved, a build, or any created object.",
+    "Listing the deferred Service extras explicitly as deferred, or leaving them out entirely. Both keep them out of v1; presenting any of them as a deliverable does not.",
+    "Using the client's vocabulary instead of monday's for the intake items (a request, a callback, a call-in), as long as the underlying board is the native Service Tickets board. Their 'service ticket' must not be the label for it.",
+    "Fewer than five gap questions, or a different subset of expected_questions_before_building, as long as core criteria (R2, R3, R4, R7) come before gate and advisory items and the pool is not exceeded.",
+    "Delivery-note figures within a couple of points or tens of words of the key's estimates (client share about 56%, a 245-word and a 170-word consultant turn). These are word-count estimates on an untimed transcript, not exact measurements, and a plugin that declines to estimate talk share at all while noting the long unbroken turns is also acceptable.",
+    "Recording the two-hours figure as a cost input, or as an unquantified volume note. Either is fine; multiplying it into a weekly or yearly bleed is not.",
+    "Naming Kelsey, Lorna, Gary or Rhonda as stakeholders with unknown or unconfirmed roles, or listing them as open questions instead. Asserting a decision role for any of them is not acceptable.",
+    "Either treating the North branch as out of scope for now or listing it as an open scope question. Assuming it is included, as the consultant did, is not."
+  ],
+  "expected_leak_blocklist": [
+    "Cost inputs and any figure derived from them: 'two hours', '2 hours', 'two hours every morning', 'two hours a day', and any weekly, seasonal or yearly total or money value built from them (10-12 hours a week, 500 hours a year, a dollar bleed). None of this reaches a recap, an SOP, seed data or the monday account. There is no confirmed bleed or upside total in this record to block, which is itself the point: if a figure appears in a draft, it was invented.",
+    "Any hourly rate, wage or loaded cost. None was ever given, so any such number is fabricated as well as internal.",
+    "Method vocabulary: bleed, upside, exit ramp, callback in its method sense (opening a demo segment by pointing at a stated pain), seed or seed data, readiness, excavated, gate or gate status, verdict, 'Nearly ready', 'Not ready', 'Discovery complete'.",
+    "CAUTION, do not strip: 'callback', 'callback sheet' and 'callbacks' are this client's own words for a real work item and belong in board names, an SOP and the recap. Only the method's sense of the word is blocked, and it never appears in client-facing text anyway. A naive block list that removes the client's term breaks the deliverable.",
+    "Identifiers and markers: P1 to P7, R1 to R12, N# number ids, S# stakeholder ids, O# objection ids, C# commitment ids, '[found]', '[inferred]', 'Partial', 'Met' and 'Missing' as grades.",
+    "Objection text and the fact that anything was treated as an objection: 'Because Gary's going to ask what it costs.', 'Well, Gary would have to see it.', 'Just not in the spring.', 'That's a lot of boards.', 'Our customers are, like, seventy.', 'Hm. Maybe. That's more Gary's side.', 'He's not really a dashboard guy.', 'Oh, I don't think Gary's getting rid of the system.', 'We tried a scheduling thing, like, three years ago? Some app. Gary bought it. Nobody used it.', 'I've got guys who still want the paper sheet.', 'Oh, the guys are gonna love that.', plus the anticipated-objection labels and planned responses.",
+    "Stakeholder assessments: that Gary is the approver or decision maker, that Renata is an influencer, that Travis is an end user, that the person who decides was absent, that Kelsey or Lorna are unknown stakeholders, and anything about what Gary cares about or how he buys.",
+    "Emotional and personal stakes: 'she wasn't crying, but she was upset', 'And then she's asking for Gary. And then Gary's asking me.', 'Gary took that pretty hard', 'He printed one out', 'Kind of in a mean way.', 'My step count's great, though.'",
+    "Remarks by staff about colleagues: 'Hector will die before he gives up the paper', 'Hector's gonna be buried with a clipboard', 'He knows the dogs better than the customers.', 'The ticket's under the seat with a gas station burrito wrapper.', 'I have no idea how billing works.', 'she has her own spreadsheet', 'It's a different everything up there.', and the North-branch comparisons generally.",
+    "Closing and pricing thinking: the held pricing prep, the promise 'I'll put some ballpark numbers in there for him.', seat-count sizing, cost-of-waiting framing, the planned commitment question, and the note that the spring blackout is a scheduling lever.",
+    "Consultant claims repeated as fact: 'in monday that basically can't happen', 'monday connects to pretty much everything.', 'Most people pick it up in a day, honestly.', 'it's priced by seat, but there's some ways around that, like forms, guest access'. Not internal exactly, but unverified, so they must not appear as commitments in a recap, an SOP or a board description.",
+    "Backlog framed as an upsell: the customer self-service form, AI tagging and draft replies, the owner dashboard, the CRM pipeline for add-ons, the map view, per-technician complaint reporting. A neutral 'possible next improvements' list is fine if the consultant asks for one.",
+    "FLAG, do not remove automatically: volume figures that could legitimately belong in an SOP -- 'Fifteen, twenty a week, maybe?' and 'Summer's like double' for re-treat calls, about 60 technicians, six or seven lawn rounds a year, the thirty-day one-time re-treat window, six rounds, quarterly plans. Show these to the consultant rather than stripping them, and keep the hedging if they stay.",
+    "Sensitive operational detail that must not land in seed data or examples even though it is the client's own: the Pheasant Run customer who called three times, real gate codes, lockbox codes, dog notes, notify-list medical reasons, and the owner's personal cell as a channel. Seed data uses invented addresses and no access codes.",
+    "There are no alternatives in play in this record -- no other partners, vendors or in-house build plans were mentioned -- so that category of the block list is empty by design. The abandoned scheduling app is a past failure and an adoption signal, not an alternative, and stays internal on those grounds."
+  ],
+  "readiness": {
+    "schema": "readiness/1",
+    "note": "Derived from this key's pains, entities, products, structure, forks and questions in the fixture fix pass of 2026-10-13. Structure assertions stay provisional until the user has seen a real build (FEEDBACK, top). The key's `should_plugin_propose_a_build: false` and its verdict answer the v2 sales question; under A19 and the user's decision of 2026-10-13, thin input clears a generic build with its assumptions listed.",
+    "goals": [
+      {"id": "G1", "goal": "Be more organized, with everything no longer scattered in five places", "quote": "I think we just need to be more organized.", "location": "L277, Renata", "speaker_role": "customer service lead, main branch (client; influencer)", "pains": ["P1.1", "P4.1"]},
+      {"id": "G2", "goal": "Look up where a re-treat stands without walking back to the dispatcher", "quote": "I just want to be able to look it up.", "location": "L309, Renata", "speaker_role": "customer service lead, main branch (client; influencer)", "pains": ["P1.1", "P1.2", "P1.3", "P1.4", "P3.3"]},
+      {"id": "G3", "goal": "Push a route change to the technicians once and be done, not chase them", "quote": "if a guy calls out, I just want to push it to the guys and be done.", "location": "L317, Travis", "speaker_role": "dispatcher, main branch (client; end user)", "pains": ["P2.1", "P2.2"]}
+    ],
+    "pains": [
+      {
+        "id": "P1.1",
+        "quote": "the problem is when it doesn't get on the board. Like it just sits on the sheet.",
+        "location": "L107, Renata",
+        "speaker_role": "customer service lead, main branch (client; influencer)",
+        "stated_or_excavated": "stated",
+        "outcome": "I just want to be able to look it up. Like, where's that re-treat at. Without walking back to Travis every time."
+      },
+      {
+        "id": "P1.2",
+        "quote": "It just never went anywhere.",
+        "location": "L111, Renata",
+        "speaker_role": "customer service lead, main branch (client; influencer)",
+        "stated_or_excavated": "stated",
+        "outcome": "I just want to be able to look it up. Like, where's that re-treat at. Without walking back to Travis every time."
+      },
+      {
+        "id": "P1.3",
+        "quote": "so Travis doesn't know if it's a re-treat or if we're charging for it, so it sits.",
+        "location": "L111, Renata",
+        "speaker_role": "customer service lead, main branch (client; influencer)",
+        "stated_or_excavated": "stated",
+        "outcome": "I just want to be able to look it up. Like, where's that re-treat at. Without walking back to Travis every time."
+      },
+      {
+        "id": "P1.4",
+        "quote": "there's a rain day and the whole board gets wiped and redone, and that one just doesn't make it back up.",
+        "location": "L111, Renata",
+        "speaker_role": "customer service lead, main branch (client; influencer)",
+        "stated_or_excavated": "stated",
+        "outcome": "I just want to be able to look it up. Like, where's that re-treat at. Without walking back to Travis every time."
+      },
+      {
+        "id": "P2.1",
+        "quote": "Mornings are the worst.",
+        "location": "L147, Travis",
+        "speaker_role": "dispatcher, main branch (client; end user)",
+        "stated_or_excavated": "stated",
+        "outcome": "if a guy calls out, I just want to push it to the guys and be done. Not chase everybody down."
+      },
+      {
+        "id": "P2.2",
+        "quote": "And half of them don't read the texts, so then I'm calling them.",
+        "location": "L151, Travis",
+        "speaker_role": "dispatcher, main branch (client; end user)",
+        "stated_or_excavated": "stated",
+        "outcome": "if a guy calls out, I just want to push it to the guys and be done. Not chase everybody down."
+      },
+      {
+        "id": "P3.1",
+        "quote": "And then if it rains, like, three, four days, everybody's pushed.",
+        "location": "L231, Travis",
+        "speaker_role": "dispatcher, main branch (client; end user)",
+        "stated_or_excavated": "stated",
+        "outcome": null
+      },
+      {
+        "id": "P3.2",
+        "quote": "And I kind of know who's behind, but it's -- it's in my head.",
+        "location": "L235, Travis",
+        "speaker_role": "dispatcher, main branch (client; end user)",
+        "stated_or_excavated": "stated",
+        "outcome": null
+      },
+      {
+        "id": "P3.3",
+        "quote": "And then customers call going, where's my guy, and I don't know where their guy is.",
+        "location": "L241, Renata",
+        "speaker_role": "customer service lead, main branch (client; influencer)",
+        "stated_or_excavated": "stated",
+        "outcome": "I just want to be able to look it up. Like, where's that re-treat at. Without walking back to Travis every time."
+      },
+      {
+        "id": "P3.4",
+        "quote": "So if they get pushed, we have to call them again. Every time.",
+        "location": "L245, Renata",
+        "speaker_role": "customer service lead, main branch (client; influencer)",
+        "stated_or_excavated": "stated",
+        "outcome": null
+      },
+      {
+        "id": "P4.1",
+        "quote": "Everywhere. The phones, the office inbox, the website.",
+        "location": "L253, Renata",
+        "speaker_role": "customer service lead, main branch (client; influencer)",
+        "stated_or_excavated": "stated",
+        "outcome": null
+      },
+      {
+        "id": "P4.2",
+        "quote": "I mean, it's my inbox, so --",
+        "location": "L261, Renata",
+        "speaker_role": "customer service lead, main branch (client; influencer)",
+        "stated_or_excavated": "stated",
+        "outcome": null
+      },
+      {
+        "id": "P5.1",
+        "quote": "And it doesn't. It's on the ticket. The ticket's in the truck.",
+        "location": "L205, Renata",
+        "speaker_role": "customer service lead, main branch (client; influencer)",
+        "stated_or_excavated": "stated",
+        "outcome": "that's supposed to come to us as a lead, so we can call them."
+      },
+      {
+        "id": "P6.1",
+        "quote": "sometimes the skip turns into a cancel and nobody really catches it until, like, billing.",
+        "location": "L249, Renata",
+        "speaker_role": "customer service lead, main branch (client; influencer)",
+        "stated_or_excavated": "stated",
+        "outcome": null
+      },
+      {
+        "id": "P7.1",
+        "quote": "when I cover for them, I don't know where anything is.",
+        "location": "L143, Travis",
+        "speaker_role": "dispatcher, main branch (client; end user)",
+        "stated_or_excavated": "stated",
+        "outcome": null
+      }
+    ],
+    "signals": [
+      {
+        "quote": "It's more that, um --",
+        "location": "L123, Renata",
+        "pain": "P1.1",
+        "not_confirmed": "why the callback sheet falls short in her own words; she was cut off by the consultant's 'a spreadsheet can only take you so far' and answered only 'Yeah, I mean, sure.'"
+      },
+      {
+        "quote": "Yeah. That'd be nice.",
+        "location": "L119, Renata",
+        "pain": "P1.1",
+        "not_confirmed": "which part of the pitched shape (a status, a ping to dispatch after a day, a dashboard) she was agreeing to; nobody asked"
+      },
+      {
+        "quote": "It's just, if I'm --",
+        "location": "L159, Travis",
+        "pain": "P2.1",
+        "not_confirmed": "what the whiteboard fails at when he is the one missing; cut off by the consultant and never picked up"
+      },
+      {
+        "quote": "Would we still be printing the route sheets from the system, or...?",
+        "location": "L291, Travis",
+        "pain": "P2.2",
+        "not_confirmed": "whether he wants the printed route sheets to stay; the consultant answered 'We can figure that part out' and moved on"
+      },
+      {
+        "quote": "The system will show you who's overdue, but it's not great.",
+        "location": "L235, Travis",
+        "pain": "P3.2",
+        "not_confirmed": "what the system's overdue view lacks; a rounds board that copies it badly would be the same tool again"
+      },
+      {
+        "quote": "Oh. Okay. Huh.",
+        "location": "L239, Travis",
+        "pain": "P3.1",
+        "not_confirmed": "whether a timeline with dependencies matches how rounds move after rain; a noncommittal sound after the consultant's pitch, not a yes"
+      },
+      {
+        "quote": "My leads are better about it. They'll actually text me.",
+        "location": "L215, Travis",
+        "pain": "P5.1",
+        "not_confirmed": "that lead technicians already relay add-on requests by text, which may be the capture point; never explored"
+      },
+      {
+        "quote": "everything's in five places, and it's kind of gotten worse, I don't know.",
+        "location": "L277, Renata",
+        "pain": "P7.1",
+        "not_confirmed": "what got worse and since when; the consultant accepted 'more organized' and did not ask"
+      }
+    ],
+    "entities": [
+      {
+        "name": "customer",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L75, Renata"
+      },
+      {
+        "name": "service address with access notes (gate code, dog notes, lockbox code)",
+        "parent": "customer",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L189, Travis"
+      },
+      {
+        "name": "plan (quarterly pest plan or lawn plan)",
+        "parent": "customer",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L63, Renata"
+      },
+      {
+        "name": "round (one lawn application, six or seven per plan, each due in a window)",
+        "parent": "plan (quarterly pest plan or lawn plan)",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "L231, Travis"
+      },
+      {
+        "name": "skip (a service the customer asks to skip; may become a cancel)",
+        "parent": "plan (quarterly pest plan or lawn plan)",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "L249, Renata"
+      },
+      {
+        "name": "cancellation",
+        "parent": "plan (quarterly pest plan or lawn plan)",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L249, Renata"
+      },
+      {
+        "name": "one-time service with a thirty-day re-treat window",
+        "parent": "customer",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L103, Renata"
+      },
+      {
+        "name": "service ticket (one scheduled visit, created in the system)",
+        "parent": "plan (quarterly pest plan or lawn plan)",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L67, Renata"
+      },
+      {
+        "name": "application record (product, amount, target pest, signature; state-audited, in the system)",
+        "parent": "service ticket (one scheduled visit, created in the system)",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L189, Travis"
+      },
+      {
+        "name": "call-in or callback (re-treat, billing question, wants a call)",
+        "parent": "customer",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "L99, Renata"
+      },
+      {
+        "name": "re-treat visit (a truck going back out, free under a plan or within thirty days)",
+        "parent": "call-in or callback (re-treat, billing question, wants a call)",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L101, Travis"
+      },
+      {
+        "name": "callback sheet (Google Sheet)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "L83, Renata"
+      },
+      {
+        "name": "dispatch whiteboard (a row per technician, a magnet per stop; wiped on a rain day)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "L89, Travis"
+      },
+      {
+        "name": "route (one technician's stops for one day, generated nightly by the system)",
+        "parent": "technician (about sixty, more in summer; some on paper)",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "L147, Travis"
+      },
+      {
+        "name": "printed route sheet",
+        "parent": "route (one technician's stops for one day, generated nightly by the system)",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "L147, Travis"
+      },
+      {
+        "name": "stop (one visit on one route; moves between technicians by hand)",
+        "parent": "route (one technician's stops for one day, generated nightly by the system)",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L151, Travis"
+      },
+      {
+        "name": "technician (about sixty, more in summer; some on paper)",
+        "parent": "branch (main branch on Tolliver Road; North)",
+        "moves_independently": "yes",
+        "shared_resource": true,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L329, Travis"
+      },
+      {
+        "name": "lead technician ('My leads')",
+        "parent": "branch (main branch on Tolliver Road; North)",
+        "moves_independently": "unknown",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "assumed",
+        "evidence": null
+      },
+      {
+        "name": "truck",
+        "parent": "branch (main branch on Tolliver Road; North)",
+        "moves_independently": "yes",
+        "shared_resource": true,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L151, Travis"
+      },
+      {
+        "name": "rain day",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L111, Renata"
+      },
+      {
+        "name": "notify-list obligation (call before spraying, and again after every push)",
+        "parent": "customer",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "L245, Renata"
+      },
+      {
+        "name": "complaint (phones, office inbox, website, reviews, the owner's cell)",
+        "parent": "customer",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L253, Renata"
+      },
+      {
+        "name": "complaint folder in the customer service lead's email",
+        "parent": null,
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "L261, Renata"
+      },
+      {
+        "name": "add-on request written on a paper ticket (mosquito, termite inspection)",
+        "parent": "service ticket (one scheduled visit, created in the system)",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "L205, Renata"
+      },
+      {
+        "name": "invoice (QuickBooks; hand-off from the system unclear)",
+        "parent": "customer",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L295, Renata"
+      },
+      {
+        "name": "branch (main branch on Tolliver Road; North)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L43, Travis"
+      },
+      {
+        "name": "North branch spreadsheet (contents unknown)",
+        "parent": "branch (main branch on Tolliver Road; North)",
+        "moves_independently": "unknown",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "L141, Renata"
+      },
+      {
+        "name": "CSR team (four, one part-time; North has its own)",
+        "parent": "branch (main branch on Tolliver Road; North)",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L41, Renata"
+      }
+    ],
+    "structure": {
+      "products": [
+        "Work Management",
+        "Service"
+      ],
+      "build_target": "own-account",
+      "build_target_reason": "prospect, so the user's own account by default (A21)",
+      "workspaces": [
+        "Quillmoor – Ops",
+        "Quillmoor – Service"
+      ],
+      "native_reuse": "Service: the native Tickets board for call-ins (re-treats, callbacks, billing questions, complaints) distinguished by a request-type label, found by detection in the user's own account and recorded by id; the Service companions (Contacts, CSAT, the IT boards) are not used; no CRM entity: customers stay in the system and the CRM pitch was deflected ('That's more Gary's side.')",
+      "leanings": [
+        {
+          "question": "Is a lawn plan one row with a current-round column, or a parent with its rounds as child rows?",
+          "option": "parent-row-with-roll-up: the plan as parent, one child row per round with its window, its status and the date it was pushed to, the count of rounds behind rolled up on the plan; a skip is a status on the round it skips, so two skips in a row are visible before billing",
+          "quotes": [
+            "So a lawn plan is, like, six rounds a year? Seven if they've got the grub control.",
+            "And then if it rains, like, three, four days, everybody's pushed.",
+            "sometimes the skip turns into a cancel and nobody really catches it until, like, billing."
+          ],
+          "locations": [
+            "L231, Travis",
+            "L231, Travis",
+            "L249, Renata"
+          ],
+          "condition": "the plan structure is confirmed (how many rounds, what each window is) and it is known whether the system can export plans and overdue rounds or every round row is typed by hand",
+          "pattern": "one row where the call describes many"
+        },
+        {
+          "question": "Does monday mirror the system's daily routes, or track only the exceptions dispatch makes to them?",
+          "option": "exceptions only in v0.1: a board of today's changes (call-out, truck down, re-treat slotted in, same-day urgent job, rain push) with the stop, the technician it moves to and the date, so a technician's changed stops reach his phone without a text; the system keeps generating and printing routes; the group-per-technician routes board was the consultant's pitch, and Travis's answer was that the board works",
+          "quotes": [
+            "honestly the board works. It works. Everybody gets their stops.",
+            "Would we still be printing the route sheets from the system, or...?",
+            "And half of them don't read the texts, so then I'm calling them."
+          ],
+          "locations": [
+            "L159, Travis",
+            "L291, Travis",
+            "L151, Travis"
+          ],
+          "condition": "what the system can export and whether Travis wants the printed sheets to stay; a nightly route import would turn this into a mirror, which v0.1 does not have",
+          "pattern": "our framing labelled as the client's"
+        },
+        {
+          "question": "Is a repeat call about the same problem one ticket or three?",
+          "option": "one Tickets item per problem, with each call logged on it and the count of calls and the age shown, so the third call about the same spiders lands on the row the first one made",
+          "quotes": [
+            "Last week I had a lady over on Pheasant Run call three times.",
+            "And I go look, and it's on the sheet from the first call. It just never went anywhere."
+          ],
+          "locations": [
+            "L111, Renata",
+            "L111, Renata"
+          ],
+          "condition": "how CSRs handle a repeat call on the sheet today, a new row or the old one; the committed copy of the callback sheet will show it",
+          "pattern": "one row where the call describes many"
+        },
+        {
+          "question": "Which fields must a call-in carry before dispatch can act, and where does the plan come from?",
+          "option": "the callback sheet's own columns on the native Tickets item (customer, address, what is going on, plan or one-time, last technician) plus the last service date, with plan and last service date required at intake; days since last service is a formula on the item for the thirty-day decision; the plan and the date are typed by the CSR from the system and carry an as-of date, because they change when a visit happens and nothing refreshes them",
+          "quotes": [
+            "sometimes a CSR puts it on the sheet but she doesn't put the plan, so Travis doesn't know if it's a re-treat or if we're charging for it, so it sits.",
+            "If it was a one-time, you get thirty days. So if it's, like, day thirty-four, that's a whole conversation."
+          ],
+          "locations": [
+            "L111, Renata",
+            "L103, Renata"
+          ],
+          "condition": "whether the system can export the plan and the last service date, or the CSR keeps typing them; until then the days-since figure is as current as the typed date",
+          "pattern": "an artefact that can go stale with nothing to flag it"
+        },
+        {
+          "question": "What flags a re-treat that was on the whiteboard before a rain day wiped it?",
+          "option": "the Tickets item keeps its own status (new, scheduled, done) apart from the whiteboard; a view of scheduled-not-done re-treats older than a day is what dispatch rebuilds the board from after rain; a scheduled or done status set by dispatch or a technician is a claim about a visit the system records, never evidence from the system",
+          "quotes": [
+            "there's a rain day and the whole board gets wiped and redone, and that one just doesn't make it back up."
+          ],
+          "locations": [
+            "L111, Renata"
+          ],
+          "condition": "dispatch marks the ticket scheduled when the magnet goes up; if that step is skipped the view is as blind as the sheet",
+          "pattern": "an artefact that can go stale with nothing to flag it"
+        },
+        {
+          "question": "Which element shortens the two-hour morning rebuild (P2.1)?",
+          "option": "none: the causes (a call-out, a truck down, re-treats to slot in, a same-day urgent job) are outside any board, and the system's routes are rebuilt by hand either way; the exceptions board of leaning 2 changes how the result reaches technicians (P2.2), not the rebuild itself, and a routes board in monday would be the whiteboard on a screen",
+          "quotes": [
+            "I'm in at six. I'm usually still redoing routes at eight, eight-fifteen? So call it two hours. Every morning. Saturdays too, in the season.",
+            "It's just, if I'm --"
+          ],
+          "locations": [
+            "L155, Travis",
+            "L159, Travis"
+          ],
+          "condition": "Travis finishes his sentence: what the rebuild fails at, and what happens on a morning he is out",
+          "pattern": "a pain with no element that fixes it"
+        },
+        {
+          "question": "How does a reassigned stop show who holds it, so nothing is promised to two technicians?",
+          "option": "every exception row names the stop, the technician it leaves, the technician it goes to and the date; a per-technician view of today's changes is the reservation; the whiteboard is that reservation today (a row per technician, a magnet per stop) and only the people in the room can see it",
+          "quotes": [
+            "Big whiteboard. Every tech's got a row, every stop's a magnet.",
+            "So I'm moving magnets around on the board, and then I'm texting the guys their changes."
+          ],
+          "locations": [
+            "L89, Travis",
+            "L151, Travis"
+          ],
+          "condition": "whether a stop can be moved in monday without also being moved in the system (which prints the sheets); if not, the row records a move made elsewhere",
+          "pattern": "a shared resource with no reservation tracking"
+        },
+        {
+          "question": "Is the rounds board a shared backlog or the system's overdue view typed again by hand?",
+          "option": "the rounds board (leaning 1) is the shared view CSRs read for where a customer's round is, which the system's view does not give them; while round dates are typed by Travis after each push it copies the system's overdue list with his knowledge added, and is as current as he keeps it",
+          "quotes": [
+            "And I kind of know who's behind, but it's -- it's in my head. The system will show you who's overdue, but it's not great.",
+            "And then customers call going, where's my guy, and I don't know where their guy is."
+          ],
+          "locations": [
+            "L235, Travis",
+            "L241, Renata"
+          ],
+          "condition": "what the system's overdue view lacks, and whether overdue rounds can be exported from it; with a feed the board is a fix, without one it is a copy that Travis maintains",
+          "pattern": "a pain with no element that fixes it"
+        },
+        {
+          "question": "Which element reaches complaints that arrive by email, website, reviews and the owner's cell (P4.1)?",
+          "option": "none in v0.1: email-to-ticket is a deferred Service extra, a review site and a personal phone are not channels, and the owner was not on the call; each complaint is keyed onto Tickets by the customer service lead with its channel as a label, which replaces her email folder (P4.2) and leaves the arrival as it is",
+          "quotes": [
+            "Everywhere. The phones, the office inbox, the website.",
+            "So now he forwards me everything, screenshots, voicemails, and I've got a folder in my email, and I try to keep track, like, did we call them back, did we send somebody."
+          ],
+          "locations": [
+            "L253, Renata",
+            "L261, Renata"
+          ],
+          "condition": "how the owner wants what reaches his cell to reach the team, asked of him; and whether the office inbox could later be a Service channel",
+          "pattern": "a pain with no element that fixes it"
+        },
+        {
+          "question": "Does North get a copy of the same setup, a branch column in one build, or nothing yet (P7.1)?",
+          "option": "nothing for North in v0.1 and a branch column on every board so nothing has to be rebuilt if it joins; the copy-to-North idea was the consultant's and Renata said it is a Gary question; nothing in this build changes how North works",
+          "quotes": [
+            "It's a different everything up there. Which, I mean, Lorna's great. It's just, when I cover for them, I don't know where anything is.",
+            "If it's going to North. I don't know if it's going to North. That's kind of a Gary question."
+          ],
+          "locations": [
+            "L143, Travis",
+            "L305, Renata"
+          ],
+          "condition": "the owner says whether North is in scope; if it is, the North CSR's spreadsheet is read before any board is copied",
+          "pattern": "a pain with no element that fixes it"
+        }
+      ],
+      "patterns": [
+        "parent-row-with-roll-up: lawn plan with rounds as child rows, rounds behind and consecutive skips on the parent",
+        "parent-row-with-roll-up: call-in ticket with each call about the same problem logged on it, call count and age on the parent"
+      ],
+      "element_per_pain": [
+        {
+          "pain": "P1.1",
+          "element": "a call-in is one native Tickets item with a status (new, scheduled, done) and an age, in place of a row on the sheet that nothing watches; a view of items sitting in new past a day",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P1.2",
+          "element": "one ticket per problem with each call logged on it (leaning 3), so a third call lands on the first call's row",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P1.3",
+          "element": "plan or one-time, last technician and last service date required at intake, with days since last service as a formula (leaning 4)",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P1.4",
+          "element": "the ticket's own status survives a rain-day wipe; a view of scheduled-not-done re-treats is what the board is rebuilt from (leaning 5)",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P2.1",
+          "element": "no element shortens the rebuild; the exceptions board moves the result, not the work (leaning 6)",
+          "verdict": "none"
+        },
+        {
+          "pain": "P2.2",
+          "element": "an exceptions board with the stop, the technician and the date, and a mobile notification to the technician it goes to; a printed sheet stays for those who want paper (leaning 2)",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P3.1",
+          "element": "the plan as parent with rounds as child rows and a rounds-behind view (leaning 1); typed by hand after each push until the system can feed it, so in v0.1 it is the system's overdue list again with Travis's knowledge added (leaning 8)",
+          "verdict": "copies-today's-tool"
+        },
+        {
+          "pain": "P3.2",
+          "element": "the same rounds board as the written form of what is in his head; it is only as current as he keeps it, and the system already shows who is overdue (leaning 8)",
+          "verdict": "copies-today's-tool"
+        },
+        {
+          "pain": "P3.3",
+          "element": "the rounds board is readable by CSRs, so where a customer's round stands is looked up, not walked back for; depends on the board being maintained (leaning 8)",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P3.4",
+          "element": "a notify-list flag on the customer row and a call-before-spray task created whenever a round's date changes, with its own done status; that status is a CSR's claim that the call was made",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P4.1",
+          "element": "no element: the channels (email, website, reviews, the owner's cell) stay as they are; email-to-ticket is a deferred extra and a personal phone is not connected (leaning 9)",
+          "verdict": "none"
+        },
+        {
+          "pain": "P4.2",
+          "element": "each complaint as a Tickets item with a complaint label, a channel, and a follow-up status (called back, visit sent), replacing the email folder (leaning 9)",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P5.1",
+          "element": "an add-on request item on a Work Management board, created by the technician from his phone or by Rhonda while re-keying the paper ticket, with a CSR owner and a called status; a simple board, not a CRM pipeline",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P6.1",
+          "element": "a skip as a status on the round it skips (leaning 1), with a view of plans carrying two skips in a row so the cancel is seen before billing; works only if the CSR keys the skip in monday when the customer calls",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P7.1",
+          "element": "no element: a branch column keeps the door open; nothing is built for North until the owner decides (leaning 10)",
+          "verdict": "none"
+        }
+      ]
+    },
+    "existing": {
+      "account": "unknown, no account bound. The client has no monday account, workspace or board ('No. I've seen the ads.', L55, Renata), so there is nothing to audit or extend on their side and no tier is known. Under A21 the build target is the user's own account, whose tier and native Service boards are read at preflight; the client's own account, and whether the owner's daughter used monday somewhere, are handover questions, not build questions.",
+      "incumbents": [
+        {
+          "system": "the system (legacy pest and lawn software, name unknown)",
+          "authority": "stays system of record for: customers, plans, service tickets (visits), nightly routes, state application records; follower for: nothing in v0.1; writeback and integration direction unresolved; v0.1 does not depend on either; staying clear of the system is our safe default, labelled as ours",
+          "evidence": "L75, Renata"
+        },
+        {
+          "system": "QuickBooks",
+          "authority": "stays system of record for: invoices; how it is fed from the system is unknown ('I think the system sends it over?'); follower for: nothing",
+          "evidence": "L295, Renata"
+        },
+        {
+          "system": "the callback sheet (Google Sheet)",
+          "authority": "stays system of record for: nothing once call-ins are on Tickets; its columns are the Tickets columns; follower for: nothing; the committed copy is read before the columns are final",
+          "evidence": "L83, Renata"
+        },
+        {
+          "system": "the dispatch whiteboard",
+          "authority": "stays system of record for: who goes where today, in the room; follower for: the exceptions board records the moves made on it, and does not replace it in v0.1",
+          "evidence": "L89, Travis"
+        },
+        {
+          "system": "printed route sheets and paper service tickets",
+          "authority": "stays system of record for: the technician's day and the application record until Rhonda keys it; follower for: nothing; the paper stays for those who want it",
+          "evidence": "L189, Travis"
+        },
+        {
+          "system": "the customer service lead's email folder and the owner's cell",
+          "authority": "stays system of record for: nothing once complaints are keyed onto Tickets; the owner's cell stays a channel until he says how it should reach the team",
+          "evidence": "L261, Renata"
+        },
+        {
+          "system": "the North branch spreadsheet",
+          "authority": "stays system of record for: North's call-ins; follower for: nothing; untouched until the owner puts North in scope",
+          "evidence": "L141, Renata"
+        },
+        {
+          "system": "texts and calls to technicians",
+          "authority": "stays system of record for: nothing; the exceptions board's notifications replace them for technicians on the app, and texts remain for the rest",
+          "evidence": "L151, Travis"
+        }
+      ]
+    },
+    "assumptions": [
+      {
+        "statement": "A lawn plan has six rounds, seven with grub control, each with a named window; the sample plans are built that way.",
+        "question": "How many rounds does each lawn plan type have, and what is each round's window?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "The system cannot feed monday in v0.1: plans, rounds, last service dates and routes are typed or imported once as sample data, each with an as-of date.",
+        "question": "What can the system export, how often, and who can run the export?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "Monday tracks dispatch exceptions only; the system keeps generating and printing the daily routes.",
+        "question": "Do you want the printed route sheets to stay, and should monday ever hold a full day's routes?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "A repeat call about the same problem goes on the ticket the first call made.",
+        "question": "On the callback sheet today, is a repeat call a new row or a note on the old one?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "The CSR keys a skip in monday when the customer calls, as well as wherever it is recorded for the system.",
+        "question": "Where is a skip recorded today, and who removes the skipped service from the route?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "Rhonda's re-keying of paper tickets is where an add-on request is captured, until technicians use the app.",
+        "question": "Would Rhonda enter the add-on note while keying the ticket, or do lead technicians already pass them on by text?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "Technicians on the app get their changed stops as notifications; technicians on paper keep getting a text, and a 'texted' status on the exception row records it.",
+        "question": "Who would use monday day to day: office staff only, lead technicians, or all technicians?",
+        "kind": "automation-condition",
+        "state": "assumed"
+      },
+      {
+        "statement": "One truck per technician; a truck down is recorded as an exception on that technician's stops.",
+        "question": "Is a truck tied to one technician, and what happens to his stops when it is down?",
+        "kind": "board-architecture",
+        "state": "assumed"
+      },
+      {
+        "statement": "North is out of the first version; a branch column exists on every board so nothing is rebuilt if it joins.",
+        "question": "Is the North branch in scope for this, and who decides?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "Re-treat volume for sample data is fifteen to twenty a week at the main branch, about double in summer.",
+        "question": "How many re-treat calls come in a week, in season and out, and how many of them stall?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "The plan and the last service date on a ticket are typed by the CSR from the system at intake.",
+        "question": "Can a CSR see the plan and the last service date in the system while on the call?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "Complaints are keyed onto Tickets by the customer service lead from what the owner forwards; the channels stay as they are.",
+        "question": "How should what reaches the owner's cell and the office inbox reach the team?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "The notify-list flag lives on the customer row and a call-before-spray task is created on every date change; the medical reason is not stored.",
+        "question": "What must be recorded about a notify-list customer, and who may see it?",
+        "kind": "automation-condition",
+        "state": "assumed"
+      },
+      {
+        "statement": "Access notes (gate code, lockbox code, dog notes) stay on the paper ticket and in the system; the sample data holds none.",
+        "question": "Should access notes ever appear in monday, and for whom?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "The user's own account has the tier it has; the portfolio default (A6) is not applied, because the work is recurring plans and routes, not projects.",
+        "question": "None for the client; read at preflight.",
+        "kind": "board-architecture",
+        "state": "assumed"
+      }
+    ],
+    "unmet_needs": [
+      {
+        "need": "complaints that arrive by email, the website and reviews landing in one place by themselves",
+        "clock": null,
+        "why_not_met": "email-to-ticket is a deferred Service extra (A7); in v0.1 each complaint is keyed by hand; the need stays the client's"
+      },
+      {
+        "need": "complaints and texts that reach the owner's personal cell reaching the team",
+        "clock": null,
+        "why_not_met": "a personal phone is not a channel the build connects; how these should reach the team is a question for the owner, who was not on the call"
+      },
+      {
+        "need": "the application record reaching the system from the technician's phone instead of through Rhonda's re-keying",
+        "clock": null,
+        "why_not_met": "the record must stay in the system (Travis, L193) and the integration direction is unresolved; v0.1 does not touch the system"
+      },
+      {
+        "need": "a shorter morning rebuild of the routes (P2.1)",
+        "clock": "every morning in season, Saturdays too",
+        "why_not_met": "no element shortens it; the exceptions board changes how changes reach technicians, not the rebuild"
+      },
+      {
+        "need": "printed route sheets for the technicians who want paper",
+        "clock": null,
+        "why_not_met": "not a product limit: the system keeps printing them, and the build does not take them away; recorded so the app is never made the only channel"
+      },
+      {
+        "need": "both branches working the same way, so covering North is possible",
+        "clock": null,
+        "why_not_met": "North's scope is the owner's decision; nothing is built for North in v0.1"
+      },
+      {
+        "need": "an answer to whether the system stays or is replaced",
+        "clock": null,
+        "why_not_met": "a decision for the owner ('I don't think Gary's getting rid of the system. I mean -- I don't know.'); the build assumes it stays"
+      }
+    ],
+    "ai_opportunities": [
+      {
+        "pain_or_need": "P1.1",
+        "kind": "workflow",
+        "round": 2,
+        "probe_basis": "P-21",
+        "idea": "a workflow that notifies dispatch and the customer service lead when a re-treat ticket has sat in new for a day (the consultant pitched this; Renata's 'That'd be nice' is a signal, not a request)"
+      },
+      {
+        "pain_or_need": "P3.4",
+        "kind": "workflow",
+        "round": 2,
+        "probe_basis": "P-21",
+        "idea": "a workflow that creates a call-before-spray task for a notify-list customer whenever the round's date changes"
+      },
+      {
+        "pain_or_need": "P6.1",
+        "kind": "workflow",
+        "round": 2,
+        "probe_basis": "P-21",
+        "idea": "a workflow that flags a plan when a second skip in a row is recorded, so the cancel is caught before billing"
+      },
+      {
+        "pain_or_need": "P4.2",
+        "kind": "ai_column",
+        "round": 2,
+        "probe_basis": "unprobed",
+        "idea": "an AI column that reads the pasted complaint text and suggests the request type and what was promised, for the customer service lead to confirm"
+      },
+      {
+        "pain_or_need": "P5.1",
+        "kind": "ai_column",
+        "round": 2,
+        "probe_basis": "unprobed",
+        "idea": "an AI column that turns a technician's note ('customer asked about mosquito') into an add-on request type"
+      }
+    ],
+    "verdict": {
+      "cleared_for": "build-generic",
+      "conditions": [
+        "approval stop still to pass",
+        "no A11 question first matters: own-account target, sample data in the user's own account needs no decision (A21); the three A11 decisions stay open",
+        "the copy of the callback sheet and the photo of the whiteboard are committed by the client, not received; the Tickets columns are built from the spoken list at L83 until they arrive",
+        "the North branch is out of the first version until the owner decides",
+        "the native Service Tickets board is found by detection in the user's own account at preflight and recorded by id",
+        "no figure on any sample row is the system's; every plan, round date and last service date is a sample value keyed by us, and the demo says so"
+      ],
+      "reason": "Two pains have an entity and a wanted outcome in the client's words (the call-in that stalls, with 'where's that re-treat at'; the route change that does not reach the technician, with 'push it to the guys and be done'), the products are chosen and the build target is named, but the Work Management half of the structure (rounds under plans, exceptions versus routes, skips, add-on capture) rests mostly on assumptions, so the build goes ahead as a generic version with the assumptions as the agenda for the next contact."
+    },
+    "questions": [
+      {
+        "text": "Renata, you said the sheet's fine, and then 'It's more that, um --'. What were you going to say? In the first version a call-in is one row with a status and an age that dispatch marks scheduled; what would it have to show for you to look it up instead of walking back to Travis?",
+        "kind": "read-back",
+        "role": "customer service lead",
+        "known": "the sheet's columns (customer, address, what's going on, plan, last technician; L83), the two failure modes (plan left off; rain-day wipe; L111), the Pheasant Run instance, fifteen to twenty re-treat calls a week at the main branch (L131), her wanted outcome (L309)"
+      },
+      {
+        "text": "Travis, you said the board works, then 'It's just, if I'm --'. If you're out, what happens? And you asked whether the route sheets would still print from the system: do you want them to, and should monday only carry the changes you make each morning?",
+        "kind": "read-back",
+        "role": "dispatcher",
+        "known": "two hours every morning, Saturdays in season (L155); the causes (call-out, truck down, re-treats, same-day urgent; L151); half the technicians miss texts (L151); some want paper (L167); his wanted outcome (L317)"
+      },
+      {
+        "text": "What can the system export (plans, rounds due, last service date, the day's routes), who can run it, and does anything need to be written into it?",
+        "kind": "discovery",
+        "role": "owner, or whoever administers the system",
+        "known": "the system holds customers, plans, visits, nightly routes and the application records (L75, L147, L189); its name is unknown (L73); the QuickBooks hand-off is unclear (L295); Renata thinks it stays (L295)"
+      },
+      {
+        "text": "How many rounds does a lawn plan have and what is each round's window, and where is a skip recorded today, and who takes the skipped service off the route?",
+        "kind": "discovery",
+        "role": "dispatcher and customer service lead",
+        "known": "six rounds, seven with grub control, round one early spring (L231); rain pushes everybody (L231); the system shows who is overdue but not well (L235); skips become cancels caught at billing (L249)"
+      },
+      {
+        "text": "Is North in the first version, and who would use monday day to day: office staff only, lead technicians, or every technician?",
+        "kind": "discovery",
+        "role": "owner",
+        "known": "North has its own CSR, spreadsheet and routes (L141, L43); whether North is in scope is a Gary question (L305); about sixty technicians, more in summer, mixed company and personal phones, some on paper (L329, L167); lead technicians text Travis (L215)"
+      }
+    ]
+  }
+}

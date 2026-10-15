@@ -1,0 +1,87 @@
+[29:25] Consultant: Let's talk about how a decision like this gets made with you. Who's involved besides the three of you?
+[29:34] Marcus Thibault: This is my call. I've got a line in the sales budget and I don't need Gene's signature under forty thousand a year. Gene wants to be told, not asked.
+[29:48] Consultant: And if it's over forty?
+[29:51] Marcus Thibault: Then it's a conversation with him and probably with our accountant, and it gets slower. I'd rather stay under it.
+[30:01] Consultant: What about the P twenty-one side? Who has to be comfortable there?
+[30:07] Marcus Thibault: We don't have an IT department, we have Halbrook Technology, and Ravi over there has to bless anything that touches P twenty-one. He's reasonable but he's slow, and he'll want to know what's reading what.
+[30:24] Consultant: How long does Ravi usually take?
+[30:27] Delia Ostrowski: A week or two if you ask him nicely and give him a document. Longer if it sounds like it writes anything back into P twenty-one.
+[30:38] Consultant: Good to know. And who'd own this day to day once it's running?
+[30:44] Marcus Thibault: Delia. She's the one who'd have to keep it alive, which is the part I want to ask about actually.
+[30:52] Consultant: Go ahead.
+[30:54] Marcus Thibault: Honestly, part of me thinks Delia could just build this herself in monday and we keep the money. We've already got the licences. What am I paying for?
+[31:07] Consultant: That's a completely fair question, and you might be right. Let me ask you both the same thing back: what's held it up so far, and whose time would it use?
+[31:19] Delia Ostrowski: I mean. I started. I built a Prospects board in April and it died in three weeks, because I got pulled onto the physical inventory count and never went back. It's still sitting there with about forty rows in it and half of them are test rows with my own name on them.
+[31:41] Consultant: What stopped you going back to it?
+[31:44] Delia Ostrowski: Inventory, then month end, then a rep quit. And I didn't really know how it should be built. I was copying the workbook columns onto a board, which I don't think was right, and I couldn't work out how to link a company to its quotes without it getting messy.
+[32:06] Marcus Thibault: Which is a fair answer, and it's the answer I got about GoldMine too.
+[32:12] Consultant: What's your read on it, Marcus? Not on me, on the time.
+[32:17] Marcus Thibault: My read is Delia's got one pair of hands and if I put this on her she does it in the gaps and it's live in June. And I need it in December.
+[32:29] Consultant: Then the honest version is: some of this you could build, and the part that's worth paying for is having it done right the first time and finished before December. If after this call you think the shape is simple enough to do in-house, I'll tell you what I'd do and you can have it.
+[32:48] Marcus Thibault: Noted. Let's see what you come back with.
+[32:53] Wes Kubiak: Can I ask a dumb question about monday while we're here?
+[32:57] Consultant: There aren't any. Go.
+[33:00] Wes Kubiak: The boards purchasing built are a mess, honestly. Things in the wrong place, columns nobody fills in. Is that monday, or is that us?
+[33:12] Consultant: What does it fail to do, specifically?
+[33:16] Wes Kubiak: I mean. Nobody set it up for us, we just kind of started typing in it. So probably that's us.
+[33:25] Consultant: Usually it is, and I'd rather tell you that than sell you a replacement. I'll look at those boards before I build anything so we're not repeating whatever happened there.
+[33:38] Marcus Thibault: That's the right answer.
+[33:41] Consultant: Let's talk about what could stop this going ahead. What worries you?
+[33:47] Marcus Thibault: The reps. That's the whole risk. If it's one more thing to update, they won't, and then I've paid for GoldMine twice.
+[33:58] Wes Kubiak: And if it's slow on a phone in a parking lot, forget it. My guys are not sitting down at a desk. If logging a visit takes more than about a minute in a truck, it won't happen.
+[34:13] Delia Ostrowski: And me getting pulled onto the inventory count again in October. That's a real risk, it happens every year.
+[34:22] Consultant: Those are all fixable in the design and I'd rather know them now. Marcus, where does this sit against everything else on your desk?
+[34:32] Marcus Thibault: Top of the list. This is a now thing. If it's not working before December first, it's not worth doing for this launch, and then I'd rather wait until after the spring.
+[34:47] Consultant: Anything in the calendar I should design around?
+[34:51] Delia Ostrowski: Don't try to train anybody the week of Thanksgiving. Nothing happens that week, nobody's here.
+[34:59] Wes Kubiak: And the first week of the month is order entry, so the reps are useless for anything else Monday and Tuesday.
+[35:08] Consultant: Useful. Let me play back what I think we're talking about, and I want you to correct me. Five things. One, prospects, so new companies and enquiries, coming in from the website form and trade show lists, in one place with an owner and a next step.
+[35:29] Marcus Thibault: Yes.
+[35:31] Consultant: Two, accounts and contacts, one record per customer with the history on it, so when somebody leaves the history stays.
+[35:41] Wes Kubiak: Yes. That one's mine.
+[35:44] Consultant: Three, opportunities, which is the quote pipeline, from a prospect through quoted, verbal, won or lost, with the P twenty-one quote number on it and a follow-up step so nothing sits for five weeks.
+[36:01] Marcus Thibault: Yes. And the quote itself stays in P twenty-one. You're not rebuilding our quoting.
+[36:09] Consultant: Understood, and I'll say it back the same way: the number and the status live with the deal, the document and the pricing stay in P twenty-one.
+[36:20] Marcus Thibault: Right.
+[36:22] Consultant: Four, logged calls and visits, quick enough to do from a truck, and a view for Wes of who's been where.
+[36:31] Wes Kubiak: Sortable. Not emails.
+[36:34] Consultant: Sortable. Five, a forecast view for you and for Gene that builds itself out of the first four, so the workbook goes away.
+[36:45] Delia Ostrowski: Please.
+[36:47] Consultant: That's the five. Anything wrong or missing?
+[36:52] Marcus Thibault: No. That's the scope. All five, nothing else for now. New rep onboarding, the bid calendar, the house account campaign, all of that can wait until this is alive.
+[37:07] Consultant: I'll write those down as later items so they're not lost. Delia, Wes, are you both happy with those five?
+[37:16] Delia Ostrowski: Agreed. I'd add, whatever we do with my Prospects board, don't leave two of them.
+[37:24] Consultant: We won't. It's either the base for this or it gets cleaned up, and I'll come back to you with which.
+[37:33] Wes Kubiak: Works for me. Five is enough.
+[37:37] Consultant: Good. A couple of things I need from you before I can design it properly. Delia, can I get a copy of the workbook, customer names taken out if you'd rather?
+[37:50] Delia Ostrowski: Yes. I'll scrub it and send it. Friday?
+[37:55] Consultant: Friday's fine. And Marcus, will you ask Ravi what version of P twenty-one you're on and whether there's an API or a database connection available? I don't want to promise you a sync I haven't checked.
+[38:11] Marcus Thibault: I'll email him this week. He'll ask you for a document, I'll warn you now.
+[38:18] Consultant: He'll get one. Wes, could you send me whatever you've got on visit coverage, even if it's a photo of the legal pad?
+[38:28] Wes Kubiak: [laughs] It'll be a photo of the legal pad. I'll send it tonight.
+[38:34] Consultant: Perfect. Two more questions while I have you. Delia, when a prospect turns into a customer, does the record become the account, or do you keep both?
+[38:47] Delia Ostrowski: I'd want it to become the account. We shouldn't have the same company twice, that's half of what's wrong with GoldMine.
+[38:57] Consultant: And who should see margin on a deal?
+[39:01] Marcus Thibault: Owner, their manager, Delia, me, Gene. Not other reps. Ever.
+[39:09] Consultant: Clear. Right, next step. I'd like to come back with a first version built in your own account, using your words, not a slide deck. Forty-five minutes, all three of you, and I'd rather do it early enough that changes still fit before December. Wednesday the twenty-third, two o'clock Eastern?
+[39:31] Marcus Thibault: Twenty-third works. Two o'clock. I'm in Toledo that day.
+[39:37] Delia Ostrowski: I'm free.
+[39:39] Wes Kubiak: Yep, put it in.
+[39:42] Consultant: I'll send the invite when we hang up. One thing I want to be straight about: what I'll show you on the twenty-third is a working first version to react to, not a finished system. I'd expect you to change things.
+[39:58] Marcus Thibault: That's fine. I'd rather see something real. And send me a proposal with a number by the end of next week, would you? I read on planes and I'm on a plane Thursday.
+[40:12] Consultant: I'll come back to you on the commercial side separately, and I'll make sure the scope in it is exactly the five we just agreed, in your words.
+[40:23] Marcus Thibault: Good. I don't want a fifty-page thing. One page and a number.
+[40:29] Consultant: Understood. Last question, and then I'll let you all go. What haven't I asked about that I should have?
+[40:38] Delia Ostrowski: Um. The inside sales people. You asked about reps a lot. Inside sales takes maybe a third of the orders and they'd be typing into this too.
+[40:52] Consultant: That's a good catch and I'll come back to you about where they fit. Five of them, you said?
+[40:59] Delia Ostrowski: Five. Four in Toledo, one in Fort Wayne.
+[41:05] Wes Kubiak: And the line card thing. Whether we can see what lines a customer buys versus what they could buy. That's not for December, but it's the thing I'd want eventually.
+[41:19] Consultant: Later item, and I'll note it in your words. Marcus?
+[41:25] Marcus Thibault: You didn't ask what happens if this works. I'll tell you anyway. If this works for sales, Gene will want the same thing for the purchasing side, and that's a bigger conversation than this one.
+[41:41] Consultant: Then let's make this one work first. Thank you, all three of you. This was a genuinely useful hour.
+[41:50] Marcus Thibault: It was. You asked better questions than the last two people.
+[41:56] Consultant: I'll take that. Delia, workbook Friday. Wes, photo of the pad. Marcus, Ravi this week. I'll send the invite for the twenty-third at two.
+[42:09] Delia Ostrowski: Got it. Thanks.
+[42:12] Wes Kubiak: Thanks. I'm going to go see if my customer ever called back.
+[42:18] Marcus Thibault: Talk on the twenty-third. Thanks.
+[42:22] Consultant: Thanks all. Bye.

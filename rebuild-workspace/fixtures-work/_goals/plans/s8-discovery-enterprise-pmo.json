@@ -1,0 +1,49 @@
+{
+  "goals": [
+    {
+      "id": "G1",
+      "goal": "One screen on Monday showing forty projects, a color and a number, and believing it",
+      "quote": "I open one screen on Monday morning and I see forty projects, with a color and a number, and I believe it.",
+      "location": "cue 301, 00:41:57.390, Marisol Bettencourt",
+      "speaker_role": "PMO Director",
+      "pains": ["P1.1", "P1.2", "P1.3", "P1.4", "P1.6", "P1.7"]
+    },
+    {
+      "id": "G2",
+      "goal": "Cumberland's program up on a screen, current, in front of their VP of facilities",
+      "quote": "If I can pull their program up on a screen in front of their VP of facilities and it's current, that's the win.",
+      "location": "cue 308, 00:42:58.383, Marisol Bettencourt",
+      "speaker_role": "PMO Director",
+      "pains": ["P1.3", "P1.9"]
+    },
+    {
+      "id": "G3",
+      "goal": "Somebody able to answer Warren about staffing without the resource manager",
+      "quote": "And I'd like somebody to be able to answer Warren without me.",
+      "location": "cue 312, 00:43:36.778, Ines Kovalenko",
+      "speaker_role": "Resource Manager",
+      "pains": ["P2.1", "P2.2", "P2.4", "P2.6"]
+    }
+  ],
+  "assumption_kinds": [
+    "board-architecture",
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "gap",
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "gap",
+    "board-architecture",
+    "leaning",
+    "gap",
+    "gap",
+    "board-architecture",
+    "gap"
+  ],
+  "note_add": null
+}

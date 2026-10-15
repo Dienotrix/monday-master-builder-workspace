@@ -1,0 +1,417 @@
+1	00:00:02.714	Consultant	Marisol, hi. Can you hear me all right?
+2	00:00:08.218	Marisol Bettencourt	I can hear you. Give me one second, I'm going to shut this door. They're re-carpeting the whole second floor this week and it sounds like a dentist's office out there.
+3	00:00:24.450	Consultant	Take your time.
+4	00:00:27.938	Marisol Bettencourt	Okay. Better. Hi. So Warren's dialing in from a job trailer, which means we may get a concrete truck at some point, and Ines is walking over from the other building.
+5	00:00:44.008	Consultant	That's fine. I've done calls with worse soundtracks.
+6	00:00:49.595	Warren Tibbetts	You can hear me? Sorry. I'm at Cumberland, in the trailer. If you hear beeping it's a lift.
+7	00:00:59.623	Consultant	I can hear you fine, Warren. Nice to meet you.
+8	00:01:05.952	Warren Tibbetts	Likewise.
+9	00:01:08.581	Marisol Bettencourt	And here's Ines.
+10	00:01:11.582	Ines Kovalenko	Hi, sorry, hi. I had to find a room. Everybody's in the training room today.
+11	00:01:19.929	Consultant	No rush at all. Thanks for making the time, all three of you. Before we get going, Marisol, you said on the phone last week you'd just come back from something.
+12	00:01:35.012	Consultant	A conference?
+13	00:01:37.365	Marisol Bettencourt	A healthcare construction symposium. Three days in Orlando listening to people with better dashboards than mine.
+14	00:01:46.002	Consultant	Ha. Anything useful?
+15	00:01:49.413	Marisol Bettencourt	Honestly, one thing.
+16	00:01:51.768	Marisol Bettencourt	There was a woman from a firm about twice our size who put up a single screen with every one of their projects on it, color-coded, and the room went quiet.
+17	00:02:06.753	Marisol Bettencourt	And I sat there thinking, I cannot do that. I have forty projects and I could not put that slide together in less than a week.
+18	00:02:20.420	Consultant	That's a useful kind of jealous.
+19	00:02:25.026	Marisol Bettencourt	It's been eating at me for two weeks, which is why you're on my calendar.
+20	00:02:33.621	Consultant	Good. So let me tell you how I'd like to use the hour, and you tell me if that works. This is a conversation, not a demo.
+21	00:02:46.766	Consultant	I'm going to ask a lot of questions about how things actually run today, where it hurts, and what you'd want instead. I'm not going to show you anything.
+22	00:03:00.783	Consultant	And if it turns out what you need is a couple of fixes to the spreadsheets you already have, I'll say that.
+23	00:03:12.804	Marisol Bettencourt	That would be a first, but okay.
+24	00:03:17.619	Warren Tibbetts	I'd take that, actually.
+25	00:03:20.996	Consultant	Noted. Marisol, give me the thirty-second version of Bellamy Ridge. Who you are, what you build.
+26	00:03:30.126	Marisol Bettencourt	Sure. We're a healthcare contractor. About four hundred people, three offices, Knoxville is home, then Chattanooga and Huntsville.
+27	00:03:39.521	Marisol Bettencourt	Roughly ninety-five of those four hundred are salaried, office people, and the rest are field. And we only do healthcare.
+28	00:03:49.787	Marisol Bettencourt	Hospitals, medical office buildings, outpatient clinics, imaging suites, a lot of renovation inside buildings that are open and full of patients while we work.
+29	00:04:02.389	Consultant	All healthcare. That's unusual, isn't it?
+30	00:04:06.834	Marisol Bettencourt	It's the whole pitch. Anybody can pour a slab. Not everybody can do a cath lab renovation on the second floor while the first floor is doing surgery.
+31	00:04:20.709	Marisol Bettencourt	That's what we sell.
+32	00:04:24.135	Consultant	How many active projects at the moment?
+33	00:04:28.870	Marisol Bettencourt	Thirty-eight. Forty, depending on how you count the equipment jobs.
+34	00:04:35.616	Consultant	Equipment jobs meaning?
+35	00:04:39.115	Marisol Bettencourt	An MRI replacement, a linear accelerator swap. Six weeks, a million and a half, but it has all the same steps as a big one.
+36	00:04:51.546	Marisol Bettencourt	A permit, an infection control plan, a shutdown, a commissioning. So we count them, mostly.
+37	00:05:00.359	Consultant	You said portfolio earlier. What do you mean by it?
+38	00:05:06.861	Marisol Bettencourt	All of it. Every active job, all three offices. That's my portfolio.
+39	00:05:14.187	Consultant	And a program?
+40	00:05:17.362	Marisol Bettencourt	A program is one health system's work under a master agreement. Cumberland is a program.
+41	00:05:25.184	Marisol Bettencourt	There'll be twelve, fifteen jobs in it at any time, and their vice president of facilities wants to see it as one thing, not as twelve rows inside my forty.
+42	00:05:40.456	Consultant	So a job sits in your portfolio and inside a program at the same time.
+43	00:05:48.896	Marisol Bettencourt	Right. And Waverly becomes a second program if we win that. I don't know what you do with that, but it matters to me.
+44	00:06:01.325	Consultant	And the three of you. Warren, what do you do day to day?
+45	00:06:08.698	Warren Tibbetts	I'm a senior PM. Eighteen years here. Right now I've got the Cumberland bed tower, which is the big one, forty-eight million, and two smaller renovations at Waverly.
+46	00:06:22.314	Warren Tibbetts	So three jobs, which is about one more than I'd like.
+47	00:06:28.668	Consultant	Ines?
+48	00:06:30.903	Ines Kovalenko	Resource manager. Which is a nice title for the person everybody calls when they need a superintendent.
+49	00:06:39.842	Consultant	Say more about that.
+50	00:06:43.555	Ines Kovalenko	I keep track of who is on what. Project managers, superintendents, project engineers. Across all three offices.
+51	00:06:52.516	Ines Kovalenko	If Warren needs a super in October, he asks me, and I tell him who's free, and then I move six other things around.
+52	00:07:05.568	Consultant	And Marisol, you sit over all of it?
+53	00:07:11.335	Marisol Bettencourt	I run the PMO. So project controls, scheduling standards, the reporting to leadership, and I own the process. Fourteen project managers report up through me, and Ines sits in my group.
+54	00:07:26.585	Marisol Bettencourt	I report to Curt, our VP of operations.
+55	00:07:32.238	Consultant	Great. Let's walk through the life of a project. Start where a job becomes real for your group and take me all the way to the end. Where does it start?
+56	00:07:48.245	Marisol Bettencourt	Preconstruction wins it. So a health system puts something out, or more often we're already in with them, and our preconstruction group does the estimate and the interview. That's not my group.
+57	00:08:03.905	Marisol Bettencourt	When we get the award, it comes over to me and I assign a PM and a super.
+58	00:08:13.918	Consultant	What happens in the first week?
+59	00:08:18.456	Marisol Bettencourt	Roland sets up the job number in Sage. That's our accounting system, Sage 300. The PM sets up the project in Procore, which is where the drawings and RFIs and submittals live.
+60	00:08:34.072	Marisol Bettencourt	And then the PM is supposed to work through the startup checklist.
+61	00:08:41.210	Consultant	Which is what?
+62	00:08:44.228	Warren Tibbetts	An Excel file. Sixty-something lines. Insurance certificates, notice to proceed, preconstruction meeting, ICRA, badging, the submittal log setup, the schedule baseline.
+63	00:08:55.307	Consultant	ICRA, tell me what that is.
+64	00:08:59.521	Warren Tibbetts	Infection control risk assessment. In a hospital you can't open a wall without a permit from their infection control nurse.
+65	00:09:09.623	Warren Tibbetts	It says what barriers you put up, negative air, how you route your carts, all of it. And it's per work area, and it expires.
+66	00:09:22.316	Marisol Bettencourt	Which is the part people forget. It expires. And if it lapses and their nurse walks by, you're shut down that day.
+67	00:09:34.339	Consultant	Has that happened?
+68	00:09:37.687	Warren Tibbetts	I've seen it happen. Not to me. A day, and then a very unpleasant meeting.
+69	00:09:46.381	Consultant	And the checklist. Does every PM work through the same one?
+70	00:09:53.186	Marisol Bettencourt	In theory.
+71	00:09:55.838	Warren Tibbetts	In practice everybody has their own version. Mine's got things on it the master doesn't, because I've been burned.
+72	00:10:06.099	Marisol Bettencourt	That's the honest answer, yes. Every PM starts a job their own way.
+73	00:10:13.564	Consultant	Okay, I want to come back to that. Keep going. The job is running. What happens week to week?
+74	00:10:23.662	Warren Tibbetts	OAC meeting every week with the owner and the architect. I update the schedule, usually Thursday night. Daily reports from the super in Procore. And Friday I do my numbers.
+75	00:10:39.062	Consultant	Tell me about Friday.
+76	00:10:42.620	Warren Tibbetts	I keep a forecast in Excel. Cost to complete, by cost code.
+77	00:10:49.274	Warren Tibbetts	Because Sage gives me actuals after the month closes, and that's too late to do anything with, so I carry my own.
+78	00:11:00.860	Consultant	Does every PM do that?
+79	00:11:04.709	Warren Tibbetts	Everybody does something. No two of them are built the same. Mine's pretty good. I've seen some that are, let's say, optimistic.
+80	00:11:16.900	Consultant	And what goes up to you, Marisol?
+81	00:11:22.226	Marisol Bettencourt	Every Monday the PMs are supposed to send me a status.
+82	00:11:28.341	Marisol Bettencourt	It's an email, or a tab in a spreadsheet, or in two cases a text message, and it has percent complete, any schedule slip, any budget exposure, and a color.
+83	00:11:43.017	Marisol Bettencourt	Green, yellow, red.
+84	00:11:46.387	Consultant	Who decides the color?
+85	00:11:50.194	Marisol Bettencourt	The PM does.
+86	00:11:53.467	Consultant	And then?
+87	00:11:56.207	Marisol Bettencourt	Bridget, my analyst, pulls all of it into the monthly deck for the executive committee. Forty pages. One page per project, then a summary page at the front.
+88	00:12:10.626	Consultant	How long does that take her?
+89	00:12:15.013	Marisol Bettencourt	Two days. Two full days a month, and that's if people answer her.
+90	00:12:18.652	Ines Kovalenko	They don't answer her.
+91	00:12:23.261	Marisol Bettencourt	They don't always answer her. So she chases, and then I chase, and then it goes out around the tenth.
+92	00:12:33.737	Consultant	And who sees it?
+93	00:12:36.895	Marisol Bettencourt	The executive committee. Curt, Corinne our CFO, the two principals. They meet the second Tuesday.
+94	00:12:44.948	Consultant	When you say the board, earlier, you meant them?
+95	00:12:50.940	Marisol Bettencourt	Sorry, yes. When I say the board I mean the executive committee. There's no actual board, we're privately held.
+96	00:13:01.374	Consultant	Good, I'll use your words. So the deck goes out on the tenth for a meeting on the second Tuesday. What's in it that people actually look at?
+97	00:13:16.205	Marisol Bettencourt	The summary page. Which is forty rows and four columns and it is the single most painful thing I produce.
+98	00:13:27.336	Consultant	Why painful?
+99	00:13:30.245	Marisol Bettencourt	Because it's wrong.
+100	00:13:33.525	Consultant	Say more.
+101	00:13:36.272	Marisol Bettencourt	It's not wrong on purpose. It's assembled.
+102	00:13:40.596	Marisol Bettencourt	Bridget takes what forty people told her, in whatever form they told her, some of it two weeks old, and puts it in one place, and by the time it's in front of Curt it's a snapshot of a thing that already moved.
+103	00:14:01.773	Consultant	Can you give me a recent example?
+104	00:14:06.619	Marisol Bettencourt	The August meeting. Yes. So we're going through the summary page, and Curt stops on a row, one of the Waverly jobs, and it's green.
+105	00:14:19.042	Marisol Bettencourt	And he says, didn't you tell me last month that one was waiting on a switchgear delivery? And I said yes, and it came in.
+106	00:14:31.432	Marisol Bettencourt	And he said, so why does the schedule show the same finish date as it did in June?
+107	00:14:40.623	Marisol Bettencourt	And I didn't know. Because the row said green, and green came from the PM, and I had not looked behind it.
+108	00:14:52.073	Consultant	What was actually going on?
+109	00:14:55.853	Marisol Bettencourt	Five weeks late.
+110	00:14:58.282	Marisol Bettencourt	The gear came in, but the inspection window moved and the tie-in had to go to a weekend, and the PM was managing it, he genuinely was, he just hadn't told anybody in a way that reached my summary page.
+111	00:15:17.777	Consultant	And in the room?
+112	00:15:21.677	Marisol Bettencourt	Curt asked me a question I could not answer, which was, of these forty, which ones are actually in trouble. And I said I'd come back to him.
+113	00:15:35.370	Marisol Bettencourt	Which is the worst possible answer, because that's my job. That's literally the job.
+114	00:15:43.679	Consultant	That's a rough meeting.
+115	00:15:47.416	Marisol Bettencourt	It was fine. Curt's not a yeller. But I went back to my office and sat there.
+116	00:15:56.952	Consultant	So today, if I asked you right now, which of the forty are in trouble, what would you have to do?
+117	00:16:08.217	Marisol Bettencourt	Open the deck from the tenth, which is a month old. Then open my email. Then probably call six PMs. Half a day, and I still wouldn't swear to it.
+118	00:16:23.470	Consultant	And what stops you from carrying on the way you are?
+119	00:16:30.049	Marisol Bettencourt	Two things. The first is that it doesn't scale. I'll come back to that. The second is that I don't believe it anymore.
+120	00:16:41.352	Marisol Bettencourt	Once you find out a green row was five weeks late, you can't unsee that. Every green row is now a question.
+121	00:16:53.199	Consultant	Who else does this land on, besides you and Bridget?
+122	00:16:59.164	Marisol Bettencourt	The PMs, because they're the ones being chased. Warren, how long does the Monday status take you?
+123	00:17:08.620	Warren Tibbetts	The status itself, twenty minutes. The stuff around it, pulling my numbers together so the status isn't a lie, that's the rest of it. Call it four hours a week, easily.
+124	00:17:23.884	Warren Tibbetts	Some weeks more.
+125	00:17:26.894	Consultant	Four hours a week on reporting.
+126	00:17:31.213	Warren Tibbetts	On assembling. I don't mind reporting. I mind assembling the same numbers four different ways for four different audiences.
+127	00:17:42.066	Consultant	Four?
+128	00:17:45.148	Warren Tibbetts	Marisol's status, my forecast, the OAC agenda for the owner, and then whatever Ines needs for staffing. Same facts, four formats.
+129	00:17:56.744	Consultant	And it also reaches the owner side?
+130	00:18:01.926	Marisol Bettencourt	It reaches Cumberland. Their PMO wants a monthly report per project in their format, and under the new agreement they want it at program level too.
+131	00:18:14.798	Marisol Bettencourt	So Bridget rekeys our numbers into their template.
+132	00:18:20.318	Consultant	Say this stays exactly as it is. What does next year look like?
+133	00:18:28.051	Marisol Bettencourt	Worse, and I can be specific about why. We signed a four-year master agreement with Cumberland Health in August.
+134	00:18:37.715	Marisol Bettencourt	That takes us from forty active projects to something like fifty-five next year, with the same fourteen PMs and the same one analyst. And Bridget goes out on parental leave in November.
+135	00:18:53.928	Consultant	So the person who builds the deck.
+136	00:18:58.785	Marisol Bettencourt	Is gone from November. Yes. And I don't have a second Bridget.
+137	00:19:05.823	Consultant	Okay. Ines, let's come to your side. Tell me how staffing works today.
+138	00:19:13.232	Ines Kovalenko	There's a workbook. We call it the grid. A tab per office, every person down the left, weeks across the top, and a percentage in each cell.
+139	00:19:26.427	Ines Kovalenko	Forty percent Cumberland, sixty percent Pellham, like that.
+140	00:19:31.461	Consultant	And how does it get updated?
+141	00:19:35.541	Ines Kovalenko	By me. Every week. Monday and Tuesday morning are the grid.
+142	00:19:41.803	Consultant	Ten hours a week?
+143	00:19:45.551	Ines Kovalenko	Ten, and that's a good week. If something blows up it's more, because then I'm rebuilding four tabs at once.
+144	00:19:56.456	Consultant	How do requests come to you?
+145	00:20:00.947	Ines Kovalenko	Teams messages, mostly.
+146	00:20:03.565	Ines Kovalenko	Sometimes somebody catches me in the hall and says, I need a super for the Pellham fit-out in October, and then I write it on a sticky note, and then it's on a sticky note.
+147	00:20:21.466	Speaker 2	And then somebody reshuffles it in a meeting I'm not in, and I find out when the grid doesn't match the job site.
+148	00:20:33.891	Consultant	Who reshuffles it?
+149	00:20:37.189	Speaker 2	Preconstruction, usually. They promise a name to help win the job and nobody tells me.
+150	00:20:45.834	Consultant	[laughs] And when does a conflict show up?
+151	00:20:51.231	Ines Kovalenko	When a superintendent calls me from the wrong job site.
+152	00:20:57.452	Consultant	Tell me about the last time that happened.
+153	00:21:02.687	Ines Kovalenko	June. Junie Rasco. He's one of four supers who can run occupied work, which matters, because you can't put a guy who's only done ground-up into a hospital that's open.
+154	00:21:17.366	Ines Kovalenko	Warren had him penciled for the Waverly cath lab, and preconstruction had promised him to the Pellham fit-out, and both started the same week.
+155	00:21:29.724	Warren Tibbetts	I did not pencil him. I had him confirmed. Verbally.
+156	00:21:35.701	Ines Kovalenko	Verbally, in the hall, which is the problem.
+157	00:21:41.428	Consultant	What did it cost to unpick?
+158	00:21:46.169	Ines Kovalenko	We moved Junie to Waverly because that one had a hard date with the owner, and then Pellham started with an assistant super and we ran overtime for six weeks to hold the date.
+159	00:22:02.571	Ines Kovalenko	Marisol, what did we call that?
+160	00:22:07.198	Marisol Bettencourt	About fifty thousand in overtime and acceleration. That's the number Roland and I landed on.
+161	00:22:15.848	Consultant	And how often does something like that happen?
+162	00:22:21.250	Marisol Bettencourt	Two a year. Maybe three. That June one was the worst.
+163	00:22:27.928	Consultant	Who else feels it?
+164	00:22:31.359	Ines Kovalenko	The supers, first. They're the ones told on a Friday that Monday changed. The PMs, because their schedule assumed a person.
+165	00:22:41.773	Ines Kovalenko	And the owner finds out when a date moves, which is the one that actually costs us, because some of those dates have LDs behind them.
+166	00:22:55.041	Consultant	LDs being liquidated damages?
+167	00:22:58.309	Warren Tibbetts	Right. On the bed tower there's a date for first patient day and there's money behind it.
+168	00:23:07.377	Consultant	How many dates like that does a job have?
+169	00:23:13.152	Warren Tibbetts	On the tower? Eleven or twelve that the owner actually cares about. Permit issued, steel topped out, dry-in, first energization, the imaging equipment delivery, substantial completion, first patient day.
+170	00:23:27.505	Warren Tibbetts	Some have money behind them, most don't.
+171	00:23:32.262	Consultant	And they sit inside phases?
+172	00:23:36.800	Warren Tibbetts	Several per phase, yes. And when one moves, the owner wants to know what it was before it moved.
+173	00:23:47.590	Consultant	Ines, what stops you from carrying on with the grid?
+174	00:23:54.228	Ines Kovalenko	It works, that's the thing. It works for me. It's just that it lives on my laptop and in my head, and nobody can see it.
+175	00:24:07.138	Ines Kovalenko	Warren can't look at it and see that Junie's gone in October. He has to ask me. And if I'm on holiday, nobody can answer him at all.
+176	00:24:21.803	Marisol Bettencourt	That's true, and I'd add the other half. The grid tells you who's busy. It does not tell you who's the right person. Occupied-renovation supers, there are four.
+177	00:24:35.596	Marisol Bettencourt	That's not in the grid, that's in Ines.
+178	00:24:41.134	Consultant	And next year, with Cumberland?
+179	00:24:45.267	Ines Kovalenko	All of Cumberland's work is in occupied buildings. So the same four names.
+180	00:24:52.938	Consultant	Let me turn to money on the jobs. Warren, you said Sage actuals come after the month closes. Walk me through the timing.
+181	00:25:05.050	Warren Tibbetts	Month ends, Roland's team does their thing, and job cost reports come out around the tenth or the twelfth.
+182	00:25:14.686	Warren Tibbetts	So on the twelfth of September I find out what August really cost me.
+183	00:25:22.614	Consultant	Six weeks after the start of the spend.
+184	00:25:22.749	Consultant	Six weeks after the start of the spend.
+185	00:25:27.779	Warren Tibbetts	Up to, yes. And that's fine on a job that's behaving. It's not fine on a job that isn't.
+186	00:25:37.839	Consultant	When did that last bite you?
+187	00:25:41.938	Marisol Bettencourt	I'll take that one. Cumberland West. The medical office building. We were four hundred and eighty thousand over on the mechanical buyout and we found out six weeks after it happened.
+188	00:25:57.263	Consultant	How did it surface?
+189	00:26:01.030	Marisol Bettencourt	Roland closed the month and called me. Which is not how I want to learn things.
+190	00:26:10.143	Consultant	What had gone on?
+191	00:26:13.748	Marisol Bettencourt	The buyout came in high, the PM knew the buyout came in high, and he was working a change order with the owner to cover part of it. He wasn't hiding it.
+192	00:26:29.499	Marisol Bettencourt	But it never got to a number I could see, and by the time it did we'd already committed the next two phases.
+193	00:26:41.990	Consultant	Could any of it have been avoided with earlier sight of it?
+194	00:26:49.458	Marisol Bettencourt	Some. Maybe half of it, if I'm honest, and I'm not going to pretend I know which half.
+195	00:26:58.833	Marisol Bettencourt	It's the kind of thing where if I see it in week two I go and sit with the owner myself, and that conversation goes differently than it does in week eight.
+196	00:27:15.233	Consultant	And the workaround today is the PMs' own forecasts.
+197	00:27:21.182	Warren Tibbetts	Mine's good. I'll say that again for the record.
+198	00:27:27.050	Marisol Bettencourt	Warren's is good. Warren is also not the problem. The problem is that I have fourteen of these and no two are built the same, so I cannot add them up.
+199	00:27:42.240	Marisol Bettencourt	There's no such thing as a portfolio number for us. There's fourteen spreadsheets.
+200	00:27:49.803	Consultant	Who else does that reach?
+201	00:27:53.699	Marisol Bettencourt	Roland, because he's the one making the call. Corinne, because she's forecasting cash off it. And the owner, honestly, because a change order conversation in week eight looks like we weren't watching.
+202	00:28:09.726	Consultant	And if nothing changes?
+203	00:28:13.008	Marisol Bettencourt	It doesn't get better. I don't have a number for that one, it just doesn't get better.
+204	00:28:22.824	Consultant	Fair. Let me come back to the startup checklist, because you flagged it. Every PM starts a job their own way. What does that cost you?
+205	00:28:36.629	Marisol Bettencourt	Consistency. And I can't point you at one job and say, here, this went wrong. It's all of them, a little bit.
+206	00:28:47.619	Marisol Bettencourt	Somebody's baseline schedule is in the system, somebody's is in their drawer. Somebody's ICRA is tracked with an expiry date, somebody's is a PDF in a folder.
+207	00:29:01.762	Warren Tibbetts	And the new PMs suffer most. We hired two last year out of the general market, not healthcare, and they didn't know what they didn't know.
+208	00:29:15.405	Consultant	Who else does that reach?
+209	00:29:19.469	Warren Tibbetts	The project engineers, because they're the ones actually doing the steps. The admin who does badging. Lonnie, our safety director.
+210	00:29:29.490	Warren Tibbetts	And the owner sees it, because their first impression of us is whether the first three weeks are organized.
+211	00:29:39.771	Consultant	If you had a standard template per project type, would one template do it?
+212	00:29:47.743	Marisol Bettencourt	No. Three, probably. Ground-up is one thing. Occupied renovation is another, that's where all the infection control and the interim life safety stuff lives.
+213	00:29:59.530	Marisol Bettencourt	And equipment jobs are their own animal, short and permit-heavy. The milestones are different, the whole list is different.
+214	00:30:09.650	Consultant	That's useful. One more thing on process, then I want to talk about why now. What happens after you hand a job over?
+215	00:30:21.530	Warren Tibbetts	Turnover, punch list, closeout documents, and then warranty for a year.
+216	00:30:27.902	Consultant	How do warranty calls come in?
+217	00:30:32.338	Warren Tibbetts	An inbox. Warranty at Bellamy Ridge. Somebody watches it, mostly.
+218	00:30:38.503	Consultant	Mostly?
+219	00:30:41.702	Warren Tibbetts	We lost one for three weeks. A door closer at Waverly.
+220	00:30:47.887	Warren Tibbetts	Which is a small thing, except the person who called it in was their facilities director, who decides who gets the next fit-out.
+221	00:31:00.471	Consultant	Is that in scope for what you're thinking about, or is that a different conversation?
+222	00:31:09.389	Marisol Bettencourt	Different conversation. I know it's a mess. It's not this year's mess.
+223	00:31:16.868	Consultant	Understood, I'll park it. So: why now? You mentioned the symposium, but what changed?
+224	00:31:25.171	Marisol Bettencourt	The Cumberland agreement. Four years, and it's not a project, it's a program. All their capital work in East Tennessee comes through us on a rolling basis. That was signed in August.
+225	00:31:41.535	Consultant	And it changes what for you?
+226	00:31:46.057	Marisol Bettencourt	Volume and reporting. Volume, we go to fifty-five-ish active.
+227	00:31:51.207	Marisol Bettencourt	Reporting, their PMO has a quarterly program review and the first one is January fifteenth, and I have to stand up in front of their vice president of facilities and show program-level health, budget and milestones across every job we're doing for them.
+228	00:32:12.351	Consultant	In their format?
+229	00:32:15.354	Marisol Bettencourt	In something. They sent a template. It's a spreadsheet, of course. And right now the way I'd do that is Bridget, by hand, and Bridget is on leave.
+230	00:32:29.584	Consultant	Is there anything else with a date on it?
+231	00:32:35.139	Marisol Bettencourt	Next year's budget locks in November. If I want software money in my line for next year, it has to be in the number I give Corinne in November.
+232	00:32:49.249	Marisol Bettencourt	And the two extra PMs I've asked for are in that same conversation.
+233	00:32:56.499	Consultant	So where does this sit on a now-versus-later scale?
+234	00:33:01.891	Marisol Bettencourt	Now. This is the thing I'm working on. If you'd called me in March I'd have been polite and slow.
+235	00:33:12.913	Consultant	What does now mean in dates?
+236	00:33:17.522	Marisol Bettencourt	I'd want something real running on a handful of jobs by the middle of November, so we've shaken it out before the holidays, and everything on it in time for January fifteenth.
+237	00:33:33.809	Consultant	A handful being?
+238	00:33:36.898	Marisol Bettencourt	Six. Warren's three, and three of the Chattanooga ones so it's not all one office.
+239	00:33:45.741	Consultant	Good. I want to put some numbers around the current state, and I'd rather build them with you than guess. Tell me if I get an input wrong. Fourteen PMs?
+240	00:34:01.288	Marisol Bettencourt	Fourteen. Fifteen if you count the one in Huntsville who's half estimating.
+241	00:34:08.612	Consultant	I'll use fourteen. Warren said four hours a week on assembling. Is four fair across the fourteen?
+242	00:34:18.116	Marisol Bettencourt	Four is fair. Some are quicker because they cut corners, which costs me later.
+243	00:34:26.182	Consultant	And a loaded hourly cost for a PM, with burden?
+244	00:34:32.358	Marisol Bettencourt	About ninety-five an hour.
+245	00:34:35.739	Consultant	So fourteen people, four hours a week, is fifty-six hours a week. Times fifty-two is two thousand nine hundred and twelve hours a year.
+246	00:34:47.714	Consultant	At ninety-five, that's two hundred seventy-six thousand, six hundred and forty dollars a year.
+247	00:34:55.504	Marisol Bettencourt	Say that number again.
+248	00:34:59.458	Consultant	Two hundred seventy-six thousand, six hundred and forty.
+249	00:35:05.140	Marisol Bettencourt	And that's just assembling status. That's not doing anything with it.
+250	00:35:12.098	Consultant	That's just the assembling. Ines, ten hours a week on the grid. What's your loaded rate, Marisol, roughly?
+251	00:35:22.140	Marisol Bettencourt	Call it seventy-two.
+252	00:35:25.317	Consultant	Ten hours, fifty-two weeks, at seventy-two is thirty-seven thousand, four hundred and forty.
+253	00:35:32.936	Ines Kovalenko	For a spreadsheet.
+254	00:35:35.951	Consultant	For a spreadsheet. And the deck. Bridget, two days a month.
+255	00:35:42.503	Marisol Bettencourt	Sixteen hours. She's at about sixty-five loaded.
+256	00:35:47.165	Consultant	And your own time on it?
+257	00:35:51.293	Marisol Bettencourt	Half a day a month, reviewing and rewriting the summary page. Four hours. I'm at a hundred and fifteen.
+258	00:36:01.221	Consultant	So the deck is sixteen at sixty-five, which is one thousand and forty, plus four at one fifteen, four hundred and sixty. Fifteen hundred a month. Eighteen thousand a year.
+259	00:36:16.449	Marisol Bettencourt	That one feels small next to the others.
+260	00:36:22.381	Consultant	It does, and it's still eighteen thousand dollars of two people's time producing something you told me you don't believe. Now the staffing collisions.
+261	00:36:34.461	Consultant	You said two a year, maybe three, at about fifty thousand.
+262	00:36:41.636	Marisol Bettencourt	That's what June cost. I'd say two is the honest average.
+263	00:36:48.762	Consultant	Then I'll use two, not three, and I'll show it as a range so nobody accuses us of building the case.
+264	00:36:59.442	Consultant	Two at fifty is a hundred thousand a year, and it could be a hundred and fifty.
+265	00:37:09.168	Marisol Bettencourt	Use two.
+266	00:37:12.062	Consultant	So: two seventy-six six forty for PM assembling, thirty-seven four forty for the grid, eighteen thousand for the deck, a hundred thousand for collisions.
+267	00:37:24.056	Consultant	That's four hundred and thirty-two thousand and eighty dollars a year.
+268	00:37:30.906	Marisol Bettencourt	Four hundred and thirty-two thousand.
+269	00:37:34.994	Consultant	With the collision piece at the low end.
+270	00:37:40.358	Marisol Bettencourt	That number is low, if anything. You haven't got the four hundred and eighty thousand in it.
+271	00:37:49.711	Consultant	I deliberately haven't, because you told me you don't know which half was avoidable, and I'd rather your number be one you can defend.
+272	00:38:01.619	Consultant	It sits next to the total as a separate line, unquantified.
+273	00:38:08.145	Marisol Bettencourt	Okay. I like that better, actually. Four thirty-two. Huh.
+274	00:38:13.718	Consultant	Does that land as high, low, or about right?
+275	00:38:19.209	Marisol Bettencourt	About right and also horrible. It's about what one and a half PMs cost me, and it buys nothing.
+276	00:38:29.143	Consultant	Let's do the other direction. If the PMs got half of that assembling time back, what happens to it?
+277	00:38:39.731	Marisol Bettencourt	Two things. I've got two PMs in next year's budget request, at about a hundred and fifty thousand each all in.
+278	00:38:50.174	Marisol Bettencourt	If the fourteen I have can actually carry their jobs, I hold one of those.
+279	00:38:58.838	Consultant	You'd hold one, not both?
+280	00:39:02.931	Marisol Bettencourt	I'd hold one. I'm not going to tell Curt the software means I need nobody, that's not true and he'd know it.
+281	00:39:14.632	Consultant	Fair.
+282	00:39:16.417	Consultant	That's a hundred and fifty thousand of deferred hire, and it comes out of the same hours as the reporting number, so it isn't extra money on top, it's the same hours spent twice.
+283	00:39:33.839	Marisol Bettencourt	Understood.
+284	00:39:36.739	Consultant	What about work you're not taking today?
+285	00:39:41.819	Ines Kovalenko	We turned down two invitations last year because we couldn't staff them.
+286	00:39:49.080	Consultant	Tell me about those.
+287	00:39:52.641	Marisol Bettencourt	A bed tower addition in Chattanooga and an outpatient campus. Both invitations, both ours to lose.
+288	00:40:01.057	Marisol Bettencourt	We no-bid because I could not put a name against the super line and I'm not going to bid work I can't staff.
+289	00:40:13.098	Consultant	What's a job like that worth to you?
+290	00:40:18.306	Marisol Bettencourt	Eight to twelve million in revenue, and we make about three and a half points on that kind of work.
+291	00:40:28.861	Consultant	So on eight million, three and a half points is two hundred and eighty thousand.
+292	00:40:37.808	Marisol Bettencourt	Right.
+293	00:40:40.794	Consultant	Is one more of those a year realistic if you could see your people properly?
+294	00:40:49.579	Marisol Bettencourt	One is realistic. Two is me being greedy in front of you.
+295	00:40:56.926	Consultant	One it is. And if capacity genuinely weren't the limit, is there something you'd go after that you can't today?
+296	00:41:07.810	Marisol Bettencourt	Yes, and this one keeps me up. Waverly wants one partner for their whole outpatient program. Everything, all their clinics, multi-year, same shape as the Cumberland deal. They've hinted twice.
+297	00:41:22.386	Marisol Bettencourt	And I can't credibly say yes, because I cannot show them how we'd run twenty of their jobs at once when I can't show anybody how we run forty now.
+298	00:41:37.679	Consultant	That's the real one, isn't it.
+299	00:41:42.069	Marisol Bettencourt	That's the real one.
+300	00:41:45.473	Consultant	Let me ask about the finish line. Imagine this is running well in the spring. What's different in a normal week for you?
+301	00:41:57.390	Marisol Bettencourt	I open one screen on Monday morning and I see forty projects, with a color and a number, and I believe it. And I stop emailing people for it.
+302	00:42:11.427	Marisol Bettencourt	If I want to know which ones are in trouble I look, I don't ask.
+303	00:42:19.611	Consultant	And the number is?
+304	00:42:22.772	Marisol Bettencourt	Budget. Where they are against where they should be. And the next owner milestone, with its date, and whether it moved.
+305	00:42:33.540	Consultant	What would Curt count as a win?
+306	00:42:39.038	Marisol Bettencourt	Curt's version is simpler than mine. He wants to walk into the second Tuesday and not be surprised. That's it. If the deck stops being a reveal, he's happy.
+307	00:42:54.405	Consultant	And Cumberland, in January?
+308	00:42:58.383	Marisol Bettencourt	If I can pull their program up on a screen in front of their VP of facilities and it's current, that's the win.
+309	00:43:09.984	Marisol Bettencourt	That would be the best meeting I've had in two years.
+310	00:43:17.014	Consultant	Warren, same question. What's different for you?
+311	00:43:22.187	Warren Tibbetts	I enter my numbers once. That's it, that's my whole list. If I update my forecast and Marisol's summary page fills itself in, I'll be your biggest fan.
+312	00:43:36.778	Ines Kovalenko	And I'd like somebody to be able to answer Warren without me. If he can see that Junie's committed in October without asking me, I've got my Mondays back.
+313	00:43:51.739	Consultant	Okay. Let's talk about how a decision like this gets made here. If the three of you decided this was right, what happens next?
+314	00:44:04.358	Marisol Bettencourt	It's my budget. PMO systems come out of my line, and I've got room in it.
+315	00:44:13.278	Consultant	Is there a threshold where that changes?
+316	00:44:18.045	Marisol Bettencourt	Anything over a hundred and fifty thousand a year goes to Corinne and then the executive committee. This isn't that.
+317	00:44:28.138	Marisol Bettencourt	So practically, I decide, Corinne's team raises the PO, and Stefan does his security review.
+318	00:44:36.410	Consultant	Stefan is?
+319	00:44:38.753	Marisol Bettencourt	IT director. And he will have a questionnaire. Single sign-on through our Microsoft tenant, where the data sits, who can export it. Two to three weeks, and he's thorough.
+320	00:44:53.228	Consultant	Anyone else who has to be comfortable?
+321	00:44:58.406	Marisol Bettencourt	Roland. Nothing touches Sage without Roland, and he is protective of Sage, and I'd say rightly. Sage is the book of record for anything with a dollar sign in this company.
+322	00:45:14.359	Consultant	Have you bought something like this before? How did it go?
+323	00:45:21.184	Marisol Bettencourt	Procore, three years ago. So I know the drill here. Security review, a pilot, then a rollout with training. That one went fine, mostly because preconstruction and the PMs actually wanted it.
+324	00:45:37.426	Consultant	What could get in the way of this going ahead?
+325	00:45:43.637	Marisol Bettencourt	Adoption. Straight away, adoption. We tried Smartsheet in twenty twenty-three and it lasted about a quarter.
+326	00:45:52.480	Consultant	What happened?
+327	00:45:55.317	Marisol Bettencourt	Double entry. You had to keep it updated and keep doing everything you were already doing, and nobody made the old thing go away.
+328	00:46:07.410	Marisol Bettencourt	So it became another thing to update, and the PMs smiled at me and quietly didn't.
+329	00:46:16.465	Warren Tibbetts	I'll be blunter. If it's another thing to update, it's dead.
+330	00:46:22.657	Warren Tibbetts	And if the supers have to log in, it's dead twice, because they're on a phone in a trailer with one bar.
+331	00:46:34.345	Consultant	What would a superintendent realistically do on a phone?
+332	00:46:40.105	Warren Tibbetts	Two things a week. Tell you whether his date moved, and flag whatever's blocking him. That's it. Ask him for eight fields and he'll do it twice and then stop.
+333	00:46:55.282	Ines Kovalenko	And half our sites have no signal inside the building. They walk out to the parking lot to send anything.
+334	00:47:05.855	Consultant	That's exactly the right thing to tell me now rather than in March. Anything else?
+335	00:47:14.820	Warren Tibbetts	Yeah. We already have monday and nobody uses it.
+336	00:47:20.990	Consultant	Tell me about that.
+337	00:47:24.818	Warren Tibbetts	Preconstruction has a board in monday for tracking bids. I've been in it twice. Half the columns are empty and nobody trusts what's in it.
+338	00:47:38.063	Marisol Bettencourt	That's fair but it needs context. Dwayne set that up, and Dwayne left in, what, February? And nobody picked it up.
+339	00:47:48.605	Marisol Bettencourt	Safety has one too, Lonnie's incident board, and that one's actually used every day.
+340	00:47:56.761	Consultant	That's a useful distinction. So one board with an owner who left, and one board with an owner who's still here and uses it daily.
+341	00:48:09.843	Marisol Bettencourt	When you say it like that, yes.
+342	00:48:14.704	Consultant	Which account is that in? Do you know what you're on?
+343	00:48:21.292	Marisol Bettencourt	We're on the enterprise plan, work management, about two hundred and twenty seats. Stefan owns the contract and Kyle in preconstruction is the one who actually builds things in it.
+344	00:48:36.393	Consultant	Is there anything of the PMO's in there today, or would this all be new?
+345	00:48:44.628	Marisol Bettencourt	Nothing of mine is in it. I'd assume ours would sit somewhere separate from preconstruction's, but that's yours to advise on. Whatever Stefan and Kyle can live with.
+346	00:48:58.662	Consultant	And should Kyle be able to change what we build?
+347	00:49:04.474	Marisol Bettencourt	Kyle should be able to, yes. He's the only person here who actually knows the tool. Bridget too, when she's back.
+348	00:49:15.915	Consultant	That's helpful, and it changes what I'd propose, so thank you. Anything else that could stop this?
+349	00:49:25.872	Marisol Bettencourt	Two things, and I'd rather say both out loud. Stefan's guy told him he could build this in Power BI in a couple of weeks.
+350	00:49:39.367	Consultant	What do you make of that?
+351	00:49:44.187	Marisol Bettencourt	I think he could build a report.
+352	00:49:48.545	Marisol Bettencourt	I don't think he can build the place where people enter the information, and if the information isn't there, the report is still Bridget with a spreadsheet. But it'll come up.
+353	00:50:04.558	Consultant	It's a fair thing to raise, and the honest answer is a dashboard is the easy half. What's the second thing?
+354	00:50:16.001	Marisol Bettencourt	I should tell you we're also talking to another partner. A firm out of Nashville that did Waverly's rollout.
+355	00:50:25.743	Marisol Bettencourt	Curt asked around and their name came up, and they're coming in next week.
+356	00:50:33.905	Consultant	That's a sensible thing to do, and I appreciate you telling me. What have you seen from them so far, and what would make the choice clear for you?
+357	00:50:48.804	Marisol Bettencourt	We've had one call. They were good, they talked a lot about their methodology.
+358	00:50:56.242	Marisol Bettencourt	What would make it clear is whoever can show me my forty projects, with health and burn and a milestone, using our actual project names, and tell me honestly what part of it Procore and Sage still do.
+359	00:51:15.097	Consultant	That's a fair test and I'd rather be measured on it than on a methodology slide. Warren, one more from earlier. Kyle or somebody will ask why this isn't just Procore.
+360	00:51:30.202	Consultant	What would you say?
+361	00:51:33.598	Warren Tibbetts	Procore is the job. Drawings, RFIs, submittals, daily reports, that's where my job lives and I'm not moving it.
+362	00:51:43.730	Marisol Bettencourt	And Procore doesn't do what I need, which is the thirty-thousand-foot version across forty jobs, plus the people. It does one project beautifully. I don't have a one-project problem.
+363	00:51:58.304	Consultant	Good, that's the line I'd hold too. Let me also ask about anything sensitive I need to know before designing anything.
+364	00:52:09.179	Marisol Bettencourt	Yes, and this one's not negotiable. No patient information goes in any system of ours. Ever. No photos with a patient in them, no photos of a whiteboard with names on it.
+365	00:52:24.650	Marisol Bettencourt	Our guys work in occupied units and they have phones.
+366	00:52:31.170	Warren Tibbetts	Their compliance people do walk-throughs. It's a real thing.
+367	00:52:37.190	Marisol Bettencourt	Also our field staff's immunization records and background checks live with HR and they stay with HR.
+368	00:52:45.834	Marisol Bettencourt	I've had people ask if that can go in a project system and the answer is no.
+369	00:52:55.358	Consultant	Understood, and that shapes what I'd even put a photo field on. Anything about who can see what internally?
+370	00:53:05.738	Marisol Bettencourt	Loaded rates. PMs see hours, they don't see each other's rates, and they don't see the numbers you and I just did. And budget, I'd want to think about.
+371	00:53:19.767	Marisol Bettencourt	A PM seeing his own job's cost, fine. A PM seeing every job's margin, no.
+372	00:53:28.224	Consultant	Noted. And one more from the August meeting. If a PM moves a health status from yellow to green, do you need to know who did that and when?
+373	00:53:42.965	Marisol Bettencourt	Oh, yes. Yes. And if they change a milestone date I want the old date to still exist somewhere. That's the whole trust problem in one question.
+374	00:53:57.128	Consultant	Then let me play back what I think you'd want, and you tell me where I'm wrong. Five things.
+375	00:54:07.591	Marisol Bettencourt	Go.
+376	00:54:10.284	Consultant	One, a portfolio view of all active projects, with health, budget burn against plan, and the next owner milestone and its date.
+377	00:54:21.445	Consultant	Two, a standard project template per project type, three of them, so every job starts the same way and the ICRA expiry is a tracked thing rather than a PDF.
+378	00:54:36.192	Consultant	Three, allocation for PMs, superintendents and project engineers in one place that Warren can look at without asking Ines, including who's qualified for occupied work, and not field crews.
+379	00:54:50.453	Consultant	Four, a view for the executive committee and something you can put in front of Cumberland in January. Five, a pilot on six projects by mid-November, then the rest.
+380	00:55:05.178	Marisol Bettencourt	Yes. Those five. That's what I'd sign up for.
+381	00:55:10.875	Consultant	Anything you'd take off?
+382	00:55:14.229	Marisol Bettencourt	No. I'd add that Warren enters his numbers once, but that's inside number one.
+383	00:55:22.760	Warren Tibbetts	I was going to say it, so yes.
+384	00:55:28.496	Ines Kovalenko	And field crews stay out. That's the supers' job and I don't want it.
+385	00:55:36.865	Consultant	Agreed, and I'll write it down as out of scope so nobody helpfully adds it later.
+386	00:55:46.058	Marisol Bettencourt	Then here's what I need from you. Send me a scope and a number I can put against my line before the budget lock in November.
+387	00:55:58.877	Marisol Bettencourt	I can't take a verbal to Corinne.
+388	00:56:03.885	Consultant	You'll get both. And because you said the January review is the real deadline, I'd rather agree the scope with you properly than send a document that guesses.
+389	00:56:17.587	Consultant	We've just done most of that.
+390	00:56:22.061	Marisol Bettencourt	We have.
+391	00:56:24.678	Consultant	So here's what I'd suggest as the next step.
+392	00:56:29.744	Consultant	Give me a week and let me come back with a first cut built with your project names in it, on six jobs, so you're reacting to something real rather than to my description of it.
+393	00:56:46.988	Consultant	Forty-five minutes, you three.
+394	00:56:50.363	Marisol Bettencourt	What day?
+395	00:56:52.817	Consultant	I could do Wednesday the twenty-third, early afternoon.
+396	00:56:57.904	Marisol Bettencourt	Warren, the twenty-third?
+397	00:57:00.649	Warren Tibbetts	After one, I've got an OAC at eleven.
+398	00:57:05.574	Marisol Bettencourt	Two o'clock Eastern on the twenty-third, then. Ines?
+399	00:57:11.153	Ines Kovalenko	Works.
+400	00:57:14.344	Consultant	Two o'clock Eastern, Wednesday the twenty-third, forty-five minutes. I'll send the invite this afternoon.
+401	00:57:22.882	Marisol Bettencourt	And I'll send you Cumberland's template and the summary page from August so you can see the shape of it.
+402	00:57:34.052	Consultant	That would help a lot. Ines, could I see the grid? Two tabs is plenty, and scrub the rates if any are in there.
+403	00:57:46.950	Ines Kovalenko	There aren't, but I'll look. I can send it today.
+404	00:57:53.435	Consultant	Warren, your forecast sheet, if you're willing.
+405	00:57:58.482	Warren Tibbetts	You can have it. Be kind about the formatting.
+406	00:58:04.353	Consultant	I have seen worse, I promise. Marisol, one more ask. Could you start Stefan's security questionnaire now rather than in three weeks? It's usually the longest thing.
+407	00:58:18.284	Marisol Bettencourt	I'll email him today and tell him it's coming. He'll want documentation from your side.
+408	00:58:26.706	Consultant	I'll send what he needs with the invite. Last question, and then I'll let you all go. Is there anything I should have asked and didn't?
+409	00:58:40.022	Marisol Bettencourt	Ask me in November whether I sound this motivated when the budget's due.
+410	00:58:47.378	Consultant	[laughs] I'll put it on the list.
+411	00:58:51.938	Marisol Bettencourt	No, seriously, one thing. Whatever you show me on the twenty-third, use real names. Cumberland bed tower, Waverly cath lab, Pellham. If it says Project A I'll stop listening.
+412	00:59:07.103	Consultant	Real names, six real jobs. Understood.
+413	00:59:11.784	Warren Tibbetts	And don't make it pretty at the expense of being true. I'd rather see an ugly screen with the right dates.
+414	00:59:23.168	Consultant	Ugly and true. That I can do. Thank you all, genuinely. Marisol, invite this afternoon.
+415	00:59:31.757	Marisol Bettencourt	Thanks. This was more useful than I expected, which I mean as a compliment.
+416	00:59:39.813	Ines Kovalenko	Bye.
+417	00:59:42.360	Warren Tibbetts	Thanks. Bye.

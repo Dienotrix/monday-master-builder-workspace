@@ -1,0 +1,54 @@
+{
+  "goals": [
+    {
+      "id": "G1",
+      "goal": "One place to see all projects and where they stand",
+      "quote": "I just want one place where I can see all our projects and where they're at.",
+      "location": "cue 56, 00:08:49.455, Tomasz Wirth",
+      "speaker_role": "VP of Engineering",
+      "pains": ["P6.1", "P6.2"]
+    },
+    {
+      "id": "G2",
+      "goal": "Engineering off Redmine by end of November, leaving time for clean evidence",
+      "quote": "That's why I want engineering off Redmine by end of November.",
+      "location": "cue 154, 00:24:31.629, Tomasz Wirth",
+      "speaker_role": "VP of Engineering",
+      "pains": ["P5.1", "P5.2", "P5.3"]
+    },
+    {
+      "id": "G3",
+      "goal": "See who has each escalation and what is happening without asking anybody",
+      "quote": "My T2 escalates something, and from then on I can see who has it and what's happening without asking anybody.",
+      "location": "cue 198, 00:31:09.132, Colleen Brask",
+      "speaker_role": "Support Operations Manager",
+      "pains": ["P1.1", "P1.2", "P1.3", "P1.4", "P1.5"]
+    },
+    {
+      "id": "G4",
+      "goal": "The audit report in hand with no engineering findings",
+      "quote": "The report in hand with no engineering findings, and Granite signed by end of Q1.",
+      "location": "cue 202, 00:31:53.748, Tomasz Wirth",
+      "speaker_role": "VP of Engineering",
+      "pains": ["P2.1", "P2.4", "P5.2", "P8.1"]
+    }
+  ],
+  "assumption_kinds": [
+    "automation-condition",
+    "board-architecture",
+    "gap",
+    "board-architecture",
+    "board-architecture",
+    "automation-condition",
+    "automation-condition",
+    "leaning",
+    "gap",
+    "gap",
+    "gap",
+    "automation-condition",
+    "leaning",
+    "gap",
+    "leaning"
+  ],
+  "note_add": null
+}

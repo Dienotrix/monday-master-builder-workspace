@@ -1,0 +1,12 @@
+# monday Master Builder: development workspace (design, research, fixtures, review folder, handoff).
+# The plugin itself is its own repository, cloned beside this one into monday-master-builder/.
+monday-master-builder/
+
+# Test client folders hold bound-account details while the plugin is tested (A22); never tracked.
+clients/*
+!clients/.gitkeep
+
+# Scratch and generated files
+__pycache__/
+*.py[cod]
+.DS_Store

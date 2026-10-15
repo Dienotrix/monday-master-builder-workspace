@@ -1,0 +1,779 @@
+Consultant 00:03
+Morning. I think I've got all three of you now, can you hear me okay?
+
+Teodora Okoro 00:08
+We've got you. Rasmus is on his phone out in the tunnels, so if he goes quiet it's the signal, not him.
+
+Rasmus Wrenfield 00:16
+I'm here. I'm walking, so you'll hear gravel.
+
+Ilse Salvesen 00:20
+And I'm in the office with Teodora. Hi.
+
+Consultant 00:23
+Hi, Ilse. Gravel is fine, Rasmus, I've had worse. How's the week going, is it still crazy or has it calmed down a bit?
+
+Teodora Okoro 00:32
+It's the tail end of the fall shipping so it's calmer than it was. Ask us in March and you'll get a different
+
+Rasmus Wrenfield 00:39
+answer. Ask us in March and you won't get an answer at all.
+
+Ilse Salvesen 00:43
+That's true.
+
+Consultant 00:45
+Noted. I'll aim to be useful before March, then. Before we get into it, let me, let me just say how I'd like to use the time, how I'd like to use the hour. This is a conversation. I want to understand how the work actually runs, where it hurts, and what you'd want instead. I'm not going to show you anything today, there's no screen. And if it turns out what you need is two changes to a spreadsheet you've already got, I'll say so.
+
+Teodora Okoro 01:14
+Good. That's what I told Gunnar you'd say.
+
+Rasmus Wrenfield 01:18
+Gunnar isn't on, by the way. He's at the auction in Salem.
+
+Teodora Okoro 01:22
+Gunnar isn't on today, he's at an auction, but nothing gets bought here without him nodding, so you should know that going in.
+
+Consultant 01:31
+That's useful to know, and I'd rather know it now. We'll come back to him. Teodora, give me the thirty-second version of Fenwater. What you grow, who you sell to, how big you are.
+
+Teodora Okoro 01:44
+Sure. We're a wholesale nursery. Container stock mostly, shrubs, perennials, some trees, and there's about twelve, I think it's twelve acres of field stock that Rasmus lifts in the winter. We sell to landscape contractors, that's the bulk of it, then independent garden centres, and a couple of city parks departments. No retail, we don't sell to the public. About fifty-five people in the winter and it goes to
+
+Ilse Salvesen 02:12
+eighty-something
+
+Teodora Okoro 02:13
+eighty-something in spring with the seasonal crew. Forty acres, give or take, one site, out past the river.
+
+Consultant 02:20
+And it's been going a while, I think you said in your email.
+
+Teodora Okoro 02:24
+Thirty-one years. Gunnar started it with his brother and bought him out, bought him out years ago, and he's still the owner. He's out in the tunnels most mornings and he's got a clipboard.
+
+Rasmus Wrenfield 02:34
+He's got the clipboard.
+
+Consultant 02:36
+And the three of you, where do you sit?
+
+Teodora Okoro 02:39
+I'm sales. So everything from a customer asking for a price to the order being in the system is mine, and I've got Kenji with me, he's the sales coordinator, he takes the phone and the emails when I'm out with
+
+Rasmus Wrenfield 02:53
+customers. I'm the grower. Production, the crew, what gets potted when, what gets lifted when. Four crew leads under me and the seasonal crew under them.
+
+Ilse Salvesen 03:05
+And I'm the office. So I do the availability list, the pick lists, the invoicing, the drivers' paperwork, the credits. If it's a piece of paper, it came from me.
+
+Rasmus Wrenfield 03:16
+If it's a piece of paper it came from Ilse and then it went in my pocket and got
+
+Ilse Salvesen 03:20
+washed, yes, I know.
+
+Rasmus Wrenfield 03:22
+That's about right.
+
+Consultant 03:24
+Good. So walk me through it. A plant, a plant leaves a bed and ends up on a customer's site. Start wherever it starts.
+
+Teodora Okoro 03:33
+It starts with the avail.
+
+Consultant 03:35
+The avail being the availability list?
+
+Teodora Okoro 03:38
+The availability list. Ilse builds it. Ilse, you tell it, you're the one who
+
+Ilse Salvesen 03:43
+does it. So on Friday Rasmus or one of the leads walks the beds with a clipboard and counts. Every bed, every size. And they write it on the sheet, and Friday afternoon or Monday morning, usually Monday morning, I type it into the spreadsheet. Species, cultivar, size, quantity, price. It's about six hundred lines this time of year and nine hundred in spring. Then I send it out as an email attachment to the customer list, which is
+
+Teodora Okoro 04:16
+a hundred and forty
+
+Ilse Salvesen 04:17
+a hundred and forty-odd, yes, and it goes out Monday by about ten.
+
+Consultant 04:23
+And then?
+
+Teodora Okoro 04:25
+And then the phone starts. Customers read the avail, they get in touch, Kenji or I take it, we write it up as a sales order in the accounting system, and Ilse prints a pick list for the
+
+Ilse Salvesen 04:38
+yard. The pick list goes on the board in the yard office, the lead pulls the order onto a trailer, it gets tagged, the driver takes it, and I invoice off the pick list when the driver's paperwork comes back.
+
+Consultant 04:52
+How many orders is that in a week, roughly?
+
+Ilse Salvesen 04:55
+This time of year, forty, fifty. In April it's
+
+Rasmus Wrenfield 04:59
+two hundred
+
+Ilse Salvesen 05:00
+and twenty, two-thirty on a bad week. Thursdays are the big day because everybody wants it on site for Friday.
+
+Consultant 05:08
+And the prices on the list, is that one price for everyone?
+
+Teodora Okoro 05:12
+No. There's a list price on the avail and then there's what people actually pay. The big landscapers are on a tier, the chain's on a contract price, the parks departments pay list because they have to, they've got no choice. And that's not something I'd want on a screen a lead can see, to be honest, what Pinecrest pays versus what the parks pay.
+
+Consultant 05:33
+Understood, and that's a fair thing to protect. Okay. And the avail goes out Monday. When does it stop being true?
+
+Teodora Okoro 05:41
+Monday.
+
+Rasmus Wrenfield 05:42
+Monday at about ten past ten.
+
+Teodora Okoro 05:45
+Honestly, Monday. Because the count was Friday, and Friday afternoon we shipped, and Monday morning before the list goes out we've taken orders off Friday's list. So it's wrong before it's sent. It's less wrong on Monday and more wrong on Wednesday, and by Thursday I don't trust a
+
+Rasmus Wrenfield 06:05
+line on it. Nobody does. I don't and I counted it.
+
+Consultant 06:09
+So what do you do on a Thursday when somebody calls and wants three hundred of something? I
+
+Teodora Okoro 06:14
+phone Rasmus.
+
+Rasmus Wrenfield 06:16
+She phones me. Or Kenji phones me. My phone goes forty times a day in April and thirty of them are is it still there.
+
+Teodora Okoro 06:25
+Or I walk out. If it's over fifty units of anything I don't confirm it till one of us has looked at the bed. That's the rule. It's not a written rule but it's the rule.
+
+Consultant 06:36
+And how much of your day is that?
+
+Teodora Okoro 06:39
+Between me and Kenji, a morning. A morning a day, in season. Half of it's the phone and half of it's
+
+Ilse Salvesen 06:47
+walking. And then they come back and change the order I've already printed.
+
+Teodora Okoro 06:51
+And then we change the order. Yes. We do.
+
+Consultant 06:54
+Let's stay on that. When the list is wrong and you don't catch it, what actually happens? We
+
+Teodora Okoro 07:01
+sell what we don't have. Not on purpose. The list says it's there and it isn't, or it's there and I've sold it twice.
+
+Consultant 07:10
+Give me a real one. Not the pattern, one time it happened.
+
+Teodora Okoro 07:14
+The boxwood.
+
+Ilse Salvesen 07:15
+Oh, the boxwood.
+
+Rasmus Wrenfield 07:17
+That was April.
+
+Teodora Okoro 07:19
+April. A Thursday, of course. We had three hundred and forty three-gallon boxwood on the avail, the Emerald Fold, and a landscaper, Pinecrest, took three hundred for a school job on the Tuesday. And on the Wednesday a garden centre took two hundred off the same line because the line still said three hundred and forty. Kenji took one and I took the other and neither of us
+
+Rasmus Wrenfield 07:45
+looked.
+
+Teodora Okoro 07:46
+And neither of us knew the other had. That's the whole story, really.
+
+Consultant 07:50
+So who got the plants?
+
+Teodora Okoro 07:52
+The school job got them because they were loading Thursday morning and the garden centre's truck came Thursday afternoon. And the garden centre got the forty that were left and a hundred and sixty of something else that Rasmus found, a different cultivar, and they didn't
+
+Rasmus Wrenfield 08:08
+want it. Harbor Green. It's a fine plant.
+
+Ilse Salvesen 08:11
+It's a fine plant that they sent back on the next truck, and I raised a credit for two thousand four hundred, and they haven't ordered since.
+
+Consultant 08:20
+Haven't ordered since April?
+
+Ilse Salvesen 08:22
+Not a line.
+
+Teodora Okoro 08:24
+They were maybe a thirty-thousand-a-year account. I've called. They're polite.
+
+Consultant 08:30
+Okay. That one's clear. How often does that, how often does that happen, the same line sold twice?
+
+Teodora Okoro 08:36
+Sold twice, properly, where somebody gets nothing, a handful of times a season. Where somebody gets a sub they didn't want, every week in
+
+Ilse Salvesen 08:46
+spring. Every week. I do the credits so I see it. Some weeks it's three.
+
+Consultant 08:51
+And a sub is a substitution, you send something else.
+
+Ilse Salvesen 08:54
+We send something else and hope. Sometimes we phone first. Sometimes the driver's already gone.
+
+Consultant 09:00
+And who ends up dealing with it when it goes wrong? Not just you, Teodora, everyone it touches.
+
+Teodora Okoro 09:07
+Me, because I have to call the customer. Ilse, because she does the credit and reprints everything. The driver, because he's the one standing there when they say no. Rasmus, because I'm on the phone to him asking what else we've
+
+Rasmus Wrenfield 09:22
+got. And Gunnar, because the customer calls Gunnar. They've all got his cell. He's been here thirty years.
+
+Ilse Salvesen 09:29
+Everybody's got his cell.
+
+Consultant 09:31
+Let me put some shape on the cost, if you're willing. Not a guess, what you actually know. Ilse, you do the credits. Do you know what that line was last year? I
+
+Ilse Salvesen 09:42
+do, because Gunnar asked me in January. Thirty-one thousand and some. Thirty-one two, something like that, for the year. That's all credits, though, not just subs. Some of that's plants that arrived damaged, some of it's the driver dropped a
+
+Teodora Okoro 10:00
+pallet.
+
+Consultant 10:01
+And how much of it is the list being wrong?
+
+Ilse Salvesen 10:04
+I couldn't tell you from the system. There's a reason field on the credit and nobody fills it in. Me included.
+
+Teodora Okoro 10:11
+Call it two-thirds. I'm guessing, but I'm guessing from the ones I had to phone about. Two-thirds of it is us selling what we didn't have. The rest is trucks and weather.
+
+Consultant 10:23
+So two-thirds of thirty-one, call it twenty, twenty-one thousand, and that's your guess, Teodora, not the system's.
+
+Teodora Okoro 10:30
+That's my guess. Ilse could go through them if you need it tighter.
+
+Ilse Salvesen 10:34
+I could. It'd take me an
+
+Consultant 10:36
+afternoon. Park it for now, park it, we'll see whether we need it. The morning a day, you and Kenji. What's that worth? Do you know a loaded rate for the two of you, and it's fine if you'd rather not say it out loud.
+
+Teodora Okoro 10:50
+It's fine. Kenji's about thirty-four an hour loaded. I'm more than that but I'm not doing it all, so call it thirty-four for the two of us and you're not far off.
+
+Consultant 11:01
+So two people, half a day each, five days. Twenty-five hours a week.
+
+Teodora Okoro 11:06
+In season. Which is, what, March to June and then September, October. Call it thirty weeks. No, it's more than that, the phone doesn't stop in July, it just slows. Call it all year and I'll be light on the spring and heavy on the winter and it'll wash.
+
+Consultant 11:24
+So twenty-five hours at thirty-four, times fifty-two.
+
+Teodora Okoro 11:28
+Forty-four
+
+Teodora Okoro 11:29
+two hundred. Yes. I did it before the call, I knew you'd ask.
+
+Consultant 11:33
+Ha. Good. And that's chasing, not selling.
+
+Teodora Okoro 11:36
+That's chasing. Selling is the bit I'd rather be
+
+Ilse Salvesen 11:39
+doing. She would. She's good at it.
+
+Consultant 11:42
+Rasmus, I want to come to you, because I've heard, I've now heard the sales side of this. What does it look like from the beds? I
+
+Rasmus Wrenfield 11:49
+grow blind. That's the short version. I pot on what I think will sell, based on last year and my gut, and I don't know what's sold until somebody phones me to ask if it's still there.
+
+Consultant 12:02
+Blind meaning you can't see the orders?
+
+Rasmus Wrenfield 12:05
+I can see the orders if I walk to the office and Ilse prints them. She prints me the open orders on a Friday. But a Friday list on a Wednesday is the same problem as Teodora's, backwards. So I pot on what I think will sell, and half the time I'm
+
+Ilse Salvesen 12:22
+right
+
+Rasmus Wrenfield 12:23
+and the other half it sits on the bed till October and goes in the skip.
+
+Consultant 12:28
+Give me a real one.
+
+Rasmus Wrenfield 12:30
+Last October. Six hundred five-gallon hydrangea went in the skip. The Harbor Mist. The chain had a standing order for them and they cancelled it in July and nobody told me, so I kept feeding and spacing them for three months for nothing.
+
+Ilse Salvesen 12:47
+I told Teodora.
+
+Teodora Okoro 12:48
+She told me and I didn't tell Rasmus, and that's on me. I thought Kenji
+
+Rasmus Wrenfield 12:53
+had. Nobody's blaming anybody. It's the system. There isn't one.
+
+Consultant 12:58
+What was in those six hundred plants, roughly, by the time they went in the skip?
+
+Rasmus Wrenfield 13:03
+Pot, soil, the liner, the labour to pot on, three months of water and feed. Fifteen dollars each is conservative. Call it nine thousand in the skip in one afternoon.
+
+Consultant 13:16
+And is that a once-a-year thing or a pattern?
+
+Rasmus Wrenfield 13:19
+It's a pattern. That was the big one. But every autumn we dump. Forty pallets, maybe. I'm guessing at that, I don't count what goes in the skip, I count what's on the bed. Forty pallets at, I don't know, four hundred a pallet in what's in it. Sixteen thousand. That's a guess.
+
+Consultant 13:40
+I'll write it down as a guess. Who else does that touch, when it goes in the skip?
+
+Rasmus Wrenfield 13:45
+The crew, because they potted it and they watch it go in the skip. Gunnar, because he walks past the skip. Ilse, because she's the one who cancelled the order and she
+
+Ilse Salvesen 13:56
+knows. I know. I do.
+
+Consultant 13:58
+What have you tried, to fix it I mean? Between the two sides, sales and growing.
+
+Rasmus Wrenfield 14:03
+We tried a Friday meeting. Me, Teodora, Ilse, half an hour, what's sold, what's coming on.
+
+Consultant 14:09
+And?
+
+Rasmus Wrenfield 14:10
+It lasted till April. Then nobody had half an hour on a
+
+Teodora Okoro 14:14
+Friday. And we tried the stock module in the accounting system. Two years ago. It's got one, it's got a stock thing.
+
+Consultant 14:22
+What happened with that?
+
+Ilse Salvesen 14:24
+I had to type every bed count into it, and Rasmus's counts are by bed and the system wants them by product, so I'd be adding up bed twelve and bed fourteen and bed, whichever, bed twenty to get a number for three-gallon boxwood, and then a customer would order and it'd be wrong anyway because the count was Friday. So I was typing it twice and it was still wrong. It lasted a season.
+
+Rasmus Wrenfield 14:50
+It was worse. Because now the wrong number was in the system, so people
+
+Teodora Okoro 14:55
+believed it. That's exactly it.
+
+Consultant 14:57
+That's a really useful thing to have said, hang on, I want to write that down. The wrong number in the system is worse than no number.
+
+Teodora Okoro 15:02
+Yes.
+
+Consultant 15:04
+Let me ask about why now. You've been doing it this way for a while. What changed? The
+
+Teodora Okoro 15:10
+chain.
+
+Rasmus Wrenfield 15:11
+The chain, yes.
+
+Teodora Okoro 15:13
+So there's a garden centre chain, nine stores, they're about a fifth of our sales. In August they had a supplier review and they put us on notice. Politely. They want a confirmed availability every week, confirmed meaning if it's on the list it's theirs when they order it. And they want a trial in March where they pre-order a season ahead, and if the trial goes they're talking about a hundred and eighty thousand a season in pre-orders, two seasons, and if it doesn't go they've got another supplier down the valley who they keep
+
+Rasmus Wrenfield 15:51
+mentioning. They mention them a lot.
+
+Consultant 15:54
+They said that? The hundred and eighty?
+
+Teodora Okoro 15:57
+Their buyer said it. I'm not counting it till the trial's done. But yes.
+
+Rasmus Wrenfield 16:02
+And if we get it, the blind bit gets worse, not better, because now I'm growing to an order I can't see.
+
+Consultant 16:09
+Say more about that.
+
+Rasmus Wrenfield 16:11
+If they pre-order six thousand hydrangea in March for September, I need to know that in March, and I need to know if they cancel it in July, and today the way I'd know is Ilse walks out and tells
+
+Ilse Salvesen 16:26
+me. Or doesn't.
+
+Rasmus Wrenfield 16:28
+Or doesn't. So the same thing that killed six hundred kills six thousand.
+
+Consultant 16:33
+And is there a date on any of this?
+
+Teodora Okoro 16:36
+The trial's March. So the avail has to be right, actually right, by the first week of February, because that's when they build their spring order. And bid season for the landscapers is January, they're all pricing school jobs and city jobs in January.
+
+Consultant 16:53
+And the boxwood, the April one. Was that part of why you called me, or is it just the one you remember?
+
+Teodora Okoro 16:59
+It's why Gunnar let me call you. He'd have said no in March. The garden centre that hasn't ordered since, he knows the owner, and it was a bad phone
+
+Rasmus Wrenfield 17:09
+call. It was a bad call. I was in the yard office when he took it.
+
+Consultant 17:13
+Okay. That's clear. Ilse, I've heard you say a Monday morning a couple of times. How long does the avail take you to build? Three
+
+Ilse Salvesen 17:21
+hours if the sheets are legible. Four if it rained on Friday.
+
+Rasmus Wrenfield 17:25
+It rains on Friday.
+
+Ilse Salvesen 17:27
+It rains on Friday. And then I do it again on Wednesday for the chain, because they asked for a mid-week one, and that's another two hours, and it's already
+
+Teodora Okoro 17:38
+wrong.
+
+Consultant 17:39
+So five, six hours a week, on the list alone.
+
+Ilse Salvesen 17:42
+On the list alone. Then the pick lists, then the credits, then the changes when the pick list's already printed.
+
+Consultant 17:49
+I won't try to cost your time on the fly, I'd rather do that properly. But it's real time.
+
+Ilse Salvesen 17:54
+It's real time.
+
+Consultant 17:56
+And the drivers. You mentioned paperwork, drivers' paperwork. What comes back from a delivery?
+
+Ilse Salvesen 18:01
+The pick list, signed, with anything refused crossed off. Three drivers, two trucks and a van. They ring me from the road if it's a refusal and I try to find a home for it before they get back, and half the time it comes back and sits on the
+
+Rasmus Wrenfield 18:17
+dock and I find it Monday. Two weeks later, sometimes.
+
+Consultant 18:21
+And the parks departments, are they different?
+
+Ilse Salvesen 18:24
+They want a purchase order number on everything or they won't pay. So Kenji has to chase the number before I can invoice, and that's a separate spreadsheet that only he understands.
+
+Teodora Okoro 18:35
+It's a good spreadsheet. It's just his.
+
+Consultant 18:38
+Teodora, you mentioned quotes earlier, before we started recording properly. The big ones.
+
+Teodora Okoro 18:44
+The plant schedules. Yes. That's the other thing, and it's the thing I'm worst at. A landscaper bidding on a job sends me a plant schedule, a list, and I price it, and then I lose track of it.
+
+Consultant 18:57
+Lose track how?
+
+Teodora Okoro 18:59
+The Ridgemont school. We quoted it in March, a hundred and ten lines, about forty-eight thousand dollars of plants. Gunnar priced it because it was over fifteen. The landscaper won the bid in June. He sent the order in June, and by June the Thuja were gone, four hundred of them, to a garden centre, because nothing on the avail said they were spoken for. So we subbed, and he was fine, but Gunnar had priced them and Gunnar had to eat the
+
+Ilse Salvesen 19:31
+difference.
+
+Consultant 19:32
+How much was the difference?
+
+Teodora Okoro 19:34
+I don't know off the top of my head. Not huge. It was the phone call that was the problem, not the money.
+
+Consultant 19:40
+And who does that touch, when a quote comes back and the plants have moved?
+
+Teodora Okoro 19:45
+Gunnar, because he priced it and he's the one who gets the call. The landscaper, obviously. And Rasmus, because I've now promised his plants twice, once to the landscaper in March and once to whoever bought them in
+
+Rasmus Wrenfield 19:59
+May. Three times, some years.
+
+Consultant 20:02
+Okay. Hold the quotes for a second, I want to come back to them, because I think they're connected to something else. Let me ask a different kind of question. If this worked, a year from now, what does it look like? Each of you. Teodora. I
+
+Teodora Okoro 20:18
+want to say yes to a customer and know it's true. That's it. I want to look at a line and say yes, three hundred, Thursday, and not phone anybody.
+
+Consultant 20:28
+Rasmus.
+
+Rasmus Wrenfield 20:29
+I want to see what's sold before I pot on. And I want to see it on my phone, standing in the tunnel, not on a printout from Friday.
+
+Consultant 20:38
+Ilse.
+
+Ilse Salvesen 20:39
+I want to stop building the avail on a Monday morning by hand. If the counts went in once and the list came out of that, I'd get my Mondays back. And the customers still need to get a list, they're not going to log into anything, they want the
+
+Teodora Okoro 20:57
+email. That's important. They want the email.
+
+Consultant 21:00
+Understood. The list goes out the same way, it just comes from somewhere true. And Gunnar, what would he say, if he were here?
+
+Teodora Okoro 21:08
+He'd say he wants to walk the tunnels with it on a tablet and see bed twelve on the screen and see that it matches bed twelve. That's what he said to me. That's his test.
+
+Consultant 21:19
+That's a good test. I'll write it down as his, from you.
+
+Teodora Okoro 21:22
+From me. He'll tell you himself on the day.
+
+Consultant 21:25
+Let me go back to the quotes, then. Walk me through one from the start. A landscaper sends you a list, a schedule. What happens, step by step, and where does it live?
+
+Teodora Okoro 21:36
+So a landscaper, say it's Bryce at one of the big design-build outfits, he sends me a plant schedule. It's a list, sixty lines, a hundred lines, species, size, quantity, and he wants a price by Friday because his bid's due Monday. I put it in a spreadsheet, I go line by line, I check the avail, I check what Rasmus has coming on, I price it off our list and then I knock it about depending on who it is. Anything over fifteen thousand goes to Gunnar and he prices it himself, on paper, at the kitchen table, and I type it back in. Then it goes out by email and it sits. He might win the bid, he might not, he might win it and not tell me for two months. I find out when the order lands, which can be eight weeks later, and by then half of what I priced has been sold to somebody else. So I've got, what, forty of those live at any one time and they're in my sent folder. That's the system, the sent folder. If Kenji needs to know what we've quoted he asks me and I search my email, and if I'm out he waits. And who actually signs off on a change like this, if it's not you, is that Gunnar. It's Gunnar. Anything over ten thousand a year on a system, or anything that touches the accounting side, that's him, he signs it. But he's told us, and Teodora you were in the room for this, that he wants the two of us to pick it, he doesn't want to pick it, he wants to walk the tunnels with it on a tablet and see the bed counts on it, that's his test, if he can see bed twelve on the screen and it matches what's in bed twelve, he'll sign. Yes, that's what he said. And he said if it's under ten for the year he doesn't need to be in the room at all, over that he does, and I think he'd want Yolanda to look at it too because of the accounting side. Yolanda's our bookkeeper, she's in Tuesdays and Thursdays. Okay. So under ten a year the two of you decide, over ten Gunnar is in the room, and the bookkeeper looks at anything that touches the accounting system. That's right. And he wants to see bed twelve. He does. He really does.
+
+Consultant 24:31
+Let me make sure I've got that, and I'll check it with Gunnar himself in person, because I'd rather hear the threshold from him than write it down from a call he wasn't on.
+
+Teodora Okoro 24:40
+He'll tell you. He likes telling people.
+
+Consultant 24:43
+The quotes, then. Sorry, I said I'd come back to the quotes. Forty live at a time, in your sent folder, and the connection to the avail is you, checking by hand at the moment you price it and never again.
+
+Teodora Okoro 24:54
+Never again. That's exactly it. It's fine on the day I price it and then it
+
+Rasmus Wrenfield 24:59
+drifts. And nobody tells me a quote went out. So I could be holding four hundred Thuja for a bid that lost, or I could sell them to a garden centre and the bid wins. I don't know which.
+
+Consultant 25:12
+And there's no number on the quotes side. We've got a number on the subs and a number on the skip, but not on the quotes.
+
+Teodora Okoro 25:19
+No. I wouldn't know how to put one on it. The Ridgemont one cost a phone call.
+
+Consultant 25:24
+That's fine, I'd rather have no number than a made-up one. Let me try the sum, then, on the two we've got, and you tell me if it's wrong. Two-thirds of thirty-one, so about twenty. Twenty-five hours a week at thirty-four, forty-four two. And Rasmus's guess at the skip, sixteen.
+
+Teodora Okoro 25:43
+So twenty, forty-four, sixteen. Eighty thousand. Call it eighty.
+
+Consultant 25:49
+Does eighty feel right, or does it feel light or heavy?
+
+Teodora Okoro 25:52
+It feels light, because it doesn't have Ilse's Mondays in it, and it doesn't have Gunnar's time, and it doesn't have the garden centre that stopped ordering. But it's what I can stand behind. Eighty, and it's light.
+
+Rasmus Wrenfield 26:06
+And the sixteen's a guess. I said that.
+
+Consultant 26:09
+The sixteen's a guess and it stays a guess. I'll write eighty, light, with the guess marked. And the upside, I've got the chain at a hundred and eighty a season if the trial goes, which you're not
+
+Teodora Okoro 26:21
+counting. Which I'm not counting. No.
+
+Consultant 26:24
+Anything else on the upside? If the avail were right, what else changes?
+
+Teodora Okoro 26:29
+I'd sell more. I don't know how much more. I'd spend the morning selling instead of walking, and I'd say yes to the things I currently say let me check to, let me check and I'll ring you back, and some of those go elsewhere while I'm checking. I couldn't put a number on it and I'm not going to.
+
+Consultant 26:45
+That's fine. Let me ask about timing and priority, then. If you could only have one piece of this by February, which piece? The
+
+Teodora Okoro 26:53
+avail. If the avail is right, the rest follows.
+
+Rasmus Wrenfield 26:57
+The avail, but the avail is only right if the counts come from the beds, from my leads, on their phones. If it's Ilse typing up Friday's clipboard it's the same thing with a different
+
+Ilse Salvesen 27:10
+screen. I'd agree with that, and I'm the one it saves.
+
+Consultant 27:13
+So bed counts from a phone, in the tunnel, and the list comes out of that, the list just comes out of that. Then orders against it. Then the quotes.
+
+Teodora Okoro 27:21
+Avail, orders, quotes. In that order. The quotes can wait till after bid season if they have to, I've lived with the sent folder for six years.
+
+Consultant 27:30
+And what's the date the avail has to be right by?
+
+Teodora Okoro 27:33
+First week of February. The chain builds their spring order the second week.
+
+Consultant 27:38
+And the March trial?
+
+Teodora Okoro 27:40
+March. If the avail is right in February the trial is just the avail with a longer list on it.
+
+Consultant 27:46
+Okay. What would get in the way? Be honest with me. What stops this, or what makes it another stock module? My
+
+Rasmus Wrenfield 27:54
+leads will not sit at a computer. Phone, yes. They'll take a photo, they'll type a number into a phone. Computer, no. If any of this needs a lead at a desk it's dead.
+
+Ilse Salvesen 28:06
+And the accounting system stays. I invoice out of it, the accountant does the year end out of it, Gunnar reads the reports out of it. I'm not moving
+
+Consultant 28:16
+invoicing. Understood. Nothing I'd propose touches invoicing. The accounting system stays the accounting system.
+
+Ilse Salvesen 28:22
+Good. Because Gunnar will say we can do this in the spreadsheet. He'll say it. He said it about the stock module.
+
+Teodora Okoro 28:29
+He will say it. And then he'll say what does it cost, and if it costs more than the credits it's a hard sell to him. I'm telling you that now.
+
+Consultant 28:38
+I'd rather you did. When we get to cost, and that's not today, it'll be a conversation with him in the room, not a number in an email.
+
+Teodora Okoro 28:46
+Can you just send us something with a number on it, though? For Gunnar. He reads numbers.
+
+Consultant 28:51
+Not before he's seen it work, and not before we've agreed what it is. That's not me being cagey, it's, it's that a number for a thing we haven't agreed is a number he'll argue with. Let's get him in front of it first.
+
+Teodora Okoro 29:03
+Fair.
+
+Rasmus Wrenfield 29:04
+And November. Don't touch us in November. We're lifting field stock, it's forty people in the mud, nobody's learning anything in November.
+
+Consultant 29:13
+November's out. What about the seasonal crew, do they touch any of this?
+
+Rasmus Wrenfield 29:18
+No. The leads count, the crew don't. The crew pull orders off a pick list and that's it. If the pick list is on a phone that's fine, they've all got phones, everybody's got a phone, but they don't enter
+
+Ilse Salvesen 29:31
+anything. And they're a different forty people every spring, so whatever it is, it can't need training.
+
+Consultant 29:37
+Right. Anything else in the way? People, systems, anything you're not saying?
+
+Teodora Okoro 29:43
+Kenji. He's good, but he's twenty-four and he's got his own system, he's got a free task app on his phone with his own list of who wants what, and if this replaces that he'll fight it quietly.
+
+Consultant 29:56
+Quietly is the hard kind. I'll want to meet him.
+
+Teodora Okoro 29:59
+You should.
+
+Consultant 30:01
+Any monday in the building today? Anything at all, even a free account somebody started and forgot?
+
+Teodora Okoro 30:07
+We've got nothing like that. Kenji has a free task app on his phone for his own list, and that's it. Gunnar has a clipboard.
+
+Rasmus Wrenfield 30:15
+Gunnar has the clipboard.
+
+Consultant 30:17
+Okay. So we'd be starting clean, and I'll ask about which account and who runs it when we get there. Let me play back what I'd put in a first version. Just to show you, not to sign. Availability first, so, availability first: bed counts entered from a phone in the tunnel by the leads, by bed, and rolled up, rolled up by product and size, so the list is true the moment the count is, the moment the count goes in. The avail still goes out to customers as an emailed list every Monday, it just comes from that. Then orders and reservations against the same lines, so when Kenji confirms three hundred, the line drops by three hundred for everyone, and Rasmus sees what's sold from the tunnel. Then the quotes, so a plant schedule that's out is visible against the same stock and Rasmus knows what's promised. The accounting system stays where it is for invoicing. That's the shape. Does that sound like the right first cut, or have I got the order wrong?
+
+Teodora Okoro 31:14
+That's the right order. Avail first, then orders, then quotes.
+
+Rasmus Wrenfield 31:18
+And the counts from the phone, by bed. Not by product. I count beds.
+
+Consultant 31:22
+By bed, rolled up. I heard that.
+
+Ilse Salvesen 31:25
+And the customers still get the email.
+
+Consultant 31:27
+Still get the email.
+
+Teodora Okoro 31:29
+And I don't want to agree to anything for Gunnar. That's the right first cut to show him. He decides what we sign up for, and I mean that as how it works here, not as me hedging.
+
+Consultant 31:40
+Understood, and that's the right way round. So the next step is that he sees it. When could the four of you, him included, look at a first version? I'd want forty-five minutes, and I'd rather it was there than on a call, so he can walk it into the tunnel. Tuesdays.
+
+Teodora Okoro 31:55
+He's always here on a Tuesday afternoon, he does the bank run in the
+
+Rasmus Wrenfield 32:00
+morning. Tuesday the thirteenth. After the last truck's back. Four.
+
+Teodora Okoro 32:04
+Four on the thirteenth works. Ilse?
+
+Ilse Salvesen 32:06
+Four's fine. Yolanda's in on a Tuesday too, if you want her.
+
+Consultant 32:10
+I'd like her there for the accounting question, if she's willing. Tuesday the thirteenth at four, at the nursery, forty-five minutes. I'll send the invite to the three of you today, and Teodora, you'll forward it to Gunnar?
+
+Teodora Okoro 32:22
+I'll forward it. And I'll tell him it's a conversation, not a sales pitch, or he'll come in with his arms folded.
+
+Consultant 32:28
+Please do. Two things I'd ask for before then, if you can, two small things. Ilse, could you send me the avail spreadsheet as it goes out, and the credits list for the year, with the customer names and the amounts taken off? I just want the shape of it.
+
+Ilse Salvesen 32:42
+I can send the avail today. The credits, give me till Friday, I'll take the names off.
+
+Consultant 32:47
+Perfect. And Rasmus, do you have a bed map, a plan? Anything that says which bed is where.
+
+Rasmus Wrenfield 32:52
+There's a drawing on the wall of the yard office. I'll take a photo of it and text it to you. It's twenty years old but the beds haven't
+
+Ilse Salvesen 33:01
+moved. They haven't. The numbers are still on the posts.
+
+Consultant 33:04
+That's all I need. And I'll send a short recap tomorrow, what I heard and the next steps, so you can correct me. I'll put Gunnar on it if you're comfortable with that.
+
+Teodora Okoro 33:14
+Put him on it. He'll read it. He reads everything, he just doesn't reply.
+
+Consultant 33:19
+Noted. Anything I haven't asked that I should have?
+
+Rasmus Wrenfield 33:23
+Just that it has to work in the rain. I'm not being funny. Phones in the rain, gloves, the whole thing. If it needs a dry hand it's dead.
+
+Consultant 33:32
+That's a real requirement and I'll write it down as one.
+
+Ilse Salvesen 33:35
+And I'd like to be the one who runs it, if that's a thing somebody has to do. Not Kenji. Me.
+
+Teodora Okoro 33:41
+Ilse should run it.
+
+Consultant 33:43
+Then Ilse runs it. Thank you, all three of you, that was genuinely useful. I'll see you on the thirteenth, and Rasmus, thanks for the gravel.
+
+Rasmus Wrenfield 33:51
+Any time. It's free.
+
+Teodora Okoro 33:53
+Thanks. Bye.
+
+Ilse Salvesen 33:54
+Bye.

@@ -1,0 +1,52 @@
+{
+  "goals": [
+    {
+      "id": "G1",
+      "goal": "Copperline's forty-one stores: first goes in January eleventh, last done by end of March",
+      "quote": "Forty-one stores, full rebrand, exterior and interior, first store goes in the week of January eleventh and the last one has to be done by the end of March.",
+      "location": "00:30:37 Ingrid Sallinen (Operations Director)",
+      "speaker_role": "Operations Director",
+      "pains": ["P1.1", "P1.2", "P4.1"]
+    },
+    {
+      "id": "G2",
+      "goal": "A crew sees a change on their phone before they leave the yard",
+      "quote": "I want a crew to see a change on their phone before they leave the yard.",
+      "location": "00:37:03 Reuben Castellanos (Production Manager)",
+      "speaker_role": "Production Manager",
+      "pains": ["P1.1", "P1.2"]
+    },
+    {
+      "id": "G3",
+      "goal": "Stop being the person who knows where every permit is",
+      "quote": "I want to stop being the person who knows where every permit is.",
+      "location": "00:37:17 Noor Abdelrazek (Project Coordinator)",
+      "speaker_role": "Project Coordinator",
+      "pains": ["P3.1", "P3.2", "P6.1"]
+    },
+    {
+      "id": "G4",
+      "goal": "Open one thing on Monday: what's going out this week, what's stuck and why",
+      "quote": "I want to open one thing on Monday and know what's going out this week and what's stuck and why.",
+      "location": "00:37:29 Ingrid Sallinen (Operations Director)",
+      "speaker_role": "Operations Director",
+      "pains": ["P4.1", "P4.2", "P1.3"]
+    }
+  ],
+  "assumption_kinds": [
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "gap",
+    "gap",
+    "leaning",
+    "gap",
+    "leaning",
+    "leaning",
+    "leaning"
+  ],
+  "note_add": null
+}

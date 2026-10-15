@@ -1,0 +1,1382 @@
+{
+  "fixture": "s9-followup-no-portfolio-unlabelled",
+  "sources": [
+    {
+      "name": "context-v0.1.md",
+      "kind": "context",
+      "format": "context",
+      "units": 41,
+      "unsupported": null
+    },
+    {
+      "name": "transcript.txt",
+      "kind": "transcript",
+      "format": "paragraph",
+      "units": 119,
+      "unsupported": null
+    }
+  ],
+  "counts": {
+    "pairs": 172,
+    "verified": 172,
+    "verified_presence_only": 36,
+    "skipped": 0,
+    "unparsed_prose": 0,
+    "near_misses": 0,
+    "misses": 0,
+    "unsupported": 0,
+    "warnings": 0
+  },
+  "refused_quotes_not_checked": [],
+  "skipped": [],
+  "pairs": [
+    {
+      "path": "/rubric[0]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "He will not give anybody a live connection into Sage this year and I'd stop pushing on it.",
+      "location": "paragraph 75, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L149, paragraph 75"
+    },
+    {
+      "path": "/rubric[0]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "he already produces a job cost report on the eleventh or twelfth and he doesn't much care if somebody uploads it somewhere",
+      "location": "paragraph 75, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L149, paragraph 75"
+    },
+    {
+      "path": "/rubric[0]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "He has the questionnaire, he's about halfway through it",
+      "location": "paragraph 79, [00:17:45], inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L157, paragraph 79, 00:17:45"
+    },
+    {
+      "path": "/rubric[0]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "You're missing the preconstruction handover meeting",
+      "location": "paragraph 70, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L139, paragraph 70"
+    },
+    {
+      "path": "/rubric[0]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "The equipment one is shorter and it's a completely different list.",
+      "location": "paragraph 70, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L139, paragraph 70"
+    },
+    {
+      "path": "/rubric[0]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "The actuals are history. My forecast is the job.",
+      "location": "paragraph 77, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L153, paragraph 77"
+    },
+    {
+      "path": "/rubric[1]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "a green row turned out not to be green",
+      "location": "paragraph 50, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L99, paragraph 50"
+    },
+    {
+      "path": "/rubric[1]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "There's no difference between I've asked for Junie and I've got Junie.",
+      "location": "paragraph 59, inferred Ines Kovalenko (speaker unclear)",
+      "cited": "transcript.txt, L117, paragraph 59"
+    },
+    {
+      "path": "/rubric[1]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "That's the whole June thing.",
+      "location": "paragraph 59, inferred Ines Kovalenko (speaker unclear)",
+      "cited": "transcript.txt, L117, paragraph 59"
+    },
+    {
+      "path": "/rubric[2]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "that's enough for the fifteenth",
+      "location": "paragraph 25, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L49, paragraph 25"
+    },
+    {
+      "path": "/rubric[2]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "But it gets me through January.",
+      "location": "paragraph 25, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L49, paragraph 25"
+    },
+    {
+      "path": "/rubric[2]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "That hasn't moved, and November hasn't moved either.",
+      "location": "paragraph 99, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L197, paragraph 99"
+    },
+    {
+      "path": "/rubric[2]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "The Waverly MRI starts the first week of December",
+      "location": "paragraph 66, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L131, paragraph 66"
+    },
+    {
+      "path": "/rubric[3]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "it's two and a half, not four",
+      "location": "paragraph 87, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L173, paragraph 87"
+    },
+    {
+      "path": "/rubric[3]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I'd been counting the OAC prep in it, and I'd do that anyway, so it isn't fair to count it.",
+      "location": "paragraph 87, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L173, paragraph 87"
+    },
+    {
+      "path": "/rubric[3]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And I'm confident about it because this time I actually wrote it down.",
+      "location": "paragraph 89, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L177, paragraph 89"
+    },
+    {
+      "path": "/rubric[3]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Nobody else tracked anything.",
+      "location": "paragraph 91, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L181, paragraph 91"
+    },
+    {
+      "path": "/rubric[3]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "But I also can't sit here and defend four, because I gave you four off the top of my head and now the one person who measured it says it's less.",
+      "location": "paragraph 91, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L181, paragraph 91"
+    },
+    {
+      "path": "/rubric[3]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "I'll ask them this week.",
+      "location": "paragraph 95, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L189, paragraph 95"
+    },
+    {
+      "path": "/rubric[4]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I've still got the two PMs in the November number and I'd still hold one of them.",
+      "location": "paragraph 97, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L193, paragraph 97"
+    },
+    {
+      "path": "/rubric[5]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The fourteen have to be putting their forecast in the thing rather than in their own file",
+      "location": "paragraph 19, [00:04:10], inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L37, paragraph 19, 00:04:10"
+    },
+    {
+      "path": "/rubric[5]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And I want one full month where I haven't had to email anybody for a status.",
+      "location": "paragraph 19, [00:04:10], inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L37, paragraph 19, 00:04:10"
+    },
+    {
+      "path": "/rubric[5]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "No, I still want my own screen.",
+      "location": "paragraph 33, [00:07:55], inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L65, paragraph 33, 00:07:55"
+    },
+    {
+      "path": "/rubric[5]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "The actuals are history. My forecast is the job.",
+      "location": "paragraph 77, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L153, paragraph 77"
+    },
+    {
+      "path": "/rubric[6]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "He will not give anybody a live connection into Sage this year and I'd stop pushing on it.",
+      "location": "paragraph 75, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L149, paragraph 75"
+    },
+    {
+      "path": "/rubric[6]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "He has the questionnaire, he's about halfway through it",
+      "location": "paragraph 79, [00:17:45], inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L157, paragraph 79, 00:17:45"
+    },
+    {
+      "path": "/rubric[6]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "That's how it has to be. He'd find out. He always finds out.",
+      "location": "paragraph 81, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L161, paragraph 81"
+    },
+    {
+      "path": "/rubric[6]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "That hasn't moved, and November hasn't moved either.",
+      "location": "paragraph 99, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L197, paragraph 99"
+    },
+    {
+      "path": "/rubric[7]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And we revisit the portfolio layer next quarter, once there's something real underneath it.",
+      "location": "paragraph 17, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L33, paragraph 17"
+    },
+    {
+      "path": "/rubric[7]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "After the fifteenth. Let me get through Cumberland first.",
+      "location": "paragraph 23, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L45, paragraph 23"
+    },
+    {
+      "path": "/rubric[7]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I'm not going to pin a date on it today.",
+      "location": "paragraph 23, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L45, paragraph 23"
+    },
+    {
+      "path": "/rubric[7]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "But I need the equipment one sooner than I thought.",
+      "location": "paragraph 66, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L131, paragraph 66"
+    },
+    {
+      "path": "/rubric[8]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "leadership isn't ready for the portfolio layer",
+      "location": "paragraph 17, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L33, paragraph 17"
+    },
+    {
+      "path": "/rubric[8]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "the forty things underneath it are fourteen people's spreadsheets",
+      "location": "paragraph 13, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L25, paragraph 13"
+    },
+    {
+      "path": "/rubric[8]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "If I ask them to do both, you'll be back here in March explaining why nobody logged in.",
+      "location": "paragraph 107, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L213, paragraph 107"
+    },
+    {
+      "path": "/rubric[8]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "It's not fine for me saying yes to it.",
+      "location": "paragraph 73, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L145, paragraph 73"
+    },
+    {
+      "path": "/rubric[9]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Thursday the fifteenth?",
+      "location": "paragraph 113, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L225, paragraph 113"
+    },
+    {
+      "path": "/rubric[9]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Morning OAC. After eleven I'm clear.",
+      "location": "paragraph 114, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L227, paragraph 114"
+    },
+    {
+      "path": "/rubric[9]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Eleven thirty Eastern on Thursday the fifteenth",
+      "location": "paragraph 115, inferred Consultant (speaker unclear)",
+      "cited": "transcript.txt, L229, paragraph 115"
+    },
+    {
+      "path": "/rubric[9]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "I'll send the invite this afternoon.",
+      "location": "paragraph 115, inferred Consultant (speaker unclear)",
+      "cited": "transcript.txt, L229, paragraph 115"
+    },
+    {
+      "path": "/rubric[9]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "It works.",
+      "location": "paragraph 116, inferred Ines Kovalenko (speaker unclear)",
+      "cited": "transcript.txt, L231, paragraph 116"
+    },
+    {
+      "path": "/rubric[10]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "that's the grid basically, except everybody can see it",
+      "location": "paragraph 54, [00:11:20], inferred Ines Kovalenko (speaker unclear)",
+      "cited": "transcript.txt, L107, paragraph 54, 00:11:20"
+    },
+    {
+      "path": "/rubric[10]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "it took me about eleven seconds, and it was right",
+      "location": "paragraph 55, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L109, paragraph 55"
+    },
+    {
+      "path": "/rubric[10]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "That's the first time in four years anybody has done that.",
+      "location": "paragraph 55, inferred Ines Kovalenko (speaker unclear)",
+      "cited": "transcript.txt, L109, paragraph 55"
+    },
+    {
+      "path": "/rubric[10]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "It's closer than I expected.",
+      "location": "paragraph 40, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L79, paragraph 40"
+    },
+    {
+      "path": "/rubric[10]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "It's not fine for me saying yes to it.",
+      "location": "paragraph 73, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L145, paragraph 73"
+    },
+    {
+      "path": "/rubric[11]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I'm asking you not to build it yet.",
+      "location": "paragraph 17, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L33, paragraph 17"
+    },
+    {
+      "path": "/rubric[11]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "you've taken the portfolio out of the first phase and added a template to it",
+      "location": "paragraph 100, inferred Consultant (speaker unclear)",
+      "cited": "transcript.txt, L199, paragraph 100"
+    },
+    {
+      "path": "/rubric[11]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "That's the list.",
+      "location": "paragraph 111, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L221, paragraph 111"
+    },
+    {
+      "path": "/rubric[11]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Put it in the scope.",
+      "location": "paragraph 109, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L217, paragraph 109"
+    },
+    {
+      "path": "/rubric[12]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "a green row turned out not to be green",
+      "location": "paragraph 50, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L99, paragraph 50"
+    },
+    {
+      "path": "/rubric[12]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "all I've really done is make the summary page prettier and faster",
+      "location": "paragraph 13, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L25, paragraph 13"
+    },
+    {
+      "path": "/rubric[14]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And I want one full month where I haven't had to email anybody for a status.",
+      "location": "paragraph 19, [00:04:10], inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L37, paragraph 19, 00:04:10"
+    },
+    {
+      "path": "/rubric[15]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "the forty things underneath it are fourteen people's spreadsheets",
+      "location": "paragraph 13, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L25, paragraph 13"
+    },
+    {
+      "path": "/rubric[16]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "it's two and a half, not four",
+      "location": "paragraph 87, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L173, paragraph 87"
+    },
+    {
+      "path": "/rubric[16]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "But I also can't sit here and defend four, because I gave you four off the top of my head and now the one person who measured it says it's less.",
+      "location": "paragraph 91, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L181, paragraph 91"
+    },
+    {
+      "path": "/rubric[18]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "There's no difference between I've asked for Junie and I've got Junie.",
+      "location": "paragraph 59, inferred Ines Kovalenko (speaker unclear)",
+      "cited": "transcript.txt, L117, paragraph 59"
+    },
+    {
+      "path": "/rubric[18]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "the answer is four names, and then it's a scheduling problem",
+      "location": "paragraph 57, inferred Ines Kovalenko (speaker unclear)",
+      "cited": "transcript.txt, L113, paragraph 57"
+    },
+    {
+      "path": "/rubric[19]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "That's the whole June thing.",
+      "location": "paragraph 59, inferred Ines Kovalenko (speaker unclear)",
+      "cited": "transcript.txt, L117, paragraph 59"
+    },
+    {
+      "path": "/rubric[19]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I was right, by the way.",
+      "location": "paragraph 60, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L119, paragraph 60"
+    },
+    {
+      "path": "/rubric[20]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "that's the grid basically, except everybody can see it",
+      "location": "paragraph 54, [00:11:20], inferred Ines Kovalenko (speaker unclear)",
+      "cited": "transcript.txt, L107, paragraph 54, 00:11:20"
+    },
+    {
+      "path": "/rubric[20]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I'm off the week of Thanksgiving.",
+      "location": "paragraph 63, inferred Ines Kovalenko (speaker unclear)",
+      "cited": "transcript.txt, L125, paragraph 63"
+    },
+    {
+      "path": "/rubric[21]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "it took me about eleven seconds, and it was right",
+      "location": "paragraph 55, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L109, paragraph 55"
+    },
+    {
+      "path": "/rubric[21]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "That's the first time in four years anybody has done that.",
+      "location": "paragraph 55, inferred Ines Kovalenko (speaker unclear)",
+      "cited": "transcript.txt, L109, paragraph 55"
+    },
+    {
+      "path": "/rubric[24]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The actuals are history. My forecast is the job.",
+      "location": "paragraph 77, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L153, paragraph 77"
+    },
+    {
+      "path": "/rubric[26]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "he already produces a job cost report on the eleventh or twelfth and he doesn't much care if somebody uploads it somewhere",
+      "location": "paragraph 75, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L149, paragraph 75"
+    },
+    {
+      "path": "/rubric[30]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "You're missing the preconstruction handover meeting",
+      "location": "paragraph 70, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L139, paragraph 70"
+    },
+    {
+      "path": "/rubric[30]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I'll send you my master version and Warren's version",
+      "location": "paragraph 71, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L141, paragraph 71"
+    },
+    {
+      "path": "/rubric[32]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The equipment one is shorter and it's a completely different list.",
+      "location": "paragraph 70, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L139, paragraph 70"
+    },
+    {
+      "path": "/rubric[33]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "But the PM isn't the one who walks it to their nurse.",
+      "location": "paragraph 83, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L165, paragraph 83"
+    },
+    {
+      "path": "/pains[0]/quote",
+      "status": "verified",
+      "quote": "the forty things underneath it are fourteen people's spreadsheets",
+      "location": "paragraph 13, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L25, paragraph 13"
+    },
+    {
+      "path": "/pains[1]/quote",
+      "status": "verified",
+      "quote": "all I've really done is make the summary page prettier and faster",
+      "location": "paragraph 13, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L25, paragraph 13"
+    },
+    {
+      "path": "/pains[2]/quote",
+      "status": "verified",
+      "quote": "a green row turned out not to be green",
+      "location": "paragraph 50, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L99, paragraph 50"
+    },
+    {
+      "path": "/pains[3]/quote",
+      "status": "verified",
+      "quote": "If a PM moves his job from yellow to green, I want to know who did that and when.",
+      "location": "paragraph 48, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L95, paragraph 48"
+    },
+    {
+      "path": "/pains[4]/quote",
+      "status": "verified",
+      "quote": "I couldn't find that anywhere on the board.",
+      "location": "paragraph 48, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L95, paragraph 48"
+    },
+    {
+      "path": "/pains[5]/quote",
+      "status": "verified",
+      "quote": "There's no difference between I've asked for Junie and I've got Junie.",
+      "location": "paragraph 59, inferred Ines Kovalenko (speaker unclear)",
+      "cited": "transcript.txt, L117, paragraph 59"
+    },
+    {
+      "path": "/pains[6]/quote",
+      "status": "verified",
+      "quote": "the answer is four names, and then it's a scheduling problem",
+      "location": "paragraph 57, inferred Ines Kovalenko (speaker unclear)",
+      "cited": "transcript.txt, L113, paragraph 57"
+    },
+    {
+      "path": "/pains[7]/quote",
+      "status": "verified",
+      "quote": "I'm off the week of Thanksgiving.",
+      "location": "paragraph 63, inferred Ines Kovalenko (speaker unclear)",
+      "cited": "transcript.txt, L125, paragraph 63"
+    },
+    {
+      "path": "/pains[8]/quote",
+      "status": "verified",
+      "quote": "It's a good-looking screen with made-up money on it.",
+      "location": "paragraph 73, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L145, paragraph 73"
+    },
+    {
+      "path": "/pains[9]/quote",
+      "status": "verified",
+      "quote": "He will not give anybody a live connection into Sage this year and I'd stop pushing on it.",
+      "location": "paragraph 75, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L149, paragraph 75"
+    },
+    {
+      "path": "/pains[10]/quote",
+      "status": "verified",
+      "quote": "Because it's a number I make up.",
+      "location": "paragraph 42, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L83, paragraph 42"
+    },
+    {
+      "path": "/pains[11]/quote",
+      "status": "verified",
+      "quote": "You're missing the preconstruction handover meeting",
+      "location": "paragraph 70, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L139, paragraph 70"
+    },
+    {
+      "path": "/pains[12]/quote",
+      "status": "verified",
+      "quote": "The equipment one is shorter and it's a completely different list.",
+      "location": "paragraph 70, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L139, paragraph 70"
+    },
+    {
+      "path": "/pains[13]/quote",
+      "status": "verified",
+      "quote": "But the PM isn't the one who walks it to their nurse.",
+      "location": "paragraph 83, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L165, paragraph 83"
+    },
+    {
+      "path": "/pains[14]/quote",
+      "status": "verified",
+      "quote": "They want the history.",
+      "location": "paragraph 45, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L89, paragraph 45"
+    },
+    {
+      "path": "/numbers/bleed/quote",
+      "status": "verified",
+      "quote": "it's two and a half, not four",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L173, paragraph 87"
+      ]
+    },
+    {
+      "path": "/numbers/upside/quote",
+      "status": "verified",
+      "quote": "I've still got the two PMs in the November number and I'd still hold one of them.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L193, paragraph 97"
+      ]
+    },
+    {
+      "path": "/objections[0]/quote",
+      "status": "verified",
+      "quote": "I'm asking you not to build it yet.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L33, paragraph 17"
+      ]
+    },
+    {
+      "path": "/objections[1]/quote",
+      "status": "verified",
+      "quote": "the forty things underneath it are fourteen people's spreadsheets",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L25, paragraph 13"
+      ]
+    },
+    {
+      "path": "/objections[2]/quote",
+      "status": "verified",
+      "quote": "If I ask them to do both, you'll be back here in March explaining why nobody logged in.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L213, paragraph 107"
+      ]
+    },
+    {
+      "path": "/objections[3]/quote",
+      "status": "verified",
+      "quote": "The fourteen have to be putting their forecast in the thing rather than in their own file",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L37, paragraph 19, 00:04:10"
+      ]
+    },
+    {
+      "path": "/objections[4]/quote",
+      "status": "verified",
+      "quote": "It's not fine for me saying yes to it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L145, paragraph 73"
+      ]
+    },
+    {
+      "path": "/objections[5]/quote",
+      "status": "verified",
+      "quote": "He will not give anybody a live connection into Sage this year and I'd stop pushing on it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L149, paragraph 75"
+      ]
+    },
+    {
+      "path": "/objections[6]/quote",
+      "status": "verified",
+      "quote": "That hasn't moved, and November hasn't moved either.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L197, paragraph 99"
+      ]
+    },
+    {
+      "path": "/objections[7]/quote",
+      "status": "verified",
+      "quote": "Which is more than we did after the Nashville lot came in, for whatever that's worth to you.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L13, paragraph 7"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[0]/quote",
+      "status": "verified",
+      "quote": "Eleven thirty Eastern on Thursday the fifteenth",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L229, paragraph 115"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[1]/quote",
+      "status": "verified",
+      "quote": "I'll send the invite this afternoon.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L229, paragraph 115"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[2]/quote",
+      "status": "verified",
+      "quote": "I'll ask them this week.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L189, paragraph 95"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[3]/quote",
+      "status": "verified",
+      "quote": "And I'll have Nadine and Ruben before then.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L233, paragraph 117"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[4]/quote",
+      "status": "verified",
+      "quote": "The scope you'll get this week",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L199, paragraph 100"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[5]/quote",
+      "status": "verified",
+      "quote": "I'll get him what he needs this week.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L159, paragraph 80"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[6]/quote",
+      "status": "verified",
+      "quote": "I'll send you my master version and Warren's version",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L141, paragraph 71"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[7]/quote",
+      "status": "verified",
+      "quote": "And write down that it was my decision and not yours",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L41, paragraph 21"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[8]/quote",
+      "status": "verified",
+      "quote": "That's fine. I'll do it that week.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L127, paragraph 64"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[9]/quote",
+      "status": "verified",
+      "quote": "Let me carry that one",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L57, paragraph 29"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[10]/quote",
+      "status": "verified",
+      "quote": "Put it in the scope.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L217, paragraph 109"
+      ]
+    },
+    {
+      "path": "/requested_changes[0]/quote",
+      "status": "verified",
+      "quote": "I'm asking you not to build it yet.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L33, paragraph 17"
+      ]
+    },
+    {
+      "path": "/requested_changes[1]/quote",
+      "status": "verified",
+      "quote": "That's what I'd want. I'm not paying for it twice.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L61, paragraph 31"
+      ]
+    },
+    {
+      "path": "/requested_changes[2]/quote",
+      "status": "verified",
+      "quote": "No, I still want my own screen.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L65, paragraph 33, 00:07:55"
+      ]
+    },
+    {
+      "path": "/requested_changes[3]/quote",
+      "status": "verified",
+      "quote": "Keep it. Just don't put it on a wall.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L75, paragraph 38"
+      ]
+    },
+    {
+      "path": "/requested_changes[4]/quote",
+      "status": "verified",
+      "quote": "You've got a percent complete field on there and I'd take it off.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L79, paragraph 40"
+      ]
+    },
+    {
+      "path": "/requested_changes[5]/quote",
+      "status": "verified",
+      "quote": "They want the history.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L89, paragraph 45"
+      ]
+    },
+    {
+      "path": "/requested_changes[6]/quote",
+      "status": "verified",
+      "quote": "If a PM moves his job from yellow to green, I want to know who did that and when.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L95, paragraph 48"
+      ]
+    },
+    {
+      "path": "/requested_changes[7]/quote",
+      "status": "verified",
+      "quote": "I want to look at just those four.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L113, paragraph 57"
+      ]
+    },
+    {
+      "path": "/requested_changes[8]/quote",
+      "status": "verified",
+      "quote": "There's no difference between I've asked for Junie and I've got Junie.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L117, paragraph 59"
+      ]
+    },
+    {
+      "path": "/requested_changes[9]/quote",
+      "status": "verified",
+      "quote": "But I need the equipment one sooner than I thought.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L131, paragraph 66"
+      ]
+    },
+    {
+      "path": "/requested_changes[10]/quote",
+      "status": "verified",
+      "quote": "You're missing the preconstruction handover meeting",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L139, paragraph 70"
+      ]
+    },
+    {
+      "path": "/requested_changes[11]/quote",
+      "status": "verified",
+      "quote": "he already produces a job cost report on the eleventh or twelfth and he doesn't much care if somebody uploads it somewhere",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L149, paragraph 75"
+      ]
+    },
+    {
+      "path": "/requested_changes[12]/quote",
+      "status": "verified",
+      "quote": "Send it to both of them and copy her.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L165, paragraph 83"
+      ]
+    },
+    {
+      "path": "/requested_changes[13]/quote",
+      "status": "verified",
+      "quote": "The Monday status email is retired at go-live.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L217, paragraph 109"
+      ]
+    },
+    {
+      "path": "/account_context/evidence_quote_or_null",
+      "status": "verified",
+      "quote": "how many of the two hundred and twenty enterprise seats it eats",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L157, paragraph 79, 00:17:45"
+      ]
+    },
+    {
+      "path": "/readiness/goals[0]/quote",
+      "status": "verified",
+      "quote": "Standardized, the same for everybody, actually used by the fourteen.",
+      "location": "paragraph 17, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L33, paragraph 17"
+    },
+    {
+      "path": "/readiness/goals[1]/quote",
+      "status": "verified",
+      "quote": "And I want one full month where I haven't had to email anybody for a status.",
+      "location": "paragraph 19, [00:04:10], inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L37, paragraph 19, 00:04:10"
+    },
+    {
+      "path": "/readiness/goals[2]/quote",
+      "status": "verified",
+      "quote": "No, I still want my own screen.",
+      "location": "paragraph 33, [00:07:55], inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L65, paragraph 33, 00:07:55"
+    },
+    {
+      "path": "/readiness/pains[0]/quote",
+      "status": "verified",
+      "quote": "the forty things underneath it are fourteen people's spreadsheets",
+      "location": "paragraph 13, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L25, paragraph 13"
+    },
+    {
+      "path": "/readiness/pains[1]/quote",
+      "status": "verified",
+      "quote": "all I've really done is make the summary page prettier and faster",
+      "location": "paragraph 13, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L25, paragraph 13"
+    },
+    {
+      "path": "/readiness/pains[2]/quote",
+      "status": "verified",
+      "quote": "a green row turned out not to be green",
+      "location": "paragraph 50, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L99, paragraph 50"
+    },
+    {
+      "path": "/readiness/pains[3]/quote",
+      "status": "verified",
+      "quote": "If a PM moves his job from yellow to green, I want to know who did that and when.",
+      "location": "paragraph 48, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L95, paragraph 48"
+    },
+    {
+      "path": "/readiness/pains[4]/quote",
+      "status": "verified",
+      "quote": "I couldn't find that anywhere on the board.",
+      "location": "paragraph 48, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L95, paragraph 48"
+    },
+    {
+      "path": "/readiness/pains[5]/quote",
+      "status": "verified",
+      "quote": "There's no difference between I've asked for Junie and I've got Junie.",
+      "location": "paragraph 59, inferred Ines Kovalenko (speaker unclear)",
+      "cited": "transcript.txt, L117, paragraph 59"
+    },
+    {
+      "path": "/readiness/pains[6]/quote",
+      "status": "verified",
+      "quote": "the answer is four names, and then it's a scheduling problem",
+      "location": "paragraph 57, inferred Ines Kovalenko (speaker unclear)",
+      "cited": "transcript.txt, L113, paragraph 57"
+    },
+    {
+      "path": "/readiness/pains[7]/quote",
+      "status": "verified",
+      "quote": "I'm off the week of Thanksgiving.",
+      "location": "paragraph 63, inferred Ines Kovalenko (speaker unclear)",
+      "cited": "transcript.txt, L125, paragraph 63"
+    },
+    {
+      "path": "/readiness/pains[8]/quote",
+      "status": "verified",
+      "quote": "It's a good-looking screen with made-up money on it.",
+      "location": "paragraph 73, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L145, paragraph 73"
+    },
+    {
+      "path": "/readiness/pains[9]/quote",
+      "status": "verified",
+      "quote": "He will not give anybody a live connection into Sage this year and I'd stop pushing on it.",
+      "location": "paragraph 75, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L149, paragraph 75"
+    },
+    {
+      "path": "/readiness/pains[10]/quote",
+      "status": "verified",
+      "quote": "Because it's a number I make up.",
+      "location": "paragraph 42, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L83, paragraph 42"
+    },
+    {
+      "path": "/readiness/pains[11]/quote",
+      "status": "verified",
+      "quote": "You're missing the preconstruction handover meeting",
+      "location": "paragraph 70, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L139, paragraph 70"
+    },
+    {
+      "path": "/readiness/pains[12]/quote",
+      "status": "verified",
+      "quote": "The equipment one is shorter and it's a completely different list.",
+      "location": "paragraph 70, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L139, paragraph 70"
+    },
+    {
+      "path": "/readiness/pains[13]/quote",
+      "status": "verified",
+      "quote": "But the PM isn't the one who walks it to their nurse.",
+      "location": "paragraph 83, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L165, paragraph 83"
+    },
+    {
+      "path": "/readiness/pains[14]/quote",
+      "status": "verified",
+      "quote": "They want the history.",
+      "location": "paragraph 45, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L89, paragraph 45"
+    },
+    {
+      "path": "/readiness/signals[0]/quote",
+      "status": "verified",
+      "quote": "He said, I don't want a dashboard I have to learn to distrust.",
+      "location": "paragraph 15, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L29, paragraph 15"
+    },
+    {
+      "path": "/readiness/signals[1]/quote",
+      "status": "verified",
+      "quote": "He's a milestones man more than a totals man. But he might.",
+      "location": "paragraph 29, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L57, paragraph 29"
+    },
+    {
+      "path": "/readiness/signals[2]/quote",
+      "status": "verified",
+      "quote": "He could answer his own question with that.",
+      "location": "paragraph 54, [00:11:20], inferred Ines Kovalenko (speaker unclear)",
+      "cited": "transcript.txt, L107, paragraph 54, 00:11:20"
+    },
+    {
+      "path": "/readiness/signals[3]/quote",
+      "status": "verified",
+      "quote": "I went in on the Friday and looked Junie up for October without asking her, and it took me about eleven seconds, and it was right.",
+      "location": "paragraph 55, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L109, paragraph 55"
+    },
+    {
+      "path": "/readiness/signals[4]/quote",
+      "status": "verified",
+      "quote": "Roland will talk to you.",
+      "location": "paragraph 75, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L149, paragraph 75"
+    },
+    {
+      "path": "/readiness/signals[5]/quote",
+      "status": "verified",
+      "quote": "he asked me on Monday whether this sits in our tenant and how many of the two hundred and twenty enterprise seats it eats",
+      "location": "paragraph 79, [00:17:45], inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L157, paragraph 79, 00:17:45"
+    },
+    {
+      "path": "/readiness/signals[6]/quote",
+      "status": "verified",
+      "quote": "He said if you're building this, can it show the pipeline as well, the work we're chasing.",
+      "location": "paragraph 103, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L205, paragraph 103"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[0]",
+      "status": "verified",
+      "quote": "They want the history.",
+      "location": "paragraph 45, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L89, paragraph 45"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[1]",
+      "status": "verified",
+      "quote": "First patient day has moved twice on the tower.",
+      "location": "paragraph 45, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L89, paragraph 45"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[2]",
+      "status": "verified",
+      "quote": "I'd rather type the reason myself than pick it off a list",
+      "location": "paragraph 47, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L93, paragraph 47"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[0]",
+      "status": "verified",
+      "quote": "If a PM moves his job from yellow to green, I want to know who did that and when.",
+      "location": "paragraph 48, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L95, paragraph 48"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[1]",
+      "status": "verified",
+      "quote": "And put it on the item, not in a log somewhere.",
+      "location": "paragraph 51, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L101, paragraph 51"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[2]",
+      "status": "verified",
+      "quote": "Then surface it.",
+      "location": "paragraph 50, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L99, paragraph 50"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[0]",
+      "status": "verified",
+      "quote": "Everything in there is a commitment.",
+      "location": "paragraph 59, inferred Ines Kovalenko (speaker unclear)",
+      "cited": "transcript.txt, L117, paragraph 59"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[1]",
+      "status": "verified",
+      "quote": "I want to be the one who does it",
+      "location": "paragraph 62, inferred Ines Kovalenko (speaker unclear)",
+      "cited": "transcript.txt, L123, paragraph 62"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[2]",
+      "status": "verified",
+      "quote": "somebody has to be able to confirm in my place, and I'd want that to be her and not a PM",
+      "location": "paragraph 63, inferred Ines Kovalenko (speaker unclear)",
+      "cited": "transcript.txt, L125, paragraph 63"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[0]",
+      "status": "verified",
+      "quote": "there's a version of this where the number is a month old and everybody knows it's a month old",
+      "location": "paragraph 75, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L149, paragraph 75"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[1]",
+      "status": "verified",
+      "quote": "The actuals are history. My forecast is the job.",
+      "location": "paragraph 77, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L153, paragraph 77"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[2]",
+      "status": "verified",
+      "quote": "It's a good-looking screen with made-up money on it.",
+      "location": "paragraph 73, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L145, paragraph 73"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[0]",
+      "status": "verified",
+      "quote": "If those twelve are on decent project boards and I can filter to them and show a list with a color and a next milestone and a date, that's enough for the fifteenth.",
+      "location": "paragraph 25, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L49, paragraph 25"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[1]",
+      "status": "verified",
+      "quote": "He's a milestones man more than a totals man. But he might.",
+      "location": "paragraph 29, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L57, paragraph 29"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[0]",
+      "status": "verified",
+      "quote": "The equipment one is shorter and it's a completely different list.",
+      "location": "paragraph 70, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L139, paragraph 70"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[1]",
+      "status": "verified",
+      "quote": "You're missing the preconstruction handover meeting",
+      "location": "paragraph 70, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L139, paragraph 70"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[2]",
+      "status": "verified",
+      "quote": "But I need the equipment one sooner than I thought.",
+      "location": "paragraph 66, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L131, paragraph 66"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[0]",
+      "status": "verified",
+      "quote": "That's the project engineer, and the super needs to know because he's the one getting shut down.",
+      "location": "paragraph 83, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L165, paragraph 83"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[1]",
+      "status": "verified",
+      "quote": "Send it to both of them and copy her.",
+      "location": "paragraph 83, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L165, paragraph 83"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[0]",
+      "status": "verified",
+      "quote": "You're missing the preconstruction handover meeting",
+      "location": "paragraph 70, inferred Warren Tibbetts (speaker unclear)",
+      "cited": "transcript.txt, L139, paragraph 70"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[0]",
+      "status": "verified",
+      "quote": "a roll-up is only as good as the forty things underneath it",
+      "location": "paragraph 13, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L25, paragraph 13"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[1]",
+      "status": "verified",
+      "quote": "I'm asking you not to build it yet.",
+      "location": "paragraph 17, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L33, paragraph 17"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[2]",
+      "status": "verified",
+      "quote": "The fourteen have to be putting their forecast in the thing rather than in their own file",
+      "location": "paragraph 19, [00:04:10], inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L37, paragraph 19, 00:04:10"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[3]",
+      "status": "verified",
+      "quote": "I want one full month where I haven't had to email anybody for a status.",
+      "location": "paragraph 19, [00:04:10], inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L37, paragraph 19, 00:04:10"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[4]",
+      "status": "verified",
+      "quote": "No, I still want my own screen.",
+      "location": "paragraph 33, [00:07:55], inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L65, paragraph 33, 00:07:55"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[5]",
+      "status": "verified",
+      "quote": "And write down that it was my decision and not yours",
+      "location": "paragraph 21, inferred Marisol Bettencourt (speaker unclear)",
+      "cited": "transcript.txt, L41, paragraph 21"
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+[00:00:06] Okay, we're recording. Morning, all three of you. Can everyone hear me?
+
+You've got us. I'm in my office, Warren's in the trailer again, and Ines is here at the table with me.
+
+I'm at Cumberland. Same trailer, same lift. If it beeps, ignore it.
+
+[00:00:31] Noted. Before we get into the twenty-third, how was the rest of your week? You said you had the Waverly walk.
+
+I did. Wednesday. Two hours in a mechanical room with their facilities director, who is lovely, and who asked me four times when we're starting the MRI. Which is a good problem to have.
+
+Good problem. And the twenty-third, before we start pulling it apart. Did the three of you talk about it afterwards?
+
+We did, for about twenty minutes after you dropped off, and then again on the Monday. Which is more than we did after the Nashville lot came in, for whatever that's worth to you.
+
+Good. So today I'd like to spend the time on what you saw on the twenty-third and what you'd change. I'm not going to show you anything new. I'd rather hear where it was wrong. Interrupt whenever you like. Has anything shifted since we spoke?
+
+Yes. Quite a lot, actually, and I'd rather say it at the top than let you get twenty minutes in. Can I just say it now?
+
+Please.
+
+[00:01:52] So I took the portfolio screen to Curt. Not formally. I caught him on the Thursday and showed him on my laptop. And he looked at it for about ninety seconds and said, this is very good, and I don't want it yet.
+
+Say more about that.
+
+His point, and I've had four days to be annoyed about it and I've landed on him being right, is that a roll-up is only as good as the forty things underneath it. And right now the forty things underneath it are fourteen people's spreadsheets. So if I put that screen in front of the board in November, all I've really done is make the summary page prettier and faster. Same numbers. Same trust problem.
+
+What did he actually say?
+
+He said, I don't want a dashboard I have to learn to distrust. Which stung a bit, because it's the thing I've been saying to him for a year. Just pointed the other way.
+
+Okay. So where does that leave us?
+
+Where it leaves us is that leadership isn't ready for the portfolio layer, and if I'm honest neither am I. I want to start with the project boards. Standardized, the same for everybody, actually used by the fourteen. And we revisit the portfolio layer next quarter, once there's something real underneath it. I'm not asking you to throw it away. I'm asking you not to build it yet.
+
+Understood, and it's your call to make. Let me ask the obvious one though. What's different next quarter that isn't true now?
+
+[00:04:10] Two things have to be true. The fourteen have to be putting their forecast in the thing rather than in their own file, so the burn number is theirs and not something I assembled. And I want one full month where I haven't had to email anybody for a status. If both of those are true in, call it February, I'll take the roll-up to Curt myself and he'll say yes without me pushing him.
+
+That's a clear test, and I'd like to write it down in those words, because it's what decides when we come back to this.
+
+Please do. And write down that it was my decision and not yours, because in three months somebody will ask why we didn't do it in the first version.
+
+I will. And next quarter, in your calendar, means what? January, or after the fifteenth?
+
+After the fifteenth. Let me get through Cumberland first. I'm not doing both in the same month, and I'm not going to pin a date on it today.
+
+I'll do exactly that. Now the thing I have to raise, and you'll have thought of it already. January fifteenth. Cumberland's program review. You told me you have to stand up and show program-level health, budget and milestones across every job we're doing for them. That was the portfolio.
+
+I have thought about it, mostly at three in the morning. Here's where I got to. Cumberland is twelve jobs, not forty. If those twelve are on decent project boards and I can filter to them and show a list with a color and a next milestone and a date, that's enough for the fifteenth. It is not enough for the board and it's not enough for me long term. But it gets me through January.
+
+So the January view is a filtered view across the Cumberland projects, not a roll-up of everything.
+
+Right. And if it looks a bit thin in front of their VP, I'll live with that, because the alternative is showing him something confident and wrong. I've done that once this year already.
+
+That works, and I'd rather agree it now than discover it on the tenth of January. I'll flag one risk and then leave it alone. Twelve filtered projects is fine for a list. If their VP asks for a total across the program, we won't have one. Is that a real risk?
+
+He might. He's a milestones man more than a totals man. But he might. Let me carry that one, and if it turns into a problem I'll come back to you and we'll do it properly rather than bodge something in January.
+
+Good. One more on this and I'll move on. If we're not building the portfolio, I'd still build the projects as projects underneath. Real ones, not boards dressed up to look like projects. Then when February comes, connecting them up is a connection rather than a rebuild.
+
+That's what I'd want. I'm not paying for it twice.
+
+And your own view? Because I heard Curt's objection as being about leadership seeing a roll-up, not about you having somewhere to look.
+
+[00:07:55] No, I still want my own screen. That's the whole reason you're here. I'm just not putting a company-wide roll-up in front of Curt and the board until I believe what's underneath it. Mine can be ugly. Mine can be three projects. It just has to be mine.
+
+Then that's the line I'll work to. A view for you across the project boards, and nothing pointed at leadership until you say so.
+
+Yes.
+
+And the dashboard you built, the overview one. Does that survive?
+
+It survives, but it changes shape. What you saw was reading from the portfolio, so if the portfolio isn't there it has to read from the three project boards instead. Same widgets, different source. And I'd point it at you rather than at a screen anybody walks past.
+
+Keep it. Just don't put it on a wall.
+
+Warren, you've gone quiet, which usually means something. What did you make of the project board itself?
+
+It's closer than I expected. The phases are right. I didn't look at the submittal part because that's Procore's job. [inaudible] Two things bother me. The first one is percent complete. You've got a percent complete field on there and I'd take it off.
+
+Tell me why.
+
+Because it's a number I make up. Genuinely. Nobody measures it. I look at the schedule, I look at how I feel about the job, and I type a number. And the second you put it on a screen next to real numbers, somebody starts adding it up. She's asked me for it for six years and I've never once given her a figure I could defend.
+
+That's true, and I've never liked asking for it. Take it off.
+
+Off it comes. What's the second thing?
+
+The milestones. You've got a baseline date and a current date, which is better than what I've got now, which is nothing. But when the owner asks about a date, they don't want the original and the current. They want the history. First patient day has moved twice on the tower. Once by nine days for the switchgear, once by four for the inspection window. And the question in the OAC is always when did it move and what moved it.
+
+So every change, with the date it changed and a reason, rather than just first and latest.
+
+Yes. And I'd rather type the reason myself than pick it off a list, because half of them don't fit a list.
+
+Can I put one in before you move on? The thing I asked for at the end of the first call. If a PM moves his job from yellow to green, I want to know who did that and when. I couldn't find that anywhere on the board.
+
+It isn't there. That's a fair hit, and it was on my list and I ran out of time rather than decided against it. The change history does exist underneath every column, but it isn't surfaced anywhere you'd actually look.
+
+Then surface it. That one is not a nice-to-have for me. The whole reason we're sitting here is that a green row turned out not to be green, and if I can't see who colored it in and when, I'm back where I started with a prettier screen.
+
+And put it on the item, not in a log somewhere. If I have to go hunting for it I won't look, and neither will anybody else.
+
+On the item, and showing both the current color and the last change with a name and a date against it.
+
+Free text, with the date stamped automatically. That I can do. Ines, same question to you. The allocation view.
+
+[00:11:20] I liked it more than I expected to. The weekly thing where you can see who's over, that's the grid basically, except everybody can see it. He could answer his own question with that.
+
+I could. I tried it, actually. I went in on the Friday and looked Junie up for October without asking her, and it took me about eleven seconds, and it was right. That's the first time in four years anybody has done that.
+
+So what would you change?
+
+Two things. The qualification. You've got a tick box for occupied work, which is right, but I want to look at just those four. Not scroll sixty people and spot the ticks. When somebody asks me for a super for a hospital job, the answer is four names, and then it's a scheduling problem.
+
+A saved view filtered to the qualified supers. And the second?
+
+The bigger one. Everything in there is a commitment. There's no difference between I've asked for Junie and I've got Junie. That's the whole June thing. He thought he had him, I thought he was asking, and both of us were being honest.
+
+I was right, by the way. You were not, but you believed you were, which is exactly the point.
+
+So a requested state and a confirmed state, and the confirmation is something somebody does rather than a conversation in a corridor.
+
+Yes. And I want to be the one who does it, because otherwise fourteen people confirm their own bookings and we're straight back where we started.
+
+And one more, which isn't a change, it's a worry. I'm off the week of Thanksgiving. If this is live by then, somebody has to be able to confirm in my place, and I'd want that to be her and not a PM.
+
+That's fine. I'll do it that week.
+
+Understood. Only you can move it to confirmed, and I'll write that down as a permission rather than a preference. Now, templates. You saw one project type.
+
+Occupied renovation, which is most of them, so that was the right one to start with. But I need the equipment one sooner than I thought. The Waverly MRI starts the first week of December and it would be very useful to run that one properly from day one rather than retrofitting it afterwards.
+
+Then that's the second template. Ground-up after it, since nothing ground-up starts before the spring.
+
+Nothing before April. And the count's forty-one now, if you're keeping score. The MRI makes forty-one. Or forty if you don't count it, which is the argument we've been having for years.
+
+And the startup list itself. I trimmed your sixty-something lines down to eighteen for the walkthrough. Was that the right eighteen?
+
+Mostly. You've got badging on there, which people forget. You're missing the preconstruction handover meeting, which is where I find out what got promised to the owner that isn't in the contract. And eighteen is about right for a renovation. The equipment one is shorter and it's a completely different list.
+
+I'll send you my master version and Warren's version, and you can see for yourself where they differ. That's the whole argument on one page, really.
+
+[00:15:30] I'll keep counting it. Now the awkward one. The burn numbers on that board are sample numbers. I want to know how you felt looking at them.
+
+Honestly? I looked at that column and felt nothing, because they aren't my numbers. I couldn't tell you whether that screen is right or wrong. It's a good-looking screen with made-up money on it. Which is fine for showing me the shape. It's not fine for me saying yes to it.
+
+That's the right answer and I'd rather have it now than in January. So, Sage. Where did that get to?
+
+Roland will talk to you. He will not give anybody a live connection into Sage this year and I'd stop pushing on it. What he did say, which I think is useful, is that he already produces a job cost report on the eleventh or twelfth and he doesn't much care if somebody uploads it somewhere. So there's a version of this where the number is a month old and everybody knows it's a month old.
+
+A month-old number everybody knows is a month old beats a fresh number nobody believes. I'd take that. And it means the forecast, the forward-looking half, is yours and lives on the board.
+
+That's the bit I'd actually use. The actuals are history. My forecast is the job.
+
+Good. And Stefan?
+
+[00:17:45] Stefan is Stefan. He has the questionnaire, he's about halfway through it, and he asked me on Monday whether this sits in our tenant and how many of the two hundred and twenty enterprise seats it eats. I said I didn't know yet, and he said that was the wrong answer.
+
+It is the wrong answer, and it's mine to fix. I'll get him what he needs this week. Which means for now the version you're looking at stays in my account and not in yours, and nothing real goes into your tenant until he's happy.
+
+That's how it has to be. He'd find out. He always finds out.
+
+One small thing while I have all three of you. The infection control reminder. I set it to warn thirty days before an ICRA expires, and it notifies the project manager.
+
+Wrong person. Thirty days is fine, generous even. But the PM isn't the one who walks it to their nurse. That's the project engineer, and the super needs to know because he's the one getting shut down. Send it to both of them and copy her.
+
+Project engineer and superintendent, with you copied. Got it. And that one goes on the automation list with the rest, which I'll bring back as a single list showing who gets notified on each row, so you approve it once rather than nine times.
+
+Fine by me.
+
+[00:19:05] Now I need to come back to something from the first call, because a number has moved. Warren, you told me four hours a week on assembling, and four was agreed as fair across the fourteen. That is the biggest single line in the cost of carrying on as you are.
+
+Yeah. About that. I wrote it down for three weeks after we talked, because you'd made me curious, and it's two and a half, not four. I'd been counting the OAC prep in it, and I'd do that anyway, so it isn't fair to count it.
+
+Two and a half.
+
+Two and a half. And I'm confident about it because this time I actually wrote it down.
+
+Okay. That's a meaningful change and I'd rather correct it than keep a number that flatters me. Does two and a half sound right across the other thirteen?
+
+No. He is the most organized person in this building and he's just told you he tracked it. Nobody else tracked anything. But I also can't sit here and defend four, because I gave you four off the top of my head and now the one person who measured it says it's less.
+
+Then I'm not going to give you a new total today. I'll carry it as a range, two and a half to four, mark it unconfirmed, and keep the old figure with the date we agreed it, so it's visible that it changed rather than quietly swapped. And I'd rather close it properly than split the difference.
+
+How?
+
+Ask two more. Not Warren, and not the two who'd tell you what you want to hear. Somebody in the middle.
+
+Nadine and Ruben. Nadine will give me a straight answer and Ruben will give me a long one, but they'll both be honest. I'll ask them this week.
+
+Good. And I'll flag the knock-on, because it matters. The argument about holding one of the two hires leans on freed-up time. If the time is smaller, that argument gets smaller with it, and I'd rather say that out loud than leave it sitting in a document.
+
+I've still got the two PMs in the November number and I'd still hold one of them. But yes, understood. I'd rather you told me.
+
+[00:22:40] Which brings me to what you asked me for. A scope and a number before your budget locks.
+
+Yes. That hasn't moved, and November hasn't moved either.
+
+Then here's where I am, plainly. The scope you'll get this week, and it has changed since we last spoke, because you've taken the portfolio out of the first phase and added a template to it. The number I'm not going to put against a cost case whose biggest input moved yesterday. Get me Nadine and Ruben, and then you'll get both, and you'll get them before November rather than in November.
+
+That's fair. Don't send me a number I can't defend. I've been the person holding a number I couldn't defend and I'm not doing that again.
+
+Agreed. One last thing and then I'll let you all go. Somebody asked you about preconstruction.
+
+Curt did, on the same Thursday. He said if you're building this, can it show the pipeline as well, the work we're chasing. Which I'm not asking you for. I'm telling you because he'll say it again in January and I'd rather you weren't surprised by it.
+
+Noted, and I'll park it rather than price it. It's a different shape of thing and it belongs to Kyle's group rather than yours.
+
+Exactly. Not mine, and not this year.
+
+Before we finish, the thing I keep coming back to. Standardized project boards only work if the fourteen actually use them. What makes you think they will this time, when Smartsheet didn't?
+
+Because this time the old thing goes away. That's the difference. If the board is where the forecast lives, then the Monday status email stops, and I'll be the one who stops it. If I ask them to do both, you'll be back here in March explaining why nobody logged in.
+
+That's the right answer, and I'd like to hold you to it in writing, because it's the single biggest risk in this and it's yours rather than mine.
+
+Put it in the scope. The Monday status email is retired at go-live. I'll sign that.
+
+So: the next version has no portfolio layer, the projects stay projects underneath, percent complete comes off, milestone history goes on, the qualified-supers view and the requested-and-confirmed step on allocation, the equipment template, Sage as an uploaded monthly report, and the reminder goes to the right people. And a view for you. Anything I've got wrong?
+
+That's the list.
+
+[00:24:20] When shall we look at it?
+
+Thursday the fifteenth? Warren, you're OAC on Thursdays.
+
+Morning OAC. After eleven I'm clear.
+
+Eleven thirty Eastern on Thursday the fifteenth, then, and I'd like an hour this time rather than forty-five minutes. I'll send the invite this afternoon. Ines, does that work?
+
+It works.
+
+And I'll have Nadine and Ruben before then.
+
+Then that's everything. Thank you, all three of you. Warren, thanks for the correction. Most people don't.
+
+Most people don't get asked.

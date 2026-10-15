@@ -1,0 +1,125 @@
+# s25-client-documents — fix pass changes
+
+Editor's log, 2026-10-13. Everything here is fictional and stays fictional.
+
+Files touched: `fixtures/s25-client-documents/answer-key.json` and `README.md`. The transcript, the Word file, the PDF and the PNG are unchanged (the brief's section 8: documents and images are never edited; the mess pass is declined below with the reason). Work files here: `edit.py` (the edit, run once), `render.py` (the layout renderer), `answer-key.before.json` and `README.before.md` (copies of the shipped files before any change), `coverage-row.md` and this log.
+
+Method: the key was loaded, changed and dumped by script. Its layout is not a plain `indent=2`: most list entries and nested dicts sit on one line, with a few containers expanded (the top level, the top-level containers, `intake.files`, `intake.grading_passes` and its passes, the alias map and so on). The renderer reads which paths the shipped file expands and prints the same set, so a round trip of the untouched file reproduced it byte for byte before any change; the new `readiness` block prints one entry per line. A structural diff of the finished key against the copy lists exactly the paths named below and nothing else (plus `intake.conflicts[0].leaning`, added after the verifier's first pass; section 3, pattern 3); `rubric`, `expected_verdict`, `numbers`, `should_plugin_propose_a_build`, `pains`, `objections`, `commitments_and_next_steps`, `accepted_behaviours` and `expected_leak_blocklist` are byte-identical. The 25 fields keep their order, `intake` is 26th and `readiness` 27th and last. 371 lines before, 551 after. The file was ASCII; the en dash in the workspace name makes it UTF-8, which the brief allows.
+
+## 1. The review entry (FEEDBACK.md, 2026-10-10)
+
+Closed by the user with no edit: the fixture is kept, and the three documents stay separate. Nothing to apply. The entry's "Also" line (the gates read "First demo (v0.1) met"; the s17 rename covers it) is stage 1b input under A19 and waits for v2, so `expected_verdict.gates_met` and the README's grading table stand as they are. The README's review history now records the review and its disposition in one sentence.
+
+## 2. The `direction` rename
+
+`intake.type_header.direction_of_show` is now `direction`, in the same position, value `no-show` unchanged. The four `intake.files[]` entries carry no header fields, so nothing else held the name. The key holds no `direction_of_show`. The README did not name the field before; it now names the rename once under conventions and once in the review history, so a reader of the old field name finds where it went.
+
+## 3. The seven-pattern sweep
+
+Each hit is a `readiness.structure.leanings` entry; where it sat in an existing field and a builder reading that field alone would build the flaw, the field was corrected too (the exemplar's test).
+
+1. **One row where the call describes many.** One hit, the central one. The key's structure was one row per sample with "a bench column" and one status, and `vocabulary["multi-test"]` read "the tests-requested column holding several values; no separate object". The call says a sample is on more than one bench at once and the benches move independently: "Fifteen if it's a multi-test." (00:09:31), and in September "purity did it that day. But germination's a seven-day test and nobody on germination knew it was urgent, so it went in the normal queue" (00:06:03); the SOP gives different targets per test (section 6.5: 21 days for germination and vigour, 10 for purity and moisture). One row with one bench is the register's own flaw, and the September lot is the failure it produces. Leaning 1: a child row per test with its bench, status and due date, the sample's status and latest due date rolling up, the priority flag on the parent shown on every child. **Fields corrected:** `vocabulary["multi-test"]`, `vocabulary["bench"]` (a bench column on each test row, a view per bench of its tests), `vocabulary["re-test (QF-12)"]` (the re-test status on the test row) and the opening sentence of `expected_structures.notes`, which now states the parent-with-children shape and says that each date a person sets is a claim about paper or the database (the s22 line). The pattern entry names it.
+2. **A pain with no element that fixes it.** Two hits, both kept visible. (a) The three P2 pains (results written three times; the certificate typed; every number checked twice): the only element aimed at them is the certificate draft from recorded results, and v0.1 has no read from the results database, so until one exists the certificate stage is a status and dates and the template is typed as today. All three carry `copies-today's-tool` in `element_per_pain`; leaning 4 and question 3 carry the dependency; the two bench writes are in `unmet_needs` because nothing we build touches the bench sheet or the database. (b) The where-is-it pains (P1.1, P1.2) are fixed by the status per test only if the bench sets it; the analysts "are not going to touch a screen" (00:12:03). If reception keys what she learned by walking, the board is today's walk with a screen in front of it. Leaning 2 names the mechanism as the live condition and the element rows say so; they stay `fixes` because the status on the board is the event itself, not a claim about another system, and the condition is in the verdict's conditions. Nearest candidate declined as a `none`: nothing. Every pain of the key has an element aimed at it.
+3. **An alias-map entry that names more than one entity.** Two hits, both corrected in `intake.alias_map`. "purity / germination / moisture and vigour" named three benches in one entry, and the benches are three things that move independently (the September lot again), so it is now one entry per bench; "the germinator" is a form of the germination bench, named as the apparatus where a sample sits during the seven-day test, and the moisture and vigour bench, which the call never names, carries the SOP's name and the operator's "the moisture ones". "the assessor / the accreditation body" paired a person with an organisation; it is now two entries, with the body's one form, "the accreditation" (write-up p.2 section 3), and a note that the visit and the finding are events, not forms of its name. The alias map goes from 11 entries to 14; `traps[19]` (the 20th trap, the benches are not people) now says "one entry per bench". The README's count follows.
+4. **Our framing labelled as the client's.** One soft hit. The alias map's canonical "Marguerite (Laboratory Manager)" and every "lived: the Laboratory Manager" in the key rest on a binding nobody states: the call never gives Marguerite a title. The binding is ours, by elimination from the signatory rule of section 6.4 (the Laboratory Manager or the Quality Manager signs; the Quality Manager is the SOP's author; "Marguerite, mostly. Annelise if Marguerite's off.", 00:08:50). It is almost certainly right, and the s11 line still applies: the inference targets the roles question, it does not fill evidence. **Field corrected:** `alias_map[2].note` says the binding is ours and how it was made. Leaning 7 and question 5 carry it; the entity list keeps the Laboratory Supervisor as a documented title with `moves_independently: unknown`. Checked and left: the six-part playback at 00:12:48 is labelled the Consultant's and the operator's assent is graded as hers alone; the first-version scope traces to the write-up's W-ids; "in priority order" is W-8's phrase; the relayed wants and timing are already marked second-hand.
+5. **A shared resource with no reservation tracking.** No hit. The benches are reused by every sample, so they carry `shared_resource: true` in `entities`, and their reservation is the daily list per bench in priority order that the client asked for (W-8) and the morning allocation of section 4.1; nothing on the call says a bench or the germinator is double-booked or short of capacity, so no leaning was forced. The germinator and the receipt store are marked shared for the same reason, with no gap claimed.
+6. **An artefact that can go stale with nothing to flag it.** Two hits. (a) The bench allocation sheet is the previous day's register printed with biro ("She prints it. Prints the previous day.", 00:02:14); a priority that arrives after printing is not on it ("Marguerite finds out when she sees it on the list. If she looks.", 00:04:01). The daily view replaces the printout, but if a bench works from paper the print is stale the same way. Leaning 6: the live view plus a notification to a named person per bench; a print carries its time. (b) The certificate draft: prepared from results that a re-test or a correction can change afterwards (section 6.2 puts the re-test before any certificate; the June reissue shows a certificate wrong after signature, 00:09:00). Leaning 5: the draft carries the date of the results it came from, and a later results-entered or re-test date resets "prepared". The due date per test also goes stale when a priority is approved after receipt (7 days instead of 21 or 10); that sits in leaning 1's option and in `entities`, not as a leaning of its own. The spreadsheet typed after the day book and the printout carry `goes_stale: true` in `entities`.
+7. **An expected output the input cannot support.** No hit. Recounted from the transcript: 88 units, 2,056 words with bracketed cues excluded, client share 62.6 percent, the operator's longest turn 105 words at 00:06:03, the Consultant's 85 at 00:12:48, 7 units at or under four words, `[laughs]` x9, `[pause]` x1, and 7 occurrences of the space-bounded " -- " (eleven double dashes in all; the four others open or close a line), all as `transcript_format`, `export_family` and the README state. The twelve documented rows were read against the image by eye: the labels, the two diamonds with their Yes and No exits and the re-test loop are as the rows say. The call's date and the meeting's year are labelled inferred. The key's grades are v2 material and were not re-derived.
+
+## 4. The "never written to" rule
+
+A search for "never written", "written to", "written back", "write back", "writeback", "never touch", "not written", "never a write", "read-only" and "one way" found three claims, all about the results database, and none traces to a client line about writing. What the client did say: the database "cannot be replaced or altered" and results "must continue to be held there" (write-up p.2 section 3), it "stays the system of record for results" (W-4), and "Whatever this is, it can't be the place results live." (00:12:03). Those are kept as the client's constraints. The no-write part is ours, resting on the book-of-record line, so each became the rule's wording:
+- `integrations_mentioned[0]`: "never a write" is now "No client line addresses a write from the platform into the database: writeback and integration direction unresolved; v0.1 does not depend on either; staying clear of the results database is our safe default, labelled as ours", with the client's two lines cited beside it.
+- `requested_changes[0].description`: "is read, never replaced or written to" is now "is never replaced or altered (the client's words)" plus the unresolved wording. The entry's quote and type are untouched.
+- `traps[26]` (the 27th trap): "never write to it" is now the unresolved wording; "never rebuild results inside the platform" and the draft-for-signature rule stay, since both trace to the client's document.
+The readiness block's `existing.incumbents` entry for the database and leaning 4 use the same wording. Checked and left: "never issued automatically" and "never held on the platform as the record" trace to "Nothing may issue a certificate without a signature." and to section 3 of the write-up.
+
+## 5. Standing lines where they bite
+
+- **s22 (a status set by a person is a claim).** Bites everywhere the board mirrors paper or the database: the dates for results entered, checked and signed, and the bench's "started" and "done". `expected_structures.notes`, leaning 2, assumption 6 and the incumbents say each is a person's claim and the bench sheet, the database and the paper certificate stay the evidence; the month-end check against the forms is a question to the Laboratory Manager. The where-is-it status itself is the event in monday, not a claim about another system, and is treated as such.
+- **s21 (a commitment is `committed`, done only on evidence).** Checked; the key's eight commitments each carry owner, purpose and a date and none claims delivery ("I'll send the invite to you today" stays a commitment; `delivery_notes` says "booked", which is what happened on the call). No field needed correcting. The state is now a verdict condition: the meeting is committed, not held; the invite is the Consultant's to send, the two managers' attendance the operator's to secure, the Director not promised. No `status` sub-field was added, for the reason the exemplars give.
+- **s11 (inference targets questions, never fills evidence).** Six unconfirmed client ties are in `signals`, each saying what our side never confirmed, and two of the five questions are read-backs of them. Marguerite's title (section 3, pattern 4) is the other place it bites: marked as ours, carried to a question, never written as evidence.
+- **s15 (a product limit never deletes a client need).** `unmet_needs` keeps results entered once, the no-keyboard bench, the certificate from recorded results, the finding closed before the next visit (with its hedged clock) and the authorisation number reaching the paper sheet, each with why v0.1 does not meet it.
+
+## 6. The readiness block, field by field
+
+- `pains`: the key's ten `pains` entries in array order, same quotes and locations, numbered P1.1 to P1.5, P2.1 to P2.3, P3.1 and P4.1 by the exemplar's rule (theme number first, running number after the dot; the key's themes already carry P1 to P4, so no unnumbered pain needed a new number). `speaker_role` is the operator for the call entries and "the client's document (the write-up, author unknown)" for the two write-up entries. Stated or excavated follows the key's grading: the two document statements and the operator's restatement of the three writes are stated, the answers drawn out by a question (the walk, the priority box, the September lot, the month-end count, the checking) excavated, P3.1 and P4.1 stated. Outcomes are verbatim from 00:10:46 ("I don't walk...", "And the priority thing is visible...", "And I don't type the certificate."), the write-up's W-6 for P1.5, and null for P3.1, where no outcome words aim at the file.
+- `signals`: six, from 00:13:45, 00:13:23 (three), 00:11:11 and 00:11:46.
+- `entities`: twenty-one, answering what moves independently of what. The test moves independently of the sample (spoken, 00:06:03); the re-test of the test; the result of the test; the certificate and the due date go stale; the register, the printout and the day book are artefacts; the three benches, the germinator and the receipt store are shared; the Supervisor title and the surveillance visit carry `unknown`.
+- `structure`: Work Management only; `own-account`, "prospect, so the user's own account by default (A21)": no account exists, the Director has not been heard, nothing has been bought. One workspace, "Wexcombe – Ops", named for the fictional client with the brief's en dash. Native reuse none, with the CRM boards named for the case where submitters become accounts. Seven leanings (patterns: one row where many; a pain with no element, twice; fork; artefact goes stale, twice; our framing). Leaning 3 is marked `fork`: the disagreement is between two client voices, the Quality Manager's approved procedure and the operator on the call, with the document standing where a speaker would, as the key already handles it. The brief's fork rule says the fork keeps its existing entry and gains the same `leaning` there; the first edit missed that, and the verifier's first pass (verify.md, fix 1) caught it. `intake.conflicts[0]` now ends with a `leaning` holding the option and the condition copied from leaning 3, word for word, after `callback`; the entry's own quotes are unchanged, and the leaning repeats none of them, because the entry already holds them under `document`, `dependent_requirement` and `call`, so the verifier's pair count stays at 167. The same shape as the s24 fork, without its `status` line. Applied by `fix.py`, which asserted the renderer's round trip before the change; 551 lines before and after. One pattern applied. Ten element rows: seven `fixes`, three `copies-today's-tool`, no `none`.
+- `existing`: "unknown, no account bound" with the A21 point; six incumbents with what each stays the record for.
+- `assumptions`: fourteen, each with its question and the role that answers it. Everything that fell out of the five questions is here: the register's history, submitters as accounts, the tier, the Director's picture, the month-end check, the demo values.
+- `unmet_needs`: five (section 5).
+- `ai_opportunities`: four, all round 2 (the client asked for a notification, which is an automation on the approval list, and never for AI or workflows). The workflow cites P-21; the agent and the two AI columns are `unprobed`.
+- `verdict`: `build`. The test holds: pains with named entities (the sample, the test, the certificate) and the operator's own outcome words, one product, the structure stated with its leanings, the build target named. Six conditions, starting with the approval stop and the A11 point (none first matters for an own-account build with invented data; the three A11 decisions stay open). The key's `should_plugin_propose_a_build` is `true` and its v2 line is "Nearly ready", so the two checks agree and the `note` carries only the brief's text.
+- `questions`: five, the ceiling. Q1 is the document-versus-call conflict as a read-back with both statements shown and W-3 named, routed to the Quality Manager and the Laboratory Manager together (A16: the documented state and the desired state are kept apart and the conflict is a question, never a resolution). Q2 the bench mechanism and the multi-test shape (discovery, Laboratory Manager). Q3 the results-database read and the draft for signature (discovery, Quality Manager). Q4 the finding and the clock (read-back, Quality Manager). Q5 the two titles (discovery, both). Reused from the key's pool of ten: items 1, 2 with 3, 4, 5 and 7, reworded in build terms. Dropped from the five and kept as assumptions with their questions: the decision process (item 6, no build element depends on it), the account (item 8, under A21 not one of the five for a prospect), submitters (item 9) and the register's history (item 10).
+
+The block carries no R-number, grade, gate name or verdict word in any string; the script scanned every string value for them before writing. No sales word entered the 25 fields either.
+
+## 7. Transcript: the mess pass declined
+
+The s11 rule asks for a mess pass where our side speaks in writer-clean paragraphs. This transcript had one on 2026-09-20 (README, adversarial review item 1): fillers, a self-interruption and a trailing check on the Consultant's side across twelve turns, re-verified then. The Consultant's longest turn (85 words at 00:12:48) is the first-cut playback, whose opening sentence is a cited `asked_quote`; its remaining span is a list read back deliberately, and adding a false start to it would change the word count, the longest-unit figure, three statements in the key and two in the README for no lesson the fixture does not already teach. No transcript edit was made; the unit count, numbering and timings are as shipped.
+
+## 8. README
+
+Brought in line: the files table (the readiness block, 551 lines); the counts (alias map 14; a new readiness line with its counts; the verifier's 167 pairs beside `check.py`'s 133 checks); the key check (UTF-8, 27 fields, 551 lines); two conventions bullets (the `direction` rename; the readiness block's document extracts); and the review status, which now records the user's review of 2026-10-10 and ends with the one-sentence "Fix pass applied 2026-10-13: ..." line. The transcript measurements are unchanged and were recounted. 91 lines before, 97 after.
+
+## 9. Coverage row
+
+`coverage-row.md` holds the row, same thirteen columns as the existing one. Unchanged counts, recounted from the edited key: rubric rows 24 (11 met, 8 partial, 1 missing, 3 met-with-residual, 1 not-obtainable), pains graded 2 (2 excavated), objections 7, traps 36 (6 look-alike), leak entries 18, requested changes 5 (3 add, 2 change, 0 remove). Quote strings 131 to 167, the verifier's pairs found before and after. Review column as the brief fixes it.
+
+## 10. Counts
+
+| item | count |
+| --- | --- |
+| readiness questions | 5 (2 read-back, 3 discovery) |
+| pains | 10 |
+| signals | 6 |
+| entities | 21 (11 with a parent, all with `moves_independently`) |
+| leanings | 7 |
+| element_per_pain | 10 (7 fixes, 3 copies-today's-tool, 0 none) |
+| incumbents | 6 |
+| assumptions | 14 |
+| unmet needs | 5 |
+| AI opportunities | 4 |
+| existing fields corrected | 9 paths (3 vocabulary entries, `expected_structures.notes`, `integrations_mentioned[0]`, `requested_changes[0].description`, `traps[19]`, `traps[26]`, `intake.type_header` rename) plus the alias map (11 to 14 entries, one note) and, after the verifier's first pass, `intake.conflicts[0].leaning` |
+| transcript edits | 0 |
+| key size | 551 lines, from 371 |
+
+## 11. Verifier output
+
+`python3 -I verify_quotes.py fixtures/s25-client-documents`, run after every change to the key (twice: after the edit script, and again after the README and the row, which touch no quote) and pasted from the final run below. The one unsupported form is the figure label in `rubric[0]`, which the verifier cannot read from an image and which was unsupported before the pass; the two skipped are the key's deliberate nulls. The edit script also proved each of the twenty new call quotes verbatim at its unit before the file was written; the eight new document extracts are proven by the verifier's docx and pdf readers.
+
+```
+Fixture: s25-client-documents
+Sources: QP-07-F1-sample-flow.png (image, 0 units); QP-07-sample-receipt-testing-certification-v3.2.docx (docx, 33 units); sample-tracking-what-we-need.pdf (pdf, 6 units); transcript.txt (transcript/line-bracket, 88 units)
+
+pairs found      167
+verified         166  (of which presence only, no location cited: 11)
+skipped          2  (null, empty or a bare location pointer)
+unparsed prose   0
+near-misses      0
+misses           0
+unsupported      1
+
+UNPARSED PROSE AND UNSUPPORTED FORMS
+- /rubric[0]/evidence[4]/quote [unsupported] image: not checkable here, skipped | Log in sample register
+```
+
+## 10. The goals pass (2026-10-14)
+
+Under A27 the readiness block now opens with the client's stated goals, in their own words, before the pains. This pass added `readiness.goals` and gave every readiness assumption a `kind` and a `state` (all `assumed`), the shape pinned in `shared/record-map.md`. Nothing else in the key changed; a script proved it by taking the additions back out and comparing with the key as it stood before.
+
+| Goal | In short | Said at | Pains |
+|---|---|---|---|
+| G1 | One register everyone works from: reception, the benches and the Laboratory Manager | write-up p.1 section 2, W-1 | P1.1, P3.1 |
+| G2 | Certificates prepared from the recorded results, ready to sign, with no re-typing | write-up p.1 section 2, W-5 | P2.1, P2.2, P2.3 |
+| G3 | The register audit finding closed before the next surveillance visit (March, she thinks) | 00:07:53 Rosalind Okonjo (Sample Reception Coordinator) | P4.1, P1.1 |
+| G4 | Look at a screen and tell a submitter where their sample is, without getting up | 00:10:46 Rosalind Okonjo (Sample Reception Coordinator) | P1.1, P1.2, P4.1 |
+
+Assumption kinds: leaning 5, gap 5, board-architecture 3, automation-condition 1.
+
+Verifier: 167 pairs, 166 verified, 0 misses and 0 near-misses before; 171 pairs, 170 verified, 0 misses and 0 near-misses after (the difference is the goal quotes).
+
+Judgment calls for your nod:
+- G1 and G2 are stated objectives from the write-up (W-1, W-5), cited in the key's own `write-up p.1 section 2, W-N` grammar with the role the readiness pains give that document, and both read back as verified, so no goal had to move to the transcript; the SOP states procedure and targets rather than objectives and the figure is a flow with nothing to cite (and unsupported by the verifier), so neither carries a goal; the priority aims (W-3, the operator's "germination knows it's urgent", her flag to Marguerite) were left out because they sit on the open SOP-versus-call conflict, W-6 as the outcome of the single pain P1.5, and the Director's and Quality Manager's wins (turnaround, the audit finding) as relayed, the audit goal being cited instead from the operator's own words at 00:07:53.

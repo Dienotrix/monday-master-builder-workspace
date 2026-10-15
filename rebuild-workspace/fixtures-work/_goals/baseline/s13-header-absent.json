@@ -1,0 +1,1504 @@
+{
+  "fixture": "s13-header-absent",
+  "sources": [
+    {
+      "name": "transcript.txt",
+      "kind": "transcript",
+      "format": "header-time-last",
+      "units": 240,
+      "unsupported": null
+    }
+  ],
+  "counts": {
+    "pairs": 195,
+    "verified": 195,
+    "verified_presence_only": 28,
+    "skipped": 0,
+    "unparsed_prose": 0,
+    "near_misses": 0,
+    "misses": 0,
+    "unsupported": 0,
+    "warnings": 0
+  },
+  "refused_quotes_not_checked": [],
+  "skipped": [],
+  "pairs": [
+    {
+      "path": "/rubric[0]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Every quote gets a line in the quote log, which is another spreadsheet. That one lives on the shared drive.",
+      "location": "08:07 Devika Raghunathan",
+      "cited": "transcript.txt, L118, turn 38, 08:07, Devika Raghunathan"
+    },
+    {
+      "path": "/rubric[0]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It gets a number when I set it up in the translation tool. That gives it a project number, and that number goes on everything, the folder, the files, the invoice, eventually.",
+      "location": "09:49 Niamh Kettleborough",
+      "cited": "transcript.txt, L151, turn 49, 09:49, Niamh Kettleborough"
+    },
+    {
+      "path": "/rubric[0]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "A spreadsheet. My spreadsheet. One row per project, my columns, my colours. Two of the others use the tool's list. One uses a notebook.",
+      "location": "10:47 Niamh Kettleborough",
+      "cited": "transcript.txt, L166, turn 54, 10:47, Niamh Kettleborough"
+    },
+    {
+      "path": "/rubric[0]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "In my spreadsheet. And in my head. The spreadsheet has everyone, languages, subjects, rates, the last time we used them.",
+      "location": "11:56 Rafael Quintanilla",
+      "cited": "transcript.txt, L187, turn 61, 11:56, Rafael Quintanilla"
+    },
+    {
+      "path": "/rubric[0]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "The translator delivers into the tool, the tool moves it to the review step, Leonor assigns a reviewer, in-house or freelance, the reviewer does it, it comes back.",
+      "location": "23:10 Niamh Kettleborough",
+      "cited": "transcript.txt, L376, turn 124, 23:10, Niamh Kettleborough"
+    },
+    {
+      "path": "/rubric[0]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "The tool has a status called delivered but Torsten's not in the tool. So it's the email.",
+      "location": "20:26 Niamh Kettleborough",
+      "cited": "transcript.txt, L337, turn 111, 20:26, Niamh Kettleborough"
+    },
+    {
+      "path": "/rubric[0]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "Torsten goes through the delivered folder on the shared drive on a Friday. He's looking for things he hasn't seen an email about.",
+      "location": "22:13 Wilhelmina Strachan",
+      "cited": "transcript.txt, L364, turn 120, 22:13, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[0]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Okay. Let me start at the front. A project -- where does it begin? Someone emails?",
+      "location": "06:54 Consultant",
+      "cited": "transcript.txt, L97, turn 31, 06:54, Consultant"
+    },
+    {
+      "path": "/rubric[1]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "he's finished the first eight thousand words and he's stopping, because he'd already said yes to Devika's retailer job the week before, through Devika, direct, and it's due first.",
+      "location": "12:50 Niamh Kettleborough",
+      "cited": "transcript.txt, L208, turn 68, 12:50, Niamh Kettleborough"
+    },
+    {
+      "path": "/rubric[1]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It had been in review for six days, waiting on one language, and nobody knew, because review is Leonor's world and the PM's tracker is the PM's world.",
+      "location": "18:17 Niamh Kettleborough",
+      "cited": "transcript.txt, L301, turn 99, 18:17, Niamh Kettleborough"
+    },
+    {
+      "path": "/rubric[1]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Tell me about the German manual.",
+      "location": "12:46 Consultant",
+      "cited": "transcript.txt, L205, turn 67, 12:46, Consultant"
+    },
+    {
+      "path": "/rubric[2]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The medical device people signed a framework contract with us, from January, and it's roughly double what they send now, four hundred thousand words a year, with a forty-eight-hour turnaround on the small ones.",
+      "location": "24:20 Wilhelmina Strachan",
+      "cited": "transcript.txt, L391, turn 129, 24:20, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[2]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Two, we lost a PM in August. Good PM.",
+      "location": "24:52 Wilhelmina Strachan",
+      "cited": "transcript.txt, L397, turn 131, 24:52, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[2]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "The clock is before January. Before the framework starts.",
+      "location": "25:48 Wilhelmina Strachan",
+      "cited": "transcript.txt, L415, turn 137, 25:48, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[2]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Why are we talking about this now and not last year, or next year?",
+      "location": "24:07 Consultant",
+      "cited": "transcript.txt, L388, turn 128, 24:07, Consultant"
+    },
+    {
+      "path": "/rubric[3]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Half a day a week, each of us, easily. Call it four hours. Some weeks it's a day.",
+      "location": "19:13 Niamh Kettleborough",
+      "cited": "transcript.txt, L316, turn 104, 19:13, Niamh Kettleborough"
+    },
+    {
+      "path": "/rubric[3]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Four's fair. And that's five people.",
+      "location": "19:32 Wilhelmina Strachan",
+      "cited": "transcript.txt, L319, turn 105, 19:32, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[3]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Two thousand two hundred in October. It's between fifteen hundred and three thousand most months.",
+      "location": "15:04 Rafael Quintanilla",
+      "cited": "transcript.txt, L241, turn 79, 15:04, Rafael Quintanilla"
+    },
+    {
+      "path": "/rubric[3]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Call it forty-two an hour, loaded, across the five.",
+      "location": "26:35 Wilhelmina Strachan",
+      "cited": "transcript.txt, L436, turn 144, 26:35, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[3]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "So that's, what, forty-three and twenty-six. Seventy thousand. Seventy. A year. Before the credit notes and before Torsten's bit.",
+      "location": "26:51 Wilhelmina Strachan",
+      "cited": "transcript.txt, L442, turn 146, 26:51, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[3]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "It feels light. If anything it's low.",
+      "location": "28:09 Wilhelmina Strachan",
+      "cited": "transcript.txt, L460, turn 152, 28:09, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[3]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "It's low. The rush number's a good month.",
+      "location": "28:13 Rafael Quintanilla",
+      "cited": "transcript.txt, L463, turn 153, 28:13, Rafael Quintanilla"
+    },
+    {
+      "path": "/rubric[3]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Let me try to put the current state into numbers, from what you've told me, and you tell me where I'm wrong.",
+      "location": "25:59 Consultant",
+      "cited": "transcript.txt, L418, turn 138, 25:59, Consultant"
+    },
+    {
+      "path": "/rubric[4]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "They split it in two last year and we bid the first half and said no to the second half, because we couldn't staff it, not with the PMs we had. That was about a hundred and thirty thousand of work.",
+      "location": "28:28 Wilhelmina Strachan",
+      "cited": "transcript.txt, L469, turn 155, 28:28, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[4]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It's a hundred and twenty-eight and change. Two-year term.",
+      "location": "28:57 Devika Raghunathan",
+      "cited": "transcript.txt, L478, turn 158, 28:57, Devika Raghunathan"
+    },
+    {
+      "path": "/rubric[4]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And the other side -- if this stopped, what would you go after?",
+      "location": "28:17 Consultant",
+      "cited": "transcript.txt, L466, turn 154, 28:17, Consultant"
+    },
+    {
+      "path": "/rubric[5]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I want a project to be one thing. One place. Quote to invoice.",
+      "location": "29:10 Wilhelmina Strachan",
+      "cited": "transcript.txt, L484, turn 160, 29:10, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[5]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And I want the Friday answer to come off a screen, not out of me.",
+      "location": "29:10 Wilhelmina Strachan",
+      "cited": "transcript.txt, L484, turn 160, 29:10, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[5]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I want one status. One word that means the same thing to me, to Rafael, to Leonor and to Torsten.",
+      "location": "29:35 Niamh Kettleborough",
+      "cited": "transcript.txt, L487, turn 161, 29:35, Niamh Kettleborough"
+    },
+    {
+      "path": "/rubric[5]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "I want to see who's free. Before I email them.",
+      "location": "29:50 Rafael Quintanilla",
+      "cited": "transcript.txt, L490, turn 162, 29:50, Rafael Quintanilla"
+    },
+    {
+      "path": "/rubric[5]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "I want to know which quotes are dead.",
+      "location": "30:02 Devika Raghunathan",
+      "cited": "transcript.txt, L493, turn 163, 30:02, Devika Raghunathan"
+    },
+    {
+      "path": "/rubric[5]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "But that's me guessing what she'd say, I haven't asked her.",
+      "location": "30:12 Wilhelmina Strachan",
+      "cited": "transcript.txt, L499, turn 165, 30:12, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[5]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And what does good look like? If we're sitting here in March and it worked, what's different?",
+      "location": "29:02 Consultant",
+      "cited": "transcript.txt, L481, turn 159, 29:02, Consultant"
+    },
+    {
+      "path": "/rubric[6]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It's my call on the tool. Anything over twelve thousand a year, Harriet signs, and honestly she'd want to see it before that.",
+      "location": "30:57 Wilhelmina Strachan",
+      "cited": "transcript.txt, L511, turn 169, 30:57, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[6]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Torsten has to be fine with anything that touches the accounting system, because if it double-invoices something he's the one who finds out from a client. He doesn't sign, exactly. He can stop it.",
+      "location": "31:16 Wilhelmina Strachan",
+      "cited": "transcript.txt, L517, turn 171, 31:16, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[6]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "They'll want it to sign in with our email accounts, not another password, and they'll want to know where the data is.",
+      "location": "31:34 Wilhelmina Strachan",
+      "cited": "transcript.txt, L523, turn 173, 31:34, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[6]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "She'll want to see Niamh put something in it, not me.",
+      "location": "31:52 Wilhelmina Strachan",
+      "cited": "transcript.txt, L529, turn 175, 31:52, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[6]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Okay. Tell me how a decision like this gets made here. If you wanted to go ahead, who says yes?",
+      "location": "30:49 Consultant",
+      "cited": "transcript.txt, L508, turn 168, 30:49, Consultant"
+    },
+    {
+      "path": "/rubric[7]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "This is the thing for now. The framework is January, so this is November.",
+      "location": "32:37 Wilhelmina Strachan",
+      "cited": "transcript.txt, L541, turn 179, 32:37, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[7]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "If it's in by the end of November, fine. December, no.",
+      "location": "34:13 Devika Raghunathan",
+      "cited": "transcript.txt, L571, turn 189, 34:13, Devika Raghunathan"
+    },
+    {
+      "path": "/rubric[7]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And where does this sit against everything else you've got on? The framework, the year-end, whatever else.",
+      "location": "32:28 Consultant",
+      "cited": "transcript.txt, L538, turn 178, 32:28, Consultant"
+    },
+    {
+      "path": "/rubric[8]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "If I have to put it in the translation tool and in yours, I'll do the translation tool, because the files are there, and yours will be wrong in a week.",
+      "location": "32:58 Niamh Kettleborough",
+      "cited": "transcript.txt, L550, turn 182, 32:58, Niamh Kettleborough"
+    },
+    {
+      "path": "/rubric[8]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The freelancers will not log into anything.",
+      "location": "33:44 Rafael Quintanilla",
+      "cited": "transcript.txt, L562, turn 186, 33:44, Rafael Quintanilla"
+    },
+    {
+      "path": "/rubric[8]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "We bought a project tool in twenty-twenty-two and it died in three months, and she paid for the year.",
+      "location": "31:52 Wilhelmina Strachan",
+      "cited": "transcript.txt, L529, turn 175, 31:52, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[8]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "If this lands in December it's dead.",
+      "location": "34:13 Devika Raghunathan",
+      "cited": "transcript.txt, L571, turn 189, 34:13, Devika Raghunathan"
+    },
+    {
+      "path": "/rubric[8]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What would stop it? Be honest.",
+      "location": "32:53 Consultant",
+      "cited": "transcript.txt, L547, turn 181, 32:53, Consultant"
+    },
+    {
+      "path": "/rubric[9]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Thursday the nineteenth. Ten o'clock. Eastern.",
+      "location": "40:24 Wilhelmina Strachan",
+      "cited": "transcript.txt, L664, turn 220, 40:24, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[9]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Send it to me and I'll add Harriet and Torsten.",
+      "location": "40:44 Wilhelmina Strachan",
+      "cited": "transcript.txt, L676, turn 224, 40:44, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[9]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Ten o'clock Eastern, Thursday the nineteenth. I'll send the invite this afternoon.",
+      "location": "40:38 Consultant",
+      "cited": "transcript.txt, L673, turn 223, 40:38, Consultant"
+    },
+    {
+      "path": "/rubric[9]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Yes. I want to see it. And I want Harriet to see it, which is the harder part.",
+      "location": "42:41 Wilhelmina Strachan",
+      "cited": "transcript.txt, L715, turn 237, 42:41, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[9]/asked_quote/quote",
+      "status": "verified",
+      "quote": "How's next week? Thursday the nineteenth?",
+      "location": "40:19 Consultant",
+      "cited": "transcript.txt, L661, turn 219, 40:19, Consultant"
+    },
+    {
+      "path": "/rubric[11]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Can I play back what I think the first version is, and you tell me if it's the right shape? Not to sign anything.",
+      "location": "34:47 Consultant",
+      "cited": "transcript.txt, L580, turn 192, 34:47, Consultant"
+    },
+    {
+      "path": "/rubric[11]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "That's the right shape. To show us. I'm not agreeing to anything with Harriet in a car. Three things.",
+      "location": "36:03 Wilhelmina Strachan",
+      "cited": "transcript.txt, L589, turn 195, 36:03, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[11]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Leave interpreting out. Different team, different problem, different people. Later, maybe.",
+      "location": "37:19 Wilhelmina Strachan",
+      "cited": "transcript.txt, L613, turn 203, 37:19, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[11]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Can I play back what I think the first version is, and you tell me if it's the right shape? Not to sign anything.",
+      "location": "34:47 Consultant",
+      "cited": "transcript.txt, L580, turn 192, 34:47, Consultant"
+    },
+    {
+      "path": "/rubric[12]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So I email someone and they say, sorry, Niamh's got me till Friday. And I didn't know.",
+      "location": "12:21 Rafael Quintanilla",
+      "cited": "transcript.txt, L193, turn 63, 12:21, Rafael Quintanilla"
+    },
+    {
+      "path": "/rubric[12]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Weekly. Somebody's double-booked or nearly double-booked every week.",
+      "location": "12:33 Rafael Quintanilla",
+      "cited": "transcript.txt, L199, turn 65, 12:33, Rafael Quintanilla"
+    },
+    {
+      "path": "/rubric[12]/asked_quote/quote",
+      "status": "verified",
+      "quote": "How often does that happen?",
+      "location": "12:29 Consultant",
+      "cited": "transcript.txt, L196, turn 64, 12:29, Consultant"
+    },
+    {
+      "path": "/rubric[13]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "A user manual, thirty-eight thousand words into German, and it's regulated content, it has to go through our best medical German translator and then a review, that's the whole point of us.",
+      "location": "12:50 Niamh Kettleborough",
+      "cited": "transcript.txt, L208, turn 68, 12:50, Niamh Kettleborough"
+    },
+    {
+      "path": "/rubric[13]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "So we split it. Three translators on the rest, which for a manual is the worst thing you can do, because they all say \"power button\" differently.",
+      "location": "13:32 Niamh Kettleborough",
+      "cited": "transcript.txt, L214, turn 70, 13:32, Niamh Kettleborough"
+    },
+    {
+      "path": "/rubric[13]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Forty-eight hundred. Off an invoice of about thirty.",
+      "location": "14:13 Wilhelmina Strachan",
+      "cited": "transcript.txt, L226, turn 74, 14:13, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[13]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Tell me about the German manual.",
+      "location": "12:46 Consultant",
+      "cited": "transcript.txt, L205, turn 67, 12:46, Consultant"
+    },
+    {
+      "path": "/rubric[14]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "There's a chat channel called \"assignments\" where the PMs are supposed to post who they've booked. Niamh posts. Nobody else does.",
+      "location": "15:25 Rafael Quintanilla",
+      "cited": "transcript.txt, L247, turn 81, 15:25, Rafael Quintanilla"
+    },
+    {
+      "path": "/rubric[14]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And I've got a column in the spreadsheet, \"busy until\", that I update when somebody tells me, which is never.",
+      "location": "15:40 Rafael Quintanilla",
+      "cited": "transcript.txt, L253, turn 83, 15:40, Rafael Quintanilla"
+    },
+    {
+      "path": "/rubric[14]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Because it's not working now, and in January the medical device volume doubles. It's a hundred and forty people on a spreadsheet and one of me.",
+      "location": "15:56 Rafael Quintanilla",
+      "cited": "transcript.txt, L259, turn 85, 15:56, Rafael Quintanilla"
+    },
+    {
+      "path": "/rubric[14]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Why won't that carry on working?",
+      "location": "15:52 Consultant",
+      "cited": "transcript.txt, L256, turn 84, 15:52, Consultant"
+    },
+    {
+      "path": "/rubric[15]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The translator, because they've said yes to two people and they're the one who has to pick. The PM, because they've promised a date. Leonor's team, because they get a manual in three voices. The client, because it's late.",
+      "location": "16:26 Rafael Quintanilla",
+      "cited": "transcript.txt, L268, turn 88, 16:26, Rafael Quintanilla"
+    },
+    {
+      "path": "/rubric[15]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And me, because I get the call from procurement.",
+      "location": "16:49 Wilhelmina Strachan",
+      "cited": "transcript.txt, L271, turn 89, 16:49, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[15]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Who feels it, when it goes wrong?",
+      "location": "16:22 Consultant",
+      "cited": "transcript.txt, L265, turn 87, 16:22, Consultant"
+    },
+    {
+      "path": "/rubric[16]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Twenty-five percent on top for the translator to drop everything, and we can't always pass it on because it's our fault.",
+      "location": "14:46 Niamh Kettleborough",
+      "cited": "transcript.txt, L235, turn 77, 14:46, Niamh Kettleborough"
+    },
+    {
+      "path": "/rubric[16]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Two thousand two hundred in October. It's between fifteen hundred and three thousand most months.",
+      "location": "15:04 Rafael Quintanilla",
+      "cited": "transcript.txt, L241, turn 79, 15:04, Rafael Quintanilla"
+    },
+    {
+      "path": "/rubric[16]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "More. Two days. Two reviewers, two days, on that one.",
+      "location": "13:54 Niamh Kettleborough",
+      "cited": "transcript.txt, L220, turn 72, 13:54, Niamh Kettleborough"
+    },
+    {
+      "path": "/rubric[16]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "A split because someone's double-booked? Four, five times a year, big ones.",
+      "location": "14:31 Rafael Quintanilla",
+      "cited": "transcript.txt, L232, turn 76, 14:31, Rafael Quintanilla"
+    },
+    {
+      "path": "/rubric[16]/asked_quote/quote",
+      "status": "verified",
+      "quote": "How much rush do you pay, in a month?",
+      "location": "15:00 Consultant",
+      "cited": "transcript.txt, L238, turn 78, 15:00, Consultant"
+    },
+    {
+      "path": "/rubric[17]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Worse. More languages, more small jobs, and the medical work is all specialists, so the pool for any one job is four people, not forty.",
+      "location": "16:58 Rafael Quintanilla",
+      "cited": "transcript.txt, L277, turn 91, 16:58, Rafael Quintanilla"
+    },
+    {
+      "path": "/rubric[17]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Because it's not working now, and in January the medical device volume doubles.",
+      "location": "15:56 Rafael Quintanilla",
+      "cited": "transcript.txt, L259, turn 85, 15:56, Rafael Quintanilla"
+    },
+    {
+      "path": "/rubric[17]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And is it getting better or worse?",
+      "location": "16:54 Consultant",
+      "cited": "transcript.txt, L274, turn 90, 16:54, Consultant"
+    },
+    {
+      "path": "/rubric[18]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Harriet walks past my desk on a Friday afternoon and asks what's going out next week, and I tell her from memory.",
+      "location": "17:23 Wilhelmina Strachan",
+      "cited": "transcript.txt, L283, turn 93, 17:23, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[18]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Mina emails a list of everything that's open with a date next to it, and by Tuesday it's wrong.",
+      "location": "17:56 Niamh Kettleborough",
+      "cited": "transcript.txt, L292, turn 96, 17:56, Niamh Kettleborough"
+    },
+    {
+      "path": "/rubric[18]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Okay. Niamh, I want to come to where a project lives. Mina, you said in your email that Harriet asks you what's late. How does that go?",
+      "location": "17:12 Consultant",
+      "cited": "transcript.txt, L280, turn 92, 17:12, Consultant"
+    },
+    {
+      "path": "/rubric[19]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "They rang Devika about a set of forms, twelve languages, and asked when it was coming, and Devika said, it's been delivered, hasn't it, and it hadn't.",
+      "location": "18:17 Niamh Kettleborough",
+      "cited": "transcript.txt, L301, turn 99, 18:17, Niamh Kettleborough"
+    },
+    {
+      "path": "/rubric[19]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "A day and a half. We rang her in the end. She was in bed.",
+      "location": "18:55 Niamh Kettleborough",
+      "cited": "transcript.txt, L307, turn 101, 18:55, Niamh Kettleborough"
+    },
+    {
+      "path": "/rubric[19]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And I'd told the agency it was delivered. So that was fun.",
+      "location": "19:01 Devika Raghunathan",
+      "cited": "transcript.txt, L310, turn 102, 19:01, Devika Raghunathan"
+    },
+    {
+      "path": "/rubric[19]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Give me one where it hurt. A project nobody could find.",
+      "location": "18:12 Consultant",
+      "cited": "transcript.txt, L298, turn 98, 18:12, Consultant"
+    },
+    {
+      "path": "/rubric[20]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And before Mina tells her from memory, Mina's come round all five of us and asked, and we've each looked at our own thing.",
+      "location": "17:43 Niamh Kettleborough",
+      "cited": "transcript.txt, L286, turn 94, 17:43, Niamh Kettleborough"
+    },
+    {
+      "path": "/rubric[20]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Every Friday. And then Monday morning there's the list.",
+      "location": "17:56 Niamh Kettleborough",
+      "cited": "transcript.txt, L292, turn 96, 17:56, Niamh Kettleborough"
+    },
+    {
+      "path": "/rubric[20]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And I'm usually right, which is the problem, because it means nobody's fixed it.",
+      "location": "17:23 Wilhelmina Strachan",
+      "cited": "transcript.txt, L283, turn 93, 17:23, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[20]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "If I'm off, the Friday answer stops. That's not a business.",
+      "location": "25:27 Wilhelmina Strachan",
+      "cited": "transcript.txt, L409, turn 135, 25:27, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[20]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Every Friday?",
+      "location": "17:53 Consultant",
+      "cited": "transcript.txt, L289, turn 95, 17:53, Consultant"
+    },
+    {
+      "path": "/rubric[21]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Devika, because she's the one telling the client something that isn't true. Torsten, because he can't invoice what he can't see is finished. Harriet, obviously. And the reviewers, because they get \"is this done yet\" from three directions.",
+      "location": "19:40 Niamh Kettleborough",
+      "cited": "transcript.txt, L325, turn 107, 19:40, Niamh Kettleborough"
+    },
+    {
+      "path": "/rubric[21]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Who else does it touch?",
+      "location": "19:37 Consultant",
+      "cited": "transcript.txt, L322, turn 106, 19:37, Consultant"
+    },
+    {
+      "path": "/rubric[22]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Half a day a week, each of us, easily. Call it four hours. Some weeks it's a day.",
+      "location": "19:13 Niamh Kettleborough",
+      "cited": "transcript.txt, L316, turn 104, 19:13, Niamh Kettleborough"
+    },
+    {
+      "path": "/rubric[22]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Four's fair. And that's five people.",
+      "location": "19:32 Wilhelmina Strachan",
+      "cited": "transcript.txt, L319, turn 105, 19:32, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[22]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Call it forty-two an hour, loaded, across the five.",
+      "location": "26:35 Wilhelmina Strachan",
+      "cited": "transcript.txt, L436, turn 144, 26:35, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[22]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What's the cost of that, day to day? Not the one time, the every-week version.",
+      "location": "19:06 Consultant",
+      "cited": "transcript.txt, L313, turn 103, 19:06, Consultant"
+    },
+    {
+      "path": "/rubric[23]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "More of everything. I mean, I'd assume more. Twice the volume from one client, same five of us, same four spreadsheets. I don't know exactly what that does to the Friday round. Longer.",
+      "location": "20:03 Niamh Kettleborough",
+      "cited": "transcript.txt, L331, turn 109, 20:03, Niamh Kettleborough"
+    },
+    {
+      "path": "/rubric[23]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And where does that go, with the framework in January?",
+      "location": "19:58 Consultant",
+      "cited": "transcript.txt, L328, turn 108, 19:58, Consultant"
+    },
+    {
+      "path": "/rubric[24]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The tool has a status called delivered but Torsten's not in the tool. So it's the email.",
+      "location": "20:26 Niamh Kettleborough",
+      "cited": "transcript.txt, L337, turn 111, 20:26, Niamh Kettleborough"
+    },
+    {
+      "path": "/rubric[24]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Sometimes the following week when he asks.",
+      "location": "20:26 Niamh Kettleborough",
+      "cited": "transcript.txt, L337, turn 111, 20:26, Niamh Kettleborough"
+    },
+    {
+      "path": "/rubric[24]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Okay. The other end. A project finishes. What tells Torsten to invoice?",
+      "location": "20:19 Consultant",
+      "cited": "transcript.txt, L334, turn 110, 20:19, Consultant"
+    },
+    {
+      "path": "/rubric[25]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Torsten went through the delivered folder in the spring, for the year-end, and found three projects that had been delivered and never invoiced. Eleven thousand dollars, sitting there since the previous autumn.",
+      "location": "20:47 Wilhelmina Strachan",
+      "cited": "transcript.txt, L340, turn 112, 20:47, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[26]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Torsten goes through the delivered folder on the shared drive on a Friday. He's looking for things he hasn't seen an email about. That's the system. He'd tell you it's not a system.",
+      "location": "22:13 Wilhelmina Strachan",
+      "cited": "transcript.txt, L364, turn 120, 22:13, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[26]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Then don't. What's the system for catching it today?",
+      "location": "22:08 Consultant",
+      "cited": "transcript.txt, L361, turn 119, 22:08, Consultant"
+    },
+    {
+      "path": "/rubric[27]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "and it's Harriet asking me why the bank looks like that.",
+      "location": "21:53 Wilhelmina Strachan",
+      "cited": "transcript.txt, L358, turn 118, 21:53, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[27]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Not lost, we invoiced them, but the clients weren't thrilled getting a bill for something from eight months ago.",
+      "location": "20:47 Wilhelmina Strachan",
+      "cited": "transcript.txt, L340, turn 112, 20:47, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[28]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Torsten would. I don't. It's cash, it's cash sitting with them instead of us, and it's Harriet asking me why the bank looks like that. I'm not going to guess at it in front of you.",
+      "location": "21:53 Wilhelmina Strachan",
+      "cited": "transcript.txt, L358, turn 118, 21:53, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[28]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "He's on mute. Or the dog. Hang on. No, he's -- I'll get it from him. Write that down as mine.",
+      "location": "21:38 Wilhelmina Strachan",
+      "cited": "transcript.txt, L352, turn 116, 21:38, Wilhelmina Strachan"
+    },
+    {
+      "path": "/rubric[28]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Torsten, is that a number you'd have to hand, or would it need working out?",
+      "location": "21:27 Consultant",
+      "cited": "transcript.txt, L349, turn 115, 21:27, Consultant"
+    },
+    {
+      "path": "/pains[0]/quote",
+      "status": "verified",
+      "quote": "Weekly. Somebody's double-booked or nearly double-booked every week.",
+      "location": "12:33 Rafael Quintanilla",
+      "cited": "transcript.txt, L199, turn 65, 12:33, Rafael Quintanilla"
+    },
+    {
+      "path": "/pains[1]/quote",
+      "status": "verified",
+      "quote": "So we split it. Three translators on the rest, which for a manual is the worst thing you can do, because they all say \"power button\" differently.",
+      "location": "13:32 Niamh Kettleborough",
+      "cited": "transcript.txt, L214, turn 70, 13:32, Niamh Kettleborough"
+    },
+    {
+      "path": "/pains[2]/quote",
+      "status": "verified",
+      "quote": "If I'm off for a week, nobody knows who's free.",
+      "location": "15:56 Rafael Quintanilla",
+      "cited": "transcript.txt, L259, turn 85, 15:56, Rafael Quintanilla"
+    },
+    {
+      "path": "/pains[3]/quote",
+      "status": "verified",
+      "quote": "Mina emails a list of everything that's open with a date next to it, and by Tuesday it's wrong.",
+      "location": "17:56 Niamh Kettleborough",
+      "cited": "transcript.txt, L292, turn 96, 17:56, Niamh Kettleborough"
+    },
+    {
+      "path": "/pains[4]/quote",
+      "status": "verified",
+      "quote": "It had been in review for six days, waiting on one language, and nobody knew, because review is Leonor's world and the PM's tracker is the PM's world.",
+      "location": "18:17 Niamh Kettleborough",
+      "cited": "transcript.txt, L301, turn 99, 18:17, Niamh Kettleborough"
+    },
+    {
+      "path": "/pains[5]/quote",
+      "status": "verified",
+      "quote": "The tool has a status called delivered but Torsten's not in the tool. So it's the email.",
+      "location": "20:26 Niamh Kettleborough",
+      "cited": "transcript.txt, L337, turn 111, 20:26, Niamh Kettleborough"
+    },
+    {
+      "path": "/pains[6]/quote",
+      "status": "verified",
+      "quote": "Eleven thousand dollars, sitting there since the previous autumn.",
+      "location": "20:47 Wilhelmina Strachan",
+      "cited": "transcript.txt, L340, turn 112, 20:47, Wilhelmina Strachan"
+    },
+    {
+      "path": "/pains[7]/quote",
+      "status": "verified",
+      "quote": "I've got quotes out there from September I've never heard back on. Are they dead? Probably. Are they in the log as sent? Yes.",
+      "location": "08:29 Devika Raghunathan",
+      "cited": "transcript.txt, L124, turn 40, 08:29, Devika Raghunathan"
+    },
+    {
+      "path": "/pains[8]/quote",
+      "status": "verified",
+      "quote": "When it's tight, review is the thing that gets squeezed, and nobody writes down that it was squeezed.",
+      "location": "23:10 Niamh Kettleborough",
+      "cited": "transcript.txt, L376, turn 124, 23:10, Niamh Kettleborough"
+    },
+    {
+      "path": "/pains[9]/quote",
+      "status": "verified",
+      "quote": "It works. It's slow. It's about two days of Torsten a month, he says.",
+      "location": "22:36 Rafael Quintanilla",
+      "cited": "transcript.txt, L370, turn 122, 22:36, Rafael Quintanilla"
+    },
+    {
+      "path": "/numbers/bleed/quote",
+      "status": "verified",
+      "quote": "So that's, what, forty-three and twenty-six. Seventy thousand. Seventy. A year. Before the credit notes and before Torsten's bit.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L442, turn 146, 26:51, Wilhelmina Strachan"
+      ]
+    },
+    {
+      "path": "/numbers/upside/quote",
+      "status": "verified",
+      "quote": "That was about a hundred and thirty thousand of work. It comes round again in the spring.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L469, turn 155, 28:28, Wilhelmina Strachan"
+      ]
+    },
+    {
+      "path": "/objections[0]/quote",
+      "status": "verified",
+      "quote": "Anything over twelve thousand a year, Harriet signs, and honestly she'd want to see it before that.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L511, turn 169, 30:57, Wilhelmina Strachan"
+      ]
+    },
+    {
+      "path": "/objections[1]/quote",
+      "status": "verified",
+      "quote": "If I have to put it in the translation tool and in yours, I'll do the translation tool, because the files are there, and yours will be wrong in a week.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L550, turn 182, 32:58, Niamh Kettleborough"
+      ]
+    },
+    {
+      "path": "/objections[2]/quote",
+      "status": "verified",
+      "quote": "The freelancers will not log into anything.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L562, turn 186, 33:44, Rafael Quintanilla"
+      ]
+    },
+    {
+      "path": "/objections[3]/quote",
+      "status": "verified",
+      "quote": "We bought a project tool in twenty-twenty-two and it died in three months, and she paid for the year.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L529, turn 175, 31:52, Wilhelmina Strachan"
+      ]
+    },
+    {
+      "path": "/objections[4]/quote",
+      "status": "verified",
+      "quote": "And I'll say the other thing, which is that the tool has a project list. We've paid for it. Two of us use it. Somebody's going to ask why this isn't just that, and the somebody might be Harriet.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L556, turn 184, 33:17, Niamh Kettleborough"
+      ]
+    },
+    {
+      "path": "/objections[5]/quote",
+      "status": "verified",
+      "quote": "If this lands in December it's dead.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L571, turn 189, 34:13, Devika Raghunathan"
+      ]
+    },
+    {
+      "path": "/objections[6]/quote",
+      "status": "verified",
+      "quote": "we're a thirty-four-person translation company, not a bank, so the budget for this is not big.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L577, turn 191, 34:33, Wilhelmina Strachan"
+      ]
+    },
+    {
+      "path": "/objections[7]/quote",
+      "status": "verified",
+      "quote": "Can you give me a number to take to Harriet? Even a range. That's what she'll ask me at four o'clock.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L685, turn 227, 41:09, Wilhelmina Strachan"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[0]/quote",
+      "status": "verified",
+      "quote": "Thursday the nineteenth. Ten o'clock. Eastern.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L664, turn 220, 40:24, Wilhelmina Strachan"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[1]/quote",
+      "status": "verified",
+      "quote": "Ten o'clock Eastern, Thursday the nineteenth. I'll send the invite this afternoon.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L673, turn 223, 40:38, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[2]/quote",
+      "status": "verified",
+      "quote": "Send it to me and I'll add Harriet and Torsten. And I'll have Torsten's numbers before then, the lag and the credit notes. Both.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L676, turn 224, 40:44, Wilhelmina Strachan"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[3]/quote",
+      "status": "verified",
+      "quote": "And I'll send you my spreadsheet. With the client names taken off. So you can see what my columns are, because whatever you build had better have my columns.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L679, turn 225, 40:53, Niamh Kettleborough"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[4]/quote",
+      "status": "verified",
+      "quote": "It has an API, I think. The vendor keeps telling us it does. Nobody here has ever used it. I can ask them.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L625, turn 207, 38:08, Niamh Kettleborough"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[5]/quote",
+      "status": "verified",
+      "quote": "Headings, no names, no rates. I can do that tonight.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L631, turn 209, 38:36, Rafael Quintanilla"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[6]/quote",
+      "status": "verified",
+      "quote": "I'll also send a short recap tomorrow, what I heard and the list, so you can correct me.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L694, turn 230, 41:54, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[7]/quote",
+      "status": "verified",
+      "quote": "When she's seen the first version and we've agreed what's in and what's out, I'll give you a number the same day, and it'll be a real one.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L688, turn 228, 41:17, Consultant"
+      ]
+    },
+    {
+      "path": "/requested_changes[0]/quote",
+      "status": "verified",
+      "quote": "A project isn't a project until the PO's in, or the written go-ahead.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L595, turn 197, 36:16, Wilhelmina Strachan"
+      ]
+    },
+    {
+      "path": "/requested_changes[1]/quote",
+      "status": "verified",
+      "quote": "Whatever the word is, it's the same word.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L601, turn 199, 36:39, Niamh Kettleborough"
+      ]
+    },
+    {
+      "path": "/requested_changes[2]/quote",
+      "status": "verified",
+      "quote": "Whatever you build, it emails them and they reply, and nothing they reply to has another client's name on it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L607, turn 201, 36:58, Rafael Quintanilla"
+      ]
+    },
+    {
+      "path": "/requested_changes[3]/quote",
+      "status": "verified",
+      "quote": "Leave interpreting out. Different team, different problem, different people. Later, maybe.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L613, turn 203, 37:19, Wilhelmina Strachan"
+      ]
+    },
+    {
+      "path": "/requested_changes[4]/quote",
+      "status": "verified",
+      "quote": "And it has to work from a phone. Not the freelancers, us. I'm not at my desk half the day.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L703, turn 233, 42:17, Rafael Quintanilla"
+      ]
+    },
+    {
+      "path": "/account_context/evidence_quote_or_null",
+      "status": "verified",
+      "quote": "We bought a project tool in twenty-twenty-two and it died in three months, and she paid for the year.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L529, turn 175, 31:52, Wilhelmina Strachan"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[0]/quote",
+      "status": "verified",
+      "quote": "I'm not going to show you anything on a screen today.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L43, turn 13, 01:39, Consultant"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[2]/quote",
+      "status": "verified",
+      "quote": "That works. That's the version I asked for. We've had the other kind.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L46, turn 14, 02:09, Wilhelmina Strachan"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[3]/quote",
+      "status": "verified",
+      "quote": "I want one status. One word that means the same thing to me, to Rafael, to Leonor and to Torsten.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L487, turn 161, 29:35, Niamh Kettleborough"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[4]/quote",
+      "status": "verified",
+      "quote": "It's my call on the tool. Anything over twelve thousand a year, Harriet signs, and honestly she'd want to see it before that.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L511, turn 169, 30:57, Wilhelmina Strachan"
+      ]
+    },
+    {
+      "path": "/intake/roster/narrated_roster/interruption/quote",
+      "status": "verified",
+      "quote": "Sorry, sorry, sorry. The other one ran over. Don't stop. Is this me? Where do I sit.",
+      "location": "03:41 Niamh Kettleborough",
+      "cited": "transcript.txt, L58, turn 18, 03:41, Niamh Kettleborough"
+    },
+    {
+      "path": "/intake/roster/narrated_roster/hedges_kept_verbatim[0]/quote",
+      "status": "verified",
+      "quote": "he's on mute, he'll wave.",
+      "location": "02:29 Wilhelmina Strachan",
+      "cited": "transcript.txt, L55, turn 17, 02:29, Wilhelmina Strachan"
+    },
+    {
+      "path": "/intake/roster/narrated_roster/hedges_kept_verbatim[1]/quote",
+      "status": "verified",
+      "quote": "she's here and not here",
+      "location": "02:29 Wilhelmina Strachan",
+      "cited": "transcript.txt, L55, turn 17, 02:29, Wilhelmina Strachan"
+    },
+    {
+      "path": "/intake/roster/narrated_roster/hedges_kept_verbatim[2]/quote",
+      "status": "verified",
+      "quote": "so she may be on and she may not, and she probably won't say anything, but she wanted to hear it.",
+      "location": "03:58 Wilhelmina Strachan",
+      "cited": "transcript.txt, L67, turn 21, 03:58, Wilhelmina Strachan"
+    },
+    {
+      "path": "/intake/roster/narrated_roster/hedges_kept_verbatim[3]/quote",
+      "status": "verified",
+      "quote": "So that's, what, seven of us if Harriet's actually there. I think. Don't hold me to that.",
+      "location": "03:58 Wilhelmina Strachan",
+      "cited": "transcript.txt, L67, turn 21, 03:58, Wilhelmina Strachan"
+    },
+    {
+      "path": "/intake/roster/narrated_roster/hedges_kept_verbatim[4]/quote",
+      "status": "verified",
+      "quote": "She'll be on. Harriet. Probably. Anyway.",
+      "location": "04:55 Wilhelmina Strachan",
+      "cited": "transcript.txt, L73, turn 23, 04:55, Wilhelmina Strachan"
+    },
+    {
+      "path": "/intake/roster/narrated_roster/referrals_to_a_better_source[0]/quote",
+      "status": "verified",
+      "quote": "he's the one to ask, not me, I'll get it wrong.",
+      "location": "02:29 Wilhelmina Strachan",
+      "cited": "transcript.txt, L55, turn 17, 02:29, Wilhelmina Strachan"
+    },
+    {
+      "path": "/intake/roster/narrated_roster/referrals_to_a_better_source[1]/quote",
+      "status": "verified",
+      "quote": "and you are going to hear more from her than from me.",
+      "location": "03:58 Wilhelmina Strachan",
+      "cited": "transcript.txt, L67, turn 21, 03:58, Wilhelmina Strachan"
+    },
+    {
+      "path": "/intake/roster/never_spoke_as_claimed[0]/addressed_by_our_side/quote",
+      "status": "verified",
+      "quote": "Torsten, is that a number you'd have to hand, or would it need working out?",
+      "location": "21:27 Consultant",
+      "cited": "transcript.txt, L349, turn 115, 21:27, Consultant"
+    },
+    {
+      "path": "/intake/roster/never_spoke_as_claimed[2]/addressed_by_our_side/quote",
+      "status": "verified",
+      "quote": "Harriet, if you're still there -- anything you'd add to that?",
+      "location": "30:28 Consultant",
+      "cited": "transcript.txt, L502, turn 166, 30:28, Consultant"
+    },
+    {
+      "path": "/intake/relayed_and_second_hand[0]/quote",
+      "status": "verified",
+      "quote": "Torsten told me it's about ten days on average, but that was off the top of his head, don't quote him. He'd want to check.",
+      "location": "21:17 Wilhelmina Strachan",
+      "cited": "transcript.txt, L346, turn 114, 21:17, Wilhelmina Strachan"
+    },
+    {
+      "path": "/intake/relayed_and_second_hand[1]/quote",
+      "status": "verified",
+      "quote": "It works. It's slow. It's about two days of Torsten a month, he says.",
+      "location": "22:36 Rafael Quintanilla",
+      "cited": "transcript.txt, L370, turn 122, 22:36, Rafael Quintanilla"
+    },
+    {
+      "path": "/intake/relayed_and_second_hand[2]/quote",
+      "status": "verified",
+      "quote": "But that's me guessing what she'd say, I haven't asked her.",
+      "location": "30:12 Wilhelmina Strachan",
+      "cited": "transcript.txt, L499, turn 165, 30:12, Wilhelmina Strachan"
+    },
+    {
+      "path": "/intake/relayed_and_second_hand[3]/quote",
+      "status": "verified",
+      "quote": "And the credit notes, which were three last year, I think, the forty-eight hundred and two smaller ones, and I'm not guessing the total in front of you, I'll get it from him with the other thing.",
+      "location": "27:26 Wilhelmina Strachan",
+      "cited": "transcript.txt, L448, turn 148, 27:26, Wilhelmina Strachan"
+    },
+    {
+      "path": "/intake/leading_band/our_question/quote",
+      "status": "verified",
+      "quote": "Is that something like a day each time, or more?",
+      "location": "13:49 Consultant",
+      "cited": "transcript.txt, L217, turn 71, 13:49, Consultant"
+    },
+    {
+      "path": "/intake/leading_band/client_answer/quote",
+      "status": "verified",
+      "quote": "More. Two days. Two reviewers, two days, on that one.",
+      "location": "13:54 Niamh Kettleborough",
+      "cited": "transcript.txt, L220, turn 72, 13:54, Niamh Kettleborough"
+    },
+    {
+      "path": "/intake/same_call_figure_pair/a/quote",
+      "status": "verified",
+      "quote": "That was about a hundred and thirty thousand of work.",
+      "location": "28:28 Wilhelmina Strachan",
+      "cited": "transcript.txt, L469, turn 155, 28:28, Wilhelmina Strachan"
+    },
+    {
+      "path": "/intake/same_call_figure_pair/b/quote",
+      "status": "verified",
+      "quote": "It's a hundred and twenty-eight and change. Two-year term.",
+      "location": "28:57 Devika Raghunathan",
+      "cited": "transcript.txt, L478, turn 158, 28:57, Devika Raghunathan"
+    },
+    {
+      "path": "/intake/unit_inferred_figures[0]/quote",
+      "status": "verified",
+      "quote": "Forty-eight hundred. Off an invoice of about thirty.",
+      "location": "14:13 Wilhelmina Strachan",
+      "cited": "transcript.txt, L226, turn 74, 14:13, Wilhelmina Strachan"
+    },
+    {
+      "path": "/readiness/pains[0]/quote",
+      "status": "verified",
+      "quote": "Weekly. Somebody's double-booked or nearly double-booked every week.",
+      "location": "12:33 Rafael Quintanilla",
+      "cited": "transcript.txt, L199, turn 65, 12:33, Rafael Quintanilla"
+    },
+    {
+      "path": "/readiness/pains[1]/quote",
+      "status": "verified",
+      "quote": "So we split it. Three translators on the rest, which for a manual is the worst thing you can do, because they all say \"power button\" differently.",
+      "location": "13:32 Niamh Kettleborough",
+      "cited": "transcript.txt, L214, turn 70, 13:32, Niamh Kettleborough"
+    },
+    {
+      "path": "/readiness/pains[2]/quote",
+      "status": "verified",
+      "quote": "If I'm off for a week, nobody knows who's free.",
+      "location": "15:56 Rafael Quintanilla",
+      "cited": "transcript.txt, L259, turn 85, 15:56, Rafael Quintanilla"
+    },
+    {
+      "path": "/readiness/pains[3]/quote",
+      "status": "verified",
+      "quote": "Mina emails a list of everything that's open with a date next to it, and by Tuesday it's wrong.",
+      "location": "17:56 Niamh Kettleborough",
+      "cited": "transcript.txt, L292, turn 96, 17:56, Niamh Kettleborough"
+    },
+    {
+      "path": "/readiness/pains[4]/quote",
+      "status": "verified",
+      "quote": "It had been in review for six days, waiting on one language, and nobody knew, because review is Leonor's world and the PM's tracker is the PM's world.",
+      "location": "18:17 Niamh Kettleborough",
+      "cited": "transcript.txt, L301, turn 99, 18:17, Niamh Kettleborough"
+    },
+    {
+      "path": "/readiness/pains[5]/quote",
+      "status": "verified",
+      "quote": "The tool has a status called delivered but Torsten's not in the tool. So it's the email.",
+      "location": "20:26 Niamh Kettleborough",
+      "cited": "transcript.txt, L337, turn 111, 20:26, Niamh Kettleborough"
+    },
+    {
+      "path": "/readiness/pains[6]/quote",
+      "status": "verified",
+      "quote": "Eleven thousand dollars, sitting there since the previous autumn.",
+      "location": "20:47 Wilhelmina Strachan",
+      "cited": "transcript.txt, L340, turn 112, 20:47, Wilhelmina Strachan"
+    },
+    {
+      "path": "/readiness/pains[7]/quote",
+      "status": "verified",
+      "quote": "I've got quotes out there from September I've never heard back on. Are they dead? Probably. Are they in the log as sent? Yes.",
+      "location": "08:29 Devika Raghunathan",
+      "cited": "transcript.txt, L124, turn 40, 08:29, Devika Raghunathan"
+    },
+    {
+      "path": "/readiness/pains[8]/quote",
+      "status": "verified",
+      "quote": "When it's tight, review is the thing that gets squeezed, and nobody writes down that it was squeezed.",
+      "location": "23:10 Niamh Kettleborough",
+      "cited": "transcript.txt, L376, turn 124, 23:10, Niamh Kettleborough"
+    },
+    {
+      "path": "/readiness/pains[9]/quote",
+      "status": "verified",
+      "quote": "It works. It's slow. It's about two days of Torsten a month, he says.",
+      "location": "22:36 Rafael Quintanilla",
+      "cited": "transcript.txt, L370, turn 122, 22:36, Rafael Quintanilla"
+    },
+    {
+      "path": "/readiness/signals[0]/quote",
+      "status": "verified",
+      "quote": "Torsten told me it's about ten days on average, but that was off the top of his head, don't quote him. He'd want to check.",
+      "location": "21:17 Wilhelmina Strachan",
+      "cited": "transcript.txt, L346, turn 114, 21:17, Wilhelmina Strachan"
+    },
+    {
+      "path": "/readiness/signals[1]/quote",
+      "status": "verified",
+      "quote": "Torsten has to be fine with anything that touches the accounting system, because if it double-invoices something he's the one who finds out from a client. He doesn't sign, exactly. He can stop it.",
+      "location": "31:16 Wilhelmina Strachan",
+      "cited": "transcript.txt, L517, turn 171, 31:16, Wilhelmina Strachan"
+    },
+    {
+      "path": "/readiness/signals[2]/quote",
+      "status": "verified",
+      "quote": "I think it has an export. I couldn't tell you if it talks to anything. That's a Torsten question. Put it on the list.",
+      "location": "37:45 Wilhelmina Strachan",
+      "cited": "transcript.txt, L619, turn 205, 37:45, Wilhelmina Strachan"
+    },
+    {
+      "path": "/readiness/signals[3]/quote",
+      "status": "verified",
+      "quote": "It works. It's slow. It's about two days of Torsten a month, he says.",
+      "location": "22:36 Rafael Quintanilla",
+      "cited": "transcript.txt, L370, turn 122, 22:36, Rafael Quintanilla"
+    },
+    {
+      "path": "/readiness/signals[4]/quote",
+      "status": "verified",
+      "quote": "But that's me guessing what she'd say, I haven't asked her.",
+      "location": "30:12 Wilhelmina Strachan",
+      "cited": "transcript.txt, L499, turn 165, 30:12, Wilhelmina Strachan"
+    },
+    {
+      "path": "/readiness/signals[5]/quote",
+      "status": "verified",
+      "quote": "She'll want to see Niamh put something in it, not me.",
+      "location": "31:52 Wilhelmina Strachan",
+      "cited": "transcript.txt, L529, turn 175, 31:52, Wilhelmina Strachan"
+    },
+    {
+      "path": "/readiness/signals[6]/quote",
+      "status": "verified",
+      "quote": "It has an API, I think. The vendor keeps telling us it does. Nobody here has ever used it. I can ask them.",
+      "location": "38:08 Niamh Kettleborough",
+      "cited": "transcript.txt, L625, turn 207, 38:08, Niamh Kettleborough"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[0]",
+      "status": "verified",
+      "quote": "It had been in review for six days, waiting on one language, and nobody knew, because review is Leonor's world and the PM's tracker is the PM's world.",
+      "location": "18:17 Niamh Kettleborough",
+      "cited": "transcript.txt, L301, turn 99, 18:17, Niamh Kettleborough"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[1]",
+      "status": "verified",
+      "quote": "So we split it. Three translators on the rest, which for a manual is the worst thing you can do, because they all say \"power button\" differently.",
+      "location": "13:32 Niamh Kettleborough",
+      "cited": "transcript.txt, L214, turn 70, 13:32, Niamh Kettleborough"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[0]",
+      "status": "verified",
+      "quote": "And I've got a column in the spreadsheet, \"busy until\", that I update when somebody tells me, which is never.",
+      "location": "15:40 Rafael Quintanilla",
+      "cited": "transcript.txt, L253, turn 83, 15:40, Rafael Quintanilla"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[1]",
+      "status": "verified",
+      "quote": "I want to see who's free. Before I email them. And I want the PMs to be able to see it too, so they stop asking me and stop going round me.",
+      "location": "29:50 Rafael Quintanilla",
+      "cited": "transcript.txt, L490, turn 162, 29:50, Rafael Quintanilla"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[0]",
+      "status": "verified",
+      "quote": "The tool has a status called delivered but Torsten's not in the tool. So it's the email.",
+      "location": "20:26 Niamh Kettleborough",
+      "cited": "transcript.txt, L337, turn 111, 20:26, Niamh Kettleborough"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[1]",
+      "status": "verified",
+      "quote": "When I remember. Usually the same day. Sometimes the following week when he asks.",
+      "location": "20:26 Niamh Kettleborough",
+      "cited": "transcript.txt, L337, turn 111, 20:26, Niamh Kettleborough"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[0]",
+      "status": "verified",
+      "quote": "It's a normal accounting package, Torsten runs it. The project number goes in by hand off the email. I think it has an export. I couldn't tell you if it talks to anything. That's a Torsten question. Put it on the list.",
+      "location": "37:45 Wilhelmina Strachan",
+      "cited": "transcript.txt, L619, turn 205, 37:45, Wilhelmina Strachan"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[0]",
+      "status": "verified",
+      "quote": "That's the right shape. To show us. I'm not agreeing to anything with Harriet in a car. Three things.",
+      "location": "36:03 Wilhelmina Strachan",
+      "cited": "transcript.txt, L589, turn 195, 36:03, Wilhelmina Strachan"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[1]",
+      "status": "verified",
+      "quote": "And I want the Friday answer to come off a screen, not out of me.",
+      "location": "29:10 Wilhelmina Strachan",
+      "cited": "transcript.txt, L484, turn 160, 29:10, Wilhelmina Strachan"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[0]",
+      "status": "verified",
+      "quote": "I want one status. One word that means the same thing to me, to Rafael, to Leonor and to Torsten.",
+      "location": "29:35 Niamh Kettleborough",
+      "cited": "transcript.txt, L487, turn 161, 29:35, Niamh Kettleborough"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[1]",
+      "status": "verified",
+      "quote": "Whatever the word is, it's the same word.",
+      "location": "36:39 Niamh Kettleborough",
+      "cited": "transcript.txt, L601, turn 199, 36:39, Niamh Kettleborough"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[0]",
+      "status": "verified",
+      "quote": "They invoice us. Monthly, most of them. Torsten matches their invoice to the PO we sent them, which is an email.",
+      "location": "22:36 Rafael Quintanilla",
+      "cited": "transcript.txt, L370, turn 122, 22:36, Rafael Quintanilla"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[0]",
+      "status": "verified",
+      "quote": "Mostly sent. Because nobody updates it unless it turns into a project. I've got quotes out there from September I've never heard back on. Are they dead? Probably. Are they in the log as sent? Yes.",
+      "location": "08:29 Devika Raghunathan",
+      "cited": "transcript.txt, L124, turn 40, 08:29, Devika Raghunathan"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+[08:14] Consultant: Good to know, and I'll want to look at that with you before I design anything. Let's walk the sales process end to end. A new company you've never sold to. How does it reach you?
+[08:28] Wes Kubiak: Four ways, mostly. Trade show list. The website form. A rep drives past a building with a fab shop sign on it and stops in. Or purchasing at an existing customer moves to a new company and calls their rep.
+[08:47] Consultant: And then what happens to it?
+[08:50] Wes Kubiak: Then it depends entirely on the rep. It goes in his phone, or on a sticky note, or in his tab in the workbook if he's one of the organised ones.
+[09:02] Consultant: What do you call those, internally? A new company nobody's sold to yet.
+[09:08] Wes Kubiak: A prospect.
+[09:10] Marcus Thibault: Prospect. And once we're actually quoting them it's an opportunity. Or a quote, we say quote more, honestly. "I've got a quote out at Brightline."
+[09:23] Consultant: So a quote can mean the document in P twenty-one or the deal itself?
+[09:29] Marcus Thibault: Yeah. Both. Nobody's ever confused by it internally, but I can see how it's confusing from outside.
+[09:38] Delia Ostrowski: It confuses me on Tuesdays. A rep will say the quote's dead and mean the whole thing is dead, or mean he requoted it with different pricing and there's a new number.
+[09:52] Consultant: And an existing customer, what's your word?
+[09:56] Marcus Thibault: An account. Or a customer, same thing. We've got about eleven hundred accounts that bought something in the last two years. Maybe four hundred that buy every month.
+[10:10] Consultant: Are they all assigned to a rep?
+[10:13] Marcus Thibault: Most. The small ones sit in what we call house accounts, which means inside sales takes the order if it comes in and nobody's calling them otherwise. There's a couple hundred of those and they're probably worth more than we think.
+[10:32] Consultant: Okay. Back to the flow. Prospect comes in, rep qualifies it somehow, then?
+[10:39] Wes Kubiak: Then he visits, usually. Gets a line on what they're buying today and who from. Then he asks for a chance to quote something, and that's when Delia or inside sales builds the quote in P twenty-one.
+[10:56] Consultant: The rep doesn't build it?
+[11:00] Delia Ostrowski: Some do. Most would rather not, because of the pricing matrices. If it's contract pricing or a stocking agreement it comes to me.
+[11:11] Consultant: What's a stocking agreement?
+[11:14] Wes Kubiak: We agree to hold their fasteners on our shelf and they commit to buying them over a year. Blanket order, same idea. Those are the good ones, they're sticky. That's the Brightline one that we lost.
+[11:31] Consultant: Tell me about that one.
+[11:34] Marcus Thibault: So Brightline Metalworks. We had a sixty-two thousand dollar stocking quote sitting at Brightline for five weeks and nobody touched it. Not a call, not an email. They bought from Vantage Industrial instead and I found out because their purchasing guy mentioned it at a golf thing.
+[11:56] Consultant: Five weeks. What was supposed to happen in those five weeks?
+[12:01] Marcus Thibault: Somebody was supposed to call them. That's it. That's the whole thing. There was no fight, we didn't get beaten on price, we just went quiet on a sixty-two thousand dollar quote.
+[12:16] Consultant: Is that a one-off, or is there a pattern?
+[12:20] Delia Ostrowski: It's a pattern. I ran the numbers last month because Marcus asked me to. Of the quotes over five thousand dollars we sent out last year, thirty-eight percent had no activity after the day they went out. None. No call logged, no note, no requote, nothing.
+[12:42] Consultant: How many quotes is that?
+[12:45] Delia Ostrowski: There were four hundred and seventy-one of them over five thousand.
+[12:51] Marcus Thibault: Thirty-eight percent. That number made me feel sick, honestly. I've been carrying it around since August.
+[13:00] Consultant: What happens today to make sure a quote gets followed up?
+[13:05] Wes Kubiak: Nothing. There's no follow-up step. It's whether the rep remembers, and some of them are excellent and some of them are not.
+[13:16] Consultant: Nothing at all in the system?
+[13:19] Delia Ostrowski: P twenty-one will show me an open quote until it expires, but it won't tell anybody to do anything about it, and nobody's looking at that list except me on Tuesday.
+[13:33] Consultant: Who ends up dealing with the fallout when one goes quiet?
+[13:38] Marcus Thibault: Me, eventually, because it shows up as a month that missed. Wes gets it first.
+[13:46] Wes Kubiak: And it's not just Marcus who can't see it. I don't know what my own seven guys have out there unless I call them and ask. My Monday morning call is a bunch of people telling me what they think they're going to close and me writing it on a legal pad.
+[14:05] Consultant: A legal pad.
+[14:07] Wes Kubiak: A legal pad. I have a drawer of them. If you want to know what happened in March you can go read March.
+[14:16] Consultant: What happens to that account history when somebody leaves?
+[14:21] Wes Kubiak: Funny you ask. When Rudy left in March he took his notebook with him. And that was the account history for about ninety customers. A paper notebook that walked out the door.
+[14:36] Consultant: What did that cost you, practically?
+[14:40] Wes Kubiak: Practically? Two of my guys called Kestrel Fabrication in the same week and neither knew the other had been there, and the buyer told the second one, your company already came in on Tuesday, are you not talking to each other. That was embarrassing. And then we gave away a price on a repeat order because the new guy didn't know what we'd quoted the year before.
+[15:07] Consultant: Do you know what that one cost?
+[15:10] Wes Kubiak: Not exactly. A few hundred dollars of margin on that order. But the Kestrel thing, I mean, they're a good customer, and we looked like a mess.
+[15:23] Consultant: What do you do today to stop that happening again?
+[15:28] Wes Kubiak: I tell people to write things down. That's it. That's my whole system. And I can't make a rep write things down, I've tried.
+[15:39] Consultant: Delia, does anything about a departing rep come to you?
+[15:44] Delia Ostrowski: I get the tab. I get their tab in the workbook, which is usually about a third filled in. And I'll pull their quote history out of P twenty-one for whoever takes over. But there's no notes, no, this guy only buys in July, no, don't call before ten. That's all gone.
+[16:07] Consultant: Wes, you mentioned visits. How do you know who's been visited?
+[16:13] Wes Kubiak: I don't. I plan ride-alongs off memory. I couldn't tell you who's actually been in front of a customer in the last ninety days, and that's the part that keeps me up, honestly, because with the new territory I'm going to have four people I've never managed.
+[16:33] Consultant: Has there ever been a version of that? Call reports, visit logs?
+[16:39] Wes Kubiak: Call reports were a thing we did for about six months in twenty-twenty-one. It was an email at the end of the day. It died because nobody read them, including me.
+[16:53] Consultant: What would make you read them?
+[16:56] Wes Kubiak: If it was a list I could sort. Not twenty-two emails.
+[17:02] Consultant: Marcus, does the visit question matter to you, or is that Wes's problem?
+[17:08] Marcus Thibault: It matters when I'm asked why a region is down and the honest answer is I don't know if anybody went out there. Gene asked me that in June about Fort Wayne and I didn't have an answer.
+[17:23] Consultant: What about margin and pricing visibility? Who sees what?
+[17:29] Marcus Thibault: Reps see their own quotes and their own margin on those. They don't see other people's, and they absolutely don't see the contract pricing matrix for the whole line card. Managers see their region. Delia sees everything, Gene sees everything.
+[17:49] Consultant: And that has to hold in anything new.
+[17:52] Marcus Thibault: Yes. That one's not negotiable. If a rep can see what we give another customer on the same part, I'll have a problem within a week.
+[18:04] Consultant: Noted. Anything else with a rule around it? Municipal work, for instance.
+[18:11] Delia Ostrowski: The city bids. Anything we submit to the City of Hollandale water department is a public record, so we're careful what we write on those. And there's a whole bid calendar we track badly.
+[18:28] Consultant: Track badly how?
+[18:31] Delia Ostrowski: A spreadsheet. A different spreadsheet. With due dates I update when I remember.
+[18:39] Consultant: Is the bid work in scope for what you're thinking about, or is that separate?
+[18:45] Marcus Thibault: Separate. Let's not boil the ocean. I want the pipeline first.
+[18:52] Consultant: Fair. Let's talk about why now, because you've mentioned January twice.

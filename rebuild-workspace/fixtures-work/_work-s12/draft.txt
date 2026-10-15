@@ -1,0 +1,235 @@
+# s12 draft: one turn per line, "Speaker: text". "(chat) Name: text" is a meeting-chat line.
+# "@HH:MM:SS" on its own line pins the next turn's start time. Lines starting with # are ignored.
+Consultant: Hi, hello. I can see a few people coming in. Marguerite, is that you?
+Marguerite Szabo: It's me. Give us a minute, people are still finding the link. Half the building's on the same network and it takes a while to spin up.
+Consultant: No rush at all.
+Marguerite Szabo: I see Henrietta's on. Beatrix. Des, you're on, good. Corwin?
+Corwin Adebayo-Lister: Here. Camera's off, I'm in the dispatch office and it's loud.
+Marguerite Szabo: That's fine. Annie, you're showing as a guest, did you use the plant login again?
+Anneliese Farrow: I used my own account, the plant one kicked me out twice. And Dmitri's coming, I sent him the link. He's walking over from the boiler room.
+Marguerite Szabo: Okay. Sunil's going to be late, he's coming off a customer visit. And Yusuf might pop in, I texted him, he said maybe.
+Consultant: Yusuf being?
+Marguerite Szabo: Yusuf Ferrante. He owns the company. Well, he and his sister, but she's not involved day to day.
+Consultant: Got it. Then let's get started and people can join as they come in. Thank you all for making the time, I know a Tuesday afternoon is not free for anybody in a laundry.
+Desmond Okonkwo-Bright: Tuesday's the quiet day. If you'd asked for a Monday you'd have got nobody.
+Consultant: Noted for next time. So, quickly, how I'd like to use the time. This is a conversation. I'm going to ask a lot of questions about how things run today and where it hurts, and I'm not going to show you anything. If it turns out the honest answer is that what you've got needs a tidy-up rather than a new system, I'll say so.
+Marguerite Szabo: That'd be a first.
+Consultant: [laughs] Fair. Marguerite, you pulled this group together. Maybe start with why this room, and why now.
+Marguerite Szabo: Why this room is because it touches everybody. Customer service takes the call. Dispatch prints the routes. The plant packs what the route says. And then it goes wrong somewhere in the middle and every one of those people ends up in my office. So I wanted everybody in one place hearing the same thing.
+Marguerite Szabo: Why now is Wexley. Des can tell it better than me.
+Consultant: We'll get to Wexley. Before that, can someone give me the thirty-second version of Fennimore?
+Marguerite Szabo: Sure. We're a commercial laundry. Hotels, restaurants, and a growing bit of clinics, the outpatient kind, nothing surgical. About two hundred and ten people. The main plant is in Grand Rapids, we've got a depot in Kalamazoo that's mostly trucks, and the uniform side is in Lansing.
+Consultant: The uniform side being a separate business?
+Rafael Mbeki-Sorensen: Same owners, different building, different everything else. That's me. Rafael. I run accounts for uniform rental. We've got our own routes, our own plant, our own way of doing things, which is a nice way of saying nobody's looked at it in ten years.
+Consultant: Good to know, Rafael. I'll come back to that. How many routes on the linen side?
+Corwin Adebayo-Lister: Thirty on a Monday. Twenty-four, twenty-five on a Thursday. Nights are separate, Toby runs those, that's another six.
+Consultant: And Toby is?
+Marguerite Szabo: Tobias. He's on the call, he's on the invite. He's on the floor though so he might not talk. He types.
+Consultant: That's fine, the chat works. And your role, Marguerite? I want to make sure I've got everyone straight.
+Marguerite Szabo: Officially I'm Glen's assistant. Glen retired in March. Unofficially I run operations, I run the office, I run whatever's on fire. HR hasn't got round to the paperwork.
+Desmond Okonkwo-Bright: Marguerite runs the place. Whatever her signature says.
+Marguerite Szabo: Thank you, Des.
+Consultant: Understood. And Desmond, you're customer service?
+Desmond Okonkwo-Bright: Customer service, yeah. Seven people including me. We take every call, every change, every complaint. If a hotel wants forty more bath sheets on Friday, that's us.
+Consultant: Anneliese?
+Anneliese Farrow: Plant manager. Everything between the truck coming in dirty and the truck going out clean. About ninety people on two shifts.
+Consultant: Corwin, dispatch, you said. Gwendolyn, I saw you on the list, what do you do?
+Gwendolyn Tarrant: I do the books. I'm in two days a week, I've got a desk here and a mailbox, but I'm not staff, I do this for four different companies. I'm here because Marguerite said somebody needs to know what a truck costs.
+Consultant: Then you're exactly who I need. Okay. Des, tell me about Wexley.
+Desmond Okonkwo-Bright: So the Wexley Grand is a hotel, big one, downtown, and they're part of a group with four properties in the state. We do all four. Two Saturdays ago they had a wedding, three hundred people, and the banquet manager called us on the Wednesday and bumped the bath towel par from six hundred to a thousand for the weekend. Called it in. My person took it, logged it, done.
+Consultant: Logged it where?
+Desmond Okonkwo-Bright: The change log. It's a spreadsheet. Every change goes in there, who called, what they want, what day, who took it.
+Consultant: And then?
+Desmond Okonkwo-Bright: And then somebody has to key it into the route system before the route prints. And that somebody is whoever remembers. Usually me, end of day. That Wednesday I was at the dentist. Thursday I keyed Wednesday's changes and I missed that one, because it was on the second tab, the weekend tab.
+Corwin Adebayo-Lister: And the route prints at four in the morning off whatever's in the system. So Saturday's route said six hundred. Truck went out with six hundred.
+Desmond Okonkwo-Bright: And at eleven on Saturday the banquet manager calls me at home. Four hundred bath towels short with a wedding at three.
+Consultant: What happened?
+Desmond Okonkwo-Bright: Toby sent a truck. We had the stock, that wasn't the problem, we sent a truck at one and they had them by two. But we ate the truck, we credited the whole weekend, and their regional guy called Yusuf on the Monday and said, and I'm quoting, if this happens again we're done.
+Marguerite Szabo: And their contract is up in January. All four properties.
+Consultant: That's the why now.
+Marguerite Szabo: That's the why now.
+Consultant: I'm sorry, that's a rough one. Looking at it, what actually broke? The change, the keying, the print?
+Desmond Okonkwo-Bright: All of it. The change lived in one place. The route lives in another place. And a person in between who was at the dentist.
+Anneliese Farrow: And nobody told the plant. We packed six hundred because that's what the pick list said. If somebody had walked over and said Wexley's got a wedding, we'd have thrown four hundred on the truck without thinking about it.
+Consultant: How would you have known?
+Anneliese Farrow: I wouldn't. That's the point. We find out when the truck comes back with a driver saying they were short.
+@00:11:40
+Dmitri Vasquez-Hale: Hi, sorry, Dmitri. I'm with Annie, well, I'm across the hall. I'm on the plant office computer, it let me in as a guest.
+Anneliese Farrow: Dmitri does maintenance and the pick lists. Don't ask why those are the same job.
+Consultant: Welcome, Dmitri. We were on what the plant sees when a change comes in.
+Dmitri Vasquez-Hale: The plant sees the pick list. The pick list said six hundred. We don't see the change log, we don't even have the login for it.
+Consultant: Okay. Walk me through a normal change, then. Not a disaster, just a Tuesday. A restaurant calls and wants two more bags of aprons on Thursday.
+Desmond Okonkwo-Bright: Call comes in. Or it's an email, about half of them are now. My person opens the change log and types it in. Customer, item, quantity, day, and their initials.
+Desmond Okonkwo-Bright: Then at some point before Thursday it has to get into the route system, on that customer, on that day. That's a different screen, different login, and only four of us have the login.
+Consultant: Why only four?
+Marguerite Szabo: Because the route system is also the billing. If you can change a par you can change a price. So we keep it tight.
+Gwendolyn Tarrant: Which I appreciate, for the record.
+Consultant: So the spreadsheet is the queue and the route system is the truth.
+Desmond Okonkwo-Bright: The route system is the truth. The spreadsheet is where things go to be forgotten.
+Consultant: [laughs] How many changes a week?
+Desmond Okonkwo-Bright: A hundred? Hundred and twenty? Some weeks more. December is stupid.
+Consultant: What happens in December?
+Marguerite Szabo: Holiday parties. Every hotel, every restaurant, every night. Volume nearly doubles for six weeks and every one of those is a change, because nobody's par is normal.
+Consultant: And how many changes get missed?
+Desmond Okonkwo-Bright: Missed like Wexley, big, maybe one a month. Missed like a restaurant gets one bag of aprons instead of two and calls on Friday, all the time. That's what the re-runs are.
+Consultant: Say more about re-runs.
+Corwin Adebayo-Lister: A re-run is a truck going back out to a stop it's already been to. Same day, usually. Driver's done his route, comes back, and there's a note on the desk, go back to so-and-so with two bags of aprons.
+Consultant: How many a week?
+Desmond Okonkwo-Bright: Last week? Nine, I think. Corwin?
+Corwin Adebayo-Lister: Days, about that. I don't count nights.
+(chat) Tobias Reinholt: 11 re-runs last week total, 8 the week before. Nights count.
+Consultant: Tobias is saying in the chat, eleven last week including nights, eight the week before.
+Desmond Okonkwo-Bright: Toby would know. He's the one sending the trucks.
+Consultant: So call it eight to eleven a week. What does one of those cost you? Gwendolyn?
+Gwendolyn Tarrant: A truck back out is about a hundred and forty an hour once you've got the driver, the fuel and the wear on it. That's what I book it at. Most re-runs are a couple of hours by the time they've loaded and gone and come back.
+Consultant: Does that sound right to the rest of you?
+Marguerite Szabo: Sounds right. Gwen's numbers are usually right.
+Consultant: So eleven re-runs at two hours at a hundred and forty is roughly three thousand a week, times fifty-two --
+Marguerite Szabo: I'm not going to sign off on your math on a Tuesday. It's in that neighbourhood. Henrietta would have the real number.
+Consultant: Fair enough. I'll mark it as your inputs and my arithmetic, and we'll pin it properly later. And credits? You said you credited Wexley's weekend.
+Desmond Okonkwo-Bright: Credits run eleven, twelve thousand a month. Give or take. Not all of that's changes, some of it's quality, a stain, a torn sheet. But most of it is we-didn't-bring-what-you-asked-for.
+Consultant: Most being?
+Desmond Okonkwo-Bright: Two thirds? I'd be guessing.
+Consultant: Then we'll leave it as most and not put a number on it. Who else feels it when a change gets missed? Apart from the customer and the two of you.
+Anneliese Farrow: The plant. Because a re-run means somebody's pulling stock off the line for a truck that already left. And it's usually my night shift, and they're the ones I can't keep.
+Corwin Adebayo-Lister: The driver. He's done a nine-hour day and he's going back out. And then he's late tomorrow because he's tired.
+Marguerite Szabo: And me, because the banquet manager doesn't call Des's person, she calls me. And then she calls Yusuf.
+Consultant: And what stops you carrying on like this? You've done it for years, and most of the time it works.
+Desmond Okonkwo-Bright: Most of the time it works. That's exactly the problem. It works until somebody's at the dentist.
+Marguerite Szabo: And we're adding Kalamazoo. Six more routes, a second depot, drivers who've never met Des. Right now the whole thing runs on Des remembering. That doesn't scale to a building he isn't in.
+Consultant: When does Kalamazoo start?
+Marguerite Szabo: The routes start the week of the ninth -- sorry, the second. The second of November. The ninth is when the trucks get lettered.
+Consultant: Say nothing changes on this. What does next spring look like?
+Desmond Okonkwo-Bright: More changes, same spreadsheet, more people typing in it from two buildings. And another Wexley, except next time we don't get the phone call. We just get the cancellation.
+Consultant: Flip side. If changes landed reliably, is there something you'd go after that you don't today?
+Marguerite Szabo: Two hospital systems asked us to bid this year and we didn't. Because we can't promise a change lands the same day, and hospitals change every day. That's -- I don't know what that's worth. A lot. Yusuf would say a lot.
+Consultant: Would you put a number on it?
+Marguerite Szabo: No. Sunil would, and he'd be optimistic. Ask me when Wexley's renewed.
+Consultant: Fair. Let me switch to the second thing you mentioned on the phone, Marguerite. New accounts.
+Marguerite Szabo: Yes. So when sales closes somebody, the new account goes out as an email. Sunil or one of his two sends it to, honestly, everybody. New account, here's the name, here's what they want, start date.
+Consultant: And then?
+Marguerite Szabo: And then four things have to happen and nobody owns the four things. The plant has to set up the inventory. Tagging, par stock, the lot. Dispatch has to put them on a route. Gwen has to set them up for billing. And customer service has to know they exist, so when they call, somebody knows who they are.
+Consultant: In what order?
+Marguerite Szabo: In whatever order people read their mail.
+Anneliese Farrow: Inventory's the long one. If it's a hotel with their own logo on the pillowcases, that's four weeks minimum for the goods to come in.
+Consultant: Has one gone wrong recently?
+Marguerite Szabo: Alderbrook. It's a clinic, three locations, small but they pay on time. Sales closed them in June, start date first of July. We started delivering the first of July, off a hand-written ticket, because they weren't in the route system yet. Five weeks. Five weeks of linen going out with nobody billing it.
+Gwendolyn Tarrant: I found it doing the month end. There was a customer with cost and no revenue, which is a thing that should not exist.
+Consultant: How did five weeks happen?
+Marguerite Szabo: Because the message said start July first, and the plant did their bit, and dispatch did their bit, and everybody assumed somebody else had done billing. And I had them on my checklist and I was on holiday.
+Consultant: Your checklist?
+Marguerite Szabo: I keep a document. New account checklist, twelve lines, who does what. It's mine. Nobody else reads it. I go round the building and ask people.
+Consultant: And what stops you carrying on with the checklist?
+Marguerite Szabo: Nothing stops me. It's just me.
+Consultant: Who else feels that one?
+Gwendolyn Tarrant: Me, at month end. And the customer, because we go to them in August and say you owe us for July, and they've had no invoice, and that's a fun conversation.
+Anneliese Farrow: And the plant, because the goods turn up and nobody's told us what shelf they go on.
+Consultant: What does a month of a new account not billing cost you? Roughly?
+Marguerite Szabo: Depends on the account. Alderbrook's small. A hotel would be -- that's Henrietta's number, honestly. I'd be making it up.
+Consultant: Okay, we'll leave that one open.
+Consultant: How many new accounts a month?
+Marguerite Szabo: Three, four. More in the autumn when the restaurants reopen after summer.
+Consultant: And is there a point where a new account is officially done?
+Marguerite Szabo: When Gwen's invoiced them and nobody's complained. So, never, officially.
+Gwendolyn Tarrant: [laughs] When I stop finding them at month end.
+Consultant: Let me ask about tools for a second. I've heard the route system, the change log, the new-account messages, your checklist. Anything else?
+Marguerite Szabo: Phones. And the complaints mailbox, that's a shared inbox Des's team works out of.
+Consultant: Tell me about the complaints mailbox.
+Desmond Okonkwo-Bright: A customer writes in, it lands in the shared inbox, somebody picks it up. Or doesn't. We lose them. Not often, but we lose them, and the ones we lose are the ones that turn into a call to Yusuf.
+Marguerite Szabo: One thing at a time. Changes first. Complaints is next year's mess.
+Consultant: Understood, I'll note it and leave it. Anything else?
+Marguerite Szabo: And monday, technically.
+Consultant: Tell me about monday.
+Marguerite Szabo: Ottilie set it up last year for IT requests. Laptop's broken, need a login, that sort of thing. It's just IT using it. I think it's the Pro plan? Ottilie, is it Pro?
+Marguerite Szabo: She might be on mute. We'll find out. Anyway, that's part of why you're here, we're already paying for it.
+Consultant: Good to know. I'll check the plan with Ottilie afterwards rather than guess. And the route system, does anything connect to it?
+Corwin Adebayo-Lister: Nothing connects to it. It prints. It exports if you ask it nicely.
+Dmitri Vasquez-Hale: It exports the pick list. That's how I get mine.
+Marguerite Szabo: And the vendor says the next version has change tracking built in. They've said that for two years.
+Consultant: Is that a serious option?
+Marguerite Szabo: It's a serious promise. I've stopped waiting for it.
+Consultant: Anything on the security side I should know about? Who can see what?
+Marguerite Szabo: Pricing. Four logins, I said. Drivers see the route sheet and nothing else, they don't need to know what a hotel pays for a pillowcase. And the clinics want a wash certificate on every delivery, temperature and cycle, so whatever goes on their ticket has to have that on it.
+Gwendolyn Tarrant: And the hotel contracts have a credit clause. If we short them, we credit them, it's written down. So a missed change is a contract event, not a favour.
+@00:27:10
+Yusuf Ferrante: Hello? Am I in? Marguerite texted me the link.
+Marguerite Szabo: You're in, Yusuf. We're about halfway.
+Yusuf Ferrante: I've got ten minutes, I'm between things. Who's talking?
+Consultant: Hi Yusuf. I'm the consultant Marguerite's been speaking with. We've been walking through order changes and new accounts. Since you're here, can I ask you the money question directly?
+Yusuf Ferrante: Ask.
+Consultant: If this group decides they want something built, how does that get decided and paid for?
+Yusuf Ferrante: If Marguerite says it works, we do it. I sign it. Henrietta'll want to see the number, so run it past her, but she's not going to say no to something that stops me getting calls from Wexley on a Monday.
+Consultant: Has that happened more than once?
+Yusuf Ferrante: I've had their regional guy on the phone twice this month. Twice. I've been doing this thirty years and I've never had a customer call the owner twice in a month.
+Consultant: What would you want to see, before you sign?
+Yusuf Ferrante: Just send me what it costs. And show me the Wexley thing can't happen again. That's it. I don't need a slide deck.
+Consultant: I'd rather send you a scope before a number, if that's all right, because I don't want to price something you haven't seen.
+Yusuf Ferrante: Fine. But not December. Nothing changes in December. December is the whole year for us.
+Marguerite Szabo: Nothing changes in December. That's a rule.
+Consultant: Is there a threshold where it needs more than your signature?
+Yusuf Ferrante: It's my company. If it's over a hundred thousand I'd talk to my sister, out of politeness. It won't be over a hundred thousand.
+Consultant: It won't.
+Yusuf Ferrante: Okay. I've got to go. Keep going without me. Marguerite, send me whatever comes out of this.
+Marguerite Szabo: Will do.
+Consultant: Thanks, Yusuf.
+@00:34:20
+Consultant: Rafael, you've been patient. How does the uniform side do all this?
+Rafael Mbeki-Sorensen: Differently. We don't have par levels, we have people. A customer has forty employees, each one's got five shirts and five pants with their name on. Changes are somebody got hired, somebody quit, somebody went up a size. That comes to me as a message and I key it, because I'm the only one who does.
+Consultant: And the route side?
+Rafael Mbeki-Sorensen: Same route system, different instance. Don't ask. Our routes are weekly, not daily, so a missed change is a week late, not a day late. Less drama, but it's the same thing.
+Consultant: I'd want to walk your flow on its own, Rafael, rather than assume it's the linen flow with different nouns.
+Rafael Mbeki-Sorensen: Please. And whatever you build, we're in it. Not a second system for Lansing. I've had a second system. I am the second system.
+Consultant: Noted, and I mean that. Let's say this all runs well by spring. What's different on a Tuesday?
+Desmond Okonkwo-Bright: A change gets typed once. By whoever takes the call. And it's on the route sheet Thursday morning without me or anybody remembering anything.
+Corwin Adebayo-Lister: And I can see what changed since yesterday's print. One list. Not a spreadsheet with two tabs.
+(chat) Tobias Reinholt: Night routes print at 2:30 not 4. FYI. Same list would be good for nights.
+Consultant: Tobias notes in the chat that night routes print at two-thirty, and the same list would help nights.
+Corwin Adebayo-Lister: He's right, nights are earlier. Same list, different print.
+Marguerite Szabo: For me, a new account is a thing I can look at. Four boxes, who's done theirs, who hasn't, and I don't have to go round the building.
+Anneliese Farrow: And my people find out about a wedding before the truck leaves, not after it comes back.
+Consultant: And what would Yusuf count as a win?
+Marguerite Szabo: He said it. No more calls from Wexley. And Kalamazoo starting on the same thing as Grand Rapids, not its own spreadsheet.
+Consultant: Where does this sit, priority-wise? Before Kalamazoo?
+Marguerite Szabo: The changes piece has to be in before the Kalamazoo routes start. Second of November. New accounts I'd take in January, after the season.
+Consultant: And nothing in December.
+Marguerite Szabo: Nothing in December.
+Consultant: What could get in the way of this going ahead?
+Anneliese Farrow: My floor. My people will not touch a screen with wet hands. If this means the plant has to type, it's dead. It has to come to us on the pick list, or on paper, or not at all.
+Corwin Adebayo-Lister: Same for drivers. They've got a route sheet and a phone they don't answer. Don't make them enter anything.
+Consultant: Has that been tried?
+Corwin Adebayo-Lister: Tablets in the trucks, three years ago. Lasted a month. Two got left on the roof of a truck.
+Marguerite Szabo: And Ottilie. Her view is she could build this herself on the monday we've already got. She's said so. Which, maybe. But she's one person and she's got the laptops to do.
+Consultant: I'd want to hear that from her, and I'd rather she was part of it than around it.
+Marguerite Szabo: She should be part of it. I'll talk to her.
+Consultant: Sunil, anything from the sales side? The new-account handoff starts with you.
+Consultant: Sunil?
+Desmond Okonkwo-Bright: I think he dropped. His icon's grey.
+Marguerite Szabo: He'll have gone on to his next visit. I'll catch him.
+Consultant: No problem. Let me play back what I'd put in a first version, just to show you, not to sign anything. One, a change log that's one list, typed once by whoever takes the call, that dispatch and the plant can both see, and that gets into the route sheet and the pick list before they print. Two, a new-account board with the four steps and an owner on each, so Marguerite can see who's done what without walking round. The uniform side I'd hold until I've walked Rafael's flow. Complaints I'd hold. Does that feel like the right first cut?
+Marguerite Szabo: The changes piece, yes. New accounts, yes, but that can be second. And the uniform side isn't a hold, it's a when.
+Rafael Mbeki-Sorensen: It's a when.
+Consultant: A when. Noted. Desmond?
+Desmond Okonkwo-Bright: As long as it feeds the route system. If my people are typing into two places we're back where we started.
+Consultant: Understood. And I'll be honest, I don't yet know what the route system will accept, so for a first look I'd show the change log feeding a printed list, and we'd work out the real connection with Ottilie and the vendor.
+Marguerite Szabo: That's fine. Ottilie will want to be in that conversation.
+Consultant: So, from everything we've talked through, is this worth taking forward? Where would you like to go from here?
+Marguerite Szabo: Yes. I want to see it. And I want Yusuf to see it, and Henrietta.
+Consultant: Then how about I put together a first version with those two pieces, in your words, changes and new accounts, and we walk through it together. Could we do Thursday the eighth?
+Marguerite Szabo: The eighth. Morning's better, the afternoon's a route review. Nine-thirty?
+Desmond Okonkwo-Bright: I can do nine-thirty.
+Corwin Adebayo-Lister: Fine for me.
+Marguerite Szabo: Nine-thirty Eastern on the eighth, then. I'll get Yusuf on it if I can, he's usually in on Thursdays.
+Consultant: I'll send the invite to everyone on today's list this afternoon. Marguerite, could you forward it to Yusuf and to Dmitri, since they weren't on the original invite?
+Marguerite Szabo: I'll forward it today. And I'll ask Ottilie about the plan.
+Consultant: And it would help a lot to build from real examples. Desmond, could you send me a copy of the change log, a couple of weeks of it, with the customer names scrubbed if you want?
+Desmond Okonkwo-Bright: I can do that. Tomorrow?
+Consultant: Tomorrow's great. And Marguerite, your checklist?
+Marguerite Szabo: You can have the checklist. Don't judge it.
+Consultant: I'll send a short recap by end of day tomorrow, what I heard and the next steps, so you can correct anything I've got wrong. Last thing. Anything I didn't ask that I should have?
+Anneliese Farrow: Dmitri, you had a thing.
+Dmitri Vasquez-Hale: Only that the pick list comes off the route system too. So if the change isn't in the system, the plant packs wrong even if dispatch knows. Whatever you do, it has to hit the pick list, not just the route sheet.
+Consultant: That's important, thank you. So there are two things printing off the system, the route sheet and the pick list, and both have to be right.
+Dmitri Vasquez-Hale: Both. And the pick list prints earlier. Night before, about nine.
+Consultant: Noted. I'll check with you both how you want that set up before I build anything. Thank you all. Talk to you on the eighth.
+Marguerite Szabo: Thanks, everyone. Back to work.
+Desmond Okonkwo-Bright: Bye.

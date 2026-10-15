@@ -1,0 +1,1193 @@
+WEBVTT
+
+1
+00:00:02.045 --> 00:00:05.417
+Consultant: Hi Rosamund. Can you hear me all right?
+
+2
+00:00:05.906 --> 00:00:08.248
+Rosamund Achterberg: I can hear you. Hang on.
+
+3
+00:00:08.572 --> 00:00:10.606
+Rosamund Achterberg: let me get the door.
+
+4
+00:00:10.834 --> 00:00:11.757
+Rosamund Achterberg: Okay. Sorry.
+
+5
+00:00:12.086 --> 00:00:16.735
+Rosamund Achterberg: It's loud out there today, the router's running and it'll run all afternoon.
+
+6
+00:00:17.636 --> 00:00:21.195
+Consultant: No problem at all. Is it the three of you?
+
+7
+00:00:21.734 --> 00:00:29.146
+Rosamund Achterberg: It's me, Nkechi is here in the office with me, and Ruairi is coming in from the shop, he's on the tablet.
+
+8
+00:00:29.835 --> 00:00:30.856
+R: I'm here.
+
+9
+00:00:31.063 --> 00:00:38.783
+R: Can you hear me? It's the shop tablet, so if I drop out, that's why. I'll come back.
+
+10
+00:00:39.466 --> 00:00:42.355
+Consultant: I can hear you fine. Nkechi, hi.
+
+11
+00:00:42.765 --> 00:00:43.563
+Nkechi Brandvold: Hi. Hello.
+
+12
+00:00:44.328 --> 00:00:45.952
+Consultant: How's the week going?
+
+13
+00:00:46.652 --> 00:00:52.371
+Rosamund Achterberg: It's September, so. Every retail landlord in the state wants a sign lit before Thanksgiving,
+
+14
+00:00:52.815 --> 00:00:55.645
+Rosamund Achterberg: and they all decided that this week.
+
+15
+00:00:56.179 --> 00:01:02.429
+R: And the crane's booked out through the twentieth, so whatever they decided, it's the twentieth.
+
+16
+00:01:03.338 --> 00:01:05.188
+Consultant: Is the crane yours?
+
+17
+00:01:06.336 --> 00:01:08.166
+R: No. We rent it.
+
+18
+00:01:08.580 --> 00:01:12.377
+R: One outfit, they know us, they know the trucks,
+
+19
+00:01:12.786 --> 00:01:15.231
+R: and when they're booked, we're booked.
+
+20
+00:01:15.859 --> 00:01:17.729
+Nkechi Brandvold: [laughs] It is what it is.
+
+21
+00:01:18.435 --> 00:01:26.124
+Consultant: Fair enough. Let me say how I'd like to use the time, then. This is a conversation, not a pitch.
+
+22
+00:01:26.472 --> 00:01:33.631
+Consultant: I want to understand how a job moves through the building today, where it breaks, and what you'd want instead.
+
+23
+00:01:33.823 --> 00:01:43.545
+Consultant: I'm not going to show you anything. And if it turns out what you need is two changes to the spreadsheet, I'll say that.
+
+24
+00:01:44.653 --> 00:01:47.819
+Rosamund Achterberg: Good. That's what I told Dad you'd say.
+
+25
+00:01:48.832 --> 00:01:55.388
+Consultant: Then let's start there. Rosamund, give me the short version of Tallgrass. What you make, how big you are.
+
+26
+00:01:56.511 --> 00:02:03.310
+Rosamund Achterberg: Sure. Tallgrass Sign and Display. We're a full-service sign shop. Channel letters, monument signs, wayfinding for hospitals and campuses,
+
+27
+00:02:03.677 --> 00:02:05.975
+Rosamund Achterberg: some vehicle graphics but that's small.
+
+28
+00:02:06.274 --> 00:02:07.604
+Rosamund Achterberg: About forty-eight people.
+
+29
+00:02:08.117 --> 00:02:15.574
+Rosamund Achterberg: Gerrit Achterberg, my dad, started it in the eighties in a two-bay garage, and we're in a thirty-thousand-square-foot plant
+
+30
+00:02:15.944 --> 00:02:20.558
+Rosamund Achterberg: square-foot plant now, one location, about two hundred miles of territory out from it.
+
+31
+00:02:20.817 --> 00:02:23.618
+Rosamund Achterberg: And the forty-eight, shop is, what, Ruairi?
+
+32
+00:02:24.603 --> 00:02:29.353
+R: Twenty-two in the shop. Three install crews, so nine on the road.
+
+33
+00:02:29.762 --> 00:02:34.549
+R: Then the office. Design, estimating, me, Nkechi, Ottilie. Ottilie's our estimator.
+
+34
+00:02:35.440 --> 00:02:39.149
+Rosamund Achterberg: And Dad, who is here every day and also retired. [laughs]
+
+35
+00:02:40.116 --> 00:02:42.558
+Consultant: How many crews did you say?
+
+36
+00:02:43.463 --> 00:02:44.153
+R: Three.
+
+37
+00:02:44.948 --> 00:02:46.086
+Consultant: Three. Okay.
+
+38
+00:02:46.414 --> 00:02:51.215
+Consultant: Walk me through a job. Somebody wants a sign. What happens first?
+
+39
+00:02:51.956 --> 00:02:58.909
+Rosamund Achterberg: It comes in to Ottilie, mostly. Phone, a landlord's rep, a general contractor, sometimes the architect on the bigger stuff.
+
+40
+00:02:59.199 --> 00:03:04.643
+Rosamund Achterberg: She does a site survey if it needs one, and she builds the quote.
+
+41
+00:03:05.023 --> 00:03:06.903
+Rosamund Achterberg: The quote is a spreadsheet.
+
+42
+00:03:07.239 --> 00:03:08.119
+Rosamund Achterberg: Her spreadsheet.
+
+43
+00:03:08.353 --> 00:03:14.542
+Rosamund Achterberg: She's had the same one for about nine years and it's got, I want to say, thirty tabs.
+
+44
+00:03:15.666 --> 00:03:16.130
+Nkechi Brandvold: Thirty-four.
+
+45
+00:03:16.951 --> 00:03:19.283
+Consultant: And the quote goes out how?
+
+46
+00:03:19.658 --> 00:03:21.954
+Rosamund Achterberg: She sends it out by email.
+
+47
+00:03:22.256 --> 00:03:26.308
+Rosamund Achterberg: And then it sits. Nobody chases it unless the customer calls back.
+
+48
+00:03:26.597 --> 00:03:34.730
+Rosamund Achterberg: Ottilie's got, I don't know, sixty open quotes at any one time, and she's out doing surveys three days a week.
+
+49
+00:03:35.556 --> 00:03:39.239
+Consultant: Do you know how many of those you win?
+
+50
+00:03:39.806 --> 00:03:44.435
+Rosamund Achterberg: Honestly? No. You'd have to ask Ottilie, and I'm not sure she knows either.
+
+51
+00:03:44.913 --> 00:03:47.095
+Rosamund Achterberg: She'd have a feel for it.
+
+52
+00:03:47.953 --> 00:03:55.350
+Consultant: Okay. That's a real answer, and I'd rather, I'd rather have that than a guess. Let's keep going. So say the customer says yes.
+
+53
+00:03:55.730 --> 00:04:01.275
+Rosamund Achterberg: Then it becomes a job. Nkechi opens a job number in the accounting system.
+
+54
+00:04:01.614 --> 00:04:05.307
+Rosamund Achterberg: She starts a job folder on the shared drive,
+
+55
+00:04:05.733 --> 00:04:09.379
+Rosamund Achterberg: and the drawings go to design. Bao, our designer.
+
+56
+00:04:09.771 --> 00:04:13.433
+Consultant: And the job number, does it carry anything else?
+
+57
+00:04:13.824 --> 00:04:19.142
+Nkechi Brandvold: It carries the customer and the amount. That's it. Everything else is in the folder.
+
+58
+00:04:20.185 --> 00:04:27.259
+Rosamund Achterberg: Design does the shop drawings and the permit drawings, and those are usually the same drawing with different stamps on it.
+
+59
+00:04:27.455 --> 00:04:30.184
+Rosamund Achterberg: Customer signs off on the design, sometimes.
+
+60
+00:04:30.472 --> 00:04:35.777
+Rosamund Achterberg: And then it splits. The permit goes to Nkechi and the fabrication goes to Ruairi.
+
+61
+00:04:36.635 --> 00:04:41.140
+Consultant: Nkechi, take the permit side. What happens when it lands with you?
+
+62
+00:04:41.996 --> 00:04:49.205
+Nkechi Brandvold: Yeah, so a sign permit is city or county, depending where the, where the sign is. Every one is a little different.
+
+63
+00:04:49.690 --> 00:04:55.496
+Nkechi Brandvold: Some of them want the landlord's letter, some want the engineering, some want a photo simulation.
+
+64
+00:04:55.781 --> 00:05:01.134
+Nkechi Brandvold: I put it together and I submit it, and then it's on the city's clock.
+
+65
+00:05:01.405 --> 00:05:03.110
+Nkechi Brandvold: The city's the worst.
+
+66
+00:05:03.274 --> 00:05:06.716
+Nkechi Brandvold: The county's fine, the county turns it around in ten days.
+
+67
+00:05:07.032 --> 00:05:13.482
+Nkechi Brandvold: Two of the suburbs want a hearing for anything over forty square feet, and that's a month before you've even started.
+
+68
+00:05:13.887 --> 00:05:16.423
+Consultant: How long is the city's clock?
+
+69
+00:05:17.014 --> 00:05:20.860
+Rosamund Achterberg: It depends on the city, but it sits with them for
+
+70
+00:05:20.860 --> 00:05:21.700
+Nkechi Brandvold: three weeks
+
+71
+00:05:21.700 --> 00:05:27.213
+Rosamund Achterberg: three weeks, sometimes six, and nobody tells you when it's done. You go and check.
+
+72
+00:05:27.429 --> 00:05:28.156
+Rosamund Achterberg: Corwin.
+
+73
+00:05:28.395 --> 00:05:31.292
+Rosamund Achterberg: Sorry. Somebody at the door. Where was I.
+
+74
+00:05:31.763 --> 00:05:36.108
+Consultant: The city's clock. How do you keep track of that, Nkechi?
+
+75
+00:05:36.558 --> 00:05:39.987
+Nkechi Brandvold: A spreadsheet. Job number, city, date submitted, date approved, expiry.
+
+76
+00:05:40.339 --> 00:05:43.064
+Nkechi Brandvold: And I set myself reminders on the
+
+77
+00:05:43.315 --> 00:05:45.625
+Nkechi Brandvold: on the calendar for the expiry.
+
+78
+00:05:45.889 --> 00:05:55.877
+Nkechi Brandvold: A sign permit is only good for so long. Ninety days, a hundred and eighty, depends on the city. If the job slips past that, you re-apply. Fee and all.
+
+79
+00:05:56.379 --> 00:05:58.159
+Consultant: And does that happen?
+
+80
+00:05:58.919 --> 00:05:59.486
+Nkechi Brandvold: [sighs] Yes.
+
+81
+00:06:00.564 --> 00:06:03.070
+Rosamund Achterberg: Tell them about the medical office building.
+
+82
+00:06:04.219 --> 00:06:10.110
+Nkechi Brandvold: Okay, so. Last spring. Medical office building on the east side, a monument sign and the building letters,
+
+83
+00:06:10.522 --> 00:06:12.741
+Nkechi Brandvold: it had been permitted in, February?
+
+84
+00:06:13.186 --> 00:06:20.684
+Nkechi Brandvold: And the landlord kept pushing the install because the parking lot wasn't done, and then it was done and they, they wanted it that week.
+
+85
+00:06:20.900 --> 00:06:23.677
+Nkechi Brandvold: And the permit expired on a Friday.
+
+86
+00:06:23.677 --> 00:06:24.212
+Rosamund Achterberg: Mm-hm.
+
+87
+00:06:24.212 --> 00:06:29.605
+Nkechi Brandvold: I had a reminder. I was out that week. My mother was in the hospital.
+
+88
+00:06:29.861 --> 00:06:32.836
+Nkechi Brandvold: And the crane was booked for the Monday.
+
+89
+00:06:33.702 --> 00:06:40.555
+R: We were loaded. The truck was loaded, the letters were crated, we'd been there since five.
+
+90
+00:06:40.919 --> 00:06:46.979
+Nkechi Brandvold: So Monday morning Ruairi calls me, and I'm looking at it going, no, that expired Friday.
+
+91
+00:06:47.531 --> 00:06:49.428
+Consultant: What did it cost?
+
+92
+00:06:50.555 --> 00:06:54.920
+Nkechi Brandvold: The re-permit was six weeks. The city won't expedite a sign.
+
+93
+00:06:55.346 --> 00:07:01.116
+Nkechi Brandvold: The crane was, what, eight hundred? For the half day, or is that the whole, anyway.
+
+94
+00:07:01.467 --> 00:07:05.531
+Nkechi Brandvold: And the landlord backcharged us four thousand two hundred for the delay,
+
+95
+00:07:05.780 --> 00:07:08.002
+Nkechi Brandvold: which Dad argued down from six.
+
+96
+00:07:08.456 --> 00:07:15.989
+Rosamund Achterberg: And it wasn't the first time. It's happened, I want to say, once before that, a couple of years ago,
+
+97
+00:07:15.989 --> 00:07:16.528
+Nkechi Brandvold: Twice.
+
+98
+00:07:16.528 --> 00:07:18.187
+Rosamund Achterberg: twice before, okay, twice.
+
+99
+00:07:18.507 --> 00:07:21.100
+Rosamund Achterberg: So three times that I know of.
+
+100
+00:07:21.793 --> 00:07:26.964
+Consultant: Nkechi, how much of your week is chasing permits? Not the paperwork, the chasing.
+
+101
+00:07:27.632 --> 00:07:28.651
+Nkechi Brandvold: The chasing.
+
+102
+00:07:29.148 --> 00:07:31.219
+Nkechi Brandvold: Calling the city, checking the por
+
+103
+00:07:31.393 --> 00:07:36.941
+Nkechi Brandvold: portal, checking whether the install date moved so I know whether the permit still fits.
+
+104
+00:07:37.153 --> 00:07:39.952
+Nkechi Brandvold: A day a week, easily. Some weeks two.
+
+105
+00:07:40.443 --> 00:07:43.988
+Consultant: What happens if you keep doing it this way?
+
+106
+00:07:45.070 --> 00:07:51.542
+Nkechi Brandvold: It works until I'm out. I'm one person. Rosamund can't see my spreadsheet, well, she can, but she doesn't.
+
+107
+00:07:51.935 --> 00:07:57.278
+Nkechi Brandvold: And the hospital job is going to be two hundred signs on, what, forty permits?
+
+108
+00:07:57.852 --> 00:07:58.585
+Rosamund Achterberg: Forty-one.
+
+109
+00:07:59.699 --> 00:08:03.704
+Nkechi Brandvold: Forty-one permits with the same install crew and the same crane,
+
+110
+00:08:04.023 --> 00:08:07.564
+Nkechi Brandvold: and if one of those expires the whole sequence moves.
+
+111
+00:08:08.025 --> 00:08:11.021
+Consultant: Okay. Ruairi, walk me through the shop side.
+
+112
+00:08:11.510 --> 00:08:14.575
+Consultant: Once the drawings are signed off, what happens?
+
+113
+00:08:15.703 --> 00:08:25.439
+R: The drawing comes down to me and I put it on the board. The board's a whiteboard. It's the whole back wall of the shop office.
+
+114
+00:08:25.893 --> 00:08:29.875
+R: Every job's a magnet, and the columns are the
+
+115
+00:08:30.054 --> 00:08:33.605
+R: are the stations. Router, paint, letters, wiring, crating, install.
+
+116
+00:08:33.883 --> 00:08:42.362
+R: And I move the magnets. Every morning at six-thirty, before the crew's in, I walk the floor and I move the magnets.
+
+117
+00:08:42.736 --> 00:08:46.468
+R: Takes me an hour, hour and a half.
+
+118
+00:08:47.288 --> 00:08:48.229
+Consultant: Every morning?
+
+119
+00:08:48.229 --> 00:08:49.089
+R: Every morning.
+
+120
+00:08:49.089 --> 00:08:52.003
+Consultant: And that's the only place the schedule exists?
+
+121
+00:08:52.764 --> 00:08:54.605
+R: It's on the wall.
+
+122
+00:08:55.085 --> 00:09:01.491
+R: Nkechi takes a photo of it on Fridays and puts it in the folder,
+
+123
+00:09:01.729 --> 00:09:06.751
+R: so the office has a version that's a week old and usually blurry.
+
+124
+00:09:07.385 --> 00:09:10.717
+Consultant: And the install date. Where does that live?
+
+125
+00:09:11.157 --> 00:09:14.075
+R: On the board, in the install column.
+
+126
+00:09:14.498 --> 00:09:16.232
+R: And in Lyle's head.
+
+127
+00:09:16.457 --> 00:09:20.985
+R: And Nkechi has it in the permit spreadsheet, if somebody told her.
+
+128
+00:09:21.642 --> 00:09:23.314
+Nkechi Brandvold: If somebody told me.
+
+129
+00:09:24.305 --> 00:09:26.951
+Consultant: Where does a change order come in?
+
+130
+00:09:27.560 --> 00:09:29.272
+Rosamund Achterberg: Everywhere. That's the problem.
+
+131
+00:09:29.705 --> 00:09:36.278
+Rosamund Achterberg: The landlord calls Ottilie. Or the GC sends me a note. Or the customer catches, who is it,
+
+132
+00:09:36.278 --> 00:09:36.882
+Nkechi Brandvold: Lyle.
+
+133
+00:09:36.882 --> 00:09:42.255
+Rosamund Achterberg: Lyle on site. Lyle's our lead installer, he's been here longer than I have.
+
+134
+00:09:42.458 --> 00:09:46.097
+Rosamund Achterberg: And then it depends on whether Ruairi hears about it.
+
+135
+00:09:46.438 --> 00:09:47.832
+Rosamund Achterberg: Usually he does.
+
+136
+00:09:47.832 --> 00:09:48.439
+R: No.
+
+137
+00:09:48.439 --> 00:09:49.592
+Rosamund Achterberg: Well. Usually.
+
+138
+00:09:50.650 --> 00:09:55.618
+R: Usually I hear about it after the router's already cut it.
+
+139
+00:09:56.413 --> 00:10:03.030
+Consultant: Give me a specific one. The last time a change didn't make it to the shop.
+
+140
+00:10:03.700 --> 00:10:10.944
+R: The frozen yogurt place. Channel letters, thirty-inch, and the landlord changed the fascia height after we'd signed off,
+
+141
+00:10:11.462 --> 00:10:14.969
+R: so the letters had to come down to twenty-four.
+
+142
+00:10:15.282 --> 00:10:19.847
+R: Ottilie knew. She'd re-quoted it. The re-quote was in her spreadsheet.
+
+143
+00:10:20.296 --> 00:10:23.638
+R: Nobody told me, and I'd cut thirty-inch.
+
+144
+00:10:24.457 --> 00:10:25.968
+Consultant: What did that cost?
+
+145
+00:10:26.781 --> 00:10:32.853
+R: Materials on that set, aluminum and acrylic and the LEDs, call it six thousand eight hundred.
+
+146
+00:10:33.101 --> 00:10:36.938
+R: Plus two days of shop time to remake it.
+
+147
+00:10:37.372 --> 00:10:42.206
+R: Plus Lyle's crew drove out with the wrong letters and drove back.
+
+148
+00:10:42.568 --> 00:10:46.205
+R: That's three guys and a truck for a morning,
+
+149
+00:10:46.611 --> 00:10:50.293
+R: and the crane, because the crane was there too.
+
+150
+00:10:50.829 --> 00:10:55.189
+Rosamund Achterberg: Lyle says the crew loses a full morning every time that happens,
+
+151
+00:10:55.395 --> 00:10:58.712
+Rosamund Achterberg: but that's Lyle, and he'd say that about anything.
+
+152
+00:10:59.073 --> 00:11:03.656
+Consultant: How often does that happen? A remake because a change didn't land.
+
+153
+00:11:04.648 --> 00:11:07.306
+R: Honestly. Four, five times a year.
+
+154
+00:11:07.577 --> 00:11:13.990
+R: Not all of them that big. Some of them are a two-hundred-dollar vinyl remake.
+
+155
+00:11:14.560 --> 00:11:19.161
+Rosamund Achterberg: The big ones are four or five. The little ones nobody counts.
+
+156
+00:11:19.606 --> 00:11:23.270
+Consultant: And today, the way you catch it, is what?
+
+157
+00:11:23.695 --> 00:11:24.496
+R: Me.
+
+158
+00:11:24.955 --> 00:11:29.776
+R: I walk over to Ottilie's desk on Fridays and ask what's changed.
+
+159
+00:11:30.029 --> 00:11:35.221
+R: And the production meeting on Friday afternoon, where we go through the board.
+
+160
+00:11:36.117 --> 00:11:38.196
+Consultant: And why isn't that enough?
+
+161
+00:11:38.577 --> 00:11:46.743
+R: Because it's Friday. A change that comes in Monday sits until Friday unless somebody happens to say something.
+
+162
+00:11:47.051 --> 00:11:50.848
+R: And I'm on the floor. I'm not at a desk.
+
+163
+00:11:51.827 --> 00:11:54.692
+Rosamund Achterberg: And when Ruairi's out, nobody walks the board.
+
+164
+00:11:55.084 --> 00:11:59.277
+Rosamund Achterberg: Last time he took a week off, the paint booth had
+
+165
+00:11:59.277 --> 00:12:00.137
+Nkechi Brandvold: Can I
+
+166
+00:12:00.137 --> 00:12:05.820
+Rosamund Achterberg: the paint booth had three jobs queued that were all due the same day. Go on, Nkechi.
+
+167
+00:12:06.802 --> 00:12:11.296
+Nkechi Brandvold: I tried to keep a change-order column in my spreadsheet. For about a month.
+
+168
+00:12:11.531 --> 00:12:13.973
+Nkechi Brandvold: Nobody told me about the changes either. [laughs]
+
+169
+00:12:14.668 --> 00:12:18.984
+Consultant: Who else does this land on? When a remake happens.
+
+170
+00:12:19.824 --> 00:12:23.099
+R: The crew, first. Lyle's guys eat the drive.
+
+171
+00:12:23.295 --> 00:12:29.369
+R: Then the customer, because the opening slips. Then Dad, because the landlord calls Dad.
+
+172
+00:12:29.776 --> 00:12:32.520
+Rosamund Achterberg: Everybody calls Dad. That's the other thing.
+
+173
+00:12:33.198 --> 00:12:38.020
+Consultant: And on the permit side, Nkechi. When one expires, who feels it?
+
+174
+00:12:38.791 --> 00:12:42.797
+Nkechi Brandvold: The crew, same as Ruairi said. They loaded a truck for nothing.
+
+175
+00:12:43.120 --> 00:12:51.055
+Nkechi Brandvold: The landlord, obviously, and the landlord's tenant, who has no sign. And Rosamund, because she's the one who has to call the landlord back.
+
+176
+00:12:52.079 --> 00:12:55.142
+Rosamund Achterberg: And Dad, because the landlord called Dad first.
+
+177
+00:12:55.505 --> 00:13:08.283
+Consultant: Let me try and put a number on the way things are, and you tell me where I'm wrong. Nkechi, a day a week on chasing. Ruairi, an hour and a half every morning on the board.
+
+178
+00:13:08.793 --> 00:13:12.846
+Consultant: Is there a loaded rate you'd use for those two?
+
+179
+00:13:18.646 --> 00:13:24.227
+Rosamund Achterberg: I'd rather not say Nkechi's out loud with Nkechi on the call. [laughs] Nkechi, cover your ears.
+
+180
+00:13:24.437 --> 00:13:28.309
+Rosamund Achterberg: Call it thirty-two an hour, loaded. Ruairi's is more like fifty-five.
+
+181
+00:13:28.742 --> 00:13:30.073
+Nkechi Brandvold: I've heard worse.
+
+182
+00:13:31.004 --> 00:13:36.542
+Consultant: So what does that, what does that come to? I'd rather you did the sum than me, honestly.
+
+183
+00:13:37.569 --> 00:13:39.887
+Rosamund Achterberg: So eight hours at thirty-two is,
+
+184
+00:13:40.291 --> 00:13:42.859
+Rosamund Achterberg: two fifty-six a week. Times fifty-two,
+
+185
+00:13:43.371 --> 00:13:44.332
+Rosamund Achterberg: thirteen thou
+
+186
+00:13:44.693 --> 00:13:46.286
+Rosamund Achterberg: thirteen thousand and change.
+
+187
+00:13:46.722 --> 00:13:53.165
+Rosamund Achterberg: And Ruairi, an hour and a half every morning is seven and a half hours a week,
+
+188
+00:13:53.537 --> 00:13:55.280
+Rosamund Achterberg: times fifty-five is, hang on,
+
+189
+00:13:55.449 --> 00:13:59.842
+Rosamund Achterberg: four twelve fifty. Times fifty-two. Twenty-one thousand four hundred and fifty.
+
+190
+00:14:00.412 --> 00:14:03.934
+R: I'd have said an hour. I mean, some days it's two.
+
+191
+00:14:04.736 --> 00:14:07.498
+Rosamund Achterberg: Call it an hour and a half.
+
+192
+00:14:07.691 --> 00:14:12.500
+Rosamund Achterberg: And the remakes, four or five a year at, I don't know, six, seven thousand,
+
+193
+00:14:12.947 --> 00:14:17.381
+Rosamund Achterberg: so twenty-five to thirty-five thousand? I'm guessing. Nkechi could pull the actual ones.
+
+194
+00:14:17.861 --> 00:14:21.672
+Consultant: So thirteen, plus twenty-one, plus somewhere between twenty-five and thirty-five.
+
+195
+00:14:22.383 --> 00:14:26.935
+Rosamund Achterberg: Sixty to seventy thousand a year. And that's the stuff we can count.
+
+196
+00:14:27.140 --> 00:14:31.508
+Rosamund Achterberg: The backcharges and the crane fees I'd have to look up.
+
+197
+00:14:32.086 --> 00:14:36.542
+Consultant: Does sixty to seventy feel right, or does it feel wrong?
+
+198
+00:14:37.577 --> 00:14:39.130
+Rosamund Achterberg: It feels light, honestly.
+
+199
+00:14:39.736 --> 00:14:40.741
+R: It's light.
+
+200
+00:14:41.797 --> 00:14:45.554
+Rosamund Achterberg: It's light. But it's what I can stand behind today.
+
+201
+00:14:46.527 --> 00:14:53.290
+Consultant: Flip it round. If none of that was happening, what would you go after that you don't today?
+
+202
+00:14:54.218 --> 00:15:00.215
+Rosamund Achterberg: Bigger wayfinding. The hospital job we've got is the first one we've said yes to at that size,
+
+203
+00:15:00.680 --> 00:15:03.526
+Rosamund Achterberg: and we said yes because, well, they asked twice.
+
+204
+00:15:04.602 --> 00:15:10.387
+Consultant: Is there a number on that? What you'd win if the quotes got chased, say.
+
+205
+00:15:11.013 --> 00:15:13.946
+Rosamund Achterberg: I genuinely don't know. That's a Ottilie question.
+
+206
+00:15:14.393 --> 00:15:17.546
+Rosamund Achterberg: I'm not going to make one up for you.
+
+207
+00:15:18.160 --> 00:15:25.342
+Consultant: Good. I'd rather have no number than a made-up one. Would she, do you think she'd be able to put one on it?
+
+208
+00:15:26.121 --> 00:15:29.297
+Rosamund Achterberg: Probably. She'd want a week with her spreadsheet first.
+
+209
+00:15:30.176 --> 00:15:35.061
+Consultant: Why now? You've run on the whiteboard and the spreadsheets for a long time.
+
+210
+00:15:35.527 --> 00:15:41.947
+Rosamund Achterberg: Two things. The hospital contract, which came in last week. Two hundred and some signs across four
+
+211
+00:15:42.243 --> 00:15:46.832
+Rosamund Achterberg: four buildings, kicks off after the first of the year, and it's forty-one permits.
+
+212
+00:15:46.992 --> 00:15:50.135
+Rosamund Achterberg: The main campus and the cancer center are city,
+
+213
+00:15:50.643 --> 00:15:53.411
+Rosamund Achterberg: the two clinics are in the county,
+
+214
+00:15:53.744 --> 00:15:56.926
+Rosamund Achterberg: and the county wants engineering on every exterior sign.
+
+215
+00:15:57.325 --> 00:16:02.184
+Rosamund Achterberg: We have never run a job with forty-one permits and one crane.
+
+216
+00:16:02.686 --> 00:16:06.229
+Rosamund Achterberg: If one expires, Nkechi's on the phone for a month.
+
+217
+00:16:06.393 --> 00:16:11.685
+Rosamund Achterberg: And the second thing is Dad. He wants to be out of the day-to-day by spring.
+
+218
+00:16:11.975 --> 00:16:19.120
+Rosamund Achterberg: And right now half of what runs this place is in his head and the other half is on Ruairi's wall.
+
+219
+00:16:19.723 --> 00:16:21.560
+R: It's a good wall.
+
+220
+00:16:21.953 --> 00:16:24.329
+Rosamund Achterberg: It's a great wall. [laughs] It's a wall.
+
+221
+00:16:25.400 --> 00:16:30.551
+Consultant: Say it's six months from now and it worked. What do you see?
+
+222
+00:16:31.119 --> 00:16:37.094
+Rosamund Achterberg: I open something on Monday morning and I see every job, where it is on the floor,
+
+223
+00:16:37.581 --> 00:16:40.388
+Rosamund Achterberg: when it installs, and whether the permit's good.
+
+224
+00:16:40.701 --> 00:16:45.724
+Rosamund Achterberg: And I don't have to walk out to the shop to find out.
+
+225
+00:16:46.144 --> 00:16:55.487
+Nkechi Brandvold: For me it's the permit tells me before it expires. Not me telling myself. And the install date moving moves the permit warning with it.
+
+226
+00:16:56.068 --> 00:16:57.005
+R: The board.
+
+227
+00:16:57.485 --> 00:17:09.684
+R: I want the board on a screen in the shop, big, and I want the magnets to move when a change comes in without me hearing about it in the parking lot.
+
+228
+00:17:10.057 --> 00:17:13.387
+Consultant: And your dad? What does he need to see?
+
+229
+00:17:14.347 --> 00:17:20.498
+Rosamund Achterberg: Dad needs to see the crane not go out empty. That's it. He doesn't care about software.
+
+230
+00:17:20.920 --> 00:17:24.955
+Rosamund Achterberg: He cares that we stop paying for the same sign twice.
+
+231
+00:17:25.878 --> 00:17:29.590
+Consultant: How does a decision like this get made here?
+
+232
+00:17:30.594 --> 00:17:32.592
+Rosamund Achterberg: I run the operations budget.
+
+233
+00:17:32.805 --> 00:17:37.089
+Rosamund Achterberg: Anything over ten thousand, or anything that's a new system, Dad signs.
+
+234
+00:17:37.295 --> 00:17:43.870
+Rosamund Achterberg: And he'd want to see it work before he signs. He'd want to stand in front of it.
+
+235
+00:17:44.266 --> 00:17:51.408
+Rosamund Achterberg: He signed off on the new router because he watched it cut. He's not going to read a proposal.
+
+236
+00:17:51.592 --> 00:17:57.452
+Rosamund Achterberg: Our accountant does the books. She'd want to know it doesn't touch the accounting system.
+
+237
+00:17:57.624 --> 00:18:03.362
+Rosamund Achterberg: Which it won't, I assume. And Ottilie, because if it touches her spreadsheet she'll have opinions.
+
+238
+00:18:04.175 --> 00:18:06.865
+Consultant: Rosamund, when could your dad see something?
+
+239
+00:18:07.469 --> 00:18:08.022
+R: Mornings.
+
+240
+00:18:08.440 --> 00:18:13.534
+Rosamund Achterberg: He's in every morning at seven. Before the shop starts is the best time, honestly.
+
+241
+00:18:14.194 --> 00:18:17.655
+Consultant: Where does this sit against everything else this quarter?
+
+242
+00:18:18.455 --> 00:18:23.615
+Rosamund Achterberg: The hospital is the deadline. Permits go in in November for the first building.
+
+243
+00:18:23.909 --> 00:18:30.000
+Rosamund Achterberg: So the permit side has to be in place by then. The shop side, I'd take by January.
+
+244
+00:18:30.353 --> 00:18:32.778
+Rosamund Achterberg: November's tight. But that's the date.
+
+245
+00:18:33.249 --> 00:18:37.342
+Consultant: And the shop side by January works for you, Ruairi?
+
+246
+00:18:37.846 --> 00:18:41.917
+R: January's fine. January's dead. Nobody opens a store in January.
+
+247
+00:18:42.979 --> 00:18:44.900
+Consultant: What would stop this? Honestly.
+
+248
+00:18:45.345 --> 00:18:46.367
+R: The floor.
+
+249
+00:18:46.699 --> 00:18:50.194
+R: My guys don't type. They will not type.
+
+250
+00:18:50.379 --> 00:18:55.373
+R: If it needs them to type, it's dead in a week.
+
+251
+00:18:56.523 --> 00:18:58.476
+Consultant: Do the crews carry phones?
+
+252
+00:18:59.180 --> 00:19:00.596
+R: Yeah, they carry phones.
+
+253
+00:19:01.083 --> 00:19:05.216
+R: They'll look at a phone. They won't type into one.
+
+254
+00:19:05.782 --> 00:19:13.391
+Rosamund Achterberg: And the wall. Dad likes the wall. If the wall comes down before he trusts the screen, that's a fight.
+
+255
+00:19:14.180 --> 00:19:17.433
+Nkechi Brandvold: And I'm not touching anything in October. Nobody is.
+
+256
+00:19:17.824 --> 00:19:24.072
+Rosamund Achterberg: And Ottilie's spreadsheet. If this needs her to stop using it on day one, she won't.
+
+257
+00:19:25.089 --> 00:19:27.722
+Consultant: Have you looked at anything before?
+
+258
+00:19:28.457 --> 00:19:33.058
+Rosamund Achterberg: There's an industry package. Everybody in science uses it, or says they do.
+
+259
+00:19:33.444 --> 00:19:40.747
+Rosamund Achterberg: We had a demo two years ago and it did everything and none of us could find anything in it.
+
+260
+00:19:41.319 --> 00:19:45.292
+R: It had a shop floor screen. That part was good.
+
+261
+00:19:46.054 --> 00:19:49.515
+Rosamund Achterberg: That part was good. The rest was a lot.
+
+262
+00:19:50.060 --> 00:19:52.327
+Consultant: Any monday in the building today?
+
+263
+00:19:53.133 --> 00:19:53.663
+Nkechi Brandvold: No.
+
+264
+00:19:53.838 --> 00:19:57.433
+Nkechi Brandvold: Bow keeps the design files somewhere, but that's just files.
+
+265
+00:19:58.156 --> 00:20:04.836
+Rosamund Achterberg: My brother-in-law's company uses monday, and that's how I ended up with your name. That's the extent of it.
+
+266
+00:20:05.973 --> 00:20:15.627
+Consultant: Okay. So there's no account to look at, and I'd be starting clean. That's fine, that's fine, it just means I'll ask you a few setup questions later on.
+
+267
+00:20:16.118 --> 00:20:19.212
+Rosamund Achterberg: Ask Nkechi. She'll be the one in it.
+
+268
+00:20:19.809 --> 00:20:26.953
+Consultant: Let me play back what I'd put in a first version. Just to show you, not to sign.
+
+269
+00:20:27.161 --> 00:20:34.016
+Consultant: Jobs, with the stations as columns, so the wall has a screen version and Ruairi's magnets are on it.
+
+270
+00:20:34.016 --> 00:20:34.656
+R: um
+
+271
+00:20:34.656 --> 00:20:41.090
+Consultant: Permits on the job, with the expiry driving a warning that moves when the install date moves.
+
+272
+00:20:41.090 --> 00:20:41.679
+Rosamund Achterberg: Yes.
+
+273
+00:20:41.679 --> 00:20:48.557
+Consultant: And quotes, so Ottilie's open quotes are visible and chased, without touching her spreadsheet on day one.
+
+274
+00:20:49.237 --> 00:20:53.172
+Rosamund Achterberg: Yes. That's the right order. Permits first, then the wall, then quotes.
+
+275
+00:20:53.619 --> 00:20:56.269
+R: The screen in the shop. Big.
+
+276
+00:20:57.295 --> 00:21:02.298
+Nkechi Brandvold: And it has to know about the install date. Not just the permit date.
+
+277
+00:21:03.186 --> 00:21:05.828
+Consultant: Noted. That's the whole point of it.
+
+278
+00:21:06.281 --> 00:21:11.757
+Rosamund Achterberg: I'd want Dad to see the permit piece and the wall. He won't care about quotes.
+
+279
+00:21:12.065 --> 00:21:19.534
+Rosamund Achterberg: And I don't want to sign anything until he's seen it. That's not me stalling, that's how it works here.
+
+280
+00:21:20.191 --> 00:21:27.148
+Consultant: Then here's what I'd, here's what I'd suggest. I build a first version with those three pieces, in your words,
+
+281
+00:21:27.587 --> 00:21:33.032
+Consultant: and we walk through it with your dad in the room, before the shop starts.
+
+282
+00:21:33.368 --> 00:21:34.854
+Consultant: What morning works?
+
+283
+00:21:35.330 --> 00:21:36.607
+Rosamund Achterberg: Thursday the eighth?
+
+284
+00:21:37.030 --> 00:21:39.039
+Rosamund Achterberg: Seven-thirty. He's here by seven.
+
+285
+00:21:39.787 --> 00:21:47.890
+Consultant: Thursday the eighth, seven-thirty. I'll send the invite to the three of you today, and you forward it to him?
+
+286
+00:21:48.892 --> 00:21:53.769
+Rosamund Achterberg: I'll forward it. And I'll tell him it's a conversation, not a pitch.
+
+287
+00:21:54.417 --> 00:21:56.824
+R: I'll be there. Wall's mine.
+
+288
+00:21:57.503 --> 00:22:03.938
+Nkechi Brandvold: I can send you the permit spreadsheet. With the job numbers. I can take the amounts off.
+
+289
+00:22:05.023 --> 00:22:07.836
+Consultant: That would help a lot. By Friday?
+
+290
+00:22:08.541 --> 00:22:09.656
+Nkechi Brandvold: By Friday.
+
+291
+00:22:10.196 --> 00:22:17.442
+Consultant: And the last thing, is this worth taking forward? I'd rather hear no now than in a month.
+
+292
+00:22:18.581 --> 00:22:23.397
+Rosamund Achterberg: It's worth it. If the permit piece works, Dad'll sign it in a week.
+
+293
+00:22:23.612 --> 00:22:26.569
+Rosamund Achterberg: If it doesn't, we'll know on the eighth.
+
+294
+00:22:27.177 --> 00:22:35.218
+Consultant: That's fair. I'll send a short recap tomorrow, what I heard and the next steps, so you can correct me.
+
+295
+00:22:35.698 --> 00:22:39.285
+Rosamund Achterberg: Send it to Nkechi too. She'll actually read it.
+
+296
+00:22:39.956 --> 00:22:40.754
+Nkechi Brandvold: [laughs] I will.
+
+297
+00:22:41.363 --> 00:22:43.447
+Consultant: Thanks, all three of you.
+
+298
+00:22:43.822 --> 00:22:45.303
+Rosamund Achterberg: Talk on the eighth.

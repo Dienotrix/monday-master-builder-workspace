@@ -1,0 +1,242 @@
+[00:00:04] Consultant: Hi, hi. There you are. Can you hear me okay?
+[00:00:09] Tess Kowalczyk: Yep, I've got you. Sorry, I'm in the Milwaukee office today and the room booking thing bumped me out of the room I'd reserved, so I'm in what we very generously call the phone booth. It is a closet. With a chair.
+[00:00:27] Consultant: Ha, I've taken plenty of calls from closets. Good acoustics, usually. Is Jordan joining?
+[00:00:34] Tess Kowalczyk: He should be, he said he was grabbing coffee. Oh, there he is.
+[00:00:41] Jordan Pruitt: Hey, sorry, sorry. The coffee machine on our floor has been broken for over a week and I refuse to drink the pot in the kitchen, it's been sitting there since, like, seven. Hi.
+[00:00:54] Consultant: Hi Jordan. No rush at all. You're in Madison today?
+[00:01:00] Jordan Pruitt: Madison, yeah. Home base.
+[00:01:03] Consultant: And Tess, you mentioned in your email you're opening a new office. Des Moines, is that right? How's that going?
+[00:01:12] Tess Kowalczyk: It's, um. It's exciting and it's a little terrifying? We signed the lease in, what, June, Jordan?
+[00:01:19] Jordan Pruitt: Late June.
+[00:01:22] Tess Kowalczyk: Late June. It's an old seed company warehouse in the East Village there, which, you know, as a design firm, of course we had to pick the building with no insulation and a freight elevator from nineteen-twenty-something. But it is beautiful. Brick, big timber columns. The contractor says we can move in November second. I am choosing to believe him.
+[00:01:49] Consultant: That's a great kind of building to be in, as long as the heating bill doesn't get you. Was that your team's design?
+[00:02:01] Tess Kowalczyk: Our interiors studio did it, yeah. They're very proud of it, and they should be, it looks great. Anyway. Sorry. We could talk about that building all day.
+[00:02:13] Consultant: I'd happily let you, but I'll behave. So, just so you know how I'd like to use the time. This is really a conversation. I'm going to ask a lot of questions about how things run today, where it's painful, and what you'd want instead. I'm not going to show you anything today. And honestly, if it turns out that what you need is a couple of fixes to spreadsheets you already have, I'll tell you that. Does that work?
+[00:02:47] Tess Kowalczyk: That's, yeah. That's refreshing, actually.
+[00:02:50] Jordan Pruitt: Works for me.
+[00:02:53] Consultant: Great. Maybe to start, give me the thirty-second version of Brackenholt Architects + Engineers. Who you are, what kind of work you do.
+[00:03:04] Tess Kowalczyk: Sure. So we're a full-service A and E firm, architecture and engineering. About a hundred and twenty people, well, a hundred and eighteen the last time I looked at the HR report. Three offices. Madison's the main one, then Milwaukee, and Rockford down in Illinois. Des Moines will make four. We do a lot of K-twelve, a lot of municipal and civic, so libraries, fire stations, city halls, and a healthcare practice that's growing, mostly outpatient clinics. And we have structural and MEP in-house, which is honestly a big part of how we win, because a school district can hire one firm instead of stitching three together.
+[00:03:46] Consultant: And where do the two of you sit in all that?
+[00:03:52] Tess Kowalczyk: I'm COO, so anything that isn't design, or the partners doing partner things, ends up on my desk. Finance reports through me, IT, HR, operations.
+[00:04:04] Jordan Pruitt: And I'm the operations manager, which mostly means I'm the guy who knows where everybody is supposed to be this week. Staffing, project setup, a bunch of reporting. And I get pulled into pursuits more than I would like.
+[00:04:22] Consultant: Pursuits being the new work you're going after?
+[00:04:28] Jordan Pruitt: Yeah, sorry. Bids, proposals. We call them pursuits.
+[00:04:33] Consultant: Got it, I'll use your words. So Tess, what made you reach out now, as opposed to, say, a year ago?
+[00:04:43] Tess Kowalczyk: Two things. Well, honestly, one thing, and then another thing that made the first thing urgent. The first one is Des Moines. We are about to open a fourth office, and everything we run on is spreadsheets and Jordan's memory. And the second thing is we lost a pursuit in July that we should not have lost. And we didn't lose it on merit. We lost it because we missed the deadline.
+[00:05:15] Consultant: Ouch. Can you walk me through what happened?
+[00:05:20] Tess Kowalczyk: Yeah. Okay. So, Larkspur Falls School District. It's a middle school addition plus a renovation of the existing building. A big one for us, the fee was going to be around one point four million. And we'd been talking to that district for, what, two years?
+[00:05:39] Jordan Pruitt: Longer. We did their facilities assessment before COVID.
+[00:05:45] Tess Kowalczyk: Right, we did the facilities study, so we were the favorite, basically. The RFP comes out, Hallie, she's our marketing coordinator, she logs it in the pursuit log, due date is a Friday at two p.m. Everybody's working to Friday. And then the district puts out an addendum that moves the due date up a day, to Thursday, because of some school board thing.
+[00:06:13] Consultant: And where did the addendum go?
+[00:06:18] Tess Kowalczyk: That's the thing. It went to whoever was registered on the bid portal, which was Luis, the PM we had lined up, and Luis was on vacation up in Door County with no cell signal. So it just sat in his inbox.
+[00:06:35] Jordan Pruitt: And nobody else was registered on the portal. Which, that's on us. That's partly on me.
+[00:06:43] Tess Kowalczyk: It's not on you. It's on how we do it. Anyway, Thursday morning, around eleven, Hallie goes to the portal to download something else, sees addendum two, and goes, oh no. So now it's due in three hours. The fee proposal isn't signed off, because Gordon, our managing partner, signs every fee proposal, and he's on a job site in Beloit. And the hours sheet that fed the fee still had last year's rates in it. So Hallie and Jordan are rebuilding the fee at, like, one o'clock --
+[00:07:21] Jordan Pruitt: One-fifteen.
+[00:07:23] Tess Kowalczyk: One-fifteen. Gordon signs off on his phone from a parking lot. And we upload at two-oh-four. The portal closed at two. It just, it wouldn't take it.
+[00:07:35] Consultant: Four minutes.
+[00:07:38] Tess Kowalczyk: Four minutes. A million four in fee. And I think we'd have won it. Their facilities director basically told us afterwards we'd have been, quote, a strong contender. Which, great. Thanks.
+[00:07:52] Consultant: How did that land inside the firm?
+[00:07:56] Tess Kowalczyk: Badly. Gordon was, I mean, he was calm about it, he's not a yeller. But at the partner meeting he said, and I'm quoting him, "We are not a firm that misses deadlines." And everyone sort of looked at me.
+[00:08:12] Consultant: That's a rough one. I'm sorry. Looking back at it, what actually broke? Was it the addendum, the sign-off, the rates?
+[00:08:23] Tess Kowalczyk: All of it, kind of? The addendum went to one person. There's no one place where a pursuit lives, with the due date and who's on it and what's changed. Hallie's spreadsheet is a list, it doesn't know about addenda. And the fee sign-off is basically, you email Gordon a PDF and you hope.
+[00:08:47] Consultant: Okay. Walk me through how a pursuit runs today, start to finish. Say, um, an RFQ lands on a Monday. What happens?
+[00:08:56] Jordan Pruitt: So it depends how it comes in. Some of it comes through the public bid portals, some of it comes in because a PIC knows somebody -- principal in charge, sorry -- and they get a call. Either way it should get to Hallie, and she puts it in the pursuit log. Which is an Excel file on SharePoint.
+[00:09:22] Tess Kowalczyk: Should.
+[00:09:25] Jordan Pruitt: Should. Then Fridays we have the pursuit huddle. It's supposed to be thirty minutes. We go through what's new and do go/no-go. If it's a go, we assign a PIC and a PM, and the PM builds the fee in the fee builder, which is another spreadsheet, hours by phase and by discipline, times rates. Hallie builds the actual document, the quals, resumes, project sheets. Then Gordon signs off on the fee, then it goes out. If we're short-listed, there's an interview. And if we win, Bev, our controller, sets it up in Ajera as a job and it gets a job number.
+[00:10:07] Consultant: Ajera is your accounting system?
+[00:10:10] Jordan Pruitt: Accounting, timesheets, billing. It's the, um, the book of record, as Bev likes to say.
+[00:10:18] Consultant: And how much of Hallie's week goes into keeping that pursuit log straight and chasing people?
+[00:10:26] Jordan Pruitt: Oh, a lot. I'd say ten hours a week? And that's just the chasing, not the writing.
+[00:10:35] Tess Kowalczyk: At least. She told me she spends basically every Thursday afternoon emailing PMs going, "Is this still a go? Did you look at the fee?"
+[00:10:47] Consultant: So what stops you from carrying on like that? You've run it this way for years, and mostly it works.
+[00:10:55] Tess Kowalczyk: Mostly it works. That's the dangerous part. It works right up until it doesn't, and when it doesn't, it costs us a million four. And Des Moines is going to start chasing work on its own. They'll have their own PIC, we're hiring a marketing person out there. So now it's another inbox and another copy of the spreadsheet. I can already see it. Someone's going to save "pursuit log DSM final v2" on their desktop.
+[00:11:24] Jordan Pruitt: That someone is going to be me.
+[00:11:27] Tess Kowalczyk: [laughs] It's not going to be you.
+[00:11:32] Consultant: Say nothing changes on the pursuit side. What does next year look like?
+[00:11:38] Tess Kowalczyk: More pursuits, same process, more places for it to break. We're planning to go from, I think we said six or seven fee proposals a month to ten, once Des Moines is up and running. It doesn't scale. And the next Larkspur is, honestly, it's a when, not an if.
+[00:12:01] Consultant: Who else feels it when a pursuit goes sideways, apart from you and Hallie?
+[00:12:07] Tess Kowalczyk: The PICs, because it's their relationship. Gordon, obviously. The PM who's writing the fee at midnight. And, you know, the people we would have staffed on it. That middle school would have been two years of work for maybe eight people.
+[00:12:25] Consultant: Let me switch over to delivery for a bit. Once a pursuit becomes a job, how does it run? Jordan, maybe you.
+[00:12:37] Jordan Pruitt: Yeah. So Bev sets the job up in Ajera with its phases. For a typical architecture job that's SD, DD, CDs, bidding, and CA. So schematic design, design development --
+[00:12:50] Consultant: Construction documents, construction administration. Yep.
+[00:12:53] Jordan Pruitt: Right, you know the lingo. Each phase has its own fee. The PM runs the job. Everybody enters their time in Ajera every week, against the job and the phase. And then staffing, which is my world, happens on the Wall.
+[00:13:12] Consultant: The Wall?
+[00:13:13] Jordan Pruitt: [laughs] Sorry. The Wall is the staffing spreadsheet. Before COVID it was a literal wall in the Madison office, a whiteboard with magnets with everyone's names on them. Now it's an Excel file with a tab per office, every person down the side, weeks across the top, and percentages. And every week I rebuild it.
+[00:13:36] Consultant: Rebuild it how?
+[00:13:39] Jordan Pruitt: So the PMs are supposed to update their people's allocations, and they don't. Or they do it in their own copy. Or they tell me in Teams. So Monday I go through the Teams messages, I go through the project schedules, I pull who charged time where out of Ajera, and I basically reconcile it all by hand. That's most of Monday and half of Tuesday morning. And then Tuesday at one we have the staffing call.
+[00:14:13] Consultant: Sorry, Jordan, you froze for a second there. Tuesday at one?
+[00:14:19] Jordan Pruitt: Oh, sorry, the Wi-Fi in this corner is garbage. Yeah, Tuesday at one, the staffing call.
+[00:14:27] Consultant: Who's on the staffing call?
+[00:14:31] Jordan Pruitt: Studio leads from each office, a couple of the PICs, me. Twelve people, give or take. It's supposed to be forty-five minutes. It's an hour. Every time. And it's mostly me reading percentages out loud and people going, "No, she's not on that anymore."
+[00:14:50] Consultant: When did it last actually go wrong? A specific week.
+[00:14:56] Jordan Pruitt: Oh, okay. Three weeks ago? So Ravi, one of our structural engineers in Milwaukee, he's great, everybody wants Ravi. He was on the Wall at a hundred percent on the Oak Street fire station CDs. But two other PMs had also, separately, told him he was on their jobs. The clinic in Rockford and a library renovation. And all three had deadlines that same week. And nobody knew until Wednesday, when Ravi messaged me, basically going, "I can't do this."
+[00:15:33] Tess Kowalczyk: And he was right.
+[00:15:37] Jordan Pruitt: He was right. He was at, what, a hundred and forty, a hundred and fifty percent that week, in reality. And meanwhile Rockford had two engineers who were, I found out later, pretty light that week. They could have helped, if anyone had known.
+[00:15:55] Consultant: What happened in the end?
+[00:15:59] Jordan Pruitt: We pushed the library issue by a week, which the owner was not thrilled about. The school -- sorry, the fire station went out on time. Ravi worked the weekend. Ravi did not love that.
+[00:16:16] Consultant: When you say "owner" there, you mean the client?
+[00:16:20] Jordan Pruitt: Yeah, sorry. The owner is the building owner, the client. The city, the school district, whoever. Architect-speak.
+[00:16:29] Consultant: Good to know. And what stops you from just carrying on with the Wall? It sounds like you've made it work.
+[00:16:38] Jordan Pruitt: Because it lives in my head, honestly. If I get hit by a bus, nobody knows who's on what. And I'm about to add a fourth tab with, eventually, fifteen-ish people on it, in an office I'm not in. I can't just walk over and ask somebody in Des Moines what they're working on.
+[00:17:02] Tess Kowalczyk: And we're about to make hiring decisions for Des Moines partly off the Wall. Do we hire another structural engineer, or not? And I don't trust those numbers enough to make a hundred-thousand-dollar decision off them.
+[00:17:17] Consultant: How big is Des Moines on day one?
+[00:17:21] Tess Kowalczyk: Four people. A PIC, two designers, and the marketing hire. And the plan is fifteen or so within two years. If the work's there.
+[00:17:32] Consultant: Who else ends up dealing with it when the Wall is wrong?
+[00:17:39] Jordan Pruitt: The staff, first. People like Ravi. Then the PMs, because they don't get the people they planned for. The studio leads, who basically spend their lives negotiating. And the owner, if a date slips.
+[00:17:56] Tess Kowalczyk: And me, because people come to me when they're burnt out. We had two resignations last year, and workload came up in both exit interviews. I'm not saying it was the Wall. But it wasn't nothing.
+[00:18:12] Consultant: You said people enter time in Ajera against the phase. How do you know when a phase is going over its fee?
+[00:18:22] Tess Kowalczyk: [sighs] So. That's the other thing. Mostly, we find out when it's too late.
+[00:18:29] Consultant: Say more about that.
+[00:18:32] Tess Kowalczyk: Bev runs the WIP report monthly, work in progress, after billing closes, so that's usually around the tenth or twelfth of the following month. So if a phase starts running hot at the beginning of a month, the PM might not see it for five, six weeks. Some PMs are great, they export their hours from Ajera into their own burn sheet every week. Half of them don't. And by the time it shows up on the WIP report, DD is at a hundred and forty percent and there's no fixing it.
+[00:19:13] Consultant: Has that happened recently?
+[00:19:16] Tess Kowalczyk: The Rockford clinic, actually, the same one Jordan mentioned. DD burned through its fee and then some. By the time we saw it, we'd spent about thirty-eight thousand over the phase fee. And we couldn't go back to the owner for it, because it was our own team going round and round on the layout. So we wrote it off.
+[00:19:41] Consultant: Do you know what write-offs look like across a whole year?
+[00:19:48] Tess Kowalczyk: Sorry, one sec, somebody's knocking. [muffled] I'm on a call, can it wait ten minutes? Thanks. Sorry. Apparently the closet is also where we keep the plotter paper. What was the question?
+[00:20:10] Consultant: No problem. Write-offs across a whole year, do you know roughly what those look like?
+[00:20:18] Tess Kowalczyk: Right. Last fiscal year, which ended September thirtieth, so a year ago now, it was about two hundred and ten thousand, firm-wide.
+[00:20:28] Consultant: And how much of that comes from seeing it late, would you say?
+[00:20:36] Tess Kowalczyk: Hmm. I honestly wouldn't put a number on that. Some of it's scope creep. Some of it is just us being bad at saying no to owners. Some of it's visibility. Bev could probably go job by job and tell you. I don't want to guess.
+[00:20:55] Consultant: That's fair. We'll leave that one open. What does a PM do today when they want to know where a job stands?
+[00:21:05] Jordan Pruitt: Ask Bev, and Bev's busy. Or run the export out of Ajera. It's a canned report, you pick the job, it spits out hours by phase and person, and then you're doing a VLOOKUP against your fee. Twenty minutes if you know what you're doing. An hour if you don't.
+[00:21:27] Consultant: Why not just make everyone keep a burn sheet? Make it a rule.
+[00:21:33] Tess Kowalczyk: We did! It was a rule. It was a rule for about one quarter. And, I mean, the PMs aren't wrong, it's busywork. They'd rather be designing, and I'd rather they were billing.
+[00:21:48] Consultant: In your email you also mentioned submittals and owner approvals. Where does that fit in?
+[00:21:55] Jordan Pruitt: That's CA. So once a job's in construction, the contractor sends us submittals. Shop drawings, product data, samples. Steel shop drawings, door hardware, whatever. We have to review them and send them back, and most of our contracts say ten business days. Some say fourteen calendar days.
+[00:22:17] Consultant: How do they come in?
+[00:22:19] Jordan Pruitt: Depends on the GC. About half of them use Procore, so we get a login to their Procore and it comes in there. The other half just email us a PDF. Then the PM logs it in the submittal log, which, you guessed it, is an Excel file in the job folder on SharePoint. The reviewer marks it up in Bluebeam, stamps it, and it goes back.
+[00:22:46] Tess Kowalczyk: And the log is only as good as the PM keeping it.
+[00:22:53] Consultant: Has one slipped?
+[00:22:55] Jordan Pruitt: This spring, yeah. A steel shop drawing on a school addition sat for nineteen days. It had gone to our structural reviewer, he was out sick for a week, and nobody reassigned it. Contract said ten business days. The GC sent a letter claiming a delay.
+[00:23:16] Tess Kowalczyk: It didn't turn into an actual claim, thank God. But it cost us with that contractor. And those contractors talk to school districts.
+[00:23:27] Consultant: And owner approvals, the sign-offs. How are those tracked?
+[00:23:33] Jordan Pruitt: Email, mostly. End of SD, end of DD, we send the owner the package and a sign-off letter, and they sign it and send it back. Or they don't, and we keep going anyway because the schedule says so, and then six months later somebody on a school board says "we never approved that." The PMs track it however they track it.
+[00:23:58] Consultant: So if you add up that kind of chasing across the PMs, the, uh, submittal logs, following up on sign-offs, rebuilding burn sheets, roughly how many hours a week are we talking?
+[00:24:11] Jordan Pruitt: Per PM?
+[00:24:13] Consultant: Per PM, and then how many PMs.
+[00:24:18] Jordan Pruitt: Um. I'd say three hours a week each. Some more, some less. If you're deep in CA, it's way more than three.
+[00:24:28] Tess Kowalczyk: Three's fair. Maybe conservative.
+[00:24:31] Consultant: And how many PMs do you have?
+[00:24:36] Jordan Pruitt: Twenty-two. Twenty-three if you count Ravi -- no, not Ravi. Anneke, who's half PM, half designer. Call it twenty-two.
+[00:24:45] Consultant: Do you use a loaded hourly cost for PM time? Not the bill rate, what it actually costs you.
+[00:24:54] Tess Kowalczyk: Yeah, we use one-oh-five internally for a PM, loaded. The bill rate's higher, about one-sixty-five on average.
+[00:25:03] Consultant: Would you mind doing the math on that? I'd rather it's your number than mine.
+[00:25:11] Jordan Pruitt: Sure, hang on, I've got the calculator up. So twenty-two times three is sixty-six hours a week. Sixty-six times one-oh-five is... six thousand nine hundred thirty. A week. Times fifty-two is... three hundred sixty thousand, three hundred sixty. Huh.
+[00:25:30] Tess Kowalczyk: Three-sixty a year. On PMs chasing stuff.
+[00:25:34] Consultant: And the staffing side. Your Monday and half of Tuesday on the Wall, plus the call?
+[00:25:42] Jordan Pruitt: So I'm, call it twelve hours a week on the Wall. And the call is twelve people for an hour, so twelve hours. Twenty-four hours a week, all in.
+[00:25:56] Tess Kowalczyk: Blended for that group, I'd use ninety an hour loaded. The studio leads cost more than Jordan, sorry, Jordan.
+[00:26:05] Jordan Pruitt: I'm aware.
+[00:26:08] Tess Kowalczyk: So twenty-four times ninety is two thousand one hundred sixty a week, times fifty-two is... a hundred and twelve thousand. And change.
+[00:26:20] Consultant: And Hallie's ten hours on pursuits?
+[00:26:24] Jordan Pruitt: Hallie's loaded rate is, what, sixty-two?
+[00:26:28] Tess Kowalczyk: About that.
+[00:26:31] Jordan Pruitt: So six-twenty a week, times fifty-two, thirty-two thousand two hundred forty.
+[00:26:37] Tess Kowalczyk: So three-sixty, plus one-twelve, plus thirty-two. That's five hundred and four thousand. A year.
+[00:26:45] Consultant: Does that number feel right to you? Or does it feel inflated?
+[00:26:51] Tess Kowalczyk: No, it feels... honestly, it feels light. I didn't count the principals at all, and they're on the staffing call and they're the ones people chase for fee sign-offs. And that's before write-offs. And before Larkspur.
+[00:27:12] Jordan Pruitt: Yeah, if anything it's more. I was being nice with the three hours.
+[00:27:19] Consultant: Okay. So I'll note it as about five hundred and four thousand a year from your numbers, with the write-offs and the lost pursuit on top of that and not counted in it. Is that fair?
+[00:27:34] Tess Kowalczyk: That's fair.
+[00:27:36] Consultant: Flip side, then. If your PMs got a good chunk of those sixty-six hours back, where does that time go?
+[00:27:46] Jordan Pruitt: Billable. Honestly.
+[00:27:49] Tess Kowalczyk: Most of our PMs are also doing real project work, so yeah, it would mostly go to billable time. Not all of it. Let's say half.
+[00:28:00] Consultant: What would half be worth?
+[00:28:03] Tess Kowalczyk: Thirty-three hours a week at one-sixty-five is... Jordan?
+[00:28:12] Jordan Pruitt: Five thousand four hundred forty-five a week. Times fifty-two, two hundred eighty-three thousand, roughly.
+[00:28:19] Tess Kowalczyk: Two-eighty-ish. In billable time. Okay.
+[00:28:22] Consultant: And beyond the hours, is there something you'd go after if capacity weren't the limit?
+[00:28:29] Tess Kowalczyk: Healthcare. Absolutely. We no-go, I'd say, two, sometimes three healthcare pursuits a quarter, because we just can't staff the proposal on top of everything else, never mind the job. And those fees run four to six hundred thousand.
+[00:28:46] Consultant: If you did go after those, what would you realistically win?
+[00:28:51] Tess Kowalczyk: Our hit rate on healthcare, when we actually chase it, is maybe one in four? So if we chased those, two more wins a year feels realistic. That's eight hundred thousand to one point two million in fee. And Gordon would love that. That's the practice he wants to grow.
+[00:29:12] Consultant: Jordan, for you personally, what would getting Monday and half of Tuesday back mean?
+[00:29:19] Jordan Pruitt: Honestly? Leaving before six on a Tuesday. And actually doing the Des Moines setup properly instead of at nine at night.
+[00:29:30] Consultant: Let's say this is all running well by spring. What's different in a normal week?
+[00:29:39] Tess Kowalczyk: Monday morning, I open one screen and I can see every pursuit that's due in the next two weeks, who owns it, whether an addendum came in, and whether the fee's signed off. And I can see which jobs are burning faster than they should, while there's still time to do something about it. Not six weeks later.
+[00:30:03] Jordan Pruitt: For me, I'm not rebuilding the Wall. The PMs update their own people, or it comes from what they've already planned. And the Tuesday call is a fifteen-minute exceptions call. Who's over, who's light, done.
+[00:30:18] Consultant: And what would Gordon count as a win?
+[00:30:23] Tess Kowalczyk: He's said it out loud, at the retreat in May, which is part of why I'm on this call. No more missed submissions, and write-offs coming down. And I'd add, Des Moines opening on the same system as everyone else, not its own set of spreadsheets.
+[00:30:43] Consultant: When he says write-offs coming down, do you know what "down" would mean to him?
+[00:30:50] Tess Kowalczyk: He didn't give a number. I'd guess he'd be happy with half, but I'd want to ask him before we write that down anywhere.
+[00:31:02] Consultant: A couple of questions on tools. So far I've heard Excel, SharePoint, Ajera, Bluebeam, some Procore through contractors, Teams, Outlook. Anything else touching all this?
+[00:31:13] Jordan Pruitt: That's pretty much it. Oh, and monday, technically.
+[00:31:17] Consultant: Tell me about that.
+[00:31:20] Jordan Pruitt: So Anneke, in interiors, set up a free monday board last year to track furniture selections, FF and E, on a couple of jobs. She liked it. It kind of fizzled when the trial ended and nobody was paying for it. Nobody else ever touched it.
+[00:31:40] Tess Kowalczyk: Which is actually part of why I thought of monday. Anneke is not a tech person and she built that herself in an afternoon.
+[00:31:51] Consultant: That's useful. Is her board still around?
+[00:31:56] Jordan Pruitt: Probably? I'd have to ask her. I don't think there's anything in it we'd need.
+[00:32:03] Consultant: How do the tools connect today? Does anything feed anything?
+[00:32:10] Jordan Pruitt: Nope. Everything's an export and a copy-paste. Ajera exports to Excel, Excel goes to the Wall, the pursuit log is standalone. When we win something, Bev sets the job up in Ajera by reading the fee proposal PDF and typing it in.
+[00:32:28] Consultant: If we did something here, what has to be true on the Ajera side?
+[00:32:36] Jordan Pruitt: Okay, so the one thing, and I mean this is non-negotiable, is it has to talk to Ajera. Job numbers, phases, phase fees, hours. Time entry stays in Ajera. The PMs are not entering time in two places. Bev would, honestly, she would walk out.
+[00:32:55] Tess Kowalczyk: She would. And she'd be right. Ajera is the book of record for anything with a dollar sign on it.
+[00:33:04] Jordan Pruitt: And when a pursuit turns into a job, I'd love for the job number to come from Ajera instead of somebody retyping it. But I have no idea what's possible there.
+[00:33:16] Consultant: Do you know how you're set up with Ajera? Is it hosted, or on a server in your office?
+[00:33:24] Tess Kowalczyk: We're on the cloud version, I think? We moved a couple of years ago. Bev would know. Or Marcus, he's our IT guy. Well, he's at the managed services company we use.
+[00:33:37] Consultant: No problem, that's a question for Bev and Marcus, I'll note it. Anything on the security side I should know about? Sign-in, who can see what?
+[00:33:50] Tess Kowalczyk: Marcus will want everything on Microsoft sign-in, single sign-on, whatever we do. And a couple of things. Loaded rates and salaries, nobody outside of Bev, me, and the partners sees those. The PMs see hours, not rates. And we have a few justice jobs, there's a county jail addition right now, where the county wants the drawings and anything about the security layout kept to named people on the team.
+[00:34:20] Jordan Pruitt: And public clients. Anything we write about a school district job can end up in a records request. So people need to keep their comments professional.
+[00:34:31] Tess Kowalczyk: [laughs] Which is its own training program.
+[00:34:36] Consultant: Let's talk about how a decision like this gets made. Say you both like what you see. What happens next?
+[00:34:45] Tess Kowalczyk: So I own the operations systems budget. But anything over twenty-five thousand, Gordon signs. And honestly, for something like this, even if it came in under that, I'd want Gordon on board, because if the partners aren't using it, the PMs won't either.
+[00:35:05] Consultant: What does Gordon care about most?
+[00:35:10] Tess Kowalczyk: Two things. Are we winning work, and are we writing it off. He is not going to care about the Wall. No offense, Jordan.
+[00:35:21] Jordan Pruitt: None taken. He has never once asked me about the Wall.
+[00:35:27] Consultant: Anyone else with a say?
+[00:35:30] Tess Kowalczyk: Bev. Anything that touches Ajera, she has to be comfortable with. She doesn't sign off, exactly, but she can kill it. Marcus on the IT side, but that's more of a checklist. And formally, it goes on the agenda for the partner meeting. That's the first Thursday of the month.
+[00:35:50] Consultant: So the next one is...?
+[00:35:58] Tess Kowalczyk: October first. Which, now that I say it out loud, is also when the partners lock the systems budget for the new fiscal year. Our fiscal year starts October first.
+[00:36:11] Consultant: So if this is going to be in this year's budget, it needs to be in front of them on October first.
+[00:36:22] Tess Kowalczyk: Yeah. I mean, I could get it approved later as a one-off. But it's a lot easier if it's in the budget.
+[00:36:32] Consultant: And after the partners say yes, what happens?
+[00:36:37] Tess Kowalczyk: Bev cuts a PO, or if it's a subscription we just put it on the card, and then it's on me and Jordan to roll it out.
+[00:36:49] Consultant: Have you, um, taken something like this to Gordon before? How did that go?
+[00:36:56] Tess Kowalczyk: When we bought Bluebeam licenses for everybody, two years ago. I did a one-pager, the cost and what it would save, and he signed it in about a week. If the numbers are clear, he's quick.
+[00:37:12] Consultant: What would he want to see on this one, specifically?
+[00:37:18] Tess Kowalczyk: The pursuit side. That we would not miss another Larkspur. And that the PMs will actually use it.
+[00:37:27] Consultant: Would it make sense for him to join the next conversation, so he hears it first-hand instead of through a one-pager?
+[00:37:37] Tess Kowalczyk: Yes. That's a good idea, actually. He'd much rather see something than read about it. I'll ask him.
+[00:37:45] Consultant: Where does this sit for you, priority-wise? Something to fix this quarter, or later on?
+[00:37:53] Tess Kowalczyk: This quarter. At the very least, the pursuits side has to be in place before Des Moines starts chasing work, and they open November second.
+[00:38:04] Consultant: And the rest of it? Jobs, staffing, burn?
+[00:38:09] Tess Kowalczyk: Ideally the whole thing's live before Des Moines opens. But, I mean, I don't want to hold anyone to that. Let's see what it looks like first.
+[00:38:20] Consultant: That's fair. What could get in the way of this going ahead?
+[00:38:27] Tess Kowalczyk: Honestly? The PMs. We tried a project management tool, I want to say four years ago, and it was dead in about two months. Nobody updated it, so it was wrong, so nobody trusted it, and then it was just... gone.
+[00:38:49] Consultant: What do you think killed it?
+[00:38:54] Jordan Pruitt: Double entry. You had to put your stuff in there and still do everything else you were already doing. And nobody asked the PMs what they wanted before we bought it.
+[00:39:08] Tess Kowalczyk: That's fair. That was, that was partly me.
+[00:39:12] Jordan Pruitt: And October is brutal. We've got four CD sets going out in October. Nobody's going to want training in October.
+[00:39:21] Tess Kowalczyk: And if Bev decides this is going to mess with Ajera, that's a hard stop. So, those three.
+[00:39:30] Consultant: That's really helpful. On the PMs, would it make sense for me to talk to one or two of them before we get too far along?
+[00:39:43] Jordan Pruitt: Luis. Luis would be great. He's the one who was on vacation, so he's very motivated. [laughs]
+[00:39:52] Tess Kowalczyk: And someone who's a skeptic. Karen, one of our PMs in Rockford. If Karen likes it, everyone will like it.
+[00:40:02] Consultant: Okay. Let me play back what I'd put in a first version, just to show you, not to sign anything. One, pursuits, from the moment an RFQ lands, through go/no-go, the fee proposal, Gordon's sign-off, and the due date, with addenda in the same place. Two, jobs and phases, with hours and fees from Ajera, so PMs see burn weekly instead of monthly. Three, a staffing view that replaces the Wall. Submittals and owner approvals I'd hold for a second pass. Does that feel like the right first cut?
+[00:40:39] Tess Kowalczyk: Yes. That's the right first cut. Although Jordan's going to argue for submittals.
+[00:40:46] Jordan Pruitt: I'm going to argue for submittals. CA is where the letters from contractors come from.
+[00:40:54] Tess Kowalczyk: Put a basic submittal log in, then. But don't spend a lot of time on it. I care more about the pursuits.
+[00:41:04] Consultant: Fair enough, a simple submittal log. And on Ajera, for a first look, I'd use sample hours so you can see how it works, and we work out the real connection with Bev. Is that okay?
+[00:41:21] Tess Kowalczyk: That's fine. As long as Bev hears it from us early, and not from someone else.
+[00:41:30] Consultant: So from everything we've talked through, is this worth taking forward? Where would you like to go from here?
+[00:41:38] Tess Kowalczyk: Yes. I want to see it. And I want Gordon to see it before October first. What we actually sign up for, I'd want to settle with him in the room.
+[00:41:51] Consultant: Then how about this. I put together a first version with those pieces, in your language, pursuits, jobs, phases, the Wall, and we walk through it together with Gordon. Could we do Thursday the twenty-fourth? That's a week before the partner meeting.
+[00:42:08] Tess Kowalczyk: Let me look. The twenty-fourth... I have a ten o'clock I can move. Jordan?
+[00:42:17] Jordan Pruitt: I'm free all morning.
+[00:42:19] Tess Kowalczyk: Ten a.m. Central on the twenty-fourth, then. I'll have to check Gordon's calendar, but he's usually in the office on Thursdays.
+[00:42:29] Consultant: How long do you think he'll give us?
+[00:42:34] Tess Kowalczyk: Thirty minutes. Forty-five if it's going well.
+[00:42:39] Consultant: Let's book forty-five and aim to be done in thirty. I'll send the invite to you both today. Tess, could you forward it to Gordon?
+[00:42:50] Tess Kowalczyk: I'll forward it to him today and let you know by Friday the eighteenth if he's in.
+[00:42:59] Consultant: Perfect. And it would help a lot to build from real examples. Jordan, could you send me a copy of the Wall, the pursuit log, and an Ajera export for one job? Scrub the names and rates if you want.
+[00:43:15] Jordan Pruitt: Yeah, I can do that. By Tuesday? The fifteenth?
+[00:43:21] Consultant: Tuesday the fifteenth is great. And Tess, would you mind giving Bev a heads-up that I may have a couple of questions about Ajera?
+[00:43:31] Tess Kowalczyk: I'll talk to her tomorrow.
+[00:43:35] Consultant: And I'll send you a short recap by end of day tomorrow, what I heard and the next steps, so you can correct anything I got wrong.
+[00:43:48] Tess Kowalczyk: Great.
+[00:43:50] Jordan Pruitt: Sounds good.
+[00:43:51] Consultant: Last thing. Is there anything I didn't ask that I should have?
+[00:43:57] Tess Kowalczyk: Hmm. Not really. Oh -- maybe one thing. One project can have more than one job. Like, the Oak Street fire station is one building, but it's two jobs in Ajera. The base building, and then the apparatus bay equipment package, which we did as an additional service. So don't assume one project is one job.
+[00:44:23] Jordan Pruitt: And engineering-only jobs, where we're the structural engineer for some other architect, don't have the same phases. Sometimes it's just design and CA. So don't hard-code SD, DD, CD for everything.
+[00:44:37] Consultant: Both really good to know. I'll check with you how you want those set up before I build anything.
+[00:44:46] Tess Kowalczyk: Great. Thank you. Honestly, this was a good use of an hour.
+[00:44:51] Consultant: Glad to hear it. Good luck with the freight elevator. Talk to you both on the twenty-fourth.
+[00:45:00] Tess Kowalczyk: [laughs] Thanks. Bye.
+[00:45:02] Jordan Pruitt: Bye, thanks.

@@ -1,0 +1,1053 @@
+WEBVTT
+
+1
+00:00:02.310 --> 00:00:05.414
+Consultant: Hi Tomasz, is my audio coming through okay?
+
+2
+00:00:06.265 --> 00:00:19.501
+Tomasz Wirth: Yep, yeah, you're good. Hi. Sorry, I flew back in late last night, so if I sound half asleep it's because I basically am.
+
+3
+00:00:20.342 --> 00:00:25.375
+Consultant: Ha, no, you sound great. Is it just us for a minute?
+
+4
+00:00:26.041 --> 00:00:35.427
+Tomasz Wirth: Devin should be, oh, there he is. Colleen said she might be a couple minutes late, something came up with a customer.
+
+5
+00:00:43.289 --> 00:00:49.444
+Devin Marchetti: Hey. Hi, sorry. I had the wrong link, and then I had the right link.
+
+6
+00:00:50.173 --> 00:00:55.219
+Consultant: Hi Devin. No rush at all. How's everyone's week going so far?
+
+7
+00:00:56.420 --> 00:01:03.748
+Tomasz Wirth: It's release week, so. You know. Everything's fine and everything's on fire, both at the same time.
+
+8
+00:01:04.607 --> 00:01:07.727
+Devin Marchetti: Release is Thursday. Ask me again Friday.
+
+9
+00:01:08.124 --> 00:01:10.929
+Consultant: Fair enough. Are you both in Raleigh?
+
+10
+00:01:11.659 --> 00:01:17.503
+Tomasz Wirth: I am. Devin's remote, he's up in, where are you now, still Asheville?
+
+11
+00:01:18.718 --> 00:01:27.211
+Devin Marchetti: Still Asheville. Still no sidewalks. And then half of engineering is in Kraków, so our days are kind of weirdly shaped.
+
+12
+00:01:28.304 --> 00:01:34.175
+Consultant: Oh, nice. So you get the morning overlap and that's about it.
+
+13
+00:01:34.910 --> 00:01:43.462
+Tomasz Wirth: Pretty much. By one o'clock our time they're gone, they're eating dinner. Which is going to come up later, I promise.
+
+14
+00:01:43.853 --> 00:01:51.512
+Tomasz Wirth: I actually grew up there, so I'm the one who gets blamed for the time zone.
+
+15
+00:01:51.816 --> 00:01:53.976
+Consultant: Ha. That seems fair, honestly.
+
+16
+00:02:17.137 --> 00:02:19.574
+Colleen Brask: Hi! Sorry, sorry, I'm here. Hi.
+
+17
+00:02:20.076 --> 00:02:25.930
+Consultant: Hi Colleen. You didn't miss anything, we were just blaming Tomasz for Kraków.
+
+18
+00:02:26.374 --> 00:02:39.601
+Colleen Brask: Oh good, my favorite topic. Sorry, I had a Sev 2 I had to hand off to someone. Which is, um, probably relevant to this whole conversation.
+
+19
+00:02:40.662 --> 00:02:52.248
+Consultant: It sounds like it might be. Before we start, just so I've got it right. Tomasz, you run engineering. Colleen, support operations. And Devin, you're product?
+
+20
+00:02:53.583 --> 00:02:55.552
+Tomasz Wirth: VP of Engineering, yeah.
+
+21
+00:02:56.140 --> 00:03:02.652
+Colleen Brask: Support ops manager. Which means I manage the support leads and the tools and, apparently, the escalations.
+
+22
+00:03:03.500 --> 00:03:10.510
+Devin Marchetti: PM for dispatch and the tech app. Mostly. And release notes, which, we'll get to that.
+
+23
+00:03:11.436 --> 00:03:18.179
+Consultant: Okay, perfect. I've got us down for about forty minutes, does that still work for everyone?
+
+24
+00:03:19.072 --> 00:03:20.075
+Tomasz Wirth: Yeah.
+
+25
+00:03:21.142 --> 00:03:22.356
+Colleen Brask: Mm-hmm.
+
+26
+00:03:22.889 --> 00:03:34.441
+Consultant: Great. So the way I like to run these, it's mostly me asking questions and the three of you talking. I'm not going to show you anything today.
+
+27
+00:03:34.749 --> 00:03:53.484
+Consultant: I just want to understand how work actually moves around for you right now, where it's painful, and whether it's even worth fixing. And if it turns out what you need is a small fix and not a new tool, I'll tell you that. Interrupt me whenever. Sound okay?
+
+28
+00:03:54.358 --> 00:03:58.106
+Tomasz Wirth: Yeah, that works. Honestly, that's a nice change.
+
+29
+00:03:58.595 --> 00:04:06.595
+Consultant: Good. So Tomasz, maybe start with you. What made you reach out now? What's going on?
+
+30
+00:04:07.442 --> 00:04:25.014
+Tomasz Wirth: Yeah. So. It's a few things at once, which is always how it goes, right. The big one is we have our sock two audit coming up. It's our first one. Fieldwork is the second week of January.
+
+31
+00:04:25.374 --> 00:04:41.588
+Tomasz Wirth: And we did a readiness assessment over the summer with the audit firm, and, um, let's just say engineering did not come out of that looking great. And most of it is about how we track changes.
+
+32
+00:04:42.003 --> 00:04:54.894
+Tomasz Wirth: And then kind of separately, we've been on Redmine since, God, since before I got here. 2013, I want to say? And it's, it's held together with tape at this point.
+
+33
+00:04:55.518 --> 00:05:01.689
+Consultant: Okay. When you say engineering didn't come out looking great, what did they actually find?
+
+34
+00:05:02.833 --> 00:05:17.552
+Tomasz Wirth: So they pull a sample of production changes, right. And for each one they want to see the ticket, who approved it, the pull request, the review, and that it went out through the normal release.
+
+35
+00:05:18.072 --> 00:05:27.435
+Tomasz Wirth: And out of, I think it was forty changes, something like fourteen had no ticket at all. Or the ticket was for something else entirely.
+
+36
+00:05:27.807 --> 00:05:39.345
+Tomasz Wirth: And it's not that people didn't do the work. The work got done. It's just nobody linked anything. It lives in someone's head or in a Slack thread.
+
+37
+00:05:40.155 --> 00:05:43.870
+Consultant: Fourteen out of forty. How did that land internally?
+
+38
+00:05:45.420 --> 00:06:06.047
+Tomasz Wirth: Uh. Not great? Our CEO was polite about it. He's a polite guy. But the whole reason we're doing SOC two at all is we have a big prospect, a national facilities group, and their procurement will not sign without the report. Internally we call it the Granite deal.
+
+39
+00:06:06.295 --> 00:06:18.824
+Tomasz Wirth: So it's not a nice-to-have. If we don't have a clean report, that deal slides. And everybody knows exactly whose team was the problem in the readiness assessment.
+
+40
+00:06:19.830 --> 00:06:38.031
+Consultant: Right. So that's a real clock. Before we go deeper on the audit, can you give me the lay of the land? Size, what the product is, how engineering is set up. I looked at your site but I'd rather hear it from you.
+
+41
+00:06:38.839 --> 00:06:51.120
+Tomasz Wirth: Sure, yeah. So Tollgrove makes dispatch and scheduling software for trade contractors. HVAC, plumbing, some electrical. Mostly mechanical contractors with, like, twenty trucks up to a few hundred.
+
+42
+00:06:51.494 --> 00:07:10.020
+Tomasz Wirth: There's the web app, which the office uses for dispatch and billing, and then the tech app, which is the mobile app the technicians use out in the field. We're about two hundred people, a little over. Engineering is about sixty-five of that.
+
+43
+00:07:10.736 --> 00:07:12.371
+Consultant: And how's engineering organized?
+
+44
+00:07:13.896 --> 00:07:17.598
+Tomasz Wirth: Squads. We've got four squads. Dispatch, Billing, Mobile
+
+45
+00:07:17.737 --> 00:07:18.770
+Devin Marchetti: Five.
+
+46
+00:07:19.085 --> 00:07:31.329
+Tomasz Wirth: Five, sorry, yes, Platform. They would be very hurt. Five squads, each with a lead, QA is kind of shared across them, and there's a small SRE group who also own the on-call tooling.
+
+47
+00:07:32.008 --> 00:07:35.951
+Consultant: And sprints, is everyone on the same cadence?
+
+48
+00:07:37.316 --> 00:07:39.226
+Tomasz Wirth: Two weeks. Well. Mostly.
+
+49
+00:07:39.959 --> 00:07:47.859
+Devin Marchetti: Everyone except Mobile. Mobile does three weeks because of app store review, and I've honestly stopped fighting it.
+
+50
+00:07:48.866 --> 00:07:55.206
+Consultant: Okay, good to know. Devin, walk me through Redmine. How's it set up today?
+
+51
+00:07:56.541 --> 00:08:07.862
+Devin Marchetti: Oh boy. Okay. So in Redmine, everything's a project. We have, I think, eleven projects? Roughly one per product area. Dispatch, Billing, Tech App, Integrations, and so on.
+
+52
+00:08:08.132 --> 00:08:14.590
+Devin Marchetti: Then there's a Support Escalations project, and there's one called Misc, which is basically the junk drawer.
+
+53
+00:08:14.954 --> 00:08:28.641
+Devin Marchetti: And Redmine doesn't really do epics, so we fake them. We use parent issues, plus a custom field called Epic, and whether anyone actually sets the parent is, uh, it's a coin flip.
+
+54
+00:08:29.098 --> 00:08:37.977
+Consultant: So if I asked you right now how a big piece of work is tracking, how would you find out?
+
+55
+00:08:38.825 --> 00:08:48.653
+Devin Marchetti: I'd open a spreadsheet. Genuinely. I keep a roadmap sheet and I update it by going squad to squad on Slack like, hey, where's this at.
+
+56
+00:08:49.455 --> 00:09:07.036
+Tomasz Wirth: And that's my frustration, right. I just want one place where I can see all our projects and where they're at. Like a portfolio view. Is offline mode on track, is the billing rewrite on track, is the SOC two project on track.
+
+57
+00:09:07.362 --> 00:09:11.014
+Consultant: When you say projects there, what counts as a project?
+
+58
+00:09:12.291 --> 00:09:22.921
+Tomasz Wirth: Uh. The big stuff? Offline mode, the billing rewrite. I mean, those are epics technically, I guess. Or a bunch of epics.
+
+59
+00:09:23.309 --> 00:09:34.551
+Tomasz Wirth: But then the SOC two project isn't code at all, it's evidence and policies and all that. So kind of both? I don't know. Everything's a project here.
+
+60
+00:09:35.484 --> 00:09:43.643
+Consultant: Okay, that's helpful. I'll probably come back to that one. And the sprint planning itself, does that happen in Redmine?
+
+61
+00:09:44.693 --> 00:09:57.019
+Devin Marchetti: Yeah, with target versions, which is the Redmine way of doing it, and it's slow. Like, the page takes eight seconds to load if the backlog is big.
+
+62
+00:09:57.360 --> 00:10:06.559
+Devin Marchetti: And there was an agile board plugin that broke when Bartek upgraded it last year, so now we just don't upgrade.
+
+63
+00:10:06.908 --> 00:10:24.453
+Tomasz Wirth: Which, by the way, is its own audit finding. The Redmine server is on an old version we can't patch without breaking stuff, and the auditors flagged it. Unsupported software on a system that holds change records.
+
+64
+00:10:25.007 --> 00:10:27.146
+Consultant: Who looks after that server?
+
+65
+00:10:28.213 --> 00:10:41.795
+Tomasz Wirth: Bartek. He's a staff engineer in Kraków, he's great, and he did not sign up to be the Redmine guy. The person who set it up originally left in, like, 2019.
+
+66
+00:10:42.297 --> 00:10:46.653
+Consultant: And how does Redmine connect to GitHub today? Does it?
+
+67
+00:10:48.115 --> 00:11:00.084
+Devin Marchetti: It kind of doesn't. People are supposed to put the Redmine number in the branch name, like feature slash four-one-two-two, whatever. And there's a little script that posts a comment back on the issue.
+
+68
+00:11:00.235 --> 00:11:04.221
+Devin Marchetti: When people remember. I'd say sixty percent of the time?
+
+69
+00:11:05.744 --> 00:11:07.651
+Tomasz Wirth: Sixty is generous.
+
+70
+00:11:08.058 --> 00:11:09.981
+Devin Marchetti: Sixty is generous. Fine.
+
+71
+00:11:10.428 --> 00:11:14.443
+Consultant: And I'm guessing Slack is where everything actually happens.
+
+72
+00:11:15.546 --> 00:11:18.965
+Tomasz Wirth: Slack is where everything happens and then dies.
+
+73
+00:11:19.897 --> 00:11:27.060
+Consultant: Ha. Okay. One more on the current setup. Is anyone at Tollgrove using Monday already?
+
+74
+00:11:28.649 --> 00:11:42.122
+Tomasz Wirth: Marketing is, I think? Jess, their ops person, set up some boards for campaigns. I have no idea what plan they're on or how many seats. It's not something engineering has ever touched.
+
+75
+00:11:42.998 --> 00:11:50.537
+Colleen Brask: I think customer education uses one of Jess's boards too. For the webinar calendar. But yeah, not us.
+
+76
+00:11:51.295 --> 00:12:03.569
+Consultant: Okay, good to know, we can figure out later whether that matters. Colleen, you've been very patient. Tomasz mentioned escalations in his email, so I'd love to hear the support side.
+
+77
+00:12:04.470 --> 00:12:06.983
+Colleen Brask: Yeah. Okay. Where do I start.
+
+78
+00:12:07.500 --> 00:12:27.322
+Colleen Brask: So customers, it's usually the office manager or a dispatcher at the contractor, they email us or they call, and that's a ticket in Zen desk. Tier one picks it up. If it smells like a bug, it goes to tier two, those are my support engineers, I have five.
+
+79
+00:12:27.888 --> 00:12:43.820
+Colleen Brask: T2 tries to reproduce it. They set a Sev, one through four. Engineering thinks everything's a Sev 3, but whatever. And if it's real, they post in the eng escalations channel in Slack with the Zendesk link and a description.
+
+80
+00:12:44.256 --> 00:12:56.794
+Colleen Brask: And then someone on the squad, or whoever's on call, is supposed to put the eyes emoji on it, and create a Redmine issue in the Support Escalations project. Supposed to.
+
+81
+00:12:57.162 --> 00:12:59.047
+Consultant: And what actually happens?
+
+82
+00:13:00.277 --> 00:13:16.297
+Colleen Brask: What actually happens is someone puts eyes on it, and then they get pulled into something else, and three days later my T2 is asking in the thread, hey, any update, and nobody knows who has it.
+
+83
+00:13:16.691 --> 00:13:24.780
+Colleen Brask: Or there's two Redmine issues for the same thing because two people grabbed it. Or zero.
+
+84
+00:13:25.234 --> 00:13:30.055
+Colleen Brask: Sorry, that's my dog. The mail's here, apparently it's an emergency.
+
+85
+00:13:30.657 --> 00:13:32.995
+Consultant: Ha, no worries at all.
+
+86
+00:13:33.900 --> 00:13:49.297
+Colleen Brask: So. I have a spreadsheet. The escalation tracker. It's a Google Sheet with the Zendesk number, the Redmine number if there is one, who owns it, the status, when we last told the customer something.
+
+87
+00:13:49.634 --> 00:13:54.223
+Colleen Brask: And I update it by hand, every morning, by reading the Slack channel.
+
+88
+00:13:54.670 --> 00:13:57.743
+Consultant: Every morning. How long does that take?
+
+89
+00:13:59.273 --> 00:14:04.228
+Colleen Brask: Forty-five minutes on a good day? An hour. And it's wrong by lunch.
+
+90
+00:14:04.628 --> 00:14:11.534
+Consultant: When was the last time one of these really went sideways? A specific one.
+
+91
+00:14:12.397 --> 00:14:33.502
+Colleen Brask: Oh, I have one. July. We have a customer out in Denver, big mechanical contractor, forty-some trucks. Their dispatch board stopped syncing jobs to the tech app. So technicians are showing up in the morning with no work orders on their phones.
+
+92
+00:14:33.633 --> 00:14:53.045
+Colleen Brask: T2 escalated it on a Friday afternoon, which is already evening in Kraków. Somebody put eyes on it. And then I was out the next week, I was on PTO, and nobody touched the tracker, and it just sat.
+
+93
+00:14:53.310 --> 00:14:58.480
+Colleen Brask: It sat for three days before anyone actually started working it.
+
+94
+00:14:58.844 --> 00:15:00.514
+Tomasz Wirth: Three business days.
+
+95
+00:15:01.250 --> 00:15:17.728
+Colleen Brask: Three business days. With a customer whose techs are calling the office for every single job. The owner called our CEO directly. On his cell. And used the words, we're evaluating other options.
+
+96
+00:15:18.508 --> 00:15:20.917
+Consultant: Oof. What happened with them?
+
+97
+00:15:21.807 --> 00:15:31.185
+Colleen Brask: We kept them. We gave them two months free and Tomasz had to get on a call and grovel a little.
+
+98
+00:15:32.220 --> 00:15:34.885
+Tomasz Wirth: A lot. I groveled a lot.
+
+99
+00:15:35.385 --> 00:15:44.346
+Consultant: So the spreadsheet and the Slack channel, what stops you from just carrying on with that and being stricter about it?
+
+100
+00:15:45.721 --> 00:15:56.777
+Colleen Brask: Because it's me. The whole thing is me. When I'm out it falls apart, like the July thing is literally what happens when I'm out.
+
+101
+00:15:57.157 --> 00:16:07.746
+Colleen Brask: And I can't be stricter with engineering, I don't manage engineering. I can nag. I'm a very good nagger. But nagging isn't a process.
+
+102
+00:16:08.020 --> 00:16:12.350
+Consultant: Who else ends up dealing with it when it falls apart?
+
+103
+00:16:13.510 --> 00:16:28.306
+Colleen Brask: The account managers, for sure, because the customer calls them. They come to me, I go to Slack, I go find whoever I think has it. Devin gets pulled in if it's a, if it's a should-this-even-work-this-way question.
+
+104
+00:16:29.067 --> 00:16:31.677
+Devin Marchetti: Which is like half of them.
+
+105
+00:16:32.707 --> 00:16:38.634
+Colleen Brask: Half of them. And then the on-call engineer, who usually gets the angriest ping.
+
+106
+00:16:39.631 --> 00:16:47.248
+Consultant: Tomasz, what does it look like on the engineering side? I'm guessing it's not free for your people either.
+
+107
+00:16:47.601 --> 00:17:00.271
+Tomasz Wirth: No. No. So the cost for us is interrupts and rework. Someone picks up an escalation, there's no repro steps in the Redmine issue because nobody copied them over.
+
+108
+00:17:00.802 --> 00:17:12.745
+Tomasz Wirth: So they go dig up the Slack thread, then they ask T2, T2 is on a call, so they wait, they context switch, they come back.
+
+109
+00:17:13.297 --> 00:17:19.862
+Tomasz Wirth: Or two people fix the same thing. That happened in, when was the invoice PDF thing?
+
+110
+00:17:21.433 --> 00:17:22.626
+Devin Marchetti: May.
+
+111
+00:17:23.641 --> 00:17:34.298
+Tomasz Wirth: May. Two engineers in two different squads fixed the same bug two different ways, and we found out in code review. Which, I mean, at least code review worked.
+
+112
+00:17:35.355 --> 00:17:42.961
+Consultant: If you had to put hours on it. Just the escalation chasing, across all the squads, per sprint.
+
+113
+00:17:43.961 --> 00:17:56.401
+Tomasz Wirth: Uh. Ooh. Okay, I actually asked the squad leads this when I was prepping for today. Loosely. Call it forty-ish hours a sprint. Across all the squads.
+
+114
+00:17:56.577 --> 00:18:06.591
+Tomasz Wirth: Honestly on a bad sprint it's probably more like fifty, but let's say forty so nobody accuses me of making it up.
+
+115
+00:18:07.586 --> 00:18:14.231
+Consultant: Forty hours on a two-week sprint, so roughly one full engineer, every sprint, just chasing context.
+
+116
+00:18:14.756 --> 00:18:20.826
+Tomasz Wirth: Yeah. Yeah, that's about right. It's like having a person whose whole job is being confused.
+
+117
+00:18:21.285 --> 00:18:23.451
+Consultant: And Colleen, your T2 folks?
+
+118
+00:18:24.915 --> 00:18:33.892
+Colleen Brask: I'd say an hour a day each, easily, chasing status. And there's five of them. Plus my hour on the tracker.
+
+119
+00:18:34.395 --> 00:18:44.800
+Consultant: Okay. And, sorry, I'll just mention one thing because it jumps out at me, Monday dev has a GitHub integration where you can
+
+120
+00:18:44.905 --> 00:18:54.990
+Consultant: Actually, you know what, hold that thought, I'm getting ahead of myself. Colleen, it looked like you were about to say something.
+
+121
+00:18:55.354 --> 00:19:04.751
+Colleen Brask: No, just, there's one more thing that's going to matter for the audit. When T2 escalates, they copy stuff out of the ticket.
+
+122
+00:19:04.999 --> 00:19:15.051
+Colleen Brask: Which means homeowner names and phone numbers and addresses end up pasted into Redmine and Slack. Our compliance guy about had a heart attack.
+
+123
+00:19:15.685 --> 00:19:23.446
+Tomasz Wirth: Oren, yeah. He does not want customer PII in engineering tools. At all. And right now it's everywhere.
+
+124
+00:19:24.146 --> 00:19:33.651
+Consultant: Okay, that's really important. So an escalation needs to carry enough to reproduce the problem, but not the customer's personal details.
+
+125
+00:19:34.406 --> 00:19:38.616
+Colleen Brask: Right. Link to the ticket, sure. Copy the ticket, no.
+
+126
+00:19:39.668 --> 00:19:45.385
+Consultant: Say this all stays the way it is. Where's it headed over the next year?
+
+127
+00:19:46.711 --> 00:19:58.879
+Colleen Brask: Worse. We signed, what, thirty-something new customers this year? Ticket volume's up. We're at about eleven hundred tickets a month and maybe sixty, seventy of those go to engineering.
+
+128
+00:19:59.039 --> 00:20:06.405
+Colleen Brask: Last year it was more like forty escalations a month. I think. Don't quote me.
+
+129
+00:20:06.951 --> 00:20:14.748
+Tomasz Wirth: And if Granite closes, that's one customer with, like, fifteen hundred technicians. So. It's not going down.
+
+130
+00:20:15.269 --> 00:20:25.430
+Consultant: Okay. Let's go back to the audit, since that's the clock. Fieldwork is the second week of January. What does engineering have to have in place by then?
+
+131
+00:20:26.458 --> 00:20:43.095
+Tomasz Wirth: So it's a Type 1 first. Point in time. And then the Type 2 observation window starts right after, so whatever we set up has to hold up for a year. It can't just look nice in January.
+
+132
+00:20:43.414 --> 00:20:53.294
+Tomasz Wirth: The stuff that lands on me is change management, so every production change traceable to a ticket, with an approval and a reviewed PR.
+
+133
+00:20:53.730 --> 00:21:05.881
+Tomasz Wirth: Incident management, so we can show incidents got logged and there was a postmortem when there should've been. And access. Who has access to what, who approved it, and quarterly access reviews.
+
+134
+00:21:06.613 --> 00:21:09.347
+Consultant: And how's the evidence collected today?
+
+135
+00:21:10.259 --> 00:21:23.788
+Tomasz Wirth: Screenshots. In a Google Drive folder. For the readiness assessment, Bartek and I spent three weekends pulling PRs and Redmine issues and pasting screenshots into docs. Three full weekends.
+
+136
+00:21:24.128 --> 00:21:37.272
+Tomasz Wirth: And the auditor sends a PBC list, provided by client, and each request on it is like, show me the approvals for these twenty-five changes. And for each one it's a scavenger hunt.
+
+137
+00:21:37.719 --> 00:21:46.028
+Consultant: Sorry, Tomasz, your audio dropped for a moment. The last thing I got was twenty-five changes.
+
+138
+00:21:49.110 --> 00:21:57.971
+Tomasz Wirth: Oh, sorry, my headset keeps doing that. I just said every one of those is a scavenger hunt. That's all you missed.
+
+139
+00:21:58.675 --> 00:22:02.962
+Consultant: Got it. And incidents, on-call, how does that work?
+
+140
+00:22:04.318 --> 00:22:18.537
+Tomasz Wirth: On-call is weekly. The handoff is Monday morning our time, which is afternoon in Kraków. The handoff is a Slack thread plus a Google Doc, and the doc is, let's say, aspirational.
+
+141
+00:22:18.993 --> 00:22:21.222
+Devin Marchetti: Tell the hotfix story.
+
+142
+00:22:21.891 --> 00:22:35.161
+Tomasz Wirth: Ugh. Okay. So a few weeks ago there's a Saturday incident, a payments webhook thing. Weekend on-call did a partial fix, and there was a hotfix that needed to go out Monday.
+
+143
+00:22:35.321 --> 00:22:41.419
+Tomasz Wirth: It was in the Slack thread. It was not in the handoff doc.
+
+144
+00:22:41.864 --> 00:22:55.248
+Tomasz Wirth: Monday on-call was in Kraków, didn't see it, and the hotfix went out Tuesday afternoon instead of Monday morning. So a day and a half of some customers' payment confirmations just not coming through.
+
+145
+00:22:55.487 --> 00:23:06.961
+Tomasz Wirth: And then for the audit, I have to prove we logged that incident and did a postmortem. And the postmortem exists. It's in a Google Doc. Somewhere.
+
+146
+00:23:07.881 --> 00:23:12.144
+Consultant: And access requests, you said those are on you too?
+
+147
+00:23:13.188 --> 00:23:23.184
+Tomasz Wirth: IT is two people and they report to me, God help them. Access requests come in as Slack DMs, or a Google Form if we're lucky.
+
+148
+00:23:23.335 --> 00:23:32.116
+Tomasz Wirth: The auditor wants an approval on every access grant and a clean record when someone leaves. We don't have that in one place. At all.
+
+149
+00:23:32.400 --> 00:23:37.812
+Tomasz Wirth: And IT's never had a real service desk, honestly. Laptops, access, offboarding, it's all DMs.
+
+150
+00:23:38.799 --> 00:23:49.207
+Consultant: Okay. Devin, you had a look on your face a minute ago, like you had something to add on the audit.
+
+151
+00:23:50.313 --> 00:24:06.341
+Devin Marchetti: Yeah. I mean, I want to say this out loud because I'm honestly not sure I'm right. Part of me wonders if switching tools right before an audit is insane. Like, do we really want to swap the engine mid-flight?
+
+152
+00:24:07.887 --> 00:24:11.633
+Consultant: That's a fair question. Tomasz, what do you think?
+
+153
+00:24:12.753 --> 00:24:31.251
+Tomasz Wirth: I've thought about it a lot. The thing is, Redmine is the finding. The auditor literally flagged the server. If we stay on it, we walk into fieldwork with a known finding. If we switch, the risk is we switch badly.
+
+154
+00:24:31.629 --> 00:24:45.515
+Tomasz Wirth: So for me it's not whether. It's that we have to be off it early enough that there's clean evidence in the new thing before January. That's why I want engineering off Redmine by end of November.
+
+155
+00:24:46.001 --> 00:24:50.214
+Devin Marchetti: Okay. Yeah, that's fair. I just wanted it said.
+
+156
+00:24:51.022 --> 00:24:59.047
+Consultant: No, I'm glad you said it. Are you looking at anything else for the audit? Other tools, other partners?
+
+157
+00:24:59.947 --> 00:25:11.006
+Tomasz Wirth: We're buying one of those compliance automation platforms, it's in procurement right now. It'll help with policies and pulling cloud config and all that.
+
+158
+00:25:11.264 --> 00:25:20.240
+Tomasz Wirth: It does nothing for the fact that our change tickets are a mess. It just shows the auditor the mess faster.
+
+159
+00:25:20.624 --> 00:25:25.383
+Consultant: Ha. Okay. Devin, release notes. You flagged that when we were emailing.
+
+160
+00:25:26.239 --> 00:25:33.914
+Devin Marchetti: Right. So we release every other Thursday, the release train, plus hotfixes whenever. And release notes are me.
+
+161
+00:25:34.289 --> 00:25:46.763
+Devin Marchetti: I go through Redmine for everything closed in the target version, then GitHub for what actually merged, because those never match, and then Slack for the stuff nobody ticketed.
+
+162
+00:25:46.985 --> 00:25:57.049
+Devin Marchetti: It's most of a day every release. And I'm a PM, so that's a day I'm not talking to customers.
+
+163
+00:25:57.906 --> 00:25:59.833
+Consultant: And who reads them?
+
+164
+00:26:01.202 --> 00:26:14.193
+Devin Marchetti: Support, customer success, and then a customer-facing version goes out. Support is supposed to read them before the release, but they get them the morning of, because that's when I finish.
+
+165
+00:26:15.099 --> 00:26:16.656
+Colleen Brask: Sometimes after.
+
+166
+00:26:17.733 --> 00:26:20.431
+Devin Marchetti: Sometimes after. Yes. Thank you, Colleen.
+
+167
+00:26:21.332 --> 00:26:23.357
+Consultant: Has that bitten you?
+
+168
+00:26:24.205 --> 00:26:26.586
+Colleen Brask: The invoice export. Tell that one.
+
+169
+00:26:26.876 --> 00:26:45.066
+Devin Marchetti: Yeah. So in June we changed the column order in the invoice CSV export. Tiny change, a customer even asked for it. But a bunch of customers have that export going straight into their accounting software, and it broke their imports.
+
+170
+00:26:45.269 --> 00:26:51.074
+Devin Marchetti: Like fifteen tickets in the first hour. And support had no idea anything had changed.
+
+171
+00:26:51.448 --> 00:26:57.919
+Colleen Brask: My team found out from customers. That's the part that kills me. We look stupid.
+
+172
+00:26:58.664 --> 00:27:12.868
+Consultant: Okay. There's a lot here, so let me check I've got the big pieces. Escalations from support into engineering get lost and nobody clearly owns them. Evidence for the audit is a scavenger hunt.
+
+173
+00:27:13.289 --> 00:27:22.265
+Consultant: Release notes are manual and late. On-call handoffs drop things. And Redmine itself is a liability. What did I miss, or get wrong?
+
+174
+00:27:23.264 --> 00:27:32.989
+Tomasz Wirth: No, that's the list. I'd put the audit and escalations on top. Release notes hurt, but nobody's going to lose a deal over release notes.
+
+175
+00:27:33.532 --> 00:27:35.543
+Colleen Brask: Escalations on top. Obviously.
+
+176
+00:27:36.516 --> 00:27:54.085
+Consultant: Okay. So on cost. You gave me hours, which is great. Forty-ish engineering hours a sprint, an hour a day for each of the five T2s, Colleen's hour on the tracker, Devin's day per release, and the three weekends.
+
+177
+00:27:54.249 --> 00:28:04.346
+Consultant: Do you have a sense of what an engineering hour costs you, fully loaded? Just so we can put a number on what this is costing.
+
+178
+00:28:04.909 --> 00:28:17.765
+Tomasz Wirth: Uh, honestly, I'm not going to put a dollar figure on it on this call. Finance would kill me. I don't know the loaded number off the top of my head.
+
+179
+00:28:18.695 --> 00:28:27.612
+Consultant: Totally fair. Would it be crazy to use something like a hundred and twenty an hour as a placeholder?
+
+180
+00:28:28.441 --> 00:28:36.409
+Tomasz Wirth: Mm. I don't know. Maybe? I'd want to check with Linh before anyone writes that down anywhere.
+
+181
+00:28:36.804 --> 00:28:38.481
+Consultant: Sure. Who's Linh?
+
+182
+00:28:39.758 --> 00:28:41.854
+Tomasz Wirth: Sorry, Linh's our CFO.
+
+183
+00:28:42.771 --> 00:29:02.184
+Consultant: Got it. Maybe that's something we work out together before we get anywhere near talking about investment. Let me flip it around. If your squads got that time back, the forty hours a sprint, is there something you'd go after that you can't get to today?
+
+184
+00:29:03.402 --> 00:29:14.853
+Tomasz Wirth: Offline mode. The tech app needs to work when a technician's in a basement with no signal. It's been sitting in the backlog for, what, three quarters?
+
+185
+00:29:16.413 --> 00:29:21.676
+Devin Marchetti: Three quarters. It comes up on every single sales call. Every one.
+
+186
+00:29:21.964 --> 00:29:34.878
+Tomasz Wirth: I'm not going to guess what it's worth in revenue. But it's the number one thing customers ask for, and we keep pushing it because we're busy being confused.
+
+187
+00:29:35.481 --> 00:29:39.144
+Consultant: And Granite, roughly what's that deal worth to you?
+
+188
+00:29:39.854 --> 00:29:48.541
+Tomasz Wirth: Ha. I'm really not allowed to say. It would be our biggest customer by a lot. Let's leave it there.
+
+189
+00:29:49.463 --> 00:30:08.266
+Consultant: Fair enough. Okay, I'm going to ask about something a little different, and feel free to shut it down. How does your sales team keep track of deals? Because a lot of software companies I talk to end up wanting
+
+190
+00:30:08.378 --> 00:30:20.937
+Tomasz Wirth: Oh, no. No, no, no. Sales has their CRM, it's a whole different budget, a whole different VP, and I would like to keep my friends in sales. Let's keep this to engineering and support.
+
+191
+00:30:21.498 --> 00:30:23.513
+Colleen Brask: Please don't open that can.
+
+192
+00:30:24.094 --> 00:30:28.945
+Consultant: Ha, heard. Parking it, I won't bring it up again.
+
+193
+00:30:29.909 --> 00:30:40.710
+Devin Marchetti: Though, I mean, the one thing. It'd be kind of nice if the account managers could see where escalations are for their accounts. Without pinging Colleen.
+
+194
+00:30:41.792 --> 00:30:44.900
+Colleen Brask: Oh, that would actually be lovely.
+
+195
+00:30:45.536 --> 00:30:52.413
+Consultant: Noted. And that's about seeing escalation status, not anything on the sales side, right?
+
+196
+00:30:53.974 --> 00:31:00.114
+Devin Marchetti: Right, yeah. They don't need anything else. They just need to stop asking Colleen.
+
+197
+00:31:00.791 --> 00:31:07.796
+Consultant: Okay. So imagine it's February, fieldwork's done, and all this is running well. What's different in a normal week?
+
+198
+00:31:09.132 --> 00:31:24.128
+Colleen Brask: For me? My T2 escalates something, and from then on I can see who has it and what's happening without asking anybody. And when I'm on PTO nothing falls apart. That's it. That's the dream.
+
+199
+00:31:24.467 --> 00:31:38.239
+Tomasz Wirth: For me it's when the auditor sends the PBC list and says show me these twenty-five changes, I can, or honestly anyone can, click through ticket, approval, PR, release, and export it. In an afternoon. Not three weekends.
+
+200
+00:31:38.712 --> 00:31:48.638
+Devin Marchetti: Release notes that basically write themselves from what actually shipped. And I can see where the roadmap is without my spreadsheet.
+
+201
+00:31:48.928 --> 00:31:52.936
+Consultant: And what would your CEO count as a win?
+
+202
+00:31:53.748 --> 00:32:04.239
+Tomasz Wirth: The report in hand with no engineering findings, and Granite signed by end of Q1. That's the win. He honestly doesn't care what tool we use.
+
+203
+00:32:05.253 --> 00:32:09.539
+Consultant: Okay. Let's talk about what has to connect. What's a must-have?
+
+204
+00:32:10.441 --> 00:32:18.462
+Tomasz Wirth: GitHub and Slack. Non-negotiable. If PRs don't link to the work item automatically, it's dead on arrival, because that's the whole audit problem.
+
+205
+00:32:18.918 --> 00:32:26.063
+Tomasz Wirth: And Slack because that's where people live. I'm not getting sixty-five engineers to change where they talk.
+
+206
+00:32:26.973 --> 00:32:33.677
+Consultant: And Zendesk? Are you open to moving support tickets too, or is that staying put?
+
+207
+00:32:35.072 --> 00:32:50.425
+Colleen Brask: I'm not ripping out Zendesk four months before an audit. I'll say that right now. Our renewal is in March, I'd look at it then. Maybe. We have years of macros in there.
+
+208
+00:32:50.654 --> 00:33:00.625
+Colleen Brask: But the escalation part, getting from a ticket to engineering and having the status come back, that has to connect to Zendesk somehow.
+
+209
+00:33:01.293 --> 00:33:06.856
+Consultant: Makes sense. And Redmine, when you move off it, what comes across?
+
+210
+00:33:07.900 --> 00:33:13.590
+Tomasz Wirth: Open issues and the epics. Everything else we archive read-only and leave it.
+
+211
+00:33:14.086 --> 00:33:28.435
+Devin Marchetti: I'd want more history than that. At least the last year, for the audit. If they sample a change from April I don't want to be digging around in a read-only Redmine.
+
+212
+00:33:28.803 --> 00:33:31.524
+Tomasz Wirth: We can argue about that later.
+
+213
+00:33:32.438 --> 00:33:33.782
+Devin Marchetti: We will.
+
+214
+00:33:34.232 --> 00:33:41.984
+Consultant: Ha. Noted as one to decide. Anything on the security side I should know about, beyond the PII piece?
+
+215
+00:33:43.315 --> 00:33:51.683
+Tomasz Wirth: SSO, for sure, we're all on Google. And Oren's going to want the vendor's own SOC two report, a DPA, the usual.
+
+216
+00:33:51.857 --> 00:34:02.408
+Tomasz Wirth: And audit logs. The auditor wants to see who changed an approval and when, and that it can't just be quietly edited after the fact.
+
+217
+00:34:02.867 --> 00:34:10.077
+Consultant: Understood. So let's talk about how a decision like this gets made. Tomasz, is this your call?
+
+218
+00:34:10.976 --> 00:34:27.179
+Tomasz Wirth: It's my call on the tool. Engineering tooling is my budget, up to a point. If it's over fifty thousand a year it goes to Linh for sign-off, and honestly with sixty-five engineers plus support it probably will be.
+
+219
+00:34:27.915 --> 00:34:31.246
+Consultant: And what's Linh going to care about?
+
+220
+00:34:32.353 --> 00:34:42.590
+Tomasz Wirth: Not paying for two things at once. And that we're not buying something that turns into shelfware. She'll ask what happened last time.
+
+221
+00:34:43.344 --> 00:34:45.314
+Consultant: What happened last time?
+
+222
+00:34:46.000 --> 00:35:03.326
+Tomasz Wirth: So two years ago we tried to move off Redmine, to another tracker. We got about halfway. The Billing squad moved over, and then we hit a big release crunch and everyone just drifted back to Redmine. So there's some scar tissue.
+
+223
+00:35:03.997 --> 00:35:06.100
+Consultant: What made them drift back?
+
+224
+00:35:07.340 --> 00:35:17.649
+Devin Marchetti: Nobody migrated the backlog, so half the work was still in the old tool anyway. And it was more clicking. Engineers hate clicking.
+
+225
+00:35:18.041 --> 00:35:32.962
+Tomasz Wirth: And that's the thing that kills this. If engineers hate it, if it feels like more work than Redmine, they'll revolt, and I'm back on Redmine by March with egg on my face.
+
+226
+00:35:33.329 --> 00:35:38.342
+Consultant: Okay. And Oren's security review, how long does that usually take?
+
+227
+00:35:39.560 --> 00:35:47.507
+Tomasz Wirth: When we bought Zendesk it took about six weeks. Which, with this timeline, yeah, I'm a little worried about.
+
+228
+00:35:48.156 --> 00:35:55.806
+Colleen Brask: It was six weeks because Oren was on paternity leave for two of them. To be fair.
+
+229
+00:35:56.802 --> 00:36:00.189
+Tomasz Wirth: To be fair. Call it four to six.
+
+230
+00:36:00.973 --> 00:36:05.459
+Consultant: And after a yes, what happens? Walk me through it.
+
+231
+00:36:06.530 --> 00:36:21.774
+Tomasz Wirth: Oren's review, Linh signs, and then I want a pilot. One squad for one sprint, probably Dispatch, because they get the most escalations. If Dispatch doesn't hate it, we roll out to everyone else in October, November.
+
+232
+00:36:22.173 --> 00:36:25.052
+Consultant: So priority-wise, this is a this-quarter thing?
+
+233
+00:36:25.762 --> 00:36:34.691
+Tomasz Wirth: This quarter. It has to be. Engineering off Redmine by end of November, so we've got six weeks of clean evidence before fieldwork.
+
+234
+00:36:35.204 --> 00:36:41.517
+Consultant: And what else could get in the way? Besides the engineers and the security review.
+
+235
+00:36:42.383 --> 00:36:55.346
+Tomasz Wirth: The release crunch. We have a big release at the end of October. If this lands on top of that it'll get deprioritized, and I'll be the one deprioritizing it.
+
+236
+00:36:56.397 --> 00:36:58.590
+Consultant: That's an honest answer.
+
+237
+00:36:59.003 --> 00:37:13.868
+Consultant: Okay. So here's what I'd suggest. Next time, I come back with a first look built around what you told me today, using your words. Squads, epics, escalations. Not a generic demo.
+
+238
+00:37:14.244 --> 00:37:34.710
+Consultant: I'm thinking three things. One, how an escalation gets from a Zendesk ticket to a squad and the status comes back without Colleen chasing it. Two, how a change links ticket to PR to release, so you can pull audit evidence.
+
+239
+00:37:35.252 --> 00:37:44.679
+Consultant: And three, a view across the squads' epics and sprints for you and Devin. Does that match what you'd want to see first?
+
+240
+00:37:45.611 --> 00:37:58.198
+Tomasz Wirth: Yeah. Those three. I'd add on-call handoffs if you can. But those three are what I'd want to see first. Don't hold me to that being the whole list.
+
+241
+00:37:58.948 --> 00:38:02.614
+Colleen Brask: And the account manager view. If it's easy.
+
+242
+00:38:03.474 --> 00:38:15.693
+Consultant: Noted. If it's quick I'll include it, and if it's not I'll tell you. What would really help me is seeing real examples. Colleen, could you share the escalation tracker?
+
+243
+00:38:16.809 --> 00:38:23.702
+Colleen Brask: I can, but I'll have to strip the customer details out first. Give me until Friday.
+
+244
+00:38:24.335 --> 00:38:29.867
+Consultant: Friday's perfect. Devin, is an export from one Redmine project doable? Maybe Dispatch?
+
+245
+00:38:30.743 --> 00:38:36.348
+Devin Marchetti: Yeah, I can do a CSV of the Dispatch project. Scrubbed. Probably early next week.
+
+246
+00:38:37.102 --> 00:38:46.339
+Tomasz Wirth: And I'll send you the relevant bits of the control list, the change management and incident sections. Not the whole readiness report. By Monday.
+
+247
+00:38:47.454 --> 00:39:01.077
+Consultant: Great. And on my side, I'll send over Monday's security and compliance documentation today, with a short recap, so Oren can get started early, since that review sounds like the long pole.
+
+248
+00:39:01.985 --> 00:39:04.872
+Tomasz Wirth: That would actually help a lot.
+
+249
+00:39:05.692 --> 00:39:11.093
+Consultant: For the next call, how's Tuesday the twenty-second? One o'clock Eastern, forty-five minutes?
+
+250
+00:39:13.112 --> 00:39:19.700
+Tomasz Wirth: Twenty-second. Let me look. Yeah, that's the quiet week before the next train. One works.
+
+251
+00:39:20.044 --> 00:39:21.791
+Devin Marchetti: Works for me.
+
+252
+00:39:22.340 --> 00:39:24.790
+Colleen Brask: One's fine, I'll block it.
+
+253
+00:39:25.645 --> 00:39:29.689
+Consultant: Would it make sense to have Oren join?
+
+254
+00:39:31.230 --> 00:39:37.783
+Tomasz Wirth: Maybe for the last fifteen minutes. I'll ask him, no promises. He's buried in audit prep.
+
+255
+00:39:38.316 --> 00:39:54.861
+Consultant: Okay. I'll send the invite for Tuesday the twenty-second at one Eastern to the three of you right after this. Tomasz, if you forward it to Oren, I'll keep the last fifteen minutes for his questions.
+
+256
+00:39:55.952 --> 00:39:57.016
+Tomasz Wirth: Deal.
+
+257
+00:39:57.719 --> 00:40:06.392
+Consultant: Last one before I let you go. What's the one thing you'd most want to be different by the time we talk next?
+
+258
+00:40:07.424 --> 00:40:10.488
+Colleen Brask: That I'm not the escalation tracker anymore.
+
+259
+00:40:11.061 --> 00:40:20.397
+Tomasz Wirth: Ha. That I've got a plan I can show Linh and Oren that doesn't sound like a repeat of two years ago.
+
+260
+00:40:20.835 --> 00:40:26.709
+Consultant: That's really useful. Thanks, all three of you. Good luck on Thursday.
+
+261
+00:40:27.763 --> 00:40:29.774
+Devin Marchetti: Thanks. Ask me Friday.
+
+262
+00:40:30.867 --> 00:40:32.697
+Tomasz Wirth: Thanks, talk soon.
+
+263
+00:40:33.166 --> 00:40:34.152
+Colleen Brask: Bye!

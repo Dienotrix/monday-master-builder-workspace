@@ -1,0 +1,191 @@
+[00:00:03] Consultant: Hi, hi. There you are. Can you hear me all right?
+[00:00:09] Genevieve Okundaye: I've got you. Hang on, let me shut this door, we're right over the pack floor and the folder's going. Okay. Better. Hi.
+[00:00:18] Consultant: Take your time. Is Declan joining?
+[00:00:21] Genevieve Okundaye: He's walking over from the dock. He said two minutes, which in Declan time is five. Oh, no, there he is.
+[00:00:30] Declan Pellingham: I'm here. Sorry. There's a truck on the dock that shouldn't be on the dock. Hi.
+[00:00:37] Consultant: Hi Declan. No rush at all. Genevieve, you're at the main plant today?
+[00:00:43] Genevieve Okundaye: Main plant, yeah. I'm in the office over the pack floor, so if you hear a sort of thump every four seconds, that's the folder. Declan's in the dock office.
+[00:00:55] Declan Pellingham: Which has a window onto the truck that shouldn't be there.
+[00:01:00] Consultant: [laughs] And how's the week going? I gather this is the busy end of the year for you.
+[00:01:08] Genevieve Okundaye: It's November, so it's the tail of the busy season and everybody's tired and everything's out on somebody's shelf. Which is good. Busy is good. It's just that busy here means the wheels come off in ways you didn't plan for.
+[00:01:24] Consultant: That's a good place to start, honestly. Before we get into it, let me say how I'd like to use the time. This is really a conversation. I'm going to ask a lot of questions about how things actually run today, where it goes wrong, and what you'd want instead. I'm not going to show you anything today. And if it turns out what you need is a better spreadsheet and not a project, I'll tell you that.
+[00:01:55] Genevieve Okundaye: Good. That's why I rang you and not the software people. Ask away.
+[00:02:01] Declan Pellingham: Fine by me.
+[00:02:03] Consultant: Then maybe give me the thirty-second version of Ravensmere. Who you are, what you do, how big.
+[00:02:11] Genevieve Okundaye: Sure. Ravensmere Linen Services. Commercial laundry. We rent linen to hotels, mostly, some restaurants, and three clinic groups, and we wash it and bring it back. Two plants. This one's the main one, and there's Halcott, which is about forty minutes up the road, smaller, it does the north half of the hotels. A hundred and forty people, roughly, between the two. Twenty-two drivers. Twenty-four with the two part-timers.
+[00:02:39] Consultant: And the two of you sit where in that?
+[00:02:44] Genevieve Okundaye: I'm Director of Operations. Both plants, the routes, the drivers, the pack floor, the route office. Basically everything that isn't sales and isn't money.
+[00:02:54] Declan Pellingham: And I'm the plant manager here. The floor, the dock, the pack, the soil side. Halcott's got their own plant manager, Rhiannon, but she reports through Genevieve and I get her calls anyway.
+[00:03:07] Consultant: Got it. And when you say routes, what's a route?
+[00:03:12] Declan Pellingham: A route is a truck, a driver, a list of stops. A stop is one account, one delivery. So a route might be eleven stops, the driver drops clean, picks up soiled, and comes back. Fifty-eight routes a week between the two plants, give or take.
+[00:03:31] Consultant: Fifty-eight a week. And an account is a customer?
+[00:03:35] Genevieve Okundaye: An account is a hotel, or a restaurant, or a clinic. We say account. Sales say client, but we say account.
+[00:03:44] Consultant: I'll use your words. So, why now? What made you pick up the phone this autumn rather than a year ago?
+[00:03:53] Genevieve Okundaye: Two things. Um. The first one is Brindlewood. Which is a hotel group, four hotels, we've never had them, and we signed them in September. They start the first week of January. All four at once. It's the biggest single account we've ever taken on, by a lot, and there's a clause in it about shortages. Ninety days. If we short them past a certain number of times in the first ninety days, they can walk.
+[00:04:23] Consultant: Congratulations, and I see the clause. What's the second thing?
+[00:04:29] Genevieve Okundaye: The second thing is we lost the Lindenmoor in August. The Lindenmoor's a hotel, they'd been with us, what, nine years, Declan?
+[00:04:38] Declan Pellingham: Ten. Since before Halcott.
+[00:04:41] Genevieve Okundaye: Ten. And in August there was a wedding weekend. Big one. And we shorted them forty king sheets on the Saturday, and then on the Sunday it was two hundred napkins, and nobody rang them on either day to say it was coming short, they just opened the cage and it was light. Their GM rang Gustav on the Monday. And they gave notice.
+[00:05:07] Consultant: That's rough. I'm sorry. Do you know what the Lindenmoor was worth in a year, roughly?
+[00:05:14] Genevieve Okundaye: Fifty-something a year. Annika would have it exactly, I'd be guessing at the digits. It wasn't the biggest account. It's the one that told us we had a problem.
+[00:05:26] Consultant: Okay. Hold on to that, I'll come back to it. Can you walk me through how it runs today? Say a hotel's on a Tuesday route. From the par sheet to the truck coming back. Declan, this is probably yours.
+[00:05:42] Declan Pellingham: Sure. So. Every account has a par. A par is, for each item, how many they're supposed to have on hand. Two hundred king sheets, four hundred bath towels, whatever. That lives in the route software. And the route software prints the route sheets every night for the next day, one sheet per stop, and it says, deliver this many of this, based on the par and what they sent back.
+[00:06:11] Consultant: The route software being your, what, your routing and billing system?
+[00:06:16] Declan Pellingham: It's a route accounting system. It's industry-specific, every laundry uses one of about three. It does pars, it prints route sheets, it closes the route, it feeds the accounting side. Ezekiel runs it.
+[00:06:29] Consultant: Got it. So the sheets print. Then?
+[00:06:34] Declan Pellingham: Then the pack floor packs off the sheet. Night shift. They pull off the shelf, they build the bags, they put the bags on the dock in route order. Morning, the driver comes in, scans the bags onto the truck with the handheld, and goes.
+[00:06:52] Consultant: The handheld is a scanner?
+[00:06:54] Declan Pellingham: It's a scanner with a screen. Scans the bag, scans the stop. The handhelds know what left the dock. They don't know what was supposed to leave.
+[00:07:06] Consultant: Say more about that.
+[00:07:09] Declan Pellingham: The route sheet says two hundred king sheets. The pack floor packs what's on the shelf, which might be a hundred and sixty because the wash is behind. The bag gets scanned out. The handheld says, a bag left. It doesn't say, that bag is forty light. Nobody sits between the sheet and the bag and goes, did we actually pack two hundred. That's me, at five in the morning, with a printout, when I'm here. Or it's nobody.
+[00:07:39] Genevieve Okundaye: Or it's a phone call from a hotel at nine.
+[00:07:44] Consultant: Okay. And the driver delivers, picks up the soiled?
+[00:07:48] Declan Pellingham: Drops the clean in the hotel's cage, pulls the soiled, scans the soiled bags back, next stop. When the last stop's done he closes the route on the handheld. Comes back. Soiled goes to the soil side, gets sorted, washed, finished, folded, back on the shelf. And the par sheet says what goes back out.
+[00:08:09] Consultant: And the soiled count, does that feed anything?
+[00:08:14] Declan Pellingham: The scan does. The bag count. Not what's in the bag. So if the hotel sends back, say, a hundred and forty king sheets and keeps sixty in a closet somewhere, we don't know that until somebody counts. And nobody counts.
+[00:08:30] Consultant: Who touches all that in a day? Roughly.
+[00:08:34] Genevieve Okundaye: The route office is four people. Nadia's the route supervisor, she runs the routes and the drivers day to day. Two on the desk keying pars and answering the phone. One at Halcott. Then the pack floor's about twenty a night here, twelve at Halcott. Then the drivers.
+[00:08:53] Consultant: And how much of the route office's day is the phone?
+[00:08:59] Genevieve Okundaye: Most of it. Honestly. Nadia's on the phone from six until the last truck's back.
+[00:09:06] Consultant: And Halcott? Same shape, smaller?
+[00:09:09] Genevieve Okundaye: Same process, smaller. Rhiannon's route office is one person, so when she's on the phone, nobody's keying. And Rhiannon's plant manager and route supervisor and, um, everything else, so she's on the phone a lot.
+[00:09:23] Declan Pellingham: She rings me when it's bad. Which is most days in November.
+[00:09:28] Consultant: Okay. Let's go to the thing that lost you the Lindenmoor. Shortages. What does one look like from your end?
+[00:09:37] Declan Pellingham: A short is when the hotel opens the cage and it's forty king sheets light. That's it. That's the whole thing. It's either because the shelf was short and we packed short, or because a par change didn't land and we packed the old number, or because the driver put the wrong bag on the wrong dock.
+[00:10:00] Consultant: How do you find out?
+[00:10:03] Declan Pellingham: Half the time the hotel rings the route office. The other half the driver sees it on the dock when he's unloading and rings Nadia. Either way it's a phone call.
+[00:10:15] Consultant: Why Nadia and not the desk?
+[00:10:19] Declan Pellingham: Because Nadia answers. If they ring the desk they get whoever's keying, and whoever's keying is already on a call with a hotel. So it's Nadia. Everything's Nadia.
+[00:10:30] Consultant: And then?
+[00:10:32] Declan Pellingham: Then Nadia's on the phone for forty minutes for every one of them. Between the hotel, and the pack floor, and whichever driver's nearest, and the other plant if it's their stock. Forty minutes, easy. And maybe a third of them we send a van back out. That's a driver and a van for an hour and a half, minimum, because it's never the hotel next door.
+[00:10:59] Consultant: How often? A specific week, if you can.
+[00:11:03] Declan Pellingham: A dozen a week, honestly. Twelve. Fifteen on a bad week, in season. And that's the ones we hear about. There's a bunch the hotel just absorbs and doesn't ring, and then in a year they're the Lindenmoor.
+[00:11:18] Genevieve Okundaye: He counted last week. I asked him to.
+[00:11:22] Declan Pellingham: Twelve last week. Eleven, no, twelve, there was one on the Friday afternoon after I'd counted. I wrote them on the back of a route sheet, which tells you something.
+[00:11:35] Consultant: A dozen a week. Twelve to fifteen. Okay. When did the last bad one happen?
+[00:11:42] Declan Pellingham: Last week. Tuesday. The Sable Point, that's a resort, big account. They'd changed their pool towel par for the off season, down, and the change went to the desk by email and got keyed onto the wrong item, so they got a hundred extra pool towels and forty fewer bath towels. Which is a short and an over on the same stop. Their housekeeping manager was, um. Not happy. Nadia was on that for most of the morning.
+[00:12:13] Genevieve Okundaye: And a van went back out with the bath towels at lunchtime. So that's a driver off his route for the afternoon and the rest of his stops late.
+[00:12:25] Consultant: Did anyone go back to the hotel about the par afterwards?
+[00:12:29] Declan Pellingham: Nadia did. Wednesday. It took her an hour, because the housekeeping manager wanted to go through every item while she had her. And it's still not clear it's right, because the change came in as 'the winter numbers', and nobody had the winter numbers written down anywhere.
+[00:12:49] Consultant: Is any of that written down anywhere? The shorts, I mean. Is there a log?
+[00:12:55] Declan Pellingham: There isn't one. There's the whiteboard in the route office, and there's Nadia's memory. The whiteboard's this week. Last week's gone.
+[00:13:04] Genevieve Okundaye: We tried a sheet. I'll come to that. The honest answer is the whiteboard.
+[00:13:10] Consultant: And what stops you from carrying on with the whiteboard? It's worked, more or less.
+[00:13:17] Declan Pellingham: Because it's in one room, in one plant, and Halcott's got its own whiteboard. And because when Brindlewood asks us in February how many times we shorted them, the answer's going to be, um, ask Nadia.
+[00:13:31] Genevieve Okundaye: And Nadia's memory is very good and it is not a contract document.
+[00:13:37] Consultant: Who else feels it when a short happens? Beyond the hotel.
+[00:13:41] Declan Pellingham: The driver, because he gets shouted at on the dock and it wasn't him, the bag was short when he scanned it. The pack floor, because they get blamed next. Nadia, obviously. Annika's people, because there's a credit, or an argument about a credit.
+[00:13:59] Genevieve Okundaye: And me, because I get the email from the GM.
+[00:14:04] Consultant: And if nothing changes, with Brindlewood coming in January, what does that look like?
+[00:14:11] Genevieve Okundaye: Four hotels, all at once, all with the same par sheets we haven't set up yet, a ninety-day clause, and a whiteboard. That's what it looks like. It looks like the Lindenmoor four times.
+[00:14:24] Declan Pellingham: And it's the busy end of the year for the wash, so the shelf's short more often anyway. It's the worst possible time to start four hotels, and it's when they start.
+[00:14:38] Consultant: Okay. You mentioned a par change going to the wrong item. Let's do par changes. How does a change come in?
+[00:14:46] Genevieve Okundaye: Every which way. They email the route office. Or they ring. Or they tell the driver on the dock, and the driver tells Nadia, or doesn't. Or their housekeeping manager tells Gustav at lunch and Gustav tells me a week later.
+[00:15:03] Consultant: And then someone keys it?
+[00:15:06] Genevieve Okundaye: Someone on the desk keys it into the route software. Five minutes if it's clean. Twenty if it isn't, because you're ringing the hotel to ask which par they actually meant, or whether it's for both their properties or one.
+[00:15:23] Consultant: Is it every account, or mostly the hotels?
+[00:15:27] Genevieve Okundaye: The hotels. The clinics never change, a clinic's par is a clinic's par. The restaurants change for a private event and then change back and, um, forget to tell us they changed back. It's the hotels, mostly, and it's the big ones most.
+[00:15:44] Consultant: How many a week, roughly?
+[00:15:47] Genevieve Okundaye: Thirty, forty a week, across both plants. More in December, the hotels change everything for the holidays.
+[00:15:54] Consultant: And when one gets lost?
+[00:15:57] Genevieve Okundaye: If it's lost, it's a short the next Tuesday, or it's forty extra bath mats sitting in their cage that we're washing and delivering for nothing. Half our shorts are a par change that didn't land. Declan would say more than half.
+[00:16:15] Declan Pellingham: More than half.
+[00:16:17] Consultant: What do you do today to make sure a change lands?
+[00:16:22] Genevieve Okundaye: Nadia. Nadia reads every email and checks it got keyed. When she's there. When she's not there, it's whoever's on the desk, and the desk is answering the phone.
+[00:16:35] Consultant: Who else does that reach?
+[00:16:38] Genevieve Okundaye: The pack floor, because they pack the wrong number and get blamed for it. The driver, same. The hotel, obviously. And Halcott, because if a hotel with two properties changes a par and one property's on Halcott's routes, Halcott never hears.
+[00:16:54] Declan Pellingham: The two plants can't see each other's pars. I mean, they can, it's one system. Nobody looks. Halcott gets a change, we don't know. We get a change, Halcott doesn't.
+[00:17:07] Consultant: Say more about that. It's one system?
+[00:17:11] Declan Pellingham: One route software, one database, Halcott just prints their sheets up there. So the par's in there once. It's the change that goes to the wrong desk, and the desk that keys it doesn't tell the other desk, because why would they.
+[00:17:28] Consultant: Understood. Let me go to the money side of a short. You said there's a credit or an argument. Is that the loss clause, or is that separate?
+[00:17:40] Genevieve Okundaye: Separate. A credit is us saying sorry. The loss clause is the other way round. Every contract has a loss clause. If they lose our linen or wreck it, we can charge it back, within thirty days, documented. And we almost never do.
+[00:17:57] Consultant: Why not?
+[00:17:59] Genevieve Okundaye: Because by the time anyone counts, the thirty days are gone. The linen comes back, it goes through the soil side, somebody notices a hundred pool towels are ruined, and by then it's three weeks later and which hotel was it, which week, who's going to write it up.
+[00:18:19] Consultant: Has that happened recently?
+[00:18:21] Genevieve Okundaye: The Sable Point sent back two hundred pool towels in July with sunscreen through them. Ruined. Every one. We ate it. We could have charged them for two hundred pool towels and we didn't, because nobody wrote it up on the day, and by the time Annika saw the replacement order it was September.
+[00:18:42] Consultant: What does that add up to in a year? Loss you could have charged and didn't.
+[00:18:49] Genevieve Okundaye: Annika has the number. It's not small. I want to say it's in the tens of thousands, but I'd rather she said it than me, she's going to correct me if I guess.
+[00:19:03] Consultant: That's fine, I'd rather have her number than a guess. Who else does that reach, beyond the money?
+[00:19:10] Genevieve Okundaye: The soil side, because they're the ones who see it and have nowhere to put it. The office, because when Annika does find it she asks who saw it and when, and nobody wrote it down. And it's a fight with the hotel every time we do try, because it's three weeks old and they say prove it.
+[00:19:33] Consultant: And if it stays like this?
+[00:19:37] Genevieve Okundaye: Brindlewood's contract has the same clause, and four hotels' worth of linen, and the only way we ever charge any of it is if it's written up on the day. So if it stays like this, we're washing their losses for free from January. Annika will tell you the number, and she'll tell you it goes up.
+[00:19:59] Consultant: Understood. Declan, you mentioned the wash being behind. Is that a pain in its own right, or is that just November?
+[00:20:08] Declan Pellingham: It's a bit of both. The thing that actually bites is rewash. Anything that comes off the line stained goes back round. Rewash. It's an extra run through the tunnel, it's the boiler, it's the line running an extra hour at the end of the night, and it's why the shelf's short in the morning. And nobody counts it.
+[00:20:31] Consultant: Nobody counts it at all?
+[00:20:33] Declan Pellingham: There's a tally sheet on the soil dock. It gets a tick when somebody remembers. So the answer's a lot, and I couldn't tell you a number. Nadia would have a feel for it. She's off today, back Monday.
+[00:20:50] Consultant: Do you have a recent day that was bad?
+[00:20:54] Declan Pellingham: Every day in November's bad. [laughs] No, um. A week ago, the sunscreen thing was July, but a week ago we had two full bins come off the line grey because somebody put a clinic load through with the hotel whites. That's a rewash of both. That's an hour on the line. But that's one I remember. The normal ones nobody remembers.
+[00:21:18] Consultant: Who feels it?
+[00:21:19] Declan Pellingham: The night shift, because they stay. The morning pack, because the shelf's short. And Annika, because it's the boiler bill and the chemical bill and she asks me why and I say, rewash, and she says how much, and I say, a lot.
+[00:21:37] Consultant: Okay. Let me play back what I've heard so far, and tell me where I'm wrong. Pars and route sheets live in the route software, and that part works. From the print onward, the job, um, the job effectively lives on a paper sheet and the pack floor's shelf, and nothing checks that what was packed matches what was supposed to be packed. Par changes come in every which way and land, or don't, depending on whether Nadia's -- on whether Nadia's in. Shortages are found by phone and handled by phone. They get remembered on a whiteboard, this week only. Loss charges are allowed by contract and almost never made because nothing's written up on the day. And rewash is a cost nobody counts. Is that fair?
+[00:22:23] Genevieve Okundaye: That's it. That's depressingly it.
+[00:22:26] Declan Pellingham: I'd add the two plants thing. But yes. And the [inaudible] -- sorry, forklift. The soil side's got no way to say which hotel a bin came from once it's out of the bag. The bag's scanned, the bin isn't.
+[00:22:42] Consultant: Sorry, Declan, you froze for a second there. The bin isn't scanned?
+[00:22:48] Declan Pellingham: The bag's scanned on the dock. Then the bag gets tipped into a bin on the soil side with four other hotels' bags and the bin goes to the sort. So by the time somebody sees a ruined pool towel, it's a pool towel in a bin. Could be anyone's.
+[00:23:08] Genevieve Okundaye: Which is why the thirty days go.
+[00:23:11] Consultant: Noted. Is there anything else you use to, um, to coordinate any of this? A chat tool, anything?
+[00:23:18] Declan Pellingham: There's the whiteboard. And we text. A lot. Nadia texts me, I text Rhiannon, the drivers text Nadia. If a par changes on the dock, the driver texts it, or he doesn't.
+[00:23:32] Genevieve Okundaye: The office has a chat tool, which the floor does not use, because the floor is not at a desk.
+[00:23:40] Consultant: Has anyone tried to fix any of this before?
+[00:23:44] Genevieve Okundaye: Ezekiel built us a shared spreadsheet for shorts and par changes, two summers ago. One file, a tab per week, both plants. It lasted about a season. It got slow, people made copies, Halcott stopped filling theirs in, and by the autumn everybody was back to the whiteboard.
+[00:24:03] Declan Pellingham: [crosstalk] And the whiteboard.
+[00:24:05] Genevieve Okundaye: And the whiteboard, which, to be fair, works. It just doesn't work at Halcott, and it doesn't work in February when Brindlewood asks.
+[00:24:15] Consultant: Anything else?
+[00:24:17] Genevieve Okundaye: The route software people pitched me a shortage module last month. It's a form that emails somebody. I said I'd think about it. I haven't thought about it.
+[00:24:29] Consultant: Fair enough. Have you looked at monday before?
+[00:24:32] Genevieve Okundaye: I used it at the hotel group I was at before here, for housekeeping schedules, for about a year. I liked it. I think I've still got a login from there that I probably shouldn't have. We've never used it here.
+[00:24:49] Consultant: Okay. So, imagine it's a Tuesday morning in February and this is working. What do you see?
+[00:24:56] Genevieve Okundaye: One screen. Every short this week, both plants, which stop, what we did about it, and every par change that's come in and whether it's landed. And Nadia not on the phone.
+[00:25:09] Declan Pellingham: I'd take Nadia not on the phone.
+[00:25:12] Consultant: Declan, for you?
+[00:25:14] Declan Pellingham: For me. So the way I'd want it to go is the hotel changes the par on the Tuesday, whichever way they change it,
+[00:25:25] Consultant: Mm-hm.
+[00:25:26] Declan Pellingham: and by Wednesday night when we print, it's on the sheet, and nobody had to ring anybody. That's it. That's the whole thing for me. The par change is on the route sheet before the pack floor prints it.
+[00:25:42] Consultant: And what would Annika and Gustav say this is worth? Not to you. To them.
+[00:25:48] Genevieve Okundaye: Annika would say the loss charges. That's her whole thing, she's been saying it for two years. Gustav would say no more Lindenmoors. That we don't lose a ten-year account over a weekend nobody made a phone call.
+[00:26:04] Consultant: Let's do the cost side, as far as you can take it today. Nadia's forty minutes a short, a dozen to fifteen a week. A van back out a third of the time. The desk's five to twenty minutes a par change, thirty to forty a week. Do you have loaded rates for any of those hours?
+[00:26:26] Genevieve Okundaye: I'm not going to guess at rates. Annika has them and she's particular about them, she doesn't want the driver rate anywhere the drivers can see it. I'd rather she says them.
+[00:26:39] Consultant: That's completely fine. Then I'll note the hours and leave the rates for her. Is there anything else you'd count?
+[00:26:47] Genevieve Okundaye: The credits. When we short somebody and say sorry with money. Annika tracks those. And the loss charges we didn't make, which she definitely tracks, because it's the thing she's angriest about.
+[00:27:01] Consultant: Good. Let me ask about the decision, then. If you decided to do this, how does it actually happen?
+[00:27:08] Genevieve Okundaye: So I own the ops tools up to ten thousand. Over ten it's Annika, and Annika's a co-owner, so that's real. Gustav's the other owner, he runs sales, and on anything ops-shaped he'll go with Annika. He doesn't want to be in the room for this, he wants it to work.
+[00:27:29] Consultant: And what does Annika need to see?
+[00:27:33] Genevieve Okundaye: The loss charges. And she'll want to know the drivers don't have to do anything extra, because she's heard 'the drivers will just scan it' before, from the route software people, and it was not true.
+[00:27:48] Consultant: Has Annika approved something like this before? An ops tool, over the ten?
+[00:27:54] Genevieve Okundaye: The handhelds themselves. Three years ago. That was over ten, well over. She approved it in about a week, once Ezekiel said yes to it. She doesn't drag things out, she just wants the one thing she wants.
+[00:28:09] Consultant: Who decides whether something's safe for the route software? Or the handhelds?
+[00:28:14] Genevieve Okundaye: Ezekiel. He runs the route software. He runs the handhelds too, he administers both. He also did the accounting connection, so he's been through this once. Anything that touches either, he says yes or no, and Annika listens to him.
+[00:28:30] Consultant: Then I'd like -- I'd like Ezekiel to hear about this from someone who does the integration side properly, rather than from me on a sales call. I work with a technical partner, Linnea, on exactly this kind of thing. Would it help if Linnea had a short technical call with Ezekiel before we all meet again?
+[00:28:52] Genevieve Okundaye: Do that. Ezekiel will want to see it before anyone else does. He's not difficult, he's careful, and he's been burned.
+[00:29:02] Consultant: Burned how?
+[00:29:03] Genevieve Okundaye: The accounting connection. The route software vendor said a weekend. It was five months, and Ezekiel did most of it himself. He still brings it up.
+[00:29:14] Consultant: Noted. I'll set that up. When would you want this in place?
+[00:29:19] Genevieve Okundaye: Before Brindlewood. First week of January. Honestly, if shorts are on it by early December I'll sleep, because that's the piece that's going to hurt first.
+[00:29:30] Consultant: And on a now-versus-later scale? Is this a this-quarter thing or a next-year thing?
+[00:29:36] Genevieve Okundaye: It's now. It's this quarter or it's not worth doing, because January's when it hurts and after that we're either fine or we've lost Brindlewood.
+[00:29:47] Consultant: And is anything in the way? Things you can already see would make this hard.
+[00:29:54] Genevieve Okundaye: The drivers. The drivers don't type. They'll scan a bag. They will not fill in a form on a screen at six in the morning with a bag in the other hand. Whatever this is, it has to be a phone in one hand and a bag in the other, or it has to be nothing for them at all.
+[00:30:18] Declan Pellingham: And it can't fight the route software. If the pack floor has to look at two things, they'll look at the one that prints. If the drivers have to scan into two things, they'll scan into the one they already know.
+[00:30:35] Genevieve Okundaye: And December. The boiler's being replaced the second week of December, the plant's down for three days, and every single person is on the floor that week. Nobody's in a meeting. Nobody's learning anything.
+[00:30:49] Consultant: So three things. Drivers, the route software stays the source of truth, and the boiler week. Anything else?
+[00:30:56] Genevieve Okundaye: Annika will want to know what it costs. But that's later.
+[00:31:01] Consultant: It is later, and I'll say so when she asks. Let me play back what I'd put in a first version, just to show you, not to sign anything. A stops view that mirrors the route sheets, one line per stop, both plants, with a sample day typed in. Against each stop, a short logged from a phone, what was short, what we did. A par-change form that lands on the stop it belongs to, so the desk keys it once and the sheet knows. A loss write-up from the soil dock, from a phone, dated, with the hotel on it, inside the thirty days. And one screen for you with this week across both plants. Does that match?
+[00:31:47] Genevieve Okundaye: Yes. Shorts first. If I had to pick one thing, it's that the whiteboard stops being the only place that knows.
+[00:31:56] Declan Pellingham: Shorts first. And I want to see how the par change gets onto the sheet before I believe it.
+[00:32:05] Consultant: That's fair, and that's exactly the question for Linnea and Ezekiel. On the route sheet piece, I'd say up front, the first version will use a sample day typed in, and the real connection to the route software gets worked out with Ezekiel. Nothing I build writes into the route software. I'd rather show you something real and honest than promise the connection before anyone's looked.
+[00:32:31] Declan Pellingham: Okay. As long as it's said out loud that it's a sample.
+[00:32:37] Consultant: It will be. Then next step. I'd like a second session with Annika and Ezekiel, so I hear the money side and the systems side from the people who own them, rather than through you two. Could we do that next week?
+[00:32:54] Genevieve Okundaye: Annika's at Halcott Monday and Tuesday. Thursday's better. Thursday the twelfth, two o'clock? Eastern.
+[00:33:00] Consultant: Thursday the twelfth at two works. I'll send the invite to you both today, and you forward it to Annika and Ezekiel?
+[00:33:10] Genevieve Okundaye: I'll forward it. And I'll tell Ezekiel to expect a call from your Linnea before then.
+[00:33:17] Consultant: Linnea will reach out this week. Declan, could you send me a route sheet, and a photo of the whiteboard, with the rates and the hotel names scrubbed if you want?
+[00:33:30] Declan Pellingham: I can send you a route sheet. The whiteboard, um, Nadia would have to -- she'd want to wipe some of it first, so give me till Monday.
+[00:33:41] Consultant: Monday's fine. And I'll send you both a short recap by tomorrow, what I heard, so you can correct anything I got wrong.
+[00:33:51] Genevieve Okundaye: Good. Get it to Annika before Thursday, actually, so she's not cold.
+[00:33:56] Consultant: Then I'll write it so it's fine for her to read. Last thing, and I ask everyone this. Based on what we've talked about, is this worth taking forward?
+[00:34:08] Genevieve Okundaye: Yes. If the shorts piece works, the rest is gravy. But yes.
+[00:34:13] Declan Pellingham: Yes. Show me the par change landing.
+[00:34:17] Consultant: You'll see it. Thank you both. Declan, go and move your truck.
+[00:34:22] Declan Pellingham: It's still there. It's been there this whole call.
+[00:34:26] Genevieve Okundaye: [laughs] Thanks. Talk Thursday.
+[00:34:29] Consultant: Talk Thursday.

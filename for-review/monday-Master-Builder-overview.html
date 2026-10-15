@@ -1,0 +1,803 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>monday Master Builder — overview</title>
+<style>
+  @page { size: Letter; margin: 0.7in 0.75in 0.75in; }
+  :root {
+    --ink: #1c2430; --muted: #5b6676; --line: #d9dee6; --soft: #f3f5f8;
+    --accent: #1f5f8b; --accent-soft: #e6eff6; --green: #2e7d4f; --green-soft: #e5f2ea;
+    --amber: #9a6a12; --amber-soft: #fbf1dc; --grey-soft: #eef0f3;
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif; color: var(--ink);
+         font-size: 10.4pt; line-height: 1.5; margin: 0; background: #fff; }
+  h1, h2, h3 { line-height: 1.2; margin: 0; }
+  h2 { font-size: 17pt; color: var(--accent); margin-bottom: 4pt; letter-spacing: -0.2pt; }
+  h3 { font-size: 11.5pt; margin: 14pt 0 4pt; }
+  p { margin: 0 0 7pt; }
+  .kicker { text-transform: uppercase; letter-spacing: 1.4pt; font-size: 8pt; color: var(--muted); font-weight: 600; margin-bottom: 6pt; }
+  .lead { font-size: 11.5pt; color: #2b3542; margin-bottom: 10pt; }
+  section { page-break-before: always; }
+  section.first { page-break-before: auto; }
+  .avoid { page-break-inside: avoid; }
+  ul { margin: 0 0 8pt; padding-left: 15pt; }
+  li { margin-bottom: 3pt; }
+  table { width: 100%; border-collapse: collapse; margin: 6pt 0 10pt; font-size: 9.6pt; page-break-inside: avoid; }
+  th { text-align: left; font-weight: 600; color: var(--muted); font-size: 8.4pt; text-transform: uppercase; letter-spacing: 0.6pt;
+       border-bottom: 1.5px solid var(--ink); padding: 5pt 6pt; }
+  td { border-bottom: 1px solid var(--line); padding: 6pt 6pt; vertical-align: top; }
+  td.k { font-weight: 600; white-space: nowrap; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12pt; }
+  .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10pt; }
+  .card { border: 1px solid var(--line); border-radius: 6pt; padding: 10pt 11pt; background: #fff; page-break-inside: avoid; }
+  .card h4 { margin: 0 0 4pt; font-size: 10.4pt; }
+  .card p { margin: 0; font-size: 9.6pt; color: #333d4a; }
+  .stat { background: var(--soft); border-radius: 6pt; padding: 10pt 11pt; }
+  .stat b { display: block; font-size: 20pt; color: var(--accent); line-height: 1.1; }
+  .stat span { font-size: 8.8pt; color: var(--muted); }
+  .note { background: var(--accent-soft); border-left: 3px solid var(--accent); padding: 8pt 11pt; border-radius: 0 6pt 6pt 0; margin: 8pt 0 10pt; font-size: 9.8pt; }
+  .pill { display: inline-block; font-size: 8pt; font-weight: 600; padding: 1.5pt 7pt; border-radius: 10pt; white-space: nowrap; }
+  .done { background: var(--green-soft); color: var(--green); }
+  .next { background: var(--amber-soft); color: var(--amber); }
+  .later { background: var(--grey-soft); color: var(--muted); }
+  .gotcha { border-left: 3px solid var(--amber); padding: 6pt 10pt; margin-bottom: 7pt; background: #fffdf8; page-break-inside: avoid; }
+  .gotcha b { display: block; font-size: 10pt; }
+  .gotcha span { font-size: 9.4pt; color: #3d4654; }
+  .muted { color: var(--muted); }
+  .small { font-size: 9pt; }
+  .conns { display:grid; grid-template-columns:1fr 1fr; gap:5pt 14pt; font-size:8.9pt; line-height:1.35; }
+  .conn { display:flex; gap:7pt; align-items:flex-start; page-break-inside:avoid; }
+  .cn { flex:none; width:15pt; height:15pt; border-radius:50%; background:#1f5f8b; color:#fff; font-weight:700; font-size:8pt; display:flex; align-items:center; justify-content:center; margin-top:1pt; }
+  table.tight td { padding: 4pt 6pt; } table.tight { font-size: 9.2pt; }
+  .cardsm p { font-size: 9.2pt; }
+  /* cover */
+  .cover { height: 9.3in; display: flex; flex-direction: column; justify-content: space-between; }
+  .cover .top { margin-top: 1.4in; }
+  .cover h1 { font-size: 34pt; letter-spacing: -0.8pt; margin: 8pt 0 12pt; }
+  .cover .sub { font-size: 14pt; color: #33404f; max-width: 5.6in; line-height: 1.4; }
+  .cover .bar { height: 5pt; width: 1.1in; background: var(--accent); border-radius: 3pt; }
+  .cover .meta { font-size: 9.5pt; color: var(--muted); border-top: 1px solid var(--line); padding-top: 10pt; display: flex; justify-content: space-between; }
+  svg text { font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<section class="first cover">
+  <div class="top">
+    <div class="bar"></div>
+    <div class="kicker" style="margin-top:14pt">Product overview · October 2026</div>
+    <h1>monday Master Builder</h1>
+    <div class="sub">A Claude Code plugin that turns what a client said into a working monday.com proof of concept: the right structure, the right boards, and monday's AI features, built and checked in an afternoon.</div>
+  </div>
+  <div class="meta">
+    <span>Design complete · test material complete · build starting</span>
+    <span>Internal document</span>
+  </div>
+</section>
+
+<!-- 1. SUMMARY -->
+<section>
+  <div class="kicker">1 · In one page</div>
+  <h2>What it is, and why it matters</h2>
+  <p class="lead">Selling monday.com works best when the client sees their own process running, not a slide about it. This plugin closes the gap between the first conversation and that moment.</p>
+
+  <h3>The problem</h3>
+  <p>After a discovery call, a consultant usually spends days turning notes into a demo: deciding which monday product fits, designing boards and columns, wiring automations, filling in believable data. Most of that work is the same every time, and most of the risk is in the details: a wrong structure, a board that copies the client's spreadsheet instead of fixing it, an automation that emails real people.</p>
+
+  <h3>What the plugin does</h3>
+  <p>The consultant gives it whatever arrived: a call transcript, several calls, the client's own documents, an email. The plugin reads all of it, works out what the client's goals and pains are, designs a monday solution across Work Management, CRM and Service, shows the consultant one approval card, then builds the whole workspace in monday with realistic sample data, audits its own work, and writes a briefing for the demo. A second round adds monday's AI features: agents with written prompts, AI columns, Workflows and Vibe apps.</p>
+
+  <div class="grid3" style="margin:12pt 0 12pt">
+    <div class="stat"><b>~1 hour</b><span>the floor for a full first workspace from one transcript; with the usual one to three days of preparation, the AI layer is ready too</span></div>
+    <div class="stat"><b>1 approval</b><span>one yes from the consultant before anything is written into monday</span></div>
+    <div class="stat"><b>3 products</b><span>Work Management, CRM and Service, using monday's native boards rather than look-alikes</span></div>
+  </div>
+
+  <h3>The principle behind it</h3>
+  <p><b>Show, not just tell.</b> A basic working demo beats a perfect description. When the input is thin, the plugin still builds, makes its assumptions explicit, and turns them into the questions for the next meeting. It never presents a guess as a fact.</p>
+
+  <h3>Where it stands today</h3>
+  <p>The design is complete and has been reviewed decision by decision. The test material is complete: 25 realistic client scenarios with answer keys. The plugin's skeleton, its shared knowledge files and its first tools exist. The next stage writes the scripts, then the skills, then the end-to-end run in a test workspace. Section 9 has the detail.</p>
+</section>
+
+<!-- 2. HOW IT WORKS -->
+<section>
+  <div class="kicker">2 · How it works</div>
+  <h2>From a conversation to a working workspace</h2>
+  <p class="lead">Every client gets one folder, the record, that holds everything learned so far. Each step reads the record and adds to it, so a fresh session can always pick up where the last one stopped.</p>
+
+  <svg viewBox="0 0 1000 440" width="100%" role="img" aria-label="Flow from inputs through intake, readiness, blueprint, approval, build, audit, build notes and showing, with a loop back for the next round">
+    <defs>
+      <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5b6676"/></marker>
+      <marker id="ar2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f5f8b"/></marker>
+    </defs>
+    <style>
+      .b { fill:#fff; stroke:#c5ccd6; stroke-width:1.4; }
+      .bk { fill:#e6eff6; stroke:#1f5f8b; stroke-width:1.6; }
+      .t { font-size:15px; font-weight:600; fill:#1c2430; }
+      .s { font-size:11.5px; fill:#5b6676; }
+      .ln { stroke:#5b6676; stroke-width:1.6; fill:none; }
+      .lp { stroke:#1f5f8b; stroke-width:1.6; fill:none; stroke-dasharray:6 5; }
+      .lab { font-size:11.5px; fill:#1f5f8b; font-weight:600; }
+    </style>
+    <!-- row 1 -->
+    <rect class="b" x="20" y="30" width="165" height="78" rx="8"/>
+    <text class="t" x="102" y="60" text-anchor="middle">Inputs</text>
+    <text class="s" x="102" y="79" text-anchor="middle">calls, documents,</text>
+    <text class="s" x="102" y="94" text-anchor="middle">emails, any mix</text>
+
+    <rect class="b" x="215" y="30" width="165" height="78" rx="8"/>
+    <text class="t" x="297" y="60" text-anchor="middle">Intake</text>
+    <text class="s" x="297" y="79" text-anchor="middle">repair transcripts,</text>
+    <text class="s" x="297" y="94" text-anchor="middle">verbatim quotes</text>
+
+    <rect class="b" x="410" y="30" width="165" height="78" rx="8"/>
+    <text class="t" x="492" y="60" text-anchor="middle">Readiness</text>
+    <text class="s" x="492" y="79" text-anchor="middle">goals, pains, gaps;</text>
+    <text class="s" x="492" y="94" text-anchor="middle">enough to build?</text>
+
+    <rect class="b" x="605" y="30" width="165" height="78" rx="8"/>
+    <text class="t" x="687" y="60" text-anchor="middle">Blueprint</text>
+    <text class="s" x="687" y="79" text-anchor="middle">structure, native</text>
+    <text class="s" x="687" y="94" text-anchor="middle">boards, AI ideas</text>
+
+    <rect class="bk" x="800" y="30" width="180" height="78" rx="8"/>
+    <text class="t" x="890" y="60" text-anchor="middle">Approval card</text>
+    <text class="s" x="890" y="79" text-anchor="middle">one yes from</text>
+    <text class="s" x="890" y="94" text-anchor="middle">the consultant</text>
+
+    <line class="ln" x1="185" y1="69" x2="213" y2="69" marker-end="url(#ar)"/>
+    <line class="ln" x1="380" y1="69" x2="408" y2="69" marker-end="url(#ar)"/>
+    <line class="ln" x1="575" y1="69" x2="603" y2="69" marker-end="url(#ar)"/>
+    <line class="ln" x1="770" y1="69" x2="798" y2="69" marker-end="url(#ar)"/>
+
+    <!-- connector to row 2 -->
+    <path class="ln" d="M890,108 L890,140 L102,140 L102,178" marker-end="url(#ar)"/>
+
+    <!-- row 2 -->
+    <rect class="bk" x="20" y="180" width="165" height="78" rx="8"/>
+    <text class="t" x="102" y="210" text-anchor="middle">Build</text>
+    <text class="s" x="102" y="229" text-anchor="middle">in monday, every</text>
+    <text class="s" x="102" y="244" text-anchor="middle">write read back</text>
+
+    <rect class="b" x="215" y="180" width="165" height="78" rx="8"/>
+    <text class="t" x="297" y="210" text-anchor="middle">Audit</text>
+    <text class="s" x="297" y="229" text-anchor="middle">independent and</text>
+    <text class="s" x="297" y="244" text-anchor="middle">read-only</text>
+
+    <rect class="b" x="410" y="180" width="165" height="78" rx="8"/>
+    <text class="t" x="492" y="210" text-anchor="middle">Build notes</text>
+    <text class="s" x="492" y="229" text-anchor="middle">what, why, diagrams,</text>
+    <text class="s" x="492" y="244" text-anchor="middle">demo checklist</text>
+
+    <rect class="b" x="605" y="180" width="165" height="78" rx="8"/>
+    <text class="t" x="687" y="210" text-anchor="middle">Show</text>
+    <text class="s" x="687" y="229" text-anchor="middle">the client sees</text>
+    <text class="s" x="687" y="244" text-anchor="middle">their own process</text>
+
+    <line class="ln" x1="185" y1="219" x2="213" y2="219" marker-end="url(#ar)"/>
+    <line class="ln" x1="380" y1="219" x2="408" y2="219" marker-end="url(#ar)"/>
+    <line class="ln" x1="575" y1="219" x2="603" y2="219" marker-end="url(#ar)"/>
+
+    <!-- loop -->
+    <path class="lp" d="M770,219 L885,219 L885,290 L8,290 L8,69 L18,69" marker-end="url(#ar2)"/>
+    <text class="lab" x="796" y="244">next round</text>
+    <text class="lab" x="28" y="281">Round two adds the AI layer. Every follow-up goes back through the same path and builds only the difference.</text>
+
+    <!-- foundations -->
+    <rect x="20" y="315" width="960" height="50" rx="8" fill="#f3f5f8" stroke="#d9dee6"/>
+    <text class="t" x="40" y="337">The client record</text>
+    <text class="s" x="40" y="355">one folder per client: inputs, summaries, readiness, blueprint revisions, build ledger, audits, notes</text>
+
+    <rect x="20" y="375" width="960" height="50" rx="8" fill="#f3f5f8" stroke="#d9dee6"/>
+    <text class="t" x="40" y="397">monday knowledge</text>
+    <text class="s" x="40" y="415">108 verified API behaviours, read-back rules, native-board detection, and a change check before every build</text>
+  </svg>
+
+  <table>
+    <tr><th style="width:22%">Step</th><th>What happens</th></tr>
+    <tr><td class="k">Intake</td><td>Saves each input untouched, measures the transcript format, repairs common transcript damage (split sentences, wrong speaker labels, one person under several names) and keeps every quote word for word with its location.</td></tr>
+    <tr><td class="k">Readiness</td><td>Answers one question: is there enough to build a demo worth showing? It lists goals and pains, the things the client tracks and how they move, the likely structure, what already exists, its assumptions, and at most five questions for next time. Thin input never blocks; it makes the build more generic.</td></tr>
+    <tr><td class="k">Blueprint</td><td>Picks the product, reuses monday's native CRM and Service boards, traces every pain to the element that fixes it, plans one new workspace per product, and suggests where AI features fit.</td></tr>
+    <tr><td class="k">Approval</td><td>One card, opening with "what this build rests on" so the consultant approves the assumptions along with the structure. The approved version is frozen with a checksum.</td></tr>
+    <tr><td class="k">Build and audit</td><td>Builds only the frozen version, reads back every write, then a separate session audits the result without writing anything and ends with "cleared to show" or a list of fixes.</td></tr>
+    <tr><td class="k">Build notes</td><td>An internal briefing: what was built and why, the pain-to-element trace, a board-logic diagram, a process map, and a checklist of what to show and explain.</td></tr>
+  </table>
+</section>
+
+<!-- 3. ARCHITECTURE -->
+<section>
+  <div class="kicker">3 · Architecture</div>
+  <h2>How the plugin is put together</h2>
+  <p class="lead">It runs inside Claude Code on the consultant's own computer, Windows or Mac, and talks to monday through monday's official connector. Everything it knows about a client lives in plain files the consultant owns.</p>
+
+  <div class="grid2">
+    <div class="card"><h4>Skills: the plugin's abilities</h4><p>Eight skills, each a focused set of instructions: the front door that briefs the consultant, intake, the readiness check, the blueprint, the build, the audit, the monday change check, and close-out. The two that touch a live account, build and audit, only run when the consultant types their command.</p></div>
+    <div class="card"><h4>Agents: helpers with narrow jobs</h4><p>Three: a transcript summariser, an independent auditor that has never seen the build narrative, and a research scout that studies the client's company so the sample data reads like their world.</p></div>
+    <div class="card"><h4>Scripts: the only writers of state</h4><p>Seven Python scripts keep the record honest: the record and its versions, the build ledger, the leak lint, transcript measurement and preparation, and the archive. A skill never edits state by hand, so nothing depends on the model remembering.</p></div>
+    <div class="card"><h4>Hooks: a second line of defence</h4><p>Checks that run before every monday write: is this the right account, is the target inside the client's own workspaces, would this duplicate a native board. They refuse a bad call before it is sent.</p></div>
+    <div class="card"><h4>Shared knowledge</h4><p>Six reference files every skill links to instead of repeating: the record map, the safety rules, the 108 API behaviours, the read-back table, native-board detection, and the list of terms that must never reach a client.</p></div>
+    <div class="card"><h4>The client record</h4><p>One folder per client, with "strands" for separate pieces of work and numbered versions inside each. A one-page summary per strand keeps later work fast. The record is the memory between sessions.</p></div>
+  </div>
+
+  <h3>Design choices worth knowing</h3>
+  <ul>
+    <li><b>Agnostic by design.</b> Nothing in the plugin names a person, a firm or an account. Each consultant's own details live in local settings, so the same plugin works for anyone who installs it.</li>
+    <li><b>Builds in the consultant's own account by default.</b> A prospect's proof of concept goes into fresh workspaces named after the client, one per product. Existing customers can be built in their own account instead. The plugin never writes into any other workspace.</li>
+    <li><b>Live facts over manuals.</b> Before every build it checks monday's current API version, release notes and the schema of every call it plans to make, and stops to ask if something relevant changed.</li>
+    <li><b>Model-light where it can be.</b> Deterministic work is done by scripts with unit tests; the model is used for judgment: reading people, designing structure, writing prompts.</li>
+  </ul>
+</section>
+
+<!-- 4. FILE ARCHITECTURE -->
+<section>
+  <div class="kicker">4 · File architecture</div>
+  <h2>Where everything lives, and how it connects</h2>
+  <p class="lead" style="margin-bottom:6pt">Three places: the plugin as installed, the user's home folder, and one record per client inside it. Numbered arrows are explained two pages on.</p>
+
+  <svg viewBox="0 0 1000 1170" width="100%" role="img" aria-label="File architecture: the installed plugin, the user's home folder and a client record, with the connections between them">
+    <defs>
+      <marker id="fa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f5f8b"/></marker>
+    </defs>
+    <style>
+      .band { fill:#f6f8fb; stroke:#c5ccd6; stroke-width:1.4; }
+      .home { fill:#f3f8f4; stroke:#b9d3c2; stroke-width:1.4; }
+      .rec  { fill:#ffffff; stroke:#9fbfa9; stroke-width:1.4; }
+      .bx   { fill:#ffffff; stroke:#c5ccd6; stroke-width:1.2; }
+      .bx2  { fill:#fbfcfd; stroke:#d3d9e1; stroke-width:1.1; }
+      .ext  { fill:#fff8ec; stroke:#d9b878; stroke-width:1.3; }
+      .bt   { font-size:17px; font-weight:700; fill:#1c2430; }
+      .ht   { font-size:14px; font-weight:700; fill:#1c2430; }
+      .f    { font-size:12px; fill:#1c2430; }
+      .fd   { font-size:11px; fill:#5b6676; }
+      .fm   { font-size:12px; fill:#1c2430; font-family: Menlo, Consolas, monospace; }
+      .arr  { stroke:#1f5f8b; stroke-width:1.7; fill:none; }
+      .bd   { fill:#1f5f8b; }
+      .bn   { font-size:11px; font-weight:700; fill:#fff; }
+    </style>
+
+    <!-- PLUGIN BAND -->
+    <rect class="band" x="20" y="14" width="960" height="316" rx="10"/>
+    <text class="bt" x="40" y="40">The plugin, as installed</text>
+    <text class="fd" x="268" y="40">read-only; a fresh copy each session, so it never holds state</text>
+
+    <rect class="bx" x="40" y="72" width="262" height="244" rx="7"/>
+    <text class="ht" x="54" y="94">skills/</text>
+    <text class="fm" x="54" y="118">engagement</text><text class="fd" x="160" y="118">front door, briefing</text>
+    <text class="fm" x="54" y="140">call-intake</text>
+    <text class="fm" x="54" y="162">build-readiness</text>
+    <text class="fm" x="54" y="184">solution-blueprint</text>
+    <text class="fm" x="54" y="206">account-build</text><text class="fd" x="168" y="206">user-only door</text>
+    <text class="fm" x="54" y="228">solution-audit</text><text class="fd" x="168" y="228">user-only door</text>
+    <text class="fm" x="54" y="250">monday-drift-check</text>
+    <text class="fm" x="54" y="272">client-closeout</text>
+    <text class="fd" x="54" y="300">each: SKILL.md + references/</text>
+
+    <rect class="bx" x="330" y="72" width="192" height="138" rx="7"/>
+    <text class="ht" x="344" y="94">shared/</text>
+    <text class="fm" x="344" y="116">record-map.md</text>
+    <text class="fm" x="344" y="132">safety.md</text>
+    <text class="fm" x="344" y="148">monday-gotchas.md</text>
+    <text class="fm" x="344" y="164">read-back.md</text>
+    <text class="fm" x="344" y="180">native-objects.md</text>
+    <text class="fm" x="344" y="196">leak-terms.txt</text>
+
+    <rect class="bx" x="330" y="222" width="192" height="94" rx="7"/>
+    <text class="ht" x="344" y="244">templates/</text>
+    <text class="f" x="344" y="265">record/ the files a new</text>
+    <text class="f" x="344" y="281">record starts from</text>
+    <text class="f" x="344" y="303">other/ cards, agent prompt</text>
+
+    <rect class="bx" x="550" y="72" width="212" height="244" rx="7"/>
+    <text class="ht" x="564" y="94">scripts/</text>
+    <text class="fm" x="564" y="118">mmb_common.py</text>
+    <text class="fm" x="564" y="140">record.py</text>
+    <text class="fm" x="564" y="162">ledger.py</text>
+    <text class="fm" x="564" y="184">leak_lint.py</text>
+    <text class="fm" x="564" y="206">transcript_measure.py</text>
+    <text class="fm" x="564" y="228">transcript_prep.py</text>
+    <text class="fm" x="564" y="250">archive_check.py</text>
+    <text class="fd" x="564" y="278">Python, standard library,</text>
+    <text class="fd" x="564" y="294">unit-tested, Windows and Mac</text>
+
+    <rect class="bx" x="790" y="72" width="170" height="122" rx="7"/>
+    <text class="ht" x="804" y="94">agents/</text>
+    <text class="fm" x="804" y="118">transcript-summarizer</text>
+    <text class="fm" x="804" y="140">solution-auditor</text>
+    <text class="fm" x="804" y="162">research-scout</text>
+    <text class="fd" x="804" y="184">get file paths, write nothing</text>
+
+    <rect class="bx" x="790" y="206" width="170" height="110" rx="7"/>
+    <text class="ht" x="804" y="228">hooks/</text>
+    <text class="fm" x="804" y="252">hooks.json</text>
+    <text class="fm" x="804" y="274">guard.py</text>
+    <text class="fd" x="804" y="300">checks every monday write</text>
+
+    <!-- between bands -->
+    <rect class="bx2" x="20" y="352" width="300" height="74" rx="8"/>
+    <text class="ht" x="36" y="378">In the repository only</text>
+    <text class="f" x="36" y="398">tests/ · tools/ · deferred/</text>
+    <text class="fd" x="36" y="415">never installed; deferred/ holds v2 files</text>
+
+    <rect class="ext" x="790" y="352" width="190" height="74" rx="8"/>
+    <text class="ht" x="806" y="378">monday.com account</text>
+    <text class="fd" x="806" y="398">through monday's official</text>
+    <text class="fd" x="806" y="413">connector</text>
+
+    <!-- HOME BAND -->
+    <rect class="home" x="20" y="450" width="960" height="706" rx="10"/>
+    <text class="bt" x="40" y="477">The user's home folder</text>
+    <text class="fd" x="690" y="477">monday-builder/, on Windows or Mac</text>
+
+    <rect class="bx" x="40" y="498" width="250" height="128" rx="7"/>
+    <text class="ht" x="54" y="520">local/</text>
+    <text class="fm" x="54" y="543">settings.json</text>
+    <text class="fd" x="54" y="558">firm name, default account</text>
+    <text class="fm" x="54" y="580">sandbox-accounts.txt</text>
+    <text class="fm" x="54" y="602">leak-terms.txt</text>
+    <text class="fd" x="54" y="618">the user's own values only</text>
+
+    <rect class="bx" x="560" y="498" width="200" height="128" rx="7"/>
+    <text class="ht" x="574" y="520">monday-knowledge/</text>
+    <text class="f" x="574" y="543">the overlay: what has</text>
+    <text class="f" x="574" y="559">changed in monday since</text>
+    <text class="f" x="574" y="575">the plugin was released;</text>
+    <text class="f" x="574" y="591">read before the bundled</text>
+    <text class="f" x="574" y="607">knowledge</text>
+
+    <rect class="bx" x="780" y="498" width="180" height="128" rx="7"/>
+    <text class="fm" x="794" y="522">archive/</text>
+    <text class="fd" x="794" y="537">closed records, deleted by hand</text>
+    <text class="fm" x="794" y="562">cards/</text>
+    <text class="fd" x="794" y="577">one-page client cards</text>
+    <text class="fm" x="794" y="602">clients-index.json</text>
+    <text class="fd" x="794" y="617">hashed names, for the lint</text>
+
+    <!-- CLIENT RECORD -->
+    <rect class="rec" x="40" y="648" width="920" height="490" rx="9"/>
+    <text class="ht" x="56" y="673">clients/&lt;client&gt;/ · the client record</text>
+    <text class="fd" x="330" y="673">plain files, one folder per client; the memory between sessions</text>
+
+    <rect class="bx2" x="56" y="690" width="268" height="434" rx="7"/>
+    <text class="fm" x="70" y="716">CLAUDE.md</text><text class="fd" x="70" y="731">this client's context for a new session</text>
+    <text class="fm" x="70" y="758">CLIENT.md</text><text class="fd" x="70" y="773">who the client is; index of strands</text>
+    <text class="fm" x="70" y="800">log.md</text><text class="fd" x="70" y="815">history; only ever grows</text>
+    <text class="fm" x="70" y="842">account.json</text><text class="fd" x="70" y="857">build target, workspaces, native boards</text>
+    <text class="fm" x="70" y="884">calls/  inputs/</text><text class="fd" x="70" y="899">transcripts, documents, emails, summaries</text>
+    <text class="fm" x="70" y="926">research/</text><text class="fd" x="70" y="941">the company brief and deep dive</text>
+    <text class="fm" x="70" y="968">live/live-map.md</text><text class="fd" x="70" y="983">what is live; what must not change</text>
+    <text class="fm" x="70" y="1010">.work/lock.json</text><text class="fd" x="70" y="1025">one build at a time</text>
+    <text class="fd" x="70" y="1060">Record level: true for the client</text>
+    <text class="fd" x="70" y="1075">across every piece of work.</text>
+
+    <rect class="bx2" x="340" y="690" width="604" height="434" rx="7"/>
+    <text class="ht" x="356" y="714">strands/001-&lt;topic&gt;/</text>
+    <text class="fd" x="520" y="714">one piece of work; a second piece is strand 002</text>
+    <text class="fm" x="356" y="740">STRAND.md</text><text class="fd" x="452" y="740">state, clearance, next step</text>
+    <text class="fm" x="356" y="762">SUMMARY.md</text><text class="fd" x="452" y="762">one page that later work reads</text>
+    <text class="fm" x="356" y="784">readiness.md</text><text class="fd" x="460" y="784">goals, pains, assumptions, questions</text>
+
+    <rect class="bx" x="356" y="804" width="270" height="306" rx="6"/>
+    <text class="ht" x="370" y="826">solution/</text>
+    <text class="fm" x="370" y="850">blueprint.md</text><text class="fd" x="476" y="850">the working draft</text>
+    <text class="fm" x="370" y="874">build.json</text><text class="fd" x="460" y="874">the build ledger</text>
+    <text class="fm" x="370" y="898">exclusions.md</text>
+    <text class="fm" x="370" y="920">open-questions.md</text>
+    <text class="fm" x="370" y="942">backlog.md</text>
+    <text class="fm" x="370" y="964">dependencies.md</text>
+    <text class="fm" x="370" y="986">structure-inventory.md</text>
+    <text class="fd" x="370" y="1020">Current files: rewritten under</text>
+    <text class="fd" x="370" y="1035">a checksum guard, by scripts only.</text>
+
+    <rect class="bx" x="652" y="804" width="276" height="306" rx="6"/>
+    <text class="ht" x="666" y="826">versions/v0.1/</text>
+    <text class="fm" x="666" y="850">blueprint-r1.md</text><text class="fd" x="790" y="850">frozen, sha256</text>
+    <text class="fm" x="666" y="874">version.md</text><text class="fd" x="756" y="874">the approval</text>
+    <text class="fm" x="666" y="898">audit.md</text>
+    <text class="fm" x="666" y="922">build-notes.md</text>
+    <text class="fm" x="666" y="946">build-notes.html</text>
+    <text class="fm" x="666" y="970">close-out.md</text>
+    <text class="fd" x="666" y="1020">Snapshots: frozen when written,</text>
+    <text class="fd" x="666" y="1035">so an approval cannot drift.</text>
+
+    <!-- ARROWS -->
+    <!-- 1 skills -> shared -->
+    <line class="arr" x1="302" y1="140" x2="328" y2="140" marker-end="url(#fa)"/>
+    <circle class="bd" cx="315" cy="122" r="9"/><text class="bn" x="315" y="126" text-anchor="middle">1</text>
+    <!-- 2 skills -> scripts (top route) -->
+    <path class="arr" d="M200,72 L200,58 L640,58 L640,70" marker-end="url(#fa)"/>
+    <circle class="bd" cx="420" cy="58" r="9"/><text class="bn" x="420" y="62" text-anchor="middle">2</text>
+    <!-- 3 templates -> record -->
+    <path class="arr" d="M390,316 L390,646" marker-end="url(#fa)"/>
+    <circle class="bd" cx="390" cy="560" r="9"/><text class="bn" x="390" y="564" text-anchor="middle">3</text>
+    <!-- 4 scripts -> record -->
+    <path class="arr" d="M580,316 L580,338 L480,338 L480,646" marker-end="url(#fa)"/>
+    <circle class="bd" cx="480" cy="560" r="9"/><text class="bn" x="480" y="564" text-anchor="middle">4</text>
+    <!-- 5 hooks -> monday -->
+    <line class="arr" x1="875" y1="316" x2="875" y2="350" marker-end="url(#fa)"/>
+    <circle class="bd" cx="895" cy="334" r="9"/><text class="bn" x="895" y="338" text-anchor="middle">5</text>
+    <!-- 6 overlay feeds the knowledge (up to scripts/shared region) -->
+    <path class="arr" d="M660,498 L660,318" marker-end="url(#fa)" stroke-dasharray="5 4"/>
+    <circle class="bd" cx="660" cy="430" r="9"/><text class="bn" x="660" y="434" text-anchor="middle">6</text>
+    <!-- 7 blueprint -> frozen revision -->
+    <path class="arr" d="M626,846 L650,846" marker-end="url(#fa)"/>
+    <circle class="bd" cx="639" cy="830" r="9"/><text class="bn" x="639" y="834" text-anchor="middle">7</text>
+  </svg>
+</section>
+
+<!-- 10. THE WORKSPACE TODAY -->
+<section>
+  <div class="kicker">4 · File architecture: the development folder</div>
+  <h2>How the development folder is organised</h2>
+  <p class="lead" style="margin-bottom:6pt">The previous page shows the plugin as a user will have it. This is the folder it is being built in today: design and test material, the product repository, and a review folder for the owner, kept apart so nothing unfinished can ship.</p>
+
+  <svg viewBox="0 0 1000 1010" width="100%" role="img" aria-label="The development workspace: design and test material, the product repository, the review folder and the empty test home folders, with the flows between them">
+    <defs>
+      <marker id="wa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f5f8b"/></marker>
+    </defs>
+    <style>
+      .root { fill:#1f5f8b; }
+      .rt { font-size:16px; font-weight:700; fill:#fff; }
+      .rs { font-size:12px; fill:#dbe7f1; }
+      .col { fill:#f6f8fb; stroke:#c5ccd6; stroke-width:1.4; }
+      .colg { fill:#f3f8f4; stroke:#b9d3c2; stroke-width:1.4; }
+      .colw { fill:#fff8ec; stroke:#d9b878; stroke-width:1.4; }
+      .sub { fill:#fff; stroke:#d3d9e1; stroke-width:1.1; }
+      .ct { font-size:15px; font-weight:700; fill:#1c2430; }
+      .cs { font-size:11px; fill:#5b6676; }
+      .st { font-size:12.5px; font-weight:700; fill:#1c2430; font-family: Menlo, Consolas, monospace; }
+      .sd { font-size:11px; fill:#3d4654; }
+      .pill-d { fill:#e5f2ea; } .pill-n { fill:#fbf1dc; } .pill-l { fill:#eef0f3; }
+      .pt-d { font-size:10px; font-weight:700; fill:#2e7d4f; } .pt-n { font-size:10px; font-weight:700; fill:#9a6a12; } .pt-l { font-size:10px; font-weight:700; fill:#5b6676; }
+      .wl { stroke:#1f5f8b; stroke-width:1.7; fill:none; }
+      .wlab { font-size:11px; font-weight:600; fill:#1f5f8b; }
+    </style>
+
+    <!-- root -->
+    <rect class="root" x="20" y="10" width="960" height="62" rx="10"/>
+    <text class="rt" x="40" y="37">workspace/</text>
+    <text class="rs" x="40" y="58">the development folder · HANDOFF.md, the state of the project and where every truth lives · CLAUDE.md, the standing rules for every session</text>
+
+    <!-- column A: design and test material -->
+    <rect class="col" x="20" y="96" width="310" height="640" rx="10"/>
+    <text class="ct" x="36" y="122">rebuild-workspace/</text>
+    <text class="cs" x="36" y="139">design and test material · never ships</text>
+
+    <rect class="sub" x="36" y="154" width="278" height="204" rx="7"/>
+    <text class="st" x="50" y="176">design/</text>
+    <rect class="pill-d" x="232" y="164" width="70" height="17" rx="8"/><text class="pt-d" x="267" y="176" text-anchor="middle">complete</text>
+    <text class="sd" x="50" y="198">SPEC · what the product is</text>
+    <text class="sd" x="50" y="216">ARCHITECTURE · the full design</text>
+    <text class="sd" x="50" y="234">BUILD-PLAN · 21 packages, tests</text>
+    <text class="sd" x="50" y="252">AMENDMENTS · 28 decisions</text>
+    <text class="sd" x="50" y="270">ROADMAP · v1, v2, v3</text>
+    <text class="sd" x="50" y="288">AI-feature probe findings</text>
+    <text class="sd" x="50" y="306">interview notes</text>
+    <text class="sd" x="50" y="324">stage-1b/ · the re-cut plan, maps,</text>
+    <text class="sd" x="50" y="340">checks and acceptance record</text>
+
+    <rect class="sub" x="36" y="372" width="278" height="84" rx="7"/>
+    <text class="st" x="50" y="394">dossier/</text>
+    <text class="sd" x="50" y="414">research on the platform, monday's</text>
+    <text class="sd" x="50" y="430">official material, the record model;</text>
+    <text class="sd" x="50" y="446">the sales method, kept for v2</text>
+
+    <rect class="sub" x="36" y="470" width="278" height="120" rx="7"/>
+    <text class="st" x="50" y="492">fixtures/</text>
+    <rect class="pill-d" x="232" y="480" width="70" height="17" rx="8"/><text class="pt-d" x="267" y="492" text-anchor="middle">complete</text>
+    <text class="sd" x="50" y="514">25 fictional client scenarios:</text>
+    <text class="sd" x="50" y="532">transcripts, documents, answer keys</text>
+    <text class="sd" x="50" y="550">COVERAGE.md · what each one proves</text>
+    <text class="sd" x="50" y="568">the specification the code is</text>
+    <text class="sd" x="50" y="584">graded against</text>
+
+    <rect class="sub" x="36" y="604" width="278" height="116" rx="7"/>
+    <text class="st" x="50" y="626">fixtures-work/</text>
+    <text class="sd" x="50" y="648">working files behind the fixtures:</text>
+    <text class="sd" x="50" y="666">the quote verifier, the common brief,</text>
+    <text class="sd" x="50" y="684">every editor's log and verifier</text>
+    <text class="sd" x="50" y="702">report from the fix pass</text>
+
+    <!-- column B: product repository -->
+    <rect class="colg" x="345" y="96" width="310" height="640" rx="10"/>
+    <text class="ct" x="361" y="122">monday-master-builder/</text>
+    <text class="cs" x="361" y="139">the product repository · git, 2 commits</text>
+
+    <rect class="sub" x="361" y="154" width="278" height="300" rx="7"/>
+    <text class="st" x="375" y="176">plugins/…/</text>
+    <text class="cs" x="375" y="193">what installs into Claude Code</text>
+    <text class="sd" x="375" y="216">plugin.json · the manifest</text>
+    <rect class="pill-d" x="557" y="206" width="70" height="17" rx="8"/><text class="pt-d" x="592" y="218" text-anchor="middle">done</text>
+    <text class="sd" x="375" y="240">shared/ · 6 knowledge files</text>
+    <rect class="pill-d" x="557" y="230" width="70" height="17" rx="8"/><text class="pt-d" x="592" y="242" text-anchor="middle">done</text>
+    <text class="sd" x="375" y="264">scripts/ · 7 Python scripts</text>
+    <rect class="pill-n" x="557" y="254" width="70" height="17" rx="8"/><text class="pt-n" x="592" y="266" text-anchor="middle">stage 2</text>
+    <text class="sd" x="375" y="288">templates/ · 35 record files</text>
+    <rect class="pill-l" x="557" y="278" width="70" height="17" rx="8"/><text class="pt-l" x="592" y="290" text-anchor="middle">stage 3</text>
+    <text class="sd" x="375" y="312">skills/ · 8 skills</text>
+    <rect class="pill-l" x="557" y="302" width="70" height="17" rx="8"/><text class="pt-l" x="592" y="314" text-anchor="middle">stage 4</text>
+    <text class="sd" x="375" y="336">agents/ · 3 agents</text>
+    <rect class="pill-l" x="557" y="326" width="70" height="17" rx="8"/><text class="pt-l" x="592" y="338" text-anchor="middle">stage 4</text>
+    <text class="sd" x="375" y="360">hooks/ · the write guard</text>
+    <rect class="pill-l" x="557" y="350" width="70" height="17" rx="8"/><text class="pt-l" x="592" y="362" text-anchor="middle">stage 5</text>
+    <text class="sd" x="375" y="392">Empty folders today are placeholders</text>
+    <text class="sd" x="375" y="408">with their contents fully specified;</text>
+    <text class="sd" x="375" y="424">each is accepted against its list</text>
+    <text class="sd" x="375" y="440">in the build plan.</text>
+
+    <rect class="sub" x="361" y="468" width="278" height="100" rx="7"/>
+    <text class="st" x="375" y="490">tests/</text>
+    <text class="sd" x="375" y="512">unit tests · the platform probes and</text>
+    <text class="sd" x="375" y="530">their results · acceptance reports;</text>
+    <text class="sd" x="375" y="548">the fixtures are copied in at stage 5</text>
+
+    <rect class="sub" x="361" y="582" width="278" height="64" rx="7"/>
+    <text class="st" x="375" y="604">tools/</text>
+    <text class="sd" x="375" y="626">the plugin lint; release tooling later</text>
+
+    <rect class="sub" x="361" y="660" width="278" height="60" rx="7"/>
+    <text class="st" x="375" y="682">deferred/</text>
+    <text class="sd" x="375" y="704">v2 files, kept and never shipped</text>
+
+    <!-- column C: review folder -->
+    <rect class="colw" x="670" y="96" width="310" height="640" rx="10"/>
+    <text class="ct" x="686" y="122">for-review/</text>
+    <text class="cs" x="686" y="139">the owner's folder · copies, feedback, decisions</text>
+
+    <rect class="sub" x="686" y="154" width="278" height="120" rx="7"/>
+    <text class="st" x="700" y="176">00-READ-ME-FIRST</text>
+    <text class="sd" x="700" y="198">the checklist: what to review,</text>
+    <text class="sd" x="700" y="216">decide and do, with status</text>
+    <text class="sd" x="700" y="242">copies of the spec, the decisions</text>
+    <text class="sd" x="700" y="260">and the roadmap, kept in step</text>
+
+    <rect class="sub" x="686" y="288" width="278" height="120" rx="7"/>
+    <text class="st" x="700" y="310">FEEDBACK · SPEC-REVIEW</text>
+    <text class="sd" x="700" y="332">every review note, its disposition</text>
+    <text class="sd" x="700" y="350">and where it was applied; the</text>
+    <text class="sd" x="700" y="368">interview that reviewed the spec</text>
+    <text class="sd" x="700" y="386">round by round</text>
+
+    <rect class="sub" x="686" y="422" width="278" height="98" rx="7"/>
+    <text class="st" x="700" y="444">fixtures/</text>
+    <text class="sd" x="700" y="466">the 15 newest scenarios, each with</text>
+    <text class="sd" x="700" y="484">CHANGES.md saying what the review</text>
+    <text class="sd" x="700" y="502">changed and why</text>
+
+    <rect class="sub" x="686" y="534" width="278" height="74" rx="7"/>
+    <text class="st" x="700" y="556">stage0/</text>
+    <text class="sd" x="700" y="578">a live link to the probe results,</text>
+    <text class="sd" x="700" y="596">so answers land in the repository</text>
+
+    <rect class="sub" x="686" y="622" width="278" height="98" rx="7"/>
+    <text class="st" x="700" y="644">this overview</text>
+    <text class="sd" x="700" y="666">the PDF and the page it is</text>
+    <text class="sd" x="700" y="684">printed from, so it can be</text>
+    <text class="sd" x="700" y="702">updated and re-printed</text>
+
+    <!-- arrows between columns -->
+    <path class="wl" d="M314,256 L359,256" marker-end="url(#wa)"/>
+    <path class="wl" d="M314,530 L340,530 L340,520 L359,520" marker-end="url(#wa)"/>
+    <path class="wl" d="M686,440 L660,440 L660,760 L175,760 L175,738" marker-end="url(#wa)" stroke-dasharray="5 4"/>
+    <text class="wlab" x="300" y="776">review notes flow back into the design and the fixtures, then are re-verified</text>
+
+    <!-- bottom: test home -->
+    <rect class="col" x="20" y="800" width="960" height="120" rx="10"/>
+    <text class="ct" x="36" y="826">clients/ · cards/ · monday-knowledge/ · claims/</text>
+    <rect class="pill-l" x="852" y="814" width="112" height="17" rx="8"/><text class="pt-l" x="908" y="826" text-anchor="middle">empty for now</text>
+    <text class="sd" x="36" y="850">The test home folders the plugin will use while it is built and tested: client records go in clients/, closed-client cards in cards/,</text>
+    <text class="sd" x="36" y="868">the self-refreshing monday knowledge in monday-knowledge/. They fill up once live testing starts in a named test workspace.</text>
+    <text class="sd" x="36" y="886">claims/ belongs to the deferred sales layer and stays unused in version 1. Once the plugin ships, each user keeps this home</text>
+    <text class="sd" x="36" y="904">outside any development folder, created by the first-run walkthrough.</text>
+
+    <!-- legend -->
+    <rect class="pill-d" x="20" y="944" width="70" height="17" rx="8"/><text class="pt-d" x="55" y="956" text-anchor="middle">done</text>
+    <text class="sd" x="98" y="956">written and checked</text>
+    <rect class="pill-n" x="240" y="944" width="70" height="17" rx="8"/><text class="pt-n" x="275" y="956" text-anchor="middle">stage 2</text>
+    <text class="sd" x="318" y="956">next to be built</text>
+    <rect class="pill-l" x="440" y="944" width="70" height="17" rx="8"/><text class="pt-l" x="475" y="956" text-anchor="middle">stage 4</text>
+    <text class="sd" x="518" y="956">specified, built in that stage</text>
+    <text class="sd" x="20" y="990">Solid arrows: the design is what the repository is built to, and the fixtures are what its tests grade against. Dashed: review notes return to the design.</text>
+  </svg>
+</section>
+
+<!-- 4b. WHY THIS LAYOUT -->
+<section>
+  <div class="kicker">4 · File architecture, continued</div>
+  <h2>Why it is laid out this way</h2>
+  <p class="lead" style="margin-bottom:4pt">Every structural choice answers a specific failure that a demo builder working in a live account would otherwise run into.</p>
+
+  <table class="tight">
+    <tr><th style="width:29%">Choice</th><th>Why</th></tr>
+    <tr><td class="k">The plugin holds no state</td><td>Claude Code gives each session a fresh copy of the plugin, so anything saved inside it would vanish. Everything that changes lives in the user's home folder instead, and the plugin stays identical for every user.</td></tr>
+    <tr><td class="k">One home per fact</td><td>Each rule, field name and API behaviour is written once, in <code>shared/</code>, and every skill links to it. Copies drift apart; one source cannot. A lint check fails the release if a script and the record map disagree.</td></tr>
+    <tr><td class="k">Scripts are the only writers</td><td>The model judges; scripts write. Records, the build ledger and the lock are changed only by tested Python code with checksum guards, so state never depends on the model remembering or typing something exactly.</td></tr>
+    <tr><td class="k">Small skills, detail one level down</td><td>Each skill body stays short, with depth in its <code>references/</code>. Only what a task needs is loaded, which keeps the always-on cost low and the instructions sharp.</td></tr>
+    <tr><td class="k">The record is plain files</td><td>Readable by a person, portable between Windows and Mac, easy to archive as a folder, and complete enough that a brand-new session can brief itself from disk alone.</td></tr>
+    <tr><td class="k">Strands and frozen versions</td><td>A client can have several pieces of work at once, each with its own versions. An approved blueprint is frozen with a checksum, and the build reads only that copy, so what gets built is exactly what was approved.</td></tr>
+    <tr><td class="k">The user's values in <code>local/</code></td><td>Firm name, accounts and never-shown workspaces belong to one user, so they never ship. The same plugin works for anyone who installs it.</td></tr>
+    <tr><td class="k">Knowledge that refreshes</td><td>monday changes. The overlay records what changed since release and is read first, so the plugin stays current between releases without being reinstalled.</td></tr>
+  </table>
+
+  <h3 style="margin-top:8pt">The numbered connections</h3>
+  <div class="conns"><div class="conn"><span class="cn">1</span><div><b>skills → shared/</b><br>Skills link to the shared rules instead of restating them.</div></div><div class="conn"><span class="cn">2</span><div><b>skills → scripts/</b><br>A skill decides what should happen and calls a script to do it.</div></div><div class="conn"><span class="cn">3</span><div><b>templates/ → record</b><br>A new client record and each new strand are created from the templates, so every record has the same shape.</div></div><div class="conn"><span class="cn">4</span><div><b>scripts/ → record</b><br>Only scripts write the record: summaries, readiness, the ledger, versions, the lock.</div></div><div class="conn"><span class="cn">5</span><div><b>hooks/ → monday</b><br>Every monday write passes the hook first; it reads the record's lock and account file and refuses a call aimed at the wrong account or workspace.</div></div><div class="conn"><span class="cn">6</span><div><b>monday-knowledge/ → plugin</b><br>The overlay of recent monday changes is read before the knowledge bundled with the plugin.</div></div><div class="conn"><span class="cn">7</span><div><b>blueprint → frozen revision</b><br>On approval the working blueprint is frozen into the version folder; the build reads only the frozen copy.</div></div></div>
+</section>
+
+<!-- 4. SAFETY -->
+<section>
+  <div class="kicker">5 · Safety</div>
+  <h2>Built to be trusted inside a live account</h2>
+  <p class="lead">A demo builder that writes into monday can do real damage: notify real people, overwrite a client's live board, leak one client's figures into another's workspace. The safety model is designed around those failure modes.</p>
+
+  <table>
+    <tr><th style="width:26%">Rule</th><th>What it means in practice</th></tr>
+    <tr><td class="k">One approval, frozen</td><td>Nothing is written until the consultant approves one version. The build reads only that frozen copy. Text inside a transcript or a monday item can never count as approval.</td></tr>
+    <tr><td class="k">Account and workspace check</td><td>Before writing, and again at a fixed rhythm, the plugin confirms the account and that every write lands in the client's own workspaces. Anything else is refused.</td></tr>
+    <tr><td class="k">Read back every write</td><td>A "success" reply is never trusted. Each write is followed by the read that can actually see the result, and recorded in a ledger. What the API cannot read back goes on a by-eye list.</td></tr>
+    <tr><td class="k">Resumable without duplicates</td><td>If a build is interrupted, it resumes from the ledger without creating anything twice.</td></tr>
+    <tr><td class="k">Independent audit</td><td>A separate session checks the build against the approved version and proves it changed nothing itself, using before-and-after snapshots.</td></tr>
+    <tr><td class="k">Leak lint</td><td>Every text that goes into monday is checked against internal notes, cost figures, other clients' names and internal vocabulary. It blocks and reports; it never edits silently.</td></tr>
+    <tr><td class="k">Neutral naming</td><td>Nothing in monday names the consultant's firm, the plugin or the assistant, so a workspace can be handed to the client as it is.</td></tr>
+    <tr><td class="k">No deletes</td><td>The plugin never deletes anything in any account. It archives, and leaves deletion to a person.</td></tr>
+    <tr><td class="k">Assumptions stay visible</td><td>Every assumption is on the approval card and in the build notes, never written into monday as fact. A working solution cannot be signed off while a structural assumption is unconfirmed.</td></tr>
+    <tr><td class="k">Nothing unverified promised</td><td>Every monday feature is tested live before the plugin relies on it. If a capability has not been verified, it is not claimed.</td></tr>
+  </table>
+</section>
+
+<!-- 5. GOTCHAS -->
+<section>
+  <div class="kicker">6 · The gotchas</div>
+  <h2>What monday's API does not tell you</h2>
+  <p class="lead">monday's documentation describes what the API should do. Live testing found 108 places where it behaves differently, silently, or not at all. Each one is recorded as a "gotcha": what was observed, how it was proven, and the safe way around it. The plugin reads this list before it builds.</p>
+
+  <div class="grid2">
+    <div>
+      <div class="gotcha"><b>The read tool can write</b><span>A query sent through the "read" tool can include a change and it will run. The audit therefore proves it wrote nothing by comparing snapshots, rather than trusting the tool's name.</span></div>
+      <div class="gotcha"><b>Automations cannot be switched off through the API</b><span>An automation created by the API cannot be deactivated by the API, even by its creator. Every automation is approved as a list with its recipients shown, and the hand-over includes a "turn it off in monday" step for each.</span></div>
+      <div class="gotcha"><b>Connecting a project to a portfolio deletes a board</b><span>The connect call removes the project's overview board as a side effect. It is treated as an irreversible step, with companions recorded first.</span></div>
+      <div class="gotcha"><b>Impossible dates are stored</b><span>A date like "2026-13-45" is accepted and saved. The plugin validates every value itself before writing.</span></div>
+    </div>
+    <div>
+      <div class="gotcha"><b>Only four view types can be created</b><span>Table, form, dashboard and app views can be created; Kanban, Gantt and calendar cannot (re-checked on the live schema in October 2026). The build notes list them as quick manual steps.</span></div>
+      <div class="gotcha"><b>Nothing marks a board as "native"</b><span>monday's own CRM and Service boards look like any other board to the API. The plugin identifies them by template lineage and reserved column ids, and protects them by id, never by name.</span></div>
+      <div class="gotcha"><b>An update can switch an AI agent on</b><span>Editing an agent that was created inactive can activate it, and every new agent arrives with two triggers nobody asked for. Agents are read back after every change and activated only on the consultant's yes.</span></div>
+      <div class="gotcha"><b>A Workflow publishes once</b><span>Publishing consumes the draft, and there is no "activate later". Whether it starts active is decided before publishing, as its own approval.</span></div>
+    </div>
+  </div>
+
+  <div class="note">Each of these would have surfaced as a broken demo, a notification to a real person, or a lost board in a client's account. Finding them first, in a test workspace, is the main reason the build can be trusted to run without a human checking every click.</div>
+</section>
+
+<!-- 6. FIXTURES -->
+<section>
+  <div class="kicker">7 · The fixtures</div>
+  <h2>Twenty-five clients that do not exist</h2>
+  <p class="lead">To know whether the plugin reads a client correctly, it needs test cases with a known right answer. The fixtures are 25 fictional client scenarios, each with realistic inputs and an answer key that states exactly what the plugin should conclude.</p>
+
+  <div class="grid3" style="margin-bottom:10pt">
+    <div class="stat"><b>25</b><span>scenarios across a wide range of industries: discovery calls, demos, follow-ups, a support check-in, a handed-over package, client documents</span></div>
+    <div class="stat"><b>4,318</b><span>quotes in the answer keys, every one verified word for word at its location in the transcript by a script</span></div>
+    <div class="stat"><b>All 25</b><span>reviewed one by one, with every finding applied and re-verified</span></div>
+  </div>
+
+  <h3>What makes them hard on purpose</h3>
+  <p>Real transcripts are messy, and a plugin trained on tidy ones fails on real calls. Each fixture plants a specific difficulty:</p>
+  <table>
+    <tr><th style="width:30%">Trap</th><th>What the plugin must do</th></tr>
+    <tr><td class="k">Shredded transcripts</td><td>Rejoin sentences that a transcription tool split across speakers, and refuse to quote across a speaker boundary.</td></tr>
+    <tr><td class="k">One person, many names</td><td>Recognise that a first name, an initial and a nickname belong to one person, without inventing anyone.</td></tr>
+    <tr><td class="k">A package of five calls</td><td>Order recordings handed over by another seller by evidence, not filename, and treat a re-quoted figure as second-hand.</td></tr>
+    <tr><td class="k">Client documents</td><td>Read an SOP, a PDF and a flowchart image; keep "how it is supposed to work" apart from "how it actually works".</td></tr>
+    <tr><td class="k">A thin first call</td><td>Still build a generic demo, with its assumptions listed and turned into questions.</td></tr>
+    <tr><td class="k">An existing customer</td><td>Respect what is already live in their account and never change it without the right person's yes.</td></tr>
+  </table>
+
+  <h3>What the review taught the design</h3>
+  <p>Reviewing the fixtures found the same flaw several times: an answer key that rebuilt the client's current tool in monday, including the flaw causing the pain. One row per batch because the spreadsheet had one; one status per job because the wall had one magnet. That finding became two questions the readiness check now asks every time: <b>what moves independently of what?</b> and <b>does this structure fix the pain, or copy today's tool?</b></p>
+</section>
+
+<!-- 7. WHY THE PLANNING -->
+<section>
+  <div class="kicker">8 · Why the planning came first</div>
+  <h2>Why so much design before the code</h2>
+  <p class="lead">Writing a plugin that produces a demo is quick. Writing one that can be trusted to work in a live monday account, for any consultant, on messy real-world input, is not. The time went where the risk is.</p>
+
+  <div class="grid3">
+    <div class="card"><h4>A live account is unforgiving</h4><p>A wrong automation emails real people and cannot be switched off through the API. A careless connect deletes a board. Every write path had to be designed with its failure mode before any code was allowed near an account.</p></div>
+    <div class="card"><h4>The API surprises are only found by testing</h4><p>108 behaviours differ from the documentation. Each one designed in now is a demo that does not break in front of a client later.</p></div>
+    <div class="card"><h4>The AI features are new</h4><p>Agents, Vibe apps and Workflows behave in ways monday does not document. They were probed live first, so the plugin builds on what they actually do.</p></div>
+    <div class="card"><h4>Reading people is the hard part</h4><p>The value is in understanding the client correctly. The fixtures and answer keys turn "it seems to understand" into a measurable test the code is graded against.</p></div>
+    <div class="card"><h4>Built for anyone, not one person</h4><p>Keeping the plugin free of personal names, accounts and one operating system means it can be handed to a team without being rewritten.</p></div>
+    <div class="card"><h4>Rework is the expensive path</h4><p>Every decision settled on paper is one the code does not have to be torn up for. The design was reviewed decision by decision, and 28 of them were made explicitly.</p></div>
+  </div>
+
+  <h3>What exists on paper today</h3>
+  <table>
+    <tr><th style="width:30%">Document</th><th>What it holds</th></tr>
+    <tr><td class="k">Product spec</td><td>What the product is and does, in about three pages, reviewed in a structured interview.</td></tr>
+    <tr><td class="k">Architecture</td><td>The full design: skills, agents, scripts, the record, every flow, the safety model, the knowledge base. About 1,200 lines.</td></tr>
+    <tr><td class="k">Build plan</td><td>21 work packages, each with an acceptance list the code is held to, plus the test plan and release checks.</td></tr>
+    <tr><td class="k">Decision log</td><td>28 decisions, each with its reason, which override every other document.</td></tr>
+    <tr><td class="k">Knowledge base</td><td>108 verified API behaviours, native-board detection rules, and the AI-feature probe findings.</td></tr>
+  </table>
+</section>
+
+<!-- 8. PROGRESS -->
+<section>
+  <div class="kicker">9 · Progress</div>
+  <h2>What is done, and what comes next</h2>
+  <p class="lead">The foundations are finished: the design, the test material, the platform checks and the plugin's skeleton. The remaining work is building the code against acceptance lists that are already written.</p>
+
+  <table class="tight">
+    <tr><th style="width:12%">Stage</th><th>Contents</th><th style="width:14%">State</th></tr>
+    <tr><td class="k">0</td><td>Platform checks: the plugin behaviours Claude Code must support (paths, agents, hooks, user-only commands, web fetch) proven on a live install</td><td><span class="pill done">Complete</span></td></tr>
+    <tr><td class="k">1</td><td>Plugin skeleton, the shared knowledge files, the lint tool and unit tests, and the 25 fixtures</td><td><span class="pill done">Complete</span></td></tr>
+    <tr><td class="k">1b</td><td>Design re-cut around "build first": the readiness check, the AI features in the main line, the build-target rules; checked and fixed</td><td><span class="pill done">Complete</span></td></tr>
+    <tr><td class="k">Fix pass</td><td>Every fixture review finding applied, readiness answers added to all 25 keys, every quote re-verified</td><td><span class="pill done">Complete</span></td></tr>
+    <tr><td class="k">2</td><td>The seven scripts: record, ledger, leak lint, transcript intake, archive, plus the sweep tool; first folding in the Windows and Mac decisions</td><td><span class="pill next">Next</span></td></tr>
+    <tr><td class="k">3</td><td>The record templates, including readiness, build notes and the agent-prompt template</td><td><span class="pill later">Planned</span></td></tr>
+    <tr><td class="k">4</td><td>The skills and agents, with an automated test runner graded on the fixtures</td><td><span class="pill later">Planned</span></td></tr>
+    <tr><td class="k">4b</td><td>The AI features: agents, AI columns, Workflows, Vibe apps, sequences, webhooks</td><td><span class="pill later">Planned</span></td></tr>
+    <tr><td class="k">5</td><td>Hooks, sandbox scenarios, release tooling, and the end-to-end proof of concept in a test workspace on Windows and Mac</td><td><span class="pill later">Planned</span></td></tr>
+  </table>
+
+  <div class="grid2">
+    <div>
+      <h3>The first real-world test</h3>
+      <p>Stage 5 opens with two runs in a test workspace: a thin transcript and a strong one taken all the way to an audited workspace with build notes, timed; and a refusal test proving the plugin will not write outside the client's own workspaces, even through an AI agent.</p>
+      <h3>Decisions still open</h3>
+      <ul class="small">
+        <li>Which test workspace carries the live trials.</li>
+        <li>Whether sample data may sit inside a client's own account.</li>
+        <li>How long client transcripts and documents are kept.</li>
+      </ul>
+      
+    </div>
+    <div>
+      <h3>Deliberately later</h3>
+      <ul class="small">
+        <li><b>Version 2:</b> a sales layer that any consultant can plug their own method into: discovery grading, demo run-sheets, recap drafts, objection handling.</li>
+        <li><b>Version 2 or 3:</b> a client-ready SOP and hand-over package in Word and PDF with diagrams.</li>
+        <li><b>Later:</b> monday Dev, Service extras such as the customer portal, and other languages.</li>
+      </ul>
+      <p class="small muted">Cut from version 1 on purpose, so the first release does one thing well: build the demo.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 11. EFFORT -->
+<section>
+  <div class="kicker">10 · Effort so far, and to go</div>
+  <h2>Token usage, and what finishing will take</h2>
+  <p class="lead">Every model reply records the tokens it used, so the figures below are counted from the project's session transcripts, subagents included, from the first design session on 10 September to today.</p>
+
+  <h3>Used so far</h3>
+  <table class="tight">
+    <tr><th style="width:44%">Phase</th><th style="text-align:right">New material read</th><th style="text-align:right">Written</th><th style="text-align:right">Cached re-reading</th></tr>
+    <tr><td class="k">Research and design, September</td><td style="text-align:right">99 M</td><td style="text-align:right">3.1 M</td><td style="text-align:right">977 M</td></tr>
+    <tr><td class="k">Platform checks, 12 October</td><td style="text-align:right">0.2 M</td><td style="text-align:right">&lt; 0.1 M</td><td style="text-align:right">1.6 M</td></tr>
+    <tr><td class="k">Re-cut, fix pass, spec review, this week</td><td style="text-align:right">13.5 M</td><td style="text-align:right">0.4 M</td><td style="text-align:right">234 M</td></tr>
+    <tr><td class="k">Total</td><td style="text-align:right"><b>113 M</b></td><td style="text-align:right"><b>3.5 M</b></td><td style="text-align:right"><b>1.21 B</b></td></tr>
+  </table>
+  <p class="small">Cached re-reading is each turn re-reading the conversation so far, charged at a small fraction of new input, so the fairest measure of work done is new material plus what was written: <b>about 116 million tokens</b>, two thirds of it in subagents. September ran multi-agent on the top model for every step; a cost policy now matches the model to the job, so this week's re-cut, 25 fixture repairs and spec review took about an eighth of September's new reading.</p>
+
+  <h3>Estimate to finish version 1</h3>
+  <table class="tight">
+    <tr><th style="width:46%">Remaining work</th><th style="text-align:right;width:13%">Estimate</th><th>Why</th></tr>
+    <tr><td class="k">Fold in the latest decisions; goals in the fixtures</td><td style="text-align:right">4–8 M</td><td>Editing, as this week</td></tr>
+    <tr><td class="k">Stage 2: seven scripts with unit tests</td><td style="text-align:right">15–30 M</td><td>Code against written lists</td></tr>
+    <tr><td class="k">Stage 3: record templates</td><td style="text-align:right">4–8 M</td><td>Mechanical</td></tr>
+    <tr><td class="k">Stage 4: skills, agents, test runner, graders</td><td style="text-align:right">30–55 M</td><td>Judgment, plus graded runs</td></tr>
+    <tr><td class="k">Stage 4b: the AI features</td><td style="text-align:right">12–25 M</td><td>Probes, build, audit per kind</td></tr>
+    <tr><td class="k">Stage 5: hooks, release, end-to-end on both systems</td><td style="text-align:right">20–40 M</td><td>Live runs, twice over</td></tr>
+    <tr><td class="k">Total to finish</td><td style="text-align:right"><b>85–165 M</b></td><td>0.9–1.8 B with cached</td></tr>
+  </table>
+
+  <div class="note"><b>In plan terms.</b> This week's work, two large multi-agent runs included, used about 3% of the plan's weekly allowance. On that evidence, finishing version 1 is roughly 10 to 25% of one week's allowance in total, spread over the weeks the remaining stages take. The estimate is a planning figure, not a promise: stage 4's graded runs and the live end-to-end runs carry the most uncertainty, and the model chosen per step moves the cost more than anything else.</div>
+</section>
+
+</body>
+</html>

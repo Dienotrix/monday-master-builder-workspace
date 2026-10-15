@@ -1,0 +1,109 @@
+# Topic: Opening
+Ilse: Hi all. Dale, Marguerite, and I can see Teodor's camera pointing at a ceiling.
+Teodor: I'm on the phone. In the shop. You said phone.
+Ilse: I did say phone. Rowan, you've met everyone?
+Rowan: Dale and Teodor at the show, Marguerite by email. Hi Marguerite. Thanks for the Job Board, by the way, it was very useful. The notes column was, uh, thorough.
+Marguerite: I told you.
+Ilse: So, ground rules. This is a first cut built from what you told us last week, in your words. Rowan's going to drive. It's our demo account, not yours, there's nothing of yours in it, the jobs are made up. Stop us whenever something's wrong, that's the whole point. Dale, before we start, anything changed since last Wednesday?
+Dale: The rollout got confirmed. Contract's signed. So this is real now.
+Ilse: Good. Rowan, go ahead.
+Rowan: Okay. Sharing. Can everyone see a board called Jobs?
+Dale: Yes.
+Teodor: I see a list.
+Rowan: That's it. So this is our demo account, none of your data's in here, I've put in six made-up jobs so there's something to look at. One row per job, like the Job Board. Job number, customer, lead, and then the columns you told us about. Survey, proof, city permit, landlord, install date, crew.
+# Topic: The Jobs board
+Rowan: So take this one. Pinecrest Dental, that's a made-up customer, don't go looking for them. Let's say this is one of Marguerite's jobs, four signs, proof approved on the twentieth, city permit in, landlord not in. And the status here at the end says Waiting on landlord, and that's set automatically, because the landlord column is empty.
+Marguerite: So I don't type Waiting on landlord.
+Rowan: You don't type it. You fill in the landlord date when it comes, and the status changes itself. And when both approvals have dates, it goes to Ready to schedule, and Dale gets a notification.
+Dale: That's Westgate. That column would have stopped Westgate.
+Rowan: Right, that's the Westgate one. That's exactly what it's for.
+Dale: It shouldn't say ready until both are in. Not one. Both.
+Rowan: Both. That's the rule I've got. If you want I can show you the rule itself.
+Dale: Later. Keep going.
+Rowan: Okay. So then say the install gets scheduled. Dale picks a crew, picks a date, and the crew lead gets a text -- well, a notification, to their phone, with the address and the drawing attached. And if the date moves, they get another one.
+Teodor: Do I get one?
+Rowan: You can. Anyone can. Say the install moves, and say Dale's left the company so we reassign it, the new person gets --
+Dale: Excuse me?
+Rowan: [laughs] Hypothetically. Say a job's reassigned, whoever picks it up sees the whole history. That's all I mean.
+Ilse: Rowan's not firing you, Dale.
+Dale: Just checking.
+Rowan: And the last thing on this board, this number column, fourteen thousand two hundred, that's just a value I typed so the totals had something to add up. Ignore it. You'd have the job value from the accounting system if you wanted it there, or not at all.
+Dale: Not at all. Renata would have a fit. The shop doesn't see job values.
+Rowan: Then it goes. Easy.
+Marguerite: Can I ask something? The customer. Where's the customer's phone number, the contact?
+Rowan: Right now it's text on the job. We could do a proper customer list if you want it.
+Marguerite: I don't know if I want it. Renata's got all that in the accounting system.
+Rowan: Okay, parking that.
+# Topic: The shop view
+Rowan: So, Teodor. This is the bit for you. Same board, different view. This is the shop view. Cards instead of rows, one card per job, in columns. Cut, paint, assembly, electrical, QC, ready. Like the whiteboard.
+Teodor: Hang on. One card per job.
+Rowan: One card per job, yes.
+Teodor: That's one status for six signs. Which sign is that?
+Rowan: So the status is the job's --
+Teodor: A job doesn't have a status in my shop. A sign has a status. Pinecrest, or whatever it is, four signs. The letters are in paint. The blade's still being cut. The vinyl's done, it's been done for a week. The monument hasn't started because the footing isn't poured. What column does that card go in?
+Rowan: Right. So --
+Marguerite: But I need the job. When the customer calls they ask about the job. They don't ask about the blade sign.
+Teodor: I know they don't. I'm not saying get rid of the job. I'm saying on my board, every sign is its own line. That's what the traveler is.
+Marguerite: If every sign's a line I've got four hundred lines. I can't see my jobs in four hundred lines.
+Teodor: You don't look at my board.
+Marguerite: I look at it every day, that's the problem. [laughs]
+Ilse: Okay, so, let me make sure I've got this, because I think you two are agreeing.
+Teodor: We are agreeing.
+Ilse: A job has several signs, one to twelve, usually four. Each sign goes through the shop on its own. The customer, and Marguerite, and the invoice, think in jobs. The shop thinks in signs. Yes?
+Marguerite: Yes.
+Teodor: Yes. That's just what it is.
+Dale: That's the thing I said last week. Office thinks in jobs, shop thinks in signs. And install is usually one trip for the job, but not always. Sometimes we set the letters and come back for the monument.
+Rowan: So we can do it either way. We can put the signs under the job as subitems, so Marguerite's row opens up and there's the four signs, each with its own status. Or we can do two boards linked, a Jobs board and a Signs board, and the Signs board is Teodor's and it rolls up to the job. Honestly, you can change it later. It's not a big deal either way.
+Teodor: Which one gives me a card per sign.
+Rowan: Both can. Subitems can show on a card view, the linked board definitely can.
+Teodor: Then I don't care which one, I care that it's per sign.
+Marguerite: And I care that I open the job and see the job.
+Rowan: Both do that too.
+Dale: Then what's the difference?
+Rowan: The difference is, um, it's a bit technical. Where the install date lives, whether the shop's workload counts signs or jobs, how it prints. And what you can undo. Subitems, once you've got them, you've got them.
+Ilse: I'd say let's not decide that now. Rowan, can you bring both shapes next time so they can see them side by side?
+Rowan: I can bring the two-board version. This one's the subitem version, more or less.
+Teodor: Bring the one with a card per sign and I'll tell you if it's right.
+Ilse: Okay. Parked, and written down. Teodor, one more thing while we're on the shop. Rowan, can you show the phone?
+# Topic: Phones and the shop
+Rowan: Yes. So Teodor, on your phone, if you open the app, you should see the same shop view. Can you see it?
+Teodor: I see it. It's small.
+Rowan: It's small. You can pick a card and move it. And it caches if the shop wifi drops, no problem, it'll sync when it comes back.
+Teodor: The shop wifi is bad by the paint booth.
+Rowan: Then it'll catch up when you walk out.
+Teodor: Okay. If it's on my phone I'll use it. If it's not it's the whiteboard. I've seen these things. Everybody lives in these things for a month.
+Dale: That's the app from two years ago talking.
+Teodor: That's the app from two years ago talking, yes.
+Rowan: Fair. We've built this shape for a few shops like yours, and the ones where it sticks are the ones where the shop gets its own view. That's why it's there.
+Ilse: And the crews. Dale, you asked at the show whether the crew leads need to be users.
+Dale: Do the crews need a seat each? Four crew leads. I don't want to pay for people who look at one screen on a Tuesday.
+Rowan: Let me check that. I think there's a viewer option that doesn't cost a seat, but I don't want to tell you the wrong thing. I'll come back to you.
+Dale: Okay.
+Marguerite: Can I say something slightly rude?
+Ilse: Please.
+Marguerite: I could colour-code the spreadsheet and get half of this. Red for waiting on landlord. I've thought about it.
+Ilse: You could. What's the other half?
+Marguerite: The other half is Teodor. The spreadsheet's never going to be on his phone, and the status doesn't change itself, and nobody gets told when a date moves. So. I know. I just wanted to say it.
+Dale: She says that every week.
+Marguerite: I do.
+# Topic: The customer view
+Ilse: Last one. Marguerite, this is for you. Rowan?
+Rowan: So this is a view with just what you'd tell a customer. Job, signs, where it is in plain words, the install date if there is one. No costs, no internal notes. The idea is this is what your Monday email is made from.
+Marguerite: It's close. I'd want the landlord on it. Not the date, just, waiting on landlord, so they know it's them.
+Rowan: Easy.
+Marguerite: And the city permit, same. Because half the time it's them holding it up, not us.
+Rowan: Both.
+Ilse: So is this the thing you'd send?
+Marguerite: Not yet. With those two, maybe. Let me see it with those two.
+Ilse: Noted. Not yet.
+# Topic: Wrap-up
+Ilse: Okay. We're at time. So what I've got. The approvals rule, both not one, Dale's happy with that. The job-or-sign question, parked, Rowan brings the two-board shape. Teodor wants a card per sign on a phone. Marguerite wants the two waiting-ons on the customer view. And the seat question for the crews, Rowan's checking. Anything I've missed?
+Dale: The value column goes.
+Rowan: Gone.
+Teodor: And the wifi.
+Rowan: Noted.
+Ilse: So next Thursday, same time, we come back with the shop view and the two approvals done properly, and both shapes. Dale?
+Dale: Third. Yes. Renata still won't come to this one, but if the third's good I'll make her come to the one after.
+Ilse: Then we'll make it good. Thursday the third, two o'clock. I'll send the invite now.
+Teodor: I've got to go, there's a truck.
+Ilse: Go. Thank you, Teodor.

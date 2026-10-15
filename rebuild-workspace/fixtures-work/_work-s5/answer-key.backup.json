@@ -1,0 +1,611 @@
+{
+  "scenario_id": "s5-intro-thin",
+  "call_type": "intro",
+  "purpose_of_this_fixture": "Tests restraint on a thin, 12-minute intro call. A membership coordinator is 'just exploring options' for an executive director who is not on the call. She describes only a vague 'all over the place' disorganization, gives no numbers, has no view of the decision process, offers a secondhand and hedged why-now, mentions that a board member uses association software elsewhere, and doubts the society needs 'a whole system'. The Consultant adds that a better spreadsheet may be enough, and books a 45-minute discovery call for Tuesday the 22nd. Expected verdict: Not ready. R2 (no excavated pain), R4 (no cost inputs at all) and R7 (no decision process) are Missing, and R3 is only Partial. R4 alone forces Not ready, so a grader who reads R2 or R7 as Partial reaches the same verdict. Blueprint gate not met (R2 is not Met). Pricing or proposal gate not met (R4, R7 and R12 are Missing). The plugin must not propose a blueprint or build and must not invent bleed or upside figures from hedged volumes or idioms. It should produce discovery prep for the call booked for Tuesday the 22nd with at most five gap questions, core criteria first, ideally aimed at the executive director. expected_questions_before_building is the full pool in priority order, not a list to ask in one meeting.",
+  "transcript_format": "Rough auto-caption export as plain text with no header and no call date. One line per caption turn: a [HH:MM:SS] timestamp, then the speaker display name ('Consultant', 'Jolene Varga', and a brief interruption captioned 'Speaker 3', identified in the next turn as Wendell), then the words. Mostly lowercase, patchy punctuation with run-ons, filler words, self-corrections, crosstalk and a cut-off turn at [00:10:07], '[inaudible]' gaps (mid-turn at 00:01:51, in place of the membership database's name at 00:04:04, and at 00:10:15), and a caption misspelling 'event bright' for Eventbrite. Numbers are spelled out. Runs about 12 minutes (00:00:02 to 00:11:57), about 1,640 spoken words (about 1,830 including timestamps and speaker labels). Every location in this key is 'HH:MM:SS Speaker Name', taken from the line the quote is on. numbers.bleed.quote and numbers.upside.quote are null because no client line gives a figure (both statuses are missing).",
+  "company": {
+    "name": "Orrin Valley Society of Land Surveyors (called 'the society')",
+    "industry": "Professional membership association (nonprofit) for land surveyors",
+    "size": "About 15 staff ('fifteen-ish', 16 counting a part-time bookkeeper); membership hedged as 'a couple thousand' and unconfirmed; several volunteer committees",
+    "locations": "Not stated. One office is mentioned (parking lot being repaved). Eastern time zone. The region is implied only by the name.",
+    "current_tools": [
+      "Old membership database the staff call 'the portal' (product name inaudible); holds member records and sends renewal reminder emails",
+      "Excel (Jolene's personal renewal tracker)",
+      "A separate spreadsheet for CE / PDH credits (owner unclear)",
+      "Per-person spreadsheets, including Wendell's events spreadsheet",
+      "Email (renewal follow-up, committee email chains)",
+      "Eventbrite, captioned as 'event bright' (some event registrations)",
+      "Form on the society's website (other event registrations)",
+      "Google Docs (committees)",
+      "Phone calls (one committee chair)",
+      "Possibly an abandoned Trello or monday setup by the conference committee (unconfirmed)"
+    ]
+  },
+  "attendees": [
+    {
+      "name": "Consultant",
+      "role": "monday consultant running the intro call",
+      "side": "consultant",
+      "decision_role": "not applicable"
+    },
+    {
+      "name": "Jolene Varga",
+      "role": "Membership coordinator (renewals, new members, helps with events); researching options for the executive director; likely end user; says she is not a decision maker",
+      "side": "client",
+      "decision_role": "influencer"
+    },
+    {
+      "name": "Wendell (captioned 'Speaker 3')",
+      "role": "Runs events (per Jolene); interrupts for a few seconds and does not take part in the call",
+      "side": "client",
+      "decision_role": "unknown"
+    }
+  ],
+  "expected_monday_products": [
+    {
+      "kind": "core",
+      "why": "Tentative only. If monday fits at all, Work Management could cover event planning, volunteer committee tracking and a shared view for the executive director. Nothing is confirmed, no pain is excavated, and a dedicated association management system or a better spreadsheet may fit better. Name it as a possibility, not a recommendation."
+    },
+    {
+      "kind": "crm",
+      "why": "Possible but unconfirmed. Member renewals and lapsed-member follow-up could run as a pipeline, but the existing membership database ('the portal') may stay the system of record, and an association management system is also in play. Raise this as a question; do not assume it."
+    }
+  ],
+  "rubric": [
+    {
+      "criterion": "R1 Current state mapped",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "the member records are in our database, it's called [inaudible] something, it's old, we just call it the portal",
+          "location": "00:04:04 Jolene Varga"
+        },
+        {
+          "quote": "i also keep my own tracker in excel because i don't totally trust it",
+          "location": "00:04:04 Jolene Varga"
+        },
+        {
+          "quote": "some of it goes through event bright and some of it's just a form on our website",
+          "location": "00:05:28 Jolene Varga"
+        },
+        {
+          "quote": "google docs, email chains, one of the chairs just likes to call people",
+          "location": "00:06:09 Jolene Varga"
+        },
+        {
+          "quote": "the conference committee tried trello a while back i think? or it might have been monday actually. i really don't remember",
+          "location": "00:06:09 Jolene Varga"
+        }
+      ],
+      "note": "Tools for renewals, events and committees are named loosely. Missing: an end-to-end walkthrough, how the tools connect, time spent, who touches each step, the database's actual name (inaudible), and whether monday is used today or who set up the old attempt."
+    },
+    {
+      "criterion": "R2 Pain made concrete",
+      "status": "missing",
+      "evidence": [
+        {
+          "quote": "i mean it's just kind of messy? like everybody has their own spreadsheets and their own way of doing things",
+          "location": "00:03:18 Jolene Varga"
+        },
+        {
+          "quote": "not really one that jumps out? it's more of a general feeling.",
+          "location": "00:03:42 Jolene Varga"
+        }
+      ],
+      "note": "Only a vague pain is stated (P1, general disorganization). Asked for a recent example, the client could not give one. No pain is excavated: P1 Concrete is Missing and P1 Workaround only Partial. The renewal walkthrough (00:04:04) describes a process and a duplicate tracker, not an occurrence or how often things slip, so it does not make any pain concrete. This matches the method's scenario test 1 (vague pain only, R2 Missing). A grader who chooses Partial, or who splits renewals out as a second pain with Concrete Partial, reaches the same verdict and the same blocked blueprint gate."
+    },
+    {
+      "criterion": "R3 Why now",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "i think it came up at the board retreat? or maybe it was before that. i honestly don't know what kicked it off.",
+          "location": "00:02:58 Jolene Varga"
+        },
+        {
+          "quote": "i think the contract's up next year? maybe. i'd have to ask denise",
+          "location": "00:04:35 Jolene Varga"
+        },
+        {
+          "quote": "i mean it'd be nice before renewal season gets crazy again but she didn't give me a date or anything",
+          "location": "00:07:28 Jolene Varga"
+        }
+      ],
+      "note": "Secondhand and hedged. The possible triggers (board retreat, portal contract ending, renewal season) are unconfirmed and no date is given. None should be recorded as a confirmed trigger or deadline."
+    },
+    {
+      "criterion": "R4 Bleed number",
+      "status": "missing",
+      "evidence": [
+        {
+          "quote": "i've never actually thought about it in hours",
+          "location": "00:08:34 Jolene Varga"
+        }
+      ],
+      "note": "No hours, headcount, frequency, error or revenue figures. The consultant's time question got no figure. Hedged volumes ('a couple thousand' members, 'fifteen-ish' staff) and the idiom 'instead of asking five people' are not cost inputs. Pricing prep must be held."
+    },
+    {
+      "criterion": "R5 Upside number",
+      "status": "missing",
+      "evidence": [],
+      "note": "Not discussed. No freed capacity and nothing the client wants to do but cannot do today."
+    },
+    {
+      "criterion": "R6 Desired outcome",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "i guess just like one place where we can see stuff? instead of asking five people.",
+          "location": "00:06:45 Jolene Varga"
+        },
+        {
+          "quote": "i think denise just wants to feel like she knows what's going on without having to chase everybody. but you'd really have to ask her that",
+          "location": "00:06:45 Jolene Varga"
+        }
+      ],
+      "note": "The picture of solved is vague, and the leadership view is Jolene's guess about Denise. Any success criteria can only be marked proposed."
+    },
+    {
+      "criterion": "R7 Decision process mapped",
+      "status": "missing",
+      "evidence": [
+        {
+          "quote": "i'm not the one who'd decide anything",
+          "location": "00:02:37 Jolene Varga"
+        },
+        {
+          "quote": "honestly that's above my pay grade. i don't know how that works with the money side, if it goes to the board or what. you'd have to ask denise",
+          "location": "00:07:09 Jolene Varga"
+        }
+      ],
+      "note": "Only known: the executive director (Denise) asked for options, and the attendee does not decide. No approver, spend process, board role or post-yes steps are stated. Recommend having Denise on the next call; she has been asked, but her attendance is unconfirmed. Borderline: a few stakeholder facts exist (who asked for options, who does not decide), so a strict reading of the Partial definition is defensible. Nothing about the process itself (approver, spend route, steps after a yes) was said, and the verdict is Not ready either way because R4 is Missing."
+    },
+    {
+      "criterion": "R8 Priority and timing",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "i don't think it's like urgent urgent. no rush really.",
+          "location": "00:07:28 Jolene Varga"
+        },
+        {
+          "quote": "she didn't give me a date or anything",
+          "location": "00:07:28 Jolene Varga"
+        }
+      ],
+      "note": "Leans towards 'later', is secondhand, and has no target date. Flag as a fit risk. The April annual conference is not tied to this project."
+    },
+    {
+      "criterion": "R9 Blockers surfaced",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "well we're a nonprofit so budget's always a thing",
+          "location": "00:07:46 Jolene Varga"
+        },
+        {
+          "quote": "one of our board members apparently uses some association software at the other group he's on, so she might be looking at that too? i don't know.",
+          "location": "00:07:46 Jolene Varga"
+        },
+        {
+          "quote": "i'm not even sure we're the kind of place that needs a whole system",
+          "location": "00:07:46 Jolene Varga"
+        }
+      ],
+      "note": "Budget sensitivity, a possible competing option and doubt about need are all raised, but only in general, hedged terms. Nothing specific. She answered a direct question, so Met is a defensible alternative reading. The criterion is advisory and does not change the verdict or any gate."
+    },
+    {
+      "criterion": "R10 Next step committed",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "tuesday the twenty second. let me look. [inaudible] okay ten thirty works for me.",
+          "location": "00:10:15 Jolene Varga"
+        },
+        {
+          "quote": "yeah eastern",
+          "location": "00:10:34 Jolene Varga"
+        },
+        {
+          "quote": "so tuesday the twenty second at ten thirty eastern. i'll send the invite today.",
+          "location": "00:10:36 Consultant"
+        }
+      ],
+      "note": "The next step has a specific date and time (Tuesday the 22nd, 10:30 Eastern, about 45 minutes), the client confirmed it, and the Consultant owns the invite. The month is not stated in the transcript. Denise has been asked to join, but she is unconfirmed and 'might only be able to do half'."
+    },
+    {
+      "criterion": "R11 Solution confirmed",
+      "status": "missing",
+      "evidence": [],
+      "note": "Not expected at intro stage: no demo was given and no solution was shown."
+    },
+    {
+      "criterion": "R12 Scope agreed verbally",
+      "status": "missing",
+      "evidence": [
+        {
+          "quote": "do you have like a demo or a price sheet or something i could send denise though? she's going to ask",
+          "location": "00:09:20 Jolene Varga"
+        }
+      ],
+      "note": "No scope was discussed. An early request for a demo or price sheet was redirected to a proper discovery conversation. No proposal draft."
+    },
+    {
+      "criterion": "P1 Stated",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "i mean it's just kind of messy? like everybody has their own spreadsheets and their own way of doing things, and a lot of stuff lives in email.",
+          "location": "00:03:18 Jolene Varga"
+        },
+        {
+          "quote": "and i think things fall through the cracks sometimes",
+          "location": "00:03:18 Jolene Varga"
+        }
+      ],
+      "note": "P1 is general disorganization. Stated in the client's own words, but vague. 'all over the place' itself is Denise's phrase as reported by Jolene (00:02:58)."
+    },
+    {
+      "criterion": "P1 Concrete",
+      "status": "missing",
+      "evidence": [
+        {
+          "quote": "not really one that jumps out? it's more of a general feeling.",
+          "location": "00:03:42 Jolene Varga"
+        },
+        {
+          "quote": "but i couldn't point to like one big disaster or anything",
+          "location": "00:03:18 Jolene Varga"
+        }
+      ],
+      "note": "No recent occurrence, and no what, who or how often of anything slipping. The renewal walkthrough at 00:04:04 describes the process, not the pain happening. Partial is a tolerable reading; either way R2 is not Met."
+    },
+    {
+      "criterion": "P1 Workaround",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "i also keep my own tracker in excel because i don't totally trust it",
+          "location": "00:04:04 Jolene Varga"
+        },
+        {
+          "quote": "everybody has a spreadsheet, that's kind of the theme here",
+          "location": "00:05:28 Jolene Varga"
+        }
+      ],
+      "note": "The workaround (personal spreadsheets) is named, but not why carrying on that way is unacceptable."
+    },
+    {
+      "criterion": "P1 Reach",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "sometimes the bookkeeper asks me who's paid",
+          "location": "00:04:54 Jolene Varga"
+        },
+        {
+          "quote": "with the committees it's hard to know what's happening sometimes",
+          "location": "00:02:24 Jolene Varga"
+        },
+        {
+          "quote": "instead of asking five people",
+          "location": "00:06:45 Jolene Varga"
+        }
+      ],
+      "note": "Hints that the bookkeeper, committees, events and the executive director are affected, but not how each is affected."
+    },
+    {
+      "criterion": "P1 Cost inputs",
+      "status": "missing",
+      "evidence": [
+        {
+          "quote": "some weeks it's most of what i do and some weeks it's barely anything",
+          "location": "00:08:34 Jolene Varga"
+        },
+        {
+          "quote": "i've never actually thought about it in hours",
+          "location": "00:08:34 Jolene Varga"
+        }
+      ],
+      "note": "No usable figure. Jolene said she would try to get 'a rough feel' before the next call."
+    },
+    {
+      "criterion": "P1 Trajectory",
+      "status": "missing",
+      "evidence": [],
+      "note": "Not discussed: nothing about what happens if this stays the same or as membership grows."
+    }
+  ],
+  "pains": [
+    {
+      "quote": "i mean it's just kind of messy? like everybody has their own spreadsheets and their own way of doing things, and a lot of stuff lives in email.",
+      "location": "00:03:18 Jolene Varga",
+      "theme": "General disorganization: information scattered across personal spreadsheets and email (P1, stated only)"
+    },
+    {
+      "quote": "i think things fall through the cracks sometimes. but i couldn't point to like one big disaster or anything",
+      "location": "00:03:18 Jolene Varga",
+      "theme": "Dropped tasks, with no example given"
+    },
+    {
+      "quote": "like you don't always know where something's at",
+      "location": "00:03:42 Jolene Varga",
+      "theme": "No visibility of status"
+    },
+    {
+      "quote": "one place where we can see stuff? instead of asking five people",
+      "location": "00:06:45 Jolene Varga",
+      "theme": "Finding out where things stand means asking several people (implied by her desired outcome; 'five people' is a figure of speech, not a headcount)"
+    },
+    {
+      "quote": "she just said we're all over the place and could i see what's out there",
+      "location": "00:02:58 Jolene Varga",
+      "theme": "Executive director's view, reported secondhand"
+    },
+    {
+      "quote": "with the committees it's hard to know what's happening sometimes. who's doing what",
+      "location": "00:02:24 Jolene Varga",
+      "theme": "Volunteer committee visibility and ownership"
+    },
+    {
+      "quote": "each one kind of runs however their chair wants to run it",
+      "location": "00:01:51 Jolene Varga",
+      "theme": "Inconsistent committee practices"
+    },
+    {
+      "quote": "all over. google docs, email chains, one of the chairs just likes to call people",
+      "location": "00:06:09 Jolene Varga",
+      "theme": "Committee work scattered across Google Docs, email chains and phone calls"
+    },
+    {
+      "quote": "the portal sends the reminder emails, well it's supposed to, and then i also keep my own tracker in excel because i don't totally trust it",
+      "location": "00:04:04 Jolene Varga",
+      "theme": "Renewal reminders not trusted; duplicate tracking of renewals"
+    },
+    {
+      "quote": "oh just, it's clunky. i don't know if it's the portal or how it got set up, that was before my time.",
+      "location": "00:04:35 Jolene Varga",
+      "theme": "Legacy membership database; unclear whether the tool or its setup is the problem"
+    },
+    {
+      "quote": "everybody has a spreadsheet, that's kind of the theme here",
+      "location": "00:05:28 Jolene Varga",
+      "theme": "Spreadsheet sprawl across events and other areas"
+    }
+  ],
+  "numbers": {
+    "bleed": {
+      "value": "not stated",
+      "quote": null,
+      "status": "missing"
+    },
+    "upside": {
+      "value": "not stated",
+      "quote": null,
+      "status": "missing"
+    }
+  },
+  "vocabulary": [
+    {
+      "their_term": "the society",
+      "meaning": "The organization itself (Orrin Valley Society of Land Surveyors)",
+      "likely_monday_object": "workspace name"
+    },
+    {
+      "their_term": "the portal",
+      "meaning": "Old membership database that holds member records and sends renewal reminder emails; real product name inaudible",
+      "likely_monday_object": "external system (possible integration or import source), not a board until confirmed"
+    },
+    {
+      "their_term": "tracker / renewal tracker",
+      "meaning": "Jolene's personal Excel spreadsheet for renewals",
+      "likely_monday_object": "board (renewals); possible import source, blank headers only"
+    },
+    {
+      "their_term": "lapsed",
+      "meaning": "A member who did not renew",
+      "likely_monday_object": "status label"
+    },
+    {
+      "their_term": "renewal season",
+      "meaning": "The recurring busy period for renewals; timing not stated",
+      "likely_monday_object": "group or date column"
+    },
+    {
+      "their_term": "credits / ce hours / the pdh stuff",
+      "meaning": "Continuing education or professional development hours that members track",
+      "likely_monday_object": "column (numbers) on a member item, or a separate board"
+    },
+    {
+      "their_term": "education committee / professional development committee",
+      "meaning": "The same committee, renamed; Jolene still uses the old name",
+      "likely_monday_object": "item on a committees board (use the current name)"
+    },
+    {
+      "their_term": "committees",
+      "meaning": "Volunteer committees: professional development, conference, legislative, young professionals (may be defunct)",
+      "likely_monday_object": "board (one item or group per committee)"
+    },
+    {
+      "their_term": "chair",
+      "meaning": "Volunteer member who runs a committee",
+      "likely_monday_object": "people column (likely guest or limited access)"
+    },
+    {
+      "their_term": "the board / board retreat / board members",
+      "meaning": "The society's board of directors, not a monday board",
+      "likely_monday_object": "none (stakeholder group); avoid a naming clash with monday boards"
+    },
+    {
+      "their_term": "the annual conference / the big one",
+      "meaning": "Yearly conference held in April",
+      "likely_monday_object": "item or group on an events board, or its own project board"
+    },
+    {
+      "their_term": "chapter meetings / webinars / field days",
+      "meaning": "Other event types; field days are in summer",
+      "likely_monday_object": "dropdown or status column (event type) on an events board"
+    },
+    {
+      "their_term": "members",
+      "meaning": "Surveyors, firms, students and retired members",
+      "likely_monday_object": "item (members board or CRM contacts)"
+    }
+  ],
+  "entities_and_workflows": [
+    "Member renewals: portal reminder emails, Jolene's Excel tracker, lapsed status, email follow-up with some lapsed members (sequence and volumes unconfirmed)",
+    "New member intake (mentioned, not described)",
+    "Member types: surveyors, firms, students, retired members",
+    "CE / PDH credit tracking for professional development (separate spreadsheet, owner unclear)",
+    "Payment status checks by the part-time bookkeeper",
+    "Events: annual conference in April, chapter meetings, webinars, summer field days; registrations via Eventbrite and a website form; Wendell's events spreadsheet",
+    "Volunteer committees: professional development (formerly education), conference, legislative, young professionals (status uncertain); each chair runs theirs differently",
+    "Committee work held in Google Docs, email chains and phone calls",
+    "Executive director (Denise) wants to know what is going on without chasing people (secondhand)",
+    "Board of directors: retreat, possible spend approval (unconfirmed)",
+    "Earlier abandoned Trello or monday setup by the conference committee"
+  ],
+  "integrations_mentioned": [
+    "Membership database 'the portal' (product name inaudible; contract possibly ends next year)",
+    "Excel",
+    "Eventbrite (captioned 'event bright')",
+    "Website registration form",
+    "Google Docs",
+    "Email (client not named)",
+    "Trello or monday (earlier abandoned committee attempt; unconfirmed which)",
+    "Unnamed association management software a board member uses elsewhere"
+  ],
+  "compliance_or_security_signals": [
+    "The renewal tracker contains member personal data (addresses, license numbers). Jolene has to check whether she may share it; the Consultant asked for a blank copy with column headers only and no personal details.",
+    "Members hold professional licenses and track CE / PDH credits, so license and credit data may carry accuracy or regulatory expectations [inferred]",
+    "Nonprofit: spending may need board approval (unconfirmed)",
+    "Volunteer committee chairs are members, not staff, so any solution may need guest or limited access [inferred]"
+  ],
+  "objections": [
+    {
+      "quote": "and honestly i don't want to waste your time, i'm not even sure we're the kind of place that needs a whole system",
+      "type": "Doubt about need; a small fix may be enough (fit risk)"
+    },
+    {
+      "quote": "well we're a nonprofit so budget's always a thing",
+      "type": "Price (anticipated; R4 missing)"
+    },
+    {
+      "quote": "one of our board members apparently uses some association software at the other group he's on",
+      "type": "Alternatives in play (association management software)"
+    },
+    {
+      "quote": "honestly that's above my pay grade",
+      "type": "Check with someone (approver not on the call; R7 missing)"
+    },
+    {
+      "quote": "no rush really",
+      "type": "Timing / not a priority (R3 and R8 weak)"
+    },
+    {
+      "quote": "do you have like a demo or a price sheet or something i could send denise though? she's going to ask",
+      "type": "Early request for pricing or a demo before scope (R12 skipped)"
+    },
+    {
+      "quote": "somebody set something up and then nobody used it",
+      "type": "Adoption (anticipated; an earlier committee tool setup was abandoned)"
+    },
+    {
+      "quote": "is monday like a project management thing? i thought it was for marketing agencies",
+      "type": "Product fit doubt (sees monday as a marketing-agency tool; anticipated fit question)"
+    }
+  ],
+  "commitments_and_next_steps": [
+    {
+      "quote": "so tuesday the twenty second at ten thirty eastern. i'll send the invite today.",
+      "what": "Discovery call of about 45 minutes; Consultant sends the calendar invite to Jolene",
+      "owner": "Consultant",
+      "date": "Invite on the day of the call (date not in transcript); meeting Tuesday the 22nd, 10:30 Eastern (month not stated)"
+    },
+    {
+      "quote": "i'll put a few lines in the invite about what we'll cover so she knows what she's walking into",
+      "what": "Add a short agenda to the invite so Denise knows what the call covers",
+      "owner": "Consultant",
+      "date": "With the invite, day of the call"
+    },
+    {
+      "quote": "just send it to me and i'll forward it. i want to check with her first",
+      "what": "Forward the invite to Denise after checking with her",
+      "owner": "Jolene Varga",
+      "date": "Before Tuesday the 22nd (not stated)"
+    },
+    {
+      "quote": "i'll ask denise if she can hop on, she might only be able to do half",
+      "what": "Ask the executive director to join the discovery call",
+      "owner": "Jolene Varga",
+      "date": "Before Tuesday the 22nd (not stated)"
+    },
+    {
+      "quote": "yeah i can ask wendell, he'd know",
+      "what": "Find out whether the conference committee's old setup was Trello or monday, and whether that account still exists",
+      "owner": "Jolene Varga",
+      "date": "No date given"
+    },
+    {
+      "quote": "okay yeah i can do that. roughly",
+      "what": "Get a rough feel for how much of her week goes to renewals",
+      "owner": "Jolene Varga",
+      "date": "'over the next week or so', before the next call"
+    },
+    {
+      "quote": "let me check if i'm allowed to send that",
+      "what": "Check whether the renewal tracker can be shared; send a blank copy with column headers only ('yeah i can probably do that')",
+      "owner": "Jolene Varga",
+      "date": "No date given; hedged ('probably')"
+    }
+  ],
+  "traps": [
+    "Mentions of 'the board', 'board retreat' and 'board members' mean the board of directors, not a monday board. Do not create boards from these mentions.",
+    "'or it might have been monday actually' is unconfirmed, and in lowercase captions it could read as the weekday. Ask whether an old monday account exists before assuming a new or existing account.",
+    "The membership database's name is [inaudible]. Its capabilities, export options and contract end ('next year? maybe') are unknown, and it may remain the member system of record.",
+    "Member count ('a couple thousand members? don't quote me on that') and staff count ('fifteen-ish') are hedged. Do not use them as volumes or cost inputs.",
+    "'instead of asking five people' is a figure of speech, not a headcount or cost input.",
+    "Neither the April annual conference nor 'renewal season' is a stated deadline for this project, and the timing of renewal season is never given.",
+    "Everything about Denise (what prompted this, her desired outcome, budget, the decision) is secondhand or guessed by Jolene. Do not record it as Denise's own statement.",
+    "Denise's attendance on the 22nd is unconfirmed ('she might only be able to do half'). Prep should work with or without her.",
+    "Product fit is unclear: a dedicated association management system, or 'a better spreadsheet and a couple of habits', may fit better, and the Consultant said so on the call. Do not propose a blueprint or build.",
+    "The renewal tracker contains personal data and may never arrive. Only a blank copy with headers was requested; never use member details for seed data.",
+    "One committee has two names (education / professional development), and the young professionals committee may no longer exist.",
+    "'Speaker 3' is identified as Wendell only by Jolene's next turn. He interrupts for a few seconds about another meeting and says nothing about the project; do not attribute views or a decision role to him.",
+    "The transcript carries no call date, so the month of 'tuesday the twenty second' has to come from the file's metadata or the Consultant, not a guess.",
+    "No price or rate was given ('pricing honestly depends on what we find'). Do not generate pricing or a proposal.",
+    "Denise is not a confirmed approver: Jolene does not know whether spend goes to the board. Record the approver as unknown rather than defaulting to the executive director.",
+    "'i follow up with some of them' suggests not every lapsed member gets a follow-up, but no pain, count or lost-dues figure was stated. Ask about it; do not assume a revenue leak.",
+    "'somebody set something up and then nobody used it' is an adoption warning from an earlier attempt, not a stated pain. Carry it as an anticipated objection and ask what happened.",
+    "The Consultant did ask about the decision, timing, blockers and time spent, and every answer was hedged or 'ask denise'. These are asked-but-unanswered gaps. Next prep should redirect them to Denise or reframe them, not repeat them to Jolene word for word.",
+    "'some weeks it's most of what i do and some weeks it's barely anything' is not an hours figure. Do not turn 'most of what i do' into a share of a salary or any bleed estimate; she only agreed to try to get a rough idea before the next call."
+  ],
+  "requested_changes": [],
+  "should_plugin_propose_a_build": false,
+  "expected_questions_before_building": [
+    "(R2 / P1 Concrete) When did something last slip through the cracks, whether a renewal, an event or a committee task? What happened, and who noticed?",
+    "(R2 / P1 Workaround) What do you do today to keep on top of it, and what stops you carrying on that way?",
+    "(R3, for Denise) What has made this matter now rather than last year? Did it come from the board retreat, and does the portal contract end soon (when)?",
+    "(R4) Across renewals, events and committees, roughly how many hours a week go into chasing, re-entering or reconciling information? Does every lapsed member get a follow-up, and if not, roughly how many drop away in a year?",
+    "(R7) Who else has a say, who approves spending, does it go to the board, and what happens after a yes?",
+    "(R1) Walk through one renewal end to end: portal reminder, tracker, lapsed status, follow-up, the bookkeeper's payment check, CE credits. Who touches each step, and for how long?",
+    "(R1 / adoption) Does the society already have a monday account from the conference committee's earlier attempt? Who set it up, what is in it, and why did people stop using it?",
+    "(R6, for Denise) If this were running well, what would a normal week look like, and what would the board count as a win?",
+    "(R8) Is this for this quarter or later? Is there a real deadline, such as renewal season, the April conference or the end of the portal contract?",
+    "(R9 / alternatives) Is Denise also looking at association management software? What would make the choice clear?",
+    "(Fit) Would the portal stay as the member record, and can it export or connect to other tools?",
+    "(Access and data) Would volunteer committee chairs need access, and which member data (addresses, license numbers, credits) may be stored in a new tool?"
+  ],
+  "expected_verdict": {
+    "verdict": "Not ready",
+    "gates_met": [],
+    "gates_not_met": [
+      "Solution blueprint: needs R1 at least Partial and R2 Met. R1 is Partial, but R2 is Missing because no pain is excavated (P1 Concrete Missing, P1 Workaround Partial).",
+      "Build: the method adds no gate beyond the Consultant's approval stop, but there is no blueprint to approve, so this step is not reached.",
+      "First demo (v0.1): the method adds no requirement of its own, but it follows a build, which is not reached, so no demo should be prepared.",
+      "Pricing or proposal prep: needs R4, R7 and R12 Met. All three are Missing.",
+      "v1.0 sign-off: needs R6 success criteria agreed and R11 Met for every in-scope pain. R6 is Partial with nothing agreed, and R11 is Missing (no demo)."
+    ],
+    "note": "Verdict criteria: R2 Missing, R3 Partial, R4 Missing, R7 Missing. Any Missing gives Not ready, and R4 alone is enough, so reading R2 or R7 as Partial does not change the verdict. No stage gate is met. First demo (v0.1) has no gate of its own but follows a build, which is blocked, so no demo should be prepared. The per-call check R10 is Met (Tuesday the 22nd, 10:30 Eastern). Expected output: the Not ready verdict with a one-line reason, a call summary, and discovery prep for the 22nd with at most five gap questions, core criteria first (R2, R3, R4, R7), aimed at Denise where they concern her. The method lets the Consultant override the blueprint gate, but the plugin should not suggest it."
+  }
+}

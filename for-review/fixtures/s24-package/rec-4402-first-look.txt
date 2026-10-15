@@ -1,0 +1,212 @@
+════════════════════════════════════════════════════════════════
+Recording       First look - Penhallow
+Recording ID    rec-4402
+Date            2026-07-23
+Duration        15:29
+Host            Clodagh Rennard
+Participants    Clodagh Rennard (host); Kofi Danquah; Wade Strickler; Gwen Tarrant; Jesse Corrigan; Lupe Arrieta; Notetaker (recording assistant)
+Transcript      automatic, en-US; speaker labels from meeting accounts
+Highlights      - Two options were discussed for tracking production pieces (sub-items or a separate board).
+                - Customer proof approval from email without login was demonstrated.
+                - Follow-up session scheduled for August 6 at 10:00.
+════════════════════════════════════════════════════════════════
+
+── Opening ──
+
+Clodagh Rennard · 00:06
+Morning, everyone. Kofi's with me this time. Kofi, this is Wade, Gwen and Jesse.
+Kofi Danquah · 00:14
+Morning. Good to meet you all. Clo's told me a lot.
+Wade Strickler · 00:21
+Morning.
+Gwen Tarrant · 00:23
+Hi. I've got until eleven and then I've gotta be on the floor.
+Clodagh Rennard · 00:31
+We'll be done by eleven. So, when we spoke two weeks ago, you told us three things, and I want to make sure we build around them and not around what we like showing. Jesse answers where's-my-job by walking. Gwen chases proofs and art, and the press prints the wrong version off the drive. And installs, installs run on a group text and Ronnie's head, with fourteen branches coming. Still right?
+Wade Strickler · 01:07
+Still right.
+Jesse Corrigan · 01:10
+Still walking.
+Clodagh Rennard · 01:13
+Then Kofi's going to show you what it could look like, in your words. This is our demo workspace, not yours, so the customers and the jobs on it are made up. Kofi, all yours.
+Kofi Danquah · 01:31
+Sharing now. Can you see a screen with a list of jobs?
+Wade Strickler · 01:38
+We see it.
+
+── Jobs and proofs ──
+
+Kofi Danquah · 01:43
+So this is a board. Every row is a job. I've set it up the way Jesse described it. Job number on the left, that's your five digits, I've just typed them in for now. Customer. Due date. Who owns it, that's the account manager. And then the stage, which is the, the thing Jesse cares about. Quoted, art, proof out, approved, in production, ready, installed, invoiced.
+Jesse Corrigan · 02:17
+That's my spreadsheet with colors.
+Kofi Danquah · 02:21
+It's your spreadsheet with colors, that's exactly right, except everyone's looking at the same one. So let's say this is the Valley branch job, due the fourteenth, four thousand two hundred dollars, and Nate sends the proof. He changes this one column to proof out. Now watch the date column next to it. It stamps when it went out. And I've set a rule. If it's still on proof out after three days, Jesse gets a notification, and it goes red.
+Jesse Corrigan · 03:02
+So I'd see it go red.
+Kofi Danquah · 03:06
+You'd see it go red, and you'd get a message. You wouldn't have to look.
+Jesse Corrigan · 03:15
+Yeah. That's the call I get. If I can see that, that's the call gone.
+Kofi Danquah · 03:24
+So that's the where's-my-job call, answered from the screen. And the three-day rule, that's the nine days that doesn't happen.
+Clodagh Rennard · 03:35
+Does three days feel right, Jesse? Or is that too eager?
+Jesse Corrigan · 03:42
+Three's about right. Two for the credit union.
+Kofi Danquah · 03:47
+We can set it per customer, or per job. Now, the approval itself. When the customer says yes, that comes in as an email today, and somebody has to move it to approved. What we can do is send them the proof from here, and the customer can approve the proof straight from the email, no login, and it moves to approved on its own.
+Gwen Tarrant · 04:20
+They don't need an account?
+Kofi Danquah · 04:24
+No. They just click.
+Gwen Tarrant · 04:28
+That'd be the thing. That's Nate's inbox gone.
+Clodagh Rennard · 04:33
+Let's keep going, we can come back to that.
+Wade Strickler · 04:39
+Does it talk to the estimating system? The job number, the customer, all of that's already typed in once over there.
+Kofi Danquah · 04:51
+It can, usually. Um, I'd have to look at what your estimating system exposes. Most of them have an export. For the first version I'd have Jesse type the number in, it's five digits, and we connect it properly once I've seen what's on the other end.
+Wade Strickler · 05:15
+Okay.
+Clodagh Rennard · 05:17
+Kofi, add that to your list.
+Kofi Danquah · 05:21
+It's on my list.
+
+── Production ──
+
+Kofi Danquah · 05:27
+Now production. Gwen, this is your part. So a job has, a job has pieces. The Valley branch job has, let's say, the monument sign faces, the window vinyl, the interior wayfinding set, and the lobby wall graphic. Four pieces, four different paths. The faces go to the flatbed. The vinyl goes to the plotter and gets weeded. The wayfinding goes to print, laminate, cut. So under the job, I've put the pieces as sub-items. You open the job, there they are. Each one has its own stage. Printed, laminated, cut, QC, ready.
+Gwen Tarrant · 06:12
+Okay.
+Kofi Danquah · 06:14
+And here's a view for the floor. This is the same information, filtered. Everything that's on the laminator today.
+Gwen Tarrant · 06:25
+Hmm.
+Kofi Danquah · 06:27
+Not what you expected?
+Gwen Tarrant · 06:31
+No, it's, that's the thing though. On the floor I don't care about the job. I care about the pieces. The laminator needs to see every piece that's coming to it today, across every job. And the plotter guy needs his list. And I need to see which pieces are done so I know the job's done. The job's Jesse's thing.
+Jesse Corrigan · 07:02
+And I'm the opposite. When the branch manager calls, I want one line. The Valley branch job, where is it. I don't want to scroll through fourteen pieces.
+Gwen Tarrant · 07:17
+No, you're right, you want the job.
+Jesse Corrigan · 07:22
+And you want the pieces.
+Gwen Tarrant · 07:26
+We're not disagreeing. A job's got pieces. The pieces are what I run, the job's what they buy.
+Kofi Danquah · 07:36
+You're both right, and that's a real choice. There are, um, two ways to do it. The way I've shown you, the pieces live under the job, as sub-items, so the job comes first and you open it to see the pieces. Or the pieces get their own board, a production board, one row per piece, connected back to its job, so Gwen's floor views come first and Jesse's job row shows a rolled-up status from the pieces.
+Gwen Tarrant · 08:15
+Could the pieces be their own rows? On their own board? So I can sort by what's on the laminator.
+Kofi Danquah · 08:26
+That's the second way, yes.
+Gwen Tarrant · 08:30
+I'd want the separate one.
+Jesse Corrigan · 08:34
+I'd want to see the job first. But if the job row still shows me where it is, I don't care where the pieces live.
+Wade Strickler · 08:48
+I care that both of you use it.
+Kofi Danquah · 08:53
+You could do it either way, honestly. And we can always change it later.
+Clodagh Rennard · 09:01
+We can figure that out. Let's not decide it on a first look. Kofi, show them the floor view either way.
+Kofi Danquah · 09:13
+So, on the laminator today. Say Jesse's out sick and the proof comes back, it doesn't matter, the piece moves on its own when the job moves to approved. Six pieces on the laminator, three on the plotter. That's Gwen's seven-thirty, on a screen.
+Gwen Tarrant · 09:36
+If it's on a screen on the wall, yes. If it's on a laptop in my office, no.
+Kofi Danquah · 09:46
+It can be a screen on the wall. It's a web page.
+Gwen Tarrant · 09:53
+Then that's my seven-thirty.
+Kofi Danquah · 09:57
+Let me note that as the floor view, and that it's on a wall.
+
+── Wrong version ──
+
+Kofi Danquah · 10:07
+Now the file. Gwen, you said the press runs the wrong version. So here on the job there's a files column. Every version Nate uploads goes here, in order. Version one, version two, version three. And when the job moves to approved, this column, approved file, gets set to the one that was approved.
+Gwen Tarrant · 10:35
+Who sets it?
+Kofi Danquah · 10:38
+Nate would, when he moves it to approved. Or it comes across from the, from the approval.
+Gwen Tarrant · 10:47
+So it's still a person picking the right file.
+Kofi Danquah · 10:53
+It's a person picking it once, at approval, instead of an operator picking it at the press.
+Gwen Tarrant · 11:03
+It's still a person picking the right file. That's what we have now, with a stapler.
+Clodagh Rennard · 11:12
+What would make it not a person?
+Gwen Tarrant · 11:17
+If the approved one was the only one they could see. If the old ones went away.
+Kofi Danquah · 11:27
+That's doable, I think. Let me look at how the files column behaves when you, uh, restrict it. I'll come back on that.
+Gwen Tarrant · 11:39
+Okay.
+Clodagh Rennard · 11:41
+On the list, Kofi.
+Kofi Danquah · 11:45
+On the list.
+
+── Installs ──
+
+Kofi Danquah · 11:50
+Installs. Wade, this is yours. Separate board, one row per install. Job, branch, crew, date, and a calendar view. So here's the week. Crew A is at Valley on Tuesday. Crew B is at Cheney on Tuesday. If I drag Crew B to Valley on the same day, it warns me, because I've set a rule that two rows with the same crew and the same day go red.
+Wade Strickler · 12:25
+That's closer. Ronnie won't look at it, but I would.
+Kofi Danquah · 12:31
+What would Ronnie look at?
+Wade Strickler · 12:35
+His phone. If it's on his phone he'll look at it.
+Kofi Danquah · 12:42
+There's a phone app. Same board, same rows.
+Wade Strickler · 12:47
+Then maybe. Put the permit on it. Pulled, not pulled.
+Kofi Danquah · 12:53
+Adding a permit column. Pulled, not pulled, not needed.
+Wade Strickler · 12:59
+Not needed's good. Half of them don't need one.
+Clodagh Rennard · 13:05
+Anyone see a step I've skipped? Anything on the floor that's not on here?
+Gwen Tarrant · 13:13
+Materials. None of this knows whether I've got the substrate. A piece can be approved and sitting in the queue and I've got no reflective in the building.
+Kofi Danquah · 13:28
+That's a fair one. A column on the piece, material, and whether it's in. I've not built that. Let me put it on the list rather than pretend.
+Gwen Tarrant · 13:43
+Fine.
+
+── Close ──
+
+Clodagh Rennard · 13:47
+Let me check where we are. Jesse, the proof status and the three-day rule, does that answer your call?
+Jesse Corrigan · 13:58
+It does.
+Clodagh Rennard · 14:01
+Gwen, the floor view, if it's on the wall and it's by piece.
+Gwen Tarrant · 14:09
+If it's by piece. I'm not sold on the sub-item thing.
+Clodagh Rennard · 14:16
+Understood. Wade, installs.
+Wade Strickler · 14:19
+Closer. Phone and permit.
+Clodagh Rennard · 14:23
+Then I think we owe you a second session to go through the production side properly, with the pieces done both ways, and the permit, and the phone. How's the sixth of August, same time?
+Wade Strickler · 14:41
+Sixth works.
+Gwen Tarrant · 14:44
+Morning's better for me, I've got the floor after lunch.
+Clodagh Rennard · 14:50
+Ten it is. Coffee, you'll have the pieces both ways by then?
+Kofi Danquah · 14:57
+Both ways. And I'll have looked at the estimating system export and the files thing.
+Clodagh Rennard · 15:06
+And Jesse, thank you for the spreadsheet, that's what this was built from.
+Jesse Corrigan · 15:14
+You can tell.
+Clodagh Rennard · 15:17
+See you on the sixth.
+Wade Strickler · 15:21
+Thanks, both.

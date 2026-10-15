@@ -1,0 +1,2307 @@
+{
+  "scenario_id": "s7-discovery-service-desk",
+  "call_type": "discovery",
+  "purpose_of_this_fixture": "Tests a strong Service discovery call where the client's own word for a ticket tempts a look-alike board, and where three of the things they most want are deferred beyond v1. A facilities maintenance company is missing contractual response times, has been put on a ninety-day performance plan by its largest client, and faces that client's renewal in January. The help desk calls tickets \"work orders\", so the correct build is the account's NATIVE monday Service Tickets board relabelled to their vocabulary, never a new 'Work Orders' board, and never an extension of the abandoned 'work order tracker' the IT admin built himself two years ago. The client portal they ask for, the email-to-ticket intake they ask for, and per-contract SLA policy calculation are all deferred Service extras: the plugin must say so plainly, design a v1 that works without them (a queue with an owner, a priority in their words and a target date), and put the three on the backlog. The account is loosely described as Standard tier by the IT admin, so plan limits (automation action caps, dashboard board counts, guest and viewer access, single sign-on) and whether Service is provisioned at all are live preflight questions rather than assumptions. Expected verdict: Nearly ready. R2, R3 and R7 are Met and R4 is Partial, because the client gave good hours but explicitly refused to confirm the total until her CFO supplies the real loaded rate. The blueprint, build and first-demo gates are met; pricing and proposal prep stays shut (R4 and R12 Partial, and pricing is out of v1 anyway) even though the client asked for a number to show the CFO. R10 is Partial: a day was agreed but no time, because the CFO's availability is unknown, so the plugin must flag the missing time and propose one. Carries the objection 'monday itself is the problem' (they tried monday two years ago and it did not stick) and 'We'll build it ourselves' from the same IT admin, neither of which appears anywhere else in the fixture set, plus the first existing monday account with live boards belonging to other teams. expected_questions_before_building is the full pool in priority order, not a list to ask in one meeting.",
+  "transcript_format": "SRT subtitle file. Numbered cues in order from 1, each with a timing line of the form 'HH:MM:SS,mmm --> HH:MM:SS,mmm' (comma before the milliseconds) and cue text that starts with the speaker's display name and a colon: 'Consultant', 'Yvette Carnahan', 'Tansy Whitlock', 'Curtis Vandergrift'. 267 cues running from 00:00:03,000 to 00:41:28,290, so about 41 and a half minutes, with about 5,401 spoken words counted as alphanumeric tokens excluding the speaker labels and timings. Client talk share is 62 percent, just above the method's 60 percent target, and the longest single Consultant cue is 89 words (cue 217), under the 225-word proxy for a long stretch. Two long turns continue into a second or third cue, which repeats the speaker label (cue 175 continues the Consultant's cost arithmetic from cue 174; cues 242 and 243 continue the scope play-back from cue 241), so a quote must sit inside one cue. Deliberate transcript artefacts: cues 13 and 14 are an identical duplicated caption pair ('Tansy Whitlock: Sorry, can you hear me? My headset's being weird.'); cue 33 is mis-attributed, labelled 'Tansy Whitlock' but plainly the Consultant's question ('[laughs] That's a good line. Does anything connect the two?'); '[inaudible]' swallows the name of a competing facilities system at cue 234; '[laughs]' appears several times. No load-bearing evidence sits on the duplicated or mis-attributed cues. Every location in this key is 'cue N, HH:MM:SS,mmm, Speaker Name', taken from the cue the quote sits in, for example 'cue 96, 00:14:05,690, Yvette Carnahan'. The transcript carries no call date and no year.",
+  "company": {
+    "name": "Ainsworth Facility Services (called 'Ainsworth')",
+    "industry": "Commercial facilities maintenance under contract: HVAC, plumbing, electrical and general handyman work, split between reactive service calls and contracted preventive maintenance",
+    "size": "About 140 people. Ninety-some field technicians, plus field supervisors and office staff. Client services (the help desk) is nine people including its lead. Reactive volume is about four hundred calls a week across three branches, which the client says does not include preventive maintenance visits.",
+    "locations": "Main office in Chattanooga, Tennessee, with branches in Knoxville, Tennessee and Roanoke, Virginia. Roanoke arrived through an acquisition and still works its own way. Eastern time zone [inferred from the locations; the transcript never states a time zone].",
+    "current_tools": [
+      "Shared Excel file on SharePoint, one tab per month, holding work orders (the reactive system of record)",
+      "A physical whiteboard with magnets in the dispatch room (the real technician schedule)",
+      "Microsoft 365: shared 'service inbox' mailbox, Outlook rules and folders, SharePoint",
+      "Sage 300 for accounting, job costing, invoicing and contract values, plus preventive maintenance schedules",
+      "A separate preventive maintenance spreadsheet kept by Odette because Sage will not show them what they need",
+      "ServiceChannel, which is Brightmoor's vendor portal; Ainsworth staff must accept, update and close work orders inside it",
+      "Fairlane's own maintenance system (product not named), used the same way",
+      "monday.com: an existing paid account from two years ago, loosely described as Standard, with a safety inspections board, an estimating bid board and an abandoned work order tracker",
+      "Text messages and phone calls to technicians and field supervisors; a legal pad for chasing escalations",
+      "An after-hours answering service that emails the service inbox",
+      "A paper binder plus Word documents on SharePoint as the knowledge base",
+      "Paper tickets some technicians fill in and return in the truck on Friday"
+    ]
+  },
+  "attendees": [
+    {
+      "name": "Consultant",
+      "role": "monday consultant running the discovery call",
+      "side": "consultant",
+      "decision_role": "not applicable"
+    },
+    {
+      "name": "Yvette Carnahan",
+      "role": "Director of Client Services. Owns the help desk and the client relationships, takes the quarterly reviews, and is the one being held to the performance plan",
+      "side": "client",
+      "decision_role": "approver for the tool choice ('I decide the tool'), but not for the money: spend over ten thousand is signed by the CFO and over fifty needs the owner to agree, so she is an approver with a spend ceiling and the real budget holder was not on the call"
+    },
+    {
+      "name": "Tansy Whitlock",
+      "role": "Help desk lead in client services. Runs intake and dispatch day to day, builds the monthly client reports by hand, and is the informal knowledge base for the team",
+      "side": "client",
+      "decision_role": "end user, and the strongest influencer on whether this is adopted: she states the adoption test (faster than the spreadsheet at nine on a Tuesday) and her team would abandon it if it fails that"
+    },
+    {
+      "name": "Curtis Vandergrift",
+      "role": "IT administrator, and the whole of IT: phones, laptops, network, Sage. Built the monday work order tracker two years ago that nobody used, and asked the CFO to buy monday in the first place",
+      "side": "client",
+      "decision_role": "admin/owner: he would administer the account and the Microsoft integration, and he is also the source of both the platform objection and the build-it-ourselves objection"
+    }
+  ],
+  "expected_monday_products": [
+    {
+      "kind": "service",
+      "why": "IN v1, and the primary build target. The work orders themselves are tickets: they arrive by phone, by a shared email inbox and through two clients' own portals, they carry a contractual response window per client and priority, they get dispatched and escalated, and they have to be reported on monthly per client. All of that belongs on the account's NATIVE Service template boards, above all the native Tickets board relabelled to 'Work Orders' in their own vocabulary, with the board ids detected and recorded at preflight before anything is written. A new 'Work Orders' board, and reviving or duplicating Curtis's abandoned work order tracker, both fail the native-board rule. Three Service extras the client actively wants are deferred beyond v1 and must be named as later work rather than designed: the client-facing portal for Brightmoor's property managers, email-to-ticket intake from the service inbox, and SLA policy setup that works the clock out per contract. v1 carries the window as a priority and a target date on each work order instead. That shape is the Consultant's proposal (cue 224), which the client accepted; what she said she needs for December is to see what is late ('As long as I can see what's late. That's what I need in December.', cue 225, 00:34:36,090, Yvette Carnahan)."
+    },
+    {
+      "kind": "core",
+      "why": "IN v1, but secondary and to be confirmed rather than assumed. Two candidates the client raised herself and put behind the first cut: preventive maintenance schedules, which are planned recurring visits per contract and are a genuinely different entity from a reactive ticket ('That's a different animal from a call'), currently living in Sage plus Odette's spreadsheet and worth about half the contract value; and the knowledge base that today is a binder plus stale Word documents, which could be monday docs or a board if the account's native Service install has no knowledge-base entity of its own. Both were explicitly 'not first', so they belong on the shown backlog, not in v0.1. No portfolio by default here: the tier is only loosely stated (see expected_structures)."
+    },
+    {
+      "kind": "crm",
+      "why": "NOT expected, and proposing it would be a mistake. Nobody asked for a pipeline. Ainsworth has client organisations, sites and a renewal at risk, and a plausible-looking CRM story could be spun from the January renewal and the spring county bid, but the client never asked to track either, and the renewal is a retention risk rather than a deal they want managed in monday. Client and site records are needed as linked context for work orders; the honest answer is to ask which existing native board should hold them rather than to create an 'Accounts', 'Clients' or 'Buildings' board. If CRM is ever confirmed, those entities must land on the account's native CRM boards (Leads, Contacts, Accounts, Deals/Opportunities, Activities). monday dev is not indicated at all and is outside v1 in any case."
+    }
+  ],
+  "rubric": [
+    {
+      "criterion": "R1 Current state mapped",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "So it comes in one of three ways. Either they call us, which is still most of it, or they email the service inbox, or for two of our clients they put it into their own system and we have to go and find it.",
+          "location": "cue 20, 00:02:12,520, Tansy Whitlock"
+        },
+        {
+          "quote": "Then we open a work order. There's a shared Excel file on the SharePoint with a tab for each month, and we put in the client, the building, what's wrong, who we dispatched it to, the date.",
+          "location": "cue 26, 00:03:10,820, Tansy Whitlock"
+        },
+        {
+          "quote": "Depends on the trade and the branch. There's a whiteboard in the dispatch room, techs down the side, days across the top, and whoever's dispatching moves magnets around. Then we text the tech. Or call him, if it's an emergency.",
+          "location": "cue 30, 00:03:57,940, Tansy Whitlock"
+        },
+        {
+          "quote": "The whiteboard is the truth. The spreadsheet is what we tell people.",
+          "location": "cue 32, 00:04:19,640, Tansy Whitlock"
+        },
+        {
+          "quote": "No. They live in Sage. Sort of. They live in Sage and then they live in another spreadsheet that Odette keeps, because Sage won't show them the way we need to see them.",
+          "location": "cue 43, 00:05:37,280, Yvette Carnahan"
+        },
+        {
+          "quote": "After six it goes to an answering service, and they email the service inbox. So an emergency at seven at night is an email nobody's looking at.",
+          "location": "cue 53, 00:06:55,160, Tansy Whitlock"
+        },
+        {
+          "quote": "Knoxville's the same. Roanoke came in through an acquisition and they've got their own spreadsheet and their own way of doing it, and their own whiteboard, and honestly I can't see any of it from here.",
+          "location": "cue 36, 00:04:36,680, Tansy Whitlock"
+        },
+        {
+          "quote": "I built a work order tracker. Columns for the client, the building, status, who's assigned, a date. It was fine. Nobody used it after about six weeks.",
+          "location": "cue 58, 00:07:36,900, Curtis Vandergrift"
+        },
+        {
+          "quote": "Yeah, we still pay for it. Safety uses it, Rob's got an inspections board he likes. And estimating keeps a bid board in there. Fifteen, twenty people in it maybe.",
+          "location": "cue 65, 00:08:34,520, Curtis Vandergrift"
+        }
+      ],
+      "note": "The strongest R1 in the set. The process is described end to end (intake by phone, email and two client portals, work order opened in Excel, dispatch from a whiteboard, text to the technician, closure reported back by text or a paper ticket on Friday, monthly report built by hand), the tools are named with how they connect, which is mostly a person, the people and their time are quantified, and monday's current use and who built it are both on the record. Known gaps to confirm rather than assume: how Roanoke actually works, the real plan and seat count, whether Service is provisioned, and the true closure timestamps (the recorded close date is when Tansy typed it in)."
+    },
+    {
+      "criterion": "R2 Pain made concrete",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "The one that hurt was July. Brightmoor, the Carrolton building. A chiller went down on a Friday afternoon. It came into the service inbox at four-something on the Friday and nobody opened that inbox again until Monday morning.",
+          "location": "cue 77, 00:10:15,140, Yvette Carnahan"
+        },
+        {
+          "quote": "Two floors of offices with no cooling, in July, all weekend. Their property manager called my cell phone on the Monday at seven in the morning. That was a four-hour emergency and we responded in about sixty-six hours.",
+          "location": "cue 79, 00:10:34,240, Yvette Carnahan"
+        },
+        {
+          "quote": "It works when I'm here. It doesn't work when I'm on vacation, it doesn't work at five past five, and it really doesn't work on a Friday at four-something.",
+          "location": "cue 93, 00:12:53,840, Tansy Whitlock"
+        }
+      ],
+      "note": "Three pains are excavated (Stated, Concrete and Workaround all Met): P1 requests sitting unowned and response windows missed, P2 the monthly report rebuilt by hand and not defensible, P3 escalations to field supervisors going quiet. P1 alone satisfies R2 with a dated incident, a named building, a measured breach (a four-hour window answered in about sixty-six hours) and a workaround the client says fails at exactly the moment it matters. P4 (double entry into the two client portals) is not excavated because its Workaround is Partial, and P5 (knowledge in one person's head) is not, because its Concrete is Partial."
+    },
+    {
+      "criterion": "R3 Why now",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "It led to a quarterly review where their director of operations had a slide with our response times on it. Not our numbers. Theirs, out of ServiceChannel. And then a letter putting us on a ninety-day performance plan. That's a formal thing. It goes in the file.",
+          "location": "cue 81, 00:10:55,280, Yvette Carnahan"
+        },
+        {
+          "quote": "It renews in January. They've told us they'll make the decision on the back of the next two quarterly reviews. The next one is the second week of December.",
+          "location": "cue 83, 00:11:18,900, Yvette Carnahan"
+        },
+        {
+          "quote": "And we have already lost a client over it. Not Brightmoor. Cavender Medical, back in March. Six clinics. Their facilities guy said, and I've not forgotten it, he said I never know if you've got it. He wasn't even angry about the work. Our technicians are good. He just couldn't see anything.",
+          "location": "cue 94, 00:13:07,240, Yvette Carnahan"
+        }
+      ],
+      "note": "An unusually hard why-now: a named trigger event (the July breach), a formal consequence (a ninety-day performance plan in the file), a prior loss of a client for the same reason in March, and two real dates. Keep the two dates apart: the next quarterly review is the second week of December, and the renewal decision is January. Neither is stated as a year and the transcript carries no call date."
+    },
+    {
+      "criterion": "R4 Bleed number",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "Three each, five days a week.",
+          "location": "cue 165, 00:23:38,600, Tansy Whitlock"
+        },
+        {
+          "quote": "Seven, with me.",
+          "location": "cue 167, 00:23:55,140, Tansy Whitlock"
+        },
+        {
+          "quote": "That sounds about right. It might be light, because that doesn't count the sweep at the end of the day.",
+          "location": "cue 169, 00:24:09,080, Tansy Whitlock"
+        },
+        {
+          "quote": "Thirty-five? I'd guess thirty-five all in. Don't hold me to that, Pete would know.",
+          "location": "cue 171, 00:24:25,140, Yvette Carnahan"
+        },
+        {
+          "quote": "And that's the bit I want to push back on. Not the hours. The hours sound right, if anything they're light. But thirty-five is me guessing, and I don't want a wrong number walking around in front of Pete. Let me get the real one from him, and then we can talk about what it adds up to.",
+          "location": "cue 176, 00:25:16,270, Yvette Carnahan"
+        },
+        {
+          "quote": "Half a day a month, more with the follow-up. I'm not going to put a number on my own time.",
+          "location": "cue 110, 00:16:06,700, Yvette Carnahan"
+        }
+      ],
+      "note": "Partial, and a different flavour of Partial from the rest of the set: the hours are good and client-confirmed as 'about right' and probably light, but the rate is the client's own guess and she explicitly refused to confirm the total until the CFO gives her the real loaded number. So the inputs are Met, the math is written out, and the confirmation is missing by the client's own choice. The Consultant's arithmetic (about a hundred and eighteen thousand a year) must never be presented as a confirmed bleed, and the reporting hours were deliberately left unpriced because she would not price her own time. Excluded as unquantified: the Cavender loss (six clinics, no figure) and anything about the Brightmoor renewal, which she declined twice. Pricing prep is held."
+    },
+    {
+      "criterion": "R5 Upside number",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "Rosalie and Miriam would be doing account work. Actual relationships with the property managers instead of data entry. And I'd stop being the escalation path.",
+          "location": "cue 180, 00:26:20,310, Yvette Carnahan"
+        },
+        {
+          "quote": "Yes. There's a county contract going out in the spring. Eleven buildings, and we've seen the draft RFP, and it asks for monthly response-time reporting per building. We can't answer that today. We'd be promising something we can't prove.",
+          "location": "cue 182, 00:26:37,210, Yvette Carnahan"
+        },
+        {
+          "quote": "Not yet. It'll be a real number. I'm not going to invent one for you.",
+          "location": "cue 184, 00:26:58,610, Yvette Carnahan"
+        }
+      ],
+      "note": "The method's second upside question is answered well: there is something concrete she wants to do and cannot, a county contract for eleven buildings whose draft RFP demands monthly response-time reporting per building. What is missing is the conversion to money, and she refused to invent it. Freed capacity is named (two people off the portals, and herself out of the escalation path) but never valued. Keeping Brightmoor is the largest upside and she would not size it. Partial, and no figure may be inferred."
+    },
+    {
+      "criterion": "R6 Desired outcome",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Every work order is in one place, with a clock on it and a name on it. I can look at one screen on a Monday morning and see what's about to breach and who's holding it. And when I walk into a quarterly review, the numbers on my slide came out of the system, and I can click into any line of it while they're watching.",
+          "location": "cue 186, 00:27:16,530, Yvette Carnahan"
+        },
+        {
+          "quote": "And I'd like to not be the system. I'd like to go on vacation and have it still work.",
+          "location": "cue 187, 00:27:45,350, Tansy Whitlock"
+        },
+        {
+          "quote": "Pete would count keeping Brightmoor as a win, and he'd count not hiring a tenth person into client services as a win. Hollis would count the county contract as a win.",
+          "location": "cue 189, 00:27:58,950, Yvette Carnahan"
+        },
+        {
+          "quote": "Yes, actually. Can it be ugly and working in December and pretty afterwards? Because that's what I need. I don't need beautiful.",
+          "location": "cue 262, 00:41:05,370, Yvette Carnahan"
+        }
+      ],
+      "note": "A clear picture of solved in a normal week (one queue, a clock, an owner, a defensible report she can click into in front of the client), a second one from the help desk lead (the process surviving her vacation), and both leadership win conditions named: the CFO counts keeping Brightmoor and not hiring a tenth person, the owner counts winning the county contract. Success criteria drafted from these are marked proposed until agreed. The 'ugly and working in December' line is a direct instruction about sequencing, not a throwaway."
+    },
+    {
+      "criterion": "R7 Decision process mapped",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "I decide the tool. That's mine, client services is my department and this is my problem. The money is Pete's. Anything over ten thousand he signs off, and over fifty he'd want Hollis to nod at it.",
+          "location": "cue 193, 00:28:32,730, Yvette Carnahan"
+        },
+        {
+          "quote": "The owner. He's not in the weeds on this. He'll ask Pete whether it's a good idea, and Pete will ask me.",
+          "location": "cue 191, 00:28:14,990, Yvette Carnahan"
+        },
+        {
+          "quote": "He needs to see that somebody other than Curtis is going to keep it alive. And he needs to see what it costs next to what it saves, and he'll want that second part in writing.",
+          "location": "cue 198, 00:29:14,410, Yvette Carnahan"
+        },
+        {
+          "quote": "He bought monday, two years ago. [laughs] So.",
+          "location": "cue 195, 00:28:52,030, Yvette Carnahan"
+        },
+        {
+          "quote": "If I tell him it's about the January renewal, he'll come.",
+          "location": "cue 200, 00:29:33,890, Yvette Carnahan"
+        }
+      ],
+      "note": "Met: the tool decision is hers, the spend thresholds are named (over ten thousand the CFO signs, over fifty the owner agrees), the route after a yes is described, what the CFO needs to see is stated, prior budgeting experience is on the record and unflattering (he bought monday two years ago and it was not used, and he has mentioned it since), and she will bring him to the next meeting if it is framed around the January renewal. The approver for spend was not on this call, so the recommendation is to have him in the room next time, which is exactly what the next step is for."
+    },
+    {
+      "criterion": "R8 Priority and timing",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "It's a before-December thing. I want to put something in front of Brightmoor at the December quarterly, even if it's partial. Then January is the renewal decision.",
+          "location": "cue 202, 00:29:46,110, Yvette Carnahan"
+        },
+        {
+          "quote": "As long as I can see what's late. That's what I need in December.",
+          "location": "cue 225, 00:34:36,090, Yvette Carnahan"
+        },
+        {
+          "quote": "Whether I can get to December with something that works. If the answer is no, I may as well do the big thing properly next year and take my chances with Brightmoor.",
+          "location": "cue 236, 00:36:33,290, Yvette Carnahan"
+        }
+      ],
+      "note": "Firmly now rather than later, with a real deadline and an explicit test: something working in front of Brightmoor at the December quarterly review, even if partial. The last quote is also the decision criterion between this and the competing facilities system, so the timeline answer has to be honest rather than optimistic."
+    },
+    {
+      "criterion": "R9 Blockers surfaced",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Pete. Not because he's difficult, because he's careful. And the memory of the last one.",
+          "location": "cue 204, 00:30:04,690, Yvette Carnahan"
+        },
+        {
+          "quote": "And me, a bit. I'm one person. I've got the phones, the laptops, Sage, the network, and now this. If it's built so that every little change is a ticket to me, it'll die the same way it died last time.",
+          "location": "cue 205, 00:30:12,030, Curtis Vandergrift"
+        },
+        {
+          "quote": "Can I say the other risk? My team. Not because they won't like it. Because if it's slower than the spreadsheet on a Tuesday at nine with four phones going, they'll go back to the spreadsheet and I won't be able to stop them.",
+          "location": "cue 209, 00:30:50,150, Tansy Whitlock"
+        },
+        {
+          "quote": "I just can't do it this year.",
+          "location": "cue 234, 00:35:59,830, Yvette Carnahan"
+        }
+      ],
+      "note": "Four distinct blockers, each named by the person who owns it: the careful CFO plus the memory of the failed rollout, the single-handed IT admin who will not be the bottleneck for every change, the help desk's own speed test at nine on a Tuesday, and the competing full facilities system that is only postponed rather than dismissed. The adoption blocker here is unusually useful because it comes with the fix: stop re-typing the client, the building and the contact."
+    },
+    {
+      "criterion": "R10 Next step committed",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "Wednesday's usually clear for me. The twenty-third.",
+          "location": "cue 247, 00:39:14,050, Yvette Carnahan"
+        },
+        {
+          "quote": "That depends on Pete, and Pete's doing month-end this week, so I don't want to speak for him. Let me ask him tomorrow and I'll tell you what he says.",
+          "location": "cue 249, 00:39:20,550, Yvette Carnahan"
+        },
+        {
+          "quote": "Then here's what I'll do. I'll hold Wednesday the twenty-third, and I'll send you three times to choose from, and you pick whichever one suits Pete.",
+          "location": "cue 250, 00:39:34,190, Consultant"
+        },
+        {
+          "quote": "Yes. I'll come back to you tomorrow or Thursday.",
+          "location": "cue 253, 00:39:55,350, Yvette Carnahan"
+        }
+      ],
+      "note": "Partial, not Met: R10 needs a date, a time and an owner, and the time is missing. The day is agreed (Wednesday the twenty-third, an hour, with the CFO invited and the help desk lead for the first half), the owner of the invite is clear (the Consultant, once the time comes back), and the client owns coming back tomorrow or Thursday, but no time was fixed because the CFO's month-end availability is unknown and she would not speak for him. The plugin must flag the missing time, and the recap draft must propose specific times rather than repeat 'three times to choose from'. Whether the CFO attends is also unconfirmed. A grader who reads this as Met because a day and an owner exist should still flag the missing time; nothing else in the key changes either way. The month is not stated in the transcript."
+    },
+    {
+      "criterion": "R11 Solution confirmed",
+      "status": "missing",
+      "evidence": [],
+      "note": "Not expected at discovery: nothing was shown and no build exists. No pain can be marked confirmed solved."
+    },
+    {
+      "criterion": "R12 Scope agreed verbally",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "That's the first cut, yeah. Don't hold me to the wording until Pete's heard it. And I'd want to know how the PM side works eventually, because that's half the contract value, but not first.",
+          "location": "cue 244, 00:38:33,550, Yvette Carnahan"
+        },
+        {
+          "quote": "And the knowledge thing. Not first. But I'd want it.",
+          "location": "cue 245, 00:38:48,990, Tansy Whitlock"
+        },
+        {
+          "quote": "Two. Can you send me something with a number on it? Pete is going to ask what it costs before he gives me twenty minutes of his day.",
+          "location": "cue 238, 00:36:56,130, Yvette Carnahan"
+        }
+      ],
+      "note": "Partial. The Consultant played back a four-part first cut and the client agreed it out loud, which is most of the way there, but she withheld final agreement until the CFO has heard it ('Don't hold me to the wording until Pete's heard it') and added two items for later in the same breath. The approver for spend has not heard any of it. So the scope is agreed in draft, not agreed, and the pricing and proposal gate stays shut despite the direct request for a number. The Consultant declined that request on the call and offered a recap plus a scope conversation with the CFO in the room, which is the correct order."
+    },
+    {
+      "criterion": "P1 Stated",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "We are missing response times. And it has already cost us.",
+          "location": "cue 71, 00:09:31,400, Yvette Carnahan"
+        },
+        {
+          "quote": "We don't know whether we're hitting it until somebody tells us we didn't. Usually the client tells us.",
+          "location": "cue 75, 00:10:03,700, Yvette Carnahan"
+        },
+        {
+          "quote": "The inbox. It's a shared mailbox, so everybody can see it and nobody owns it. You open it and there's forty emails, and some of them are work orders and some of them are Marley saying thank you, and you can't tell which ones somebody already dealt with unless they remembered to flag it.",
+          "location": "cue 89, 00:12:02,340, Tansy Whitlock"
+        }
+      ],
+      "note": "P1 is work orders arriving through three unowned channels and sitting, so contractual response windows are missed and nobody knows until the client says so. Stated plainly by both client-side voices, the director in outcome terms and the help desk lead in mechanism terms."
+    },
+    {
+      "criterion": "P1 Concrete",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "The one that hurt was July. Brightmoor, the Carrolton building. A chiller went down on a Friday afternoon. It came into the service inbox at four-something on the Friday and nobody opened that inbox again until Monday morning.",
+          "location": "cue 77, 00:10:15,140, Yvette Carnahan"
+        },
+        {
+          "quote": "Two floors of offices with no cooling, in July, all weekend. Their property manager called my cell phone on the Monday at seven in the morning. That was a four-hour emergency and we responded in about sixty-six hours.",
+          "location": "cue 79, 00:10:34,240, Yvette Carnahan"
+        },
+        {
+          "quote": "It's not isolated. It's the weekends and the evenings and the handoffs. Things sit.",
+          "location": "cue 87, 00:11:53,180, Tansy Whitlock"
+        }
+      ],
+      "note": "A specific dated occurrence with a named client and building, a measured breach against a known window, and a client-side statement that it is a pattern rather than a one-off. The day-to-day shape is also given: evenings, weekends and handoffs."
+    },
+    {
+      "criterion": "P1 Workaround",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "We flag them. Or we drag them into a folder. I've got a rule that drops the Fairlane ones into their own folder. And I do a sweep at the end of my day and anything that looks stuck goes on a sticky note on my monitor.",
+          "location": "cue 91, 00:12:29,200, Tansy Whitlock"
+        },
+        {
+          "quote": "It works when I'm here. It doesn't work when I'm on vacation, it doesn't work at five past five, and it really doesn't work on a Friday at four-something.",
+          "location": "cue 93, 00:12:53,840, Tansy Whitlock"
+        }
+      ],
+      "note": "The workaround is named in detail (flags, folders, an Outlook rule, an end-of-day sweep, sticky notes) and the client says exactly why carrying on with it is not acceptable: it depends on one person being at her desk, and it fails at the precise moment the July breach happened."
+    },
+    {
+      "criterion": "P1 Reach",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Me. The supervisors, because I'm the one calling them. And the branch managers when I can't get hold of a supervisor.",
+          "location": "cue 96, 00:13:33,680, Yvette Carnahan"
+        },
+        {
+          "quote": "And the technicians get it, because they turn up at something that's been sitting three days and the client's already furious with them before they're out of the van.",
+          "location": "cue 97, 00:13:43,360, Tansy Whitlock"
+        }
+      ],
+      "note": "Reaches the director, the field supervisors, the branch managers, the technicians who absorb the client's anger, and the client's own property managers. Named with how each is affected, not just who."
+    },
+    {
+      "criterion": "P1 Cost inputs",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Reactive, so calls, four hundred-ish a week across the three branches. More in the summer when the air conditioning starts going.",
+          "location": "cue 38, 00:04:57,540, Tansy Whitlock"
+        },
+        {
+          "quote": "That was a four-hour emergency and we responded in about sixty-six hours.",
+          "location": "cue 79, 00:10:34,240, Yvette Carnahan"
+        },
+        {
+          "quote": "And we have already lost a client over it. Not Brightmoor. Cavender Medical, back in March. Six clinics.",
+          "location": "cue 94, 00:13:07,240, Yvette Carnahan"
+        }
+      ],
+      "note": "Met on the method's terms, which accept frequency and errors as cost inputs: a weekly volume, a measured breach, and a lost client. No money is attached to P1 itself. The volume is hedged ('four hundred-ish') and explicitly excludes preventive maintenance, and the lost client was never valued, so neither belongs in a bleed figure. Partial is a defensible reading for anyone who requires a money input."
+    },
+    {
+      "criterion": "P1 Trajectory",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "In a year? If we lose Brightmoor in January then we're not growing, we're shrinking, and I'd be looking hard at whether I need nine people in client services. And the contracts we're bidding on now are bigger, and the bigger they are the more reporting they want. So it gets worse, not better, because the work we're chasing has more of this in it.",
+          "location": "cue 99, 00:14:01,100, Yvette Carnahan"
+        }
+      ],
+      "note": "A direct answer to the trajectory question with two mechanisms: losing the largest client shrinks the business and the team, and the work they are bidding for carries more reporting obligation than the work they have. Internal only, since it includes possible headcount reduction."
+    },
+    {
+      "criterion": "P2 Stated",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "I build it. Every month. I pull the spreadsheet, filter it to that client, and go line by line working out whether we made the window.",
+          "location": "cue 101, 00:14:37,380, Tansy Whitlock"
+        },
+        {
+          "quote": "Because I can't take it into a quarterly review if I don't believe it. And last time I didn't believe it, and I was right not to.",
+          "location": "cue 106, 00:15:31,480, Yvette Carnahan"
+        }
+      ],
+      "note": "P2 is the monthly per-client service level report being rebuilt by hand from the spreadsheet, and not being defensible when it matters."
+    },
+    {
+      "criterion": "P2 Concrete",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "We had ninety-four percent on our sheet and they had seventy-eight on theirs. And I couldn't defend either number in the room. That's worse than being wrong. I sat there with nothing to say.",
+          "location": "cue 108, 00:15:45,600, Yvette Carnahan"
+        },
+        {
+          "quote": "The date it came in and the date the technician closed it. Except the date it was closed is the date I typed it in, which might be two days after he actually did it. So I know it's not right. I have to go and ask people.",
+          "location": "cue 103, 00:14:53,800, Tansy Whitlock"
+        }
+      ],
+      "note": "A specific occurrence with both numbers, plus the root cause in the client's own words: the recorded closure date is when the help desk typed it in, not when the technician did the work. That single fact is a hard data-quality requirement for the build."
+    },
+    {
+      "criterion": "P2 Workaround",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Two days. Give or take. Two days out of my month. And then Yvette reads it and finds something that doesn't look right and I do parts of it again.",
+          "location": "cue 105, 00:15:17,840, Tansy Whitlock"
+        },
+        {
+          "quote": "So I know it's not right. I have to go and ask people.",
+          "location": "cue 103, 00:14:53,800, Tansy Whitlock"
+        }
+      ],
+      "note": "The workaround is manual reconstruction plus asking people, and why it fails is stated: the result still cannot be believed, so it gets partly redone, and it still could not be defended in the room."
+    },
+    {
+      "criterion": "P2 Reach",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Odette pulls the PM completion part out of Sage, because that's in the report too. That's another half day of hers.",
+          "location": "cue 112, 00:16:20,720, Tansy Whitlock"
+        },
+        {
+          "quote": "Half a day a month, more with the follow-up. I'm not going to put a number on my own time.",
+          "location": "cue 110, 00:16:06,700, Yvette Carnahan"
+        }
+      ],
+      "note": "Three people touch the monthly cycle (the help desk lead, the director, and Odette for the preventive maintenance completion part out of Sage), and the client's own credibility in front of the client is the fourth casualty."
+    },
+    {
+      "criterion": "P2 Cost inputs",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Two days. Give or take. Two days out of my month. And then Yvette reads it and finds something that doesn't look right and I do parts of it again.",
+          "location": "cue 105, 00:15:17,840, Tansy Whitlock"
+        },
+        {
+          "quote": "Call it twenty. My two days isn't always two days.",
+          "location": "cue 114, 00:16:40,920, Tansy Whitlock"
+        },
+        {
+          "quote": "Odette pulls the PM completion part out of Sage, because that's in the report too. That's another half day of hers.",
+          "location": "cue 112, 00:16:20,720, Tansy Whitlock"
+        }
+      ],
+      "note": "Hours are given per person and then revised down by the client herself: the components sum to about twenty-four hours a month, and she said 'Call it twenty'. Use twenty, her figure, and record twenty-four as the arithmetic alternative; the method says never round up. No money is attached, because the director refused to price her own time, so these hours stay hours."
+    },
+    {
+      "criterion": "P2 Trajectory",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "I mean, it just, it's the same every month. It's not getting worse exactly. It's just always there.",
+          "location": "cue 116, 00:16:51,100, Tansy Whitlock"
+        }
+      ],
+      "note": "Partial: she answered the trajectory question but with a flat, vague answer. It is a standing monthly cost rather than a worsening one, and no growth or volume effect is described. Do not convert 'always there' into a trend, and do not treat the absence of worsening as a reason to drop the pain: the reporting is what the December quarterly review turns on."
+    },
+    {
+      "criterion": "P3 Stated",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "There isn't one, really. There's me calling Dewey.",
+          "location": "cue 118, 00:17:05,360, Yvette Carnahan"
+        },
+        {
+          "quote": "Officially, if a work order is going to blow its window, or the technician can't get in, or it needs a part we haven't got, we escalate it to the field supervisor for that trade in that region.",
+          "location": "cue 119, 00:17:09,580, Tansy Whitlock"
+        },
+        {
+          "quote": "And then nothing, sometimes. You text Dewey and you don't know if he's read it, and he's up on a roof, so fair enough, but I've got a client on hold.",
+          "location": "cue 123, 00:17:34,660, Tansy Whitlock"
+        }
+      ],
+      "note": "P3 is escalation to field supervisors happening by phone and text, with no visible state: the sender cannot tell whether it was received, read or picked up. The official trigger conditions are stated too, which the build can use directly."
+    },
+    {
+      "criterion": "P3 Concrete",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Every day there's one or two. Out of, I don't know, fifteen or twenty escalations a day across the branches, a couple of them just vanish, and then somebody remembers at four o'clock.",
+          "location": "cue 126, 00:17:59,620, Tansy Whitlock"
+        }
+      ],
+      "note": "Day-to-day shape with what, how often and the consequence: one or two of fifteen to twenty daily escalations vanish and resurface late in the afternoon. Both figures are hedged and are volumes to confirm, not cost inputs."
+    },
+    {
+      "criterion": "P3 Workaround",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "I keep a list on a legal pad and I re-text people. That's the system. It's a legal pad.",
+          "location": "cue 128, 00:18:18,680, Tansy Whitlock"
+        },
+        {
+          "quote": "Call or text. Usually text.",
+          "location": "cue 121, 00:17:29,840, Tansy Whitlock"
+        }
+      ],
+      "note": "Named, and the client's own judgement on it is in the repetition: the system is a legal pad. Why it falls short is explicit elsewhere in the same exchange (a client is on hold while nobody knows whether the supervisor has the message)."
+    },
+    {
+      "criterion": "P3 Reach",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "The client feels it first. Then me, because they ring me. And the supervisors will tell you they're getting texted about the same job by three different people, which is also true.",
+          "location": "cue 130, 00:18:30,660, Yvette Carnahan"
+        }
+      ],
+      "note": "Reaches the client first, then the director, then the supervisors who are texted about the same job by several people. The last part is a requirement in disguise: one visible escalation record per work order rather than several parallel texts."
+    },
+    {
+      "criterion": "P3 Cost inputs",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "An hour a day each, easily, for the people who aren't stuck on the portals. Just chasing and re-asking.",
+          "location": "cue 132, 00:18:49,240, Tansy Whitlock"
+        },
+        {
+          "quote": "Seven, with me.",
+          "location": "cue 167, 00:23:55,140, Tansy Whitlock"
+        }
+      ],
+      "note": "An hour a day each for seven people, which is the thirty-five hours a week half of the sixty-five-hour figure. The client qualified it as 'easily', so it is a floor rather than a midpoint, and the rate that would turn it into money is the CFO's to supply."
+    },
+    {
+      "criterion": "P3 Trajectory",
+      "status": "missing",
+      "evidence": [],
+      "note": "Not discussed. Nothing was said about what happens to escalation volume as the business grows or if nothing changes, and the question was not asked. It becomes a gap question for the scoping call."
+    },
+    {
+      "criterion": "P4 Stated",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Brightmoor and Fairlane. Everything they send us we have to accept in their system, then when it's done we close it in their system with a note, and photos sometimes. And we still have to have it in our spreadsheet, because the dispatcher hasn't got a ServiceChannel login.",
+          "location": "cue 134, 00:19:08,720, Tansy Whitlock"
+        },
+        {
+          "quote": "Twice, or three times. And their system logs you out every twenty minutes.",
+          "location": "cue 136, 00:19:33,960, Tansy Whitlock"
+        }
+      ],
+      "note": "P4 is the same work order being keyed into two or three systems because two large clients require their own vendor portals. Note the two meanings of 'portal' in this call: these client-owned portals, and the client-facing portal Ainsworth wants built, which is a deferred Service extra."
+    },
+    {
+      "criterion": "P4 Concrete",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Rosalie is in Brightmoor's portal from eight until half eleven, twelve. Every day. Miriam does Fairlane, which is a smaller account, but she's got the badging to deal with as well, so call it the same. Three hours each. Easily three hours each.",
+          "location": "cue 138, 00:19:44,140, Tansy Whitlock"
+        }
+      ],
+      "note": "Named people, named clients, specific daily hours and a specific mechanism, including the session timeout. As concrete as anything in the call."
+    },
+    {
+      "criterion": "P4 Workaround",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "We type it twice. That's what we do about it.",
+          "location": "cue 142, 00:20:25,560, Tansy Whitlock"
+        },
+        {
+          "quote": "I mean, it's the job. Rosalie hates it. The girl before Rosalie quit, and she said the portal was part of why.",
+          "location": "cue 144, 00:20:33,040, Tansy Whitlock"
+        }
+      ],
+      "note": "Partial: the workaround is named clearly, but why carrying on that way is unacceptable is hedged rather than stated. 'It's the job' accepts it, and the strongest evidence against it is second-hand (a predecessor's reason for leaving) and about morale rather than viability. The contract also makes part of it compulsory, so this pain may be reduced rather than removed, which is why P4 is not excavated even though its Concrete and Cost inputs are the strongest in the call."
+    },
+    {
+      "criterion": "P4 Reach",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "I'd add that the portal work isn't optional. It's in the contract. If we don't close it in their system, we don't get paid.",
+          "location": "cue 145, 00:20:42,780, Yvette Carnahan"
+        },
+        {
+          "quote": "Rosalie is in Brightmoor's portal from eight until half eleven, twelve. Every day. Miriam does Fairlane, which is a smaller account, but she's got the badging to deal with as well, so call it the same. Three hours each. Easily three hours each.",
+          "location": "cue 138, 00:19:44,140, Tansy Whitlock"
+        }
+      ],
+      "note": "Two named staff lose their mornings, the dispatcher cannot see the client's own queue at all (no login), a predecessor left partly over it, and billing depends on it, which reaches finance. The 'we don't get paid' constraint makes this a requirement, not just a pain."
+    },
+    {
+      "criterion": "P4 Cost inputs",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Three each, five days a week.",
+          "location": "cue 165, 00:23:38,600, Tansy Whitlock"
+        },
+        {
+          "quote": "Three hours each. Easily three hours each.",
+          "location": "cue 138, 00:19:44,140, Tansy Whitlock"
+        }
+      ],
+      "note": "Thirty hours a week between two named people, confirmed as a floor ('easily'). This is the other half of the sixty-five-hour figure. Money again depends on the CFO's rate."
+    },
+    {
+      "criterion": "P4 Trajectory",
+      "status": "missing",
+      "evidence": [],
+      "note": "Not discussed. Whether more clients will impose their own portals as Ainsworth bids for larger contracts was never asked, though the R3 and P1 trajectory answers hint at it. Gap question."
+    },
+    {
+      "criterion": "P5 Stated",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "They sit next to me.",
+          "location": "cue 153, 00:22:04,660, Tansy Whitlock"
+        },
+        {
+          "quote": "There's a binder. And there's a folder on the SharePoint with some Word documents in it, and I don't think anybody's opened that since Imani made it.",
+          "location": "cue 157, 00:22:19,720, Tansy Whitlock"
+        },
+        {
+          "quote": "Who to call at each building. Which buildings need badges. The after-hours numbers. Which clients you're allowed to quote a price to and which ones you're not. Fairlane has a whole page about where you're allowed to park.",
+          "location": "cue 159, 00:22:35,960, Tansy Whitlock"
+        }
+      ],
+      "note": "P5 is operational knowledge living in one person and a paper binder, with a stale document folder as the nominal written version. The contents she lists are the natural shape of a knowledge base and of per-site fields on a client or site record."
+    },
+    {
+      "criterion": "P5 Concrete",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "All the time. I couldn't tell you a specific one, it's just the day.",
+          "location": "cue 161, 00:23:00,480, Tansy Whitlock"
+        },
+        {
+          "quote": "More than that. I don't want to guess at it.",
+          "location": "cue 163, 00:23:12,880, Tansy Whitlock"
+        }
+      ],
+      "note": "Partial: asked for a recent occurrence she could not give one, and asked for a frequency she declined to guess. What she does give is a shape ('it's just the day') and a four-month ramp for a new starter, which is close to the day-to-day description the check allows but without the what, who or how often. The honest grade is Partial, and this is why P5 is not excavated. Correct behaviour is to ask, not to fill the gap with an estimate."
+    },
+    {
+      "criterion": "P5 Workaround",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Realistically? Four months before I'd leave them on their own with Brightmoor.",
+          "location": "cue 155, 00:22:09,660, Tansy Whitlock"
+        },
+        {
+          "quote": "There's a binder. And there's a folder on the SharePoint with some Word documents in it, and I don't think anybody's opened that since Imani made it.",
+          "location": "cue 157, 00:22:19,720, Tansy Whitlock"
+        }
+      ],
+      "note": "The workaround is sitting next to the lead for four months, plus a binder and a document folder nobody opens. Why it falls short is carried by the four-month ramp and the staleness of the written version. A grader who calls this Partial because she never says outright that it is unacceptable reaches the same place: P5 is not excavated either way, because Concrete is Partial."
+    },
+    {
+      "criterion": "P5 Reach",
+      "status": "missing",
+      "evidence": [],
+      "note": "Missing: who else is affected by the knowledge sitting in one head was never asked or answered. It plainly reaches new starters and anyone covering her absence, and her R6 wish to go on vacation and have it still work points the same way, but nothing in the transcript states the reach of this pain, so it cannot be graded from inference. Gap question."
+    },
+    {
+      "criterion": "P5 Cost inputs",
+      "status": "missing",
+      "evidence": [],
+      "note": "Missing: she explicitly declined to guess a frequency for the interruptions, and no hours, headcount or error figure attaches to this pain. The four-month ramp is recorded under Workaround as a process fact, not converted into a cost, and no salary or training figure may be inferred from it. A grader who treats the four months as a cost input and marks this Partial changes nothing: P5 is not excavated and the bleed stays unconfirmed."
+    },
+    {
+      "criterion": "P5 Trajectory",
+      "status": "missing",
+      "evidence": [],
+      "note": "Not discussed. Nothing about what happens as the team turns over or grows. Gap question, and a natural one given the possible tenth hire mentioned under R6."
+    }
+  ],
+  "pains": [
+    {
+      "quote": "We are missing response times. And it has already cost us.",
+      "location": "cue 71, 00:09:31,400, Yvette Carnahan",
+      "theme": "P1: contractual response windows missed, with consequences that have already landed (excavated)"
+    },
+    {
+      "quote": "We don't know whether we're hitting it until somebody tells us we didn't. Usually the client tells us.",
+      "location": "cue 75, 00:10:03,700, Yvette Carnahan",
+      "theme": "P1: no internal visibility of the response clock; the client is the monitoring system"
+    },
+    {
+      "quote": "The inbox. It's a shared mailbox, so everybody can see it and nobody owns it.",
+      "location": "cue 89, 00:12:02,340, Tansy Whitlock",
+      "theme": "P1: unowned shared-inbox intake is where work orders sit"
+    },
+    {
+      "quote": "It came into the service inbox at four-something on the Friday and nobody opened that inbox again until Monday morning.",
+      "location": "cue 77, 00:10:15,140, Yvette Carnahan",
+      "theme": "P1: the July chiller breach, the incident that triggered the engagement"
+    },
+    {
+      "quote": "It's not isolated. It's the weekends and the evenings and the handoffs. Things sit.",
+      "location": "cue 87, 00:11:53,180, Tansy Whitlock",
+      "theme": "P1: evenings, weekends and shift handoffs are the systematic failure points"
+    },
+    {
+      "quote": "I build it. Every month. I pull the spreadsheet, filter it to that client, and go line by line working out whether we made the window.",
+      "location": "cue 101, 00:14:37,380, Tansy Whitlock",
+      "theme": "P2: the monthly per-client service level report is rebuilt by hand (excavated)"
+    },
+    {
+      "quote": "We had ninety-four percent on our sheet and they had seventy-eight on theirs. And I couldn't defend either number in the room.",
+      "location": "cue 108, 00:15:45,600, Yvette Carnahan",
+      "theme": "P2: the numbers are not defensible in front of the client, which is worse than being wrong"
+    },
+    {
+      "quote": "Except the date it was closed is the date I typed it in, which might be two days after he actually did it.",
+      "location": "cue 103, 00:14:53,800, Tansy Whitlock",
+      "theme": "P2: closure timestamps record data entry, not the work, so the measurement is wrong at source"
+    },
+    {
+      "quote": "There isn't one, really. There's me calling Dewey.",
+      "location": "cue 118, 00:17:05,360, Yvette Carnahan",
+      "theme": "P3: escalation to field supervisors is a phone call from the director (excavated)"
+    },
+    {
+      "quote": "And then nothing, sometimes. You text Dewey and you don't know if he's read it, and he's up on a roof, so fair enough, but I've got a client on hold.",
+      "location": "cue 123, 00:17:34,660, Tansy Whitlock",
+      "theme": "P3: escalations have no visible state; the sender cannot tell whether anyone picked it up"
+    },
+    {
+      "quote": "I keep a list on a legal pad and I re-text people. That's the system. It's a legal pad.",
+      "location": "cue 128, 00:18:18,680, Tansy Whitlock",
+      "theme": "P3: the chasing mechanism is paper and repetition"
+    },
+    {
+      "quote": "And we still have to have it in our spreadsheet, because the dispatcher hasn't got a ServiceChannel login.",
+      "location": "cue 134, 00:19:08,720, Tansy Whitlock",
+      "theme": "P4: double and triple entry between client-owned portals and their own spreadsheet (not excavated: Workaround Partial)"
+    },
+    {
+      "quote": "Three hours each. Easily three hours each.",
+      "location": "cue 138, 00:19:44,140, Tansy Whitlock",
+      "theme": "P4: two named staff lose most of every morning to client portals"
+    },
+    {
+      "quote": "They sit next to me.",
+      "location": "cue 153, 00:22:04,660, Tansy Whitlock",
+      "theme": "P5: operational knowledge lives in the help desk lead (not excavated: Concrete Partial)"
+    },
+    {
+      "quote": "There's a binder. And there's a folder on the SharePoint with some Word documents in it, and I don't think anybody's opened that since Imani made it.",
+      "location": "cue 157, 00:22:19,720, Tansy Whitlock",
+      "theme": "P5: the written knowledge base is a binder plus a stale document folder"
+    },
+    {
+      "quote": "Roanoke came in through an acquisition and they've got their own spreadsheet and their own way of doing it, and their own whiteboard, and honestly I can't see any of it from here.",
+      "location": "cue 36, 00:04:36,680, Tansy Whitlock",
+      "theme": "Branch inconsistency and no cross-branch visibility (raised inside the current-state walkthrough, not excavated as its own pain)"
+    },
+    {
+      "quote": "Some of them fill out a paper ticket and it comes back in the truck on Friday.",
+      "location": "cue 49, 00:06:31,680, Tansy Whitlock",
+      "theme": "Field completion data arrives late and on paper, which feeds the reporting problem"
+    },
+    {
+      "quote": "So an emergency at seven at night is an email nobody's looking at.",
+      "location": "cue 53, 00:06:55,160, Tansy Whitlock",
+      "theme": "After-hours cover: the answering service emails an inbox nobody is watching"
+    }
+  ],
+  "numbers": {
+    "bleed": {
+      "value": "Not confirmed, and must not be presented as a bleed. Client-supplied inputs: two named staff x 3 hours a day x 5 days = 30 hours a week on the two client portals; seven staff x 1 hour a day x 5 days = 35 hours a week chasing and re-asking; 65 hours a week in total, which the client called about right and probably light. Rate: 'thirty-five all in' is the director's own guess, volunteered with 'Don't hold me to that' and then explicitly withdrawn pending the CFO's real loaded figure. The Consultant's arithmetic on the call was 65 x 35 = $2,275 a week, x 52 = about $118,300 a year, plus the monthly reporting cycle of about 20 hours a month (her figure; the components she listed sum to about 24), which is 240 hours a year deliberately left unpriced because she would not price her own time. Unquantified and excluded: the Cavender Medical loss (six clinics, no figure given), the Brightmoor contract value (declined twice; 'just under a fifth of our book' is a proportion with no revenue base and cannot be converted), the July breach itself, and the four-month ramp for a new help desk starter.",
+      "quote": "But thirty-five is me guessing, and I don't want a wrong number walking around in front of Pete. Let me get the real one from him, and then we can talk about what it adds up to.",
+      "status": "partial"
+    },
+    "upside": {
+      "value": "Not confirmed. Named but unvalued: a county contract going out in the spring for eleven buildings whose draft RFP requires monthly response-time reporting per building, which they cannot answer today; two named staff moved off portal data entry onto account work; the director out of the escalation path; not hiring a tenth person into client services (the CFO's win condition); and retaining Brightmoor at the January renewal, which is the largest item and was deliberately left unsized. No hours were converted to money and the client refused to invent a contract value, so there is no upside figure and none may be inferred.",
+      "quote": "Not yet. It'll be a real number. I'm not going to invent one for you.",
+      "status": "partial"
+    }
+  },
+  "vocabulary": [
+    {
+      "their_term": "work order / WO",
+      "meaning": "The ticket. What the help desk opens when a request arrives, whether by phone, email or a client's portal. Used interchangeably with 'request' by the client's own admission",
+      "likely_monday_object": "item on the account's NATIVE Service Tickets board, with the board relabelled 'Work Orders' (never a new look-alike board)"
+    },
+    {
+      "their_term": "request",
+      "meaning": "The inbound contact before a work order exists; 'the request is the phone call'. Not a separate record in their world",
+      "likely_monday_object": "the same ticket item, optionally an intake status or a form submission; not a second board"
+    },
+    {
+      "their_term": "ticket",
+      "meaning": "Taken, and it means something else to them. A 'paper ticket' is the sheet some technicians fill in and send back in the truck on Friday, and 'a ticket to me' is the IT admin's phrase for a change request landing on him. It is never their word for a work order, which is exactly why the native Tickets board has to carry their label instead of its own",
+      "likely_monday_object": "none as a client-facing label; the entity is still the native Service Tickets board, but every label on it that they will read says 'work order'"
+    },
+    {
+      "their_term": "PM / PMs",
+      "meaning": "Preventive maintenance: contracted recurring visits (filter changes, inspections, quarterly and annual tasks) planned months ahead. About half the contract value. NOT project manager",
+      "likely_monday_object": "a separate recurring-schedule structure, probably Work Management, or a native Service companion if one fits; decide with the client, never merge into the reactive ticket board"
+    },
+    {
+      "their_term": "emergency / urgent / routine",
+      "meaning": "Their priority language, tied to contractual windows: emergency is four hours for most clients and two for the hospital group, urgent is same day or next business day, routine is five business days. These three words are the whole of their priority language on this call; they never use numbered priority codes",
+      "likely_monday_object": "status or priority column using their words; the window itself as a target date in v1 (SLA policy setup is deferred)"
+    },
+    {
+      "their_term": "the clock / what's about to breach / blow its window",
+      "meaning": "Time remaining against the contractual response window, and missing it",
+      "likely_monday_object": "target date column plus a view or dashboard of items approaching or past their date"
+    },
+    {
+      "their_term": "portal",
+      "meaning": "Two different things. (1) The client-owned vendor portals they must key work orders into today: ServiceChannel for Brightmoor and Fairlane's own maintenance system. (2) The client-facing portal they want built, where property managers would see their own work orders and response times",
+      "likely_monday_object": "(1) external system, manual for now, integration unconfirmed; (2) deferred Service extra, backlog only"
+    },
+    {
+      "their_term": "the service inbox",
+      "meaning": "The shared Microsoft 365 mailbox where emailed requests and the after-hours answering service land. Everyone can see it, nobody owns it",
+      "likely_monday_object": "external intake source; email-to-ticket is a deferred Service extra, so v1 intake is manual creation plus a form"
+    },
+    {
+      "their_term": "escalate / escalate it to the field supervisor",
+      "meaning": "Handing a work order to the field supervisor for that trade and region when it will miss its window, the technician cannot get in, or a part is missing",
+      "likely_monday_object": "status plus owner change on the ticket, with a visible escalation state; not a separate escalations board"
+    },
+    {
+      "their_term": "supervisor / field supervisor",
+      "meaning": "Field leader per trade and region who escalations go to; works from a phone, often on a roof",
+      "likely_monday_object": "people column on the ticket; mobile-first access, possibly limited seats"
+    },
+    {
+      "their_term": "the binder / the folder on the SharePoint",
+      "meaning": "The knowledge base: who to call per building, which buildings need badges, after-hours numbers, which clients may be quoted a price, parking rules",
+      "likely_monday_object": "monday docs or a knowledge board, plus per-site fields on the client or site record; check for a native Service knowledge-base entity first"
+    },
+    {
+      "their_term": "the quarterly / quarterly review",
+      "meaning": "The client-facing quarterly business review where response-time performance is presented and, for Brightmoor, where the renewal decision is being formed",
+      "likely_monday_object": "dashboard or saved report view per client; not an object to invent as a board"
+    },
+    {
+      "their_term": "building / property",
+      "meaning": "A client location, and always 'building' or 'property' in their mouths; they never say 'site' on this call, so 'site' is our modelling word to confirm with them rather than one to quote back. One client has many buildings (Brightmoor has forty-one); work orders belong to a building, not just to a client",
+      "likely_monday_object": "linked records: client organisation, site, then work order; ask which existing native board holds client and site records"
+    },
+    {
+      "their_term": "the book",
+      "meaning": "Their total contracted revenue base, as in Brightmoor being 'just under a fifth of our book'",
+      "likely_monday_object": "none; a proportion with no base, never a figure"
+    },
+    {
+      "their_term": "the whiteboard / moves magnets around",
+      "meaning": "The physical dispatch schedule in the dispatch room, which the help desk lead calls the truth, as against the spreadsheet they show people",
+      "likely_monday_object": "the scheduling view that has to be replaced or respected; whoever dispatches must be able to work faster than magnets"
+    },
+    {
+      "their_term": "recall / second trip",
+      "meaning": "Implicit in the work: a return visit when the first did not fix it. Never named as a term on this call, so confirm their word for it",
+      "likely_monday_object": "linked ticket or subitem on the original work order, never a duplicate ticket; confirm the term before naming anything"
+    }
+  ],
+  "entities_and_workflows": [
+    "Intake by three routes: inbound phone call to client services, email to the shared service inbox, and work orders raised by the client inside their own portal (ServiceChannel for Brightmoor, Fairlane's own system)",
+    "After-hours: an answering service takes calls after six and emails the service inbox",
+    "Work order creation in a monthly-tabbed shared Excel file on SharePoint: client, building, fault, who it was dispatched to, date",
+    "Dispatch: a physical whiteboard with technicians down the side and days across the top, then a text or call to the technician; Knoxville works the same way, Roanoke differently",
+    "Field completion: technicians text photos and 'done', some return paper tickets in the truck on Friday; the recorded closure date is when the help desk types it in",
+    "Escalation to the field supervisor for that trade and region, by call or text, when a window will be missed, access fails, or a part is missing; chased from a legal pad",
+    "Preventive maintenance schedules per contract (filter changes, inspections, quarterly and annual tasks), held in Sage 300 plus Odette's separate spreadsheet; about half the contract value",
+    "Contractual service levels per client and priority: four-hour emergency for most, two-hour for the hospital group, same day or next business day urgent, five business days routine",
+    "Monthly per-client service level reporting, rebuilt by hand from the spreadsheet, reviewed and partly redone, with the preventive maintenance completion part pulled from Sage",
+    "Quarterly business reviews with clients, where response-time performance is presented; Brightmoor's next one is the second week of December and the renewal decision is January",
+    "A ninety-day performance plan issued by Brightmoor by letter after the July breach",
+    "Client, building and contact knowledge ('building' is their word; 'site' is ours, see vocabulary): who to call per building, badge requirements, after-hours numbers, which clients may be quoted a price, parking rules",
+    "Onboarding a new help desk hire: four months sitting beside the lead before being left alone with the largest client",
+    "Subcontracted work to outside vendors (fire alarm testing, elevators, some roofing), coordinated by email",
+    "Existing monday use by other teams: a safety inspections board and an estimating bid board, plus an abandoned work order tracker built by the IT admin",
+    "Billing dependency: work orders must be closed in the client's own portal or Ainsworth does not get paid"
+  ],
+  "integrations_mentioned": [
+    "Microsoft 365: shared service inbox mailbox, Outlook rules and folders, SharePoint document storage. Microsoft single sign-on is explicitly wanted by the IT admin, and availability depends on the plan, which is unverified",
+    "ServiceChannel (Brightmoor's vendor portal): has an API 'I'm fairly sure', but it is the client's tenant and Brightmoor's IT people were not receptive; the IT admin never got past the first email. Unconfirmed and not a v1 dependency",
+    "Fairlane's own maintenance system (product not named), used the same way as ServiceChannel",
+    "Sage 300: accounting, job costing, invoicing, contract values and preventive maintenance schedules. System of record for money and PM; no monday replacement proposed",
+    "Excel and SharePoint: the current work order file and Odette's preventive maintenance spreadsheet (possible import sources, headers only until data sharing is agreed)",
+    "monday.com: an existing paid account, loosely 'Standard', with a safety inspections board, an estimating bid board and an abandoned work order tracker",
+    "Text messaging and phone calls to technicians and field supervisors (the current escalation channel; mobile access matters)",
+    "An after-hours answering service that delivers by email",
+    "A competing full facilities system demoed in the spring, its name lost to '[inaudible]', which would have taken work out of Sage; six-month implementation, postponed rather than rejected",
+    "Email to subcontracted outside vendors (fire alarm testing, elevators, roofing)"
+  ],
+  "compliance_or_security_signals": [
+    "Healthcare sites: Fairlane requires badging and escorts in some areas, and their compliance person told Ainsworth not to put anything about patients or which room into work order notes. That is a hard constraint on ticket content, seed data and any screenshot used in a demo.",
+    "All client contract terms are confidential, including rates and penalties. The director said so explicitly, so contract values, SLA penalty terms and the Brightmoor performance plan must not appear in anything client-facing or in seed data.",
+    "The sample monthly report the help desk lead will send must have the client's name and the footer removed, because there is contract material in the footer. Only the redacted version may be used, and it may not become seed data in its raw form.",
+    "Single sign-on with Microsoft is a stated requirement from IT, which is a plan-tier question on monday rather than a given; raise it and verify, do not promise it.",
+    "Ninety-some field technicians, about half of whom have no company email address, plus field supervisors who work from phones: an access, identity and seat-count problem before it is a licensing one.",
+    "Subcontracted outside vendors (fire alarm testing, elevators, roofing) would need some form of guest or limited access if they are brought into the workflow, with the permission and seat implications checked against the real plan.",
+    "The existing monday account already holds other teams' data (safety inspections, estimating bids), so permissions and workspace boundaries matter: the new build must not expose or disturb those boards.",
+    "Client property managers' contact details and after-hours numbers sit in the binder today; moving them into monday makes them third-party personal data and needs a decision about who may see them."
+  ],
+  "objections": [
+    {
+      "quote": "We do. We tried monday two years ago and it didn't stick.",
+      "type": "monday itself is the problem"
+    },
+    {
+      "quote": "Honestly? Because nothing came into it by itself. Somebody still had to type the work order in, and they were already typing it into the spreadsheet, so now it's two places. So they did the spreadsheet, because that's what the dispatcher looks at.",
+      "type": "monday itself is the problem (the stated reason the last attempt failed, which is really a current-state and design finding rather than a fault of the platform)"
+    },
+    {
+      "quote": "Can I ask something? I could probably put most of this together myself, honestly. What am I buying if you do it?",
+      "type": "We'll build it ourselves"
+    },
+    {
+      "quote": "Can I say the other risk? My team. Not because they won't like it. Because if it's slower than the spreadsheet on a Tuesday at nine with four phones going, they'll go back to the spreadsheet and I won't be able to stop them.",
+      "type": "Team won't adopt it"
+    },
+    {
+      "quote": "And me, a bit. I'm one person. I've got the phones, the laptops, Sage, the network, and now this. If it's built so that every little change is a ticket to me, it'll die the same way it died last time.",
+      "type": "Team won't adopt it (the maintenance-burden form of it, from the person who would carry it)"
+    },
+    {
+      "quote": "He bought monday because I asked him for it, and then it didn't get used, and he has mentioned that to me more than once since.",
+      "type": "Price feels high (the concern is paying twice for something already bought and unused, rather than the size of any quoted figure)"
+    },
+    {
+      "quote": "He needs to see that somebody other than Curtis is going to keep it alive. And he needs to see what it costs next to what it saves, and he'll want that second part in writing.",
+      "type": "Must check with someone"
+    },
+    {
+      "quote": "Two. Can you send me something with a number on it? Pete is going to ask what it costs before he gives me twenty minutes of his day.",
+      "type": "Just send a proposal or pricing"
+    },
+    {
+      "quote": "Two things from me. One, we had a demo in the spring from a proper facilities system. Full [inaudible], asset registers, PM schedules, mobile app for the technicians, the lot. It was a lot of money, it was a six-month implementation, and we'd have had to move things out of Sage into it. I didn't hate it. I just can't do it this year.",
+      "type": "Talking to other partners"
+    },
+    {
+      "quote": "Whether I can get to December with something that works. If the answer is no, I may as well do the big thing properly next year and take my chances with Brightmoor.",
+      "type": "Wrong time, next quarter (stated as the condition under which this becomes next year's project instead)"
+    }
+  ],
+  "commitments_and_next_steps": [
+    {
+      "quote": "Then here's what I'll do. I'll hold Wednesday the twenty-third, and I'll send you three times to choose from, and you pick whichever one suits Pete.",
+      "what": "Committed on the call: hold Wednesday the 23rd for a one-hour scoping session with Yvette, the CFO to be asked by Yvette (his attendance is not confirmed; 'If I tell him it's about the January renewal, he'll come.' is her prediction, and the time waits on his month-end), and Tansy for the first half if she can; send three candidate times. Nothing is sent or confirmed yet. The time is NOT fixed, so R10 is Partial and the recap must propose specific times.",
+      "owner": "Consultant",
+      "date": "Times sent before Wednesday the 23rd; meeting Wednesday the 23rd, time to be confirmed (month and year not stated in the transcript)"
+    },
+    {
+      "quote": "And the invite comes from me as soon as you've told me which time.",
+      "what": "Send the calendar invite once the client confirms which of the three times suits the CFO",
+      "owner": "Consultant",
+      "date": "On receipt of the client's answer, expected tomorrow or Thursday"
+    },
+    {
+      "quote": "Yes. I'll come back to you tomorrow or Thursday.",
+      "what": "Come back with the chosen time after asking the CFO",
+      "owner": "Yvette Carnahan",
+      "date": "The day after the call, or the day after that ('tomorrow or Thursday')"
+    },
+    {
+      "quote": "I'll ask him tomorrow.",
+      "what": "Ask the CFO for the real loaded hourly cost for client services, and for his twenty minutes at the scoping session",
+      "owner": "Yvette Carnahan",
+      "date": "The day after the call"
+    },
+    {
+      "quote": "I can get all that today.",
+      "what": "Report which monday plan the account is on, how many seats, who the administrator is, and whether the old work order board still exists",
+      "owner": "Curtis Vandergrift",
+      "date": "Same day as the call"
+    },
+    {
+      "quote": "I can do the counts. The report I'd want Yvette to okay before I send it, there's contract stuff in the footer.",
+      "what": "Send work order counts for the last three months split between reactive and preventive maintenance, and a sample monthly client report once approved",
+      "owner": "Tansy Whitlock",
+      "date": "Before the scoping session; no date stated"
+    },
+    {
+      "quote": "Take the footer off and take the name off and it's fine.",
+      "what": "Approve the sample report for sharing with the client's name and the contract footer removed",
+      "owner": "Yvette Carnahan",
+      "date": "Before the sample is sent; no date stated"
+    },
+    {
+      "quote": "What I'll send you is a short recap of what I heard today in plain language, and the shape of what I'd propose. Then we agree the scope with you and Pete in the room, and the number comes with that.",
+      "what": "Send a plain-language recap and the shape of the proposal, with no price, and hold pricing until scope is agreed with the CFO present",
+      "owner": "Consultant",
+      "date": "Before the scoping session; no date stated"
+    },
+    {
+      "quote": "Talk to Dewey. And don't design it for a desk. He'll look at it on a phone in a parking lot, or he won't look at it at all.",
+      "what": "Speak to a field supervisor before designing the escalation flow, and design it for a phone",
+      "owner": "Consultant (Yvette to make the introduction)",
+      "date": "Before the escalation design is settled; no date stated"
+    },
+    {
+      "quote": "Both go on the list, and I'll show you the list rather than keep it to myself.",
+      "what": "Produce a visible backlog list holding the preventive maintenance side, the knowledge base, the client portal, email-to-ticket and SLA policy calculation",
+      "owner": "Consultant",
+      "date": "With the recap and the proposed shape; no date stated"
+    }
+  ],
+  "traps": [
+    "The vocabulary trap at the centre of this fixture: 'work order' is this client's word for a ticket, and 'request' is the same thing by their own account. The build must relabel the account's NATIVE Service Tickets board to 'Work Orders', not create a board of that name. A hand-built 'Work Orders' board with the right columns still fails the rule.",
+    "Curtis's abandoned monday 'work order tracker' from two years ago is the second half of the same trap. It is still in the account and full of dead work orders. Reviving it, duplicating it, or building the new queue beside it all fail: the ticket entity belongs on the native Service board, and the old board is something to audit, archive or leave alone by agreement.",
+    "'PM' means preventive maintenance, never project manager. PMs are contracted recurring visits planned months ahead, they live in Sage plus Odette's spreadsheet, they are about half the contract value, and the client called them 'a different animal from a call'. They are a separate entity from reactive tickets and were explicitly put behind the first cut.",
+    "'Portal' means two different things in this call. The client-owned vendor portals (ServiceChannel for Brightmoor, Fairlane's own system) are where work is re-keyed today. The client-facing portal Yvette wants is a deferred Service extra. Do not conflate them, and do not promise either.",
+    "All three of the extras this client wants most are deferred beyond v1: the customer portal, email-to-ticket from the service inbox, and SLA policy setup that calculates the clock per contract. The plugin must name all three as later work, put them on the backlog, and still deliver a v1 that helps, which is a queue with an owner, a priority in their words and a target date.",
+    "The client pushed back directly on the email-to-ticket deferral, because the July breach was an email nobody opened. The answer has to be honest: on day one a person still opens the inbox, and what changes is that the work order then sits in a visible queue with a clock. Promising automatic email intake in v1 to win the point is the failure mode here.",
+    "Their priority language is three words and nothing more: emergency, urgent and routine, each tied to a contractual window. They never use numbered priority codes on this call, so do not invent a 'P1, P2, P3' coding scheme for the priority column or the status labels; use their words. Separately, the method's own pain ids P1 to P5 are internal and must never appear in anything client-facing, which is a different rule about a different set of labels.",
+    "The account tier is loose and unverified: 'Standard, I think? Whatever the middle one is. I'd have to look.' Plan limits that actually bear on this build (monthly automation action caps, how many boards a dashboard can combine, guest and viewer access, single sign-on, and which columns are available) must be read live at preflight, never assumed from that line.",
+    "Microsoft single sign-on is a stated IT requirement that may not exist on their current plan. Raise it as a plan question with a cost implication; do not promise it, and do not quietly design around it either.",
+    "Whether monday Service is provisioned at all is unknown. The only known monday use is Work Management boards belonging to other teams. If Service is not provisioned there is no native Tickets board to build on, and the correct behaviour is to stop and ask, never to hand-build a look-alike in Work Management.",
+    "This is the first fixture with a live monday account holding other teams' work: a safety inspections board and an estimating bid board, fifteen to twenty users, and an unknown administrator. Audit it, leave those boards alone, and settle which workspace the build belongs in before writing anything.",
+    "'We tried monday two years ago and it didn't stick' is the platform objection, and the transcript supplies its own answer: nothing arrived in the old board automatically, so it was double entry against the spreadsheet the dispatcher actually used, and nobody asked the help desk before it was built. Establish whether the setup or the tool was the cause before entertaining any switch, and do not repeat the same design.",
+    "Do not add the unquantified items to any cost figure: the Cavender Medical loss is 'six clinics' with no value, the Brightmoor contract value was declined twice, and the July breach was never priced.",
+    "'Just under a fifth of our book' is a proportion with no revenue base. It cannot be turned into a dollar figure, and the base must not be inferred from headcount or industry averages.",
+    "The $35 loaded hourly cost is the director's own guess, offered with 'Don't hold me to that' and then explicitly withdrawn pending the CFO. The Consultant's roughly $118,300 a year is arithmetic on an unconfirmed rate, not a bleed. R4 stays Partial and pricing prep stays held.",
+    "The director refused to price her own time ('I'm not going to put a number on my own time'). Do not fill that with an assumed director or executive rate, and keep the 240 reporting hours as hours.",
+    "The reporting hours have two client figures: the components she listed sum to about twenty-four hours a month and she said 'Call it twenty'. Use her twenty, record twenty-four as the alternative, and never round up.",
+    "'Four hundred-ish a week' is hedged, is reactive calls only, and explicitly excludes preventive maintenance visits. Confirm the split before using any volume for sizing, seats or automation action estimates.",
+    "'Fifteen or twenty escalations a day' and 'one or two' vanishing are hedged volumes from one speaker, prefixed with 'I don't know'. Treat them as figures to confirm, not as inputs.",
+    "The closure date in the current spreadsheet is when the help desk typed it in, not when the technician finished, which the client knows and says makes the report wrong. Any report built on a monday 'closed' timestamp inherits the same flaw unless field completion is captured differently. This is a design constraint, not a detail.",
+    "Escalation must not be designed from this call alone. The client said to talk to a field supervisor first and not to design it for a desk, because supervisors look at phones in parking lots. Mobile-first, and confirm with the supervisor before building.",
+    "Data modelling: a client has many buildings (Brightmoor has forty-one) and a work order belongs to a building, not just a client. Do not flatten client, site and work order into one board, and do not invent an 'Accounts' or 'Buildings' board without asking which existing native board should hold client and site records.",
+    "Data modelling: return visits exist in this business but were never named on the call. Do not invent a 'recalls' board or assume a term; ask what they call a second trip, and model it as a link or subitem on the original work order rather than a duplicate.",
+    "Service levels differ per client and per priority (four hours for most, two for the hospital group, same day or next business day, five business days). They are contract attributes, not one global setting, and SLA policy setup is deferred, so v1 carries a priority and a target date and makes no response-time promises in the build.",
+    "Part of the double entry is contractual: 'If we don't close it in their system, we don't get paid.' The client portals cannot simply be replaced, the ServiceChannel API is unconfirmed and sits in the client's tenant, and Brightmoor's IT were unreceptive. Reducing that work is a later question, not a v1 promise.",
+    "Fairlane is a hospital group: badging, escorted areas, and an explicit instruction not to record anything about patients or which room. No patient-identifying content in tickets, seed data, screenshots or demo material.",
+    "Contract terms, rates and penalties are confidential, and the sample report only comes with the client name and footer removed. Never use real client names, contract terms or the performance plan in seed data or client-facing material.",
+    "Remarks about colleagues stay internal: that a named supervisor does not answer his phone, that a named staff member hates the portal work, that a predecessor quit partly over it, and that the CFO has raised the unused monday purchase more than once.",
+    "No portfolio. The Enterprise-plus-Work-Management default cannot be applied: the tier is loosely Standard and unverified, and Work Management is only a secondary candidate here. Record the reason either way.",
+    "Automations are approved as one list, and two constraints attach on this account: the monthly automation action cap on their real plan has to be checked against four hundred-plus work orders a week before promising per-work-order automations, and automations created through the API cannot be switched off through the API, so the handoff needs a turn-off step for each one.",
+    "Keep the dates apart: the next Brightmoor quarterly review is the second week of December, the renewal decision is January, the county RFP is 'in the spring', and the next meeting is Wednesday the twenty-third. The transcript states no month and no year for any of them.",
+    "The next step has a day but no time, because the CFO's availability is unknown. Do not record a fabricated time, and do not report R10 as fully met without flagging the gap; the recap should propose specific times.",
+    "The Consultant's own suggestions and framings are not client requirements. The four-part first cut was the Consultant's play-back, agreed in draft only, and the client explicitly said not to hold her to the wording until the CFO has heard it, so R12 is Partial and no proposal may be drafted.",
+    "One cue is mis-attributed (cue 33 is labelled Tansy Whitlock but is plainly the Consultant's question), and cues 13 and 14 are a duplicated caption pair. Neither carries evidence. A grader should not build a quote or a talk-share claim on either, and should not treat the duplicate as two separate statements.",
+    "The competing facilities system's name is lost to '[inaudible]'. Record it as an unnamed alternative in play, internal only, and do not guess the product."
+  ],
+  "requested_changes": [
+    {
+      "type": "change",
+      "description": "Pre-build requirement (no build exists yet): the escalation flow must be usable by field supervisors on a phone, not designed as a desk workflow, and a supervisor should be consulted before it is designed.",
+      "quote": "And don't design it for a desk."
+    },
+    {
+      "type": "change",
+      "description": "Pre-build requirement: opening a work order must not require re-typing the client, the building and the contact each time, because that is the adoption test against the spreadsheet.",
+      "quote": "Not typing the client and the building and the contact every single time. None of those change."
+    },
+    {
+      "type": "change",
+      "description": "Pre-build requirement: the IT admin must be able to make routine changes himself without going back to a consultant, or the build repeats the failure of the last attempt.",
+      "quote": "I want to be able to add a column without calling a consultant."
+    },
+    {
+      "type": "change",
+      "description": "Sequencing requirement stated by the decision maker: prioritise something working by December over polish, which governs what goes into v0.1.",
+      "quote": "Can it be ugly and working in December and pretty afterwards?"
+    },
+    {
+      "type": "add",
+      "description": "Pre-build requirement: a visible view of what is late or about to breach, which is the minimum she needs for the December quarterly review. Satisfied in v1 with priority plus target date, since SLA policy setup is deferred.",
+      "quote": "As long as I can see what's late. That's what I need in December."
+    },
+    {
+      "type": "add",
+      "description": "Requirement from IT, subject to the plan: Microsoft single sign-on rather than another password, including for field staff, about half of whom have no company email address.",
+      "quote": "Yeah. I'd want Microsoft sign-in."
+    }
+  ],
+  "should_plugin_propose_a_build": true,
+  "expected_questions_before_building": [
+    "(Account, blocking) Which monday account, plan and products are we in? Is monday Service provisioned? How many seats, who is the administrator, and what are the automation action limits and dashboard board limits on that plan?",
+    "(Native boards, blocking) Where are the account's native Service boards, and what are their ids per entity? If Service is not provisioned, what is the route to provisioning it, and what does that cost against the CFO's thresholds?",
+    "(R4, for the CFO) What is the real loaded hourly cost for client services, so the hours we already have can be turned into a figure you would put your name to?",
+    "(Existing account) What is in the old work order tracker board, who still uses the safety and estimating boards, and should the new build live in the same workspace or a separate one?",
+    "(Volumes) Of the roughly four hundred a week, how many are reactive work orders and how many are preventive maintenance visits? How many are open at once, and how many escalations a day are real rather than estimated?",
+    "(Service levels) Can we see the service level matrix per client and per priority, so priorities and target dates in v1 match the contracts? Which clients have windows that differ from four hours, same day and five business days?",
+    "(Data quality, blocking for the report) How should completion actually be captured, given that today's closure date is when the help desk types it in? Would technicians close their own work orders from a phone, or does someone else record a real completion time?",
+    "(Escalation, with a supervisor) How do field supervisors want to receive an escalation on a phone, what do they need to see, and what should happen when nobody picks it up?",
+    "(Structure) A client has many buildings and a work order belongs to a building: which existing board should hold client and site records, and what do you call a return visit when the first trip did not fix it?",
+    "(Access and seats) Who needs access: nine help desk staff, field supervisors, ninety-some technicians of whom about half have no company email, subcontracted vendors, the CFO and the owner? Which of those need a seat, a guest, or no access at all?",
+    "(Integrations) Is there any realistic route to reducing the ServiceChannel and Fairlane re-keying, given it is their tenant and their IT were unreceptive, and does anything need to reach Sage 300 in v1 or does Sage stay untouched?",
+    "(Roanoke) Is Roanoke in scope for the first version, and if so what is actually different about how they work?",
+    "(Preventive maintenance) When the PM side comes in, do the recurring schedules move out of Sage and Odette's spreadsheet, or does monday only hold the visits and their completion?",
+    "(Knowledge base) Does the account's native Service install include a knowledge-base entity, and which parts of the binder belong there as against per-site fields on a client or site record?",
+    "(Scope and decision) Can we agree the four-part first cut in writing with the CFO in the room, and what does he need to see beside cost to sign it off?"
+  ],
+  "expected_verdict": {
+    "verdict": "Nearly ready",
+    "gates_met": [
+      "Solution blueprint: needs R1 at least Partial and R2 Met. R1 is Met (the fullest current-state walkthrough in the set, including monday's current use and who built it) and R2 is Met with three excavated pains, so the blueprint may be produced. It must be a Service blueprint on native boards, with the three deferred extras named as later work.",
+      "Build: the method adds no gate beyond the Consultant's approval stop, and the blueprint gate is met, so a v0.1 build is reachable. The product rules still bite before any write: the change check, preflight detection of the native Service boards, and confirmation that Service is provisioned on a plan whose limits fit.",
+      "First demo (v0.1): the method adds no requirement of its own and the build gate is open, so a first demo can be prepared. Remaining gaps become demo questions, and the demo audience is mixed (approver, end user, admin), so the approver's segment goes first."
+    ],
+    "gates_not_met": [
+      "Pricing or proposal prep: needs R4, R7 and R12 Met. R7 is Met, but R4 is Partial (the rate is a withdrawn guess and the client refused to confirm the total until the CFO supplies it) and R12 is Partial (the first cut was agreed in draft only, with 'Don't hold me to the wording until Pete's heard it'). The client asked directly for a number to show the CFO and the correct answer, which the Consultant gave on the call, is a recap and a scope conversation first. Pricing and proposal prep are also deferred beyond v1 as a product decision.",
+      "v1.0 sign-off: needs R6 success criteria agreed and R11 Met for every in-scope pain. R6 is Met as a description but nothing is agreed, so criteria are proposed only, and R11 is Missing because nothing has been shown."
+    ],
+    "note": "Verdict criteria: R2 Met, R3 Met, R4 Partial, R7 Met. Nothing is Missing and one is Partial, so the rule gives Nearly ready. R4 is the only thing between this call and Discovery complete, and it closes with one number from the CFO, which is already a commitment. Also of note: R10 is Partial (a day but no time), which is a per-call check rather than a verdict input, and R12 is Partial, which keeps the proposal shut. Expected output: the Nearly ready verdict with a one-line reason, a call summary, a Service blueprint built on the account's native Tickets board relabelled to 'Work Orders' with the three deferred extras on a visible backlog, the automations as one list for a single approval, a v0.1 proposal subject to preflight and the change check, discovery prep for the scoping session on Wednesday the 23rd aimed at closing R4 and R12 with the CFO in the room, and a recap draft that proposes specific times because none was agreed. No pricing, no proposal document, no portfolio, no CRM, and no monday dev. English only."
+  },
+  "account_context": {
+    "tier": "Standard, loosely stated by the IT admin and unverified: 'Standard, I think? Whatever the middle one is. I'd have to look.' He committed to confirming the plan, the seat count and the administrator the same day. Because the tier is the thing that decides automation action caps, dashboard board limits, guest and viewer access and single sign-on, and because single sign-on is already a stated requirement, this must be read live at preflight and may turn out to require a plan change with a cost the CFO has to approve. The Enterprise-only portfolio default does not apply.",
+    "products_enabled": [
+      "Work Management: in use today, though not named as such by the client. Other teams run boards in the account: a safety inspections board and an estimating bid board, fifteen to twenty users in total.",
+      "Service: unknown, and this is the gating unknown for the whole engagement. The work orders belong on native Service Tickets boards; if Service is not provisioned there is nothing native to build on, and the answer is to establish that and ask, not to hand-build a look-alike in Work Management.",
+      "CRM: unknown and not needed. Nobody asked for a pipeline.",
+      "monday dev: not indicated, and outside v1 in any case."
+    ],
+    "existing_monday_setup": "A real, live account, which is new in this fixture set. It was bought about two years ago because the IT admin asked for it, and it is still being paid for. What is in it: a safety inspections board that Rob uses and likes, a bid board that estimating keeps, and an abandoned 'work order tracker' the IT admin built himself on a Saturday with columns for client, building, status, assignee and date, which nobody used after about six weeks and which has not been opened in a year and a half. He expects it to be full of dead work orders. Fifteen to twenty people have access; the administrator was not named and the seat count is unknown. The old tracker is the look-alike trap and must not be revived, duplicated or extended for the ticket entity; the two live boards belong to other teams and must be left alone. Everything that matters to this engagement runs outside monday: a monthly-tabbed Excel work order file on SharePoint, a physical whiteboard for dispatch, a shared Microsoft 365 service inbox, Sage 300 for money and preventive maintenance schedules, Odette's PM spreadsheet, ServiceChannel and Fairlane's own system, texts and calls to technicians and supervisors, a legal pad, and a paper binder for knowledge. So there is a setup to audit and extend, not a blank account, and the workspace question (build here or separately) is open.",
+    "evidence_quote_or_null": "Standard, I think? Whatever the middle one is. I'd have to look."
+  },
+  "expected_structures": {
+    "native_boards_required": [
+      {
+        "product": "service",
+        "entity": "Tickets (native Service Tickets install), relabelled to the client's word 'Work Orders'",
+        "why": "The core of the build. Every work order, however it arrives, is a ticket: client, building, fault, priority in their language (emergency, urgent, routine), owner, target date, escalation state and closure. It must live on the account's native Tickets board, detected at preflight by template lineage, a template view id or the reserved Tickets column fingerprint, with the board id recorded per entity in the client record before any write. Relabelling the board and its columns to their vocabulary is expected and fine. A new 'Work Orders' or 'Requests' board fails the rule even with perfect columns, and so does reusing Curtis's abandoned work order tracker."
+      },
+      {
+        "product": "service",
+        "entity": "Knowledge base (native Service companion, if the account's install has one)",
+        "why": "Conditional, and the client put it behind the first cut ('And the knowledge thing. Not first. But I'd want it.'). The binder's contents are classic knowledge-base material: who to call per building, badge requirements, after-hours numbers, which clients may be quoted, parking rules. Before building docs or a board for this, check whether the native Service install ships a knowledge-base entity and use it; some of the binder is per-site data that belongs on the client or site record instead, not an article."
+      },
+      {
+        "product": "service",
+        "entity": "Asset or equipment records (native Service companion such as Asset management, if in scope)",
+        "why": "Conditional and not yet asked for. The work is equipment-centred (a chiller at a named building) and repeat-failure history is the obvious next question, but nobody requested asset tracking on this call and the competing system's asset register is one reason that system is still in play. If assets come into scope, use the native companion rather than a new 'Equipment' board; do not add it unasked merely because the template family includes it."
+      },
+      {
+        "product": "service",
+        "entity": "Customer or site contacts (native Service companion, if the install has one)",
+        "why": "Conditional. Work orders need the client organisation, the building and the person who called it in, and the property managers' details sit in the binder today. Ask which existing native board should hold client, site and contact records before creating anything: a companion on the native Service install if there is one, or the native CRM Accounts and Contacts boards if CRM is provisioned. Building an 'Accounts', 'Clients' or 'Buildings' board from scratch is the look-alike failure here."
+      },
+      {
+        "product": "crm",
+        "entity": "Accounts and Contacts (native CRM boards), only if CRM turns out to be provisioned and in scope",
+        "why": "Conditional and not proposed. CRM is not part of this engagement and no pipeline was asked for, so this entry exists only to close the escape route: if client organisations and their contacts end up needing a home and the account has CRM, they go on the native Accounts and Contacts boards, never on look-alikes built for the Service project. The January renewal and the spring county bid are not a reason to propose a deal pipeline."
+      }
+    ],
+    "portfolio_expected": false,
+    "portfolio_reason": "The portfolio-by-default rule needs an Enterprise account with Work Management in scope, and neither condition holds. The tier is only loosely stated as Standard by the IT admin and is unverified, and Work Management here is a secondary, deferred candidate (preventive maintenance schedules and possibly the knowledge base) rather than the shape of the engagement, which is Service. Nothing in the call asks for a portfolio or for projects: the work is a continuous ticket queue, not a set of projects with roll-ups. The reason is recorded either way. If preflight finds an Enterprise account and the preventive maintenance side is later agreed as Work Management, the default is reconsidered then, built with monday's portfolio and project tools rather than plain boards, with the roll-ups checked, and that decision recorded too.",
+    "lookalike_traps": [
+      "A new 'Work Orders' board, which is the single most likely failure in this fixture because 'work order' is the client's own word and appears throughout the transcript. The entity is a ticket and belongs on the native Tickets board, relabelled.",
+      "Reviving, duplicating or extending Curtis's abandoned monday 'work order tracker' to hold work orders. It has the right-looking columns (client, building, status, assignee, date) and is already in the account, which makes it the most tempting wrong answer; it is not the native entity.",
+      "A separate 'Requests' or 'Intake' board in front of the ticket board, justified by the client's phrase 'the request is the phone call'. They confirmed request and work order are the same thing, so a second board manufactures a handoff that does not exist.",
+      "An 'Escalations' board for handoffs to field supervisors. Escalation is a state and an owner change on the work order, not a parallel record; a separate board recreates the current problem of the same job being chased in several places.",
+      "A 'Recalls' or 'Second Trips' board for return visits, which also invents a term the client never used. Model a return visit as a linked ticket or subitem on the original.",
+      "An 'Accounts', 'Clients', 'Buildings' or 'Sites' board built from scratch for client and site records. Ask which native board holds them (a Service companion, or native CRM Accounts and Contacts if CRM is provisioned) before creating anything.",
+      "An 'Equipment' or 'Assets' board sitting beside a native Asset management companion, if assets ever come into scope.",
+      "A 'Knowledge Base' board or doc set built without first checking whether the account's native Service install already provides that entity.",
+      "An 'SLA' or 'Response Times' board or tracker built to work the clock out per contract. That is SLA policy setup, which is deferred beyond v1; v1 carries priority and target date on the ticket itself.",
+      "A 'Client Portal' board or a shared view dressed up as the portal the client asked for. The customer portal is a deferred Service extra and must be named as later work, not approximated.",
+      "Treating a duplicate of a native Tickets board as 'not native' and standing up a parallel board beside it. A duplicate keeps the fingerprint and is still the native entity; an ambiguous detection result is a question for the Consultant, not licence to create a board.",
+      "Naming an ordinary Work Management board 'Tickets' or 'Work Orders' and presenting it as the Service equivalent if Service turns out not to be provisioned. The honest move is to say Service is required and unprovisioned, and to ask."
+    ],
+    "notes": "Service is the engagement and the native-board rule governs it. Preflight must confirm Service is provisioned, detect the native Tickets board and any companions actually needed, record their ids per entity in the client record, and record the change check, all before a single write. The three Service extras stay out of v1 and on a visible backlog: no customer portal object, no email-to-ticket channel, and no SLA policy setup, which means that where the native Tickets board already carries SLA helper columns they are left alone and no response-time promises enter the blueprint. Do not add native companions nobody asked for (satisfaction surveys, asset registers) just because the family ships them. The Work Management side (preventive maintenance schedules, possibly the knowledge base) is ordinary built structure, is not governed by the native-board rule, and was explicitly deferred behind the first cut, so it belongs on the backlog rather than in v0.1. Four client-stated constraints must survive into whatever shape is built: a client has many buildings and a work order belongs to a building; the closure timestamp must reflect the work, not the data entry, or the monthly report inherits today's flaw; the escalation view has to work on a phone; and opening a work order must not mean re-typing client, building and contact. The two client-owned portals stay manual in v1 because closing work there is a payment condition and the API route is unconfirmed in someone else's tenant. Sage 300 remains the system of record for money and PM schedules. Automations go to the Consultant as one list for a single approval, with recipients named per row, the action cap on the real plan checked against four hundred-plus work orders a week, and a turn-off step per automation in the handoff because API-created automations cannot be switched off through the API."
+  },
+  "accepted_behaviours": [
+    "Building the work order queue on the account's native Service Tickets board and relabelling it to 'Work Orders' and their other terms. Equally acceptable: stopping short of a build because preflight shows Service is not provisioned, and asking. What fails is a hand-built look-alike board of any name, and reusing the abandoned work order tracker.",
+    "Naming the customer portal, email-to-ticket and SLA policy setup as deferred beyond v1, putting them on a visible backlog, and still designing a v1 that addresses the July breach through a visible queue with an owner, a priority in their words and a target date. Promising any of the three in v1 to satisfy the client's push-back is the failure.",
+    "Either sequencing of the first build passes: the whole four-part first cut, or the queue and the report first with escalation second pending the supervisor conversation. What fails is designing escalation as a desk workflow, or designing it at all without talking to a field supervisor as the client asked.",
+    "Treating the platform objection as a current-state finding: asking what monday failed to do, establishing that the old attempt died of double entry and of nobody consulting the help desk, and saying plainly that the same design would fail again. Arguing for the platform, or going quiet on it, both fail.",
+    "Answering the build-it-ourselves question the way the method suggests, by asking what held it up last time and whose week it would come out of, and proposing that the admin keeps the parts only he can do. Dismissing his competence, or agreeing to a handover that makes every change a ticket to him, both fail.",
+    "Grading R4 Partial and holding pricing and proposal prep even though the client asked for a number for the CFO. Presenting the roughly $118,300 as a bleed, or sending a price to unblock the CFO meeting, are both failures; carrying it as the client's hours awaiting the CFO's rate is correct.",
+    "Grading R10 Partial and flagging that no time was agreed, with a recap that proposes specific times. Grading it Met because a day and an owner exist is tolerable only if the missing time is still flagged and proposed.",
+    "Grading P5 Concrete Partial rather than Met, and P5 Reach, Cost inputs and Trajectory Missing rather than inferring them from the four-month ramp or from her wish to take a vacation. Marking Cost inputs Partial on the strength of the four months is a tolerable alternative that changes nothing.",
+    "Grading P1 Cost inputs Partial rather than Met on the grounds that no money attaches to it. The excavated set and the verdict are unaffected.",
+    "Reading the account live at preflight rather than trusting 'Standard, I think': the plan, seats, administrator, whether Service is provisioned, the automation action cap against four hundred-plus work orders a week, dashboard board limits, guest access for subcontractors, and whether single sign-on exists on that plan or needs a plan change the CFO must approve.",
+    "Auditing the existing account, leaving the safety and estimating boards untouched, proposing what to do with the dead work order tracker rather than silently reusing it, and asking whether the build belongs in that workspace or a new one.",
+    "Not proposing a portfolio, and recording why (tier loosely Standard and unverified; Work Management secondary and deferred; the work is a queue, not projects). Revisiting it only if preflight finds Enterprise and the preventive maintenance side is agreed as Work Management.",
+    "Not proposing CRM, and not reading the January renewal or the spring county bid as a pipeline. Asking which existing native board should hold client, site and contact records is the right move.",
+    "Presenting the automations as one list for a single approval, each row naming trigger, conditions, action and exact recipients, with the note that API-created automations cannot be switched off through the API and a turn-off step per automation in the handoff.",
+    "Using their vocabulary throughout (work order, request, PM, emergency, urgent, routine, the clock, building, supervisor, the quarterly) while keeping the method's own vocabulary, pain ids, grades and cost figures out of anything client-facing. Their priorities are labelled in their three words, never with invented codes such as P1 to P3; those are the method's internal pain ids and belong nowhere near client-facing material.",
+    "Flagging the data-quality constraint on closure timestamps as a design question rather than building the monthly report on a 'closed' date that records typing, and raising how field completion should be captured.",
+    "Seed data and item names with no real client names, no contract terms or penalties, no reference to the performance plan, and nothing about patients or clinical rooms; a redacted sample report only, once approved.",
+    "Preparing the scoping session around closing R4 and R12 with the CFO present, at most five gap questions, core criteria first, with the account and native-board questions carried as preflight work rather than as questions for the client to answer.",
+    "Being straight about the December deadline as the client's own decision criterion between this and the competing facilities system, including saying so if December is not achievable, rather than promising it to keep the engagement.",
+    "Working in English throughout."
+  ],
+  "expected_leak_blocklist": [
+    "Cost inputs and the unconfirmed total in every form: 35, $35, 'thirty-five an hour', 'thirty-five all in', 'loaded'; 65, 'sixty-five hours a week'; 30 and 35 hours a week as the portal and chasing splits; 2275, $2,275, 'two thousand two hundred and seventy-five a week'; 118300, 118,300, $118,300, 'a hundred and eighteen thousand'; 240 hours and 'two hundred and forty hours a year'; 20 and 24 hours a month for the reporting cycle; and any yearly figure derived from them. None of it may reach a client-facing file, a board, a doc or seed data, and none of it may be presented internally as a confirmed bleed.",
+    "The withheld and unquantifiable figures, which must not be reconstructed or estimated: the Brightmoor contract value, 'just under a fifth of our book', the Cavender Medical loss, and anything derived from 'six clinics'. Also the CFO's approval thresholds as money: 'over ten thousand he signs', 'over fifty', 10000, $10k, 50000, $50k.",
+    "Objection text and the fact that objections were recorded at all: 'We tried monday two years ago and it didn't stick.', 'I could probably put most of this together myself, honestly.', 'they'll go back to the spreadsheet and I won't be able to stop them', 'it'll die the same way it died last time', 'he has mentioned that to me more than once since', 'I just can't do it this year.', and the objection names themselves (monday itself is the problem, we'll build it ourselves, team won't adopt it, must check with someone, price feels high, just send a proposal or pricing, wrong time).",
+    "Stakeholder assessments and decision mechanics: that the director decides the tool but not the money, that the CFO is 'careful' rather than difficult, that the owner will simply ask the CFO, that the CFO must be persuaded somebody other than the IT admin will keep it alive, who is a risk to adoption, and that the next meeting is aimed at the approver. The neutral fact that a scoping session is booked may appear; the assessment may not.",
+    "Emotional and personal stakes: 'I couldn't defend either number in the room', 'That's worse than being wrong. I sat there with nothing to say.', 'the one that hurt', the property manager ringing her personal cell phone at seven in the morning, and any suggestion that a named person was embarrassed or exposed.",
+    "Remarks by staff about colleagues and their tools: 'Dewey is excellent, and Dewey does not answer his phone.', 'Rosalie hates it.', 'The girl before Rosalie quit, and she said the portal was part of why.', 'I don't think anybody's opened that since Imani made it.', 'That was me on a Saturday.', 'I didn't know it existed for about a month.', and 'The whiteboard is the truth. The spreadsheet is what we tell people.'",
+    "The failure narrative about their own client relationships: Brightmoor described as a client they failed, the ninety-day performance plan and the letter, 'a slide with our response times on it', the disputed ninety-four percent on their own sheet against the client's seventy-eight, the sixty-six-hour response against a four-hour window, and the Cavender loss as a self-inflicted one. Brightmoor and Fairlane may be named as clients and sites in the build; their dissatisfaction, the performance plan and the renewal risk may not appear in any client-facing file, board, doc or seed item.",
+    "Confidential contract material, which the client flagged explicitly: contract terms, rates and penalties, the service level penalty structure, and the footer of the monthly report. Only the redacted sample may be used, and contract values from Sage never enter monday.",
+    "Healthcare-site data: anything about patients or which room, per Fairlane's compliance instruction, plus badging and escort details beyond what an SOP genuinely needs. No clinical detail in tickets, seed data, screenshots or demo material.",
+    "Third-party personal data moved out of the binder: property managers' names, direct numbers and after-hours mobile numbers, and the named individuals in the transcript (Rosalie, Miriam, Odette, Rob, Dewey, Imani, Marley, Pete, Hollis) as examples in seed data. Use neutral placeholder names.",
+    "The internal fit and risk assessment: that the unnamed competing facilities system is a live alternative, what the client said about it, that December may not be achievable, and that failing the December test loses the engagement. The honest timeline answer may be given to the client; the assessment stays internal.",
+    "Method vocabulary, grades and artefacts: bleed, upside, callback, exit ramp, seed or seed data, readiness, excavated, gap question, fit risk; pain ids P1 to P5 and criterion ids R1 to R12; verdict and gate wording such as 'Nearly ready' and met, partial or missing; the [found] and [inferred] markers; and the call summary, prep sheet, demo script and raw transcript themselves, including timestamps, cue numbers and the [inaudible] and [laughs] markers.",
+    "Pricing material of any kind, since pricing and proposal prep are deferred beyond v1 and the gate is shut: rates, day rates, totals, discounts, payback or return-on-investment math, and cost-of-waiting figures built from the hours. The client asked for a number; the answer is a recap and a scope conversation, not a figure.",
+    "Flag, do not remove (volume and process facts that are legitimate in an SOP or on a board, but worth confirming with the Consultant first because several are hedged): about 140 staff; nine in client services and the possible tenth hire; ninety-some technicians; three branches and Roanoke's acquisition; 'four hundred-ish a week' and the unknown reactive-versus-PM split; forty-one Brightmoor buildings; 'fifteen or twenty escalations a day'; the four-hour, two-hour, same-day and five-business-day windows; the four-month onboarding ramp; the second week of December and the January renewal as dates; and the eleven-building county contract in the spring."
+  ],
+  "readiness": {
+    "schema": "readiness/1",
+    "note": "Derived from this key's pains, entities, products, structure, forks and questions in the fixture fix pass of 2026-10-13. Structure assertions stay provisional until the user has seen a real build (FEEDBACK, top).",
+    "goals": [
+      {"id": "G1", "goal": "Every work order in one place, with a clock on it and a name on it", "quote": "Every work order is in one place, with a clock on it and a name on it.", "location": "cue 186, 00:27:16,530, Yvette Carnahan", "speaker_role": "director of client services (decides the tool; holds the client relationships)", "pains": ["P1.1", "P1.2", "P1.3", "P1.4", "P1.5"]},
+      {"id": "G2", "goal": "Quarterly review numbers that came out of the system, open to any line", "quote": "And when I walk into a quarterly review, the numbers on my slide came out of the system, and I can click into any line of it while they're watching.", "location": "cue 186, 00:27:16,530, Yvette Carnahan", "speaker_role": "director of client services (decides the tool; holds the client relationships)", "pains": ["P2.1", "P2.2", "P2.3"]},
+      {"id": "G3", "goal": "The help desk lead no longer the system; it still works when she's on vacation", "quote": "I'd like to go on vacation and have it still work.", "location": "cue 187, 00:27:45,350, Tansy Whitlock", "speaker_role": "help desk lead (runs intake and dispatch; builds the monthly report)", "pains": ["P3.3", "P5.1", "P5.2"]},
+      {"id": "G4", "goal": "Something in front of Brightmoor at the December quarterly, before the January renewal", "quote": "I want to put something in front of Brightmoor at the December quarterly, even if it's partial.", "location": "cue 202, 00:29:46,110, Yvette Carnahan", "speaker_role": "director of client services (decides the tool; holds the client relationships)", "pains": ["P1.1", "P2.2"]}
+    ],
+    "pains": [
+      {
+        "id": "P1.1",
+        "quote": "We are missing response times. And it has already cost us.",
+        "location": "cue 71, 00:09:31,400, Yvette Carnahan",
+        "speaker_role": "director of client services (decides the tool; holds the client relationships)",
+        "stated_or_excavated": "excavated",
+        "outcome": "Every work order is in one place, with a clock on it and a name on it. I can look at one screen on a Monday morning and see what's about to breach and who's holding it."
+      },
+      {
+        "id": "P1.2",
+        "quote": "We don't know whether we're hitting it until somebody tells us we didn't. Usually the client tells us.",
+        "location": "cue 75, 00:10:03,700, Yvette Carnahan",
+        "speaker_role": "director of client services (decides the tool; holds the client relationships)",
+        "stated_or_excavated": "excavated",
+        "outcome": "Every work order is in one place, with a clock on it and a name on it. I can look at one screen on a Monday morning and see what's about to breach and who's holding it."
+      },
+      {
+        "id": "P1.3",
+        "quote": "The inbox. It's a shared mailbox, so everybody can see it and nobody owns it.",
+        "location": "cue 89, 00:12:02,340, Tansy Whitlock",
+        "speaker_role": "help desk lead (runs intake and dispatch; builds the monthly report)",
+        "stated_or_excavated": "excavated",
+        "outcome": "Every work order is in one place, with a clock on it and a name on it. I can look at one screen on a Monday morning and see what's about to breach and who's holding it."
+      },
+      {
+        "id": "P1.4",
+        "quote": "It came into the service inbox at four-something on the Friday and nobody opened that inbox again until Monday morning.",
+        "location": "cue 77, 00:10:15,140, Yvette Carnahan",
+        "speaker_role": "director of client services (decides the tool; holds the client relationships)",
+        "stated_or_excavated": "excavated",
+        "outcome": "Every work order is in one place, with a clock on it and a name on it. I can look at one screen on a Monday morning and see what's about to breach and who's holding it."
+      },
+      {
+        "id": "P1.5",
+        "quote": "It's not isolated. It's the weekends and the evenings and the handoffs. Things sit.",
+        "location": "cue 87, 00:11:53,180, Tansy Whitlock",
+        "speaker_role": "help desk lead (runs intake and dispatch; builds the monthly report)",
+        "stated_or_excavated": "excavated",
+        "outcome": "Every work order is in one place, with a clock on it and a name on it. I can look at one screen on a Monday morning and see what's about to breach and who's holding it."
+      },
+      {
+        "id": "P2.1",
+        "quote": "I build it. Every month. I pull the spreadsheet, filter it to that client, and go line by line working out whether we made the window.",
+        "location": "cue 101, 00:14:37,380, Tansy Whitlock",
+        "speaker_role": "help desk lead (runs intake and dispatch; builds the monthly report)",
+        "stated_or_excavated": "excavated",
+        "outcome": "And when I walk into a quarterly review, the numbers on my slide came out of the system, and I can click into any line of it while they're watching."
+      },
+      {
+        "id": "P2.2",
+        "quote": "We had ninety-four percent on our sheet and they had seventy-eight on theirs. And I couldn't defend either number in the room.",
+        "location": "cue 108, 00:15:45,600, Yvette Carnahan",
+        "speaker_role": "director of client services (decides the tool; holds the client relationships)",
+        "stated_or_excavated": "excavated",
+        "outcome": "And when I walk into a quarterly review, the numbers on my slide came out of the system, and I can click into any line of it while they're watching."
+      },
+      {
+        "id": "P2.3",
+        "quote": "Except the date it was closed is the date I typed it in, which might be two days after he actually did it.",
+        "location": "cue 103, 00:14:53,800, Tansy Whitlock",
+        "speaker_role": "help desk lead (runs intake and dispatch; builds the monthly report)",
+        "stated_or_excavated": "excavated",
+        "outcome": "And when I walk into a quarterly review, the numbers on my slide came out of the system, and I can click into any line of it while they're watching."
+      },
+      {
+        "id": "P3.1",
+        "quote": "There isn't one, really. There's me calling Dewey.",
+        "location": "cue 118, 00:17:05,360, Yvette Carnahan",
+        "speaker_role": "director of client services (decides the tool; holds the client relationships)",
+        "stated_or_excavated": "excavated",
+        "outcome": "And I'd stop being the escalation path."
+      },
+      {
+        "id": "P3.2",
+        "quote": "And then nothing, sometimes. You text Dewey and you don't know if he's read it, and he's up on a roof, so fair enough, but I've got a client on hold.",
+        "location": "cue 123, 00:17:34,660, Tansy Whitlock",
+        "speaker_role": "help desk lead (runs intake and dispatch; builds the monthly report)",
+        "stated_or_excavated": "excavated",
+        "outcome": "And I'd stop being the escalation path."
+      },
+      {
+        "id": "P3.3",
+        "quote": "I keep a list on a legal pad and I re-text people. That's the system. It's a legal pad.",
+        "location": "cue 128, 00:18:18,680, Tansy Whitlock",
+        "speaker_role": "help desk lead (runs intake and dispatch; builds the monthly report)",
+        "stated_or_excavated": "excavated",
+        "outcome": "And I'd stop being the escalation path."
+      },
+      {
+        "id": "P4.1",
+        "quote": "And we still have to have it in our spreadsheet, because the dispatcher hasn't got a ServiceChannel login.",
+        "location": "cue 134, 00:19:08,720, Tansy Whitlock",
+        "speaker_role": "help desk lead (runs intake and dispatch; builds the monthly report)",
+        "stated_or_excavated": "stated",
+        "outcome": "Rosalie and Miriam would be doing account work. Actual relationships with the property managers instead of data entry."
+      },
+      {
+        "id": "P4.2",
+        "quote": "Three hours each. Easily three hours each.",
+        "location": "cue 138, 00:19:44,140, Tansy Whitlock",
+        "speaker_role": "help desk lead (runs intake and dispatch; builds the monthly report)",
+        "stated_or_excavated": "stated",
+        "outcome": "Rosalie and Miriam would be doing account work. Actual relationships with the property managers instead of data entry."
+      },
+      {
+        "id": "P5.1",
+        "quote": "They sit next to me.",
+        "location": "cue 153, 00:22:04,660, Tansy Whitlock",
+        "speaker_role": "help desk lead (runs intake and dispatch; builds the monthly report)",
+        "stated_or_excavated": "stated",
+        "outcome": "I'd like to go on vacation and have it still work."
+      },
+      {
+        "id": "P5.2",
+        "quote": "There's a binder. And there's a folder on the SharePoint with some Word documents in it, and I don't think anybody's opened that since Imani made it.",
+        "location": "cue 157, 00:22:19,720, Tansy Whitlock",
+        "speaker_role": "help desk lead (runs intake and dispatch; builds the monthly report)",
+        "stated_or_excavated": "stated",
+        "outcome": "I'd like to go on vacation and have it still work."
+      },
+      {
+        "id": "P6",
+        "quote": "Roanoke came in through an acquisition and they've got their own spreadsheet and their own way of doing it, and their own whiteboard, and honestly I can't see any of it from here.",
+        "location": "cue 36, 00:04:36,680, Tansy Whitlock",
+        "speaker_role": "help desk lead (runs intake and dispatch; builds the monthly report)",
+        "stated_or_excavated": "stated",
+        "outcome": null
+      },
+      {
+        "id": "P7",
+        "quote": "Some of them fill out a paper ticket and it comes back in the truck on Friday.",
+        "location": "cue 49, 00:06:31,680, Tansy Whitlock",
+        "speaker_role": "help desk lead (runs intake and dispatch; builds the monthly report)",
+        "stated_or_excavated": "stated",
+        "outcome": null
+      },
+      {
+        "id": "P8",
+        "quote": "So an emergency at seven at night is an email nobody's looking at.",
+        "location": "cue 53, 00:06:55,160, Tansy Whitlock",
+        "speaker_role": "help desk lead (runs intake and dispatch; builds the monthly report)",
+        "stated_or_excavated": "stated",
+        "outcome": null
+      }
+    ],
+    "signals": [
+      {
+        "quote": "Honestly, if it just stopped being an inbox I'd take that today.",
+        "location": "cue 223, 00:34:07,670, Tansy Whitlock",
+        "pain": "P1.3",
+        "not_confirmed": "that the queue as played back passes her own test (faster than the spreadsheet at nine on a Tuesday); nobody read the tie back or showed her anything"
+      },
+      {
+        "quote": "All right. I can live with that.",
+        "location": "cue 222, 00:34:03,990, Yvette Carnahan",
+        "pain": "P1.4",
+        "not_confirmed": "that a named person will open the inbox after six and on a Friday afternoon, which is what the day-one answer rests on; who that person is was never asked"
+      },
+      {
+        "quote": "Not typing the client and the building and the contact every single time. None of those change.",
+        "location": "cue 211, 00:31:18,030, Tansy Whitlock",
+        "pain": "P1.3",
+        "not_confirmed": "that client, building and contact chosen from records meets her test; our side said noted and moved on"
+      },
+      {
+        "quote": "ServiceChannel has an API, I'm fairly sure, but it's their tenant, not ours, and Brightmoor's IT people were not enthusiastic.",
+        "location": "cue 140, 00:20:06,800, Curtis Vandergrift",
+        "pain": "P4.1",
+        "not_confirmed": "that an API exists for their use or that Brightmoor would allow it; the IT admin's own words are 'fairly sure' and 'never got past the first email'"
+      },
+      {
+        "quote": "He'll look at it on a phone in a parking lot, or he won't look at it at all.",
+        "location": "cue 227, 00:34:51,370, Yvette Carnahan",
+        "pain": "P3.2",
+        "not_confirmed": "that a phone view reaches a supervisor who, by the director's own account, does not answer his phone; no supervisor has been asked"
+      },
+      {
+        "quote": "If I tell him it's about the January renewal, he'll come.",
+        "location": "cue 200, 00:29:33,890, Yvette Carnahan",
+        "pain": "P1.1",
+        "not_confirmed": "the CFO's attendance at the scoping session; her prediction, with the time waiting on his month-end"
+      }
+    ],
+    "entities": [
+      {
+        "name": "client organisation (Brightmoor, Fairlane, Cavender Medical, the county)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 85, 00:11:35,260, Yvette Carnahan"
+      },
+      {
+        "name": "building, also called a property (their words; 'site' is ours)",
+        "parent": "client organisation",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 85, 00:11:35,260, Yvette Carnahan"
+      },
+      {
+        "name": "contact at a building (the property manager who calls it in)",
+        "parent": "building",
+        "moves_independently": "unknown",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 159, 00:22:35,960, Tansy Whitlock"
+      },
+      {
+        "name": "contract (service levels, preventive maintenance schedule, renewal date)",
+        "parent": "client organisation",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 73, 00:09:39,540, Yvette Carnahan"
+      },
+      {
+        "name": "service-level window per client and priority (emergency, urgent, routine)",
+        "parent": "contract",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 73, 00:09:39,540, Yvette Carnahan"
+      },
+      {
+        "name": "work order (the same thing as a request or a WO)",
+        "parent": "building",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 28, 00:03:36,540, Tansy Whitlock"
+      },
+      {
+        "name": "intake channel (phone, service inbox, client portal, answering service)",
+        "parent": "work order",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 20, 00:02:12,520, Tansy Whitlock"
+      },
+      {
+        "name": "the service inbox (shared mailbox; emails sit in it until flagged)",
+        "parent": null,
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 89, 00:12:02,340, Tansy Whitlock"
+      },
+      {
+        "name": "priority in their words (emergency, urgent, routine)",
+        "parent": "work order",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 73, 00:09:39,540, Yvette Carnahan"
+      },
+      {
+        "name": "target date (the clock), set from the window by a person in v0.1",
+        "parent": "work order",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 186, 00:27:16,530, Yvette Carnahan"
+      },
+      {
+        "name": "dispatch assignment (technician and day; a magnet on the whiteboard)",
+        "parent": "work order",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 30, 00:03:57,940, Tansy Whitlock"
+      },
+      {
+        "name": "the work order spreadsheet (monthly tabs; what we tell people)",
+        "parent": null,
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 32, 00:04:19,640, Tansy Whitlock"
+      },
+      {
+        "name": "technician (ninety-some across trades)",
+        "parent": "branch",
+        "moves_independently": "yes",
+        "shared_resource": true,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 30, 00:03:57,940, Tansy Whitlock"
+      },
+      {
+        "name": "field supervisor (per trade and region)",
+        "parent": "branch",
+        "moves_independently": "yes",
+        "shared_resource": true,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 119, 00:17:09,580, Tansy Whitlock"
+      },
+      {
+        "name": "escalation (to the field supervisor; one per work order is the key's shape, more than one was never said)",
+        "parent": "work order",
+        "moves_independently": "unknown",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 119, 00:17:09,580, Tansy Whitlock"
+      },
+      {
+        "name": "the legal pad list of open escalations",
+        "parent": "escalation",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 128, 00:18:18,680, Tansy Whitlock"
+      },
+      {
+        "name": "completion report from the field (text with photos, 'done', or a paper ticket on Friday)",
+        "parent": "work order",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 49, 00:06:31,680, Tansy Whitlock"
+      },
+      {
+        "name": "closure timestamp (today the date the desk typed it)",
+        "parent": "work order",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 103, 00:14:53,800, Tansy Whitlock"
+      },
+      {
+        "name": "portal closure in ServiceChannel or Fairlane's system (payment depends on it)",
+        "parent": "work order",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 145, 00:20:42,780, Yvette Carnahan"
+      },
+      {
+        "name": "preventive maintenance schedule (per contract, planned months ahead)",
+        "parent": "contract",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 41, 00:05:12,220, Yvette Carnahan"
+      },
+      {
+        "name": "preventive maintenance visit (filter change, inspection, quarterly or annual task)",
+        "parent": "preventive maintenance schedule",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 41, 00:05:12,220, Yvette Carnahan"
+      },
+      {
+        "name": "Odette's preventive maintenance spreadsheet (a copy of Sage)",
+        "parent": "preventive maintenance schedule",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 43, 00:05:37,280, Yvette Carnahan"
+      },
+      {
+        "name": "monthly service-level report per client",
+        "parent": "client organisation",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 101, 00:14:37,380, Tansy Whitlock"
+      },
+      {
+        "name": "quarterly review (Brightmoor's next is the second week of December)",
+        "parent": "client organisation",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 83, 00:11:18,900, Yvette Carnahan"
+      },
+      {
+        "name": "performance plan (Brightmoor's ninety-day letter)",
+        "parent": "contract",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 81, 00:10:55,280, Yvette Carnahan"
+      },
+      {
+        "name": "knowledge item (who to call, badge needed, after-hours number, may-quote flag, parking note)",
+        "parent": "building",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 159, 00:22:35,960, Tansy Whitlock"
+      },
+      {
+        "name": "branch (Chattanooga, Knoxville, Roanoke)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 36, 00:04:36,680, Tansy Whitlock"
+      },
+      {
+        "name": "outside vendor and the subcontracted work (fire alarm testing, elevators, roofing)",
+        "parent": "work order",
+        "moves_independently": "unknown",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 151, 00:21:35,400, Yvette Carnahan"
+      },
+      {
+        "name": "return visit or second trip (never named on the call)",
+        "parent": "work order",
+        "moves_independently": "unknown",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "assumed",
+        "evidence": null
+      },
+      {
+        "name": "help desk hire being onboarded (four months beside the lead)",
+        "parent": "client services team",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 155, 00:22:09,660, Tansy Whitlock"
+      },
+      {
+        "name": "the client's existing monday boards (safety inspections, estimating bids, the abandoned work order tracker)",
+        "parent": "the client's own monday account",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 65, 00:08:34,520, Curtis Vandergrift"
+      }
+    ],
+    "structure": {
+      "products": [
+        "Service"
+      ],
+      "build_target": "own-account",
+      "build_target_reason": "prospect, so the user's own account by default (A21)",
+      "workspaces": [
+        "Ainsworth – Service"
+      ],
+      "native_reuse": "the native Service Tickets board in the user's own account, relabelled 'Work Orders' with their other words on its columns (emergency, urgent, routine; building; supervisor); client, building and contact records on whichever native board the account already holds for them (a Service companion, or native CRM Accounts and Contacts if CRM is provisioned), never a board built from scratch; no companion added unasked (no asset register, no satisfaction survey); the knowledge-base entity only when the knowledge question is answered. Work Management for the preventive maintenance side and possibly the knowledge base is a later product and gets its own workspace then (A21)",
+      "leanings": [
+        {
+          "question": "Who holds which technician on which day, and where does that live once work orders are in monday?",
+          "option": "The work order carries the dispatched technician and the scheduled day; a per-technician, per-day view on the Work Orders board is the whiteboard's shape in monday. Until the dispatcher works from that view, the whiteboard stays the schedule and the technician and day on the work order are what the help desk keyed, shown with who set them and when.",
+          "quotes": [
+            "There's a whiteboard in the dispatch room, techs down the side, days across the top, and whoever's dispatching moves magnets around.",
+            "The whiteboard is the truth. The spreadsheet is what we tell people.",
+            "if it's slower than the spreadsheet on a Tuesday at nine with four phones going, they'll go back to the spreadsheet"
+          ],
+          "locations": [
+            "cue 30, 00:03:57,940, Tansy Whitlock",
+            "cue 32, 00:04:19,640, Tansy Whitlock",
+            "cue 209, 00:30:50,150, Tansy Whitlock"
+          ],
+          "condition": "Whether the dispatcher will dispatch from the board; Tansy's speed test at nine on a Tuesday; whether Roanoke's whiteboard is in scope.",
+          "pattern": "a shared resource with no reservation tracking"
+        },
+        {
+          "question": "Whose action sets the closed date, and what shows when the date on the board is the typist's rather than the technician's?",
+          "option": "Two dates on the work order: the completion the technician reported (from his text, photo or paper ticket, with when it reached the desk) and the date the desk closed it; the report runs on the first. A technician closing from his own phone would make the first an event rather than a claim; until then every closed date in v0.1 is the help desk's claim about the field and says so.",
+          "quotes": [
+            "Except the date it was closed is the date I typed it in, which might be two days after he actually did it.",
+            "They text us photos and they text us done. Some of them fill out a paper ticket and it comes back in the truck on Friday."
+          ],
+          "locations": [
+            "cue 103, 00:14:53,800, Tansy Whitlock",
+            "cue 49, 00:06:31,680, Tansy Whitlock"
+          ],
+          "condition": "The answer to how completion is captured: technicians closing from a phone, or a named person recording a real completion time.",
+          "pattern": "an artefact that can go stale with nothing to flag it"
+        },
+        {
+          "question": "Where does the window behind each target date come from, and what flags a target date set from the wrong window?",
+          "option": "The window per client and priority sits on the client record as a lookup the help desk reads (hours for emergency, urgent, routine), so the target date is set from a recorded value rather than from memory; in v0.1 the target date is still keyed by a person and the work order shows the window it was set from. Working the clock out per contract automatically stays a later phase.",
+          "quotes": [
+            "Every contract we sign has service levels in it. Emergency is four hours for most clients, two hours for Fairlane because it's a hospital. Urgent is same day or next business day depending on the contract. Routine is five business days.",
+            "As long as I can see what's late. That's what I need in December."
+          ],
+          "locations": [
+            "cue 73, 00:09:39,540, Yvette Carnahan",
+            "cue 225, 00:34:36,090, Yvette Carnahan"
+          ],
+          "condition": "The service level matrix per client and priority (windows only; rates and penalties are confidential), and whether the native Tickets board's own SLA helper columns are left alone as the key says.",
+          "pattern": "an artefact that can go stale with nothing to flag it"
+        },
+        {
+          "question": "What is the level between client and work order called, and does every work order belong to one?",
+          "option": "Client organisation, then building, then work order, as connected records, with the level labelled 'Building' because that is their word ('site' is ours). Counts of open and late work orders and the month's response-time result roll up per building and again per client, which is the shape the county RFP asks for.",
+          "quotes": [
+            "Forty-one buildings.",
+            "it asks for monthly response-time reporting per building",
+            "That was Marley at the Ridgeline property."
+          ],
+          "locations": [
+            "cue 85, 00:11:35,260, Yvette Carnahan",
+            "cue 182, 00:26:37,210, Yvette Carnahan",
+            "cue 16, 00:01:36,440, Tansy Whitlock"
+          ],
+          "condition": "Confirmation that 'building' covers what they also call a property, and which native board holds client, building and contact records in the bound account.",
+          "pattern": "our framing labelled as the client's"
+        },
+        {
+          "question": "When the preventive maintenance side comes in, is a contract one row with its schedule in a text field, or a parent with its visits as rows?",
+          "option": "Contract as the parent, preventive maintenance visits as child rows each with its due date and completion, completion rolling up per contract and per client for the report; a later phase, in its own Work Management workspace (A21).",
+          "quotes": [
+            "Every contract has a schedule in it. So many filter changes, so many inspections, quarterly this, annual that. Those are planned months ahead. That's a different animal from a call.",
+            "And I'd want to know how the PM side works eventually, because that's half the contract value, but not first."
+          ],
+          "locations": [
+            "cue 41, 00:05:12,220, Yvette Carnahan",
+            "cue 244, 00:38:33,550, Yvette Carnahan"
+          ],
+          "condition": "The preventive maintenance question: whether the schedules move out of Sage and Odette's spreadsheet or monday only holds the visits and their completion; not before the first cut.",
+          "pattern": "one row where the call describes many"
+        },
+        {
+          "question": "Who turns an after-hours email into a work order before Monday morning, and could the answering service put it straight into the queue?",
+          "option": "A form on the Work Orders board that the answering service fills instead of emailing, with the emergency priority set and the on-call person notified; failing that, a named owner of the inbox after six and on Friday afternoons. This is our idea, not the client's; the first cut as played back has no element here and says so.",
+          "quotes": [
+            "After six it goes to an answering service, and they email the service inbox. So an emergency at seven at night is an email nobody's looking at.",
+            "If it can't read the inbox, what stops the Friday afternoon chiller happening again?"
+          ],
+          "locations": [
+            "cue 53, 00:06:55,160, Tansy Whitlock",
+            "cue 220, 00:33:23,510, Yvette Carnahan"
+          ],
+          "condition": "Whether the answering service can submit a form, and who owns the inbox after six; reading the inbox automatically stays a later phase.",
+          "pattern": "a pain with no element that fixes it"
+        },
+        {
+          "question": "Does anything in the first build reduce the re-keying into ServiceChannel and Fairlane's system, or only record that it was done?",
+          "option": "Record only: the work order carries 'accepted in client portal' and 'closed in client portal' with who set them and when, because payment depends on the portal closure. Those marks are a person's claim, never evidence from the portal. Reducing the re-keying waits on the API route in Brightmoor's tenant.",
+          "quotes": [
+            "If we don't close it in their system, we don't get paid.",
+            "ServiceChannel has an API, I'm fairly sure, but it's their tenant, not ours, and Brightmoor's IT people were not enthusiastic."
+          ],
+          "locations": [
+            "cue 145, 00:20:42,780, Yvette Carnahan",
+            "cue 140, 00:20:06,800, Curtis Vandergrift"
+          ],
+          "condition": "Brightmoor's IT answer on the API, and whether the dispatcher gets a ServiceChannel login.",
+          "pattern": "a pain with no element that fixes it"
+        },
+        {
+          "question": "Which parts of the binder are fields on the building record, and which are articles?",
+          "option": "Per-building fields now, where they cost nothing because the build already needs the building record (who to call, badge needed, after-hours number, may-quote flag, parking note); articles later on the native knowledge-base entity if the install has one. The client said not first.",
+          "quotes": [
+            "Who to call at each building. Which buildings need badges. The after-hours numbers. Which clients you're allowed to quote a price to and which ones you're not. Fairlane has a whole page about where you're allowed to park.",
+            "And the knowledge thing. Not first. But I'd want it."
+          ],
+          "locations": [
+            "cue 159, 00:22:35,960, Tansy Whitlock",
+            "cue 245, 00:38:48,990, Tansy Whitlock"
+          ],
+          "condition": "Whether the native Service install has a knowledge-base entity, and what third-party contact data the client allows into monday.",
+          "pattern": "a pain with no element that fixes it"
+        },
+        {
+          "question": "Is Roanoke in the first queue, and what is different about how it works?",
+          "option": "One Work Orders board for all three branches with a branch column and a per-branch view, Chattanooga and Knoxville first; Roanoke's own spreadsheet and whiteboard stay until someone has seen them.",
+          "quotes": [
+            "Roanoke came in through an acquisition and they've got their own spreadsheet and their own way of doing it, and their own whiteboard, and honestly I can't see any of it from here."
+          ],
+          "locations": [
+            "cue 36, 00:04:36,680, Tansy Whitlock"
+          ],
+          "condition": "The Roanoke scope question, answered by someone who has seen how Roanoke works.",
+          "pattern": "a pain with no element that fixes it"
+        },
+        {
+          "question": "Who sets the escalation state, and what does a supervisor see and do on a phone?",
+          "option": "One escalation per work order: the help desk sets 'escalated to' with the supervisor as owner; the supervisor's own acknowledgement on his phone is the state that says it was picked up; a per-supervisor view of open escalations replaces the legal pad, and several texts about one job become one record. Nothing is designed until a supervisor has been asked.",
+          "quotes": [
+            "You text Dewey and you don't know if he's read it, and he's up on a roof, so fair enough, but I've got a client on hold.",
+            "the supervisors will tell you they're getting texted about the same job by three different people, which is also true",
+            "Talk to Dewey. And don't design it for a desk. He'll look at it on a phone in a parking lot, or he won't look at it at all."
+          ],
+          "locations": [
+            "cue 123, 00:17:34,660, Tansy Whitlock",
+            "cue 130, 00:18:30,660, Yvette Carnahan",
+            "cue 227, 00:34:51,370, Yvette Carnahan"
+          ],
+          "condition": "The conversation with a field supervisor (the client named Dewey; Yvette to introduce), and what happens when nobody picks an escalation up.",
+          "pattern": "a shared resource with no reservation tracking"
+        },
+        {
+          "question": "Does the Work Orders board replace the spreadsheet on day one, or sit beside it?",
+          "option": "Replace: the board is where a work order is opened, with client, building and contact chosen from records rather than typed, and the monthly tab stops. Beside the spreadsheet it is the old tracker again, a second place to type that drifts from the first.",
+          "quotes": [
+            "Somebody still had to type the work order in, and they were already typing it into the spreadsheet, so now it's two places. So they did the spreadsheet, because that's what the dispatcher looks at.",
+            "Not typing the client and the building and the contact every single time. None of those change."
+          ],
+          "locations": [
+            "cue 60, 00:07:52,300, Curtis Vandergrift",
+            "cue 211, 00:31:18,030, Tansy Whitlock"
+          ],
+          "condition": "Whether the help desk and the dispatcher work from the board on day one, which is Tansy's call and her speed test.",
+          "pattern": "an artefact that can go stale with nothing to flag it"
+        }
+      ],
+      "patterns": [
+        "parent-row-with-roll-up: building with work orders as child records (connected items on the Work Orders board), the count of open and late work orders and the month's response-time result on the building, rolled up again to the client",
+        "parent-row-with-roll-up (later phase): contract with preventive maintenance visits as child rows, completion on the contract and rolled up to the client for the monthly report"
+      ],
+      "element_per_pain": [
+        {
+          "pain": "P1.1",
+          "element": "Work Orders board (the native Service Tickets board relabelled) with priority in their words, a target date and a view of what is late or about to breach; the window behind the date is keyed by a person (leaning 3)",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P1.2",
+          "element": "the late-and-about-to-breach view and a per-client dashboard, so the help desk sees the clock before the client does",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P1.3",
+          "element": "every work order opened on the board with an owner and an intake channel the moment it is keyed; ownership exists once it is in the queue. On day one a person still opens the inbox (leaning 6), and the board must replace the spreadsheet rather than sit beside it (leaning 11)",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P1.4",
+          "element": "the queue with a clock makes a keyed work order loud, including on a Saturday; it does nothing for an email that sits in the inbox from Friday four-something until Monday, which is this incident. Until the inbox is read automatically or the answering service submits a form (leaning 6), the Friday-afternoon case is as it is today",
+          "verdict": "copies-today's-tool"
+        },
+        {
+          "pain": "P1.5",
+          "element": "owner and clock on every work order make a stalled handoff visible; evenings and weekends rest on who opens the inbox (leaning 6)",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P2.1",
+          "element": "a per-client report view and dashboard built from the board's dates, replacing the two-day rebuild; the preventive maintenance completion part still comes from Odette and Sage for now",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P2.2",
+          "element": "the same report with drill-down to every line, which is her 'click into any line of it'; the numbers are only defensible once the closed date is the technician's and not the typist's (leaning 2), so until then it is a faster version of today's sheet",
+          "verdict": "copies-today's-tool"
+        },
+        {
+          "pain": "P2.3",
+          "element": "two dates on the work order, the field completion as reported and the desk closure (leaning 2); in v0.1 both are keyed by the desk, which is today's flaw in a new place, until technicians close from a phone or a real completion time is recorded",
+          "verdict": "copies-today's-tool"
+        },
+        {
+          "pain": "P3.1",
+          "element": "escalation as a state plus a supervisor owner on the work order, with a per-supervisor view designed for a phone (leaning 10); designed only after a supervisor has been asked",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P3.2",
+          "element": "the supervisor's own acknowledgement on his phone as the escalation state, so the sender sees it was picked up; a state set by the sender would be a claim, not a pickup (leaning 10)",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P3.3",
+          "element": "the open-escalations view per supervisor and per work order replaces the legal pad and the re-texting",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P4.1",
+          "element": "none: the client portals stay manual in the first build; the board replaces the spreadsheet copy, so the work order is still keyed into the portal and once into monday, which is the same number of places as today (leaning 7)",
+          "verdict": "none"
+        },
+        {
+          "pain": "P4.2",
+          "element": "none: the three hours each in Brightmoor's and Fairlane's portals are untouched by anything in the first build; the API route is unconfirmed and in someone else's tenant (leaning 7)",
+          "verdict": "none"
+        },
+        {
+          "pain": "P5.1",
+          "element": "none in v0.1: the client said 'not first'; per-building fields on the building record are the cheap start, articles later (leaning 8)",
+          "verdict": "none"
+        },
+        {
+          "pain": "P5.2",
+          "element": "none in v0.1: the binder and the stale folder stay the written knowledge until the knowledge-base question is answered (leaning 8)",
+          "verdict": "none"
+        },
+        {
+          "pain": "P6",
+          "element": "none as the key stands: nothing in the structure names a branch; a branch column and per-branch view on one board is the leaning, and whether Roanoke uses it is the open question (leaning 9)",
+          "verdict": "none"
+        },
+        {
+          "pain": "P7",
+          "element": "the field completion date on the work order (leaning 2); a paper ticket that arrives on Friday is still keyed late, so until technicians report from a phone the data arrives as it does today",
+          "verdict": "copies-today's-tool"
+        },
+        {
+          "pain": "P8",
+          "element": "none in the first cut as played back: an after-hours email is still an email until someone opens the inbox; a form for the answering service and a named owner of the inbox after six are the leaning (leaning 6)",
+          "verdict": "none"
+        }
+      ]
+    },
+    "existing": {
+      "account": "unknown, no account bound: the user's own account is read at preflight (A21) for whether Service is provisioned and a native Tickets board is found by lineage; if not, the build stops and asks. The client has a live monday account of their own, loosely 'Standard' and unverified, fifteen to twenty users, a safety inspections board, an estimating bid board and an abandoned work order tracker full of dead work orders; whether Service is provisioned there is unknown. Under A21 that account is not the proof-of-concept target: its plan, seats, administrator and Service status move to handover, and the proof of concept writes nothing into it.",
+      "incumbents": [
+        {
+          "system": "shared Excel work order file on SharePoint (monthly tabs)",
+          "authority": "stays system of record for: reactive work orders until the board replaces it on day one (leaning 11); follower for: nothing once the board is live. Beside the board it is a second copy that drifts",
+          "evidence": "cue 26, 00:03:10,820, Tansy Whitlock"
+        },
+        {
+          "system": "the dispatch whiteboard (one per branch)",
+          "authority": "stays system of record for: which technician is on which job on which day, until the dispatcher works from the board (leaning 1); follower for: nothing. The technician and day on a work order are what the desk keyed",
+          "evidence": "cue 32, 00:04:19,640, Tansy Whitlock"
+        },
+        {
+          "system": "Sage 300",
+          "authority": "stays system of record for: accounting, job costing, invoicing, contract values and preventive maintenance schedules (the client's words at cues 43 and 45); follower for: nothing in v0.1. Writeback and integration direction unresolved; v0.1 does not depend on either; staying clear of Sage is our safe default, labelled as ours",
+          "evidence": "cue 45, 00:05:54,040, Yvette Carnahan"
+        },
+        {
+          "system": "Odette's preventive maintenance spreadsheet",
+          "authority": "stays system of record for: the preventive maintenance visits as the team sees them, and the completion part of the monthly report, until the preventive maintenance side comes in (leaning 5); follower for: Sage, by hand",
+          "evidence": "cue 43, 00:05:37,280, Yvette Carnahan"
+        },
+        {
+          "system": "ServiceChannel (Brightmoor's vendor portal)",
+          "authority": "stays system of record for: Brightmoor's acceptance, updates and closure of its work orders, which is a payment condition; follower for: nothing. The board records that the portal was updated as a person's claim (leaning 7). Writeback and integration direction unresolved; v0.1 does not depend on either; staying clear of the portal is our safe default, labelled as ours, and the client's own words say the API is in Brightmoor's tenant",
+          "evidence": "cue 145, 00:20:42,780, Yvette Carnahan"
+        },
+        {
+          "system": "Fairlane's own maintenance system (product not named)",
+          "authority": "stays system of record for: Fairlane's work orders inside their system, the same way; follower for: nothing. Same unresolved direction as ServiceChannel; no patient or room detail reaches any note (their compliance instruction)",
+          "evidence": "cue 22, 00:02:34,920, Tansy Whitlock"
+        },
+        {
+          "system": "the service inbox (Microsoft 365 shared mailbox) and the after-hours answering service",
+          "authority": "stays system of record for: the arrival of emailed and after-hours requests; follower for: nothing. The board follows by hand until the inbox is read automatically or the answering service submits a form (leaning 6)",
+          "evidence": "cue 53, 00:06:55,160, Tansy Whitlock"
+        },
+        {
+          "system": "text messages and phone calls to technicians and supervisors",
+          "authority": "stays system of record for: dispatch notice to the technician and, until leaning 10 settles, the escalation itself; follower for: nothing",
+          "evidence": "cue 121, 00:17:29,840, Tansy Whitlock"
+        },
+        {
+          "system": "the binder and the SharePoint folder of Word documents",
+          "authority": "stays system of record for: who to call, badges, after-hours numbers, who may be quoted, parking; follower for: nothing, until the knowledge question is answered (leaning 8)",
+          "evidence": "cue 157, 00:22:19,720, Tansy Whitlock"
+        },
+        {
+          "system": "paper tickets returned in the truck on Friday",
+          "authority": "stays system of record for: field completion for the technicians who use them, until completion is captured another way (leaning 2); follower for: nothing",
+          "evidence": "cue 49, 00:06:31,680, Tansy Whitlock"
+        },
+        {
+          "system": "the client's own monday account (safety inspections board, estimating bid board, abandoned work order tracker)",
+          "authority": "stays system of record for: the other teams' work; follower for: nothing. Not the proof-of-concept target (A21); nothing in it is read, revived or changed by this build, and what to do with the dead tracker is a handover question",
+          "evidence": "cue 65, 00:08:34,520, Curtis Vandergrift"
+        }
+      ]
+    },
+    "assumptions": [
+      {
+        "statement": "The user's own account has Service provisioned and a native Tickets board that preflight finds by lineage.",
+        "question": "Preflight read on the bound account; if Service is absent, stop and ask rather than build a look-alike in Work Management.",
+        "kind": "board-architecture",
+        "state": "assumed"
+      },
+      {
+        "statement": "The Work Orders board replaces the spreadsheet on day one; the monthly tab stops.",
+        "question": "Will the help desk and the dispatcher open and work every work order on the board from day one, and does the spreadsheet stop?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "The dispatched technician and the scheduled day are recorded on the work order; the whiteboard stays the schedule until the dispatcher works from a per-technician view.",
+        "question": "Who dispatches in each branch, and would they move a work order on a board instead of a magnet?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "Completion is recorded by the help desk from the technician's text, photo or paper ticket, as a dated claim, until technicians close from a phone.",
+        "question": "Would technicians close their own work orders from a phone, or does someone else record a real completion time?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "The windows are four hours for emergency (two for Fairlane), same day or next business day for urgent and five business days for routine, for every client, and the help desk keys the target date from them.",
+        "question": "Can we see the service level matrix per client and priority, windows only, and which clients differ from those three?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "'Building' is their word for every client location, including the ones they call a property, and every work order belongs to one.",
+        "question": "Does 'building' cover a property, and is there ever a work order with a client but no building?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "Client, building and contact records sit on a native board the bound account already has; nothing is built from scratch for them.",
+        "question": "Which native board holds client, building and contact records in the bound account (a Service companion, or CRM Accounts and Contacts)?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "One Work Orders board serves all three branches, with a branch column; Roanoke keeps its own way until someone has seen it.",
+        "question": "Is Roanoke in the first version, and what is different about how it works?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "Escalation is one state and one supervisor owner per work order; the supervisor acknowledges on his phone.",
+        "question": "How does a field supervisor want to receive an escalation on a phone, what does he need to see, and what happens when nobody picks it up?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "A return visit is a linked work order on the original; the term is unknown.",
+        "question": "What do you call a second trip when the first did not fix it?",
+        "kind": "board-architecture",
+        "state": "assumed"
+      },
+      {
+        "statement": "Response-time results per building and per client are what the monthly report shows, for Brightmoor as for the county RFP.",
+        "question": "Is per-building the shape Brightmoor wants too, and what does their monthly report contain line by line (the redacted sample answers this)?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "The 'closed in client portal' mark on a work order is set by Rosalie or Miriam and is their claim; the portal is the evidence.",
+        "question": "Who sets that mark, and would a dispatcher's view of Brightmoor's queue in monday remove the spreadsheet copy without removing the portal entry?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "Sample data uses neutral names, no real client names, no contract terms, no performance plan and nothing about patients or rooms.",
+        "question": "Which sample values may appear in the proof of concept (asked of the user at preflight, not of the client)?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "Automation counts fit the bound account's plan at sample volume; the client's plan cap against four hundred-plus work orders a week is a handover check.",
+        "question": "At handover, which plan is the client on, what is its monthly automation action cap, and does single sign-on exist on it?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "The preventive maintenance side and the knowledge base come after the first cut, in their own Work Management workspace.",
+        "question": "When the preventive maintenance side comes in, do the schedules move out of Sage and Odette's spreadsheet, or does monday only hold the visits and their completion?",
+        "kind": "leaning",
+        "state": "assumed"
+      }
+    ],
+    "unmet_needs": [
+      {
+        "need": "a client-facing portal where Brightmoor's property managers see their own work orders and response times",
+        "clock": "the December quarterly review and the January renewal decision",
+        "why_not_met": "a deferred Service extra; the first build shows the queue and the report inside monday, and the portal is named as later work"
+      },
+      {
+        "need": "the service inbox read automatically into work orders",
+        "clock": "'the one that bit us in July'; before December",
+        "why_not_met": "email-to-ticket is a deferred Service extra; on day one a person opens the inbox (leaning 6 carries the answering-service form as our idea)"
+      },
+      {
+        "need": "the clock worked out per contract automatically",
+        "clock": "December, in the sense that she must see what is late by then",
+        "why_not_met": "SLA policy setup is deferred; v0.1 carries priority and a target date keyed by a person (leaning 3)"
+      },
+      {
+        "need": "Microsoft sign-in instead of another password",
+        "clock": null,
+        "why_not_met": "depends on the client's plan, which is unverified, and cannot be shown in the user's own account against the client's Microsoft tenant; stays a stated IT requirement"
+      },
+      {
+        "need": "access for ninety-some technicians, about half without a company email address, and for field supervisors on phones",
+        "clock": null,
+        "why_not_met": "an identity and seat question on the client's own account at handover; the proof of concept uses sample people"
+      },
+      {
+        "need": "the preventive maintenance side, about half the contract value",
+        "clock": "'eventually'; not first",
+        "why_not_met": "put behind the first cut by the client; leaning 5 holds the shape for when it comes"
+      },
+      {
+        "need": "the knowledge base (the binder in a form a new starter can use)",
+        "clock": null,
+        "why_not_met": "'Not first. But I'd want it.'; only per-building fields come free with the building record (leaning 8)"
+      },
+      {
+        "need": "less re-keying into ServiceChannel and Fairlane's system",
+        "clock": null,
+        "why_not_met": "closing in the client portal is a payment condition, the API is in Brightmoor's tenant and unconfirmed; nothing in v0.1 touches it (leaning 7)"
+      },
+      {
+        "need": "outside vendors told what is needed from them and when, other than by email",
+        "clock": null,
+        "why_not_met": "mentioned once and not probed; no element in the first cut"
+      },
+      {
+        "need": "after-hours cover: an emergency at seven at night seen before morning",
+        "clock": "before December",
+        "why_not_met": "no element in the first cut as played back; leaning 6 names the options and the question"
+      },
+      {
+        "need": "visibility of Roanoke",
+        "clock": null,
+        "why_not_met": "Roanoke's scope was never settled; leaning 9 carries the branch column and the question"
+      }
+    ],
+    "ai_opportunities": [
+      {
+        "pain_or_need": "P3.2",
+        "kind": "workflow",
+        "round": 2,
+        "probe_basis": "P-21",
+        "idea": "When an escalation has had no acknowledgement for a set time, notify the next person for that trade and region on mobile and mark the work order as unanswered."
+      },
+      {
+        "pain_or_need": "P1.3",
+        "kind": "ai_column",
+        "round": 2,
+        "probe_basis": "unprobed",
+        "idea": "From the fault text pasted into a new work order, suggest the priority in their three words for the help desk to confirm; the contract window, not the suggestion, sets the target date."
+      },
+      {
+        "pain_or_need": "P2.1",
+        "kind": "agent",
+        "round": 2,
+        "probe_basis": "P-19",
+        "idea": "Draft the plain-language commentary of the monthly per-client report from the board's own figures, reading only this client's workspace; the figures stay the board's and the draft is reviewed before anything leaves."
+      },
+      {
+        "pain_or_need": "P4.1",
+        "kind": "ai_column",
+        "round": 2,
+        "probe_basis": "unprobed",
+        "idea": "Turn the technician's 'done' text and photo captions into the closure note that Rosalie or Miriam paste into the client portal, with nothing about patients or rooms for Fairlane."
+      },
+      {
+        "pain_or_need": "P8",
+        "kind": "workflow",
+        "round": 2,
+        "probe_basis": "P-21",
+        "idea": "When the answering service submits the after-hours form, open the work order with the emergency priority and notify the on-call person, so a seven-at-night email is no longer an email."
+      }
+    ],
+    "verdict": {
+      "cleared_for": "build",
+      "conditions": [
+        "approval stop",
+        "no A11 question first matters for an own-account build (A21: sample data in the user's own account needs no decision); the three A11 decisions stay open",
+        "preflight on the user's own account: Service provisioned and the native Tickets board found by lineage; otherwise stop and ask, never a look-alike in Work Management",
+        "a brand-new workspace 'Ainsworth – Service' and nothing written anywhere else (A21)",
+        "sample data with neutral names: no real client names, no contract terms, penalties or performance plan, nothing about patients or rooms",
+        "the escalation part is not designed until a field supervisor has been spoken to, which is the client's own condition",
+        "leaning 11 (board replaces the spreadsheet) is put to the help desk lead before the demo claims to fix the inbox pains",
+        "the scoping session is committed, not booked: Wednesday the 23rd held, no time fixed, the CFO's attendance unconfirmed"
+      ],
+      "reason": "Three pains with named entities (the work order, the escalation, the monthly report) and wanted outcomes in the client's own words at cues 186, 187 and 180; the product is Service on the native Tickets board; the structure is stated with eleven leanings; the build target is the user's own account with one new workspace."
+    },
+    "questions": [
+      {
+        "text": "Read-back: you said if it just stopped being an inbox you would take that today, and you could live with a person still opening the inbox on day one. Who is that person after six and on a Friday at four, and could the answering service put an emergency straight into a form instead of an email?",
+        "kind": "read-back",
+        "role": "help desk lead, with the director for the answering service",
+        "known": "after six the answering service emails the inbox (cue 53); the July breach sat in it from Friday four-something to Monday (cue 77); reading the inbox automatically is a later phase; the sweep and the sticky notes are the workaround today (cue 91)"
+      },
+      {
+        "text": "How should completion be captured so that the closed date is the technician's and not the typist's? Would technicians close their own work orders from a phone, and if not, who records the real completion time?",
+        "kind": "discovery",
+        "role": "help desk lead, then a field supervisor",
+        "known": "technicians text photos and 'done', some return paper tickets on Friday (cue 49); the closed date today is the date it was typed, up to two days late (cue 103); the report turns on it (cue 108)"
+      },
+      {
+        "text": "With a field supervisor on the line: what should an escalation look like on a phone, how would you say you have it, and what should happen when nobody picks one up?",
+        "kind": "discovery",
+        "role": "a field supervisor (the client named Dewey; the director to introduce)",
+        "known": "the official triggers are a window about to be missed, no access, or a missing part (cue 119); escalation is a text today and sometimes nothing comes back (cue 123); a couple of fifteen or twenty a day vanish, hedged (cue 126); supervisors are texted about one job by three people (cue 130); 'don't design it for a desk' (cue 227)"
+      },
+      {
+        "text": "Read-back: you said the whiteboard is the truth and the spreadsheet is what you tell people, and the last board died because it was a second place to type. On day one, does the spreadsheet stop, does the dispatcher work from the board, and does opening a work order with the client, building and contact already there pass your Tuesday-at-nine test?",
+        "kind": "read-back",
+        "role": "help desk lead",
+        "known": "the whiteboard layout and the magnets (cue 30); why the old tracker died (cue 60); her adoption test (cues 209 and 211); Roanoke has its own spreadsheet and whiteboard (cue 36)"
+      },
+      {
+        "text": "Can we see the service level matrix per client and priority, windows only, and the list of buildings per client, so the target date comes from a recorded window and every work order belongs to a building? Is 'building' your word for all of them, including a property?",
+        "kind": "discovery",
+        "role": "director of client services",
+        "known": "four hours for emergency, two for Fairlane, same or next business day for urgent, five business days for routine (cue 73); Brightmoor has forty-one buildings (cue 85); contract terms, rates and penalties are confidential (cue 149); the county RFP asks for reporting per building (cue 182)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+Consultant: Jordan, hi. You're in Madison today?
+Jordan Pruitt: Madison, yeah. Hi. Hang on, let me shut the door. Okay. That's better.
+Consultant: How's Des Moines? It must be a month now.
+Jordan Pruitt: A month and a bit. They're in. The freight elevator still isn't signed off, so everybody's hauling plan sets up two flights of stairs, but they're in, they're working, and Tess has stopped talking about the contractor in that voice. Four of them out there, and a fifth starting in February if the work holds up.
+Consultant: [laughs] That's progress. Are they on the same boards as everyone else?
+Jordan Pruitt: Same boards. The PIC out there has logged four pursuits already and one of them is short-listed. That was the whole point, right? No separate spreadsheet in another state. Tess brings it up at every leadership meeting like she invented it.
+Consultant: Good. You said something wasn't behaving. Let's do that first.
+Jordan Pruitt: Yeah. It's small, and it might be me. The milestone status isn't updating. Or it is and I can't see it. One of the two.
+Consultant: Walk me through what you were looking at.
+Jordan Pruitt: Okay. So the Harwood library. Bev told me Monday -- Tuesday, whatever day it was -- that she'd invoiced the CD set. And I went into Phases to look, because I like looking, and the CD phase still said not reached. So either she's invoiced something nobody marked, or the status didn't take when the PM set it.
+Consultant: Did Bev get the notification?
+Jordan Pruitt: She did. That's the part that doesn't add up. She got the notification, she invoiced it, she put the invoice number in. And the phase still says not reached.
+Consultant: What did you try?
+Jordan Pruitt: Refreshed it. Logged out and back in. Looked on my phone in case it was the browser. Then I asked the PM whether he'd changed it back, and he said no.
+Consultant: What did you expect that phase to show you?
+Jordan Pruitt: One line that tells me where the money is on that phase. Phase, milestone, invoiced, done. That's how I read it in my head.
+Consultant: Fair enough. Open the Phases board for Harwood and tell me how many milestone rows you see on the CD phase.
+Jordan Pruitt: Hang on. Harwood, CDs... okay. Two.
+Consultant: Read me both.
+Jordan Pruitt: One says invoiced, and there's a date and an invoice number next to it. The other says not reached. And -- oh. They're both called CD set.
+Consultant: There it is. Nothing is broken. That phase has two milestones on it, which is what Bev told us on her first call: CDs bill once at the fifty percent set and again at the hundred percent set. Each milestone is its own row, with its own amount and its own status.
+Jordan Pruitt: So she invoiced the fifty.
+Consultant: She invoiced the fifty. The hundred percent set hasn't gone out yet, so that row is still not reached, which is correct. And the notification fired on the row the PM actually changed.
+Jordan Pruitt: Oh. Right. And I was looking at the second row, because that's the one my eye lands on. Both called the same thing.
+Consultant: That's the only real problem here, and it's a naming one, not a setup one.
+Jordan Pruitt: Can I rename them? Is that allowed, or does that break something underneath?
+Consultant: You can rename them, and it breaks nothing. The name is just the row's name. The amount, the status and the invoice number are columns, and none of them care what the row is called.
+Jordan Pruitt: Then that's what I'm doing this afternoon. CDs fifty percent set, CDs hundred percent set. Every job in CA. It'll take me twenty minutes and it'll save me this phone call three more times.
+Consultant: I'd do exactly that. And where a phase only bills once, leave it as one row. You don't need a placeholder for a second one.
+Jordan Pruitt: Understood. So the fault is that I can't read.
+Consultant: The fault is two rows with the same name. I've watched careful people lose an afternoon to that.
+Jordan Pruitt: [laughs] That's kind of you.
+Consultant: While we're here, notice what did happen this time. The PM marked the fifty percent set the day it went out, Bev knew that day, and she invoiced it inside the week. In the summer that letter would have sat in a job folder until she went hunting for it at the close.
+Jordan Pruitt: Harwood, of all jobs. That's the one she found weeks late. She brought that up in the sign-off meeting, if you remember.
+Consultant: I remember.
+Jordan Pruitt: And she'd never say this to you, but the first thing she does at close now is open the phases and filter to ready to invoice. She used to send eleven emails and wait.
+Consultant: That's the change worth having. Anything else scratching at you since we signed off?
+Jordan Pruitt: Nothing that's broken. The Tuesday call was twenty-two minutes last week. Twenty-two. The studio leads still argue, but they argue about the same numbers, which is all I ever wanted.
+Consultant: And you're not rebuilding it on a Monday.
+Jordan Pruitt: I am not rebuilding anything on a Monday. I got my Monday back. I've been spending it setting Des Moines up properly, which is a novelty.
+Consultant: What about the submittals log? That was Karen's test as much as anyone's.
+Jordan Pruitt: Karen uses it. I would not have put money on that. Forty-odd submittals a month across eleven, twelve jobs in CA, and she filters it by reviewer and tells people their queue is showing. She's become a menace about it, in the good way.
+Consultant: And the pursuits form?
+Jordan Pruitt: Everything comes in through it now. Hallie made it the only way in. And the portal question is on there, so we always have two names registered. That one isn't going to bite us again.
+Consultant: Has an addendum come through it yet?
+Jordan Pruitt: Two. One of them on a Des Moines pursuit, a county job, and it moved the due date. Hallie logged it, and the PIC out there and the PM both had it in their notifications before lunch. Nobody had to go and look for it. That's the example I use when people moan about having to update their own rows.
+Consultant: And Tess's two-week view, is she in it?
+Jordan Pruitt: Every Monday morning. She says she looks at it before her coffee, which from Tess is basically a love letter. And she's stopped asking me for the pursuit list on Fridays, which is how I know it's real.
+Consultant: Good. On the Ajera side, is the weekly import still landing?
+Jordan Pruitt: Monday mornings, quietly, yes. Hours and the phase fees. Marcus asks me about once a fortnight whether anything writes back the other way and I tell him no, same as last time. He likes hearing it.
+Consultant: And sign-in, is everyone on their Microsoft account?
+Jordan Pruitt: Everyone. That was Marcus's condition for the whole thing, and it's why we ended up on the enterprise plan in the first place. Nobody has a separate password to forget, which he is very pleased about.
+Consultant: He should keep asking. One thing before I let you go, and then you can have your afternoon. With the milestones off your plate, what's still being done by hand?
+Jordan Pruitt: Hm. The consultants, probably. Our outside ones, I mean, not you. Civil, landscape, acoustical, a commissioning agent on the schools.
+Consultant: Say more about that.
+Jordan Pruitt: So we carry them in our fee. We sign an agreement with each of them for their piece, and then their invoices come in as PDFs, by email, usually to the PM and sometimes straight to Bev. The PM is meant to check the invoice against what we agreed with them, approve it, and pass it to Bev, and she enters it in Ajera and pays it.
+Consultant: And where does that come apart?
+Jordan Pruitt: Nobody can tell you what's left. Gordon asked me last week how much of Fenwick's fee was left on the fire station, and it took me most of an afternoon. I had Bev pull what she'd paid them, and then I was adding up PDFs in my own inbox to see what was in flight. And I still gave him a number with a "roughly" in front of it.
+Consultant: How many consultants on a typical job?
+Jordan Pruitt: Two or three. Four on a school. Almost all the school work has a civil and a landscape on it, and the district usually wants the consultant agreements in with the proposal, so it starts back at the pursuit. And on some jobs we mark them up and bill them through to the owner, so it isn't only our own money we're keeping track of.
+Consultant: Is the part that hurts the approving, or knowing what's left?
+Jordan Pruitt: Knowing what's left. The approving is fine, honestly, it's email and it works. It's that there's no total anywhere except in Bev's head and in Ajera, and Ajera tells you what we've paid them, not what we still owe them.
+Consultant: That's clear. I'm going to write it down the way you said it and leave it there for today, because you called me about a milestone, not about consultants.
+Jordan Pruitt: Appreciated. It isn't urgent. It's just the next thing, I think.
+Consultant: Understood. When you and Tess want to look at it properly, we'll start with a conversation about it rather than me building something.
+Jordan Pruitt: That's fine by me. Oh -- Tess asked me to ask you about the portfolio thing from scoping. For looking across the four offices.
+Consultant: What we decided then still holds: we left it out on purpose and wrote down why, and we pick it up when there's a reason to. Is there one?
+Jordan Pruitt: Not yet. She was asking, not asking for it, if that makes sense.
+Consultant: It does, and it stays on the list either way. Two things I'd keep an eye on between now and the new year. One, those two milestone rows, until you've renamed them everywhere. Two, whether the Des Moines PMs are keeping their own allocations current, because that's the data Tess will want for the structural hire.
+Jordan Pruitt: January. She wants to decide in January.
+Consultant: Then the data wants to be trustworthy in December, which it will be if those four update their rows like everybody else.
+Jordan Pruitt: I'll lean on them. Gently.
+Consultant: One more thing that might help. The two-milestone bit is written up in the billing section of the SOP, so it's there if anyone wants it in writing.
+Jordan Pruitt: I'll dig it out and send it round. Nobody reads it until they need it, but at least then it exists.
+Consultant: Let's get a proper check-in in the diary. After Bev's next close?
+Jordan Pruitt: After the close is better, yeah. She's the first week of the month, and I'm in Milwaukee and Rockford somewhere in there, I'd have to look at my calendar. Can you just find something the week after?
+Consultant: I'll find a slot the week after the close and send it over, and you move it if it clashes.
+Jordan Pruitt: Perfect.
+Consultant: Rename the rows, and tell Karen I said she's a menace.
+Jordan Pruitt: [laughs] She'll take that as a compliment. Thanks for the ten minutes. Bye.

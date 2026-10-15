@@ -1,0 +1,1 @@
+| `s15-shred-dense/` | calibration fixture | `transcript.txt`, `answer-key.json`, `README.md` | C58 (b) | R8 | 24 (18 / 2 / 1 / 2 / 1) | 2 (2) | 8 | 30 (6) | 16 | 5 (1 / 4 / 0) | 209 | reviewed 2026-10-13; fix pass applied 2026-10-13 |

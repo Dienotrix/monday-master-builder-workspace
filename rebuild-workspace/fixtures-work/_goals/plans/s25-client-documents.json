@@ -1,0 +1,67 @@
+{
+  "goals": [
+    {
+      "id": "G1",
+      "goal": "One register everyone works from: reception, the benches and the Laboratory Manager",
+      "quote": "One register that reception, the benches and the Laboratory Manager all work from.",
+      "location": "write-up p.1 section 2, W-1",
+      "speaker_role": "the client's document (the write-up, author unknown)",
+      "pains": [
+        "P1.1",
+        "P3.1"
+      ]
+    },
+    {
+      "id": "G2",
+      "goal": "Certificates prepared from the recorded results, ready to sign, with no re-typing",
+      "quote": "The certificate prepared from recorded results without re-typing, ready to sign.",
+      "location": "write-up p.1 section 2, W-5",
+      "speaker_role": "the client's document (the write-up, author unknown)",
+      "pains": [
+        "P2.1",
+        "P2.2",
+        "P2.3"
+      ]
+    },
+    {
+      "id": "G3",
+      "goal": "The register audit finding closed before the next surveillance visit (March, she thinks)",
+      "quote": "So that's a finding, and it has to be closed before the next visit.",
+      "location": "00:07:53 Rosalind Okonjo (Sample Reception Coordinator)",
+      "speaker_role": "Sample Reception Coordinator (the operator)",
+      "pains": [
+        "P4.1",
+        "P1.1"
+      ]
+    },
+    {
+      "id": "G4",
+      "goal": "Look at a screen and tell a submitter where their sample is, without getting up",
+      "quote": "I look at a screen and I can tell Marlowe's where their sample is without getting up.",
+      "location": "00:10:46 Rosalind Okonjo (Sample Reception Coordinator)",
+      "speaker_role": "Sample Reception Coordinator (the operator)",
+      "pains": [
+        "P1.1",
+        "P1.2",
+        "P4.1"
+      ]
+    }
+  ],
+  "assumption_kinds": [
+    "leaning",
+    "leaning",
+    "leaning",
+    "automation-condition",
+    "leaning",
+    "gap",
+    "gap",
+    "gap",
+    "board-architecture",
+    "leaning",
+    "board-architecture",
+    "board-architecture",
+    "gap",
+    "gap"
+  ],
+  "note_add": null
+}

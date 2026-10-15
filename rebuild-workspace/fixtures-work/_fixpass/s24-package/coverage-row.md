@@ -1,0 +1,7 @@
+# s24-package — COVERAGE row after the fix pass
+
+The row for the table *Calibration fixtures and the document fixture (s11 to s25)* in `fixtures/COVERAGE.md`, same columns as the existing row (Fixture, Label, Files, Lessons row, Reversal guarded, Rubric rows, Pains graded, Objections, Traps, Leak entries, Requested changes, Quote strings, Review).
+
+| `s24-package/` | calibration fixture | `rec-4397-production-walkthrough.txt`, `rec-4402-first-look.txt`, `rec-4409-pricing.txt`, `rec-4418-discovery.txt`, `rec-4431-internal-review.txt`, `answer-key.json`, `README.md` | A15 (no lessons row) | R6, R7 | 36 (25 / 7 / 2 / 2 / 0) | 4 (3) | 12 | 30 (8) | 19 | 9 (3 / 5 / 1) | 313 | reviewed 2026-10-13; fix pass applied 2026-10-13 |
+
+Counts that moved: traps 29 → 30 (the demo's eight-stage list recorded as our-side framing); quote strings 262 → 313 as the shared verifier `verify_quotes.py` counts them (quote-location pairs, including each item of the `quotes` lists in the fork's leaning and the readiness leanings; the fixture's own `check.py` counts 274 structured quote strings and 296 prose spans over the same file, all verbatim). Unchanged: rubric rows, pains graded, objections, look-alike traps, leak entries, requested changes. Not in the row but true of the files: pre-build questions 12 (from 11), alias-map entries 16 (from 13), key 556 lines with 27 top-level fields, transcripts 1,038 lines and 7,932 spoken words (from 7,924; four seller-side turns edited, no unit added).

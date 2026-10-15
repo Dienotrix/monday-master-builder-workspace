@@ -1,0 +1,61 @@
+{
+  "goals": [
+    {
+      "id": "G1",
+      "goal": "One screen: this week's shorts across both plants, and whether each par change landed",
+      "quote": "One screen. Every short this week, both plants, which stop, what we did about it, and every par change that's come in and whether it's landed.",
+      "location": "call 1, 00:24:56 Genevieve Okundaye (Director of Operations)",
+      "speaker_role": "Director of Operations",
+      "pains": ["P1.1", "P2.1", "P6.1"]
+    },
+    {
+      "id": "G2",
+      "goal": "The par change is on the route sheet before the pack floor prints it",
+      "quote": "The par change is on the route sheet before the pack floor prints it.",
+      "location": "call 1, 00:25:26 Declan Pellingham (Plant Manager)",
+      "speaker_role": "Plant Manager",
+      "pains": ["P2.1", "P2.2"]
+    },
+    {
+      "id": "G3",
+      "goal": "Take on the two hotels turned down in the summer over Saturday counts",
+      "quote": "The gain is the two hotels we said no to in the summer.",
+      "location": "call 2, 00:11:16 Genevieve Okundaye (Director of Operations)",
+      "speaker_role": "Director of Operations",
+      "pains": ["P1.1", "P5.1"]
+    },
+    {
+      "id": "G4",
+      "goal": "Loss charges on the invoice, inside the thirty days, not a credit memo weeks later",
+      "quote": "Not a credit memo three weeks later, not a second invoice, on the invoice, inside the thirty days.",
+      "location": "call 2, 00:11:49 Annika Brannock (Finance Director)",
+      "speaker_role": "Finance Director",
+      "pains": ["P3.1", "P3.2"]
+    },
+    {
+      "id": "G5",
+      "goal": "Shorts on it by early December, if they can, before Brindlewood starts in January",
+      "quote": "And shorts by early December, if we can.",
+      "location": "call 2, 00:19:12 Genevieve Okundaye (Director of Operations)",
+      "speaker_role": "Director of Operations",
+      "pains": ["P1.1", "P1.2", "P1.3"]
+    }
+  ],
+  "assumption_kinds": [
+    "gap",
+    "gap",
+    "leaning",
+    "leaning",
+    "leaning",
+    "gap",
+    "gap",
+    "gap",
+    "board-architecture",
+    "automation-condition",
+    "gap",
+    "gap",
+    "gap",
+    "automation-condition"
+  ],
+  "note_add": null
+}

@@ -1,0 +1,1191 @@
+{
+  "fixture": "s11-demo-composite",
+  "sources": [
+    {
+      "name": "transcript.txt",
+      "kind": "transcript",
+      "format": "header-bracket",
+      "units": 86,
+      "unsupported": null
+    }
+  ],
+  "counts": {
+    "pairs": 152,
+    "verified": 152,
+    "verified_presence_only": 25,
+    "skipped": 0,
+    "unparsed_prose": 0,
+    "near_misses": 0,
+    "misses": 0,
+    "unsupported": 0,
+    "warnings": 0
+  },
+  "refused_quotes_not_checked": [],
+  "skipped": [],
+  "pairs": [
+    {
+      "path": "/rubric[0]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The statuses. We don't say negotiation. A quote is draft, sent, sent back if they want changes, accepted, or dead. And dead is not the same as lost, sometimes the event just doesn't happen.",
+      "location": "16:50 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L70, turn 24, 16:50, Hattie Szabo"
+    },
+    {
+      "path": "/rubric[0]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The sheets live in the trucks until somebody empties the trucks, and by then the invoice has gone and I'm not ringing a bride about eight chairs.",
+      "location": "41:57 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L151, turn 51, 41:57, Hattie Szabo"
+    },
+    {
+      "path": "/rubric[0]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Tanvi's phone. And mine. And a notebook.",
+      "location": "56:00 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L205, turn 69, 56:00, Hattie Szabo"
+    },
+    {
+      "path": "/rubric[0]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Um. Okay. So Thursday, I get in at six, and the first thing I do is print the week's events off Hattie's spreadsheet, the one Tanvi keeps, because the spreadsheet is the only place the events are.",
+      "location": "28:05 block, segment 3, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[0]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Desmond, before I show you the red bit, walk me through what Thursday looks like now, today, this week, not the version Anjali gave me. Start from when you come in. What goes wrong first?",
+      "location": "28:05 block, segment 2, our side (speaker not resolvable by label)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[1]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "That's the chairs that come back with cigarette burns and nobody bills for them. We had eight from one wedding in August and I found the count sheet in the door pocket of truck two a fortnight later, after the client had paid.",
+      "location": "41:57 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L151, turn 51, 41:57, Hattie Szabo"
+    },
+    {
+      "path": "/rubric[1]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It's not the chairs, mostly. We have chairs. It's the ten-by-twenty tent. There are two of them. And the dance floor sections. That's what gets double-quoted, the things there are two of.",
+      "location": "25:23 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L106, turn 36, 25:23, Hattie Szabo"
+    },
+    {
+      "path": "/rubric[1]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "That's the Saturday. That's exactly the Saturday, it would have been red on the Thursday, and I would have seen it standing at the board instead of hearing it from the golf club.",
+      "location": "28:05 block, segment 5, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[1]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What about it is off?",
+      "location": "16:36 Consultant",
+      "cited": "transcript.txt, L67, turn 23, 16:36, Consultant"
+    },
+    {
+      "path": "/rubric[2]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Before March. Larchmere Hall starts in March and Gerald has said the whiteboard has to be gone before then, so. Before March.",
+      "location": "51:23 Anjali Venkataraman (General Manager)",
+      "cited": "transcript.txt, L181, turn 61, 51:23, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[2]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "What happens in October? Because we can't be learning a new thing in October. October's when everyone gets married.",
+      "location": "49:58 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L175, turn 59, 49:58, Hattie Szabo"
+    },
+    {
+      "path": "/rubric[2]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Gerald walked past it in August and said it's the reason we can't take the Larchmere contract, and he's not wrong, we can't run fourteen weekends of a convention venue off a whiteboard and a spreadsheet that Tanvi updates on her phone in the car park.",
+      "location": "28:05 block, segment 7, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[2]/asked_quote/quote",
+      "status": "verified",
+      "quote": "So, working back from it, the thing I need to understand is who has to say yes, and when.",
+      "location": "51:35 Consultant",
+      "cited": "transcript.txt, L184, turn 62, 51:35, Consultant"
+    },
+    {
+      "path": "/rubric[3]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And that's -- that's four hours, honestly. Sometimes the whole afternoon, if a venue's moved.",
+      "location": "28:05 block, segment 3, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[3]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The corporate thing this Saturday moved venue on Monday and I've done the board three times this week already and it's Wednesday.",
+      "location": "28:05 block, segment 3, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[3]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "We had eight from one wedding in August and I found the count sheet in the door pocket of truck two a fortnight later, after the client had paid.",
+      "location": "41:57 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L151, turn 51, 41:57, Hattie Szabo"
+    },
+    {
+      "path": "/rubric[4]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "we can't run fourteen weekends of a convention venue off a whiteboard and a spreadsheet that Tanvi updates on her phone in the car park.",
+      "location": "28:05 block, segment 7, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[4]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Before March. Larchmere Hall starts in March and Gerald has said the whiteboard has to be gone before then, so. Before March.",
+      "location": "51:23 Anjali Venkataraman (General Manager)",
+      "cited": "transcript.txt, L181, turn 61, 51:23, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[5]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So the shortage goes to Hattie the same day. Not three weeks later when Bram does the invoices.",
+      "location": "44:26 Desmond Farrow (Warehouse and Dispatch Manager)",
+      "cited": "transcript.txt, L157, turn 53, 44:26, Desmond Farrow"
+    },
+    {
+      "path": "/rubric[5]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Group it by truck. Not by crew lead. The truck is the thing that can't be in two places. Ferenc can drive two trucks in one day. Truck three can't be at two weddings.",
+      "location": "37:02 Desmond Farrow (Warehouse and Dispatch Manager)",
+      "cited": "transcript.txt, L130, turn 44, 37:02, Desmond Farrow"
+    },
+    {
+      "path": "/rubric[5]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "So Hattie would see the chairs are gone before she quotes them.",
+      "location": "22:46 Anjali Venkataraman (General Manager)",
+      "cited": "transcript.txt, L94, turn 32, 22:46, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[5]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Yes. Yes, that's the thing. The whiteboard goes.",
+      "location": "28:05 block, segment 7, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[5]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Before we talk about what happens next, is there anything I've shown you that you'd actually use on a Saturday, Desmond? Not on a Thursday in the office. On a Saturday.",
+      "location": "46:19 Consultant",
+      "cited": "transcript.txt, L166, turn 56, 46:19, Consultant"
+    },
+    {
+      "path": "/rubric[6]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Gerald. He signs anything over ten thousand and he'll want to see it, not read about it. He hasn't seen any of it. I've told him about it, which is not the same thing.",
+      "location": "52:38 Anjali Venkataraman (General Manager)",
+      "cited": "transcript.txt, L187, turn 63, 52:38, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[6]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "If it's at the yard, yes. He won't do a video call. He won't do this.",
+      "location": "53:20 Anjali Venkataraman (General Manager)",
+      "cited": "transcript.txt, L193, turn 65, 53:20, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[6]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "We'll pay for phones if it works. Keep going.",
+      "location": "19:05 Anjali Venkataraman (General Manager)",
+      "cited": "transcript.txt, L88, turn 30, 19:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[6]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "That's the list. Add the phones properly. If Des's crew leads need phones, that's on us, but I want to know how many seats that is before Gerald asks me.",
+      "location": "58:14 Anjali Venkataraman (General Manager)",
+      "cited": "transcript.txt, L211, turn 71, 58:14, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[6]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Who else needs to see this before it's real? Is it Gerald?",
+      "location": "51:35 Consultant",
+      "cited": "transcript.txt, L184, turn 62, 51:35, Consultant"
+    },
+    {
+      "path": "/rubric[7]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Before March. Larchmere Hall starts in March and Gerald has said the whiteboard has to be gone before then, so. Before March.",
+      "location": "51:23 Anjali Venkataraman (General Manager)",
+      "cited": "transcript.txt, L181, turn 61, 51:23, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[7]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "What happens in October? Because we can't be learning a new thing in October. October's when everyone gets married.",
+      "location": "49:58 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L175, turn 59, 49:58, Hattie Szabo"
+    },
+    {
+      "path": "/rubric[7]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Fine. Do the crew board. That's the one Des needs to see.",
+      "location": "26:22 Anjali Venkataraman (General Manager)",
+      "cited": "transcript.txt, L118, turn 40, 26:22, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[8]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Their phones are the problem, not the app. Half of them have got cracked screens and no data on the weekend.",
+      "location": "18:06 Desmond Farrow (Warehouse and Dispatch Manager)",
+      "cited": "transcript.txt, L82, turn 28, 18:06, Desmond Farrow"
+    },
+    {
+      "path": "/rubric[8]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Can it text the crew leads when a quote's accepted? Because Ferenc doesn't read email. None of them read email.",
+      "location": "17:33 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L76, turn 26, 17:33, Hattie Szabo"
+    },
+    {
+      "path": "/rubric[8]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "If it's at the yard, yes. He won't do a video call. He won't do this.",
+      "location": "53:20 Anjali Venkataraman (General Manager)",
+      "cited": "transcript.txt, L193, turn 65, 53:20, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[8]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "That's it. And the scanner. We've got a handheld scanner thing from the old rental software. It still works. Can this read those?",
+      "location": "37:56 Desmond Farrow (Warehouse and Dispatch Manager)",
+      "cited": "transcript.txt, L136, turn 46, 37:56, Desmond Farrow"
+    },
+    {
+      "path": "/rubric[9]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Thursday the eighth. Two o'clock, at the yard. I'll put it in Gerald's calendar myself, that's the only way it happens.",
+      "location": "60:38 Anjali Venkataraman (General Manager)",
+      "cited": "transcript.txt, L238, turn 80, 60:38, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[9]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Thursday the eighth, two o'clock, at the yard. I'm sending the invite to the three of you now, while we're on, and Anjali, you put it in Gerald's calendar.",
+      "location": "60:49 Consultant",
+      "cited": "transcript.txt, L241, turn 81, 60:49, Consultant"
+    },
+    {
+      "path": "/rubric[9]/asked_quote/quote",
+      "status": "verified",
+      "quote": "When can that be?",
+      "location": "60:19 Consultant",
+      "cited": "transcript.txt, L235, turn 79, 60:19, Consultant"
+    },
+    {
+      "path": "/rubric[10]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "That's the dance floor. That's the missing dance floor.",
+      "location": "16:30 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L64, turn 22, 16:30, Hattie Szabo"
+    },
+    {
+      "path": "/rubric[10]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "That's the dance floor, yes. The line on the quote is the line on the pick list, and nobody types it twice. Good. What about it is off?",
+      "location": "16:36 Consultant",
+      "cited": "transcript.txt, L67, turn 23, 16:36, Consultant"
+    },
+    {
+      "path": "/rubric[10]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "So Hattie would see the chairs are gone before she quotes them.",
+      "location": "22:46 Anjali Venkataraman (General Manager)",
+      "cited": "transcript.txt, L94, turn 32, 22:46, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[10]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "That's the chairs that come back with cigarette burns and nobody bills for them.",
+      "location": "41:57 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L151, turn 51, 41:57, Hattie Szabo"
+    },
+    {
+      "path": "/rubric[10]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "So the shortage goes to Hattie the same day. Not three weeks later when Bram does the invoices.",
+      "location": "44:26 Desmond Farrow (Warehouse and Dispatch Manager)",
+      "cited": "transcript.txt, L157, turn 53, 44:26, Desmond Farrow"
+    },
+    {
+      "path": "/rubric[10]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "The truck one. If it's on the phone. I keep saying that.",
+      "location": "47:24 Desmond Farrow (Warehouse and Dispatch Manager)",
+      "cited": "transcript.txt, L169, turn 57, 47:24, Desmond Farrow"
+    },
+    {
+      "path": "/rubric[10]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "That view, though. The red. That's the Saturday.",
+      "location": "28:05 block, segment 5, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[10]/asked_quote/quote",
+      "status": "verified",
+      "quote": "How close is that to what you had in mind?",
+      "location": "13:22 Consultant",
+      "cited": "transcript.txt, L61, turn 21, 13:22, Consultant"
+    },
+    {
+      "path": "/rubric[11]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "That's the list. Add the phones properly. If Des's crew leads need phones, that's on us, but I want to know how many seats that is before Gerald asks me.",
+      "location": "58:14 Anjali Venkataraman (General Manager)",
+      "cited": "transcript.txt, L211, turn 71, 58:14, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[11]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And by truck.",
+      "location": "58:59 Desmond Farrow (Warehouse and Dispatch Manager)",
+      "cited": "transcript.txt, L217, turn 73, 58:59, Desmond Farrow"
+    },
+    {
+      "path": "/rubric[11]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Go and fix my statuses.",
+      "location": "61:38 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L250, turn 84, 61:38, Hattie Szabo"
+    },
+    {
+      "path": "/rubric[11]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Is that the list?",
+      "location": "56:06 Consultant",
+      "cited": "transcript.txt, L208, turn 70, 56:06, Consultant"
+    },
+    {
+      "path": "/rubric[12]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "If a quote goes wrong we lose a margin. If the Thursday board goes wrong we lose a wedding, and then we lose the venue, and a venue is worth thirty weddings.",
+      "location": "28:05 block, segment 1, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[12]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Group it by truck. Not by crew lead. The truck is the thing that can't be in two places. Ferenc can drive two trucks in one day. Truck three can't be at two weddings.",
+      "location": "37:02 Desmond Farrow (Warehouse and Dispatch Manager)",
+      "cited": "transcript.txt, L130, turn 44, 37:02, Desmond Farrow"
+    },
+    {
+      "path": "/rubric[12]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What goes wrong first?",
+      "location": "28:05 block, segment 2, our side (speaker not resolvable by label)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[13]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The Saturday in June, we had Ferenc on the Whitcombe wedding at eleven and on the golf club at eleven, forty minutes apart, because I'd moved him on the Thursday and the printout in truck three still had him on both, and nobody caught it until the golf club rang at half eleven asking where their tent was.",
+      "location": "28:05 block, segment 5, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[13]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What goes wrong first?",
+      "location": "28:05 block, segment 2, our side (speaker not resolvable by label)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[14]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So I rub it out and do it again. And then somebody texts me at nine to say the venue's changed, and I do it again, and I take a photo of it on my phone and send it to the crew leads, and then I change it again and the photo's wrong.",
+      "location": "28:05 block, segment 3, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[14]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Start from when you come in.",
+      "location": "28:05 block, segment 2, our side (speaker not resolvable by label)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[15]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "nobody caught it until the golf club rang at half eleven asking where their tent was. We got a tent there by two. They didn't book us for the autumn.",
+      "location": "28:05 block, segment 5, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[15]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Their phones are the problem, not the app. Half of them have got cracked screens and no data on the weekend.",
+      "location": "18:06 Desmond Farrow (Warehouse and Dispatch Manager)",
+      "cited": "transcript.txt, L82, turn 28, 18:06, Desmond Farrow"
+    },
+    {
+      "path": "/rubric[16]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And that's -- that's four hours, honestly. Sometimes the whole afternoon, if a venue's moved.",
+      "location": "28:05 block, segment 3, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[16]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "There are four trucks and on a Saturday in June I need five.",
+      "location": "28:05 block, segment 5, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[17]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Four trucks, four days, so sixteen magnets on a normal week, and more if something's got two trips, and a lot more in June.",
+      "location": "28:05 block, segment 3, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[17]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Before March. Larchmere Hall starts in March and Gerald has said the whiteboard has to be gone before then, so. Before March.",
+      "location": "51:23 Anjali Venkataraman (General Manager)",
+      "cited": "transcript.txt, L181, turn 61, 51:23, Anjali Venkataraman"
+    },
+    {
+      "path": "/rubric[18]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "That's the chairs that come back with cigarette burns and nobody bills for them.",
+      "location": "41:57 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L151, turn 51, 41:57, Hattie Szabo"
+    },
+    {
+      "path": "/rubric[18]/asked_quote/quote",
+      "status": "verified",
+      "quote": "You said the damage and shortage charges come off paper count sheets, the crew fill them in on the truck, sometimes, and by the time the sheet gets to you the client has paid the invoice and half the charges never get raised.",
+      "location": "38:46 Consultant",
+      "cited": "transcript.txt, L148, turn 50, 38:46, Consultant"
+    },
+    {
+      "path": "/rubric[19]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We had eight from one wedding in August and I found the count sheet in the door pocket of truck two a fortnight later, after the client had paid.",
+      "location": "41:57 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L151, turn 51, 41:57, Hattie Szabo"
+    },
+    {
+      "path": "/rubric[20]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The sheets live in the trucks until somebody empties the trucks, and by then the invoice has gone and I'm not ringing a bride about eight chairs.",
+      "location": "41:57 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L151, turn 51, 41:57, Hattie Szabo"
+    },
+    {
+      "path": "/rubric[21]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So the shortage goes to Hattie the same day. Not three weeks later when Bram does the invoices.",
+      "location": "44:26 Desmond Farrow (Warehouse and Dispatch Manager)",
+      "cited": "transcript.txt, L157, turn 53, 44:26, Desmond Farrow"
+    },
+    {
+      "path": "/rubric[21]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "and by then the invoice has gone and I'm not ringing a bride about eight chairs.",
+      "location": "41:57 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L151, turn 51, 41:57, Hattie Szabo"
+    },
+    {
+      "path": "/rubric[22]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We had eight from one wedding in August and I found the count sheet in the door pocket of truck two a fortnight later, after the client had paid.",
+      "location": "41:57 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L151, turn 51, 41:57, Hattie Szabo"
+    },
+    {
+      "path": "/pains[0]/quote",
+      "status": "verified",
+      "quote": "That's the dance floor. That's the missing dance floor.",
+      "location": "16:30 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L64, turn 22, 16:30, Hattie Szabo"
+    },
+    {
+      "path": "/pains[1]/quote",
+      "status": "verified",
+      "quote": "It's not the chairs, mostly. We have chairs. It's the ten-by-twenty tent. There are two of them. And the dance floor sections. That's what gets double-quoted, the things there are two of.",
+      "location": "25:23 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L106, turn 36, 25:23, Hattie Szabo"
+    },
+    {
+      "path": "/pains[2]/quote",
+      "status": "verified",
+      "quote": "This is the Thursday board. Des, this is the whiteboard, look. It's the whiteboard with the magnets, except it's already filled in when you walk in.",
+      "location": "28:05 block, segment 1, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/pains[3]/quote",
+      "status": "verified",
+      "quote": "And that's -- that's four hours, honestly. Sometimes the whole afternoon, if a venue's moved.",
+      "location": "28:05 block, segment 3, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/pains[4]/quote",
+      "status": "verified",
+      "quote": "That's the June one. The Saturday in June, we had Ferenc on the Whitcombe wedding at eleven and on the golf club at eleven, forty minutes apart",
+      "location": "28:05 block, segment 5, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/pains[5]/quote",
+      "status": "verified",
+      "quote": "Group it by truck. Not by crew lead. The truck is the thing that can't be in two places. Ferenc can drive two trucks in one day. Truck three can't be at two weddings.",
+      "location": "37:02 Desmond Farrow (Warehouse and Dispatch Manager)",
+      "cited": "transcript.txt, L130, turn 44, 37:02, Desmond Farrow"
+    },
+    {
+      "path": "/pains[6]/quote",
+      "status": "verified",
+      "quote": "That's the chairs that come back with cigarette burns and nobody bills for them. We had eight from one wedding in August and I found the count sheet in the door pocket of truck two a fortnight later, after the client had paid.",
+      "location": "41:57 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L151, turn 51, 41:57, Hattie Szabo"
+    },
+    {
+      "path": "/pains[7]/quote",
+      "status": "verified",
+      "quote": "So the shortage goes to Hattie the same day. Not three weeks later when Bram does the invoices.",
+      "location": "44:26 Desmond Farrow (Warehouse and Dispatch Manager)",
+      "cited": "transcript.txt, L157, turn 53, 44:26, Desmond Farrow"
+    },
+    {
+      "path": "/pains[8]/quote",
+      "status": "verified",
+      "quote": "Can it do the venue's contact? The coordinator at the venue? Because half my week is finding out who the coordinator is this time.",
+      "location": "54:24 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L199, turn 67, 54:24, Hattie Szabo"
+    },
+    {
+      "path": "/numbers/bleed/quote",
+      "status": "verified",
+      "quote": "And that's -- that's four hours, honestly. Sometimes the whole afternoon, if a venue's moved.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+      ]
+    },
+    {
+      "path": "/numbers/upside/quote",
+      "status": "verified",
+      "quote": "Before March. Larchmere Hall starts in March and Gerald has said the whiteboard has to be gone before then, so. Before March.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L181, turn 61, 51:23, Anjali Venkataraman"
+      ]
+    },
+    {
+      "path": "/objections[0]/quote",
+      "status": "verified",
+      "quote": "Their phones are the problem, not the app. Half of them have got cracked screens and no data on the weekend.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L82, turn 28, 18:06, Desmond Farrow"
+      ]
+    },
+    {
+      "path": "/objections[1]/quote",
+      "status": "verified",
+      "quote": "Can it text the crew leads when a quote's accepted? Because Ferenc doesn't read email. None of them read email.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L76, turn 26, 17:33, Hattie Szabo"
+      ]
+    },
+    {
+      "path": "/objections[2]/quote",
+      "status": "verified",
+      "quote": "The truck one. If it's on the phone. I keep saying that.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L169, turn 57, 47:24, Desmond Farrow"
+      ]
+    },
+    {
+      "path": "/objections[3]/quote",
+      "status": "verified",
+      "quote": "What happens in October? Because we can't be learning a new thing in October. October's when everyone gets married.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L175, turn 59, 49:58, Hattie Szabo"
+      ]
+    },
+    {
+      "path": "/objections[4]/quote",
+      "status": "verified",
+      "quote": "Gerald. He signs anything over ten thousand and he'll want to see it, not read about it. He hasn't seen any of it. I've told him about it, which is not the same thing.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L187, turn 63, 52:38, Anjali Venkataraman"
+      ]
+    },
+    {
+      "path": "/objections[5]/quote",
+      "status": "verified",
+      "quote": "If it's at the yard, yes. He won't do a video call. He won't do this.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L193, turn 65, 53:20, Anjali Venkataraman"
+      ]
+    },
+    {
+      "path": "/objections[6]/quote",
+      "status": "verified",
+      "quote": "It lands. What does something like this cost? Give me a ballpark. I know you don't want to.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L223, turn 75, 59:13, Anjali Venkataraman"
+      ]
+    },
+    {
+      "path": "/objections[7]/quote",
+      "status": "verified",
+      "quote": "That's it. And the scanner. We've got a handheld scanner thing from the old rental software. It still works. Can this read those?",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L136, turn 46, 37:56, Desmond Farrow"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[0]/quote",
+      "status": "verified",
+      "quote": "Thursday the eighth. Two o'clock, at the yard. I'll put it in Gerald's calendar myself, that's the only way it happens.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L238, turn 80, 60:38, Anjali Venkataraman"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[1]/quote",
+      "status": "verified",
+      "quote": "And you'll have a short note from me tonight with the list we just went through, so you can tell me what I got wrong.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L241, turn 81, 60:49, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[2]/quote",
+      "status": "verified",
+      "quote": "Give me until Friday and I'll tell you yes, no, or what it would take.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L139, turn 47, 38:08, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[3]/quote",
+      "status": "verified",
+      "quote": "The other four I'll rename tonight.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L73, turn 25, 17:07, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[4]/quote",
+      "status": "verified",
+      "quote": "And by truck. It's the first thing I change.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L220, turn 74, 59:03, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[5]/quote",
+      "status": "verified",
+      "quote": "Let me write that down. Text to crew leads, check before promising.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L79, turn 27, 17:44, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[6]/quote",
+      "status": "verified",
+      "quote": "I'll bring that with the scope, as a number of people and what each of them needs to do, and you can turn that into phones.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L214, turn 72, 58:28, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[7]/quote",
+      "status": "verified",
+      "quote": "Then that's the question I'll ask properly next time, and it goes on the list as a question, not as a thing I'm building.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L208, turn 70, 56:06, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[8]/quote",
+      "status": "verified",
+      "quote": "Once the scope is settled with Gerald in the room, I'll bring a written figure, and it'll be the same figure you see on paper afterwards.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L226, turn 76, 59:24, Consultant"
+      ]
+    },
+    {
+      "path": "/requested_changes[0]/quote",
+      "status": "verified",
+      "quote": "The statuses. We don't say negotiation. A quote is draft, sent, sent back if they want changes, accepted, or dead. And dead is not the same as lost, sometimes the event just doesn't happen.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L70, turn 24, 16:50, Hattie Szabo"
+      ]
+    },
+    {
+      "path": "/requested_changes[1]/quote",
+      "status": "verified",
+      "quote": "It's not the chairs, mostly. We have chairs. It's the ten-by-twenty tent. There are two of them. And the dance floor sections. That's what gets double-quoted, the things there are two of.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L106, turn 36, 25:23, Hattie Szabo"
+      ]
+    },
+    {
+      "path": "/requested_changes[2]/quote",
+      "status": "verified",
+      "quote": "Group it by truck. Not by crew lead. The truck is the thing that can't be in two places. Ferenc can drive two trucks in one day. Truck three can't be at two weddings.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L130, turn 44, 37:02, Desmond Farrow"
+      ]
+    },
+    {
+      "path": "/requested_changes[3]/quote",
+      "status": "verified",
+      "quote": "Take the money widget off the weekend view. The crew don't need to see revenue, and Gerald doesn't want them to.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L163, turn 55, 46:10, Anjali Venkataraman"
+      ]
+    },
+    {
+      "path": "/requested_changes[4]/quote",
+      "status": "verified",
+      "quote": "The crew don't need to see revenue, and Gerald doesn't want them to.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L163, turn 55, 46:10, Anjali Venkataraman"
+      ]
+    },
+    {
+      "path": "/account_context/evidence_quote_or_null",
+      "status": "verified",
+      "quote": "And it lives in a demo account of mine, not in anything of yours, because you don't have an account yet.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L40, turn 14, 03:12, Consultant"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[0]/quote",
+      "status": "verified",
+      "quote": "Okay. Sharing now. Can everyone see my screen?",
+      "location": "03:12 Consultant",
+      "cited": "transcript.txt, L40, turn 14, 03:12, Consultant"
+    },
+    {
+      "path": "/intake/type_header/signals[2]/quote",
+      "status": "verified",
+      "quote": "The hour is right. And that plan works for me. Hattie?",
+      "location": "03:00 Anjali Venkataraman (General Manager)",
+      "cited": "transcript.txt, L34, turn 12, 03:00, Anjali Venkataraman"
+    },
+    {
+      "path": "/intake/type_header/signals[3]/quote",
+      "status": "verified",
+      "quote": "Group it by truck. Not by crew lead.",
+      "location": "37:02 Desmond Farrow (Warehouse and Dispatch Manager)",
+      "cited": "transcript.txt, L130, turn 44, 37:02, Desmond Farrow"
+    },
+    {
+      "path": "/intake/type_header/signals[4]/quote",
+      "status": "verified",
+      "quote": "Gerald. He signs anything over ten thousand and he'll want to see it, not read about it.",
+      "location": "52:38 Anjali Venkataraman (General Manager)",
+      "cited": "transcript.txt, L187, turn 63, 52:38, Anjali Venkataraman"
+    },
+    {
+      "path": "/intake/client_ties[0]/tie/quote",
+      "status": "verified",
+      "quote": "That's the dance floor. That's the missing dance floor.",
+      "location": "16:30 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L64, turn 22, 16:30, Hattie Szabo"
+    },
+    {
+      "path": "/intake/client_ties[0]/presenter_next_sentence/quote",
+      "status": "verified",
+      "quote": "That's the dance floor, yes. The line on the quote is the line on the pick list, and nobody types it twice.",
+      "location": "16:36 Consultant",
+      "cited": "transcript.txt, L67, turn 23, 16:36, Consultant"
+    },
+    {
+      "path": "/intake/client_ties[1]/tie/quote",
+      "status": "verified",
+      "quote": "So Hattie would see the chairs are gone before she quotes them.",
+      "location": "22:46 Anjali Venkataraman (General Manager)",
+      "cited": "transcript.txt, L94, turn 32, 22:46, Anjali Venkataraman"
+    },
+    {
+      "path": "/intake/client_ties[1]/presenter_next_sentence/quote",
+      "status": "verified",
+      "quote": "It can also show you the trucks the same way",
+      "location": "22:53 Consultant",
+      "cited": "transcript.txt, L97, turn 33, 22:53, Consultant"
+    },
+    {
+      "path": "/intake/client_ties[2]/tie/quote",
+      "status": "verified",
+      "quote": "That view, though. The red. That's the Saturday. That's exactly the Saturday, it would have been red on the Thursday, and I would have seen it standing at the board instead of hearing it from the golf club.",
+      "location": "28:05 block, segment 5, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/intake/client_ties[2]/presenter_next_sentence/quote",
+      "status": "verified",
+      "quote": "And that's the Saturday in June, on a Thursday, without anyone having to notice it.",
+      "location": "34:24 Consultant",
+      "cited": "transcript.txt, L127, turn 43, 34:24, Consultant"
+    },
+    {
+      "path": "/intake/client_ties[3]/tie/quote",
+      "status": "verified",
+      "quote": "The truck one. If it's on the phone. I keep saying that.",
+      "location": "47:24 Desmond Farrow (Warehouse and Dispatch Manager)",
+      "cited": "transcript.txt, L169, turn 57, 47:24, Desmond Farrow"
+    },
+    {
+      "path": "/intake/client_ties[3]/presenter_next_sentence/quote",
+      "status": "verified",
+      "quote": "You do, and you're right to keep saying it, and I've written it down three times now.",
+      "location": "47:34 Consultant",
+      "cited": "transcript.txt, L172, turn 58, 47:34, Consultant"
+    },
+    {
+      "path": "/intake/client_ties[4]/tie/quote",
+      "status": "verified",
+      "quote": "That's the chairs that come back with cigarette burns and nobody bills for them.",
+      "location": "41:57 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L151, turn 51, 41:57, Hattie Szabo"
+    },
+    {
+      "path": "/intake/client_ties[4]/presenter_next_sentence/quote",
+      "status": "verified",
+      "quote": "And it can also hold the photo, so when the client says the chair was already like that, you've got a picture from the count-in with the date on it",
+      "location": "42:29 Consultant",
+      "cited": "transcript.txt, L154, turn 52, 42:29, Consultant"
+    },
+    {
+      "path": "/intake/client_ties[5]/tie/quote",
+      "status": "verified",
+      "quote": "So the shortage goes to Hattie the same day. Not three weeks later when Bram does the invoices.",
+      "location": "44:26 Desmond Farrow (Warehouse and Dispatch Manager)",
+      "cited": "transcript.txt, L157, turn 53, 44:26, Desmond Farrow"
+    },
+    {
+      "path": "/intake/client_ties[5]/presenter_next_sentence/quote",
+      "status": "verified",
+      "quote": "It can also go to Bram at the same time if you want it to",
+      "location": "44:36 Consultant",
+      "cited": "transcript.txt, L160, turn 54, 44:36, Consultant"
+    },
+    {
+      "path": "/readiness/goals[0]/quote",
+      "status": "verified",
+      "quote": "Larchmere Hall starts in March and Gerald has said the whiteboard has to be gone before then, so.",
+      "location": "51:23 Anjali Venkataraman (General Manager)",
+      "cited": "transcript.txt, L181, turn 61, 51:23, Anjali Venkataraman"
+    },
+    {
+      "path": "/readiness/pains[0]/quote",
+      "status": "verified",
+      "quote": "That's the dance floor. That's the missing dance floor.",
+      "location": "16:30 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L64, turn 22, 16:30, Hattie Szabo"
+    },
+    {
+      "path": "/readiness/pains[1]/quote",
+      "status": "verified",
+      "quote": "It's not the chairs, mostly. We have chairs. It's the ten-by-twenty tent. There are two of them. And the dance floor sections. That's what gets double-quoted, the things there are two of.",
+      "location": "25:23 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L106, turn 36, 25:23, Hattie Szabo"
+    },
+    {
+      "path": "/readiness/pains[2]/quote",
+      "status": "verified",
+      "quote": "This is the Thursday board. Des, this is the whiteboard, look. It's the whiteboard with the magnets, except it's already filled in when you walk in.",
+      "location": "28:05 block, segment 1, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/readiness/pains[3]/quote",
+      "status": "verified",
+      "quote": "And that's -- that's four hours, honestly. Sometimes the whole afternoon, if a venue's moved.",
+      "location": "28:05 block, segment 3, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/readiness/pains[4]/quote",
+      "status": "verified",
+      "quote": "That's the June one. The Saturday in June, we had Ferenc on the Whitcombe wedding at eleven and on the golf club at eleven, forty minutes apart",
+      "location": "28:05 block, segment 5, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/readiness/pains[5]/quote",
+      "status": "verified",
+      "quote": "Group it by truck. Not by crew lead. The truck is the thing that can't be in two places. Ferenc can drive two trucks in one day. Truck three can't be at two weddings.",
+      "location": "37:02 Desmond Farrow (Warehouse and Dispatch Manager)",
+      "cited": "transcript.txt, L130, turn 44, 37:02, Desmond Farrow"
+    },
+    {
+      "path": "/readiness/pains[6]/quote",
+      "status": "verified",
+      "quote": "That's the chairs that come back with cigarette burns and nobody bills for them. We had eight from one wedding in August and I found the count sheet in the door pocket of truck two a fortnight later, after the client had paid.",
+      "location": "41:57 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L151, turn 51, 41:57, Hattie Szabo"
+    },
+    {
+      "path": "/readiness/pains[7]/quote",
+      "status": "verified",
+      "quote": "So the shortage goes to Hattie the same day. Not three weeks later when Bram does the invoices.",
+      "location": "44:26 Desmond Farrow (Warehouse and Dispatch Manager)",
+      "cited": "transcript.txt, L157, turn 53, 44:26, Desmond Farrow"
+    },
+    {
+      "path": "/readiness/pains[8]/quote",
+      "status": "verified",
+      "quote": "Can it do the venue's contact? The coordinator at the venue? Because half my week is finding out who the coordinator is this time.",
+      "location": "54:24 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L199, turn 67, 54:24, Hattie Szabo"
+    },
+    {
+      "path": "/readiness/signals[0]/quote",
+      "status": "verified",
+      "quote": "So Hattie would see the chairs are gone before she quotes them.",
+      "location": "22:46 Anjali Venkataraman (General Manager)",
+      "cited": "transcript.txt, L94, turn 32, 22:46, Anjali Venkataraman"
+    },
+    {
+      "path": "/readiness/signals[1]/quote",
+      "status": "verified",
+      "quote": "I don't want a warning. I want to know which wedding the tent's already on. The tent and the floor. Not the chairs.",
+      "location": "25:55 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L112, turn 38, 25:55, Hattie Szabo"
+    },
+    {
+      "path": "/readiness/signals[2]/quote",
+      "status": "verified",
+      "quote": "That view, though. The red. That's the Saturday.",
+      "location": "28:05 block, segment 5, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/readiness/signals[3]/quote",
+      "status": "verified",
+      "quote": "If it's on my phone and it's on Ferenc's phone, yes.",
+      "location": "28:05 block, segment 8, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/readiness/signals[4]/quote",
+      "status": "verified",
+      "quote": "The truck one. If it's on the phone. I keep saying that.",
+      "location": "47:24 Desmond Farrow (Warehouse and Dispatch Manager)",
+      "cited": "transcript.txt, L169, turn 57, 47:24, Desmond Farrow"
+    },
+    {
+      "path": "/readiness/signals[5]/quote",
+      "status": "verified",
+      "quote": "That's the chairs that come back with cigarette burns and nobody bills for them.",
+      "location": "41:57 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L151, turn 51, 41:57, Hattie Szabo"
+    },
+    {
+      "path": "/readiness/signals[6]/quote",
+      "status": "verified",
+      "quote": "So the shortage goes to Hattie the same day. Not three weeks later when Bram does the invoices.",
+      "location": "44:26 Desmond Farrow (Warehouse and Dispatch Manager)",
+      "cited": "transcript.txt, L157, turn 53, 44:26, Desmond Farrow"
+    },
+    {
+      "path": "/readiness/signals[7]/quote",
+      "status": "verified",
+      "quote": "Gerald walked past it in August and said it's the reason we can't take the Larchmere contract, and he's not wrong, we can't run fourteen weekends of a convention venue off a whiteboard and a spreadsheet that Tanvi updates on her phone in the car park.",
+      "location": "28:05 block, segment 7, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[0]",
+      "status": "verified",
+      "quote": "It's not the chairs, mostly. We have chairs. It's the ten-by-twenty tent. There are two of them.",
+      "location": "25:23 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L106, turn 36, 25:23, Hattie Szabo"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[1]",
+      "status": "verified",
+      "quote": "I want to know which wedding the tent's already on. The tent and the floor. Not the chairs.",
+      "location": "25:55 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L112, turn 38, 25:55, Hattie Szabo"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[0]",
+      "status": "verified",
+      "quote": "check the tent's not on two of them, because there's two tents and everyone wants the big one",
+      "location": "28:05 block, segment 3, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[0]",
+      "status": "verified",
+      "quote": "Group it by truck. Not by crew lead. The truck is the thing that can't be in two places. Ferenc can drive two trucks in one day. Truck three can't be at two weddings.",
+      "location": "37:02 Desmond Farrow (Warehouse and Dispatch Manager)",
+      "cited": "transcript.txt, L130, turn 44, 37:02, Desmond Farrow"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[0]",
+      "status": "verified",
+      "quote": "There are four trucks and on a Saturday in June I need five.",
+      "location": "28:05 block, segment 5, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[1]",
+      "status": "verified",
+      "quote": "Ade doesn't drive truck three because of the clutch.",
+      "location": "28:05 block, segment 3, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[0]",
+      "status": "verified",
+      "quote": "because I'd moved him on the Thursday and the printout in truck three still had him on both, and nobody caught it until the golf club rang at half eleven asking where their tent was.",
+      "location": "28:05 block, segment 5, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[1]",
+      "status": "verified",
+      "quote": "Can it text the crew leads when a quote's accepted? Because Ferenc doesn't read email. None of them read email.",
+      "location": "17:33 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L76, turn 26, 17:33, Hattie Szabo"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[0]",
+      "status": "verified",
+      "quote": "We had eight from one wedding in August and I found the count sheet in the door pocket of truck two a fortnight later, after the client had paid.",
+      "location": "41:57 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L151, turn 51, 41:57, Hattie Szabo"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[0]",
+      "status": "verified",
+      "quote": "The statuses. We don't say negotiation. A quote is draft, sent, sent back if they want changes, accepted, or dead. And dead is not the same as lost, sometimes the event just doesn't happen.",
+      "location": "16:50 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L70, turn 24, 16:50, Hattie Szabo"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[1]",
+      "status": "verified",
+      "quote": "So the shortage goes to Hattie the same day. Not three weeks later when Bram does the invoices.",
+      "location": "44:26 Desmond Farrow (Warehouse and Dispatch Manager)",
+      "cited": "transcript.txt, L157, turn 53, 44:26, Desmond Farrow"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[0]",
+      "status": "verified",
+      "quote": "Can it do the venue's contact? The coordinator at the venue? Because half my week is finding out who the coordinator is this time.",
+      "location": "54:24 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L199, turn 67, 54:24, Hattie Szabo"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[1]",
+      "status": "verified",
+      "quote": "Tanvi's phone. And mine. And a notebook.",
+      "location": "56:00 Hattie Szabo (Sales Manager)",
+      "cited": "transcript.txt, L205, turn 69, 56:00, Hattie Szabo"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[0]",
+      "status": "verified",
+      "quote": "Um. Okay. So Thursday, I get in at six, and the first thing I do is print the week's events off Hattie's spreadsheet, the one Tanvi keeps, because the spreadsheet is the only place the events are.",
+      "location": "28:05 block, segment 3, a participant on the client side (speaker not resolvable)",
+      "cited": "transcript.txt, L124, turn 42, 28:05, Anjali Venkataraman"
+    }
+  ]
+}

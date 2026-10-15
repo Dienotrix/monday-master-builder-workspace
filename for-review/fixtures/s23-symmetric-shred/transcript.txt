@@ -1,0 +1,264 @@
+00:00:03 Consultant: Constance, hi. Can you hear me all right?
+00:00:07 Constance Ayodele: I can hear you. Give me a second, I'm just going to shut the door, there's a forklift charging outside it.
+00:00:16 Consultant: Take your time.
+00:00:19 Constance Ayodele: Okay. Better. Hi. So Eamon's in the room with me, and Margit's on from the store, so if she goes quiet it's a truck, not us.
+00:00:30 Margit Sowande: I'm here. There's a collection due in at half past, so I may vanish for a minute at some point and come back. I'll say so if I do.
+00:00:42 Consultant: Understood, Margit, and thank you for making the time. Eamon, hello. Hello. I've got
+00:00:47 Eamon Kilbride: the paperwork side of things, so I imagine I'm the one who's going to be doing most of the talking.
+00:00:56 Constance Ayodele: He is.
+00:00:59 Consultant: And on my side, this is Thandiwe. Thandiwe works with me on connections to other systems, the plumbing between whatever we build and what you already run. You said on the phone that the inventory system was going to come up a lot, so I asked her along, and she's mostly here to listen. Hi, all. Mostly listening, yes. I'll have
+00:01:20 Thandiwe Rourke: a few questions about the inventory system when we get there and I'll try to keep them short.
+00:01:30 Constance Ayodele: Good, because that's the bit Lionel is going to ask me about
+00:01:37 Consultant: first, so. Noted. Before we start, how I'd like to use the forty-five minutes. This is a conversation, not a pitch. I want to understand how a job gets through the building today, where that hurts, and what you'd want instead. I'm not going to show you anything. And if what you actually need is a better spreadsheet and a Friday meeting, I'll say so.
+00:02:01 Constance Ayodele: [laughs] That's why you're on the call and not the last lot. Go on.
+00:02:08 Eamon Kilbride: We've had the dashboard version. Forty minutes of it. I'm sure you
+00:02:12 Consultant: have. Constance, give me the two-minute version of Aldergate. What you do, for whom, how big. Sure. We
+00:02:21 Constance Ayodele: move art. Fine art logistics, so packing, crating, transport, installation, storage, and all the paperwork that goes round it. Customers are museums, mostly, then galleries, two auction houses, and a handful of private collectors who keep things with us between houses.
+00:02:38 Consultant: Between houses.
+00:02:40 Constance Ayodele: They sell one house, the pictures come to us, they buy another, the pictures go out again. Sometimes that's, what, three years. We don't ask.
+00:02:51 Consultant: And size? Headcount?
+00:02:53 Constance Ayodele: Sixty-two people. Twenty-six art handlers, eight in the crate shop, six drivers, and the rest is office, which is Eamon's side, Mireille in finance, Lionel, me. Lionel's the founder. He's not on this call because he's on a site in a museum with a fourteen-foot canvas and a stairwell, which tells you most of what you need to know about him.
+00:03:17 Consultant: It does. And it's one building?
+00:03:20 Constance Ayodele: Two. The main store here, which is climate-controlled and where Margit is, and the Ravensdale store, twenty minutes up the road, which is overflow and the bigger crates. Same inventory system, in theory.
+00:03:34 Margit Sowande: In theory. Half of what's at Ravensdale is in it. The other half is in my head and in a book.
+00:03:43 Constance Ayodele: She has a book.
+00:03:45 Margit Sowande: I have a book. We'll get to the book.
+00:03:50 Consultant: We'll get to the book. How many
+00:03:55 Constance Ayodele: jobs a year, roughly? About nine hundred. A job being anything from one drawing going across town to a whole exhibition going out to a museum and coming back four months later. Eamon?
+00:04:07 Eamon Kilbride: Eight hundred and eighty last year. A job is a job number in the inventory system, so I can count them. About a third of those are loans, where the object belongs to a museum and goes somewhere and comes back, and those are the ones with the paperwork.
+00:04:27 Consultant: Loans. Say what that word means here, because I'm going to use it and I'd like to use it right.
+00:04:35 Eamon Kilbride: A loan is when a museum lends an object to another museum for an exhibition. We're the people who pack it, move it, hang it, and bring it back. The museum's registrar and I do the paperwork between us. So a loan is never money. Nobody is
+00:04:55 Consultant: borrowing money. Good. I would have got that
+00:04:59 Constance Ayodele: wrong. Everyone does. And registrar, while we're at it, is Eamon's title and it's also what the museum calls the person he deals with, so when he says the registrar he means theirs.
+00:05:13 Eamon Kilbride: I say the registrar, I mean theirs. If I mean me I say me.
+00:05:19 Consultant: Two registrars, one of them on this call. Written down.
+00:05:24 Consultant: So how did you and I end up on a call?
+00:05:31 Constance Ayodele: What happened? Two things. The honest one first. We've won a framework with the consortium, which is seven museums across the region who tender together. It starts in February. On paper it's about a third more jobs than we did this year, and the paperwork on every single one of them.
+00:05:50 Consultant: A third more.
+00:05:53 Constance Ayodele: A third more, and I have not budgeted a third more people. And the framework has a clause in it. Condition reports with photographs within twenty-four hours of collection, and available on request to any of the seven. Not on the last day of the month. On request.
+00:06:12 Consultant: And today?
+00:06:14 Constance Ayodele: Today it's a paper form on a clipboard and photographs on somebody's phone. Eamon will explain, it's his life. That's the first thing.
+00:06:24 Consultant: And the second?
+00:06:26 Constance Ayodele: The second is that we paid a claim in May. A frame came back from a loan with a chip in the gilding, and the museum said it went out chipped, and we said it didn't, and when they asked for the outgoing condition report we had the form and we could not find the photographs. The handler who took them had a new phone. So we paid.
+00:06:52 Eamon Kilbride: We paid the excess. Six thousand four hundred. Mireille has the number, that's from
+00:06:59 Consultant: the books. Six four. And that's the excess, not the claim?
+00:07:03 Eamon Kilbride: The excess. The claim was more, the insurer paid the rest, and they've written to us about, well, what happens if there's another.
+00:07:13 Constance Ayodele: Which is that the premium goes up, and I'm not going to say by how much on a call because it's in a letter and
+00:07:24 Consultant: I'd be guessing. Don't guess. I'll write down that it's in a letter and that it's a reason. And
+00:07:31 Constance Ayodele: it was May, and I said never again, and now it's nearly November and here
+00:07:39 Consultant: we are. Okay. That's a clear pair of reasons. Before I write them down, when exactly does the framework need the reports to be real? The first consortium
+00:07:49 Constance Ayodele: move is the second week of February. So it has to exist before Christmas and the handlers have to be using it in January, because the second half of December is the only quiet fortnight we get all year.
+00:08:07 Consultant: Understood. Let's do the boring bit now. Eamon, walk me through a job. From the moment a museum phones to the moment the object is back on their wall. Slowly, and assume I know nothing about moving art.
+00:08:22 Eamon Kilbride: Okay. So a job starts with an enquiry. A museum registrar emails, usually me, sometimes Lionel, and says we've got twelve works going to such-and-such in March, can you quote. Lionel or Constance quotes it.
+00:08:36 Constance Ayodele: I quote the straightforward ones. Lionel quotes anything with a stairwell.
+00:08:42 Eamon Kilbride: When it's confirmed it becomes a job in the inventory system. Job number, the client, the dates, and then I add the objects. Each object gets a line. Title, artist, dimensions, the museum's accession number, our own reference, the
+00:08:59 Consultant: insurance value. The insurance value lives on the object line? On the
+00:09:04 Eamon Kilbride: object line, and that's the one field I would kill anyone for showing on a screen in the store. Values are confidential. The handlers don't see them. The drivers don't see them. That's not us being precious, it's the insurer, it's in the policy. Written
+00:09:23 Consultant: down. Go on. So the job exists and the
+00:09:30 Eamon Kilbride: objects are on it. Then I build the pack. The job pack. Which is the loan agreement, the insurance certificate, the packing list, the condition report forms, one per object, blank, the customs paperwork if it's leaving the country, and the crew brief, which is where they're going, who they're meeting, what the building is like, is there a lift, is there a lift that fits.
+00:09:54 Consultant: Where does the pack live?
+00:09:57 Eamon Kilbride: It's a folder. A physical folder, and a copy of most of it on the shared drive. The agreement comes from the museum by email. The certificate comes from the insurer, also by email. The packing list I make in a spreadsheet. The condition forms are a template I print. The customs paperwork comes from the broker, and the broker is a person, not a website. So five places, and
+00:10:23 Consultant: you're the one who knows which five.
+00:10:28 Eamon Kilbride: I'm the one who knows. If I'm off, the pack doesn't get built, or it gets built wrong. Which has happened. I'll tell you about the port in a minute.
+00:10:41 Consultant: Hold that, I want it as a pain on its own. And the inventory system, what does it say about the job while all this is going on?
+00:10:53 Eamon Kilbride: Booked. It says booked, and then one day it says out, and four months later it says returned. Three states, and out lasts four months.
+00:11:03 Consultant: Three states. Margit, the crates.
+00:11:06 Margit Sowande: Right. So when a job's confirmed and Eamon has put the objects on it, somebody has to decide what goes in what. Most things need a crate. Some things reuse a crate we already have, or a travel frame, which is a crate without a lid, more or less. I get told by email, or Eamon walks down, or Lionel shouts it across the yard.
+00:11:32 Consultant: And you write it where?
+00:11:36 Margit Sowande: On the whiteboard in the shop, by the week it's needed. And in the book. The book is a hardback notebook that's been going since before I started, and it has every crate we've built in it, by number, with the dimensions, and what it was built for. Four hundred and something crates.
+00:11:57 Thandiwe Rourke: Margit, the crate numbers in the book. Is a number ever reused when a crate's
+00:12:05 Margit Sowande: broken up? Never. A number is a crate for life. If it's scrapped, the number is scrapped with it, and I write scrapped in the book. How
+00:12:16 Consultant: far ahead does the whiteboard see?
+00:12:19 Margit Sowande: Three weeks, if the wall's clean. It's usually two, because things get added on the left and rubbed off on the right, and the right is, you know, me.
+00:12:31 Consultant: And who does the crew and the vehicles?
+00:12:35 Constance Ayodele: Marek. He's the crew chief. He does the grid, which is a shared calendar for the vans and a printed grid for the people, and he does it on a Friday for the week after, and then he does it again on the Monday because something moved. Okay. So
+00:12:54 Consultant: the day of the job.
+00:12:59 Eamon Kilbride: The crew take the pack and the van. At the museum they do the outgoing condition report, on paper, one form per object, front and back, and they take photographs on a phone. Then it's crated, if it's not already, and it goes.
+00:13:16 Consultant: Whose phone?
+00:13:18 Eamon Kilbride: Whoever's phone. Usually the senior handler on the job. They're supposed to upload the photos to the shared drive that night, into the job folder.
+00:13:28 Margit Sowande: Supposed to.
+00:13:30 Eamon Kilbride: Supposed to. Sometimes it's that night. Sometimes it's when I ask. Sometimes, as we found out in May, it's never.
+00:13:38 Consultant: And the paper form?
+00:13:40 Eamon Kilbride: Comes back in the pack. I file it. In a filing cabinet, by job number.
+00:13:46 Consultant: By job number, not by object.
+00:13:50 Eamon Kilbride: By job number. So if a museum asks about one object, I have to know which job it was on, which I usually do, and then find the form, and then find the photographs, which are in a folder on the shared drive named by job number, and hope they're labelled.
+00:14:10 Consultant: And are they labelled?
+00:14:12 Eamon Kilbride: They're labelled by the phone. So it's whatever number the phone gave it. Can
+00:14:17 Thandiwe Rourke: I ask one thing about the photographs, because it matters later. Are they ever anywhere except the phone and the
+00:14:26 Eamon Kilbride: drive? No. The phone. Then the drive, if we're lucky. Nothing in the inventory system, it doesn't take pictures, it takes money.
+00:14:36 Consultant: [laughs] Right.
+00:14:38 Eamon Kilbride: It's not funny from where I sit. No. It isn't. I'm laughing
+00:14:41 Consultant: at how familiar it is, not at you. Then transit, install, and the return.
+00:14:50 Eamon Kilbride: Transit is ours, or an airline, or a ship, occasionally, and at the other end our crew or theirs installs it, meaning hanging it, or, I mean, building the case round it, whatever they want. And then four months later it all happens again in reverse, and there's an incoming condition report, on paper, and if it doesn't match the outgoing one, that's a conversation.
+00:15:16 Consultant: Install meaning hanging it on a wall. Install meaning putting it
+00:15:19 Eamon Kilbride: wherever it's going to live for the exhibition. Wall, plinth, case. Not software. I know what you were thinking. You
+00:15:29 Consultant: did know what I was thinking. And
+00:15:34 Eamon Kilbride: the invoicing? Out of the inventory system. The day the job closes. It goes to the accounting system overnight and Mireille never has to touch it, and she would like it to stay that way.
+00:15:48 Constance Ayodele: She would very much like it to stay that way. She's said so,
+00:15:56 Consultant: in those words. Noted, twice. Let me say back what I've heard and you tell me where I'm wrong. A job comes in as an enquiry, gets quoted, becomes a job in the inventory system with the objects and their values on it. Eamon builds a pack from five sources. Margit decides the crates from an email or a shout and writes them on a whiteboard and in a book. Marek does crew and vans on a Friday. On the day, the condition report is paper and the photographs are on a phone, and both come back to Eamon separately, if they come back. The invoice runs from the inventory system and that part works. That's it.
+00:16:39 Constance Ayodele: That's the whole company. Sixty-two people and a clipboard.
+00:16:45 Margit Sowande: You missed the second store.
+00:16:48 Consultant: I'll come back to the second store, I promise. Condition reports first, because it's the reason you paid a claim.
+00:16:56 Consultant: Eamon, when a museum asks for the condition report on one object, what actually
+00:17:04 Eamon Kilbride: happens? I get up. I go to the filing cabinet, find the job, find the form. Then I go to the shared drive, find the job folder, and open photographs until I find the ones that look like that object. Then I scan the form and email it with the photos. Twenty minutes if it's all there. An hour if it isn't. Half a day if the photos never got uploaded and I'm ringing a handler who's on a roof somewhere.
+00:17:34 Consultant: How often?
+00:17:36 Eamon Kilbride: Four or five a week. It'll be more with the consortium, because the clause says on request, and they've told us they'll request.
+00:17:46 Consultant: And the May one. Tell me that one properly.
+00:17:51 Eamon Kilbride: A loan, three paintings, one of them in a gilt frame from the eighteen hundreds. Out in January, back in May. Came back with a chip on the lower left corner. The museum's registrar said it went out like that, we said it didn't. Our outgoing form said no damage noted, in the handler's writing. The photos were on his phone, and by May he'd got a new phone. The old ones never reached the drive, because it was January and it was busy.
+00:18:23 Margit Sowande: And their courier had photos.
+00:18:27 Eamon Kilbride: And their courier had photos, taken at their end, which showed nothing on the lower left, and we had a form that said no damage and no picture to go with it. So we paid.
+00:18:41 Consultant: Their courier being?
+00:18:43 Eamon Kilbride: Their person. A museum courier is a member of the museum's staff who travels with the object. A curator, a conservator, a registrar. Not a driver. They're the museum's eyes.
+00:18:55 Consultant: So a courier is a person from the museum,
+00:19:02 Eamon Kilbride: not a delivery company. Never a delivery company. If you write courier meaning a van, Lionel will stop reading at that word.
+00:19:10 Consultant: Good. And what does a claim like that reach? Who feels it, beyond you?
+00:19:16 Eamon Kilbride: Constance, because she signs the cheque. Mireille, because it's a line she didn't budget. Marek, because it's his handler and he's the one who had to say the photos were gone. The insurer, obviously. And the museum's registrar, who's been our contact for nine years and now double-checks everything we send her.
+00:19:37 Constance Ayodele: And me in front of the consortium, because they asked about our claims history in the tender and I had to write it
+00:19:47 Consultant: down. Is it getting worse, or was May a one-off?
+00:19:51 Eamon Kilbride: There were two smaller ones last year we just absorbed, no claim, a bit of re-gilding and a glass. Call it two thousand between them. And it'll get worse, because the framework doubles the number of objects going out with a report, and the report's the same clipboard.
+00:20:11 Consultant: What do you do today to stop it happening again?
+00:20:16 Eamon Kilbride: I chase. I've got a list of jobs where I haven't seen photos, and on a Friday I go round. And I've made the handlers write the object reference on a card and put the card in the photo, so at least I can tell which object it is.
+00:20:36 Margit Sowande: Which they do when they remember.
+00:20:40 Eamon Kilbride: Which they do when they remember, and it doesn't fix the phone, because the photo is still on the phone. And why won't that
+00:20:49 Consultant: do, the chasing? Because it's me, and it's Fridays,
+00:20:53 Eamon Kilbride: and in February there'll be a third more of them and the clause says twenty-four hours, not Friday. And because I found out in May that a chase list doesn't help you when the phone's in a drawer somewhere.
+00:21:10 Consultant: The pack. Give me a bad one. The port.
+00:21:14 Eamon Kilbride: Last March. A loan going out to a museum abroad, two crates, one van, three handlers, and an export licence. The licence was issued, I had the email, and the copy in the pack was the draft, not the issued one, because the issued one came in at six the night before and I'd already built the pack. The port wouldn't accept the draft. The van sat there for four hours and came back.
+00:21:44 Consultant: Came back. And went out again?
+00:21:47 Eamon Kilbride: The next day, with the right piece of paper. So a van and three people for a day, and the courier, theirs, had to be rebooked onto a later flight, which we paid for.
+00:22:01 Constance Ayodele: A day out is about nineteen hundred pounds, with the van. That's Mireille's number for a lost day, she uses it for quoting, so I'll use it here. Nineteen hundred,
+00:22:13 Consultant: Mireille's number. And how many days like that in a year?
+00:22:19 Eamon Kilbride: Three, last year. The port, and two where the crew got to a museum and the loan agreement in the pack was the unsigned version and the registrar wouldn't release the object. That's not always my fault, but it's always my pack.
+00:22:35 Consultant: How long does building packs take you, across a normal week? Fourteen hours.
+00:22:41 Eamon Kilbride: I've timed it, because Constance asked me to in the summer. Fourteen hours a week, and most of it is chasing the five sources, not assembling.
+00:22:52 Consultant: Fourteen. And what stops you doing it differently today? I've got a
+00:22:57 Eamon Kilbride: checklist in a spreadsheet, one row per job, with a tick for each document. It works until the museum changes the object list, which they do, and then the packing list is wrong and the condition forms are wrong and the tick is still there.
+00:23:16 Consultant: So the checklist doesn't know the job changed.
+00:23:21 Eamon Kilbride: The checklist doesn't know anything. It knows I ticked it. Last month a museum dropped two works the week before and added one, and I rebuilt the pack from scratch because I couldn't trust which bits I'd already done.
+00:23:36 Consultant: Who else feels a bad pack?
+00:23:39 Eamon Kilbride: The crew, who are standing in a loading bay with a courier looking at them. Marek, who has to find them another day. The museum. And Constance, because the museum rings Constance, not me.
+00:23:53 Constance Ayodele: They ring me. And with the consortium there's seven of them to ring me.
+00:23:59 Consultant: Constance, if this stays as it is, with a third
+00:24:06 Constance Ayodele: more jobs, what happens to Eamon? We hire another Eamon, or we lose this one. That's not a figure of speech. He's told me.
+00:24:14 Eamon Kilbride: I have told her. Twice.
+00:24:17 Consultant: Margit. The shop. What goes wrong?
+00:24:21 Margit Sowande: Two things. Crates get built late, because I find out late, and crates get built twice, because I didn't know we had one. Late is the one that costs. If I find out on a Tuesday that a job going Thursday needs a two-metre crate, that's the shop on overtime Tuesday and Wednesday nights, and it's not their fault.
+00:24:44 Consultant: How often?
+00:24:45 Margit Sowande: Every week there's something. I'd say nine hours a week of overtime in the shop that's about a crate I found out about late. Some weeks none, some weeks twenty. Nine is fair. I'd say nine to Lionel.
+00:25:01 Consultant: Nine hours. And overtime's paid at?
+00:25:04 Constance Ayodele: Time and a half. A handler or a shop hand is thirty-four an hour loaded, so overtime is fifty-one. And Eamon is more like thirty-eight, before you ask. Thirty-four,
+00:25:16 Consultant: fifty-one, thirty-eight. Thank you. And built twice?
+00:25:20 Margit Sowande: Four or five times a year I build a crate and then find one in the book that would have done. Or a job gets cancelled after the crate's built. They're four hundred pounds of timber and foam each, roughly, but I wouldn't count it, it's not the real problem and I'd be
+00:25:41 Consultant: guessing. Then I'll leave it out. What do you do today to see further ahead?
+00:25:47 Margit Sowande: I ask. I walk up to Eamon's desk on a Monday and read his screen over his shoulder. If he's off, I ring Lionel, and Lionel tells me what he remembers.
+00:26:00 Eamon Kilbride: Which is accurate but not complete.
+00:26:04 Margit Sowande: Which is accurate and about half. And the whiteboard is mine, so if I'm off nobody can read it, because it's my shorthand.
+00:26:13 Consultant: And in February?
+00:26:15 Margit Sowande: In February there's a third more crates and the same whiteboard, and I'm not building them at night. I've said that to Constance.
+00:26:25 Constance Ayodele: She has said that. In those words, and some others. Who else does a
+00:26:30 Consultant: late crate reach? The shop, obviously. Marek,
+00:26:34 Margit Sowande: because the van's booked and the crate's not ready. And the handlers, who end up packing in the yard at seven in the morning instead of the afternoon before, which is when things
+00:26:50 Consultant: get knocked. Which is when things get knocked. And the second store, since you raised it.
+00:26:57 Margit Sowande: Ravensdale is the bigger crates and the overflow. About half of what's there is in the inventory system with a location. The other half is in the book, with my location, which is a bay number I made up. If Eamon puts a Ravensdale crate on a job, he's guessing it exists.
+00:27:18 Eamon Kilbride: I'm usually right.
+00:27:20 Margit Sowande: You're usually right because you ring me. Hang on. That's my van. Two minutes. She'll be back.
+00:27:27 Constance Ayodele: That's the half
+00:27:31 Consultant: past collection. No problem. Eamon, while she's gone, the Ravensdale half that's in the book. Does anyone know what that costs you, the guessing?
+00:27:41 Eamon Kilbride: I couldn't tell you. Mireille would know what we've written off at the year end, because that's where a crate that doesn't exist ends up. It goes through the accounts, not through me.
+00:27:54 Constance Ayodele: Not in my head either. Mireille would have it in about four minutes, but I'm not going to make it up for you.
+00:28:04 Consultant: Then I'll write it as a Mireille question and not
+00:28:09 Constance Ayodele: a number. Can I ask the question Lionel is going to ask me, because it decides whether any of this is real? How does anything you build get the jobs and the objects out of the inventory system? Because if Eamon has to type them in twice, we're done before we start.
+00:28:29 Consultant: Thandiwe, that's yours, but let me frame it. What we'd want is the job list and the object list. Every job with its number, its client, its dates, and every object on it with its reference and its title. Not the values. Read out of the inventory system on a schedule. Right. And the first question is whether the inventory system has
+00:28:50 Thandiwe Rourke: an export or an interface. Most systems of this kind have a nightly export at least, a file that
+00:29:07 Consultant: lands somewhere, and some have an interface you can ask directly. A nightly file is slow, though. If Eamon confirms a job at nine and Margit wants to see it on the crate view at ten, it isn't there until tomorrow morning. Then we'd want the interface, if there is one, and read
+00:29:20 Thandiwe Rourke: it on a schedule. Every fifteen minutes is usually fine for this kind of work, though I'd want to confirm that on their side. The question
+00:29:39 Consultant: is whether the vendor exposes jobs and objects, or only invoices. And whether Ravensdale is the same database. Because if it's a second instance of the system, that's two feeds and two sets of questions. Constance said it's the same system, so I'd assume one database
+00:29:49 Thandiwe Rourke: with a location field on the object, but I'd want to see it before I
+00:30:04 Consultant: say it. The other thing is the key. The object reference. Eamon said there's their own reference and the museum's accession number. Two numbers for one object. Which is fine as long as they're in two fields. If
+00:30:11 Thandiwe Rourke: they're in one field, that's a normalising step, and we'd log every one we touch. The bigger point is that we read the list and we never
+00:30:31 Consultant: write to it. Invoicing runs off it and it stays theirs. Read only. Yes. And the values stay where they are, they never come across. So the feed question is export or interface, how often, one database or two, is the reference clean, and does the job close come through to us. Five questions.
+00:30:49 Constance Ayodele: Can I stop you there. You've been talking to each other for three minutes and I've lost the thread, and I'm the one who's paying for it. What is the answer to Lionel?
+00:31:03 Consultant: [laughs] Fair. The answer to Lionel is that we'd read the jobs and objects out of the inventory system, nobody types anything twice, nothing goes back into it, and Thandiwe is going to send Eamon five questions about how. Thandiwe, say the invoicing part plainly, because Mireille will read it. Plainly. We read the job and object
+00:31:22 Thandiwe Rourke: list on a schedule. We never write anything back. Your invoices keep coming out of the same place they do today, the day a job closes, and the accounting system never knows we exist. If the vendor turns out to have no interface at all, we'd know before anybody built anything, and then the honest answer is a nightly file and a slower board, and I'd tell you that rather than pretend.
+00:31:54 Eamon Kilbride: As long as I'm not the one answering the five questions. You're forwarding
+00:31:59 Thandiwe Rourke: them. The vendor answers them. If they don't answer, that's an answer too.
+00:32:06 Eamon Kilbride: That I can do.
+00:32:08 Margit Sowande: I'm back. Where are we?
+00:32:12 Constance Ayodele: The feed. Thandiwe's sending Eamon questions. Nothing typed twice.
+00:32:16 Margit Sowande: Good. Carry on.
+00:32:19 Consultant: Can I try to put a number on this? Not to scare anyone, just so we're all looking at the same thing, and you tell me where it's wrong. Eamon's packs, fourteen hours a week at thirty-eight, call it forty-eight weeks, that's twenty-five thousand five hundred and thirty-six. The shop's overtime, nine hours at fifty-one, forty-eight weeks, twenty-two thousand and thirty-two. The claim, six thousand four hundred, plus the two you absorbed, two thousand, so eight thousand four hundred. Three lost days at nineteen hundred, five thousand seven hundred. That's sixty-one thousand six hundred and sixty-eight. Call it sixty-two thousand a year. Before the premium, before the consortium, and before anybody's time but Eamon's and the shop's. Constance, would you stand behind that in front of Lionel? Yes. I would.
+00:33:09 Margit Sowande: You haven't got Marek rebooking crews in there, or me ringing Eamon every Monday morning.
+00:33:16 Consultant: A floor you'd defend is worth more than a ceiling you wouldn't. I'll write it down as yours, not mine, and it's the number you'll see in what I send.
+00:33:27 Constance Ayodele: Mireille will argue the nineteen hundred and I'll let her, but it's her number, so keep it in. The other direction.
+00:33:35 Consultant: If the reports were real and the packs built themselves, what would you go after that you don't go after today? The framework's the obvious one.
+00:33:46 Constance Ayodele: It's about a hundred and forty thousand a year in revenue if we take all of it, and right now I'm planning to take two thirds of it and let the rest go to whoever else is on the framework, because I can't see how we'd do the paperwork.
+00:34:08 Consultant: A hundred and forty, if you take
+00:34:13 Constance Ayodele: all of it. If we take all of it. And honestly, the thing I'd go after is loans in. Private collectors who want things stored and moved and want a report every time it's touched. We turn that away, quietly, because Eamon can't do the reports. I don't have a figure for it. I've never let myself count it.
+00:34:35 Consultant: I'll write loans in as the thing you'd go after, with no figure, and the hundred and forty as the framework if you take all of it. And
+00:34:46 Eamon Kilbride: my fourteen hours would go on the consortium's reporting, which somebody has to do anyway. It's not a saving, it's a swap.
+00:34:56 Consultant: It's a swap. That's honest, and I'll write it as a swap. Different question. If this worked, a year from now, what's different? Constance first.
+00:35:06 Constance Ayodele: I want to answer a museum's question about their object from my desk, with the photograph, in under a minute, without walking to a filing cabinet or asking Eamon. And I want to get to next May with no claim. That's the win, and it's Lionel's win too, he's said it at every management meeting since June.
+00:35:29 Margit Sowande: I want to see next week's crates on a screen on a Monday morning, not on a whiteboard I wrote on a Friday. And no typing in the shop. If it needs typing it dies. I've watched it
+00:35:44 Eamon Kilbride: die. I want the pack to know the job changed. That's it. If the museum drops an object, the packing list and the forms should drop it before I do. I'm writing those
+00:35:57 Consultant: down as yours, all three. Do you have a monday account at all today, any of you?
+00:36:05 Constance Ayodele: No. Nothing. Eamon's seen it at a museum.
+00:36:10 Eamon Kilbride: One of the registrars runs her exhibition schedule on it. That's all I know about it. Whatever we did would be from nothing.
+00:36:19 Consultant: From nothing. Who decides on something like this? Money and the tool both.
+00:36:25 Constance Ayodele: Me, up to twenty-five thousand. Above that it's me and Lionel together, and Lionel's first question about anything is whether it replaces the inventory system, because we paid for that four years ago and it took five months to put in. It won't, so that's fine, but he'll ask. And Mireille needs to be comfortable with anything that goes near invoicing. Not a veto. Comfortable.
+00:36:51 Consultant: Will Lionel be on the next call?
+00:36:55 Constance Ayodele: If I ask him he'll come. He'll sit at the back with his arms folded until the last five minutes and then he'll ask about the
+00:37:06 Consultant: inventory system. Then I'd like him there. What would he need to see?
+00:37:12 Constance Ayodele: Handlers not typing. And that the values never leave the inventory system. He's said both to me, he'll say both to you, and if either one isn't true he's out and honestly so am I.
+00:37:27 Consultant: Understood. Timing. Is this a now thing or
+00:37:33 Constance Ayodele: a next-year thing? Now. It has to exist before Christmas, because the second half of December is the only quiet fortnight we get, and January is the consortium's onboarding, and February it's real. If we miss December we miss the year.
+00:37:48 Margit Sowande: And nothing changes in the shop in November. We've got two auction weeks and an exhibition going out and I'm not putting a new thing in front of the handlers then. December after the fifteenth, fine.
+00:38:03 Consultant: December after the fifteenth for the shop, and it exists before that. What order, if you had to pick?
+00:38:11 Constance Ayodele: Condition reports, then packs, then crates. And I'll fight Margit on that.
+00:38:16 Margit Sowande: Crates first. But it's her claim, so reports first, I suppose.
+00:38:22 Eamon Kilbride: Reports first. I'd have said packs, but it's the claim, and the claim's
+00:38:30 Consultant: the reason we're here. What could get in the way of this going ahead? Anything.
+00:38:36 Margit Sowande: The handlers. They wear cotton gloves and they're holding something worth more than their house. If the thing needs a keyboard, it's dead. If it's a phone in a pocket and one tap, maybe. Maybe. I've seen a nephew's app die in a month here.
+00:38:54 Constance Ayodele: The vendor. They've quoted Lionel a tracking module, with a screen in the store and condition reports inside the system, and the quote is on his desk. We had them in for a morning in July. It's typing, so I don't think it's happening, but he reads that quote when he's cross with me. Okay.
+00:39:15 Consultant: That's an alternative in play and I'd rather know than not.
+00:39:20 Eamon Kilbride: The reference field. This is the one Thandiwe should hear. In the inventory system there's one reference field per object, and it's got our reference in it, or the museum's accession number, or both with a slash between them, depending on who entered it and when. So the same object can be two different strings on two different jobs. I've been meaning to clean it up for two years.
+00:39:48 Consultant: How many objects?
+00:39:50 Eamon Kilbride: Live, about four thousand. It's a couple of weeks of my life to sort out, and nobody has ever given me the two weeks.
+00:40:00 Margit Sowande: And Ravensdale. If it isn't in the system it isn't in your feed, so half my crates aren't in your feed, and that's before you ask about the bay numbers.
+00:40:13 Eamon Kilbride: And that's the one for Thandiwe. The reference field and the crates. I'll stop there because I can see her writing.
+00:40:22 Thandiwe Rourke: It depends whether it's one field with two things in it or two fields. If it's one field with a slash, we can split on the slash and keep both halves, and log every object where the halves don't look like
+00:40:42 Consultant: what we expect. That's a list for Eamon, not a rewrite. And an object that's on two jobs as two different strings? Then we'd match on whichever half is consistent, which is probably
+00:40:47 Thandiwe Rourke: their own reference, and flag the rest for Eamon to resolve one by one. It's a list. It isn't four thousand,
+00:41:05 Consultant: it's however many are inconsistent, which might be a few hundred. And the crates. Margit's crates have a number in the book. Do we key on that? The crate number is theirs and it's already unique, from what
+00:41:11 Thandiwe Rourke: Margit said, so yes. The crate is a record with its dimensions, and an object on a job points at a crate. Where a crate is in the book and not in the system, it gets entered once, by Margit, and the Ravensdale half gets sorted as a side effect of that.
+00:41:36 Consultant: Once. Not typed on the floor.
+00:41:40 Thandiwe Rourke: Once, at a desk, by the person who owns the book. On the floor it's a tap. The condition photo is the thing I'd want to check before I promise it, the size limit on a photo from a phone, because a handler is going to take eight of a gilt frame and
+00:42:05 Consultant: they'll be large. I'd rather test it than say a number. Then we test it before the walkthrough and say what we found, whichever way it goes. And the read-back. Everything we key on, the reference, the crate number, the job number, in their own terms. Their own strings, read back to them before anything is built.
+00:42:19 Thandiwe Rourke: Because if we've read accession number where they meant our reference, we've built
+00:42:34 Consultant: the wrong thing and it will look right for a month. Agreed. So the list for Eamon is the five feed questions plus one, which is a sample of the reference field as it is. Ten objects, no values, as it comes out.
+00:42:47 Margit Sowande: Are you two done? Because there's a van reversing into my bay and I want to say one thing before I go again. Whatever you key on, the crate number is mine, and I'm not renumbering four hundred crates for a computer.
+00:43:04 Consultant: Nobody is renumbering anything. The crate number is yours and it stays
+00:43:10 Margit Sowande: yours. Then carry on. Back in two minutes. She'll
+00:43:13 Constance Ayodele: be back in two minutes. She's always back in two minutes.
+00:43:19 Consultant: While she's gone. Eamon, the museum's photographs, the ones a courier takes. Do they ever send you
+00:43:27 Eamon Kilbride: those? If we ask. They're the museum's photographs, so they're the museum's to keep, and we don't put them anywhere they'd mind. That's a thing I'd want to say now, before anyone builds anything, the museums own their pictures of their pictures.
+00:43:43 Consultant: Written down, and it'll be in what I send.
+00:43:47 Margit Sowande: Back. Sorry. Where are we?
+00:43:50 Consultant: Let me play back a first cut, and this is so you can hear it, not to sign anything. One place with every job, read from the inventory system, one row per job with the client and the dates. The objects on the job, read from the same place, with their reference and their title and never the value. A condition report on every object, done on a phone in the loading bay, one tap per photo, with the object reference on it, so that when a museum asks, Constance opens it from her desk. The pack as a checklist on the job that knows what documents the job needs and shows what's missing, and when the object list changes, the checklist changes with it. The crate schedule as a view of the same jobs three weeks out, with Margit's crate numbers on the objects. Nothing goes into the inventory system. Nothing changes about invoicing. Is that the right first cut, for the three of you? Yes. Yeah.
+00:44:55 Eamon Kilbride: Condition reports first, though. If I get one thing out of this before February, it's that one.
+00:45:03 Margit Sowande: And I want to see a handler do the photo with gloves on before I believe any of it. Before Christmas, in the yard, not in a meeting room. Then
+00:45:15 Consultant: that's the test, and I'd rather fail it in the yard than in February.
+00:45:22 Constance Ayodele: And I don't want the feed holding anything up. If the vendor takes six weeks to answer Thandiwe, build it with Eamon typing ten jobs in by hand and we'll live with that for a month. Understood,
+00:45:37 Consultant: and I'll write it down that way. The feed is a question, not a condition.
+00:45:45 Consultant: Constance, next step. I'd like to build a first version of that with a handful of sample jobs and objects, not yours, and walk the three of you and Lionel through it, and Margit taps a condition photo with gloves on. Thursday the fifth at ten, your time? Yes. Good. Forty-five minutes, and we'll take thirty if it's good. Before then, Thandiwe sends Eamon the five feed questions and the reference sample request this week, and Eamon forwards whatever he can't answer to the vendor.
+00:46:18 Eamon Kilbride: I'll answer what I can tonight, actually. The export one I know. There's a nightly file, it lands on the shared drive at two in the morning. Whether there's an interface I'll have to ask them.
+00:46:33 Thandiwe Rourke: Does the nightly file carry the objects, or only the
+00:46:37 Eamon Kilbride: jobs? Objects. One line per object, the same as the screen. Without the values, I think, but I'd check that before I said it to anyone.
+00:46:48 Thandiwe Rourke: Then that's one of the five answered already. I'll write the other four up for you today. Send
+00:46:56 Margit Sowande: me the invite, I don't hold dates in my head. And I want Marek in the room for the photo part, because they're his handlers and he'll say what they'll actually do.
+00:47:10 Consultant: Marek in the room for the photo part. Constance, anything I've missed?
+00:47:16 Constance Ayodele: Send the recap to Lionel as well as me, and don't dress it up. If it reads like a brochure he'll stop at the second line, and so will I.
+00:47:28 Consultant: It'll read like a list. I'll send the invite and the recap tomorrow, with the number and the questions. And the sample
+00:47:36 Eamon Kilbride: of the reference field. Ten objects.
+00:47:40 Consultant: And the sample, ten objects, no values. Thank you, all three of you. Margit, go and meet your van.
+00:47:49 Margit Sowande: It's already here. Thanks. Bye.
+00:47:52 Constance Ayodele: Thanks. Talk soon.

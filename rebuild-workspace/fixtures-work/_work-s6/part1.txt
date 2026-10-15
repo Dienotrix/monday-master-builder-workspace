@@ -1,0 +1,51 @@
+[00:03] Consultant: Hi, can you all hear me okay?
+[00:06] Marcus Thibault: Loud and clear. Give me one second, I'm going to shut my door, there's a forklift going back and forth outside my window and it beeps every time it reverses.
+[00:19] Consultant: Please do.
+[00:24] Marcus Thibault: Okay. Better. So it's me, Delia's on, and Wes said he'd dial in from the road.
+[00:32] Wes Kubiak: I'm here. I'm parked, before anybody worries. I'm at a truck stop outside Angola waiting on a customer to call me back, so if you hear a diesel it's not me.
+[00:45] Consultant: Ha, understood. Hi Wes, hi Delia.
+[00:49] Delia Ostrowski: Hi. Sorry, I'm eating lunch at my desk, I'll try to be quiet about it.
+[00:55] Consultant: Eat away, honestly. Marcus, how's the week?
+[01:00] Marcus Thibault: It's the second week of September, so it's quoting season. Everybody's doing their capital stuff before year end. Busy is good. Busy and blind is less good, which is sort of why we're talking.
+[01:16] Consultant: That's a good line to start on. Before we get into it, let me tell you how I'd like to use the time. I'm going to ask a lot of questions about how things actually run today, where it hurts, and what you'd want instead. I'm not going to show you anything. And if it turns out you need two fixes to a spreadsheet and not a project, I'll tell you that.
+[01:38] Marcus Thibault: Fine by me. I've been sold to enough.
+[01:42] Consultant: I'd rather earn it. So start me at the top. What does the company do, and who's who on this call?
+[01:50] Marcus Thibault: We're an industrial supplies distributor. Fasteners, abrasives, cutting tools, safety, general MRO consumables. Our customers are fabricators, machine shops, a couple of food plants, some municipalities. We're eighty-five people. Two warehouses, Toledo is the main one and where I sit, and Fort Wayne is the second one.
+[02:14] Consultant: And the sales side?
+[02:17] Marcus Thibault: Twenty-two outside reps. Five inside sales and counter people. Three regional managers, Wes is one of them. Delia is sales operations, which in practice means Delia is the only person who knows anything.
+[02:33] Delia Ostrowski: That's generous. I'm one person and a lot of Excel.
+[02:38] Consultant: Wes, which region are you?
+[02:41] Wes Kubiak: Fort Wayne and everything west and south of there. Seven reps. And as of January I also get the new territory, which is the reason Marcus called you, probably.
+[02:54] Consultant: We'll come back to that in a bit, I want to hear it properly. Delia, what's your day actually look like?
+[03:02] Delia Ostrowski: Um. So. Tuesday morning I pull every open quote out of P twenty-one, that's our ERP, Prophet twenty-one, and I paste them into the workbook. Then I chase reps for what's still alive and what's dead. Friday morning I do the forecast, which is the same thing again but I have to make it add up, and then I email it to Marcus and Gene.
+[03:27] Consultant: Gene is?
+[03:29] Marcus Thibault: Gene's the president. Family owns the business, he's second generation. He's not on this call and he doesn't need to be.
+[03:38] Consultant: Got it. Delia, tell me about the workbook. What is it, literally?
+[03:44] Delia Ostrowski: It's an Excel file on SharePoint. There's a tab per rep, twenty-two tabs, plus a summary tab that I built with formulas that break about once a month. Every rep keeps their own tab, and the columns are different in almost every one, because they set them up themselves back in twenty-nineteen and nobody ever standardised it.
+[04:08] Consultant: So when you make the summary tab work, what are you actually doing?
+[04:13] Delia Ostrowski: Retyping. Honestly. Some of them put the customer in one column, some of them put customer and city together, one guy puts the quote number in the notes field. I copy it into the shape the summary needs.
+[04:29] Consultant: Marcus, when you look at that summary on Friday, what are you looking at?
+[04:35] Marcus Thibault: A guess. I'll be straight with you. I cannot tell you today what's going to close this month. I can tell you what twenty-two people told me they hope will close, which is not the same thing.
+[04:50] Consultant: What's the gap between those two, usually?
+[04:54] Marcus Thibault: Big. And it's not lying, it's just optimism and a bad memory. A rep says a quote is hot because he remembers the visit, not because anything happened this week.
+[05:08] Consultant: Where does the quote itself live?
+[05:11] Marcus Thibault: P twenty-one. The quote lives in P twenty-one, the pricing lives in P twenty-one, the stock lives in P twenty-one, and everything about whether anybody's actually going to buy it lives in somebody's head.
+[05:27] Delia Ostrowski: Or in the workbook, for about four days after I ask.
+[05:32] Consultant: Is P twenty-one staying?
+[05:35] Marcus Thibault: P twenty-one is not going anywhere. That's orders, inventory, contract pricing, invoicing. Don't touch it.
+[05:44] Consultant: Understood, and that's useful to hear this early. What about a CRM? Is there one?
+[05:51] Marcus Thibault: There's GoldMine.
+[05:53] Delia Ostrowski: [laughs]
+[05:55] Consultant: Tell me about GoldMine.
+[05:58] Marcus Thibault: It's still installed. It's on a server in Toledo that I'm told we can't turn off for some licensing reason. Nobody has opened it since, what, twenty-twenty-three?
+[06:11] Delia Ostrowski: I opened it in February to look up an old contact and the last activity on the record was from twenty-twenty-two. Everything in there is three years stale at best.
+[06:24] Consultant: Is anything in it worth keeping?
+[06:27] Delia Ostrowski: The account list, maybe, and only because some of those companies aren't in P twenty-one if they never bought anything. The activity history, no. I wouldn't trust a note in there.
+[06:42] Consultant: Why did it stop getting used?
+[06:45] Marcus Thibault: Because we bought it for the managers and rolled it out to the reps, and the reps decided it was a surveillance tool, and after about a year of me nagging I gave up. We paid for GoldMine for six years and used it for about one. I'm not doing that again.
+[07:06] Consultant: That's worth remembering, and I'll come back to it. What else are you running? Email, phones, anything else with customer information in it.
+[07:16] Delia Ostrowski: Microsoft three sixty-five for everything, Outlook, Teams. SharePoint for the workbook and for quote PDFs. We've got a form on the website that dumps enquiries into a shared inbox. Trade show badge scans come back as a spreadsheet from whoever ran the booth.
+[07:37] Consultant: Anything with monday.com in it already?
+[07:41] Marcus Thibault: Yeah, actually. We bought monday about nine months ago for the operations side. Purchasing uses it for vendor returns and for the Fort Wayne racking project. I think there's a board for the safety audits too.
+[07:58] Consultant: Do you know what plan you're on?
+[08:01] Delia Ostrowski: It says Pro when I log in. And there's a whole sales CRM section in there with nothing in it, which I've clicked into maybe twice.

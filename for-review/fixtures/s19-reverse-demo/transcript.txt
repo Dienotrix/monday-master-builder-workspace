@@ -1,0 +1,338 @@
+[00:00:04] Consultant: Hi, hi. Can everyone hear me? I've got three tiles and one of them is a ceiling.
+[00:00:11] Ingrid Sallinen: That's Reuben. Reuben, your camera.
+[00:00:14] Reuben Castellanos: Hang on. There. Is that better? I'm in the shop office, so if you hear a router fan, that's the router fan.
+[00:00:24] Consultant: Loud and clear. Hi Reuben. And Noor, hi, we haven't actually met, we've only emailed.
+[00:00:31] Noor Abdelrazek: Hi. Yeah, I'm the one who's been sending you the screenshots. Sorry about the number of screenshots.
+[00:00:39] Consultant: Don't be, they were useful. Ingrid, how are you? You said in your note the shop is flat out.
+[00:00:47] Ingrid Sallinen: We are. It's a good problem. It's -- mostly a good problem. October's always like this, and then we've got the Copperline thing on top of it, which, we'll get to that.
+[00:01:00] Consultant: We will. So, how I'd like to run this, if it works for you. The idea today is you show me how things actually run, and I mostly keep quiet and ask what things are. I don't want to pitch anything across the top of it. If at some point you want my opinion, ask, and I'll give it. But the default is you drive.
+[00:01:27] Ingrid Sallinen: Good. That's what we wanted. Last time we did one of these with somebody we got a forty-minute slideshow and nobody looked at Reuben's spreadsheet.
+[00:01:38] Reuben Castellanos: [laughs] The Sheet.
+[00:01:41] Ingrid Sallinen: The Sheet. Capital S. You'll hear a lot about the Sheet.
+[00:01:47] Consultant: I'm looking forward to the Sheet. Before we open anything, can I get the thirty-second version of who does what? Ingrid, you first, since you set this up.
+[00:01:59] Ingrid Sallinen: Sure. I'm operations director, so I've got the two shops, Grand Rapids here and Fort Wayne, scheduling, purchasing, and I'm the one who signs off on tools, up to a point. Harlan's the owner. He's not on this, he doesn't do calls, but anything over ten thousand a year goes to Harlan. And this will. So you'll hear his name.
+[00:02:23] Consultant: Noted. Reuben?
+[00:02:26] Reuben Castellanos: Production manager. I run the floor here. Fab, paint, the install crews, the trucks. Everything that gets made and goes out the door goes through me, and it's been that way for, I don't know, sixteen years.
+[00:02:41] Consultant: And Noor.
+[00:02:44] Noor Abdelrazek: Project coordinator. So I'm the one between sales and the shop. I chase proofs, I chase permits, I chase customers, I chase -- everybody, basically, and lately I've been building a thing in monday that Reuben has feelings about.
+[00:02:58] Reuben Castellanos: I don't have feelings about it. I haven't looked at it.
+[00:03:04] Noor Abdelrazek: That's a feeling.
+[00:03:07] Ingrid Sallinen: [laughs] This is the dynamic. You'll get used to it.
+[00:03:12] Consultant: It's a good dynamic. Okay. Reuben, would you be willing to share your screen and walk me through what you actually look at on a Monday morning? Just open what you'd open. Don't tidy it.
+[00:03:27] Ingrid Sallinen: Reuben, can you share your screen? Just show them what you look at.
+[00:03:33] Reuben Castellanos: I can. Let me find the -- which button is it.
+[00:03:39] Noor Abdelrazek: Bottom. The green one.
+[00:03:41] Reuben Castellanos: Got it.
+[00:03:44] *** Reuben Castellanos started screen sharing ***
+[00:03:47] Reuben Castellanos: Can you see it? Tell me if you can see it.
+[00:03:52] Consultant: I can see it. I can see a spreadsheet and I can see a lot of colours.
+[00:04:00] Reuben Castellanos: That's the Sheet. Okay. So. This is what I look at. This is what I've looked at every morning since, honestly, since Lorraine was here, and she left, what, last fall?
+[00:04:13] Ingrid Sallinen: A year ago September.
+[00:04:16] Reuben Castellanos: A year ago. So this tab here, this is the Active tab. Every job that's sold and not installed is a row on here. That's it. That's the whole system. Every row's a job.
+[00:04:30] Consultant: What's in a row? Left to right, if you don't mind.
+[00:04:36] Reuben Castellanos: Left to right. That's the job number. That comes from the accounting system, Bettina makes it when the quote's accepted, and I copy it over by hand. Then customer. Then what it is, so channel letters, pylon, monument, whatever. Then this one's the proof, whether we've got an approved proof. Then that's the permit. Then the install date. Then the crew, I just put initials in there. And then over here, that's just notes.
+[00:05:06] Consultant: And the colours?
+[00:05:09] Reuben Castellanos: The colours are the permit. Red means we don't have it, yellow means it's in, green means it's approved. That one -- see that one? That's been yellow for six weeks. That's the city of Marlow, they take forever.
+[00:05:25] Consultant: Who turns it green?
+[00:05:28] Reuben Castellanos: Me. When Noor tells me. Or when I remember to ask Noor.
+[00:05:34] Noor Abdelrazek: Or when I walk out to the shop and stand there until he does it.
+[00:05:41] Reuben Castellanos: That too.
+[00:05:43] Consultant: Can you scroll down a bit? I want to see how many rows there are. Don't open anything.
+[00:05:51] Reuben Castellanos: Sure. So that's -- one, two -- that's about thirty-eight rows right now. Thirty-eight jobs. The ones down here are Fort Wayne, I put them at the bottom and I don't touch them. Dale's supposed to. [inaudible] And these two here, these are done, I just haven't moved them off yet.
+[00:06:12] Consultant: Where do they go when they're done?
+[00:06:16] Reuben Castellanos: I delete the row. Bettina's got it in the accounting system, so it's not lost. Well. It's not lost lost. It's lost from here.
+[00:06:25] Ingrid Sallinen: Which is why nobody can tell me what we installed in a given month without asking Bettina.
+[00:06:33] Reuben Castellanos: You can ask me. I remember.
+[00:06:36] Ingrid Sallinen: You remember. That's the system.
+[00:06:39] Consultant: What's the one with the dash in it? Third from the top.
+[00:06:45] Reuben Castellanos: That one? That's a re-do. That's the credit union, we'll get to that. The dash is me saying it's the same job number twice.
+[00:06:55] Consultant: Okay, hold that thought. I'll come back to it.
+[00:07:00] Consultant: Okay. So the permit lives in your head and in Noor's binder, and the Sheet is where it gets written down. Is that fair?
+[00:07:11] Reuben Castellanos: That's fair. Well, it's in the binder first. Noor's got the binder.
+[00:07:16] Noor Abdelrazek: I have a physical binder. Tabs by municipality. It's very nineteen ninety-eight and it works.
+[00:07:23] Consultant: We'll come to the binder. Keep going, Reuben. What's this tab?
+[00:07:29] Reuben Castellanos: This is the -- hold on. That's the old one, don't worry about it. This one. This is the Install Week tab. This is the one that matters. Monday through Friday across the top, crews down the side, and I put the job number in the cell. So Tobias's crew, Monday, they've got twelve-forty-one and twelve-fifty. Tuesday they've got the Marlow one, if it ever goes green.
+[00:07:56] Consultant: How many crews?
+[00:07:59] Reuben Castellanos: Three here, two in Fort Wayne. Fort Wayne's got their own sheet. It's the same sheet, they just don't update it. [laughs]
+[00:08:09] Ingrid Sallinen: That's a whole other conversation.
+[00:08:12] Consultant: I'll write it down and not have it today. Reuben, when you say the crews have that -- how do they get it?
+[00:08:22] Reuben Castellanos: Friday afternoon I print this tab. Hang on. I'll hold it up. Can you see that? That's last week's. It goes on the wall by the door, and each crew lead gets one, and that's what they drive off on Monday.
+[00:08:40] Consultant: I can see it. It's got handwriting on it.
+[00:08:44] Reuben Castellanos: It's always got handwriting on it. Because things change Friday night, Saturday, Monday morning, and I change it on the Sheet, and I go write it on the wall, and I text Tobias, and then whatever crew didn't get the text drives to the wrong place.
+[00:09:03] Consultant: Has that happened?
+[00:09:06] Reuben Castellanos: Two weeks ago. Tobias's crew drove out to the Ashgrove plaza with the whole pylon on the flatbed and the permit hadn't come through, and they sat in the parking lot for -- what was it, Noor?
+[00:09:22] Noor Abdelrazek: Till eleven. They left at seven.
+[00:09:25] Reuben Castellanos: Three guys and a truck for half a day. And then they came back and unloaded it. And the sign's still on the rack.
+[00:09:36] Consultant: How often does that kind of thing happen? The wasted trip, in whatever form.
+[00:09:42] Reuben Castellanos: Honestly? Call it twice a month. Not always that bad. Sometimes it's the customer's not there to open the building. But twice a month somebody drives somewhere they shouldn't have.
+[00:09:55] Ingrid Sallinen: And it'll be worse with the stores. That's the whole thing.
+[00:10:01] Consultant: What do you do about it today, when you know on Friday night that Monday's changed?
+[00:10:08] Reuben Castellanos: I change the Sheet, I write on the wall, I text Tobias. If it's Fort Wayne I call Dale. That's the workaround. It's me.
+[00:10:19] Consultant: Okay. I'm going to leave that one there for now and ask what this other window is. You've got something behind the -- behind the spreadsheet.
+[00:10:29] Reuben Castellanos: That's the board. That's the monday board. Lorraine built that. Hang on, I'll bring it up. There.
+[00:10:37] Reuben Castellanos: So this is Active Jobs. She set it up with four groups. Quoted, In Production, Install Scheduled, Done. And every job's supposed to be on here too. Same job number.
+[00:10:49] Consultant: Supposed to be.
+[00:10:52] Reuben Castellanos: I update it when Ingrid asks. So, like, monthly.
+[00:10:57] Ingrid Sallinen: I ask because Harlan looks at it. Or he did. I think he's stopped.
+[00:11:03] Consultant: What's on it, column-wise?
+[00:11:06] Reuben Castellanos: Job number, customer, and then there's a status, which is -- let me click it. Proofing, Permit, Fab, Ready, Scheduled, Installed, Invoiced. Seven. And a date. And a person column that nobody ever filled in.
+[00:11:21] Consultant: Who owns this board today?
+[00:11:24] Reuben Castellanos: Nobody. Lorraine owned it. I'm the one who touches it.
+[00:11:29] Ingrid Sallinen: I'd say nobody owns it, honestly. It exists.
+[00:11:33] Consultant: And this thing at the top here, above the groups, the --
+[00:11:39] Reuben Castellanos: That? I don't know what that is. Somebody made that. It's got numbers on it. I've never clicked it.
+[00:11:48] Noor Abdelrazek: I think that's Lorraine's too. It's a chart thing. It's wrong, whatever it is.
+[00:11:54] Consultant: Okay. I'll note it as a thing at the top that somebody made. [laughs]
+[00:12:01] Reuben Castellanos: That's accurate.
+[00:12:04] Consultant: Can you open one of them? Any row. I want to see what's inside an item, not which one.
+[00:12:12] Reuben Castellanos: Sure. This one. So there's -- hang on, it opens on the side. There's a bunch of stuff Lorraine wrote in here. Two years ago. "Called customer, waiting on landlord." That's the landlord thing. Nobody's written in one of these since she left.
+[00:12:30] Ingrid Sallinen: I have. Twice.
+[00:12:33] Reuben Castellanos: Ingrid's written in one of these twice. And there's the columns again down the side, and the person one's empty, see. Empty on all of them.
+[00:12:45] Consultant: Who was it meant to be?
+[00:12:48] Reuben Castellanos: The crew lead, I think. She wanted Tobias and Marco and Sal in there. They never got logins. Or they got logins and never used them, I don't remember which.
+[00:13:01] Ingrid Sallinen: They got logins. Two of them still have seats. That's part of the twelve.
+[00:13:08] Consultant: Okay. So two crew leads have seats they've never used.
+[00:13:13] Ingrid Sallinen: I'd have to check which two. I think Tobias and Marco.
+[00:13:18] Consultant: Can you put them side by side for me? The Sheet and the board. I want to see whether they're the same jobs.
+[00:13:28] Reuben Castellanos: Hang on. I'll put them side by side. The Sheet on the left, the board on the right. There. See, this column and that column are supposed to be the same thing and they're not. That column's the problem. That's -- see, that says the fourteenth and that says the ninth, and the ninth is right, because I moved it.
+[00:13:53] Consultant: Which one's the ninth?
+[00:13:55] Reuben Castellanos: The left. The Sheet's right. The Sheet's always right, because I'm the one who moves it.
+[00:14:03] Consultant: Okay. So when they disagree, the Sheet wins.
+[00:14:07] Reuben Castellanos: The Sheet wins.
+[00:14:10] Consultant: How long does it take you, a week, keeping the two of them and the wall in step? Roughly.
+[00:14:18] Reuben Castellanos: I don't keep them in step, that's the honest answer. The Sheet's maybe an hour a day. Little bits. Twenty minutes in the morning, and then every time the phone rings. The board's an hour a month when Ingrid asks. The wall's ten minutes on Friday and then whatever gets written on it.
+[00:14:40] Consultant: An hour a day on the Sheet. Okay.
+[00:14:45] Reuben Castellanos: Give or take. Some days it's nothing. Some days it's the whole morning.
+[00:14:51] Ingrid Sallinen: Reuben, show them the notes column. The hold thing.
+[00:14:55] Reuben Castellanos: The notes. So over here, when a job's stuck, I write "hold" and why. Hold, landlord. Hold, permit. Hold, customer hasn't paid the deposit. That's the only place that lives.
+[00:15:08] Ingrid Sallinen: And how do I find out what's on hold?
+[00:15:13] Reuben Castellanos: You ask me.
+[00:15:16] Ingrid Sallinen: I ask him. And when he's out?
+[00:15:20] Reuben Castellanos: You text me.
+[00:15:22] Ingrid Sallinen: I'm making a point, in case it's not landing.
+[00:15:27] Reuben Castellanos: It's landing. [laughs]
+[00:15:31] Consultant: It's landing over here too. How many are on hold right now, roughly?
+[00:15:37] Reuben Castellanos: Six? Seven. Let me -- yeah, seven. Two of those are Marlow.
+[00:15:43] Consultant: Go back to the permits for a second, if you don't mind. You said Marlow takes forever. What actually happens on a permit, start to finish?
+[00:15:54] Reuben Castellanos: So every city's different. That's the thing. Some of them you file online, some of them Noor drives down there. Marlow you drive down there. And then they sit on it. And the thing is, the permits, every city's different, like Ashgrove wants --
+[00:16:12] Consultant: So what we'd do there is a permit status column with an automation that pings Tobias when it flips to approved. Honestly that's a ten-minute thing.
+[00:16:24] Reuben Castellanos: Yeah. Uh. Maybe. Anyway --
+[00:16:27] Reuben Castellanos: Let me show you the Install Week thing again, because that's where it actually goes wrong on a Monday.
+[00:16:35] Consultant: Go ahead.
+[00:16:38] Reuben Castellanos: So this is the week. Right now. See, Tobias is Monday and Tuesday here, and Wednesday he's got -- Wednesday's nothing, because Wednesday was the Ashgrove one and that's gone. So Wednesday's a hole. And Marco's crew is Thursday Friday, that's the two credit union branches, and those are fine, those are green. And the third crew, that's Sal, Sal's on the Copperline survey all week, so that whole row's just, um, "survey".
+[00:17:06] Consultant: What's a survey, in your world?
+[00:17:10] Reuben Castellanos: Site survey. Before we design anything we go measure the building. For Copperline that's forty-one buildings, so Sal's basically a surveyor till Christmas.
+[00:17:20] Consultant: And that's on here as a row.
+[00:17:24] Reuben Castellanos: It's on here as a word. It's not a job yet. There's no job number because there's no -- there's no quote accepted, because it's the whole contract, and Bettina hasn't figured out how she's doing the numbers for that yet.
+[00:17:40] Ingrid Sallinen: That's a Bettina question too. Whether Copperline is one job number or forty-one.
+[00:17:46] Consultant: I'll write that down as a question for Bettina. It matters for how the rows work.
+[00:17:53] Reuben Castellanos: It matters for everything.
+[00:17:56] Consultant: Before you leave the Active tab -- sorry, one more. The proof column. What's in that?
+[00:18:03] Reuben Castellanos: Yes or no. Whether we've got a signed-off proof. Which is a -- it's an email. Rashid gets an email from the customer that says "looks good", or "approved", or a thumbs up, and he forwards it to me and I print it and it goes on the traveller.
+[00:18:20] Consultant: The traveller being?
+[00:18:23] Reuben Castellanos: The paper packet. Every job's got a manila folder that walks through the shop with it. The proof's stapled to the front. Rev whatever.
+[00:18:33] Consultant: Don't open the email. Just tell me what it looks like when it arrives. Is the proof attached, or is it a link?
+[00:18:44] Reuben Castellanos: It's a PDF. Always a PDF. Rashid exports it from the design software and attaches it, and the customer replies to that, and Rashid forwards the reply to me with the PDF still on it. Usually still on it.
+[00:19:00] Consultant: Usually.
+[00:19:02] Reuben Castellanos: Usually. Sometimes he forwards the reply and the PDF's fallen off, and I go find it on the shared drive, and there's four of them in there called final.
+[00:19:14] Noor Abdelrazek: Five. There's a final final.
+[00:19:18] Consultant: And where does that go wrong?
+[00:19:21] Reuben Castellanos: Rev whatever. The credit union one. Prairie Lakes. Rashid sent the customer rev three, they came back with changes, he sent rev four, they approved rev four, and rev three was already stapled to the traveller because I'd printed the first one. We built rev three. Sixty-eight hundred dollars in material and shop time and we ate it.
+[00:19:45] Consultant: When was that?
+[00:19:48] Reuben Castellanos: August. And it's not the first time.
+[00:19:52] Consultant: How many times a year, roughly?
+[00:19:55] Reuben Castellanos: Three, four. Not always that much money. But three, four.
+[00:20:00] Consultant: Do you know what that costs across a year, the rework?
+[00:20:05] Reuben Castellanos: Bettina would know. I don't. Nobody adds it up.
+[00:20:10] Ingrid Sallinen: Yeah, that's a Bettina number. I genuinely don't know. I'd want her to pull it before anyone writes it down.
+[00:20:19] Consultant: That's fair. I'll note it as a question for Bettina rather than guess at it.
+[00:20:26] Consultant: What's the workaround on the proofs today? How do you stop rev three going on the traveller?
+[00:20:34] Reuben Castellanos: I write the rev number on the traveller in marker now. Big. And Rashid's supposed to put "FINAL" in the subject line. Supposed to.
+[00:20:44] Noor Abdelrazek: He does about half the time. I go into his sent folder and check. That's part of my Thursday.
+[00:20:53] Consultant: Okay. Noor's Thursday keeps coming up. We'll get to Thursday.
+[00:20:58] Noor Abdelrazek: Thursday's a whole thing.
+[00:21:01] Consultant: While the board's on screen, Ingrid, what plan is the account on, do you know?
+[00:21:07] Noor Abdelrazek: I think it's Standard? It might be Pro.
+[00:21:12] Ingrid Sallinen: It's Pro. I see the invoice every month. Twelve seats, and I think four people actually log in.
+[00:21:20] Consultant: Thank you. And is there anything else in the account besides Active Jobs?
+[00:21:26] Noor Abdelrazek: My board. And a couple of boards Rashid made for the trade show stuff two years ago that nobody uses.
+[00:21:35] Ingrid Sallinen: And the CRM thing is switched on, I think, but nobody's ever opened it. Sales lives in the quoting tool.
+[00:21:44] Consultant: Okay. I'll ask about the quoting tool separately. It's not today's topic and I don't want to make it one.
+[00:21:53] Ingrid Sallinen: Please don't. Rashid would want to be on that call and we'd be here till Thursday.
+[00:22:00] Consultant: Reuben, one more on the Sheet, then I'll let you stop. Who else can edit it?
+[00:22:08] Reuben Castellanos: Nobody. Me. Noor can look at it. Ingrid can look at it.
+[00:22:13] Consultant: What happens when you're out?
+[00:22:17] Reuben Castellanos: When I'm out, Noor texts me and I do it from my phone. Or it waits. I was out three days in September with my back and it waited.
+[00:22:29] Noor Abdelrazek: It did not wait. I texted him eleven times.
+[00:22:34] Reuben Castellanos: It mostly waited.
+[00:22:37] Consultant: So the Sheet is you. If you're not there, nothing moves on it.
+[00:22:43] Reuben Castellanos: That's fair. That's the Sheet. The Sheet works. The Sheet's not the problem, the people not looking at the Sheet is the problem.
+[00:22:53] Ingrid Sallinen: The Sheet is you, is the problem. Which we'll get to.
+[00:22:58] Reuben Castellanos: We'll get to it.
+[00:23:01] Consultant: Reuben, thank you. That was exactly what I wanted, and I'm going to -- I'm going to ask you to stop there so I don't start asking you to open things. Noor, do you want to take over the screen? I want to see the thing Reuben hasn't looked at.
+[00:23:20] Reuben Castellanos: [laughs] I'll look now.
+[00:23:24] *** Reuben Castellanos stopped screen sharing ***
+[00:23:27] *** Noor Abdelrazek started screen sharing ***
+[00:23:30] Noor Abdelrazek: Okay. Can you see it? It's -- yeah. Okay. So this is Install Scheduler v2. There was a v1 and I deleted it, don't ask. I built this three weeks ago, mostly on a Sunday.
+[00:23:45] Consultant: Before you explain it -- and I do want you to explain it -- I'm going to ask you a lot of questions about it, and none of them are me being unkind about it. I want to know what it does and where it breaks. Is that all right?
+[00:24:05] Noor Abdelrazek: Please. Nobody's asked me anything about it.
+[00:24:09] Noor Abdelrazek: So. The groups are weeks. Week of October nineteenth, week of the twenty-sixth, and so on. I made eight of them. Each row is an install. This column's the crew, that's a people column, I put Tobias and the guys in as users, they don't know that yet. That one's the job, and that's connected to Active Jobs, it's a connect column, that's the one thing that actually worked. Then install date. Then a permit status I typed in. And then this is a timeline that I could not make do what I wanted.
+[00:24:47] Consultant: Where does the job number come from when you add a row here?
+[00:24:53] Noor Abdelrazek: I type it. Well, I pick it. From the connect column. So it has to be on Active Jobs first, which it isn't always, because Reuben --
+[00:25:05] Reuben Castellanos: Monthly.
+[00:25:07] Noor Abdelrazek: Monthly.
+[00:25:09] Consultant: What happens if the same crew is on two rows the same morning?
+[00:25:16] Noor Abdelrazek: Nothing. That's the problem. I couldn't get it to stop me from putting two crews on the same morning. Or one crew on two mornings, I mean. It just lets you.
+[00:25:29] Consultant: Did you try the workload view?
+[00:25:32] Noor Abdelrazek: I tried the workload thing and it just showed everyone as green. I think because I didn't tell it what a day was. I don't know.
+[00:25:44] Consultant: The permit status here -- is it typed, or is it reading from somewhere?
+[00:25:50] Noor Abdelrazek: Typed. It doesn't know about permits at all, really. I type what's in my binder. So now it's in three places. The binder, the Sheet, and this.
+[00:26:02] Consultant: If Reuben changes the date on the Sheet, what happens here?
+[00:26:07] Noor Abdelrazek: Nothing. That's -- yeah. Nothing.
+[00:26:10] Consultant: What's the crew column reading -- people, or text?
+[00:26:15] Noor Abdelrazek: People. Real users. I added them. Ingrid, you might get a bill for that.
+[00:26:22] Ingrid Sallinen: I already did. It's fine.
+[00:26:25] Consultant: Who else has opened this board?
+[00:26:28] Noor Abdelrazek: Ingrid, once. Reuben, apparently never. Nobody else.
+[00:26:32] Consultant: What broke the timeline?
+[00:26:35] Noor Abdelrazek: I wanted it to show the crew's week as a bar and it showed each install as a dot, and I couldn't make the dots be bars. I spent a Sunday on it. A whole Sunday.
+[00:26:49] Consultant: Have you opened it on a phone?
+[00:26:52] Noor Abdelrazek: Mine, yes. It's fine on mine. Tobias doesn't have -- well, apparently Tobias does have a seat. I didn't know that. I put him in as a user and it let me, so I guess that's why.
+[00:27:08] Consultant: Who's the admin on the account, if you know?
+[00:27:13] Ingrid Sallinen: Me. And Lorraine, still, probably. We never took her off. I should do that.
+[00:27:19] Consultant: I'd put that on a list rather than do it today. Noor, if someone wanted to change this board, who'd they ask?
+[00:27:29] Noor Abdelrazek: Me. It's mine. Nobody else has touched it. I'd rather someone did, honestly.
+[00:27:35] Consultant: What happens on this board when a permit gets denied? Not delayed. Denied.
+[00:27:41] Noor Abdelrazek: Nothing. There's no denied. There's approved, pending and -- I think I have a blank. It's never happened on here because nothing's happened on here.
+[00:27:52] Consultant: And a job that's two installs? A pylon and a set of channel letters on different days.
+[00:28:00] Noor Abdelrazek: Two rows. Same job in the connect column twice. Which I don't love, but that's what I did.
+[00:28:08] Consultant: What would you not want to lose from this, if it got rebuilt?
+[00:28:14] Noor Abdelrazek: The weeks. The weeks as groups is right. That's how Reuben thinks. And the connect column. The rest I don't care about.
+[00:28:24] Consultant: Last one, and it's a fair one to decline. If I asked you how far along this is, what would you say?
+[00:28:34] Noor Abdelrazek: It's maybe sixty percent of what we need. Don't quote me. It's the part I could do. The part I couldn't do is the part that matters, which is stopping the double-booking and knowing about the permits.
+[00:28:49] Consultant: I'm not going to put a number on how far along it is until I've had a proper look at it, but I'll say this much. The shape is right, and you've named the two things it doesn't do, which is more than most people can.
+[00:29:09] Noor Abdelrazek: Thank you.
+[00:29:11] Reuben Castellanos: Can I say something? If it does what the Sheet does, I'll use it. I'm not precious about the Sheet. I'm precious about it being right on Monday morning.
+[00:29:24] Noor Abdelrazek: I know.
+[00:29:26] Consultant: Noor, was there anything you built and took out?
+[00:29:31] Noor Abdelrazek: I was going to do a separate Permits board. One row per permit, by city. I had it half made.
+[00:29:40] Reuben Castellanos: No. Permits live on the job. I'm not looking in two places.
+[00:29:45] Noor Abdelrazek: Yeah, so I dropped it. That's why the permit column's typed.
+[00:29:51] Consultant: Okay. And one more thing I can see and can't name. That widget on the right, the little count.
+[00:29:59] Noor Abdelrazek: Oh, that's just a number. It counts rows. I was trying to make it count installs per crew and it counts rows.
+[00:30:09] Consultant: Noted as counts rows. Thank you, Noor. You can stop sharing.
+[00:30:15] Noor Abdelrazek: Okay. Stopping. Sorry, where's the -- got it.
+[00:30:19] *** Noor Abdelrazek stopped screen sharing ***
+[00:30:22] Consultant: Okay. Screens off. Thank you both. Ingrid, I want to go back to something you said at the start, right at the start. Why now? You've run on the Sheet for years and it works, Reuben says so. What changed?
+[00:30:37] Ingrid Sallinen: Copperline. We signed Copperline Foods in September. Forty-one stores, full rebrand, exterior and interior, first store goes in the week of January eleventh and the last one has to be done by the end of March.
+[00:30:52] Reuben Castellanos: Their guy said forty-one, might be forty-four by the time they're done, he wasn't sure.
+[00:30:59] Ingrid Sallinen: Call it forty-one. We've never done more than nine installs in a week. This is going to be fifteen, some weeks, on top of everything else. The Sheet doesn't survive that. Reuben doesn't survive that.
+[00:31:14] Reuben Castellanos: I'd survive it.
+[00:31:17] Ingrid Sallinen: You'd survive it and you'd hate everyone. And the other thing, which isn't public yet, so -- Reuben's going to three days a week from April. And the Sheet goes with him. That's not a criticism. It's just true.
+[00:31:33] Reuben Castellanos: It's true. My back's true.
+[00:31:36] Consultant: Thank you for saying it plainly. I'll keep the April part out of anything that leaves this room until you say otherwise.
+[00:31:46] Ingrid Sallinen: Please.
+[00:31:48] Consultant: Tell me about Copperline in shop terms. What's a store?
+[00:31:53] Reuben Castellanos: A store's a pylon out front, two, three sets of channel letters, a monument if they've got a lot, and then interior, which is a whole other crew. Some of the stores are two days. The big ones are four. And they want -- their guy wants the exterior done before the interior, so it's two visits.
+[00:32:15] Noor Abdelrazek: And two permits, usually. Exterior's a sign permit, interior's usually nothing, but some cities want an electrical.
+[00:32:23] Reuben Castellanos: And they're all over. Half of them are down by Fort Wayne, so Dale's crews take those, and I've got no idea what Dale's doing on any given day.
+[00:32:35] Ingrid Sallinen: Fort Wayne's not in this. I want to be clear about that. Get it working here, then we'll talk about Dale. If I try to do both, I'll do neither.
+[00:32:48] Consultant: Here first. I've got that.
+[00:32:51] Noor Abdelrazek: Can I add something? What Reuben didn't get to say earlier, when you jumped in -- sorry -- is the permits expire. Ashgrove's ninety days, Marlow's a hundred and eighty, and if the install slips past that we pay the fee again and we file again.
+[00:33:10] Consultant: You're right, I did jump in. I shouldn't have. Say the rest of it.
+[00:33:17] Reuben Castellanos: That's it, that's the thing. It's not that I don't know if it's approved. It's that it's approved and then it isn't. And nothing tells me. The Sheet doesn't know when it was approved, it just knows it's green.
+[00:33:33] Noor Abdelrazek: The binder knows. I write the date on the tab.
+[00:33:38] Consultant: So a permit has a city, a date it was approved, and a number of days it lasts, and what you need is to know when green is about to stop being green.
+[00:33:52] Reuben Castellanos: Yes. That.
+[00:33:55] Consultant: I'll write that down as a requirement rather than as a fix. And I'll stop offering fixes.
+[00:34:03] Ingrid Sallinen: Write that down too.
+[00:34:05] Consultant: Ingrid, can I put some numbers on the wasted trips? Reuben said three guys and a truck for half a day, twice a month. What does a crew cost you an hour?
+[00:34:19] Ingrid Sallinen: We cost a crew at about a hundred and ninety an hour. That's the three of them and the truck.
+[00:34:28] Consultant: And half a day is?
+[00:34:31] Reuben Castellanos: Four hours. Seven to eleven. Sometimes they're back by ten.
+[00:34:36] Ingrid Sallinen: So, four hours, twice, that's... fifteen hundred and change a month. Call it eighteen thousand a year. Eighteen, eighteen and a half. That's just the trips. That's not the sign sitting on the rack.
+[00:34:50] Reuben Castellanos: We've got, I want to say, thirty, forty thousand dollars of finished signs on the rack right now waiting on a permit or waiting on somebody to call the customer.
+[00:35:03] Consultant: That's material tied up rather than a cost, so I'll keep it separate from the eighteen.
+[00:35:11] Ingrid Sallinen: Keep it separate. Harlan will ask about it though.
+[00:35:15] Consultant: Noor, how much of your week is chasing? Permits, proofs, customers, the sent folder.
+[00:35:22] Noor Abdelrazek: Thursday. All of Thursday, and bits of the other days. Six hours? Seven.
+[00:35:28] Consultant: Ingrid, do you want to put a rate on that, or --
+[00:35:34] Ingrid Sallinen: I'm not going to say Noor's rate with Noor on the call. [laughs] We can do that offline. It's real though. Call it six hours a week of a person who should be doing something else.
+[00:35:50] Consultant: Understood. Six hours a week, rate to come. And Reuben's hour a day on the Sheet, same question, later.
+[00:35:58] Ingrid Sallinen: Same answer. Later.
+[00:36:01] Consultant: Does eighteen thousand a year in trips sound right to you, or does it sound light?
+[00:36:09] Ingrid Sallinen: It sounds light. It's the number I can defend, though. Put eighteen.
+[00:36:14] Reuben Castellanos: It's light. It doesn't count the guys standing around when a sign comes back.
+[00:36:21] Consultant: Eighteen, then, and I'll say it's light. If those hours and those trips came back to you, what would you do with them?
+[00:36:31] Ingrid Sallinen: What we do with the freed-up capacity is a Harlan question. He's the one deciding whether we take the second chain. I can't give you that number and I'm not going to guess at it.
+[00:36:46] Consultant: Fair. Then it's a question for Harlan and not for this room.
+[00:36:52] Ingrid Sallinen: It's a Harlan question.
+[00:36:54] Consultant: Let me ask each of you the same thing. If this worked, what's different on a Monday morning?
+[00:37:03] Reuben Castellanos: I want a crew to see a change on their phone before they leave the yard. That's it. If Tobias sees it on his phone at six-forty and doesn't drive to Ashgrove, I'm happy.
+[00:37:17] Noor Abdelrazek: I want to stop being the person who knows where every permit is. I want it to be in the thing and the thing to tell Reuben.
+[00:37:29] Ingrid Sallinen: I want to open one thing on Monday and know what's going out this week and what's stuck and why. And I want to stop getting the six a.m. call because a crew's standing in a parking lot.
+[00:37:45] Consultant: And Harlan? What would he say good looks like?
+[00:37:50] Ingrid Sallinen: Harlan hasn't said what good looks like. Fewer wasted trips, I assume. Copperline done on time. I'd ask him before we write anything down.
+[00:38:00] Consultant: Then I won't write it down. How does a decision like this get made, in practice?
+[00:38:08] Ingrid Sallinen: I pick the tool. Anything over ten thousand a year goes to Harlan, and this will, with the seats. He decides in the Monday managers' meeting, he doesn't do it by email. He'll want to see it work on Reuben's stuff, not a demo of somebody else's jobs. And Bettina has to be okay with the job numbers still matching the accounting system, because if they don't, she'll shut it down.
+[00:38:36] Consultant: What does Harlan care about most?
+[00:38:40] Ingrid Sallinen: Copperline. And not paying for things twice. He asked me last month what we're paying for twelve seats when four people log in, so that's coming.
+[00:38:51] Consultant: When would you want his yes?
+[00:38:55] Ingrid Sallinen: Before Thanksgiving. Realistically nothing changes on the floor in December, so if it's not moving by Thanksgiving it's not moving till January, and January's too late.
+[00:39:06] Consultant: So the real date is the first Copperline store.
+[00:39:11] Ingrid Sallinen: The first store. Week of the eleventh. Everything else is a preference.
+[00:39:16] Reuben Castellanos: And the crews have to have it before Christmas or they won't touch it in January. They'll be too busy.
+[00:39:25] Consultant: One practical thing while I think of it. If the crews see the schedule on a phone, what should they not see?
+[00:39:35] Ingrid Sallinen: The quote amounts. Anything with a dollar sign. They don't need to know what the job's worth, and, honestly, some of them would tell the customer.
+[00:39:46] Reuben Castellanos: They see the job, the address, the date, what's going on the truck, and who they're meeting. That's it. That's what's on the wall now.
+[00:39:57] Noor Abdelrazek: And not the notes. Some of the notes are, um. Frank.
+[00:40:02] Reuben Castellanos: Some of the notes are frank.
+[00:40:06] Consultant: Job, address, date, what's on the truck, who they're meeting. No money, no notes. I've got it.
+[00:40:14] Consultant: What gets in the way? Honestly.
+[00:40:17] Reuben Castellanos: The crews. Half of them have the app and none of them open it. Tobias will. The others, I don't know.
+[00:40:26] Ingrid Sallinen: Reuben's trust, honestly. If it's slower than the Sheet he'll go back to the Sheet and I won't stop him.
+[00:40:35] Reuben Castellanos: I said I'd use it.
+[00:40:38] Ingrid Sallinen: You did. And Bettina uses the job list from that board for something, I don't know what, so we can't just delete Active Jobs.
+[00:40:49] Noor Abdelrazek: And December. Nobody's going to learn anything in December.
+[00:40:53] Consultant: Okay. Three things then. The crews and their phones, whether it's faster than the Sheet, and December. And Bettina and the job numbers, which is four.
+[00:41:05] Ingrid Sallinen: Four.
+[00:41:07] Ingrid Sallinen: Reuben, can I ask you something in front of a witness? If the thing works, when does the Sheet go away?
+[00:41:16] Reuben Castellanos: When I say so.
+[00:41:19] Ingrid Sallinen: That's not an answer.
+[00:41:22] Reuben Castellanos: It's the answer. When it's been right for a month. Four Mondays. If it's right four Mondays running, I'll close the Sheet.
+[00:41:31] Ingrid Sallinen: Four Mondays. I'll take that.
+[00:41:34] Consultant: Four Mondays is a better success measure than most people give me. Can I write that one down?
+[00:41:42] Reuben Castellanos: Write it down. Four Mondays.
+[00:41:46] Consultant: Let me play back what I think a first version looks like, so you can tell me where it's wrong. Not to sign anything. One jobs board, either Active Jobs or -- either Active Jobs or its successor, we decide which with Bettina, carrying the permit on the job with the city, the approval date and the days it lasts, so green tells you when it stops being green. Two, the install week, so, by crew and by day, with a view the crews can open on a phone, starting from Noor's board because the weeks and the connect column are right. Three, the proof on the job, which revision was approved and the email that says so. The Sheet stays until Reuben says it doesn't. Not in the first version: Fort Wayne, the quoting side, anything about invoicing.
+[00:42:39] Reuben Castellanos: If it does what the Sheet does, I'll use it. Put that in.
+[00:42:45] Noor Abdelrazek: Yes. That's the shape.
+[00:42:48] Ingrid Sallinen: That's the shape. Harlan needs to see it before anyone signs anything, so don't take that as a yes from me.
+[00:42:57] Consultant: I won't. One thing I'd still test with you: the municipality side. Permits might still want to be their own board, one row per permit, so Noor can see everything with Marlow on it in one place.
+[00:43:13] Reuben Castellanos: Same answer. On the job. Noor can filter.
+[00:43:17] Noor Abdelrazek: I can filter. I'll live.
+[00:43:20] Consultant: On the job, then. I'll stop proposing it.
+[00:43:24] Consultant: Let me read back what I think I saw, and tell me where I'm wrong. On Reuben's side: the Sheet, with the Active tab, one row per job, job number, customer, sign type, proof yes or no, permit as red, yellow, green, install date, crew initials, notes. And the Install Week tab, days across, crews down. The Active Jobs board with four groups, Quoted, In Production, Install Scheduled, Done, a status with seven labels, Proofing, Permit, Fab, Ready, Scheduled, Installed, Invoiced, and Hold, a date, and a person column nobody fills in. The printed run sheet on the wall on Fridays. The traveller with the proof stapled on. Noor's binder by city. And Noor's board, weeks as groups, a crew people column, a connect column to Active Jobs, a typed permit status, and a timeline that didn't do what she wanted.
+[00:44:21] Reuben Castellanos: Hold's not on the board. Hold's on the Sheet. I put "hold" in the notes.
+[00:44:28] Consultant: Hold's on the Sheet, not the board. Got it.
+[00:44:32] Ingrid Sallinen: That's it, yeah.
+[00:44:35] Noor Abdelrazek: And the connect column, yeah. That's right. And the count widget, but that's nothing.
+[00:44:42] Consultant: There were three things I couldn't name: the tab you scrolled past, the thing at the top of the board, and the column you pointed at when they were side by side. I'll list those as unconfirmed rather than guess.
+[00:44:58] Reuben Castellanos: The tab's old. The other two I'd have to look.
+[00:45:03] Consultant: Then they stay unconfirmed until you look. Okay. Um, so, next thing. What I'd like next is a working session, Reuben and Noor, no slides from me, where we walk the Sheet column by column and Noor's board row by row, before the shop starts so nobody's phone rings. An hour. When works?
+[00:45:23] Reuben Castellanos: Tuesday the twentieth, seven-thirty, before the shop starts. I'm here anyway.
+[00:45:29] Noor Abdelrazek: I can do seven-thirty.
+[00:45:31] Ingrid Sallinen: Do it without me. I'll take the read-back.
+[00:45:36] Consultant: Tuesday the twentieth at seven-thirty Eastern, an hour, and I'll send the invite to the three of you today.
+[00:45:44] Ingrid Sallinen: Send me the read-back in writing too, the list you just did. I want to forward it to Harlan before the managers' meeting.
+[00:45:54] Consultant: I'll send it by end of day tomorrow with the next step in it and the three unconfirmed things marked as unconfirmed.
+[00:46:04] Ingrid Sallinen: And I'll get Bettina to pull the rework number. And ask her about the Copperline job numbers.
+[00:46:12] Noor Abdelrazek: I'll bring the binder on the twentieth. The actual binder.
+[00:46:17] Reuben Castellanos: I'll have the Sheet up. I always have the Sheet up.
+[00:46:22] Consultant: Last question, and it's a real one. Is this worth taking forward?
+[00:46:28] Ingrid Sallinen: Yes. Or I wouldn't have made Reuben share his screen.
+[00:46:33] Reuben Castellanos: [laughs] Yes. Ask me again after the twentieth.
+[00:46:38] Noor Abdelrazek: Yes. Obviously yes.
+[00:46:41] Consultant: Then I'll see you Tuesday morning. Thank you all. Reuben, thank you for the Sheet.
+[00:46:48] Reuben Castellanos: It's a good sheet.
+[00:46:50] Ingrid Sallinen: It's a good sheet. Bye.
+[00:46:54] Noor Abdelrazek: Bye. Thanks.

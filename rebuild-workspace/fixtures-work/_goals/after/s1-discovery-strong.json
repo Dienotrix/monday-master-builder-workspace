@@ -1,0 +1,1681 @@
+{
+  "fixture": "s1-discovery-strong",
+  "sources": [
+    {
+      "name": "transcript.txt",
+      "kind": "transcript",
+      "format": "line-bracket",
+      "units": 242,
+      "unsupported": null
+    }
+  ],
+  "counts": {
+    "pairs": 222,
+    "verified": 222,
+    "verified_presence_only": 25,
+    "skipped": 0,
+    "unparsed_prose": 0,
+    "near_misses": 0,
+    "misses": 0,
+    "unsupported": 0,
+    "warnings": 0
+  },
+  "refused_quotes_not_checked": [],
+  "skipped": [],
+  "pairs": [
+    {
+      "path": "/rubric[0]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Either way it should get to Hallie, and she puts it in the pursuit log. Which is an Excel file on SharePoint.",
+      "location": "00:08:56 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L43, 00:08:56, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[0]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "If it's a go, we assign a PIC and a PM, and the PM builds the fee in the fee builder, which is another spreadsheet, hours by phase and by discipline, times rates.",
+      "location": "00:09:25 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L45, 00:09:25, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[0]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And if we win, Bev, our controller, sets it up in Ajera as a job and it gets a job number.",
+      "location": "00:09:25 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L45, 00:09:25, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[0]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Everybody enters their time in Ajera every week, against the job and the phase.",
+      "location": "00:12:53 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L62, 00:12:53, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[0]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Now it's an Excel file with a tab per office, every person down the side, weeks across the top, and percentages. And every week I rebuild it.",
+      "location": "00:13:13 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L64, 00:13:13, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[0]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "That's most of Monday and half of Tuesday morning.",
+      "location": "00:13:39 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L66, 00:13:39, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[0]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "Bev runs the WIP report monthly, work in progress, after billing closes, so that's usually around the tenth or twelfth of the following month.",
+      "location": "00:18:32 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L90, 00:18:32, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[0]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "Then the PM logs it in the submittal log, which, you guessed it, is an Excel file in the job folder on SharePoint.",
+      "location": "00:22:19 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L106, 00:22:19, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[0]/evidence[8]/quote",
+      "status": "verified",
+      "quote": "Everything's an export and a copy-paste. Ajera exports to Excel, Excel goes to the Wall, the pursuit log is standalone.",
+      "location": "00:32:10 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L168, 00:32:10, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[0]/evidence[9]/quote",
+      "status": "verified",
+      "quote": "So Anneke, in interiors, set up a free monday board last year to track furniture selections, FF and E, on a couple of jobs.",
+      "location": "00:31:20 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L163, 00:31:20, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[0]/evidence[10]/quote",
+      "status": "verified",
+      "quote": "Nobody else ever touched it.",
+      "location": "00:31:20 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L163, 00:31:20, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[1]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We lost it because we missed the deadline.",
+      "location": "00:04:43 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L25, 00:04:43, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[1]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Gordon signs off on his phone from a parking lot. And we upload at two-oh-four. The portal closed at two.",
+      "location": "00:07:23 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L35, 00:07:23, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[1]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And nobody knew until Wednesday, when Ravi messaged me, basically going, \"I can't do this.\"",
+      "location": "00:14:56 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L72, 00:14:56, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[1]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "By the time we saw it, we'd spent about thirty-eight thousand over the phase fee.",
+      "location": "00:19:16 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L92, 00:19:16, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[2]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The first one is Des Moines. We are about to open a fourth office, and everything we run on is spreadsheets and Jordan's memory.",
+      "location": "00:04:43 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L25, 00:04:43, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[2]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And the second thing is we lost a pursuit in July that we should not have lost.",
+      "location": "00:04:43 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L25, 00:04:43, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[2]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "The contractor says we can move in November second.",
+      "location": "00:01:22 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L11, 00:01:22, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[2]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Which, now that I say it out loud, is also when the partners lock the systems budget for the new fiscal year.",
+      "location": "00:35:58 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L187, 00:35:58, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[3]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Um. I'd say three hours a week each.",
+      "location": "00:24:18 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L116, 00:24:18, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[3]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Three's fair. Maybe conservative.",
+      "location": "00:24:28 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L117, 00:24:28, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[3]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Twenty-two. Twenty-three if you count Ravi -- no, not Ravi. Anneke, who's half PM, half designer. Call it twenty-two.",
+      "location": "00:24:36 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L119, 00:24:36, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[3]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Yeah, we use one-oh-five internally for a PM, loaded.",
+      "location": "00:24:54 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L121, 00:24:54, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[3]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "So twenty-two times three is sixty-six hours a week. Sixty-six times one-oh-five is... six thousand nine hundred thirty. A week. Times fifty-two is... three hundred sixty thousand, three hundred sixty.",
+      "location": "00:25:11 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L123, 00:25:11, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[3]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "So I'm, call it twelve hours a week on the Wall. And the call is twelve people for an hour, so twelve hours.",
+      "location": "00:25:42 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L126, 00:25:42, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[3]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "Blended for that group, I'd use ninety an hour loaded.",
+      "location": "00:25:56 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L127, 00:25:56, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[3]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "So twenty-four times ninety is two thousand one hundred sixty a week, times fifty-two is... a hundred and twelve thousand.",
+      "location": "00:26:08 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L129, 00:26:08, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[3]/evidence[8]/quote",
+      "status": "verified",
+      "quote": "I'd say ten hours a week?",
+      "location": "00:10:26 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L49, 00:10:26, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[3]/evidence[9]/quote",
+      "status": "verified",
+      "quote": "Hallie's loaded rate is, what, sixty-two?",
+      "location": "00:26:24 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L131, 00:26:24, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[3]/evidence[10]/quote",
+      "status": "verified",
+      "quote": "So six-twenty a week, times fifty-two, thirty-two thousand two hundred forty.",
+      "location": "00:26:31 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L133, 00:26:31, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[3]/evidence[11]/quote",
+      "status": "verified",
+      "quote": "So three-sixty, plus one-twelve, plus thirty-two. That's five hundred and four thousand. A year.",
+      "location": "00:26:37 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L134, 00:26:37, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[3]/evidence[12]/quote",
+      "status": "verified",
+      "quote": "No, it feels... honestly, it feels light.",
+      "location": "00:26:51 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L136, 00:26:51, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[3]/evidence[13]/quote",
+      "status": "verified",
+      "quote": "Yeah, if anything it's more. I was being nice with the three hours.",
+      "location": "00:27:12 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L137, 00:27:12, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[4]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Most of our PMs are also doing real project work, so yeah, it would mostly go to billable time. Not all of it. Let's say half.",
+      "location": "00:27:49 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L142, 00:27:49, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[4]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The bill rate's higher, about one-sixty-five on average.",
+      "location": "00:24:54 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L121, 00:24:54, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[4]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Five thousand four hundred forty-five a week. Times fifty-two, two hundred eighty-three thousand, roughly.",
+      "location": "00:28:12 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L145, 00:28:12, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[4]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Two-eighty-ish. In billable time. Okay.",
+      "location": "00:28:19 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L146, 00:28:19, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[4]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "We no-go, I'd say, two, sometimes three healthcare pursuits a quarter, because we just can't staff the proposal on top of everything else, never mind the job.",
+      "location": "00:28:29 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L148, 00:28:29, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[4]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "And those fees run four to six hundred thousand.",
+      "location": "00:28:29 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L148, 00:28:29, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[4]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "Our hit rate on healthcare, when we actually chase it, is maybe one in four?",
+      "location": "00:28:51 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L150, 00:28:51, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[4]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "So if we chased those, two more wins a year feels realistic. That's eight hundred thousand to one point two million in fee.",
+      "location": "00:28:51 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L150, 00:28:51, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[5]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Monday morning, I open one screen and I can see every pursuit that's due in the next two weeks, who owns it, whether an addendum came in, and whether the fee's signed off.",
+      "location": "00:29:39 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L154, 00:29:39, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[5]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And I can see which jobs are burning faster than they should, while there's still time to do something about it.",
+      "location": "00:29:39 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L154, 00:29:39, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[5]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "For me, I'm not rebuilding the Wall. The PMs update their own people, or it comes from what they've already planned.",
+      "location": "00:30:03 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L155, 00:30:03, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[5]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "And the Tuesday call is a fifteen-minute exceptions call. Who's over, who's light, done.",
+      "location": "00:30:03 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L155, 00:30:03, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[5]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "No more missed submissions, and write-offs coming down.",
+      "location": "00:30:23 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L157, 00:30:23, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[5]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "And I'd add, Des Moines opening on the same system as everyone else, not its own set of spreadsheets.",
+      "location": "00:30:23 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L157, 00:30:23, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[5]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "He didn't give a number. I'd guess he'd be happy with half, but I'd want to ask him before we write that down anywhere.",
+      "location": "00:30:50 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L159, 00:30:50, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[6]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So I own the operations systems budget. But anything over twenty-five thousand, Gordon signs.",
+      "location": "00:34:45 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L180, 00:34:45, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[6]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And honestly, for something like this, even if it came in under that, I'd want Gordon on board, because if the partners aren't using it, the PMs won't either.",
+      "location": "00:34:45 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L180, 00:34:45, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[6]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Two things. Are we winning work, and are we writing it off.",
+      "location": "00:35:10 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L182, 00:35:10, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[6]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Anything that touches Ajera, she has to be comfortable with. She doesn't sign off, exactly, but she can kill it.",
+      "location": "00:35:30 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L185, 00:35:30, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[6]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Marcus on the IT side, but that's more of a checklist.",
+      "location": "00:35:30 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L185, 00:35:30, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[6]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "And formally, it goes on the agenda for the partner meeting. That's the first Thursday of the month.",
+      "location": "00:35:30 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L185, 00:35:30, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[6]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "Bev cuts a PO, or if it's a subscription we just put it on the card, and then it's on me and Jordan to roll it out.",
+      "location": "00:36:37 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L191, 00:36:37, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[6]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "I did a one-pager, the cost and what it would save, and he signed it in about a week. If the numbers are clear, he's quick.",
+      "location": "00:36:56 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L193, 00:36:56, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[6]/evidence[8]/quote",
+      "status": "verified",
+      "quote": "The pursuit side. That we would not miss another Larkspur. And that the PMs will actually use it.",
+      "location": "00:37:18 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L195, 00:37:18, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[6]/evidence[9]/quote",
+      "status": "verified",
+      "quote": "Yes. That's a good idea, actually. He'd much rather see something than read about it. I'll ask him.",
+      "location": "00:37:37 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L197, 00:37:37, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[7]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "This quarter. At the very least, the pursuits side has to be in place before Des Moines starts chasing work, and they open November second.",
+      "location": "00:37:53 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L199, 00:37:53, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[7]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Ideally the whole thing's live before Des Moines opens. But, I mean, I don't want to hold anyone to that. Let's see what it looks like first.",
+      "location": "00:38:09 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L201, 00:38:09, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[8]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Honestly? The PMs. We tried a project management tool, I want to say four years ago, and it was dead in about two months.",
+      "location": "00:38:27 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L203, 00:38:27, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[8]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Double entry. You had to put your stuff in there and still do everything else you were already doing.",
+      "location": "00:38:54 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L205, 00:38:54, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[8]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And nobody asked the PMs what they wanted before we bought it.",
+      "location": "00:38:54 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L205, 00:38:54, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[8]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "We've got four CD sets going out in October. Nobody's going to want training in October.",
+      "location": "00:39:12 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L207, 00:39:12, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[8]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "And if Bev decides this is going to mess with Ajera, that's a hard stop. So, those three.",
+      "location": "00:39:21 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L208, 00:39:21, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[9]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Ten a.m. Central on the twenty-fourth, then.",
+      "location": "00:42:19 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L223, 00:42:19, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[9]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Let's book forty-five and aim to be done in thirty. I'll send the invite to you both today.",
+      "location": "00:42:39 Consultant",
+      "cited": "transcript.txt, L226, 00:42:39, Consultant"
+    },
+    {
+      "path": "/rubric[9]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I'll forward it to him today and let you know by Friday the eighteenth if he's in.",
+      "location": "00:42:50 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L227, 00:42:50, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[11]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Let me play back what I'd put in a first version, just to show you, not to sign anything.",
+      "location": "00:40:02 Consultant",
+      "cited": "transcript.txt, L212, 00:40:02, Consultant"
+    },
+    {
+      "path": "/rubric[11]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Yes. That's the right first cut. Although Jordan's going to argue for submittals.",
+      "location": "00:40:39 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L213, 00:40:39, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[11]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Put a basic submittal log in, then. But don't spend a lot of time on it. I care more about the pursuits.",
+      "location": "00:40:54 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L215, 00:40:54, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[11]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "That's fine. As long as Bev hears it from us early, and not from someone else.",
+      "location": "00:41:21 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L217, 00:41:21, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[11]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "What we actually sign up for, I'd want to settle with him in the room.",
+      "location": "00:41:38 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L219, 00:41:38, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[12]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "There's no one place where a pursuit lives, with the due date and who's on it and what's changed.",
+      "location": "00:08:23 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L41, 00:08:23, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[12]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And the fee sign-off is basically, you email Gordon a PDF and you hope.",
+      "location": "00:08:23 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L41, 00:08:23, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[13]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It went to whoever was registered on the bid portal, which was Luis, the PM we had lined up, and Luis was on vacation up in Door County with no cell signal.",
+      "location": "00:06:18 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L31, 00:06:18, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[13]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And the hours sheet that fed the fee still had last year's rates in it.",
+      "location": "00:06:43 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L33, 00:06:43, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[13]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Gordon signs off on his phone from a parking lot. And we upload at two-oh-four. The portal closed at two.",
+      "location": "00:07:23 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L35, 00:07:23, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[14]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Hallie's spreadsheet is a list, it doesn't know about addenda.",
+      "location": "00:08:23 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L41, 00:08:23, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[14]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "She told me she spends basically every Thursday afternoon emailing PMs going, \"Is this still a go? Did you look at the fee?\"",
+      "location": "00:10:35 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L50, 00:10:35, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[14]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Mostly it works. That's the dangerous part. It works right up until it doesn't, and when it doesn't, it costs us a million four.",
+      "location": "00:10:55 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L52, 00:10:55, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[14]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "So now it's another inbox and another copy of the spreadsheet.",
+      "location": "00:10:55 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L52, 00:10:55, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[15]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The PICs, because it's their relationship. Gordon, obviously. The PM who's writing the fee at midnight.",
+      "location": "00:12:07 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L58, 00:12:07, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[15]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "That middle school would have been two years of work for maybe eight people.",
+      "location": "00:12:07 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L58, 00:12:07, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[16]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Oh, a lot. I'd say ten hours a week? And that's just the chasing, not the writing.",
+      "location": "00:10:26 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L49, 00:10:26, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[16]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Hallie's loaded rate is, what, sixty-two?",
+      "location": "00:26:24 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L131, 00:26:24, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[16]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Four minutes. A million four in fee.",
+      "location": "00:07:38 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L37, 00:07:38, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[17]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "More pursuits, same process, more places for it to break. We're planning to go from, I think we said six or seven fee proposals a month to ten, once Des Moines is up and running. It doesn't scale.",
+      "location": "00:11:38 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L56, 00:11:38, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[17]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And the next Larkspur is, honestly, it's a when, not an if.",
+      "location": "00:11:38 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L56, 00:11:38, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[18]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So the PMs are supposed to update their people's allocations, and they don't. Or they do it in their own copy. Or they tell me in Teams.",
+      "location": "00:13:39 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L66, 00:13:39, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[18]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It's supposed to be forty-five minutes. It's an hour. Every time. And it's mostly me reading percentages out loud and people going, \"No, she's not on that anymore.\"",
+      "location": "00:14:31 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L70, 00:14:31, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[19]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "He was on the Wall at a hundred percent on the Oak Street fire station CDs. But two other PMs had also, separately, told him he was on their jobs.",
+      "location": "00:14:56 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L72, 00:14:56, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[19]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And nobody knew until Wednesday, when Ravi messaged me, basically going, \"I can't do this.\"",
+      "location": "00:14:56 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L72, 00:14:56, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[19]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And meanwhile Rockford had two engineers who were, I found out later, pretty light that week.",
+      "location": "00:15:37 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L74, 00:15:37, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[19]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "We pushed the library issue by a week, which the owner was not thrilled about.",
+      "location": "00:15:59 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L76, 00:15:59, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[20]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So Monday I go through the Teams messages, I go through the project schedules, I pull who charged time where out of Ajera, and I basically reconcile it all by hand.",
+      "location": "00:13:39 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L66, 00:13:39, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[20]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Because it lives in my head, honestly. If I get hit by a bus, nobody knows who's on what.",
+      "location": "00:16:38 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L80, 00:16:38, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[20]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I can't just walk over and ask somebody in Des Moines what they're working on.",
+      "location": "00:16:38 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L80, 00:16:38, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[21]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The staff, first. People like Ravi. Then the PMs, because they don't get the people they planned for. The studio leads, who basically spend their lives negotiating. And the owner, if a date slips.",
+      "location": "00:17:39 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L85, 00:17:39, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[21]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "We had two resignations last year, and workload came up in both exit interviews.",
+      "location": "00:17:56 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L86, 00:17:56, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[22]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So I'm, call it twelve hours a week on the Wall. And the call is twelve people for an hour, so twelve hours.",
+      "location": "00:25:42 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L126, 00:25:42, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[22]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Blended for that group, I'd use ninety an hour loaded.",
+      "location": "00:25:56 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L127, 00:25:56, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[23]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And I'm about to add a fourth tab with, eventually, fifteen-ish people on it, in an office I'm not in.",
+      "location": "00:16:38 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L80, 00:16:38, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[23]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And I don't trust those numbers enough to make a hundred-thousand-dollar decision off them.",
+      "location": "00:17:02 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L81, 00:17:02, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[24]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Mostly, we find out when it's too late.",
+      "location": "00:18:22 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L88, 00:18:22, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[24]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And by the time it shows up on the WIP report, DD is at a hundred and forty percent and there's no fixing it.",
+      "location": "00:18:32 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L90, 00:18:32, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[25]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The Rockford clinic, actually, the same one Jordan mentioned. DD burned through its fee and then some.",
+      "location": "00:19:16 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L92, 00:19:16, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[25]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "By the time we saw it, we'd spent about thirty-eight thousand over the phase fee.",
+      "location": "00:19:16 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L92, 00:19:16, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[25]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "So we wrote it off.",
+      "location": "00:19:16 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L92, 00:19:16, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[26]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So if a phase starts running hot at the beginning of a month, the PM might not see it for five, six weeks.",
+      "location": "00:18:32 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L90, 00:18:32, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[26]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Some PMs are great, they export their hours from Ajera into their own burn sheet every week. Half of them don't.",
+      "location": "00:18:32 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L90, 00:18:32, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[26]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Ask Bev, and Bev's busy. Or run the export out of Ajera.",
+      "location": "00:21:05 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L100, 00:21:05, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[26]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "We did! It was a rule. It was a rule for about one quarter. And, I mean, the PMs aren't wrong, it's busywork.",
+      "location": "00:21:33 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L102, 00:21:33, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[27]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "They'd rather be designing, and I'd rather they were billing.",
+      "location": "00:21:33 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L102, 00:21:33, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[27]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And we couldn't go back to the owner for it, because it was our own team going round and round on the layout.",
+      "location": "00:19:16 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L92, 00:19:16, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[28]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Last fiscal year, which ended September thirtieth, so a year ago now, it was about two hundred and ten thousand, firm-wide.",
+      "location": "00:20:18 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L96, 00:20:18, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[28]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Hmm. I honestly wouldn't put a number on that.",
+      "location": "00:20:36 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L98, 00:20:36, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[28]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Twenty minutes if you know what you're doing. An hour if you don't.",
+      "location": "00:21:05 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L100, 00:21:05, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[30]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And the log is only as good as the PM keeping it.",
+      "location": "00:22:46 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L107, 00:22:46, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[30]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Or they don't, and we keep going anyway because the schedule says so, and then six months later somebody on a school board says \"we never approved that.\"",
+      "location": "00:23:33 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L112, 00:23:33, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[31]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "A steel shop drawing on a school addition sat for nineteen days.",
+      "location": "00:22:55 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L109, 00:22:55, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[31]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It had gone to our structural reviewer, he was out sick for a week, and nobody reassigned it.",
+      "location": "00:22:55 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L109, 00:22:55, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[31]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "The GC sent a letter claiming a delay.",
+      "location": "00:22:55 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L109, 00:22:55, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[32]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Then the PM logs it in the submittal log, which, you guessed it, is an Excel file in the job folder on SharePoint.",
+      "location": "00:22:19 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L106, 00:22:19, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[32]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And the log is only as good as the PM keeping it.",
+      "location": "00:22:46 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L107, 00:22:46, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[32]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Email, mostly. End of SD, end of DD, we send the owner the package and a sign-off letter, and they sign it and send it back.",
+      "location": "00:23:33 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L112, 00:23:33, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[32]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "The PMs track it however they track it.",
+      "location": "00:23:33 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L112, 00:23:33, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[33]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It didn't turn into an actual claim, thank God. But it cost us with that contractor. And those contractors talk to school districts.",
+      "location": "00:23:16 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L110, 00:23:16, Tess Kowalczyk"
+    },
+    {
+      "path": "/rubric[33]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The GC sent a letter claiming a delay.",
+      "location": "00:22:55 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L109, 00:22:55, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[33]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "and then six months later somebody on a school board says \"we never approved that.\"",
+      "location": "00:23:33 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L112, 00:23:33, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[34]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "If you're deep in CA, it's way more than three.",
+      "location": "00:24:18 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L116, 00:24:18, Jordan Pruitt"
+    },
+    {
+      "path": "/pains[0]/quote",
+      "status": "verified",
+      "quote": "We lost it because we missed the deadline.",
+      "location": "00:04:43 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L25, 00:04:43, Tess Kowalczyk"
+    },
+    {
+      "path": "/pains[1]/quote",
+      "status": "verified",
+      "quote": "There's no one place where a pursuit lives, with the due date and who's on it and what's changed.",
+      "location": "00:08:23 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L41, 00:08:23, Tess Kowalczyk"
+    },
+    {
+      "path": "/pains[2]/quote",
+      "status": "verified",
+      "quote": "The addendum went to one person.",
+      "location": "00:08:23 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L41, 00:08:23, Tess Kowalczyk"
+    },
+    {
+      "path": "/pains[3]/quote",
+      "status": "verified",
+      "quote": "And the fee sign-off is basically, you email Gordon a PDF and you hope.",
+      "location": "00:08:23 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L41, 00:08:23, Tess Kowalczyk"
+    },
+    {
+      "path": "/pains[4]/quote",
+      "status": "verified",
+      "quote": "And the hours sheet that fed the fee still had last year's rates in it.",
+      "location": "00:06:43 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L33, 00:06:43, Tess Kowalczyk"
+    },
+    {
+      "path": "/pains[5]/quote",
+      "status": "verified",
+      "quote": "She told me she spends basically every Thursday afternoon emailing PMs going, \"Is this still a go? Did you look at the fee?\"",
+      "location": "00:10:35 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L50, 00:10:35, Tess Kowalczyk"
+    },
+    {
+      "path": "/pains[6]/quote",
+      "status": "verified",
+      "quote": "Someone's going to save \"pursuit log DSM final v2\" on their desktop.",
+      "location": "00:10:55 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L52, 00:10:55, Tess Kowalczyk"
+    },
+    {
+      "path": "/pains[7]/quote",
+      "status": "verified",
+      "quote": "Because it lives in my head, honestly. If I get hit by a bus, nobody knows who's on what.",
+      "location": "00:16:38 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L80, 00:16:38, Jordan Pruitt"
+    },
+    {
+      "path": "/pains[8]/quote",
+      "status": "verified",
+      "quote": "And every week I rebuild it.",
+      "location": "00:13:13 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L64, 00:13:13, Jordan Pruitt"
+    },
+    {
+      "path": "/pains[9]/quote",
+      "status": "verified",
+      "quote": "And it's mostly me reading percentages out loud and people going, \"No, she's not on that anymore.\"",
+      "location": "00:14:31 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L70, 00:14:31, Jordan Pruitt"
+    },
+    {
+      "path": "/pains[10]/quote",
+      "status": "verified",
+      "quote": "And I don't trust those numbers enough to make a hundred-thousand-dollar decision off them.",
+      "location": "00:17:02 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L81, 00:17:02, Tess Kowalczyk"
+    },
+    {
+      "path": "/pains[11]/quote",
+      "status": "verified",
+      "quote": "And me, because people come to me when they're burnt out.",
+      "location": "00:17:56 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L86, 00:17:56, Tess Kowalczyk"
+    },
+    {
+      "path": "/pains[12]/quote",
+      "status": "verified",
+      "quote": "Mostly, we find out when it's too late.",
+      "location": "00:18:22 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L88, 00:18:22, Tess Kowalczyk"
+    },
+    {
+      "path": "/pains[13]/quote",
+      "status": "verified",
+      "quote": "And by the time it shows up on the WIP report, DD is at a hundred and forty percent and there's no fixing it.",
+      "location": "00:18:32 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L90, 00:18:32, Tess Kowalczyk"
+    },
+    {
+      "path": "/pains[14]/quote",
+      "status": "verified",
+      "quote": "And, I mean, the PMs aren't wrong, it's busywork.",
+      "location": "00:21:33 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L102, 00:21:33, Tess Kowalczyk"
+    },
+    {
+      "path": "/pains[15]/quote",
+      "status": "verified",
+      "quote": "It had gone to our structural reviewer, he was out sick for a week, and nobody reassigned it.",
+      "location": "00:22:55 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L109, 00:22:55, Jordan Pruitt"
+    },
+    {
+      "path": "/pains[16]/quote",
+      "status": "verified",
+      "quote": "And the log is only as good as the PM keeping it.",
+      "location": "00:22:46 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L107, 00:22:46, Tess Kowalczyk"
+    },
+    {
+      "path": "/pains[17]/quote",
+      "status": "verified",
+      "quote": "and then six months later somebody on a school board says \"we never approved that.\"",
+      "location": "00:23:33 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L112, 00:23:33, Jordan Pruitt"
+    },
+    {
+      "path": "/pains[18]/quote",
+      "status": "verified",
+      "quote": "When we win something, Bev sets the job up in Ajera by reading the fee proposal PDF and typing it in.",
+      "location": "00:32:10 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L168, 00:32:10, Jordan Pruitt"
+    },
+    {
+      "path": "/numbers/bleed/quote",
+      "status": "verified",
+      "quote": "So three-sixty, plus one-twelve, plus thirty-two. That's five hundred and four thousand. A year.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L134, 00:26:37, Tess Kowalczyk"
+      ]
+    },
+    {
+      "path": "/numbers/upside/quote",
+      "status": "verified",
+      "quote": "So if we chased those, two more wins a year feels realistic. That's eight hundred thousand to one point two million in fee.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L150, 00:28:51, Tess Kowalczyk"
+      ]
+    },
+    {
+      "path": "/objections[0]/quote",
+      "status": "verified",
+      "quote": "Honestly? The PMs. We tried a project management tool, I want to say four years ago, and it was dead in about two months.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L203, 00:38:27, Tess Kowalczyk"
+      ]
+    },
+    {
+      "path": "/objections[1]/quote",
+      "status": "verified",
+      "quote": "Double entry. You had to put your stuff in there and still do everything else you were already doing.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L205, 00:38:54, Jordan Pruitt"
+      ]
+    },
+    {
+      "path": "/objections[2]/quote",
+      "status": "verified",
+      "quote": "And nobody asked the PMs what they wanted before we bought it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L205, 00:38:54, Jordan Pruitt"
+      ]
+    },
+    {
+      "path": "/objections[3]/quote",
+      "status": "verified",
+      "quote": "We've got four CD sets going out in October. Nobody's going to want training in October.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L207, 00:39:12, Jordan Pruitt"
+      ]
+    },
+    {
+      "path": "/objections[4]/quote",
+      "status": "verified",
+      "quote": "And if Bev decides this is going to mess with Ajera, that's a hard stop.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L208, 00:39:21, Tess Kowalczyk"
+      ]
+    },
+    {
+      "path": "/objections[5]/quote",
+      "status": "verified",
+      "quote": "So I own the operations systems budget. But anything over twenty-five thousand, Gordon signs.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L180, 00:34:45, Tess Kowalczyk"
+      ]
+    },
+    {
+      "path": "/objections[6]/quote",
+      "status": "verified",
+      "quote": "Ideally the whole thing's live before Des Moines opens. But, I mean, I don't want to hold anyone to that. Let's see what it looks like first.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L201, 00:38:09, Tess Kowalczyk"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[0]/quote",
+      "status": "verified",
+      "quote": "Ten a.m. Central on the twenty-fourth, then.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L223, 00:42:19, Tess Kowalczyk"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[1]/quote",
+      "status": "verified",
+      "quote": "I'll send the invite to you both today.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L226, 00:42:39, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[2]/quote",
+      "status": "verified",
+      "quote": "I'll forward it to him today and let you know by Friday the eighteenth if he's in.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L227, 00:42:50, Tess Kowalczyk"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[3]/quote",
+      "status": "verified",
+      "quote": "Yeah, I can do that. By Tuesday? The fifteenth?",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L229, 00:43:15, Jordan Pruitt"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[4]/quote",
+      "status": "verified",
+      "quote": "I'll talk to her tomorrow.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L231, 00:43:31, Tess Kowalczyk"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[5]/quote",
+      "status": "verified",
+      "quote": "And I'll send you a short recap by end of day tomorrow, what I heard and the next steps, so you can correct anything I got wrong.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L232, 00:43:35, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[6]/quote",
+      "status": "verified",
+      "quote": "I put together a first version with those pieces, in your language, pursuits, jobs, phases, the Wall, and we walk through it together with Gordon.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L220, 00:41:51, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[7]/quote",
+      "status": "verified",
+      "quote": "I'll check with you how you want those set up before I build anything.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L238, 00:44:37, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[8]/quote",
+      "status": "verified",
+      "quote": "and we work out the real connection with Bev",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L216, 00:41:04, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[9]/quote",
+      "status": "verified",
+      "quote": "No problem, that's a question for Bev and Marcus, I'll note it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L175, 00:33:37, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[10]/quote",
+      "status": "verified",
+      "quote": "On the PMs, would it make sense for me to talk to one or two of them before we get too far along?",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L209, 00:39:30, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[11]/quote",
+      "status": "verified",
+      "quote": "I'd want to ask him before we write that down anywhere.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L159, 00:30:50, Tess Kowalczyk"
+      ]
+    },
+    {
+      "path": "/requested_changes[0]/quote",
+      "status": "verified",
+      "quote": "Put a basic submittal log in, then.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L215, 00:40:54, Tess Kowalczyk"
+      ]
+    },
+    {
+      "path": "/requested_changes[1]/quote",
+      "status": "verified",
+      "quote": "So don't assume one project is one job.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L236, 00:43:57, Tess Kowalczyk"
+      ]
+    },
+    {
+      "path": "/requested_changes[2]/quote",
+      "status": "verified",
+      "quote": "So don't hard-code SD, DD, CD for everything.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L237, 00:44:23, Jordan Pruitt"
+      ]
+    },
+    {
+      "path": "/account_context/evidence_quote_or_null",
+      "status": "verified",
+      "quote": "It kind of fizzled when the trial ended and nobody was paying for it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L163, 00:31:20, Jordan Pruitt"
+      ]
+    },
+    {
+      "path": "/readiness/goals[0]/quote",
+      "status": "verified",
+      "quote": "So if we chased those, two more wins a year feels realistic.",
+      "location": "00:28:51 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L150, 00:28:51, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/goals[1]/quote",
+      "status": "verified",
+      "quote": "Monday morning, I open one screen and I can see every pursuit that's due in the next two weeks, who owns it, whether an addendum came in, and whether the fee's signed off.",
+      "location": "00:29:39 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L154, 00:29:39, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/goals[2]/quote",
+      "status": "verified",
+      "quote": "No more missed submissions, and write-offs coming down.",
+      "location": "00:30:23 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L157, 00:30:23, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/goals[3]/quote",
+      "status": "verified",
+      "quote": "And I'd add, Des Moines opening on the same system as everyone else, not its own set of spreadsheets.",
+      "location": "00:30:23 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L157, 00:30:23, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/pains[0]/quote",
+      "status": "verified",
+      "quote": "We lost it because we missed the deadline.",
+      "location": "00:04:43 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L25, 00:04:43, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/pains[1]/quote",
+      "status": "verified",
+      "quote": "There's no one place where a pursuit lives, with the due date and who's on it and what's changed.",
+      "location": "00:08:23 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L41, 00:08:23, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/pains[2]/quote",
+      "status": "verified",
+      "quote": "The addendum went to one person.",
+      "location": "00:08:23 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L41, 00:08:23, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/pains[3]/quote",
+      "status": "verified",
+      "quote": "And the fee sign-off is basically, you email Gordon a PDF and you hope.",
+      "location": "00:08:23 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L41, 00:08:23, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/pains[4]/quote",
+      "status": "verified",
+      "quote": "And the hours sheet that fed the fee still had last year's rates in it.",
+      "location": "00:06:43 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L33, 00:06:43, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/pains[5]/quote",
+      "status": "verified",
+      "quote": "She told me she spends basically every Thursday afternoon emailing PMs going, \"Is this still a go? Did you look at the fee?\"",
+      "location": "00:10:35 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L50, 00:10:35, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/pains[6]/quote",
+      "status": "verified",
+      "quote": "Someone's going to save \"pursuit log DSM final v2\" on their desktop.",
+      "location": "00:10:55 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L52, 00:10:55, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/pains[7]/quote",
+      "status": "verified",
+      "quote": "Because it lives in my head, honestly. If I get hit by a bus, nobody knows who's on what.",
+      "location": "00:16:38 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L80, 00:16:38, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/pains[8]/quote",
+      "status": "verified",
+      "quote": "And every week I rebuild it.",
+      "location": "00:13:13 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L64, 00:13:13, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/pains[9]/quote",
+      "status": "verified",
+      "quote": "And it's mostly me reading percentages out loud and people going, \"No, she's not on that anymore.\"",
+      "location": "00:14:31 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L70, 00:14:31, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/pains[10]/quote",
+      "status": "verified",
+      "quote": "And I don't trust those numbers enough to make a hundred-thousand-dollar decision off them.",
+      "location": "00:17:02 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L81, 00:17:02, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/pains[11]/quote",
+      "status": "verified",
+      "quote": "And me, because people come to me when they're burnt out.",
+      "location": "00:17:56 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L86, 00:17:56, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/pains[12]/quote",
+      "status": "verified",
+      "quote": "Mostly, we find out when it's too late.",
+      "location": "00:18:22 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L88, 00:18:22, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/pains[13]/quote",
+      "status": "verified",
+      "quote": "And by the time it shows up on the WIP report, DD is at a hundred and forty percent and there's no fixing it.",
+      "location": "00:18:32 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L90, 00:18:32, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/pains[14]/quote",
+      "status": "verified",
+      "quote": "And, I mean, the PMs aren't wrong, it's busywork.",
+      "location": "00:21:33 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L102, 00:21:33, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/pains[15]/quote",
+      "status": "verified",
+      "quote": "It had gone to our structural reviewer, he was out sick for a week, and nobody reassigned it.",
+      "location": "00:22:55 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L109, 00:22:55, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/pains[16]/quote",
+      "status": "verified",
+      "quote": "And the log is only as good as the PM keeping it.",
+      "location": "00:22:46 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L107, 00:22:46, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/pains[17]/quote",
+      "status": "verified",
+      "quote": "and then six months later somebody on a school board says \"we never approved that.\"",
+      "location": "00:23:33 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L112, 00:23:33, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/pains[18]/quote",
+      "status": "verified",
+      "quote": "When we win something, Bev sets the job up in Ajera by reading the fee proposal PDF and typing it in.",
+      "location": "00:32:10 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L168, 00:32:10, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/signals[0]/quote",
+      "status": "verified",
+      "quote": "And when a pursuit turns into a job, I'd love for the job number to come from Ajera instead of somebody retyping it. But I have no idea what's possible there.",
+      "location": "00:33:04 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L172, 00:33:04, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/signals[1]/quote",
+      "status": "verified",
+      "quote": "The PMs update their own people, or it comes from what they've already planned.",
+      "location": "00:30:03 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L155, 00:30:03, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/signals[2]/quote",
+      "status": "verified",
+      "quote": "I'm going to argue for submittals. CA is where the letters from contractors come from.",
+      "location": "00:40:46 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L214, 00:40:46, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/signals[3]/quote",
+      "status": "verified",
+      "quote": "Which is actually part of why I thought of monday. Anneke is not a tech person and she built that herself in an afternoon.",
+      "location": "00:31:40 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L164, 00:31:40, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[0]",
+      "status": "verified",
+      "quote": "Now it's an Excel file with a tab per office, every person down the side, weeks across the top, and percentages.",
+      "location": "00:13:13 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L64, 00:13:13, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[1]",
+      "status": "verified",
+      "quote": "He was on the Wall at a hundred percent on the Oak Street fire station CDs. But two other PMs had also, separately, told him he was on their jobs.",
+      "location": "00:14:56 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L72, 00:14:56, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[0]",
+      "status": "verified",
+      "quote": "One project can have more than one job.",
+      "location": "00:43:57 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L236, 00:43:57, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[1]",
+      "status": "verified",
+      "quote": "Sometimes it's just design and CA. So don't hard-code SD, DD, CD for everything.",
+      "location": "00:44:23 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L237, 00:44:23, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[0]",
+      "status": "verified",
+      "quote": "Hallie's spreadsheet is a list, it doesn't know about addenda.",
+      "location": "00:08:23 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L41, 00:08:23, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[1]",
+      "status": "verified",
+      "quote": "And then the district puts out an addendum that moves the due date up a day, to Thursday, because of some school board thing.",
+      "location": "00:05:45 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L29, 00:05:45, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[0]",
+      "status": "verified",
+      "quote": "So Hallie and Jordan are rebuilding the fee at, like, one o'clock --",
+      "location": "00:06:43 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L33, 00:06:43, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[1]",
+      "status": "verified",
+      "quote": "Gordon signs off on his phone from a parking lot.",
+      "location": "00:07:23 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L35, 00:07:23, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[0]",
+      "status": "verified",
+      "quote": "And the hours sheet that fed the fee still had last year's rates in it.",
+      "location": "00:06:43 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L33, 00:06:43, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[1]",
+      "status": "verified",
+      "quote": "Loaded rates and salaries, nobody outside of Bev, me, and the partners sees those. The PMs see hours, not rates.",
+      "location": "00:33:50 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L176, 00:33:50, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[0]",
+      "status": "verified",
+      "quote": "It had gone to our structural reviewer, he was out sick for a week, and nobody reassigned it.",
+      "location": "00:22:55 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L109, 00:22:55, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[1]",
+      "status": "verified",
+      "quote": "We have to review them and send them back, and most of our contracts say ten business days. Some say fourteen calendar days.",
+      "location": "00:21:55 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L104, 00:21:55, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[0]",
+      "status": "verified",
+      "quote": "Some PMs are great, they export their hours from Ajera into their own burn sheet every week. Half of them don't.",
+      "location": "00:18:32 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L90, 00:18:32, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[1]",
+      "status": "verified",
+      "quote": "So if a phase starts running hot at the beginning of a month, the PM might not see it for five, six weeks.",
+      "location": "00:18:32 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L90, 00:18:32, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[0]",
+      "status": "verified",
+      "quote": "Some of it comes through the public bid portals, some of it comes in because a PIC knows somebody -- principal in charge, sorry -- and they get a call.",
+      "location": "00:08:56 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L43, 00:08:56, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[1]",
+      "status": "verified",
+      "quote": "The RFP comes out, Hallie, she's our marketing coordinator, she logs it in the pursuit log, due date is a Friday at two p.m.",
+      "location": "00:05:45 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L29, 00:05:45, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[0]",
+      "status": "verified",
+      "quote": "Or they don't, and we keep going anyway because the schedule says so, and then six months later somebody on a school board says \"we never approved that.\"",
+      "location": "00:23:33 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L112, 00:23:33, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[1]",
+      "status": "verified",
+      "quote": "Put a basic submittal log in, then. But don't spend a lot of time on it. I care more about the pursuits.",
+      "location": "00:40:54 Tess Kowalczyk (COO)",
+      "cited": "transcript.txt, L215, 00:40:54, Tess Kowalczyk"
+    },
+    {
+      "path": "/readiness/structure/leanings[9]/quotes[0]",
+      "status": "verified",
+      "quote": "When we win something, Bev sets the job up in Ajera by reading the fee proposal PDF and typing it in.",
+      "location": "00:32:10 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L168, 00:32:10, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/structure/leanings[9]/quotes[1]",
+      "status": "verified",
+      "quote": "And when a pursuit turns into a job, I'd love for the job number to come from Ajera instead of somebody retyping it. But I have no idea what's possible there.",
+      "location": "00:33:04 Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L172, 00:33:04, Jordan Pruitt"
+    }
+  ]
+}

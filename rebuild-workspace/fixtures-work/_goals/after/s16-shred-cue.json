@@ -1,0 +1,1290 @@
+{
+  "fixture": "s16-shred-cue",
+  "sources": [
+    {
+      "name": "transcript.txt",
+      "kind": "transcript",
+      "format": "vtt",
+      "units": 298,
+      "unsupported": null
+    }
+  ],
+  "counts": {
+    "pairs": 166,
+    "verified": 166,
+    "verified_presence_only": 24,
+    "skipped": 0,
+    "unparsed_prose": 0,
+    "near_misses": 0,
+    "misses": 0,
+    "unsupported": 0,
+    "warnings": 0
+  },
+  "refused_quotes_not_checked": [
+    {
+      "path": "/intake/refused_quotes",
+      "entries": 6
+    }
+  ],
+  "skipped": [],
+  "pairs": [
+    {
+      "path": "/rubric[0]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Then it becomes a job. Nkechi opens a job number in the accounting system. She starts a job folder on the shared drive, and the drawings go to design. Bao, our designer.",
+      "location": "cues 53-55, 00:03:55.730, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 53, L211, 00:03:55.730, Rosamund Achterberg, transcript.txt, cue 54, L215, 00:04:01.614, Rosamund Achterberg, transcript.txt, cue 55, L219, 00:04:05.733, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[0]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The quote is a spreadsheet.",
+      "location": "cue 41, 00:03:05.023, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 41, L163, 00:03:05.023, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[0]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "A spreadsheet. Job number, city, date submitted, date approved, expiry.",
+      "location": "cue 75, 00:05:36.558, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 75, L299, 00:05:36.558, Nkechi Brandvold"
+    },
+    {
+      "path": "/rubric[0]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "The drawing comes down to me and I put it on the board. The board's a whiteboard. It's the whole back wall of the shop office. Every job's a magnet, and the columns are the are the stations. Router, paint, letters, wiring, crating, install.",
+      "location": "cues 113-115, 00:08:15.703, R",
+      "cited": "transcript.txt, cue 113, L451, 00:08:15.703, R, transcript.txt, cue 114, L455, 00:08:25.893, R, transcript.txt, cue 115, L459, 00:08:30.054, R"
+    },
+    {
+      "path": "/rubric[0]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "And I move the magnets. Every morning at six-thirty, before the crew's in, I walk the floor and I move the magnets.",
+      "location": "cue 116, 00:08:33.883, R",
+      "cited": "transcript.txt, cue 116, L463, 00:08:33.883, R"
+    },
+    {
+      "path": "/rubric[0]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "On the board, in the install column.",
+      "location": "cue 125, 00:09:11.157, R",
+      "cited": "transcript.txt, cue 125, L499, 00:09:11.157, R"
+    },
+    {
+      "path": "/rubric[0]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Walk me through a job. Somebody wants a sign. What happens first?",
+      "location": "cue 38, 00:02:46.414, Consultant",
+      "cited": "transcript.txt, cue 38, L151, 00:02:46.414, Consultant"
+    },
+    {
+      "path": "/rubric[1]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And the permit expired on a Friday.",
+      "location": "cue 85, 00:06:20.900, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 85, L339, 00:06:20.900, Nkechi Brandvold"
+    },
+    {
+      "path": "/rubric[1]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Nobody told me, and I'd cut thirty-inch.",
+      "location": "cue 143, 00:10:20.296, R",
+      "cited": "transcript.txt, cue 143, L571, 00:10:20.296, R"
+    },
+    {
+      "path": "/rubric[1]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Give me a specific one. The last time a change didn't make it to the shop.",
+      "location": "cue 139, 00:09:56.413, Consultant",
+      "cited": "transcript.txt, cue 139, L555, 00:09:56.413, Consultant"
+    },
+    {
+      "path": "/rubric[2]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Two things. The hospital contract, which came in last week. Two hundred and some signs across four four buildings, kicks off after the first of the year, and it's forty-one permits.",
+      "location": "cues 210-211, 00:15:35.527, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 210, L839, 00:15:35.527, Rosamund Achterberg, transcript.txt, cue 211, L843, 00:15:42.243, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[2]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "We have never run a job with forty-one permits and one crane.",
+      "location": "cue 215, 00:15:57.325, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 215, L859, 00:15:57.325, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[2]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And the second thing is Dad. He wants to be out of the day-to-day by spring.",
+      "location": "cue 217, 00:16:06.393, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 217, L867, 00:16:06.393, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[2]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Why now? You've run on the whiteboard and the spreadsheets for a long time.",
+      "location": "cue 209, 00:15:30.176, Consultant",
+      "cited": "transcript.txt, cue 209, L835, 00:15:30.176, Consultant"
+    },
+    {
+      "path": "/rubric[3]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Call it thirty-two an hour, loaded. Ruairi's is more like fifty-five.",
+      "location": "cue 180, 00:13:24.437, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 180, L719, 00:13:24.437, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[3]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "thirteen thousand and change.",
+      "location": "cue 186, 00:13:44.693, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 186, L743, 00:13:44.693, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[3]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "four twelve fifty. Times fifty-two. Twenty-one thousand four hundred and fifty.",
+      "location": "cue 189, 00:13:55.449, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 189, L755, 00:13:55.449, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[3]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "so twenty-five to thirty-five thousand? I'm guessing. Nkechi could pull the actual ones.",
+      "location": "cue 193, 00:14:12.947, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 193, L771, 00:14:12.947, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[3]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Sixty to seventy thousand a year. And that's the stuff we can count.",
+      "location": "cue 195, 00:14:22.383, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 195, L779, 00:14:22.383, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[3]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "It's light. But it's what I can stand behind today.",
+      "location": "cue 200, 00:14:41.797, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 200, L799, 00:14:41.797, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[3]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Is there a loaded rate you'd use for those two?",
+      "location": "cue 178, 00:13:08.793, Consultant",
+      "cited": "transcript.txt, cue 178, L711, 00:13:08.793, Consultant"
+    },
+    {
+      "path": "/rubric[4]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I genuinely don't know. That's a Ottilie question.",
+      "location": "cue 205, 00:15:11.013, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 205, L819, 00:15:11.013, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[4]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I'm not going to make one up for you.",
+      "location": "cue 206, 00:15:14.393, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 206, L823, 00:15:14.393, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[4]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Is there a number on that? What you'd win if the quotes got chased, say.",
+      "location": "cue 204, 00:15:04.602, Consultant",
+      "cited": "transcript.txt, cue 204, L815, 00:15:04.602, Consultant"
+    },
+    {
+      "path": "/rubric[5]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I open something on Monday morning and I see every job, where it is on the floor, when it installs, and whether the permit's good.",
+      "location": "cues 222-223, 00:16:31.119, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 222, L887, 00:16:31.119, Rosamund Achterberg, transcript.txt, cue 223, L891, 00:16:37.581, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[5]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "For me it's the permit tells me before it expires. Not me telling myself. And the install date moving moves the permit warning with it.",
+      "location": "cue 225, 00:16:46.144, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 225, L899, 00:16:46.144, Nkechi Brandvold"
+    },
+    {
+      "path": "/rubric[5]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I want the board on a screen in the shop, big, and I want the magnets to move when a change comes in without me hearing about it in the parking lot.",
+      "location": "cue 227, 00:16:57.485, R",
+      "cited": "transcript.txt, cue 227, L907, 00:16:57.485, R"
+    },
+    {
+      "path": "/rubric[5]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "He cares that we stop paying for the same sign twice.",
+      "location": "cue 230, 00:17:20.920, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 230, L919, 00:17:20.920, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[5]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Say it's six months from now and it worked. What do you see?",
+      "location": "cue 221, 00:16:25.400, Consultant",
+      "cited": "transcript.txt, cue 221, L883, 00:16:25.400, Consultant"
+    },
+    {
+      "path": "/rubric[6]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Anything over ten thousand, or anything that's a new system, Dad signs.",
+      "location": "cue 233, 00:17:32.805, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 233, L931, 00:17:32.805, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[6]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And he'd want to see it work before he signs. He'd want to stand in front of it.",
+      "location": "cue 234, 00:17:37.295, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 234, L935, 00:17:37.295, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[6]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Our accountant does the books. She'd want to know it doesn't touch the accounting system.",
+      "location": "cue 236, 00:17:51.592, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 236, L943, 00:17:51.592, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[6]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "He's in every morning at seven. Before the shop starts is the best time, honestly.",
+      "location": "cue 240, 00:18:08.440, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 240, L959, 00:18:08.440, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[6]/asked_quote/quote",
+      "status": "verified",
+      "quote": "How does a decision like this get made here?",
+      "location": "cue 231, 00:17:25.878, Consultant",
+      "cited": "transcript.txt, cue 231, L923, 00:17:25.878, Consultant"
+    },
+    {
+      "path": "/rubric[7]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The hospital is the deadline. Permits go in in November for the first building.",
+      "location": "cue 242, 00:18:18.455, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 242, L967, 00:18:18.455, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[7]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "So the permit side has to be in place by then. The shop side, I'd take by January.",
+      "location": "cue 243, 00:18:23.909, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 243, L971, 00:18:23.909, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[7]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Where does this sit against everything else this quarter?",
+      "location": "cue 241, 00:18:14.194, Consultant",
+      "cited": "transcript.txt, cue 241, L963, 00:18:14.194, Consultant"
+    },
+    {
+      "path": "/rubric[8]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "My guys don't type. They will not type.",
+      "location": "cue 249, 00:18:46.699, R",
+      "cited": "transcript.txt, cue 249, L995, 00:18:46.699, R"
+    },
+    {
+      "path": "/rubric[8]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And the wall. Dad likes the wall. If the wall comes down before he trusts the screen, that's a fight.",
+      "location": "cue 254, 00:19:05.782, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 254, L1015, 00:19:05.782, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[8]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And I'm not touching anything in October. Nobody is.",
+      "location": "cue 255, 00:19:14.180, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 255, L1019, 00:19:14.180, Nkechi Brandvold"
+    },
+    {
+      "path": "/rubric[8]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "And Ottilie's spreadsheet. If this needs her to stop using it on day one, she won't.",
+      "location": "cue 256, 00:19:17.824, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 256, L1023, 00:19:17.824, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[8]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What would stop this? Honestly.",
+      "location": "cue 247, 00:18:42.979, Consultant",
+      "cited": "transcript.txt, cue 247, L987, 00:18:42.979, Consultant"
+    },
+    {
+      "path": "/rubric[9]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Thursday the eighth?",
+      "location": "cue 283, 00:21:35.330, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 283, L1131, 00:21:35.330, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[9]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Seven-thirty. He's here by seven.",
+      "location": "cue 284, 00:21:37.030, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 284, L1135, 00:21:37.030, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[9]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I'll forward it. And I'll tell him it's a conversation, not a pitch.",
+      "location": "cue 286, 00:21:48.892, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 286, L1143, 00:21:48.892, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[9]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What morning works?",
+      "location": "cue 282, 00:21:33.368, Consultant",
+      "cited": "transcript.txt, cue 282, L1127, 00:21:33.368, Consultant"
+    },
+    {
+      "path": "/rubric[11]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Let me play back what I'd put in a first version. Just to show you, not to sign.",
+      "location": "cue 268, 00:20:19.809, Consultant",
+      "cited": "transcript.txt, cue 268, L1071, 00:20:19.809, Consultant"
+    },
+    {
+      "path": "/rubric[11]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Yes. That's the right order. Permits first, then the wall, then quotes.",
+      "location": "cue 274, 00:20:49.237, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 274, L1095, 00:20:49.237, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[11]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And I don't want to sign anything until he's seen it. That's not me stalling, that's how it works here.",
+      "location": "cue 279, 00:21:12.065, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 279, L1115, 00:21:12.065, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[11]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Let me play back what I'd put in a first version. Just to show you, not to sign.",
+      "location": "cue 268, 00:20:19.809, Consultant",
+      "cited": "transcript.txt, cue 268, L1071, 00:20:19.809, Consultant"
+    },
+    {
+      "path": "/rubric[12]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "If the job slips past that, you re-apply. Fee and all.",
+      "location": "cue 78, 00:05:45.889, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 78, L311, 00:05:45.889, Nkechi Brandvold"
+    },
+    {
+      "path": "/rubric[12]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "[sighs] Yes.",
+      "location": "cue 80, 00:05:58.919, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 80, L319, 00:05:58.919, Nkechi Brandvold"
+    },
+    {
+      "path": "/rubric[12]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And does that happen?",
+      "location": "cue 79, 00:05:56.379, Consultant",
+      "cited": "transcript.txt, cue 79, L315, 00:05:56.379, Consultant"
+    },
+    {
+      "path": "/rubric[13]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And the permit expired on a Friday.",
+      "location": "cue 85, 00:06:20.900, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 85, L339, 00:06:20.900, Nkechi Brandvold"
+    },
+    {
+      "path": "/rubric[13]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I had a reminder. I was out that week. My mother was in the hospital.",
+      "location": "cue 87, 00:06:24.212, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 87, L347, 00:06:24.212, Nkechi Brandvold"
+    },
+    {
+      "path": "/rubric[13]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "We were loaded. The truck was loaded, the letters were crated, we'd been there since five.",
+      "location": "cue 89, 00:06:33.702, R",
+      "cited": "transcript.txt, cue 89, L355, 00:06:33.702, R"
+    },
+    {
+      "path": "/rubric[13]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "And the landlord backcharged us four thousand two hundred for the delay,",
+      "location": "cue 94, 00:07:01.467, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 94, L375, 00:07:01.467, Nkechi Brandvold"
+    },
+    {
+      "path": "/rubric[13]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What did it cost?",
+      "location": "cue 91, 00:06:47.531, Consultant",
+      "cited": "transcript.txt, cue 91, L363, 00:06:47.531, Consultant"
+    },
+    {
+      "path": "/rubric[14]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And I set myself reminders on the on the calendar for the expiry.",
+      "location": "cues 76-77, 00:05:40.339, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 76, L303, 00:05:40.339, Nkechi Brandvold, transcript.txt, cue 77, L307, 00:05:43.315, Nkechi Brandvold"
+    },
+    {
+      "path": "/rubric[14]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It works until I'm out. I'm one person. Rosamund can't see my spreadsheet, well, she can, but she doesn't.",
+      "location": "cue 106, 00:07:45.070, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 106, L423, 00:07:45.070, Nkechi Brandvold"
+    },
+    {
+      "path": "/rubric[14]/asked_quote/quote",
+      "status": "verified",
+      "quote": "The city's clock. How do you keep track of that, Nkechi?",
+      "location": "cue 74, 00:05:31.763, Consultant",
+      "cited": "transcript.txt, cue 74, L295, 00:05:31.763, Consultant"
+    },
+    {
+      "path": "/rubric[15]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The crew, same as Ruairi said. They loaded a truck for nothing.",
+      "location": "cue 174, 00:12:38.791, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 174, L695, 00:12:38.791, Nkechi Brandvold"
+    },
+    {
+      "path": "/rubric[15]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The landlord, obviously, and the landlord's tenant, who has no sign. And Rosamund, because she's the one who has to call the landlord back.",
+      "location": "cue 175, 00:12:43.120, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 175, L699, 00:12:43.120, Nkechi Brandvold"
+    },
+    {
+      "path": "/rubric[15]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And Dad, because the landlord called Dad first.",
+      "location": "cue 176, 00:12:52.079, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 176, L703, 00:12:52.079, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[15]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And on the permit side, Nkechi. When one expires, who feels it?",
+      "location": "cue 173, 00:12:33.198, Consultant",
+      "cited": "transcript.txt, cue 173, L691, 00:12:33.198, Consultant"
+    },
+    {
+      "path": "/rubric[16]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "A day a week, easily. Some weeks two.",
+      "location": "cue 104, 00:07:37.153, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 104, L415, 00:07:37.153, Nkechi Brandvold"
+    },
+    {
+      "path": "/rubric[16]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Call it thirty-two an hour, loaded. Ruairi's is more like fifty-five.",
+      "location": "cue 180, 00:13:24.437, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 180, L719, 00:13:24.437, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[16]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "The re-permit was six weeks. The city won't expedite a sign.",
+      "location": "cue 92, 00:06:50.555, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 92, L367, 00:06:50.555, Nkechi Brandvold"
+    },
+    {
+      "path": "/rubric[16]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Nkechi, how much of your week is chasing permits? Not the paperwork, the chasing.",
+      "location": "cue 100, 00:07:21.793, Consultant",
+      "cited": "transcript.txt, cue 100, L399, 00:07:21.793, Consultant"
+    },
+    {
+      "path": "/rubric[17]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Forty-one permits with the same install crew and the same crane,",
+      "location": "cue 109, 00:07:59.699, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 109, L435, 00:07:59.699, Nkechi Brandvold"
+    },
+    {
+      "path": "/rubric[17]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "If one expires, Nkechi's on the phone for a month.",
+      "location": "cue 216, 00:16:02.686, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 216, L863, 00:16:02.686, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[17]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What happens if you keep doing it this way?",
+      "location": "cue 105, 00:07:40.443, Consultant",
+      "cited": "transcript.txt, cue 105, L419, 00:07:40.443, Consultant"
+    },
+    {
+      "path": "/rubric[18]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Everywhere. That's the problem.",
+      "location": "cue 130, 00:09:27.560, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 130, L519, 00:09:27.560, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[18]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Usually I hear about it after the router's already cut it.",
+      "location": "cue 138, 00:09:50.650, R",
+      "cited": "transcript.txt, cue 138, L551, 00:09:50.650, R"
+    },
+    {
+      "path": "/rubric[18]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Where does a change order come in?",
+      "location": "cue 129, 00:09:24.305, Consultant",
+      "cited": "transcript.txt, cue 129, L515, 00:09:24.305, Consultant"
+    },
+    {
+      "path": "/rubric[19]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The frozen yogurt place. Channel letters, thirty-inch, and the landlord changed the fascia height after we'd signed off, so the letters had to come down to twenty-four.",
+      "location": "cues 140-141, 00:10:03.700, R",
+      "cited": "transcript.txt, cue 140, L559, 00:10:03.700, R, transcript.txt, cue 141, L563, 00:10:11.462, R"
+    },
+    {
+      "path": "/rubric[19]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Ottilie knew. She'd re-quoted it. The re-quote was in her spreadsheet.",
+      "location": "cue 142, 00:10:15.282, R",
+      "cited": "transcript.txt, cue 142, L567, 00:10:15.282, R"
+    },
+    {
+      "path": "/rubric[19]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Materials on that set, aluminum and acrylic and the LEDs, call it six thousand eight hundred.",
+      "location": "cue 145, 00:10:26.781, R",
+      "cited": "transcript.txt, cue 145, L579, 00:10:26.781, R"
+    },
+    {
+      "path": "/rubric[19]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Give me a specific one. The last time a change didn't make it to the shop.",
+      "location": "cue 139, 00:09:56.413, Consultant",
+      "cited": "transcript.txt, cue 139, L555, 00:09:56.413, Consultant"
+    },
+    {
+      "path": "/rubric[20]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I walk over to Ottilie's desk on Fridays and ask what's changed.",
+      "location": "cue 158, 00:11:24.955, R",
+      "cited": "transcript.txt, cue 158, L631, 00:11:24.955, R"
+    },
+    {
+      "path": "/rubric[20]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Because it's Friday. A change that comes in Monday sits until Friday unless somebody happens to say something.",
+      "location": "cue 161, 00:11:38.577, R",
+      "cited": "transcript.txt, cue 161, L643, 00:11:38.577, R"
+    },
+    {
+      "path": "/rubric[20]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And when Ruairi's out, nobody walks the board.",
+      "location": "cue 163, 00:11:51.827, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 163, L651, 00:11:51.827, Rosamund Achterberg"
+    },
+    {
+      "path": "/rubric[20]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And today, the way you catch it, is what?",
+      "location": "cue 156, 00:11:19.606, Consultant",
+      "cited": "transcript.txt, cue 156, L623, 00:11:19.606, Consultant"
+    },
+    {
+      "path": "/rubric[21]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The crew, first. Lyle's guys eat the drive.",
+      "location": "cue 170, 00:12:19.824, R",
+      "cited": "transcript.txt, cue 170, L679, 00:12:19.824, R"
+    },
+    {
+      "path": "/rubric[21]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Then the customer, because the opening slips. Then Dad, because the landlord calls Dad.",
+      "location": "cue 171, 00:12:23.295, R",
+      "cited": "transcript.txt, cue 171, L683, 00:12:23.295, R"
+    },
+    {
+      "path": "/rubric[21]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Who else does this land on? When a remake happens.",
+      "location": "cue 169, 00:12:14.668, Consultant",
+      "cited": "transcript.txt, cue 169, L675, 00:12:14.668, Consultant"
+    },
+    {
+      "path": "/rubric[22]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Honestly. Four, five times a year.",
+      "location": "cue 153, 00:11:04.648, R",
+      "cited": "transcript.txt, cue 153, L611, 00:11:04.648, R"
+    },
+    {
+      "path": "/rubric[22]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Plus two days of shop time to remake it.",
+      "location": "cue 146, 00:10:33.101, R",
+      "cited": "transcript.txt, cue 146, L583, 00:10:33.101, R"
+    },
+    {
+      "path": "/rubric[22]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "That's three guys and a truck for a morning,",
+      "location": "cue 148, 00:10:42.568, R",
+      "cited": "transcript.txt, cue 148, L591, 00:10:42.568, R"
+    },
+    {
+      "path": "/rubric[22]/asked_quote/quote",
+      "status": "verified",
+      "quote": "How often does that happen? A remake because a change didn't land.",
+      "location": "cue 152, 00:10:59.073, Consultant",
+      "cited": "transcript.txt, cue 152, L607, 00:10:59.073, Consultant"
+    },
+    {
+      "path": "/pains[0]/quote",
+      "status": "verified",
+      "quote": "If the job slips past that, you re-apply. Fee and all.",
+      "location": "cue 78, 00:05:45.889, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 78, L311, 00:05:45.889, Nkechi Brandvold"
+    },
+    {
+      "path": "/pains[1]/quote",
+      "status": "verified",
+      "quote": "It works until I'm out. I'm one person. Rosamund can't see my spreadsheet, well, she can, but she doesn't.",
+      "location": "cue 106, 00:07:45.070, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 106, L423, 00:07:45.070, Nkechi Brandvold"
+    },
+    {
+      "path": "/pains[2]/quote",
+      "status": "verified",
+      "quote": "and if one of those expires the whole sequence moves.",
+      "location": "cue 110, 00:08:04.023, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 110, L439, 00:08:04.023, Nkechi Brandvold"
+    },
+    {
+      "path": "/pains[3]/quote",
+      "status": "verified",
+      "quote": "Usually I hear about it after the router's already cut it.",
+      "location": "cue 138, 00:09:50.650, R",
+      "cited": "transcript.txt, cue 138, L551, 00:09:50.650, R"
+    },
+    {
+      "path": "/pains[4]/quote",
+      "status": "verified",
+      "quote": "Nobody told me, and I'd cut thirty-inch.",
+      "location": "cue 143, 00:10:20.296, R",
+      "cited": "transcript.txt, cue 143, L571, 00:10:20.296, R"
+    },
+    {
+      "path": "/pains[5]/quote",
+      "status": "verified",
+      "quote": "And when Ruairi's out, nobody walks the board.",
+      "location": "cue 163, 00:11:51.827, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 163, L651, 00:11:51.827, Rosamund Achterberg"
+    },
+    {
+      "path": "/pains[6]/quote",
+      "status": "verified",
+      "quote": "so the office has a version that's a week old and usually blurry.",
+      "location": "cue 123, 00:09:01.729, R",
+      "cited": "transcript.txt, cue 123, L491, 00:09:01.729, R"
+    },
+    {
+      "path": "/pains[7]/quote",
+      "status": "verified",
+      "quote": "And then it sits. Nobody chases it unless the customer calls back.",
+      "location": "cue 47, 00:03:22.256, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 47, L187, 00:03:22.256, Rosamund Achterberg"
+    },
+    {
+      "path": "/pains[8]/quote",
+      "status": "verified",
+      "quote": "And in Lyle's head.",
+      "location": "cue 126, 00:09:14.498, R",
+      "cited": "transcript.txt, cue 126, L503, 00:09:14.498, R"
+    },
+    {
+      "path": "/pains[9]/quote",
+      "status": "verified",
+      "quote": "Everybody calls Dad. That's the other thing.",
+      "location": "cue 172, 00:12:29.776, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 172, L687, 00:12:29.776, Rosamund Achterberg"
+    },
+    {
+      "path": "/numbers/bleed/quote",
+      "status": "verified",
+      "quote": "Sixty to seventy thousand a year. And that's the stuff we can count.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 195, L779, 00:14:22.383, Rosamund Achterberg"
+      ]
+    },
+    {
+      "path": "/numbers/upside/quote",
+      "status": "verified",
+      "quote": "I genuinely don't know. That's a Ottilie question.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 205, L819, 00:15:11.013, Rosamund Achterberg"
+      ]
+    },
+    {
+      "path": "/objections[0]/quote",
+      "status": "verified",
+      "quote": "Anything over ten thousand, or anything that's a new system, Dad signs.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 233, L931, 00:17:32.805, Rosamund Achterberg"
+      ]
+    },
+    {
+      "path": "/objections[1]/quote",
+      "status": "verified",
+      "quote": "My guys don't type. They will not type.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 249, L995, 00:18:46.699, R"
+      ]
+    },
+    {
+      "path": "/objections[2]/quote",
+      "status": "verified",
+      "quote": "And the wall. Dad likes the wall. If the wall comes down before he trusts the screen, that's a fight.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 254, L1015, 00:19:05.782, Rosamund Achterberg"
+      ]
+    },
+    {
+      "path": "/objections[3]/quote",
+      "status": "verified",
+      "quote": "And I'm not touching anything in October. Nobody is.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 255, L1019, 00:19:14.180, Nkechi Brandvold"
+      ]
+    },
+    {
+      "path": "/objections[4]/quote",
+      "status": "verified",
+      "quote": "And Ottilie's spreadsheet. If this needs her to stop using it on day one, she won't.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 256, L1023, 00:19:17.824, Rosamund Achterberg"
+      ]
+    },
+    {
+      "path": "/objections[5]/quote",
+      "status": "verified",
+      "quote": "We had a demo two years ago and it did everything and none of us could find anything in it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 259, L1035, 00:19:33.444, Rosamund Achterberg"
+      ]
+    },
+    {
+      "path": "/objections[6]/quote",
+      "status": "verified",
+      "quote": "And I don't want to sign anything until he's seen it. That's not me stalling, that's how it works here.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 279, L1115, 00:21:12.065, Rosamund Achterberg"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[0]/quote",
+      "status": "verified",
+      "quote": "Seven-thirty. He's here by seven.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 284, L1135, 00:21:37.030, Rosamund Achterberg"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[1]/quote",
+      "status": "verified",
+      "quote": "I'll send the invite to the three of you today, and you forward it to him?",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 285, L1139, 00:21:39.787, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[2]/quote",
+      "status": "verified",
+      "quote": "I'll forward it. And I'll tell him it's a conversation, not a pitch.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 286, L1143, 00:21:48.892, Rosamund Achterberg"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[3]/quote",
+      "status": "verified",
+      "quote": "I can send you the permit spreadsheet. With the job numbers. I can take the amounts off.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 288, L1151, 00:21:57.503, Nkechi Brandvold"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[4]/quote",
+      "status": "verified",
+      "quote": "That's fair. I'll send a short recap tomorrow, what I heard and the next steps, so you can correct me.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 294, L1175, 00:22:27.177, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[5]/quote",
+      "status": "verified",
+      "quote": "Probably. She'd want a week with her spreadsheet first.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 208, L831, 00:15:26.121, Rosamund Achterberg"
+      ]
+    },
+    {
+      "path": "/requested_changes[0]/quote",
+      "status": "verified",
+      "quote": "The screen in the shop. Big.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 275, L1099, 00:20:53.619, R"
+      ]
+    },
+    {
+      "path": "/requested_changes[1]/quote",
+      "status": "verified",
+      "quote": "And it has to know about the install date. Not just the permit date.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 276, L1103, 00:20:57.295, Nkechi Brandvold"
+      ]
+    },
+    {
+      "path": "/requested_changes[2]/quote",
+      "status": "verified",
+      "quote": "And Ottilie's spreadsheet. If this needs her to stop using it on day one, she won't.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 256, L1023, 00:19:17.824, Rosamund Achterberg"
+      ]
+    },
+    {
+      "path": "/requested_changes[3]/quote",
+      "status": "verified",
+      "quote": "Yes. That's the right order. Permits first, then the wall, then quotes.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 274, L1095, 00:20:49.237, Rosamund Achterberg"
+      ]
+    },
+    {
+      "path": "/account_context/evidence_quote_or_null",
+      "status": "verified",
+      "quote": "My brother-in-law's company uses monday, and that's how I ended up with your name. That's the extent of it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 265, L1059, 00:19:58.156, Rosamund Achterberg"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[0]/quote",
+      "status": "verified",
+      "quote": "I'm not going to show you anything.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 23, L91, 00:01:33.823, Consultant"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[2]/quote",
+      "status": "verified",
+      "quote": "Good. That's what I told Dad you'd say.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 24, L95, 00:01:44.653, Rosamund Achterberg"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[3]/quote",
+      "status": "verified",
+      "quote": "Jobs, with the stations as columns",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 269, L1075, 00:20:27.161, Consultant"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[4]/quote",
+      "status": "verified",
+      "quote": "Anything over ten thousand, or anything that's a new system, Dad signs.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 233, L931, 00:17:32.805, Rosamund Achterberg"
+      ]
+    },
+    {
+      "path": "/readiness/goals[0]/quote",
+      "status": "verified",
+      "quote": "He wants to be out of the day-to-day by spring.",
+      "location": "cue 217, 00:16:06.393, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 217, L867, 00:16:06.393, Rosamund Achterberg"
+    },
+    {
+      "path": "/readiness/goals[1]/quote",
+      "status": "verified",
+      "quote": "I open something on Monday morning and I see every job, where it is on the floor, when it installs, and whether the permit's good.",
+      "location": "cues 222-223, 00:16:31.119, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 222, L887, 00:16:31.119, Rosamund Achterberg, transcript.txt, cue 223, L891, 00:16:37.581, Rosamund Achterberg"
+    },
+    {
+      "path": "/readiness/goals[2]/quote",
+      "status": "verified",
+      "quote": "For me it's the permit tells me before it expires.",
+      "location": "cue 225, 00:16:46.144, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 225, L899, 00:16:46.144, Nkechi Brandvold"
+    },
+    {
+      "path": "/readiness/goals[3]/quote",
+      "status": "verified",
+      "quote": "I want the board on a screen in the shop, big, and I want the magnets to move when a change comes in without me hearing about it in the parking lot.",
+      "location": "cue 227, 00:16:57.485, R",
+      "cited": "transcript.txt, cue 227, L907, 00:16:57.485, R"
+    },
+    {
+      "path": "/readiness/pains[0]/quote",
+      "status": "verified",
+      "quote": "If the job slips past that, you re-apply. Fee and all.",
+      "location": "cue 78, 00:05:45.889, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 78, L311, 00:05:45.889, Nkechi Brandvold"
+    },
+    {
+      "path": "/readiness/pains[1]/quote",
+      "status": "verified",
+      "quote": "It works until I'm out. I'm one person. Rosamund can't see my spreadsheet, well, she can, but she doesn't.",
+      "location": "cue 106, 00:07:45.070, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 106, L423, 00:07:45.070, Nkechi Brandvold"
+    },
+    {
+      "path": "/readiness/pains[2]/quote",
+      "status": "verified",
+      "quote": "and if one of those expires the whole sequence moves.",
+      "location": "cue 110, 00:08:04.023, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 110, L439, 00:08:04.023, Nkechi Brandvold"
+    },
+    {
+      "path": "/readiness/pains[3]/quote",
+      "status": "verified",
+      "quote": "Usually I hear about it after the router's already cut it.",
+      "location": "cue 138, 00:09:50.650, R",
+      "cited": "transcript.txt, cue 138, L551, 00:09:50.650, R"
+    },
+    {
+      "path": "/readiness/pains[4]/quote",
+      "status": "verified",
+      "quote": "Nobody told me, and I'd cut thirty-inch.",
+      "location": "cue 143, 00:10:20.296, R",
+      "cited": "transcript.txt, cue 143, L571, 00:10:20.296, R"
+    },
+    {
+      "path": "/readiness/pains[5]/quote",
+      "status": "verified",
+      "quote": "And when Ruairi's out, nobody walks the board.",
+      "location": "cue 163, 00:11:51.827, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 163, L651, 00:11:51.827, Rosamund Achterberg"
+    },
+    {
+      "path": "/readiness/pains[6]/quote",
+      "status": "verified",
+      "quote": "so the office has a version that's a week old and usually blurry.",
+      "location": "cue 123, 00:09:01.729, R",
+      "cited": "transcript.txt, cue 123, L491, 00:09:01.729, R"
+    },
+    {
+      "path": "/readiness/pains[7]/quote",
+      "status": "verified",
+      "quote": "And then it sits. Nobody chases it unless the customer calls back.",
+      "location": "cue 47, 00:03:22.256, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 47, L187, 00:03:22.256, Rosamund Achterberg"
+    },
+    {
+      "path": "/readiness/pains[8]/quote",
+      "status": "verified",
+      "quote": "And in Lyle's head.",
+      "location": "cue 126, 00:09:14.498, R",
+      "cited": "transcript.txt, cue 126, L503, 00:09:14.498, R"
+    },
+    {
+      "path": "/readiness/pains[9]/quote",
+      "status": "verified",
+      "quote": "Everybody calls Dad. That's the other thing.",
+      "location": "cue 172, 00:12:29.776, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 172, L687, 00:12:29.776, Rosamund Achterberg"
+    },
+    {
+      "path": "/readiness/signals[0]/quote",
+      "status": "verified",
+      "quote": "I want the board on a screen in the shop, big, and I want the magnets to move when a change comes in without me hearing about it in the parking lot.",
+      "location": "cue 227, 00:16:57.485, R",
+      "cited": "transcript.txt, cue 227, L907, 00:16:57.485, R"
+    },
+    {
+      "path": "/readiness/signals[1]/quote",
+      "status": "verified",
+      "quote": "He cares that we stop paying for the same sign twice.",
+      "location": "cue 230, 00:17:20.920, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 230, L919, 00:17:20.920, Rosamund Achterberg"
+    },
+    {
+      "path": "/readiness/signals[2]/quote",
+      "status": "verified",
+      "quote": "Dad needs to see the crane not go out empty. That's it. He doesn't care about software.",
+      "location": "cue 229, 00:17:14.347, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 229, L915, 00:17:14.347, Rosamund Achterberg"
+    },
+    {
+      "path": "/readiness/signals[3]/quote",
+      "status": "verified",
+      "quote": "It had a shop floor screen. That part was good.",
+      "location": "cue 260, 00:19:41.319, R",
+      "cited": "transcript.txt, cue 260, L1039, 00:19:41.319, R"
+    },
+    {
+      "path": "/readiness/signals[4]/quote",
+      "status": "verified",
+      "quote": "Which it won't, I assume. And Ottilie, because if it touches her spreadsheet she'll have opinions.",
+      "location": "cue 237, 00:17:57.624, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 237, L947, 00:17:57.624, Rosamund Achterberg"
+    },
+    {
+      "path": "/readiness/signals[5]/quote",
+      "status": "verified",
+      "quote": "Ask Nkechi. She'll be the one in it.",
+      "location": "cue 267, 00:20:16.118, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 267, L1067, 00:20:16.118, Rosamund Achterberg"
+    },
+    {
+      "path": "/readiness/signals[6]/quote",
+      "status": "verified",
+      "quote": "If the permit piece works, Dad'll sign it in a week.",
+      "location": "cue 292, 00:22:18.581, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 292, L1167, 00:22:18.581, Rosamund Achterberg"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[0]",
+      "status": "verified",
+      "quote": "Two hundred and some signs across four four buildings, kicks off after the first of the year, and it's forty-one permits.",
+      "location": "cues 210-211, 00:15:35.527, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 210, L839, 00:15:35.527, Rosamund Achterberg, transcript.txt, cue 211, L843, 00:15:42.243, Rosamund Achterberg"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[1]",
+      "status": "verified",
+      "quote": "Forty-one permits with the same install crew and the same crane,",
+      "location": "cue 109, 00:07:59.699, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 109, L435, 00:07:59.699, Nkechi Brandvold"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[2]",
+      "status": "verified",
+      "quote": "And the hospital job is going to be two hundred signs on, what, forty permits?",
+      "location": "cue 107, 00:07:51.935, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 107, L427, 00:07:51.935, Nkechi Brandvold"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[0]",
+      "status": "verified",
+      "quote": "Everywhere. That's the problem.",
+      "location": "cue 130, 00:09:27.560, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 130, L519, 00:09:27.560, Rosamund Achterberg"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[1]",
+      "status": "verified",
+      "quote": "Usually I hear about it after the router's already cut it.",
+      "location": "cue 138, 00:09:50.650, R",
+      "cited": "transcript.txt, cue 138, L551, 00:09:50.650, R"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[2]",
+      "status": "verified",
+      "quote": "Ottilie knew. She'd re-quoted it. The re-quote was in her spreadsheet.",
+      "location": "cue 142, 00:10:15.282, R",
+      "cited": "transcript.txt, cue 142, L567, 00:10:15.282, R"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[3]",
+      "status": "verified",
+      "quote": "I want the magnets to move when a change comes in without me hearing about it in the parking lot.",
+      "location": "cue 227, 00:16:57.485, R",
+      "cited": "transcript.txt, cue 227, L907, 00:16:57.485, R"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[0]",
+      "status": "verified",
+      "quote": "and when they're booked, we're booked.",
+      "location": "cue 19, 00:01:12.786, R",
+      "cited": "transcript.txt, cue 19, L75, 00:01:12.786, R"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[1]",
+      "status": "verified",
+      "quote": "And the crane was booked for the Monday.",
+      "location": "cue 88, 00:06:29.861, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 88, L351, 00:06:29.861, Nkechi Brandvold"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[2]",
+      "status": "verified",
+      "quote": "We have never run a job with forty-one permits and one crane.",
+      "location": "cue 215, 00:15:57.325, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 215, L859, 00:15:57.325, Rosamund Achterberg"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[0]",
+      "status": "verified",
+      "quote": "the paint booth had three jobs queued that were all due the same day. Go on, Nkechi.",
+      "location": "cue 166, 00:12:00.137, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 166, L663, 00:12:00.137, Rosamund Achterberg"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[0]",
+      "status": "verified",
+      "quote": "On the board, in the install column.",
+      "location": "cue 125, 00:09:11.157, R",
+      "cited": "transcript.txt, cue 125, L499, 00:09:11.157, R"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[1]",
+      "status": "verified",
+      "quote": "And in Lyle's head.",
+      "location": "cue 126, 00:09:14.498, R",
+      "cited": "transcript.txt, cue 126, L503, 00:09:14.498, R"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[2]",
+      "status": "verified",
+      "quote": "And Nkechi has it in the permit spreadsheet, if somebody told her.",
+      "location": "cue 127, 00:09:16.457, R",
+      "cited": "transcript.txt, cue 127, L507, 00:09:16.457, R"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[3]",
+      "status": "verified",
+      "quote": "And it has to know about the install date. Not just the permit date.",
+      "location": "cue 276, 00:20:57.295, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 276, L1103, 00:20:57.295, Nkechi Brandvold"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[0]",
+      "status": "verified",
+      "quote": "I can send you the permit spreadsheet. With the job numbers. I can take the amounts off.",
+      "location": "cue 288, 00:21:57.503, Nkechi Brandvold",
+      "cited": "transcript.txt, cue 288, L1151, 00:21:57.503, Nkechi Brandvold"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[1]",
+      "status": "verified",
+      "quote": "And Ottilie's spreadsheet. If this needs her to stop using it on day one, she won't.",
+      "location": "cue 256, 00:19:17.824, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 256, L1023, 00:19:17.824, Rosamund Achterberg"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[0]",
+      "status": "verified",
+      "quote": "And then it sits. Nobody chases it unless the customer calls back.",
+      "location": "cue 47, 00:03:22.256, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 47, L187, 00:03:22.256, Rosamund Achterberg"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[1]",
+      "status": "verified",
+      "quote": "Ottilie's got, I don't know, sixty open quotes at any one time, and she's out doing surveys three days a week.",
+      "location": "cue 48, 00:03:26.597, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 48, L191, 00:03:26.597, Rosamund Achterberg"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[0]",
+      "status": "verified",
+      "quote": "And when Ruairi's out, nobody walks the board.",
+      "location": "cue 163, 00:11:51.827, Rosamund Achterberg",
+      "cited": "transcript.txt, cue 163, L651, 00:11:51.827, Rosamund Achterberg"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[1]",
+      "status": "verified",
+      "quote": "They'll look at a phone. They won't type into one.",
+      "location": "cue 253, 00:19:01.083, R",
+      "cited": "transcript.txt, cue 253, L1011, 00:19:01.083, R"
+    }
+  ]
+}

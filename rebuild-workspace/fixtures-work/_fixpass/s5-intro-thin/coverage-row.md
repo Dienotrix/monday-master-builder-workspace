@@ -1,0 +1,3 @@
+| `s5-intro-thin/` | `transcript.txt`, `answer-key.json` | Thin 12-minute intro call, membership association |
+
+Note for the merge step (not part of the row): s5 sits in the first table of COVERAGE.md, which has three columns and no counts, so the row is unchanged and no fourth column is added, per the brief section 6. The transcript is untouched (75 units, about 1,830 words including labels). The key grew from 666 to 1,273 lines with the `readiness` block as its 26th field; the fix-pass facts and the review line `reviewed 2026-10-13; fix pass applied 2026-10-13` live in `changes.md` beside this file.

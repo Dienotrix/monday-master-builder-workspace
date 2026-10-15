@@ -1,0 +1,149 @@
+{
+ "turns": 254,
+ "words": 5510,
+ "same_label_splits_applied": 2,
+ "auto_shred_events": 83,
+ "raw_by_label": {
+  "C": 1741,
+  "M": 502,
+  "P": 1435,
+  "L": 1179,
+  "T": 653
+ },
+ "true_by_owner": {
+  "C": 1713,
+  "M": 548,
+  "P": 1541,
+  "L": 1238,
+  "T": 470
+ },
+ "repaired_by_owner": {
+  "C": 1713,
+  "M": 548,
+  "P": 1536,
+  "L": 1238,
+  "T": 466
+ },
+ "unresolved_words": 9,
+ "client_share_raw": 59.29,
+ "client_share_true": 58.97,
+ "client_share_repaired": 58.9,
+ "per_speaker_share_raw": {
+  "Consultant": 31.6,
+  "Maren Solberg": 9.11,
+  "Perpetua Thackeray": 26.04,
+  "Liesl Vandermeulen": 21.4,
+  "Tariq Paulsen": 11.85
+ },
+ "per_speaker_share_true": {
+  "Consultant": 31.09,
+  "Maren Solberg": 9.95,
+  "Perpetua Thackeray": 27.97,
+  "Liesl Vandermeulen": 22.47,
+  "Tariq Paulsen": 8.53
+ },
+ "per_speaker_share_repaired": {
+  "Consultant": 31.14,
+  "Maren Solberg": 9.96,
+  "Perpetua Thackeray": 27.92,
+  "Liesl Vandermeulen": 22.5,
+  "Tariq Paulsen": 8.47
+ },
+ "cross_side_client_words_under_own_label": 186,
+ "cross_side_own_words_under_client_label": 204,
+ "within_side_words": 151,
+ "shred_events": 165,
+ "turns_carrying_foreign_words": 140,
+ "one_word_turns": 2,
+ "turns_at_or_under_four_words": 28,
+ "lowercase_initial_turns": 121,
+ "turns_without_terminal_punctuation": 125,
+ "adjacent_same_label_pairs": 15,
+ "max_unit_words": 210,
+ "max_unit_line": 235,
+ "first_time": "00:00:03",
+ "last_time": "00:35:51",
+ "span_seconds": 2149.8,
+ "assents": [
+  {
+   "line": 192,
+   "time": "00:24:51",
+   "label": "Consultant",
+   "likely_owner": "Perpetua Thackeray",
+   "text": "Yeah. That holds.",
+   "words": 3,
+   "position": "end",
+   "host_turn_words": 156
+  },
+  {
+   "line": 226,
+   "time": "00:30:54",
+   "label": "Maren Solberg",
+   "likely_owner": "Tariq Paulsen",
+   "text": "yeah, exactly, nothing back,",
+   "words": 4,
+   "position": "mid",
+   "host_turn_words": 148
+  },
+  {
+   "line": 235,
+   "time": "00:32:24",
+   "label": "Consultant",
+   "likely_owner": "Perpetua Thackeray",
+   "text": "Yeah. Yes.",
+   "words": 2,
+   "position": "end",
+   "host_turn_words": 210
+  }
+ ],
+ "long_turns_over_100_words": [
+  [
+   192,
+   "00:24:51",
+   "Consultant",
+   156
+  ],
+  [
+   226,
+   "00:30:54",
+   "Maren Solberg",
+   148
+  ],
+  [
+   235,
+   "00:32:24",
+   "Consultant",
+   210
+  ]
+ ],
+ "turns_per_speaker": {
+  "Consultant": 98,
+  "Maren Solberg": 18,
+  "Perpetua Thackeray": 59,
+  "Liesl Vandermeulen": 46,
+  "Tariq Paulsen": 33
+ },
+ "duet": {
+  "first_line": 202,
+  "last_line": 220,
+  "first_time": "00:27:14",
+  "last_time": "00:30:13",
+  "turns": 19,
+  "consultant_turns": 10,
+  "maren_turns": 9,
+  "alternates": true,
+  "client_words_inside": 0,
+  "words": 479,
+  "seconds": 184,
+  "last_client_turn_before": [
+   201,
+   "00:27:00",
+   "Perpetua Thackeray"
+  ],
+  "next_client_turn_after": [
+   221,
+   "00:30:18",
+   "Perpetua Thackeray"
+  ]
+ }
+}

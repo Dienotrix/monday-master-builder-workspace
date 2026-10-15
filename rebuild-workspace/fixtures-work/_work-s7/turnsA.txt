@@ -1,0 +1,151 @@
+Consultant: Hi Yvette. Can you hear me all right?
+Yvette Carnahan: I can hear you. Hang on, let me shut my door. Okay. Hi.
+Consultant: No rush at all. How's your week going so far?
+Yvette Carnahan: [laughs] It's Tuesday. Ask me Friday.
+Consultant: That bad?
+Yvette Carnahan: No, it's a normal week. It's just that a normal week here is a lot of week. Tansy's finishing up with a property manager, she'll hop on in a second, and Curtis said he'd be here. Curtis is our IT guy. Well, he's our IT everything.
+Consultant: Good, I'd like to hear from all three of you. Whereabouts are you sitting today?
+Yvette Carnahan: Chattanooga. That's our main office. We've got a branch in Knoxville and one in Roanoke.
+Consultant: And how many people all in?
+Yvette Carnahan: About a hundred and forty. Most of that's field. Ninety-some technicians, HVAC, plumbing, electrical, a bit of general handyman work. Then supervisors, then the office.
+Consultant: And your team inside that?
+Yvette Carnahan: Client services. Nine people, including Tansy. They're the ones who pick up the phone when a building's got a problem.
+Tansy Whitlock: Sorry, can you hear me? My headset's being weird.
+Tansy Whitlock: Sorry, can you hear me? My headset's being weird.
+Consultant: You're coming through fine now.
+Tansy Whitlock: Okay, good. Sorry. That was Marley at the Ridgeline property. She's lovely but she talks.
+Consultant: Hi Tansy. I was just getting the shape of the company. Curtis, are you with us?
+Curtis Vandergrift: I'm here. I'm on my phone for a minute, I'll be at my desk in five.
+Consultant: That's fine. So before I ask you about problems, I want to understand how the work actually moves today. Somebody in a building has a problem. Walk me through what happens.
+Tansy Whitlock: Okay. So it comes in one of three ways. Either they call us, which is still most of it, or they email the service inbox, or for two of our clients they put it into their own system and we have to go and find it.
+Consultant: Their own system?
+Tansy Whitlock: Brightmoor uses ServiceChannel. So their property managers don't call us. They put a work order into ServiceChannel and we're supposed to accept it in there, and then update it in there, and close it in there. And Fairlane, the hospital group, they've got their own maintenance system and we log into that one.
+Consultant: So your people are in several places at once.
+Tansy Whitlock: Three or four places, all morning.
+Consultant: And when it comes in by phone, what happens then?
+Tansy Whitlock: Then we open a work order. There's a shared Excel file on the SharePoint with a tab for each month, and we put in the client, the building, what's wrong, who we dispatched it to, the date.
+Consultant: You said work order. Is that the same thing as the request that came in, or is it a separate record?
+Tansy Whitlock: Same thing, mostly. The request is the phone call. The work order is what we open. Some people say request, some people say WO. It's the same thing to us.
+Consultant: Then I'll say work order. And once one is open, how does it get to a technician?
+Tansy Whitlock: Depends on the trade and the branch. There's a whiteboard in the dispatch room, techs down the side, days across the top, and whoever's dispatching moves magnets around. Then we text the tech. Or call him, if it's an emergency.
+Consultant: So the whiteboard is the real schedule.
+Tansy Whitlock: The whiteboard is the truth. The spreadsheet is what we tell people.
+Tansy Whitlock: [laughs] That's a good line. Does anything connect the two?
+Tansy Whitlock: A person. Me, usually.
+Consultant: And Roanoke and Knoxville do it the same way?
+Tansy Whitlock: Knoxville's the same. Roanoke came in through an acquisition and they've got their own spreadsheet and their own way of doing it, and their own whiteboard, and honestly I can't see any of it from here.
+Consultant: How much work is going through that in a week?
+Tansy Whitlock: Reactive, so calls, four hundred-ish a week across the three branches. More in the summer when the air conditioning starts going.
+Yvette Carnahan: That's not counting PMs.
+Consultant: PMs meaning?
+Yvette Carnahan: Preventive maintenance. Every contract has a schedule in it. So many filter changes, so many inspections, quarterly this, annual that. Those are planned months ahead. That's a different animal from a call.
+Consultant: Understood, and I'll come back to those, because they sound like a different kind of work. Are the PMs in the same spreadsheet?
+Yvette Carnahan: No. They live in Sage. Sort of. They live in Sage and then they live in another spreadsheet that Delia keeps, because Sage won't show them the way we need to see them.
+Consultant: Sage being?
+Yvette Carnahan: Sage 300. Accounting and job costing. Invoicing comes out of there, and the contract values sit in there.
+Consultant: And roughly how much of your contract value is PM work versus reactive?
+Yvette Carnahan: About half and half. The PM side is the part that renews, though. That's what a contract is.
+Consultant: Good to know. So, work orders in Excel, the schedule on a whiteboard, PMs in Sage and a spreadsheet, two clients' own portals, and Roanoke doing its own thing. What do the technicians carry?
+Tansy Whitlock: Phones. They text us photos and they text us done. Some of them fill out a paper ticket and it comes back in the truck on Friday.
+Consultant: And that's how you know a job is finished?
+Tansy Whitlock: That's how we know if we're lucky.
+Consultant: What happens after six o'clock?
+Tansy Whitlock: After six it goes to an answering service, and they email the service inbox. So an emergency at seven at night is an email nobody's looking at.
+Curtis Vandergrift: Okay, I'm at my desk.
+Consultant: Welcome. Curtis, I want your view on the systems side shortly. One more on the current state first. Yvette, where does monday.com come into this? I understood you've got an account already.
+Curtis Vandergrift: We do. We tried monday two years ago and it didn't stick.
+Consultant: Tell me more about that. What did you try to do with it?
+Curtis Vandergrift: I built a work order tracker. Columns for the client, the building, status, who's assigned, a date. It was fine. Nobody used it after about six weeks.
+Consultant: Why do you think that was?
+Curtis Vandergrift: Honestly? Because nothing came into it by itself. Somebody still had to type the work order in, and they were already typing it into the spreadsheet, so now it's two places. So they did the spreadsheet, because that's what the dispatcher looks at.
+Consultant: Did anyone ask the help desk what they needed before it got built?
+Curtis Vandergrift: [laughs] No. That was me on a Saturday.
+Tansy Whitlock: I didn't know it existed for about a month.
+Consultant: That's useful, and I'd rather hear it now than in three months. Is the account still there?
+Curtis Vandergrift: Yeah, we still pay for it. Safety uses it, Rob's got an inspections board he likes. And estimating keeps a bid board in there. Fifteen, twenty people in it maybe.
+Consultant: Do you know which plan you're on?
+Curtis Vandergrift: Standard, I think? Whatever the middle one is. I'd have to look.
+Consultant: That's fine, and I'd check it properly before I designed anything, because what's possible depends on it. Is the old work order board still in there?
+Curtis Vandergrift: Probably. I haven't opened it in a year and a half. It'll be full of dead work orders from back then.
+Consultant: Thank you. That's the picture I needed. So tell me about the problem. If you had to name the thing that made you get in touch, what is it?
+Yvette Carnahan: We are missing response times. And it has already cost us.
+Consultant: Say more about that.
+Yvette Carnahan: Every contract we sign has service levels in it. Emergency is four hours for most clients, two hours for Fairlane because it's a hospital. Urgent is same day or next business day depending on the contract. Routine is five business days. And we're supposed to report on all of it.
+Consultant: And what's actually happening?
+Yvette Carnahan: We don't know whether we're hitting it until somebody tells us we didn't. Usually the client tells us.
+Consultant: When did that last happen?
+Yvette Carnahan: The one that hurt was July. Brightmoor, the Carrolton building. A chiller went down on a Friday afternoon. It came into the service inbox at four-something on the Friday and nobody opened that inbox again until Monday morning.
+Consultant: What happened?
+Yvette Carnahan: Two floors of offices with no cooling, in July, all weekend. Their property manager called my cell phone on the Monday at seven in the morning. That was a four-hour emergency and we responded in about sixty-six hours.
+Consultant: And what did that lead to?
+Yvette Carnahan: It led to a quarterly review where their director of operations had a slide with our response times on it. Not our numbers. Theirs, out of ServiceChannel. And then a letter putting us on a ninety-day performance plan. That's a formal thing. It goes in the file.
+Consultant: What about the contract itself?
+Yvette Carnahan: It renews in January. They've told us they'll make the decision on the back of the next two quarterly reviews. The next one is the second week of December.
+Consultant: How big is Brightmoor for you?
+Yvette Carnahan: Forty-one buildings. It's just under a fifth of our book. I'd rather not put the dollar number on it on a first call.
+Consultant: That's fair, and I don't need it today. Was the chiller an isolated thing?
+Tansy Whitlock: It's not isolated. It's the weekends and the evenings and the handoffs. Things sit.
+Consultant: Where do they sit?
+Tansy Whitlock: The inbox. It's a shared mailbox, so everybody can see it and nobody owns it. You open it and there's forty emails, and some of them are work orders and some of them are Marley saying thank you, and you can't tell which ones somebody already dealt with unless they remembered to flag it.
+Consultant: How do you get around that today?
+Tansy Whitlock: We flag them. Or we drag them into a folder. I've got a rule that drops the Fairlane ones into their own folder. And I do a sweep at the end of my day and anything that looks stuck goes on a sticky note on my monitor.
+Consultant: And what stops you carrying on like that?
+Tansy Whitlock: It works when I'm here. It doesn't work when I'm on vacation, it doesn't work at five past five, and it really doesn't work on a Friday at four-something.
+Yvette Carnahan: And we have already lost a client over it. Not Brightmoor. Cavender Medical, back in March. Six clinics. Their facilities guy said, and I've not forgotten it, he said I never know if you've got it. He wasn't even angry about the work. Our technicians are good. He just couldn't see anything.
+Consultant: Who else ends up dealing with this?
+Yvette Carnahan: Me. The supervisors, because I'm the one calling them. And the branch managers when I can't get hold of a supervisor.
+Tansy Whitlock: And the technicians get it, because they turn up at something that's been sitting three days and the client's already furious with them before they're out of the van.
+Consultant: Say nothing changes. Where is this in a year?
+Yvette Carnahan: In a year? If we lose Brightmoor in January then we're not growing, we're shrinking, and I'd be looking hard at whether I need nine people in client services. And the contracts we're bidding on now are bigger, and the bigger they are the more reporting they want. So it gets worse, not better, because the work we're chasing has more of this in it.
+Consultant: Let's stay with the reporting, because you've mentioned it twice. How does a client get their numbers today?
+Tansy Whitlock: I build it. Every month. I pull the spreadsheet, filter it to that client, and go line by line working out whether we made the window.
+Consultant: How do you work out whether you made it?
+Tansy Whitlock: The date it came in and the date the technician closed it. Except the date it was closed is the date I typed it in, which might be two days after he actually did it. So I know it's not right. I have to go and ask people.
+Consultant: How long does that take you?
+Tansy Whitlock: Two days. Give or take. Two days out of my month. And then Yvette reads it and finds something that doesn't look right and I do parts of it again.
+Yvette Carnahan: Because I can't take it into a quarterly review if I don't believe it. And last time I didn't believe it, and I was right not to.
+Consultant: What happened?
+Yvette Carnahan: We had ninety-four percent on our sheet and they had seventy-eight on theirs. And I couldn't defend either number in the room. That's worse than being wrong. I sat there with nothing to say.
+Consultant: How much of your own time goes into that cycle?
+Yvette Carnahan: Half a day a month, more with the follow-up. I'm not going to put a number on my own time.
+Consultant: That's fine. Tansy, does anybody else touch the report?
+Tansy Whitlock: Delia pulls the PM completion part out of Sage, because that's in the report too. That's another half day of hers.
+Consultant: So between the three of you, that's two days, half a day and half a day. Call it twenty-four hours a month?
+Tansy Whitlock: Call it twenty. My two days isn't always two days.
+Consultant: Twenty it is. And if nothing changes on the reporting side?
+Tansy Whitlock: I mean, it just, it's the same every month. It's not getting worse exactly. It's just always there.
+Consultant: Understood. You've both mentioned calling supervisors. Tell me what escalation looks like.
+Yvette Carnahan: There isn't one, really. There's me calling Dewey.
+Tansy Whitlock: Officially, if a work order is going to blow its window, or the technician can't get in, or it needs a part we haven't got, we escalate it to the field supervisor for that trade in that region.
+Consultant: And how do you do that?
+Tansy Whitlock: Call or text. Usually text.
+Consultant: And then what?
+Tansy Whitlock: And then nothing, sometimes. You text Dewey and you don't know if he's read it, and he's up on a roof, so fair enough, but I've got a client on hold.
+Yvette Carnahan: Dewey is excellent, and Dewey does not answer his phone. Both of those are true.
+Consultant: How often does one of those go quiet?
+Tansy Whitlock: Every day there's one or two. Out of, I don't know, fifteen or twenty escalations a day across the branches, a couple of them just vanish, and then somebody remembers at four o'clock.
+Consultant: What do you do to stop them vanishing?
+Tansy Whitlock: I keep a list on a legal pad and I re-text people. That's the system. It's a legal pad.
+Consultant: Who else feels that one?
+Yvette Carnahan: The client feels it first. Then me, because they ring me. And the supervisors will tell you they're getting texted about the same job by three different people, which is also true.
+Consultant: Can you put any cost on the chasing?
+Tansy Whitlock: An hour a day each, easily, for the people who aren't stuck on the portals. Just chasing and re-asking.
+Consultant: I'll come back to that. You said two of your people are in client portals most of the morning. Tell me about that.
+Tansy Whitlock: Brightmoor and Fairlane. Everything they send us we have to accept in their system, then when it's done we close it in their system with a note, and photos sometimes. And we still have to have it in our spreadsheet, because the dispatcher hasn't got a ServiceChannel login.
+Consultant: So the same work order gets typed twice.
+Tansy Whitlock: Twice, or three times. And their system logs you out every twenty minutes.
+Consultant: How long is that, per person, per day?
+Tansy Whitlock: Rosalie is in Brightmoor's portal from eight until half eleven, twelve. Every day. Junie does Fairlane, which is a smaller account, but she's got the badging to deal with as well, so call it the same. Three hours each. Easily three hours each.
+Consultant: Could that be automated from your side?
+Curtis Vandergrift: I looked at it. ServiceChannel has an API, I'm fairly sure, but it's their tenant, not ours, and Brightmoor's IT people were not enthusiastic. I never got past the first email.
+Consultant: Understood. So what do you do about it today?
+Tansy Whitlock: We type it twice. That's what we do about it.
+Consultant: And is that sustainable?
+Tansy Whitlock: I mean, it's the job. Rosalie hates it. The girl before Rosalie quit, and she said the portal was part of why.
+Yvette Carnahan: I'd add that the portal work isn't optional. It's in the contract. If we don't close it in their system, we don't get paid.
+Consultant: That's important, thank you. You mentioned badging.
+Tansy Whitlock: Fairlane, you can't just walk in. Everybody's badged, and there are areas where you need an escort. And we're not supposed to put anything about patients or which room in the work order notes. Their compliance person was very clear with us about that.
+Consultant: Good, I'll hold on to that. Anything similar anywhere else?
+Yvette Carnahan: The contract terms themselves are confidential, all of them. Rates, penalties, all of that. That's between us and the client.
+Consultant: Noted. And do you use outside vendors at all?
+Yvette Carnahan: We sub out some things. Fire alarm testing, elevators, some roofing. So there are outside vendors who need to know what we need from them and when, and right now that's email as well.

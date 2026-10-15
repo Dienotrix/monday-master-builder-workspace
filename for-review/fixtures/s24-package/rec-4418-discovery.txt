@@ -1,0 +1,391 @@
+════════════════════════════════════════════════════════════════
+Recording       Discovery - Penhallow Print and Sign
+Recording ID    rec-4418
+Date            2026-07-14
+Duration        33:30
+Host            Clodagh Rennard
+Participants    Clodagh Rennard (host); Kofi Danquah; Wade Strickler; Gwen Tarrant; Jesse Corrigan; Notetaker (recording assistant)
+Transcript      automatic, en-US; speaker labels from meeting accounts
+Highlights      - The client estimates reprint costs at $40,000 per year and six to seven reprints per week.
+                - Deadline: fourteen credit union branches by November 30.
+                - Next step: demo on July 23 at 10:00.
+════════════════════════════════════════════════════════════════
+
+── Introductions ──
+
+Clodagh Rennard · 00:08
+Wade, hi. Hi. Can you hear me all right?
+Wade Strickler · 00:13
+I can hear you. Hang on, I'm gonna move, the laminator's running right behind me. Okay. Better?
+Clodagh Rennard · 00:23
+Much better. Is Gwen with you?
+Wade Strickler · 00:27
+She's coming. She's got a rush going out at eleven and she wanted to, uh, see it onto the truck. Jesse's on from the front.
+Jesse Corrigan · 00:40
+I'm here. Hi. Sorry, I've got the phones, so if I, if I vanish for a second that's why.
+Clodagh Rennard · 00:50
+No problem at all, Jesse. Kofi was going to join us today and he got pulled onto another call, so it's just me. He'll be on the next one.
+Wade Strickler · 01:06
+That's fine.
+Gwen Tarrant · 01:09
+Sorry, sorry. Okay. I'm here. The truck's gone.
+Clodagh Rennard · 01:14
+Hi Gwen. No rush. Um, how's the summer treating you all? It looked like a hundred and two over there yesterday.
+Wade Strickler · 01:25
+A hundred and three at the shop. The press room's got its own weather. We've got two portable units going and it's still, I don't know, ninety, ninety-two in there by two o'clock.
+Gwen Tarrant · 01:42
+The vinyl doesn't like it either. Everything's curling.
+Clodagh Rennard · 01:47
+I bet. Okay. So, um, let me say how I'd like to run this, and you tell me if it doesn't work. I mostly want to ask questions today. How the work moves through the shop, where it gets stuck, what you'd want instead. I'm not going to show you anything today. And if it turns out what you need is a better spreadsheet, I'll say so.
+Wade Strickler · 02:21
+Good. Because I've been sold a lot of software.
+Clodagh Rennard · 02:27
+I'm sure you have. So, for my benefit, the thirty-second version. Who is Pen Hollow Print and Sign?
+Wade Strickler · 02:37
+My dad started it in eighty-eight, out of a garage on the north side. We're in the, the building we've got now, been there since two thousand and six. We do wide-format, so banners, posters, wall graphics. Vehicle wraps, that's about a third of the business now. And signage. Channel letters, monument signs. The letters we sub out, we do the faces and the installs. Forty-five people. Forty-six with the summer kid.
+Clodagh Rennard · 03:13
+And it's you and your brother?
+Wade Strickler · 03:17
+Vern's the other half on paper. He does the sales side for the big accounts and he's, he's mostly out of the building. Day to day it's me.
+Clodagh Rennard · 03:32
+Got it. And Gwen, Jesse, where do you two sit in that?
+Gwen Tarrant · 03:39
+I run production. Um, everything from when a job gets released to me until it's on a truck or on the shelf for pickup. Press, finishing, the install schedule, sort of. Ronnie runs the crews, but I'm the one who tells him what's ready.
+Jesse Corrigan · 04:01
+And I'm accounts. Account manager. I quote, I take the order, I'm the customer's person. Which lately means I'm the person who gets called, you know, when they want to know where their job is.
+Clodagh Rennard · 04:18
+Okay. Let's start there, actually. Walk me through a job. From the phone ringing to the invoice going out.
+
+── How a job moves ──
+
+Jesse Corrigan · 04:31
+So a customer calls or emails. If it's a repeat I know what they want, if it's new I go back and forth on artwork and sizes. I build the quote in the estimating system. That's got our pricing in it, materials, labor. The quote goes out as a PDF. They say yes, I convert it to an order, and that's when it gets a job number.
+Clodagh Rennard · 05:05
+The estimating system gives it the number?
+Jesse Corrigan · 05:10
+Yeah. Five digits. Everything hangs off that number.
+Wade Strickler · 05:15
+That system's fine, by the way. I want to say that before you pitch me something. Quotes live in the estimating system and they're fine there.
+Clodagh Rennard · 05:29
+Understood. I'm not going to try to move your quoting. So after the job number?
+Jesse Corrigan · 05:38
+Then it goes to design. Nate, or one of the other two. They build the art, or they clean up the customer's art, which is most of the time, and they send a proof. By email. From their own email.
+Clodagh Rennard · 05:58
+And the customer approves how?
+Jesse Corrigan · 06:02
+They email back. "Looks good." Or they call me. Or they don't, and it sits.
+Gwen Tarrant · 06:11
+Or they approve it to Nate, and Nate doesn't tell me, and I find out when Jesse asks me why it isn't printed yet.
+Jesse Corrigan · 06:24
+That's fair.
+Clodagh Rennard · 06:27
+And then?
+Gwen Tarrant · 06:30
+Then it's released to me. There's a printed ticket. The ticket has the job number, the customer, the due date, and a proof stapled to it, and it goes in the rack. I put it on the board.
+Clodagh Rennard · 06:50
+The board being?
+Gwen Tarrant · 06:53
+The whiteboard. It's on the wall between press and finishing. Every job that's live is on it, in marker. Press, finish, QC, ready. I move them.
+Wade Strickler · 07:07
+There's also the schedule. Which is a spreadsheet.
+Gwen Tarrant · 07:12
+The schedule is the spreadsheet, the board is the wall. They're supposed to match.
+Clodagh Rennard · 07:20
+Do they?
+Gwen Tarrant · 07:23
+[laughs] Mostly.
+Wade Strickler · 07:26
+The schedule got saved over in June. Somebody opened it off the shared drive, it was the wrong copy, they saved, and we lost two weeks of it. That was a bad week.
+Clodagh Rennard · 07:43
+Who rebuilt it?
+Gwen Tarrant · 07:46
+Me. From the board and the tickets. Took me most of a Saturday.
+Clodagh Rennard · 07:54
+Okay. So print, finish, then?
+Gwen Tarrant · 07:58
+Print. Laminate if it's laminated. Cut, or weed if it's vinyl. QC, which is me or the lead looking at it against the proof. Then it's ready. If it's a pickup, Jesse calls them. If it's an install, Ronnie gets it. Ronnie has a group text with the crews, and that's the install schedule.
+Clodagh Rennard · 08:26
+The group text is the install schedule.
+Gwen Tarrant · 08:31
+The group text and Ronnie's head.
+Wade Strickler · 08:35
+And then Lupe invoices it out of the accounting package once Jesse tells her it's done. Lupe's our office manager, she does the books.
+Clodagh Rennard · 08:48
+Let me make sure I have the pieces. Um. The estimating system for the quote and the job number. Email for the proofs. The shared drive for the art. The ticket in the rack, and the whiteboard. The schedule, which is a spreadsheet. The group text for the installs. And the accounting package at the end. Anything I've missed?
+Jesse Corrigan · 09:17
+My spreadsheet. I keep my own list. Every open job, what it's waiting on, when I last heard from the customer. It's the only thing that tells me where a job is without walking out there.
+Wade Strickler · 09:36
+And I've got a free one of those task-board things. Jesse does, sorry.
+Jesse Corrigan · 09:44
+I do. It's a personal one. I put my to-do list in it. I tried to put jobs in it last year and I hit the wall on it pretty fast, honestly.
+Clodagh Rennard · 10:01
+What was the wall?
+Jesse Corrigan · 10:05
+Me, mostly. I never set it up properly. It was a list with a status column and I was the only one looking at it.
+Clodagh Rennard · 10:19
+Fair enough. That's not unusual.
+
+── Proofs and approvals ──
+
+Clodagh Rennard · 10:25
+Jesse, you said you're the one who gets called. Tell me about that.
+Jesse Corrigan · 10:33
+Where's my job. That's the call. Every day. And the honest answer is usually "I'll find out and call you back," because I don't know. I know it went to design. I don't know if the proof went out, I don't know if the customer answered, I don't know if it's on the board. So I walk out to the floor, or I go find Nate.
+Clodagh Rennard · 11:07
+How often?
+Jesse Corrigan · 11:10
+I'd say I spend an hour and a half a day, easy, just answering where's-my-job, on the phone or walking out to the floor. Some days it's the whole morning.
+Clodagh Rennard · 11:26
+Gwen, does that reach you?
+Gwen Tarrant · 11:30
+It reaches me because he's, you know, standing at my board asking me. And I'm chasing the other end. I chase designers for art and I chase customers for approvals, because if I don't, the job doesn't get to me, and then it's due tomorrow and nobody's printed it. An hour, hour and a half a day, chasing proofs and art. Emailing designers, emailing customers. I shouldn't be emailing customers.
+Clodagh Rennard · 12:05
+Can you give me a recent one? Something that actually happened.
+Jesse Corrigan · 12:12
+Tamarack Peaks. The credit union. Their Valley branch, the exterior faces and the window vinyl. Nate sent the proof on a Tuesday. It sat in the branch manager's inbox for nine days. Nobody chased it, because I thought Nate had it and Nate thought I had it. I found out when she called me about the install date and asked why nobody had answered her question about the logo color. Her question was in the email. Nine days.
+Clodagh Rennard · 12:52
+What happened to the install date?
+Jesse Corrigan · 12:56
+We pushed it a week. She was fine about it, but she's the one who's got fourteen more of these coming.
+Clodagh Rennard · 13:08
+We'll come back to the fourteen. So today, what do you do to stop that? What's the workaround?
+Jesse Corrigan · 13:18
+My spreadsheet. There's a column that says "waiting on," and I put customer or design or production. And I walk the floor twice a day. And I read Nate's sent folder, when he lets me.
+Gwen Tarrant · 13:36
+J, you've got the sheet, I've got the wall. Neither of us has the email.
+Jesse Corrigan · 13:45
+Neither of us has the email.
+Clodagh Rennard · 13:49
+What stops you carrying on like that?
+Jesse Corrigan · 13:54
+Nothing stops me. That's the problem. It works right up until I'm out for a day. When I was out in June, Wade got every call.
+Wade Strickler · 14:08
+I got every call. I don't know the jobs. I'd go find Gwen, Gwen would go find Nate. It's three people to answer one question.
+Clodagh Rennard · 14:22
+Who else does it touch, besides the three of you?
+Wade Strickler · 14:28
+The customer. The branch manager, in that case. And the reputation. We're the ones who say we'll take care of it, and then the job sits because a proof's in somebody's inbox.
+Gwen Tarrant · 14:45
+The floor. Because when the approval finally comes it's a rush, and a rush bumps something else.
+Clodagh Rennard · 14:55
+Where does this go if nothing changes? Say a year from now.
+Jesse Corrigan · 15:02
+It'll get worse with the credit union, fourteen branches, each one with its own proof, its own branch manager, its own install. That's fourteen inboxes to chase instead of one.
+Wade Strickler · 15:18
+And we're growing. Not fast, but every year.
+
+── Reprints and versions ──
+
+Clodagh Rennard · 15:25
+Gwen, you said something earlier about finding out from Jesse that a job isn't printed. What about the other direction? Printing the wrong thing.
+Gwen Tarrant · 15:38
+Oh, that's my favorite. We print the wrong version. The customer approves version three, the press runs version two, because version two is what's on the drive with the right name.
+Clodagh Rennard · 15:54
+How does that happen?
+Gwen Tarrant · 15:58
+The proof's a PDF in an email. The art's a file on the shared drive. They're not the same thing. So the designer makes a change, saves a new file, and now there's "brewery labels final" and "brewery labels final final" and "brewery labels FINAL v3." And the press operator grabs the one that looks right.
+Clodagh Rennard · 16:26
+Recent one?
+Gwen Tarrant · 16:29
+Larch Mountain. The brewery. Four hundred tap handle labels. They approved v3, which had a changed ABV line, five point two instead of five point four or whatever it was. We ran v2. We caught it, no, we didn't catch it, they caught it, at the taproom, on the handles. Reprinted the whole run. Our material, our press time, our courier, and Nate's weekend.
+Clodagh Rennard · 17:02
+What do you do today to stop it?
+Gwen Tarrant · 17:07
+There's a naming rule, which nobody follows. And the printed proof stapled to the ticket, which is the real control. The rule is the operator prints what's on the ticket, not what's on the drive. It works until someone grabs the file off the drive instead of off the ticket. Which is always, because the ticket's a printout and the file's what you actually load.
+Clodagh Rennard · 17:40
+How often does it happen?
+Gwen Tarrant · 17:44
+We reprint six, seven jobs a week, easy. Not all big. Some of it's a laminator eating a print, that's not a version thing. But a couple of those a week are wrong version, wrong size, wrong color because the proof was on a screen.
+Clodagh Rennard · 18:07
+Six or seven a week, some of them version mistakes.
+Gwen Tarrant · 18:13
+Yeah.
+Clodagh Rennard · 18:15
+Wade, do you know what that costs?
+Wade Strickler · 18:20
+Reprints last year, I want to say it was around forty thousand? Lupe pulled it for the accountant, there's a job code for it. I'd want her to check that before anyone writes it down.
+Clodagh Rennard · 18:38
+Around forty, to be checked.
+Wade Strickler · 18:42
+To be checked. Don't hold me to it.
+Clodagh Rennard · 18:47
+Who else does a reprint touch?
+Gwen Tarrant · 18:51
+The customer, obviously. Nate, because it's his weekend. The operator, who feels terrible about it. Me. And whatever job was supposed to be on that press that afternoon.
+Jesse Corrigan · 19:06
+And me, because I'm the one who calls the brewery.
+Clodagh Rennard · 19:12
+And a year from now?
+Gwen Tarrant · 19:16
+We're adding a designer in the fall and doing more remote proofing, so more versions flying around. It'll be worse, not better.
+
+── Installs ──
+
+Clodagh Rennard · 19:30
+Wade, you started to say something about installs. The group text.
+Wade Strickler · 19:37
+Yeah. So this is the one that got me to call you, honestly. Two weeks ago. First of July, second, somewhere in there. We had two crews show up at the Valley branch for the credit union. Two trucks, four guys, one job. And nobody at the Cheney branch, where the sign permit hadn't been pulled anyway, so it wouldn't have mattered, except the branch manager in Cheney was standing in her parking lot waiting for us.
+Clodagh Rennard · 20:16
+How did that happen?
+Wade Strickler · 20:20
+Ronnie sent it in the group text. Somebody read the wrong day. And the permit, that's a whole other thing. Ronnie pulls permits, and he thought Jesse had, and Jesse thought Ronnie had.
+Jesse Corrigan · 20:37
+I did think Ronnie had.
+Wade Strickler · 20:41
+So the branch manager calls me. Not Ronnie, not Jesse. Me. Because she's got my cell from the, from the kickoff.
+Clodagh Rennard · 20:52
+What's the workaround today?
+Wade Strickler · 20:56
+Ronnie's group text. The whiteboard has an install column, sort of. And Ronnie's head. He's been here nineteen years, he knows every job. And Ronnie's taking two weeks in August and I'm going to be the one holding the phone.
+Clodagh Rennard · 21:17
+So what stops you carrying on with the text and the whiteboard?
+Wade Strickler · 21:24
+August stops me. And fourteen branches stops me. Ronnie can hold three or four installs a week in his head. He can't hold fourteen branches plus everything else.
+Clodagh Rennard · 21:39
+Who does that reach?
+Wade Strickler · 21:43
+The crews, because they drive to the wrong place. The branch managers. Me. And the permit thing reaches the city, which I don't want.
+Gwen Tarrant · 21:56
+And me, because if a crew comes back with the job, I get it back on my board and now it's late.
+Clodagh Rennard · 22:08
+What does a wasted crew day cost you?
+Wade Strickler · 22:13
+A wasted crew day is two guys and a truck, call it a thousand bucks, and it happens, what, twice a month?
+Gwen Tarrant · 22:25
+More.
+Wade Strickler · 22:27
+Fine. Twice a month that I hear about.
+Clodagh Rennard · 22:32
+Twice a month that you hear about, call it a thousand. Okay.
+Wade Strickler · 22:39
+And that's before the credit union. Fourteen branches by end of November. That's fourteen installs, fourteen permits, fourteen chances to do the Cheney thing again.
+
+── Materials ──
+
+Clodagh Rennard · 22:55
+Anything else on the floor that gets in the way? Gwen?
+Gwen Tarrant · 23:02
+Materials. We run out of a substrate mid-job because nobody ordered it. I order from memory. It happens.
+Clodagh Rennard · 23:12
+Often?
+Gwen Tarrant · 23:14
+Often enough. I don't have a number. It's not the big one.
+Clodagh Rennard · 23:21
+Okay, noted. We can come back to it.
+
+── Why now ──
+
+Clodagh Rennard · 23:28
+Wade, you said the Valley thing got you to call. Was there anything else? Why now and not last year?
+Wade Strickler · 23:39
+Three things. The credit union. Tamarack Peaks signed with us in May for the rebrand, all fourteen branches, exterior faces, window vinyl, interior wayfinding, and wraps on six of their vehicles. They want every branch done before their rebrand launch, which is the first of December, so the thirtieth is our date. That's the biggest single job we've ever taken. Second, um, the schedule thing in June. Losing two weeks of the schedule off a shared drive told me we're running on luck. And third, honestly, I've been putting this off for three years. Every year it's "after the busy season" and there isn't one, it's all busy season.
+Clodagh Rennard · 24:33
+When does the first branch start?
+Wade Strickler · 24:37
+First one's mid-September. Valley, the one we already did the faces for. Then roughly one a week.
+Clodagh Rennard · 24:47
+So you'd want the install side working by September.
+Wade Strickler · 24:53
+Before the branches start. First one's mid-September, so I want the install side working by September. The rest, I'd like it before Thanksgiving, because I don't want to be doing this in November.
+
+── Cost ──
+
+Clodagh Rennard · 25:12
+Let me try to put some of this together, and stop me where I'm wrong. Jesse's hour and a half a day. Gwen's hour, call it. That's two and a half hours a day, five days, twelve and a half hours a week, just on chasing. What do you load an hour at, for the two of them?
+Wade Strickler · 25:41
+Don't know. Lupe would know what we load. I'd guess... no, I'm not going to guess.
+Clodagh Rennard · 25:50
+Fair. Let's call it fifty an hour for now, just to have a number in the model, and Lupe can correct it.
+Wade Strickler · 26:02
+Sure, whatever you want to use for the model, but that's your number.
+Clodagh Rennard · 26:10
+Understood, it's mine. So twelve and a half hours at fifty is six twenty-five a week, thirty-two five a year, roughly. Plus the forty in reprints. Plus the crew days, a thousand twice a month, twenty-four. So with the forty, that's sixty-four thousand plus the hours. Call it ninety-six, ninety-seven thousand a year.
+Wade Strickler · 26:37
+I mean, it's real money.
+Clodagh Rennard · 26:41
+Does it feel right?
+Wade Strickler · 26:45
+It feels like a lot of things I'd want Lupe to look at. The forty is the one I'd stand behind, if she says so.
+Gwen Tarrant · 26:59
+The hours are right. If anything I'm low.
+Jesse Corrigan · 27:04
+Same.
+Clodagh Rennard · 27:06
+Okay. I'll write it down as yours on the hours and mine on the rate.
+
+── What good looks like ──
+
+Clodagh Rennard · 27:17
+If this were working, six months from now, what's different on a Tuesday?
+Wade Strickler · 27:25
+I want to look at one screen and know what's late and why. Not walk out to the board, not call Gwen. One screen. And Jesse answers "where's my job" by looking, not walking.
+Jesse Corrigan · 27:43
+If I could answer the call while I'm on the call, that's it. That's the job.
+Gwen Tarrant · 27:52
+I want the floor to see the queue without me. What's on the laminator today, what's on the plotter, what's ready. Not me reading the board out loud at seven-thirty.
+Clodagh Rennard · 28:08
+And what would Vern count as a win?
+Wade Strickler · 28:13
+I'm the leadership. The win is I stop getting the branch manager's calls. Vern would count it a win if the credit union re-signs in two years, which they won't if we do the Cheney thing fourteen times.
+Clodagh Rennard · 28:33
+And if Jesse weren't on the phone all day?
+Wade Strickler · 28:39
+If Jesse weren't on the phone all day he'd be selling. He's supposed to be an account manager, not a switchboard. We turned down the county parks wayfinding bid in May because we couldn't take it on with the credit union coming. That was a hundred and twenty-ish, over two years.
+Clodagh Rennard · 29:05
+Would you have won it?
+Wade Strickler · 29:09
+We did their last one. So, probably.
+
+── Decision and timing ──
+
+Clodagh Rennard · 29:16
+Who decides on something like this?
+Wade Strickler · 29:20
+Me. I sign it. Anything over five grand a year I'll talk to my brother Vern, he's the other half of the company, but he'll do what I say on this. He'll want to know what it costs a month. Lupe sets up the payment, and she'll want to see the seat count. She's particular about seats. We pay for six of something we use two of.
+Clodagh Rennard · 29:54
+And what did buying the estimating system look like? Who was involved?
+Wade Strickler · 30:01
+Me. Twenty twenty-two. Took me two weeks, I just did it. Vern found out when the [inaudible] invoice came.
+Clodagh Rennard · 30:12
+And after a yes, who rolls it out?
+Wade Strickler · 30:17
+Gwen and Jesse. And me, if I'm honest, because if I don't use it, nobody will.
+Clodagh Rennard · 30:26
+What could stop this going ahead? Gwen?
+Gwen Tarrant · 30:31
+The floor. Half of them don't want to touch a computer. If it isn't on the whiteboard it doesn't exist. So whatever it is, it's on a screen on the wall or it's on their phone, or it's not happening.
+Wade Strickler · 30:52
+And me. If I don't use it, nobody will. That's what killed the last two things we tried.
+Jesse Corrigan · 31:02
+And Ronnie. If it's not on his phone he's not looking at it.
+Clodagh Rennard · 31:10
+Understood. Priority, then. This quarter, next quarter?
+Wade Strickler · 31:15
+Before the branches start. I said September. I'm not doing this in November.
+
+── Playback and next step ──
+
+Clodagh Rennard · 31:25
+Let me play back what I heard, not to sign anything, just to check I've got it. Jobs, with the job number from the estimating system, and where each one is: art, proof out, approved, in production, ready, installed. The proof status visible, so Jesse can answer the call from his desk. Production, so the floor can see what's on each station. Installs by crew, with the permit, so Ronnie and the crews see the same day. And something for you, Wade, that shows what's late. Quoting stays where it is.
+Wade Strickler · 32:11
+That's the shape of it. Let's see it first.
+Gwen Tarrant · 32:17
+The floor part is the part I care about.
+Clodagh Rennard · 32:23
+Then let's show you. I'd like Kofi to walk you through what that looks like, in your language, not a generic demo. Thursday the twenty-third at ten?
+Wade Strickler · 32:38
+Ten on the twenty-third works. Gwen?
+Gwen Tarrant · 32:42
+I'll be here.
+Jesse Corrigan · 32:45
+I can do ten.
+Clodagh Rennard · 32:49
+I'll send the invite this afternoon. And Jesse, could you send me your spreadsheet? Just so we, um, build the first version around what you actually track.
+Jesse Corrigan · 33:03
+I can send you my spreadsheet. I'll take the customer names out.
+Clodagh Rennard · 33:10
+Perfect. Thanks, all three of you. This was really useful.
+Wade Strickler · 33:16
+Thanks. Go easy on the sales pitch next time.
+Clodagh Rennard · 33:22
+[laughs] Noted.

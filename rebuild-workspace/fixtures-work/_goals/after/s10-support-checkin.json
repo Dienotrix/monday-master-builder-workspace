@@ -1,0 +1,646 @@
+{
+  "fixture": "s10-support-checkin",
+  "sources": [
+    {
+      "name": "transcript.txt",
+      "kind": "transcript",
+      "format": "line-plain",
+      "units": 80,
+      "unsupported": null
+    }
+  ],
+  "counts": {
+    "pairs": 82,
+    "verified": 82,
+    "verified_presence_only": 9,
+    "skipped": 2,
+    "unparsed_prose": 0,
+    "near_misses": 0,
+    "misses": 0,
+    "unsupported": 0,
+    "warnings": 0
+  },
+  "refused_quotes_not_checked": [],
+  "skipped": [
+    {
+      "path": "/numbers/bleed/quote",
+      "reason": "null or empty"
+    },
+    {
+      "path": "/numbers/upside/quote",
+      "reason": "null or empty"
+    }
+  ],
+  "pairs": [
+    {
+      "path": "/rubric[0]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Good. You said something wasn't behaving. Let's do that first.",
+      "location": "L7, Consultant",
+      "cited": "transcript.txt, L7, Consultant"
+    },
+    {
+      "path": "/rubric[0]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Fair enough. Open the Phases board for Harwood and tell me how many milestone rows you see on the CD phase.",
+      "location": "L17, Consultant",
+      "cited": "transcript.txt, L17, Consultant"
+    },
+    {
+      "path": "/rubric[0]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "There it is. Nothing is broken.",
+      "location": "L21, Consultant",
+      "cited": "transcript.txt, L21, Consultant"
+    },
+    {
+      "path": "/rubric[0]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Oh. Right. And I was looking at the second row, because that's the one my eye lands on. Both called the same thing.",
+      "location": "L24, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L24, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[0]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "That's the only real problem here, and it's a naming one, not a setup one.",
+      "location": "L25, Consultant",
+      "cited": "transcript.txt, L25, Consultant"
+    },
+    {
+      "path": "/rubric[1]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "While we're here, notice what did happen this time.",
+      "location": "L33, Consultant",
+      "cited": "transcript.txt, L33, Consultant"
+    },
+    {
+      "path": "/rubric[1]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The PM marked the fifty percent set the day it went out, Bev knew that day, and she invoiced it inside the week.",
+      "location": "L33, Consultant",
+      "cited": "transcript.txt, L33, Consultant"
+    },
+    {
+      "path": "/rubric[1]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "In the summer that letter would have sat in a job folder until she went hunting for it at the close.",
+      "location": "L33, Consultant",
+      "cited": "transcript.txt, L33, Consultant"
+    },
+    {
+      "path": "/rubric[1]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Harwood, of all jobs. That's the one she found weeks late.",
+      "location": "L34, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L34, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[2]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "With the milestones off your plate, what's still being done by hand?",
+      "location": "L53, Consultant",
+      "cited": "transcript.txt, L53, Consultant"
+    },
+    {
+      "path": "/rubric[2]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Say more about that.",
+      "location": "L55, Consultant",
+      "cited": "transcript.txt, L55, Consultant"
+    },
+    {
+      "path": "/rubric[2]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Is the part that hurts the approving, or knowing what's left?",
+      "location": "L61, Consultant",
+      "cited": "transcript.txt, L61, Consultant"
+    },
+    {
+      "path": "/rubric[3]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Nobody can tell you what's left.",
+      "location": "L58, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L58, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[3]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I'm going to write it down the way you said it and leave it there for today, because you called me about a milestone, not about consultants.",
+      "location": "L63, Consultant",
+      "cited": "transcript.txt, L63, Consultant"
+    },
+    {
+      "path": "/rubric[3]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "When you and Tess want to look at it properly, we'll start with a conversation about it rather than me building something.",
+      "location": "L65, Consultant",
+      "cited": "transcript.txt, L65, Consultant"
+    },
+    {
+      "path": "/rubric[4]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Two things I'd keep an eye on between now and the new year.",
+      "location": "L69, Consultant",
+      "cited": "transcript.txt, L69, Consultant"
+    },
+    {
+      "path": "/rubric[4]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "One, those two milestone rows, until you've renamed them everywhere.",
+      "location": "L69, Consultant",
+      "cited": "transcript.txt, L69, Consultant"
+    },
+    {
+      "path": "/rubric[4]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Two, whether the Des Moines PMs are keeping their own allocations current, because that's the data Tess will want for the structural hire.",
+      "location": "L69, Consultant",
+      "cited": "transcript.txt, L69, Consultant"
+    },
+    {
+      "path": "/rubric[5]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The PM is meant to check the invoice against what we agreed with them, approve it, and pass it to Bev, and she enters it in Ajera and pays it.",
+      "location": "L56, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L56, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[5]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Monday mornings, quietly, yes. Hours and the phase fees.",
+      "location": "L50, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L50, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[5]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "It's that there's no total anywhere except in Bev's head and in Ajera, and Ajera tells you what we've paid them, not what we still owe them.",
+      "location": "L62, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L62, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[12]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Appreciated. It isn't urgent. It's just the next thing, I think.",
+      "location": "L64, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L64, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[12]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "January. She wants to decide in January.",
+      "location": "L70, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L70, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[14]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Let's get a proper check-in in the diary. After Bev's next close?",
+      "location": "L75, Consultant",
+      "cited": "transcript.txt, L75, Consultant"
+    },
+    {
+      "path": "/rubric[14]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "After the close is better, yeah.",
+      "location": "L76, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L76, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[14]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Can you just find something the week after?",
+      "location": "L76, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L76, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[14]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "I'll find a slot the week after the close and send it over, and you move it if it clashes.",
+      "location": "L77, Consultant",
+      "cited": "transcript.txt, L77, Consultant"
+    },
+    {
+      "path": "/rubric[15]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The Tuesday call was twenty-two minutes last week.",
+      "location": "L38, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L38, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[15]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I am not rebuilding anything on a Monday. I got my Monday back.",
+      "location": "L40, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L40, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[15]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Karen uses it. I would not have put money on that.",
+      "location": "L42, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L42, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[15]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Everything comes in through it now. Hallie made it the only way in.",
+      "location": "L44, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L44, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[15]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Hallie logged it, and the PIC out there and the PM both had it in their notifications before lunch.",
+      "location": "L46, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L46, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[15]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "Every Monday morning.",
+      "location": "L48, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L48, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[17]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Hm. The consultants, probably. Our outside ones, I mean, not you.",
+      "location": "L54, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L54, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[17]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Nobody can tell you what's left.",
+      "location": "L58, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L58, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[18]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Gordon asked me last week how much of Fenwick's fee was left on the fire station, and it took me most of an afternoon.",
+      "location": "L58, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L58, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[18]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I had Bev pull what she'd paid them, and then I was adding up PDFs in my own inbox to see what was in flight.",
+      "location": "L58, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L58, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[19]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So we carry them in our fee.",
+      "location": "L56, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L56, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[19]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The PM is meant to check the invoice against what we agreed with them, approve it, and pass it to Bev, and she enters it in Ajera and pays it.",
+      "location": "L56, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L56, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[19]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Knowing what's left. The approving is fine, honestly, it's email and it works.",
+      "location": "L62, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L62, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[20]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "their invoices come in as PDFs, by email, usually to the PM and sometimes straight to Bev",
+      "location": "L56, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L56, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[20]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And I still gave him a number with a \"roughly\" in front of it.",
+      "location": "L58, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L58, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[21]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "it took me most of an afternoon",
+      "location": "L58, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L58, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[21]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Two or three. Four on a school.",
+      "location": "L60, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L60, Jordan Pruitt"
+    },
+    {
+      "path": "/rubric[21]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Almost all the school work has a civil and a landscape on it, and the district usually wants the consultant agreements in with the proposal, so it starts back at the pursuit.",
+      "location": "L60, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L60, Jordan Pruitt"
+    },
+    {
+      "path": "/pains[0]/quote",
+      "status": "verified",
+      "quote": "Hm. The consultants, probably. Our outside ones, I mean, not you.",
+      "location": "L54, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L54, Jordan Pruitt"
+    },
+    {
+      "path": "/pains[1]/quote",
+      "status": "verified",
+      "quote": "Nobody can tell you what's left.",
+      "location": "L58, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L58, Jordan Pruitt"
+    },
+    {
+      "path": "/pains[2]/quote",
+      "status": "verified",
+      "quote": "Gordon asked me last week how much of Fenwick's fee was left on the fire station, and it took me most of an afternoon.",
+      "location": "L58, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L58, Jordan Pruitt"
+    },
+    {
+      "path": "/pains[3]/quote",
+      "status": "verified",
+      "quote": "The PM is meant to check the invoice against what we agreed with them, approve it, and pass it to Bev, and she enters it in Ajera and pays it.",
+      "location": "L56, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L56, Jordan Pruitt"
+    },
+    {
+      "path": "/pains[4]/quote",
+      "status": "verified",
+      "quote": "It's that there's no total anywhere except in Bev's head and in Ajera, and Ajera tells you what we've paid them, not what we still owe them.",
+      "location": "L62, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L62, Jordan Pruitt"
+    },
+    {
+      "path": "/pains[5]/quote",
+      "status": "verified",
+      "quote": "And on some jobs we mark them up and bill them through to the owner, so it isn't only our own money we're keeping track of.",
+      "location": "L60, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L60, Jordan Pruitt"
+    },
+    {
+      "path": "/pains[6]/quote",
+      "status": "verified",
+      "quote": "One line that tells me where the money is on that phase. Phase, milestone, invoiced, done.",
+      "location": "L16, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L16, Jordan Pruitt"
+    },
+    {
+      "path": "/objections[0]/quote",
+      "status": "verified",
+      "quote": "Appreciated. It isn't urgent. It's just the next thing, I think.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L64, Jordan Pruitt"
+      ]
+    },
+    {
+      "path": "/objections[1]/quote",
+      "status": "verified",
+      "quote": "That's the example I use when people moan about having to update their own rows.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L46, Jordan Pruitt"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[0]/quote",
+      "status": "verified",
+      "quote": "Then that's what I'm doing this afternoon. CDs fifty percent set, CDs hundred percent set. Every job in CA.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L28, Jordan Pruitt"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[1]/quote",
+      "status": "verified",
+      "quote": "I'm going to write it down the way you said it and leave it there for today, because you called me about a milestone, not about consultants.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L63, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[2]/quote",
+      "status": "verified",
+      "quote": "I'll find a slot the week after the close and send it over, and you move it if it clashes.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L77, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[3]/quote",
+      "status": "verified",
+      "quote": "I'll dig it out and send it round.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L74, Jordan Pruitt"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[4]/quote",
+      "status": "verified",
+      "quote": "I'll lean on them. Gently.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L72, Jordan Pruitt"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[5]/quote",
+      "status": "verified",
+      "quote": "When you and Tess want to look at it properly, we'll start with a conversation about it rather than me building something.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L65, Consultant"
+      ]
+    },
+    {
+      "path": "/account_context/evidence_quote_or_null",
+      "status": "verified",
+      "quote": "That was Marcus's condition for the whole thing, and it's why we ended up on the enterprise plan in the first place.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L52, Jordan Pruitt"
+      ]
+    },
+    {
+      "path": "/readiness/pains[0]/quote",
+      "status": "verified",
+      "quote": "Hm. The consultants, probably. Our outside ones, I mean, not you.",
+      "location": "L54, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L54, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/pains[1]/quote",
+      "status": "verified",
+      "quote": "Nobody can tell you what's left.",
+      "location": "L58, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L58, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/pains[2]/quote",
+      "status": "verified",
+      "quote": "Gordon asked me last week how much of Fenwick's fee was left on the fire station, and it took me most of an afternoon.",
+      "location": "L58, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L58, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/pains[3]/quote",
+      "status": "verified",
+      "quote": "The PM is meant to check the invoice against what we agreed with them, approve it, and pass it to Bev, and she enters it in Ajera and pays it.",
+      "location": "L56, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L56, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/pains[4]/quote",
+      "status": "verified",
+      "quote": "It's that there's no total anywhere except in Bev's head and in Ajera, and Ajera tells you what we've paid them, not what we still owe them.",
+      "location": "L62, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L62, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/pains[5]/quote",
+      "status": "verified",
+      "quote": "And on some jobs we mark them up and bill them through to the owner, so it isn't only our own money we're keeping track of.",
+      "location": "L60, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L60, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/pains[6]/quote",
+      "status": "verified",
+      "quote": "One line that tells me where the money is on that phase. Phase, milestone, invoiced, done.",
+      "location": "L16, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L16, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/signals[0]/quote",
+      "status": "verified",
+      "quote": "the first thing she does at close now is open the phases and filter to ready to invoice",
+      "location": "L36, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L36, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/signals[1]/quote",
+      "status": "verified",
+      "quote": "Gordon asked me last week how much of Fenwick's fee was left on the fire station",
+      "location": "L58, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L58, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/signals[2]/quote",
+      "status": "verified",
+      "quote": "Marcus asks me about once a fortnight whether anything writes back the other way and I tell him no, same as last time. He likes hearing it.",
+      "location": "L50, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L50, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/signals[3]/quote",
+      "status": "verified",
+      "quote": "the district usually wants the consultant agreements in with the proposal, so it starts back at the pursuit",
+      "location": "L60, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L60, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/signals[4]/quote",
+      "status": "verified",
+      "quote": "Tess asked me to ask you about the portfolio thing from scoping. For looking across the four offices.",
+      "location": "L66, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L66, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[0]",
+      "status": "verified",
+      "quote": "We sign an agreement with each of them for their piece, and then their invoices come in as PDFs, by email, usually to the PM and sometimes straight to Bev.",
+      "location": "L56, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L56, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[1]",
+      "status": "verified",
+      "quote": "It's that there's no total anywhere except in Bev's head and in Ajera, and Ajera tells you what we've paid them, not what we still owe them.",
+      "location": "L62, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L62, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[2]",
+      "status": "verified",
+      "quote": "And on some jobs we mark them up and bill them through to the owner, so it isn't only our own money we're keeping track of.",
+      "location": "L60, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L60, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[0]",
+      "status": "verified",
+      "quote": "Knowing what's left. The approving is fine, honestly, it's email and it works.",
+      "location": "L62, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L62, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[1]",
+      "status": "verified",
+      "quote": "Appreciated. It isn't urgent. It's just the next thing, I think.",
+      "location": "L64, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L64, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[0]",
+      "status": "verified",
+      "quote": "One says invoiced, and there's a date and an invoice number next to it. The other says not reached. And -- oh. They're both called CD set.",
+      "location": "L20, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L20, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[1]",
+      "status": "verified",
+      "quote": "Then that's what I'm doing this afternoon. CDs fifty percent set, CDs hundred percent set. Every job in CA.",
+      "location": "L28, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L28, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[0]",
+      "status": "verified",
+      "quote": "January. She wants to decide in January.",
+      "location": "L70, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L70, Jordan Pruitt"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[1]",
+      "status": "verified",
+      "quote": "I'll lean on them. Gently.",
+      "location": "L72, Jordan Pruitt (Operations Manager)",
+      "cited": "transcript.txt, L72, Jordan Pruitt"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+import json,os
+F="/Users/caramelm4/DelOps/rebuild-workspace/fixtures"
+SC=["s5-intro-thin","s6-discovery-crm-sales","s7-discovery-service-desk","s8-discovery-enterprise-pmo","s9-followup-no-portfolio-unlabelled","s10-support-checkin"]
+for s in SC:
+    k=json.load(open(os.path.join(F,s,"answer-key.json")))
+    print("="*90); print(f"### {s} call_type={k['call_type']}")
+    c=k["company"]; print(f"COMPANY: {c['name']} | {c['industry'][:160]} | SIZE {str(c['size'])[:160]} | LOC {str(c['locations'])[:160]}")
+    print("TOOLS: "+ " ; ".join(str(t)[:60] for t in c.get("current_tools",[]))[:500])
+    print("ATTENDEES: "+" | ".join(f"{a['name']} ({str(a['role'])[:60]}) [{str(a['decision_role'])[:40]}]" for a in k["attendees"]))
+    print("FORMAT: "+str(k["transcript_format"])[:1100])
+    p=k["purpose_of_this_fixture"]; p=p if isinstance(p,str) else json.dumps(p)
+    print("PURPOSE: "+p[:1400])
+    print("PRODUCTS: "+" || ".join(f"{x['kind']}: {str(x['why'])[:200]}" for x in k["expected_monday_products"]))
+    print("R: "+"; ".join(f"{r['criterion'].split(' ')[0]}={r['status']}" for r in k["rubric"] if r["criterion"].startswith("R")))
+    print(f"BLEED[{k['numbers']['bleed']['status']}]: "+str(k['numbers']['bleed']['value'])[:300])
+    print(f"UPSIDE[{k['numbers']['upside']['status']}]: "+str(k['numbers']['upside']['value'])[:300])
+    v=k["expected_verdict"]; print(f"VERDICT: {v['verdict']}")
+    print("  MET: "+json.dumps(v.get("gates_met"))[:400]); print("  NOT: "+json.dumps(v.get("gates_not_met"))[:600])
+    print("  NOTE: "+str(v.get("note"))[:700])
+    ac=k["account_context"]; print(f"TIER: {str(ac.get('tier'))[:300]}")
+    print("ENABLED: "+json.dumps(ac.get("products_enabled"))[:400])
+    print("SETUP: "+str(ac.get("existing_monday_setup"))[:450])
+    print("TIER_EV: "+str(ac.get("evidence_quote_or_null"))[:200])
+    es=k["expected_structures"]
+    print("NATIVE: "+" || ".join(f"{b.get('product')}/{b.get('entity')}" for b in es.get("native_boards_required",[])) or "NONE")
+    print(f"PORTFOLIO: {es.get('portfolio_expected')!r} :: {str(es.get('portfolio_reason'))[:350]}")
+    print(f"LOOKALIKES: {len(es.get('lookalike_traps',[]))}")
+    print("NOTES: "+str(es.get("notes"))[:400])
+    print("INTEG: "+json.dumps(k["integrations_mentioned"])[:450])
+    print("COMPLY: "+json.dumps(k["compliance_or_security_signals"])[:450])
+    print("RC: "+" || ".join(f"[{r.get('type')}] {str(r.get('description'))[:70]}" for r in k["requested_changes"])[:700])
+    print("NEXTSTEP: "+" || ".join(f"{str(cm.get('what'))[:70]} ~{cm.get('date')}" for cm in k["commitments_and_next_steps"][:3])[:400])

@@ -1,0 +1,357 @@
+Consultant: Hey, there we go. Am I coming through okay?
+
+Marisol: Yep, I can hear you. Hi! Sorry, we're a couple minutes late, the phones were, um -- it's been a morning.
+
+Consultant: Oh, no worries at all. Is Travis joining too?
+
+Marisol: He's coming, he's -- he's walking over from dispatch. He had a thing. Oh, here he is. Travis, just grab a chair, sit by me.
+
+Travis: Hey. Sorry. Sorry about that. I had a guy get a flat out past the county line, so.
+
+Consultant: Oh, no. Is he okay?
+
+Travis: Yeah, he's fine, he's just sitting there waiting on the tire guy. So now I've got, what, five stops to move. [laughs] Anyway. Hi.
+
+Consultant: Ha. Well, that's kind of perfect timing for this conversation, honestly. So before we dive in, how's the season going? I feel like September's gotta be kind of a weird month for you guys.
+
+Marisol: It's -- yeah, it's a weird one. The lawn side is doing aeration and overseeding, all that, and the pest side is still bees. Wasps, yellow jackets. Everybody's got a nest in their mailbox right now.
+
+Travis: And mice start next month.
+
+Marisol: And mice start next month, yeah. So it doesn't really slow down. It just kind of changes.
+
+Consultant: That's funny, my neighbor had a yellow jacket nest in the ground this summer, and he tried to pour, like, gasoline on it --
+
+Travis: Oh, no. No, no.
+
+Consultant: -- yeah, it did not go great. Nobody got hurt. But his lawn has a, a spot now. [laughs]
+
+Travis: We see that a lot. [laughs] That's a lawn call and a pest call.
+
+Consultant: [laughs] Right, double dip. So has Quillmoor been around a long time?
+
+Travis: Gary started it out of his garage in, like, ninety-eight? Ninety-nine.
+
+Marisol: Ninety-nine. It's on the trucks.
+
+Travis: It's on the trucks, okay. [laughs]
+
+Consultant: Very cool. Okay, so, um, thanks for making the time, I know you're both slammed. And just so I've got it right, Marisol, you're customer service, and Travis, you're dispatch?
+
+Marisol: Yeah, I'm the customer service lead. So it's me and four CSRs -- well, three and a half, Brianna's part-time. We're the phones, basically.
+
+Travis: And I'm dispatch. For the main branch, Tolliver Road. I help North out sometimes but they mostly do their own routes.
+
+Consultant: Perfect. Okay. So what I figured we'd do, I'll give you a little bit of background on monday first, just so you know what we're working with, and then I want to hear how things run over there.
+
+Marisol: Sounds good.
+
+Consultant: Cool. So monday is basically a work platform. Everything lives on boards, and a board is kind of like a really smart spreadsheet. Each row is an item, so for you guys an item could be a job, or a customer, or a request, whatever makes sense. And then you've got columns for the status, who it's assigned to, dates, notes, all that. And the really cool part is the automations. So when a status changes, it can notify somebody, or move the item to another group, or create something on a different board, so stuff doesn't depend on somebody remembering. Then on top of the boards you've got dashboards, so, like, an owner can see everything at a glance without asking around. There's a mobile app, so your techs could have it right on their phones. There's docs too, so you can keep your how-tos and procedures right next to the work. And then there's a whole product called monday service, which is built for tickets. So customer requests come in by email or a form, they turn into tickets automatically, and you can assign them, track them, see how long they've been open. And they've been adding a ton of AI lately too, so it can summarize stuff, sort incoming requests, even draft replies for you. So it's really flexible. Pretty much whatever your process is, we can build it in there. Um, so that's the thirty-second version. It was not thirty seconds. [laughs]
+
+Travis: [laughs] That's okay.
+
+Consultant: But yeah. Have you guys used monday before, or anything like it?
+
+Marisol: No. I've seen the ads. Kelsey said she used it at her old job, maybe? Or it was a different one. I don't remember.
+
+Consultant: Okay, no problem. So tell me how things work today. Where do you want to start?
+
+Marisol: Um. Okay. So, everything comes in through us. New customers, people wanting to add lawn to their pest, cancellations, billing questions, and then, um, the big one is when somebody calls because the bugs are back.
+
+Consultant: Got it.
+
+Marisol: So say we've got somebody on a quarterly plan. They got serviced, like, three weeks ago, and now they've got ants in the kitchen again. And that's covered, that's a re-treat, we go back out for free. So they call in, and --
+
+Consultant: Oh, that's a perfect use case for monday service, honestly. So that call becomes a ticket, it gets a status, it gets assigned to --
+
+Marisol: Well -- sorry -- it's not really a ticket yet, at that point. Like, a service ticket for us is the actual visit. That's in the system.
+
+Consultant: Oh, okay. Gotcha. The system being...?
+
+Marisol: The -- our software. The pest software. It's, um -- Travis, what's it actually called?
+
+Travis: I don't even know. We just call it the system. Gary bought it before I started.
+
+Marisol: It's got all the customers, the plans, it makes the routes. It's old. It's fine. It's just old.
+
+Consultant: Okay. So when they call in about the ants?
+
+Marisol: Right, so when they call we put it on the callback sheet.
+
+Consultant: The callback sheet.
+
+Marisol: Yeah, it's a Google Sheet. Kelsey made it, that's Gary's daughter, she does our website and stuff. And it's got the customer, the address, what's going on, what plan they're on, and which tech was out there last. And then Travis looks at the sheet and puts it on the board.
+
+Travis: The actual board. Like, the whiteboard. [laughs] Not a monday board.
+
+Consultant: Ha, okay, good to know. The physical whiteboard.
+
+Travis: Big whiteboard. Every tech's got a row, every stop's a magnet. It's very high tech.
+
+Consultant: [laughs] I love it. Honestly.
+
+Travis: And then it's a callback, so the tech's gotta go back out --
+
+Marisol: [crosstalk] Well, a callback's not always a re-treat --
+
+Travis: -- no, I know, but for me --
+
+Marisol: A callback can be a billing thing. It can be somebody who just wants a call.
+
+Travis: For me a callback is a truck going back out. That's all I care about. [laughs]
+
+Marisol: [laughs] Okay. Fine. And it depends on what they have, too. If you're on a plan, the re-treats are covered. If it was a one-time, you get thirty days. So if it's, like, day thirty-four, that's a whole conversation.
+
+Consultant: Oh, that's easy, a formula column can count the days since the last service and flag it for you.
+
+Marisol: Okay. Yeah. So anyway, it gets on the board, hopefully, and the tech goes out, and it's done. But, um -- the problem is when it doesn't get on the board. Like it just sits on the sheet.
+
+Consultant: How does that happen?
+
+Marisol: Different ways. Like, sometimes a CSR puts it on the sheet but she doesn't put the plan, so Travis doesn't know if it's a re-treat or if we're charging for it, so it sits. Or it gets on the board, and then there's a rain day and the whole board gets wiped and redone, and that one just doesn't make it back up. Last week I had a lady over on Pheasant Run call three times. Three times. Same spiders. And the third time she was, like -- she wasn't crying, but she was upset. And I go look, and it's on the sheet from the first call. It just never went anywhere.
+
+Consultant: Oof. Yeah.
+
+Marisol: And then she's asking for Gary. And then Gary's asking me.
+
+Consultant: Right. See, in monday that basically can't happen, because every request has a status, and if it sits in "new" for more than, say, a day, it automatically pings Travis. Or you. And it's on a dashboard, so nothing just sits there quietly.
+
+Marisol: Yeah. That'd be nice.
+
+Consultant: And today, like, beyond the sheet, is there anything that flags it?
+
+Marisol: No, I mean, the sheet's fine. It's fine. It's more that, um --
+
+Consultant: Yeah, a spreadsheet can only take you so far, right? It doesn't tell anybody anything. It just sits there.
+
+Marisol: Yeah, I mean, sure.
+
+Consultant: How many of those come in? The re-treat calls?
+
+Marisol: Oh, gosh. This time of year? Fifteen, twenty a week, maybe? Summer's more. Summer's like double. Travis, does that sound right?
+
+Travis: For both branches, or just us?
+
+Marisol: Just us.
+
+Travis: Yeah. Maybe. North does their own thing.
+
+Consultant: North is the other branch?
+
+Marisol: Yeah, the North branch. Lorna runs it. They opened, what, two years ago? Two and a half. They've got their own CSR, and she has, um -- she has her own spreadsheet. [laughs] It's a different spreadsheet.
+
+Travis: It's a different everything up there. Which, I mean, Lorna's great. It's just, when I cover for them, I don't know where anything is.
+
+Consultant: [laughs] Got it. Okay. So Travis, walk me through your side. What does your morning look like?
+
+Travis: Mornings are the worst. So the system spits out the routes the night before, right, based on the plans, who's due. And I print those, the route sheets. And then I come in and it's all wrong.
+
+Marisol: [laughs]
+
+Travis: Not all wrong. But, like, a guy calls out. Or a truck's down. Or we've got re-treats that have to go in, or somebody calls at quarter to eight and they need a wasp nest off their deck before their kid's birthday party. So I'm moving magnets around on the board, and then I'm texting the guys their changes. And half of them don't read the texts, so then I'm calling them.
+
+Consultant: So how long does that take you? Like, the whole shuffle.
+
+Travis: I'm in at six. I'm usually still redoing routes at eight, eight-fifteen? So call it two hours. Every morning. Saturdays too, in the season.
+
+Consultant: Oof. Okay. Two hours a day, yeah, that's a lot. So this is actually where it gets fun. What I'd do is set up a routes board, where each tech is a group and every stop is an item. So when somebody calls out, you just drag his stops over to somebody else, and the tech gets a notification on the app right away. No texting, no calling. And you could even have an automation where if a truck gets marked as down, it flags every stop on that route, so you know exactly what needs to move. And if you add a location column, there's a map view, so you can literally see all the stops for the day on a map and kind of eyeball who's closest. And then at the end of the day the tech just marks each stop done on his phone, so you're not waiting on paper to find out what actually happened. You'd know by, like, three o'clock where everybody's at.
+
+Travis: Okay. I mean, it's -- honestly the board works. It works. Everybody gets their stops. It's just, if I'm --
+
+Consultant: Right, right, and see, that's exactly the thing. The whiteboard only exists in that one room. With monday it's everywhere. The techs see their changes on their phone the second you make them.
+
+Travis: Yeah.
+
+Consultant: Do your guys have smartphones? Like company phones?
+
+Travis: Most of them. Some are personal phones. And the older guys -- I've got guys who still want the paper sheet. They like the paper. They write on it.
+
+Marisol: Hector will die before he gives up the paper.
+
+Travis: [laughs] Hector's gonna be buried with a clipboard.
+
+Marisol: He's been here longer than me. He knows every dog on his route by name.
+
+Travis: He knows the dogs better than the customers.
+
+Consultant: [laughs] Well, the app's really easy. Most people pick it up in a day, honestly.
+
+Travis: We tried a scheduling thing, like, three years ago? Some app. Gary bought it. Nobody used it. It kind of just went away.
+
+Consultant: Yeah, a lot of those apps are really rigid. monday's different because you build it around how you already work.
+
+Travis: Mm.
+
+Travis: Sorry, hang on. [radio chatter] Yeah, go ahead. [inaudible] No, send him to Maple Hollow first, then the Brennan re-treat. Yeah. Okay. Sorry. That was the flat.
+
+Consultant: No, you're good. So what's on the paper? What are the guys writing on it?
+
+Travis: So the service ticket's got the customer, the address, what service they're getting, the gate code, dog notes, whatever. Lockbox code if we go inside. And then the tech writes what he put down, like the product, how much, what pest it was for, and the customer signs if they're home. And that's gotta go in the system, because that's the state. That's the application record. We can get audited on that.
+
+Consultant: Sure. And monday can store all of that. You'd have a form the tech fills out on his phone and it goes right onto the item.
+
+Travis: I mean, it has to be in the system, though. That's where we pull it for the state.
+
+Consultant: Yeah, yeah, we can figure out the integration piece.
+
+Marisol: And right now somebody types those in. Rhonda. Off the paper.
+
+Consultant: Okay. Got it.
+
+Marisol: And the other thing on the tickets -- sorry, I'm jumping around --
+
+Consultant: No, jump around. That's great.
+
+Marisol: The techs will write stuff like, "customer asked about mosquito," or "wants a termite inspection." And that's supposed to come to us as a lead, so we can call them. And it doesn't. It's on the ticket. The ticket's in the truck.
+
+Travis: The ticket's under the seat with a gas station burrito wrapper.
+
+Marisol: [laughs] Yeah. Pretty much.
+
+Consultant: Yeah, see, that's a great one for automations too. The second a tech flags it, it creates a lead, and you could even run that through monday CRM, so you've got a little sales pipeline for your add-ons.
+
+Marisol: Hm. Maybe. That's more Gary's side. The sales stuff.
+
+Travis: My leads are better about it. They'll actually text me.
+
+Consultant: Oh, nice. Okay. Oh -- and another thing, while I'm thinking about it. You could put a form right on your website, so customers can request their own re-treat. They pick what's going on, upload a picture of the bug, and it goes straight in as a ticket. They wouldn't even have to call.
+
+Marisol: Oh. Huh. That sounds interesting.
+
+Travis: Our customers are, like, seventy. [laughs]
+
+Marisol: Some of them. A lot of them. They like to talk to a person. Some of them call just to talk, honestly. We've got a guy who calls every Friday.
+
+Consultant: [laughs] Yeah, it'd be optional, obviously. But you'd be surprised who uses that stuff.
+
+Marisol: Yeah. No, maybe.
+
+Consultant: Okay, what about the lawn side, is that the same flow?
+
+Travis: Kind of. Lawn's on rounds. So a lawn plan is, like, six rounds a year? Seven if they've got the grub control. Round one is early spring, the pre-emergent, and so on. And every customer's supposed to get, say, round three in a certain window, you know? And then if it rains, like, three, four days, everybody's pushed.
+
+Marisol: Rain days are the worst.
+
+Travis: And then we're behind. And I kind of know who's behind, but it's -- it's in my head. The system will show you who's overdue, but it's not great. So we just push everybody down the line and catch up. We always catch up. Eventually.
+
+Consultant: Right. So in monday you'd have a timeline view, and you'd see every round, and if something gets pushed, dependencies can shift everything after it automatically.
+
+Travis: Oh. Okay. Huh.
+
+Marisol: And then customers call going, where's my guy, and I don't know where their guy is.
+
+Consultant: Right, right.
+
+Marisol: And some of them are on the notify list. Where we have to call them before we spray. Like if they've got a medical thing, or the neighbor does. So if they get pushed, we have to call them again. Every time.
+
+Consultant: Oh, that's easy. That's a checkbox and an automation.
+
+Marisol: Okay. And then skips. If somebody says skip me this quarter, that's a skip, and sometimes the skip turns into a cancel and nobody really catches it until, like, billing.
+
+Consultant: Yep, that'd just be a status. Super easy. What about complaints? How do those come in?
+
+Marisol: Ugh. Everywhere. The phones, the office inbox, the website. People call and text Gary directly because his cell number's on, like, the old truck magnets. Or they leave a review. We had a couple bad ones back in the spring, and Gary -- yeah. Gary took that pretty hard.
+
+Travis: He printed one out.
+
+Marisol: He printed one out and put it up in the break room. [laughs] Not in a mean way. Kind of in a mean way.
+
+Consultant: [laughs] Oh, man.
+
+Marisol: So now he forwards me everything, screenshots, voicemails, and I've got a folder in my email, and I try to keep track, like, did we call them back, did we send somebody. And it's -- I mean, it's my inbox, so --
+
+Consultant: Yeah, that's monday service all day. So all of that, the email, the phone, the website, it all lands in one place as tickets. And there's an AI piece that reads the email and tags it, like, complaint versus re-treat request versus billing. It can even tell you if the customer's upset, the sentiment. And it'll draft a reply for you. You can set response targets too, so if a complaint hasn't been touched by end of day it goes red and bumps up to whoever's next. And you'd get reporting, like, how many complaints a month, what they're about, which techs get the most.
+
+Travis: Oh, the guys are gonna love that. [laughs]
+
+Marisol: [crosstalk] Oh, boy. [laughs] Okay. Wow.
+
+Consultant: [laughs] And then Gary could have a dashboard on his phone with every open complaint and how long it's been open.
+
+Marisol: Maybe. He's not really a dashboard guy. He's more of a walk-into-my-office guy.
+
+Travis: [laughs] Yeah. He's a walk-in guy.
+
+Consultant: [laughs] Fair enough. So, um, what made you guys reach out now? Like, why is this the time to look at something?
+
+Marisol: Honestly? Um. I think we just need to be more organized. Like, everything's in five places, and it's kind of gotten worse, I don't know. It's not like we're falling apart, it's just --
+
+Travis: It's a lot of duct tape.
+
+Marisol: It's a lot of duct tape. Yeah.
+
+Consultant: Totally. And honestly that's the number one thing I hear. Everybody just wants to be more organized. That's exactly what monday's built for.
+
+Marisol: Yeah.
+
+Consultant: Okay, so I'm already kind of seeing it, honestly. The way I'd probably set it up, you'd have a customers board, a plans board with every plan and what round they're on, a routes board for Travis with each tech as a group, and then monday service for all the incoming stuff, the re-treats, the callbacks, the complaints, all of it. And those all connect, so when you open up a customer you see their plan, their last visit, any open tickets, the whole history, right there. And then a dashboard on top for Gary, even if he's not a dashboard guy. [laughs] We'll get him there. And then North could just get a copy of the same setup, so both branches finally work the same way.
+
+Marisol: Okay. That's a lot of boards. [laughs]
+
+Travis: Would we still be printing the route sheets from the system, or...?
+
+Consultant: We can figure that part out. It kind of depends on what the system can export. Actually, would monday replace the system eventually, you think? Or would it sit alongside it?
+
+Marisol: Oh, I don't think Gary's getting rid of the system. I mean -- I don't know. Billing's in there. Or, is billing in there? Rhonda does the invoices in QuickBooks, I think the system sends it over? I don't really know how that part works.
+
+Travis: I have no idea how billing works. [laughs] I just send the trucks.
+
+Consultant: No problem. We'll figure out the connection. monday connects to pretty much everything. And so, is it mostly you two I'd be working with, or...?
+
+Marisol: Well, Gary would have to see it. He's the owner. He'd -- yeah, he'd want to see it.
+
+Travis: And Lorna, probably. If it's going to North.
+
+Marisol: If it's going to North. I don't know if it's going to North. That's kind of a Gary question.
+
+Consultant: Great, great. We can loop them in later. So if this all worked, like, what's the dream?
+
+Marisol: The dream. [laughs] Um. I just want to be able to look it up. Like, where's that re-treat at. Without walking back to Travis every time.
+
+Travis: She walks back a lot.
+
+Marisol: I walk back a lot. My step count's great, though.
+
+Consultant: [laughs]
+
+Travis: And for me, like -- if a guy calls out, I just want to push it to the guys and be done. Not chase everybody down.
+
+Consultant: Makes sense. Totally. And timing-wise, is this something you want to get going on soon?
+
+Marisol: I mean -- it's not, like, a fire. But it'd be nice.
+
+Travis: Just not in the spring. If you start something on us in April I'm not picking up the phone. [laughs]
+
+Marisol: Yeah, March through June is -- no. That's all hands.
+
+Consultant: [laughs] Noted. No April.
+
+Travis: Can I ask something? The techs, do they each need, like, a login? Because it's sixty guys. Sixty-ish. More in the summer with the seasonal guys.
+
+Consultant: Yeah, so it's priced by seat, but there's some ways around that, like forms, guest access, that kind of thing. We'd figure out the right mix.
+
+Marisol: Okay. Because Gary's going to ask what it costs. That's literally the first thing he's going to ask.
+
+Consultant: Totally. I'll put some ballpark numbers in there for him.
+
+Consultant: Okay, this was really great, you two. I think I've got a good picture. So what I'll do is put together some ideas, kind of how I'd set it all up for you, plus some rough pricing, and I'll send something over.
+
+Marisol: Okay. Sounds good.
+
+Travis: Cool.
+
+Consultant: And then once you've had a look, we can find a time to walk through it.
+
+Marisol: Yeah. Just email me and I'll forward it to Gary.
+
+Consultant: Perfect. Oh, and if you can, send me a copy of that callback sheet? With the customer info taken out, obviously.
+
+Marisol: Oh, yeah, I can do that. I'll have Kelsey -- no, I'll just do it.
+
+Travis: I can take a picture of the board if you want. It's a disaster right now though. Because of the flat.
+
+Consultant: [laughs] That'd be awesome, yeah. Okay. Thanks, both of you. Go rescue your guy.
+
+Travis: [laughs] Yeah. Thanks, appreciate it.
+
+Marisol: Thanks! Bye.

@@ -1,0 +1,187 @@
+════════════════════════════════════════════════════════════════
+Recording       Production walkthrough - Penhallow
+Recording ID    rec-4397
+Date            2026-08-06
+Duration        12:12
+Host            Clodagh Rennard
+Participants    Clodagh Rennard (host); Kofi Danquah; Wade Strickler; Gwendolyn Tarrant; Jesse Corrigan; Guadalupe Arrieta; Notetaker (recording assistant)
+Transcript      automatic, en-US; speaker labels from meeting accounts
+Highlights      - Reprint volume clarified as two to three per week.
+                - Install permits, phone access and a late-jobs list were reviewed.
+                - Pricing discussion scheduled for August 19 at 2:00 PM.
+════════════════════════════════════════════════════════════════
+
+── Opening ──
+
+Clodagh Rennard · 00:07
+Morning. We've got Lupe with us today, Wade said.
+Lupe Arrieta · 00:13
+I'm here. I'm just listening. Wade wants me to understand what it is before I'm asked to pay for it.
+Wade Strickler · 00:24
+That's about right.
+Clodagh Rennard · 00:27
+Welcome, Lupe. So last time, Gwen asked for the pieces on their own board, and Jesse wanted the job first, so Kofi's built it both ways, and we'll show you both and you can tell us. And the permit and the phone for the installs. And materials. Kofi.
+Kofi Danquah · 00:52
+Sharing. So, the jobs board first, same as last time, that's Jesse's view. Nothing's changed there except I've put the three-day proof rule at two days for anything with the credit union's name on it.
+Jesse Corrigan · 01:10
+Good.
+
+── Pieces, both ways ──
+
+Kofi Danquah · 01:14
+Now the pieces. Way one, what you saw last time. The job, and under it the sub-items. I open Valley, four pieces, each with its stage. The floor view is a filter across all the sub-items. Everything on the laminator today. Way two. A separate, um, a separate production board. One row per piece. Every piece in the shop, whatever job it belongs to, with a column that links it back to the job. The floor views are just this board sorted by station. And on the jobs board, the job row shows a rolled-up status from its pieces, so Jesse still gets his one line.
+Gwen Tarrant · 02:06
+That second one. That's my board. That's the whiteboard, except it's right.
+Jesse Corrigan · 02:13
+And the job row still says where it is?
+Kofi Danquah · 02:19
+It says three of four pieces ready, and it goes to ready on its own when the fourth one does.
+Jesse Corrigan · 02:30
+Then I don't care where the pieces live, as long as I don't have to open four things to answer a call.
+Gwen Tarrant · 02:42
+You wouldn't.
+Wade Strickler · 02:45
+I don't care which, as long as both of you use it.
+Clodagh Rennard · 02:52
+Gwen, you've said the separate board. Jesse, the job first, but you'd live with either. Wade?
+Wade Strickler · 03:01
+I said. I don't care which. Gwen runs the floor, Jesse runs the phones. They'll pick.
+Kofi Danquah · 03:10
+One thing I should say, since I said last time we could change it later. Going from sub-items to a separate board later means re-entering the pieces. It's not a switch. So it's worth picking before we build a lot of history into it.
+Gwen Tarrant · 03:33
+Then it's the separate board, for me.
+Jesse Corrigan · 03:38
+I still want to see the job first. If the job row does what he says, fine. If it doesn't, I want the sub-items.
+Clodagh Rennard · 03:51
+Let's not lock it on the call. We'll write it up both ways and Gwen and Jesse can look at it cold.
+Gwen Tarrant · 04:03
+Fine. But I know which one I want.
+Kofi Danquah · 04:08
+Noted. Both ways in the write-up, Gwen leaning separate board.
+
+── Reprints and the approved file ──
+
+Kofi Danquah · 04:16
+The file thing. Gwen, you wanted the old versions to disappear once one's approved. So here's what I've done. When the job goes to approved, the approved file column locks. Once it's approved, the file's locked, nobody can swap it, and the operator only sees that column on the floor view.
+Gwen Tarrant · 04:42
+If that's true, that's the reprints gone. The version ones, anyway.
+Kofi Danquah · 04:49
+It's what I've set up here.
+Gwen Tarrant · 04:53
+On your account.
+Kofi Danquah · 04:56
+On our demo account, yes.
+Clodagh Rennard · 05:00
+And with six or seven of these a week, that's where the forty thousand goes.
+Wade Strickler · 05:09
+Six or seven? No. Reprints, real ones, it's two, maybe three a week. Not six. Gwen counts every time the laminator eats a print.
+Gwen Tarrant · 05:22
+It's more than that, Wade. I count them because they cost material.
+Wade Strickler · 05:29
+Not jobs, it isn't. [crosstalk] Two or three jobs a week is what costs real money.
+Gwen Tarrant · 05:38
+We reprinted five last week.
+Wade Strickler · 05:42
+Last week was a bad week.
+Clodagh Rennard · 05:46
+We'll go with Wade's number for now. And the forty thousand a year you mentioned.
+Wade Strickler · 05:55
+Mm-hm.
+Lupe Arrieta · 05:57
+I haven't pulled that yet.
+Clodagh Rennard · 06:01
+Whenever you can, Lupe.
+Kofi Danquah · 06:05
+Let me move on to installs.
+
+── Installs on the phone ──
+
+Kofi Danquah · 06:11
+Installs. Same board as last time, with the permit column. Pulled, not pulled, not needed. And this is it on a phone. I've got it on mine. Here's Tuesday. Crew A, Valley. Crew B, Cheney. Permit, pulled. If I put Crew B on Valley on Tuesday it goes red.
+Wade Strickler · 06:36
+Ronnie'd use that if it were on his phone. Is it on his phone?
+Kofi Danquah · 06:44
+There's an app, yes. Same thing you're seeing.
+Wade Strickler · 06:49
+Then that's the branch manager's call gone. If Ronnie's looking at the same day as the crews, and it says pulled or not pulled, that's, that's the call.
+Kofi Danquah · 07:04
+So the double-booking and the permit column, that's the branch calls.
+Wade Strickler · 07:11
+That's the branch calls.
+Jesse Corrigan · 07:15
+Who pulls the permit, though? It says pulled or not, it doesn't say who.
+Wade Strickler · 07:23
+Ronnie. Always Ronnie. We'll put that in the rule.
+Kofi Danquah · 07:29
+I'll add an owner on it.
+
+── What Wade sees ──
+
+Kofi Danquah · 07:35
+And then for Wade. A dashboard. Late jobs, jobs by stage, installs this week, pieces on each station.
+Wade Strickler · 07:45
+I don't want a dashboard with twelve widgets. One list. What's late and why. That's my Friday.
+Kofi Danquah · 07:55
+One list. What's late, and the reason it's late is the stage it's stuck on. I can do that as a view instead of a dashboard.
+Wade Strickler · 08:09
+A list. On my phone, ideally.
+Kofi Danquah · 08:13
+A list on your phone.
+Lupe Arrieta · 08:17
+Can I ask something? How many seats does this need? And what's that a month?
+Clodagh Rennard · 08:26
+Let's do that properly next time, with Wade. I'd rather give you a real number than a guess.
+Lupe Arrieta · 08:36
+I'll need it for the cash flow. We're already paying for six of the accounting thing and using two.
+Clodagh Rennard · 08:47
+I know. We'll go through seats properly. Kofi, is that everything on screen?
+Kofi Danquah · 08:55
+That's everything. I'll stop sharing.
+
+── After the screen ──
+
+Wade Strickler · 09:01
+Can I go off script for a minute?
+Clodagh Rennard · 09:06
+Please.
+Wade Strickler · 09:08
+Two things. One, we're looking at a space in Post Falls. Second shop, install crews out of there for the Idaho side. Not signed. But if we do it, this has to work across two buildings, because I'm not, I'm not driving to Post Falls to read a whiteboard.
+Clodagh Rennard · 09:32
+When would that be?
+Wade Strickler · 09:36
+Spring, if it happens. Burn's looking at it.
+Clodagh Rennard · 09:41
+Okay. And the second thing?
+Wade Strickler · 09:45
+The first branch moved. It's the fourteenth of September now, they pushed it a week. Valley. Then one a week after that, roughly. Which means Ronnie's back from leave on the first, so we've got two weeks with him before the first one.
+Gwen Tarrant · 10:07
+And can I say the materials thing again, because it happened again. Last Tuesday we sat for a day waiting on a roll of the reflective. The piece was approved, the plotter was free, and I had no material. A day.
+Kofi Danquah · 10:28
+The material column's on the piece now. In, ordered, not ordered. I didn't show it because it's thin.
+Gwen Tarrant · 10:38
+Thin's fine. Just so somebody sees "not ordered" before the day it's due.
+Jesse Corrigan · 10:46
+And the credit union proofs. They've got a marketing person now who has to approve, as well as the branch manager. Two approvals.
+Kofi Danquah · 10:59
+Two approvals on one proof. That's a change. Let me note it, I don't want to say yes on the fly.
+Clodagh Rennard · 11:11
+Noted, not promised. Anything else?
+Wade Strickler · 11:15
+No. That's it.
+
+── Close ──
+
+Clodagh Rennard · 11:20
+So. Gwen leaning separate board, both written up. Permit with an owner. Phone for Ronnie and Wade. A late list instead of a dashboard. Materials on the piece. Two approvals, to look at. And seats and cost with Wade and Lupe. Let's talk numbers. Wade, what does the nineteenth look like?
+Wade Strickler · 11:46
+Wednesday? Afternoon. Two.
+Clodagh Rennard · 11:49
+Two on the nineteenth. Lupe?
+Lupe Arrieta · 11:53
+I'll be there.
+Clodagh Rennard · 11:56
+I'll send it now. Thanks, everyone.
+Wade Strickler · 12:00
+Thanks. Gwen, back to it.
+Gwen Tarrant · 12:04
+Back to it.

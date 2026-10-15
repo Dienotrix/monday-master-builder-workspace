@@ -1,0 +1,53 @@
+{
+  "goals": [
+    {
+      "id": "G1",
+      "goal": "Take on the framework's extra shows from January without hiring",
+      "quote": "Take the framework work without hiring.",
+      "location": "L505, 35:12 Dermot Shanley",
+      "speaker_role": "crew and logistics lead (client; influencer and end user)",
+      "pains": ["P2.1", "P2.2", "P3.2"]
+    },
+    {
+      "id": "G2",
+      "goal": "One thing showing every show for six weeks, its kit, and whether they have it",
+      "quote": "I want to open one thing and see every show for the next six weeks, what kit it needs, and whether we have it.",
+      "location": "L533, 37:19 Meera Ganguly",
+      "speaker_role": "operations director (client; approver up to thirty thousand)",
+      "pains": ["P1.1", "P1.2", "P1.3"]
+    },
+    {
+      "id": "G3",
+      "goal": "The grid off the wall, so a show moving reaches the people it affects",
+      "quote": "And I want the grid to be somewhere other than a wall, so that when a show moves, the people it affects know without me telling them.",
+      "location": "L535, 37:34 Dermot Shanley",
+      "speaker_role": "crew and logistics lead (client; influencer and end user)",
+      "pains": ["P2.1", "P2.2"]
+    },
+    {
+      "id": "G4",
+      "goal": "Know on the Monday what's coming back and what hasn't been checked in",
+      "quote": "And I want to know, on the Monday, what's coming back and what hasn't been checked in.",
+      "location": "L537, 37:48 Aileen Rusnak",
+      "speaker_role": "warehouse lead (client; end user and likely admin)",
+      "pains": ["P3.1", "P3.2"]
+    }
+  ],
+  "assumption_kinds": [
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "gap",
+    "leaning",
+    "gap",
+    "gap",
+    "gap",
+    "automation-condition",
+    "leaning",
+    "gap",
+    "gap",
+    "gap"
+  ],
+  "note_add": null
+}

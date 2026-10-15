@@ -1,0 +1,54 @@
+{
+  "goals": [
+    {
+      "id": "G1",
+      "goal": "Open one screen on Monday morning and know what's out there, stuck and closed",
+      "quote": "A normal week is: I open one screen on Monday morning and I know what's out there, what's stuck, and what closed.",
+      "location": "[28:26] Emmett Thibault (VP of Sales)",
+      "speaker_role": "VP of Sales (client; approver, holds the budget line)",
+      "pains": ["P1.1", "P1.2", "P1.5", "P2.1"]
+    },
+    {
+      "id": "G2",
+      "goal": "The forecast given to the president in January within ten percent",
+      "quote": "If the forecast I give him in January is within ten percent.",
+      "location": "[28:44] Emmett Thibault (VP of Sales)",
+      "speaker_role": "VP of Sales (client; approver, holds the budget line)",
+      "pains": ["P1.1", "P1.2"]
+    },
+    {
+      "id": "G3",
+      "goal": "Knowing who's been in front of a customer without asking anybody",
+      "quote": "Knowing who's been in front of a customer without asking anybody.",
+      "location": "[29:00] Wes Kubiak (Regional Sales Manager)",
+      "speaker_role": "Regional Sales Manager (client; influencer, end user, owns the weekly pipeline call)",
+      "pains": ["P3.2", "P4.1", "P4.3"]
+    },
+    {
+      "id": "G4",
+      "goal": "The four new reps productive without the manager living in Pennsylvania",
+      "quote": "And the new four getting to productive without me living in Pennsylvania.",
+      "location": "[29:00] Wes Kubiak (Regional Sales Manager)",
+      "speaker_role": "Regional Sales Manager (client; influencer, end user, owns the weekly pipeline call)",
+      "pains": ["P1.6", "P8"]
+    }
+  ],
+  "assumption_kinds": [
+    "leaning",
+    "automation-condition",
+    "automation-condition",
+    "leaning",
+    "leaning",
+    "board-architecture",
+    "gap",
+    "gap",
+    "gap",
+    "gap",
+    "leaning",
+    "board-architecture",
+    "gap",
+    "leaning",
+    "board-architecture"
+  ],
+  "note_add": null
+}

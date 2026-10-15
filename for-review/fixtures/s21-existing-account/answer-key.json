@@ -1,0 +1,898 @@
+{
+  "scenario_id": "s21-existing-account",
+  "call_type": "expansion",
+  "purpose_of_this_fixture": "Calibration fixture for C64: a renewal-shaped call with an existing client of ours. What we built in an earlier rollout (its date is in the record and is not spoken on the call) is partly live and loved (the Studies board with its Friday digest, the Incentives board that finance now owns) and partly lapsed (a recruiter rota board the recruiters abandoned inside three months for a spreadsheet). The client's fieldwork manager has built her own study-costing board with a form and subitem cells, hit a wall she names precisely (the subitem total cannot reach a formula on the parent or the live Studies board), guesses aloud that she is 'eighty percent there', and walks it on a shared screen mid-call. The only clock in the call is ours: the Consultant says the renewal quote's pricing is held until 20 November and the client answers 'Noted.' and moves on. It tests that the plugin (1) proposes the type header as expansion (seat partner-led, relationship existing client of ours, output class configured structure) with a working-session sub-trigger for the screen-share segment and applies no second mode and no working-session, prototype-review or scoping label, so the call chains discovery-check rather than the scope path (R9); (2) grades R1 Met early from the first minutes, as expansion mode expects, and records current wins to preserve with authorship, prior attempts with status and payer, incumbent friction with its client-attributed cause, and the client-built asset with the blocker in her words; (3) grades R3 met-with-residual on client-side change plus trigger with the missing client clock as a gap question, records the 20 November date as our own commercial clock, front-paged and owned, excluded from why-now and never read as client hesitancy; (4) reports the collision between that date and the closed pricing gate (R4 Partial, R12 Partial) with the missing steps scheduled back from it, while pricing itself stays outside the plugin; (5) grades R10 Met on a booking mechanism committed on the call (evidence state: the booking link is committed to send today, owner the Consultant, purpose a 45-minute working session walking the costing board cell by cell on a copy; it is not sent, and becomes done only on evidence) with a named owner, a stated purpose and the client's assent, while the same close in discovery or demo mode would be Partial and s2's 'I'll send something over' stays Missing (R4 of the reversal map); (6) keeps the bleed at effort-quantified, rate pending, refuses the Consultant's withdrawn 'forty an hour', names the finance controller as the role that holds the rate, and grades P2 Cost inputs not obtainable from this room, naming the recruitment coordinator; (7) files the prototype as the strongest buying signal rather than a build-it-ourselves objection, quotes no completion or effort figure for work on it until it has been read, and treats the screen share as the client's own frame with no [X] quarantine; and (8) proposes a Work Management blueprint as a delta against the client-built board, honouring the live map: the Friday digest and the Incentives board do-not-change, the Studies board change-with-own-yes, the dead rota board archived once Henrietta approves (proposed on the call; Idris accepts) and never deleted.",
+  "transcript_format": "Plain text, 262 lines, one speaker turn per line in the form '[HH:MM:SS] Speaker Name: text'. Timestamps are turn start times from [00:00:03] to [00:37:38]. No header lines, no participant block and no call date. Four speakers: 'Consultant', 'Henrietta Weyland' (Director of Operations), 'Bethan Tull' (Fieldwork Manager) and 'Idris Machado' (Recruitment Team Lead); the titles are the existing record's and are not spoken on the call, except Bethan's ('one of the three fieldwork managers', 00:07:39), and they appear in this key's locations as a convenience. About 4,785 spoken words (whitespace tokens after the speaker label, bracket tags and bare '--' excluded); client share about 67% (Bethan 27%, Henrietta 26%, Idris 13%); the Consultant's longest turn is 83 words at [00:33:57]. A block export with no end times: the composite detector cannot qualify (short units, no wall-clock), the wedge detector does not apply, and only the sentence re-join runs. Artefacts: [laughs] three times, [crosstalk] twice (Idris joining, and a phone interruption), one [inaudible] inside an Idris turn, '--' for interruptions, restarts and cut-offs (a self-correction is spoken, 'three, no, two'), fillers and restarts left in ('um', 'er', 'what,', 'like', 'she's just -- she's getting a coffee'), and one Bethan sentence split across two of her own lines by the Consultant's 'Mm-hm.'. The screen share runs from Bethan's 'Can I share my screen?' at [00:14:30] to 'Let me stop sharing.' at [00:21:26]. Two lines follow the goodbyes, recorded before the meeting ended. Relative dates fit late October 2026: 'the twentieth of November' is a Friday, 'next week' and 'the week after next' are relative to the unstated call date. Every location in this key is 'HH:MM:SS Speaker Name (role)', or 'HH:MM:SS Consultant', taken from the line the quote is on.",
+  "company": {
+    "name": "Kelbrook Field Partners (called 'Kelbrook')",
+    "industry": "Market research fieldwork agency: recruits respondents, runs qualitative and quantitative studies and pays incentives for research agencies and, sometimes, brands directly. The commissioning agency is 'the client' or 'the agency'.",
+    "size": "About seventy people: 28 recruiters across two centres, five account leads, three fieldwork managers, a small analysis team, finance (one controller with a part-timer) and the office",
+    "locations": "A main office (the recruitment room is on the third floor) and a second recruitment centre in Thornbury with six recruiters, open by the time of the call ('is that open now?' at 00:01:22 suggests recently; when it opened is not stated)",
+    "current_tools": ["monday.com Work Management, Pro plan per the client ('thirty-something seats', hedged): the Studies board with a status column and a Friday digest automation to the account leads, the Incentives board run by finance, a dead Recruiter rota board built with the rest in that rollout (when is not spoken on the call), and Bethan's own Study costing board (form, one item per brief, cells as subitems, formula columns) in her own workspace", "The costing sheet: a spreadsheet copied per brief, one per fieldwork manager, with a separate copy on the finance side", "Leonie's recruiter rota sheet, colour-coded and photographed. The photo goes into the recruiters' group chat", "The accounting system, where invoices and 'actual' study cost live, run by Philippa", "The panel software, where respondent names, numbers and history live and stay", "Email, for briefs from agencies and for the Friday digest", "The recruitment room's wall screen, which today shows who is on a call and who is waiting; it is a browser and could show a board view"]
+  },
+  "attendees": [
+    {"name": "Henrietta Weyland", "role": "Director of Operations (the title is the existing record's; it is not spoken on the call). Holds the spend for this and the renewal up to a systems figure the owner set (hedged: 'I think'); delegates the run to Bethan and reserves a yes on anything touching the Studies board or the Friday email. Sponsor of the prior build.", "side": "client", "decision_role": "approver (delegates the run; gate-holder on the live Studies board and Friday email; spend up to a hedged threshold, above it the owner)"},
+    {"name": "Bethan Tull", "role": "Fieldwork Manager ('one of the three fieldwork managers', 00:07:39). Costs briefs in the sheet; built the Study costing board herself in her own workspace and named its wall; will run the work day to day and owns the prototype and the access to it.", "side": "client", "decision_role": "admin/owner and influencer (delegate; author of the client-built asset)"},
+    {"name": "Idris Machado", "role": "Recruitment Team Lead (the title is the existing record's; it is not spoken on the call). Runs the recruiters across both centres; owns the rota problem but not the rota sheet, which Leonie (recruitment coordinator, absent) keeps.", "side": "client", "decision_role": "influencer (end-user voice for the recruiters)"},
+    {"name": "Consultant", "role": "monday.com consultant who built the prior rollout and runs the expansion call", "side": "consultant", "decision_role": "not applicable"}
+  ],
+  "expected_monday_products": [
+    {"kind": "core", "why": "Work Management only, as a second strand inside the existing record. The costing piece is a delta against Bethan's own board: the cell total reaching the parent, the live Studies board reading it through a connection, and a per-agency monthly costed-versus-actual view, with the form kept. The recruiter week view is conditional on Henrietta seeing the approach first, is read from the Studies board's field dates, is shown on the recruitment room's screen, and holds sessions and recruiters, never respondents. The live map governs: the Friday digest automation and the Incentives board are do-not-change, the Studies board is change-with-own-yes (Henrietta's yes; read, not typed), and the dead rota board is archived once Henrietta approves (proposed on the call; Idris accepts; her approval still required). No CRM: the per-agency view is a view over studies, not a sales pipeline, and no Service: no queue was described. The tier is Pro by the client's statement, so no portfolio."}
+  ],
+  "rubric": [
+    {"criterion": "R1 Current state mapped", "status": "met", "evidence": [{"quote": "The Studies board is the thing that works. Every brief goes on it, the account leads live on it, and the Friday email goes out off it without anybody touching it.", "location": "00:03:20 Henrietta Weyland (Director of Operations)"}, {"quote": "Don't touch the Friday email. I mean that. The account leads would notice before I did.", "location": "00:03:33 Henrietta Weyland (Director of Operations)"}, {"quote": "The rota board's dead. It's still in there, but nobody's put anything on it in about a year.", "location": "00:04:25 Idris Machado (Recruitment Team Lead)"}, {"quote": "They went back to the sheet inside three months. Leonie was doing it twice, once on the board and once on the sheet, and the sheet won.", "location": "00:04:36 Idris Machado (Recruitment Team Lead)"}, {"quote": "Nobody, really.", "location": "00:05:08 Henrietta Weyland (Director of Operations)"}, {"quote": "It's a board with a form on the front, one item per brief, and the cells are subitems.", "location": "00:06:24 Bethan Tull (Fieldwork Manager)"}, {"quote": "No. Studies, Incentives, the Friday email. The rota's dead, the costing board is Bethan's. That's the estate.", "location": "00:06:47 Henrietta Weyland (Director of Operations)"}, {"quote": "Every brief gets costed in the sheet, and the sheet is a copy of a copy of a copy.", "location": "00:07:55 Bethan Tull (Fieldwork Manager)"}, {"quote": "Leonie does the sheet, colour codes it, and takes a photo of it. The photo goes in the group chat. That's the system.", "location": "00:24:11 Idris Machado (Recruitment Team Lead)"}], "note": "Met early, by 00:07:13, as expansion mode expects: the client states the estate in a few turns (what is live, what lapsed, what she built, who administers it, that nobody maintains the platform) and the rest is the two pains' process. Elements: process (brief to costed brief to invoice; rota sheet to photo). Tools and connections, three and none connected: the costing sheet and the rota sheet are spreadsheets. Finance's actuals and invoices live in the accounting system. Respondent data lives in the panel software. Time on their process (Bethan's Fridays) and time maintaining the platform ('Nobody, really.'), monday today and who built it (our build plus Bethan's board). A structure inventory exists from the screen share: prototype rows (form, item per brief, cells as subitems, cell formula, subitem summary, the failed formula, mirror, number column and dashboard attempts) in class client-built prototype, and spoken rows for the Studies board (status column, seven labels, field dates), the Incentives board and the dead rota board; current state is satisfiable without the prototype rows. Admin membership is hedged ('I think you're still an admin on it') and read live, never assumed.", "asked": true, "asked_quote": {"quote": "tell me what's actually live from what we did, and what isn't. Don't spare me.", "location": "00:03:07 Consultant"}},
+    {"criterion": "R2 Pain made concrete", "status": "met", "evidence": [{"quote": "The Farraday one. The incentive line was in there twice, once per cell and once at the bottom, and I didn't catch it, and the number went to the agency doubled up on the incentives and light everywhere else, and we ate it.", "location": "00:09:16 Bethan Tull (Fieldwork Manager)"}, {"quote": "Three weeks ago we had a Saturday session with two recruiters booked on it and neither of them knew. Twelve respondents turned up to an empty room and the account lead had to ring round apologising.", "location": "00:23:13 Idris Machado (Recruitment Team Lead)"}], "note": "Two pains excavated: P1 study costing (Stated, Concrete, Workaround Met, all from Bethan) and P2 the recruiter rota (Stated, Concrete, Workaround Met, all from Idris). Bethan's named wall is recorded in the client-built assets section, not as a third pain.", "asked": true, "asked_quote": {"quote": "Noted. And where does it go wrong?", "location": "00:09:12 Consultant"}},
+    {"criterion": "R3 Why now", "status": "met-with-residual", "evidence": [{"quote": "What's changed is we picked up three, no, two new agency clients since the summer, and both of them want a costed brief back inside forty-eight hours. We've never worked like that.", "location": "00:13:05 Henrietta Weyland (Director of Operations)"}, {"quote": "We've always been a week. A week was fine. It's not fine any more.", "location": "00:13:19 Henrietta Weyland (Director of Operations)"}, {"quote": "End of the summer. It was the thing that tipped it, for me.", "location": "00:09:41 Henrietta Weyland (Director of Operations)"}, {"quote": "No. Honestly, no. There's no date. It's just been getting worse and I'm tired of it.", "location": "00:29:42 Henrietta Weyland (Director of Operations)"}], "note": "Compound criterion graded element by element. Change: Met (two new agency clients since the summer wanting a costed brief inside forty-eight hours; 'three, no, two' is a self-correction, use two). Trigger event: Met (the Farraday study, mis-costed at the end of the summer, 'the thing that tipped it'). Clock: missing on the client side, and the Consultant asked. Met on change plus trigger; the missing clock is the residual and becomes one gap question for Henrietta, not a Partial. The only calendar date in the call, 20 November, is the Consultant's own renewal-pricing hold: recorded in the separate commercial clock (our side) field, front-paged as an owned to-do, and excluded from this criterion. Henrietta's 'Noted.' is a backchannel and evidence of nothing.", "asked": true, "asked_quote": {"quote": "Fair. Is there anything on your side that puts a date on this? A wave, a contract, a year end?", "location": "00:29:33 Consultant"}},
+    {"criterion": "R4 Bleed number", "status": "partial", "evidence": [{"quote": "The costing sheet is my Friday. Every Friday. Four hours, sometimes five, just re-keying cells and checking the sums against each other.", "location": "00:10:15 Bethan Tull (Fieldwork Manager)"}, {"quote": "Every Friday. And the other two fieldwork managers do the same for theirs, less than me, they've got fewer cells, call it half that each.", "location": "00:10:27 Bethan Tull (Fieldwork Manager)"}, {"quote": "Between the three of us we cost, what, twelve, fifteen briefs a month? Fifteen in a busy month.", "location": "00:11:38 Bethan Tull (Fieldwork Manager)"}, {"quote": "I don't carry loaded rates around in my head. That's Philippa's, and I'd rather she gave you the real number than I guessed at one.", "location": "00:13:57 Henrietta Weyland (Director of Operations)"}, {"quote": "Don't. Get it from Philippa.", "location": "00:14:14 Henrietta Weyland (Director of Operations)"}, {"quote": "I genuinely don't. It's not something I've timed and I'd be making it up. Ask Leonie.", "location": "00:24:59 Idris Machado (Recruitment Team Lead)"}], "note": "State: effort-quantified, rate pending. Bethan scopes her hours to the pain in one clause with an explicit referent ('The costing sheet is my Friday'), so no separate attribution quote is needed: 4-5 h/wk for her, about half that for each of the other two fieldwork managers (hedged), over 12-15 briefs a month (12 normal). The rate is not in the room: Henrietta holds no loaded rate and routes it to Philippa, the finance controller, which is the role the obtainability map names; the Consultant's 'forty an hour' was withdrawn on the spot and counts for nothing. The rota side has no hours at all (P2 Cost inputs not obtainable). Scale is reported as filled with the missing multiplier named: the loaded rate. The Farraday loss ('About six thousand, all in', currency not stated) is a one-off, excluded. Every study is costed 'at least twice' (client-interviewer exchange, Henrietta asking Bethan) is a frequency fact, reported and not grade-changing. Verdict consequence: Nearly ready.", "asked": true, "asked_quote": {"quote": "What's that time worth, roughly? Do you carry a loaded rate for a fieldwork manager?", "location": "00:13:45 Consultant"}},
+    {"criterion": "R5 Upside number", "status": "partial", "evidence": [{"quote": "We'd stop losing the short-notice ones. I'm not going to put a number on that today, I'd be guessing.", "location": "00:30:01 Henrietta Weyland (Director of Operations)"}, {"quote": "It's more than I'd like to say out loud without checking.", "location": "00:30:13 Henrietta Weyland (Director of Operations)"}], "note": "The upside is named (winning the short-notice briefs, keeping the two new agency clients) and explicitly unvalued; Henrietta declines to guess and the plugin must not fill it. Bethan's 'It's more than you'd think.' is not a figure.", "asked": true, "asked_quote": {"quote": "If a costed brief went back in a day instead of a week, what does that do for you?", "location": "00:29:50 Consultant"}},
+    {"criterion": "R6 Desired outcome", "status": "met", "evidence": [{"quote": "A brief comes in, Bethan costs it once, in one place, and the number that goes to the agency is the number Philippa sees. That's it. That's the whole thing.", "location": "00:28:25 Henrietta Weyland (Director of Operations)"}, {"quote": "Meaning I don't care where, as long as there's one of it. If the number's on Beth's board and the Studies board shows it and Philippa reads it off the same thing, that's one place. If it's three files that agree, that's not.", "location": "00:28:41 Henrietta Weyland (Director of Operations)"}, {"quote": "And I get my Fridays back.", "location": "00:28:59 Bethan Tull (Fieldwork Manager)"}, {"quote": "And the recruiters can see their week without Leonie retyping it.", "location": "00:29:03 Idris Machado (Recruitment Team Lead)"}, {"quote": "Hamish just wants to stop hearing about the sheet. That's his win condition, if you want one.", "location": "00:29:08 Henrietta Weyland (Director of Operations)"}], "note": "Day to day from all three: one costing in one place, the agency's number equals finance's number, Bethan's Fridays back, recruiters seeing their week. Leadership win relayed by Henrietta from Hamish (the owner, absent): 'stop hearing about the sheet'. Draft success criteria stay proposed; nothing was agreed as a measure.", "asked": true, "asked_quote": {"quote": "Imagine this is running well in the spring. What's different in a normal week?", "location": "00:28:15 Consultant"}},
+    {"criterion": "R7 Decision process mapped", "status": "met", "evidence": [{"quote": "Bethan runs it. I am not going to be in the weeds on this one. But anything that touches the Studies board or the Friday email, I want to see it and say yes before it goes live.", "location": "00:30:28 Henrietta Weyland (Director of Operations)"}, {"quote": "Spend is mine, up to what Hamish set for systems this year. The renewal plus this is inside that, I think. I'd want to check the number before I say it out loud.", "location": "00:30:45 Henrietta Weyland (Director of Operations)"}, {"quote": "Then it's a conversation with Hamish, and he'll say yes if it's the sheet. But I don't think it's over.", "location": "00:31:06 Henrietta Weyland (Director of Operations)"}, {"quote": "Philippa has to be fine with anything that goes near the Incentives board. She doesn't sign, but she can stop it.", "location": "00:31:15 Henrietta Weyland (Director of Operations)"}, {"quote": "We don't do purchase orders for this. It goes on the card, same as the renewal. Then it's Beth's.", "location": "00:31:30 Henrietta Weyland (Director of Operations)"}, {"quote": "Same way. On the card, nobody blinked. The number was small enough that it never went near Hamish, and it won't this time either unless the two of you go mad.", "location": "00:31:45 Henrietta Weyland (Director of Operations)"}], "note": "A delegation graph, not a flat list. Delegate: Bethan runs it. Gate-holder: Henrietta, gate condition 'anything that touches the Studies board or the Friday email', re-entry trigger 'before it goes live'. Spend: Henrietta up to the owner's systems figure, hedged ('I think', 'I'd want to check the number'); above it, Hamish (absent, relayed). Second gate-holder: Philippa on anything near the Incentives board ('She doesn't sign, but she can stop it.'). After a yes: on the card, no purchase order, then it is Bethan's; prior budgeting: the rota build went the same way. The approver is present and holds the budget; the check-with-someone objection is anticipated for the threshold only.", "asked": true, "asked_quote": {"quote": "Decision-wise. If we go ahead, who's involved, and who says yes?", "location": "00:30:19 Consultant"}},
+    {"criterion": "R8 Priority and timing", "status": "partial", "evidence": [{"quote": "Now. The costing piece, now. I'm not going to put a date on it, we did that with the rota and it just moved.", "location": "00:29:22 Henrietta Weyland (Director of Operations)"}, {"quote": "Yes. The costing piece, yes, today. The rota, show me.", "location": "00:35:53 Henrietta Weyland (Director of Operations)"}], "note": "Priority is explicit and top ('Now. The costing piece, now.') and timing is explicitly refused ('I'm not going to put a date on it'), so the criterion is present but short of a target date. Do not fill the missing date with the Consultant's 20 November hold: that date is ours. The wave blackout ('the last two weeks of a wave') is a constraint on when work can land, not a client deadline.", "asked": true, "asked_quote": {"quote": "I'll take it. Is this something for this quarter, or later on?", "location": "00:29:16 Consultant"}},
+    {"criterion": "R9 Blockers surfaced", "status": "met", "evidence": [{"quote": "The recruiters, we've talked about. The IT people and how you get in. And Philippa, if she thinks it touches her board.", "location": "00:32:32 Henrietta Weyland (Director of Operations)"}, {"quote": "And the wave.", "location": "00:32:42 Idris Machado (Recruitment Team Lead)"}, {"quote": "Leonie's got the sheet down to a fine art, honestly. She'd rather keep it. That's the thing you're up against.", "location": "00:25:52 Idris Machado (Recruitment Team Lead)"}, {"quote": "No. It's in my own workspace. I'd have to add you, and I'll need to ask the IT people how you're meant to come in, they have opinions about guests.", "location": "00:20:26 Bethan Tull (Fieldwork Manager)"}, {"quote": "The one thing is recruitment can't take anything new in the last two weeks of a wave, and there's one starting the week after next. So whatever we do, it's not then.", "location": "00:28:00 Idris Machado (Recruitment Team Lead)"}], "note": "Four blockers named by the client: recruiter adoption after the rota backslide; how the Consultant gets access (the outsourced IT people's guest policy, a client-policy question the plugin never answers itself); Philippa stopping anything near the Incentives board; and the wave blackout. Mitigations raised on the call: Leonie in the room when the rota is built, Henrietta's yes before anything touches Studies, access asked of IT by Bethan.", "asked": true, "asked_quote": {"quote": "What could stop it? Honestly.", "location": "00:32:29 Consultant"}},
+    {"criterion": "R10 Next step committed", "status": "met", "evidence": [{"quote": "Yes. Send it. I'll grab something next week, once the wave's started it goes quiet for me.", "location": "00:36:18 Bethan Tull (Fieldwork Manager)"}, {"quote": "I'll send Bethan a booking link today, for forty-five minutes, just the two of us, where you walk me through the costing board cell by cell and I try the two approaches on a copy of it. Bethan, you pick the slot.", "location": "00:35:58 Consultant"}, {"quote": "I'll put you two in touch. Leave that with me.", "location": "00:36:32 Henrietta Weyland (Director of Operations)"}, {"quote": "I'll add you to the board once the IT people come back to me. Might be a few days.", "location": "00:36:57 Bethan Tull (Fieldwork Manager)"}], "note": "Met under expansion mode on a booking mechanism, not a date: the Consultant commits to the mechanism on the call (evidence state: a booking link committed to send today; owner the Consultant; purpose the 45-minute working session on a copy of the costing board; done only on evidence it was sent), names the owners (Consultant sends, Bethan picks the slot), states the purpose (walk the costing board cell by cell and try the two approaches on a copy) and Bethan assents ('Yes. Send it.'). No date, no time and no invite exists, and nothing is keyed on post-call calendar state. Bethan's 'next week' sits beside her own reason ('once the wave's started it goes quiet for me') and Idris's wave 'starting the week after next', so the slot may fall either side of the wave start; the key records 'next week' as spoken, the slot as hers to pick, and no date. The same close on a discovery or demo call would grade Partial, and s2's 'I'll send something over' still grades Missing: the mechanism state applies to working-session and expansion modes only. The rate conversation is a separate item: 'I'll put you two in touch' is scheduling handed off to a named owner (Henrietta) without a mechanism, Partial-plus, and emits a same-day date-proposal to-do. The Consultant's line is the one admissible piece of our-side R10 evidence.", "asked": true, "asked_quote": {"quote": "I'll send Bethan a booking link today, for forty-five minutes, just the two of us, where you walk me through the costing board cell by cell and I try the two approaches on a copy of it. Bethan, you pick the slot.", "location": "00:35:58 Consultant"}},
+    {"criterion": "R11 Solution confirmed", "status": "partial", "evidence": [{"quote": "Either of those would do it, honestly. The first one. I don't want to lose the form.", "location": "00:19:57 Bethan Tull (Fieldwork Manager)"}, {"quote": "Because the account leads will fill in a form. They will not open a board and add an item. I've watched them not do it.", "location": "00:20:07 Bethan Tull (Fieldwork Manager)"}], "note": "Mechanism-confirmed, not solution-confirmed: nothing built was shown. The Consultant described two approaches with nothing on screen but Bethan's own board, and Bethan chose the first (cells stay subitems, the total reaches the parent, the Studies board reads it through a connection, the form stays). Graded weaker than a screen confirmation and re-confirmed against the built artefact before sign-off; P2 has no confirmation at all (Henrietta: 'show me').", "asked": true, "asked_quote": {"quote": "There are two ways I'd want to try. One, keep your cells as subitems and get the total onto the parent in a way the Studies board can read through a connection. Two, put the costing onto the Studies board itself and retire the second board.", "location": "00:19:16 Consultant"}},
+    {"criterion": "R12 Scope agreed verbally", "status": "partial", "evidence": [{"quote": "Inherited. Bethan's costing board as it stands, the form, the cells as subitems, the cell totals.", "location": "00:33:57 Consultant"}, {"quote": "That's the shape. The rota is a maybe until I've seen it. The rest, yes.", "location": "00:34:33 Henrietta Weyland (Director of Operations)"}, {"quote": "One condition on the Studies board. No new columns the account leads have to fill in. They fill in the form and they read the status, that's all they'll do, and I'm not going to make them do more.", "location": "00:34:40 Henrietta Weyland (Director of Operations)"}, {"quote": "Yes to that. Show her how and then it's hers.", "location": "00:35:21 Henrietta Weyland (Director of Operations)"}, {"quote": "Fine. Whatever gets it out of the sidebar.", "location": "00:35:42 Idris Machado (Recruitment Team Lead)"}], "note": "The scope was read back as a delta in four parts (inherited: Bethan's board, form, cells, cell totals; in scope: parent total, Studies reading it, per-agency monthly costed-versus-actual view, a recruiter week view; client-side change: Bethan adds the Consultant, Idris sends Leonie's columns; access unlock: whatever the IT people say). Henrietta confirmed the costing half with a condition (Studies is read, not typed), left the rota a maybe, and the access unlock is unresolved. Partial: enough to blueprint the costing strand, not enough for a proposal, and no figure until the board has been read. The label self-service ask was agreed as a change to a live object with Henrietta's yes; the rota archive was proposed by the Consultant and accepted by Idris, and Henrietta's approval is still required before anything changes.", "asked": true, "asked_quote": {"quote": "After, I think, but let me play back what I think the whole shape is, and tell me where I'm wrong.", "location": "00:33:48 Consultant"}},
+    {"criterion": "P1 Stated", "status": "met", "evidence": [{"quote": "And costing it means the sheet. Every brief gets costed in the sheet, and the sheet is a copy of a copy of a copy. There's no version of it that's the real one.", "location": "00:07:55 Bethan Tull (Fieldwork Manager)"}, {"quote": "And the number the client gets is not the number finance sees, because they're two different sheets by then.", "location": "00:12:40 Bethan Tull (Fieldwork Manager)"}], "note": "P1: briefs are costed in a copied spreadsheet with no single version, and the agency's number diverges from finance's.", "asked": true, "asked_quote": {"quote": "So, costing. Bethan, walk me through it as it is today, before your board. Where does a brief start?", "location": "00:07:24 Consultant"}},
+    {"criterion": "P1 Concrete", "status": "met", "evidence": [{"quote": "The Farraday one. The incentive line was in there twice, once per cell and once at the bottom, and I didn't catch it, and the number went to the agency doubled up on the incentives and light everywhere else, and we ate it.", "location": "00:09:16 Bethan Tull (Fieldwork Manager)"}, {"quote": "About six thousand, all in.", "location": "00:09:36 Henrietta Weyland (Director of Operations)"}, {"quote": "Once a study. Nearly every study. The agency comes back with one more audience, or the brand wants a boost sample, and it's a fifth cell.", "location": "00:11:57 Bethan Tull (Fieldwork Manager)"}], "note": "The Farraday study at the end of the summer: the incentive line counted twice, the number sent doubled on incentives and light elsewhere, about six thousand absorbed (currency not stated), the corrected version done at eleven at night. Day to day: nearly every study gets a late cell and is costed at least twice.", "asked": true, "asked_quote": {"quote": "Noted. And where does it go wrong?", "location": "00:09:12 Consultant"}},
+    {"criterion": "P1 Workaround", "status": "met", "evidence": [{"quote": "I open the brief email. I copy each cell into the sheet, n, incentive, recruit cost, by hand, because the agencies all send it differently.", "location": "00:10:44 Bethan Tull (Fieldwork Manager)"}, {"quote": "And the version of the sheet Philippa has is a different file. It's the same sheet, it's just not the same file.", "location": "00:11:23 Henrietta Weyland (Director of Operations)"}, {"quote": "Which is partly why I built the costing thing on my own. I didn't want to email and wait.", "location": "00:06:09 Bethan Tull (Fieldwork Manager)"}, {"quote": "But I can't get that number into a formula on the parent, and I can't get the Studies board to read it, and I've tried it four ways.", "location": "00:16:53 Bethan Tull (Fieldwork Manager)"}], "note": "Volunteered, not asked. Today: the sheet re-keyed by hand from the brief as it arrives, checked against last month's copy, the total typed onto Studies, a different file on the finance side, and Bethan's own board that stops at the roll-up. The account lead is emailed the total anyway, because they do not always look. Why it will not do: three files that do not agree, a doubled line nobody caught, and a board she cannot finish.", "asked": false},
+    {"criterion": "P1 Reach", "status": "met", "evidence": [{"quote": "The account leads sit on their hands until I'm done, because they can't send a number they haven't got. And then Philippa re-keys the whole thing into the accounting system for the invoice, so it's typed three times before anyone gets paid.", "location": "00:12:22 Bethan Tull (Fieldwork Manager)"}], "note": "Account leads wait, finance re-keys, the agency gets a late or wrong number, the owner hears about it.", "asked": true, "asked_quote": {"quote": "Okay, twelve to fifteen. And who else is stuck while that's happening?", "location": "00:12:16 Consultant"}},
+    {"criterion": "P1 Cost inputs", "status": "met", "evidence": [{"quote": "The costing sheet is my Friday. Every Friday. Four hours, sometimes five, just re-keying cells and checking the sums against each other.", "location": "00:10:15 Bethan Tull (Fieldwork Manager)"}, {"quote": "Between the three of us we cost, what, twelve, fifteen briefs a month? Fifteen in a busy month.", "location": "00:11:38 Bethan Tull (Fieldwork Manager)"}, {"quote": "At least twice. Some of them three times.", "location": "00:12:12 Bethan Tull (Fieldwork Manager)"}], "note": "Hours attached in one clause by the person who does the work: 4-5 h/wk (Bethan), about half each for two colleagues (hedged), 12-15 briefs a month, each costed at least twice. The rate is pending with finance, which is R4's gap, not this check's.", "asked": true, "asked_quote": {"quote": "How long does the sheet take you, a normal week?", "location": "00:10:10 Consultant"}},
+    {"criterion": "P1 Trajectory", "status": "met", "evidence": [{"quote": "If we keep doing it in the sheet we will lose one of them. Not might. Will. They've said so.", "location": "00:13:30 Henrietta Weyland (Director of Operations)"}, {"quote": "In a review. Politely. But yes.", "location": "00:13:41 Henrietta Weyland (Director of Operations)"}], "note": "Henrietta: one of the two new agency clients will be lost if costing stays in the sheet; said in a review.", "asked": true, "asked_quote": {"quote": "And if it stays as it is?", "location": "00:13:26 Consultant"}},
+    {"criterion": "P2 Stated", "status": "met", "evidence": [{"quote": "So the recruiters don't know their week until Leonie's done the sheet, and Leonie doesn't do the sheet until the field dates are in, and the field dates move.", "location": "00:22:41 Idris Machado (Recruitment Team Lead)"}], "note": "P2: the recruiter rota lives in Leonie's sheet, always late and wrong somewhere, after the board built for it lapsed.", "asked": true, "asked_quote": {"quote": "Idris, the recruiters. Tell me where it is.", "location": "00:22:31 Consultant"}},
+    {"criterion": "P2 Concrete", "status": "met", "evidence": [{"quote": "Three weeks ago we had a Saturday session with two recruiters booked on it and neither of them knew. Twelve respondents turned up to an empty room and the account lead had to ring round apologising.", "location": "00:23:13 Idris Machado (Recruitment Team Lead)"}, {"quote": "The field dates moved on the Wednesday. The Studies board had the new dates, because the account lead changed them, which is right. Leonie's sheet had the old ones, because nobody told her. And the photo in the chat was from the Monday. The two things don't know about each other.", "location": "00:23:33 Idris Machado (Recruitment Team Lead)"}], "note": "Three weeks before the call: a Saturday session nobody staffed after the field dates moved on Studies and the photographed sheet did not; twelve respondents in an empty room; it reached the owner.", "asked": true, "asked_quote": {"quote": "What does wrong look like?", "location": "00:23:10 Consultant"}},
+    {"criterion": "P2 Workaround", "status": "met", "evidence": [{"quote": "Leonie does the sheet, colour codes it, and takes a photo of it. The photo goes in the group chat. That's the system.", "location": "00:24:11 Idris Machado (Recruitment Team Lead)"}, {"quote": "When she was off for a week in the summer nobody could read the colours and we lost two sessions.", "location": "00:24:24 Idris Machado (Recruitment Team Lead)"}, {"quote": "A second copy. For Thornbury. Which is exactly what we said we wouldn't do.", "location": "00:25:35 Idris Machado (Recruitment Team Lead)"}], "note": "Today: Leonie's colour-coded sheet, photographed. The photo goes into the group chat and the recruiters read it there; the dead board is ignored. Why it will not do: unreadable without Leonie (two sessions lost when she was off), it does not know the Studies board's dates, and Thornbury means a second copy. The '[inaudible]' unit is uncertain and corroborated by the repeat that follows it.", "asked": true, "asked_quote": {"quote": "How does the sheet work, day to day?", "location": "00:24:07 Consultant"}},
+    {"criterion": "P2 Reach", "status": "met", "evidence": [{"quote": "The recruiters, obviously. The respondents, who've given up a Saturday. And whichever account lead has to ring the agency and explain.", "location": "00:24:45 Idris Machado (Recruitment Team Lead)"}, {"quote": "That one got to Hamish.", "location": "00:24:04 Henrietta Weyland (Director of Operations)"}], "note": "Recruiters, respondents, the account lead who rings the agency, and the owner.", "asked": true, "asked_quote": {"quote": "Who else ends up dealing with it when it goes wrong?", "location": "00:24:39 Consultant"}},
+    {"criterion": "P2 Cost inputs", "status": "not-obtainable", "evidence": [{"quote": "I genuinely don't. It's not something I've timed and I'd be making it up. Ask Leonie.", "location": "00:24:59 Idris Machado (Recruitment Team Lead)"}, {"quote": "Ask Leonie. Don't take a number from us on that.", "location": "00:25:07 Henrietta Weyland (Director of Operations)"}], "note": "Not obtainable from this room. The Consultant asked; Idris will not guess and Henrietta tells the Consultant not to take a number from them. The role that could supply it is the recruitment coordinator (Leonie), who keeps the sheet and was not on the call. Routes to a room change (Leonie in the rota session), not to the same question again, and nothing is inferred from Idris.", "asked": true, "asked_quote": {"quote": "How long does the sheet take Leonie, do you know?", "location": "00:24:54 Consultant"}},
+    {"criterion": "P2 Trajectory", "status": "partial", "evidence": [{"quote": "It'll be worse with the second centre, probably. Thornbury's got its own recruiters and they'll want the same sheet. I don't know.", "location": "00:25:17 Idris Machado (Recruitment Team Lead)"}], "note": "Hedged both ways ('probably', 'I don't know'): a second copy of the sheet for Thornbury is the direction, with no confident forward statement. Keep the hedge.", "asked": true, "asked_quote": {"quote": "I won't. And if nothing changes, a year from now?", "location": "00:25:12 Consultant"}}
+  ],
+  "pains": [
+    {"quote": "There's no version of it that's the real one.", "location": "00:07:55 Bethan Tull (Fieldwork Manager)", "theme": "P1 Briefs costed in a copied spreadsheet with no single version"},
+    {"quote": "The Farraday one. The incentive line was in there twice, once per cell and once at the bottom, and I didn't catch it, and the number went to the agency doubled up on the incentives and light everywhere else, and we ate it.", "location": "00:09:16 Bethan Tull (Fieldwork Manager)", "theme": "P1 A mis-costed study absorbed at the firm's cost (the trigger)"},
+    {"quote": "And the number the client gets is not the number finance sees, because they're two different sheets by then.", "location": "00:12:40 Bethan Tull (Fieldwork Manager)", "theme": "P1 The agency's number and finance's number diverge"},
+    {"quote": "Once a study. Nearly every study. The agency comes back with one more audience, or the brand wants a boost sample, and it's a fifth cell.", "location": "00:11:57 Bethan Tull (Fieldwork Manager)", "theme": "P1 Late cells mean every study is costed at least twice"},
+    {"quote": "But I can't get that number into a formula on the parent, and I can't get the Studies board to read it, and I've tried it four ways.", "location": "00:16:53 Bethan Tull (Fieldwork Manager)", "theme": "P1 The client-built costing board stops at the roll-up (the named wall; recorded under client-built assets, not as a separate pain)"},
+    {"quote": "-- against what it actually came in at. Costed versus actual. Because right now that's a question I get asked and can't answer.", "location": "00:22:02 Bethan Tull (Fieldwork Manager)", "theme": "P1 No costed-versus-actual view per agency (desired outcome, part of P1's scope)"},
+    {"quote": "So it's always late and it's always wrong somewhere.", "location": "00:22:54 Idris Machado (Recruitment Team Lead)", "theme": "P2 The recruiter rota is late and wrong"},
+    {"quote": "And the recruiters look at the photo. Not the board. The board's never had the sessions on it.", "location": "00:23:55 Idris Machado (Recruitment Team Lead)", "theme": "P2 The rota sheet and the Studies board do not know about each other"},
+    {"quote": "The honest thing is every time we wanted a label changed we had to email you and wait, and after a while people stopped asking.", "location": "00:05:08 Henrietta Weyland (Director of Operations)", "theme": "Changing what we built needs an email to us (incumbent friction; recorded as an embedded objection, not graded as a pain)"}
+  ],
+  "numbers": {
+    "bleed": {"value": "Effort-quantified, rate pending (Partial). Volume and frequency: Bethan 4-5 h/wk on the costing sheet, the other two fieldwork managers about half that each (hedged), 12-15 briefs a month (12 normal), each costed at least twice. Rate: none; Henrietta holds no loaded rate and routes it to Philippa, the finance controller. Missing multiplier: the loaded hourly cost. Rota hours: not obtainable from this room (Leonie). Excluded: the roughly six-thousand Farraday loss (one-off; currency not stated), the Consultant's withdrawn 'forty an hour', and any lost-client value (unquantified).", "quote": "The costing sheet is my Friday. Every Friday. Four hours, sometimes five, just re-keying cells and checking the sums against each other.", "status": "partial"},
+    "upside": {"value": "Named, unvalued (Partial): winning the short-notice briefs and keeping the two new agency clients that want a costed brief inside forty-eight hours. Henrietta refuses to guess a figure and the plugin must not supply one.", "quote": "We'd stop losing the short-notice ones. I'm not going to put a number on that today, I'd be guessing.", "status": "partial"}
+  },
+  "vocabulary": [
+    {"their_term": "brief", "meaning": "A request for fieldwork from an agency; one item on the Studies board and one item on the costing board. 'Study' is the same thing once it is running; confirm before naming anything", "likely_monday_object": "item on the live Studies board; item on the costing board (inherited)"},
+    {"their_term": "cell", "meaning": "An audience group within a study with its own n, incentive, recruit cost and moderation hours. Agencies sometimes say 'quota' for the same thing. Not a spreadsheet cell", "likely_monday_object": "subitem on the costing board (inherited)"},
+    {"their_term": "n", "meaning": "Sample size of a cell; comes from the brief and changes when the screener is signed off", "likely_monday_object": "number column on the subitem (inherited)"},
+    {"their_term": "incentive / incentive per head", "meaning": "What a respondent is paid; a cost line per cell. Payment itself is finance's, on the Incentives board and in the accounting system", "likely_monday_object": "number column on the subitem (inherited); the Incentives board is do-not-change"},
+    {"their_term": "recruit cost per head", "meaning": "Cost of recruiting one respondent for a cell", "likely_monday_object": "number column on the subitem (inherited)"},
+    {"their_term": "moderation hours", "meaning": "Qual-only cost line; filled on a quant study by mistake", "likely_monday_object": "number column on the subitem (inherited); a qual/quant type would drive which lines apply"},
+    {"their_term": "qual / quant", "meaning": "Qualitative (small n, moderation) and quantitative (large n, no moderation) studies", "likely_monday_object": "status or dropdown column"},
+    {"their_term": "costed brief / costing", "meaning": "The priced brief sent back to the agency; today a spreadsheet, tomorrow the parent total", "likely_monday_object": "the parent total on the costing board, read by the Studies board"},
+    {"their_term": "costed versus actual", "meaning": "What was costed against what the study came in at; 'actual' lives in the accounting system", "likely_monday_object": "a per-agency monthly view; the actual side is an open question"},
+    {"their_term": "the sheet", "meaning": "Two different things: the costing spreadsheet (Bethan) and Leonie's rota spreadsheet (Idris). Confirm which before naming anything", "likely_monday_object": "none (replaced)"},
+    {"their_term": "the Studies board", "meaning": "The live board we built: one line per study, the status column the account leads read", "likely_monday_object": "existing board, change-with-own-yes"},
+    {"their_term": "the Friday email", "meaning": "The digest automation off the Studies board to the account leads and Henrietta", "likely_monday_object": "existing automation, do-not-change"},
+    {"their_term": "the Incentives board", "meaning": "The board finance runs: who is owed what and whether it is paid; no bank details", "likely_monday_object": "existing board, do-not-change"},
+    {"their_term": "the rota / the rota board", "meaning": "Leonie's sheet of recruiter sessions, and the dead board built for it", "likely_monday_object": "the dead board archived; a recruiter week view, conditional"},
+    {"their_term": "the costing board / the costing thing", "meaning": "Bethan's own board in her own workspace: form, item per brief, cells as subitems", "likely_monday_object": "inherited client-built board; the strand's starting point"},
+    {"their_term": "account lead", "meaning": "Owns the agency relationship, puts the brief on Studies, fills in the form, sends the number", "likely_monday_object": "people column"},
+    {"their_term": "fieldwork manager", "meaning": "Costs briefs and runs studies; three of them", "likely_monday_object": "people column"},
+    {"their_term": "recruiter / recruitment room / the big telly", "meaning": "The 28 recruiters across two centres; the room with the wall screen that today shows who is on a call and who is waiting", "likely_monday_object": "a board view on the wall screen (sessions, rooms, recruiters, never respondents)"},
+    {"their_term": "session", "meaning": "A fielding slot recruiters staff, such as a Saturday session", "likely_monday_object": "its own row (child rows under the study, or a sessions board connected to Studies) with date, centre, room, recruiter and headcount; the recruiter week view is a view over these rows, never one row per study"},
+    {"their_term": "wave", "meaning": "A fielding period; recruitment takes nothing new in its last two weeks", "likely_monday_object": "none (a scheduling constraint)"},
+    {"their_term": "field dates", "meaning": "When a study is in field; live on the Studies board and moved by the account lead", "likely_monday_object": "existing date or timeline column on Studies"},
+    {"their_term": "screener", "meaning": "The recruitment questionnaire; n changes when it is signed off", "likely_monday_object": "none in scope"},
+    {"their_term": "client / agency / brand", "meaning": "The commissioning research agency, or a brand direct; never the monday account", "likely_monday_object": "dropdown or text: the agency field on the costing form today; on Studies only if a column exists there (read live); the per-agency view groups by it; not a CRM Accounts board"},
+    {"their_term": "code", "meaning": "The study code used on every board instead of the brand or study title", "likely_monday_object": "text column, typed twice today (form and Studies); the identifier question"},
+    {"their_term": "the panel software", "meaning": "Where respondent names, numbers and history live and stay", "likely_monday_object": "none; never connected"}
+  ],
+  "entities_and_workflows": [
+    "Brief intake: an agency emails or calls a brief; the account lead puts it on the Studies board with the study code and field dates",
+    "Costing today: one of three fieldwork managers copies each cell (n, incentive per head, recruit cost per head, moderation hours if qual) from the brief into the sheet by hand, checks the sums against last month's copy and types the total onto Studies; 12-15 briefs a month. The account lead is then emailed the total anyway, because they do not always look",
+    "Late cells: nearly every study gains a cell after costing (a fifth audience, a boost sample), so each is costed at least twice",
+    "Invoicing: Philippa re-keys the costed brief into the accounting system; 'actual' lives there and nowhere Bethan can see",
+    "Bethan's costing board: form on the front filled by the account lead (brief name as the code, agency, field dates, number of cells), one item per brief, cells as subitems with a working cell-total formula, a subitem summary that cannot be read by a parent formula or by the Studies board; four failed attempts (parent formula, mirror, typed number column, dashboard)",
+    "The Studies board: one line per study, a status column with about seven labels the five account leads read, field dates moved by account leads, the Friday digest automation to the account leads and Henrietta; admin membership hedged (the Consultant and Hamish 'I think')",
+    "The Incentives board: finance's; who is owed what and whether paid; bank details stay in the accounting system",
+    "The recruiter rota today: Leonie's colour-coded sheet, photographed. The photo goes into the group chat and the recruiters read it, never the board; the dead rota board has had nothing on it for about a year",
+    "Waves and sessions: fielding periods with sessions (some on Saturdays) staffed by recruiters across the main office and the Thornbury centre; no new work in the last two weeks of a wave",
+    "Respondent data: names, numbers and history stay in the panel software by agreement with the agencies' compliance people; a recruiter week holds sessions, rooms, recruiters and headcount only",
+    "Buying process: Henrietta signs on the card up to the owner's systems figure (hedged); Hamish above it; Philippa can stop anything near the Incentives board; the prior rota build went the same way",
+    "People mentioned but not on the call: Hamish (owner; relayed win condition), Philippa (finance controller; holds the rates and finance's records), Leonie (recruitment coordinator; keeps the rota), the outsourced IT people (guest access policy), the two other fieldwork managers, the five account leads"
+  ],
+  "integrations_mentioned": [
+    "The accounting system (finance): 'actual' study cost and invoices live there; no connection today, and any read is a question for Philippa, never assumed",
+    "Email: briefs arrive by email; the Friday digest goes out by email (built, do-not-change)",
+    "The costing spreadsheet and Leonie's rota spreadsheet: current data sources to be replaced; Idris sends a photo of the rota sheet's columns",
+    "The panel software: respondent data; never to be connected or copied",
+    "The recruitment room's wall screen: a browser that could show a board view (conditional recruiter week view)"
+  ],
+  "compliance_or_security_signals": [
+    "Respondent personal data (names, numbers, history) stays in the panel software, agreed with the agencies' compliance people; nothing about respondents on any board",
+    "Study codes, never the brand or the agency's study title, on every board",
+    "Bank details and payment data stay in the accounting system; the Incentives board only says who is owed what and whether it is paid",
+    "Guest and access policy belongs to the outsourced IT people: how the Consultant gets into Bethan's workspace is their call, asked by Bethan, never answered by us",
+    "Admin and member roles on the account are hedged from memory and must be read live before anything is changed"
+  ],
+  "objections": [
+    {"quote": "The honest thing is every time we wanted a label changed we had to email you and wait, and after a while people stopped asking.", "type": "Changing what you built for us costs us (embedded: stated as a fact about today by the person who lives it; client-attributed cause 'We didn't know how to do it ourselves')"},
+    {"quote": "Leonie's got the sheet down to a fine art, honestly. She'd rather keep it. That's the thing you're up against.", "type": "We'll build it ourselves (they maintain the current setup: the rota sheet, a risk)"},
+    {"quote": "But I can't get that number into a formula on the parent, and I can't get the Studies board to read it, and I've tried it four ways.", "type": "Outside the map: internal builder who built a prototype, hit a wall and named it (a buying signal, not an objection; credit the work and name the missing piece; never filed as We'll build it ourselves)"},
+    {"quote": "I did wonder, honestly, whether it's just not the right tool for the costing bit.", "type": "monday itself is the problem (raised, answered on the call by offering to check the setup on her board before saying either way)"},
+    {"quote": "They went back to the sheet inside three months. Leonie was doing it twice, once on the board and once on the sheet, and the sheet won.", "type": "Team won't adopt it (the prior backslide; raised as a blocker for the rota half)"},
+    {"quote": "Spend is mine, up to what Hamish set for systems this year. The renewal plus this is inside that, I think. I'd want to check the number before I say it out loud.", "type": "Must check with someone (the spend threshold is hedged and the owner is absent; the approver is present)"},
+    {"quote": "When you send the renewal through, can the extra piece be on the same sheet? I'd rather sign one thing.", "type": "Just send a proposal or pricing (raised; held: scope first and no figure until the board is read. The renewal quote already exists (00:07:13, 00:33:20), so 'send the renewal through' reads as the version she signs, not a new document)"}
+  ],
+  "commitments_and_next_steps": [
+    {"quote": "I'll send Bethan a booking link today, for forty-five minutes, just the two of us, where you walk me through the costing board cell by cell and I try the two approaches on a copy of it. Bethan, you pick the slot.", "what": "Booking link for a 45-minute working session with Bethan: walk the costing board cell by cell and try the two approaches on a copy (the next step, R10); state: committed to send today, owner the Consultant, purpose the working session; done only on evidence it was sent", "owner": "Consultant sends the link today; Bethan picks the slot", "date": "Committed: the link is to be sent on the day of the call (date not stated), not yet sent; session next week, no date or time fixed"},
+    {"quote": "Yes. Send it. I'll grab something next week, once the wave's started it goes quiet for me.", "what": "Book the session from the link", "owner": "Bethan Tull", "date": "Next week as spoken, relative to the unstated call date; her reason ('once the wave's started it goes quiet for me') points at the wave Idris said starts the week after next, so the slot may fall either side of it"},
+    {"quote": "I'll put you two in touch. Leave that with me.", "what": "Put the Consultant in touch with Philippa for the loaded rate (scheduling handed off, no mechanism; same-day date-proposal to-do for the Consultant)", "owner": "Henrietta Weyland", "date": "Not set"},
+    {"quote": "I'll send a short recap tomorrow, what I heard and the next steps, so you can correct anything I got wrong. And I'll say plainly in it that there's no number on the costing piece yet.", "what": "Recap draft for correction, stating that no figure exists yet", "owner": "Consultant", "date": "Day after the call (date not stated)"},
+    {"quote": "I'll add you to the board once the IT people come back to me. Might be a few days.", "what": "Ask the IT people how the Consultant may be given access, then add the Consultant to the costing board", "owner": "Bethan Tull (policy answer from the IT people)", "date": "A few days; not set"},
+    {"quote": "[laughs] A photo is literally how we do it. I'll send one today.", "what": "Send a photo of Leonie's rota sheet columns", "owner": "Idris Machado", "date": "Day of the call (date not stated)"},
+    {"quote": "Happy to, once we've agreed what it covers, and I won't put a number on the costing piece until I've read Bethan's board. So it may be two sheets, or one sheet later. I'd rather it was right.", "what": "Renewal and expansion on one sheet, later, once scope is agreed and the board read (pricing itself is outside the plugin; the collision with the 20 November hold is scheduled back)", "owner": "Consultant", "date": "Not set; after the working session and the rate"},
+    {"quote": "Yes to that. Show her how and then it's hers.", "what": "Hand over label editing on the Studies board to Bethan (a change to a live object with Henrietta's yes)", "owner": "Consultant, with Henrietta's approval", "date": "Not set"},
+    {"quote": "I'd archive it rather than delete it, so it's out of the way and still there if anyone asks.", "what": "Archive the dead rota board (never delete). Approval state: archive proposed; Idris accepts; Henrietta's approval still required before anything changes", "owner": "Consultant, at the approval stop, after Henrietta's yes", "date": "Not set"},
+    {"quote": "I'd want to check the number before I say it out loud.", "what": "Soft: Henrietta checks the systems figure the renewal plus the expansion must fit inside", "owner": "Henrietta Weyland", "date": "Not set"}
+  ],
+  "traps": [
+    "Type: expansion, proposed with the agenda sentence and Henrietta's answer, never decided by the plugin. The screen share is a working-session sub-trigger (a client-built artefact present and technical work performed on it), not a second mode: no working-session, prototype-review or scoping label, no second criterion set, and the call chains discovery-check rather than the scope path.",
+    "Current state is Met early, by 00:07:13, from a few turns about the estate; do not grade R1 Partial for want of a full walkthrough, and do not re-ask what the prior build already established.",
+    "The 20 November date is the Consultant's: our commercial clock, front-paged as an owned to-do, excluded from R3, never presented as urgency or client hesitancy in a recap. Henrietta's 'Noted.' is a backchannel and evidence of nothing.",
+    "The pricing gate is closed (R4 Partial, R12 Partial; R7 Met) and a commercial date exists, so the front page shows the collision with the missing steps scheduled back from 20 November: the working session, the rate from Philippa, the scope read-back with Henrietta, then pricing prep, which is not part of this plugin.",
+    "R10 is Met on a mechanism only because the mode is expansion; the same close in discovery or demo mode grades Partial (no date, no time, no invite), and s2's 'I'll send something over' stays Missing. Do not convert on post-call calendar state.",
+    "'I'll put you two in touch' is scheduling handed off to a named owner without a mechanism: Partial-plus, with a same-day date-proposal to-do; it is not Met and not the next step.",
+    "'Eighty percent there' is Bethan's own guess about her own board; it is recorded in the client-built assets section and never becomes a completion, effort or duration figure from us. No figure is quoted for work on the board until it has been read; the Consultant's refusal to give one is the expected behaviour.",
+    "Bethan's prototype with its named wall is the strongest buying signal, filed as the internal-builder signal row (built a prototype, hit a wall and named it) and answered by crediting the work and naming the missing piece; Leonie's sheet is the build-it-ourselves risk. Do not file the prototype under 'We'll build it ourselves'.",
+    "The Consultant's 'forty an hour' was withdrawn and refused ('Don't. Get it from Philippa.'); it counts for nothing. The bleed is effort-quantified, rate pending; the rate's role is the finance controller.",
+    "P2 Cost inputs is not obtainable from this room: the recruitment coordinator keeps the sheet and was absent. Do not infer Leonie's hours from Idris or Henrietta, and route the question to a room with Leonie in it.",
+    "The roughly six-thousand Farraday loss (currency not stated) is a one-off, not a bleed input; 'we ate it' and the eleven-at-night correction stay internal.",
+    "'Cell' is an audience group, not a spreadsheet cell; 'the sheet' is two different spreadsheets (costing, rota); 'client' is the commissioning agency; 'brief' and 'study' are one item at two stages. Confirm before naming anything.",
+    "The live map governs: the Friday digest and the Incentives board are do-not-change (quoted from Henrietta), the Studies board is change-with-own-yes (Henrietta's gate: 'read, not typed'), and an element that collides with do-not-change is a fork carried open, never a silent change.",
+    "Authorship of the live estate is ours: the Studies board, digest, Incentives board and the lapsed rota board were built by the Consultant, so each current win is both the trust asset and the latent objection; incumbent friction is recorded with its client-attributed cause, and the change path (self-service labels) is a requested change, not a courtesy.",
+    "Prior attempts carry a status axis and a payer axis: the rota board lapsed (client paid, still in the account, nothing on it for about a year); the Studies and Incentives boards did not lapse. Nothing else failed.",
+    "The dead rota board is archived, never deleted, and never silently reused; a recruiter week view is built only after Henrietta has seen the approach, is read from the Studies board's field dates, and holds sessions, rooms, recruiters and headcount, never respondents. The archive itself was proposed by the Consultant and accepted by Idris; Henrietta's approval is still required before anything changes.",
+    "Bethan's screen share is the client's own frame, so no [X] quarantine applies to what she narrated; her test rows are not client figures either, because she said they are made up.",
+    "Two approaches were spoken by the Consultant ('I've built the first before', 'not promising it until I've done it on a copy'): claims to the store as buildable and unverified respectively, never stated as capability in client-facing text, and the choice is Bethan's mechanism-confirmation, not a build.",
+    "The delegation graph is the decision structure: Bethan runs it, Henrietta approves anything touching Studies or the Friday email before go-live and holds spend to a hedged threshold, Hamish above it (absent), Philippa can stop anything near Incentives. A flat role list loses this.",
+    "Tier is Pro by client statement with a hedged seat count ('thirty-something'); record the source and date, read it live at preflight, and do not read the renewal as an upgrade. No portfolio.",
+    "The account is already bound and the record already exists: this is a second strand, not a new client; no new-account question, no native-board detection (no CRM or Service entity), and the blueprint's inventory marks Bethan's board pre-existing and inherited, never ours to overwrite.",
+    "The study code is typed twice (form and Studies) and one with a space never lined up: an identifier question for the build, never answered with an 'as long as the names match' claim.",
+    "The incentive field was text for a month and the dashboard showed 'a number I didn't trust': read the prototype's field types and formulas live before extending them.",
+    "Respondent data stays in the panel software. Bank details stay in the accounting system. Nothing about respondents or payments enters any board, view or seed data.",
+    "Relayed lines are not evidence of the absent person: Hamish's win condition, 'That one got to Hamish', Philippa 'would riot'. They shape questions and the do-not-change list, never a grade about them.",
+    "The Consultant's two-approaches turn during the prototype walk is interrogation of a candidate solution, not a fix offered mid-pain; the delivery note must not flag it. The one client-interviewer moment (Henrietta asking Bethan how often a cell is added late) is reported and never changes a grade.",
+    "The sentence split across two Bethan lines by the Consultant's 'Mm-hm.' is one sentence with one owner; cite it as two units or as a reconstruction with both locations, never as a single verbatim quote that crosses the Consultant's label.",
+    "Idris's '[inaudible]' unit is uncertain; the requirement it carries (a second copy for Thornbury) is corroborated by his next line and originates nothing on its own. The two lines after the goodbyes (the Farraday invoice) are internal and never reach a recap.",
+    "Bethan's 'next week' and the wave 'starting the week after next' do not line up cleanly with her reason for the timing ('once the wave's started it goes quiet for me'); record the slot as hers to pick and 'next week' as spoken, and never derive a date for the session or the build from the wave.",
+    "The call date is not in the transcript; 'the twentieth of November' fits Friday 20 November 2026 and 'next week', 'the week after next' and 'three weeks ago' are relative to the unstated late-October date. Self-corrections use the corrected value: 'three, no, two new agency clients'."
+  ],
+  "requested_changes": [
+    {"type": "change", "description": "The costing delta, the main build: keep Bethan's form and her cells as subitems; get the cell total onto the parent so the Studies board can read it through a connection (the drift at 00:18:20, where the summary moves and the parent does not, is the failure it fixes); unverified until tried on a copy (00:19:46); access to her workspace pending the client's IT (00:20:26). Plus the monthly per-agency costed-versus-actual view (00:17:34, 00:21:47), once the finance source for 'actual' is resolved. Chosen by Bethan from the two approaches offered at 00:19:16 and approved by Henrietta ('The costing piece, yes, today.', 00:35:53).", "quote": "Either of those would do it, honestly. The first one. I don't want to lose the form."},
+    {"type": "change", "description": "Hand over label editing on the live Studies board so Bethan can change a label without emailing the Consultant; a change to a live object, approved by Henrietta on the call, planned as pre-existing-modified with its prior state read live.", "quote": "And I want to be able to change a label on the Studies board without emailing you."},
+    {"type": "change", "description": "Condition on the Studies board: nothing new the account leads must type; anything that lands on Studies is read, not typed (the connection to the costing total and the field dates the rota view reads).", "quote": "One condition on the Studies board. No new columns the account leads have to fill in."},
+    {"type": "add", "description": "A recruiter week view on the recruitment room's wall screen, conditional on Henrietta seeing the approach first and on Leonie being in the room when it is built; sessions, rooms, recruiters and headcount, never respondents.", "quote": "But if it was on the screen in the recruitment room, the big one, and it was right, they'd use it."},
+    {"type": "remove", "description": "Archive the dead Recruiter rota board (never delete; nothing on it has been real for a year). Approval state: archive proposed; Idris accepts; Henrietta's approval still required before anything changes, since it is a live object of ours in the client's account.", "quote": "And bin the old rota board. Nothing on it's been real for a year."}
+  ],
+  "should_plugin_propose_a_build": true,
+  "expected_questions_before_building": [
+    "Access: what did the IT people say about how the Consultant is given access to Bethan's workspace and the costing board, and at what seat level; nothing is built or read until that answer arrives, and the plugin never proposes the policy itself.",
+    "The roll-up: on a copy of Bethan's board, does the first approach (cells stay subitems, the total reaches the parent, the Studies board reads it through a connection) work with her form, and what happens when a cell is added after costing or n changes at screener sign-off?",
+    "Identifiers: should the study code be typed once (on Studies) and read by the costing board, or the other way round, and what happens to the existing items whose codes do not match?",
+    "Actual: where exactly does 'actual' live in the accounting system, will Philippa allow a read or a monthly upload, and is the per-agency monthly view a view over Studies or over the costing board?",
+    "The rate: what loaded hourly cost does Philippa use for a fieldwork manager, so the bleed can move from effort-quantified to Met?",
+    "Labels: which Studies status labels should change now (two 'mean the same thing'), who may edit them after the handover, and does the Friday digest read any of them?",
+    "The rota: what are the columns on Leonie's sheet (photo from Idris), which sessions and rooms exist across both centres, when is the wave blackout, and will Leonie be in the session where the view is built?",
+    "Admin and members: who is actually admin on the account today (Bethan thinks the Consultant and Hamish), read live before anything is changed.",
+    "Seats and tier: the renewal quote's seat count and whether the Pro plan's limits fit the connection and the view planned, read at preflight with its date."
+  ],
+  "expected_verdict": {
+    "verdict": "Nearly ready",
+    "gates_met": ["Solution blueprint (R1 Met, R2 Met; the structure inventory's read-back is graded Partial: the prototype rows were read back in the scope playback and accepted by Henrietta, the observed-only rows stay unconfirmed until the working session, and that grade is recorded in front of the gate)", "Build (no extra method gate; the Consultant's approval at the approval stop, after access is granted and the copy has been tried)", "First demo (v0.1): nothing extra needed; the demo re-confirms the mechanism-confirmed pain on screen"],
+    "gates_not_met": ["Pricing or proposal prep (R7 Met, but R4 Partial: effort-quantified, rate pending with Philippa; and R12 Partial: the rota half is a maybe and the access unlock is open). A commercial date exists on our side, 20 November, so the front page shows the collision and the steps scheduled back from it; pricing itself is not part of this plugin", "v1.0 sign-off (R11 Partial: mechanism-confirmed only, nothing shown; R6 success criteria proposed, not agreed; P2 unconfirmed)"],
+    "note": "R2 Met, R3 met-with-residual (counts as Met for the verdict, with the missing client clock as a gap question), R7 Met and R4 Partial give Nearly ready, with the reason line reading scale established, cost not priced, missing multiplier the loaded rate, and the 20 November collision named. Gap questions for the next meeting (at most five, per audience): the rate (Philippa), the client clock (Henrietta), the rota approach and Leonie's hours (a room with Leonie), the access answer (Bethan via the IT people), the actual side of costed-versus-actual (Philippa). Propose the blueprint as a second strand in the existing record once access exists: a delta against the inherited board, the live map honoured, the rota conditional, the automations as one approval list. No figure, no proposal and no completion estimate until the board has been read."
+  },
+  "account_context": {
+    "tier": "Pro (client statement, hedged seat count 'thirty-something'; the renewal quote holds the number, not read on the call; to be read live at preflight with its date)",
+    "products_enabled": ["Work Management: live, our earlier build (its date is in the record, not spoken on the call; Studies board with the Friday digest automation, Incentives board, a dead Recruiter rota board) plus Bethan's own Study costing board in her own workspace", "No CRM and no Service enabled or discussed"],
+    "existing_monday_setup": "A bound account with a live prior build of ours and one client-built board. Live and loved: the Studies board (one line per study, a status column with about seven labels that the five account leads read, field dates the account leads move) and its Friday digest automation to the account leads and Henrietta; the Incentives board, run by finance as its own. Lapsed: the Recruiter rota board, abandoned inside three months for Leonie's sheet, still in the account with nothing on it for about a year, to be archived. Client-built: Bethan's costing board (form, item per brief, cells as subitems, working cell-total formula, a subitem summary no parent formula or connection can read), in her own workspace where the Consultant has no access yet. Admin membership is hedged from memory (the Consultant and Hamish 'I think', Bethan a member) and is read live. The record exists already: this call opens a second strand, reads the live map and prior_builds, and touches the Studies board only with Henrietta's yes.",
+    "evidence_quote_or_null": "The Studies board is the thing that works. Every brief goes on it, the account leads live on it, and the Friday email goes out off it without anybody touching it."
+  },
+  "expected_structures": {
+    "native_boards_required": [],
+    "portfolio_expected": false,
+    "portfolio_reason": "The client states the Pro plan ('We're on Pro, I think it's thirty-something seats'), so the Enterprise default does not apply; Work Management is the only product and the work is a delta against an inherited board plus a conditional view, none of it portfolio-shaped. The tier is a client statement with a hedged seat count and is re-read at preflight with its date.",
+    "lookalike_traps": ["Building a new costing board of our own beside Bethan's, or copying hers into a fresh board, instead of extending the inherited board she owns; the form and the cells stay hers.", "Creating an 'Agencies' or 'Clients' board to hold the per-agency monthly view, which is a CRM Accounts look-alike in a build with no CRM in scope; the view is a view over studies, keyed by an agency value: the costing form carries agency today (00:15:14), and whether the Studies board has such a column is read live, never assumed.", "Building a new recruiter rota board while the dead one sits in the account, or silently repurposing the dead one; the dead board is archived only once Henrietta approves (archive proposed; Idris accepts; Henrietta's approval still required before anything changes), and a recruiter week view is built only after she has seen the approach.", "Putting the costing onto the Studies board with new columns the account leads must fill in, which breaks the 'read, not typed' condition and Henrietta's gate on the live board.", "Touching the Friday digest automation or the Incentives board in any way, including 'improving' them; both are do-not-change, quoted from the client."],
+    "notes": "One product, three classes of object. Inherited (client-built): the costing board, form, cells, cell formula, to be extended after access and a read on a copy, never overwritten. Live and ours: the Studies board (change-with-own-yes; the connection and the label handover with Henrietta's yes), the Friday digest and the Incentives board (do-not-change), the dead rota board (archive). New: the parent total and the connection, the per-agency monthly costed-versus-actual view once 'actual' has a source, the conditional recruiter week view for the wall screen. No CRM, no Service, no portfolio, no time tracking. Respondent data and payment data never enter the account. Every automation, including any change near the digest, goes on one approval list with recipients shown."
+  },
+  "accepted_behaviours": [
+    "Proposing the type header in any wording that names expansion as the call type and the screen share as a working-session sub-trigger with its boundaries quoted, provided no second mode or second label is applied and the header is offered with its quote rather than decided.",
+    "Grading R1 Met from the estate turns alone, with or without a formal structure inventory, as long as the prototype rows are kept apart from current state and admin membership is marked hedged.",
+    "Grading R3 met-with-residual, or Met with the missing client clock listed as a gap question, as long as the 20 November date never appears as why-now evidence and is front-paged as our own owned to-do.",
+    "Showing the commercial-date collision in any layout that names the closed gate, the date, and the steps scheduled back from it, while stating that pricing and proposal prep are not part of this plugin.",
+    "Grading R10 Met on the booking mechanism, or Met with a note that no date exists yet, provided the grade is tied to expansion mode, the same-day date-proposal to-do is emitted for the Philippa hand-off, and nothing is inferred from the calendar.",
+    "Reporting the bleed as effort-quantified, rate pending, or as Partial with the rate named as the missing multiplier and Philippa as its owner; either wording passes, and any figure built from 'forty an hour' fails.",
+    "Grading P2 Cost inputs not obtainable from this room naming the recruitment coordinator, or Missing with the same routing note, provided nothing is inferred from Idris or Henrietta.",
+    "Filing the prototype either as the internal-builder signal row (built a prototype, hit a wall and named it) or as no objection at all with the client-built assets section carrying the wall; filing it as 'We'll build it ourselves' fails.",
+    "Refusing any completion, effort or duration figure for work on the costing board, in the summary, the recap or the blueprint, until access exists and the board has been read; repeating 'eighty percent' as a fact fails.",
+    "Proposing the blueprint now as a delta against the inherited board with the access unlock listed as blocking, or holding the blueprint until after the booked working session with that reason stated; either passes, silently building beside her board fails.",
+    "Recording the live-map constraints in any equivalent wording: the digest and the Incentives board untouchable, the Studies board changed only with Henrietta's yes and only with read-not-typed elements, the rota board archived rather than deleted.",
+    "Naming the tier as Pro from the client's statement, with its hedge and date, and asking for the seat count rather than reading it from the renewal quote, which the plugin has not seen.",
+    "Treating everything said about Hamish, Philippa and Leonie as relayed: it shapes the delegation graph, the do-not-change list and the room-change routing, and never counts as their evidence.",
+    "Presenting automations, including the archive of the rota board and any connection near the digest, as one approval list with trigger, conditions, action and recipients per row, and running the change check before any write into the client's account."
+  ],
+  "expected_leak_blocklist": [
+    "Cost inputs and hours: 'Four hours, sometimes five', 4-5 h/wk, 'call it half that each', 'my Friday' as a cost, 'at least twice' and 'three times' as cost multipliers, and any phrase pairing hours with a rate or a yearly total.",
+    "The withdrawn rate and any rate: 'forty an hour', 40, 40 with any currency sign or per-hour suffix, 'loaded rate', and any hourly cost attributed to Philippa before she supplies it.",
+    "The Farraday loss: 'About six thousand', 6000, 6k with any currency sign, 'we ate it', 'doubled up on the incentives', 'eleven at night', and the narrative of a mis-costed study as the firm's failure; Farraday may be named as an agency, not narrated as a loss.",
+    "The client's own completion guess: 'eighty percent there', 80%, and any completion, effort or duration figure for the costing board.",
+    "Our commercial clock: 'held until the twentieth of November', 20 November, 'my constraint', the renewal quote and its validity, and any sentence that turns the date into client urgency.",
+    "Tier, seats and spend: 'Pro', 'thirty-something seats', the systems figure Hamish set, 'up to what Hamish set', 'on the card', 'nobody blinked', and any threshold or budget remark.",
+    "Incumbent friction and stakeholder assessments: 'we had to email you and wait', 'people stopped asking', 'the handover was a call', 'Philippa would riot', 'She doesn't sign, but she can stop it', 'unless the two of you go mad', 'Hamish reads those', 'Hamish on his phone at the weekend'.",
+    "Remarks about colleagues and personal stakes: 'Leonie's got the sheet down to a fine art', 'She'd rather keep it', 'nobody could read the colours', 'she was shown it after', 'That's on me', 'Beth did the corrected one at eleven at night', 'I'm tired of it', 'He's got a playlist'.",
+    "The backslide and failure narratives: 'They went back to the sheet inside three months', 'the sheet won', 'The rota board's dead', 'Twelve respondents turned up to an empty room', 'That one got to Hamish', 'we lost two sessions'.",
+    "Objection text and the objection names: 'whether it's just not the right tool', 'can the extra piece be on the same sheet', 'The rota is a maybe', 'We've been here before', and the map's names (changing what you built costs us, build it ourselves, monday itself is the problem, team won't adopt it, must check with someone, just send a proposal).",
+    "Readiness and gate language: R1-R12 and their names, 'Nearly ready', 'met-with-residual', 'not obtainable from this room', excavated, gate, gap question, mechanism-confirmed, the commercial-date collision, and any statement that discovery is complete or incomplete.",
+    "Method vocabulary and markers: bleed, upside, effort-quantified, rate pending, callback, exit ramp, seed, expansion mode, working-session sub-trigger, live map, do-not-change, change-with-own-yes, pain ids (P1, P2), N#, S#, O#, C#, and the [Q], [Q/recon], [X], [I] and [found] markers.",
+    "Internal artefacts: the call summary, the type header, the delivery notes, the raw transcript and its timestamps, the two lines after the goodbyes about the Farraday invoice, the claims store entries for the two approaches, and any 'if asked' or 'do not show' note.",
+    "Pricing material of any kind: rates, totals, discounts, ROI, cost-of-waiting figures, and any number for the costing work, since pricing is outside the plugin and the gate is closed.",
+    "Confidential client data: respondent names, numbers or history from the panel software; bank or payment details; brand names or agency study titles in place of study codes; the agencies' compliance arrangements.",
+    "Alternatives and other clients: no other vendor, partner or in-house build may be named, because none was discussed; Bethan's own board is inherited work, not a competitor, and no other client's name or example may be used.",
+    "Consulting brand and product names: the consultant appears as 'Consultant' only, and no plugin, tool or brand name of the Consultant's may appear in the account or in client-facing text.",
+    "Flag, do not remove (process and volume facts that belong in an SOP or a board, checked with the Consultant first): about seventy people, 28 recruiters, five account leads, three fieldwork managers, two centres including Thornbury, 12-15 briefs a month, the Friday digest as a process, the wave blackout, Saturday sessions, qual and quant, cells, the study code convention.",
+    "CAUTION: 'cell', 'wave', 'session', 'brief', 'study', 'code' and 'the Friday email' are the client's own vocabulary and must survive in boards and SOPs even where a blocked phrase sits near them."
+  ],
+  "intake": {
+    "format": {"family": "block export", "dialect": "one turn per line, '[HH:MM:SS] Speaker Name: text'", "end_times": false, "timestamp_shape": "zero-padded HH:MM:SS start only, monotonic, no collisions", "label_position": "prefix in the payload, full name, uniform", "participant_header": false, "line_endings": "LF", "units": 262, "words_spoken": 4785, "max_unit_words": 83, "defect_density": "low: 24 of 262 turns (about 9%) at or below four words, none of them a fragment of a neighbour; no lowercase-initial turns; no colliding stamps; 20 adjacent same-label pairs; the no-action band applies", "roster_source": "observed speakers only; Henrietta's turn at 00:00:51 says who is in the room and who is dialling in, which is human framing and not a roster"},
+    "type_header": {"label": "expansion", "sub_trigger": "working-session (a client-built artefact present and technical work performed on it during the screen share); the sub-trigger of expansion mode, never a second mode or a second criterion set (R9)", "labels_not_applied": {"working-session": "the sub-trigger of expansion mode, not a second mode or label (R9)", "prototype-review": "the screen share is a typed segment inside an expansion call, and the prototype-review type switches no rule off on its own", "scoping": "the deliverable is configured-structure and the call chains discovery-check, not the scope path"}, "seat": "partner-led", "relationship": "existing-client", "relationship_evidence": {"quote": "Anything of ours that's changed since I last looked?", "location": "00:06:36 Consultant"}, "direction": "no-show", "direction_note": "the call-level value is the dominant one; the middle segment carries they-show-candidate with its boundaries, and the header changes no other value for it", "output_class": "configured-structure", "room_shape": "small-group", "room_shape_note": "three client speakers, all of whom spoke (the approver, the fieldwork manager who built the prototype, the recruitment lead), one on our side; no roster, so voices missing reads unknown", "money_live": "live-approver-present", "money_live_note": "the tier and a hedged seat count (00:07:13, Henrietta, 'I think'); who approves spend and the hedged threshold (00:30:45, Henrietta, 'I think'); the Farraday loss (00:09:36, Henrietta, 'About', currency not stated); from our side, a rate floated and withdrawn (00:14:08, refused at 00:14:14) and the only calendar date in the call, the renewal-pricing hold (00:33:20, Consultant), recorded as our commercial clock and never as client urgency", "segments": [{"from": "00:00:03", "to": "00:14:26", "direction": "no-show", "event": "the agenda sentence at 00:02:32 and the approver's acceptance at 00:03:00; the estate, the costing process and the why-now, graded as expansion"}, {"from": "00:14:30", "to": "00:21:26", "direction": "they-show-candidate", "event": "'Can I share my screen? It's easier if you just see it.' (00:14:30, Bethan) to 'Let me stop sharing. Hang on.' (00:21:26, Bethan); a client-side deictic run of about seven minutes, so the show is substantive; the working-session sub-trigger, not a second mode"}, {"from": "00:21:36", "to": "00:37:38", "direction": "no-show", "event": "the rota, the outcome, the decision process, the scope playback and the close, graded as expansion; two lines after the goodbyes are internal"}], "signals": [{"signal": "screen-control deixis", "result": "decides direction of show for the middle segment: a permission request from Bethan, 'Can you see it?', 'This one?', 'see, it's not in the list', 'See. That's what I mean.', and a stop; no system lines in this export", "quote": {"quote": "Can I share my screen? It's easier if you just see it.", "location": "00:14:30 Bethan Tull (Fieldwork Manager)"}}, {"signal": "same-side screen direction", "result": "none: one person on our side (provisional signal, nothing to record)"}, {"signal": "agenda sentence and the client's answer", "result": "expansion: the agenda sentence at 00:02:32 names two pieces of work on a live estate of ours and holds the renewal back; the approver's next turn accepts it and ranks the two", "quote": {"quote": "That's it. And the costing piece is the bigger one, by a distance.", "location": "00:03:00 Henrietta Weyland (Director of Operations)"}}, {"signal": "output-class markers", "result": "configured structure: a board, a form, items, subitems, a formula, a mirror, a number column, a dashboard, a summary column, status labels, a connection; no code, modules or renderers", "quote": {"quote": "It's a board with a form on the front, one item per brief, and the cells are subitems.", "location": "00:06:24 Bethan Tull (Fieldwork Manager)"}}, {"signal": "commercial markers", "result": "who approves spend and the hedged threshold (00:30:45, Henrietta); the tier and seat count (00:07:13, Henrietta, hedged); the Farraday loss (00:09:36, Henrietta, 'About'); our side's withdrawn rate (00:14:08) and the renewal-pricing hold (00:33:20), both recorded with their speaker", "quote": {"quote": "Spend is mine, up to what Hamish set for systems this year. The renewal plus this is inside that, I think. I'd want to check the number before I say it out loud.", "location": "00:30:45 Henrietta Weyland (Director of Operations)"}}], "agenda": {"quote": "So, you emailed saying two things. You want the costing board Bethan's been building to actually get finished, and you want the recruiter side back in some form.", "location": "00:02:32 Consultant", "client_answer": "That's it. And the costing piece is the bigger one, by a distance.", "client_answer_location": "00:03:00 Henrietta Weyland (Director of Operations)"}, "proposal": "one-line dismissible header with the agenda quote and the segment boundaries; detection proposes, the user decides; proposed_not_decided"},
+    "current_state_met_early": {"by": "00:07:13", "from_quotes": ["00:03:20 Henrietta Weyland (Director of Operations)", "00:04:25 Idris Machado (Recruitment Team Lead)", "00:05:08 Henrietta Weyland (Director of Operations)"]},
+    "current_wins_to_preserve": [{"object": "Studies board status column and the Friday digest automation", "quote": "Don't touch the Friday email. I mean that. The account leads would notice before I did.", "location": "00:03:33 Henrietta Weyland (Director of Operations)", "owner": "Henrietta Weyland (readers: the five account leads, Hamish)", "authorship": "built by us", "burden": "none stated; runs without anybody touching it", "change_path": "labels: none today (email us and wait); to become self-service for Bethan with Henrietta's yes", "constraint": "digest do-not-change; Studies board change-with-own-yes"}, {"object": "Incentives board", "quote": "Finance runs the Incentives board and Philippa would riot if anyone went near it.", "location": "00:04:10 Henrietta Weyland (Director of Operations)", "owner": "Philippa (finance), absent", "authorship": "built by us, now finance's own", "burden": "none stated", "change_path": "none; Philippa can stop anything near it", "constraint": "do-not-change"}, {"object": "Bethan's costing board: the form and the cells", "quote": "Either of those would do it, honestly. The first one. I don't want to lose the form.", "location": "00:19:57 Bethan Tull (Fieldwork Manager)", "owner": "Bethan Tull", "authorship": "built by them", "burden": "hers; stops at the roll-up", "change_path": "inherited and extended after access and a read on a copy", "constraint": "inherited; the form stays"}],
+    "prior_attempts": [{"what": "Recruiter rota board", "by_whom": "us", "when": "with the Studies and Incentives boards in the earlier rollout; the build date is not spoken on the call and comes from the record. Idris: abandoned 'inside three months', nothing on it 'in about a year'", "status": "lapsed: nothing on it for about a year, still in the account", "payer": "the client (on the card, 'nobody blinked')", "why_in_their_words": "They went back to the sheet inside three months. Leonie was doing it twice, once on the board and once on the sheet, and the sheet won.", "location": "00:04:36 Idris Machado (Recruitment Team Lead)", "disposition": "archive proposed; Idris accepts; Henrietta's approval still required before anything changes; a recruiter week view only after she has seen the approach and with Leonie in the room"}],
+    "incumbent_friction": {"stated": true, "quote": "The honest thing is every time we wanted a label changed we had to email you and wait, and after a while people stopped asking.", "location": "00:05:08 Henrietta Weyland (Director of Operations)", "client_attributed_cause": "We didn't know how to do it ourselves and I'm not sure anyone was meant to.", "cause_location": "00:05:25 Henrietta Weyland (Director of Operations)", "objection_status": "embedded"},
+    "prior_build_by_us_still_live": {"objects": ["Studies board", "Friday digest automation", "Incentives board", "Recruiter rota board (dead)"], "consumes": "unknown: seats and automation runs not stated; read at preflight", "change_cost_expectation": "The honest thing is every time we wanted a label changed we had to email you and wait, and after a while people stopped asking.", "do_not_disturb": [{"quote": "Don't touch the Friday email. I mean that. The account leads would notice before I did.", "location": "00:03:33 Henrietta Weyland (Director of Operations)"}, {"quote": "Finance runs the Incentives board and Philippa would riot if anyone went near it.", "location": "00:04:10 Henrietta Weyland (Director of Operations)"}], "handover_lesson": {"quote": "That's the thing I'd do differently, honestly. Last time it was built and handed over and the handover was a call. This time I want someone here who can change things.", "location": "00:05:55 Henrietta Weyland (Director of Operations)"}},
+    "client_built_assets": {"what": "Study costing board in Bethan's own workspace", "why": {"quote": "Which is partly why I built the costing thing on my own. I didn't want to email and wait.", "location": "00:06:09 Bethan Tull (Fieldwork Manager)"}, "mechanism": "form, one item per brief, cells as subitems with a cell-total formula, a subitem summary on the parent", "author": "Bethan Tull", "does": "captures a brief and its cells and totals each cell; observed on her screen and narrated", "blocker_in_their_words": {"quote": "But I can't get that number into a formula on the parent, and I can't get the Studies board to read it, and I've tried it four ways.", "location": "00:16:53 Bethan Tull (Fieldwork Manager)"}, "access_state": {"state": "no access; the board is in her workspace", "unlock_owner": "Bethan, subject to the IT people's guest policy", "cost": "unknown; a few days", "quote": "No. It's in my own workspace. I'd have to add you, and I'll need to ask the IT people how you're meant to come in, they have opinions about guests.", "location": "00:20:26 Bethan Tull (Fieldwork Manager)"}, "their_own_completeness": {"quote": "I'm, like, eighty percent there. It's the last bit.", "location": "00:20:49 Bethan Tull (Fieldwork Manager)", "treatment": "the client's guess; never a figure of ours"}, "our_completeness_note": "seen: the form and the cells and a working cell formula; not yet looked at: the connection to Studies and late-added cells; no figure until read", "disposition": "inherit and extend, approach one (cells stay subitems, total to the parent, Studies reads it); the form stays", "post_handover_ownership": "Bethan"},
+    "commercial_clock_our_side": {"date": "2026-11-20 (Friday; 'the twentieth of November'; the year comes from the call date supplied at intake, since the transcript states none)", "speaker": "Consultant", "quote": "The pricing on the renewal quote I sent you is held until the twentieth of November. That's my constraint, not yours, and I'm saying it so it's on the table and not a surprise.", "location": "00:33:20 Consultant", "client_acknowledgement": {"quote": "Noted.", "location": "00:33:40 Henrietta Weyland (Director of Operations)", "treatment": "backchannel; non-evidence; not hesitancy"}, "front_page": true, "excluded_from_why_now": true, "listed_as_owned_todo": true, "never_client_hesitancy": true, "other_constraints_our_side": [{"constraint": "no figure on the costing piece until the board has been read", "quote": "Happy to, once we've agreed what it covers, and I won't put a number on the costing piece until I've read Bethan's board. So it may be two sheets, or one sheet later. I'd rather it was right.", "location": "00:33:00 Consultant", "owned_todo": "read the board on a copy in the working session, then price"}, {"constraint": "no access to the costing board yet", "owned_todo": "wait for the IT people's answer through Bethan; never propose the policy"}], "collision": {"gate": "Pricing or proposal prep", "closed_by": ["R4 partial (rate pending with Philippa)", "R12 partial (rota a maybe; access unlock open)"], "steps_scheduled_back": [{"step": "working session on a copy of the costing board", "owner": "Consultant with Bethan", "by": "the week after the call"}, {"step": "loaded rate from Philippa", "owner": "Consultant, introduced by Henrietta", "by": "before the scope read-back"}, {"step": "scope read-back with Henrietta: costing confirmed, rota decided, access settled", "owner": "Consultant", "by": "before 2026-11-20"}, {"step": "pricing prep", "owner": "the user, outside the plugin", "by": "2026-11-20"}]}},
+    "next_step": {"state": "booking mechanism committed on the call: the link is committed to send today, owner the Consultant, purpose the working session; not sent, done only on evidence", "mechanism": "a booking link, committed to send today, for a 45-minute working session", "owner_send": "Consultant", "owner_book": "Bethan Tull", "purpose": "walk the costing board cell by cell and try the two approaches on a copy", "assent": {"quote": "Yes. Send it. I'll grab something next week, once the wave's started it goes quiet for me.", "location": "00:36:18 Bethan Tull (Fieldwork Manager)"}, "grade": "met", "grade_in_discovery_or_demo_mode": "partial", "second_item": {"state": "scheduling handed off to a named owner, no mechanism", "owner": "Henrietta Weyland", "quote": "I'll put you two in touch. Leave that with me.", "location": "00:36:32 Henrietta Weyland (Director of Operations)", "grade": "partial-plus", "todo": "same-day date-proposal to Philippa via Henrietta"}},
+    "composite_blocks": [],
+    "composite_detector": "ran; cannot qualify on this file (no end times, longest unit 83 words) and says so",
+    "wedges": [],
+    "wedge_detector": "not applicable: block export without end times",
+    "rejoined_sentences": [{"owner": "Bethan Tull", "units": ["00:21:47 Bethan Tull (Fieldwork Manager)", "00:22:02 Bethan Tull (Fieldwork Manager)"], "interior_backchannel": {"quote": "Mm-hm.", "location": "00:22:01 Consultant"}, "reconstruction": "The other thing I want out of it, and this is the bit Henrietta actually cares about, is a monthly view per agency of what we costed against what it actually came in at.", "boundary_artifact": "the repeated 'against what' at the join, removed only outside the quotation marks", "citation": "[Q/recon] with both locations, or two [Q] quotes; never one quote across the Consultant's label", "confidence": "probable"}],
+    "split_numbers": [],
+    "unit_unresolved_figures": [],
+    "alias_map": {"Bethan Tull": ["Bethan", "Beth"], "Henrietta Weyland": ["Henrietta"], "Idris Machado": ["Idris"], "Leonie": ["absent: recruitment coordinator, keeps the rota sheet"], "Philippa": ["absent: finance controller, the accounting system, rates"], "Hamish": ["absent: owner, the systems figure"], "Farraday": ["an agency (an organisation), not a person; 'the Farraday one' (00:09:16) is its study and 'the Farraday invoice' (00:37:30) its invoice, both belonging to the one agency, not second entities"], "Thornbury": ["the second recruitment centre; a place, not a person"]},
+    "confidence": {"default": "certain", "exceptions": [{"location": "00:25:27 Idris Machado (Recruitment Team Lead)", "state": "uncertain", "reason": "[inaudible] inside the unit; corroborated by the next line and originates nothing"}, {"location": "00:02:13 Idris Machado (Recruitment Team Lead)", "state": "probable", "reason": "crosstalk at the join"}, {"location": "00:22:58 Idris Machado (Recruitment Team Lead)", "state": "probable", "reason": "off-call speech inside the turn; not evidence"}, {"location": "00:21:47 Bethan Tull (Fieldwork Manager)", "state": "probable", "reason": "fragment tail of the re-joined sentence"}, {"location": "00:22:02 Bethan Tull (Fieldwork Manager)", "state": "probable", "reason": "fragment head of the re-joined sentence"}]},
+    "package_order": null,
+    "package_note": "single call, first-hand; no package, so no order to confirm",
+    "second_hand": [],
+    "second_hand_note": "none: every figure is first-hand and no figure is re-quoted; the relayed remarks (Hamish's win condition, Philippa's likely reaction, 'That one got to Hamish') carry no figure and are never attributed to the absent person as their statement",
+    "quarantine": {"x_applied": false, "reason": "the screen share is the client's own frame (they show a candidate solution they built), so nothing narrated on it is quarantined; Bethan's test rows are excluded as figures on her own statement", "test_rows": {"quote": "Ignore the numbers, those are made up, I put test rows in so the formulas had something to chew on.", "location": "00:14:51 Bethan Tull (Fieldwork Manager)"}},
+    "voices": {"heard": ["Henrietta Weyland", "Bethan Tull", "Idris Machado"], "missing": "unknown: no roster", "decision_shaped_absentees": ["Hamish (owner; spend above the threshold)", "Philippa (finance; can stop anything near Incentives; holds the rate)"], "after_goodbyes": ["00:37:30 Henrietta Weyland (Director of Operations)", "00:37:38 Bethan Tull (Fieldwork Manager)"]},
+    "delivery_notes": {"client_share": "about 67% by words", "longest_own_side_turn": "83 words", "fix_offered_mid_pain": "none: the two-approaches turn sits inside the prototype walk, where interrogating the artefact is the work", "client_interviewer": {"quote": "Beth, how many of those get a cell added after you've costed them? Actually, not roughly.", "location": "00:11:49 Henrietta Weyland (Director of Operations)"}, "commitment_question": {"quote": "Before we do next steps. Is this worth taking forward, from where you sit?", "location": "00:35:46 Consultant"}},
+    "claims_by_our_side": [{"claim": "approach one is buildable ('I've built the first before')", "quote": "I've built the first before. I haven't tried it against a form like yours, so I'm not promising it until I've done it on a copy.", "location": "00:19:46 Consultant", "hedge": "hedged against her form; unverified until tried on a copy", "audience": "approver present"}, {"claim": "the withdrawn rate", "quote": "Sure. If we said, I don't know, forty an hour just to --", "location": "00:14:08 Consultant", "hedge": "withdrawn on the spot", "audience": "approver present; refused by her"}]
+  },
+  "readiness": {
+    "schema": "readiness/1",
+    "note": "Derived from this key's pains, entities, products, structure, forks and questions in the fixture fix pass of 2026-10-13. Structure assertions stay provisional until the user has seen a real build (FEEDBACK, top). The build target is the client's own account (A21), so A11-2 is asked before the first such build; the key's pains are numbered P1.1 to P1.6, P2.1 and P2.2 after their themes, and the unnumbered incumbent-friction entry is P3.1.",
+    "goals": [
+      {"id": "G1", "goal": "This time, someone here who can change things, not emailing and waiting", "quote": "This time I want someone here who can change things.", "location": "00:05:55 Henrietta Weyland (Director of Operations)", "speaker_role": "Director of Operations", "pains": ["P3.1"]},
+      {"id": "G2", "goal": "A monthly view per agency of what was costed against what it came in at", "quote": "The other thing I want out of it, and this is the bit Henrietta actually cares about, is a monthly view per agency of what we costed against what", "location": "00:21:47 Bethan Tull (Fieldwork Manager)", "speaker_role": "Fieldwork Manager", "pains": ["P1.6"]},
+      {"id": "G3", "goal": "Each brief costed once, in one place; the agency's number is Philippa's number", "quote": "A brief comes in, Bethan costs it once, in one place, and the number that goes to the agency is the number Philippa sees.", "location": "00:28:25 Henrietta Weyland (Director of Operations)", "speaker_role": "Director of Operations", "pains": ["P1.1", "P1.2", "P1.3", "P1.4", "P1.5"]},
+      {"id": "G4", "goal": "The recruiters see their week without Leonie retyping it", "quote": "And the recruiters can see their week without Leonie retyping it.", "location": "00:29:03 Idris Machado (Recruitment Team Lead)", "speaker_role": "Recruitment Team Lead", "pains": ["P2.1", "P2.2"]}
+    ],
+    "pains": [
+      {
+        "id": "P1.1",
+        "quote": "There's no version of it that's the real one.",
+        "location": "00:07:55 Bethan Tull (Fieldwork Manager)",
+        "speaker_role": "Fieldwork Manager",
+        "stated_or_excavated": "excavated",
+        "outcome": "A brief comes in, Bethan costs it once, in one place, and the number that goes to the agency is the number Philippa sees. That's it. That's the whole thing."
+      },
+      {
+        "id": "P1.2",
+        "quote": "The Farraday one. The incentive line was in there twice, once per cell and once at the bottom, and I didn't catch it, and the number went to the agency doubled up on the incentives and light everywhere else, and we ate it.",
+        "location": "00:09:16 Bethan Tull (Fieldwork Manager)",
+        "speaker_role": "Fieldwork Manager",
+        "stated_or_excavated": "excavated",
+        "outcome": "A brief comes in, Bethan costs it once, in one place, and the number that goes to the agency is the number Philippa sees. That's it. That's the whole thing."
+      },
+      {
+        "id": "P1.3",
+        "quote": "And the number the client gets is not the number finance sees, because they're two different sheets by then.",
+        "location": "00:12:40 Bethan Tull (Fieldwork Manager)",
+        "speaker_role": "Fieldwork Manager",
+        "stated_or_excavated": "stated",
+        "outcome": "Meaning I don't care where, as long as there's one of it. If the number's on Beth's board and the Studies board shows it and Philippa reads it off the same thing, that's one place. If it's three files that agree, that's not."
+      },
+      {
+        "id": "P1.4",
+        "quote": "Once a study. Nearly every study. The agency comes back with one more audience, or the brand wants a boost sample, and it's a fifth cell.",
+        "location": "00:11:57 Bethan Tull (Fieldwork Manager)",
+        "speaker_role": "Fieldwork Manager",
+        "stated_or_excavated": "stated",
+        "outcome": "And I get my Fridays back."
+      },
+      {
+        "id": "P1.5",
+        "quote": "But I can't get that number into a formula on the parent, and I can't get the Studies board to read it, and I've tried it four ways.",
+        "location": "00:16:53 Bethan Tull (Fieldwork Manager)",
+        "speaker_role": "Fieldwork Manager",
+        "stated_or_excavated": "stated",
+        "outcome": "Meaning I don't care where, as long as there's one of it. If the number's on Beth's board and the Studies board shows it and Philippa reads it off the same thing, that's one place. If it's three files that agree, that's not."
+      },
+      {
+        "id": "P1.6",
+        "quote": "-- against what it actually came in at. Costed versus actual. Because right now that's a question I get asked and can't answer.",
+        "location": "00:22:02 Bethan Tull (Fieldwork Manager)",
+        "speaker_role": "Fieldwork Manager",
+        "stated_or_excavated": "stated",
+        "outcome": null
+      },
+      {
+        "id": "P2.1",
+        "quote": "So it's always late and it's always wrong somewhere.",
+        "location": "00:22:54 Idris Machado (Recruitment Team Lead)",
+        "speaker_role": "Recruitment Team Lead",
+        "stated_or_excavated": "excavated",
+        "outcome": "And the recruiters can see their week without Leonie retyping it."
+      },
+      {
+        "id": "P2.2",
+        "quote": "And the recruiters look at the photo. Not the board. The board's never had the sessions on it.",
+        "location": "00:23:55 Idris Machado (Recruitment Team Lead)",
+        "speaker_role": "Recruitment Team Lead",
+        "stated_or_excavated": "excavated",
+        "outcome": "But if it was on the screen in the recruitment room, the big one, and it was right, they'd use it."
+      },
+      {
+        "id": "P3.1",
+        "quote": "The honest thing is every time we wanted a label changed we had to email you and wait, and after a while people stopped asking.",
+        "location": "00:05:08 Henrietta Weyland (Director of Operations)",
+        "speaker_role": "Director of Operations",
+        "stated_or_excavated": "excavated",
+        "outcome": "This time I want someone here who can change things."
+      }
+    ],
+    "signals": [
+      {
+        "quote": "If the number's on Beth's board and the Studies board shows it and Philippa reads it off the same thing, that's one place.",
+        "location": "00:28:41 Henrietta Weyland (Director of Operations)",
+        "pain": "P1.3",
+        "not_confirmed": "that Philippa will read the costed total off the board; she keeps her own copy of the sheet today (00:11:23) and was not on the call; our side wrote the actual question down for later (00:22:31) and never asked whether she would read the board"
+      },
+      {
+        "quote": "It's the number that doesn't follow.",
+        "location": "00:18:33 Bethan Tull (Fieldwork Manager)",
+        "pain": "P1.4",
+        "not_confirmed": "whether a late cell added by an account lead should also tell Bethan it was added; our side asked who adds cells and moved to n, so the roll-up is confirmed as the fix and the notice is not"
+      },
+      {
+        "quote": "The two things don't know about each other.",
+        "location": "00:23:33 Idris Machado (Recruitment Team Lead)",
+        "pain": "P2.2",
+        "not_confirmed": "that a week view reading the Studies board's field dates is the fix Idris wants; our side built it into the scope playback without reading it back to him, and Henrietta wants to see the approach before she says yes"
+      },
+      {
+        "quote": "If it was hers and not something done to her, maybe. Maybe. She'd need to be in the room when it's built, not shown it after.",
+        "location": "00:26:30 Idris Machado (Recruitment Team Lead)",
+        "pain": "P2.1",
+        "not_confirmed": "whether Leonie would own a board; Idris's guess about an absent person; our side asked for her columns and not how she comes into the room"
+      },
+      {
+        "quote": "If we keep doing it in the sheet we will lose one of them. Not might. Will. They've said so.",
+        "location": "00:13:30 Henrietta Weyland (Director of Operations)",
+        "pain": "P1.1",
+        "not_confirmed": "the forty-eight-hour requirement as the agency stated it; relayed from a review; our side repeated 'They've said so.' and moved on"
+      },
+      {
+        "quote": "I think you're still an admin on it. You and Hamish, and that's it. I'm a member, I think, I've never checked.",
+        "location": "00:05:34 Bethan Tull (Fieldwork Manager)",
+        "pain": "P3.1",
+        "not_confirmed": "who is admin on the account; hedged twice; our side said it would check rather than guess (00:05:44) and has not read it yet"
+      }
+    ],
+    "entities": [
+      {
+        "name": "agency (the commissioning research agency, the client's 'client')",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "00:07:39 Bethan Tull (Fieldwork Manager)"
+      },
+      {
+        "name": "brand (a direct commissioner, sometimes)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "00:12:52 Bethan Tull (Fieldwork Manager)"
+      },
+      {
+        "name": "brief / study (one thing at two stages; one row on Studies and one on the costing board today)",
+        "parent": "agency",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "00:07:39 Bethan Tull (Fieldwork Manager)"
+      },
+      {
+        "name": "study code (the identifier on every board; typed twice today)",
+        "parent": "brief / study",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "00:16:13 Bethan Tull (Fieldwork Manager)"
+      },
+      {
+        "name": "cell (an audience group; agencies also say quota)",
+        "parent": "brief / study",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "00:08:12 Bethan Tull (Fieldwork Manager)"
+      },
+      {
+        "name": "n (sample size of a cell; changes when the screener is signed off)",
+        "parent": "cell",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "00:15:44 Bethan Tull (Fieldwork Manager)"
+      },
+      {
+        "name": "incentive per head, recruit cost per head, moderation hours (cost lines of a cell)",
+        "parent": "cell",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "00:08:12 Bethan Tull (Fieldwork Manager)"
+      },
+      {
+        "name": "qual / quant (the study type that decides which cost lines apply)",
+        "parent": "brief / study",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "00:08:51 Bethan Tull (Fieldwork Manager)"
+      },
+      {
+        "name": "cell total (formula on the subitem; works)",
+        "parent": "cell",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "observed",
+        "evidence": "00:15:27 Bethan Tull (Fieldwork Manager)"
+      },
+      {
+        "name": "costed total on the parent (the subitem summary no parent formula or connection reads)",
+        "parent": "brief / study",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "observed",
+        "evidence": "00:18:20 Bethan Tull (Fieldwork Manager)"
+      },
+      {
+        "name": "costed brief as sent to the agency (a snapshot of the total at sending)",
+        "parent": "brief / study",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "00:11:16 Bethan Tull (Fieldwork Manager)"
+      },
+      {
+        "name": "the costing sheet (one copy per fieldwork manager, copied per brief)",
+        "parent": null,
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "00:07:55 Bethan Tull (Fieldwork Manager)"
+      },
+      {
+        "name": "finance's copy of the costing sheet",
+        "parent": "the costing sheet",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "00:11:23 Henrietta Weyland (Director of Operations)"
+      },
+      {
+        "name": "invoice and actual study cost (in the accounting system)",
+        "parent": "brief / study",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "00:22:25 Bethan Tull (Fieldwork Manager)"
+      },
+      {
+        "name": "field dates (on Studies; moved by the account lead)",
+        "parent": "brief / study",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "00:23:33 Idris Machado (Recruitment Team Lead)"
+      },
+      {
+        "name": "Studies status label (about seven; two mean the same thing)",
+        "parent": "brief / study",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "00:03:44 Henrietta Weyland (Director of Operations)"
+      },
+      {
+        "name": "the Friday digest (an email automation off Studies)",
+        "parent": "the Studies board",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "00:03:20 Henrietta Weyland (Director of Operations)"
+      },
+      {
+        "name": "Incentives board row (who is owed what and whether paid; finance's)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "00:32:11 Henrietta Weyland (Director of Operations)"
+      },
+      {
+        "name": "screener (signed off after the brief; changes n)",
+        "parent": "brief / study",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "00:15:44 Bethan Tull (Fieldwork Manager)"
+      },
+      {
+        "name": "wave (a fielding period; nothing new in its last two weeks)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "00:28:00 Idris Machado (Recruitment Team Lead)"
+      },
+      {
+        "name": "session (a fielding slot, such as a Saturday session)",
+        "parent": "brief / study",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "00:23:13 Idris Machado (Recruitment Team Lead)"
+      },
+      {
+        "name": "recruiter (28 across two centres; booked on sessions)",
+        "parent": "centre",
+        "moves_independently": "yes",
+        "shared_resource": true,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "00:23:13 Idris Machado (Recruitment Team Lead)"
+      },
+      {
+        "name": "room (the recruitment rooms; a session needs one)",
+        "parent": "centre",
+        "moves_independently": "yes",
+        "shared_resource": true,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "00:27:38 Idris Machado (Recruitment Team Lead)"
+      },
+      {
+        "name": "centre (the main office and Thornbury)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "00:01:28 Henrietta Weyland (Director of Operations)"
+      },
+      {
+        "name": "Leonie's rota sheet (colour-coded)",
+        "parent": null,
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "00:24:11 Idris Machado (Recruitment Team Lead)"
+      },
+      {
+        "name": "the photo of the rota sheet in the group chat",
+        "parent": "Leonie's rota sheet",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "00:23:33 Idris Machado (Recruitment Team Lead)"
+      },
+      {
+        "name": "the dead Recruiter rota board",
+        "parent": null,
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "00:04:25 Idris Machado (Recruitment Team Lead)"
+      },
+      {
+        "name": "respondent (names, numbers and history; panel software only, never on a board)",
+        "parent": null,
+        "moves_independently": "unknown",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "00:27:14 Idris Machado (Recruitment Team Lead)"
+      },
+      {
+        "name": "account lead (five; puts the brief on Studies, fills the form, sends the number)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "00:07:39 Bethan Tull (Fieldwork Manager)"
+      },
+      {
+        "name": "fieldwork manager (three; costs briefs)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "00:07:39 Bethan Tull (Fieldwork Manager)"
+      }
+    ],
+    "structure": {
+      "products": [
+        "Work Management"
+      ],
+      "build_target": "client-account",
+      "build_target_reason": "existing customer with a live account of their own (A21)",
+      "workspaces": [
+        "existing: the workspace that holds the Studies board, the Friday digest, the Incentives board and the dead rota board (its name is not spoken on the call; read live at preflight)",
+        "existing: Bethan's own workspace that holds the costing board (no access yet; the client's IT people decide how the Consultant comes in)"
+      ],
+      "native_reuse": "none: no CRM or Service entity. The per-agency view is a view over studies, never an Accounts board; no new workspace is planned, because the build continues the client's own existing workspaces (A21).",
+      "leanings": [
+        {"question": "Is a recruiter week one row per study with its field dates, or one row per session?", "option": "One row per session (date, centre, room, recruiter or recruiters, headcount needed) under the study it belongs to, bounded by the study's field dates read from the Studies board; the recruiter week view on the wall screen is a view over session rows. One row per study carrying its field dates would copy the dead rota board, which never had the sessions on it. Sessions are typed by Leonie, not by the account leads, so Studies stays read, not typed for them; whether sessions sit as child rows on Studies or on their own board connected to it is settled by the condition. The link to the Studies field dates is our design, drawn from Idris's account of the Saturday session; he did not ask for it in those words.", "quotes": ["And the recruiters look at the photo. Not the board. The board's never had the sessions on it.", "Sessions, rooms, which recruiter, how many needed. Never who the respondents are. That's the line.", "The field dates moved on the Wednesday. The Studies board had the new dates, because the account lead changed them, which is right. Leonie's sheet had the old ones, because nobody told her."], "locations": ["00:23:55 Idris Machado (Recruitment Team Lead)", "00:27:38 Idris Machado (Recruitment Team Lead)", "00:23:33 Idris Machado (Recruitment Team Lead)"], "condition": "Idris's photo of Leonie's columns (committed for the day of the call); Henrietta seeing the approach before she says yes (00:27:45, 00:34:33); Leonie in the room when it is built; and Henrietta's condition that the account leads type nothing new on Studies, which decides between child rows on Studies and a connected sessions board.", "pattern": "one row where the call describes many"},
+        {"question": "Who holds which recruiter and which room, when?", "option": "Each session row names its recruiter or recruiters, its room and its centre, with a per-recruiter and a per-room view of the week, so a recruiter booked on two sessions or a room booked twice shows before the Saturday. Today Leonie's colour-coded sheet is the only reservation record, and nobody but Leonie can read it. A status on a session row set by Leonie is her claim that the recruiter knows, never evidence that they do; what the recruiters read is the wall screen.", "quotes": ["Three weeks ago we had a Saturday session with two recruiters booked on it and neither of them knew. Twelve respondents turned up to an empty room and the account lead had to ring round apologising.", "When she was off for a week in the summer nobody could read the colours and we lost two sessions."], "locations": ["00:23:13 Idris Machado (Recruitment Team Lead)", "00:24:24 Idris Machado (Recruitment Team Lead)"], "condition": "Leonie's columns show whether a recruiter is booked per session or per day and whether rooms are on her sheet; Thornbury's own recruiters and room come with the second centre (00:25:17); the view is built only after Henrietta has seen the approach.", "pattern": "a shared resource with no reservation tracking"},
+        {"question": "When a cell is added or n changes after the brief was costed, what shows that the costed number is out of date?", "option": "The parent total follows the cells once the roll-up works, which is the point of approach one, and the parent also keeps the total as sent and the date it was sent, so a difference between the live total and the sent total is visible and reaches Bethan rather than being found by Philippa. Without the sent total, a working roll-up still leaves the agency's number silently behind the board's.", "quotes": ["Someone adds a cell after it's costed. Then the summary moves and the parent doesn't, and nobody -- nobody notices until Philippa does.", "Same thing. Anything that changes after I've looked at it, I have to go back and look at it again, and I don't always know it's changed."], "locations": ["00:18:20 Bethan Tull (Fieldwork Manager)", "00:18:49 Bethan Tull (Fieldwork Manager)"], "condition": "The working session on a copy shows whether the roll-up follows a late cell and an n change (00:20:59); Bethan says whether the costed brief goes to the agency from the board or by email, which decides where the sent total is set.", "pattern": "an artefact that can go stale with nothing to flag it"},
+        {"question": "Is the study code typed once, and on which board?", "option": "Typed once on the Studies board, where the account lead already puts it first, and read by the costing board through the connection; the form stops asking for it or shows it read-only. The other direction, or typing it twice, leaves codes that do not match and a connection that fails silently, as the one with a space did.", "quotes": ["Typed twice. I type it on the form, well, the account lead types it on the form, and they've already typed it on Studies. If they don't match, they don't match. I've had one with a space in it that never lined up.", "The code. Same as the Studies board. We never put the brand on a board."], "locations": ["00:16:13 Bethan Tull (Fieldwork Manager)", "00:15:58 Bethan Tull (Fieldwork Manager)"], "condition": "Whether a form on the costing board can take the code from a connected Studies item, tried on the copy; what happens to the existing items whose codes do not match; Henrietta's rule that account leads type nothing new on Studies holds either way, since the code is already theirs to type there.", "pattern": "an artefact that can go stale with nothing to flag it"},
+        {"question": "What does the per-agency monthly costed-versus-actual view show in v0.1, with 'actual' living in the accounting system?", "option": "The costed half only: the parent totals grouped by agency and month, from the agency value on the form. The actual half waits for Philippa: whether she allows a read, a monthly upload, or keys actual onto the study herself. Until then a figure typed into an actual column is a claim about the accounting system, never its number, and the view says so. Building the view as if both halves existed would show a number nobody trusts, which is what stopped Bethan's dashboard.", "quotes": ["Add up the study totals per agency, per month. Which is the other thing I want, so I'll come back to it. It showed me a number I didn't trust, so I stopped.", "In Philippa's system. The accounting one. It doesn't live anywhere I can see."], "locations": ["00:17:34 Bethan Tull (Fieldwork Manager)", "00:22:25 Bethan Tull (Fieldwork Manager)"], "condition": "Philippa's answer on where actual lives and how it may be read, after Henrietta puts the Consultant in touch (00:36:32); whether the agency value exists on Studies or only on the costing form.", "pattern": "a pain with no element that fixes it"},
+        {"question": "Where does the agency value that the per-agency view groups by live today?", "option": "On the costing form, which the account lead fills in with brief name, agency, field dates and how many cells; the key had placed it on Studies, which the call does not say. Agency stays one dropdown or text value on the study row, spelled one way per agency; Farraday is one such agency and 'the Farraday one' is its study, not a second thing. It never becomes a board of agencies, which would be a CRM look-alike in a build with no CRM.", "quotes": ["Form on the front. So the account lead fills it in, brief name, agency, field dates, how many cells, um, that makes the item. Then I go in and add the cells.", "The Farraday one. The incentive line was in there twice, once per cell and once at the bottom, and I didn't catch it, and the number went to the agency doubled up on the incentives and light everywhere else, and we ate it."], "locations": ["00:15:14 Bethan Tull (Fieldwork Manager)", "00:09:16 Bethan Tull (Fieldwork Manager)"], "condition": "The Studies board's columns read live at preflight; if agency is not on Studies, the view sits on the costing board, or the value reaches Studies through the same connection as the total, read, not typed.", "pattern": "our framing labelled as the client's"}
+      ],
+      "patterns": [
+        "parent-row-with-roll-up: brief (study) with cells as child rows, the costed total on the parent (client-built; the roll-up to the parent is the missing piece)",
+        "parent-row-with-roll-up: study with sessions as child rows or a connected sessions board, the recruiter week view over the sessions (conditional on Henrietta's yes)"
+      ],
+      "element_per_pain": [
+        {"pain": "P1.1", "element": "Bethan's costing board as the one place: form, one item per brief, cells as subitems, the parent total read by the Studies board; the three copies of the sheet retire", "verdict": "fixes"},
+        {"pain": "P1.2", "element": "the cell-total formula per cell and the parent total summed by the board, with the qual/quant type deciding which cost lines apply, so an incentive line cannot be counted twice by hand", "verdict": "fixes"},
+        {"pain": "P1.3", "element": "one parent total read by Studies and by Philippa (assumption: she reads the board rather than her own copy; her re-key into the accounting system for the invoice is untouched in v0.1 and is an unmet need)", "verdict": "fixes"},
+        {"pain": "P1.4", "element": "a late cell is a new subitem and the parent total follows; the sent total and sent date show the difference (leaning 3); unverified until the roll-up is tried on a copy", "verdict": "fixes"},
+        {"pain": "P1.5", "element": "the roll-up itself: approach one, the cell total onto the parent and the Studies board reading it through a connection, in Bethan's own board and workspace; unverified until tried on a copy", "verdict": "fixes"},
+        {"pain": "P1.6", "element": "the per-agency monthly view over parent totals; its actual half waits for a source in the accounting system (leaning 5), so until then the view answers half of the question that today gets a shrug", "verdict": "copies-today's-tool"},
+        {"pain": "P2.1", "element": "session rows bounded by the Studies field dates, shown on the recruitment room's wall screen; Leonie types a session once and no photo is taken; conditional on Henrietta seeing the approach and Leonie in the room", "verdict": "fixes"},
+        {"pain": "P2.2", "element": "the session rows read the study's field dates from the Studies board, so a moved date shows on the week view instead of in a stale photo (leaning 1)", "verdict": "fixes"},
+        {"pain": "P3.1", "element": "label editing on the Studies board handed to Bethan with Henrietta's yes, after the admin and member roles are read live", "verdict": "fixes"}
+      ]
+    },
+    "existing": {
+      "account": "Bound: the client's own account (Pro per the client, 'thirty-something seats', hedged; read live at preflight). Live and ours from the earlier rollout: the Studies board (one line per study, a status column with about seven labels, field dates) with its Friday digest automation, do-not-change; the Incentives board, finance's own, do-not-change; the dead Recruiter rota board, to be archived once Henrietta approves. Client-built: Bethan's costing board (form, one item per brief, cells as subitems, a working cell formula, a subitem summary no parent formula or connection reads) in her own workspace, no access yet. Admin membership hedged ('I think you're still an admin on it'), read live. No CRM or Service. The record already exists; this is a second strand in it.",
+      "incumbents": [
+        {"system": "the accounting system (finance)", "authority": "stays system of record for: invoices, actual study cost, bank and payment details, the loaded rates ; follower for: nothing in v0.1; the per-agency view's actual half waits on it; writeback and integration direction unresolved; v0.1 does not depend on either; staying clear of the accounting system is our safe default, labelled as ours", "evidence": "00:22:25 Bethan Tull (Fieldwork Manager)"},
+        {"system": "the panel software", "authority": "stays system of record for: respondent names, numbers and history ; follower for: nothing, by the client's own rule agreed with the agencies' compliance people; no board, view or seed row names a respondent", "evidence": "00:27:14 Idris Machado (Recruitment Team Lead)"},
+        {"system": "the costing sheet (one per fieldwork manager, plus finance's copy)", "authority": "stays system of record for: briefs costed before the switch, until Bethan says otherwise ; follower for: nothing after it; replaced, not mirrored", "evidence": "00:07:55 Bethan Tull (Fieldwork Manager)"},
+        {"system": "Leonie's rota sheet and its photo in the group chat", "authority": "stays system of record for: the recruiters' week, until a week view exists that Leonie owns ; follower for: nothing; replaced only after Henrietta has seen the approach and Leonie was in the room", "evidence": "00:24:11 Idris Machado (Recruitment Team Lead)"},
+        {"system": "email (briefs in, the Friday digest out)", "authority": "stays system of record for: the brief as the agency sent it, and the digest's delivery ; follower for: nothing", "evidence": "00:07:39 Bethan Tull (Fieldwork Manager)"}
+      ]
+    },
+    "assumptions": [
+      {
+        "statement": "Philippa will read the costed total off the board rather than from her own copy of the sheet.",
+        "question": "Philippa, will you read the costed total from the board, and what do you still need in your own file?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "The agency value lives on the costing form and not on the Studies board.",
+        "question": "Which columns does Studies carry today: code, status, field dates, and is agency among them?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "The Pro plan allows a connection from Bethan's workspace to the Studies board and a roll-up from subitems to the parent.",
+        "question": "Read at preflight: the tier, the seat count and the limits that touch the connection and the roll-up.",
+        "kind": "board-architecture",
+        "state": "assumed"
+      },
+      {
+        "statement": "The account lead puts the brief on Studies before the form is filled, so Studies is the source side for the code.",
+        "question": "Does every brief reach Studies before the form, every time, or do some start on the form?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "A recruiter is booked per session, not per day.",
+        "question": "On Leonie's sheet, is a recruiter against a session or against a day?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "Thornbury's sessions go on the same week view with a centre value, not on a second view.",
+        "question": "Idris, one view across both centres, or one per centre on each room's screen?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "The Friday digest reads only the status column, so a read-only column added to Studies does not change it.",
+        "question": "Read the digest automation live before anything lands on Studies: which columns does it send?",
+        "kind": "automation-condition",
+        "state": "assumed"
+      },
+      {
+        "statement": "The qual or quant type decides which cost lines apply to a cell, and no study is both.",
+        "question": "Bethan, is a study ever both qual and quant, with cells of each kind?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "The number of cells on the form is informational; the subitems are the count.",
+        "question": "Should the form stop asking how many cells, now that the cells are rows?",
+        "kind": "board-architecture",
+        "state": "assumed"
+      },
+      {
+        "statement": "The costed brief goes to the agency by email from Bethan today.",
+        "question": "How does the number reach the agency: an email from you, from the account lead, or a document?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "The two Studies labels that mean the same thing are merged by Bethan after the handover, not by us.",
+        "question": "Which two labels, and does the Friday digest or any view filter on either?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "The admins on the account are the Consultant and Hamish, and Bethan is a member.",
+        "question": "Read live before anything is changed: who is admin and who is a member today?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "The wave's last two weeks fall after the working session, so the costing work is not blocked by the blackout; only work landing on the recruiters is.",
+        "question": "Idris, when does the wave start and end, so nothing new reaches the recruiters in its last two weeks?",
+        "kind": "gap",
+        "state": "assumed"
+      }
+    ],
+    "unmet_needs": [
+      {
+        "need": "Actual study cost beside costed, per agency per month",
+        "clock": null,
+        "why_not_met": "actual lives in the accounting system; no read or upload exists in v0.1; waits on Philippa's answer"
+      },
+      {
+        "need": "The third keying: Philippa re-keys the costed brief into the accounting system for the invoice",
+        "clock": null,
+        "why_not_met": "writeback and integration direction unresolved; v0.1 does not depend on either; staying clear of the accounting system is our safe default, labelled as ours"
+      },
+      {
+        "need": "A costed brief back to the agency inside forty-eight hours",
+        "clock": "the two new agency clients want it inside forty-eight hours; no date given; one will be lost if costing stays in the sheet",
+        "why_not_met": "the costing piece shortens Bethan's step; the brief's arrival by email and the account lead's send are untouched, and no board measures the turnaround in v0.1"
+      },
+      {
+        "need": "Recruiters at both centres seeing their week without Leonie retyping it",
+        "clock": "a wave starts the week after next; nothing new reaches the recruiters in a wave's last two weeks",
+        "why_not_met": "conditional: Henrietta says yes only after she has seen the approach, and Leonie must be in the room; no element exists until then"
+      },
+      {
+        "need": "n updated when the screener is signed off",
+        "clock": null,
+        "why_not_met": "no screener system was named; n stays typed by Bethan, and the sent-total flag (leaning 3) shows when it moved after costing"
+      }
+    ],
+    "ai_opportunities": [
+      {
+        "pain_or_need": "P1.4",
+        "kind": "workflow",
+        "round": 2,
+        "probe_basis": "P-21",
+        "idea": "When a cell is added or n changes on a brief whose total has been sent, mark the brief as changed since sending and notify Bethan and the account lead."
+      },
+      {
+        "pain_or_need": "P1.1",
+        "kind": "ai_column",
+        "round": 2,
+        "probe_basis": "unprobed",
+        "idea": "An AI column on the brief that reads the agency's emailed brief, pasted or attached, and drafts the cells with n, incentive and recruit cost as a proposal for Bethan to accept or correct, since the agencies all send it differently."
+      },
+      {
+        "pain_or_need": "P1.2",
+        "kind": "ai_column",
+        "round": 2,
+        "probe_basis": "unprobed",
+        "idea": "An AI column that reads a costed brief for the Farraday shape, moderation hours on a quant study or an incentive counted at both cell and study level, and writes one line of warnings before the number goes out."
+      },
+      {
+        "pain_or_need": "P2.2",
+        "kind": "workflow",
+        "round": 2,
+        "probe_basis": "P-21",
+        "idea": "When a study's field dates move on the Studies board, flag every session under it and notify Leonie and Idris."
+      }
+    ],
+    "verdict": {
+      "cleared_for": "build",
+      "conditions": [
+        "approval stop",
+        "A11-2 asked first (client-account target): sample data inside a live client account is asked before the first such build; Bethan's test rows are hers and are never presented as figures",
+        "access to Bethan's workspace and the costing board by whatever route the client's IT people set; nothing is read or built there before it",
+        "approach one tried on a copy of her board before any claim that it works; no completion, effort or duration figure until the board has been read",
+        "Henrietta's yes before anything touches the Studies board or the Friday digest, and nothing new typed on Studies by the account leads",
+        "the rota archive: proposed by the Consultant, accepted by Idris, Henrietta's approval still required before anything changes; archive, never delete",
+        "the recruiter week view only after Henrietta has seen the approach and with Leonie in the room; nothing new reaches the recruiters in the last two weeks of the wave starting the week after next",
+        "the Incentives board and respondent data untouched: nothing near Philippa's board without her, nothing from the panel software on any board, view or seed row",
+        "the booking link, the recap, Idris's photo and Bethan's access request are committed, not done; each becomes done only on evidence"
+      ],
+      "reason": "Two pains with named entities and the outcome in Henrietta's words ('Bethan costs it once, in one place'), one product, a structure stated as a delta against the client-built board with its leanings, and the build target named: the client's own account, continuing its existing workspaces."
+    },
+    "questions": [
+      {
+        "text": "What did the IT people say about how the Consultant comes into your workspace and the costing board, and at what seat level?",
+        "kind": "discovery",
+        "role": "Bethan Tull, once the IT people answer",
+        "known": "Bethan will ask them; a few days; the Consultant does it whichever way they want; nothing is read or built before the answer."
+      },
+      {
+        "text": "On a copy of your board, does approach one hold: cells stay subitems, the total reaches the parent, the Studies board reads it through the connection, and what happens when a cell is added after costing or n changes at screener sign-off?",
+        "kind": "discovery",
+        "role": "Bethan Tull, in the booked working session",
+        "known": "the subitem summary offers sum and average and is not in the formula list; four attempts failed (parent formula, mirror, typed number column, dashboard); the Consultant has built approach one before but not against a form like hers; the form stays."
+      },
+      {
+        "text": "Henrietta said the number is in one place if it is on Beth's board, the Studies board shows it and you read it off the same thing. Will you read the costed total from the board, where does actual live in the accounting system, and may it be read or uploaded monthly?",
+        "kind": "read-back",
+        "role": "Philippa (finance controller), introduced by Henrietta",
+        "known": "Philippa keeps her own copy of the costing sheet and re-keys the costed brief into the accounting system for the invoice; actual lives there and nowhere Bethan can see; she can stop anything near the Incentives board; the loaded rate is a separate conversation outside this check."
+      },
+      {
+        "text": "You said the code is typed twice and one with a space never lined up. Should the code be typed once on Studies and read by the costing board, and which columns does Studies carry today: code, status, field dates, and is agency among them?",
+        "kind": "read-back",
+        "role": "Bethan Tull and one account lead",
+        "known": "the account lead types the code on Studies and again on the form; the costing form carries agency; the Studies status column has about seven labels, two meaning the same thing; nothing new may be typed on Studies by the account leads."
+      },
+      {
+        "text": "Idris said that if a board was yours and not something done to you, maybe you would own it. What is on your sheet, column by column, which sessions and rooms exist across both centres, is a recruiter booked per session or per day, and when do the wave's last two weeks fall?",
+        "kind": "read-back",
+        "role": "Leonie (recruitment coordinator) with Idris, in the room",
+        "known": "a photo of the columns is committed by Idris for the day of the call; the sheet is colour-coded and photographed into the group chat; the dead board never had the sessions on it; Henrietta wants to see the approach before she says yes; nothing new in the last two weeks of a wave."
+      }
+    ]
+  }
+}

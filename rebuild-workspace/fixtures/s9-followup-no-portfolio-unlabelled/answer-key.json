@@ -1,0 +1,2060 @@
+{
+  "scenario_id": "s9-followup-no-portfolio-unlabelled",
+  "call_type": "follow-up-demo-feedback",
+  "purpose_of_this_fixture": "A follow-up call with the s8 client, Bellamy Ridge Construction Group, about ten days after the first-version (v0.1) walkthrough. context-v0.1.md describes what v0.1 contained: a monday portfolio, three connected sample projects, a resource allocation board with a workload view, one dashboard and one automation. There is no transcript of the walkthrough itself. The same three people return: the PMO Director, the senior Project Manager and the Resource Manager. This fixture tests two things that no other fixture in the set covers, and it stacks a format trap on top of both. (1) THE ENTERPRISE PORTFOLIO DEFAULT IS OVERRIDDEN BY THE CLIENT. Amendment A6 fired in s8 and a portfolio with connected projects was built. On this call the PMO Director takes it back out: 'leadership isn't ready for the portfolio layer', start with standardised project boards, revisit next quarter. A6's own exception is exactly this ('unless the transcript or the consultant says otherwise; record the reason either way'), so the correct behaviour is to honour the override, remove the portfolio layer from the next version, and RECORD WHY, in the client's words, with the named revisit condition. Re-proposing the portfolio, quietly keeping it, or treating the override as a lost deal all fail. Two traps sit inside the override. First, deferring the portfolio does NOT mean demoting the projects to plain boards: the client and the Consultant agree on the call that the projects stay real monday projects so the roll-up is later a connection rather than a rebuild, which is also what keeps the A6 guard satisfied. Second, deferring the portfolio does NOT defer the director's own view: she says plainly she still wants her own screen and is only refusing a company-wide roll-up aimed at leadership. (2) A NUMBER FROM THE EARLIER CALL IS CONTRADICTED. In s8 the senior PM said four hours a week on assembling and the director confirmed four was fair across the fourteen, which produced the largest component of the $432,080 bleed. Here he has actually measured it and says two and a half, because he had been counting work he would do anyway. The director will not generalise his figure to the other thirteen but also will not defend four any more. Per the method, the most recent client statement wins and the superseded value and its date go to log.md, but the new figure is one PM's measurement of himself and is disputed, so nothing is confirmed: the plugin must SHOW the change rather than silently overwrite it, carry the component as an unconfirmed 2.5-to-4 range, keep the old figure visible with its date, and decline to publish a new total. Silently keeping $432,080 fails; silently swapping in a new precise total fails just as badly. The knock-on must be flagged too: the upside's deferred-hire argument leans on the same freed hours, so it shrinks with them. (3) FORMAT TRAP: the transcript is raw notetaker output with NO speaker labels at all, paragraphs only, with timestamps on eleven of the 119 paragraphs. Speakers are inferable with high confidence from direct address and content, but under the spec every attribution is speaker-unclear and cannot carry a Met on its own, and no talk-share or delivery notes may be produced. The plugin should give its inferred attribution, mark it inferred, and ask the consultant to confirm. (4) The combined effect on grading is the point of the fixture. Statuses are cumulative after s8 and this call. R4 drops from Met to Partial on the contradiction; R10, R11 and R12 are Partial largely because of the format; the verdict falls from 'Discovery complete' to 'Nearly ready'; and the pricing-or-proposal gate that opened for the first time in s8 CLOSES again, for two independent reasons: R4 and R12 are no longer Met, and pricing and proposal prep are deferred beyond v1 anyway. The client asks for the scope and a number again, against her November budget lock, and the Consultant refuses the number on the call and says why, which is the behaviour to imitate. Confirming who spoke would lift R10, R11 and R12; only R4 also needs the two extra PMs. (5) R11 becomes gradeable for the first time in the set: a demo has happened and the portfolio view, the workload view and the project structure were confirmed, but the burn column was explicitly NOT confirmed because the figures are samples and Sage is not connected, so R11 is Partial rather than Met and the v1.0 sign-off gate stays shut. (6) The build questions move on rather than resolve: Sage will not be connected live this year, but the controller already produces a monthly job cost report and does not mind it being uploaded, so a month-old number everybody knows is a month old is the agreed shape; the security review is half done and nothing real may go into the client's tenant yet, which is why v0.1 lives in the Consultant's own account. (7) v1 scope discipline is unchanged: this is entirely Work Management. The VP of Operations has asked whether the build could also show preconstruction's pipeline, which is CRM-shaped, belongs to another group and is explicitly not being requested, so it is a backlog seed and a question, never a look-alike pipeline board; the warranty inbox from s8 stays parked and is not mentioned at all. Automations go up as one approval list. should_plugin_propose_a_build is true: the next version is a change to v0.1, not a rebuild.",
+  "transcript_format": "Raw notetaker text with NO speaker labels of any kind. The file is 119 blank-line-separated paragraphs, about 3,485 words, for a call of about 25 minutes. There is no header, no speaker column, no name-and-colon prefix and no voice tags: a paragraph is one turn, and who is speaking must be inferred from content and from direct address. Eleven paragraphs open with a bracketed timestamp in the form '[HH:MM:SS] ' immediately before the text: paragraphs 1, 4, 11, 19, 33, 54, 72, 79, 86, 98 and 112, running from [00:00:06] to [00:24:20]. The other 108 paragraphs carry no timestamp, so times can only be bracketed between the stamps that surround them and must not be invented. Four people are present: the Consultant, Marisol Bettencourt (PMO Director), Warren Tibbetts (Senior Project Manager, dialling in from a job trailer) and Ines Kovalenko (Resource Manager). Consecutive paragraphs are sometimes the same speaker (for example paragraphs 62 and 63 are both the Resource Manager, and 52 and 53 are both the Consultant), so paragraph breaks are not turn changes. Attendees address each other by name throughout ('Warren, you've gone quiet', 'Ines, same question to you', 'Nadine and Ruben'), and speak about absent colleagues in the third person, which makes inference reliable but never certain; the Consultant is never named, in keeping with the set's neutrality rule, and is identifiable only by role. Three notetaker artefacts are present on purpose: paragraph 55 runs two speakers together in one paragraph without a break (the senior PM's 'I could. I tried it, actually...' followed by the resource manager's 'That's the first time in four years anybody has done that.'); paragraph 60 does the same ('I was right, by the way.' from the senior PM, then 'You were not, but you believed you were, which is exactly the point.' from the resource manager); and paragraph 40 carries one '[inaudible]' marker mid-turn. Every location in this key gives the paragraph number, the timestamp when that paragraph has one, and the inferred speaker marked as inferred, for example 'paragraph 17, inferred Marisol Bettencourt (speaker unclear)' or 'paragraph 19, [00:04:10], inferred Marisol Bettencourt (speaker unclear)'. Because there are no labels anywhere, talk share cannot be computed and the optional delivery notes of spec 6.5 must not be attempted at all. ASCII only. The call date is not stated. The date clues are relative: the v0.1 walkthrough was 'the twenty-third' (Wednesday 23 September 2026 per context-v0.1.md), the next session is 'Thursday the fifteenth' (15 October 2026), Cumberland's program review is 'January fifteenth', the budget locks in November, the Waverly MRI starts 'the first week of December' and the resource manager is away 'the week of Thanksgiving'. Taken together these fit a call in the first full week of October 2026, and three internal clues narrow it further: the PMO director caught the VP of Operations 'on the Thursday' and has 'had four days to be annoyed about it', and the IT director 'asked me on Monday', which puts the call on a Tuesday, about a fortnight after the walkthrough rather than the week after it. None of that is stated outright, so it is an inference to be offered as one rather than asserted as the call date. Note that two different fifteenths are in play and must not be conflated.",
+  "company": {
+    "name": "Bellamy Ridge Construction Group",
+    "industry": "Healthcare facilities construction and renovation, exclusively: hospitals, medical office buildings, outpatient clinics and imaging suites, with a large share of renovation inside occupied buildings. Unchanged from s8.",
+    "size": "About 400 people: roughly 95 salaried office staff and about 300 field staff. Fourteen project managers, one PMO analyst (on parental leave from November) and one resource manager. Only four superintendents are qualified for occupied-building work. The active project count is now given as forty-one, up from the thirty-eight-to-forty of s8, because the Waverly MRI replacement has been added; this is the same counting ambiguity as before, not a contradiction.",
+    "locations": "Knoxville, Tennessee (headquarters), Chattanooga, and Huntsville, Alabama",
+    "current_tools": [
+      "Procore (drawings, RFIs, submittals, daily reports; still explicitly not moving, and the senior PM skipped the submittal part of the walkthrough for that reason)",
+      "Sage 300 (accounting and job cost; the controller will not give a live connection this year, but already produces a job cost report on the eleventh or twelfth of the month and does not object to it being uploaded)",
+      "Excel: the resource workbook they call 'the grid', the 60-something-line startup checklist, which exists in a master version and the senior PM's own version, and fourteen private PM cost-to-complete forecasts",
+      "Microsoft 365 and Teams, and the Microsoft tenant behind the security review",
+      "The weekly Monday status email to the PMO, which the client has now agreed is retired at go-live",
+      "monday.com: the client's own Enterprise account with about 220 seats is still untouched by this engagement. v0.1 was built in a monday account of the Consultant's instead, because the IT security review is only half finished",
+      "Smartsheet (abandoned 2023 pilot, still the reference point for adoption risk)"
+    ]
+  },
+  "attendees": [
+    {
+      "name": "Consultant",
+      "role": "monday.com consultant running the follow-up call on v0.1",
+      "side": "consultant",
+      "decision_role": "not applicable"
+    },
+    {
+      "name": "Marisol Bettencourt",
+      "role": "Director of the Project Management Office; owns project controls, reporting and the process. Fourteen PMs and the resource manager sit under her; she reports to Curt, VP of Operations",
+      "side": "client",
+      "decision_role": "approver (still decides and funds it from her own line; she is also the person who takes the portfolio layer out of scope on this call and who asks that the decision be recorded as hers)"
+    },
+    {
+      "name": "Warren Tibbetts",
+      "role": "Senior Project Manager; runs the Cumberland bed tower plus two Waverly renovations. Dialling in from a job trailer",
+      "side": "client",
+      "decision_role": "influencer and end user (the source of the contradicted number, having measured his own assembling time for three weeks after the discovery call; also the strongest voice on what to remove from the board)"
+    },
+    {
+      "name": "Ines Kovalenko",
+      "role": "Resource Manager; owns the allocation workbook and would own whatever replaces it",
+      "side": "client",
+      "decision_role": "admin/owner and end user (the day-to-day owner of the allocation board, and the only person who may confirm a booking under the rule agreed on this call)"
+    }
+  ],
+  "expected_monday_products": [
+    {
+      "kind": "core",
+      "why": "monday Work Management is the whole of this build, as in s8, but the shape has changed on the client's instruction. The portfolio layer comes OUT of the next version and is revisited next quarter against a named condition. What stays and grows: three standardised project boards built as real monday projects (not plain boards), from project templates, with the occupied-renovation template already built and the equipment template now needed before the Waverly MRI starts in the first week of December; milestone items carrying a full change history with a typed reason rather than only baseline and current dates; a health status with an audit trail showing who changed it and when, surfaced on the item itself; the resource allocation board with a workload view, a saved view filtered to the four occupied-work-qualified superintendents, and a requested-versus-confirmed distinction that only the resource manager may advance; a dashboard re-sourced from the project boards rather than the portfolio and pointed at the PMO director rather than at leadership; and burn fed by an uploaded monthly Sage job cost report rather than a live connection. Building the projects as plain boards because the portfolio was deferred would fail the A6 guard and force a rebuild next quarter, which is exactly what the client said she would not pay for."
+    },
+    {
+      "kind": "crm",
+      "why": "Not in this build, and it must stay out. The VP of Operations has asked whether the build could also show preconstruction's pipeline, the work they are chasing. The PMO director relays it explicitly as something she is NOT asking for, and notes it belongs to another group. So it is a backlog seed and a question for January, never a proposal, and never a hand-built 'Pipeline' or 'Pursuits' board. If health-system accounts or pursuits ever come into scope they go on the account's native CRM boards, detected first. Nothing on this call changes the s8 position that preconstruction's existing bid board is a question about that board's future rather than a starting point."
+    },
+    {
+      "kind": "service",
+      "why": "Not in this build and not mentioned at all on this call. The post-turnover warranty inbox was parked by the client in s8 ('It's not this year's mess.') and stays parked; its absence here is not a reason to revive it, and it must not be quietly added to the next version. If it ever comes in it goes on the account's native Service Tickets board, and Service extras (customer portal, email-to-ticket, SLA policy setup) stay deferred beyond v1."
+    }
+  ],
+  "rubric": [
+    {
+      "criterion": "R1 Current state mapped",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "He will not give anybody a live connection into Sage this year and I'd stop pushing on it.",
+          "location": "paragraph 75, inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "quote": "he already produces a job cost report on the eleventh or twelfth and he doesn't much care if somebody uploads it somewhere",
+          "location": "paragraph 75, inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "quote": "He has the questionnaire, he's about halfway through it",
+          "location": "paragraph 79, [00:17:45], inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "quote": "You're missing the preconstruction handover meeting",
+          "location": "paragraph 70, inferred Warren Tibbetts (speaker unclear)"
+        },
+        {
+          "quote": "The equipment one is shorter and it's a completely different list.",
+          "location": "paragraph 70, inferred Warren Tibbetts (speaker unclear)"
+        },
+        {
+          "quote": "The actuals are history. My forecast is the job.",
+          "location": "paragraph 77, inferred Warren Tibbetts (speaker unclear)"
+        }
+      ],
+      "note": "Carried forward as Met from s8, where the process was walked end to end (award handover, Sage job number, Procore setup, the Excel startup checklist, the weekly OAC and Friday forecast, Monday status emails, the monthly deck, the second-Tuesday executive committee, Cumberland's own reporting and closeout). This call adds real detail rather than repeating it: the Sage question from s8 now has an answer (no live connection this year, but a monthly job cost report on the eleventh or twelfth that the controller does not mind being uploaded), the security review is about half done, and the startup checklist is shown to exist in at least two versions with different contents. All of it is speaker-unclear, so it corroborates the s8 mapping but could not have established R1 on its own."
+    },
+    {
+      "criterion": "R2 Pain made concrete",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "a green row turned out not to be green",
+          "location": "paragraph 50, inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "quote": "There's no difference between I've asked for Junie and I've got Junie.",
+          "location": "paragraph 59, inferred Ines Kovalenko (speaker unclear)"
+        },
+        {
+          "quote": "That's the whole June thing.",
+          "location": "paragraph 59, inferred Ines Kovalenko (speaker unclear)"
+        }
+      ],
+      "note": "Carried forward as Met from s8, where P1 (no trustworthy portfolio view) and P2 (resource collisions) were both excavated on all six per-pain checks. This call re-grounds both in one line each, and usefully: the August executive-committee story is compressed by the client herself into the reason a requirement exists, and the June superintendent collision is named as the reason the allocation board needs a requested-versus-confirmed state. P3 (budget burn seen late) and P4 (every PM starts a job their own way) are still not excavated and are graded per-pain below. P5 (warranty calls after turnover) is not mentioned at all on this call; it stays parked at the client's own request from s8 and stays a backlog seed, and its absence here is not new information."
+    },
+    {
+      "criterion": "R3 Why now",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "that's enough for the fifteenth",
+          "location": "paragraph 25, inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "quote": "But it gets me through January.",
+          "location": "paragraph 25, inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "quote": "That hasn't moved, and November hasn't moved either.",
+          "location": "paragraph 99, inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "quote": "The Waverly MRI starts the first week of December",
+          "location": "paragraph 66, inferred Marisol Bettencourt (speaker unclear)"
+        }
+      ],
+      "note": "Carried forward as Met from s8, where four independent dated triggers were given. Every one of them survives this call: the Cumberland program review on January fifteenth is still the hard external deadline and is now the thing the deferral has to be tested against, and the November budget lock is confirmed as unmoved. One new dated trigger appears, the Waverly MRI starting in the first week of December, which is what makes the equipment template urgent rather than a later nicety. Note that the portfolio moving to next quarter does NOT weaken R3: the urgency attaches to the project layer and to January, not to the roll-up."
+    },
+    {
+      "criterion": "R4 Bleed number",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "it's two and a half, not four",
+          "location": "paragraph 87, inferred Warren Tibbetts (speaker unclear)"
+        },
+        {
+          "quote": "I'd been counting the OAC prep in it, and I'd do that anyway, so it isn't fair to count it.",
+          "location": "paragraph 87, inferred Warren Tibbetts (speaker unclear)"
+        },
+        {
+          "quote": "And I'm confident about it because this time I actually wrote it down.",
+          "location": "paragraph 89, inferred Warren Tibbetts (speaker unclear)"
+        },
+        {
+          "quote": "Nobody else tracked anything.",
+          "location": "paragraph 91, inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "quote": "But I also can't sit here and defend four, because I gave you four off the top of my head and now the one person who measured it says it's less.",
+          "location": "paragraph 91, inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "quote": "I'll ask them this week.",
+          "location": "paragraph 95, inferred Marisol Bettencourt (speaker unclear)"
+        }
+      ],
+      "note": "REGRESSION from Met in s8, and the central grading event of this fixture. In s8 the bleed was $432,080 with every input client-supplied and the total confirmed twice out loud. Its largest component, $276,640, rested on 14 PMs x 4 hours a week x 52 x $95. Here the senior PM, who is the person the four came from, has measured himself for three weeks and reports two and a half, explaining that he had been counting OAC preparation he would do anyway. The spec says the most recent client statement wins and the superseded value and its date go to log.md, so $432,080 can no longer stand. But the new figure does not become Met either: it is one PM's measurement of his own week, the director refuses to generalise it to the other thirteen and says nobody else tracked anything, and she simultaneously withdraws her own confirmation of four. So there is no confirmed input and no confirmed total, which is the spec's definition of Partial (an unconfirmed range). The Consultant handles it correctly and his handling is the model: he declines to state a new total on the call, carries the component as an unconfirmed 2.5-to-4 range, keeps the old figure visible with the date it was agreed rather than swapping it silently, refuses to split the difference, and converts the gap into a specific action with named people and a date. Recomputed for reference only, and not to be published as a confirmed figure: at 2.5 hours the PM component is $172,900 and the total $328,340; at 4 hours it is $276,640 and $432,080. The other three components are untouched by this call and stand as in s8: the grid $37,440, the monthly deck $18,000, collisions $100,000 at the client's low end. The $480,000 Cumberland West overrun stays outside the total as unquantified."
+    },
+    {
+      "criterion": "R5 Upside number",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "I've still got the two PMs in the November number and I'd still hold one of them.",
+          "location": "paragraph 97, inferred Marisol Bettencourt (speaker unclear)"
+        }
+      ],
+      "note": "Carried forward as Met from s8, where the upside was about $430,000 in two client-figured parts: roughly $150,000 of deferred hiring (one of two budgeted PMs held rather than hired) and about $280,000 of fee from one more staffable job a year, plus the stated ambition of Waverly's whole outpatient programme. The client restates the deferred-hire half here unprompted and unchanged. It stays Met, but with a caveat the plugin must carry rather than bury: the deferred-hire argument is premised on the same freed reporting hours that R4 has just put in doubt, and the Consultant says so on the call. If the hours settle nearer two and a half than four, the hold-one-hire case gets weaker and has to be re-tested with the client. Recording the upside unchanged and silent about the dependency is a failure even though the status is unchanged."
+    },
+    {
+      "criterion": "R6 Desired outcome",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "The fourteen have to be putting their forecast in the thing rather than in their own file",
+          "location": "paragraph 19, [00:04:10], inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "quote": "And I want one full month where I haven't had to email anybody for a status.",
+          "location": "paragraph 19, [00:04:10], inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "quote": "No, I still want my own screen.",
+          "location": "paragraph 33, [00:07:55], inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "quote": "The actuals are history. My forecast is the job.",
+          "location": "paragraph 77, inferred Warren Tibbetts (speaker unclear)"
+        }
+      ],
+      "note": "Carried forward as Met from s8 (one believable screen on a Monday morning, the VP of Operations not being surprised at the second-Tuesday meeting, the Cumberland review going well, single entry for the PMs). This call sharpens it into something much more useful: the two conditions the director names for revisiting the portfolio are, in substance, testable success criteria for the whole first phase, and they are hers rather than proposed by the Consultant. The criteria are still PROPOSED rather than agreed as the formal success criteria of a version, which is why the v1.0 sign-off gate stays shut. Turning these two conditions into the written success criteria and getting them agreed at the next session is the obvious next move."
+    },
+    {
+      "criterion": "R7 Decision process mapped",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "He will not give anybody a live connection into Sage this year and I'd stop pushing on it.",
+          "location": "paragraph 75, inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "quote": "He has the questionnaire, he's about halfway through it",
+          "location": "paragraph 79, [00:17:45], inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "quote": "That's how it has to be. He'd find out. He always finds out.",
+          "location": "paragraph 81, inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "quote": "That hasn't moved, and November hasn't moved either.",
+          "location": "paragraph 99, inferred Marisol Bettencourt (speaker unclear)"
+        }
+      ],
+      "note": "Carried forward as Met from s8, where the process was fully mapped: the PMO director decides and funds from her own line below a $150k-a-year threshold, the CFO's team raises the PO, the IT director runs a two-to-three-week security review, and the controller gates anything touching Sage. Every one of those gates is now reported in motion, which is what a mapped decision process looks like a fortnight later: the controller has given a definite answer on Sage, the IT director is about halfway through the questionnaire and has started asking tenancy and seat questions, and the budget lock is unmoved. Nothing new is needed here; the actions are to finish the questionnaire and to keep the controller's constraint in the design. One evidence note, because it is the kind of thing this transcript makes easy to get wrong: the tenancy constraint is worded by the Consultant ('nothing real goes into your tenant until he's happy') and counts only because the approver confirms it in the very next paragraph, which is the quote recorded here. The Consultant's own words are never evidence on their own."
+    },
+    {
+      "criterion": "R8 Priority and timing",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "And we revisit the portfolio layer next quarter, once there's something real underneath it.",
+          "location": "paragraph 17, inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "quote": "After the fifteenth. Let me get through Cumberland first.",
+          "location": "paragraph 23, inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "quote": "I'm not going to pin a date on it today.",
+          "location": "paragraph 23, inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "quote": "But I need the equipment one sooner than I thought.",
+          "location": "paragraph 66, inferred Marisol Bettencourt (speaker unclear)"
+        }
+      ],
+      "note": "Met, and re-phased rather than downgraded. This is the distinction the plugin has to get right: the engagement has not slipped, one component of it has moved and another has been pulled forward. The portfolio layer goes to next quarter with a stated condition and a soft boundary ('after the fifteenth', explicitly not pinned to a date), while the project layer keeps its original urgency against January fifteenth and the equipment template becomes MORE urgent than it was because the Waverly MRI starts in the first week of December. Recording this as a delay to the engagement, or resolving 'next quarter' into a specific date, both misread it."
+    },
+    {
+      "criterion": "R9 Blockers surfaced",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "leadership isn't ready for the portfolio layer",
+          "location": "paragraph 17, inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "quote": "the forty things underneath it are fourteen people's spreadsheets",
+          "location": "paragraph 13, inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "quote": "If I ask them to do both, you'll be back here in March explaining why nobody logged in.",
+          "location": "paragraph 107, inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "quote": "It's not fine for me saying yes to it.",
+          "location": "paragraph 73, inferred Warren Tibbetts (speaker unclear)"
+        }
+      ],
+      "note": "Carried forward as Met from s8 (adoption with the Smartsheet precedent, field connectivity, the Power BI alternative, the security review, the controller, a competing partner). One genuinely new blocker surfaces here and it is the most important one on the call: leadership readiness for a roll-up over data they do not yet trust. Two existing blockers are restated with more precision: adoption, where the client now names the mechanism that would kill it and commits to removing the old process, and confidence in the numbers, where the senior PM will not endorse a burn column built from samples. All of it is client-volunteered rather than extracted."
+    },
+    {
+      "criterion": "R10 Next step committed",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "Thursday the fifteenth?",
+          "location": "paragraph 113, inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "quote": "Morning OAC. After eleven I'm clear.",
+          "location": "paragraph 114, inferred Warren Tibbetts (speaker unclear)"
+        },
+        {
+          "quote": "Eleven thirty Eastern on Thursday the fifteenth",
+          "location": "paragraph 115, inferred Consultant (speaker unclear)"
+        },
+        {
+          "quote": "I'll send the invite this afternoon.",
+          "location": "paragraph 115, inferred Consultant (speaker unclear)"
+        },
+        {
+          "quote": "It works.",
+          "location": "paragraph 116, inferred Ines Kovalenko (speaker unclear)"
+        }
+      ],
+      "note": "Partial, and this is the format trap reaching a criterion where it looks pedantic and is not. In substance R10 is fully satisfied: the call ends with a date, a time, a duration, an owner and agreement from everyone, and the Consultant commits to sending the invite the same afternoon. But the spec is explicit that with no or unreliable speaker labels the evidence is marked speaker unclear and graded Partial until the consultant confirms, and every line here is inferred. The honest report is therefore: the next step is set and should be treated as real for planning, the grade is Partial purely because of the transcript format, and one confirmation from the consultant lifts it to Met. This is the first Partial on R10 anywhere in the fixture set. Note the ambiguity the plugin must not fall into: 'the fifteenth' here is Thursday 15 October, the next working session, and NOT January fifteenth, which is Cumberland's program review."
+    },
+    {
+      "criterion": "R11 Solution confirmed",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "that's the grid basically, except everybody can see it",
+          "location": "paragraph 54, [00:11:20], inferred Ines Kovalenko (speaker unclear)"
+        },
+        {
+          "quote": "it took me about eleven seconds, and it was right",
+          "location": "paragraph 55, inferred Warren Tibbetts (speaker unclear)"
+        },
+        {
+          "quote": "That's the first time in four years anybody has done that.",
+          "location": "paragraph 55, inferred Ines Kovalenko (speaker unclear)"
+        },
+        {
+          "quote": "It's closer than I expected.",
+          "location": "paragraph 40, inferred Warren Tibbetts (speaker unclear)"
+        },
+        {
+          "quote": "It's not fine for me saying yes to it.",
+          "location": "paragraph 73, inferred Warren Tibbetts (speaker unclear)"
+        }
+      ],
+      "note": "Partial, and gradeable at all for the first time in the fixture set because a demo has finally happened. Per in-scope pain: P2 (resource collisions) has the strongest confirmation on the call, and it is behavioural rather than polite, since the senior PM actually used the workload view to answer his own staffing question in eleven seconds without asking the resource manager, which is precisely the outcome she described wanting in s8. P1 (no trustworthy portfolio view) is confirmed only in part and in a complicated way: the project structure and the view are accepted, but the roll-up that was to answer P1 has been taken out of scope by the client, and the missing audit trail on the health status means the trust half of P1 is explicitly not yet addressed. P3 (budget burn seen late) is NOT confirmed, and the senior PM says so plainly: the burn column is built from sample figures, he cannot tell whether it is right, and he will not say yes to it. P4 (no standard project start) is partly confirmed through the startup checklist and the phases, but only one of the three templates exists. On top of all of that, every confirmation is speaker-unclear. Two independent reasons for Partial, then, and the v1.0 sign-off gate stays shut. The re-checks for the next session are P3 once the Sage upload is in, and P1's audit trail."
+    },
+    {
+      "criterion": "R12 Scope agreed verbally",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "I'm asking you not to build it yet.",
+          "location": "paragraph 17, inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "quote": "you've taken the portfolio out of the first phase and added a template to it",
+          "location": "paragraph 100, inferred Consultant (speaker unclear)"
+        },
+        {
+          "quote": "That's the list.",
+          "location": "paragraph 111, inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "quote": "Put it in the scope.",
+          "location": "paragraph 109, inferred Marisol Bettencourt (speaker unclear)"
+        }
+      ],
+      "note": "REGRESSION from Met in s8, for two reasons that compound. First, the five-item scope the approver agreed out loud in s8 has been amended on this call: item one, the portfolio view, is deferred; a project template is added; and a new item is agreed that was never in the five, namely that the Monday status email is retired at go-live. The old agreement no longer describes the work, so it cannot carry R12 forward unchanged. Second, the amended scope IS agreed out loud here, and the Consultant reads it back and gets 'That's the list.' in reply, which in a labelled transcript would be a clean Met, but with no speaker labels it cannot be attributed to the approver and is graded Partial. The practical consequence matters more than the letter: together with R4 this closes the pricing-or-proposal gate that opened for the first time in s8. Confirming who spoke would lift this to Met on its own."
+    },
+    {
+      "criterion": "P1 Stated",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "a green row turned out not to be green",
+          "location": "paragraph 50, inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "quote": "all I've really done is make the summary page prettier and faster",
+          "location": "paragraph 13, inferred Marisol Bettencourt (speaker unclear)"
+        }
+      ],
+      "note": "Carried forward as Met from s8, and restated here from a new angle. The client now articulates the pain as a property of the data rather than of the report: a faster, prettier summary page over the same fourteen spreadsheets is the same pain, which is the reasoning behind the whole deferral."
+    },
+    {
+      "criterion": "P1 Concrete",
+      "status": "met",
+      "evidence": [],
+      "note": "Carried forward as Met from s8, where the August executive committee meeting supplied a dated, specific occurrence with the exact question asked and the real state of the project behind the green row (s8 cue 104 at 00:14:06.619 and cue 112 at 00:15:21.677). Nothing new is needed on this call, and the client compresses the whole episode into a single clause when arguing for the audit trail."
+    },
+    {
+      "criterion": "P1 Workaround",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "And I want one full month where I haven't had to email anybody for a status.",
+          "location": "paragraph 19, [00:04:10], inferred Marisol Bettencourt (speaker unclear)"
+        }
+      ],
+      "note": "Carried forward as Met from s8 (a month-old deck, her email, calling six PMs, half a day, and still not trustworthy). This call adds the sharpest possible statement of why carrying on is unacceptable: the absence of the chasing is one of the two conditions she sets for trusting the system enough to expose it to leadership."
+    },
+    {
+      "criterion": "P1 Reach",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "the forty things underneath it are fourteen people's spreadsheets",
+          "location": "paragraph 13, inferred Marisol Bettencourt (speaker unclear)"
+        }
+      ],
+      "note": "Carried forward as Met from s8 (the fourteen PMs, the analyst, the director, the executive committee and the client's own customer). Reconfirmed here in passing."
+    },
+    {
+      "criterion": "P1 Cost inputs",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "it's two and a half, not four",
+          "location": "paragraph 87, inferred Warren Tibbetts (speaker unclear)"
+        },
+        {
+          "quote": "But I also can't sit here and defend four, because I gave you four off the top of my head and now the one person who measured it says it's less.",
+          "location": "paragraph 91, inferred Marisol Bettencourt (speaker unclear)"
+        }
+      ],
+      "note": "REGRESSION from Met in s8. This is where the contradicted number actually lands: P1's cost inputs were hours, headcount, frequency and loaded costs for three roles, all client-supplied, and the largest of them, the PM hours, is now disputed by the person who gave it and no longer defended by the person who confirmed it. The loaded rates, the analyst's two days a month and the director's half day a month are untouched and still stand. Partial until the two additional PMs report back."
+    },
+    {
+      "criterion": "P1 Trajectory",
+      "status": "met",
+      "evidence": [],
+      "note": "Carried forward as Met from s8, where the year out was quantified rather than gestured at: about fifty-five active projects on the same headcount, and the analyst who assembles the report going on parental leave in November (s8 cue 134 at 00:18:37.715 and cue 136 at 00:18:58.785). Both still stand and neither is contradicted here."
+    },
+    {
+      "criterion": "P2 Stated",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "There's no difference between I've asked for Junie and I've got Junie.",
+          "location": "paragraph 59, inferred Ines Kovalenko (speaker unclear)"
+        },
+        {
+          "quote": "the answer is four names, and then it's a scheduling problem",
+          "location": "paragraph 57, inferred Ines Kovalenko (speaker unclear)"
+        }
+      ],
+      "note": "Carried forward as Met from s8. Restated here as two precise design requirements rather than as a complaint, which is what a pain looks like once it has been through a demo: the missing request-versus-commitment distinction, and availability still not being the same thing as capability."
+    },
+    {
+      "criterion": "P2 Concrete",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "That's the whole June thing.",
+          "location": "paragraph 59, inferred Ines Kovalenko (speaker unclear)"
+        },
+        {
+          "quote": "I was right, by the way.",
+          "location": "paragraph 60, inferred Warren Tibbetts (speaker unclear)"
+        }
+      ],
+      "note": "Carried forward as Met from s8, where the June collision was dated, named and fully traced, including the disagreement about whether the superintendent was penciled or confirmed. That same disagreement resurfaces here as a joke between the two of them, in the run-together paragraph 60, which is a neat demonstration that the underlying ambiguity was never resolved by anything other than memory."
+    },
+    {
+      "criterion": "P2 Workaround",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "that's the grid basically, except everybody can see it",
+          "location": "paragraph 54, [00:11:20], inferred Ines Kovalenko (speaker unclear)"
+        },
+        {
+          "quote": "I'm off the week of Thanksgiving.",
+          "location": "paragraph 63, inferred Ines Kovalenko (speaker unclear)"
+        }
+      ],
+      "note": "Carried forward as Met from s8, where the objection to the grid was not that it fails but that it is invisible to everyone else and stops when its owner does. Both halves recur here: the resource manager's own summary of the workload view is the grid made visible, and the single-point-of-failure problem returns as a concrete November coverage question during her holiday."
+    },
+    {
+      "criterion": "P2 Reach",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "it took me about eleven seconds, and it was right",
+          "location": "paragraph 55, inferred Warren Tibbetts (speaker unclear)"
+        },
+        {
+          "quote": "That's the first time in four years anybody has done that.",
+          "location": "paragraph 55, inferred Ines Kovalenko (speaker unclear)"
+        }
+      ],
+      "note": "Carried forward as Met from s8 (superintendents told on a Friday that Monday changed, PMs whose schedules assumed a person, the owner when a date moves, with liquidated damages behind some of them). This call demonstrates the reach in reverse, by showing what removing it looks like: the senior PM answered his own staffing question without touching the resource manager at all."
+    },
+    {
+      "criterion": "P2 Cost inputs",
+      "status": "met",
+      "evidence": [],
+      "note": "Carried forward as Met from s8: ten hours a week on the grid at a $72 loaded rate, plus about $50,000 per collision at two a year taken at the client's own low end (s8 cue 143 at 00:19:45.551, cue 160 at 00:22:07.198 and cue 162 at 00:22:21.250). Nothing on this call contradicts any of it. Note the discipline point: only the PM assembling hours were contradicted, so only that component moves. Re-opening the grid or collision figures because one number changed would be wrong."
+    },
+    {
+      "criterion": "P2 Trajectory",
+      "status": "met",
+      "evidence": [],
+      "note": "Carried forward as Met from s8: the growth is all occupied-building work, which only four superintendents can run, so the constraint tightens rather than loosens (s8 cue 176 at 00:24:21.803 and cue 179 at 00:24:45.267). The four-names constraint is restated on this call as the reason for the filtered view."
+    },
+    {
+      "criterion": "P3 Stated",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "The actuals are history. My forecast is the job.",
+          "location": "paragraph 77, inferred Warren Tibbetts (speaker unclear)"
+        }
+      ],
+      "note": "Carried forward as Met from s8, stated from both ends (the PM's lag between spend and actuals, and the director's inability to add fourteen different forecasts together). The senior PM's line here is the clearest statement of the split the design has to respect: Sage supplies history, the forward-looking number is his and belongs on the board."
+    },
+    {
+      "criterion": "P3 Concrete",
+      "status": "met",
+      "evidence": [],
+      "note": "Carried forward as Met from s8: the Cumberland West mechanical buyout, $480,000 over, surfaced six weeks late by the controller after the month closed and after the next two phases had been committed (s8 cue 187 at 00:25:41.938 and cue 189 at 00:26:01.030)."
+    },
+    {
+      "criterion": "P3 Workaround",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "he already produces a job cost report on the eleventh or twelfth and he doesn't much care if somebody uploads it somewhere",
+          "location": "paragraph 75, inferred Marisol Bettencourt (speaker unclear)"
+        }
+      ],
+      "note": "Carried forward as Met from s8 (fourteen private forecasts of varying quality, explicitly not addable). This call adds the shape of the replacement rather than changing the grade: the existing monthly report becomes the sanctioned feed, which keeps Sage as the book of record and keeps the workaround's one genuine virtue, the PM's own forward view."
+    },
+    {
+      "criterion": "P3 Reach",
+      "status": "met",
+      "evidence": [],
+      "note": "Carried forward as Met from s8: the controller making the call, the CFO forecasting cash off it, and the client's credibility with the health system during a change-order conversation (s8 cue 201 at 00:27:53.699)."
+    },
+    {
+      "criterion": "P3 Cost inputs",
+      "status": "partial",
+      "evidence": [],
+      "note": "Carried forward as Partial from s8, and not closed on this call. There is still one large one-off figure, the $480,000 overrun, an explicit refusal to say how much of it was avoidable, and no recurring rate for how often overruns surface late or how big they typically are. It stays beside the bleed as unquantified. This remains a gap question, and it is now less urgent than the R4 question about PM hours, so it ranks below it in the next prep."
+    },
+    {
+      "criterion": "P3 Trajectory",
+      "status": "partial",
+      "evidence": [],
+      "note": "Carried forward as Partial from s8: the client said it will not improve but gave no year-out picture and no figure, and did not tie it to the volume increase as she did for P1 (s8 cue 203 at 00:28:13.008). Untouched on this call. Worth asking, because fifty-five projects means fifty-five forecasts."
+    },
+    {
+      "criterion": "P4 Stated",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "You're missing the preconstruction handover meeting",
+          "location": "paragraph 70, inferred Warren Tibbetts (speaker unclear)"
+        },
+        {
+          "quote": "I'll send you my master version and Warren's version",
+          "location": "paragraph 71, inferred Marisol Bettencourt (speaker unclear)"
+        }
+      ],
+      "note": "Carried forward as Met from s8, where the director stated it and the senior PM immediately corroborated it by admitting his own checklist has extra lines on it. This call produces the cleanest possible demonstration of the pain: asked whether the trimmed eighteen-item list was right, the senior PM names something missing that only he knows about, and the director offers to send both versions side by side because the difference between them is the argument."
+    },
+    {
+      "criterion": "P4 Concrete",
+      "status": "partial",
+      "evidence": [],
+      "note": "Carried forward as Partial from s8 and not closed here. The client describes what it looks like day to day, which the check allows, but still cannot point at one job and say this went wrong, and the one vivid consequence, an ICRA permit lapsing and the job being shut down for a day, remains secondhand and undated (s8 cue 205 at 00:28:36.629 and cue 68 at 00:09:37.687). The two checklists being sent may close this without another question, which is a better route than asking for a story."
+    },
+    {
+      "criterion": "P4 Workaround",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "The equipment one is shorter and it's a completely different list.",
+          "location": "paragraph 70, inferred Warren Tibbetts (speaker unclear)"
+        }
+      ],
+      "note": "Carried forward as Met from s8: a 60-something-line Excel checklist that exists but is not followed, with private variants as the evidence that it does not hold. Reinforced here, and extended, since the one template built so far covers only one of the three project types."
+    },
+    {
+      "criterion": "P4 Reach",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "But the PM isn't the one who walks it to their nurse.",
+          "location": "paragraph 83, inferred Warren Tibbetts (speaker unclear)"
+        }
+      ],
+      "note": "Carried forward as Met from s8 (project engineers doing the steps, the badging admin, the safety director, new PMs from outside healthcare, and the owner's first impression). The correction to the ICRA reminder's recipients is the same reach restated as a routing requirement: the person who does the work is the project engineer and the person exposed is the superintendent, neither of whom was being notified."
+    },
+    {
+      "criterion": "P4 Cost inputs",
+      "status": "missing",
+      "evidence": [],
+      "note": "Carried forward as Missing from s8 and still Missing: no hours, frequency or cost has ever been attached to inconsistent project startups. This is why P4 is not excavated, and it is the highest-value gap question left, because P4 is now the centre of the build."
+    },
+    {
+      "criterion": "P4 Trajectory",
+      "status": "missing",
+      "evidence": [],
+      "note": "Carried forward as Missing from s8 and still Missing: nothing has been said about what inconsistent startups look like at fifty-five projects a year with newly hired PMs. The obvious follow-up given the growth, and still unasked after two calls."
+    }
+  ],
+  "pains": [
+    {
+      "quote": "the forty things underneath it are fourteen people's spreadsheets",
+      "location": "paragraph 13, inferred Marisol Bettencourt (speaker unclear)",
+      "theme": "P1 No trustworthy portfolio view: the roll-up is only as good as the fourteen private forecasts under it, which is the client's own reason for deferring it"
+    },
+    {
+      "quote": "all I've really done is make the summary page prettier and faster",
+      "location": "paragraph 13, inferred Marisol Bettencourt (speaker unclear)",
+      "theme": "P1 A faster report over the same untrusted inputs is the same pain, not a fix"
+    },
+    {
+      "quote": "a green row turned out not to be green",
+      "location": "paragraph 50, inferred Marisol Bettencourt (speaker unclear)",
+      "theme": "P1 The August meeting compressed into the justification for an audit trail on the health status"
+    },
+    {
+      "quote": "If a PM moves his job from yellow to green, I want to know who did that and when.",
+      "location": "paragraph 48, inferred Marisol Bettencourt (speaker unclear)",
+      "theme": "P1 The trust half of P1 is still unaddressed in v0.1: the audit trail she asked for in s8 was not built"
+    },
+    {
+      "quote": "I couldn't find that anywhere on the board.",
+      "location": "paragraph 48, inferred Marisol Bettencourt (speaker unclear)",
+      "theme": "P1 A gap in the delivered version, reported by the client rather than by the Consultant"
+    },
+    {
+      "quote": "There's no difference between I've asked for Junie and I've got Junie.",
+      "location": "paragraph 59, inferred Ines Kovalenko (speaker unclear)",
+      "theme": "P2 Resource collisions: the allocation board as built cannot distinguish a request from a commitment, which is the June collision in one sentence"
+    },
+    {
+      "quote": "the answer is four names, and then it's a scheduling problem",
+      "location": "paragraph 57, inferred Ines Kovalenko (speaker unclear)",
+      "theme": "P2 Capability, not just availability: occupied-work qualification has to be a filter rather than a tick box to scan for"
+    },
+    {
+      "quote": "I'm off the week of Thanksgiving.",
+      "location": "paragraph 63, inferred Ines Kovalenko (speaker unclear)",
+      "theme": "P2 The single-point-of-failure half of P2, now with a date on it and a coverage decision attached"
+    },
+    {
+      "quote": "It's a good-looking screen with made-up money on it.",
+      "location": "paragraph 73, inferred Warren Tibbetts (speaker unclear)",
+      "theme": "P3 Budget burn: the demo could not confirm this pain because Sage is not connected and the figures are samples"
+    },
+    {
+      "quote": "He will not give anybody a live connection into Sage this year and I'd stop pushing on it.",
+      "location": "paragraph 75, inferred Marisol Bettencourt (speaker unclear)",
+      "theme": "P3 The constraint that shapes any answer to P3: no live connection this year, so burn must come from an uploaded monthly report"
+    },
+    {
+      "quote": "Because it's a number I make up.",
+      "location": "paragraph 42, inferred Warren Tibbetts (speaker unclear)",
+      "theme": "P3 and P1 A measure that looks like data and is not; the reason percent complete comes off the board"
+    },
+    {
+      "quote": "You're missing the preconstruction handover meeting",
+      "location": "paragraph 70, inferred Warren Tibbetts (speaker unclear)",
+      "theme": "P4 No standard project start: the master checklist is still missing steps that individual PMs carry privately"
+    },
+    {
+      "quote": "The equipment one is shorter and it's a completely different list.",
+      "location": "paragraph 70, inferred Warren Tibbetts (speaker unclear)",
+      "theme": "P4 One template cannot serve three project types, confirmed against the built version"
+    },
+    {
+      "quote": "But the PM isn't the one who walks it to their nurse.",
+      "location": "paragraph 83, inferred Warren Tibbetts (speaker unclear)",
+      "theme": "P4 Infection-control steps are done by project engineers and felt by superintendents; the reminder was routed to neither"
+    },
+    {
+      "quote": "They want the history.",
+      "location": "paragraph 45, inferred Warren Tibbetts (speaker unclear)",
+      "theme": "P1 and P4 Owner milestone dates need a full change history with reasons, not a baseline-versus-current pair"
+    }
+  ],
+  "numbers": {
+    "bleed": {
+      "value": "CONTRADICTED AND NOW UNCONFIRMED. The s8 figure was $432,080 a year, confirmed out loud by the client, made up of PM status assembling 14 x 4 h/wk x 52 x $95 = $276,640; the resource grid 10 h/wk x 52 x $72 = $37,440; the monthly deck (16 h x $65 plus 4 h x $115) x 12 = $18,000; and resource collisions 2 x $50,000 = $100,000 at the client's own low end, shown as a $100,000-$150,000 range. On this call the senior PM, the original source of the four hours, reports a measured two and a half, having excluded OAC preparation he would do anyway; the director will not extend his figure to the other thirteen and simultaneously withdraws her confirmation of four. So the PM component is now an unconfirmed range: at 2.5 hours it is $172,900 and at 4 hours it is $276,640, putting the total somewhere between $328,340 and $432,080. Neither end may be presented as the client's number. The correct record is the range, marked unconfirmed, with the superseded $432,080 and the date it was agreed kept visible in log.md rather than overwritten, and a dated action to ask two more PMs. The other three components are untouched and stand. The $480,000 Cumberland West overrun stays outside the total as unquantified, exactly as in s8.",
+      "quote": "it's two and a half, not four",
+      "status": "partial"
+    },
+    "upside": {
+      "value": "About $430,000 a year, unchanged from s8 and restated here in part, but now carrying a dependency that must be recorded with it. First, $150,000 of deferred hiring: two PMs are in next year's budget at about $150,000 all in each and the client would hold one, which she repeats on this call without being asked. Second, about $280,000 of fee from one more staffable job a year, from two invitations no-bid last year for lack of a superintendent, at $8M-$12M revenue and about 3.5 points; untouched on this call. The stated ambition remains Waverly's whole outpatient programme. THE DEPENDENCY: the deferred-hire half is premised on the same freed reporting hours that R4 has just put in doubt, and the Consultant flags this on the call rather than leaving it in a document. If the hours settle nearer two and a half, the hold-one-hire argument weakens and must be re-tested with the client. As in s8, this $150,000 comes out of hours already counted in the bleed and must never be added to the bleed total.",
+      "quote": "I've still got the two PMs in the November number and I'd still hold one of them.",
+      "status": "met"
+    }
+  },
+  "vocabulary": [
+    {
+      "their_term": "the portfolio layer",
+      "meaning": "The client's own name, adopted on this call, for the roll-up across all active projects. She treats it as a layer that sits on top of the project boards and can be added later, which is precisely the right mental model",
+      "likely_monday_object": "a monday portfolio with the projects connected to it, NOT built in this phase, and to be added next quarter by connecting the existing projects rather than by rebuilding them"
+    },
+    {
+      "their_term": "the board",
+      "meaning": "The executive committee, not a monday board. Established in s8 ('When I say the board I mean the executive committee'), and used again here twice in the same sense. The firm is privately held and has no board of directors",
+      "likely_monday_object": "nothing; a homonym trap, and a harder one in an unlabelled transcript. It is an audience, and on this call it is the audience the client is refusing to expose"
+    },
+    {
+      "their_term": "the fourteen",
+      "meaning": "The fourteen project managers, used as a collective noun for the population whose behaviour has to change",
+      "likely_monday_object": "the end users of the project boards; the group whose adoption is the stated precondition for the portfolio layer"
+    },
+    {
+      "their_term": "health",
+      "meaning": "A project's red-amber-green status, set by its PM. Referred to on this call as a colour ('moves his job from yellow to green', 'colored it in')",
+      "likely_monday_object": "status column on the project, with an audit trail of who changed it and when surfaced on the item itself; nothing clinical is meant"
+    },
+    {
+      "their_term": "burn",
+      "meaning": "Cost spent against plan on a job. On this call the burn column exists but is filled with sample figures, which is why it could not be confirmed",
+      "likely_monday_object": "numbers or formula columns on the project, fed by an uploaded monthly Sage job cost report, with the PM's forward forecast entered on the board"
+    },
+    {
+      "their_term": "the grid",
+      "meaning": "The resource manager's Excel allocation workbook. She now uses it as the benchmark the workload view is measured against, favourably",
+      "likely_monday_object": "the allocation board plus its workload view, which she describes as the grid with everybody able to see it"
+    },
+    {
+      "their_term": "percent complete",
+      "meaning": "A progress figure the PMs report and which the senior PM says is invented rather than measured. Being removed at the client's request",
+      "likely_monday_object": "nothing; a column to delete, not to rename or hide, because the objection is to the measure and not to its label"
+    },
+    {
+      "their_term": "milestone",
+      "meaning": "An owner-facing contractual date, eleven or twelve on a large job. The owner asks not only what the date is but when it moved and what moved it",
+      "likely_monday_object": "milestone items under the project with a full change history: each change, its date, and a typed free-text reason, rather than a baseline-versus-current pair"
+    },
+    {
+      "their_term": "first patient day",
+      "meaning": "The date the owner starts using the space, with liquidated damages behind it on the bed tower. Cited here as a date that has already moved twice",
+      "likely_monday_object": "a milestone item flagged as contractual, and the worked example for why change history is required"
+    },
+    {
+      "their_term": "ICRA",
+      "meaning": "Infection control risk assessment: a permit per work area, signed by the hospital's infection control nurse, which expires. The project engineer walks it to the nurse and the superintendent is the one shut down if it lapses",
+      "likely_monday_object": "a dated expiring item inside the occupied-renovation project template, with a 30-day reminder automation notifying the project engineer and superintendent, copying the PMO director"
+    },
+    {
+      "their_term": "super",
+      "meaning": "Superintendent. Four of them are qualified for occupied work, which is the constraint behind every staffing conversation",
+      "likely_monday_object": "person records on the allocation board with an occupied-work qualification, and a saved view filtered to the qualified four"
+    },
+    {
+      "their_term": "equipment job",
+      "meaning": "A short, permit-heavy project such as the Waverly MRI replacement. Counted as a project 'mostly', which is why the active count is either forty or forty-one",
+      "likely_monday_object": "a project from the equipment template, which does not yet exist and is now needed before the first week of December"
+    },
+    {
+      "their_term": "the Monday status email",
+      "meaning": "The weekly status each PM sends the PMO director. On this call she commits to retiring it at go-live, which is her answer to the adoption risk",
+      "likely_monday_object": "the artefact the project board replaces; its retirement is a scope item, not a build object"
+    },
+    {
+      "their_term": "the OAC",
+      "meaning": "The weekly owner-architect-contractor meeting. Also, separately, the preparation the senior PM had wrongly been counting inside his four hours",
+      "likely_monday_object": "a recurring meeting the project data should serve; note the second sense, which is what makes the contradicted number a genuine correction rather than a mood swing"
+    },
+    {
+      "their_term": "next quarter",
+      "meaning": "When the portfolio layer is revisited. Deliberately imprecise: the client says after the fifteenth of January, once Cumberland is done, and explicitly refuses to pin a date",
+      "likely_monday_object": "nothing; a scheduling term that must be recorded as the client left it, with its condition, and not resolved into a fixed date"
+    }
+  ],
+  "entities_and_workflows": [
+    "Portfolio deferral: the PMO director showed the v0.1 portfolio screen informally to the VP of Operations, who declined it for now on the grounds that a roll-up inherits the trustworthiness of the data beneath it. The director agrees, takes the portfolio layer out of the first phase, and sets two conditions for revisiting it next quarter.",
+    "Revisit conditions, given by the client as the test for revisiting the portfolio layer (paragraph 19) and proposed by our side as success criteria: the fourteen PMs entering their forecast on the board rather than in private files, and one full month in which the director has not had to chase anybody for a status.",
+    "January workaround: Cumberland's program review on January fifteenth is served by a filtered view across the twelve Cumberland projects showing a colour, the next milestone and its date, rather than by a portfolio roll-up. The client accepts that this looks thin and carries the risk that the owner's VP asks for a program total.",
+    "Project structure: projects stay real monday projects underneath, so the portfolio can later be connected rather than rebuilt. Agreed explicitly on the call by both sides.",
+    "Reporting audience split: a view and dashboard for the PMO director over the project boards, and nothing aimed at leadership until she says so. The v0.1 dashboard survives but is re-sourced from the projects instead of the portfolio.",
+    "Health status audit: who changed a project's colour and when, surfaced on the item itself rather than buried in a log. Requested in s8, not delivered in v0.1, and re-requested here as non-negotiable.",
+    "Milestone change history: every change to an owner-facing date, with the date of the change and a typed free-text reason, replacing the baseline-versus-current pair. Driven by the OAC question of when a date moved and what moved it.",
+    "Project startup: the PMO director committed on the call to send the master checklist and the senior PM's private version for comparison (not yet received); the preconstruction handover meeting is missing from the master; eighteen items is about right for a renovation and wrong for an equipment job.",
+    "Project templates: occupied renovation exists; equipment is needed before the Waverly MRI starts in the first week of December; ground-up is not needed before April.",
+    "Resource allocation: the workload view is accepted and has already been used successfully by a PM without going through the resource manager. Two changes follow: a saved view filtered to the four occupied-work-qualified superintendents, and a requested-versus-confirmed state where only the resource manager may move a booking to confirmed, with the PMO director covering that during her Thanksgiving-week absence.",
+    "Cost data: no live Sage connection this year by the controller's decision; instead the existing monthly job cost report, produced on the eleventh or twelfth, is uploaded, so actuals are knowingly a month old while the PM's forward forecast lives on the board.",
+    "Security and tenancy: the IT director is about halfway through the questionnaire and is asking whether the build sits in the client's tenant and how many of the 220 enterprise seats it consumes. Until he is satisfied, v0.1 stays in the Consultant's own account and nothing real goes into the client's tenant.",
+    "Adoption plan: the weekly Monday status email is retired at go-live, so the board replaces a task rather than adding one. The client proposes this herself and asks for it to be written into the scope.",
+    "Out of scope and relayed, not requested: the VP of Operations has asked whether the build could also show preconstruction's pipeline. It belongs to another group, the client is explicitly not asking for it, and it is expected to come up again in January."
+  ],
+  "integrations_mentioned": [
+    "Sage 300: the open question from s8 now has an answer. No live connection this year, by the controller's decision, and the client advises against pushing. The workable path is the job cost report he already produces on the eleventh or twelfth, uploaded, with everyone knowing the actuals are a month old. The call fixes only the read direction, a monthly upload of the controller's report (paragraph 75); writeback and integration direction beyond that upload are unresolved; v0.1 does not depend on either; keeping job cost in Sage and not rebuilding it in monday is our safe default, labelled as ours.",
+    "Procore: unchanged and explicitly not in play. The senior PM skipped the submittal part of the walkthrough because that is Procore's job. Nobody asked to duplicate drawings, RFIs, submittals or daily reports.",
+    "Microsoft tenant and single sign-on: the IT director's questionnaire is about half done and now includes where the build sits and how many of the 220 enterprise seats it consumes.",
+    "monday.com, two accounts to keep straight: v0.1 lives in the Consultant's own monday account, and the client's own Enterprise account with its 220 seats, preconstruction's bid board and safety's incident board remains untouched. Nothing real may be written into the client's tenant until the security review clears.",
+    "Excel: the master startup checklist and the senior PM's own version are committed to be sent as inputs (not yet received); the grid and the fourteen PM forecasts are still the current state.",
+    "Smartsheet: referenced again as the 2023 adoption failure and the reason the Monday status email must be retired at go-live. Adoption history, not an integration.",
+    "No email-to-ticket, no customer portal and no SLA policies are in play here; Service is not mentioned on this call at all and its extras remain deferred beyond v1."
+  ],
+  "compliance_or_security_signals": [
+    "The IT security questionnaire is about halfway through, with new questions about tenancy and about how many of the 220 enterprise seats the build consumes.",
+    "Nothing real goes into the client's own monday tenant until the IT director is satisfied, which is why v0.1 sits in the Consultant's account. This is a hard constraint on where the next version can be built.",
+    "Audit trail on health status changes: who moved a project from yellow to green and when, surfaced on the item. Requested in s8, missing from v0.1, and restated here as not a nice-to-have.",
+    "Milestone date history: every change to an owner-facing date retained with its date and a reason, so the previous date always still exists.",
+    "Permission rule agreed on the call: only the resource manager may move an allocation from requested to confirmed, with the PMO director as the single named substitute during her absence. The client's words are 'I want to be the one who does it' (paragraph 62) and, for the substitute, 'her and not a PM' (paragraph 63); 'a permission rather than a preference' is the Consultant's framing (paragraph 65), which the client did not object to and which the Consultant committed to write down.",
+    "ICRA permits expire and can shut a job down; the reminder must reach the project engineer who walks it to the hospital's infection control nurse and the superintendent who would be shut down.",
+    "Carried from s8 and unchanged: no patient information and no photographs containing patients or whiteboards; field staff immunization records and background checks stay with HR; loaded rates and cross-job margin are restricted, PMs see hours and their own job's cost only. Nothing on this call relaxes any of it, and the sample data in the next version must continue to respect all of it.",
+    "The controller gates Sage and has now exercised that gate by refusing a live connection for this year."
+  ],
+  "objections": [
+    {
+      "quote": "I'm asking you not to build it yet.",
+      "type": "Wrong time, next quarter (raised by the approver about ONE COMPONENT, not about the engagement. The skipped steps the map points at, R3 and R8, are both Met, which is why this is a phasing decision rather than a stall: the urgency is real and attaches to the project layer and to January. The spec's response question, what will be different next quarter, is asked on the call and produces two concrete conditions. Recording this as a lost or delayed deal, or re-pitching the portfolio, both misread it)"
+    },
+    {
+      "quote": "the forty things underneath it are fourteen people's spreadsheets",
+      "type": "monday itself is the problem (raised in its subtlest form and aimed at the roll-up rather than at the tool: the objection is that a dashboard over untrusted inputs inherits their untrustworthiness. The spec's response, asking what it fails to do rather than defending, is what the Consultant does, and the client has already answered it herself. The correct handling is to agree and re-sequence, which is exactly what happens)"
+    },
+    {
+      "quote": "If I ask them to do both, you'll be back here in March explaining why nobody logged in.",
+      "type": "Team won't adopt it (recurring: raised in s8 with the Smartsheet precedent and raised again here, so it takes a prepared response in the next prep. Notably the client both raises it and resolves it, committing to retire the Monday status email at go-live so the board replaces a task rather than adding one. Record the commitment, because the whole adoption case now rests on it)"
+    },
+    {
+      "quote": "The fourteen have to be putting their forecast in the thing rather than in their own file",
+      "type": "Team won't adopt it (the same objection expressed as a precondition rather than a fear, and the reason the portfolio layer is deferred. It is the first of the two revisit conditions and should be tracked as a success criterion as well as an objection)"
+    },
+    {
+      "quote": "It's not fine for me saying yes to it.",
+      "type": "Outside the map: confidence it will work (raised by the senior PM about the burn column specifically, because the figures are samples and Sage is not connected. Not a general doubt and not resistance: he is refusing to endorse a number he cannot check, which is the same instinct that produced the corrected hours. It is why R11 cannot be Met for P3, and it resolves when the monthly upload is in)"
+    },
+    {
+      "quote": "He will not give anybody a live connection into Sage this year and I'd stop pushing on it.",
+      "type": "Must check with someone (the controller has now exercised his gate, and the approver advises against pushing. The spec's action, asking what that person cares about and offering to join the conversation, has effectively already paid off: he volunteered a workable alternative in the same breath. Accept the constraint and design to it rather than reopening it)"
+    },
+    {
+      "quote": "That hasn't moved, and November hasn't moved either.",
+      "type": "Just send a proposal or pricing (recurring: raised in s8 with the budget lock behind it and pressed again here. The method's own precondition is no longer satisfied, because R4 and R12 have both fallen to Partial, so the gate that opened in s8 has closed again. Pricing and proposal prep are also deferred beyond v1. The Consultant gives both reasons plainly on the call, commits to the scope this week, and makes the number conditional on the two extra PMs, which is the behaviour to imitate)"
+    },
+    {
+      "quote": "Which is more than we did after the Nashville lot came in, for whatever that's worth to you.",
+      "type": "Talking to other partners (recurring, and now with a comparison having actually happened. The competing firm came in as promised in s8, and the client volunteers a mildly favourable signal without being asked. Internal only: the partner, the comparison and the client's signal must never appear in client-facing material, and the correct response is not to chase it)"
+    }
+  ],
+  "commitments_and_next_steps": [
+    {
+      "quote": "Eleven thirty Eastern on Thursday the fifteenth",
+      "what": "Next working session on the revised version (no portfolio layer), one hour rather than forty-five minutes, with all three client attendees",
+      "owner": "Consultant (hosts and builds it); the PMO director proposed the day and the other two confirmed",
+      "date": "Thursday the 15th, 11:30 am Eastern (month not stated; the 15th is a Thursday in October 2026). NOT to be confused with January fifteenth, which is Cumberland's program review"
+    },
+    {
+      "quote": "I'll send the invite this afternoon.",
+      "what": "Send the calendar invite for the fifteenth to the three client attendees",
+      "owner": "Consultant",
+      "date": "The afternoon of the call"
+    },
+    {
+      "quote": "I'll ask them this week.",
+      "what": "Ask two further project managers, Nadine and Ruben, for their own weekly assembling hours, to settle the contradicted input behind the largest bleed component",
+      "owner": "Marisol Bettencourt",
+      "date": "The week of the call, and before the fifteenth"
+    },
+    {
+      "quote": "And I'll have Nadine and Ruben before then.",
+      "what": "Have both PMs' figures back in time for the next session",
+      "owner": "Marisol Bettencourt",
+      "date": "Before Thursday the 15th"
+    },
+    {
+      "quote": "The scope you'll get this week",
+      "what": "Send the written scope, revised for the portfolio deferral, the added equipment template and the retirement of the Monday status email. Note for the plugin: the scope is promised, the FIGURE is explicitly not, and pricing and proposal prep are deferred beyond v1, so this stays a consultant to-do rather than something the plugin drafts",
+      "owner": "Consultant",
+      "date": "The week of the call"
+    },
+    {
+      "quote": "I'll get him what he needs this week.",
+      "what": "Send the IT director what the security questionnaire needs, including where the build would sit and its seat impact, so the tenancy question stops blocking",
+      "owner": "Consultant",
+      "date": "The week of the call"
+    },
+    {
+      "quote": "I'll send you my master version and Warren's version",
+      "what": "Send both startup checklists, the PMO master and the senior PM's private variant, so the differences can be built into the templates",
+      "owner": "Marisol Bettencourt",
+      "date": "Not dated; before the fifteenth by implication"
+    },
+    {
+      "quote": "And write down that it was my decision and not yours",
+      "what": "Record the portfolio deferral as the client's decision, in her words, with the two revisit conditions, so the reason survives being asked about in three months. This is the client explicitly asking for the override to be documented",
+      "owner": "Consultant",
+      "date": "Immediately, with the call record"
+    },
+    {
+      "quote": "That's fine. I'll do it that week.",
+      "what": "Cover allocation confirmations during the resource manager's Thanksgiving-week absence, as the single named substitute",
+      "owner": "Marisol Bettencourt",
+      "date": "The week of Thanksgiving"
+    },
+    {
+      "quote": "Let me carry that one",
+      "what": "Own the risk that Cumberland's VP of facilities asks for a program-level total in January that the filtered view cannot produce, and come back if it becomes a real problem rather than improvising in January",
+      "owner": "Marisol Bettencourt",
+      "date": "Before January 15th"
+    },
+    {
+      "quote": "Put it in the scope.",
+      "what": "Write the retirement of the weekly Monday status email at go-live into the scope as a client commitment",
+      "owner": "Consultant to write it, Marisol Bettencourt to sign and to enforce it",
+      "date": "With the scope, the week of the call"
+    }
+  ],
+  "traps": [
+    "THE HEADLINE TRAP. Amendment A6's Enterprise portfolio default fired in s8 and a portfolio was built, but A6 contains its own exception: unless the transcript or the consultant says otherwise, and record the reason either way. Here the transcript says otherwise, in the approver's own words. The next version must have no portfolio layer, and the reason, the client's words and the revisit condition must be recorded. Re-proposing it, keeping it quietly, or treating A6 as overriding the client all fail.",
+    "Deferring the portfolio does NOT mean building plain boards. The projects stay real monday projects, created with the project tools, so that next quarter the roll-up is a connection rather than a rebuild. Both sides say so on the call, and the client's reason is financial. Demoting the projects to ordinary boards because the portfolio went away would trip the A6 guard and would cost the client twice, which she has explicitly refused.",
+    "Deferring the portfolio does NOT defer the PMO director's own view. She says plainly that she still wants her own screen and that what she is refusing is a company-wide roll-up in front of leadership. Dropping her view along with the portfolio fails; so does building her a leadership-facing roll-up under another name and calling it her screen. The distinction is the audience, not the existence of a cross-project view.",
+    "The deferral collides with the January fifteenth Cumberland program review, which was the strongest why-now in s8 and needs program-level health, budget and milestones. The client has an answer (twelve Cumberland projects, filtered, with a colour, a next milestone and a date) and accepts it looks thin. The plugin must record the collision as a live risk with her own mitigation and her own ownership of it, not silently resolve it by keeping the portfolio, and not silently drop the January requirement either.",
+    "'Next quarter' must not be resolved into a date. The client says after the fifteenth of January, once Cumberland is done, and explicitly refuses to pin it. The revisit is condition-based, not calendar-based, and the two conditions are the thing to track.",
+    "THE CONTRADICTED NUMBER. The four hours a week from s8 becomes a measured two and a half. The spec says the latest client statement wins and the superseded value and date go to log.md, so $432,080 cannot simply stand. But the new figure is one PM's measurement of himself, the director will not generalise it and will not defend four either, so nothing is confirmed. Show the change, carry a 2.5-to-4 range marked unconfirmed, keep the old figure visible with its date, and publish no new total. Silently keeping $432,080 fails. Silently swapping in $328,340 as though it were confirmed fails just as badly.",
+    "Only the PM assembling hours were contradicted. The grid at ten hours a week, the monthly deck, and the collisions at two a year times $50,000 are untouched and must not be reopened, re-derived or 'refreshed' because one input moved.",
+    "The knock-on to the upside must be flagged, not buried. The $150,000 hold-one-hire argument leans on the same freed reporting hours. If those hours shrink, so does that argument. The Consultant raises this on the call; a record that leaves the upside untouched and silent is incomplete even though R5's status does not change.",
+    "Two separate incidents that happen to share two causes. The senior PM says first patient day on the Cumberland bed tower has moved twice, once by nine days for the switchgear and once by four for the inspection window. The August executive-committee story in s8 is a different job, one of the Waverly renovations, whose green row hid a five-week slip after a switchgear delivery arrived and an inspection window moved. Switchgear and inspection windows move dates on almost every healthcare job, so the overlap is ordinary rather than a clue. Merging the two into one incident, or attaching the tower's milestone moves to the August meeting, invents a history nobody described and would put the wrong example behind the milestone-history requirement.",
+    "The project count moving from 'thirty-eight, forty depending on how you count' to forty-one is NOT a contradiction. It is the same counting ambiguity plus one new equipment job, and the client says so in the same breath. Logging this as a conflicting number, alongside the genuine one, shows the conflict rule being applied mechanically rather than read.",
+    "NO SPEAKER LABELS ANYWHERE. Every attribution in this transcript is an inference. Per the spec, evidence is marked speaker unclear and graded Partial until the consultant confirms, no matter how obvious the speaker is from direct address. Produce the inferred attribution, mark it as inferred, and ask for confirmation. Presenting inferred speakers as established fact fails; so does refusing to infer at all and returning nothing.",
+    "No talk share and no delivery notes. Spec 6.5 restricts them to speaker-labelled transcripts, and this has none. Any client-talk-share percentage or longest-Consultant-stretch figure for this call is fabricated.",
+    "The format trap reaches R10, R11 and R12, which is the point rather than an accident. The next step is genuinely set, the demo genuinely confirmed things, and the amended scope was genuinely agreed, yet all three are Partial because nothing can be attributed. Say so explicitly, and say that confirming speakers lifts all three; only R4 needs more than a confirmation.",
+    "Paragraphs 55 and 60 each run two speakers together in a single paragraph with no break. Both are exchanges between the senior PM and the resource manager, and reading either as one person's words misattributes a confirmation in 55 and a joke in 60. Paragraph 40 carries an '[inaudible]' marker mid-turn, which is not a missing word to guess at.",
+    "Consecutive paragraphs are often the same speaker, and paragraph breaks are not turn changes. Counting paragraphs as turns, or alternating speakers by position, produces nonsense.",
+    "The pricing-or-proposal gate OPENED in s8 and CLOSES again here, because R4 and R12 have both fallen to Partial. That is on top of pricing and proposal prep being deferred beyond v1. Both reasons must be stated: the method no longer permits it, and this version would not produce it anyway. Producing a figure fails; dropping the client's November deadline fails too.",
+    "R11 is Partial, not Met, and the reason is specific rather than general: the burn column could not be confirmed because it holds sample figures and Sage is not connected. Marking R11 Met because the demo 'went well' ignores the one pain the client explicitly refused to sign off.",
+    "Percent complete is a removal, not a rename or a hide. The objection is to the measure itself, which the PM says he invents, not to its label or its position. Keeping it hidden 'in case' contradicts both speakers, including the director who asked for it for six years.",
+    "The health status audit trail was requested in s8 and is missing from v0.1. That is a delivery gap the client found, not a new feature request, and the client calls it non-negotiable. Recording it as a fresh idea loses the fact that it was already promised.",
+    "Milestones need a change history with a typed reason, not a baseline-versus-current pair, and the reason must be free text because a picklist will not fit the cases. This supersedes the v0.1 design rather than adding to it.",
+    "Sage must not be assumed live and must not be rebuilt. The controller has refused a live connection for this year and the sanctioned path is an upload of the monthly job cost report, knowingly a month old. Building a job-cost board that becomes a second book of record for money fails, as does quietly assuming an API.",
+    "There are two monday accounts in play. v0.1 is in the Consultant's own account; the client's Enterprise account with its 220 seats, preconstruction's bid board and safety's incident board is untouched and must stay untouched until the security review clears. Assuming the next version goes into the client's tenant contradicts an explicit constraint agreed on the call.",
+    "The preconstruction pipeline is relayed, not requested. The VP of Operations raised it; the PMO director says outright she is not asking for it and that it belongs to another group. It is a backlog seed with her words and a question for January, never a proposal, and never a look-alike pipeline board. If CRM ever comes in it goes on native CRM boards.",
+    "The warranty inbox from s8 is not mentioned at all here and stays parked. Silence is not permission to add Service to this scope, and Service extras remain deferred beyond v1.",
+    "Two different fifteenths. 'Thursday the fifteenth' is the next working session in October; 'January fifteenth' is Cumberland's program review. Conflating them corrupts both the next step and the deadline.",
+    "'The board' means the executive committee, as established in s8, and is used twice here in that sense. In an unlabelled transcript about building boards in monday, this homonym is easier to get wrong than it was in s8.",
+    "'Health' is a red-amber-green project status and is discussed here as a colour. Nothing clinical is meant anywhere in a healthcare-construction fixture.",
+    "Automations go up as one approval list under amendment A1, with trigger, conditions, action and exact recipients per row. The ICRA reminder's recipients change on this call, which is an edit to a row rather than a new approval, and the handoff must still note that automations created through the API cannot be switched off through the API.",
+    "The adoption commitment is load-bearing and belongs in the scope, because the client asked for it to be written there: the Monday status email is retired at go-live. Treating it as a remark rather than a scope item loses the only thing standing between this and the Smartsheet outcome.",
+    "Remarks about colleagues stay internal: that the VP of Operations declined the roll-up, that nobody but the senior PM tracked anything, that some PMs would tell the director what she wants to hear, that the controller must stop being pushed, and the senior PM's percent-complete admission.",
+    "The competing partner came in as promised in s8 and the client volunteers a mildly favourable comparison. It is an alternative in play: internal only, never repeated in client-facing material, and not something to chase on the call or in the recap."
+  ],
+  "requested_changes": [
+    {
+      "type": "remove",
+      "description": "THE OVERRIDE. Remove the portfolio layer from the next version. The client's stated reason is that leadership is not ready for a roll-up over data that is still fourteen private spreadsheets, and she asks that the decision be recorded as hers. Revisit next quarter, after January fifteenth, against two named conditions: the fourteen PMs entering their forecast on the board, and one full month without the director chasing anybody for a status. Record the reason and the conditions, not just the removal.",
+      "quote": "I'm asking you not to build it yet."
+    },
+    {
+      "type": "change",
+      "description": "Keep the projects as real monday projects underneath the removed portfolio, rather than rebuilding them as plain boards, so that reconnecting a portfolio next quarter is a connection rather than a rebuild. Proposed by the Consultant and agreed by the approver, whose reason is that she will not pay for it twice.",
+      "quote": "That's what I'd want. I'm not paying for it twice."
+    },
+    {
+      "type": "add",
+      "description": "Keep a cross-project view for the PMO director herself, over the project boards, explicitly not aimed at leadership. The deferral applies to a company-wide roll-up in front of the VP of Operations and the executive committee, not to the director having somewhere to look.",
+      "quote": "No, I still want my own screen."
+    },
+    {
+      "type": "change",
+      "description": "The v0.1 dashboard survives but is re-sourced: it read from the portfolio, so it must now read from the three project boards instead, with the same widgets, and be pointed at the PMO director rather than displayed where anyone walks past.",
+      "quote": "Keep it. Just don't put it on a wall."
+    },
+    {
+      "type": "remove",
+      "description": "Remove the percent complete field from the project board entirely. The senior PM says the figure is invented rather than measured and that putting it beside real numbers invites someone to total it; the PMO director, who has asked for it for six years, agrees to drop it. A removal, not a rename or a hide.",
+      "quote": "You've got a percent complete field on there and I'd take it off."
+    },
+    {
+      "type": "add",
+      "description": "Milestone change history: record every change to an owner-facing date with the date of the change and a typed free-text reason, replacing the v0.1 baseline-versus-current pair. Free text rather than a picklist, because half the reasons do not fit a list. Driven by the OAC question of when a date moved and what moved it.",
+      "quote": "They want the history."
+    },
+    {
+      "type": "add",
+      "description": "Audit trail on the project health status: who changed the colour and when, surfaced on the item itself rather than in a log that has to be hunted for. This was requested at the end of the discovery call and did not make it into v0.1, and the client calls it non-negotiable because it is the whole trust problem.",
+      "quote": "If a PM moves his job from yellow to green, I want to know who did that and when."
+    },
+    {
+      "type": "add",
+      "description": "A saved view on the allocation board filtered to the four superintendents qualified for occupied work, rather than a tick box to be spotted while scrolling about sixty people.",
+      "quote": "I want to look at just those four."
+    },
+    {
+      "type": "add",
+      "description": "A requested state and a confirmed state on allocation, so a request for a person is distinguishable from a commitment, with confirmation as a deliberate act rather than a corridor conversation. Only the resource manager may move a booking to confirmed; the PMO director is the single named substitute during her Thanksgiving-week absence. The Consultant framed it on the call as a permission rather than a preference (paragraph 65); the client's own words are 'I want to be the one who does it' (paragraph 62).",
+      "quote": "There's no difference between I've asked for Junie and I've got Junie."
+    },
+    {
+      "type": "add",
+      "description": "Build the equipment project template next, ahead of ground-up. The Waverly MRI starts in the first week of December and the client wants it run properly from day one rather than retrofitted. Ground-up is not needed before April.",
+      "quote": "But I need the equipment one sooner than I thought."
+    },
+    {
+      "type": "add",
+      "description": "Add the preconstruction handover meeting to the startup checklist, which the eighteen-item version is missing. It is where the PM learns what was promised to the owner that is not in the contract. The PMO director committed on the call to send the master checklist and the senior PM's own version (paragraph 71); neither has been received.",
+      "quote": "You're missing the preconstruction handover meeting"
+    },
+    {
+      "type": "change",
+      "description": "Feed burn from an uploaded monthly Sage job cost report rather than a live connection, which the controller has refused for this year. Actuals are knowingly about a month old and must be presented as such; the PM's forward-looking forecast is entered on the board and is the part that is actually used.",
+      "quote": "he already produces a job cost report on the eleventh or twelfth and he doesn't much care if somebody uploads it somewhere"
+    },
+    {
+      "type": "change",
+      "description": "Change the recipients of the ICRA expiry reminder. Thirty days' notice is right, but it must go to the project engineer, who walks the permit to the hospital's infection control nurse, and to the superintendent, who is the one shut down if it lapses, with the PMO director copied. The project manager alone is the wrong recipient. This edits a row on the single automation approval list.",
+      "quote": "Send it to both of them and copy her."
+    },
+    {
+      "type": "add",
+      "description": "Write into the scope that the weekly Monday status email is retired at go-live, so the board replaces an existing task rather than adding one. The client proposes this herself as her answer to the adoption risk, asks for it in the scope, and commits to enforcing it.",
+      "quote": "The Monday status email is retired at go-live."
+    }
+  ],
+  "should_plugin_propose_a_build": true,
+  "expected_questions_before_building": [
+    "Confirm the inferred speakers. The transcript has no labels, so every attribution here is an inference and four criteria hang on it. Which lines are the PMO director's, which are the senior PM's and which are the resource manager's? Confirming this alone lifts R10, R11 and R12 from Partial to Met.",
+    "The portfolio deferral is recorded as the client's decision with two revisit conditions and no fixed date. Is that the consultant's understanding too, and should the revisit be diarised as a conversation after January fifteenth rather than as a build commitment?",
+    "The director's own view replaces the portfolio dashboard: which project-level fields should it show, and is a dashboard over three project boards enough now, given it must scale to six pilot projects and then to forty-one?",
+    "January fifteenth: is a filtered view across the twelve Cumberland projects genuinely enough for the owner's VP, and should anything be exportable in Cumberland's own template? The client has taken the risk of a program total being asked for; does the consultant want a fallback prepared anyway?",
+    "The health status audit trail was requested in s8 and missed in v0.1. Should it be the item's own change history surfaced on the item, an update entry written by an automation, or both, and does the same apply to the milestone date history?",
+    "Milestone change history: every change with a typed reason, on how many milestones? Eleven or twelve owner milestones on a large job, several per phase. Which single milestone still rolls up as 'next milestone' to the director's view?",
+    "Which two templates, and from whose checklist? The master and the senior PM's version are being sent. Confirm the equipment template's content and milestone set before the Waverly MRI starts in the first week of December, and confirm ground-up can wait until April.",
+    "Sage upload: what exactly does the monthly job cost report contain, in what format, who uploads it and on what day, and how is its age shown on the board so nobody mistakes a month-old actual for a current one?",
+    "Allocation: what are the exact states between requested and confirmed, what happens when a request is refused, and how is the resource manager's Thanksgiving-week delegation to the director implemented as a permission rather than a convention?",
+    "Where does the next version get built? v0.1 is in the consultant's own account and nothing real may enter the client's tenant until the security review clears. Does v0.2 stay in the consultant's account, and what is the migration path into the client's Enterprise account once the IT director signs off, including the seat impact he has asked about?",
+    "What does the IT director still need to finish the questionnaire, and what is the answer to his two direct questions: does this sit in the client's tenant, and how many of the 220 enterprise seats does it consume?",
+    "The Monday status email retirement is now a scope item. What replaces it operationally, on what date, and who tells the fourteen PMs? This is the load-bearing adoption commitment and needs an owner and a date, not just a sentence in the scope.",
+    "P4's cost inputs and trajectory are still Missing after two calls, and P4 is now the centre of the build. Is it worth asking what inconsistent startups cost, and what they look like at fifty-five projects with newly hired PMs, at the next session?",
+    "Out of scope, to be settled separately: preconstruction's pipeline, which the VP of Operations has now asked about twice and which belongs to another group, and the warranty inbox, still parked from s8. Neither is part of this build and neither should be touched without a decision."
+  ],
+  "expected_verdict": {
+    "verdict": "Nearly ready",
+    "gates_met": [
+      "Solution blueprint: R1 is Met and R2 is Met, so the blueprint proceeds and is REVISED rather than re-created. The revision removes the portfolio layer, records the client's reason and the two revisit conditions, keeps the projects as real monday projects so the layer can be connected next quarter, and adds the equipment template, the milestone history, the health audit trail, the two allocation changes, the Sage upload and the re-sourced dashboard.",
+      "Build: no extra method gate beyond the consultant's approval stop. The next version is a change to v0.1, not a rebuild, and it stays in the consultant's own account until the security review clears. The automations go up as one approval list, with the ICRA reminder's recipients corrected on it.",
+      "First demo (v0.1): done. It happened on the twenty-third and this call is its feedback. The next showing is booked for Thursday the fifteenth."
+    ],
+    "gates_not_met": [
+      "Pricing or proposal prep: CLOSED AGAIN, having opened for the first time in s8. It needs R4, R7 and R12 all Met; R7 is still Met but R4 has fallen to Partial on the contradicted PM hours and R12 has fallen to Partial because the agreed scope was amended on this call and cannot be attributed. On top of the method gate, pricing and proposal prep are deferred beyond v1 regardless. The correct behaviour is to say both things, record the client's request and her November deadline as a consultant to-do, and note that the missing step is a specific, dated action already in train: two more PMs reporting their hours before the fifteenth.",
+      "v1.0 sign-off: R11 is Partial, not Met, because the burn column was explicitly not confirmed while its figures are samples and Sage is not connected, and because every confirmation is speaker-unclear. The R6 success criteria are still proposed rather than agreed, although the client's two revisit conditions are the obvious candidates to turn into agreed criteria at the next session."
+    ],
+    "note": "R2, R3 and R7 are Met and R4 is Partial, so the verdict falls from s8's 'Discovery complete' to 'Nearly ready'. The plugin must say why, because the shape of the regression matters more than the label: no ground was lost and nothing was forgotten. One input was corrected by the person who originally supplied it, which is a sign of a healthy engagement rather than a failing one, and the rest of the movement is caused by the transcript having no speaker labels. R10, R11 and R12 are all Partial largely or entirely on that basis, and a single confirmation from the consultant about who said what would lift all three; only R4 needs more, namely the two additional PMs' figures, which are already committed for before the next session. The remaining rubric gaps are unchanged and small: P4's cost inputs and trajectory, still Missing after two calls and now the most valuable thing to ask because P4 is the centre of the build; P3's cost inputs and trajectory, still Partial. At most five gap questions for the fifteenth, core first: confirm the speakers, the two PMs' hours, confirm the amended scope, P4's cost inputs, and turn the two revisit conditions into agreed success criteria. The build questions that actually block work are not rubric gaps: where the next version is built given the open security review, what the Sage upload contains, and the exact allocation states."
+  },
+  "account_context": {
+    "tier": "Enterprise, carried from s8 where the client stated it plainly, and re-evidenced here from a different direction: the IT director is asking how many of the two hundred and twenty enterprise seats the build would consume. The A6 conditions (Enterprise plus Work Management in scope) are therefore still satisfied on this call, which is exactly what makes the portfolio deferral an OVERRIDE of a default that fired rather than a case where the default never applied. That distinction must be recorded: the reason is the client's instruction, not an unknown tier.",
+    "products_enabled": [
+      "Work Management: enabled, and still the only product this build uses.",
+      "About 220 seats on the Enterprise plan, owned contractually by the IT director, who is now asking what the build would consume.",
+      "CRM: never enabled or discussed as a product. The VP of Operations' pipeline question is CRM-shaped but is explicitly not a request, and preconstruction's bid tracking still sits on a Work Management board.",
+      "Service: not mentioned on this call at all. The warranty inbox stays parked from s8; if it ever comes in, the native Tickets board would have to be detected first.",
+      "dev: not mentioned and out of v1 either way."
+    ],
+    "existing_monday_setup": "Two accounts, which must not be conflated. The CLIENT'S OWN Enterprise account is still exactly as s8 found it and has not been touched by this engagement: about 220 seats, preconstruction's bid board whose builder left in February, safety's incident board in daily use, and nothing of the PMO's in it. The IT director's security questionnaire is about halfway done, and until he is satisfied nothing real may be written into that tenant, a constraint restated and accepted on this call. Meanwhile v0.1 was built in a monday account of the CONSULTANT'S, in one workspace, with sample data and three of the client's real job names, because the review was not finished in time. So the next version is also a change inside the consultant's account rather than a client-account build, and the migration path into the client's tenant, with its seat impact, is an open question that the IT director has already started asking about.",
+    "evidence_quote_or_null": "how many of the two hundred and twenty enterprise seats it eats"
+  },
+  "expected_structures": {
+    "native_boards_required": [
+      {
+        "product": "crm",
+        "entity": "Accounts and Deals/Opportunities, conditional and out of this build",
+        "why": "Only if preconstruction's pipeline ever comes into scope. The VP of Operations has asked whether the build could also show the work they are chasing, which is deal-shaped, and the health systems behind it are accounts. The PMO director relays the question while stating plainly that she is not asking for it and that it belongs to another group, so it stays a backlog seed and a question expected to return in January. If it ever is built it goes on the account's native CRM Accounts and Deals/Opportunities boards, detected first and recorded per entity, never on a hand-built 'Pipeline', 'Pursuits' or 'Chasing' look-alike."
+      },
+      {
+        "product": "service",
+        "entity": "Tickets (native Service install), conditional and out of this build",
+        "why": "Carried from s8 and untouched here. Post-turnover warranty calls arrive in a shared inbox and go missing, which is ticket-shaped work that Service covers and that is inside v1, but the client parked it for this year and it is not mentioned on this call at all. Its absence is not permission to add it. If it is ever built, every warranty record lives on the account's native Tickets board, and Service extras (customer portal, email-to-ticket, SLA policy setup) stay deferred beyond v1."
+      }
+    ],
+    "portfolio_expected": false,
+    "portfolio_reason": "NO PORTFOLIO IN THIS VERSION, BY CLIENT OVERRIDE, AND THE REASON MUST BE RECORDED. Amendment A6's two conditions are still satisfied: the account is Enterprise and Work Management is in scope, and the tier is re-evidenced on this very call through the IT director's seat question. A6 nonetheless carries its own exception, that the transcript or the consultant may say otherwise, with the reason recorded either way, and here the transcript says otherwise in the approver's own words: leadership is not ready for the portfolio layer, start with standardised project boards, revisit next quarter. Her reasoning is recorded because it is also the design argument: a roll-up is only as good as the forty things underneath it, and those are still fourteen private spreadsheets, so a portfolio now would be the summary page made prettier and faster with the same trust problem. The revisit is condition-based, not calendar-based, and both conditions are hers: the fourteen PMs entering their forecast on the board rather than in their own files, and one full month in which she has not had to chase anybody for a status. She places the earliest revisit after January fifteenth and explicitly refuses to pin a date. Three things must survive this deferral. First, the projects are still built as real monday projects with the project tools, so that reconnecting a portfolio next quarter is a connection rather than a rebuild, which both sides agree on the call and which is what keeps the A6 guard satisfied. Second, the director keeps a cross-project view of her own over the project boards, because what she refused was a company-wide roll-up aimed at leadership, not her own visibility. Third, the January fifteenth Cumberland program review still has to be served, and her chosen answer is a filtered view across the twelve Cumberland projects showing a colour, the next milestone and its date, with the risk of being asked for a program total recorded and owned by her. The deferral, the conditions, the date boundary and this risk all belong in the client record, and the decision is to be attributed to the client at her own explicit request.",
+    "lookalike_traps": [
+      "Building the portfolio anyway because amendment A6 says Enterprise plus Work Management means a portfolio. The amendment's own exception fires here, and the client is the exception. This is the headline failure for this fixture.",
+      "The mirror-image failure: rebuilding the three projects as plain boards because the portfolio has gone. They stay real monday projects created with the project tools, or next quarter's roll-up becomes a rebuild the client has refused to pay for.",
+      "A plain board called 'All Projects', 'Active Projects' or 'PMO Overview' with forty-one rows, standing in for the deferred portfolio. A cross-project view for the director is legitimate and was asked for; a look-alike roll-up board is not, and neither is a portfolio renamed to get around the deferral.",
+      "Rebuilding the roll-up as a leadership-facing dashboard under another name. The client's objection is to what leadership sees, not to the word portfolio, so any view pointed at the VP of Operations or the executive committee before she says so breaks the same instruction.",
+      "Dropping the PMO director's own view along with the portfolio, or leaving the v0.1 dashboard reading from a portfolio that no longer exists.",
+      "One project template for all three project types, when the client has now confirmed against the built version that the equipment list is shorter and completely different. The equipment template is needed before the first week of December.",
+      "A hand-built 'Pipeline', 'Pursuits' or 'Chasing' board for the preconstruction work the VP of Operations asked about, instead of leaving it out of scope and, if it ever comes in, using the native CRM Accounts and Deals/Opportunities boards.",
+      "A hand-built 'Warranty Requests' board for the still-parked warranty inbox, instead of the native Service Tickets board if it ever comes in at all.",
+      "Rebuilding Sage inside monday as a job-cost or commitments board that becomes a second book of record, instead of an uploaded monthly report shown as knowingly a month old, with Sage still authoritative.",
+      "Rebuilding Procore: an RFI board, a submittal log or a drawings board. The senior PM skipped the submittal part of the walkthrough precisely because that is Procore's job.",
+      "Building anything into the client's own Enterprise account before the security review clears, or a second workspace there that ignores preconstruction's bid board and safety's incident board.",
+      "A 'field crew schedule' board, still excluded out loud by the person who would own it."
+    ],
+    "notes": "One product and one changed rule. The build is entirely Work Management, so the native-board rule (A5) governs only the two things being deliberately kept out, the preconstruction pipeline and the parked warranty inbox, which is why both stay questions rather than becoming quick extra boards. The rule that actually changes is A6: its conditions still hold, and its exception has now fired, so the portfolio layer comes out with the reason recorded. Everything else in the structure survives and grows. Projects remain real monday projects from templates, with the occupied-renovation template built and the equipment template next; milestone items carry a full change history with a typed free-text reason rather than a baseline-and-current pair; the health status carries an audit trail of who changed it and when, surfaced on the item; burn is fed by an uploaded monthly Sage report and presented as about a month old, with the PM's forward forecast entered on the board; percent complete is deleted outright; the allocation board gains a saved view filtered to the four occupied-work-qualified superintendents and a requested-versus-confirmed state that only the resource manager may advance, with the PMO director as the single named substitute; and the dashboard is re-sourced from the project boards and pointed at the director rather than at leadership. Permissions are part of the structure, not an afterthought, and now include that confirmation rule alongside the s8 restrictions on loaded rates and cross-job margin. Automations remain a single approval list under A1, with the ICRA reminder's recipients corrected to the project engineer and the superintendent with the director copied."
+  },
+  "accepted_behaviours": [
+    "Honouring the portfolio deferral in any wording, provided the next version contains no portfolio layer, the client's reason is recorded in her words, the two revisit conditions are captured, and the decision is attributed to the client as she asked. Re-proposing the portfolio, keeping it quietly, or recording the removal with no reason all fail.",
+    "Either treatment of the revisit passes if it stays condition-based: a diarised conversation after January fifteenth, or a standing item tied to the two conditions. Pinning it to a specific date fails, because the client explicitly refused to.",
+    "Keeping the projects as real monday projects underneath, in any wording, and saying why (so the portfolio is later a connection rather than a rebuild). Rebuilding them as plain boards because the portfolio went away fails.",
+    "Keeping a cross-project view for the PMO director while pointing nothing at leadership. Either a dashboard re-sourced from the three project boards or a saved cross-board view passes; dropping her visibility, or producing a leadership-facing roll-up under another name, fails.",
+    "Flagging the January fifteenth collision as a live risk with the client's own mitigation and her ownership of it. Either raising a prepared fallback or accepting her filtered-view answer passes, as long as the collision is visible; silently resolving it by keeping the portfolio, or dropping the January requirement, fails.",
+    "On the contradicted number, any presentation that shows the change rather than performing it silently: a 2.5-to-4 range marked unconfirmed, the superseded $432,080 kept with the date it was agreed, no new total published, and the dated action to ask two more PMs. Keeping $432,080 as though nothing happened fails; swapping in $328,340 as a confirmed figure fails; averaging the two, which the Consultant explicitly refuses to do on the call, also fails.",
+    "Recomputing the arithmetic at either end of the range for internal reference is fine, and so is showing both ends, as long as neither is labelled the client's confirmed number.",
+    "Flagging that the upside's deferred-hire argument leans on the same freed hours and therefore moves with them, in any wording. Leaving the upside recorded as though nothing changed fails, even though R5's status is unchanged.",
+    "Treating the project count of forty-one as ordinary drift plus one new equipment job rather than as a second contradiction, in any wording.",
+    "Producing inferred speaker attributions, marking them inferred or speaker-unclear, and asking the consultant to confirm. Any reasonable inference of who is who passes, because the content makes it clear; presenting the inference as established fact fails, and so does refusing to attribute anything at all.",
+    "Grading R10, R11 and R12 as Partial and saying that the transcript format is the reason and that confirming speakers would lift them. Grading any of the three Met on inferred attribution fails; so does treating the next step as unset when a date, time and owner are plainly agreed.",
+    "Producing no talk-share figure and no delivery notes for this call, and saying why. Any client-talk-share percentage for an unlabelled transcript fails.",
+    "Saying plainly that the pricing gate has closed again and giving both reasons, the method gate and the v1 deferral, while recording the client's request and her November deadline as a consultant to-do. Producing a figure fails; dropping the request fails.",
+    "Grading R11 Partial with the burn column named as the unconfirmed pain, in any wording. Marking R11 Met because the demo went well fails.",
+    "Treating the health status audit trail as an undelivered s8 request rather than a new idea, in any wording.",
+    "Handling Sage as an uploaded monthly report presented as knowingly about a month old, with Sage still the book of record. Assuming a live feed fails; so does rebuilding job cost in monday.",
+    "Keeping the next version in the consultant's own account until the security review clears, and treating the migration into the client's tenant, with its seat impact, as an open question. Assuming the build now goes into the client's Enterprise account fails.",
+    "Raising preconstruction's pipeline as a backlog seed and a January question, or leaving it alone entirely. Proposing a CRM build off the back of it fails, and so does treating the VP of Operations' question as a client request.",
+    "Putting the automations forward as one approval list with trigger, conditions, action and recipients per row, with the ICRA reminder's recipients corrected, and noting that API-created automations cannot be switched off through the API.",
+    "At most five gap questions for the next session, core first: confirm the speakers, the two PMs' hours, confirm the amended scope, P4's cost inputs, and turning the two revisit conditions into agreed success criteria. Build and account questions may be listed separately without counting against the five."
+  ],
+  "expected_leak_blocklist": [
+    "Every bleed figure in every format, superseded and current: 432080, 432,080, $432,080, 'four hundred and thirty-two thousand'; the recomputed 328340, 328,340, $328,340; the component figures 276640, 276,640, $276,640, 172900, 172,900, $172,900, 37440, $37,440, 18000, $18,000, 100000, $100,000 and 150000 as the collision high end. The fact that a cost case exists at all is internal.",
+    "The contradicted input and the whole correction thread: 'four hours a week', 'two and a half, not four', the 2.5-to-4 range, that the senior PM measured himself for three weeks, that the director cannot defend four, that nobody else tracked anything, and the plan to ask two named PMs to settle it.",
+    "Loaded hourly costs in every format: 95, $95, 'ninety-five an hour'; 72, 'seventy-two'; 65, 'sixty-five loaded'; 115, 'a hundred and fifteen'. These are the figures the client says PMs must not see.",
+    "The excluded overrun and anything derived from it: 480000, 480,000, $480,000, 'four hundred and eighty thousand', and any figure built from 'maybe half of it'.",
+    "Upside figures and the hiring plan: 150000, $150,000, the two PMs in the November budget, holding one of them, 280000, $280,000, 'eight to twelve million', 'three and a half points', and the $50,000 per collision. That a software decision is tied to deferring a hire must never reach anyone who might be that hire.",
+    "The budget mechanics and pressure points: the $150k-a-year approval threshold, the November budget lock as leverage, and the request for a scope and a number against her line.",
+    "The portfolio deferral as a story about leadership: that the VP of Operations declined it, 'I don't want a dashboard I have to learn to distrust', that leadership is not ready, and that a roll-up would be the summary page made prettier. The resulting requirement, that the project boards come first and the roll-up is revisited later, may be stated neutrally as sequencing.",
+    "Alternatives in play: that a competing partner exists at all, the Nashville firm, that it came in, and the client's comparison of the two. None of it appears in a recap, an SOP or anything written into monday.",
+    "Objection text and adoption history: the Smartsheet pilot and that it lasted a quarter, 'another thing to update', 'you'll be back here in March explaining why nobody logged in', and 'It's not fine for me saying yes to it'. The commitment that the Monday status email is retired at go-live MAY appear, neutrally, because it is an agreed scope item.",
+    "Stakeholder assessments: that the controller must stop being pushed on Sage, that the IT director is the long pole, that the resource manager is a single point of failure and is away at Thanksgiving, that the approver is the only real decision-maker, and that the VP of Operations will raise preconstruction again in January.",
+    "Remarks about colleagues: 'Because it's a number I make up', that the senior PM has never given a defensible figure in six years, that some PMs would tell the director what she wants to hear, that nobody else tracked anything, and the penciled-versus-confirmed exchange about the June collision.",
+    "Emotional and personal stakes: that the VP's remark stung, thinking about January at three in the morning, 'I've done that once this year already', and the credibility damage behind the audit-trail requirement.",
+    "Anything about the transcript itself and the method apparatus: that speakers had to be inferred, speaker-unclear markings, bleed, upside, callback, exit ramp, seed, readiness, gate, verdict, pain IDs P1-P5, criteria R1-R12, and the [found] and [inferred] markers.",
+    "Pricing thinking of any kind: rates, day rates, margins, discount reasoning, and cost-of-waiting math against January fifteenth or the November budget lock.",
+    "Carried from s8 and unchanged: anything that would carry patient or staff medical data into client-facing material or into monday, including patient names, photographs of patients or whiteboards, and field staff immunization records or background checks. Volume and headcount numbers (forty-one active projects, fourteen PMs, 220 seats, four occupied-work superintendents, twelve Cumberland jobs) stay legitimate in an SOP and are flagged for the consultant rather than removed."
+  ],
+  "readiness": {
+    "schema": "readiness/1",
+    "note": "Derived from this key's pains, entities, products, structure, forks and questions in the fixture fix pass of 2026-10-13. Structure assertions stay provisional until the user has seen a real build (FEEDBACK, top).",
+    "goals": [
+      {"id": "G1", "goal": "Every project set up the same way and actually used by the fourteen PMs", "quote": "Standardized, the same for everybody, actually used by the fourteen.", "location": "paragraph 17, inferred Marisol Bettencourt (speaker unclear)", "speaker_role": "PMO Director (inferred, speaker unclear)", "pains": ["P1.1", "P4.1", "P4.2"]},
+      {"id": "G2", "goal": "One full month without having to email anybody for a status", "quote": "And I want one full month where I haven't had to email anybody for a status.", "location": "paragraph 19, [00:04:10], inferred Marisol Bettencourt (speaker unclear)", "speaker_role": "PMO Director (inferred, speaker unclear)", "pains": ["P1.1", "P1.2"]},
+      {"id": "G3", "goal": "Her own screen across the projects, even if ugly, before anything for leadership", "quote": "No, I still want my own screen.", "location": "paragraph 33, [00:07:55], inferred Marisol Bettencourt (speaker unclear)", "speaker_role": "PMO Director (inferred, speaker unclear)", "pains": []}
+    ],
+    "pains": [
+      {
+        "id": "P1.1",
+        "quote": "the forty things underneath it are fourteen people's spreadsheets",
+        "location": "paragraph 13, inferred Marisol Bettencourt (speaker unclear)",
+        "speaker_role": "PMO Director (inferred, speaker unclear)",
+        "stated_or_excavated": "stated",
+        "outcome": "Standardized, the same for everybody, actually used by the fourteen."
+      },
+      {
+        "id": "P1.2",
+        "quote": "all I've really done is make the summary page prettier and faster",
+        "location": "paragraph 13, inferred Marisol Bettencourt (speaker unclear)",
+        "speaker_role": "PMO Director (inferred, speaker unclear)",
+        "stated_or_excavated": "stated",
+        "outcome": "I want one full month where I haven't had to email anybody for a status."
+      },
+      {
+        "id": "P1.3",
+        "quote": "a green row turned out not to be green",
+        "location": "paragraph 50, inferred Marisol Bettencourt (speaker unclear)",
+        "speaker_role": "PMO Director (inferred, speaker unclear)",
+        "stated_or_excavated": "stated",
+        "outcome": "I want to know who did that and when."
+      },
+      {
+        "id": "P1.4",
+        "quote": "If a PM moves his job from yellow to green, I want to know who did that and when.",
+        "location": "paragraph 48, inferred Marisol Bettencourt (speaker unclear)",
+        "speaker_role": "PMO Director (inferred, speaker unclear)",
+        "stated_or_excavated": "stated",
+        "outcome": "I want to know who did that and when."
+      },
+      {
+        "id": "P1.5",
+        "quote": "I couldn't find that anywhere on the board.",
+        "location": "paragraph 48, inferred Marisol Bettencourt (speaker unclear)",
+        "speaker_role": "PMO Director (inferred, speaker unclear)",
+        "stated_or_excavated": "stated",
+        "outcome": "Then surface it."
+      },
+      {
+        "id": "P2.1",
+        "quote": "There's no difference between I've asked for Junie and I've got Junie.",
+        "location": "paragraph 59, inferred Ines Kovalenko (speaker unclear)",
+        "speaker_role": "Resource Manager (inferred, speaker unclear)",
+        "stated_or_excavated": "stated",
+        "outcome": "I want to be the one who does it"
+      },
+      {
+        "id": "P2.2",
+        "quote": "the answer is four names, and then it's a scheduling problem",
+        "location": "paragraph 57, inferred Ines Kovalenko (speaker unclear)",
+        "speaker_role": "Resource Manager (inferred, speaker unclear)",
+        "stated_or_excavated": "stated",
+        "outcome": "I want to look at just those four."
+      },
+      {
+        "id": "P2.3",
+        "quote": "I'm off the week of Thanksgiving.",
+        "location": "paragraph 63, inferred Ines Kovalenko (speaker unclear)",
+        "speaker_role": "Resource Manager (inferred, speaker unclear)",
+        "stated_or_excavated": "stated",
+        "outcome": "somebody has to be able to confirm in my place, and I'd want that to be her and not a PM"
+      },
+      {
+        "id": "P3.1",
+        "quote": "It's a good-looking screen with made-up money on it.",
+        "location": "paragraph 73, inferred Warren Tibbetts (speaker unclear)",
+        "speaker_role": "Senior Project Manager (inferred, speaker unclear)",
+        "stated_or_excavated": "stated",
+        "outcome": "The actuals are history. My forecast is the job."
+      },
+      {
+        "id": "P3.2",
+        "quote": "He will not give anybody a live connection into Sage this year and I'd stop pushing on it.",
+        "location": "paragraph 75, inferred Marisol Bettencourt (speaker unclear)",
+        "speaker_role": "PMO Director (inferred, speaker unclear)",
+        "stated_or_excavated": "stated",
+        "outcome": "there's a version of this where the number is a month old and everybody knows it's a month old"
+      },
+      {
+        "id": "P3.3",
+        "quote": "Because it's a number I make up.",
+        "location": "paragraph 42, inferred Warren Tibbetts (speaker unclear)",
+        "speaker_role": "Senior Project Manager (inferred, speaker unclear)",
+        "stated_or_excavated": "stated",
+        "outcome": "You've got a percent complete field on there and I'd take it off."
+      },
+      {
+        "id": "P4.1",
+        "quote": "You're missing the preconstruction handover meeting",
+        "location": "paragraph 70, inferred Warren Tibbetts (speaker unclear)",
+        "speaker_role": "Senior Project Manager (inferred, speaker unclear)",
+        "stated_or_excavated": "stated",
+        "outcome": "Standardized, the same for everybody, actually used by the fourteen."
+      },
+      {
+        "id": "P4.2",
+        "quote": "The equipment one is shorter and it's a completely different list.",
+        "location": "paragraph 70, inferred Warren Tibbetts (speaker unclear)",
+        "speaker_role": "Senior Project Manager (inferred, speaker unclear)",
+        "stated_or_excavated": "stated",
+        "outcome": "it would be very useful to run that one properly from day one rather than retrofitting it afterwards"
+      },
+      {
+        "id": "P4.3",
+        "quote": "But the PM isn't the one who walks it to their nurse.",
+        "location": "paragraph 83, inferred Warren Tibbetts (speaker unclear)",
+        "speaker_role": "Senior Project Manager (inferred, speaker unclear)",
+        "stated_or_excavated": "stated",
+        "outcome": "Send it to both of them and copy her."
+      },
+      {
+        "id": "P1.6",
+        "quote": "They want the history.",
+        "location": "paragraph 45, inferred Warren Tibbetts (speaker unclear)",
+        "speaker_role": "Senior Project Manager (inferred, speaker unclear)",
+        "stated_or_excavated": "stated",
+        "outcome": "when did it move and what moved it"
+      }
+    ],
+    "signals": [
+      {
+        "quote": "He said, I don't want a dashboard I have to learn to distrust.",
+        "location": "paragraph 15, inferred Marisol Bettencourt (speaker unclear)",
+        "pain": "P1.1",
+        "not_confirmed": "the VP of Operations' objection is relayed by the PMO director; nobody on our side has heard him, and the revisit test is hers, not his"
+      },
+      {
+        "quote": "He's a milestones man more than a totals man. But he might.",
+        "location": "paragraph 29, inferred Marisol Bettencourt (speaker unclear)",
+        "pain": "P1.1",
+        "not_confirmed": "what Cumberland's VP will ask for on January fifteenth; our side raised the risk of a program total and the client took it, nothing was checked with Cumberland"
+      },
+      {
+        "quote": "He could answer his own question with that.",
+        "location": "paragraph 54, [00:11:20], inferred Ines Kovalenko (speaker unclear)",
+        "pain": "P2.1",
+        "not_confirmed": "that the workload view answers the senior PM's collision question; our side moved on to 'what would you change' without asking"
+      },
+      {
+        "quote": "I went in on the Friday and looked Junie up for October without asking her, and it took me about eleven seconds, and it was right.",
+        "location": "paragraph 55, inferred Warren Tibbetts (speaker unclear)",
+        "pain": "P2.1",
+        "not_confirmed": "the senior PM's own tie of the workload view to his pain, in a paragraph that runs two speakers together; our side never asked whether it solves the collision"
+      },
+      {
+        "quote": "Roland will talk to you.",
+        "location": "paragraph 75, inferred Marisol Bettencourt (speaker unclear)",
+        "pain": "P3.2",
+        "not_confirmed": "the controller's position (no live connection; a monthly report he does not mind being uploaded) is relayed; what the report contains, its format and who uploads it were never confirmed with him"
+      },
+      {
+        "quote": "he asked me on Monday whether this sits in our tenant and how many of the two hundred and twenty enterprise seats it eats",
+        "location": "paragraph 79, [00:17:45], inferred Marisol Bettencourt (speaker unclear)",
+        "pain": "none (where the build lives)",
+        "not_confirmed": "the IT director's two questions are relayed; the Consultant committed to answer them this week; nothing is sent"
+      },
+      {
+        "quote": "He said if you're building this, can it show the pipeline as well, the work we're chasing.",
+        "location": "paragraph 103, inferred Marisol Bettencourt (speaker unclear)",
+        "pain": "none (out of scope)",
+        "not_confirmed": "the VP of Operations' interest in a pipeline view is relayed and explicitly not requested by the client; nothing was checked with him or with preconstruction"
+      }
+    ],
+    "entities": [
+      {
+        "name": "project (one per job; forty-one active, twelve of them Cumberland)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "paragraph 17, inferred Marisol Bettencourt (speaker unclear)"
+      },
+      {
+        "name": "portfolio layer (company-wide roll-up over the projects; deferred)",
+        "parent": null,
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "paragraph 13, inferred Marisol Bettencourt (speaker unclear)"
+      },
+      {
+        "name": "program (Cumberland: twelve projects under one owner; served by a filtered view, not a roll-up)",
+        "parent": null,
+        "moves_independently": "unknown",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "paragraph 25, inferred Marisol Bettencourt (speaker unclear)"
+      },
+      {
+        "name": "project template (occupied renovation built; equipment next; ground-up after April)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "paragraph 66, inferred Marisol Bettencourt (speaker unclear)"
+      },
+      {
+        "name": "phase",
+        "parent": "project",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "paragraph 40, inferred Warren Tibbetts (speaker unclear)"
+      },
+      {
+        "name": "milestone (owner-facing contractual date)",
+        "parent": "project",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "paragraph 45, inferred Warren Tibbetts (speaker unclear)"
+      },
+      {
+        "name": "milestone date change (new date, date of the change, typed reason)",
+        "parent": "milestone",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "paragraph 45, inferred Warren Tibbetts (speaker unclear)"
+      },
+      {
+        "name": "health status (red, amber, green; set by the PM)",
+        "parent": "project",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "paragraph 50, inferred Marisol Bettencourt (speaker unclear)"
+      },
+      {
+        "name": "health status change (who, when)",
+        "parent": "health status",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "paragraph 48, inferred Marisol Bettencourt (speaker unclear)"
+      },
+      {
+        "name": "percent complete (removed from the project)",
+        "parent": "project",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "paragraph 42, inferred Warren Tibbetts (speaker unclear)"
+      },
+      {
+        "name": "startup checklist item",
+        "parent": "project",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "paragraph 70, inferred Warren Tibbetts (speaker unclear)"
+      },
+      {
+        "name": "startup checklist (the master and the senior PM's version, Excel)",
+        "parent": null,
+        "moves_independently": "unknown",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "paragraph 71, inferred Marisol Bettencourt (speaker unclear)"
+      },
+      {
+        "name": "ICRA permit (per work area; expires)",
+        "parent": "project",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "paragraph 83, inferred Warren Tibbetts (speaker unclear)"
+      },
+      {
+        "name": "OAC meeting (weekly owner-architect-contractor meeting; where milestone history is asked for)",
+        "parent": "project",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "paragraph 45, inferred Warren Tibbetts (speaker unclear)"
+      },
+      {
+        "name": "person (project manager, superintendent, project engineer)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": true,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "paragraph 57, inferred Ines Kovalenko (speaker unclear)"
+      },
+      {
+        "name": "occupied-work qualification",
+        "parent": "person",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "paragraph 57, inferred Ines Kovalenko (speaker unclear)"
+      },
+      {
+        "name": "allocation (one person on one project for a timeline at a percent)",
+        "parent": "person",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "paragraph 59, inferred Ines Kovalenko (speaker unclear)"
+      },
+      {
+        "name": "allocation state (requested, confirmed)",
+        "parent": "allocation",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "paragraph 59, inferred Ines Kovalenko (speaker unclear)"
+      },
+      {
+        "name": "workload view (Who's over; per person per week)",
+        "parent": "allocation",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "paragraph 54, [00:11:20], inferred Ines Kovalenko (speaker unclear)"
+      },
+      {
+        "name": "cost actuals (budget and spent to date, from Sage)",
+        "parent": "phase",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "paragraph 75, inferred Marisol Bettencourt (speaker unclear)"
+      },
+      {
+        "name": "PM forecast (cost to complete, forward-looking)",
+        "parent": "project",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "paragraph 77, inferred Warren Tibbetts (speaker unclear)"
+      },
+      {
+        "name": "Sage monthly job cost report (the eleventh or twelfth)",
+        "parent": null,
+        "moves_independently": "unknown",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "paragraph 75, inferred Marisol Bettencourt (speaker unclear)"
+      },
+      {
+        "name": "PMO director's view (the PMO overview dashboard re-sourced from the projects)",
+        "parent": "project",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "paragraph 33, [00:07:55], inferred Marisol Bettencourt (speaker unclear)"
+      },
+      {
+        "name": "Cumberland January view (filtered list: colour, next milestone, date)",
+        "parent": "program",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "paragraph 25, inferred Marisol Bettencourt (speaker unclear)"
+      },
+      {
+        "name": "the grid (Excel allocation workbook)",
+        "parent": null,
+        "moves_independently": "unknown",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "paragraph 54, [00:11:20], inferred Ines Kovalenko (speaker unclear)"
+      },
+      {
+        "name": "fourteen private PM forecast files",
+        "parent": null,
+        "moves_independently": "unknown",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "paragraph 13, inferred Marisol Bettencourt (speaker unclear)"
+      },
+      {
+        "name": "Monday status email (weekly; retired at go-live)",
+        "parent": null,
+        "moves_independently": "unknown",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "paragraph 109, inferred Marisol Bettencourt (speaker unclear)"
+      },
+      {
+        "name": "preconstruction pipeline (another group's; out of scope)",
+        "parent": null,
+        "moves_independently": "unknown",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "paragraph 103, inferred Marisol Bettencourt (speaker unclear)"
+      },
+      {
+        "name": "project engineer on a project (the ICRA reminder's recipient; no field in v0.1)",
+        "parent": "project",
+        "moves_independently": "unknown",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "assumed",
+        "evidence": null
+      }
+    ],
+    "structure": {
+      "products": [
+        "Work Management"
+      ],
+      "build_target": "own-account",
+      "build_target_reason": "prospect, so the user's own account by default (A21); v0.1 already lives there, and the client's own Enterprise account is closed to anything real until the IT director's security review clears (paragraphs 79 to 81)",
+      "workspaces": [
+        "Bellamy Ridge PMO (v0.1): the workspace v0.1 was built in (context-v0.1.md), continued under A21's continuation clause because the next version is a change to v0.1 after the client's feedback on the demo; one product, so no second workspace, and no new workspace"
+      ],
+      "native_reuse": "none: no CRM or Service entity in this build. The projects use monday's project tool and project templates, not native CRM or Service boards. The preconstruction pipeline and the parked warranty inbox stay out; if either ever comes in it goes on the native CRM Accounts and Deals boards or the native Service Tickets board, detected first.",
+      "leanings": [
+        {
+          "question": "Is an owner milestone one row with a baseline and a current date, or a row with its moves as children?",
+          "option": "Milestone items stay under the project; every move of the current date becomes a child entry under the milestone (the new date, the date of the change, a typed free-text reason), and the milestone shows the current date, the count of moves and the latest reason. The baseline is the first entry. Whether the entry is a subitem or a dated update written by an automation is the open mechanism; either way the history is on the item.",
+          "quotes": [
+            "They want the history.",
+            "First patient day has moved twice on the tower.",
+            "I'd rather type the reason myself than pick it off a list"
+          ],
+          "locations": [
+            "paragraph 45, inferred Warren Tibbetts (speaker unclear)",
+            "paragraph 45, inferred Warren Tibbetts (speaker unclear)",
+            "paragraph 47, inferred Warren Tibbetts (speaker unclear)"
+          ],
+          "condition": "the senior PM says whether a dated list under the milestone answers the OAC question, and the PMs accept typing the reason at the moment the date moves rather than later",
+          "pattern": "one row where the call describes many"
+        },
+        {
+          "question": "Is the health audit the column's own activity log surfaced on the item, a last-changed-by and last-changed-at pair written on the item, or both?",
+          "option": "Both: a last-changed-by and last-changed-at pair on the item, set by an automation when Health changes, for the glance; the column's change history for the chain. The colour stays the PM's claim about the job; the audit shows who claimed it and when, never that the job is green.",
+          "quotes": [
+            "If a PM moves his job from yellow to green, I want to know who did that and when.",
+            "And put it on the item, not in a log somewhere.",
+            "Then surface it."
+          ],
+          "locations": [
+            "paragraph 48, inferred Marisol Bettencourt (speaker unclear)",
+            "paragraph 51, inferred Warren Tibbetts (speaker unclear)",
+            "paragraph 50, inferred Marisol Bettencourt (speaker unclear)"
+          ],
+          "condition": "the PMO director confirms that who-and-when of the last change on the item is enough at a glance, with the full chain one click away",
+          "pattern": "an artefact that can go stale with nothing to flag it"
+        },
+        {
+          "question": "Which allocation rows count as booked in the workload view, and who may move a row to confirmed?",
+          "option": "A state column on the allocation row (requested, confirmed) that only the resource manager may change, with the PMO director as the named substitute; requested rows show in Who's over as tentative and do not count toward a person being over until confirmed. Whether tentative rows should show at all, and what a refused request becomes, is open.",
+          "quotes": [
+            "Everything in there is a commitment.",
+            "I want to be the one who does it",
+            "somebody has to be able to confirm in my place, and I'd want that to be her and not a PM"
+          ],
+          "locations": [
+            "paragraph 59, inferred Ines Kovalenko (speaker unclear)",
+            "paragraph 62, inferred Ines Kovalenko (speaker unclear)",
+            "paragraph 63, inferred Ines Kovalenko (speaker unclear)"
+          ],
+          "condition": "the resource manager decides whether a requested booking appears in the workload at all; and preflight shows whether the build account's tier supports a column permission limited to two named people, otherwise the rule is a documented convention with a notification",
+          "pattern": "a shared resource with no reservation tracking"
+        },
+        {
+          "question": "How does a burn figure show that its actual is a month old, and whose number it is?",
+          "option": "Two columns, not one: actuals from the uploaded Sage report with an actuals-as-of report month and the uploader on the project, and the PM's forecast entered on the board and owned by the PM. Burn is computed from the two and labelled with the actuals' month. Until the first upload every actual is a sample value and the board says so.",
+          "quotes": [
+            "there's a version of this where the number is a month old and everybody knows it's a month old",
+            "The actuals are history. My forecast is the job.",
+            "It's a good-looking screen with made-up money on it."
+          ],
+          "locations": [
+            "paragraph 75, inferred Marisol Bettencourt (speaker unclear)",
+            "paragraph 77, inferred Warren Tibbetts (speaker unclear)",
+            "paragraph 73, inferred Warren Tibbetts (speaker unclear)"
+          ],
+          "condition": "the controller's report arrives in a form that maps to phases, or only to projects, and someone is named to upload it on the eleventh or twelfth; the controller's position is relayed and unconfirmed",
+          "pattern": "an artefact that can go stale with nothing to flag it"
+        },
+        {
+          "question": "Is Cumberland's January program review a roll-up or a filtered view across the twelve Cumberland projects?",
+          "option": "A filtered view across the projects whose Program is Cumberland, showing health, the next owner milestone and its date, with no program total, by the client's decision; the risk that the owner's VP asks for a total stays recorded and owned by her.",
+          "quotes": [
+            "If those twelve are on decent project boards and I can filter to them and show a list with a color and a next milestone and a date, that's enough for the fifteenth.",
+            "He's a milestones man more than a totals man. But he might."
+          ],
+          "locations": [
+            "paragraph 25, inferred Marisol Bettencourt (speaker unclear)",
+            "paragraph 29, inferred Marisol Bettencourt (speaker unclear)"
+          ],
+          "condition": "the PMO director comes back if Cumberland's VP asks for a program total; until then no total is built and nothing shaped like Cumberland's template is attempted",
+          "pattern": "an expected output the input cannot support"
+        },
+        {
+          "question": "One project template, or one per project type with its own startup list?",
+          "option": "One template per project type: occupied renovation (built), equipment (next, before the first week of December), ground-up (after April). Each carries its own startup list; the renovation list gains the preconstruction handover meeting. The lists come from the two checklists the PMO director committed to send.",
+          "quotes": [
+            "The equipment one is shorter and it's a completely different list.",
+            "You're missing the preconstruction handover meeting",
+            "But I need the equipment one sooner than I thought."
+          ],
+          "locations": [
+            "paragraph 70, inferred Warren Tibbetts (speaker unclear)",
+            "paragraph 70, inferred Warren Tibbetts (speaker unclear)",
+            "paragraph 66, inferred Marisol Bettencourt (speaker unclear)"
+          ],
+          "condition": "the master checklist and the senior PM's version arrive (committed on the call, paragraph 71, not received) and the equipment list and milestone set are confirmed before the Waverly MRI starts",
+          "pattern": "one row where the call describes many"
+        },
+        {
+          "question": "Who is the project engineer the ICRA reminder goes to, and where does the board hold that name?",
+          "option": "A Project engineer people column on the project, so the reminder can notify the project engineer and the superintendent and copy the PMO director; if the engineer differs per work area, the person goes on the ICRA item instead. v0.1 names a PM and a superintendent on the project and no project engineer, so the corrected recipient list cannot be built from the fields that exist.",
+          "quotes": [
+            "That's the project engineer, and the super needs to know because he's the one getting shut down.",
+            "Send it to both of them and copy her."
+          ],
+          "locations": [
+            "paragraph 83, inferred Warren Tibbetts (speaker unclear)",
+            "paragraph 83, inferred Warren Tibbetts (speaker unclear)"
+          ],
+          "condition": "the senior PM says whether one project engineer per project is the rule or whether work areas within a job have different engineers",
+          "pattern": "an expected output the input cannot support"
+        },
+        {
+          "question": "When the startup list changes in a template, how do projects already created from it learn of the change?",
+          "option": "Changes are made in the template and applied to live projects by hand as a listed step, with the template version noted on the project; nothing automatic. The list is still changing, since a missing step surfaced on this call, so this is a build mechanic for the user to know, not a client ask.",
+          "quotes": [
+            "You're missing the preconstruction handover meeting"
+          ],
+          "locations": [
+            "paragraph 70, inferred Warren Tibbetts (speaker unclear)"
+          ],
+          "condition": "how often the list changes; asked of the PMO director when the two checklists arrive",
+          "pattern": "an artefact that can go stale with nothing to flag it"
+        },
+        {
+          "question": "Does the next version carry a company-wide roll-up?",
+          "option": "No portfolio layer in this version, by the client's decision, recorded as hers with the two revisit conditions and no date. The projects stay real monday projects so the roll-up is later a connection rather than a rebuild. The PMO director keeps her own view over the project boards: the PMO overview dashboard re-sourced from the three projects, pointed at her and not at a wall. Nothing is aimed at leadership until she says so.",
+          "quotes": [
+            "a roll-up is only as good as the forty things underneath it",
+            "I'm asking you not to build it yet.",
+            "The fourteen have to be putting their forecast in the thing rather than in their own file",
+            "I want one full month where I haven't had to email anybody for a status.",
+            "No, I still want my own screen.",
+            "And write down that it was my decision and not yours"
+          ],
+          "locations": [
+            "paragraph 13, inferred Marisol Bettencourt (speaker unclear)",
+            "paragraph 17, inferred Marisol Bettencourt (speaker unclear)",
+            "paragraph 19, [00:04:10], inferred Marisol Bettencourt (speaker unclear)",
+            "paragraph 19, [00:04:10], inferred Marisol Bettencourt (speaker unclear)",
+            "paragraph 33, [00:07:55], inferred Marisol Bettencourt (speaker unclear)",
+            "paragraph 21, inferred Marisol Bettencourt (speaker unclear)"
+          ],
+          "condition": "both revisit conditions true, which the client places after January fifteenth and refuses to date; then she takes the roll-up to the VP of Operations herself",
+          "pattern": "an artefact that can go stale with nothing to flag it"
+        }
+      ],
+      "patterns": [
+        "parent-row-with-roll-up: project with milestones as child items and each milestone's date changes as child entries (new date, date of the change, typed reason); current date, count of moves and the next owner milestone rolled up",
+        "parent-row-with-roll-up: project with phases as child rows; phase budget, uploaded actuals (with their report month) and the PM's forecast rolled up to the project as burn",
+        "parent-row-with-roll-up: person with allocation rows (project, timeline, percent, state) as children; the workload rolled up per person per week from confirmed rows",
+        "parent-row-with-roll-up: project with startup checklist items as child rows; open items rolled up to the project"
+      ],
+      "element_per_pain": [
+        {
+          "pain": "P1.1",
+          "element": "none in this version: the leadership roll-up is deferred by the client; the PMO overview dashboard re-sourced from the three projects is her own view, not a portfolio; the trust the pain names is addressed at the inputs (P1.2 to P1.6) and the roll-up waits on the two revisit conditions (leaning 9)",
+          "verdict": "none"
+        },
+        {
+          "pain": "P1.2",
+          "element": "the PM's forecast entered on the project (a forecast column per phase, PM-owned), health with its audit, and the Monday status email retired at go-live by the client's commitment; in v0.2 the figures are samples, so the element shows the shape until the fourteen enter their own (leanings 4 and 9)",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P1.3",
+          "element": "last-changed-by and last-changed-at on the item when Health changes, with the column's change history behind it (leaning 2); the colour stays the PM's claim and the audit shows who claimed it",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P1.4",
+          "element": "the same audit pair on the item, set by an automation when Health changes (leaning 2)",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P1.5",
+          "element": "the same audit pair, surfaced on the item rather than left in the activity log where v0.1 had it",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P1.6",
+          "element": "milestone date changes as child entries with the date of the change and a typed reason under each milestone (leaning 1)",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P2.1",
+          "element": "requested and confirmed states on the allocation row; only the resource manager advances it (leaning 3)",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P2.2",
+          "element": "a saved view on the allocation board filtered to occupied-work qualified superintendents",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P2.3",
+          "element": "the PMO director as the second named person allowed to confirm during the resource manager's absence; a column permission if the tier allows it, otherwise a documented convention (leaning 3)",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P3.1",
+          "element": "actuals from the uploaded monthly Sage report with their report month shown, beside the PM's forecast (leaning 4); until the first report is uploaded the burn column holds sample money, which is the complaint, and the upload is a monthly manual feed v0.1 does not have",
+          "verdict": "copies-today's-tool"
+        },
+        {
+          "pain": "P3.2",
+          "element": "the monthly upload shown as a month old, in place of a live connection (leaning 4); the report is today's report placed on the board with its age, and the pain itself (no live connection) is accepted, not fixed",
+          "verdict": "copies-today's-tool"
+        },
+        {
+          "pain": "P3.3",
+          "element": "percent complete deleted from the project; nothing replaces it",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P4.1",
+          "element": "the preconstruction handover meeting added to the renovation startup list, and the two checklists compared when they arrive (leaning 6)",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P4.2",
+          "element": "an equipment project template with its own startup list and milestone set (leaning 6)",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P4.3",
+          "element": "the ICRA reminder's recipients changed to the project engineer and the superintendent with the PMO director copied, which needs a project engineer field on the project (leaning 7)",
+          "verdict": "fixes"
+        }
+      ]
+    },
+    "existing": {
+      "account": "The user's own account holds the v0.1 workspace 'Bellamy Ridge PMO (v0.1)' (context-v0.1.md): the portfolio 'Bellamy Ridge Portfolio' with three connected projects made from the 'Occupied renovation' template (Cumberland bed tower, Waverly cath lab, Pellham fit-out), the 'Resource allocation' board with about sixty seeded people and the 'Who's over' workload view, the 'PMO overview' dashboard reading from the portfolio, and one automation notifying the project manager thirty days before an ICRA expires. All data is sample data; no loaded rates, no patient information. The three client attendees have read-only access to it. The client's own Enterprise account (about 220 seats, preconstruction's bid board, safety's incident board) is bound to nothing and stays untouched until the security review clears; the migration into it, with its seat impact, is a handover question, not a build question.",
+      "incumbents": [
+        {
+          "system": "Sage 300",
+          "authority": "stays system of record for: job cost actuals and budgets, invoicing ; follower for: the monthly job cost report uploaded to the project boards and shown with its report month; the PM's forward forecast lives on the board, not in Sage. Writeback and integration direction beyond that upload are unresolved; v0.1 does not depend on either; staying clear of Sage is our safe default, labelled as ours",
+          "evidence": "paragraph 75, inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "system": "Procore",
+          "authority": "stays system of record for: drawings, RFIs, submittals, daily reports ; follower for: nothing; not requested as an integration and not rebuilt",
+          "evidence": "paragraph 40, inferred Warren Tibbetts (speaker unclear)"
+        },
+        {
+          "system": "the grid (Excel allocation workbook)",
+          "authority": "stays system of record for: allocations until confirmed bookings live on the allocation board (assumed cutover, not discussed) ; follower for: nothing; replaced, not mirrored",
+          "evidence": "paragraph 54, [00:11:20], inferred Ines Kovalenko (speaker unclear)"
+        },
+        {
+          "system": "fourteen private PM forecast files (Excel)",
+          "authority": "stays system of record for: each PM's cost-to-complete until that PM enters the forecast on the board (the first revisit condition) ; follower for: nothing; replaced at adoption",
+          "evidence": "paragraph 19, [00:04:10], inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "system": "startup checklists (the PMO master and the senior PM's version, Excel)",
+          "authority": "stays system of record for: nothing once the per-type templates hold the lists ; follower for: nothing; inputs to the templates, committed to be sent",
+          "evidence": "paragraph 71, inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "system": "the Monday status email",
+          "authority": "stays system of record for: weekly status until go-live ; follower for: nothing; retired at go-live by the client's commitment, which is done only when the email stops",
+          "evidence": "paragraph 109, inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "system": "Microsoft 365, Teams and the client tenant",
+          "authority": "stays system of record for: identity and single sign-on, pending the IT director's questionnaire ; follower for: nothing; nothing of the build touches the tenant",
+          "evidence": "paragraph 79, [00:17:45], inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "system": "the client's own monday Enterprise account",
+          "authority": "stays system of record for: preconstruction's bid board and safety's incident board ; follower for: nothing; untouched until the security review clears, by agreement on the call",
+          "evidence": "paragraph 81, inferred Marisol Bettencourt (speaker unclear)"
+        },
+        {
+          "system": "Smartsheet (abandoned 2023 pilot)",
+          "authority": "stays system of record for: nothing ; follower for: nothing; adoption history, not an integration",
+          "evidence": null
+        }
+      ]
+    },
+    "assumptions": [
+      {
+        "statement": "Milestone history is kept as child entries under the milestone (subitems or dated updates written by an automation) and the milestone shows the current date and the latest reason.",
+        "question": "Is a dated list under the milestone, with the typed reason, what the OAC needs; subitem or update entry?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "The health audit is a last-changed-by and last-changed-at pair on the item written by an automation, with the column's change history behind it.",
+        "question": "Is who-and-when of the last change on the item enough, or must the whole chain be visible on the item?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "The Sage report month is shown per project as actuals-as-of, and the PMO uploads the report on or after the eleventh or twelfth; with the PMO analyst on leave from November, the uploader is unnamed.",
+        "question": "What does the report contain, by job or by phase, in what format, who uploads it and on which day?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "Requested allocation rows show in Who's over as tentative and do not count toward over-capacity until confirmed.",
+        "question": "Should a requested booking appear in the workload at all, and what does a refused request become?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "The build account's tier supports a column permission limiting the state column to two named people.",
+        "question": "Preflight: does the user's own account plan allow column permissions; if not, the rule is a convention with a notification.",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "One project engineer per project is enough for the ICRA reminder, held in a people column on the project.",
+        "question": "Is there one project engineer per project, or do work areas within a job have different engineers?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "The equipment template's startup list and milestone set come from the two checklists the PMO director committed to send.",
+        "question": "Which items and milestones make the equipment template, and is eighteen plus the preconstruction handover meeting the renovation list?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "The ground-up template waits until April.",
+        "question": "Confirm nothing ground-up starts before April.",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "The PMO director's view is the PMO overview dashboard with its six widgets re-sourced from the three project boards, and it scales to six pilot projects and then forty-one.",
+        "question": "Which project-level fields should her view show, and is a dashboard over the project boards enough as the count grows?",
+        "kind": "board-architecture",
+        "state": "assumed"
+      },
+      {
+        "statement": "Cumberland projects are identified by the Program value on the project (context-v0.1.md) and the January view is a filter on it, with no total and nothing shaped like Cumberland's template.",
+        "question": "Is a filtered list of the twelve Cumberland projects enough for the owner's VP, and should anything be exportable in Cumberland's own template?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "Changes to a startup list are made in the template and applied to live projects by hand as a listed step.",
+        "question": "How often does the list change, and who applies a change to projects already running?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "v0.2 keeps v0.1's sample data, the three real job names and no loaded rates; the three Chattanooga pilot projects stay unbuilt.",
+        "question": "Are the Chattanooga pilots wanted in v0.2, or at six projects later?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "Go-live is the date the fourteen start entering their forecast on the board and the Monday status email stops; no date is set.",
+        "question": "What date is go-live, what replaces the email operationally, and who tells the fourteen PMs?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "The speakers are as inferred from direct address and content; every attribution is speaker-unclear until confirmed.",
+        "question": "To the user: confirm which paragraphs are the PMO director's, the senior PM's and the resource manager's before any tie is treated as that person's.",
+        "kind": "call-type",
+        "state": "assumed"
+      },
+      {
+        "statement": "The next version stays in the user's own account (A21) in the existing v0.1 workspace; the client's tenant enters only after the security review.",
+        "question": "To the user, for handover: what is the migration path into the client's Enterprise account once the IT director signs off, and the seat impact he asked about?",
+        "kind": "board-architecture",
+        "state": "assumed"
+      },
+      {
+        "statement": "The preconstruction pipeline and the warranty inbox stay out of this build.",
+        "question": "Settled separately, not at the next session: does preconstruction want a pipeline view, and when does the warranty inbox come off the shelf?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "The revisit of the portfolio layer is a diarised conversation after January fifteenth tied to the two conditions, not a build commitment.",
+        "question": "Is that the user's understanding too, and should the two conditions be written into the scope as the revisit test?",
+        "kind": "leaning",
+        "state": "assumed"
+      }
+    ],
+    "unmet_needs": [
+      {
+        "need": "A trustworthy company-wide roll-up for leadership (P1.1)",
+        "clock": "next quarter, after January fifteenth; the client refuses to pin a date",
+        "why_not_met": "deferred by the client's decision until the fourteen enter their forecast on the board and she has one month without chasing a status; nothing in this version is aimed at leadership"
+      },
+      {
+        "need": "A program-level total for Cumberland's January review",
+        "clock": "January fifteenth",
+        "why_not_met": "the client chose a filtered list of the twelve Cumberland projects with no total and carries the risk that the owner's VP asks for one"
+      },
+      {
+        "need": "Live burn actuals from Sage (P3.2)",
+        "clock": "none this year, by the controller's decision",
+        "why_not_met": "no live connection this year; a monthly upload, knowingly a month old, is the agreed shape"
+      },
+      {
+        "need": "Burn figures the senior PM can say yes to (P3.1)",
+        "clock": "the next showing, Thursday the fifteenth",
+        "why_not_met": "every figure is a sample until the first Sage report is uploaded; the report's content, format and uploader are unconfirmed"
+      },
+      {
+        "need": "Answers for the IT director: where the build sits and how many enterprise seats it consumes",
+        "clock": "this week (the Consultant's commitment)",
+        "why_not_met": "not a build element; a prerequisite for anything entering the client's tenant; committed, not sent"
+      },
+      {
+        "need": "Microsoft single sign-on, restricted columns and permissions inside the client's tenant (carried from s8)",
+        "clock": null,
+        "why_not_met": "cannot be shown in the user's own account; the client's tenant is closed until the security review clears; the need stays recorded"
+      },
+      {
+        "need": "A pipeline view for preconstruction (relayed from the VP of Operations)",
+        "clock": "January, when he is expected to ask again",
+        "why_not_met": "not requested by the client; another group's; CRM-shaped and out of this build; recorded for later, never proposed"
+      },
+      {
+        "need": "Post-turnover warranty calls (parked in s8)",
+        "clock": null,
+        "why_not_met": "parked by the client for this year and not mentioned on this call; stays recorded, not revived"
+      }
+    ],
+    "ai_opportunities": [
+      {
+        "pain_or_need": "P1.6",
+        "kind": "workflow",
+        "round": 2,
+        "probe_basis": "P-21",
+        "idea": "When a milestone's current date changes, a workflow writes a dated history entry under the milestone and asks the PM for the typed reason, so no move is recorded without one."
+      },
+      {
+        "pain_or_need": "P1.4",
+        "kind": "workflow",
+        "round": 2,
+        "probe_basis": "P-21",
+        "idea": "When Health changes, a workflow stamps last-changed-by and last-changed-at on the item and posts the change as an update, so the audit sits on the item."
+      },
+      {
+        "pain_or_need": "P2.1",
+        "kind": "workflow",
+        "round": 2,
+        "probe_basis": "P-21",
+        "idea": "When an allocation is set to requested, a workflow notifies the resource manager (or the PMO director during her absence) with the person, project and dates, so confirmation is a deliberate act."
+      },
+      {
+        "pain_or_need": "P1.2",
+        "kind": "ai_column",
+        "round": 2,
+        "probe_basis": "unprobed",
+        "idea": "An AI column on the project that summarises the week's updates into a one-line status for the PMO director's view, replacing the narrative half of the retired Monday status email; the colour and the forecast stay typed by the PM."
+      },
+      {
+        "pain_or_need": "P3.1",
+        "kind": "agent",
+        "round": 2,
+        "probe_basis": "P-19",
+        "idea": "An agent that reads the uploaded monthly job cost report, maps its lines to phases and proposes spent-to-date values with the report month, writing nothing until the uploader approves each mapping; sample values until the first real report."
+      }
+    ],
+    "verdict": {
+      "cleared_for": "build",
+      "conditions": [
+        "approval stop",
+        "no A11 question first matters here: the target is the user's own account, where sample data needs no decision (A21); the three A11 decisions stay open",
+        "the build continues in the existing v0.1 workspace in the user's own account (A21's continuation clause: a change to v0.1 after demo feedback); no new workspace, and the plugin writes into no other workspace",
+        "the client's own Enterprise account stays untouched until the IT director's security review clears (paragraphs 79 to 81); the answers he needs are committed by the Consultant for this week, not sent",
+        "every burn figure stays a sample until the first Sage report is uploaded; the controller's position is relayed and unconfirmed (paragraph 75)",
+        "the two startup checklists are committed by the PMO director (paragraph 71), not received; the equipment template cannot be finished without them",
+        "committed, not done: the invite for Thursday the fifteenth at 11:30 Eastern (Consultant, paragraph 115); the two further PMs' hours (PMO director, before the fifteenth, paragraph 117); the retirement of the Monday status email at go-live (PMO director, paragraph 109); each becomes done only on evidence",
+        "every attribution is inferred, since the transcript has no speaker labels; the user confirms who said what before any client tie is treated as that person's",
+        "the portfolio layer is not built; the two revisit conditions are recorded as the client's and no date is set"
+      ],
+      "reason": "Five pain themes have entities and outcomes in the client's own words, the one product is chosen, the structure is a change to v0.1 stated with nine leanings, and the target is the user's own account in the existing v0.1 workspace."
+    },
+    "questions": [
+      {
+        "text": "On allocation, what sits between requested and confirmed, what happens to a request you refuse, and should a requested booking show in Who's over as tentative or not at all until you confirm it?",
+        "kind": "discovery",
+        "role": "Resource Manager",
+        "known": "every row today is a commitment (paragraph 59); only she confirms (paragraph 62); the PMO director covers Thanksgiving week (paragraphs 63 and 64); the saved view of the four qualified superintendents is agreed (paragraph 57); v0.1 has no state and no permission model (context-v0.1.md)."
+      },
+      {
+        "text": "You said 'the question in the OAC is always when did it move and what moved it'. If every move sits under the milestone as a dated entry with your typed reason, and the milestone shows the current date and the latest reason, does that answer the OAC? And for health, is who-and-when of the last change on the item enough, with the full chain behind it?",
+        "kind": "read-back",
+        "role": "Senior Project Manager, with the PMO Director for health",
+        "known": "first patient day moved twice on the tower (paragraph 45); the reason is free text (paragraph 47); the audit goes on the item, not in a log (paragraph 51); v0.1 holds baseline versus current only and no audit on the item (context-v0.1.md)."
+      },
+      {
+        "text": "You said Roland 'already produces a job cost report on the eleventh or twelfth and he doesn't much care if somebody uploads it somewhere'. What does the report contain, by job or by phase, in what format, who uploads it and on which day, so the board can show actuals as of that month beside the PM's forecast?",
+        "kind": "read-back",
+        "role": "PMO Director, then the controller",
+        "known": "no live connection this year (paragraph 75); the forecast lives on the board (paragraph 77); every v0.1 figure is a sample (paragraph 73; context-v0.1.md); the PMO analyst is on leave from November."
+      },
+      {
+        "text": "You said 'the PM isn't the one who walks it to their nurse. That's the project engineer'. Is there one project engineer per project, or do work areas within a job have different engineers, so the board knows who the ICRA reminder goes to?",
+        "kind": "read-back",
+        "role": "Senior Project Manager",
+        "known": "thirty days is right (paragraph 83); recipients are the project engineer and the superintendent with the PMO director copied (paragraph 83); v0.1 names a PM and a superintendent on the project and no project engineer (context-v0.1.md)."
+      },
+      {
+        "text": "You said 'The equipment one is shorter and it's a completely different list.' When the master checklist and Warren's version arrive, which items and which milestones make the equipment template, and is eighteen plus the preconstruction handover meeting the renovation list?",
+        "kind": "read-back",
+        "role": "PMO Director and Senior Project Manager",
+        "known": "occupied renovation is built (context-v0.1.md); the equipment template is needed before the Waverly MRI in the first week of December (paragraph 66); ground-up waits until April (paragraph 68); the two checklists are committed, not received (paragraph 71)."
+      }
+    ]
+  }
+}

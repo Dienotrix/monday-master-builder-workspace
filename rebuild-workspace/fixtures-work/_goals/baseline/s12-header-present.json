@@ -1,0 +1,1568 @@
+{
+  "fixture": "s12-header-present",
+  "sources": [
+    {
+      "name": "meeting-chat.txt",
+      "kind": "chat",
+      "format": "header-time-first",
+      "units": 11,
+      "unsupported": null
+    },
+    {
+      "name": "transcript.txt",
+      "kind": "transcript",
+      "format": "header-time-last",
+      "units": 214,
+      "unsupported": null
+    }
+  ],
+  "counts": {
+    "pairs": 199,
+    "verified": 199,
+    "verified_presence_only": 32,
+    "skipped": 3,
+    "unparsed_prose": 0,
+    "near_misses": 0,
+    "misses": 0,
+    "unsupported": 0,
+    "warnings": 0
+  },
+  "refused_quotes_not_checked": [],
+  "skipped": [
+    {
+      "path": "/intake/second_hand[1]/true_source/quote",
+      "reason": "null or empty"
+    },
+    {
+      "path": "/intake/second_hand[2]/true_source/quote",
+      "reason": "null or empty"
+    },
+    {
+      "path": "/intake/second_hand[3]/true_source/quote",
+      "reason": "null or empty"
+    }
+  ],
+  "pairs": [
+    {
+      "path": "/rubric[0]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So first there's a proposal, usually. The engineer sends a scope, so many wells, so many soil borings, this list of analyses, and we quote it.",
+      "location": "14:06:43 Fenella Bracewell (Client Services Manager)",
+      "cited": "transcript.txt, L103, turn 24, 14:06:43, Fenella Bracewell"
+    },
+    {
+      "path": "/rubric[0]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Then bottles. Somebody has to go and collect the samples, and they need the right bottles with the right preservative, labelled.",
+      "location": "14:07:50 Fenella Bracewell (Client Services Manager)",
+      "cited": "transcript.txt, L118, turn 29, 14:07:50, Fenella Bracewell"
+    },
+    {
+      "path": "/rubric[0]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Every cooler that comes through the door, I open it, check the temperature, check the chain of custody form against what's actually in it, and log it in.",
+      "location": "14:08:53 Ronan Kavanagh (receiving lead, titled Administrative Assistant)",
+      "cited": "transcript.txt, L133, turn 34, 14:08:53, Ronan Kavanagh"
+    },
+    {
+      "path": "/rubric[0]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "The section leads pick up from the login queue. Metals, organics, micro, wet chem.",
+      "location": "14:12:14 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L184, turn 51, 14:12:14, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/rubric[0]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "If it passes, the report gets generated out of the lab system and Fenella's team sends it.",
+      "location": "14:13:52 Bartholomew Nkemelu (Quality, not on the roster)",
+      "cited": "transcript.txt, L208, turn 59, 14:13:52, Bartholomew Nkemelu"
+    },
+    {
+      "path": "/rubric[0]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "And for the county it's not just sending, we have to load it into their portal as well, which is their system, not ours.",
+      "location": "14:14:09 Fenella Bracewell (Client Services Manager)",
+      "cited": "transcript.txt, L211, turn 60, 14:14:09, Fenella Bracewell"
+    },
+    {
+      "path": "/rubric[0]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "That's the shape. It's the gaps between those boxes that are the problem.",
+      "location": "14:15:43 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L232, turn 67, 14:15:43, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/rubric[0]/asked_quote/quote",
+      "status": "verified",
+      "quote": "A client calls with a site. What happens first?",
+      "location": "14:06:36 Consultant",
+      "cited": "transcript.txt, L100, turn 23, 14:06:36, Consultant"
+    },
+    {
+      "path": "/rubric[1]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Last month we blew four. Four batches where an analysis didn't start in time and the result wasn't reportable. One of them was county samples. Sixteen wells.",
+      "location": "14:15:58 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L238, turn 69, 14:15:58, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/rubric[1]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It was a hundred and ninety last month. September. August was a hundred and seventy-something.",
+      "location": "14:23:15 Anouk Verstraeten (rush desk, not on the roster)",
+      "cited": "transcript.txt, L340, turn 103, 14:23:15, Anouk Verstraeten"
+    },
+    {
+      "path": "/rubric[1]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "We had one sit for nineteen days in August. The client got a report with a hole in it and a note saying the rest was to follow.",
+      "location": "14:25:34 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L382, turn 117, 14:25:34, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/rubric[1]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Then tell me about the gaps. Where does it hurt most?",
+      "location": "14:15:51 Consultant",
+      "cited": "transcript.txt, L235, turn 68, 14:15:51, Consultant"
+    },
+    {
+      "path": "/rubric[2]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Three things, honestly. The letter. The lab system's status module, the vendor's told us it's end of life next year, and the replacement's a different price. And we're bigger than we were.",
+      "location": "14:32:51 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L481, turn 150, 14:32:51, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/rubric[2]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And the renewal's got a date on it. January first. I don't get to pick that.",
+      "location": "14:33:10 Sigrid Thorvaldsen (VP Operations, parent group)",
+      "cited": "transcript.txt, L484, turn 151, 14:33:10, Sigrid Thorvaldsen"
+    },
+    {
+      "path": "/rubric[2]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "The contract's up for renewal January first, and the clause is new. Ten business days from receipt to report, with a status they can see.",
+      "location": "14:16:59 Sigrid Thorvaldsen (VP Operations, parent group)",
+      "cited": "transcript.txt, L253, turn 74, 14:16:59, Sigrid Thorvaldsen"
+    },
+    {
+      "path": "/rubric[2]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Why now? You've had hold times for years, presumably.",
+      "location": "14:32:42 Consultant",
+      "cited": "transcript.txt, L478, turn 149, 14:32:42, Consultant"
+    },
+    {
+      "path": "/rubric[3]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So call it eighteen hundred all in.",
+      "location": "14:20:00 Casimir Wendl (field sampling coordinator, no title listed)",
+      "cited": "transcript.txt, L295, turn 88, 14:20:00, Casimir Wendl"
+    },
+    {
+      "path": "/rubric[3]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Three a month is fair.",
+      "location": "14:20:29 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L301, turn 90, 14:20:29, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/rubric[3]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Call it five hours a day between us. Every day.",
+      "location": "14:24:07 Fenella Bracewell (Client Services Manager)",
+      "cited": "transcript.txt, L355, turn 108, 14:24:07, Fenella Bracewell"
+    },
+    {
+      "path": "/rubric[3]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Client services is about fifty-five an hour loaded.",
+      "location": "14:24:43 Sigrid Thorvaldsen (VP Operations, parent group)",
+      "cited": "transcript.txt, L367, turn 112, 14:24:43, Sigrid Thorvaldsen"
+    },
+    {
+      "path": "/rubric[3]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Three a month is thirty-six a year. Thirty-six at eighteen hundred is, what, sixty-four eight. Sixty-four thousand eight hundred. Plus the sixty-six. A hundred and thirty thousand eight hundred. A year.",
+      "location": "14:28:45 Sigrid Thorvaldsen (VP Operations, parent group)",
+      "cited": "transcript.txt, L421, turn 130, 14:28:45, Sigrid Thorvaldsen"
+    },
+    {
+      "path": "/rubric[3]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "But it's the number I'd put in front of Beatrix, because it's the one I can defend line by line.",
+      "location": "14:29:13 Sigrid Thorvaldsen (VP Operations, parent group)",
+      "cited": "transcript.txt, L427, turn 132, 14:29:13, Sigrid Thorvaldsen"
+    },
+    {
+      "path": "/rubric[3]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Can you put a number on a re-sample?",
+      "location": "14:19:55 Consultant",
+      "cited": "transcript.txt, L292, turn 87, 14:19:55, Consultant"
+    },
+    {
+      "path": "/rubric[4]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "That's about four hundred thousand a year on top of what we've got.",
+      "location": "14:29:45 Sigrid Thorvaldsen (VP Operations, parent group)",
+      "cited": "transcript.txt, L436, turn 135, 14:29:45, Sigrid Thorvaldsen"
+    },
+    {
+      "path": "/rubric[4]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "If. Don't add that to the other number. It's a maybe. The other number is a certainty.",
+      "location": "14:30:21 Sigrid Thorvaldsen (VP Operations, parent group)",
+      "cited": "transcript.txt, L442, turn 137, 14:30:21, Sigrid Thorvaldsen"
+    },
+    {
+      "path": "/rubric[4]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I'd put Anouk on the sub chasing, honestly. And I'd actually do account management, which is supposedly my job.",
+      "location": "14:30:39 Fenella Bracewell (Client Services Manager)",
+      "cited": "transcript.txt, L448, turn 139, 14:30:39, Fenella Bracewell"
+    },
+    {
+      "path": "/rubric[4]/asked_quote/quote",
+      "status": "verified",
+      "quote": "If the status thing were fixed and the turnaround were met, what changes?",
+      "location": "14:29:33 Consultant",
+      "cited": "transcript.txt, L433, turn 134, 14:29:33, Consultant"
+    },
+    {
+      "path": "/rubric[5]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "One screen where I can see every batch that's due this week, across all three labs, without asking Ronan. And the county can see theirs without calling Fenella.",
+      "location": "14:31:01 Sigrid Thorvaldsen (VP Operations, parent group)",
+      "cited": "transcript.txt, L454, turn 141, 14:31:01, Sigrid Thorvaldsen"
+    },
+    {
+      "path": "/rubric[5]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Zero hold-time misses on anything that came through our door in time.",
+      "location": "14:31:31 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L463, turn 144, 14:31:31, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/rubric[5]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And I want to know a sub is late before the client does.",
+      "location": "14:31:31 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L463, turn 144, 14:31:31, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/rubric[5]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "I'd like it to show status and never a result.",
+      "location": "14:32:02 Bartholomew Nkemelu (Quality, not on the roster)",
+      "cited": "transcript.txt, L469, turn 146, 14:32:02, Bartholomew Nkemelu"
+    },
+    {
+      "path": "/rubric[5]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What does that look like to you? Not features, the outcome.",
+      "location": "14:30:52 Consultant",
+      "cited": "transcript.txt, L451, turn 140, 14:30:52, Consultant"
+    },
+    {
+      "path": "/rubric[6]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Me. It's my budget, the labs' operations line is mine up to a limit, and this is under it. Matthias runs it day to day. Beatrix signs the PO, every PO, so Beatrix will want to see it before a PO goes anywhere. And anything that connects to the lab system, Temitope has to be in the room, that's hers.",
+      "location": "14:33:30 Sigrid Thorvaldsen (VP Operations, parent group)",
+      "cited": "transcript.txt, L490, turn 153, 14:33:30, Sigrid Thorvaldsen"
+    },
+    {
+      "path": "/rubric[6]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Beatrix will ask what it costs against what it saves. That's the whole conversation with Beatrix.",
+      "location": "14:34:24 Sigrid Thorvaldsen (VP Operations, parent group)",
+      "cited": "transcript.txt, L502, turn 157, 14:34:24, Sigrid Thorvaldsen"
+    },
+    {
+      "path": "/rubric[6]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Who decides this, if it goes ahead?",
+      "location": "14:33:19 Consultant",
+      "cited": "transcript.txt, L487, turn 152, 14:33:19, Consultant"
+    },
+    {
+      "path": "/rubric[7]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "That's the order.",
+      "location": "14:39:39 Sigrid Thorvaldsen (VP Operations, parent group)",
+      "cited": "transcript.txt, L568, turn 179, 14:39:39, Sigrid Thorvaldsen"
+    },
+    {
+      "path": "/rubric[7]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "That's fine. Do the receiving side first. If that works, the rest follows. Nobody's asking six PMs to change anything before the audit's done.",
+      "location": "14:37:52 Sigrid Thorvaldsen (VP Operations, parent group)",
+      "cited": "transcript.txt, L544, turn 171, 14:37:52, Sigrid Thorvaldsen"
+    },
+    {
+      "path": "/rubric[7]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "It's the right first cut. Receiving first. And the county view, if that's real, is the thing I'd show their compliance manager in December.",
+      "location": "14:40:39 Sigrid Thorvaldsen (VP Operations, parent group)",
+      "cited": "transcript.txt, L580, turn 183, 14:40:39, Sigrid Thorvaldsen"
+    },
+    {
+      "path": "/rubric[7]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Have I got the order right?",
+      "location": "14:39:05 Consultant",
+      "cited": "transcript.txt, L565, turn 178, 14:39:05, Consultant"
+    },
+    {
+      "path": "/rubric[8]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The bench won't type into two systems. They barely type into one.",
+      "location": "14:34:46 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L508, turn 159, 14:34:46, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/rubric[8]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I can't have my PMs learning a tool in November. December's worse.",
+      "location": "14:37:35 Celeste Nwachukwu (Project Manager)",
+      "cited": "transcript.txt, L541, turn 170, 14:37:35, Celeste Nwachukwu"
+    },
+    {
+      "path": "/rubric[8]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "It turned into a wall of stale cards inside a month because nobody owned it.",
+      "location": "14:38:08 Arjun Chandrasekar (IT provider)",
+      "cited": "transcript.txt, L550, turn 173, 14:38:08, Arjun Chandrasekar"
+    },
+    {
+      "path": "/rubric[8]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Only that whatever it is, I need to see it on a phone. In a van. With one bar. If it needs a laptop, I'm not in it.",
+      "location": "14:38:51 Casimir Wendl (field sampling coordinator, no title listed)",
+      "cited": "transcript.txt, L562, turn 177, 14:38:51, Casimir Wendl"
+    },
+    {
+      "path": "/rubric[8]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What would get in the way? Be blunt.",
+      "location": "14:34:37 Consultant",
+      "cited": "transcript.txt, L505, turn 158, 14:34:37, Consultant"
+    },
+    {
+      "path": "/rubric[9]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Wednesday the twenty-first at one. Thursday I'm at the south lab.",
+      "location": "14:43:36 Sigrid Thorvaldsen (VP Operations, parent group)",
+      "cited": "transcript.txt, L625, turn 198, 14:43:36, Sigrid Thorvaldsen"
+    },
+    {
+      "path": "/rubric[9]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Wednesday works. I'll move the section leads' meeting.",
+      "location": "14:43:43 Fenella Bracewell (Client Services Manager)",
+      "cited": "transcript.txt, L628, turn 199, 14:43:43, Fenella Bracewell"
+    },
+    {
+      "path": "/rubric[9]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Me, Matthias, Ronan, Fenella. Beatrix, if I can get her. Temitope for the lab system bit. Casimir on his phone.",
+      "location": "14:43:12 Sigrid Thorvaldsen (VP Operations, parent group)",
+      "cited": "transcript.txt, L613, turn 194, 14:43:12, Sigrid Thorvaldsen"
+    },
+    {
+      "path": "/rubric[9]/asked_quote/quote",
+      "status": "verified",
+      "quote": "When? I've got Wednesday the twenty-first at one, Central, or Thursday the twenty-second in the morning.",
+      "location": "14:43:28 Consultant",
+      "cited": "transcript.txt, L622, turn 197, 14:43:28, Consultant"
+    },
+    {
+      "path": "/rubric[10]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It's right. I'd want to see what the day-before thing actually looks like before I believe it.",
+      "location": "14:40:51 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L583, turn 184, 14:40:51, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/rubric[11]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It's the right first cut. Receiving first.",
+      "location": "14:40:39 Sigrid Thorvaldsen (VP Operations, parent group)",
+      "cited": "transcript.txt, L580, turn 183, 14:40:39, Sigrid Thorvaldsen"
+    },
+    {
+      "path": "/rubric[11]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The client portal question, whether the engineers get a login, can we park that for the second call?",
+      "location": "14:41:08 Celeste Nwachukwu (Project Manager)",
+      "cited": "transcript.txt, L589, turn 186, 14:41:08, Celeste Nwachukwu"
+    },
+    {
+      "path": "/rubric[11]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "She says yes please to including proposals, if it doesn't slow the samples side down. And she can do a call.",
+      "location": "14:41:36 Fenella Bracewell (Client Services Manager)",
+      "cited": "transcript.txt, L595, turn 188, 14:41:36, Fenella Bracewell"
+    },
+    {
+      "path": "/rubric[11]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Is that the right first cut?",
+      "location": "14:39:55 Consultant",
+      "cited": "transcript.txt, L577, turn 182, 14:39:55, Consultant"
+    },
+    {
+      "path": "/rubric[12]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Hold times. I'll just say it.",
+      "location": "14:15:58 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L238, turn 69, 14:15:58, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/rubric[12]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Where does it hurt most?",
+      "location": "14:15:51 Consultant",
+      "cited": "transcript.txt, L235, turn 68, 14:15:51, Consultant"
+    },
+    {
+      "path": "/rubric[13]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We had to re-sample. Casimir sent a crew back out, at our cost, and the report was nine days late.",
+      "location": "14:16:20 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L244, turn 71, 14:16:20, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/rubric[13]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Three of the four last month were satellite batches.",
+      "location": "14:18:02 Ronan Kavanagh (receiving lead, titled Administrative Assistant)",
+      "cited": "transcript.txt, L268, turn 79, 14:18:02, Ronan Kavanagh"
+    },
+    {
+      "path": "/rubric[13]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What happened with the county one?",
+      "location": "14:16:15 Consultant",
+      "cited": "transcript.txt, L241, turn 70, 14:16:15, Consultant"
+    },
+    {
+      "path": "/rubric[14]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I print the login sheet. I go through every open row and I look at the hold times and I put a mark next to anything that's within two days. Then I walk it round the sections.",
+      "location": "14:17:34 Ronan Kavanagh (receiving lead, titled Administrative Assistant)",
+      "cited": "transcript.txt, L262, turn 77, 14:17:34, Ronan Kavanagh"
+    },
+    {
+      "path": "/rubric[14]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Friday I do a hunt.",
+      "location": "14:19:07 Fenella Bracewell (Client Services Manager)",
+      "cited": "transcript.txt, L283, turn 84, 14:19:07, Fenella Bracewell"
+    },
+    {
+      "path": "/rubric[14]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Walk me through what a morning looks like, Ronan.",
+      "location": "14:17:24 Consultant",
+      "cited": "transcript.txt, L259, turn 76, 14:17:24, Consultant"
+    },
+    {
+      "path": "/rubric[15]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Me. My crew. A re-sample is a day.",
+      "location": "14:19:32 Casimir Wendl (field sampling coordinator, no title listed)",
+      "cited": "transcript.txt, L289, turn 86, 14:19:32, Casimir Wendl"
+    },
+    {
+      "path": "/rubric[15]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I have the letter. It's very polite. It's the politest threat I've ever read.",
+      "location": "14:16:46 Sigrid Thorvaldsen (VP Operations, parent group)",
+      "cited": "transcript.txt, L247, turn 72, 14:16:46, Sigrid Thorvaldsen"
+    },
+    {
+      "path": "/rubric[15]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Who feels it when a hold time goes? Beyond the client.",
+      "location": "14:19:24 Consultant",
+      "cited": "transcript.txt, L286, turn 85, 14:19:24, Consultant"
+    },
+    {
+      "path": "/rubric[16]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Two people for a day is about twelve hundred in labour with the van. Bottles and preservative, couple hundred. Courier back, if it's overnight, another couple hundred. So call it eighteen hundred all in.",
+      "location": "14:20:00 Casimir Wendl (field sampling coordinator, no title listed)",
+      "cited": "transcript.txt, L295, turn 88, 14:20:00, Casimir Wendl"
+    },
+    {
+      "path": "/rubric[16]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Bad-ish. Three is normal. Some months it's five.",
+      "location": "14:20:29 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L301, turn 90, 14:20:29, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/rubric[16]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "It does, but I don't have that number. That's a Beatrix question, she's got the cost per test, I don't carry it in my head. I'm not going to make one up.",
+      "location": "14:20:51 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L307, turn 92, 14:20:51, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/rubric[16]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Re-running the analysis, reagents, analyst time?",
+      "location": "14:20:40 Consultant",
+      "cited": "transcript.txt, L304, turn 91, 14:20:40, Consultant"
+    },
+    {
+      "path": "/rubric[17]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Field season it's worse, winter it's two. Three a month is fair.",
+      "location": "14:20:29 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L301, turn 90, 14:20:29, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/rubric[17]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Honestly the person who'd know is Winifred, because it's about what's in the pipeline. If the second district comes in, volume goes up a lot and the satellites take more of it.",
+      "location": "14:21:15 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L313, turn 94, 14:21:15, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/rubric[17]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Is the three a month getting worse?",
+      "location": "14:21:07 Consultant",
+      "cited": "transcript.txt, L310, turn 93, 14:21:07, Consultant"
+    },
+    {
+      "path": "/rubric[18]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So a client wants to know where their report is. They call, or they email.",
+      "location": "14:22:12 Fenella Bracewell (Client Services Manager)",
+      "cited": "transcript.txt, L325, turn 98, 14:22:12, Fenella Bracewell"
+    },
+    {
+      "path": "/rubric[18]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Fenella, you said the status is you. Tell me about that.",
+      "location": "14:22:05 Consultant",
+      "cited": "transcript.txt, L322, turn 97, 14:22:05, Consultant"
+    },
+    {
+      "path": "/rubric[19]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It was a hundred and ninety last month. September. August was a hundred and seventy-something.",
+      "location": "14:23:15 Anouk Verstraeten (rush desk, not on the roster)",
+      "cited": "transcript.txt, L340, turn 103, 14:23:15, Anouk Verstraeten"
+    },
+    {
+      "path": "/rubric[19]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Ten minutes if it's clean. Fifteen if it's at a sub. Longer if it's the county, because they want it in writing.",
+      "location": "14:22:49 Fenella Bracewell (Client Services Manager)",
+      "cited": "transcript.txt, L331, turn 100, 14:22:49, Fenella Bracewell"
+    },
+    {
+      "path": "/rubric[19]/asked_quote/quote",
+      "status": "verified",
+      "quote": "How many in a month?",
+      "location": "14:23:00 Consultant",
+      "cited": "transcript.txt, L334, turn 101, 14:23:00, Consultant"
+    },
+    {
+      "path": "/rubric[20]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I open the lab system and find the batch. Then I check whether it's in a section or at a sub. If it's at a sub I go to Solveig, or if she's out, I go through her inbox. Then I call them back.",
+      "location": "14:22:12 Fenella Bracewell (Client Services Manager)",
+      "cited": "transcript.txt, L325, turn 98, 14:22:12, Fenella Bracewell"
+    },
+    {
+      "path": "/rubric[20]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Tell me about that.",
+      "location": "14:22:05 Consultant",
+      "cited": "transcript.txt, L322, turn 97, 14:22:05, Consultant"
+    },
+    {
+      "path": "/rubric[21]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I get a lot direct. I don't log them, I just answer them. Probably thirty a month for me, and I'm one of six PMs.",
+      "location": "14:23:42 Celeste Nwachukwu (Project Manager)",
+      "cited": "transcript.txt, L349, turn 106, 14:23:42, Celeste Nwachukwu"
+    },
+    {
+      "path": "/rubric[21]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Mostly me and Fenella. Celeste gets some direct, for her projects.",
+      "location": "14:23:35 Anouk Verstraeten (rush desk, not on the roster)",
+      "cited": "transcript.txt, L346, turn 105, 14:23:35, Anouk Verstraeten"
+    },
+    {
+      "path": "/rubric[21]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Between how many of you?",
+      "location": "14:23:28 Consultant",
+      "cited": "transcript.txt, L343, turn 104, 14:23:28, Consultant"
+    },
+    {
+      "path": "/rubric[22]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It's about half of Anouk's day, honestly. And two, two and a half hours of mine. Call it five hours a day between us. Every day.",
+      "location": "14:24:07 Fenella Bracewell (Client Services Manager)",
+      "cited": "transcript.txt, L355, turn 108, 14:24:07, Fenella Bracewell"
+    },
+    {
+      "path": "/rubric[22]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Client services is about fifty-five an hour loaded. That's salary, benefits, the desk. Not what we bill, we don't bill it.",
+      "location": "14:24:43 Sigrid Thorvaldsen (VP Operations, parent group)",
+      "cited": "transcript.txt, L367, turn 112, 14:24:43, Sigrid Thorvaldsen"
+    },
+    {
+      "path": "/rubric[22]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Twelve hundred at fifty-five is sixty-six thousand.",
+      "location": "14:25:03 Sigrid Thorvaldsen (VP Operations, parent group)",
+      "cited": "transcript.txt, L373, turn 114, 14:25:03, Sigrid Thorvaldsen"
+    },
+    {
+      "path": "/rubric[22]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Do you know what an hour of client services costs, loaded?",
+      "location": "14:24:32 Consultant",
+      "cited": "transcript.txt, L364, turn 111, 14:24:32, Consultant"
+    },
+    {
+      "path": "/rubric[23]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "August was a hundred and seventy-something.",
+      "location": "14:23:15 Anouk Verstraeten (rush desk, not on the roster)",
+      "cited": "transcript.txt, L340, turn 103, 14:23:15, Anouk Verstraeten"
+    },
+    {
+      "path": "/rubric[24]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Subs are the black hole. We send it, and we wait. There's no due date anywhere that's ours.",
+      "location": "14:25:34 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L382, turn 117, 14:25:34, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/rubric[24]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Say more about the subs.",
+      "location": "14:25:29 Consultant",
+      "cited": "transcript.txt, L379, turn 116, 14:25:29, Consultant"
+    },
+    {
+      "path": "/rubric[25]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We had one sit for nineteen days in August. The client got a report with a hole in it and a note saying the rest was to follow.",
+      "location": "14:25:34 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L382, turn 117, 14:25:34, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/rubric[25]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Say more about the subs.",
+      "location": "14:25:29 Consultant",
+      "cited": "transcript.txt, L379, turn 116, 14:25:29, Consultant"
+    },
+    {
+      "path": "/rubric[26]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Solveig has a sense of it, she'll chase after a week. But if she's off, nobody chases.",
+      "location": "14:25:34 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L382, turn 117, 14:25:34, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/rubric[26]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Email. Solveig emails them the chain of custody, ships the bottles, and then it's a waiting game. When the result comes back it lands in her inbox. And she keys the numbers in by hand.",
+      "location": "14:12:40 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L190, turn 53, 14:12:40, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/rubric[26]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And how does a sub know something's coming?",
+      "location": "14:12:35 Consultant",
+      "cited": "transcript.txt, L187, turn 52, 14:12:35, Consultant"
+    },
+    {
+      "path": "/rubric[27]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It means I send a partial report, and then a revised report, and the engineer has to explain to their client why there's two versions.",
+      "location": "14:26:34 Celeste Nwachukwu (Project Manager)",
+      "cited": "transcript.txt, L394, turn 121, 14:26:34, Celeste Nwachukwu"
+    },
+    {
+      "path": "/rubric[27]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It is. Every revision is a full review. We don't do partial reviews, the assessor wouldn't accept it.",
+      "location": "14:26:52 Bartholomew Nkemelu (Quality, not on the roster)",
+      "cited": "transcript.txt, L397, turn 122, 14:26:52, Bartholomew Nkemelu"
+    },
+    {
+      "path": "/rubric[27]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Celeste, from the PM side, what does a late sub do to you?",
+      "location": "14:26:21 Consultant",
+      "cited": "transcript.txt, L391, turn 120, 14:26:21, Consultant"
+    },
+    {
+      "path": "/rubric[28]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Not one I'd stand behind. Solveig would know how often it happens. It's hers, she's the one who'd have the number, and she's on leave until the twentieth.",
+      "location": "14:26:08 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L388, turn 119, 14:26:08, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/rubric[28]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Is there a cost on that you'd stand behind?",
+      "location": "14:26:02 Consultant",
+      "cited": "transcript.txt, L385, turn 118, 14:26:02, Consultant"
+    },
+    {
+      "path": "/rubric[30]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Someone re-keys it. Me, usually. The scope's in her sheet. The project's in the lab system.",
+      "location": "14:27:50 Celeste Nwachukwu (Project Manager)",
+      "cited": "transcript.txt, L409, turn 126, 14:27:50, Celeste Nwachukwu"
+    },
+    {
+      "path": "/rubric[30]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Does a won proposal turn into a project by itself, or does someone re-key it?",
+      "location": "14:27:34 Consultant",
+      "cited": "transcript.txt, L406, turn 125, 14:27:34, Consultant"
+    },
+    {
+      "path": "/rubric[31]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So I type the analyte list in again, it's twenty minutes a project, and I get it wrong about one in ten because her sheet's abbreviated.",
+      "location": "14:27:50 Celeste Nwachukwu (Project Manager)",
+      "cited": "transcript.txt, L409, turn 126, 14:27:50, Celeste Nwachukwu"
+    },
+    {
+      "path": "/rubric[31]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Does a won proposal turn into a project by itself, or does someone re-key it?",
+      "location": "14:27:34 Consultant",
+      "cited": "transcript.txt, L406, turn 125, 14:27:34, Consultant"
+    },
+    {
+      "path": "/rubric[32]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Which is true. If she's on holiday, we don't know what's out.",
+      "location": "14:27:14 Fenella Bracewell (Client Services Manager)",
+      "cited": "transcript.txt, L403, turn 124, 14:27:14, Fenella Bracewell"
+    },
+    {
+      "path": "/rubric[32]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The tracker is my spreadsheet and nobody else touches it.",
+      "location": "chat 14:26:40 Winifred Quintero",
+      "cited": "meeting-chat.txt, L16, turn 4, 14:26:40, Winifred Quintero"
+    },
+    {
+      "path": "/rubric[32]/asked_quote/quote",
+      "status": "verified",
+      "quote": "How are they tracked?",
+      "location": "14:27:02 Consultant",
+      "cited": "transcript.txt, L400, turn 123, 14:27:02, Consultant"
+    },
+    {
+      "path": "/rubric[33]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Me, usually.",
+      "location": "14:27:50 Celeste Nwachukwu (Project Manager)",
+      "cited": "transcript.txt, L409, turn 126, 14:27:50, Celeste Nwachukwu"
+    },
+    {
+      "path": "/rubric[34]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "it's twenty minutes a project",
+      "location": "14:27:50 Celeste Nwachukwu (Project Manager)",
+      "cited": "transcript.txt, L409, turn 126, 14:27:50, Celeste Nwachukwu"
+    },
+    {
+      "path": "/rubric[34]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "212 proposals last year, 71 won.",
+      "location": "chat 14:26:40 Winifred Quintero",
+      "cited": "meeting-chat.txt, L16, turn 4, 14:26:40, Winifred Quintero"
+    },
+    {
+      "path": "/pains[0]/quote",
+      "status": "verified",
+      "quote": "Hold times. I'll just say it. Last month we blew four.",
+      "location": "14:15:58 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L238, turn 69, 14:15:58, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/pains[1]/quote",
+      "status": "verified",
+      "quote": "It goes wrong when I'm not there. Or when a batch came in on the satellite side and they logged it into the lab system. And not onto my sheet, because it's my sheet.",
+      "location": "14:18:02 Ronan Kavanagh (receiving lead, titled Administrative Assistant)",
+      "cited": "transcript.txt, L268, turn 79, 14:18:02, Ronan Kavanagh"
+    },
+    {
+      "path": "/pains[2]/quote",
+      "status": "verified",
+      "quote": "So a client wants to know where their report is. They call, or they email.",
+      "location": "14:22:12 Fenella Bracewell (Client Services Manager)",
+      "cited": "transcript.txt, L325, turn 98, 14:22:12, Fenella Bracewell"
+    },
+    {
+      "path": "/pains[3]/quote",
+      "status": "verified",
+      "quote": "Subs are the black hole. We send it, and we wait. There's no due date anywhere that's ours.",
+      "location": "14:25:34 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L382, turn 117, 14:25:34, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/pains[4]/quote",
+      "status": "verified",
+      "quote": "Someone re-keys it. Me, usually. The scope's in her sheet. The project's in the lab system.",
+      "location": "14:27:50 Celeste Nwachukwu (Project Manager)",
+      "cited": "transcript.txt, L409, turn 126, 14:27:50, Celeste Nwachukwu"
+    },
+    {
+      "path": "/pains[5]/quote",
+      "status": "verified",
+      "quote": "We get a login, we upload the PDF, and we fill in four fields that are already in the PDF. Anouk does most of it. It's twenty minutes a report and there's forty-odd a month for them.",
+      "location": "14:14:29 Fenella Bracewell (Client Services Manager)",
+      "cited": "transcript.txt, L217, turn 62, 14:14:29, Fenella Bracewell"
+    },
+    {
+      "path": "/pains[6]/quote",
+      "status": "verified",
+      "quote": "They don't. I tell them. I text them the morning list.",
+      "location": "14:21:48 Casimir Wendl (field sampling coordinator, no title listed)",
+      "cited": "transcript.txt, L319, turn 96, 14:21:48, Casimir Wendl"
+    },
+    {
+      "path": "/pains[7]/quote",
+      "status": "verified",
+      "quote": "And Ebenezer'd want the site safety form on there too, before anyone asks, because at the moment that's a paper form in the van.",
+      "location": "14:21:48 Casimir Wendl (field sampling coordinator, no title listed)",
+      "cited": "transcript.txt, L319, turn 96, 14:21:48, Casimir Wendl"
+    },
+    {
+      "path": "/pains[8]/quote",
+      "status": "verified",
+      "quote": "It'll tell you a hold time is exceeded after it's exceeded. It doesn't tell you it's tomorrow.",
+      "location": "14:11:57 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L178, turn 49, 14:11:57, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/numbers/bleed/quote",
+      "status": "verified",
+      "quote": "Three a month is thirty-six a year. Thirty-six at eighteen hundred is, what, sixty-four eight. Sixty-four thousand eight hundred. Plus the sixty-six. A hundred and thirty thousand eight hundred. A year.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L421, turn 130, 14:28:45, Sigrid Thorvaldsen"
+      ]
+    },
+    {
+      "path": "/numbers/upside/quote",
+      "status": "verified",
+      "quote": "That's about four hundred thousand a year on top of what we've got.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L436, turn 135, 14:29:45, Sigrid Thorvaldsen"
+      ]
+    },
+    {
+      "path": "/objections[0]/quote",
+      "status": "verified",
+      "quote": "The bench won't type into two systems. They barely type into one. If a chemist has to log a status in the lab system and then again somewhere else, it won't happen, and I won't make them.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L508, turn 159, 14:34:46, Matthias Okonkwo-Reyes"
+      ]
+    },
+    {
+      "path": "/objections[1]/quote",
+      "status": "verified",
+      "quote": "It turned into a wall of stale cards inside a month because nobody owned it. I just want somebody to own it this time.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L550, turn 173, 14:38:08, Arjun Chandrasekar"
+      ]
+    },
+    {
+      "path": "/objections[2]/quote",
+      "status": "verified",
+      "quote": "Only that whatever it is, I need to see it on a phone. In a van. With one bar. If it needs a laptop, I'm not in it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L562, turn 177, 14:38:51, Casimir Wendl"
+      ]
+    },
+    {
+      "path": "/objections[3]/quote",
+      "status": "verified",
+      "quote": "Timing. We're in the middle of the county audit and I can't have my PMs learning a tool in November. December's worse. If the receiving side goes first and the PMs come later, fine. But not November.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L541, turn 170, 14:37:35, Celeste Nwachukwu"
+      ]
+    },
+    {
+      "path": "/objections[4]/quote",
+      "status": "verified",
+      "quote": "Can you put a number in the recap? Even a range. Beatrix will ask.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L601, turn 190, 14:42:17, Sigrid Thorvaldsen"
+      ]
+    },
+    {
+      "path": "/objections[5]/quote",
+      "status": "verified",
+      "quote": "Beatrix signs the PO, every PO, so Beatrix will want to see it before a PO goes anywhere.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L490, turn 153, 14:33:30, Sigrid Thorvaldsen"
+      ]
+    },
+    {
+      "path": "/objections[6]/quote",
+      "status": "verified",
+      "quote": "And anything that connects to the lab system, Temitope has to be in the room, that's hers.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L490, turn 153, 14:33:30, Sigrid Thorvaldsen"
+      ]
+    },
+    {
+      "path": "/objections[7]/quote",
+      "status": "verified",
+      "quote": "Two, Temitope could probably build the status view in the lab system's report module, honestly. I don't know why that hasn't happened.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L517, turn 162, 14:35:31, Arjun Chandrasekar"
+      ]
+    },
+    {
+      "path": "/objections[8]/quote",
+      "status": "verified",
+      "quote": "Anything that touches a result has to go through our validation. If this thing shows a result, it's in scope for the assessor.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L469, turn 146, 14:32:02, Bartholomew Nkemelu"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[0]/quote",
+      "status": "verified",
+      "quote": "Wednesday the twenty-first at one. Thursday I'm at the south lab.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L625, turn 198, 14:43:36, Sigrid Thorvaldsen"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[1]/quote",
+      "status": "verified",
+      "quote": "I'll send the invite this afternoon, to everyone on this call plus Beatrix, and Sigrid, if you can get her to actually come, that's the one I'd push for.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L631, turn 200, 14:43:48, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[2]/quote",
+      "status": "verified",
+      "quote": "I'll get her. I'll walk to her office.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L634, turn 201, 14:44:06, Sigrid Thorvaldsen"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[3]/quote",
+      "status": "verified",
+      "quote": "Header row tomorrow. I'll strip it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L643, turn 204, 14:44:35, Arjun Chandrasekar"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[4]/quote",
+      "status": "verified",
+      "quote": "Just the columns. Yeah, I can do that today.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L640, turn 203, 14:44:29, Ronan Kavanagh"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[5]/quote",
+      "status": "verified",
+      "quote": "Wednesday works. I'll move the section leads' meeting.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L628, turn 199, 14:43:43, Fenella Bracewell"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[6]/quote",
+      "status": "verified",
+      "quote": "Sigrid, I'll write it up and send you the recap by tomorrow, and I'll keep the numbers as yours.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L664, turn 211, 14:45:12, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[7]/quote",
+      "status": "verified",
+      "quote": "And Winifred, if you're reading, I'll email you separately about the proposals side.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L646, turn 205, 14:44:40, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[8]/quote",
+      "status": "verified",
+      "quote": "Then that stays as a question for her, not a number from me.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L391, turn 120, 14:26:21, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[9]/quote",
+      "status": "verified",
+      "quote": "Good, don't. I'll put it on the list for her.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L310, turn 93, 14:21:07, Consultant"
+      ]
+    },
+    {
+      "path": "/requested_changes[0]/quote",
+      "status": "verified",
+      "quote": "And the county view, if that's real, is the thing I'd show their compliance manager in December.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L580, turn 183, 14:40:39, Sigrid Thorvaldsen"
+      ]
+    },
+    {
+      "path": "/requested_changes[1]/quote",
+      "status": "verified",
+      "quote": "I need to see it on a phone. In a van. With one bar.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L562, turn 177, 14:38:51, Casimir Wendl"
+      ]
+    },
+    {
+      "path": "/requested_changes[2]/quote",
+      "status": "verified",
+      "quote": "That's fine. Do the receiving side first. If that works, the rest follows.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L544, turn 171, 14:37:52, Sigrid Thorvaldsen"
+      ]
+    },
+    {
+      "path": "/requested_changes[3]/quote",
+      "status": "verified",
+      "quote": "Then I'll take that as a yes to a conversation with her, not as a scope decision made by chat, and I'll set it up separately.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L598, turn 189, 14:41:45, Consultant"
+      ]
+    },
+    {
+      "path": "/account_context/evidence_quote_or_null",
+      "status": "verified",
+      "quote": "There's a monday account, yeah. HR set it up for onboarding checklists, five seats, the basic plan I think. I've got admin on it because they asked me to. Nobody else has looked at it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L535, turn 168, 14:37:01, Arjun Chandrasekar"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[0]/quote",
+      "status": "verified",
+      "quote": "I'm not going to show you anything today.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L70, turn 13, 14:04:22, Consultant"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[2]/quote",
+      "status": "verified",
+      "quote": "That's the version I wanted. The last person we talked to opened with a slideshow.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L73, turn 14, 14:04:56, Sigrid Thorvaldsen"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[3]/quote",
+      "status": "verified",
+      "quote": "A receiving board that's the login sheet, but shared",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L577, turn 182, 14:39:55, Consultant"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[4]/quote",
+      "status": "verified",
+      "quote": "Can you put a number in the recap? Even a range. Beatrix will ask.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L601, turn 190, 14:42:17, Sigrid Thorvaldsen"
+      ]
+    },
+    {
+      "path": "/intake/roster/role_contradictions[0]/quote",
+      "status": "verified",
+      "quote": "Officially I'm admin. Unofficially, yes, I run receiving. There's two of us on the bench, I train them, I do the rush calls, I own the login sheet. HR never caught up.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L139, turn 36, 14:09:20, Ronan Kavanagh"
+      ]
+    },
+    {
+      "path": "/intake/roster/no_role_listed[0]/quote",
+      "status": "verified",
+      "quote": "I coordinate field sampling. Put that.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L127, turn 32, 14:08:32, Casimir Wendl"
+      ]
+    },
+    {
+      "path": "/intake/roster/chat_only_attendee/messages[0]/quote",
+      "status": "verified",
+      "quote": "I'm double-booked so I'll stay on mute and follow along here.",
+      "location": "chat 14:04:00 Winifred Quintero",
+      "cited": "meeting-chat.txt, L13, turn 3, 14:04:00, Winifred Quintero"
+    },
+    {
+      "path": "/intake/roster/chat_only_attendee/messages[1]/quote",
+      "status": "verified",
+      "quote": "For the proposals question: 212 proposals last year, 71 won. The tracker is my spreadsheet and nobody else touches it.",
+      "location": "chat 14:26:40 Winifred Quintero",
+      "cited": "meeting-chat.txt, L16, turn 4, 14:26:40, Winifred Quintero"
+    },
+    {
+      "path": "/intake/roster/chat_only_attendee/messages[2]/quote",
+      "status": "verified",
+      "quote": "Yes please to including proposals, if it doesn't slow the samples side down. Happy to do a call on it.",
+      "location": "chat 14:41:05 Winifred Quintero",
+      "cited": "meeting-chat.txt, L25, turn 7, 14:41:05, Winifred Quintero"
+    },
+    {
+      "path": "/intake/roster/chat_only_attendee/relay_in_speech/quote",
+      "status": "verified",
+      "quote": "She says two hundred and twelve proposals last year, seventy-one won, and the tracker is hers and nobody else touches it.",
+      "location": "14:27:14 Fenella Bracewell (Client Services Manager)",
+      "cited": "transcript.txt, L403, turn 124, 14:27:14, Fenella Bracewell"
+    },
+    {
+      "path": "/intake/second_hand[0]/requote/quote",
+      "status": "verified",
+      "quote": "She says two hundred and twelve proposals last year, seventy-one won, and the tracker is hers and nobody else touches it.",
+      "location": "14:27:14 Fenella Bracewell (Client Services Manager)",
+      "cited": "transcript.txt, L403, turn 124, 14:27:14, Fenella Bracewell"
+    },
+    {
+      "path": "/intake/second_hand[0]/true_source/quote",
+      "status": "verified",
+      "quote": "For the proposals question: 212 proposals last year, 71 won. The tracker is my spreadsheet and nobody else touches it.",
+      "location": "chat 14:26:40 Winifred Quintero",
+      "cited": "meeting-chat.txt, L16, turn 4, 14:26:40, Winifred Quintero"
+    },
+    {
+      "path": "/intake/second_hand[1]/requote/quote",
+      "status": "verified",
+      "quote": "Temitope can pull an export out of the lab system, I think. I'm fairly sure. She'd know.",
+      "location": "14:34:02 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L496, turn 155, 14:34:02, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/intake/second_hand[2]/requote/quote",
+      "status": "verified",
+      "quote": "And Ebenezer'd want the site safety form on there too, before anyone asks, because at the moment that's a paper form in the van.",
+      "location": "14:21:48 Casimir Wendl (field sampling coordinator, no title listed)",
+      "cited": "transcript.txt, L319, turn 96, 14:21:48, Casimir Wendl"
+    },
+    {
+      "path": "/intake/second_hand[3]/requote/quote",
+      "status": "verified",
+      "quote": "She's on mute. I'll take that as fine.",
+      "location": "14:15:14 Fenella Bracewell (Client Services Manager)",
+      "cited": "transcript.txt, L226, turn 65, 14:15:14, Fenella Bracewell"
+    },
+    {
+      "path": "/readiness/pains[0]/quote",
+      "status": "verified",
+      "quote": "Hold times. I'll just say it. Last month we blew four.",
+      "location": "14:15:58 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L238, turn 69, 14:15:58, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/readiness/pains[1]/quote",
+      "status": "verified",
+      "quote": "It goes wrong when I'm not there. Or when a batch came in on the satellite side and they logged it into the lab system. And not onto my sheet, because it's my sheet.",
+      "location": "14:18:02 Ronan Kavanagh (receiving lead, titled Administrative Assistant)",
+      "cited": "transcript.txt, L268, turn 79, 14:18:02, Ronan Kavanagh"
+    },
+    {
+      "path": "/readiness/pains[2]/quote",
+      "status": "verified",
+      "quote": "It'll tell you a hold time is exceeded after it's exceeded. It doesn't tell you it's tomorrow.",
+      "location": "14:11:57 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L178, turn 49, 14:11:57, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/readiness/pains[3]/quote",
+      "status": "verified",
+      "quote": "So a client wants to know where their report is. They call, or they email.",
+      "location": "14:22:12 Fenella Bracewell (Client Services Manager)",
+      "cited": "transcript.txt, L325, turn 98, 14:22:12, Fenella Bracewell"
+    },
+    {
+      "path": "/readiness/pains[4]/quote",
+      "status": "verified",
+      "quote": "Subs are the black hole. We send it, and we wait. There's no due date anywhere that's ours.",
+      "location": "14:25:34 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L382, turn 117, 14:25:34, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/readiness/pains[5]/quote",
+      "status": "verified",
+      "quote": "Someone re-keys it. Me, usually. The scope's in her sheet. The project's in the lab system.",
+      "location": "14:27:50 Celeste Nwachukwu (Project Manager)",
+      "cited": "transcript.txt, L409, turn 126, 14:27:50, Celeste Nwachukwu"
+    },
+    {
+      "path": "/readiness/pains[6]/quote",
+      "status": "verified",
+      "quote": "We get a login, we upload the PDF, and we fill in four fields that are already in the PDF. Anouk does most of it. It's twenty minutes a report and there's forty-odd a month for them.",
+      "location": "14:14:29 Fenella Bracewell (Client Services Manager)",
+      "cited": "transcript.txt, L217, turn 62, 14:14:29, Fenella Bracewell"
+    },
+    {
+      "path": "/readiness/pains[7]/quote",
+      "status": "verified",
+      "quote": "They don't. I tell them. I text them the morning list.",
+      "location": "14:21:48 Casimir Wendl (field sampling coordinator, no title listed)",
+      "cited": "transcript.txt, L319, turn 96, 14:21:48, Casimir Wendl"
+    },
+    {
+      "path": "/readiness/pains[8]/quote",
+      "status": "verified",
+      "quote": "And Ebenezer'd want the site safety form on there too, before anyone asks, because at the moment that's a paper form in the van.",
+      "location": "14:21:48 Casimir Wendl (field sampling coordinator, no title listed)",
+      "cited": "transcript.txt, L319, turn 96, 14:21:48, Casimir Wendl"
+    },
+    {
+      "path": "/readiness/signals[0]/quote",
+      "status": "verified",
+      "quote": "Temitope can pull an export out of the lab system, I think. I'm fairly sure. She'd know.",
+      "location": "14:34:02 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L496, turn 155, 14:34:02, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/readiness/signals[1]/quote",
+      "status": "verified",
+      "quote": "I already do it. I'm the bridge now. I'd rather be the bridge in something that isn't a printout.",
+      "location": "14:35:21 Ronan Kavanagh (receiving lead, titled Administrative Assistant)",
+      "cited": "transcript.txt, L514, turn 161, 14:35:21, Ronan Kavanagh"
+    },
+    {
+      "path": "/readiness/signals[2]/quote",
+      "status": "verified",
+      "quote": "It's right. I'd want to see what the day-before thing actually looks like before I believe it.",
+      "location": "14:40:51 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L583, turn 184, 14:40:51, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/readiness/signals[3]/quote",
+      "status": "verified",
+      "quote": "And the county view, if that's real, is the thing I'd show their compliance manager in December.",
+      "location": "14:40:39 Sigrid Thorvaldsen (VP Operations, parent group)",
+      "cited": "transcript.txt, L580, turn 183, 14:40:39, Sigrid Thorvaldsen"
+    },
+    {
+      "path": "/readiness/signals[4]/quote",
+      "status": "verified",
+      "quote": "The client portal question, whether the engineers get a login, can we park that for the second call?",
+      "location": "14:41:08 Celeste Nwachukwu (Project Manager)",
+      "cited": "transcript.txt, L589, turn 186, 14:41:08, Celeste Nwachukwu"
+    },
+    {
+      "path": "/readiness/signals[5]/quote",
+      "status": "verified",
+      "quote": "Yes please to including proposals, if it doesn't slow the samples side down. Happy to do a call on it.",
+      "location": "chat 14:41:05 Winifred Quintero",
+      "cited": "meeting-chat.txt, L25, turn 7, 14:41:05, Winifred Quintero"
+    },
+    {
+      "path": "/readiness/signals[6]/quote",
+      "status": "verified",
+      "quote": "And Ebenezer'd want the site safety form on there too, before anyone asks, because at the moment that's a paper form in the van.",
+      "location": "14:21:48 Casimir Wendl (field sampling coordinator, no title listed)",
+      "cited": "transcript.txt, L319, turn 96, 14:21:48, Casimir Wendl"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[0]",
+      "status": "verified",
+      "quote": "One bottle can be on three clocks if it's down for three analyses.",
+      "location": "14:11:10 Bartholomew Nkemelu (Quality, not on the roster)",
+      "cited": "transcript.txt, L169, turn 46, 14:11:10, Bartholomew Nkemelu"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[1]",
+      "status": "verified",
+      "quote": "Four batches where an analysis didn't start in time and the result wasn't reportable.",
+      "location": "14:15:58 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L238, turn 69, 14:15:58, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[2]",
+      "status": "verified",
+      "quote": "Every batch that comes in gets a row, date received, project number, how many bottles, which analyses, and the earliest hold time.",
+      "location": "14:09:53 Ronan Kavanagh (receiving lead, titled Administrative Assistant)",
+      "cited": "transcript.txt, L148, turn 39, 14:09:53, Ronan Kavanagh"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[3]",
+      "status": "verified",
+      "quote": "I'd have to check whether hold time's in it, I think it's a derived field.",
+      "location": "14:36:35 Arjun Chandrasekar (IT provider)",
+      "cited": "transcript.txt, L529, turn 166, 14:36:35, Arjun Chandrasekar"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[0]",
+      "status": "verified",
+      "quote": "If we don't do a test in-house, and there's a handful we don't, it goes to a sub. Two, uh, two subcontract labs we use. Solveig handles that, she's not on today.",
+      "location": "14:12:14 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L184, turn 51, 14:12:14, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[1]",
+      "status": "verified",
+      "quote": "There's no due date anywhere that's ours.",
+      "location": "14:25:34 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L382, turn 117, 14:25:34, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[2]",
+      "status": "verified",
+      "quote": "And I want to know a sub is late before the client does.",
+      "location": "14:31:31 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L463, turn 144, 14:31:31, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[0]",
+      "status": "verified",
+      "quote": "Someone re-keys it. Me, usually. The scope's in her sheet. The project's in the lab system.",
+      "location": "14:27:50 Celeste Nwachukwu (Project Manager)",
+      "cited": "transcript.txt, L409, turn 126, 14:27:50, Celeste Nwachukwu"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[1]",
+      "status": "verified",
+      "quote": "For the proposals question: 212 proposals last year, 71 won. The tracker is my spreadsheet and nobody else touches it.",
+      "location": "chat 14:26:40 Winifred Quintero",
+      "cited": "meeting-chat.txt, L16, turn 4, 14:26:40, Winifred Quintero"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[2]",
+      "status": "verified",
+      "quote": "Yes please to including proposals, if it doesn't slow the samples side down. Happy to do a call on it.",
+      "location": "chat 14:41:05 Winifred Quintero",
+      "cited": "meeting-chat.txt, L25, turn 7, 14:41:05, Winifred Quintero"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[0]",
+      "status": "verified",
+      "quote": "We get a login, we upload the PDF, and we fill in four fields that are already in the PDF.",
+      "location": "14:14:29 Fenella Bracewell (Client Services Manager)",
+      "cited": "transcript.txt, L217, turn 62, 14:14:29, Fenella Bracewell"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[1]",
+      "status": "verified",
+      "quote": "Ten business days from receipt to report, with a status they can see.",
+      "location": "14:16:59 Sigrid Thorvaldsen (VP Operations, parent group)",
+      "cited": "transcript.txt, L253, turn 74, 14:16:59, Sigrid Thorvaldsen"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[0]",
+      "status": "verified",
+      "quote": "And Ebenezer'd want the site safety form on there too, before anyone asks, because at the moment that's a paper form in the van.",
+      "location": "14:21:48 Casimir Wendl (field sampling coordinator, no title listed)",
+      "cited": "transcript.txt, L319, turn 96, 14:21:48, Casimir Wendl"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[0]",
+      "status": "verified",
+      "quote": "Usually the engineer, because their client is asking them.",
+      "location": "14:22:12 Fenella Bracewell (Client Services Manager)",
+      "cited": "transcript.txt, L325, turn 98, 14:22:12, Fenella Bracewell"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[1]",
+      "status": "verified",
+      "quote": "And the county can see theirs without calling Fenella.",
+      "location": "14:31:01 Sigrid Thorvaldsen (VP Operations, parent group)",
+      "cited": "transcript.txt, L454, turn 141, 14:31:01, Sigrid Thorvaldsen"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[2]",
+      "status": "verified",
+      "quote": "The client portal question, whether the engineers get a login, can we park that for the second call?",
+      "location": "14:41:08 Celeste Nwachukwu (Project Manager)",
+      "cited": "transcript.txt, L589, turn 186, 14:41:08, Celeste Nwachukwu"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[0]",
+      "status": "verified",
+      "quote": "Nightly. Project, batch, analyses, status codes, dates, that sort of thing.",
+      "location": "14:36:35 Arjun Chandrasekar (IT provider)",
+      "cited": "transcript.txt, L529, turn 166, 14:36:35, Arjun Chandrasekar"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[1]",
+      "status": "verified",
+      "quote": "Some are seven days, some are forty-eight hours, some are twenty-eight days.",
+      "location": "14:11:10 Bartholomew Nkemelu (Quality, not on the roster)",
+      "cited": "transcript.txt, L169, turn 46, 14:11:10, Bartholomew Nkemelu"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[2]",
+      "status": "verified",
+      "quote": "It'll tell you a hold time is exceeded after it's exceeded. It doesn't tell you it's tomorrow.",
+      "location": "14:11:57 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L178, turn 49, 14:11:57, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[3]",
+      "status": "verified",
+      "quote": "I already do it. I'm the bridge now.",
+      "location": "14:35:21 Ronan Kavanagh (receiving lead, titled Administrative Assistant)",
+      "cited": "transcript.txt, L514, turn 161, 14:35:21, Ronan Kavanagh"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[0]",
+      "status": "verified",
+      "quote": "Routinely. And the clock doesn't care which building it's in.",
+      "location": "14:10:57 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "cited": "transcript.txt, L163, turn 44, 14:10:57, Matthias Okonkwo-Reyes"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[1]",
+      "status": "verified",
+      "quote": "Then they're supposed to, they're supposed to email me the batch numbers.",
+      "location": "14:10:16 Ronan Kavanagh (receiving lead, titled Administrative Assistant)",
+      "cited": "transcript.txt, L154, turn 41, 14:10:16, Ronan Kavanagh"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[2]",
+      "status": "verified",
+      "quote": "Three of the four last month were satellite batches.",
+      "location": "14:18:02 Ronan Kavanagh (receiving lead, titled Administrative Assistant)",
+      "cited": "transcript.txt, L268, turn 79, 14:18:02, Ronan Kavanagh"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[0]",
+      "status": "verified",
+      "quote": "They don't. I tell them. I text them the morning list.",
+      "location": "14:21:48 Casimir Wendl (field sampling coordinator, no title listed)",
+      "cited": "transcript.txt, L319, turn 96, 14:21:48, Casimir Wendl"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[1]",
+      "status": "verified",
+      "quote": "Only that whatever it is, I need to see it on a phone. In a van. With one bar. If it needs a laptop, I'm not in it.",
+      "location": "14:38:51 Casimir Wendl (field sampling coordinator, no title listed)",
+      "cited": "transcript.txt, L562, turn 177, 14:38:51, Casimir Wendl"
+    }
+  ]
+}

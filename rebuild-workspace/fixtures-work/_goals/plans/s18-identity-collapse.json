@@ -1,0 +1,58 @@
+{
+  "goals": [
+    {
+      "id": "G1",
+      "goal": "Everything in one place; Monday shows late boats; owners told a week before",
+      "quote": "A boat comes out, and everything about it, the jobs, the parts, the launch date, who's on it, is in one place, and on a Monday morning I can see which ones won't make their date, and the owner's been told a week before, not on the day.",
+      "location": "00:31:12 Tadhg Devlin",
+      "speaker_role": "general manager",
+      "pains": [
+        "P1.1",
+        "P1.2",
+        "P1.3",
+        "P3.1",
+        "P4.1"
+      ]
+    },
+    {
+      "id": "G2",
+      "goal": "Every hour on a card by Friday",
+      "quote": "Every hour on a card by Friday.",
+      "location": "00:31:53 Maxine Bassett",
+      "speaker_role": "workshop manager (Bernie Locke, under the borrowed label)",
+      "pains": [
+        "P2.1",
+        "P2.2"
+      ]
+    },
+    {
+      "id": "G3",
+      "goal": "The boats go back in on their dates next spring",
+      "quote": "If the boats go in on their dates next spring, we've done it.",
+      "location": "00:33:33 Tadhg Devlin",
+      "speaker_role": "general manager",
+      "pains": [
+        "P1.1",
+        "P1.2",
+        "P1.3"
+      ]
+    }
+  ],
+  "assumption_kinds": [
+    "leaning",
+    "gap",
+    "gap",
+    "leaning",
+    "leaning",
+    "gap",
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "gap",
+    "gap",
+    "gap",
+    "leaning"
+  ],
+  "note_add": null
+}

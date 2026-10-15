@@ -1,0 +1,270 @@
+[00:03] Consultant: Hi, can you all hear me okay?
+[00:06] Emmett Thibault: Loud and clear. Give me one second, I'm going to shut my door, there's a forklift going back and forth outside my window and it beeps every time it reverses.
+[00:19] Consultant: Please do.
+[00:24] Emmett Thibault: Okay. Better. So it's me, Delia's on, and Wes said he'd dial in from the road.
+[00:32] Wes Kubiak: I'm here. I'm parked, before anybody worries. I'm at a truck stop outside Angola waiting on a customer to call me back, so if you hear a diesel it's not me.
+[00:45] Consultant: Ha, understood. Hi Wes, hi Delia.
+[00:49] Delia Ostrowski: Hi. Sorry, I'm eating lunch at my desk, I'll try to be quiet about it.
+[00:55] Consultant: Eat away, honestly. Emmett, how's the week?
+[01:00] Emmett Thibault: It's the second week of September, so it's quoting season. Everybody's doing their capital stuff before year end. Busy is good. Busy and blind is less good, which is sort of why we're talking.
+[01:16] Consultant: That's a good line to start on. Before we get into it, let me tell you how I'd like to use the time. I'm going to ask a lot of questions about how things actually run today, where it hurts, and what you'd want instead. I'm not going to show you anything. And if it turns out you need two fixes to a spreadsheet and not a project, I'll tell you that.
+[01:38] Emmett Thibault: Fine by me. I've been sold to enough.
+[01:42] Consultant: I'd rather earn it. So start me at the top. What does the company do, and who's who on this call?
+[01:50] Emmett Thibault: We're an industrial supplies distributor. Fasteners, abrasives, cutting tools, safety, general MRO consumables. Our customers are fabricators, machine shops, a couple of food plants, some municipalities. We're eighty-five people. Two warehouses, Toledo is the main one and where I sit, and Fort Wayne is the second one.
+[02:14] Consultant: And the sales side?
+[02:17] Emmett Thibault: Twenty-two outside reps. Five inside sales and counter people. Three regional managers, Wes is one of them. Delia is sales operations, which in practice means Delia is the only person who knows anything.
+[02:33] Delia Ostrowski: That's generous. I'm one person and a lot of Excel.
+[02:38] Consultant: Wes, which region are you?
+[02:41] Wes Kubiak: Fort Wayne and everything west and south of there. Seven reps. And as of January I also get the new territory, which is the reason Emmett called you, probably.
+[02:54] Consultant: We'll come back to that in a bit, I want to hear it properly. Delia, what's your day actually look like?
+[03:02] Delia Ostrowski: Um. So. Tuesday morning I pull every open quote out of P twenty-one, that's our ERP, Prophet twenty-one, and I paste them into the workbook. Then I chase reps for what's still alive and what's dead. Friday morning I do the forecast, which is the same thing again but I have to make it add up, and then I email it to Emmett and Gene.
+[03:27] Consultant: Gene is?
+[03:29] Emmett Thibault: Gene's the president. Family owns the business, he's second generation. He's not on this call and he doesn't need to be.
+[03:38] Consultant: Got it. Delia, tell me about the workbook. What is it, literally?
+[03:44] Delia Ostrowski: It's an Excel file on SharePoint. There's a tab per rep, twenty-two tabs, plus a summary tab that I built with formulas that break about once a month. Every rep keeps their own tab, and the columns are different in almost every one, because they set them up themselves back in twenty-nineteen and nobody ever standardised it.
+[04:08] Consultant: So when you make the summary tab work, what are you actually doing?
+[04:13] Delia Ostrowski: Retyping. Honestly. Some of them put the customer in one column, some of them put customer and city together, one guy puts the quote number in the notes field. I copy it into the shape the summary needs.
+[04:29] Consultant: Emmett, when you look at that summary on Friday, what are you looking at?
+[04:35] Emmett Thibault: A guess. I'll be straight with you. I cannot tell you today what's going to close this month. I can tell you what twenty-two people told me they hope will close, which is not the same thing.
+[04:50] Consultant: What's the gap between those two, usually?
+[04:54] Emmett Thibault: Big. And it's not lying, it's just optimism and a bad memory. A rep says a quote is hot because he remembers the visit, not because anything happened this week.
+[05:08] Consultant: Where does the quote itself live?
+[05:11] Emmett Thibault: P twenty-one. The quote lives in P twenty-one, the pricing lives in P twenty-one, the stock lives in P twenty-one, and everything about whether anybody's actually going to buy it lives in somebody's head.
+[05:27] Delia Ostrowski: Or in the workbook, for about four days after I ask.
+[05:32] Consultant: Is P twenty-one staying?
+[05:35] Emmett Thibault: P twenty-one is not going anywhere. That's orders, inventory, contract pricing, invoicing. Don't touch it.
+[05:44] Consultant: Understood, and that's useful to hear this early. What about a CRM? Is there one?
+[05:51] Emmett Thibault: There's GoldMine.
+[05:53] Delia Ostrowski: [laughs]
+[05:55] Consultant: Tell me about GoldMine.
+[05:58] Emmett Thibault: It's still installed. It's on a server in Toledo that I'm told we can't turn off for some licensing reason. Nobody has opened it since, what, twenty-twenty-three?
+[06:11] Delia Ostrowski: I opened it in February to look up an old contact and the last activity on the record was from twenty-twenty-two. Everything in there is three years stale at best.
+[06:24] Consultant: Is anything in it worth keeping?
+[06:27] Delia Ostrowski: The account list, maybe, and only because some of those companies aren't in P twenty-one if they never bought anything. The activity history, no. I wouldn't trust a note in there.
+[06:42] Consultant: Why did it stop getting used?
+[06:45] Emmett Thibault: Because we bought it for the managers and rolled it out to the reps, and the reps decided it was a surveillance tool, and after about a year of me nagging I gave up. We paid for GoldMine for six years and used it for about one. I'm not doing that again.
+[07:06] Consultant: That's worth remembering, and I'll come back to it. What else are you running? Email, phones, anything else with customer information in it.
+[07:16] Delia Ostrowski: Microsoft three sixty-five for everything, Outlook, Teams. SharePoint for the workbook and for quote PDFs. We've got a form on the website that dumps enquiries into a shared inbox. Trade show badge scans come back as a spreadsheet from whoever ran the booth.
+[07:37] Consultant: Anything with monday.com in it already?
+[07:41] Emmett Thibault: Yeah, actually. We bought monday about nine months ago for the operations side. Purchasing uses it for vendor returns and for the Fort Wayne racking project. I think there's a board for the safety audits too.
+[07:58] Consultant: Do you know what plan you're on?
+[08:01] Delia Ostrowski: It says Pro when I log in. And there's a whole sales CRM section in there with nothing in it, which I've clicked into maybe twice.
+[08:14] Consultant: Good to know, and I'll want to look at that with you before I design anything. Let's walk the sales process end to end. A new company you've never sold to. How does it reach you?
+[08:28] Wes Kubiak: Four ways, mostly. Trade show list. The website form. A rep drives past a building with a fab shop sign on it and stops in. Or purchasing at an existing customer moves to a new company and calls their rep.
+[08:47] Consultant: And then what happens to it?
+[08:50] Wes Kubiak: Then it depends entirely on the rep. It goes in his phone, or on a sticky note, or in his tab in the workbook if he's one of the organised ones.
+[09:02] Consultant: What do you call those, internally? A new company nobody's sold to yet.
+[09:08] Wes Kubiak: A prospect.
+[09:10] Emmett Thibault: Prospect. And once we're actually quoting them it's an opportunity. Or a quote, we say quote more, honestly. "I've got a quote out at Brightline."
+[09:23] Consultant: So a quote can mean the document in P twenty-one or the deal itself?
+[09:29] Emmett Thibault: Yeah. Both. Nobody's ever confused by it internally, but I can see how it's confusing from outside.
+[09:38] Delia Ostrowski: It confuses me on Tuesdays. A rep will say the quote's dead and mean the whole thing is dead, or mean he requoted it with different pricing and there's a new number.
+[09:52] Consultant: And an existing customer, what's your word?
+[09:56] Emmett Thibault: An account. Or a customer, same thing. We've got about eleven hundred accounts that bought something in the last two years. Maybe four hundred that buy every month.
+[10:10] Consultant: Are they all assigned to a rep?
+[10:13] Emmett Thibault: Most. The small ones sit in what we call house accounts, which means inside sales takes the order if it comes in and nobody's calling them otherwise. There's a couple hundred of those and they're probably worth more than we think.
+[10:32] Consultant: Okay. Back to the flow. Prospect comes in, rep qualifies it somehow, then?
+[10:39] Wes Kubiak: Then he visits, usually. Gets a line on what they're buying today and who from. Then he asks for a chance to quote something, and that's when Delia or inside sales builds the quote in P twenty-one.
+[10:56] Consultant: The rep doesn't build it?
+[11:00] Delia Ostrowski: Some do. Most would rather not, because of the pricing matrices. If it's contract pricing or a stocking agreement it comes to me.
+[11:11] Consultant: What's a stocking agreement?
+[11:14] Wes Kubiak: We agree to hold their fasteners on our shelf and they commit to buying them over a year. Blanket order, same idea. Those are the good ones, they're sticky. That's the Brightline one that we lost.
+[11:31] Consultant: Tell me about that one.
+[11:34] Emmett Thibault: So Brightline Metalworks. We had a sixty-two thousand dollar stocking quote sitting at Brightline for five weeks and nobody touched it. Not a call, not an email. They bought from Vantage Industrial instead and I found out because their purchasing guy mentioned it at a golf thing.
+[11:56] Consultant: Five weeks. What was supposed to happen in those five weeks?
+[12:01] Emmett Thibault: Somebody was supposed to call them. That's it. That's the whole thing. There was no fight, we didn't get beaten on price, we just went quiet on a sixty-two thousand dollar quote.
+[12:16] Consultant: Is that a one-off, or is there a pattern?
+[12:20] Delia Ostrowski: It's a pattern. I ran the numbers last month because Emmett asked me to. Of the quotes over five thousand dollars we sent out last year, thirty-eight percent had no activity after the day they went out. None. No call logged, no note, no requote, nothing.
+[12:42] Consultant: How many quotes is that?
+[12:45] Delia Ostrowski: There were four hundred and seventy-one of them over five thousand.
+[12:51] Emmett Thibault: Thirty-eight percent. That number made me feel sick, honestly. I've been carrying it around since August.
+[13:00] Consultant: What happens today to make sure a quote gets followed up?
+[13:05] Wes Kubiak: Nothing. There's no follow-up step. It's whether the rep remembers, and some of them are excellent and some of them are not.
+[13:16] Consultant: Nothing at all in the system?
+[13:19] Delia Ostrowski: P twenty-one will show me an open quote until it expires, but it won't tell anybody to do anything about it, and nobody's looking at that list except me on Tuesday.
+[13:33] Consultant: Who ends up dealing with the fallout when one goes quiet?
+[13:38] Emmett Thibault: Me, eventually, because it shows up as a month that missed. Wes gets it first.
+[13:46] Wes Kubiak: And it's not just Emmett who can't see it. I don't know what my own seven guys have out there unless I call them and ask. My Monday morning call is a bunch of people telling me what they think they're going to close and me writing it on a legal pad.
+[14:05] Consultant: A legal pad.
+[14:07] Wes Kubiak: A legal pad. I have a drawer of them. If you want to know what happened in March you can go read March.
+[14:16] Consultant: What happens to that account history when somebody leaves?
+[14:21] Wes Kubiak: Funny you ask. When Rudy left in March he took his notebook with him. And that was the account history for about ninety customers. A paper notebook that walked out the door.
+[14:36] Consultant: What did that cost you, practically?
+[14:40] Wes Kubiak: Practically? Two of my guys called Kestrel Fabrication in the same week and neither knew the other had been there, and the buyer told the second one, your company already came in on Tuesday, are you not talking to each other. That was embarrassing. And then we gave away a price on a repeat order because the new guy didn't know what we'd quoted the year before.
+[15:07] Consultant: Do you know what that one cost?
+[15:10] Wes Kubiak: Not exactly. A few hundred dollars of margin on that order. But the Kestrel thing, I mean, they're a good customer, and we looked like a mess.
+[15:23] Consultant: What do you do today to stop that happening again?
+[15:28] Wes Kubiak: I tell people to write things down. That's it. That's my whole system. And I can't make a rep write things down, I've tried.
+[15:39] Consultant: Delia, does anything about a departing rep come to you?
+[15:44] Delia Ostrowski: I get the tab. I get their tab in the workbook, which is usually about a third filled in. And I'll pull their quote history out of P twenty-one for whoever takes over. But there's no notes, no, this guy only buys in July, no, don't call before ten. That's all gone.
+[16:07] Consultant: Wes, you mentioned visits. How do you know who's been visited?
+[16:13] Wes Kubiak: I don't. I plan ride-alongs off memory. I couldn't tell you who's actually been in front of a customer in the last ninety days, and that's the part that keeps me up, honestly, because with the new territory I'm going to have four people I've never managed.
+[16:33] Consultant: Has there ever been a version of that? Call reports, visit logs?
+[16:39] Wes Kubiak: Call reports were a thing we did for about six months in twenty-twenty-one. It was an email at the end of the day. It died because nobody read them, including me.
+[16:53] Consultant: What would make you read them?
+[16:56] Wes Kubiak: If it was a list I could sort. Not twenty-two emails.
+[17:02] Consultant: Emmett, does the visit question matter to you, or is that Wes's problem?
+[17:08] Emmett Thibault: It matters when I'm asked why a region is down and the honest answer is I don't know if anybody went out there. Gene asked me that in June about Fort Wayne and I didn't have an answer.
+[17:23] Consultant: What about margin and pricing visibility? Who sees what?
+[17:29] Emmett Thibault: Reps see their own quotes and their own margin on those. They don't see other people's, and they absolutely don't see the contract pricing matrix for the whole line card. Managers see their region. Delia sees everything, Gene sees everything.
+[17:49] Consultant: And that has to hold in anything new.
+[17:52] Emmett Thibault: Yes. That one's not negotiable. If a rep can see what we give another customer on the same part, I'll have a problem within a week.
+[18:04] Consultant: Noted. Anything else with a rule around it? Municipal work, for instance.
+[18:11] Delia Ostrowski: The city bids. Anything we submit to the City of Hollandale water department is a public record, so we're careful what we write on those. And there's a whole bid calendar we track badly.
+[18:28] Consultant: Track badly how?
+[18:31] Delia Ostrowski: A spreadsheet. A different spreadsheet. With due dates I update when I remember.
+[18:39] Consultant: Is the bid work in scope for what you're thinking about, or is that separate?
+[18:45] Emmett Thibault: Separate. Let's not boil the ocean. I want the pipeline first.
+[18:52] Consultant: Fair. Let's talk about why now, because you've mentioned January twice.
+[19:00] Emmett Thibault: Right. So. We're launching western Pennsylvania on January fifth. Four reps, two already signed, and the first one starts December first.
+[19:14] Consultant: Why Pennsylvania, and why now?
+[19:18] Emmett Thibault: Because a competitor there sold to a national and their people are unhappy, and because we picked up the Northgate abrasives line for that geography in June. It's a haul from Toledo, about four hours, so it's a real build, not an extension of a route.
+[19:39] Consultant: What does January fifth actually mean? Is it a date somebody set, or a real deadline?
+[19:46] Emmett Thibault: It's real. The two signed reps start December first and January fifth, and their guarantee period starts when they start. Every month they're not productive is money.
+[19:59] Consultant: And you said Gene wants something.
+[20:02] Emmett Thibault: Gene wants a rolling ninety-day forecast on his desk every month starting in January. He asked for it in August, after Brightline, and right now I'd be making it up. I'd be adding up hopes.
+[20:19] Consultant: Say nothing changes. You launch the territory on the current setup. What does that look like?
+[20:26] Emmett Thibault: Four new people with no history, no account records, nothing to hand them except a list out of P twenty-one of who bought what. And Wes managing seven plus four across two states off a legal pad.
+[20:43] Wes Kubiak: With four more reps and a territory we've never sold into, the legal pad stops working. It barely works now. I've got seven and I'm at the edge of it.
+[20:56] Consultant: Delia, what happens to your Tuesday and Friday if four reps get added?
+[21:02] Delia Ostrowski: Twenty-six tabs instead of twenty-two. And four tabs from people who don't know how we do it, so I'd be building those columns for them. It's worse than linear, honestly, because new people ask more questions.
+[21:20] Consultant: Okay. I want to put some numbers on the current state, because I don't like guessing and I suspect you don't either. Delia, how long does the workbook actually take you?
+[21:33] Delia Ostrowski: Tuesday morning and Friday morning. So call it six hours a week, and that's a quiet week. Month end is worse.
+[21:43] Consultant: And your loaded cost, roughly? Not your salary, what you cost the company all in.
+[21:50] Emmett Thibault: Delia loaded is about thirty-five an hour. That's close enough.
+[21:56] Delia Ostrowski: I'll take it.
+[21:59] Consultant: Wes, per rep, how much time goes into this stuff? Their own spreadsheet, calling the branch to find out what shipped, looking for what they quoted last year.
+[22:12] Wes Kubiak: Three hours a week, easy. Some of them more. And a chunk of that is calling Fort Wayne to ask a question they could have looked up if it was written anywhere.
+[22:26] Consultant: And a rep's loaded cost?
+[22:29] Emmett Thibault: With the truck, the phone, benefits, all of it, about sixty an hour.
+[22:36] Consultant: And managers. Wes, how much of your week is chasing updates that should already exist?
+[22:43] Wes Kubiak: Four hours. The Monday call is an hour and a half of it and then I'm calling people all week to fill in what they didn't say on the call. And there's three of us doing that.
+[22:57] Emmett Thibault: Call a manager seventy an hour loaded.
+[23:01] Consultant: Delia, you're the one with the spreadsheet open. Can you add that up?
+[23:07] Delia Ostrowski: Sure. Six times thirty-five is two hundred and ten a week, times fifty-two, that's ten thousand nine hundred and twenty for me. Reps, twenty-two times three is sixty-six hours a week, times sixty an hour is three thousand nine hundred and sixty a week, times fifty-two is two hundred and five thousand nine hundred and twenty.
+[23:32] Emmett Thibault: Say that again?
+[23:34] Delia Ostrowski: Two hundred and five thousand nine hundred and twenty a year, on reps, just on that three hours.
+[23:42] Emmett Thibault: Okay.
+[23:44] Delia Ostrowski: Managers, four hours each, three of you, that's twelve hours a week at seventy, times fifty-two, forty-three thousand six hundred and eighty. So on time alone that's two hundred and sixty thousand five hundred and twenty.
+[24:03] Consultant: And that's before anything you lose commercially. Let's do the quotes. You said four hundred and seventy-one quotes over five thousand got no follow-up. What's an average quote worth, and what's the margin on it?
+[24:20] Emmett Thibault: Average quote over five thousand is about eight thousand. We make about twenty-five points on that kind of work. So two thousand dollars of margin a quote, near enough.
+[24:34] Consultant: So if half of those four hundred and seventy-one had been followed up and closed at your normal rate, you'd be looking at something like four hundred and seventy thousand in margin.
+[24:47] Emmett Thibault: No. Nowhere near half. Don't do that to me, I'll get excited and then I'll be wrong in front of Gene.
+[24:56] Consultant: Then give me your number. What would you actually have won?
+[25:01] Emmett Thibault: If I'm honest, one in twenty of the ones we didn't chase. Some of them were never real. So twenty-three orders. Twenty-three times two thousand, that's forty-six thousand.
+[25:16] Consultant: You're comfortable with that one?
+[25:19] Emmett Thibault: I'm comfortable defending it. And the forty-six is conservative, I'd bet it's double, but I'll say forty-six.
+[25:29] Consultant: So where does that leave the total?
+[25:32] Delia Ostrowski: Two hundred and sixty thousand five hundred and twenty plus forty-six thousand. Three hundred and six thousand five hundred and twenty.
+[25:43] Emmett Thibault: Three hundred and six thousand a year. Huh. And that's without the Brightline sixty-two, because that's a one-off.
+[25:53] Consultant: Correct, I'd leave one-offs out. Does that number feel right to you, high, low?
+[26:00] Emmett Thibault: It feels low, if anything. It doesn't have my time in it, and it doesn't have the house accounts nobody's calling.
+[26:10] Consultant: Let's leave those out then and keep the number defensible. Now the other direction. The territory. What does a rep at full ramp do?
+[26:21] Emmett Thibault: About two point two million a year in revenue, at roughly the same twenty-five points.
+[26:29] Consultant: And how long is ramp today?
+[26:32] Emmett Thibault: Nine months, historically. That's what the last three hires took to get to a normal book.
+[26:40] Consultant: If they had account records, visit history, a live pipeline from day one, what would you say?
+[26:48] Emmett Thibault: Six. I'd say six, and I'd be annoyed if it wasn't.
+[26:54] Consultant: So what's three months earlier worth, for four people?
+[27:00] Delia Ostrowski: A ramping rep isn't doing full rate, so say half. Half of two point two is one point one, so a quarter of that is two hundred and seventy-five thousand each in that quarter. Four reps, that's one point one million in revenue.
+[27:20] Emmett Thibault: And a quarter of that is margin, so two hundred and seventy-five thousand. In the launch year.
+[27:28] Consultant: That's a launch-year figure rather than every year, agreed?
+[27:33] Emmett Thibault: Agreed. Once they're ramped they're ramped.
+[27:38] Consultant: Is there something you'd go after if capacity weren't the limit? Either of you.
+[27:44] Delia Ostrowski: If I weren't rebuilding that workbook twice a week I'd be doing win-loss on the city bids. Nobody has ever looked at why we lose those. We just lose them and move on.
+[27:59] Wes Kubiak: House accounts. Two hundred-odd companies that buy from us when they happen to call. Nobody's ever worked that list and I've asked for somebody to work it for three years.
+[28:14] Consultant: Both of those are worth writing down. Emmett, let me ask you a different way. Say this is running well by spring. What's different in a normal week?
+[28:26] Emmett Thibault: A normal week is: I open one screen on Monday morning and I know what's out there, what's stuck, and what closed. I don't ask twenty-two people and I don't wait for Friday.
+[28:41] Consultant: And what would Gene count as a win?
+[28:44] Emmett Thibault: If the forecast I give him in January is within ten percent. That's it. That's his whole test. He's a numbers guy and he doesn't care how it's made.
+[28:57] Consultant: Wes, yours?
+[29:00] Wes Kubiak: Knowing who's been in front of a customer without asking anybody. And the new four getting to productive without me living in Pennsylvania.
+[29:11] Consultant: Delia?
+[29:13] Delia Ostrowski: Not retyping. Genuinely, that's my answer. If the summary builds itself I don't care what it looks like.
+[29:25] Consultant: Let's talk about how a decision like this gets made with you. Who's involved besides the three of you?
+[29:34] Emmett Thibault: This is my call. I've got a line in the sales budget and I don't need Gene's signature under forty thousand a year. Gene wants to be told, not asked.
+[29:48] Consultant: And if it's over forty?
+[29:51] Emmett Thibault: Then it's a conversation with him and probably with our accountant, and it gets slower. I'd rather stay under it.
+[30:01] Consultant: What about the P twenty-one side? Who has to be comfortable there?
+[30:07] Emmett Thibault: We don't have an IT department, we have Halbrook Technology, and Anil over there has to bless anything that touches P twenty-one. He's reasonable but he's slow, and he'll want to know what's reading what.
+[30:24] Consultant: How long does Anil usually take?
+[30:27] Delia Ostrowski: A week or two if you ask him nicely and give him a document. Longer if it sounds like it writes anything back into P twenty-one.
+[30:38] Consultant: Good to know. And who'd own this day to day once it's running?
+[30:44] Emmett Thibault: Delia. She's the one who'd have to keep it alive, which is the part I want to ask about actually.
+[30:52] Consultant: Go ahead.
+[30:54] Emmett Thibault: Honestly, part of me thinks Delia could just build this herself in monday and we keep the money. We've already got the licences. What am I paying for?
+[31:07] Consultant: That's a completely fair question, and you might be right. Let me ask you both the same thing back: what's held it up so far, and whose time would it use?
+[31:19] Delia Ostrowski: I mean. I started. I built a Prospects board in April and it died in three weeks, because I got pulled onto the physical inventory count and never went back. It's still sitting there with about forty rows in it and half of them are test rows with my own name on them.
+[31:41] Consultant: What stopped you going back to it?
+[31:44] Delia Ostrowski: Inventory, then month end, then a rep quit. And I didn't really know how it should be built. I was copying the workbook columns onto a board, which I don't think was right, and I couldn't work out how to link a company to its quotes without it getting messy.
+[32:06] Emmett Thibault: Which is a fair answer, and it's the answer I got about GoldMine too.
+[32:12] Consultant: What's your read on it, Emmett? Not on me, on the time.
+[32:17] Emmett Thibault: My read is Delia's got one pair of hands and if I put this on her she does it in the gaps and it's live in June. And I need it in December.
+[32:29] Consultant: Then the honest version is: some of this you could build, and the part that's worth paying for is having it done right the first time and finished before December. If after this call you think the shape is simple enough to do in-house, I'll tell you what I'd do and you can have it.
+[32:48] Emmett Thibault: Noted. Let's see what you come back with.
+[32:53] Wes Kubiak: Can I ask a dumb question about monday while we're here?
+[32:57] Consultant: There aren't any. Go.
+[33:00] Wes Kubiak: The boards purchasing built are a mess, honestly. Things in the wrong place, columns nobody fills in. Is that monday, or is that us?
+[33:12] Consultant: What does it fail to do, specifically?
+[33:16] Wes Kubiak: I mean. Nobody set it up for us, we just kind of started typing in it. So probably that's us.
+[33:25] Consultant: Usually it is, and I'd rather tell you that than sell you a replacement. I'll look at those boards before I build anything so we're not repeating whatever happened there.
+[33:38] Emmett Thibault: That's the right answer.
+[33:41] Consultant: Let's talk about what could stop this going ahead. What worries you?
+[33:47] Emmett Thibault: The reps. That's the whole risk. If it's one more thing to update, they won't, and then I've paid for GoldMine twice.
+[33:58] Wes Kubiak: And if it's slow on a phone in a parking lot, forget it. My guys are not sitting down at a desk. If logging a visit takes more than about a minute in a truck, it won't happen.
+[34:13] Delia Ostrowski: And me getting pulled onto the inventory count again in October. That's a real risk, it happens every year.
+[34:22] Consultant: Those are all fixable in the design and I'd rather know them now. Emmett, where does this sit against everything else on your desk?
+[34:32] Emmett Thibault: Top of the list. This is a now thing. If it's not working before December first, it's not worth doing for this launch, and then I'd rather wait until after the spring.
+[34:47] Consultant: Anything in the calendar I should design around?
+[34:51] Delia Ostrowski: Don't try to train anybody the week of Thanksgiving. Nothing happens that week, nobody's here.
+[34:59] Wes Kubiak: And the first week of the month is order entry, so the reps are useless for anything else Monday and Tuesday.
+[35:08] Consultant: Useful. Let me play back what I think we're talking about, and I want you to correct me. Five things. One, prospects, so new companies and enquiries, coming in from the website form and trade show lists, in one place with an owner and a next step.
+[35:29] Emmett Thibault: Yes.
+[35:31] Consultant: Two, accounts and contacts, one record per customer with the history on it, so when somebody leaves the history stays.
+[35:41] Wes Kubiak: Yes. That one's mine.
+[35:44] Consultant: Three, opportunities, which is the quote pipeline, from a prospect through quoted, verbal, won or lost, with the P twenty-one quote number on it and a follow-up step so nothing sits for five weeks.
+[36:01] Emmett Thibault: Yes. And the quote itself stays in P twenty-one. You're not rebuilding our quoting.
+[36:09] Consultant: Understood, and I'll say it back the same way: the number and the status live with the deal, the document and the pricing stay in P twenty-one.
+[36:20] Emmett Thibault: Right.
+[36:22] Consultant: Four, logged calls and visits, quick enough to do from a truck, and a view for Wes of who's been where.
+[36:31] Wes Kubiak: Sortable. Not emails.
+[36:34] Consultant: Sortable. Five, a forecast view for you and for Gene that builds itself out of the first four, so the workbook goes away.
+[36:45] Delia Ostrowski: Please.
+[36:47] Consultant: That's the five. Anything wrong or missing?
+[36:52] Emmett Thibault: No. That's the scope. All five, nothing else for now. New rep onboarding, the bid calendar, the house account campaign, all of that can wait until this is alive.
+[37:07] Consultant: I'll write those down as later items so they're not lost. Delia, Wes, are you both happy with those five?
+[37:16] Delia Ostrowski: Agreed. I'd add, whatever we do with my Prospects board, don't leave two of them.
+[37:24] Consultant: We won't. It's either the base for this or it gets cleaned up, and I'll come back to you with which.
+[37:33] Wes Kubiak: Works for me. Five is enough.
+[37:37] Consultant: Good. A couple of things I need from you before I can design it properly. Delia, can I get a copy of the workbook, customer names taken out if you'd rather?
+[37:50] Delia Ostrowski: Yes. I'll scrub it and send it. Friday?
+[37:55] Consultant: Friday's fine. And Emmett, will you ask Anil what version of P twenty-one you're on and whether there's an API or a database connection available? I don't want to promise you a sync I haven't checked.
+[38:11] Emmett Thibault: I'll email him this week. He'll ask you for a document, I'll warn you now.
+[38:18] Consultant: He'll get one. Wes, could you send me whatever you've got on visit coverage, even if it's a photo of the legal pad?
+[38:28] Wes Kubiak: [laughs] It'll be a photo of the legal pad. I'll send it tonight.
+[38:34] Consultant: Perfect. Two more questions while I have you. Delia, when a prospect turns into a customer, does the record become the account, or do you keep both?
+[38:47] Delia Ostrowski: I'd want it to become the account. We shouldn't have the same company twice, that's half of what's wrong with GoldMine.
+[38:57] Consultant: And who should see margin on a deal?
+[39:01] Emmett Thibault: Owner, their manager, Delia, me, Gene. Not other reps. Ever.
+[39:09] Consultant: Clear. Right, next step. I'd like to come back with a first version built in your own account, using your words, not a slide deck. Forty-five minutes, all three of you, and I'd rather do it early enough that changes still fit before December. Wednesday the twenty-third, two o'clock Eastern?
+[39:31] Emmett Thibault: Twenty-third works. Two o'clock. I'm in Toledo that day.
+[39:37] Delia Ostrowski: I'm free.
+[39:39] Wes Kubiak: Yep, put it in.
+[39:42] Consultant: I'll send the invite when we hang up. One thing I want to be straight about: what I'll show you on the twenty-third is a working first version to react to, not a finished system. I'd expect you to change things.
+[39:58] Emmett Thibault: That's fine. I'd rather see something real. And send me a proposal with a number by the end of next week, would you? I read on planes and I'm on a plane Thursday.
+[40:12] Consultant: I'll come back to you on the commercial side separately, and I'll make sure the scope in it is exactly the five we just agreed, in your words.
+[40:23] Emmett Thibault: Good. I don't want a fifty-page thing. One page and a number.
+[40:29] Consultant: Understood. Last question, and then I'll let you all go. What haven't I asked about that I should have?
+[40:38] Delia Ostrowski: Um. The inside sales people. You asked about reps a lot. Inside sales takes maybe a third of the orders and they'd be typing into this too.
+[40:52] Consultant: That's a good catch and I'll come back to you about where they fit. Five of them, you said?
+[40:59] Delia Ostrowski: Five. Four in Toledo, one in Fort Wayne.
+[41:05] Wes Kubiak: And the line card thing. Whether we can see what lines a customer buys versus what they could buy. That's not for December, but it's the thing I'd want eventually.
+[41:19] Consultant: Later item, and I'll note it in your words. Emmett?
+[41:25] Emmett Thibault: You didn't ask what happens if this works. I'll tell you anyway. If this works for sales, Gene will want the same thing for the purchasing side, and that's a bigger conversation than this one.
+[41:41] Consultant: Then let's make this one work first. Thank you, all three of you. This was a genuinely useful hour.
+[41:50] Emmett Thibault: It was. You asked better questions than the last two people.
+[41:56] Consultant: I'll take that. Delia, workbook Friday. Wes, photo of the pad. Emmett, Anil this week. I'll send the invite for the twenty-third at two.
+[42:09] Delia Ostrowski: Got it. Thanks.
+[42:12] Wes Kubiak: Thanks. I'm going to go see if my customer ever called back.
+[42:18] Emmett Thibault: Talk on the twenty-third. Thanks.
+[42:22] Consultant: Thanks all. Bye.

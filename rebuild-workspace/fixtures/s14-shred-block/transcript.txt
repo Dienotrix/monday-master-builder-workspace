@@ -1,0 +1,829 @@
+0:02 Consultant: Morning. Can you hear me all right?
+
+0:05 Meera Ganguly: We can hear you. I've got Dermot in the room with me and Aileen is dialling in from the warehouse, so if you hear a roller shutter, that's her end.
+
+0:19 Aileen Rusnak: morning. It is the shutter, and it'll do that about four times while we talk, so I'll apologise now.
+
+0:28 Dermot Shanley: Morning.
+
+0:30 Consultant: Morning, all three of you. No apology needed, I've taken calls from, from stranger places. How's the week going?
+
+0:39 Meera Ganguly: It's the week after a big one, so it's quiet in a way I don't trust.
+
+0:46 Dermot Shanley: [laughs] That's fair.
+
+0:48 Meera Ganguly: We had four shows out at the same time last week, which for us is a lot, and they all came back in on Friday, so the warehouse looks like
+
+0:59 Aileen Rusnak: a jumble sale
+
+1:01 Meera Ganguly: a jumble sale, yes. Aileen's word, not mine.
+
+1:06 Consultant: I'll take the word. So before we get into it, let me say how I'd like to use the hour. This is a conversation, not a pitch. I want to understand how the work actually runs, where it hurts, and what you'd want instead. I'm not going to show you anything today. And if it turns out you need two changes to how you use what you've already got, I'll say that.
+
+1:32 Meera Ganguly: Good. That's the version I wanted.
+
+1:36 Dermot Shanley: Yeah, we've had the other version.
+
+1:39 Consultant: I'm sure you have. Meera, give me the thirty-second version of Norhaven. What you do, how big you are.
+
+1:48 Meera Ganguly: Sure. We're an event services company. Conferences, awards nights, product launches, some internal corporate stuff. We do the technical side, so sound, lighting, video, staging, and we crew it. About sixty people on the payroll and then, what, a hundred and forty freelancers on the books
+
+2:12 Dermot Shanley: hundred and forty, hundred and fifty
+
+2:15 Meera Ganguly: call it a hundred and forty. Two warehouses. Farrowgate is the main one, that's where Aileen is, and there's a smaller one at Dunmere that mostly holds staging.
+
+2:29 Consultant: And how many shows does that come to in a year?
+
+2:33 Meera Ganguly: Four hundred and something? Four-twenty, maybe. I'd want to check that before you write it down.
+
+2:41 Consultant: I'll write it down as four hundred and something, then.
+
+2:45 Meera Ganguly: [laughs] Perfect.
+
+2:48 Consultant: And the three of you, where do you sit?
+
+2:52 Meera Ganguly: I'm operations director, so everything between the sale and the invoice is, is mine. I don't sell and I don't do the books.
+
+3:03 Dermot Shanley: I'm crew and logistics. So I work out who's going where, and with what, what vehicle, and I own the grid.
+
+3:13 Consultant: The grid being?
+
+3:15 Dermot Shanley: The big whiteboard. Shows down the side, days across the top, crew names in the boxes. It's four metres of wall.
+
+3:26 Aileen Rusnak: and it's the only thing in the building everyone actually reads
+
+3:32 Dermot Shanley: which is the problem, but yes.
+
+3:36 Consultant: Aileen?
+
+3:38 Aileen Rusnak: I run the warehouse at Farrowgate. So kit in, kit out, prep, and I look after the asset records. Anything with a barcode on it is mine.
+
+3:51 Consultant: And when you say kit?
+
+3:54 Aileen Rusnak: Equipment. Speakers, lights, screens, cable, the lot. A show gets a kit list and we pull it.
+
+4:04 Consultant: Got it, I'll use your words. Show, kit, the grid. Tell me if I get one wrong.
+
+4:12 Meera Ganguly: You will, everyone does. Ask about the word call at some point.
+
+4:19 Consultant: Go on, tell me now.
+
+4:22 Meera Ganguly: A call is when the crew has to be on site. So the call for a load-in might be six in the morning. If Dermot says the call moved, he does not mean this meeting.
+
+4:37 Dermot Shanley: I never mean this meeting.
+
+4:40 Consultant: Noted, and that's a useful one. So Meera, what made you pick up the phone now rather than, say, last spring?
+
+4:50 Meera Ganguly: Two things, really. One is that we've won a framework with a venue group. Six venues, and they'll push work at us from January. On paper that's between a third and a half more shows than we did this year.
+
+5:10 Consultant: Congratulations. That's a big change.
+
+5:14 Meera Ganguly: It is, and it's also why I'm nervous, because the way we run now, I don't think it takes another two hundred shows.
+
+5:26 Dermot Shanley: it doesn't
+
+5:28 Meera Ganguly: Dermot has been saying that for a year, to be fair to him.
+
+5:34 Consultant: And the second thing?
+
+5:37 Meera Ganguly: The second thing is the Hallowell conference in September, which we nearly lost in the middle of the show. And I don't mean we nearly lost money. I mean the client sent a letter.
+
+5:52 Consultant: Ouch. Can you walk me through what happened there?
+
+5:58 Dermot Shanley: I can, because it was mine. Hallowell is a three-day conference, two rooms, and one of the rooms had two LED walls in the design. Big ones. They'd been in the quote since June.
+
+6:17 Consultant: Right.
+
+6:19 Dermot Shanley: and on the Monday, the prep day, Aileen goes to pull them and they're not there. They're at the Pinebank awards, which loaded out that morning and went straight to another job.
+
+6:36 Aileen Rusnak: they were never coming back in time. Nobody had them coming back in time.
+
+6:43 Consultant: So both shows had the same two walls on their kit list.
+
+6:48 Dermot Shanley: Both shows had them. On paper both shows owned them.
+
+6:54 Consultant: How did that happen?
+
+6:57 Dermot Shanley: Because the kit list for a show is a spreadsheet, and the spreadsheet doesn't know about any other show. Moira does Hallowell, someone else did Pinebank, and they both wrote LED wall on their list in, I don't know, July.
+
+7:18 Meera Ganguly: And nobody looks across them until Aileen pulls.
+
+7:24 Aileen Rusnak: I'm the check. That's the actual answer. There is no system check. I'm it, and I find it on the prep day because that's the first day anyone touches the kit.
+
+7:39 Consultant: And on that Monday, what did you do?
+
+7:43 Dermot Shanley: Sub-hired. Which is when you rent kit in from another company for the show. Two walls, four nights, at
+
+7:56 Consultant: At?
+
+7:58 Dermot Shanley: seventeen
+
+7:58 Meera Ganguly: seventeen hundred a night, and that's the friendly rate because we know them.
+
+8:07 Consultant: So call it seven thousand on a show you'd already priced.
+
+8:13 Meera Ganguly: Six thousand eight hundred, and yes, out of our margin.
+
+8:19 Consultant: And the letter?
+
+8:21 Meera Ganguly: The letter was because the second wall went in late. The room opened an hour behind on day one. Their events manager wrote to us about it, politely, and asked what we were putting in place so it didn't happen again. Which is a reasonable question I could not answer well.
+
+8:45 Consultant: That's a hard email to write back to.
+
+8:49 Meera Ganguly: It is. I wrote something about process improvements. I'd like to be able to write something true.
+
+8:58 Consultant: Understood. I'd like to come back to that. Can we walk the whole thing first, from a show being sold to the, to the money going out? Take it slowly and I'll interrupt.
+
+9:12 Meera Ganguly: Go on then, Dermot, you start.
+
+9:16 Dermot Shanley: Right. So Suzette sells it. She's our bookings lead. It comes in as an enquiry, she quotes it, and when it's confirmed she puts it in the hire system.
+
+9:32 Consultant: The hire system being the one that holds the equipment?
+
+9:37 Dermot Shanley: It holds everything with a value. Kit, what it's worth, what it hires for, what's out, and it, it raises the invoice at the end.
+
+9:50 Aileen Rusnak: and the asset records, in theory
+
+9:54 Dermot Shanley: and the asset records, in theory. Aileen has opinions there.
+
+10:01 Consultant: I'd like those opinions in a minute. Carry on.
+
+10:06 Dermot Shanley: So it's in the hire system as a booking with a date range. Then a project manager picks it up, and that's Moira for the big ones, and she builds the design and the kit list.
+
+10:23 Consultant: And the kit list is the spreadsheet.
+
+10:27 Dermot Shanley: The kit list is a spreadsheet, yes. One per show. Lives on the shared drive.
+
+10:36 Consultant: Does the kit list go back into the hire system?
+
+10:41 Dermot Shanley: Not until about a week out, when Aileen puts the allocation in. Sometimes not even then.
+
+10:51 Aileen Rusnak: not even then, most weeks. If I'm prepping four shows I'm not typing kit lists in twice.
+
+11:02 Consultant: So between the show being sold and, what, about a week out, where does the kit actually live?
+
+11:10 Meera Ganguly: In the spreadsheet, and in whoever's head.
+
+11:15 Dermot Shanley: In the spreadsheet, and on the grid if it's big enough to need a truck.
+
+11:23 Consultant: Okay. And crew?
+
+11:26 Dermot Shanley: Crew is me. About three weeks out I look at the grid, I work out how many bodies each show needs and what trades, and I start ringing round.
+
+11:41 Consultant: Ringing round the freelancers.
+
+11:45 Dermot Shanley: Ringing, mostly messaging. And then they say yes or they don't answer, and I write their name on the grid in pencil until they've said yes properly.
+
+11:59 Consultant: How long does that take you in a week?
+
+12:03 Dermot Shanley: In a week? Depends on the week.
+
+12:07 Consultant: Take a normal one.
+
+12:10 Dermot Shanley: Fifteen hours. Maybe more in October.
+
+12:16 Consultant: Fifteen hours a week just on crewing.
+
+12:20 Dermot Shanley: Crewing and moving crew. It's the moving that gets you. A show moves a day, or someone drops out on the Thursday, and then everything after it moves.
+
+12:36 Aileen Rusnak: and then I find out when the van doesn't turn up
+
+12:42 Dermot Shanley: that's not fair, I tell you
+
+12:45 Aileen Rusnak: you tell me when you remember, which is most times.
+
+12:51 Consultant: How does Aileen find out today?
+
+12:55 Dermot Shanley: Message. Or I walk down and say it.
+
+13:00 Consultant: And if you're not in the building?
+
+13:04 Dermot Shanley: Then it's a message, and if she's on a forklift it sits there.
+
+13:11 Consultant: Okay. So the show is sold, the kit list exists as a spreadsheet, the crew is on the grid in pencil. What happens on the prep day?
+
+13:22 Meera Ganguly: Prep is the day, or two days, where Aileen and the warehouse team pull everything on the list, test it, put it in flight cases and stage it by the loading door, and that is where every problem in this company is discovered, because it is the first moment anything on paper meets anything real. If the wall is out, that's when we know. If a mic hasn't come back from the last show, that's when we know. If the list says twelve of something and we own ten, same. So who builds the kit list, is that a fair question? I build the show list off the design, and then Aileen adds the consumables and the spares, so it's two of us. Meera, is that still how it works since Moira took the big shows? For the big ones Moira does it and Aileen still adds the back end. The point I'm making is the prep day is a discovery event, and it's two days before a show, and there's nothing behind it.
+
+14:58 Consultant: That's a lot in one go, thank you. Aileen, on the pulling itself, how long does a prep take?
+
+15:09 Aileen Rusnak: Depends on the show. A one-day conference, half a day. Hallowell was, what, two full days with three of us.
+
+15:20 Consultant: And when you find something missing at prep, what do you do?
+
+15:26 Aileen Rusnak: Shout up the stairs, mostly. Then it's a sub-hire or, or we tell the project manager to change the design.
+
+15:37 Consultant: How often is it a sub-hire?
+
+15:41 Aileen Rusnak: More than it should be.
+
+15:44 Consultant: Can you put a number on it? Even a rough one.
+
+15:49 Aileen Rusnak: Every week there's something. Most weeks it's small, a couple of lights, a bit of cable. Once a month it's a proper one, four figures.
+
+16:03 Consultant: And who authorises the sub-hire?
+
+16:07 Aileen Rusnak: Me, up to five hundred. Over that it's Meera.
+
+16:13 Meera Ganguly: Which I sign, because by then the show is tomorrow.
+
+16:20 Consultant: Right. So it's not really a decision at that point.
+
+16:26 Meera Ganguly: It is not a decision, it's a receipt.
+
+16:31 Consultant: Let me carry on through. The show happens, and then what?
+
+16:38 Dermot Shanley: The show happens, the crew load out, usually at night, usually late, and the kit comes back to Farrowgate.
+
+16:48 Aileen Rusnak: and then it sits
+
+16:51 Consultant: It sits.
+
+16:53 Aileen Rusnak: It sits on the floor by the door until someone checks it in. Which is supposed to be the next morning, and in a normal week it is. In a week like last week, when four shows come back on the same Friday
+
+17:10 Dermot Shanley: it's Wednesday
+
+17:10 Aileen Rusnak: it's the following Wednesday, if we're honest, and by then nobody can tell you which show a broken thing came off.
+
+17:24 Consultant: And check-in means what exactly?
+
+17:29 Aileen Rusnak: Open the case, count it, test what needs testing, mark it back in, and flag anything damaged or missing.
+
+17:40 Consultant: Mark it back in where?
+
+17:43 Aileen Rusnak: In the hire system. That's the bit that should happen and doesn't always.
+
+17:51 Consultant: What happens when it doesn't?
+
+17:55 Aileen Rusnak: Then the hire system thinks the kit is still out on the last show, so the next show can't have it, so somebody sub-hires something we own and it's sitting on my floor.
+
+18:12 Meera Ganguly: That one makes me want to lie down.
+
+18:17 Consultant: I can imagine. And the money side, invoicing?
+
+18:23 Meera Ganguly: The hire system raises it off the booking, Lenka checks it against the sub-hires and the crew costs, and it goes out. Lenka's our finance manager. She's not on this call.
+
+18:40 Consultant: Fine, I'll ask about her later. So that's sold, designed, prepped, crewed, out, back, checked in, invoiced.
+
+18:52 Meera Ganguly: That's it. Eight steps, four places to write things down, and one whiteboard.
+
+19:02 Consultant: Is monday used anywhere in that today?
+
+19:07 Meera Ganguly: No. I've seen it at a supplier of ours. It looked like a wall of colour, honestly, and I couldn't tell what I was looking at, but their operations person swore by it.
+
+19:23 Consultant: Do you have an account at all?
+
+19:27 Meera Ganguly: No. Nothing. Whatever we do would be from nothing.
+
+19:34 Dermot Shanley: which might be a good thing
+
+19:34 Meera Ganguly: which might be a good thing, yes, because there's nothing to unpick.
+
+19:44 Consultant: Understood. Let me come back to the double booking, because that feels like the centre of it. Dermot, is Hallowell the only time?
+
+19:56 Dermot Shanley: No. Hallowell is the worst one this year because of the letter. But the same thing, smaller, happens
+
+20:07 Aileen Rusnak: every month
+
+20:09 Dermot Shanley: I was going to say most months, but Aileen's in it more than I am.
+
+20:16 Aileen Rusnak: Every month. I could show you the sub-hire invoices.
+
+20:22 Consultant: I'd like to see those at some point, actually. What's the pattern? Is it always LED walls?
+
+20:31 Aileen Rusnak: It's whatever we only have a few of. Walls, the good radio mic racks, the big desks. If we own thirty of something it's never the problem. If we own two, it's always the problem.
+
+20:48 Consultant: And what stops you seeing it earlier? Because on paper, I mean, on paper the hire system holds what's out.
+
+20:57 Aileen Rusnak: It holds what's out if somebody put it in. The kit list doesn't go in until a week out, and the check-in is behind, so what it tells you on a Tuesday is a picture of about two weeks ago.
+
+21:16 Meera Ganguly: That's the honest answer, and it's not a software problem, it's that nobody has the time to feed it.
+
+21:26 Consultant: That's a really useful distinction. Have you tried anything to fix it?
+
+21:33 Dermot Shanley: We tried a rule. Kit lists had to be in the hire system three weeks out.
+
+21:41 Consultant: And?
+
+21:43 Dermot Shanley: It lasted about six weeks.
+
+21:47 Consultant: Why did it stop?
+
+21:50 Dermot Shanley: Because the design changes. A client moves a room or adds a breakout and the list changes twice more before the show. So you're typing it three times instead of once, and the third one's the only one that's true.
+
+22:09 Aileen Rusnak: and nobody types it three times
+
+22:12 Consultant: So the workaround costs more than the problem it fixes.
+
+22:18 Meera Ganguly: Yes. And that's, that's why I didn't push it when it died, which I probably should have.
+
+22:26 Consultant: I don't think that's the failure you think it is. If the only way to make the system true is to type things three times, the system is asking too much. Let me ask this differently. When it goes wrong, who else, who else ends up dealing with it?
+
+22:47 Meera Ganguly: Me, because I sign the sub-hire. Moira, because she has to tell the client the design changed. The crew chief on site, who finds out on the day that the thing he was told to rig isn't the thing in the truck.
+
+23:05 Aileen Rusnak: and my two lads, because they're pulling a show while I'm on the phone to a hire company
+
+23:14 Consultant: How many people is that in a bad week?
+
+23:19 Dermot Shanley: Five or six of us, all pulled off what we were doing.
+
+23:26 Consultant: And what does it do to the client relationship? Hallowell aside.
+
+23:33 Meera Ganguly: Mostly they never know. When it's a light, they never know. Hallowell they knew because the room opened late.
+
+23:44 Consultant: Has any of it cost you work?
+
+23:48 Meera Ganguly: Hallowell is a three-year account and it's up for renewal in March, so ask me in March. That's the honest version.
+
+24:00 Consultant: Fair. Let's put some shape on the cost, if you're willing. Not a guess, just what you actually know. Aileen, you said you could show me sub-hire invoices. Do you know roughly what that line was last year?
+
+24:19 Aileen Rusnak: I don't have it in my head. Meera will.
+
+24:24 Meera Ganguly: Last year the sub-hire line was a hundred and ninety-one thousand. I know that one because I sign them.
+
+24:35 Consultant: A hundred and ninety-one. And how much of that is covering a double booking, as opposed to kit you'd always have hired in?
+
+24:46 Meera Ganguly: Not all of it. There's stuff we'd never own. Nobody owns a, I don't know, a hundred-foot truss tower for two shows a year.
+
+24:57 Consultant: Of course.
+
+24:59 Meera Ganguly: But the walls, the mic racks, the desks, that's us covering ourselves. I'd say two thirds of that line is us buying back our own kit.
+
+25:14 Consultant: Two thirds of a hundred and ninety-one.
+
+25:19 Meera Ganguly: Call it a hundred and twenty-five thousand. I'd be comfortable saying that in front of Ferris.
+
+25:28 Consultant: And Ferris is?
+
+25:31 Meera Ganguly: Ferris Marchbanks, our managing director. He isn't on this call either, I'm afraid. You're getting the operational half of the company today.
+
+25:44 Consultant: The operational half is usually the half that knows. Can I test that two thirds a little? What makes it two thirds rather than half?
+
+25:56 Meera Ganguly: Because I sign them and I read what they're for. Half of them say wall or rack on them. It's not science, but it's not a guess either.
+
+26:10 Consultant: That's good enough for me, and I'll write it as your figure, not mine. Dermot, the sub-hire nights, do you know how many nights a year that is?
+
+26:24 Dermot Shanley: we're paying sub-hire on, what,
+
+26:28 Aileen Rusnak: s
+
+26:28 Dermot Shanley: seventy nights a year now. Maybe more. That's nights where something on a show is hired in.
+
+26:38 Consultant: Seventy nights.
+
+26:41 Dermot Shanley: Seventy-ish. I'd have to count the jobs.
+
+26:47 Consultant: Don't count them yet. Let me turn to your time, because you said fifteen hours and I want to understand what's in it.
+
+26:58 Dermot Shanley: Fifteen is crewing. Ringing round, chasing, redoing the grid when something moves.
+
+27:08 Consultant: Redoing it how?
+
+27:11 Dermot Shanley: Rubbing out and rewriting. It's a whiteboard.
+
+27:17 Consultant: And when the grid changes, what else has to change?
+
+27:23 Dermot Shanley: The vehicle plan, the call times, and Aileen's prep order if the dates moved.
+
+27:32 Aileen Rusnak: which is the bit that doesn't happen
+
+27:36 Dermot Shanley: which is sometimes the bit that doesn't happen, yes.
+
+27:42 Consultant: Aileen, how much of your week goes on that side? Not the prep itself, the, the working out.
+
+27:51 Aileen Rusnak: Chasing what's changed, and chasing what came back? Six hours. Maybe more in a week like last week.
+
+28:03 Consultant: Six hours a week. And that's you personally.
+
+28:09 Aileen Rusnak: That's me. The lads are doing the physical work, that's separate, I wouldn't count them.
+
+28:18 Consultant: Good, we won't. Meera, is there a loaded hourly cost you use internally for people like Dermot and Aileen?
+
+28:29 Meera Ganguly: Forty-two an hour, all in. That's the number I use for a crew chief and I'd use the same for those two.
+
+28:40 Consultant: All in meaning?
+
+28:43 Meera Ganguly: Salary, on-costs, the lot. It's the figure Lenka gave me for budgeting.
+
+28:52 Consultant: Perfect. So let's do it out loud and you tell me where I'm wrong. Dermot, fifteen hours a week. Aileen, six. That's twenty-one hours between you.
+
+29:07 Dermot Shanley: Twenty-one.
+
+29:09 Consultant: Times forty-two.
+
+29:12 Dermot Shanley: Eight hundred and eighty-two a week.
+
+29:17 Consultant: And across a year?
+
+29:20 Dermot Shanley: Times fifty-two. Forty-five and a half thousand, near enough.
+
+29:28 Meera Ganguly: Forty-five thousand on two people moving names around.
+
+29:35 Consultant: That's your arithmetic, not mine, which is the way I'd rather have it. Does that feel right or does it feel wrong?
+
+29:45 Meera Ganguly: It feels low, if anything, because it doesn't have Moira in it, and it doesn't, it doesn't have me signing sub-hires at nine at night.
+
+29:57 Consultant: Should we add those?
+
+30:00 Meera Ganguly: Not today. I don't have Moira's hours and I'd be making them up.
+
+30:07 Consultant: Then we leave them out and say so. That's the right answer.
+
+30:14 Dermot Shanley: Can I say something about the fifteen hours?
+
+30:19 Consultant: Please.
+
+30:21 Dermot Shanley: It's not the hours that bother me. It's that most of it is work I've already done once. I built that week already. I'm building it again because something moved and nothing told anyone.
+
+30:38 Consultant: That's the sentence I'd want your managing director to hear.
+
+30:45 Meera Ganguly: Write it down.
+
+30:48 Consultant: I have. Now, the other half. If nothing changes, what does this look like in a year, with the framework work coming in?
+
+31:01 Dermot Shanley: We hire another me.
+
+31:04 Consultant: Is that costed anywhere?
+
+31:08 Dermot Shanley: Not formally, but a scheduler is thirty-eight, thirty-nine thousand plus on-costs, so
+
+31:12 Meera Ganguly: and I'd have to sign that off in the budget round, which is in November, which is partly why I'm talking to you in
+
+31:09 Dermot Shanley: call it fifty all in
+
+31:24 Consultant: I want to be careful there, because that's a cost you'd take on, not a cost you're paying today. I'll record it separately.
+
+31:36 Meera Ganguly: That's fair.
+
+31:39 Consultant: Aileen, same question for the warehouse. Another third more shows, same way of working.
+
+31:48 Aileen Rusnak: Then the check-in never happens. That's what gives first. And the further behind the check-in gets, the less true the hire system is, and the more we sub-hire. It feeds itself.
+
+32:06 Consultant: That's the loop I wanted to hear you say. Let me put the two figures together and you tell me if the total is fair. A hundred and twenty-five thousand of sub-hire that's covering your own kit, and forty-five thousand of time. Dermot?
+
+32:28 Dermot Shanley: so that's a hundred and twenty-five plus forty-five, call it a hundred and
+
+32:28 Aileen Rusnak: seventy
+
+32:31 Dermot Shanley: thousand a year. Before anything we write off.
+
+32:37 Meera Ganguly: A hundred and seventy thousand. Yes. And that's before the write-offs, which I can get you.
+
+32:47 Consultant: Say more about the write-offs.
+
+32:51 Aileen Rusnak: Kit that doesn't come back, or comes back broken and nobody knows off which show. It gets written off at the year end.
+
+33:03 Consultant: Do you know what that was last year?
+
+33:07 Aileen Rusnak: I couldn't tell you. That's a Lenka question. It goes through the accounts, not through me.
+
+33:17 Consultant: Meera, do you have it?
+
+33:20 Meera Ganguly: Not in my head, no. Lenka would have it in about four minutes, but I'm not going to invent it for you.
+
+33:31 Consultant: Please don't. Can I ask her for it, through you, before we next speak?
+
+33:39 Meera Ganguly: Yes. I'll ask her Thursday.
+
+33:44 Consultant: Then we'll leave the write-offs as a known unknown and not in the total. Is there a volume you do know? How many items go missing in a year, even roughly?
+
+33:59 Aileen Rusnak: We lost eleven radio mic packs last year, I know that one because I had to explain it.
+
+34:09 Consultant: Eleven packs.
+
+34:12 Aileen Rusnak: Eleven, and about a third of those we think, we think went out on a show and came back to the wrong place, not stolen.
+
+34:23 Consultant: And what's a pack worth?
+
+34:26 Aileen Rusnak: New? Nine hundred and something. We'd not replace them new.
+
+34:34 Consultant: Then I won't turn that into a figure either, because we'd be guessing at the replacement cost. It stays as eleven packs and a note.
+
+34:47 Meera Ganguly: I appreciate that, genuinely. The last person who sat in that chair multiplied things.
+
+34:57 Consultant: I'd rather have a small number you'll defend than a big one you won't. Let me ask the other side of it. If all this time came back, what would you do with it?
+
+35:12 Dermot Shanley: Take the framework work without hiring.
+
+35:17 Meera Ganguly: That's the honest answer. The framework is a third more shows and I have not budgeted a third more people, so the time has to come from somewhere.
+
+35:31 Consultant: Is there work you turn down today?
+
+35:36 Meera Ganguly: In October and November, yes. We turned down, what, two a month in peak last year?
+
+35:45 Dermot Shanley: Two a month, about. Sometimes three.
+
+35:50 Consultant: And you turn them down because?
+
+35:54 Dermot Shanley: Because I can't see far enough ahead to know if I can crew it, so I say no rather than say yes and fail.
+
+36:05 Consultant: What's a show worth, on average?
+
+36:09 Meera Ganguly: Fourteen thousand, give or take, and we'd keep about a third of that.
+
+36:17 Consultant: So two a month in a two-month peak, at fourteen.
+
+36:23 Meera Ganguly: Four shows, so fifty-six thousand of revenue we didn't take. I'm not going to claim we'd have won all four.
+
+36:34 Consultant: Understood, and I'll record it as what you turned away rather than as money you'd have banked. Is there anything else you'd go after?
+
+36:47 Meera Ganguly: The venue group has an in-house services contract coming up next year. That's a different size of thing. But we're not credible for it while we're sub-hiring our own walls, so.
+
+37:04 Consultant: That's a good way to put it. Let me move on to what good looks like. Say it's next March and this is working. What's different on a normal Monday?
+
+37:19 Meera Ganguly: I want to open one thing and see every show for the next six weeks, what kit it needs, and whether we have it. That's it. That's the whole ask.
+
+37:34 Dermot Shanley: And I want the grid to be somewhere other than a wall, so that when a show moves, the people it affects know without me telling them.
+
+37:48 Aileen Rusnak: And I want to know, on the Monday, what's coming back and what hasn't been checked in. Not to have to walk the floor and count cases.
+
+38:01 Consultant: What would Ferris count as a win? Not you three. Him.
+
+38:08 Meera Ganguly: He'd count the sub-hire line coming down. He talks about it every year end.
+
+38:17 Consultant: By how much, if you had to put it in his language?
+
+38:23 Meera Ganguly: He'd want to see it halved. I'd settle for taking the double-booking part out of it, which is the hundred and twenty-five.
+
+38:35 Consultant: Those are two different targets, and I'd rather we wrote down both and you told him which one we're aiming at.
+
+38:45 Meera Ganguly: Yes. That's a conversation I need to have with him anyway.
+
+38:52 Consultant: Speaking of which, tell me about how a decision like this actually gets, you know, gets made here.
+
+39:01 Meera Ganguly: Operations tools are mine up to thirty thousand. Above that Ferris signs, and he'll want to look at it either way.
+
+39:13 Consultant: What will he want to look at?
+
+39:17 Meera Ganguly: He'll want to know whether it duplicates the hire system. That's his first question about everything, because we paid for that three years ago and it took four months to put in.
+
+39:33 Consultant: That's a fair question, and I'd want to answer it properly rather than quickly.
+
+39:41 Meera Ganguly: Please do. If he thinks this is a second hire system, it stops there.
+
+39:49 Consultant: Who else has a say?
+
+39:52 Meera Ganguly: Lenka, on anything that touches invoicing. Not a veto, but she'd need to be comfortable.
+
+40:02 Dermot Shanley: And the crew chiefs, in practice. Not formally, but if they won't use it, it's ornamental.
+
+40:12 Consultant: How do they get a say today?
+
+40:16 Dermot Shanley: They don't. They get told.
+
+40:20 Consultant: That's worth changing, and it's cheap to change. If you said yes, what happens next in your process?
+
+40:31 Meera Ganguly: I'd raise it in the budget round, which is the first week of November. Ferris signs, finance raise a purchase order, and then it's just doing it.
+
+40:46 Consultant: And on the crew side, is there a notice period, a season you can't touch?
+
+40:54 Dermot Shanley: You can't change how crew is scheduled in the middle of peak. October and November are out. If you tried it in October I'd be the one holding it and I'd drop it.
+
+41:11 Consultant: So training and switchover in the first half of December.
+
+41:18 Dermot Shanley: December's fine. December's dead after the tenth.
+
+41:24 Meera Ganguly: Which is also when I need it working, because January is the framework.
+
+41:32 Consultant: That's a tight but sane window. What else could get in the way?
+
+41:39 Aileen Rusnak: The asset records. I'll say it before you find it. What's in the hire system as our kit is about eighty percent right. There's stuff on there we sold. There's stuff we own that's not on there.
+
+41:57 Consultant: That's exactly the kind of thing I'd rather hear now. Is fixing that a job somebody can do?
+
+42:06 Aileen Rusnak: It's a job somebody can do. It's two weeks of my life and nobody's ever given me the two weeks.
+
+42:16 Meera Ganguly: We could give her the two weeks.
+
+42:20 Aileen Rusnak: You could give me the two weeks in December.
+
+42:25 Consultant: I'd put that on the table as part of this rather than as a favour, because nothing we build is better than that list. Anything else?
+
+42:38 Dermot Shanley: Honestly? The crew. Not the staff, the freelancers. They'll do what's on the call sheet and they will not log into anything.
+
+42:51 Consultant: Have you asked them to before?
+
+42:55 Dermot Shanley: We asked them to confirm shifts in an app two years ago. About a third of them did it and the rest rang me anyway, so I stopped.
+
+43:08 Consultant: What made the third who did it do it?
+
+43:13 Dermot Shanley: They were the younger ones, and honestly the ones who, who work for us most weeks.
+
+43:21 Consultant: That's useful. I'd design it so the freelancers don't have to be in it at all at first. The people in it are the four or five of you who plan.
+
+43:36 Dermot Shanley: That would be a relief.
+
+43:40 Meera Ganguly: Can I ask a blunt one?
+
+43:44 Consultant: Always.
+
+43:46 Meera Ganguly: Why isn't this a spreadsheet? A good one. Because that's what Ferris will say, and I half think it myself.
+
+43:56 Consultant: It's a fair question. Say more about what you'd put in it.
+
+44:03 Meera Ganguly: One file. Shows down the side, kit across the top, and a tab for the crew.
+
+44:12 Consultant: And who keeps it true when a show moves?
+
+44:18 Meera Ganguly: Dermot, I suppose.
+
+44:21 Dermot Shanley: which is what I do now, with a pen
+
+44:25 Consultant: Then you've answered it better than I could. The problem you've described isn't that the information is in the wrong shape, it's that one person has to retype it every time something moves, and there's no way for the change to reach the people it affects. A spreadsheet doesn't change either of those. If I thought a spreadsheet solved it I'd tell you and we'd have a short second meeting.
+
+44:53 Meera Ganguly: [laughs] Understood.
+
+44:57 Dermot Shanley: I'd like that in writing for Ferris, actually. The bit about retyping.
+
+45:05 Consultant: You'll have it. Let me ask about what else you're looking at.
+
+45:12 Meera Ganguly: We had a demo from a rental software company in the summer. Rental, hire, whatever they call it. Event specific, does the kit side properly.
+
+45:23 Consultant: And?
+
+45:25 Meera Ganguly: It replaces the hire system, which means replacing how we invoice, and Lenka went very quiet. And it was a nine-month implementation, which puts it past the framework starting.
+
+45:42 Consultant: So the timing killed it rather than the product.
+
+45:48 Meera Ganguly: The timing and Lenka's face. It's not dead, it's next year.
+
+45:55 Consultant: I'll record it as an alternative that's still in play, because it is, and I'd rather that were written down than pretended away.
+
+46:07 Meera Ganguly: That's more honest than the last one.
+
+46:12 Consultant: Let me check a couple of things about the data before I forget. Erm, Aileen, the kit on the hire system, does it have a barcode or an asset number for every item?
+
+46:27 Aileen Rusnak: Every case has a barcode. Not every item inside a case.
+
+46:34 Consultant: So the unit that moves through a show is really the case.
+
+46:40 Aileen Rusnak: For most things, yes. Walls and desks are their own thing.
+
+46:47 Consultant: That's an important one for how we'd model it, and I'd want to get it right rather than guess. Can I have a look at the kit list for one show and a week of the grid?
+
+46:59 Aileen Rusnak: Kit list yes. Grid is a photograph, I'm afraid.
+
+47:06 Consultant: A photograph is perfect. Meera, is there anything in either of those you'd want taken out before I see them?
+
+47:16 Meera Ganguly: The kit list has our hire rates on it. Take those out. Actually no, leave them, you'll need to know what things are worth.
+
+47:29 Consultant: I'd rather have it without rates for now and ask for them later if I need them. Rates in a document have a habit of travelling.
+
+47:41 Meera Ganguly: Then take them out.
+
+47:45 Consultant: Is there anything about freelancers in there? Names, rates?
+
+47:52 Dermot Shanley: The grid has first names on it. No rates.
+
+47:58 Consultant: First names on a photograph are fine. Let me ask one more on the process and then I'll play back what I've got. When a show moves date, today, who, who needs to know?
+
+48:14 Dermot Shanley: Me, Aileen, the project manager, the crew who are booked, and the transport company if it's a big truck.
+
+48:26 Consultant: And how many of those find out reliably?
+
+48:32 Dermot Shanley: Me and the project manager. The rest is me remembering.
+
+48:39 Aileen Rusnak: and the transport company usually finds out last, which costs us a cancellation
+
+48:48 Consultant: Is that costed?
+
+48:51 Aileen Rusnak: It's on the, it's on the invoice from them, so Lenka would see it. I don't.
+
+48:59 Consultant: Another one for Lenka. I'll give you a short list for her rather than drip it at you.
+
+49:08 Meera Ganguly: That'd be helpful.
+
+49:12 Consultant: Let me play back what I think a first version would be, and I want you to argue with it. Not to sign anything, just to tell me where it's wrong.
+
+49:26 Meera Ganguly: Go on.
+
+49:29 Consultant: First, shows. Every show as a record with its dates, its venue, its project manager, and the phases it goes through, prep, load-in, show days, load-out, check-in, so a show is not a single line in a calendar.
+
+49:50 Dermot Shanley: It isn't. That's right.
+
+49:54 Consultant: Second, the kit list on the show rather than in a file, so that when two shows want the same two walls in March, that collides somewhere other than in Aileen's head on the prep day.
+
+50:10 Aileen Rusnak: that's the one
+
+50:13 Consultant: Third, the crew side of the grid, so the schedule lives somewhere everyone can see and a change reaches the people it touches. Fourth, check-in as a visible state, so what's outstanding on a Monday is a list rather than a walk round the floor.
+
+50:35 Meera Ganguly: And the sub-hires? Do they go in it?
+
+50:41 Consultant: I'd record them, because that's how you'll know whether the line is coming down, but I wouldn't try to order them from it.
+
+50:52 Meera Ganguly: Agreed. The hire system raises those.
+
+50:58 Consultant: And I'd deliberately leave the invoicing where it is. The hire system stays the book of record for what kit is worth and what a show is billed. I'm not proposing to replace it, and I'd want that said in a sentence Ferris can read.
+
+51:18 Meera Ganguly: Yes. That's the sentence that matters.
+
+51:24 Dermot Shanley: Does the asset list have to be perfect before any of that works?
+
+51:32 Consultant: Not perfect. It has to be right for the things that actually collide, which by Aileen's account is the small-number kit. Walls, racks, desks. Two hundred lines, not two thousand.
+
+51:49 Aileen Rusnak: I could do two hundred lines in a day and a half.
+
+51:56 Consultant: Then that's the first thing we'd do together, and it's a day and a half of your time, not two weeks.
+
+52:05 Meera Ganguly: That changes it, actually.
+
+52:09 Consultant: So of those four, is that the right first cut? And is anything in there you'd take out?
+
+52:18 Meera Ganguly: I'd take nothing out. I'd want the check-in one first, because that's the one that makes everything else true.
+
+52:29 Consultant: That's a good instinct and I'd probably argue for shows and kit first, because check-in is only useful once the kit records are right. But that's exactly the argument to have with the thing in front of us.
+
+52:47 Meera Ganguly: Fine. Yes. That's the right first cut, subject to Ferris hearing it.
+
+52:55 Consultant: Understood, and I'm not treating that as a yes to anything.
+
+53:02 Meera Ganguly: Understood back.
+
+53:06 Dermot Shanley: Can I add one? Whatever it is, it has to work on a phone in a loading bay with one bar of signal. If it doesn't, it doesn't exist.
+
+53:20 Consultant: That's a design constraint and I'll write it as one.
+
+53:26 Aileen Rusnak: And I'd want to be able to change it myself. Add a field, change a list. If I have to ring someone to add a column we're back where we were with the app.
+
+53:41 Consultant: Also a design constraint, and a reasonable one. Anything else?
+
+53:48 Meera Ganguly: Don't make me look at a wall of colour.
+
+53:53 Consultant: [laughs] Understood. Fewer colours.
+
+53:58 Consultant: Right. What happens next, from my side. I'd like to build a first version in a working account and show it to you, rather than send you a document about it.
+
+54:13 Meera Ganguly: How long does that take you?
+
+54:17 Consultant: A week, give or take, and I'd want the kit list and the grid photograph before I start.
+
+54:26 Aileen Rusnak: I can send those today.
+
+54:30 Consultant: Today is more than I asked for. By Friday the second is plenty.
+
+54:37 Aileen Rusnak: I'll do it today and then it's done.
+
+54:43 Consultant: Thank you. Meera, can we put a date in for me to show you?
+
+54:51 Meera Ganguly: What does next week look like for you?
+
+54:56 Consultant: Tuesday the sixth, late morning. Eleven o'clock, for forty-five minutes.
+
+55:05 Meera Ganguly: Tuesday the sixth at eleven works. Dermot?
+
+55:11 Dermot Shanley: Works.
+
+55:13 Aileen Rusnak: I'm here, I'll be in the office that day.
+
+55:19 Consultant: Good. I'll send the invite when we finish. Meera, would you want Ferris in that one, or is it better after?
+
+55:31 Meera Ganguly: After. Let me see it first and then I'll take it to him with a view.
+
+55:39 Consultant: That's sensible. Then can I ask you for two things. The write-off figure from Lenka, and twenty minutes with a crew chief before I build the crew half.
+
+55:53 Meera Ganguly: The figure, yes, I'll ask Lenka Thursday. The crew chief, ask Dermot.
+
+56:02 Dermot Shanley: Kenny's in on Wednesday doing kit prep. I'll put you on the phone to him Wednesday afternoon.
+
+56:12 Consultant: Wednesday afternoon is fine, and I'd rather it was ten minutes on a break than a meeting.
+
+56:21 Dermot Shanley: [crosstalk] that's the only way you'll get him
+
+56:26 Meera Ganguly: Sorry, go on.
+
+56:29 Consultant: I was going to say, one last thing and then I'll let you go. Is there anything I haven't asked about that you think I should have?
+
+56:41 Aileen Rusnak: The second warehouse. Dunmere. Nothing at Dunmere is in the hire system properly and there's about forty thousand pounds of staging in it.
+
+56:55 Consultant: That's a good catch and I'd have missed it. Is Dunmere in scope for December or later?
+
+57:05 Meera Ganguly: Later. Get Farrowgate right first.
+
+57:11 Aileen Rusnak: Later is fine. I just didn't want it to be a surprise in February.
+
+57:19 Consultant: Written down as a known later, not a surprise. Dermot, same question.
+
+57:27 Dermot Shanley: You didn't ask about the transport company, but I think we've, we've covered why.
+
+57:35 Consultant: We have, and it's on the list for Lenka. Meera?
+
+57:42 Meera Ganguly: You haven't asked what happens if Ferris says no.
+
+57:48 Consultant: I was going to ask that at the end, so go on.
+
+57:54 Meera Ganguly: If he says no in November, it isn't dead, it's April. But April is after the framework starts, and then we're doing it during the busiest year we've had, which is the worst possible time.
+
+58:12 Consultant: Then let's make November a real conversation rather than a hopeful one. I'd like to give you something you can put in front of him that answers the hire system question in one page, in his language, not mine.
+
+58:31 Meera Ganguly: That would be worth a great deal.
+
+58:36 Consultant: Then that's what I'll aim at for the sixth. Thank you, all three of you. That was a lot of straight answers and it makes my job much easier.
+
+58:50 Dermot Shanley: Thanks. Send the invite before you forget.
+
+58:56 Consultant: Sending it now.
+
+59:00 Meera Ganguly: Thank you. Speak on the sixth.
+
+59:05 Aileen Rusnak: bye
+
+59:07 Dermot Shanley: Bye.

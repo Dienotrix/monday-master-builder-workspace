@@ -1,0 +1,36 @@
+# s11-demo-composite — verification, first pass
+
+Verifier's report, 2026-10-13. No fixture file was edited. Everything in the fixture is fictional.
+
+## Checks
+
+| # | Check | Result | Evidence |
+|---|---|---|---|
+| 1 | JSON valid, UTF-8 | pass | `answer-key.json` loads with Python; it is UTF-8 because of the en dash in the workspace names. The transcript is ASCII with LF endings. |
+| 2 | Field order | pass | 27 top-level fields: the original 25 in the s1 to s10 order, `intake`, then `readiness` last. The original key's order is a prefix of the new one. |
+| 3 | `readiness` shape against section 3 | pass | Top-level fields `schema` (`readiness/1`), `note`, `pains`, `signals`, `entities`, `structure`, `existing`, `assumptions`, `unmet_needs`, `ai_opportunities`, `verdict`, `questions`, in the brief's order. Sub-fields match field by field: pains (id, quote, location, speaker_role, stated_or_excavated, outcome), signals (quote, location, pain, not_confirmed), entities (name, parent, moves_independently, shared_resource, goes_stale, source, evidence), structure (products, build_target, build_target_reason, workspaces, native_reuse, leanings, patterns, element_per_pain), leanings (question, option, quotes, locations, condition, pattern), existing (account, incumbents), ai_opportunities, verdict, questions. |
+| 4 | Every key pain in `readiness.pains` and `element_per_pain` | pass | The key holds 9 pains; the (quote, location) pairs match the 9 readiness pains exactly (P1, P2, P3.1 to P3.4, P4.1, P4.2, P5). `element_per_pain` has the same 9 ids: 8 `fixes`, 1 `none` (P5). Numbering follows section 8. |
+| 5 | `moves_independently` on every entity with a parent | pass | 26 entities, 19 with a parent, all 26 carry a value (16 yes, 9 no, 1 unknown). |
+| 6 | At most five questions | pass | 5: four read-backs, one discovery. |
+| 7 | Valid `cleared_for` | pass | `build`, with seven conditions, the first being the approval stop. Own-account target, so no A11 question is asked first, and the condition says the three A11 decisions stay open. |
+| 8 | No sales vocabulary in the block | pass | A regex for R-numbers, grades, gate names and verdict words found only the field name `verdict` inside `element_per_pain` (the brief's own field) and the word "missing" inside the client's quote "That's the missing dance floor." (P1). Both are legitimate. |
+| 9 | `direction` rename complete | pass | `intake.type_header.direction` and `direction_note` exist; `direction_of_show` occurs 0 times in the key; `accepted_behaviours[6]` was reworded. The README does not name the field. |
+| 10 | "Never written to" rule | pass | Searched for "never written", "not written", "write back", "writeback", "never touch", "read-only", "one way", "book of record" and "nothing connects". The only hits are the two corrected passages: `integrations_mentioned[0]` and the accounting-system incumbent, both now reading "Writeback and integration direction unresolved; v0.1 does not depend on either; staying clear ... is our safe default, labelled as ours." No unsupported absolute claim remains. |
+| 11 | Review entry changes in the fields they name | pass | A flattened diff of the original key against the new one (readiness excluded) shows: false starts, navigation filler, repeated explanation, unfinished clauses and the mid-tour interruption in the transcript (Desmond at [10:39], the tour resumes at [10:45]); the two-turn reply ([25:39] wrong attempt, [25:55] Hattie's correction, [26:03] the principle); the Anjali and crew-board turns moved to [26:22] and [26:26] so the block stays at [28:05]. The second note is stage 1b input and needed no change. Every count in `purpose_of_this_fixture`, `transcript_format`, traps 11 and 12, `export_family`, `detectors`, `talk_share`, `own_side_stretches` (now 4) and `delivery_notes` moved with it. The only location references that moved are `rubric[7].evidence[2]` (26:09 to 26:22), `rubric[0].note` and `quarantine.not_quarantined`. |
+| 12 | Sweep corrections logged and present | pass | Vocabulary entries 6, 7 and 8 (the Thursday board, count sheet / count-in, short / damaged), leak list entry 11, `integrations_mentioned[4]`, `commitments_and_next_steps[0].owner`, `delivery_notes[3]` and `next_close_list[4]` all differ from the original as `changes.md` says. Nine leanings in the block cover the hits; the "no hit" patterns (alias map, unsupported output) are explained in `changes.md`. |
+| 13 | `verify_quotes.py --json` | pass | 151 pairs, 151 verified (25 presence only), 0 skipped, 0 unparsed, 0 near-misses, 0 misses, 0 unsupported. No location notes. Original run: 120 pairs, so 31 new quotes, all verified. |
+| 14 | Unit count against baseline | pass | Baseline row for s11 shows 82 parsed units; s11 is the exception. The transcript now has 86 turns (a count of `[MM:SS]` labels), which is 82 plus the four units the review asked for. Stamps run non-decreasing. |
+| 15 | No quoted span changed | pass | `--spans` run on the original and the edited fixture. All 47 original units' spans are identical by (stamp, speaker) except two: [26:09] became [26:22] with the same span text ("Fine. Do the crew board. That's the one Des needs to see."), and [28:05] gained three spans that are new readiness quotes, none changed. [25:55] is a new unit with new spans. Edited fixture: 48 protected units, 68 spans, as `changes.md` and the README state. |
+| 16 | README counts against the files | pass | 257 lines, 86 turns, 9,006 words (recounted); Consultant 7,359 words = 81.7%, Anjali 1,165 (12.9%), Hattie 312 (3.5%), Desmond 170 (1.9%); longest turn 1,077 words at [04:19]; the 28:05 block 878 words; ten units of four words or fewer; sixteen " -- " restarts in thirteen turns; key 548 lines, 27 fields, `readiness` last. Attributable client words 769 and share 9.5% recompute. Rubric 24 (9 met, 13 partial, 1 missing, 1 met-with-residual), asked 12 true and 12 false, 9 pains, 8 objections, 22 traps, 13 leak entries, 5 requested changes, 9 commitments, 11 pre-build questions, 13 vocabulary entries, 8 entities, 5 integrations, 5 compliance signals, 10 accepted behaviours, 4 own-side stretches, 7 gaps all match the key. Readiness counts (9, 8, 26, 9, 9, 7, 14, 6, 3, 5) match the block. |
+| 17 | `coverage-row.md` against the files | pass | Thirteen columns like the existing row. Quote strings 151 and the other counts match the key and README; Review column reads "reviewed 2026-10-13; fix pass applied 2026-10-13", as the brief prescribes. |
+| 18 | Thin-case note | not applicable | The key is the strong case: `should_plugin_propose_a_build` is true and `cleared_for` is `build`, so the old and new verdicts agree and section 8 requires no extra note sentence. |
+
+## Observations that need no fix to the fixture
+
+- `changes.md` sections 6 and 8 say "18 with a parent". The key holds 19 entities with a non-null parent (26 total, 7 with none). The README and the coverage row do not state this figure, so no checked file is wrong. The editor may correct the log if it is to stay exact.
+- The R10 note in `rubric` still says "the invite sent on the call". The brief keeps `rubric` as v2 material and `changes.md` records this deliberately.
+- README line 52 mentions the old stamps 26:09 and 26:17 as history ("moved from"), which is correct.
+
+## Result
+
+PASS

@@ -1,0 +1,75 @@
+[00:00:02] Consultant: hi, jolene? can you hear me okay
+[00:00:06] Jolene Varga: yes hi, sorry i was on mute. can you hear me now
+[00:00:13] Consultant: loud and clear. how's your week going
+[00:00:16] Jolene Varga: oh it's fine they're repaving the parking lot outside our office so if you hear beeping that's the truck not me
+[00:00:25] Consultant: ha, noted. i'll blame the truck
+[00:00:29] Jolene Varga: um so yeah, thanks for doing this. i'm not totally sure what i'm asking for yet so
+[00:00:38] Consultant: that's completely fine that's what a first call is for. it's just a conversation, i ask a few things about how things run on your end and you ask me whatever you want. and if all you need is a small fix i'll tell you that. sound okay
+[00:00:56] Jolene Varga: yeah. yeah that's kind of a relief actually
+[00:01:00] Consultant: good. so tell me a bit about the organization and where you fit in
+[00:01:05] Jolene Varga: sure so we're the orrin valley society of land surveyors, which is a mouthful, everyone just says the society. we're a membership association so it's surveyors, some firms, students, retired folks. we've got i want to say a couple thousand members? don't quote me on that. and i'm the membership coordinator so i do renewals, new members, and um i help out with events when they need bodies
+[00:01:32] Consultant: got it. and how big is the staff side
+[00:01:35] Jolene Varga: small. like fifteen? fifteen-ish, sixteen if you count our part time bookkeeper i never know if she counts. and then there's all the volunteers which is a whole other thing
+[00:01:48] Consultant: yeah tell me about the volunteers
+[00:01:51] Jolene Varga: so we have committees. there's the education committee, well it's the professional development committee now, they renamed it, i still say education. the conference committee, a legislative one, young professionals, i think that one's still going. and each one kind of runs however their chair wants to run it. which is fine but it's [inaudible] who's doing what
+[00:02:19] Consultant: sorry, you cut out for a second. you said it's hard to know who's doing what?
+[00:02:24] Jolene Varga: yeah sorry. truck. yeah just, with the committees it's hard to know what's happening sometimes. who's doing what
+[00:02:32] Consultant: okay. and what got you looking at this, what made you reach out
+[00:02:37] Jolene Varga: so it was denise, she's our executive director. she asked me to look into options. like software options i guess, for getting more organized. so i'm really just exploring options for her right now. i'm not the one who'd decide anything
+[00:02:54] Consultant: that makes sense. do you know what got denise thinking about it
+[00:02:58] Jolene Varga: um. i think it came up at the board retreat? or maybe it was before that. i honestly don't know what kicked it off. she just said we're all over the place and could i see what's out there
+[00:03:13] Consultant: all over the place. what does that look like from where you sit
+[00:03:18] Jolene Varga: i mean it's just kind of messy? like everybody has their own spreadsheets and their own way of doing things, and a lot of stuff lives in email. and i think things fall through the cracks sometimes. but i couldn't point to like one big disaster or anything
+[00:03:37] Consultant: sure. is there a time recently where something slipped, even a small thing
+[00:03:42] Jolene Varga: hm. not really one that jumps out? it's more of a general feeling. like you don't always know where something's at. sorry that's probably not super helpful
+[00:03:54] Consultant: no, that counts. walk me through renewals maybe, since that's your world
+[00:04:04] Jolene Varga: okay so the member records are in our database, it's called [inaudible] something, it's old, we just call it the portal. the portal sends the reminder emails, well it's supposed to, and then i also keep my own tracker in excel because i don't totally trust it. and if people don't renew they go lapsed and then i follow up with some of them. email mostly
+[00:04:31] Consultant: what's behind not trusting it
+[00:04:35] Jolene Varga: oh just, it's clunky. i don't know if it's the portal or how it got set up, that was before my time. and i think the contract's up next year? maybe. i'd have to ask denise
+[00:04:49] Consultant: okay. and your tracker, is that just you
+[00:04:54] Jolene Varga: mostly just me. sometimes the bookkeeper asks me who's paid. and then education, sorry, professional development, they need to know who has their credits, their ce hours, the pdh stuff, but that's kind of separate. that's a different spreadsheet. i think. yeah
+[00:05:13] Speaker 3: jo are you coming to the eleven o'clock or
+[00:05:16] Jolene Varga: i'm on a call, yes, i'll be there. sorry. sorry, that was wendell, he does our events
+[00:05:23] Consultant: no problem. good segue actually, how do events work
+[00:05:28] Jolene Varga: so there's the annual conference that's the big one, that's in april. then chapter meetings webinars a couple field days in the summer. the field days are fun actually people bring old equipment it's very nerdy. anyway wendell runs most of it. registration is, some of it goes through event bright and some of it's just a form on our website, and then he has, he has his own spreadsheet too. everybody has a spreadsheet, that's kind of the theme here
+[00:06:04] Consultant: ha. and the committees, where does their stuff live
+[00:06:09] Jolene Varga: all over. google docs, email chains, one of the chairs just likes to call people. the conference committee tried trello a while back i think? or it might have been monday actually. i really don't remember. somebody set something up and then nobody used it
+[00:06:28] Consultant: if you can find out which one, and whether that account's still around, that'd be handy
+[00:06:35] Jolene Varga: yeah i can ask wendell, he'd know
+[00:06:38] Consultant: perfect. say this gets sorted. what's different for you
+[00:06:45] Jolene Varga: um. i guess just like one place where we can see stuff? instead of asking five people. and i think denise just wants to feel like she knows what's going on without having to chase everybody. but you'd really have to ask her that
+[00:07:02] Consultant: i'd love to. and when it comes to deciding on something like this, who's involved
+[00:07:09] Jolene Varga: oh gosh. honestly that's above my pay grade. i don't know how that works with the money side, if it goes to the board or what. you'd have to ask denise
+[00:07:21] Consultant: fair. is this a soon thing or more of a someday project, do you know
+[00:07:28] Jolene Varga: i don't think it's like urgent urgent. no rush really. i mean it'd be nice before renewal season gets crazy again but she didn't give me a date or anything
+[00:07:41] Consultant: okay. anything you already know of that could get in the way
+[00:07:46] Jolene Varga: well we're a nonprofit so budget's always a thing. and um, one of our board members apparently uses some association software at the other group he's on, so she might be looking at that too? i don't know. and honestly i don't want to waste your time, i'm not even sure we're the kind of place that needs a whole system
+[00:08:11] Consultant: you're not wasting my time. it might turn out you don't need a whole system, sometimes it's a better spreadsheet and a couple of habits. i'd rather figure that out properly than guess
+[00:08:26] Jolene Varga: okay. yeah that's fair
+[00:08:29] Consultant: going back to renewals, roughly how much of your week goes to them
+[00:08:34] Jolene Varga: oh gosh it really depends. some weeks it's most of what i do and some weeks it's barely anything. i've never actually thought about it in hours. i could try and figure that out i guess
+[00:08:48] Consultant: no pressure, but if you get a rough feel over the next week or so, bring it. nothing precise
+[00:08:56] Jolene Varga: okay yeah i can do that. roughly. oh can i ask, is monday like a project management thing? i thought it was for marketing agencies
+[00:09:08] Consultant: it gets used for a lot of things, membership and events work included. but i don't want to pitch you anything before i understand how the society runs
+[00:09:20] Jolene Varga: okay. do you have like a demo or a price sheet or something i could send denise though? she's going to ask
+[00:09:28] Consultant: fair, she will. i'd rather show her something built around how you actually work than a generic demo, and pricing honestly depends on what we find. what i'd suggest is a proper discovery call, maybe forty five minutes, ideally with denise for at least part of it. how does your calendar look
+[00:09:52] Jolene Varga: um next week's bad we've got a committee meeting and a webinar. week after's better. tuesdays are usually okay for denise i think? no promises
+[00:10:07] Consultant: how about tuesday the
+[00:10:09] Jolene Varga: oh sorry, go ahead
+[00:10:11] Consultant: no you're fine. how about tuesday the twenty second, ten thirty
+[00:10:15] Jolene Varga: tuesday the twenty second. let me look. [inaudible] okay ten thirty works for me. i'll ask denise if she can hop on, she might only be able to do half
+[00:10:29] Consultant: that's fine, even half is great. i'm on eastern, is that the same for you
+[00:10:34] Jolene Varga: yeah eastern
+[00:10:36] Consultant: perfect. so tuesday the twenty second at ten thirty eastern. i'll send the invite today. do you want me to add denise directly or send it to you
+[00:10:46] Jolene Varga: just send it to me and i'll forward it. i want to check with her first
+[00:10:51] Consultant: sure. i'll put a few lines in the invite about what we'll cover so she knows what she's walking into
+[00:10:58] Jolene Varga: oh that'd help yeah. oh and do you want my renewal tracker i could send it. although hm, it has member stuff in it, addresses license numbers. let me check if i'm allowed to send that
+[00:11:13] Consultant: definitely check first, and nothing with personal details please. a blank copy with just the column headers is plenty
+[00:11:23] Jolene Varga: oh okay. yeah i can probably do that
+[00:11:27] Consultant: great. anything else before we wrap up
+[00:11:31] Jolene Varga: um, no i think that's it. i feel like i didn't give you much
+[00:11:36] Consultant: you gave me a good start. next time we'll dig into renewals and committees properly
+[00:11:45] Jolene Varga: okay good. oh, the truck's gone. finally
+[00:11:49] Consultant: ha, perfect timing. nice to meet you jolene, talk on the twenty second
+[00:11:55] Jolene Varga: yeah you too. okay bye
+[00:11:57] Consultant: bye

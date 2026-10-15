@@ -1,0 +1,2296 @@
+{
+ "scenario_id": "s6-discovery-crm-sales",
+ "call_type": "discovery",
+ "purpose_of_this_fixture": "Tests the classic sales-team CRM engagement the fixture set was missing: a strong 42-minute discovery call, in a booked hour, with a B2B industrial supplies distributor of about 85 people (22 outside reps, 2 warehouses) that runs its pipeline on a 22-tab Excel workbook plus a legacy CRM nobody has opened since 2023. Four things are under test. (1) The vocabulary trap. They say 'prospects' for leads and 'opportunities' or 'quotes' for deals, and never say lead or deal. The right answer maps those words onto the account's NATIVE CRM template boards (Leads, Contacts, Accounts, Deals/Opportunities, Activities) by relabelling board names, item terminology and views, never by building look-alike boards called Prospects and Quotes. A hand-built Prospects board already sits abandoned in the account, which makes the wrong answer feel available; the client also asked not to end up with two. (2) Account facts that are stated rather than unknown for once: the tier is Pro and the CRM product is enabled and empty. So the Enterprise portfolio default must NOT fire, the reason must be recorded, and the plugin must not confuse an enabled product with an installed native board set: preflight has to look, and install monday's native CRM template set if the workspace is bare. (3) Grading. R1 to R10 and R12 all Met, R11 Missing, verdict 'Discovery complete'. Per pain: P1, P2 and P3 excavated; P2 Trajectory Partial; P3 Cost inputs Partial; P4 Workaround and Cost inputs Partial. The bleed is the client's own $306,520 a year, built out loud by their analyst and confirmed by the VP, after the VP refused the Consultant's larger figure; the upside is a $275,000 launch-year margin figure that must not be added to the bleed. (4) The gate that has never opened in this set. R4, R7 and R12 are all Met and the client asks for a proposal with a number, so the method's pricing-or-proposal gate is open. Pricing and proposal prep are deferred beyond v1, so the plugin must say that plainly, hand the agreed five-bullet scope to the Consultant in the client's words, and not draft a priced document. The objection 'we'll just build it ourselves' is raised by the approver and answered with the workaround question. A milder 'monday itself is the problem' is raised about the existing operations boards and resolved on the call.",
+ "transcript_format": "Plain text, one line per turn, in the form '[MM:SS] Speaker Name: text', with no blank lines between turns. 270 turns from [00:03] to [42:22], about 5,390 spoken words, client talk share about 67 percent. The consultant is labelled 'Consultant' with no name, role or gendered pronoun. Timestamps are minutes and seconds only, so locations in this key are written '[MM:SS] Speaker Name (role)', for example '[12:20] Delia Ostrowski (Sales Operations Analyst)', and '[13:38] Consultant' style without a role for the consultant. Speech is lightly disfluent and carries '[laughs]' twice; nothing is tidied. The call date is not stated anywhere; relative dates fit September 2026, with the next call on Wednesday the 23rd. Note two transcript artefacts: 'Monday' appears as a weekday ('the Monday morning call') as well as the product name 'monday', and the ERP is spoken as 'P twenty-one' and 'Prophet twenty-one' rather than written as P21.",
+ "company": {
+  "name": "Calderwood Industrial Supply",
+  "industry": "B2B industrial supplies distribution: fasteners, abrasives, cutting tools, safety equipment and general MRO consumables, sold to fabricators, machine shops, food plants and municipalities",
+  "size": "About 85 employees: 22 outside sales reps, 5 inside sales and counter staff, 3 regional sales managers, and one sales operations analyst. Four more reps join for the new territory, taking outside sales to 26.",
+  "locations": "Two warehouses: Toledo, Ohio (main site, where the VP of Sales sits) and Fort Wayne, Indiana. A new sales territory in western Pennsylvania launches 5 January, served out of Toledo, about four hours away.",
+  "current_tools": [
+   "Epicor Prophet 21 ('P twenty-one'), the ERP: orders, inventory, contract pricing, quoting and invoicing. Explicitly staying.",
+   "Excel on SharePoint: the pipeline workbook, one tab per rep plus a formula summary tab, and a separate bid-calendar spreadsheet.",
+   "GoldMine, the legacy CRM, still installed on a Toledo server and unopened since about 2023.",
+   "Microsoft 365: Outlook and Teams.",
+   "SharePoint (the workbook and quote PDFs).",
+   "monday.com: Pro plan, about nine months old, used by purchasing for vendor returns and the Fort Wayne racking project, plus a believed safety audit board, and one abandoned Prospects board built by the sales ops analyst.",
+   "A website enquiry form that lands in a shared inbox.",
+   "Trade show badge scans, returned as a spreadsheet.",
+   "Halbrook Technology, the outsourced IT provider, which administers Microsoft 365 and gatekeeps the ERP."
+  ]
+ },
+ "attendees": [
+  {
+   "name": "Consultant",
+   "role": "monday.com consultant running the discovery call",
+   "side": "consultant",
+   "decision_role": "not applicable"
+  },
+  {
+   "name": "Emmett Thibault",
+   "role": "VP of Sales",
+   "side": "client",
+   "decision_role": "approver (decides and holds the budget line: 'This is my call.' No signature needed from the president under $40k a year, and the president is told rather than asked)"
+  },
+  {
+   "name": "Delia Ostrowski",
+   "role": "Sales Operations Analyst (the only sales ops person)",
+   "side": "client",
+   "decision_role": "admin/owner (named as the day-to-day owner of whatever is built, and the person who would have to keep it alive; also the heaviest end user and the author of the abandoned Prospects board)"
+  },
+  {
+   "name": "Wes Kubiak",
+   "role": "Regional Sales Manager (Fort Wayne and west, seven reps, and the new western Pennsylvania territory from January)",
+   "side": "client",
+   "decision_role": "influencer and end user (owns the weekly pipeline call and visit coverage; his team's adoption is the stated risk)"
+  }
+ ],
+ "expected_monday_products": [
+  {
+   "kind": "crm",
+   "why": "The build, and the whole of it. All five agreed scope items are CRM entities: prospects (native Leads, relabelled), accounts and contacts with history that survives a departure (native Accounts and Contacts), the opportunity pipeline carrying the Prophet 21 quote number with a follow-up step (native Deals/Opportunities), logged calls and visits including ride-alongs with a sortable coverage view (native Activities), and a forecast view for the VP and the president that replaces the Friday workbook. CRM is in v1 scope and must be built on the account's own native CRM template boards, detected and recorded per entity in preflight first, relabelled to the client's vocabulary where that helps, and never re-created as look-alike boards. The CRM product is enabled and empty, so if the workspace holds no native install the native template set is installed rather than hand-built. Optional and to be asked: the native Quotes & Invoices board for a per-document record, since a requote creates a new ERP number for the same pursuit."
+  },
+  {
+   "kind": "core",
+   "why": "Already present and deliberately out of this scope. Purchasing runs vendor returns and the Fort Wayne racking project on Work Management boards, and there is believed to be a safety audit board; the Consultant committed to reviewing those before building, because the manager asked whether their messiness was monday's fault. Nothing in the agreed five belongs there, and no sales entity may be modelled on a Work Management board because the CRM workspace looked empty. The deferred items could land here later (new rep onboarding checklists, the bid calendar) and stay in the backlog until asked for. monday Service and dev are not proposed at all: no ticket or request desk was described, the vendor returns board is purchasing's existing work rather than a Service opportunity, Service extras are deferred beyond v1, and dev is outside v1 with nothing in the call calling for it."
+  }
+ ],
+ "rubric": [
+  {
+   "criterion": "R1 Current state mapped",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "Tuesday morning I pull every open quote out of P twenty-one, that's our ERP, Prophet twenty-one, and I paste them into the workbook.",
+     "location": "[03:02] Delia Ostrowski (Sales Operations Analyst)"
+    },
+    {
+     "quote": "Every rep keeps their own tab, and the columns are different in almost every one, because they set them up themselves back in twenty-nineteen and nobody ever standardised it.",
+     "location": "[03:44] Delia Ostrowski (Sales Operations Analyst)"
+    },
+    {
+     "quote": "The quote lives in P twenty-one, the pricing lives in P twenty-one, the stock lives in P twenty-one, and everything about whether anybody's actually going to buy it lives in somebody's head.",
+     "location": "[05:11] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "Then it depends entirely on the rep. It goes in his phone, or on a sticky note, or in his tab in the workbook if he's one of the organised ones.",
+     "location": "[08:50] Wes Kubiak (Regional Sales Manager)"
+    },
+    {
+     "quote": "My Monday morning call is a bunch of people telling me what they think they're going to close and me writing it on a legal pad.",
+     "location": "[13:46] Wes Kubiak (Regional Sales Manager)"
+    },
+    {
+     "quote": "Nobody has opened it since, what, twenty-twenty-three?",
+     "location": "[05:58] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "We bought monday about nine months ago for the operations side.",
+     "location": "[07:41] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "It says Pro when I log in. And there's a whole sales CRM section in there with nothing in it, which I've clicked into maybe twice.",
+     "location": "[08:01] Delia Ostrowski (Sales Operations Analyst)"
+    }
+   ],
+   "note": "Mapped end to end and unusually well for a first call: the four intake routes, qualification by visit, who builds the quote and why (pricing matrices), the P21 quote as the document of record, Delia's Tuesday pull and Friday forecast, the 22-tab workbook with per-rep columns, Wes's Monday call and legal pad, the dead GoldMine install, and the existing monday use with the tier stated. People and time are attached to each step (Delia 6 h/wk, reps 3 h/wk, managers 4 h/wk). Gaps that remain and should be confirmed rather than assumed: inside sales were named in the first two minutes and do appear in the flow, building quotes in the ERP and taking house-account orders, but their share of the work and their place as users of anything new surfaced only in the last five minutes, raised by the analyst herself ('Inside sales takes maybe a third of the orders'); how the website form's shared inbox is triaged today, and by whom; who approves a stocking agreement or contract pricing; the structure, seat count and administrator of the existing monday boards, which the Consultant has said will be inspected before building; and whether the CRM product workspace holds a native install at all, which the transcript cannot answer ('a whole sales CRM section in there with nothing in it'). The bid calendar was described and then deliberately excluded."
+  },
+  {
+   "criterion": "R2 Pain made concrete",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "We had a sixty-two thousand dollar stocking quote sitting at Brightline for five weeks and nobody touched it.",
+     "location": "[11:34] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "Of the quotes over five thousand dollars we sent out last year, thirty-eight percent had no activity after the day they went out.",
+     "location": "[12:20] Delia Ostrowski (Sales Operations Analyst)"
+    },
+    {
+     "quote": "Nothing. There's no follow-up step. It's whether the rep remembers, and some of them are excellent and some of them are not.",
+     "location": "[13:05] Wes Kubiak (Regional Sales Manager)"
+    },
+    {
+     "quote": "I cannot tell you today what's going to close this month. I can tell you what twenty-two people told me they hope will close, which is not the same thing.",
+     "location": "[04:35] Emmett Thibault (VP of Sales)"
+    }
+   ],
+   "note": "P1 (no shared pipeline) and P2 (quotes going unfollowed) are both excavated: stated, a specific recent occurrence, and a named workaround the client rejects. P3 (history leaves with the rep) is excavated as well on the three required checks. P4 (visit activity invisible) has a Partial workaround. P5 to P8, listed under pains, are real but thinner: the house accounts nobody works, win-loss on the city bids, the badly tracked bid calendar, and having nothing to hand a new rep, all of which the client put outside the agreed scope for now."
+  },
+  {
+   "criterion": "R3 Why now",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "We're launching western Pennsylvania on January fifth. Four reps, two already signed, and the first one starts December first.",
+     "location": "[19:00] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "It's real. The two signed reps start December first and January fifth, and their guarantee period starts when they start.",
+     "location": "[19:46] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "Gene wants a rolling ninety-day forecast on his desk every month starting in January.",
+     "location": "[20:02] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "because we picked up the Northgate abrasives line for that geography in June",
+     "location": "[19:18] Emmett Thibault (VP of Sales)"
+    }
+   ],
+   "note": "Three separate triggers with dates: the territory launch on 5 January with the first rep starting 1 December, the president's monthly rolling 90-day forecast from January (asked for in August, after the Brightline loss), and the new abrasives line for that geography picked up in June. The December date is a real constraint on the build, not a preference: 'If it's not working before December first, it's not worth doing for this launch.'"
+  },
+  {
+   "criterion": "R4 Bleed number",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "Tuesday morning and Friday morning. So call it six hours a week, and that's a quiet week.",
+     "location": "[21:33] Delia Ostrowski (Sales Operations Analyst)"
+    },
+    {
+     "quote": "Delia loaded is about thirty-five an hour. That's close enough.",
+     "location": "[21:50] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "Three hours a week, easy. Some of them more. And a chunk of that is calling Fort Wayne to ask a question they could have looked up if it was written anywhere.",
+     "location": "[22:12] Wes Kubiak (Regional Sales Manager)"
+    },
+    {
+     "quote": "With the truck, the phone, benefits, all of it, about sixty an hour.",
+     "location": "[22:29] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "Four hours. The Monday call is an hour and a half of it and then I'm calling people all week to fill in what they didn't say on the call. And there's three of us doing that.",
+     "location": "[22:43] Wes Kubiak (Regional Sales Manager)"
+    },
+    {
+     "quote": "Call a manager seventy an hour loaded.",
+     "location": "[22:57] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "Managers, four hours each, three of you, that's twelve hours a week at seventy, times fifty-two, forty-three thousand six hundred and eighty. So on time alone that's two hundred and sixty thousand five hundred and twenty.",
+     "location": "[23:44] Delia Ostrowski (Sales Operations Analyst)"
+    },
+    {
+     "quote": "Average quote over five thousand is about eight thousand. We make about twenty-five points on that kind of work.",
+     "location": "[24:20] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "If I'm honest, one in twenty of the ones we didn't chase. Some of them were never real. So twenty-three orders. Twenty-three times two thousand, that's forty-six thousand.",
+     "location": "[25:01] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "Two hundred and sixty thousand five hundred and twenty plus forty-six thousand. Three hundred and six thousand five hundred and twenty.",
+     "location": "[25:32] Delia Ostrowski (Sales Operations Analyst)"
+    },
+    {
+     "quote": "Three hundred and six thousand a year.",
+     "location": "[25:43] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "It feels low, if anything. It doesn't have my time in it, and it doesn't have the house accounts nobody's calling.",
+     "location": "[26:00] Emmett Thibault (VP of Sales)"
+    }
+   ],
+   "note": "Every input is client-supplied, the arithmetic is done out loud by the client's own analyst, and the VP confirms the total and says it feels low. Note the discipline test in the middle: the Consultant floated 'something like four hundred and seventy thousand in margin' off a half-of-them assumption and was refused ('No. Nowhere near half.'); the client then supplied one in twenty, 23 orders and $46,000. The key's figure is the client's $306,520, never the Consultant's. Excluded on purpose and named as excluded: the Brightline $62,000 (a one-off), the VP's own time, and the unworked house accounts."
+  },
+  {
+   "criterion": "R5 Upside number",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "About two point two million a year in revenue, at roughly the same twenty-five points.",
+     "location": "[26:21] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "Nine months, historically. That's what the last three hires took to get to a normal book.",
+     "location": "[26:32] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "Six. I'd say six, and I'd be annoyed if it wasn't.",
+     "location": "[26:48] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "A ramping rep isn't doing full rate, so say half. Half of two point two is one point one, so a quarter of that is two hundred and seventy-five thousand each in that quarter. Four reps, that's one point one million in revenue.",
+     "location": "[27:00] Delia Ostrowski (Sales Operations Analyst)"
+    },
+    {
+     "quote": "And a quarter of that is margin, so two hundred and seventy-five thousand. In the launch year.",
+     "location": "[27:20] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "If I weren't rebuilding that workbook twice a week I'd be doing win-loss on the city bids. Nobody has ever looked at why we lose those.",
+     "location": "[27:44] Delia Ostrowski (Sales Operations Analyst)"
+    },
+    {
+     "quote": "House accounts. Two hundred-odd companies that buy from us when they happen to call. Nobody's ever worked that list and I've asked for somebody to work it for three years.",
+     "location": "[27:59] Wes Kubiak (Regional Sales Manager)"
+    }
+   ],
+   "note": "Met, with the client doing the conversion and the 'what would you do with it' answers coming from two different people. Two properties of this number matter for any later use: it is a launch-year figure, not an annual one, and the client agreed that out loud ('Once they're ramped they're ramped.'); and it does not overlap the bleed, which is time and unchased quotes rather than ramp revenue, so the two must never be added together. The capacity answers (win-loss analysis on the city bids, working the house accounts) are wants the client cannot reach today, not requirements, and both were placed outside the agreed scope."
+  },
+  {
+   "criterion": "R6 Desired outcome",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "A normal week is: I open one screen on Monday morning and I know what's out there, what's stuck, and what closed. I don't ask twenty-two people and I don't wait for Friday.",
+     "location": "[28:26] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "If the forecast I give him in January is within ten percent. That's it. That's his whole test. He's a numbers guy and he doesn't care how it's made.",
+     "location": "[28:44] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "Knowing who's been in front of a customer without asking anybody. And the new four getting to productive without me living in Pennsylvania.",
+     "location": "[29:00] Wes Kubiak (Regional Sales Manager)"
+    },
+    {
+     "quote": "Not retyping. Genuinely, that's my answer. If the summary builds itself I don't care what it looks like.",
+     "location": "[29:13] Delia Ostrowski (Sales Operations Analyst)"
+    }
+   ],
+   "note": "A picture of solved from each of the three attendees, plus the approver's own test stated as a number: a January forecast within ten percent. These become draft success criteria marked proposed, not agreed, so the v1.0 sign-off gate stays shut until they are confirmed. 'one screen on Monday morning' is the outcome, not a specification of a dashboard; do not turn a figure of speech into a design commitment."
+  },
+  {
+   "criterion": "R7 Decision process mapped",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "This is my call. I've got a line in the sales budget and I don't need Gene's signature under forty thousand a year. Gene wants to be told, not asked.",
+     "location": "[29:34] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "Then it's a conversation with him and probably with our accountant, and it gets slower. I'd rather stay under it.",
+     "location": "[29:51] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "We don't have an IT department, we have Halbrook Technology, and Anil over there has to bless anything that touches P twenty-one.",
+     "location": "[30:07] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "A week or two if you ask him nicely and give him a document. Longer if it sounds like it writes anything back into P twenty-one.",
+     "location": "[30:27] Delia Ostrowski (Sales Operations Analyst)"
+    },
+    {
+     "quote": "Delia. She's the one who'd have to keep it alive, which is the part I want to ask about actually.",
+     "location": "[30:44] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "We paid for GoldMine for six years and used it for about one. I'm not doing that again.",
+     "location": "[06:45] Emmett Thibault (VP of Sales)"
+    }
+   ],
+   "note": "Fully mapped, and the approver is in the room, which no other fixture in this set has: the VP decides, holds the budget line and needs no signature under $40k a year; the president is informed rather than consulted; the outsourced MSP gatekeeps anything touching the ERP, with a stated turnaround of one to two weeks and a longer one if writes are involved; Delia is the named day-to-day owner and the adoption risk sits with the reps. Prior budgeting experience is explicit and negative: six years of paying for a CRM they used for one."
+  },
+  {
+   "criterion": "R8 Priority and timing",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "Top of the list. This is a now thing. If it's not working before December first, it's not worth doing for this launch, and then I'd rather wait until after the spring.",
+     "location": "[34:32] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "Don't try to train anybody the week of Thanksgiving. Nothing happens that week, nobody's here.",
+     "location": "[34:51] Delia Ostrowski (Sales Operations Analyst)"
+    },
+    {
+     "quote": "And the first week of the month is order entry, so the reps are useless for anything else Monday and Tuesday.",
+     "location": "[34:59] Wes Kubiak (Regional Sales Manager)"
+    }
+   ],
+   "note": "Placed at the top of the list with a hard date and an explicit fallback (wait until after the spring) if December is missed, which is a fit risk to keep visible rather than a soft preference. Two calendar constraints to design around: no training in Thanksgiving week, and reps unavailable the first Monday and Tuesday of each month for order entry."
+  },
+  {
+   "criterion": "R9 Blockers surfaced",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "The reps. That's the whole risk. If it's one more thing to update, they won't, and then I've paid for GoldMine twice.",
+     "location": "[33:47] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "And if it's slow on a phone in a parking lot, forget it. My guys are not sitting down at a desk. If logging a visit takes more than about a minute in a truck, it won't happen.",
+     "location": "[33:58] Wes Kubiak (Regional Sales Manager)"
+    },
+    {
+     "quote": "And me getting pulled onto the inventory count again in October. That's a real risk, it happens every year.",
+     "location": "[34:13] Delia Ostrowski (Sales Operations Analyst)"
+    }
+   ],
+   "note": "Three named blockers, one per attendee, and all three are design inputs rather than sales problems: rep adoption with GoldMine as the precedent, phone usability in a truck with a one-minute ceiling on logging a visit, and the owner's own availability being taken by the October inventory count."
+  },
+  {
+   "criterion": "R10 Next step committed",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "Twenty-third works. Two o'clock. I'm in Toledo that day.",
+     "location": "[39:31] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "I'm free.",
+     "location": "[39:37] Delia Ostrowski (Sales Operations Analyst)"
+    },
+    {
+     "quote": "Yep, put it in.",
+     "location": "[39:39] Wes Kubiak (Regional Sales Manager)"
+    }
+   ],
+   "note": "Date, time, length, attendees and purpose all agreed on the call: Wednesday the 23rd at 2:00 pm Eastern, 45 minutes, all three attendees, to react to a first version built in their own account. The Consultant owns the invite and said it would go out at the end of the call, so it stays a to-do until confirmed sent."
+  },
+  {
+   "criterion": "R11 Solution confirmed",
+   "status": "missing",
+   "evidence": [],
+   "note": "Missing by definition: this is the first call and nothing has been shown, so no pain has been confirmed solved in a demo. R11 is graded from demo transcripts only, and it blocks the v1.0 sign-off gate until the 23rd at the earliest."
+  },
+  {
+   "criterion": "R12 Scope agreed verbally",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "No. That's the scope. All five, nothing else for now. New rep onboarding, the bid calendar, the house account campaign, all of that can wait until this is alive.",
+     "location": "[36:52] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "Agreed. I'd add, whatever we do with my Prospects board, don't leave two of them.",
+     "location": "[37:16] Delia Ostrowski (Sales Operations Analyst)"
+    },
+    {
+     "quote": "Works for me. Five is enough.",
+     "location": "[37:33] Wes Kubiak (Regional Sales Manager)"
+    },
+    {
+     "quote": "Yes. And the quote itself stays in P twenty-one. You're not rebuilding our quoting.",
+     "location": "[36:01] Emmett Thibault (VP of Sales)"
+    }
+   ],
+   "note": "Met, and this is the first fixture in the set where it is. The Consultant played back five bullets and the approver agreed them out loud, named what is excluded for now, and both other attendees agreed separately. The scope is: (1) prospects with intake from the website form and trade show lists, owned with a next step; (2) accounts and contacts with the history staying when a person leaves; (3) the opportunity pipeline through quoted, verbal, won or lost, carrying the P21 quote number and a follow-up step; (4) logged calls and visits, fast from a truck, with a sortable coverage view for the manager; (5) a forecast view for the VP and the president that builds itself, replacing the workbook. Because R4, R7 and R12 are all Met, the method's pricing-or-proposal gate is open here; what holds a proposal back is the v1 product scope, not the method."
+  },
+  {
+   "criterion": "P1 Stated",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "I cannot tell you today what's going to close this month. I can tell you what twenty-two people told me they hope will close, which is not the same thing.",
+     "location": "[04:35] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "A rep says a quote is hot because he remembers the visit, not because anything happened this week.",
+     "location": "[04:54] Emmett Thibault (VP of Sales)"
+    }
+   ],
+   "note": "P1 is the VP's own framing: the pipeline exists only as twenty-two people's recollections, so the forecast is a guess."
+  },
+  {
+   "criterion": "P1 Concrete",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "We had a sixty-two thousand dollar stocking quote sitting at Brightline for five weeks and nobody touched it.",
+     "location": "[11:34] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "Retyping. Honestly. Some of them put the customer in one column, some of them put customer and city together, one guy puts the quote number in the notes field. I copy it into the shape the summary needs.",
+     "location": "[04:13] Delia Ostrowski (Sales Operations Analyst)"
+    }
+   ],
+   "note": "A specific recent loss and a day-to-day description of what the workaround costs, with the mechanics of the retyping named."
+  },
+  {
+   "criterion": "P1 Workaround",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "My Monday morning call is a bunch of people telling me what they think they're going to close and me writing it on a legal pad.",
+     "location": "[13:46] Wes Kubiak (Regional Sales Manager)"
+    },
+    {
+     "quote": "A legal pad. I have a drawer of them. If you want to know what happened in March you can go read March.",
+     "location": "[14:07] Wes Kubiak (Regional Sales Manager)"
+    },
+    {
+     "quote": "With four more reps and a territory we've never sold into, the legal pad stops working. It barely works now. I've got seven and I'm at the edge of it.",
+     "location": "[20:43] Wes Kubiak (Regional Sales Manager)"
+    }
+   ],
+   "note": "The workaround is named precisely (the 22-tab workbook, the Monday call, the legal pad) and the client says plainly why carrying on is not acceptable."
+  },
+  {
+   "criterion": "P1 Reach",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "And it's not just Emmett who can't see it. I don't know what my own seven guys have out there unless I call them and ask.",
+     "location": "[13:46] Wes Kubiak (Regional Sales Manager)"
+    },
+    {
+     "quote": "It matters when I'm asked why a region is down and the honest answer is I don't know if anybody went out there. Gene asked me that in June about Fort Wayne and I didn't have an answer.",
+     "location": "[17:08] Emmett Thibault (VP of Sales)"
+    }
+   ],
+   "note": "Reaches the VP, all three regional managers, the analyst who rebuilds the workbook and the president who asks questions nobody can answer."
+  },
+  {
+   "criterion": "P1 Cost inputs",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "Tuesday morning and Friday morning. So call it six hours a week, and that's a quiet week.",
+     "location": "[21:33] Delia Ostrowski (Sales Operations Analyst)"
+    },
+    {
+     "quote": "Three hours a week, easy. Some of them more. And a chunk of that is calling Fort Wayne to ask a question they could have looked up if it was written anywhere.",
+     "location": "[22:12] Wes Kubiak (Regional Sales Manager)"
+    },
+    {
+     "quote": "Four hours. The Monday call is an hour and a half of it and then I'm calling people all week to fill in what they didn't say on the call. And there's three of us doing that.",
+     "location": "[22:43] Wes Kubiak (Regional Sales Manager)"
+    }
+   ],
+   "note": "Hours from all three levels plus client-supplied loaded costs, which is what makes R4 computable."
+  },
+  {
+   "criterion": "P1 Trajectory",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "Twenty-six tabs instead of twenty-two. And four tabs from people who don't know how we do it, so I'd be building those columns for them. It's worse than linear, honestly, because new people ask more questions.",
+     "location": "[21:02] Delia Ostrowski (Sales Operations Analyst)"
+    },
+    {
+     "quote": "Four new people with no history, no account records, nothing to hand them except a list out of P twenty-one of who bought what. And Wes managing seven plus four across two states off a legal pad.",
+     "location": "[20:26] Emmett Thibault (VP of Sales)"
+    }
+   ],
+   "note": "Both the analyst and the VP describe the launch making it worse, and the analyst says the growth is worse than linear."
+  },
+  {
+   "criterion": "P2 Stated",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "Of the quotes over five thousand dollars we sent out last year, thirty-eight percent had no activity after the day they went out.",
+     "location": "[12:20] Delia Ostrowski (Sales Operations Analyst)"
+    },
+    {
+     "quote": "Thirty-eight percent. That number made me feel sick, honestly. I've been carrying it around since August.",
+     "location": "[12:51] Emmett Thibault (VP of Sales)"
+    }
+   ],
+   "note": "Stated with a measured figure the client produced themselves before the call."
+  },
+  {
+   "criterion": "P2 Concrete",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "There were four hundred and seventy-one of them over five thousand.",
+     "location": "[12:45] Delia Ostrowski (Sales Operations Analyst)"
+    },
+    {
+     "quote": "Somebody was supposed to call them. That's it. That's the whole thing. There was no fight, we didn't get beaten on price, we just went quiet on a sixty-two thousand dollar quote.",
+     "location": "[12:01] Emmett Thibault (VP of Sales)"
+    }
+   ],
+   "note": "A count and a named recent instance, with the mechanism of the loss described rather than guessed at."
+  },
+  {
+   "criterion": "P2 Workaround",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "Nothing. There's no follow-up step. It's whether the rep remembers, and some of them are excellent and some of them are not.",
+     "location": "[13:05] Wes Kubiak (Regional Sales Manager)"
+    },
+    {
+     "quote": "P twenty-one will show me an open quote until it expires, but it won't tell anybody to do anything about it, and nobody's looking at that list except me on Tuesday.",
+     "location": "[13:19] Delia Ostrowski (Sales Operations Analyst)"
+    }
+   ],
+   "note": "The workaround is explicitly nothing, and the client explains why the ERP does not fill the gap."
+  },
+  {
+   "criterion": "P2 Reach",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "Me, eventually, because it shows up as a month that missed. Wes gets it first.",
+     "location": "[13:38] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "It confuses me on Tuesdays. A rep will say the quote's dead and mean the whole thing is dead, or mean he requoted it with different pricing and there's a new number.",
+     "location": "[09:38] Delia Ostrowski (Sales Operations Analyst)"
+    }
+   ],
+   "note": "Reaches the rep, the manager, the VP through the monthly number, and the analyst who has to interpret what 'dead' means."
+  },
+  {
+   "criterion": "P2 Cost inputs",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "Average quote over five thousand is about eight thousand. We make about twenty-five points on that kind of work.",
+     "location": "[24:20] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "quote": "If I'm honest, one in twenty of the ones we didn't chase. Some of them were never real. So twenty-three orders. Twenty-three times two thousand, that's forty-six thousand.",
+     "location": "[25:01] Emmett Thibault (VP of Sales)"
+    }
+   ],
+   "note": "Volume, average value, margin percentage and a conversion assumption, all client-supplied, and the client corrected the Consultant's more flattering assumption on the way."
+  },
+  {
+   "criterion": "P2 Trajectory",
+   "status": "partial",
+   "evidence": [
+    {
+     "quote": "It feels low, if anything. It doesn't have my time in it, and it doesn't have the house accounts nobody's calling.",
+     "location": "[26:00] Emmett Thibault (VP of Sales)"
+    }
+   ],
+   "note": "Partial. The client says the current figure understates today, and the launch clearly adds quoting volume into a territory with no coverage, but nobody states what happens to the follow-up gap itself over the next year. The gap question is: with four more reps quoting into a new territory, what happens to the thirty-eight percent?"
+  },
+  {
+   "criterion": "P3 Stated",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "When Rudy left in March he took his notebook with him. And that was the account history for about ninety customers. A paper notebook that walked out the door.",
+     "location": "[14:21] Wes Kubiak (Regional Sales Manager)"
+    },
+    {
+     "quote": "But there's no notes, no, this guy only buys in July, no, don't call before ten. That's all gone.",
+     "location": "[15:44] Delia Ostrowski (Sales Operations Analyst)"
+    }
+   ],
+   "note": "Stated by the manager and confirmed independently by the analyst, who receives what little is left."
+  },
+  {
+   "criterion": "P3 Concrete",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "Practically? Two of my guys called Kestrel Fabrication in the same week and neither knew the other had been there, and the buyer told the second one, your company already came in on Tuesday, are you not talking to each other. That was embarrassing. And then we gave away a price on a repeat order because the new guy didn't know what we'd quoted the year before.",
+     "location": "[14:40] Wes Kubiak (Regional Sales Manager)"
+    }
+   ],
+   "note": "Two distinct consequences in one named recent instance: the duplicate call the customer noticed, and a price given away on a repeat order. They are separate incidents from the Brightline loss and must not be merged with it."
+  },
+  {
+   "criterion": "P3 Workaround",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "I tell people to write things down. That's it. That's my whole system. And I can't make a rep write things down, I've tried.",
+     "location": "[15:28] Wes Kubiak (Regional Sales Manager)"
+    },
+    {
+     "quote": "I get the tab. I get their tab in the workbook, which is usually about a third filled in. And I'll pull their quote history out of P twenty-one for whoever takes over.",
+     "location": "[15:44] Delia Ostrowski (Sales Operations Analyst)"
+    }
+   ],
+   "note": "Both halves of the workaround are named, and the manager says why it cannot hold."
+  },
+  {
+   "criterion": "P3 Reach",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "Not exactly. A few hundred dollars of margin on that order. But the Kestrel thing, I mean, they're a good customer, and we looked like a mess.",
+     "location": "[15:10] Wes Kubiak (Regional Sales Manager)"
+    },
+    {
+     "quote": "I'd want it to become the account. We shouldn't have the same company twice, that's half of what's wrong with GoldMine.",
+     "location": "[38:47] Delia Ostrowski (Sales Operations Analyst)"
+    }
+   ],
+   "note": "Reaches the incoming rep, the manager, the analyst, and the customer, who saw the duplication."
+  },
+  {
+   "criterion": "P3 Cost inputs",
+   "status": "partial",
+   "evidence": [
+    {
+     "quote": "Not exactly. A few hundred dollars of margin on that order. But the Kestrel thing, I mean, they're a good customer, and we looked like a mess.",
+     "location": "[15:10] Wes Kubiak (Regional Sales Manager)"
+    }
+   ],
+   "note": "Partial. A few hundred dollars on one order is the only figure, and it is explicitly approximate. Ninety accounts lost their history and one rep's departure triggered it, but no hours, frequency or yearly value is attached, so nothing from P3 enters the bleed. The gap question is what a rep's departure costs in lost orders or discounts across a year, and how often it happens."
+  },
+  {
+   "criterion": "P3 Trajectory",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "Four new people with no history, no account records, nothing to hand them except a list out of P twenty-one of who bought what. And Wes managing seven plus four across two states off a legal pad.",
+     "location": "[20:26] Emmett Thibault (VP of Sales)"
+    }
+   ],
+   "note": "The VP describes the launch running straight into this pain: four people with nothing to inherit."
+  },
+  {
+   "criterion": "P4 Stated",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "I don't. I plan ride-alongs off memory. I couldn't tell you who's actually been in front of a customer in the last ninety days, and that's the part that keeps me up, honestly, because with the new territory I'm going to have four people I've never managed.",
+     "location": "[16:13] Wes Kubiak (Regional Sales Manager)"
+    }
+   ],
+   "note": "Stated by the person it affects most, with the ninety-day window in his own words."
+  },
+  {
+   "criterion": "P4 Concrete",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "Call reports were a thing we did for about six months in twenty-twenty-one. It was an email at the end of the day. It died because nobody read them, including me.",
+     "location": "[16:39] Wes Kubiak (Regional Sales Manager)"
+    },
+    {
+     "quote": "It matters when I'm asked why a region is down and the honest answer is I don't know if anybody went out there. Gene asked me that in June about Fort Wayne and I didn't have an answer.",
+     "location": "[17:08] Emmett Thibault (VP of Sales)"
+    }
+   ],
+   "note": "A previous attempt with dates and the reason it died, plus a specific occasion in June when the gap surfaced."
+  },
+  {
+   "criterion": "P4 Workaround",
+   "status": "partial",
+   "evidence": [
+    {
+     "quote": "I plan ride-alongs off memory.",
+     "location": "[16:13] Wes Kubiak (Regional Sales Manager)"
+    },
+    {
+     "quote": "If it was a list I could sort. Not twenty-two emails.",
+     "location": "[16:56] Wes Kubiak (Regional Sales Manager)"
+    }
+   ],
+   "note": "Partial. What they do today is ask on the Monday call and remember, and the abandoned call reports are described, but nobody says why continuing to manage visits from memory is unacceptable beyond the new territory arriving. The gap question is what carrying on as-is would mean once he is managing eleven reps across two states."
+  },
+  {
+   "criterion": "P4 Reach",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "And if it's slow on a phone in a parking lot, forget it. My guys are not sitting down at a desk. If logging a visit takes more than about a minute in a truck, it won't happen.",
+     "location": "[33:58] Wes Kubiak (Regional Sales Manager)"
+    },
+    {
+     "quote": "It matters when I'm asked why a region is down and the honest answer is I don't know if anybody went out there. Gene asked me that in June about Fort Wayne and I didn't have an answer.",
+     "location": "[17:08] Emmett Thibault (VP of Sales)"
+    }
+   ],
+   "note": "Reaches the manager, the reps who would do the logging, the VP answering for a region, and the four incoming reps."
+  },
+  {
+   "criterion": "P4 Cost inputs",
+   "status": "partial",
+   "evidence": [
+    {
+     "quote": "Four hours. The Monday call is an hour and a half of it and then I'm calling people all week to fill in what they didn't say on the call. And there's three of us doing that.",
+     "location": "[22:43] Wes Kubiak (Regional Sales Manager)"
+    }
+   ],
+   "note": "Partial. The manager's four hours a week covers chasing updates generally, not visit coverage specifically, and it is already counted once in the bleed. No separate cost is attached to not knowing who has been visited, and none should be invented. The gap question is what a missed or duplicated visit costs, and how often coverage gaps are found after the fact."
+  },
+  {
+   "criterion": "P4 Trajectory",
+   "status": "met",
+   "evidence": [
+    {
+     "quote": "and that's the part that keeps me up, honestly, because with the new territory I'm going to have four people I've never managed",
+     "location": "[16:13] Wes Kubiak (Regional Sales Manager)"
+    }
+   ],
+   "note": "Forward-looking and specific: eleven reps across two states, four of them new to him, from January."
+  }
+ ],
+ "pains": [
+  {
+   "quote": "I cannot tell you today what's going to close this month. I can tell you what twenty-two people told me they hope will close, which is not the same thing.",
+   "location": "[04:35] Emmett Thibault (VP of Sales)",
+   "theme": "P1 No shared pipeline: the VP cannot see what will close"
+  },
+  {
+   "quote": "A guess. I'll be straight with you.",
+   "location": "[04:35] Emmett Thibault (VP of Sales)",
+   "theme": "P1 No shared pipeline: the Friday forecast is a guess"
+  },
+  {
+   "quote": "Retyping. Honestly.",
+   "location": "[04:13] Delia Ostrowski (Sales Operations Analyst)",
+   "theme": "P1 No shared pipeline: the analyst re-keys twenty-two differently shaped tabs"
+  },
+  {
+   "quote": "A legal pad. I have a drawer of them. If you want to know what happened in March you can go read March.",
+   "location": "[14:07] Wes Kubiak (Regional Sales Manager)",
+   "theme": "P1 No shared pipeline: the manager's pipeline is paper"
+  },
+  {
+   "quote": "Or in the workbook, for about four days after I ask.",
+   "location": "[05:27] Delia Ostrowski (Sales Operations Analyst)",
+   "theme": "P1 No shared pipeline: the data is stale almost immediately"
+  },
+  {
+   "quote": "With four more reps and a territory we've never sold into, the legal pad stops working. It barely works now. I've got seven and I'm at the edge of it.",
+   "location": "[20:43] Wes Kubiak (Regional Sales Manager)",
+   "theme": "P1 No shared pipeline: the current method will not survive the launch"
+  },
+  {
+   "quote": "We had a sixty-two thousand dollar stocking quote sitting at Brightline for five weeks and nobody touched it.",
+   "location": "[11:34] Emmett Thibault (VP of Sales)",
+   "theme": "P2 Quotes go quiet: a named loss after five weeks of silence"
+  },
+  {
+   "quote": "Of the quotes over five thousand dollars we sent out last year, thirty-eight percent had no activity after the day they went out.",
+   "location": "[12:20] Delia Ostrowski (Sales Operations Analyst)",
+   "theme": "P2 Quotes go quiet: measured at thirty-eight percent of quotes over five thousand"
+  },
+  {
+   "quote": "Nothing. There's no follow-up step. It's whether the rep remembers, and some of them are excellent and some of them are not.",
+   "location": "[13:05] Wes Kubiak (Regional Sales Manager)",
+   "theme": "P2 Quotes go quiet: no follow-up step exists at all"
+  },
+  {
+   "quote": "P twenty-one will show me an open quote until it expires, but it won't tell anybody to do anything about it, and nobody's looking at that list except me on Tuesday.",
+   "location": "[13:19] Delia Ostrowski (Sales Operations Analyst)",
+   "theme": "P2 Quotes go quiet: the ERP records quotes but prompts nobody"
+  },
+  {
+   "quote": "When Rudy left in March he took his notebook with him. And that was the account history for about ninety customers. A paper notebook that walked out the door.",
+   "location": "[14:21] Wes Kubiak (Regional Sales Manager)",
+   "theme": "P3 History walks out the door: account knowledge held personally"
+  },
+  {
+   "quote": "Practically? Two of my guys called Kestrel Fabrication in the same week and neither knew the other had been there, and the buyer told the second one, your company already came in on Tuesday, are you not talking to each other. That was embarrassing. And then we gave away a price on a repeat order because the new guy didn't know what we'd quoted the year before.",
+   "location": "[14:40] Wes Kubiak (Regional Sales Manager)",
+   "theme": "P3 History walks out the door: duplicate call in front of a customer, and a price given away"
+  },
+  {
+   "quote": "But there's no notes, no, this guy only buys in July, no, don't call before ten. That's all gone.",
+   "location": "[15:44] Delia Ostrowski (Sales Operations Analyst)",
+   "theme": "P3 History walks out the door: no account preferences survive a handover"
+  },
+  {
+   "quote": "I tell people to write things down. That's it. That's my whole system. And I can't make a rep write things down, I've tried.",
+   "location": "[15:28] Wes Kubiak (Regional Sales Manager)",
+   "theme": "P3 History walks out the door: the workaround is exhortation"
+  },
+  {
+   "quote": "I don't. I plan ride-alongs off memory. I couldn't tell you who's actually been in front of a customer in the last ninety days, and that's the part that keeps me up, honestly, because with the new territory I'm going to have four people I've never managed.",
+   "location": "[16:13] Wes Kubiak (Regional Sales Manager)",
+   "theme": "P4 Visit activity invisible: coverage is managed from memory"
+  },
+  {
+   "quote": "Call reports were a thing we did for about six months in twenty-twenty-one. It was an email at the end of the day. It died because nobody read them, including me.",
+   "location": "[16:39] Wes Kubiak (Regional Sales Manager)",
+   "theme": "P4 Visit activity invisible: the previous attempt died"
+  },
+  {
+   "quote": "It matters when I'm asked why a region is down and the honest answer is I don't know if anybody went out there. Gene asked me that in June about Fort Wayne and I didn't have an answer.",
+   "location": "[17:08] Emmett Thibault (VP of Sales)",
+   "theme": "P4 Visit activity invisible: the VP cannot answer the president"
+  },
+  {
+   "quote": "House accounts. Two hundred-odd companies that buy from us when they happen to call. Nobody's ever worked that list and I've asked for somebody to work it for three years.",
+   "location": "[27:59] Wes Kubiak (Regional Sales Manager)",
+   "theme": "P5 House accounts unworked (named, outside the agreed scope for now)"
+  },
+  {
+   "quote": "If I weren't rebuilding that workbook twice a week I'd be doing win-loss on the city bids. Nobody has ever looked at why we lose those.",
+   "location": "[27:44] Delia Ostrowski (Sales Operations Analyst)",
+   "theme": "P6 No win-loss analysis on the city bids (named, outside the agreed scope for now)"
+  },
+  {
+   "quote": "A spreadsheet. A different spreadsheet. With due dates I update when I remember.",
+   "location": "[18:31] Delia Ostrowski (Sales Operations Analyst)",
+   "theme": "P7 The bid calendar is tracked badly (named and explicitly excluded: 'Separate. Let's not boil the ocean.')"
+  },
+  {
+   "quote": "Four new people with no history, no account records, nothing to hand them except a list out of P twenty-one of who bought what. And Wes managing seven plus four across two states off a legal pad.",
+   "location": "[20:26] Emmett Thibault (VP of Sales)",
+   "theme": "P8 Nothing to hand a new rep (drives the why-now; onboarding itself was deferred)"
+  }
+ ],
+ "numbers": {
+  "bleed": {
+   "value": "$306,520 a year, built from the client's own inputs and confirmed by the approver. Analyst time: 6 h/wk x $35 loaded x 52 = $10,920. Reps: 22 x 3 h/wk = 66 h/wk x $60 loaded x 52 = $205,920. Managers: 3 x 4 h/wk = 12 h/wk x $70 loaded x 52 = $43,680. Time subtotal $260,520. Unchased quotes: 471 quotes over $5,000 with no activity after issue (38 percent of that year's quotes over $5,000), at the client's own 1-in-20 recovery rate = 23 orders x $2,000 margin (about $8,000 average quote at about 25 points) = $46,000. Total $306,520. The client says it feels low and names what is deliberately left out: his own time and the unworked house accounts. Excluded as a one-off: the $62,000 Brightline stocking quote. The Consultant's larger figure, floated from a half-of-them assumption, was refused and must not appear anywhere.",
+   "quote": "Three hundred and six thousand a year.",
+   "status": "met"
+  },
+  "upside": {
+   "value": "About $275,000 of gross margin in the launch year, on about $1.1M of revenue: ramp cut from 9 months to 6 for 4 new reps, each billing at roughly half of a full-ramp $2.2M a year during the quarter gained, so 4 x $275,000 = $1.1M revenue at about 25 points. The client agreed out loud that this is a launch-year figure rather than a recurring one. It does not overlap the bleed and must never be added to it. Two capacity wants named but not quantified: win-loss analysis on the city bids, and working the roughly 200 house accounts nobody calls.",
+   "quote": "And a quarter of that is margin, so two hundred and seventy-five thousand. In the launch year.",
+   "status": "met"
+  }
+ },
+ "vocabulary": [
+  {
+   "their_term": "prospect",
+   "meaning": "A company nobody has sold to yet, arriving from a trade show list, the website form, a rep stopping in, or a buyer moving to a new company",
+   "likely_monday_object": "Native CRM Leads board, relabelled to Prospects (board name and item terminology), never a new look-alike 'Prospects' board. Note the account already contains a hand-built Prospects board that must be resolved, not extended"
+  },
+  {
+   "their_term": "opportunity",
+   "meaning": "An active quote pursuit, used interchangeably with 'quote' for the deal itself",
+   "likely_monday_object": "Native CRM Deals/Opportunities board, item terminology relabelled to Opportunity or Quote in their words"
+  },
+  {
+   "their_term": "quote",
+   "meaning": "Two meanings: the priced document in the ERP, and the deal itself ('I've got a quote out at Brightline'). The client confirmed both uses",
+   "likely_monday_object": "The deal is the native Deals item; the document stays in Prophet 21 and is referenced by its quote number. Optionally the native Quotes & Invoices board if they want a document record, which must be asked, not assumed"
+  },
+  {
+   "their_term": "account / customer",
+   "meaning": "An existing buying company; about 1,100 bought in the last two years, about 400 buy monthly",
+   "likely_monday_object": "Native CRM Accounts board (may be relabelled Customers). Never a hand-built 'Customers' board"
+  },
+  {
+   "their_term": "house accounts",
+   "meaning": "The couple of hundred small accounts with no assigned rep, served by inside sales when they call",
+   "likely_monday_object": "A segment or ownership state on the native Accounts board (status or owner field, plus a view), not a separate board and not a separate product"
+  },
+  {
+   "their_term": "stocking agreement",
+   "meaning": "An agreement to hold a customer's fasteners on the shelf against a year's committed buying; the sticky, high-value deals",
+   "likely_monday_object": "A deal type on the native Deals board, with its own stage path or type field; the Brightline loss was one of these"
+  },
+  {
+   "their_term": "blanket order",
+   "meaning": "Same idea as a stocking agreement in the client's usage ('Blanket order, same idea')",
+   "likely_monday_object": "Same deal type as stocking agreement; do not model as a second entity"
+  },
+  {
+   "their_term": "line card",
+   "meaning": "The set of manufacturer lines they are authorised to distribute, such as the Northgate abrasives line",
+   "likely_monday_object": "Possibly the native Products & Services board later, but nobody asked for it; keep as a backlog item in Wes's words"
+  },
+  {
+   "their_term": "the workbook",
+   "meaning": "The Excel file on SharePoint with a tab per rep plus a formula summary tab; the current pipeline and forecast",
+   "likely_monday_object": "Replaced by the native Deals board plus views and a forecast dashboard. Migrate its substance, never its columns"
+  },
+  {
+   "their_term": "the tab",
+   "meaning": "One rep's sheet inside the workbook, with columns that rep invented in 2019",
+   "likely_monday_object": "A per-owner filtered view of the native Deals board, not a board or group per rep"
+  },
+  {
+   "their_term": "P twenty-one / Prophet twenty-one",
+   "meaning": "Epicor Prophet 21, the ERP: orders, inventory, contract pricing, quoting, invoicing. Explicitly staying",
+   "likely_monday_object": "Integration and system of record, not a monday object. The quote number and status live on the deal; the document and pricing stay in the ERP"
+  },
+  {
+   "their_term": "GoldMine",
+   "meaning": "The legacy CRM, still installed on a Toledo server, last used around 2022 to 2023",
+   "likely_monday_object": "Not a monday object. At most a one-time import of the account list, which the client says is the only part worth keeping, and only if asked"
+  },
+  {
+   "their_term": "the branch",
+   "meaning": "A warehouse, used for Fort Wayne in particular ('calling Fort Wayne to ask a question')",
+   "likely_monday_object": "A location field on accounts or deals; the two warehouses are not boards"
+  },
+  {
+   "their_term": "ride-along",
+   "meaning": "A manager accompanying a rep on customer visits, planned today from memory",
+   "likely_monday_object": "An activity type on the native Activities board, plus a coverage view for the manager"
+  },
+  {
+   "their_term": "call report",
+   "meaning": "The abandoned 2021 practice of emailing a summary of the day's calls",
+   "likely_monday_object": "A logged activity on the native Activities board; the client's requirement is that it be a sortable list rather than emails"
+  },
+  {
+   "their_term": "the Monday morning call",
+   "meaning": "Wes's weekly call where seven reps say what they expect to close and he writes it on a legal pad. 'Monday' here is the weekday, not the product",
+   "likely_monday_object": "A saved view or dashboard used live in that meeting; do not read this as a reference to monday.com"
+  },
+  {
+   "their_term": "the forecast",
+   "meaning": "Delia's Friday roll-up emailed to the VP and the president; from January the president wants a rolling 90-day version monthly",
+   "likely_monday_object": "A dashboard or saved view over the native Deals board, with a rolling 90-day window"
+  },
+  {
+   "their_term": "contract pricing / the pricing matrix",
+   "meaning": "Negotiated customer-specific pricing held in the ERP, confidential across reps",
+   "likely_monday_object": "Stays in Prophet 21. Nothing in monday should replicate it, and margin visibility must be restricted"
+  },
+  {
+   "their_term": "points",
+   "meaning": "Gross margin percentage ('we make about twenty-five points')",
+   "likely_monday_object": "A margin percentage field on the deal, visible only to owner, manager, analyst, VP and president"
+  },
+  {
+   "their_term": "requote",
+   "meaning": "Reissuing a quote at different pricing, which creates a new ERP number for the same pursuit",
+   "likely_monday_object": "A new quote number on the same deal, or a linked quote record; not a new deal, and a known source of confusion in the current workbook"
+  },
+  {
+   "their_term": "verbal",
+   "meaning": "A stage named by the Consultant in the playback of the pipeline ('from a prospect through quoted, verbal, won or lost', [35:44] Consultant) and agreed by the VP with 'Yes.' ([36:01] Emmett Thibault). No client speaker uses the word on the call, so it is our framing the client accepted, not the client's own stage name; the stage list is an open leaning in readiness.structure",
+   "likely_monday_object": "A stage on the native Deals pipeline, between quoted and won"
+  },
+  {
+   "their_term": "the city bids",
+   "meaning": "Public-sector bids, such as the City of Hollandale water department, tracked in a separate spreadsheet and a public record",
+   "likely_monday_object": "Out of the agreed scope; a backlog item. If built later, note the public-records constraint on what gets written"
+  },
+  {
+   "their_term": "inside sales / counter",
+   "meaning": "The five people who take orders that come in, build quotes in the ERP and handle house accounts; named in the first two minutes, but their volume and their place as users surfaced only at the end of the call",
+   "likely_monday_object": "Likely users of the same native boards; where they fit is an open question the client raised themselves"
+  },
+  {
+   "their_term": "the launch / western Pennsylvania",
+   "meaning": "The new territory opening 5 January with four reps, run out of Toledo, about four hours away",
+   "likely_monday_object": "A territory or region field and views, not a separate set of boards and not a third warehouse"
+  },
+  {
+   "their_term": "guarantee period",
+   "meaning": "The new reps' guaranteed compensation window, starting on their start dates",
+   "likely_monday_object": "Not a monday object; it is why the January date is a real deadline"
+  },
+  {
+   "their_term": "the inventory count",
+   "meaning": "The annual physical inventory that takes Delia away from everything else, usually in October",
+   "likely_monday_object": "Not a monday object; a scheduling risk for the build and the handover"
+  },
+  {
+   "their_term": "Gene",
+   "meaning": "The president and second-generation owner, not on the call, informed rather than consulted, wants the monthly forecast",
+   "likely_monday_object": "Audience for the forecast dashboard; internally an approver-adjacent stakeholder who must be told"
+  },
+  {
+   "their_term": "Halbrook / Anil",
+   "meaning": "Two entities under one client usage: Halbrook Technology, the outsourced IT provider (an organisation), and Anil, its engineer (a person), who must approve anything touching the ERP. Kept as one glossary entry because the client uses either name for the same gate; the record holds them as two entities (readiness.entities) and never as one person or one firm",
+   "likely_monday_object": "Not a monday object; a gate on the Prophet 21 integration with a one-to-two-week turnaround"
+  }
+ ],
+ "entities_and_workflows": [
+  "Prospect intake by four routes: trade show badge-scan spreadsheets, the website form landing in a shared inbox, a rep stopping in at an unfamiliar shop, and a known buyer moving to a new company. Today each lands in the rep's phone, a sticky note, or his tab in the workbook.",
+  "Qualification by visit: the rep visits, learns what they buy today and from whom, then asks for a chance to quote.",
+  "Quote creation: mostly by the analyst or inside sales in Prophet 21 because of the pricing matrices; contract pricing and stocking agreements always come to the analyst.",
+  "Quote follow-up: no step exists. Prophet 21 holds the open quote until it expires and prompts nobody; 38 percent of quotes over $5,000 got no activity after the day they went out.",
+  "The pipeline workbook: an Excel file on SharePoint, one tab per rep with rep-invented columns, plus a formula summary tab that breaks about monthly. The analyst pulls open quotes from the ERP each Tuesday, pastes and re-keys them, then chases reps for what is alive.",
+  "The Friday forecast: the analyst makes the summary add up and emails it to the VP and the president. From January the president wants a rolling 90-day forecast monthly.",
+  "The Monday morning manager call: reps state what they expect to close; the manager records it on a legal pad and spends the rest of the week filling in what was not said.",
+  "Order and delivery: orders, inventory, contract pricing and invoicing all run in Prophet 21, which is explicitly staying.",
+  "Account ownership and house accounts: most of about 1,100 active accounts are assigned to a rep; a couple of hundred small ones sit unassigned and are served by inside sales when they call.",
+  "Rep departure and handover: the leaver's workbook tab (about a third filled in) and an ERP quote history go to the successor; notes, preferences and relationship history do not survive. One departure in March took a paper notebook covering about ninety accounts.",
+  "Visit and ride-along planning: done from memory, with no record of who has been in front of a customer in the last ninety days. Call reports existed for six months in 2021 and died because nobody read them.",
+  "New territory launch: western Pennsylvania from 5 January, four reps (two signed), first start date 1 December, run out of Toledo about four hours away, on the back of a new abrasives line picked up in June.",
+  "New rep onboarding and ramp: historically nine months to a normal book, with nothing to hand a new rep except an ERP list of who bought what. Named as a later item, not in the agreed scope.",
+  "Municipal bidding: submissions to bodies such as the City of Hollandale water department, tracked in a separate spreadsheet with due dates updated from memory, and a public record once submitted. Explicitly excluded from this scope.",
+  "Existing monday use on the operations side: purchasing runs vendor returns and the Fort Wayne racking project, and there is believed to be a safety audit board. Structure, seats and administrator all unknown.",
+  "An abandoned CRM attempt inside the account: the analyst built a Prospects board in April by copying workbook columns, got pulled onto the inventory count, and left about forty rows including test rows with her own name on them."
+ ],
+ "integrations_mentioned": [
+  "Epicor Prophet 21 (the ERP; must-have connection and explicitly staying: quote number and status to monday, document and pricing staying in the ERP. Version and whether an API or database connection exists are unknown and were made an action for the client)",
+  "Halbrook Technology, the outsourced IT provider (gate on anything touching Prophet 21; one to two weeks with a document, longer if anything writes back)",
+  "GoldMine (legacy CRM, still installed; only the account list is considered worth keeping, and the activity history is explicitly not trusted)",
+  "Microsoft 365: Outlook and Teams (email, calendar and internal chat; the likely route for logging emails and for sign-in)",
+  "SharePoint (the pipeline workbook and quote PDFs live here; the workbook is a migration source)",
+  "Excel (the workbook itself, plus the separate bid-calendar spreadsheet and the trade show badge-scan exports)",
+  "The website enquiry form, which currently dumps into a shared inbox (candidate for a native form or an intake automation into Leads)",
+  "Trade show badge scans, arriving as a spreadsheet from whoever ran the booth (a recurring import, not a live integration)",
+  "monday.com itself, already in use on the operations side on a Pro plan, with the CRM product present and unused"
+ ],
+ "compliance_or_security_signals": [
+  "Contract pricing and cross-customer margin are confidential between reps: 'If a rep can see what we give another customer on the same part, I'll have a problem within a week.' Margin visibility is limited to the deal owner, their manager, the analyst, the VP and the president.",
+  "The pricing matrix for the whole line card must not be exposed to reps, which is an argument for leaving pricing in the ERP rather than mirroring it into monday.",
+  "Municipal bid submissions are public records, so what gets written on those records is constrained. The bid work is outside this scope, but the constraint should be recorded.",
+  "Customer contact data (named buyers, their numbers and preferences) would move from personal notebooks and spreadsheets into a shared system, which is the point of the engagement but also makes access permissions part of the design.",
+  "Departing-employee risk is a stated driver: account history currently leaves with the person, and the client wants records that stay with the company.",
+  "The legacy GoldMine server cannot be switched off for a stated licensing reason, so old customer data continues to sit on an unused internal server.",
+  "Microsoft 365 is the identity source and the MSP administers it, so sign-in and provisioning for 22 reps plus inside sales run through Halbrook rather than an internal admin.",
+  "Any Prophet 21 connection must be described to the MSP before it is approved, and a connection that writes back to the ERP will face more scrutiny than one that reads."
+ ],
+ "objections": [
+  {
+   "quote": "Honestly, part of me thinks Delia could just build this herself in monday and we keep the money. We've already got the licences. What am I paying for?",
+   "type": "We'll build it ourselves (raised by the approver; the spec's skipped step is the workaround check, and the Consultant ran it on the call by asking what had held it up and whose time it would use. The answer was the abandoned Prospects board, the inventory count, and 'live in June' against a December deadline)"
+  },
+  {
+   "quote": "I built a Prospects board in April and it died in three weeks, because I got pulled onto the physical inventory count and never went back.",
+   "type": "We'll build it ourselves (the same objection, resolved by the client's own evidence: a real DIY attempt that stalled, plus 'I didn't really know how it should be built.' Record the resolution, and do not treat the abandoned board as a starting point without asking)"
+  },
+  {
+   "quote": "The reps. That's the whole risk. If it's one more thing to update, they won't, and then I've paid for GoldMine twice.",
+   "type": "Team won't adopt it (raised as the main blocker, with six years of unused GoldMine as the precedent. Prevention is an end-user conversation and an end-user demo segment; the design constraints are the one-minute visit log and phone usability)"
+  },
+  {
+   "quote": "The boards purchasing built are a mess, honestly. Things in the wrong place, columns nobody fills in. Is that monday, or is that us?",
+   "type": "monday itself is the problem (raised mildly and answered on the call by asking what it fails to do; the client concluded 'probably that's us'. The Consultant committed to reviewing those boards before building rather than proposing a replacement)"
+  },
+  {
+   "quote": "And send me a proposal with a number by the end of next week, would you?",
+   "type": "Just send a proposal or pricing (raised, but after scope agreement rather than before it, so the method's precondition is satisfied. What holds the document back is that pricing and proposal prep are outside v1, which the plugin must say plainly and hand to the Consultant)"
+  },
+  {
+   "quote": "We don't have an IT department, we have Halbrook Technology, and Anil over there has to bless anything that touches P twenty-one.",
+   "type": "Must check with someone (not about the purchase, which is the VP's own call, but about the ERP connection; ask what Anil will care about and offer to write the document he will want)"
+  },
+  {
+   "quote": "Then it's a conversation with him and probably with our accountant, and it gets slower. I'd rather stay under it.",
+   "type": "Price feels high (anticipated, not raised: a stated $40k-a-year signature threshold the client wants to stay under, plus 'We paid for GoldMine for six years and used it for about one.' The bleed is confirmed at $306,520, so the cost-discovery step is already done)"
+  }
+ ],
+ "commitments_and_next_steps": [
+  {
+   "quote": "Twenty-third works. Two o'clock. I'm in Toledo that day.",
+   "what": "Next call: a first version built in the client's own account, 45 minutes, with all three attendees, early enough that changes still fit before December",
+   "owner": "Consultant (runs it); all three client attendees confirmed",
+   "date": "Wednesday the 23rd, 2:00 pm Eastern (month not stated; the 23rd is a Wednesday in September 2026)"
+  },
+  {
+   "quote": "I'll send the invite when we hang up.",
+   "what": "Send the calendar invite for the 23rd to the three client attendees",
+   "owner": "Consultant",
+   "date": "Immediately after the call; stays a to-do until confirmed sent"
+  },
+  {
+   "quote": "Yes. I'll scrub it and send it. Friday?",
+   "what": "Send a copy of the pipeline workbook with customer names removed",
+   "owner": "Delia Ostrowski",
+   "date": "Friday of the week of the call"
+  },
+  {
+   "quote": "I'll email him this week. He'll ask you for a document, I'll warn you now.",
+   "what": "Ask Halbrook (Anil) which version of Prophet 21 they run and whether an API or database connection is available",
+   "owner": "Emmett Thibault",
+   "date": "The week of the call"
+  },
+  {
+   "quote": "[laughs] It'll be a photo of the legal pad. I'll send it tonight.",
+   "what": "Send whatever exists on visit coverage, expected to be a photograph of the legal pad",
+   "owner": "Wes Kubiak",
+   "date": "The evening of the call"
+  },
+  {
+   "quote": "I'll look at those boards before I build anything so we're not repeating whatever happened there.",
+   "what": "Review the existing operations boards in the account before building anything",
+   "owner": "Consultant",
+   "date": "Before the 23rd"
+  },
+  {
+   "quote": "We won't. It's either the base for this or it gets cleaned up, and I'll come back to you with which.",
+   "what": "Decide and report back what happens to the abandoned Prospects board, so the account does not end up with two",
+   "owner": "Consultant",
+   "date": "By the 23rd"
+  },
+  {
+   "quote": "I'll come back to you on the commercial side separately, and I'll make sure the scope in it is exactly the five we just agreed, in your words.",
+   "what": "Come back on the commercial side with the agreed five-bullet scope in the client's own words. The approver asked for 'a proposal with a number by the end of next week' and for 'One page and a number'; pricing and proposal prep sit outside v1, so the number and the document are the Consultant's own to produce and the plugin must say so rather than draft them",
+   "owner": "Consultant",
+   "date": "End of next week, as the client asked, and before his Thursday flight if the document is to be read on the plane"
+  },
+  {
+   "quote": "That's a good catch and I'll come back to you about where they fit.",
+   "what": "Come back on where the five inside sales people fit in the design",
+   "owner": "Consultant",
+   "date": "By the 23rd"
+  }
+ ],
+ "traps": [
+  "The vocabulary trap is the centre of this fixture. 'Prospects' means leads and 'opportunities' or 'quotes' means deals, and nobody on the call ever says 'lead' or 'deal'. The correct answer maps their words onto the account's native CRM boards by relabelling the board name and item terminology (and the views), not by building boards called Prospects and Quotes beside the native ones. Board names and item terminology prove nothing about nativeness, so renaming is free; recreating the entity is a failure even when every column is right.",
+  "'Quote' has two meanings in this account and the client confirmed both: the priced document in Prophet 21, and the pursuit itself. The deal record is the pursuit; the document and the pricing stay in the ERP, referenced by quote number. Building a quoting engine in monday contradicts an explicit instruction ('You're not rebuilding our quoting') and rebuilding the pricing matrix would breach the margin-confidentiality rule as well.",
+  "A hand-built Prospects board already exists in the account, created by the sales ops analyst in April and abandoned after three weeks with about forty rows, half of them test rows carrying her own name. It is a look-alike, it is not a starting point, and the client asked that the account not end up with two ('don't leave two of them'). It is also the evidence that resolved the DIY objection. Do not extend it, duplicate it, or seed a demo from its test rows.",
+  "The CRM product is present but unused ('a whole sales CRM section in there with nothing in it'), which is not the same as native boards existing. Preflight has to look: if the CRM workspace holds a native install, detect it and record the board ids per entity; if it holds nothing, install monday's native CRM template set rather than hand-building the five entities, and say which was done. Assuming the natives are there because the product is enabled is as wrong as hand-building them.",
+  "The tier is stated as Pro, so the Enterprise portfolio default does not fire. Record the tier and the reason no portfolio is proposed. Nothing in this engagement is portfolio-shaped anyway: there are no projects, and the two warehouses and three territories are fields and views.",
+  "Twenty-two reps, three territories and two warehouses invite a board per rep, per territory or per branch. The client's own diagnosis of the workbook is that per-rep containers with per-rep columns are the problem. Territory, branch and owner are fields with views over single native boards.",
+  "The workbook must not be rebuilt column for column. That is exactly what the analyst did in her abandoned attempt ('I was copying the workbook columns onto a board, which I don't think was right'). Migrate the substance of the pipeline into the native Deals structure; the twenty-two differently shaped tabs are an artefact to retire, not a schema.",
+  "'Accounts' is the client's word for existing customers, so the native Accounts board fits with no translation. Do not create a 'Customers' board because the client also says customer, and do not model house accounts as a separate board: they are unassigned accounts, a segment and a view.",
+  "The bleed is the client's own $306,520, built from their inputs and confirmed. The Consultant's larger figure, floated from an assumption that half the unchased quotes would have closed, was explicitly refused and is not evidence. Any key or output that carries the Consultant's number instead of the client's has failed the method.",
+  "Bleed and upside must not be added together, and the upside is a launch-year figure, not an annual one, which the client agreed out loud. The $62,000 Brightline quote is a one-off and stays out of the yearly figure, as the client said himself.",
+  "The 38 percent and the 471 quotes are volume measures that can legitimately appear in an SOP, so they are flagged for the Consultant rather than stripped. The derived margin figures, the loaded hourly costs ($35, $60, $70), the hour inputs and the $306,520 total are bleed material and never appear in anything client-facing.",
+  "R12 is Met and R4 and R7 are Met, so the method's pricing-or-proposal gate is open for the first time in this fixture set, and the client asked for a proposal with a number. Pricing and proposal prep are deferred beyond v1, so the correct behaviour is to say plainly that this version does not produce the proposal or the number, hand it to the Consultant with the agreed five-bullet scope in the client's words, and not draft a priced document. Refusing on the grounds that the gate is closed would be wrong; the gate is open.",
+  "Service is not in scope and nothing in the call describes a ticket desk. The vendor returns board on the operations side is purchasing's existing work, not a Service opportunity, and Service extras are deferred beyond v1 in any case. Dev is outside v1 and nothing calls for it.",
+  "The client named three things as later items in the same breath as agreeing scope: new rep onboarding, the bid calendar and the house account campaign. Plus two capacity wants (win-loss on the city bids, working the house accounts) and one eventual want (line card gap analysis, in Wes's words). All are backlog seeds, and none may quietly enter the first build.",
+  "Inside sales were named in the first two minutes and appear in the flow as quote builders and the house-account channel, but their volume and their place as users of anything new surfaced only in the last five minutes, raised by the client as something the Consultant had not asked about. Five people who take about a third of the orders are potential users of the same boards, and where they fit is an open question, not an assumption in either direction.",
+  "The Brightline Metalworks loss and the Kestrel Fabrication duplicate call are two separate incidents with different causes. Do not merge them, and do not attach the Kestrel price giveaway to the Brightline number.",
+  "Two figures about reps must not be confused: twenty-two reps today, twenty-six after the launch. The company is eighty-five people. The launch adds four reps, not a third warehouse and not a new branch.",
+  "'one screen on Monday morning' is the outcome the VP described, and 'Monday morning call' is the manager's weekly meeting. Neither is a reference to monday.com, and neither is a dashboard specification.",
+  "Success criteria are proposed, not agreed. The president's 'within ten percent' test came secondhand from the VP, and the president was not on the call, so it is recorded as the approver's report of the president's test rather than as an agreed criterion.",
+  "The ERP connection is unverified. Nobody knows the Prophet 21 version or whether an API exists; the client took that away as an action. Do not promise a sync, and expect the MSP to take one to two weeks, longer if anything writes back into the ERP.",
+  "GoldMine is a migration trap. The client trusts nothing in it except possibly the account list, precisely because some of those companies never bought and so are absent from the ERP. Wholesale import of three-year-old activity history would reintroduce the data everyone distrusts.",
+  "Margin and pricing permissions are a hard requirement, not a preference: owner, their manager, the analyst, the VP and the president, never other reps. Any demo seed data and any view has to respect that, and the pricing matrix stays out of monday entirely.",
+  "The one-minute rule is a real design constraint from the person whose team must comply: logging a visit from a truck has to be quicker than a minute or it will not happen. A long form on the Activities board fails this even if the field list is correct.",
+  "Dates are relative and no call date is stated. The next call is Wednesday the 23rd at 2:00 pm Eastern; the first new rep starts 1 December; the territory launches 5 January; the president's forecast starts in January; Thanksgiving week is unusable for training; the first Monday and Tuesday of each month are order entry. Relative dates fit September 2026.",
+  "The abrasives line was picked up in June and the competitor's people are unhappy after an acquisition. Those are why-now context, not requirements, and the competitor should not appear in client-facing material.",
+  "Remarks about colleagues and internal candour stay internal: the departed rep taking his notebook, 'some of them are excellent and some of them are not', 'we looked like a mess', the reps treating the old CRM as surveillance, and the analyst's test rows with her own name on them."
+ ],
+ "requested_changes": [
+  {
+   "type": "change",
+   "description": "Pre-build requirement: the quote document and the pricing stay in Prophet 21. monday carries the quote number and the pipeline status, and does not become a quoting tool.",
+   "quote": "Yes. And the quote itself stays in P twenty-one. You're not rebuilding our quoting."
+  },
+  {
+   "type": "change",
+   "description": "Pre-build requirement: one record per company. A prospect that starts buying becomes the account rather than existing twice.",
+   "quote": "I'd want it to become the account. We shouldn't have the same company twice, that's half of what's wrong with GoldMine."
+  },
+  {
+   "type": "change",
+   "description": "Pre-build requirement: margin on a deal is visible to the owner, their manager, the analyst, the VP and the president only, never to other reps.",
+   "quote": "Owner, their manager, Delia, me, Gene. Not other reps. Ever."
+  },
+  {
+   "type": "add",
+   "description": "Pre-build requirement: logging a visit must be doable from a phone in a truck in under about a minute.",
+   "quote": "If logging a visit takes more than about a minute in a truck, it won't happen."
+  },
+  {
+   "type": "add",
+   "description": "Pre-build requirement: visit coverage has to be a sortable list for the manager rather than a stream of emails.",
+   "quote": "Sortable. Not emails."
+  },
+  {
+   "type": "change",
+   "description": "Pre-build requirement: resolve the abandoned Prospects board so the account does not end up with two prospect lists.",
+   "quote": "Agreed. I'd add, whatever we do with my Prospects board, don't leave two of them."
+  }
+ ],
+ "should_plugin_propose_a_build": true,
+ "expected_questions_before_building": [
+  "Does the CRM product workspace hold a native CRM install already, and where are its Leads, Contacts, Accounts, Deals/Opportunities and Activities boards? If it is genuinely empty, do you want the native CRM template set installed there, or should this live in its own workspace?",
+  "What should happen to the Prospects board you started in April: is it retired once the native Leads board is in place, and can its forty rows (minus the test rows) be migrated?",
+  "Who administers your monday account today, and how many seats do you have? Twenty-two reps plus five inside sales plus managers is a bigger seat question than the operations boards needed.",
+  "Which version of Prophet 21 are you on, and does it expose an API or a reportable database? Until Anil answers, the quote number and status may have to be entered by hand or imported on a schedule rather than synced.",
+  "Should the quote step be a record of its own on the native Quotes & Invoices board, or just the quote number, value and status as fields on the opportunity? Either works; the document and pricing stay in Prophet 21 regardless.",
+  "What exactly are the pipeline stages, in your words? The call gave prospect, quoted, verbal, won and lost, and a stalled or no-decision state is implied by the five-week silence but was never named.",
+  "How should territory and branch be represented: fields and views over one set of boards, which is what I would recommend, or something else? And does western Pennsylvania need its own view from day one?",
+  "Where do the five inside sales people fit? They take about a third of the orders and serve the house accounts, and you raised them yourself at the end of the call.",
+  "Do stocking agreements and blanket orders need their own stage path or renewal date on the opportunity, given they are the sticky deals and the Brightline loss was one?",
+  "Do you want the GoldMine account list imported, and if so just the companies that never bought and so are missing from Prophet 21? Nothing else from GoldMine, on your own read of it.",
+  "What counts as a follow-up for a quote that has gone quiet, and after how many days should it be flagged? Five weeks is clearly too long; the threshold should be yours.",
+  "Who should receive the follow-up prompts and the stalled-quote notifications: the rep only, the rep and their manager, or a queue Delia works? This decides the automation recipients.",
+  "How should the website form enquiries and the trade show badge-scan spreadsheets arrive: a native form on the Leads board, an import, or an automation from the shared inbox?",
+  "The president's 'within ten percent' forecast test came through you. Can we confirm it with him, or at least confirm the reporting shape he wants, before it becomes a success criterion?"
+ ],
+ "expected_verdict": {
+  "verdict": "Discovery complete",
+  "gates_met": [
+   "Solution blueprint: R1 Met and R2 Met, so the blueprint gate is open. The blueprint must map the client's vocabulary onto the account's native CRM boards and record the board ids per entity from preflight first.",
+   "Build: no extra method gate beyond the Consultant's approval at the approval stop. There is a real v0.1 to build here, in CRM, once the account questions are answered or listed as assumptions.",
+   "First demo (v0.1): nothing extra required. It is already booked for Wednesday the 23rd at 2:00 pm Eastern, framed as a working first version to react to.",
+   "Pricing or proposal prep: R4, R7 and R12 are all Met, so the method gate is open, and the client asked for a proposal with a number. This is the first fixture in the set where this gate opens. The v1 product scope still defers pricing and proposal prep, so the correct behaviour is to say that plainly, hand the agreed five-bullet scope to the Consultant in the client's own words, and not draft a priced document."
+  ],
+  "gates_not_met": [
+   "v1.0 sign-off: needs agreed R6 success criteria and R11 Met for every in-scope pain. R11 is Missing because nothing has been shown yet, and the success criteria (one screen on Monday morning, a January forecast within ten percent, knowing who has been visited, no more retyping) are proposed rather than agreed, with the president's test reported secondhand."
+  ],
+  "note": "R2, R3, R4 and R7 are all Met from client-side quotes, so the verdict is Discovery complete. Two things make this fixture unusual in the set: the approver is in the room and holds the budget, and R12 is Met, so the pricing-or-proposal gate opens on the method while remaining outside v1 as a capability. The gap questions for the 23rd are few and specific: P2 trajectory (what the launch does to the 38 percent), P3 and P4 cost inputs, the P4 workaround, and confirmation of the president's forecast test. The build questions matter more than the grading gaps here, and they are mostly account questions: whether the CRM product workspace holds a native install, what happens to the abandoned Prospects board, seats and administrator, and the Prophet 21 connection the MSP has to approve. The tier is stated as Pro, so no portfolio is proposed and the reason is recorded."
+ },
+ "account_context": {
+  "tier": "Pro, stated by the client: 'It says Pro when I log in.' Because the tier is stated and is not Enterprise, the portfolio-by-default rule does not apply and the reason is recorded. Preflight should still confirm the tier and the seat count through the API before building, since a plan change or a per-product tier difference would change the answer.",
+  "products_enabled": [
+   "Work Management (core): in use on the operations side. Purchasing runs vendor returns and the Fort Wayne racking project, and there is believed to be a safety audit board.",
+   "CRM: present and stated by the client, and essentially unused ('a whole sales CRM section in there with nothing in it, which I've clicked into maybe twice'). This is the product the engagement is built in. Whether its workspace holds a native CRM board install is unknown from the transcript and must be detected in preflight; an enabled product does not imply installed native boards.",
+   "Service: never mentioned, and not needed. No ticket or request desk was described, and Service extras are deferred beyond v1 in any case.",
+   "dev (software): never mentioned, not needed, and outside v1."
+  ],
+  "existing_monday_setup": "Bought about nine months before the call for operations. Purchasing uses it for vendor returns and the Fort Wayne racking project, and the VP thinks there is a safety audit board too. Nobody on the call could describe how those boards are structured, who administers the account, or how many seats exist. The sales side has one artefact: a Prospects board the sales ops analyst built in April by copying the workbook's columns, abandoned after three weeks when the physical inventory count took her away, still holding about forty rows of which roughly half are test rows carrying her own name. The regional manager volunteered that the purchasing boards 'are a mess' and asked whether that was monday's fault; the Consultant committed to reviewing them before building. So there is a live account with real but unrelated content, one look-alike sales board to resolve, and an empty CRM product waiting to be set up properly.",
+  "evidence_quote_or_null": "It says Pro when I log in. And there's a whole sales CRM section in there with nothing in it, which I've clicked into maybe twice."
+ },
+ "expected_structures": {
+  "native_boards_required": [
+   {
+    "product": "crm",
+    "entity": "Leads",
+    "why": "Required. 'Prospect' is their word for a company nobody has sold to yet, arriving from trade show lists, the website form, a rep stopping in, or a buyer moving firms. This is the native Leads board, relabelled to Prospects in the board name and item terminology, with the native convert path to Accounts, Contacts and an opportunity. It is not a new 'Prospects' board, and the abandoned hand-built Prospects board in the account is not an acceptable substitute or starting point. Detection caveat from the live rules: nativeness comes from template lineage walked as a chain, a template view id, or the reserved lead_* column ids, never from the board name."
+   },
+   {
+    "product": "crm",
+    "entity": "Contacts",
+    "why": "Required. Named buyers and their preferences are the history the client wants to stop losing when a rep leaves ('no notes, no, this guy only buys in July, no, don't call before ten. That's all gone.'). Contacts belong on the native Contacts board, linked to their account, not as people or text columns on the deal. Reserved contact_* ids and lineage identify it."
+   },
+   {
+    "product": "crm",
+    "entity": "Accounts",
+    "why": "Required, and the vocabulary already matches: 'An account. Or a customer, same thing', about 1,100 active and about 400 buying monthly. House accounts are unassigned accounts on the same board, expressed as an owner state or segment plus a view, not a second board. Renaming to Customers is acceptable; a hand-built Customers board is not."
+   },
+   {
+    "product": "crm",
+    "entity": "Deals/Opportunities",
+    "why": "Required, and the heart of the build. 'Opportunity' and 'quote' both mean this record: from prospect through quoted, verbal, won or lost, carrying the Prophet 21 quote number, the value, the margin points with restricted visibility, a stocking-agreement or blanket-order type, and a follow-up step so nothing repeats the five-week silence that lost Brightline. Relabel to their word; do not create a 'Quotes' or 'Pipeline' board beside the native one, and do not build one board per rep, territory or branch."
+   },
+   {
+    "product": "crm",
+    "entity": "Activities",
+    "why": "Required. Logged calls and visits, including ride-alongs, are one of the five agreed scope items, and the manager's requirement is a sortable coverage view rather than emails. These are native Activities records linked to the account, contact and deal, not a hand-built 'Call reports' or 'Visit log' board. Two constraints ride along: logging must take under about a minute from a phone in a truck, and the native Activities board's item terminology in the CRM core template is 'Activity ' with a trailing space, which is a detection quirk to expect rather than to fix."
+   },
+   {
+    "product": "crm",
+    "entity": "Quotes & Invoices",
+    "why": "Conditional, and a question rather than an assumption. If the client wants a record per quote document (useful because a requote creates a new ERP number for the same pursuit), it belongs on the native Quotes & Invoices board with its line-item subitem board, not on a hand-built 'Quotes' board. The alternative, which is lighter and may be enough, is the quote number, value and status as fields on the opportunity. Either way the document and the pricing stay in Prophet 21."
+   },
+   {
+    "product": "crm",
+    "entity": "Products & Services",
+    "why": "Conditional and not asked for. The line card was mentioned, and the manager named line-gap analysis as something he would want eventually, explicitly not for December. If that is built later it is the native Products & Services board; do not add it now because the family ships it. Detection note: this board's item terminology is the default 'item', so only the product_and_service_* ids find it."
+   }
+  ],
+  "portfolio_expected": false,
+  "portfolio_reason": "The portfolio-by-default rule applies to Enterprise accounts with Work Management in scope, and neither condition holds. The tier is stated as Pro ('It says Pro when I log in'), and the agreed scope is a CRM engagement: prospects, accounts and contacts, an opportunity pipeline, logged activity and a forecast view. There are no projects to roll up, and the structures that might tempt a portfolio shape are not projects: two warehouses, three regions and a new territory are fields and views over single native boards, and twenty-two reps are owners, not projects. Record the tier and this reason either way. If preflight found an Enterprise tier instead, the rule would apply only to whatever Work Management work came into scope, which today is none.",
+  "lookalike_traps": [
+   "Extending, duplicating or demoing from the hand-built Prospects board already in the account, instead of using the native Leads board and resolving that board as the client asked.",
+   "Creating a new 'Prospects' board because the client never says 'lead'. The native Leads board relabelled to Prospects is the answer; the word is a label, not a schema.",
+   "Creating a 'Quotes', 'Opportunities' or 'Pipeline' board rather than relabelling the native Deals/Opportunities board, which is the easiest mistake to make here because 'quote' is the client's dominant word.",
+   "Creating a 'Customers' board for the eleven hundred accounts instead of using the native Accounts board.",
+   "Creating a 'House accounts' board for the couple of hundred unassigned accounts, rather than a segment or owner state and a view on Accounts.",
+   "Creating a 'Call reports' or 'Visit log' board for logged calls and visits instead of the native Activities board, which the 2021 email-based call reports make tempting to model as its own thing.",
+   "Keeping buyers as people or text columns on the opportunity instead of on the native Contacts board, since contacts were discussed mostly as lost notes rather than as records.",
+   "Rebuilding the twenty-two-tab workbook as a flat board, column for column, which is exactly the abandoned attempt the analyst described and rejected herself.",
+   "One board per rep, per territory or per warehouse, driven by the workbook's per-rep tabs, the three regions and the January territory launch.",
+   "Hand-building the five CRM entities in a Work Management workspace because the CRM product workspace looked empty, instead of detecting the native install or installing monday's native CRM template set.",
+   "Building a 'Bids' board inside the CRM setup for the city bids, which are both outside the agreed scope and subject to public-records constraints."
+  ],
+  "notes": "This is a single-product build: monday CRM, on the account's native CRM boards, for all five agreed scope items. Every CRM entity here is governed by the native-board rule, and preflight must detect and record the board ids per entity before the blueprint maps anything onto them; where the CRM workspace turns out to hold no native install, the answer is to install monday's native CRM template set and say so, never to hand-build the entities. The client's vocabulary is carried by relabelling boards, item terminology and views (Prospects, Opportunities or Quotes, Customers or Accounts, visits and ride-alongs), which is free and proves nothing about nativeness either way. Work Management already exists in the account on the operations side and stays outside this scope, though the Consultant committed to reviewing those boards before building; the deferred items (new rep onboarding, the bid calendar, the house account campaign, line-card gap analysis) may land in either product later and belong in the backlog for now. Service and dev are not part of this build and nothing in the call calls for them. Three non-negotiables from the client shape the structure: Prophet 21 keeps the quote document and all pricing, margin is visible only to owner, manager, analyst, VP and president, and a visit must be loggable from a phone in under about a minute. The portfolio question is settled and closed: Pro tier, no projects, reason recorded."
+ },
+ "accepted_behaviours": [
+  "Proposing a monday CRM build on the account's native CRM boards for all five agreed scope items, with the client's words carried by relabelling board names, item terminology and views rather than by new boards. Any reasonable relabelling passes (Prospects for Leads, Opportunities or Quotes for Deals, Customers for Accounts, visits or call reports for Activities).",
+  "Running preflight before any write: confirming the tier and products through the API, detecting the native CRM boards and recording their ids per entity in the client record, and recording the change check. Stopping to ask when the CRM workspace holds no native install, or when detection is ambiguous, is correct behaviour rather than a failure to deliver.",
+  "Either resolution of an empty CRM workspace passes: installing monday's native CRM template set and saying so, or asking the Consultant first. Hand-building the five entities does not pass in either case.",
+  "Either treatment of the quote step passes, provided it is asked rather than assumed: the native Quotes & Invoices board with its line-item subitems, or the quote number, value and status as fields on the opportunity. What fails is a hand-built Quotes board or anything that reproduces ERP pricing in monday.",
+  "Recording the tier as Pro and proposing no portfolio, with the reason recorded. Raising the portfolio only to rule it out is fine; silently dropping the question, or proposing one anyway, is not.",
+  "Dealing with the abandoned Prospects board explicitly: migrating its real rows onto the native Leads board and retiring it, or proposing to archive it, and saying which. Leaving two prospect lists, or seeding a demo from its test rows, fails.",
+  "Not proposing monday Service or dev, and not reading purchasing's vendor returns board as a Service opportunity.",
+  "Stating the bleed as the client's own confirmed $306,520 a year (or 'Three hundred and six thousand'), without rounding up, without the Consultant's rejected larger figure, without the one-off Brightline $62,000, and without adding the upside to it. Reporting the upside separately and as a launch-year figure passes; presenting it as recurring does not.",
+  "Grading the verdict Discovery complete and saying plainly that the pricing-or-proposal gate is open on the method (R4, R7 and R12 all Met) while pricing and proposal prep are outside this version, so the number and the document are the Consultant's to produce. Handing over the agreed five-bullet scope in the client's words is the useful output here.",
+  "Treating the 'build it ourselves' objection the way the call did: the workaround question rather than a defence, the client's own stalled attempt and December deadline as the answer, and no invented claims. Conceding that some of it could be built in-house, as the Consultant did, is acceptable and in character for the method.",
+  "Treating the 'is monday the problem' question as a current-state question, and reviewing the existing operations boards before building rather than proposing to replace them.",
+  "Carrying the three client-stated non-negotiables into the design: Prophet 21 keeps quoting and pricing, margin visibility is restricted to owner, manager, analyst, VP and president, and logging a visit from a truck stays under about a minute.",
+  "Turning the Prophet 21 connection into a question and a document for the MSP rather than a promised sync, and planning for one to two weeks of approval, longer if anything writes back to the ERP.",
+  "Keeping the deferred items in the backlog in the client's words (new rep onboarding, the bid calendar, the house account campaign, win-loss on the city bids, line-card gap analysis) and out of the first build.",
+  "Presenting the automations, including the quote follow-up prompts and stalled-quote notifications, as one approval list with trigger, conditions, action and exact recipients per row, noting that automations created through the API cannot be switched off through the API, with a 'turn off in monday' step in the handoff. Asking who receives the follow-up prompts rather than assuming is part of this.",
+  "Meeting the forecast item either way: a dashboard for the VP and the president, or saved views over the native Deals board with a rolling ninety-day window. 'one screen on Monday morning' is the outcome the VP described rather than a specification, so either shape passes provided it builds itself out of the pipeline and the analyst stops re-keying.",
+  "Designing around the client's calendar: usable before 1 December, no training in Thanksgiving week, and reps unavailable the first Monday and Tuesday of each month.",
+  "Marking the success criteria as proposed rather than agreed, and flagging that the president's 'within ten percent' test came secondhand from the VP."
+ ],
+ "expected_leak_blocklist": [
+  "The bleed total in every form: 306520, 306,520, $306,520, '$306k', 'three hundred and six thousand', 'three hundred and six thousand five hundred and twenty'.",
+  "Bleed components and subtotals: 260520, 260,520, '$260,520', 'two hundred and sixty thousand five hundred and twenty'; 205920, 205,920, '$205,920', 'two hundred and five thousand nine hundred and twenty'; 43680, 43,680, '$43,680', 'forty-three thousand six hundred and eighty'; 10920, 10,920, '$10,920', 'ten thousand nine hundred and twenty'; 46000, '$46,000', 'forty-six thousand'. Also the recovery assumption behind the forty-six thousand: 'one in twenty' of the unchased quotes, 'twenty-three orders', 'Twenty-three times two thousand'.",
+  "Loaded hourly costs and the words around them: 35, '$35', 'thirty-five an hour', 'Delia loaded'; 60, '$60', 'sixty an hour'; 70, '$70', 'seventy an hour loaded'; and any phrase pairing hours with a rate or a yearly total.",
+  "Hour inputs behind the math: 'six hours a week', 'three hours a week', 'four hours', 'sixty-six hours', 'twelve hours a week', 'times fifty-two', and the derived per-week figures.",
+  "The Consultant's rejected figure and the assumption behind it: 'four hundred and seventy thousand', 'half of those', and any total built from a half-of-them recovery rate.",
+  "Upside figures and their inputs: 275000, 275,000, '$275,000', 'two hundred and seventy-five thousand'; 'one point one million'; 'two point two million' as a per-rep revenue figure; the nine-to-six-month ramp comparison; 'a quarter of that is margin'.",
+  "Margin percentages and their shorthand next to any figure: 'twenty-five points', '25 percent margin', 'two thousand a quote', 'about eight thousand' as an average quote value.",
+  "The one-off loss amounts: 62000, '$62,000', 'sixty-two thousand', 'the Brightline sixty-two', and 'A few hundred dollars of margin on that order'.",
+  "Budget mechanics and the spend threshold: 'forty thousand a year', '$40k', who signs above it, 'I'd rather stay under it', and the expectation of staying below the president's signature line.",
+  "Stakeholder assessments: that the VP is the approver and the president is informed rather than consulted, that the analyst is the single point of failure and the named day-to-day owner, that the MSP engineer is 'reasonable but he's slow', and that the reps are the adoption risk.",
+  "Objection text and planned responses, raised or anticipated: 'What am I paying for?', 'I've paid for GoldMine twice', 'The boards purchasing built are a mess', 'Is that monday, or is that us?', and anything about how the build-it-ourselves question was handled.",
+  "The stalled DIY attempt as an argument: that the analyst's Prospects board died in three weeks, that she 'didn't really know how it should be built', and the reading that in-house delivery would land in June. The board itself may be discussed neutrally in a handover note as data to migrate or archive.",
+  "Emotional and personal stakes: 'That number made me feel sick, honestly', 'that's the part that keeps me up', 'That was embarrassing', 'we looked like a mess', and 'I'll get excited and then I'll be wrong in front of Gene'.",
+  "Remarks by client staff about colleagues: 'some of them are excellent and some of them are not', the reps deciding the old CRM was a surveillance tool, 'the reps are useless for anything else Monday and Tuesday', that a departing rep took his notebook, and the test rows carrying the analyst's own name.",
+  "Readiness and method vocabulary: bleed, upside, callback, exit ramp, seed, readiness, gate status, P1 to P8, R1 to R12, [found] and [inferred] markers, verdict wording such as 'Discovery complete'.",
+  "Competitive and relationship context: that Vantage Industrial won the Brightline order, that a competitor in the new territory was sold to a national and their people are unhappy, and how the loss was discovered ('mentioned it at a golf thing').",
+  "Named customers attached to failures, in any client-facing document that is not for the people involved: Brightline Metalworks as a loss, Kestrel Fabrication as the duplicate-call incident, and the departed rep's name.",
+  "Pricing strategy of any kind for the engagement itself, including the proposal the client asked for, any rate, and any comparison between the engagement cost and the bleed. Pricing and proposal prep are outside this version, and the figures stay with the Consultant.",
+  "Volume numbers are a flag for the Consultant rather than an automatic removal, because they can be legitimate in an SOP: 'thirty-eight percent', 'four hundred and seventy-one' quotes, about 1,100 accounts, about 400 monthly buyers, a couple of hundred house accounts, 22 reps, 26 reps after the launch, 85 employees, and about 90 accounts on the departed rep's notebook."
+ ],
+ "readiness": {
+  "schema": "readiness/1",
+  "note": "Derived from this key's pains, entities, products, structure, forks and questions in the fixture fix pass of 2026-10-13. Structure assertions stay provisional until the user has seen a real build (FEEDBACK, top).",
+  "goals": [
+    {"id": "G1", "goal": "Open one screen on Monday morning and know what's out there, stuck and closed", "quote": "A normal week is: I open one screen on Monday morning and I know what's out there, what's stuck, and what closed.", "location": "[28:26] Emmett Thibault (VP of Sales)", "speaker_role": "VP of Sales (client; approver, holds the budget line)", "pains": ["P1.1", "P1.2", "P1.5", "P2.1"]},
+    {"id": "G2", "goal": "The forecast given to the president in January within ten percent", "quote": "If the forecast I give him in January is within ten percent.", "location": "[28:44] Emmett Thibault (VP of Sales)", "speaker_role": "VP of Sales (client; approver, holds the budget line)", "pains": ["P1.1", "P1.2"]},
+    {"id": "G3", "goal": "Knowing who's been in front of a customer without asking anybody", "quote": "Knowing who's been in front of a customer without asking anybody.", "location": "[29:00] Wes Kubiak (Regional Sales Manager)", "speaker_role": "Regional Sales Manager (client; influencer, end user, owns the weekly pipeline call)", "pains": ["P3.2", "P4.1", "P4.3"]},
+    {"id": "G4", "goal": "The four new reps productive without the manager living in Pennsylvania", "quote": "And the new four getting to productive without me living in Pennsylvania.", "location": "[29:00] Wes Kubiak (Regional Sales Manager)", "speaker_role": "Regional Sales Manager (client; influencer, end user, owns the weekly pipeline call)", "pains": ["P1.6", "P8"]}
+  ],
+  "pains": [
+   {
+    "id": "P1.1",
+    "quote": "I cannot tell you today what's going to close this month. I can tell you what twenty-two people told me they hope will close, which is not the same thing.",
+    "location": "[04:35] Emmett Thibault (VP of Sales)",
+    "speaker_role": "VP of Sales (client; approver, holds the budget line)",
+    "stated_or_excavated": "excavated",
+    "outcome": "A normal week is: I open one screen on Monday morning and I know what's out there, what's stuck, and what closed. I don't ask twenty-two people and I don't wait for Friday."
+   },
+   {
+    "id": "P1.2",
+    "quote": "A guess. I'll be straight with you.",
+    "location": "[04:35] Emmett Thibault (VP of Sales)",
+    "speaker_role": "VP of Sales (client; approver, holds the budget line)",
+    "stated_or_excavated": "excavated",
+    "outcome": "A normal week is: I open one screen on Monday morning and I know what's out there, what's stuck, and what closed. I don't ask twenty-two people and I don't wait for Friday."
+   },
+   {
+    "id": "P1.3",
+    "quote": "Retyping. Honestly.",
+    "location": "[04:13] Delia Ostrowski (Sales Operations Analyst)",
+    "speaker_role": "Sales Operations Analyst (client; named day-to-day owner, heaviest end user)",
+    "stated_or_excavated": "excavated",
+    "outcome": "Not retyping. Genuinely, that's my answer. If the summary builds itself I don't care what it looks like."
+   },
+   {
+    "id": "P1.4",
+    "quote": "A legal pad. I have a drawer of them. If you want to know what happened in March you can go read March.",
+    "location": "[14:07] Wes Kubiak (Regional Sales Manager)",
+    "speaker_role": "Regional Sales Manager (client; influencer, end user, owns the weekly pipeline call)",
+    "stated_or_excavated": "excavated",
+    "outcome": null
+   },
+   {
+    "id": "P1.5",
+    "quote": "Or in the workbook, for about four days after I ask.",
+    "location": "[05:27] Delia Ostrowski (Sales Operations Analyst)",
+    "speaker_role": "Sales Operations Analyst (client; named day-to-day owner, heaviest end user)",
+    "stated_or_excavated": "excavated",
+    "outcome": "A normal week is: I open one screen on Monday morning and I know what's out there, what's stuck, and what closed. I don't ask twenty-two people and I don't wait for Friday."
+   },
+   {
+    "id": "P1.6",
+    "quote": "With four more reps and a territory we've never sold into, the legal pad stops working. It barely works now. I've got seven and I'm at the edge of it.",
+    "location": "[20:43] Wes Kubiak (Regional Sales Manager)",
+    "speaker_role": "Regional Sales Manager (client; influencer, end user, owns the weekly pipeline call)",
+    "stated_or_excavated": "excavated",
+    "outcome": "And the new four getting to productive without me living in Pennsylvania."
+   },
+   {
+    "id": "P2.1",
+    "quote": "We had a sixty-two thousand dollar stocking quote sitting at Brightline for five weeks and nobody touched it.",
+    "location": "[11:34] Emmett Thibault (VP of Sales)",
+    "speaker_role": "VP of Sales (client; approver, holds the budget line)",
+    "stated_or_excavated": "excavated",
+    "outcome": "Somebody was supposed to call them. That's it. That's the whole thing."
+   },
+   {
+    "id": "P2.2",
+    "quote": "Of the quotes over five thousand dollars we sent out last year, thirty-eight percent had no activity after the day they went out.",
+    "location": "[12:20] Delia Ostrowski (Sales Operations Analyst)",
+    "speaker_role": "Sales Operations Analyst (client; named day-to-day owner, heaviest end user)",
+    "stated_or_excavated": "excavated",
+    "outcome": "Somebody was supposed to call them. That's it. That's the whole thing."
+   },
+   {
+    "id": "P2.3",
+    "quote": "Nothing. There's no follow-up step. It's whether the rep remembers, and some of them are excellent and some of them are not.",
+    "location": "[13:05] Wes Kubiak (Regional Sales Manager)",
+    "speaker_role": "Regional Sales Manager (client; influencer, end user, owns the weekly pipeline call)",
+    "stated_or_excavated": "excavated",
+    "outcome": null
+   },
+   {
+    "id": "P2.4",
+    "quote": "P twenty-one will show me an open quote until it expires, but it won't tell anybody to do anything about it, and nobody's looking at that list except me on Tuesday.",
+    "location": "[13:19] Delia Ostrowski (Sales Operations Analyst)",
+    "speaker_role": "Sales Operations Analyst (client; named day-to-day owner, heaviest end user)",
+    "stated_or_excavated": "excavated",
+    "outcome": null
+   },
+   {
+    "id": "P3.1",
+    "quote": "When Rudy left in March he took his notebook with him. And that was the account history for about ninety customers. A paper notebook that walked out the door.",
+    "location": "[14:21] Wes Kubiak (Regional Sales Manager)",
+    "speaker_role": "Regional Sales Manager (client; influencer, end user, owns the weekly pipeline call)",
+    "stated_or_excavated": "excavated",
+    "outcome": null
+   },
+   {
+    "id": "P3.2",
+    "quote": "Practically? Two of my guys called Kestrel Fabrication in the same week and neither knew the other had been there, and the buyer told the second one, your company already came in on Tuesday, are you not talking to each other. That was embarrassing. And then we gave away a price on a repeat order because the new guy didn't know what we'd quoted the year before.",
+    "location": "[14:40] Wes Kubiak (Regional Sales Manager)",
+    "speaker_role": "Regional Sales Manager (client; influencer, end user, owns the weekly pipeline call)",
+    "stated_or_excavated": "excavated",
+    "outcome": "Knowing who's been in front of a customer without asking anybody. And the new four getting to productive without me living in Pennsylvania."
+   },
+   {
+    "id": "P3.3",
+    "quote": "But there's no notes, no, this guy only buys in July, no, don't call before ten. That's all gone.",
+    "location": "[15:44] Delia Ostrowski (Sales Operations Analyst)",
+    "speaker_role": "Sales Operations Analyst (client; named day-to-day owner, heaviest end user)",
+    "stated_or_excavated": "excavated",
+    "outcome": "I'd want it to become the account. We shouldn't have the same company twice, that's half of what's wrong with GoldMine."
+   },
+   {
+    "id": "P3.4",
+    "quote": "I tell people to write things down. That's it. That's my whole system. And I can't make a rep write things down, I've tried.",
+    "location": "[15:28] Wes Kubiak (Regional Sales Manager)",
+    "speaker_role": "Regional Sales Manager (client; influencer, end user, owns the weekly pipeline call)",
+    "stated_or_excavated": "excavated",
+    "outcome": null
+   },
+   {
+    "id": "P4.1",
+    "quote": "I don't. I plan ride-alongs off memory. I couldn't tell you who's actually been in front of a customer in the last ninety days, and that's the part that keeps me up, honestly, because with the new territory I'm going to have four people I've never managed.",
+    "location": "[16:13] Wes Kubiak (Regional Sales Manager)",
+    "speaker_role": "Regional Sales Manager (client; influencer, end user, owns the weekly pipeline call)",
+    "stated_or_excavated": "stated",
+    "outcome": "Knowing who's been in front of a customer without asking anybody. And the new four getting to productive without me living in Pennsylvania."
+   },
+   {
+    "id": "P4.2",
+    "quote": "Call reports were a thing we did for about six months in twenty-twenty-one. It was an email at the end of the day. It died because nobody read them, including me.",
+    "location": "[16:39] Wes Kubiak (Regional Sales Manager)",
+    "speaker_role": "Regional Sales Manager (client; influencer, end user, owns the weekly pipeline call)",
+    "stated_or_excavated": "stated",
+    "outcome": "If it was a list I could sort. Not twenty-two emails."
+   },
+   {
+    "id": "P4.3",
+    "quote": "It matters when I'm asked why a region is down and the honest answer is I don't know if anybody went out there. Gene asked me that in June about Fort Wayne and I didn't have an answer.",
+    "location": "[17:08] Emmett Thibault (VP of Sales)",
+    "speaker_role": "VP of Sales (client; approver, holds the budget line)",
+    "stated_or_excavated": "stated",
+    "outcome": null
+   },
+   {
+    "id": "P5",
+    "quote": "House accounts. Two hundred-odd companies that buy from us when they happen to call. Nobody's ever worked that list and I've asked for somebody to work it for three years.",
+    "location": "[27:59] Wes Kubiak (Regional Sales Manager)",
+    "speaker_role": "Regional Sales Manager (client; influencer, end user, owns the weekly pipeline call)",
+    "stated_or_excavated": "stated",
+    "outcome": null
+   },
+   {
+    "id": "P6",
+    "quote": "If I weren't rebuilding that workbook twice a week I'd be doing win-loss on the city bids. Nobody has ever looked at why we lose those.",
+    "location": "[27:44] Delia Ostrowski (Sales Operations Analyst)",
+    "speaker_role": "Sales Operations Analyst (client; named day-to-day owner, heaviest end user)",
+    "stated_or_excavated": "stated",
+    "outcome": null
+   },
+   {
+    "id": "P7",
+    "quote": "A spreadsheet. A different spreadsheet. With due dates I update when I remember.",
+    "location": "[18:31] Delia Ostrowski (Sales Operations Analyst)",
+    "speaker_role": "Sales Operations Analyst (client; named day-to-day owner, heaviest end user)",
+    "stated_or_excavated": "stated",
+    "outcome": null
+   },
+   {
+    "id": "P8",
+    "quote": "Four new people with no history, no account records, nothing to hand them except a list out of P twenty-one of who bought what. And Wes managing seven plus four across two states off a legal pad.",
+    "location": "[20:26] Emmett Thibault (VP of Sales)",
+    "speaker_role": "VP of Sales (client; approver, holds the budget line)",
+    "stated_or_excavated": "stated",
+    "outcome": "And the new four getting to productive without me living in Pennsylvania."
+   }
+  ],
+  "signals": [
+   {
+    "quote": "If the forecast I give him in January is within ten percent. That's it. That's his whole test.",
+    "location": "[28:44] Emmett Thibault (VP of Sales)",
+    "pain": "P1.2",
+    "not_confirmed": "the president's own test and the reporting shape he wants; heard only through the VP, and the president was not on the call"
+   },
+   {
+    "quote": "And there's a whole sales CRM section in there with nothing in it, which I've clicked into maybe twice.",
+    "location": "[08:01] Delia Ostrowski (Sales Operations Analyst)",
+    "pain": "P1.1",
+    "not_confirmed": "whether the client's CRM workspace holds a native board install or is bare, and who administers the account; under A21 this shapes the handover into the client's account, not the first build"
+   },
+   {
+    "quote": "Inside sales takes maybe a third of the orders and they'd be typing into this too.",
+    "location": "[40:38] Delia Ostrowski (Sales Operations Analyst)",
+    "pain": "P1.3",
+    "not_confirmed": "what the five inside sales people would type (quotes they build, house-account orders, both), whether they own deals, and how their share of the work is counted; the Consultant deferred it"
+   },
+   {
+    "quote": "I couldn't work out how to link a company to its quotes without it getting messy.",
+    "location": "[31:44] Delia Ostrowski (Sales Operations Analyst)",
+    "pain": "P3.1",
+    "not_confirmed": "what she tried and where it got messy; a structural tie (company to quotes) that our side never took up on the call"
+   },
+   {
+    "quote": "A rep will say the quote's dead and mean the whole thing is dead, or mean he requoted it with different pricing and there's a new number.",
+    "location": "[09:38] Delia Ostrowski (Sales Operations Analyst)",
+    "pain": "P2.4",
+    "not_confirmed": "how a requote should appear: a second quote record on the same pursuit or a replaced number; the key's question about the Quotes & Invoices board rests on this"
+   },
+   {
+    "quote": "And a chunk of that is calling Fort Wayne to ask a question they could have looked up if it was written anywhere.",
+    "location": "[22:12] Wes Kubiak (Regional Sales Manager)",
+    "pain": "P3.2",
+    "not_confirmed": "which questions reps call the branch about (what shipped, stock, last year's price); some may be ERP facts that a CRM record never holds"
+   },
+   {
+    "quote": "There's a couple hundred of those and they're probably worth more than we think.",
+    "location": "[10:13] Emmett Thibault (VP of Sales)",
+    "pain": "P5",
+    "not_confirmed": "what the house accounts are worth and who would work them; the campaign is deferred by the client and nothing was quantified"
+   }
+  ],
+  "entities": [
+   {
+    "name": "prospect (a company nobody has sold to yet)",
+    "parent": null,
+    "moves_independently": "yes",
+    "shared_resource": false,
+    "goes_stale": false,
+    "source": "spoken",
+    "evidence": "[09:08] Wes Kubiak (Regional Sales Manager)"
+   },
+   {
+    "name": "intake route (trade show list, website form, rep stopping in, buyer moved firms)",
+    "parent": "prospect (a company nobody has sold to yet)",
+    "moves_independently": "no",
+    "shared_resource": false,
+    "goes_stale": false,
+    "source": "spoken",
+    "evidence": "[08:28] Wes Kubiak (Regional Sales Manager)"
+   },
+   {
+    "name": "account / customer",
+    "parent": null,
+    "moves_independently": "yes",
+    "shared_resource": true,
+    "goes_stale": false,
+    "source": "spoken",
+    "evidence": "[09:56] Emmett Thibault (VP of Sales)"
+   },
+   {
+    "name": "contact (a named buyer and their preferences)",
+    "parent": "account / customer",
+    "moves_independently": "yes",
+    "shared_resource": false,
+    "goes_stale": false,
+    "source": "spoken",
+    "evidence": "[15:44] Delia Ostrowski (Sales Operations Analyst)"
+   },
+   {
+    "name": "house account (an unassigned account served by inside sales)",
+    "parent": "account / customer",
+    "moves_independently": "no",
+    "shared_resource": false,
+    "goes_stale": false,
+    "source": "spoken",
+    "evidence": "[10:13] Emmett Thibault (VP of Sales)"
+   },
+   {
+    "name": "account owner (the assigned rep)",
+    "parent": "account / customer",
+    "moves_independently": "yes",
+    "shared_resource": false,
+    "goes_stale": false,
+    "source": "spoken",
+    "evidence": "[10:13] Emmett Thibault (VP of Sales)"
+   },
+   {
+    "name": "opportunity / quote (the pursuit)",
+    "parent": "account / customer",
+    "moves_independently": "yes",
+    "shared_resource": false,
+    "goes_stale": false,
+    "source": "spoken",
+    "evidence": "[09:10] Emmett Thibault (VP of Sales)"
+   },
+   {
+    "name": "ERP quote document (a Prophet 21 quote number; a requote issues a new one)",
+    "parent": "opportunity / quote (the pursuit)",
+    "moves_independently": "yes",
+    "shared_resource": false,
+    "goes_stale": true,
+    "source": "spoken",
+    "evidence": "[09:38] Delia Ostrowski (Sales Operations Analyst)"
+   },
+   {
+    "name": "pipeline stage (prospect, quoted, verbal, won, lost: the Consultant's list, agreed)",
+    "parent": "opportunity / quote (the pursuit)",
+    "moves_independently": "no",
+    "shared_resource": false,
+    "goes_stale": false,
+    "source": "spoken",
+    "evidence": "[36:01] Emmett Thibault (VP of Sales)"
+   },
+   {
+    "name": "follow-up step (next action, owner, date)",
+    "parent": "opportunity / quote (the pursuit)",
+    "moves_independently": "yes",
+    "shared_resource": false,
+    "goes_stale": false,
+    "source": "assumed",
+    "evidence": null
+   },
+   {
+    "name": "stocking agreement / blanket order (a deal type with a year-long term)",
+    "parent": "opportunity / quote (the pursuit)",
+    "moves_independently": "yes",
+    "shared_resource": false,
+    "goes_stale": false,
+    "source": "spoken",
+    "evidence": "[11:14] Wes Kubiak (Regional Sales Manager)"
+   },
+   {
+    "name": "margin on a deal (restricted to owner, manager, analyst, VP, president)",
+    "parent": "opportunity / quote (the pursuit)",
+    "moves_independently": "no",
+    "shared_resource": false,
+    "goes_stale": false,
+    "source": "spoken",
+    "evidence": "[39:01] Emmett Thibault (VP of Sales)"
+   },
+   {
+    "name": "activity (a logged call or visit)",
+    "parent": "account / customer",
+    "moves_independently": "yes",
+    "shared_resource": false,
+    "goes_stale": false,
+    "source": "spoken",
+    "evidence": "[16:13] Wes Kubiak (Regional Sales Manager)"
+   },
+   {
+    "name": "ride-along (a manager joining a visit)",
+    "parent": "activity (a logged call or visit)",
+    "moves_independently": "no",
+    "shared_resource": false,
+    "goes_stale": false,
+    "source": "spoken",
+    "evidence": "[16:13] Wes Kubiak (Regional Sales Manager)"
+   },
+   {
+    "name": "outside rep (22 today, 26 after the launch)",
+    "parent": null,
+    "moves_independently": "yes",
+    "shared_resource": false,
+    "goes_stale": false,
+    "source": "spoken",
+    "evidence": "[02:17] Emmett Thibault (VP of Sales)"
+   },
+   {
+    "name": "inside sales / counter (five people, about a third of orders)",
+    "parent": null,
+    "moves_independently": "yes",
+    "shared_resource": false,
+    "goes_stale": false,
+    "source": "spoken",
+    "evidence": "[40:38] Delia Ostrowski (Sales Operations Analyst)"
+   },
+   {
+    "name": "region / territory (three regions; western Pennsylvania from January)",
+    "parent": null,
+    "moves_independently": "no",
+    "shared_resource": false,
+    "goes_stale": false,
+    "source": "spoken",
+    "evidence": "[02:41] Wes Kubiak (Regional Sales Manager)"
+   },
+   {
+    "name": "branch (Toledo, Fort Wayne)",
+    "parent": null,
+    "moves_independently": "no",
+    "shared_resource": false,
+    "goes_stale": false,
+    "source": "spoken",
+    "evidence": "[01:50] Emmett Thibault (VP of Sales)"
+   },
+   {
+    "name": "the pipeline workbook (22 tabs plus a summary tab; artefact)",
+    "parent": "opportunity / quote (the pursuit)",
+    "moves_independently": "no",
+    "shared_resource": false,
+    "goes_stale": true,
+    "source": "spoken",
+    "evidence": "[03:44] Delia Ostrowski (Sales Operations Analyst)"
+   },
+   {
+    "name": "a rep's tab (artefact)",
+    "parent": "the pipeline workbook (22 tabs plus a summary tab; artefact)",
+    "moves_independently": "no",
+    "shared_resource": false,
+    "goes_stale": true,
+    "source": "spoken",
+    "evidence": "[03:44] Delia Ostrowski (Sales Operations Analyst)"
+   },
+   {
+    "name": "the Friday forecast, and the rolling 90-day forecast wanted from January (artefact)",
+    "parent": "opportunity / quote (the pursuit)",
+    "moves_independently": "no",
+    "shared_resource": false,
+    "goes_stale": true,
+    "source": "spoken",
+    "evidence": "[20:02] Emmett Thibault (VP of Sales)"
+   },
+   {
+    "name": "the manager's legal pad (artefact)",
+    "parent": "opportunity / quote (the pursuit)",
+    "moves_independently": "no",
+    "shared_resource": false,
+    "goes_stale": true,
+    "source": "spoken",
+    "evidence": "[14:07] Wes Kubiak (Regional Sales Manager)"
+   },
+   {
+    "name": "GoldMine account list (legacy artefact, three years stale)",
+    "parent": "account / customer",
+    "moves_independently": "no",
+    "shared_resource": false,
+    "goes_stale": true,
+    "source": "spoken",
+    "evidence": "[06:27] Delia Ostrowski (Sales Operations Analyst)"
+   },
+   {
+    "name": "the abandoned Prospects board (the client's own prototype, about forty rows)",
+    "parent": "prospect (a company nobody has sold to yet)",
+    "moves_independently": "no",
+    "shared_resource": false,
+    "goes_stale": true,
+    "source": "spoken",
+    "evidence": "[31:19] Delia Ostrowski (Sales Operations Analyst)"
+   },
+   {
+    "name": "contract pricing / the pricing matrix (stays in the ERP)",
+    "parent": null,
+    "moves_independently": "no",
+    "shared_resource": false,
+    "goes_stale": false,
+    "source": "spoken",
+    "evidence": "[17:29] Emmett Thibault (VP of Sales)"
+   },
+   {
+    "name": "city bid (out of scope; public record)",
+    "parent": null,
+    "moves_independently": "yes",
+    "shared_resource": false,
+    "goes_stale": false,
+    "source": "spoken",
+    "evidence": "[18:11] Delia Ostrowski (Sales Operations Analyst)"
+   },
+   {
+    "name": "bid calendar spreadsheet (out of scope; artefact)",
+    "parent": "city bid (out of scope; public record)",
+    "moves_independently": "no",
+    "shared_resource": false,
+    "goes_stale": true,
+    "source": "spoken",
+    "evidence": "[18:31] Delia Ostrowski (Sales Operations Analyst)"
+   },
+   {
+    "name": "line card (manufacturer lines; a later want)",
+    "parent": null,
+    "moves_independently": "no",
+    "shared_resource": false,
+    "goes_stale": false,
+    "source": "spoken",
+    "evidence": "[41:05] Wes Kubiak (Regional Sales Manager)"
+   },
+   {
+    "name": "Halbrook Technology (outsourced IT provider; organisation)",
+    "parent": null,
+    "moves_independently": "no",
+    "shared_resource": false,
+    "goes_stale": false,
+    "source": "spoken",
+    "evidence": "[30:07] Emmett Thibault (VP of Sales)"
+   },
+   {
+    "name": "Anil (Halbrook engineer; person; approval point for anything touching the ERP)",
+    "parent": "Halbrook Technology (outsourced IT provider; organisation)",
+    "moves_independently": "no",
+    "shared_resource": false,
+    "goes_stale": false,
+    "source": "spoken",
+    "evidence": "[30:07] Emmett Thibault (VP of Sales)"
+   }
+  ],
+  "structure": {
+   "products": [
+    "CRM"
+   ],
+   "build_target": "own-account",
+   "build_target_reason": "prospect, so the user's own account by default (A21)",
+   "workspaces": [
+    "Calderwood Industrial Supply – CRM"
+   ],
+   "native_reuse": "CRM: native Leads (relabelled Prospects), Contacts, Accounts (house accounts as a segment and a view), Deals (relabelled Opportunities, the quote number beside the pursuit), Activities (visits, calls and ride-alongs), found by detection in the user's own account and recorded by id, or installed from the native CRM template set if the CRM workspace is bare; Quotes & Invoices only if the client wants a per-document record; no Service entity; no Work Management entity in this scope",
+   "leanings": [
+    {
+     "question": "Is the quote one cell on the opportunity, or does the pursuit carry its ERP quote documents as child rows when a requote issues a new number?",
+     "option": "parent-row-with-roll-up: the opportunity is the parent; each Prophet 21 quote (number, date, value, status) is a child row, as subitems or on the native Quotes & Invoices board; the current number and latest value roll up to the parent, so 'dead' and 'requoted' stop looking the same",
+     "quotes": [
+      "It confuses me on Tuesdays. A rep will say the quote's dead and mean the whole thing is dead, or mean he requoted it with different pricing and there's a new number.",
+      "Yeah. Both. Nobody's ever confused by it internally, but I can see how it's confusing from outside."
+     ],
+     "locations": [
+      "[09:38] Delia Ostrowski (Sales Operations Analyst)",
+      "[09:29] Emmett Thibault (VP of Sales)"
+     ],
+     "condition": "the client's answer on whether a per-document record is wanted and how often a pursuit is requoted; if rarely, number, value and status as fields on the opportunity are enough",
+     "pattern": "one row where the call describes many"
+    },
+    {
+     "question": "Does a won stocking agreement end at 'won', or does its year-long term and renewal move on after the deal closes?",
+     "option": "a deal type field for stocking agreement and blanket order, plus a term end date on won deals of that type and a view of terms ending within sixty days; an agreement record of its own only if renewals turn out to be worked as pursuits",
+     "quotes": [
+      "We agree to hold their fasteners on our shelf and they commit to buying them over a year. Blanket order, same idea. Those are the good ones, they're sticky."
+     ],
+     "locations": [
+      "[11:14] Wes Kubiak (Regional Sales Manager)"
+     ],
+     "condition": "whether the client re-quotes or renews stocking agreements as events anyone tracks today (the key's renewal-date question)",
+     "pattern": "one row where the call describes many"
+    },
+    {
+     "question": "Which element reaches the pains the client put outside this scope: the unworked house accounts (P5), win-loss on the city bids (P6) and the bid calendar (P7)?",
+     "option": "none in this build, by the client's choice: the Accounts board shows unassigned accounts as a segment and a view, a lost-reason field on opportunities reaches ordinary quotes, and the city bids and their calendar are not modelled; the three stay visible as needs with the client's own trigger",
+     "quotes": [
+      "No. That's the scope. All five, nothing else for now. New rep onboarding, the bid calendar, the house account campaign, all of that can wait until this is alive.",
+      "Separate. Let's not boil the ocean. I want the pipeline first."
+     ],
+     "locations": [
+      "[36:52] Emmett Thibault (VP of Sales)",
+      "[18:45] Emmett Thibault (VP of Sales)"
+     ],
+     "condition": "'until this is alive': the client's own trigger, after the first version is in use",
+     "pattern": "a pain with no element that fixes it"
+    },
+    {
+     "question": "Does any element make a rep write things down (P3.4), or does the build only lower the cost of doing so?",
+     "option": "no element changes the practice; the one-minute visit log from a phone and the manager's coverage view make logging cheap and its absence visible, and the first version proves nothing about adoption; the earlier CRM failed on exactly this",
+     "quotes": [
+      "I tell people to write things down. That's it. That's my whole system. And I can't make a rep write things down, I've tried.",
+      "Because we bought it for the managers and rolled it out to the reps, and the reps decided it was a surveillance tool, and after about a year of me nagging I gave up."
+     ],
+     "locations": [
+      "[15:28] Wes Kubiak (Regional Sales Manager)",
+      "[06:45] Emmett Thibault (VP of Sales)"
+     ],
+     "condition": "a rep logging a real visit from a truck in under a minute, on the client's own phones, and the manager reading the list instead of calling",
+     "pattern": "a pain with no element that fixes it"
+    },
+    {
+     "question": "What are the pipeline stages in the client's words, and what is the stalled or no-decision state the five-week silence implies?",
+     "option": "the five stages the Consultant played back (prospect, quoted, verbal, won, lost), agreed with 'Yes.', plus a stalled flag derived from days since the last logged activity rather than a stage anyone sets; relabelled to the client's words once they give them",
+     "quotes": [
+      "from a prospect through quoted, verbal, won or lost",
+      "Yes. And the quote itself stays in P twenty-one. You're not rebuilding our quoting."
+     ],
+     "locations": [
+      "[35:44] Consultant",
+      "[36:01] Emmett Thibault (VP of Sales)"
+     ],
+     "condition": "the client names the stages themselves and says what counts as stalled and after how many days",
+     "pattern": "our framing labelled as the client's"
+    },
+    {
+     "question": "Who holds an account when two reps have a reason to be there, and who inherits it when the owner leaves?",
+     "option": "owner on the native Accounts board, every call and visit logged against the account, and last-visit date and last visitor rolled up on the account and shown to every rep who opens it; a prospect that two routes bring in is one lead with one owner, converted to one account",
+     "quotes": [
+      "Two of my guys called Kestrel Fabrication in the same week and neither knew the other had been there, and the buyer told the second one, your company already came in on Tuesday, are you not talking to each other.",
+      "We shouldn't have the same company twice, that's half of what's wrong with GoldMine."
+     ],
+     "locations": [
+      "[14:40] Wes Kubiak (Regional Sales Manager)",
+      "[38:47] Delia Ostrowski (Sales Operations Analyst)"
+     ],
+     "condition": "how the client decides ownership of an account two reps touch, and how the ninety accounts of a leaver are reassigned",
+     "pattern": "a shared resource with no reservation tracking"
+    },
+    {
+     "question": "How does a quote number and status copied from Prophet 21 onto an opportunity show that it is out of date, when v0.1 has no ERP connection?",
+     "option": "an 'ERP status as of' date on the opportunity, set when the number is keyed or imported, a view of opportunities whose as-of date is older than the Tuesday cycle, and the stalled-quote flag derived from the last logged activity; a status set by a person is a claim about the ERP, never evidence from it",
+     "quotes": [
+      "P twenty-one will show me an open quote until it expires, but it won't tell anybody to do anything about it, and nobody's looking at that list except me on Tuesday.",
+      "Of the quotes over five thousand dollars we sent out last year, thirty-eight percent had no activity after the day they went out. None. No call logged, no note, no requote, nothing."
+     ],
+     "locations": [
+      "[13:19] Delia Ostrowski (Sales Operations Analyst)",
+      "[12:20] Delia Ostrowski (Sales Operations Analyst)"
+     ],
+     "condition": "Anil's answer on the Prophet 21 version and whether an API or database connection exists (committed by the VP for this week); until then the as-of date is the only freshness signal",
+     "pattern": "an artefact that can go stale with nothing to flag it"
+    },
+    {
+     "question": "Is the forecast built from values reps keep current, or from the analyst's Tuesday pull re-keyed into monday?",
+     "option": "a forecast dashboard over the native Deals board with a rolling ninety-day window, fed by the stage and value the owning rep keeps on the opportunity, with last-updated and last-activity dates visible so a stale row shows; in v0.1 the ERP number and value are keyed by a person and the demo says so",
+     "quotes": [
+      "Or in the workbook, for about four days after I ask.",
+      "Gene wants a rolling ninety-day forecast on his desk every month starting in January. He asked for it in August, after Brightline, and right now I'd be making it up."
+     ],
+     "locations": [
+      "[05:27] Delia Ostrowski (Sales Operations Analyst)",
+      "[20:02] Emmett Thibault (VP of Sales)"
+     ],
+     "condition": "the reps keeping stage and value current themselves; the president's reporting shape, confirmed with him rather than through the VP",
+     "pattern": "an artefact that can go stale with nothing to flag it"
+    }
+   ],
+   "patterns": [
+    "parent-row-with-roll-up: opportunity with its Prophet 21 quote documents (number, date, value, status) as child rows, current quote number and latest value on the parent",
+    "parent-row-with-roll-up: account with its logged calls and visits as linked child records, last-visit date and last visitor on the account"
+   ],
+   "element_per_pain": [
+    {
+     "pain": "P1.1",
+     "element": "native Deals board relabelled Opportunities: one row per pursuit with stage, value, owner and region, read by one pipeline view",
+     "verdict": "fixes"
+    },
+    {
+     "pain": "P1.2",
+     "element": "forecast dashboard over Opportunities with a rolling ninety-day window, built from the stage and value the owning rep keeps current",
+     "verdict": "fixes"
+    },
+    {
+     "pain": "P1.3",
+     "element": "the Tuesday pull becomes an import or a connection into Opportunities; in v0.1 there is no ERP feed, so the quote number, value and status are keyed or pasted by a person, which is today's re-keying moved into monday",
+     "verdict": "copies-today's-tool"
+    },
+    {
+     "pain": "P1.4",
+     "element": "a per-region view of Opportunities, sortable, used live in the Monday morning call in place of the legal pad",
+     "verdict": "fixes"
+    },
+    {
+     "pain": "P1.5",
+     "element": "last-updated and last-activity dates on every opportunity, with a view of rows not touched in N days, so a stale row is visible instead of silently old",
+     "verdict": "fixes"
+    },
+    {
+     "pain": "P1.6",
+     "element": "territory and branch as fields and views over one Opportunities board, so eleven reps across two states are a filter, not a new workbook",
+     "verdict": "fixes"
+    },
+    {
+     "pain": "P2.1",
+     "element": "a next-step date and owner on every open opportunity, with an automation that prompts the owner when the date passes",
+     "verdict": "fixes"
+    },
+    {
+     "pain": "P2.2",
+     "element": "a stalled-quote view and prompt derived from days since the last logged activity, which is the client's own definition of the thirty-eight percent",
+     "verdict": "fixes"
+    },
+    {
+     "pain": "P2.3",
+     "element": "the next-step column itself: the follow-up step that does not exist today, with an owner, on the native Deals board",
+     "verdict": "fixes"
+    },
+    {
+     "pain": "P2.4",
+     "element": "the prompt comes from monday, not from the ERP; until a connection exists the open-quote list in monday is still the analyst's Tuesday pull, keyed by hand",
+     "verdict": "copies-today's-tool"
+    },
+    {
+     "pain": "P3.1",
+     "element": "native Accounts and Contacts owned by the company, with updates and logged activities on the account, so a departure leaves the history behind",
+     "verdict": "fixes"
+    },
+    {
+     "pain": "P3.2",
+     "element": "every call and visit logged against the account and visible to every rep who opens it, with last-visit date and visitor rolled up; last year's quoted price stays in Prophet 21 and the opportunity points at it by number",
+     "verdict": "fixes"
+    },
+    {
+     "pain": "P3.3",
+     "element": "Contacts with preference fields and notes (buying month, call-time rules) kept on the record, not in a notebook",
+     "verdict": "fixes"
+    },
+    {
+     "pain": "P3.4",
+     "element": "no element makes a rep write things down; the one-minute phone log and the coverage view lower the cost and make the gap visible, and adoption is the client's own stated risk",
+     "verdict": "none"
+    },
+    {
+     "pain": "P4.1",
+     "element": "native Activities relabelled visits and calls, with a coverage view by account, rep and date for the manager",
+     "verdict": "fixes"
+    },
+    {
+     "pain": "P4.2",
+     "element": "the coverage view is a sortable list, not an email; ride-along is an activity type",
+     "verdict": "fixes"
+    },
+    {
+     "pain": "P4.3",
+     "element": "a region view over Activities and Opportunities the VP can open when asked about a region",
+     "verdict": "fixes"
+    },
+    {
+     "pain": "P5",
+     "element": "unassigned accounts shown as a segment and a view on the native Accounts board; nothing works the list, because the client deferred the campaign",
+     "verdict": "none"
+    },
+    {
+     "pain": "P6",
+     "element": "a lost-reason field on Opportunities reaches ordinary quotes; the city bids are not modelled, by the client's choice",
+     "verdict": "none"
+    },
+    {
+     "pain": "P7",
+     "element": "not modelled; the bid calendar is excluded by the client and carries a public-records constraint",
+     "verdict": "none"
+    },
+    {
+     "pain": "P8",
+     "element": "Accounts, Contacts and Activities history available to a new rep from day one; the onboarding checklist itself is deferred",
+     "verdict": "fixes"
+    }
+   ]
+  },
+  "existing": {
+   "account": "The client's own account exists: Pro tier ('It says Pro when I log in', [08:01] Delia Ostrowski), bought about nine months before the call for operations, Work Management in use by purchasing, the CRM product present and empty as far as the client can see, one abandoned hand-built Prospects board with about forty rows, seats and administrator unknown. Under A21 the build target for a prospect is the user's own account, whose tier and native boards are read at preflight; the client's account facts above belong to the handover and to the Consultant's commitments to review the operations boards and resolve the Prospects board. No client account is bound.",
+   "incumbents": [
+    {
+     "system": "Epicor Prophet 21 (the ERP)",
+     "authority": "stays system of record for: orders, inventory, contract pricing and the pricing matrix, the quote document, invoicing (the client's words: 'P twenty-one is not going anywhere' and 'the quote itself stays in P twenty-one'); follower for: nothing. monday carries the quote number, value and status beside the pursuit. Writeback and integration direction unresolved; v0.1 does not depend on either; staying clear of Prophet 21 is our safe default, labelled as ours. The client's only line on writes is that a connection that writes back faces more scrutiny from Halbrook, not that one is forbidden.",
+     "evidence": "[05:35] Emmett Thibault (VP of Sales)"
+    },
+    {
+     "system": "the pipeline workbook on SharePoint",
+     "authority": "stays system of record for: nothing once the first version is in use; it is the artefact the Opportunities board replaces and the migration source for open pursuits (substance, never its columns); follower for: nothing",
+     "evidence": "[03:44] Delia Ostrowski (Sales Operations Analyst)"
+    },
+    {
+     "system": "GoldMine (legacy CRM)",
+     "authority": "stays system of record for: nothing the client trusts; its account list is the one part they might keep, only if asked, and only the companies absent from the ERP; follower for: nothing",
+     "evidence": "[06:27] Delia Ostrowski (Sales Operations Analyst)"
+    },
+    {
+     "system": "Microsoft 365 (Outlook, Teams; identity administered by Halbrook)",
+     "authority": "stays system of record for: email, calendar, sign-in; follower for: nothing in v0.1; logging emails to monday is unprobed",
+     "evidence": "[07:16] Delia Ostrowski (Sales Operations Analyst)"
+    },
+    {
+     "system": "SharePoint (quote PDFs)",
+     "authority": "stays system of record for: the quote PDF files; follower for: nothing; an opportunity may link to a PDF, never hold the pricing",
+     "evidence": "[07:16] Delia Ostrowski (Sales Operations Analyst)"
+    },
+    {
+     "system": "the website enquiry form and its shared inbox",
+     "authority": "stays system of record for: enquiries until an intake route into Leads exists; follower for: nothing yet; a native form or an import is an assumption",
+     "evidence": "[07:16] Delia Ostrowski (Sales Operations Analyst)"
+    },
+    {
+     "system": "trade show badge-scan spreadsheets",
+     "authority": "stays system of record for: each show's list as delivered; follower for: nothing; a recurring import into Leads, with the show and import date on each row",
+     "evidence": "[07:16] Delia Ostrowski (Sales Operations Analyst)"
+    },
+    {
+     "system": "the manager's legal pad",
+     "authority": "stays system of record for: past Monday calls ('If you want to know what happened in March you can go read March'); follower for: nothing; replaced going forward, not migrated",
+     "evidence": "[14:07] Wes Kubiak (Regional Sales Manager)"
+    },
+    {
+     "system": "the bid calendar spreadsheet",
+     "authority": "stays system of record for: municipal bid due dates; out of this scope by the client's choice; follower for: nothing",
+     "evidence": "[18:31] Delia Ostrowski (Sales Operations Analyst)"
+    },
+    {
+     "system": "the client's existing monday account (Pro; purchasing boards; the abandoned Prospects board)",
+     "authority": "stays system of record for: purchasing's vendor returns, the racking project and the safety audits, none of which this build touches; the Prospects board is the client's own prototype, never a seed for sample rows; follower for: nothing. Its review and the board's fate are commitments for the handover into the client's account, not conditions on the own-account build",
+     "evidence": "[07:41] Emmett Thibault (VP of Sales)"
+    }
+   ]
+  },
+  "assumptions": [
+   {
+    "statement": "The pipeline stages are the five the Consultant played back and the VP agreed: prospect, quoted, verbal, won, lost.",
+    "question": "What are the stages in your words, and is there a stalled or no-decision state?",
+    "kind": "leaning",
+    "state": "assumed"
+   },
+   {
+    "statement": "A quote counts as stalled after a fixed number of days with no logged activity, set provisionally at fourteen days in the sample data.",
+    "question": "After how many days of silence should a quote be flagged, and does the threshold differ for stocking agreements?",
+    "kind": "automation-condition",
+    "state": "assumed"
+   },
+   {
+    "statement": "Follow-up prompts go to the owning rep first and to their manager when a second threshold passes.",
+    "question": "Who should receive the prompts and the stalled-quote notifications: the rep, the rep and manager, or a queue the analyst works?",
+    "kind": "automation-condition",
+    "state": "assumed"
+   },
+   {
+    "statement": "In v0.1 the Prophet 21 quote number, value and status are keyed or pasted by a person, with an as-of date; no connection exists.",
+    "question": "Which version of Prophet 21 is in use, and is there an API or a reportable database?",
+    "kind": "leaning",
+    "state": "assumed"
+   },
+   {
+    "statement": "The quote document is represented as number, value, status and as-of date on the opportunity; no per-document record yet.",
+    "question": "Do you want a record per quote document, given that a requote issues a new number for the same pursuit?",
+    "kind": "leaning",
+    "state": "assumed"
+   },
+   {
+    "statement": "Territory, region and branch are fields and views over one set of boards; western Pennsylvania is a value, not a workspace.",
+    "question": "Does the new territory need its own view from day one, and who else should see it?",
+    "kind": "board-architecture",
+    "state": "assumed"
+   },
+   {
+    "statement": "Inside sales use the same boards as the outside reps, as users who build quotes and take house-account orders; they do not own opportunities.",
+    "question": "Where do the five inside sales people fit, and do they own deals?",
+    "kind": "gap",
+    "state": "assumed"
+   },
+   {
+    "statement": "Prospects arrive through a native form on the Leads board and a spreadsheet import for trade show lists; the shared inbox keeps receiving the website form until then.",
+    "question": "How should website enquiries and badge-scan spreadsheets arrive: a native form, an import, or an automation from the inbox?",
+    "kind": "gap",
+    "state": "assumed"
+   },
+   {
+    "statement": "Nothing is imported from GoldMine in the first version.",
+    "question": "Do you want the GoldMine account list imported, and if so only the companies missing from Prophet 21?",
+    "kind": "gap",
+    "state": "assumed"
+   },
+   {
+    "statement": "The abandoned Prospects board is not a seed and not a base; its fate is decided at handover into the client's account.",
+    "question": "Are the forty rows worth migrating once the test rows are removed, and should the board then be archived?",
+    "kind": "gap",
+    "state": "assumed"
+   },
+   {
+    "statement": "Stocking agreements and blanket orders are one deal type with a term end date on won deals.",
+    "question": "Do stocking agreements need a renewal date or their own stage path?",
+    "kind": "leaning",
+    "state": "assumed"
+   },
+   {
+    "statement": "Margin visibility is shown in the first version as board permissions and per-role views on sample data in the user's own account; enforcement for twenty-two real reps is proven only in the client's account with its seats.",
+    "question": "For preflight and handover: which permission model does the bound account's tier allow, and who administers the client's account?",
+    "kind": "board-architecture",
+    "state": "assumed"
+   },
+   {
+    "statement": "Sample rows are invented in the client's register (fasteners, abrasives, a fabricator, a food plant, a municipality) and carry no real customer or rep names; Brightline, Kestrel and the departed rep never appear.",
+    "question": "For the user: which realistic values may appear in the demo?",
+    "kind": "gap",
+    "state": "assumed"
+   },
+   {
+    "statement": "The forecast the president wants is a rolling ninety-day window by region with a within-ten-percent test, as reported by the VP.",
+    "question": "Can the president's test and the reporting shape be confirmed with him before they become a success criterion?",
+    "kind": "leaning",
+    "state": "assumed"
+   },
+   {
+    "statement": "The first version is built in the user's own account (A21) even though the Consultant told the client it would be 'built in your own account' ([39:09] Consultant).",
+    "question": "For the user: is the first version shown from the user's account on the 23rd, or does the client's live Pro account enter now as an existing-account target with the A11-2 question asked first?",
+    "kind": "board-architecture",
+    "state": "assumed"
+   }
+  ],
+  "unmet_needs": [
+   {
+    "need": "The house account campaign: two hundred-odd companies worked by somebody (P5)",
+    "clock": "all of that can wait until this is alive",
+    "why_not_met": "deferred by the client in the same breath as agreeing scope; the build shows the segment and leaves the list unworked"
+   },
+   {
+    "need": "Win-loss analysis on the city bids (P6)",
+    "clock": null,
+    "why_not_met": "the city bids are outside the agreed scope and nothing in the build records why a bid was lost"
+   },
+   {
+    "need": "A bid calendar that is kept up to date (P7)",
+    "clock": null,
+    "why_not_met": "excluded by the client ('Separate. Let's not boil the ocean.'); a later build would carry the public-records constraint on what is written"
+   },
+   {
+    "need": "New rep onboarding with something to hand the four incoming reps (P8, second half)",
+    "clock": "the first one starts December first",
+    "why_not_met": "the history boards give them account records from day one; the onboarding checklist itself is a later item by the client's choice"
+   },
+   {
+    "need": "Line-card gap analysis: what a customer buys against what they could buy",
+    "clock": "That's not for December, but it's the thing I'd want eventually.",
+    "why_not_met": "not for December by the client's own words; the native Products & Services board is conditional and was not asked for"
+   },
+   {
+    "need": "Logging a visit from a phone in a truck in under about a minute, on the reps' own devices",
+    "clock": "If logging a visit takes more than about a minute in a truck, it won't happen.",
+    "why_not_met": "a proof of concept in the user's own account can show the form and its field count; the minute is proven only by the client's reps on their phones, so the need stays open until then (s15: a product limit never deletes a client need)"
+   },
+   {
+    "need": "Margin on a deal hidden from every other rep, for twenty-two real reps",
+    "clock": "If a rep can see what we give another customer on the same part, I'll have a problem within a week.",
+    "why_not_met": "shown as a permission design on sample data in the user's own account; enforced only in the client's account with its real seats and tier"
+   }
+  ],
+  "ai_opportunities": [
+   {
+    "pain_or_need": "P2.2",
+    "kind": "workflow",
+    "round": 2,
+    "probe_basis": "P-21",
+    "idea": "A workflow that notifies the owning rep when an open opportunity passes the stalled threshold with no logged activity, and the manager at a second threshold, every recipient shown on the approval card."
+   },
+   {
+    "pain_or_need": "P1.2",
+    "kind": "agent",
+    "round": 2,
+    "probe_basis": "P-19",
+    "idea": "An agent that drafts the Monday morning summary per region (what is out there, what is stuck, what closed) from the Opportunities and Activities boards, reading only this client's workspace and posting as an update for the manager to edit."
+   },
+   {
+    "pain_or_need": "P3.3",
+    "kind": "ai_column",
+    "round": 2,
+    "probe_basis": "unprobed",
+    "idea": "An AI column that pulls preference facts out of a logged visit note (buying month, call-time rules, who the buyer is) into the contact's fields, so a one-minute note still leaves structured history."
+   },
+   {
+    "pain_or_need": "P4.2",
+    "kind": "ai_column",
+    "round": 2,
+    "probe_basis": "unprobed",
+    "idea": "An AI column that turns a dictated one-line visit note into the account's running summary, which is what the 2021 call-report emails never became."
+   },
+   {
+    "pain_or_need": "P5",
+    "kind": "sequence",
+    "round": 2,
+    "probe_basis": "unprobed",
+    "idea": "A later house-account outreach sequence from the CRM, shown on sample rows only and deferred with the campaign the client put outside this scope."
+   }
+  ],
+  "verdict": {
+   "cleared_for": "build",
+   "conditions": [
+    "approval stop, with the assumptions list shown as the card's 'what this build rests on' section and the automations as one list with trigger, conditions, action and every recipient",
+    "no A11 decision bites: own-account target, so sample data needs no decision (A21); the three A11 decisions stay open",
+    "the build-target tension is for the user: the Consultant told the client the first version would be 'built in your own account' ([39:09] Consultant), while under A21 a prospect's proof of concept goes into the user's own account; decide before the 23rd, and if the client's live account becomes the target, A11-2 is asked first",
+    "native CRM boards (Leads, Contacts, Accounts, Deals, Activities) found by detection in the user's own account and recorded by id, or installed from the native CRM template set if the CRM workspace is bare (A5); never hand-built",
+    "workspace name confirmed at approval; creating a workspace is irreversible-class",
+    "no real customer, competitor or rep name in sample rows; the client's own Prospects board is never a seed",
+    "the Prophet 21 connection stays a question: the VP's commitment to ask Halbrook is committed, not done, and v0.1 keys the quote number and status by hand with an as-of date",
+    "the Consultant's commitments to review the operations boards and to resolve the Prospects board are about the client's account and belong to the handover; they do not block the own-account build"
+   ],
+   "reason": "Three excavated pains and one stated pain, each with a named entity (opportunity, account, contact, activity) and a wanted outcome in the client's own words, one product (CRM) with its native boards named, the structure stated with its leanings, and the build target named, so the first version can be built as the record stands."
+  },
+  "questions": [
+   {
+    "text": "You said a rep will say the quote's dead and mean the whole thing is dead, or mean he requoted it with different pricing and there's a new number. When that happens, should the new number sit on the same opportunity as a second quote row, or replace the old one, and how often does it happen?",
+    "kind": "read-back",
+    "role": "sales operations analyst",
+    "known": "both meanings of 'quote' confirmed ([09:29] Emmett Thibault, [09:38] Delia Ostrowski); the requote creates a new ERP number for the same pursuit; the native Quotes & Invoices board is conditional in the key; leaning: opportunity as parent with quote documents as child rows"
+   },
+   {
+    "text": "What are the pipeline stages in your words, what counts as a quote that has gone quiet and after how many days, and who should get the prompt when it does: the rep, the rep and their manager, or a queue the analyst works?",
+    "kind": "discovery",
+    "role": "VP of Sales and the regional manager",
+    "known": "the Consultant's list (prospect, quoted, verbal, won, lost) agreed with 'Yes.' ([36:01] Emmett Thibault); five weeks was too long ([11:34] Emmett Thibault); no follow-up step exists ([13:05] Wes Kubiak); the client's own measure is 'no activity after the day they went out' ([12:20] Delia Ostrowski)"
+   },
+   {
+    "text": "Two of your reps called Kestrel Fabrication in the same week without knowing. Who owns an account when two reps have a reason to be there, how do you want the second rep to see that someone was there on Tuesday, and who inherits a leaver's accounts?",
+    "kind": "read-back",
+    "role": "regional sales manager",
+    "known": "most accounts are assigned and a couple of hundred house accounts are not ([10:13] Emmett Thibault); the leaver's notebook covered about ninety customers ([14:21] Wes Kubiak); leaning: owner on the account, every visit logged against it, last visit and visitor rolled up"
+   },
+   {
+    "text": "You said inside sales takes maybe a third of the orders and would be typing into this too. What would they type: quotes they build for reps, orders on house accounts, or both, and should any of them own an opportunity?",
+    "kind": "read-back",
+    "role": "sales operations analyst",
+    "known": "five people, four in Toledo and one in Fort Wayne ([40:59] Delia Ostrowski); they build quotes in the ERP when pricing is involved ([11:00] Delia Ostrowski) and take house-account orders ([10:13] Emmett Thibault); the Consultant committed to come back on where they fit"
+   },
+   {
+    "text": "Until Anil answers on the Prophet 21 version and whether an API or database view exists, the quote number, value and status would be keyed by hand with an as-of date. Is that acceptable for the first version, and who keys them: the analyst on Tuesday, or the rep when the quote goes out?",
+    "kind": "discovery",
+    "role": "VP of Sales, with Halbrook (Anil) for the technical answer",
+    "known": "the VP committed to email Anil this week ([38:11] Emmett Thibault); Anil takes a week or two with a document, longer if anything writes back ([30:27] Delia Ostrowski); no sync is promised ([37:55] Consultant); the analyst already pulls open quotes every Tuesday ([03:02] Delia Ostrowski)"
+   }
+  ]
+ }
+}

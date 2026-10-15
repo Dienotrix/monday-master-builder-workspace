@@ -1,0 +1,53 @@
+{
+  "goals": [
+    {
+      "id": "G1",
+      "goal": "The first framework project goes into something that isn't a spreadsheet, before January",
+      "quote": "I want the first framework project to go into something that isn't a spreadsheet.",
+      "location": "25:48 Wilhelmina Strachan",
+      "speaker_role": "operations director",
+      "pains": ["P2.1", "P2.2"]
+    },
+    {
+      "id": "G2",
+      "goal": "A project is one thing, in one place, from quote to invoice",
+      "quote": "I want a project to be one thing.",
+      "location": "29:10 Wilhelmina Strachan",
+      "speaker_role": "operations director",
+      "pains": ["P2.1", "P2.2", "P3.1", "P5.1"]
+    },
+    {
+      "id": "G3",
+      "goal": "One status: one word that means the same thing to everyone",
+      "quote": "I want one status.",
+      "location": "29:35 Niamh Kettleborough",
+      "speaker_role": "senior project manager",
+      "pains": ["P2.2", "P3.1"]
+    },
+    {
+      "id": "G4",
+      "goal": "See which freelancers are free before emailing them, and the PMs see it too",
+      "quote": "I want to see who's free.",
+      "location": "29:50 Rafael Quintanilla",
+      "speaker_role": "vendor manager",
+      "pains": ["P1.1", "P1.2", "P1.3"]
+    }
+  ],
+  "assumption_kinds": [
+    "leaning",
+    "leaning",
+    "leaning",
+    "board-architecture",
+    "gap",
+    "gap",
+    "leaning",
+    "automation-condition",
+    "gap",
+    "board-architecture",
+    "gap",
+    "leaning",
+    "gap",
+    "gap"
+  ],
+  "note_add": null
+}

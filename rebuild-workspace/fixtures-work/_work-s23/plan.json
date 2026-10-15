@@ -1,0 +1,669 @@
+{
+ "seed": 2311,
+ "plan": [
+  {
+   "boundary": 4,
+   "kind": "head",
+   "k": 8,
+   "owner": "C",
+   "under": "T",
+   "frag": "That's fine. Tariq, thanks for making the time."
+  },
+  {
+   "boundary": 6,
+   "kind": "head",
+   "k": 12,
+   "owner": "C",
+   "under": "T",
+   "frag": "Good. And on my side, this is Maren. Maren works with me"
+  },
+  {
+   "boundary": 28,
+   "kind": "tail",
+   "k": 20,
+   "owner": "M",
+   "under": "T",
+   "frag": "for. The lab software. Is it installed on a computer in the building or is it something you log into?"
+  },
+  {
+   "boundary": 29,
+   "kind": "head",
+   "k": 7,
+   "owner": "M",
+   "under": "T",
+   "frag": "the vendor holds the data and you"
+  },
+  {
+   "boundary": 31,
+   "kind": "head",
+   "k": 5,
+   "owner": "C",
+   "under": "T",
+   "frag": "We'll come back to that."
+  },
+  {
+   "boundary": 34,
+   "kind": "head",
+   "k": 16,
+   "owner": "P",
+   "under": "T",
+   "frag": "No, that's the sentence. They start looking. And we can't produce it. We can produce it"
+  },
+  {
+   "boundary": 50,
+   "kind": "head",
+   "k": 8,
+   "owner": "L",
+   "under": "T",
+   "frag": "when we get a ticket. The lab software"
+  },
+  {
+   "boundary": 67,
+   "kind": "head",
+   "k": 5,
+   "owner": "C",
+   "under": "T",
+   "frag": "Tariq, what happens when a"
+  },
+  {
+   "boundary": 68,
+   "kind": "tail",
+   "k": 4,
+   "owner": "C",
+   "under": "T",
+   "frag": "says where's my case?"
+  },
+  {
+   "boundary": 77,
+   "kind": "head",
+   "k": 3,
+   "owner": "P",
+   "under": "T",
+   "frag": "Tariq do the"
+  },
+  {
+   "boundary": 83,
+   "kind": "head",
+   "k": 5,
+   "owner": "C",
+   "under": "T",
+   "frag": "Hold that. We'll do remakes"
+  },
+  {
+   "boundary": 91,
+   "kind": "head",
+   "k": 11,
+   "owner": "L",
+   "under": "T",
+   "frag": "By two o'clock it isn't, no. Because a pan moves the"
+  },
+  {
+   "boundary": 129,
+   "kind": "head",
+   "k": 3,
+   "owner": "L",
+   "under": "T",
+   "frag": "somebody put it"
+  },
+  {
+   "boundary": 140,
+   "kind": "head",
+   "k": 16,
+   "owner": "C",
+   "under": "T",
+   "frag": "Then I'll carry it as one number for late cases and not pretend to know the"
+  },
+  {
+   "boundary": 143,
+   "kind": "tail",
+   "k": 7,
+   "owner": "C",
+   "under": "T",
+   "frag": "getting worse, or is it just Riverbend?"
+  },
+  {
+   "boundary": 160,
+   "kind": "head",
+   "k": 4,
+   "owner": "P",
+   "under": "T",
+   "frag": "at the bench. Which"
+  },
+  {
+   "boundary": 168,
+   "kind": "head",
+   "k": 13,
+   "owner": "C",
+   "under": "T",
+   "frag": "I'm writing those down as yours. Who decides on something like this? Money"
+  },
+  {
+   "boundary": 177,
+   "kind": "tail",
+   "k": 3,
+   "owner": "P",
+   "under": "T",
+   "frag": "lab to them."
+  },
+  {
+   "boundary": 221,
+   "kind": "head",
+   "k": 5,
+   "owner": "M",
+   "under": "T",
+   "frag": "You're not. You're forwarding them"
+  },
+  {
+   "boundary": 223,
+   "kind": "head",
+   "k": 9,
+   "owner": "M",
+   "under": "T",
+   "frag": "One more for the note, Tariq. Does the case"
+  },
+  {
+   "boundary": 224,
+   "kind": "tail",
+   "k": 8,
+   "owner": "M",
+   "under": "T",
+   "frag": "it's entered, or is it fixed for life?"
+  },
+  {
+   "boundary": 225,
+   "kind": "head",
+   "k": 6,
+   "owner": "M",
+   "under": "T",
+   "frag": "Good. That's the thing I most"
+  },
+  {
+   "boundary": 243,
+   "kind": "tail",
+   "k": 8,
+   "owner": "C",
+   "under": "T",
+   "frag": "of you. Tariq, go and answer your phone."
+  },
+  {
+   "boundary": 149,
+   "kind": "tail",
+   "k": 2,
+   "owner": "P",
+   "under": "L",
+   "frag": "whoever remembers."
+  },
+  {
+   "boundary": 57,
+   "kind": "head",
+   "k": 2,
+   "owner": "L",
+   "under": "C",
+   "frag": "Colour. The"
+  },
+  {
+   "boundary": 182,
+   "kind": "head",
+   "k": 3,
+   "owner": "P",
+   "under": "C",
+   "frag": "They'll say buy"
+  },
+  {
+   "boundary": 107,
+   "kind": "head",
+   "k": 2,
+   "owner": "L",
+   "under": "C",
+   "frag": "There's a"
+  },
+  {
+   "boundary": 118,
+   "kind": "head",
+   "k": 5,
+   "owner": "L",
+   "under": "C",
+   "frag": "A remake gets picked up"
+  },
+  {
+   "boundary": 47,
+   "kind": "head",
+   "k": 3,
+   "owner": "L",
+   "under": "C",
+   "frag": "The appointment when"
+  },
+  {
+   "boundary": 26,
+   "kind": "head",
+   "k": 2,
+   "owner": "P",
+   "under": "L",
+   "frag": "does. And"
+  },
+  {
+   "boundary": 53,
+   "kind": "head",
+   "k": 4,
+   "owner": "L",
+   "under": "C",
+   "frag": "And then it walks."
+  },
+  {
+   "boundary": 24,
+   "kind": "head",
+   "k": 6,
+   "owner": "P",
+   "under": "C",
+   "frag": "One building here in Lexington, and"
+  },
+  {
+   "boundary": 58,
+   "kind": "head",
+   "k": 4,
+   "owner": "P",
+   "under": "L",
+   "frag": "says that so Bertrand"
+  },
+  {
+   "boundary": 19,
+   "kind": "orphan-head",
+   "k": 1,
+   "owner": "L",
+   "under": "P",
+   "frag": "are,"
+  },
+  {
+   "boundary": 69,
+   "kind": "head",
+   "k": 1,
+   "owner": "L",
+   "under": "T",
+   "frag": "gets"
+  },
+  {
+   "boundary": 84,
+   "kind": "head",
+   "k": 5,
+   "owner": "L",
+   "under": "C",
+   "frag": "Shipping's four drivers, each with"
+  },
+  {
+   "boundary": 163,
+   "kind": "orphan-head",
+   "k": 1,
+   "owner": "P",
+   "under": "L",
+   "frag": "sitting"
+  },
+  {
+   "boundary": 150,
+   "kind": "head",
+   "k": 4,
+   "owner": "P",
+   "under": "L",
+   "frag": "And then it's my"
+  },
+  {
+   "boundary": 186,
+   "kind": "head",
+   "k": 3,
+   "owner": "L",
+   "under": "C",
+   "frag": "It's low. You"
+  },
+  {
+   "boundary": 0,
+   "kind": "head",
+   "k": 2,
+   "owner": "P",
+   "under": "C",
+   "frag": "I can"
+  },
+  {
+   "boundary": 89,
+   "kind": "head",
+   "k": 3,
+   "owner": "L",
+   "under": "C",
+   "frag": "Every case that's"
+  },
+  {
+   "boundary": 171,
+   "kind": "head",
+   "k": 3,
+   "owner": "P",
+   "under": "C",
+   "frag": "If I ask"
+  },
+  {
+   "boundary": 242,
+   "kind": "tail",
+   "k": 3,
+   "owner": "P",
+   "under": "C",
+   "frag": "on the twelfth."
+  },
+  {
+   "boundary": 176,
+   "kind": "head",
+   "k": 1,
+   "owner": "P",
+   "under": "L",
+   "frag": "room."
+  },
+  {
+   "boundary": 154,
+   "kind": "tail",
+   "k": 2,
+   "owner": "L",
+   "under": "C",
+   "frag": "counts them."
+  },
+  {
+   "boundary": 108,
+   "kind": "tail",
+   "k": 3,
+   "owner": "L",
+   "under": "C",
+   "frag": "That's the thirty-one."
+  },
+  {
+   "boundary": 146,
+   "kind": "tail",
+   "k": 3,
+   "owner": "L",
+   "under": "C",
+   "frag": "a sticky note."
+  },
+  {
+   "boundary": 62,
+   "kind": "tail",
+   "k": 2,
+   "owner": "P",
+   "under": "C",
+   "frag": "in between."
+  },
+  {
+   "boundary": 21,
+   "kind": "tail",
+   "k": 3,
+   "owner": "P",
+   "under": "C",
+   "frag": "send it back."
+  },
+  {
+   "boundary": 240,
+   "kind": "tail",
+   "k": 2,
+   "owner": "L",
+   "under": "C",
+   "frag": "tech does."
+  },
+  {
+   "boundary": 183,
+   "kind": "tail",
+   "k": 3,
+   "owner": "P",
+   "under": "C",
+   "frag": "cross with me."
+  },
+  {
+   "boundary": 189,
+   "kind": "tail",
+   "k": 3,
+   "owner": "L",
+   "under": "C",
+   "frag": "we can count."
+  },
+  {
+   "boundary": 38,
+   "kind": "head",
+   "k": 3,
+   "owner": "P",
+   "under": "C",
+   "frag": "That's exactly how"
+  },
+  {
+   "boundary": 145,
+   "kind": "head",
+   "k": 3,
+   "owner": "L",
+   "under": "C",
+   "frag": "A hold is"
+  },
+  {
+   "boundary": 155,
+   "kind": "orphan-head",
+   "k": 2,
+   "owner": "L",
+   "under": "C",
+   "frag": "Last month."
+  },
+  {
+   "boundary": 239,
+   "kind": "head",
+   "k": 3,
+   "owner": "L",
+   "under": "C",
+   "frag": "Colour. If the"
+  },
+  {
+   "boundary": 79,
+   "kind": "head",
+   "k": 4,
+   "owner": "L",
+   "under": "C",
+   "frag": "QC is me, or"
+  },
+  {
+   "boundary": 1,
+   "kind": "tail",
+   "k": 6,
+   "owner": "P",
+   "under": "C",
+   "frag": "the door. Liesl's just coming in."
+  },
+  {
+   "boundary": 93,
+   "kind": "tail",
+   "k": 2,
+   "owner": "P",
+   "under": "C",
+   "frag": "from us."
+  },
+  {
+   "boundary": 44,
+   "kind": "head",
+   "k": 3,
+   "owner": "L",
+   "under": "C",
+   "frag": "Okay. So a"
+  },
+  {
+   "boundary": 138,
+   "kind": "orphan-head",
+   "k": 2,
+   "owner": "P",
+   "under": "C",
+   "frag": "Not without"
+  },
+  {
+   "boundary": 164,
+   "kind": "tail",
+   "k": 2,
+   "owner": "P",
+   "under": "C",
+   "frag": "hears from."
+  },
+  {
+   "boundary": 52,
+   "kind": "tail",
+   "k": 2,
+   "owner": "L",
+   "under": "C",
+   "frag": "a scan."
+  },
+  {
+   "boundary": 104,
+   "kind": "head",
+   "k": 3,
+   "owner": "L",
+   "under": "C",
+   "frag": "A repair I"
+  },
+  {
+   "boundary": 13,
+   "kind": "head",
+   "k": 5,
+   "owner": "P",
+   "under": "C",
+   "frag": "Sure. We're a full-service dental"
+  },
+  {
+   "boundary": 78,
+   "kind": "tail",
+   "k": 2,
+   "owner": "P",
+   "under": "C",
+   "frag": "any report."
+  },
+  {
+   "boundary": 81,
+   "kind": "head",
+   "k": 5,
+   "owner": "L",
+   "under": "C",
+   "frag": "It goes back to whoever"
+  },
+  {
+   "boundary": 162,
+   "kind": "head",
+   "k": 3,
+   "owner": "L",
+   "under": "C",
+   "frag": "The tech, because"
+  },
+  {
+   "boundary": 8,
+   "kind": "head",
+   "k": 5,
+   "owner": "P",
+   "under": "M",
+   "frag": "Good. Because that's the bit"
+  },
+  {
+   "boundary": 65,
+   "kind": "orphan-head",
+   "k": 2,
+   "owner": "P",
+   "under": "C",
+   "frag": "And what"
+  },
+  {
+   "boundary": 55,
+   "kind": "head",
+   "k": 3,
+   "owner": "L",
+   "under": "C",
+   "frag": "Because the pan"
+  },
+  {
+   "boundary": 9,
+   "kind": "tail",
+   "k": 4,
+   "owner": "P",
+   "under": "C",
+   "frag": "ask me about, so."
+  },
+  {
+   "boundary": 2,
+   "kind": "head",
+   "k": 5,
+   "owner": "P",
+   "under": "C",
+   "frag": "Okay. We're here. Liesl's in"
+  },
+  {
+   "boundary": 87,
+   "kind": "head",
+   "k": 3,
+   "owner": "L",
+   "under": "C",
+   "frag": "Same thing but"
+  },
+  {
+   "boundary": 175,
+   "kind": "head",
+   "k": 3,
+   "owner": "L",
+   "under": "C",
+   "frag": "We tried a"
+  },
+  {
+   "boundary": 241,
+   "kind": "head",
+   "k": 3,
+   "owner": "P",
+   "under": "C",
+   "frag": "No. Just don't"
+  },
+  {
+   "boundary": 102,
+   "kind": "head",
+   "k": 6,
+   "owner": "L",
+   "under": "C",
+   "frag": "It comes to my bench first."
+  },
+  {
+   "boundary": 63,
+   "kind": "head",
+   "k": 3,
+   "owner": "P",
+   "under": "C",
+   "frag": "Nobody updates it."
+  },
+  {
+   "boundary": 188,
+   "kind": "head",
+   "k": 3,
+   "owner": "L",
+   "under": "C",
+   "frag": "Or the bumping."
+  },
+  {
+   "boundary": 158,
+   "kind": "head",
+   "k": 4,
+   "owner": "L",
+   "under": "C",
+   "frag": "Honestly, I don't know."
+  },
+  {
+   "boundary": 96,
+   "kind": "tail",
+   "k": 6,
+   "owner": "L",
+   "under": "C",
+   "frag": "but you said you'd come back."
+  },
+  {
+   "boundary": 60,
+   "kind": "orphan-head",
+   "k": 2,
+   "owner": "L",
+   "under": "C",
+   "frag": "Everybody writes"
+  },
+  {
+   "boundary": 27,
+   "kind": "tail",
+   "k": 2,
+   "owner": "P",
+   "under": "M",
+   "frag": "she pretends."
+  }
+ ]
+}

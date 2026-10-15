@@ -1,0 +1,56 @@
+{
+  "goals": [
+    {
+      "id": "G1",
+      "goal": "Keep the county at the January renewal: ten business days, status they can see",
+      "quote": "Ten business days from receipt to report, with a status they can see.",
+      "location": "14:16:59 Sigrid Thorvaldsen (VP Operations, parent group)",
+      "speaker_role": "VP Operations, parent group (client; approver)",
+      "pains": ["P1.1", "P2"]
+    },
+    {
+      "id": "G2",
+      "goal": "Get in the running for the county's south district, the bigger prize",
+      "quote": "But the bigger one is the second district.",
+      "location": "14:29:45 Sigrid Thorvaldsen (VP Operations, parent group)",
+      "speaker_role": "VP Operations, parent group (client; approver)",
+      "pains": ["P2"]
+    },
+    {
+      "id": "G3",
+      "goal": "One screen with every batch due this week, across all three labs, without asking Ronan",
+      "quote": "One screen where I can see every batch that's due this week, across all three labs, without asking Ronan.",
+      "location": "14:31:01 Sigrid Thorvaldsen (VP Operations, parent group)",
+      "speaker_role": "VP Operations, parent group (client; approver)",
+      "pains": ["P1.2", "P1.3"]
+    },
+    {
+      "id": "G4",
+      "goal": "Zero hold-time misses on anything that came through the door in time",
+      "quote": "Zero hold-time misses on anything that came through our door in time.",
+      "location": "14:31:31 Matthias Okonkwo-Reyes (Laboratory Director)",
+      "speaker_role": "Laboratory Director (client; influencer, runs it day to day)",
+      "pains": ["P1.1", "P1.2", "P1.3"]
+    }
+  ],
+  "assumption_kinds": [
+    "leaning",
+    "leaning",
+    "automation-condition",
+    "leaning",
+    "gap",
+    "leaning",
+    "board-architecture",
+    "gap",
+    "gap",
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "gap",
+    "board-architecture",
+    "gap",
+    "gap"
+  ],
+  "note_add": null
+}

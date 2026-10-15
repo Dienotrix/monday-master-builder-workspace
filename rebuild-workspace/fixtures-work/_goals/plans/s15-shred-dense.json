@@ -1,0 +1,45 @@
+{
+  "goals": [
+    {
+      "id": "G1",
+      "goal": "Phone goes, one screen shows the job and when it's out, answer and hang up",
+      "quote": "Phone goes, I open one screen, I see the job, I see it says out Thursday, I say Thursday, I hang up.",
+      "location": "L342, 22:18, Oisin Farrelly",
+      "speaker_role": "client services lead (client; end user)",
+      "pains": ["P1.1", "P1.2", "P1.4"]
+    },
+    {
+      "id": "G2",
+      "goal": "A Monday view of the retail account's turnaround, without a spreadsheet and without her",
+      "quote": "And I open something on a Monday morning that shows me the retail account's turnaround for last week without a spreadsheet and without me.",
+      "location": "L347, 22:36, Tamsin",
+      "speaker_role": "operations director (client; approver for the operations budget)",
+      "pains": ["P3.1", "P3.2"]
+    },
+    {
+      "id": "G3",
+      "goal": "The retail account renews in February with the audit finding closed",
+      "quote": "The retail account renews in February with that audit finding closed.",
+      "location": "L350, 22:52, Tamsin",
+      "speaker_role": "operations director (client; approver for the operations budget), her read of the MD's win, not his words",
+      "pains": ["P1.1", "P1.4"]
+    }
+  ],
+  "assumption_kinds": [
+    "leaning",
+    "leaning",
+    "gap",
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "gap",
+    "gap",
+    "gap",
+    "board-architecture",
+    "gap",
+    "leaning"
+  ],
+  "note_add": null
+}

@@ -1,0 +1,257 @@
+[00:03] Consultant
+Hi Anjali, hi. I can see you. Can you hear me all right?
+
+[00:11] Anjali Venkataraman
+We can hear you. Hattie's here with me in the small meeting room, and Desmond is coming up from the loading dock, he's on his way.
+
+[00:24] Consultant
+No rush at all. Hattie, nice to meet you properly. Anjali's mentioned you a lot.
+
+[00:33] Hattie Szabo
+All good things, I hope. [laughs] She came back from last week saying I'd finally get to see what she's been going on about.
+
+[00:45] Consultant
+Ha. No pressure, then. How's the season winding down?
+
+[00:52] Anjali Venkataraman
+It isn't. That's the short answer. Two weddings and a corporate thing this Saturday, and the corporate thing changed venue on Monday, so Desmond has been -- oh, here he is.
+
+[01:10] Desmond Farrow
+Sorry. Sorry. Truck three came back with the wrong pallets and I had to [inaudible] before I could leave the floor. Hi. Desmond.
+
+[01:22] Consultant
+Hi Desmond, thanks for coming up. No apology needed, that sounds like exactly the kind of thing we're here to talk about. Are you all right where you are, can you see the screen in the room?
+
+[01:37] Desmond Farrow
+I can see it. It's a small screen but I can see it.
+
+[01:45] Anjali Venkataraman
+Lean in, Des.
+
+[01:49] Consultant
+Okay. So. Let me -- let me say how I'd like to use the time, and you tell me if it's wrong. Anjali saw a first version of this last Wednesday, just the two of us, and she gave me a list of things that were off, some of which I've changed and some of which I haven't. Desmond, Hattie, you haven't seen any of it. So the plan is I take the two of you through what Anjali saw, so you know what's on the screen and what the words mean, and then we go pain by pain, the four things you told me about two weeks ago, and you tell me where it's wrong. I'll warn you now, I'm going to do too much talking at the start, because there's a lot of screen to explain and only one of me, and then I stop and the second half is yours. I would much rather hear that it's wrong today than in March. We've got until the top of the hour, is that still right?
+
+[03:00] Anjali Venkataraman
+The hour is right. And that plan works for me. Hattie?
+
+[03:07] Hattie Szabo
+Works for me. I'll interrupt.
+
+[03:12] Consultant
+Please do. That's the whole point of today. Two things before I share. Everything you're about to see is sample data. I made it up. The clients are made up, the orders are made up, the money is made up, so if a number on the screen looks wrong, it's because I invented it, not because I've got your figures from somewhere. Where I've used a real name, like Ferenc, it's because Anjali said it and I needed a crew lead with a name on the board, so nothing on the screen is a fact about Ferenc or about anyone else in this room. And it lives in a demo account of mine, not in anything of yours, because you don't have an account yet. When there is one, this gets rebuilt in it, properly, not copied across. Okay. Sharing now. Can everyone see my screen?
+
+[04:12] Anjali Venkataraman
+We see it.
+
+[04:16] Desmond Farrow
+Yep.
+
+[04:19] Consultant
+Okay. So. This is the workspace. One workspace, called Quillhaven v0.1, and everything I'm about to show you lives inside it. Down the left-hand side you've got the boards, six of them, and I'll go top to bottom once, quickly, and then when we go pain by pain I'll come back to the ones that matter for each of you and go slowly. The top one is Quotes. This is Hattie's world. Every row is a quote, one row per quote, and the columns across the top are what a quote needs: the client, which is a link to the Clients board underneath, the event date, the venue, the salesperson, which is going to be, well, mostly it'll be -- anyway. The value, and the stage, which is this coloured column here. Right now the stages say New, Qualified, Proposal, Negotiation, Won and Lost, and I'll say straight away that those are the words that came with the board, not your words. Anjali told me last week they're wrong and I haven't changed them yet, on purpose, because I wanted Hattie to give me the right ones rather than me guessing twice. Underneath every quote there are the lines. So if I open this one, the Halloran wedding, and that's a made-up wedding, there they are: two hundred and forty chairs, twelve round tables, the ten-by-twenty tent, eight dance floor sections, the lighting package, and every line has a quantity and a unit price and a line total, and this one comes to fourteen thousand two hundred and fifty dollars, which I typed in myself, so don't read anything into it. The point of the lines is that they don't stay on the quote. When the stage moves to accepted, and I'll show you this properly in a minute, the same lines show up on the event, and the event is what the warehouse works from. So the thing Hattie types once is the thing Desmond picks from. That's the whole idea of this first board, and honestly everything else in here hangs off it. Now the -- where's it gone. Now the Clients board. Sorry, wrong tab, that's the filter. There. One row per client organisation. So Brightwater Country Club is a client, that's a made-up club, and I've given them forty thousand dollars of orders this year, again made up, and every quote and every event for them shows up on their row, so if Hattie wants to know what Brightwater has had from you this year it's one click, not a search through the spreadsheet and then a search through the email. Venues are on here too, as a type of client, because a venue sends you work even when it isn't the one paying you, and I want the venue on the event without anyone typing the name a second time. There's a type column, so a row is a private client, a company, or a venue, and you can filter the whole board down to venues in one click when it's the venues you want to ring. Third board, Events. Hang on, can you still see this? Desmond? The small screen. Okay. Events. This is the one Anjali liked most last week, so I'll go a bit slower. One row per event. The Halloran wedding again, Saturday the twelfth, Brightwater as the venue, and the columns are the event date, the delivery window, the pickup window, the crew lead, the truck, and the status, which goes Booked, Picked, Delivered, Collected, Counted in, Closed. Under each event there are two kinds of thing. There are the lines, the same lines from the quote, so the two hundred and forty chairs are here and nobody retyped them, and there are what I've called movements, which is my word, not yours, and you'll tell me the right one. A movement is a truck going somewhere. So this event has a delivery on the Friday afternoon and a pickup on the Sunday morning, and each one has a truck, a crew lead and a window. Say Ferenc's crew is on the Halloran wedding. That's Ferenc on the Friday delivery, Ferenc on the Sunday pickup, truck three both times. And if the venue changes on the Monday, like your corporate thing did, you change it on the event and the movements follow, you don't chase three pieces of paper. Now, the fourth board is the one I built for Desmond, and Desmond, I built it before I'd met you, so it's going to be wrong in ways that only you can see, and I want you to say so. It's called Crew schedule. One row per movement, so it's the same movements from the events, just all of them in one place, every event, every truck, every crew lead, laid out across the week, Friday to Monday. And then this view, hang on, it's under here somewhere, this one, the workload view, which is the one I actually want you to look at. Every crew lead down the side, the days across the top, and it shows you how many movements each person has on each day, and it goes red when someone is on two things at once. In the sample data I've put Ferenc on two deliveries on the Saturday morning, on purpose, so you can see what red looks like. And let's pretend Desmond is out that Thursday, sick, and nobody's built the board, and it's Friday morning, and the question is, who knows Ferenc is double-booked? On the whiteboard, nobody. Here, it's red before anyone has looked at it. That's the one-sentence version of this board. The same view can be turned round so it's trucks down the side instead of people, and I'll show you that when we get there because I have a feeling that's the one you actually want. Um. Fifth board, Count-in. This is for after the event. When a truck comes back and the crew count the chairs off, every line from the event is here with what went out and what came back, and there's a status per line, Complete, Short, Damaged, and if anything's short or damaged there's a box for the note and a box for a photo. So in the story, the Halloran wedding comes back eight chairs short and two with cigarette burns, and the crew lead marks eight short and two damaged, and that's it, their job is done, they go home.
+
+[10:39] Desmond Farrow
+Sorry. Hang on. Who's marking that? In the story. Who's actually typing it in?
+
+[10:45] Consultant
+The crew lead. On a phone, at the dock, in the story. I'll show you that properly when we get to Hattie's charges, because it's the bit I most want you to pull apart, so hold the thought. Where was I. Short, damaged. Yes. The second it's marked, and this is the first of the two automatic things I've built, sales get told. Hattie gets a notification, by name, saying this event came back short, here's the count, here's the photo, and she can raise the charge while the client still remembers the event happened. And the second automatic thing is on the Quotes board. When a quote goes to accepted, the warehouse gets told, Desmond by name, so the event lands in front of him without Hattie walking down to the loading dock with a printout. Last thing. The Weekend view. This is a dashboard, which is just a page that reads from the boards and shows you a few things at once, and I built it for the Thursday meeting. It shows this weekend's events, the trucks and who's on them, anything that's gone red, and, down at the bottom, the value of the weekend's events, which is the money widget, and Anjali's already told me she's not sure about that one. In the story it says sixty-one thousand for the weekend, and again, invented, I typed those quotes in. So in the story, if you like, Hattie has just lost the Ashcombe Mutual summer party because the chairs she quoted were already on the Halloran wedding, and that's the Saturday the twelfth problem, and this page is how you would have seen it coming on the Thursday instead of the Saturday. Two things I have not built, and I want to say so before you ask. Nothing connects to your accounting. Bram's invoices don't come out of this, the count-in just tells Hattie what to charge for, and then she does whatever she does today. And the count-in doesn't talk to any scanner, it's a person typing a number on a screen. And nothing here is on a phone yet. It's all on this screen, and I know that's going to be the first thing Desmond says, and he'll be right. So that's the tour. Six things: quotes, clients, events, crew, count-in, and the weekend page. Two automatic notifications. All sample data, in my account and not yours. Questions before we go pain by pain? Hattie, you said you'd interrupt, and you didn't.
+
+[13:12] Hattie Szabo
+No, I -- I didn't want to, actually. I was waiting for the quotes bit to come back round. Can we start there?
+
+[13:22] Consultant
+We can, and I was going to. So, Hattie. Let me just get -- no, that's the event, I want the quote. There. On our first call, two weeks ago, you said that when a quote gets accepted somebody re-types the whole thing onto the pick sheet, and things fall off, and the example was a dance floor that never got loaded because it was on page two of the quote and page two didn't get typed. Here's the accepted quote. Same one, the Halloran one. I'm going to move the stage to accepted. There. Now if I go over to Events, there's the event, and here are the lines, and every line that was on the quote is on the event, page two included, because there isn't a page two, there's just the list. Desmond's pick list is this list. He can print it from here if the crew want paper on the truck, and it's the same list, not a copy of a copy. Nobody re-types it, and if Hattie changes the quote before the event, say they add twenty chairs on the Wednesday, the event changes with it and the change is dated, so Desmond can see it moved and when, and who moved it. And the quote itself doesn't go anywhere, it's still on the Quotes board with accepted on it, so if the client rings and says what did we agree, Hattie opens the quote and it's the thing they agreed, not the thing the warehouse loaded. One more thing on this screen before I ask you, because it's the bit Anjali asked about last week. The lines on the quote are the lines on the event, but they're not two copies that happen to match. It's one set of lines that both boards look at, so there is no moment where somebody has to remember to update the second one, because there is no second one. If you delete a line on the quote it goes from the event, which is right up until the day before the event and probably wrong on the day, and that's a rule we'd set, not something I've decided. And the print, when the crew want paper, comes out with the event name and the date and the venue at the top and the lines in the order Hattie typed them, not alphabetical, because Anjali said the crew load in the order the quote was written and I believed her. How close is that to what you had in mind?
+
+[16:30] Hattie Szabo
+That's the dance floor. That's the missing dance floor.
+
+[16:36] Consultant
+That's the dance floor, yes. The line on the quote is the line on the pick list, and nobody types it twice. Good. What about it is off?
+
+[16:50] Hattie Szabo
+The statuses. We don't say negotiation. A quote is draft, sent, sent back if they want changes, accepted, or dead. And dead is not the same as lost, sometimes the event just doesn't happen.
+
+[17:07] Consultant
+Draft, sent, sent back, accepted, dead. And dead isn't lost. Let me add sent back right now while we're here, because it's the one you'll use most, and I'll do the rest tonight so you don't have to watch me type. There. Sent back. That one's kept, I won't take it back out. The other four I'll rename tonight.
+
+[17:33] Hattie Szabo
+Can it text the crew leads when a quote's accepted? Because Ferenc doesn't read email. None of them read email.
+
+[17:44] Consultant
+It can notify them in the mobile app, and I believe it can send a text as well, but I'd want to check the text part before I promise it, because I've seen that depend on the plan. Let me write that down. Text to crew leads, check before promising.
+
+[18:06] Desmond Farrow
+Their phones are the problem, not the app. Half of them have got cracked screens and no data on the weekend.
+
+[18:17] Consultant
+Understood, and I'm not going to pretend an app fixes a cracked screen. What I can say is that the notification and the board both work on a phone, the same as here, and the crew lead only needs to see one thing on it, which is where they're going and what's on the truck. They don't need the whole workspace, and they shouldn't have it. Whether that's their phone or a phone you give them, and whether it's one login per crew lead or one phone that lives in the truck, is a question for Anjali, not for me, and it's on the list. Let me keep going and come back to it.
+
+[19:05] Anjali Venkataraman
+We'll pay for phones if it works. Keep going.
+
+[19:11] Consultant
+Okay. Anjali, on the first call you said sales can't see what's already committed, so Hattie quotes chairs that are already promised to somebody else, and nobody finds out until the Thursday, and by then both clients have a contract. So. Events board, and, where is it, this column, which I've called Committed. For every item, and the items here are the lines, the same lines, I said this on the quote, the quote's lines are the event's lines, it's one set, so I won't say it a third time -- for every item, it adds up what's on every event that weekend. Chairs, tables, tents, dance floor. It's not a stock system, I want to be clear about that, it doesn't know what's on the shelf, it knows what's on the events, which is the number you actually care about on a Thursday. You tell it once how many of each thing you own, and that's a number on the item, and the column does the subtraction. And then on the Quotes board, when Hattie is putting a line on a quote, this column next to it says how many of that thing are already out on that date. So before Hattie quotes two hundred chairs for a Saturday, she can see that a hundred and sixty are already on the Halloran wedding, and if you've got three hundred chairs in the warehouse, that's the arithmetic, done for her, on the quote, before it's sent. It doesn't stop her quoting. It just tells her. If she wants to quote them anyway, because the Halloran wedding might fall through, she can, and the line goes amber rather than red, so the Thursday meeting sees it as a thing to watch rather than a thing that's broken. Let me show you where the owned number lives, because it's the thing you'd have to keep honest and I don't want to hide it. There's a small board underneath all of this called Items, and it's just a list, one row per thing you hire out, with the name, how many you own, and the replacement cost, and that's where the three hundred chairs would sit as a number somebody typed. When a chair gets written off, somebody changes that number, and if nobody changes it the committed column is quietly wrong, which is the same as today except today it isn't a column, it's Hattie's memory. So I'd want that to be Desmond's number, kept after the count-in, and I'll come to the count-in in a minute. And the date it looks at is the event date, not the delivery date, so a Friday delivery for a Saturday wedding counts against the Saturday, which is what you'd expect, but a tent that goes up on the Thursday for a Saturday counts against the Thursday and the Friday as well, because it's out, and that's the piece I've only half built, the turnaround, and I'll be honest that it's half built. What I can show you is the number. What I can't show you yet is the tent being counted as gone from the Thursday to the Monday. That's on my list and it was on it before today.
+
+[22:46] Anjali Venkataraman
+So Hattie would see the chairs are gone before she quotes them.
+
+[22:53] Consultant
+It can also show you the trucks the same way, so if I flip over to the crew board, hang on, it's -- there, and turn the workload view round, trucks down the side, and now it's truck one, truck two, truck three across the weekend, and a truck goes red the same way a person does, two places at once. And it can also do the tents, which are the thing with the real lead time, because the ten-by-twenty has to come down on the Sunday before it can go up on the Monday, and you can put a turnaround on it so that a Sunday pickup and a Monday delivery of the same tent show as a conflict rather than as two separate movements that happen to be a day apart. And it can also do the delivery windows, so if a venue only lets you in between eight and ten, that's on the event, and a movement outside the window goes amber. And you can get all of that on the weekend page, so the Thursday meeting is looking at one screen that says here's what's committed, here's what's red, here's what's tight, and nobody is reading it off four magnets and a printout. And it can also go the other way, from the item to the events, so if you click on the ten-by-twenty on the Items board it shows you every event it's on for the next month, in date order, with the venue and the crew lead, which is the question you actually ask on a Tuesday when somebody rings up wanting the big tent, is it free on the twenty-fourth. And it can also do that as a calendar, the same information laid out as a month, one colour per item if you want, so you can see the tent is solid every Saturday in June and free every Saturday in November without reading a list. I haven't built the calendar, I'm describing it, so treat it as a thing it can do rather than a thing you've seen. And it can also carry a note on the item, so if the second ten-by-twenty has the patched panel and you don't send it to the golf club, that's on the item where Desmond sees it when he's picking, not in Desmond's head. Okay. That's the committed piece. I'm aware I've been going for a while.
+
+[25:16] Hattie Szabo
+Hmm.
+
+[25:19] Consultant
+Say the hmm.
+
+[25:23] Hattie Szabo
+It's not the chairs, mostly. We have chairs. It's the ten-by-twenty tent. There are two of them. And the dance floor sections. That's what gets double-quoted, the things there are two of.
+
+[25:39] Consultant
+Right. So -- so what I'd do with that is, um, I'd put a flag on the tent, a sort of warning on the tent rows, so when the ten-by-twenty goes on a quote it -- no. Hang on. That's the same column wearing a different hat.
+
+[25:55] Hattie Szabo
+I don't want a warning. I want to know which wedding the tent's already on. The tent and the floor. Not the chairs.
+
+[26:03] Consultant
+Then those are the items that get the committed column first, and chairs can wait. The two tents and the dance floor sections, and anything else there's only one or two of, which you'll know and I won't. That's a better version than the one I built, because it's smaller. I'll list it that way tonight.
+
+[26:22] Anjali Venkataraman
+Fine. Do the crew board. That's the one Des needs to see.
+
+[26:26] Consultant
+Crew board. Desmond, two weeks ago Anjali described your Thursday to me second-hand: the whiteboard by the dispatch door, the magnets, the marker, the crew leads coming in at seven and telling you what's wrong with it. I built this from her description, so it's her Thursday, not yours. One row per movement, that's a truck going somewhere with a crew lead on it. Friday through Monday across the top. Each row has the event, the truck, the crew lead, the window, and a status that goes from, um, planned to on the road to done, which the crew lead flips from the phone, so the office can see where the trucks are without ringing anyone. The rows come from the events, so when Hattie's quote goes to accepted and the event appears, the movements appear under it with the date and the venue already on them and the truck and the crew lead empty, and the empty ones are what you'd fill in on a Thursday, and until they're filled in they show up in a group at the top called Unassigned so nothing hides. Then there's a view for the office and a view for the crew, and the crew one is just today, just their truck, and nothing else, because the last thing a crew lead wants at six in the morning is -- well. Nothing else. And the workload view, which is people down the side, and it goes red when someone's in two places. Before I show you the red bit, I want to hear Thursday from you, not from Anjali, because I've only got it second-hand and I'd rather build the second version from the person who stands at the whiteboard.
+
+[28:05] Anjali Venkataraman
+This is the Thursday board. Des, this is the whiteboard, look. It's the whiteboard with the magnets, except it's already filled in when you walk in. I said this last week and I'll say it again now that Des is in the room, because the Thursday board is the thing I lie awake about, not the quotes. Hattie will kill me for saying that but it's true. If a quote goes wrong we lose a margin. If the Thursday board goes wrong we lose a wedding, and then we lose the venue, and a venue is worth thirty weddings. That's the arithmetic Gerald does, not me, but he's right. Sorry. Go on, you were going to ask him. Desmond, before I show you the red bit, walk me through what Thursday looks like now, today, this week, not the version Anjali gave me. Start from when you come in. What goes wrong first? Um. Okay. So Thursday, I get in at six, and the first thing I do is print the week's events off Hattie's spreadsheet, the one Tanvi keeps, because the spreadsheet is the only place the events are. Then I stand at the whiteboard, which is the big one by the dispatch door, and I put a magnet for every truck on every day, Friday through Monday, and I write the event on the magnet in marker, and then I put a name under each one, which is the crew lead. Four trucks, four days, so sixteen magnets on a normal week, and more if something's got two trips, and a lot more in June. Then I go through the events one by one and check the venue's still the venue, because it moves, and check the tent's not on two of them, because there's two tents and everyone wants the big one. And then the crew leads come in at seven and they all stand there with their coffee and they all tell me what's wrong with it. Ferenc's got a christening on the Sunday so he can't do the Sunday pickup. Ade doesn't drive truck three because of the clutch. The golf club wants the tent down by eight on the Monday, not ten, because they've got a competition. That kind of thing. So I rub it out and do it again. And then somebody texts me at nine to say the venue's changed, and I do it again, and I take a photo of it on my phone and send it to the crew leads, and then I change it again and the photo's wrong. And that's -- that's four hours, honestly. Sometimes the whole afternoon, if a venue's moved. The corporate thing this Saturday moved venue on Monday and I've done the board three times this week already and it's Wednesday. Mm-hm. What goes wrong first is somebody moves a magnet and nobody moves the other magnet. That's the June one. The Saturday in June, we had Ferenc on the Whitcombe wedding at eleven and on the golf club at eleven, forty minutes apart, because I'd moved him on the Thursday and the printout in truck three still had him on both, and nobody caught it until the golf club rang at half eleven asking where their tent was. We got a tent there by two. They didn't book us for the autumn. Anjali's right about the trucks, by the way. It's not the people so much, I can always find a person, I can ring my brother-in-law. I can't find a truck. There are four trucks and on a Saturday in June I need five. That view, though. The red. That's the Saturday. That's exactly the Saturday, it would have been red on the Thursday, and I would have seen it standing at the board instead of hearing it from the golf club. Right. So -- that's the version I needed, and it's not the one I built from, because the thing that moves isn't the person, it's the truck, and I'll come back to that. Anjali, you told me two weeks ago the whiteboard has to be gone before Larchmere Hall starts. Is what Desmond has just described the thing that goes? Yes. Yes, that's the thing. The whiteboard goes. Gerald walked past it in August and said it's the reason we can't take the Larchmere contract, and he's not wrong, we can't run fourteen weekends of a convention venue off a whiteboard and a spreadsheet that Tanvi updates on her phone in the car park. And it's not Des's fault, I want that on the record, he's doing it the only way there is to do it. Des, be honest, you'd actually use this? On a Thursday? With the crew leads standing there? If it's on my phone and it's on Ferenc's phone, yes. If it's on a screen in the office, it's another screen in the office, and I'm on the floor, not in the office. And I'd want it by truck, not by name. But yes. I'd use it. It's the first thing anyone's shown me that looks like the board instead of looking like a spreadsheet. He'll use it. That's a yes, write that down. Sorry, go on with the red bit, I've hijacked your demo.
+
+[34:24] Consultant
+You haven't, that was the best six minutes of it. Okay. So here's the red bit, and Desmond, you've already said the thing I was going to say, so I'll be quick. Workload view, people down the side. Ferenc, Saturday, two deliveries at the same time, red. Now, trucks down the side. Truck three, Saturday, two places, red. And that's the Saturday in June, on a Thursday, without anyone having to notice it. If I click into the red, it tells me which two events, and I can move one of them to truck two right here, and the event updates, and the crew lead on that event gets the notification that their truck changed, and the photo you send them at nine becomes a thing they open on the phone instead. And on the Monday, the golf club wanting it down by eight, that's the pickup window on the movement, and if a pickup window and a delivery window for the same truck overlap, that goes red as well. So it's not just people in two places. It's a truck that can't physically get from one to the other in time. And the christening, Ferenc not being there on the Sunday, that's a thing you'd put on Ferenc once, an unavailable day, and then any Sunday movement with Ferenc on it goes red too, before you've walked to the board, so the crew leads telling you what's wrong at seven becomes the crew leads telling the board what's wrong on the Wednesday from their phone, and you arrive to a board that already knows. The clutch, Ade and truck three, I don't have a good answer for yet, because that's a rule about a person and a truck rather than a person and a day, and I could fake it with a note but I'd rather not show you something that's a note pretending to be a rule. And the venue moving on the Monday, when it moves you change it on the event, once, and every movement under it changes with it, and the crew leads on those movements get told, and nobody takes a photo of anything. That's the part I built after Anjali's description and I'd like you to tell me if it's the right part.
+
+[37:02] Desmond Farrow
+Group it by truck. Not by crew lead. The truck is the thing that can't be in two places. Ferenc can drive two trucks in one day. Truck three can't be at two weddings.
+
+[37:17] Consultant
+By truck, not by crew lead. That's a real change and it's a good one, and it's the opposite of how I built it, so let me say back what I think you mean. The board's rows are grouped by truck, truck one, truck two, truck three, truck four, and each movement sits under its truck, and the crew lead is a column on the row rather than the thing the row belongs to. And the workload view is trucks by default, and people is the second view, for the days when it's a person that's the problem. Is that it?
+
+[37:56] Desmond Farrow
+That's it. And the scanner. We've got a handheld scanner thing from the old rental software. It still works. Can this read those?
+
+[38:08] Consultant
+I'd want to check that before I promise it. I genuinely don't know what that scanner talks to, and I'm not going to guess in front of you. Give me until Friday and I'll tell you yes, no, or what it would take. And if it's no, the count-in is a person typing a number, which is what I showed you, and that still works, it's just slower.
+
+[38:37] Desmond Farrow
+Friday's fine.
+
+[38:41] Anjali Venkataraman
+Write that down, Des. [laughs] He won't.
+
+[38:46] Consultant
+I've got it, it's on my list, not his. Okay. Hattie, the last one is yours, and it's the one you were most annoyed about two weeks ago. You said the damage and shortage charges come off paper count sheets, the crew fill them in on the truck, sometimes, and by the time the sheet gets to you the client has paid the invoice and half the charges never get raised. So. Count-in board. Which is -- no, that's Items, sorry, they sit next to each other. Count-in. Every event that's come back has a row, and under it every line from the event, what went out, what came back. The crew lead does this on the truck or at the dock, on the phone, and it's three taps per line if nothing's wrong, because Complete is the default. If something's short, they tap Short and type the number. If it's damaged, Damaged, and there's the photo box, and the photo goes on the line. The whole event is counted in when every line has a status, and the event flips to Counted in on the Events board by itself, so the office can see which trucks have been counted and which haven't without walking out to the dock. And the moment any line is Short or Damaged, you get the notification, by name, with the event and the count. Not Bram. You. So the charge is raised by the person who quoted the job, the same day it came back, while the client still remembers the event. Let me do one so you can see how long it takes, because three taps is a claim until you've watched it. Here's the Halloran wedding, back on the Sunday night. Chairs, two hundred and forty out. I tap the line, I tap Short, I type eight, done. Round tables, twelve out, twelve back, I don't touch it, it's Complete already. Tent, one out, one back, don't touch it. Dance floor, eight sections, one damaged, I tap Damaged, I tap the camera, and if I had a phone in my hand the photo would go on right here, and on this screen I'll just drop a picture in from the desktop, there. So that's four lines and I touched two of them, and if Ferenc does that at the dock before he goes home it's under a minute for a wedding this size, and I'd rather he did it at the dock than on the truck, because on the truck it's the passenger doing it while the driver drives, and I don't want to build something that only works if someone types in a moving vehicle. And the sheet, the paper one, goes away, or stays as a backup for the week the phones don't work, and that's your call, not mine.
+
+[41:57] Hattie Szabo
+That's the chairs that come back with cigarette burns and nobody bills for them. We had eight from one wedding in August and I found the count sheet in the door pocket of truck two a fortnight later, after the client had paid. The sheets live in the trucks until somebody empties the trucks, and by then the invoice has gone and I'm not ringing a bride about eight chairs.
+
+[42:29] Consultant
+And it can also hold the photo, so when the client says the chair was already like that, you've got a picture from the count-in with the date on it, and it can also hold the outbound photo, if the crew take one at the dock before it goes, so you've got before and after on the same line. And you can put the charge amount on the line, so the shortage charge is on the count-in and Bram can see it when he does the invoice run instead of you emailing him a list. And it can also roll up, so at the end of the month you can see which venues send chairs back damaged and which don't, which is a conversation you might want to have with a venue rather than with a client. And it can also carry the replacement cost per item, so the charge is suggested rather than typed, and you change it if you want to be kind to a good client. And it can also give you a view that's just the open charges, everything that's short or damaged and hasn't been billed yet, oldest at the top, so the thing you're chasing is a list you open rather than a sheet you find in a door pocket, and when Bram raises it you tick it and it drops off. And it can also, if you want, make the crew lead's note required when a line is short, so you never get a Short with no reason on it. And it can also send the client the photo, in the sense that there's a link on the line you could paste into an email, though I'd want to think about whether you want that, because a photo of a burnt chair in a client's inbox is a decision, not a feature.
+
+[44:26] Desmond Farrow
+So the shortage goes to Hattie the same day. Not three weeks later when Bram does the invoices.
+
+[44:36] Consultant
+It can also go to Bram at the same time if you want it to, it's just a second name on the notification, and it can also go to Anjali if the charge is over some amount you pick, so the big ones get looked at before they go out. I'd start with Hattie only, because the point is that the person who knows the client raises the charge, and add people when you find you need them, not before. Fewer notifications is better. Every notification you add is one that gets ignored, and the one that gets ignored is always the one that mattered. And to be clear about what this doesn't do, because I said it at the start and it's worth saying again with the screen in front of you: it doesn't make the invoice. Bram makes the invoice wherever he makes it today, and what he gets from here is a list of what to put on it, with the photo if he wants it. Nothing here sends money anywhere or reads money from anywhere, and I'd rather it stayed that way for the first version, because connecting it to the accounts is the kind of thing that's a project on its own and I don't want it holding up the count-in.
+
+[46:10] Anjali Venkataraman
+Take the money widget off the weekend view. The crew don't need to see revenue, and Gerald doesn't want them to.
+
+[46:19] Consultant
+Off it comes. Um, I put it on because dashboards usually have a number at the bottom and I hadn't thought about who's standing in front of the screen on a Thursday, which is your crew leads, not your accountant. So the weekend page is events, trucks, who's on them, and what's red, and no money. And while I'm at it, the same rule wants applying to the Quotes board, because the value is on every row there and the crew shouldn't be on that board at all, so when we get to who sees what, the crew leads get the crew board and the count-in and nothing else, and that's a permissions question I'll bring answers to rather than guess at now. So that's the four. I'm going to stop sharing now, so we can talk without the screen in the way. There. Before we talk about what happens next, is there anything I've shown you that you'd actually use on a Saturday, Desmond? Not on a Thursday in the office. On a Saturday.
+
+[47:24] Desmond Farrow
+The truck one. If it's on the phone. I keep saying that.
+
+[47:34] Consultant
+You do, and you're right to keep saying it, and I've written it down three times now. So let me answer it properly instead of nodding. The way it -- so, the boards work on a phone through the mobile app, the same boards, and the crew lead would open the crew board and see their own truck for the day, the window, the venue, what's on the truck, and the count-in board to do the count when they get back. They would not see quotes, they would not see money, and they would not see the other trucks unless you want them to. What I don't know yet is how many of your crew leads need their own login for that, versus one login on a phone that lives in the truck, and that changes what it costs, so I'm not going to answer it today, and I'm not going to guess it either. It's on the list, with the phones. What I can promise is that nothing I've shown you only works on a big screen. What I should also say, because I'd rather say it now than have you find it in January, is that the phone version is the same boards but it isn't the same screen. The workload view, the red one, is a desktop thing, it's wide, and on a phone you get the list of your movements rather than the grid, which for a crew lead on a Saturday is what you want anyway, but for Desmond on a Thursday it means the red bit is something you look at on the office screen or a tablet, not on your phone in the car park. I haven't shown you the phone today because I'd be showing you my phone over a video call and you'd see nothing, so next time, at the yard, I'll put a phone in Desmond's hand with the crew board on it and you can tell me whether it's another screen in the office or not. That's a fairer test than me describing it.
+
+[49:58] Hattie Szabo
+What happens in October? Because we can't be learning a new thing in October. October's when everyone gets married.
+
+[50:09] Consultant
+Nothing goes live in October. That's the honest answer, and it would be the answer even if you hadn't asked. Nobody learns a new tool in the busiest month of the year, and if I suggested it you should show me the door. What happens between now and the end of the season is that I fix the things on today's list, and Gerald sees it, and we agree what the first real version is. Then the build happens in the quiet months, and the crew leads learn it in January when there's nothing to break, and you're running on it before the season starts. And learning it, for the crew leads, is a Thursday morning with a phone in their hand and Desmond beside them, not a training course, because the thing they have to do is open one board, look at one truck, and press one status, and if it takes longer than a coffee to learn then I've built it wrong and you should tell me. Hattie's side is more, because the quotes are more, and that's a couple of sessions with you and Tanvi in November when it's quiet, on your own quotes, not on made-up ones.
+
+[51:23] Anjali Venkataraman
+Before March. Larchmere Hall starts in March and Gerald has said the whiteboard has to be gone before then, so. Before March.
+
+[51:35] Consultant
+Before March, and that's the date I've had written down since our first call. It's the right date, and it's a real one, because it's a contract and not a wish. Working back from March, the crew learn it in January, so it has to be built and right by the end of December, so the version Gerald decides on has to be agreed in October or early November at the latest, with the quiet months for the build. That's tight but it isn't silly, and the thing that makes it silly is if the decision drifts into December. So, working back from it, the thing I need to understand is who has to say yes, and when. You've told me Gerald has an opinion about the whiteboard. Who else needs to see this before it's real? Is it Gerald?
+
+[52:38] Anjali Venkataraman
+Gerald. He signs anything over ten thousand and he'll want to see it, not read about it. He hasn't seen any of it. I've told him about it, which is not the same thing.
+
+[52:53] Consultant
+Not the same thing, no. And I'd rather he saw it with the changes from today in it than the version Desmond has just told me is grouped the wrong way round. So I don't want to show him this version. I want to show him the next one, with the trucks the right way up and Hattie's words on the statuses. Would he come to the next one?
+
+[53:20] Anjali Venkataraman
+If it's at the yard, yes. He won't do a video call. He won't do this.
+
+[53:29] Consultant
+Then we do it at the yard, and I'll bring a screen, or borrow yours. That's fine. I'd rather be in the room with him anyway, and he can stand at the whiteboard and look at the board next to it, which is the comparison that matters, and the one no video call can give him. And I'll keep it short for him. He doesn't need the tour I gave the two of you at the start, he needs the Thursday board next to the whiteboard and the count-in on a phone, and then he needs to ask his questions, and I'd rather he asked them of you three than of me, so if you can each have your own answer ready for why you'd use it, that's worth more than anything I say.
+
+[54:24] Hattie Szabo
+Can I ask the can-it-also question? Can it do the venue's contact? The coordinator at the venue? Because half my week is finding out who the coordinator is this time.
+
+[54:43] Consultant
+It can, and it's -- it's not built. The Clients board can hold people as well as organisations, so the venue is a client and the coordinator is a person attached to it, with their phone and their email and a note saying since when, and when they change you add the new one and the old one stays on the history. I didn't build it because nobody had asked for it two weeks ago, and I'd want to know how you keep it today before I build it, because if it's in Tanvi's phone then the first job is getting it out of Tanvi's phone, not building a board. And it's the kind of thing that looks like an afternoon and isn't, because the moment the coordinator is on the venue you want them on the event too, so the crew lead can ring them from the truck, and the moment they're on the event you want the crew lead to see the phone number and not the email, and every one of those is a small decision that's wrong if I make it without you. So it's a question, not a promise. Where do the coordinators live today?
+
+[56:00] Hattie Szabo
+Tanvi's phone. And mine. And a notebook.
+
+[56:06] Consultant
+Right. Then that's the question I'll ask properly next time, and it goes on the list as a question, not as a thing I'm building. Let me play back the list, because we're at ten to and I want you to hear it before I write it. On quotes: Hattie's five stages, draft, sent, sent back, accepted, dead, with dead not counting as lost. Sent back is already in. The committed column goes on the two tents and the dance floor sections first, and chairs later or never. The crew board gets regrouped by truck, trucks down the side by default, people as the second view. The scanner, I check by Friday and tell Desmond. The text to crew leads, I check and tell you what it depends on. The money widget comes off the weekend page. Phones and logins for crew leads, I bring the options and what each one needs in seats, not in money, and that's Anjali's decision. And the venue coordinators, a question, not a build. Three things that stay as they are, so nobody's surprised: nothing connects to the accounts, Bram keeps doing the invoices the way he does them; the count-in is a person typing until I've answered the scanner question; and the turnaround on the tents, the tent being counted as gone from the Thursday to the Monday, is half built and stays half built until the committed column is on the right items, because there's no point finishing it for chairs. And one thing for me that isn't on your list, which is that I talked for the first ten minutes without stopping and I said I would, and I'd like the next one to start with the whiteboard and not with the tour. Is that the list?
+
+[58:14] Anjali Venkataraman
+That's the list. Add the phones properly. If Des's crew leads need phones, that's on us, but I want to know how many seats that is before Gerald asks me.
+
+[58:28] Consultant
+How many seats, yes. I'll bring that with the scope, as a number of people and what each of them needs to do, and you can turn that into phones. I'm not going to guess the seat count today either. The honest shape of it is that it's the crew leads, plus the three of you, plus Tanvi, plus whether Bram wants to look or wants a list, and each of those is a different kind of seat, and that's the thing I'll write down properly rather than say now.
+
+[58:59] Desmond Farrow
+And by truck.
+
+[59:03] Consultant
+And by truck. It's the first thing I change. So. How does all of this land with the three of you?
+
+[59:13] Anjali Venkataraman
+It lands. What does something like this cost? Give me a ballpark. I know you don't want to.
+
+[59:24] Consultant
+I don't, and I won't guess a number at you, because a guess is the number you'll remember, and it'll be wrong in one direction or the other. Once the scope is settled with Gerald in the room, I'll bring a written figure, and it'll be the same figure you see on paper afterwards. What I can tell you now, so it isn't a surprise, is that the two things that move the number are how many seats and whether the scanner turns out to be a piece of work, and neither of those is a thing I know today. Is that fair?
+
+[60:07] Anjali Venkataraman
+It's fair. It's annoying, but it's fair. [laughs]
+
+[60:13] Hattie Szabo
+She says that about everything she agrees with.
+
+[60:19] Consultant
+I'll take it. So, the next step. I'd like to show Gerald the version with today's changes in it, at the yard, with the three of you there, and I'd like it to be the version he decides on. When can that be?
+
+[60:38] Anjali Venkataraman
+Thursday the eighth. Two o'clock, at the yard. I'll put it in Gerald's calendar myself, that's the only way it happens.
+
+[60:49] Consultant
+Thursday the eighth, two o'clock, at the yard. I'm sending the invite to the three of you now, while we're on, and Anjali, you put it in Gerald's calendar. And you'll have a short note from me tonight with the list we just went through, so you can tell me what I got wrong. Desmond, you'll hear about the scanner by Friday. And I'll bring a phone with the crew board on it, so that's a thing to hold rather than a thing I describe.
+
+[61:26] Desmond Farrow
+Friday. And by truck.
+
+[61:30] Consultant
+By truck. [laughs] Thank you, all three of you. Hattie, good to finally put a face to the voice.
+
+[61:38] Hattie Szabo
+You too. Go and fix my statuses.
+
+[61:44] Anjali Venkataraman
+Bye. Des, pallets.
+
+[61:47] Desmond Farrow
+Pallets. Bye.

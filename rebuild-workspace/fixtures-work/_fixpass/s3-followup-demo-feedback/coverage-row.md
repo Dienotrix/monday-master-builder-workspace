@@ -1,0 +1,7 @@
+# s3-followup-demo-feedback — COVERAGE row after the fix pass
+
+The row for the first table of `fixtures/COVERAGE.md` (three columns: Folder, Files, Call). Per the brief, s1 to s10 keep their three columns and no fourth column is added.
+
+| `s3-followup-demo-feedback/` | `transcript.txt`, `answer-key.json`, `context-v0.1.md` | v0.1 feedback from the s1 client, one day after the walkthrough |
+
+Counts that moved: none. The row carries no counts, and every count COVERAGE tracks for s3 elsewhere was recounted from the edited files and is unchanged by this pass: 29 traps; 17 `pains` entries with P1 to P5 graded; 15 requested changes (7 add, 6 change, 2 remove); 141 `quote` fields in the 25 original fields (the readiness block adds 24 structured quote-and-location pairs of its own, 7 signals and 17 leaning quotes, plus the 17 pain quotes reused; the shared verifier counts 183 pairs in all); 8 objections; 15 commitments; 11 expected questions; 29 vocabulary entries; 15 `entities_and_workflows` entries; transcript 187 lines, about 3,970 spoken words, 62 percent client talk share, longest Consultant turn 103 words at 00:24:14. The key now has 26 top-level fields (`readiness` added last) and is still ASCII. Fix pass applied 2026-10-13: readiness block added, one fork leaning written into `entities_and_workflows`, no transcript edit; the Review value for this row is "reviewed 2026-10-13; fix pass applied 2026-10-13", recorded by the merge step in whatever form the first table adopts.

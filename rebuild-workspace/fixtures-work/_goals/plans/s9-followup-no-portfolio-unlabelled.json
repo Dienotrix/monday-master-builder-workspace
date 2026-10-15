@@ -1,0 +1,48 @@
+{
+  "goals": [
+    {
+      "id": "G1",
+      "goal": "Every project set up the same way and actually used by the fourteen PMs",
+      "quote": "Standardized, the same for everybody, actually used by the fourteen.",
+      "location": "paragraph 17, inferred Marisol Bettencourt (speaker unclear)",
+      "speaker_role": "PMO Director (inferred, speaker unclear)",
+      "pains": ["P1.1", "P4.1", "P4.2"]
+    },
+    {
+      "id": "G2",
+      "goal": "One full month without having to email anybody for a status",
+      "quote": "And I want one full month where I haven't had to email anybody for a status.",
+      "location": "paragraph 19, [00:04:10], inferred Marisol Bettencourt (speaker unclear)",
+      "speaker_role": "PMO Director (inferred, speaker unclear)",
+      "pains": ["P1.1", "P1.2"]
+    },
+    {
+      "id": "G3",
+      "goal": "Her own screen across the projects, even if ugly, before anything for leadership",
+      "quote": "No, I still want my own screen.",
+      "location": "paragraph 33, [00:07:55], inferred Marisol Bettencourt (speaker unclear)",
+      "speaker_role": "PMO Director (inferred, speaker unclear)",
+      "pains": []
+    }
+  ],
+  "assumption_kinds": [
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "gap",
+    "board-architecture",
+    "leaning",
+    "leaning",
+    "gap",
+    "gap",
+    "call-type",
+    "board-architecture",
+    "gap",
+    "leaning"
+  ],
+  "note_add": null
+}

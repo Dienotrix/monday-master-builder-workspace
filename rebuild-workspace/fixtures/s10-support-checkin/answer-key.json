@@ -1,0 +1,1284 @@
+{
+  "scenario_id": "s10-support-checkin",
+  "call_type": "support-checkin",
+  "purpose_of_this_fixture": "A short support and check-in call with the s1 and s3 client, Brackenholt Architects + Engineers, about seven weeks after the solution was signed off (v1.0 sign-off Thursday October 22, 2026; this call Tuesday December 8, 2026). Only the operations manager is on it. He reports one small problem, 'The milestone status isn't updating', which turns out to be user error: the Harwood library CD phase carries two invoice milestones, as the controller said it would on the s3 call, both items happen to be named 'CD set', the project manager marked the fifty percent row and Jordan was reading the hundred percent row. The Consultant diagnoses it with questions, resolves it by explanation, says plainly that nothing in the setup needs changing, and points out what the setup prevented this time (an invoice sitting in a job folder until the month-end close) in plain terms and with no money figure. Then, in passing, Jordan names a new need: nobody can tell what is left of an outside consulting engineer's fee, because their invoices arrive as emailed PDFs and Ajera only shows what has been paid. That is an expansion seed, not a build: the Consultant asks three short follow-ups, says he will write it down as stated and leave it there for today, and does not propose, scope or price anything. The call is graded with the method's short support-call version (spec 6.4), and all five of its items are met. It tests that the plugin (1) grades a support call against the five short-version items rather than running a full discovery rubric, while still carrying the cumulative R statuses; (2) treats the reported problem as user error and produces no change request, no v1.1 and no defect, because the only fix is two item names that Jordan renames himself; (3) records the new need as a backlog seed with the client's own words and does not propose a build, because P6 is not excavated (its Workaround is only Partial: the client says the current way is fine and not urgent); (4) invents no numbers from realized value, keeping the bleed at the s1 figure even though the client says 'I got my Monday back' and the staffing call now takes twenty-two minutes; (5) grades R10 Partial, because the next step has an owner and a rough window but no date or time, and proposes a concrete time in the recap instead of accepting it; (6) handles an engagement that is past v1.0 sign-off, so R11, R12 and the v1.0 sign-off gate are Met for the first time in this set, and the pricing gate opens on method grounds while pricing and proposal prep stay outside v1 and are still not produced; (7) does not add a portfolio even though the account turns out to be Enterprise with Work Management in scope, because the amendment's exception is on the record from the scoping session and the client's passing question is explicitly not a request; (8) keeps the CRM half on the account's native boards it already occupies and does not model outside consulting firms as owners or as CRM accounts; (9) reads the word 'consultants' as the client's outside engineering firms rather than as the Consultant on the call; and (10) keeps the internal-only remarks on this call (about the controller, a project manager, and people who 'moan about having to update their own rows') out of anything client-facing.",
+  "transcript_format": "Plain text, 80 lines, one speaker turn per line in the form 'Name: text'. No timestamps, no header lines and no call date. Two speakers only, the smallest cast in the set: 'Consultant' and 'Jordan Pruitt' (Operations Manager). About 1,834 spoken words (about 1,954 including speaker labels), 40 turns each. Client talk share is about 62.9%; the Consultant's longest turn is 56 words at line 69 and Jordan's is 69 words at line 58, so no turn approaches the 225-word proxy for a long stretch. Non-verbal cues appear in square brackets ([laughs]); interruptions and self-corrections use ' -- ' ('Bev told me Monday -- Tuesday, whatever day it was', 'Oh -- Tess asked me'). ASCII only. Because there are no timestamps, every location in this key is 'L<line>, Speaker Name (role)', the same line-based form s2 uses, with the role suffix this client's other fixtures use: for example 'L58, Jordan Pruitt (Operations Manager)'. Date clues: Des Moines has been open 'a month and a bit' (it opened November 2), the sign-off meeting is in the past, the watch items run 'between now and the new year', the structural hire is decided 'in January' and the controller closes in the first week of each month. These fit Tuesday December 8, 2026, but the date is not stated. Rubric statuses are cumulative, the engagement state after s1, s3, the scoping session of September 29 and the v1.0 sign-off of October 22, but evidence quotes come only from this transcript; a row with no new evidence has a note that starts 'Carried forward' and cites s1 or s3 by timestamp. numbers.bleed.quote and numbers.upside.quote are null even though both statuses are met, because the figures were built and confirmed in s1 and no line in this transcript restates them; checkers should skip nulls. The evidence on the five support-call rows is the Consultant's own lines, because those items grade the Consultant's conduct rather than what the client disclosed; every R and P row still rests on client-side quotes.",
+  "company": {
+    "name": "Brackenholt Architects + Engineers",
+    "industry": "Architecture and engineering (A and E) firm. K-12, municipal and civic work (libraries, fire stations, city halls), a growing healthcare practice and some justice work. Structural and MEP engineering are in-house; civil, landscape, acoustical and commissioning work is subcontracted to outside consulting engineers, which is where the new need on this call comes from.",
+    "size": "About 120 people and 22 PMs, as established in s1. Des Moines has four people, with a fifth starting in February 'if the work holds up'.",
+    "locations": "Madison (main office, where Jordan is on this call), Milwaukee, Rockford and now Des Moines, which opened November 2 and is 'a month and a bit' old. All four offices work on the same boards.",
+    "current_tools": [
+      "monday.com: the delivered solution, in live use since the v1.0 sign-off. Pursuits and owners on the account's native CRM boards; Jobs, Phases with invoice milestones, Staff allocation and the Submittals log in Work Management; the New pursuit form; the saved two-week pursuits view; two automations",
+      "Ajera: still the book of record for anything with a dollar sign. A weekly one-way, read-only import lands hours and phase fees on Monday mornings; nothing writes back. Ajera also holds outside consultant invoices as payables, which is why it answers what has been paid but not what is still owed",
+      "Email / Outlook: outside consultant invoices arrive as PDFs, usually to the PM and sometimes straight to the controller",
+      "Microsoft 365 sign-in: everyone signs in with their Microsoft account, which is why the firm ended up on the enterprise plan",
+      "Public bid portals: addenda are still logged by hand on the pursuit; two names are now registered on every portal",
+      "Excel and SharePoint: no longer the pursuit log, the Wall or the submittal logs, but still in general office use",
+      "Bluebeam: submittal markup and stamping, unchanged",
+      "Procore: still only through general contractors' own accounts"
+    ]
+  },
+  "attendees": [
+    {
+      "name": "Jordan Pruitt",
+      "role": "Operations Manager: staffing, project setup and reporting. Since the rollout he is the day-to-day administrator of the boards and the person the firm brings problems to; he renames items, chases the Des Moines PMs and holds the SOP.",
+      "side": "client",
+      "decision_role": "admin/owner"
+    },
+    {
+      "name": "Consultant",
+      "role": "monday.com consultant running the support and check-in call",
+      "side": "consultant",
+      "decision_role": "not applicable"
+    }
+  ],
+  "expected_monday_products": [
+    {
+      "kind": "crm",
+      "why": "Already built and in live use, not a new proposal. Pursuits sit on the account's native CRM Deals/Opportunities board relabelled to the client's word, and owners (school districts, cities, counties) on the native Accounts board. This call confirms both are working: every pursuit now arrives through the New pursuit form, two addenda have been logged and notified, the Des Moines PIC has logged four pursuits with one short-listed, and Tess opens the saved two-week view every Monday morning. Nothing on this call changes the CRM half, and the outside consulting engineers in the new seed are suppliers, not owners, so they must never be added to the Accounts board."
+    },
+    {
+      "kind": "core",
+      "why": "Already built and in live use. Jobs and Phases carry phase fees, imported Ajera hours and the invoice milestones the controller specified in s3; Staff allocation with its workload view replaced the Wall across four offices; the firm-wide Submittals log is in daily use by a PM who was expected to resist. The reported problem sits here and needs no structural change. If the new seed about outside consultant fees is ever taken forward, it belongs in Work Management too, alongside the jobs and phases. monday Service and monday Dev remain out: nothing on this call describes a ticket desk or software development, Dev is outside v1, and the Service extras stay deferred."
+    }
+  ],
+  "rubric": [
+    {
+      "criterion": "Support check 1 Solved their issue first",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Good. You said something wasn't behaving. Let's do that first.",
+          "location": "L7, Consultant"
+        },
+        {
+          "quote": "Fair enough. Open the Phases board for Harwood and tell me how many milestone rows you see on the CD phase.",
+          "location": "L17, Consultant"
+        },
+        {
+          "quote": "There it is. Nothing is broken.",
+          "location": "L21, Consultant"
+        },
+        {
+          "quote": "Oh. Right. And I was looking at the second row, because that's the one my eye lands on. Both called the same thing.",
+          "location": "L24, Jordan Pruitt (Operations Manager)"
+        },
+        {
+          "quote": "That's the only real problem here, and it's a naming one, not a setup one.",
+          "location": "L25, Consultant"
+        }
+      ],
+      "note": "The issue comes first, before any check-in conversation, and is diagnosed with questions rather than guesses: what he was looking at (L9), whether the notification arrived (L11), what he already tried (L13), what he expected to see (L15), then the two instructions that expose the cause (L17, L19). Cause: the Harwood CD phase carries two invoice milestones, which is what the controller said in s3 at 00:20:21 ('And some phases have two milestones. CDs sometimes bill at the fifty percent set and again at the hundred percent set.'), both items are named 'CD set', the PM marked the fifty percent row, and Jordan was reading the hundred percent row. It is user error, not a defect: the notification fired correctly on the row that changed (L23). Jordan confirms the resolution himself at L24, which is what makes this Met rather than an assertion by the Consultant. Principle 8 is followed at L25 and L27: the Consultant says out loud that only a small fix is needed, and that the fix belongs to Jordan."
+    },
+    {
+      "criterion": "Support check 2 Named what the fix prevents, in plain terms",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "While we're here, notice what did happen this time.",
+          "location": "L33, Consultant"
+        },
+        {
+          "quote": "The PM marked the fifty percent set the day it went out, Bev knew that day, and she invoiced it inside the week.",
+          "location": "L33, Consultant"
+        },
+        {
+          "quote": "In the summer that letter would have sat in a job folder until she went hunting for it at the close.",
+          "location": "L33, Consultant"
+        },
+        {
+          "quote": "Harwood, of all jobs. That's the one she found weeks late.",
+          "location": "L34, Jordan Pruitt (Operations Manager)"
+        }
+      ],
+      "note": "Plainly put, in the client's own frame of reference, and immediately after the issue was closed rather than instead of closing it. The Consultant names the prevented outcome, an invoice discovered at the month-end close instead of the day the milestone was hit, without reaching for the internal figure behind it: in s3 at 00:17:26 the controller put the Harwood invoice at seven weeks late and 'sixty-some thousand just sitting there', and that money figure must not be spoken back to the client or written into anything client-facing. Jordan supplies the comparison himself, which is the strongest possible form of this check."
+    },
+    {
+      "criterion": "Support check 3 Asked one forward-looking question before ending",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "With the milestones off your plate, what's still being done by hand?",
+          "location": "L53, Consultant"
+        },
+        {
+          "quote": "Say more about that.",
+          "location": "L55, Consultant"
+        },
+        {
+          "quote": "Is the part that hurts the approving, or knowing what's left?",
+          "location": "L61, Consultant"
+        }
+      ],
+      "note": "The standing question from spec 6.4, asked once, near the end and after the issue was resolved. Three short follow-ups stay with the problem (L55, L59, L61) without turning a fifteen-minute support call into a discovery call, and the Consultant then stops deliberately at L63. No fix is offered while the client is still describing the need, and nothing is pitched, scoped or priced off the back of it."
+    },
+    {
+      "criterion": "Support check 4 Logged the answer to backlog.md as a seed",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Nobody can tell you what's left.",
+          "location": "L58, Jordan Pruitt (Operations Manager)"
+        },
+        {
+          "quote": "I'm going to write it down the way you said it and leave it there for today, because you called me about a milestone, not about consultants.",
+          "location": "L63, Consultant"
+        },
+        {
+          "quote": "When you and Tess want to look at it properly, we'll start with a conversation about it rather than me building something.",
+          "location": "L65, Consultant"
+        }
+      ],
+      "note": "The call produces a specific, quotable seed in the client's own words, and the Consultant commits to recording it as stated rather than acting on it. The logging itself is the plugin's action: the seed belongs in solution/backlog.md with the client's words and the source (6.3 rule 8), with discovery.md linking to it rather than restating it. Two things must not happen: the seed must not appear in client-facing material framed as an opportunity (section 7 item 14), and it must not be merged with the other backlog items from this engagement, which are the automatic pulling of addenda off the bid portals (s3, 00:06:42), owner approvals (deferred since s1) and the portfolio decision revisited at L66-L68."
+    },
+    {
+      "criterion": "Support check 5 Closed with a short note on what is worth keeping an eye on",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Two things I'd keep an eye on between now and the new year.",
+          "location": "L69, Consultant"
+        },
+        {
+          "quote": "One, those two milestone rows, until you've renamed them everywhere.",
+          "location": "L69, Consultant"
+        },
+        {
+          "quote": "Two, whether the Des Moines PMs are keeping their own allocations current, because that's the data Tess will want for the structural hire.",
+          "location": "L69, Consultant"
+        }
+      ],
+      "note": "Two watch items, both concrete, both owned by the client, and both tied to something real rather than to the software: the duplicate milestone names until Jordan has renamed them, and whether the four Des Moines PMs keep their allocations current before the structural-hire decision in January. The second closes a loop from s1 at 00:17:02, where Tess said she did not trust the Wall's numbers enough to make that hire off them. The Consultant also points Jordan at the SOP's billing section (L73), which is the right place for the two-milestone explanation to live in writing."
+    },
+    {
+      "criterion": "R1 Current state mapped",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "The PM is meant to check the invoice against what we agreed with them, approve it, and pass it to Bev, and she enters it in Ajera and pays it.",
+          "location": "L56, Jordan Pruitt (Operations Manager)"
+        },
+        {
+          "quote": "Monday mornings, quietly, yes. Hours and the phase fees.",
+          "location": "L50, Jordan Pruitt (Operations Manager)"
+        },
+        {
+          "quote": "It's that there's no total anywhere except in Bev's head and in Ajera, and Ajera tells you what we've paid them, not what we still owe them.",
+          "location": "L62, Jordan Pruitt (Operations Manager)"
+        }
+      ],
+      "note": "Met since s1, where the client walked through pursuits, delivery and CA end to end (00:08:56 to 00:32:10), and extended in s3 by the milestone and submittal flows. This call adds two things. First, the current state of the delivered solution in live use, including the weekly one-way Ajera import and the fact that nothing writes back (L50). Second, the one process that is still entirely manual, mapped end to end in a single turn: an agreement per outside consultant, invoices arriving as emailed PDFs to the PM or the controller, a manual check against the agreement, approval by email, entry and payment in Ajera, with some fees marked up and billed through to the owner (L56, L60, L62)."
+    },
+    {
+      "criterion": "R2 Pain made concrete",
+      "status": "met",
+      "evidence": [],
+      "note": "Carried forward from s1 and s3. P1 (pursuit deadlines, addenda and fee sign-off, s1 00:04:43), P2 (staffing on the Wall, s1 00:14:56), P3 (fee burn seen too late, s1 00:18:22), P4 (submittals, s1 00:22:55) and P5 (invoice milestones found late, s3 00:17:26) are all excavated, and all five are now solved in live use. P6, the outside consulting engineers' invoices, is new on this call and is graded below: it is Stated and Concrete but its Workaround is only Partial, so it is not excavated. That single grade is what keeps this call a backlog entry rather than a build: the blueprint gate needs an excavated pain, and P6 has not been excavated."
+    },
+    {
+      "criterion": "R3 Why now",
+      "status": "met",
+      "evidence": [],
+      "note": "Carried forward from s1, where Tess named two triggers at 00:04:43, the fourth office and the pursuit lost in July, with the November 2 move-in at 00:01:22. Both have since happened: Des Moines opened and works on the same boards (L6), so the original why-now is spent rather than open. P6 has no why-now of its own. Jordan says the opposite, 'It isn't urgent' (L64), so a future expansion conversation has to establish one instead of inheriting it."
+    },
+    {
+      "criterion": "R4 Bleed number",
+      "status": "met",
+      "evidence": [],
+      "note": "Carried forward from s1: $504,920 a year, built by the client and confirmed at 00:26:37 with the confirmation at 00:27:34, and described by Tess as feeling light. Unchanged by this call, and nothing here may change it. Jordan's 'I got my Monday back' (L40) and 'The Tuesday call was twenty-two minutes last week.' (L38) are realized-value remarks, not cost inputs: they must not be turned into a revised bleed, a savings claim, a percentage or an ROI figure, and they must not appear in client-facing material. P6 carries no bleed, because its cost inputs are only Partial."
+    },
+    {
+      "criterion": "R5 Upside number",
+      "status": "met",
+      "evidence": [],
+      "note": "Carried forward from s1: about $283,140 a year in billable time (00:28:12) plus $800k to $1.2M in fee from two more healthcare wins a year (00:28:51), the first figure drawn from the same PM hours as the bleed and therefore never added to it. No new upside figure is offered or implied on this call, and the healthcare ambition is not mentioned, so nothing is updated."
+    },
+    {
+      "criterion": "R6 Desired outcome",
+      "status": "met",
+      "evidence": [],
+      "note": "Carried forward from s1, where Tess described her Monday-morning screen (00:29:39), Jordan described not rebuilding the Wall and a fifteen-minute exceptions call (00:30:03), and Tess relayed the leadership win condition of no missed submissions and write-offs coming down (00:30:23). Those criteria moved from proposed to agreed at the v1.0 sign-off on October 22, which is the only point in this engagement where R6 is agreed rather than proposed. This call shows them holding in live use: Tess's saved view every Monday morning (L48), the staffing call at twenty-two minutes (L38) and no Monday rebuild (L40). The write-off target is still a direction rather than a number, so no numeric success criterion exists to report."
+    },
+    {
+      "criterion": "R7 Decision process mapped",
+      "status": "met",
+      "evidence": [],
+      "note": "Carried forward from s1: Tess owns the operations systems budget, Gordon signs anything over $25k (00:34:45), Bev can effectively veto anything touching Ajera and Marcus runs an IT checklist (00:35:30), with a PO or card payment and a rollout by Tess and Jordan afterwards (00:36:37). The purchase is done, so R7 now matters only for a possible expansion, which would need the same three people again. Gordon asking Jordan how much of a consultant's fee was left (L58) shows the approver has a live interest in P6; that is an internal note about who might sponsor an expansion, not evidence of a pain and not a licence to pitch."
+    },
+    {
+      "criterion": "R8 Priority and timing",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Appreciated. It isn't urgent. It's just the next thing, I think.",
+          "location": "L64, Jordan Pruitt (Operations Manager)"
+        },
+        {
+          "quote": "January. She wants to decide in January.",
+          "location": "L70, Jordan Pruitt (Operations Manager)"
+        }
+      ],
+      "note": "Met for the delivered scope since s1 (00:37:53, with the November 2 deadline now met). For P6 the client places it on the now-versus-later scale himself, unprompted: not urgent, next in line, no date and no deadline. Per spec 2.3 a 'later' answer is flagged as a fit risk for that item, which here simply reinforces the backlog treatment. January is the date for Tess's structural-hire decision, not a deadline for P6, and must not be borrowed as one."
+    },
+    {
+      "criterion": "R9 Blockers surfaced",
+      "status": "met",
+      "evidence": [],
+      "note": "Carried forward from s1, where the client named three: PM adoption after a project management tool died four years ago (00:38:27), the October workload (00:39:12) and Bev stopping anything that interfered with Ajera (00:39:21). Events have overtaken all three. Adoption is holding, including with the PM who was expected to resist (L38, L42, L44, L48); October is past; and Bev's condition is being honoured, with Marcus still checking that nothing writes back (L50). One residual adoption signal is worth keeping in the record: 'That's the example I use when people moan about having to update their own rows.' (L46)."
+    },
+    {
+      "criterion": "R10 Next step committed",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "Let's get a proper check-in in the diary. After Bev's next close?",
+          "location": "L75, Consultant"
+        },
+        {
+          "quote": "After the close is better, yeah.",
+          "location": "L76, Jordan Pruitt (Operations Manager)"
+        },
+        {
+          "quote": "Can you just find something the week after?",
+          "location": "L76, Jordan Pruitt (Operations Manager)"
+        },
+        {
+          "quote": "I'll find a slot the week after the close and send it over, and you move it if it clashes.",
+          "location": "L77, Consultant"
+        }
+      ],
+      "note": "The call ends with a next step that has a purpose, an owner and a rough window, a check-in the week after the controller's next month-end close, which falls in the first week of the month. It has no date and no time, because Jordan does not have his calendar in front of him and asks the Consultant to pick. R10 requires date, time and owner, so this is Partial, not Met. Expected behaviour: flag it in the call summary, have the recap draft propose a specific date and time (6.3 rule 2), and keep sending the invite as an open to-do until the Consultant confirms it was sent (6.3 rule 4). This is the first Partial R10 in the fixture set; grading it Met because a next step exists in principle is the error to catch here, and so is grading it Missing, since a window, an owner and an action were all agreed."
+    },
+    {
+      "criterion": "R11 Solution confirmed",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "The Tuesday call was twenty-two minutes last week.",
+          "location": "L38, Jordan Pruitt (Operations Manager)"
+        },
+        {
+          "quote": "I am not rebuilding anything on a Monday. I got my Monday back.",
+          "location": "L40, Jordan Pruitt (Operations Manager)"
+        },
+        {
+          "quote": "Karen uses it. I would not have put money on that.",
+          "location": "L42, Jordan Pruitt (Operations Manager)"
+        },
+        {
+          "quote": "Everything comes in through it now. Hallie made it the only way in.",
+          "location": "L44, Jordan Pruitt (Operations Manager)"
+        },
+        {
+          "quote": "Hallie logged it, and the PIC out there and the PM both had it in their notifications before lunch.",
+          "location": "L46, Jordan Pruitt (Operations Manager)"
+        },
+        {
+          "quote": "Every Monday morning.",
+          "location": "L48, Jordan Pruitt (Operations Manager)"
+        }
+      ],
+      "note": "R11 was Met for every in-scope pain at the v1.0 sign-off on October 22. That demo has no transcript in this set, the same way the v0.1 walkthrough has none in s3, so the sign-off confirmations are carried and this row's evidence is something stronger: live use, weeks later. P1 is confirmed by the form, the addendum that reached three people before lunch, and Tess's saved view (L44, L46, L48); P2 by the twenty-two-minute staffing call and no Monday rebuild (L38, L40); P4 by the sceptical PM using the Submittals log daily (L42). Two gaps to keep honest: P3, fee burn, gets no confirmation on this call at all, and the only line touching P5 is Jordan reporting Bev's behaviour at close (L36), which is secondhand and adds nothing to the record because Bev is not on the call. Neither gap moves the status, which was already settled at sign-off."
+    },
+    {
+      "criterion": "R12 Scope agreed verbally",
+      "status": "met",
+      "evidence": [],
+      "note": "Carried forward from the scoping session on Tuesday September 29, booked in s3 at 00:28:18, and confirmed at the v1.0 sign-off on October 22. This is the first Met R12 in the fixture set, and it has one consequence worth checking: on method grounds the pricing-or-proposal-prep gate is now open, because R4, R7 and R12 are all Met. It stays shut in practice, because pricing and proposal prep are deferred beyond v1, and nothing on this call asks for either. A plugin that produces a price, a proposal, an ROI sheet or an expansion quote because the gate opened has read the gate without reading the scope rule."
+    },
+    {
+      "criterion": "P6 Stated",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Hm. The consultants, probably. Our outside ones, I mean, not you.",
+          "location": "L54, Jordan Pruitt (Operations Manager)"
+        },
+        {
+          "quote": "Nobody can tell you what's left.",
+          "location": "L58, Jordan Pruitt (Operations Manager)"
+        }
+      ],
+      "note": "P6, new on this call: nobody can tell what is left of an outside consulting engineer's fee. The client names it in his own words, unprompted, as the answer to the forward-looking question. Note his own disambiguation, 'Our outside ones, I mean, not you': 'consultants' here means the civil, landscape, acoustical and commissioning firms the practice subcontracts, never the Consultant on the call."
+    },
+    {
+      "criterion": "P6 Concrete",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Gordon asked me last week how much of Fenwick's fee was left on the fire station, and it took me most of an afternoon.",
+          "location": "L58, Jordan Pruitt (Operations Manager)"
+        },
+        {
+          "quote": "I had Bev pull what she'd paid them, and then I was adding up PDFs in my own inbox to see what was in flight.",
+          "location": "L58, Jordan Pruitt (Operations Manager)"
+        }
+      ],
+      "note": "A specific recent occurrence with what, who and how long: last week the managing partner asked what was left of one consultant's fee on the Oak Street fire station, it took Jordan most of an afternoon, he had to have the controller pull payments and then add up PDFs in his own inbox, and the answer he gave still had 'roughly' in front of it. That is enough for Concrete on its own."
+    },
+    {
+      "criterion": "P6 Workaround",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "So we carry them in our fee.",
+          "location": "L56, Jordan Pruitt (Operations Manager)"
+        },
+        {
+          "quote": "The PM is meant to check the invoice against what we agreed with them, approve it, and pass it to Bev, and she enters it in Ajera and pays it.",
+          "location": "L56, Jordan Pruitt (Operations Manager)"
+        },
+        {
+          "quote": "Knowing what's left. The approving is fine, honestly, it's email and it works.",
+          "location": "L62, Jordan Pruitt (Operations Manager)"
+        }
+      ],
+      "note": "The current way is named in full, which is half of this check. The other half is missing: the client never says why carrying on this way is unacceptable, and in fact says the opposite twice, that the approving part 'is fine' and 'it works' (L62) and that the whole thing 'isn't urgent' (L64). Nobody asked what stops them carrying on, which is the right restraint on a fifteen-minute support call. So the Workaround is Partial, P6 is not excavated, and the blueprint gate stays shut for it: seed, not build. Gap question for a future discovery conversation: 'What stops you carrying on the way you do it now?'"
+    },
+    {
+      "criterion": "P6 Reach",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "their invoices come in as PDFs, by email, usually to the PM and sometimes straight to Bev",
+          "location": "L56, Jordan Pruitt (Operations Manager)"
+        },
+        {
+          "quote": "And I still gave him a number with a \"roughly\" in front of it.",
+          "location": "L58, Jordan Pruitt (Operations Manager)"
+        }
+      ],
+      "note": "Who else it touches is visible but incidental: the PMs receive and check the invoices, the controller had to pull the payment history, and the managing partner got an approximate answer to a direct question. That is enough for Partial. It is not Met, because the reach question was never asked and nobody says who else is affected or how often, and it is more than nothing, so grading it Missing would be wrong. Gap question: 'Who else ends up dealing with this?'"
+    },
+    {
+      "criterion": "P6 Cost inputs",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "it took me most of an afternoon",
+          "location": "L58, Jordan Pruitt (Operations Manager)"
+        },
+        {
+          "quote": "Two or three. Four on a school.",
+          "location": "L60, Jordan Pruitt (Operations Manager)"
+        },
+        {
+          "quote": "Almost all the school work has a civil and a landscape on it, and the district usually wants the consultant agreements in with the proposal, so it starts back at the pursuit.",
+          "location": "L60, Jordan Pruitt (Operations Manager)"
+        }
+      ],
+      "note": "One incident's duration and some volumes: most of an afternoon once, two to three outside consultants on a typical job and four on a school, with almost all school work carrying a civil and a landscape consultant. There is no frequency for the chasing, no rate, no yearly figure and no client math, so nothing here enters the bleed and none of it may be multiplied into a figure. 'Most of an afternoon' is a loose duration, not four hours."
+    },
+    {
+      "criterion": "P6 Trajectory",
+      "status": "missing",
+      "evidence": [],
+      "note": "Nothing is said about what this looks like next year, or as Des Moines takes on municipal work with its own outside consultants. The Consultant stopped deliberately at L63 rather than running the trajectory question on a support call, so this is a gap to close if and when the client wants to look at it: 'Say this stays as it is. What does it look like once Des Moines is running its own jobs?'"
+    }
+  ],
+  "pains": [
+    {
+      "quote": "Hm. The consultants, probably. Our outside ones, I mean, not you.",
+      "location": "L54, Jordan Pruitt (Operations Manager)",
+      "theme": "P6 Outside consulting engineers' invoices are still handled by hand (new; expansion seed, not excavated)"
+    },
+    {
+      "quote": "Nobody can tell you what's left.",
+      "location": "L58, Jordan Pruitt (Operations Manager)",
+      "theme": "P6 No running total of what an outside consultant has been paid or is still owed"
+    },
+    {
+      "quote": "Gordon asked me last week how much of Fenwick's fee was left on the fire station, and it took me most of an afternoon.",
+      "location": "L58, Jordan Pruitt (Operations Manager)",
+      "theme": "P6 Specific occurrence: most of an afternoon to answer the managing partner, and the answer was approximate"
+    },
+    {
+      "quote": "The PM is meant to check the invoice against what we agreed with them, approve it, and pass it to Bev, and she enters it in Ajera and pays it.",
+      "location": "L56, Jordan Pruitt (Operations Manager)",
+      "theme": "P6 Current workaround: emailed PDFs, a manual check against the agreement, then manual entry in Ajera"
+    },
+    {
+      "quote": "It's that there's no total anywhere except in Bev's head and in Ajera, and Ajera tells you what we've paid them, not what we still owe them.",
+      "location": "L62, Jordan Pruitt (Operations Manager)",
+      "theme": "P6 Ajera answers what has been paid, not what is committed or outstanding"
+    },
+    {
+      "quote": "And on some jobs we mark them up and bill them through to the owner, so it isn't only our own money we're keeping track of.",
+      "location": "L60, Jordan Pruitt (Operations Manager)",
+      "theme": "P6 Some consultant fees are marked up and billed through to the owner, so errors reach the client's invoice"
+    },
+    {
+      "quote": "One line that tells me where the money is on that phase. Phase, milestone, invoiced, done.",
+      "location": "L16, Jordan Pruitt (Operations Manager)",
+      "theme": "Not a pain: the expectation behind the reported issue, and the reason it looked like a fault"
+    }
+  ],
+  "numbers": {
+    "bleed": {
+      "value": "$504,920 a year, unchanged and carried forward from s1, where the client built it and confirmed it (22 PMs x 3 h/wk x $105 loaded x 52 = $360,360; 24 h/wk x $90 blended loaded x 52 = $112,320; 10 h/wk x about $62 loaded x 52 = $32,240). No line on this call restates it, and nothing on this call revises it. The realized-value remarks here ('I got my Monday back', a twenty-two-minute staffing call) are not inputs and must not be converted into a saving, a percentage or a payback figure. P6 adds no bleed: its cost inputs are only Partial, with one loose duration and some volumes.",
+      "quote": null,
+      "status": "met"
+    },
+    "upside": {
+      "value": "Carried forward from s1 and unchanged: about $283,140 a year in billable time (33 h/wk x $165 average bill rate x 52), which draws on the same PM hours as the bleed and is never added to it, plus $800k to $1.2M a year in fee from two more healthcare wins. Neither figure is mentioned on this call, and no new upside is offered for P6, so there is nothing to update. The value now being realized is described in words, not figures, and should stay that way.",
+      "quote": null,
+      "status": "met"
+    }
+  },
+  "vocabulary": [
+    {
+      "their_term": "consultants / outside consultants",
+      "meaning": "The outside engineering and design firms the practice subcontracts and carries in its own fee: civil, landscape, acoustical, and a commissioning agent on schools. Structural and MEP are in-house, so these are the disciplines that are bought in. The client disambiguates it himself: 'Our outside ones, I mean, not you.'",
+      "likely_monday_object": "none today. If the seed is ever built, items on a new Work Management board for consultant commitments and invoices, connected to jobs. Never items on the native CRM Accounts board, which holds owners, and never conflated with the Consultant on the call"
+    },
+    {
+      "their_term": "consultant agreement",
+      "meaning": "The fee agreement signed with each outside consultant for their piece of a job; on school work the district often wants these in with the proposal, so they start at the pursuit stage",
+      "likely_monday_object": "none today. Would be a file column plus a fee number column on a consultant commitment item"
+    },
+    {
+      "their_term": "their piece",
+      "meaning": "The portion of scope an outside consultant is engaged for",
+      "likely_monday_object": "none today (scope text on a future consultant item)"
+    },
+    {
+      "their_term": "marked up and billed through to the owner",
+      "meaning": "Some consultant fees are re-billed to the building owner with a markup, so the firm is tracking the client's money as well as its own",
+      "likely_monday_object": "none today. Would be a restricted number column if ever built, because markups on public work are commercially sensitive"
+    },
+    {
+      "their_term": "CD set / fifty percent set / hundred percent set",
+      "meaning": "The construction documents package at fifty percent and at one hundred percent completion. Milestone billing can happen at each, so one CDs phase can carry two invoice milestones. Both items were named 'CD set', which is what caused the reported issue",
+      "likely_monday_object": "two separate milestone items on the phase, which is why they need distinct names"
+    },
+    {
+      "their_term": "milestone row",
+      "meaning": "Jordan's word for one invoice milestone item on a phase. His expectation was one row per phase, which is what made two rows look like a fault",
+      "likely_monday_object": "item (one per milestone, not one per phase)"
+    },
+    {
+      "their_term": "not reached / ready to invoice / invoiced",
+      "meaning": "The invoice milestone statuses the controller specified in s3. 'Ready to invoice' is what notifies her; there is deliberately no 'paid' status, because paid lives in Ajera",
+      "likely_monday_object": "status column, with an automation on 'ready to invoice'"
+    },
+    {
+      "their_term": "the close",
+      "meaning": "The controller's month-end close, in the first week of each month. Before the build she discovered hit milestones at the close; now she filters the phases to 'ready to invoice' at the close instead",
+      "likely_monday_object": "filtered view (no new object)"
+    },
+    {
+      "their_term": "the Tuesday call",
+      "meaning": "The staffing call, formerly 45 minutes scheduled and an hour in practice, now about twenty-two minutes",
+      "likely_monday_object": "the workload view on Staff allocation"
+    },
+    {
+      "their_term": "my Monday back",
+      "meaning": "The Monday (and half of Tuesday) that Jordan used to spend rebuilding the Wall. A description of value realized, not a number and not a cost input",
+      "likely_monday_object": "none (internal note only; never client-facing as a saving)"
+    },
+    {
+      "their_term": "the portfolio thing",
+      "meaning": "The client's shorthand for the portfolio-and-projects option discussed at the scoping session and deliberately left out of v1, with the reason recorded. Raised here as a question, not a request",
+      "likely_monday_object": "monday portfolio with connected projects, if and when there is a reason to revisit it"
+    },
+    {
+      "their_term": "the boards",
+      "meaning": "How the client now refers to the delivered solution as a whole ('Same boards', 'the same boards as everyone else')",
+      "likely_monday_object": "the delivered workspace"
+    },
+    {
+      "their_term": "their queue is showing",
+      "meaning": "Karen's phrase for the Submittals log filtered by reviewer, which makes an individual reviewer's outstanding submittals visible across every job in CA",
+      "likely_monday_object": "filtered view on the Submittals log"
+    },
+    {
+      "their_term": "Fenwick",
+      "meaning": "One of the outside consulting firms, named in passing as the consultant whose remaining fee on the fire station the managing partner asked about. Its discipline is not stated on this call; the key does not assign one",
+      "likely_monday_object": "none today (a consultant record if the seed is built)"
+    },
+    {
+      "their_term": "owner, PIC, PM, pursuit, phase, CA, the Wall",
+      "meaning": "Carried forward unchanged from s1 and s3. 'Owner' is still the building owner, i.e. the client organisation. The staffing board is still called Staff allocation, never 'the Wall', per Tess's instruction in s3 at 00:11:22, even though people still say the Wall in conversation",
+      "likely_monday_object": "as recorded in the s1 and s3 keys"
+    }
+  ],
+  "entities_and_workflows": [
+    "The delivered solution, in live use since the v1.0 sign-off on October 22, 2026: pursuits on the account's native CRM Deals/Opportunities board relabelled to the client's word, owners on the native Accounts board, and Jobs, Phases, Staff allocation and a firm-wide Submittals log in Work Management, plus the New pursuit form, the saved 'due in the next two weeks' pursuits view, and the SOP",
+    "Invoice milestones (the s3 addition): one item per milestone on a phase, with the milestone in words, the amount, a status of not reached, ready to invoice or invoiced, the invoice date and the Ajera invoice number, no paid status, amounts restricted to PMs, PICs, finance and Tess, and a notification to the controller when a milestone is marked ready to invoice",
+    "A CDs phase can carry two milestones, at the fifty percent set and the hundred percent set, so a phase does not have a single milestone status. This is the fact behind the reported issue",
+    "The reported issue and its cause: on the Harwood library CD phase, both milestone items were named 'CD set'; the PM marked the fifty percent row ready to invoice, the controller was notified and invoiced it, and Jordan was reading the hundred percent row, which correctly still said not reached. Resolved by explanation; Jordan commits to renaming the rows himself on every job in CA that afternoon (committed on the call, done only on evidence)",
+    "Month-end close: the controller closes in the first week of each month and now filters the phases to 'ready to invoice' rather than emailing every PM on a milestone job",
+    "Pursuits in live use: every pursuit arrives through the form, which Hallie has made the only route in; two names are registered on every portal; two addenda have been logged, one on a Des Moines county pursuit that moved the due date, with the PIC and the PM both seeing it in their notifications before lunch (the automation also notifies marketing, who logged it); Tess opens the saved two-week view every Monday morning",
+    "Staffing in live use: the workload view replaced the Wall, Jordan no longer rebuilds anything on a Monday, and the Tuesday staffing call ran twenty-two minutes last week",
+    "Submittals in live use: one firm-wide log, about forty submittals a month across eleven or twelve jobs in CA, filtered by reviewer",
+    "Des Moines: opened November 2, four people with a fifth starting in February, working on the same boards as the other three offices; its PIC has logged four pursuits and one is short-listed; its PMs' allocation habits are the thing to watch before Tess's structural-hire decision in January",
+    "Ajera: a weekly one-way, read-only import lands hours and phase fees on Monday mornings; nothing writes back, and the IT provider re-checks that about once a fortnight. Time entry, invoices and consultant payables all stay in Ajera",
+    "Sign-in: everyone uses their Microsoft account, which is why the firm ended up on the enterprise plan",
+    "New and unbuilt (P6, the seed): an agreement is signed with each outside consultant for their piece; their invoices arrive as emailed PDFs, usually to the PM and sometimes straight to the controller; the PM checks the invoice against the agreement, approves it by email and passes it to the controller, who enters and pays it in Ajera; some fees are marked up and billed through to the owner; and no one can say what is left of a consultant's fee without pulling payments from Ajera and adding up PDFs by hand",
+    "People named on this call: Jordan Pruitt (on the call), Tess Kowalczyk (COO), Bev Halvorsen (controller), Gordon (managing partner), Hallie (marketing coordinator), Karen (PM in Rockford, the former sceptic), Marcus (IT at the managed services company), an unnamed PM on the Harwood job, and the unnamed Des Moines PIC. Fenwick is an outside consulting firm (discipline not stated on this call), not a person"
+  ],
+  "integrations_mentioned": [
+    "Ajera (accounting, timesheets, billing): the weekly one-way, read-only import is live and lands hours and phase fees on Monday mornings. Nothing writes back, and the IT provider asks about once a fortnight to confirm that. Ajera also holds outside consultant invoices as payables, which is exactly why it answers what has been paid but not what is still owed. No new Ajera work is requested, and the P6 seed must never be turned into a write-back (the controller's condition, s3 00:14:44: 'nothing, ever, writes back into Ajera'; confirmed in live use at L50). What would be read from Ajera for the seed, and how often, is unresolved; nothing from this call depends on it",
+    "Microsoft 365 sign-in: everyone signs in with their Microsoft account; this was the IT provider's condition and the reason the firm is on the enterprise plan",
+    "Email / Outlook: outside consultant invoices arrive as PDFs, usually to the PM and sometimes straight to the controller. This is the current channel for the seed, not a requested integration",
+    "monday notifications: the addendum automation and the ready-to-invoice automation both fired correctly in live use",
+    "Public bid portals: addenda are still logged by hand, with two names registered per portal. Pulling addenda from the portals automatically remains a backlog item from s3 and was not raised again",
+    "Procore and Bluebeam: unchanged from s1, still outside the build and not requested",
+    "No new integration is asked for anywhere on this call"
+  ],
+  "compliance_or_security_signals": [
+    "Milestone amounts are restricted to PMs, PICs, finance and Tess, as the controller required in s3. Carried forward and not restated on this call; any future consultant-fee amounts would need the same treatment",
+    "Ajera stays one direction and read-only, with nothing writing back (the controller's condition, s3 00:14:44: 'nothing, ever, writes back into Ajera'; confirmed in live use at L50), and the IT provider re-checks it regularly. Any expansion touching consultant invoices has to preserve that; what it would read, and how often, is unresolved",
+    "Everyone signs in with their Microsoft account on the enterprise plan; no separate passwords",
+    "Outside consultant fees, markups and pass-through amounts would be commercially sensitive, especially where they are billed on to public owners, so they would need restricted columns rather than open ones",
+    "Public-records caution carried from s1: anything written about a school district job can end up in a records request, which includes item names and updates on any future consultant records",
+    "Internal remarks on this call that must stay internal: 'And she'd never say this to you' about the controller, 'I would not have put money on that' about a named PM, and 'people moan about having to update their own rows'",
+    "The SOP is client-facing, so the two-milestone explanation in its billing section must stay neutral and carry no figures"
+  ],
+  "objections": [
+    {
+      "quote": "Appreciated. It isn't urgent. It's just the next thing, I think.",
+      "type": "Wrong time, next quarter"
+    },
+    {
+      "quote": "That's the example I use when people moan about having to update their own rows.",
+      "type": "Team won't adopt it"
+    }
+  ],
+  "commitments_and_next_steps": [
+    {
+      "quote": "Then that's what I'm doing this afternoon. CDs fifty percent set, CDs hundred percent set. Every job in CA.",
+      "what": "Rename the two milestone items on every CDs phase in CA so the fifty percent and hundred percent sets are distinguishable. Client housekeeping, not a change to the build",
+      "owner": "Jordan Pruitt",
+      "date": "Afternoon of the call (date not stated; fits 2026-12-08)"
+    },
+    {
+      "quote": "I'm going to write it down the way you said it and leave it there for today, because you called me about a milestone, not about consultants.",
+      "what": "Record the outside consultant fee need as a backlog seed in the client's own words, with its source, and take it no further today",
+      "owner": "Consultant",
+      "date": "Day of the call (date not stated)"
+    },
+    {
+      "quote": "I'll find a slot the week after the close and send it over, and you move it if it clashes.",
+      "what": "Find and send an invite for the next check-in, in the week after the controller's next month-end close. No date or time was fixed on the call, so the recap should propose a specific one",
+      "owner": "Consultant",
+      "date": "Not set: 'the week after the close', with the close in the first week of the month (so mid-January 2027 on the stated pattern)"
+    },
+    {
+      "quote": "I'll dig it out and send it round.",
+      "what": "Circulate the SOP's billing section, which covers the two-milestone explanation, to the people who need it",
+      "owner": "Jordan Pruitt",
+      "date": "Not set"
+    },
+    {
+      "quote": "I'll lean on them. Gently.",
+      "what": "Chase the four Des Moines PMs to keep their own allocations current, so the staffing data is trustworthy before the structural-hire decision",
+      "owner": "Jordan Pruitt",
+      "date": "Not set; before Tess's decision in January"
+    },
+    {
+      "quote": "When you and Tess want to look at it properly, we'll start with a conversation about it rather than me building something.",
+      "what": "Soft commitment: if and when the client wants to take the consultant-invoice need forward, it starts with a discovery conversation, not a build",
+      "owner": "Consultant, at the client's initiative",
+      "date": "Not set"
+    }
+  ],
+  "traps": [
+    "'Consultants' on this call means the client's outside engineering firms (civil, landscape, acoustical, a commissioning agent), not the Consultant speaking. Jordan says so himself: 'Our outside ones, I mean, not you.' Do not attribute the seed to the Consultant's own fees, and do not let the word collide with the speaker label in any output.",
+    "The reported problem is user error, not a defect and not a change request. The Harwood CDs phase has two milestone items because the controller said CDs bill twice (s3, 00:20:21), both were named 'CD set', the PM marked one and Jordan read the other, and the automation fired correctly on the row that changed. requested_changes is empty on purpose: do not open a v1.1, a bug, a defect log or a blueprint change from it.",
+    "Renaming the two milestone items is the client's own housekeeping, which Jordan says he will do that afternoon, and the Consultant explicitly confirms it breaks nothing. Do not record it as a requested change, a build task or a consultant deliverable.",
+    "P6 is a seed, not a build trigger. It is Stated and Concrete but its Workaround is only Partial, because the client says the current way is fine and not urgent, so it is not excavated and the blueprint gate stays shut for it. should_plugin_propose_a_build is false. Proposing a board, a blueprint or even a sketch for consultant invoices is the main failure to catch here.",
+    "Do not turn realized value into numbers. 'I got my Monday back' and 'The Tuesday call was twenty-two minutes last week.' are descriptions, not cost inputs. The bleed stays at the s1 figure of $504,920, no saving is calculated, no percentage is derived, and none of it appears in client-facing material.",
+    "'Most of an afternoon' is a loose duration for one incident. Do not convert it to four hours, do not pair it with a rate, and do not build a bleed for P6 from it plus the consultant counts.",
+    "R10 is Partial, not Met and not Missing: the next step has a purpose, an owner and a window (the week after the controller's close) but no date and no time, because Jordan asks the Consultant to pick. Flag it, and propose a specific time in the recap rather than accepting the window.",
+    "The account is Enterprise and Work Management is in scope, yet no portfolio exists and none should be added. The amendment's default has an exception, and it is on the record: the portfolio was deliberately left out at the scoping session with the reason recorded, which is what the Consultant confirms at L67. Tess's passing enquiry is explicitly not a request ('She was asking, not asking for it'). A plugin that now 'corrects' the missing portfolio has the amendment backwards.",
+    "A support call is graded with the short version (spec 6.4), not by re-running a full discovery rubric. The cumulative R statuses are still carried in the record, but the five short items are the instrument for this call, and their evidence is the Consultant's own lines, because they grade conduct rather than disclosure.",
+    "The engagement is past v1.0 sign-off, so R11, R12 and the v1.0 sign-off gate are Met for the first time in this set. The sign-off demo has no transcript here, the same way the v0.1 walkthrough has none in s3: those confirmations are carried, not quoted from this file.",
+    "R12 Met means the pricing-or-proposal-prep gate is open on method grounds for the first time in the set. It still produces nothing, because pricing and proposal prep are deferred beyond v1 and nobody asked. No price, no ballpark, no ROI sheet, no expansion quote.",
+    "Jordan reporting the controller's behaviour at close ('the first thing she does at close now is open the phases and filter to ready to invoice') is secondhand. She is not on this call, so it does not count as evidence for P5 or as a confirmation, exactly as relayed approver remarks did not count in s3.",
+    "Gordon asking what was left of a consultant's fee shows the approver has an interest in P6. That is an internal note about who might sponsor a future expansion, not evidence of a pain, and not a licence to pitch or to name him in client-facing material.",
+    "P3, fee burn seen too late, gets no confirmation at all on this call. Do not infer one from the general good news, and do not report every pain as re-confirmed.",
+    "Do not merge this seed with the other open items. The backlog already holds automatic addenda pulls from the bid portals (s3) and owner approvals (deferred since s1), and the portfolio decision is a recorded decision to revisit, not a request. They are four separate things.",
+    "Ajera stays one direction and read-only. The seed's natural shape touches money that lives in Ajera as payables, so the tempting answer is a write-back or a two-way sync. That breaks the controller's stated condition (the controller's condition, s3 00:14:44: 'nothing, ever, writes back into Ajera'; confirmed in live use at L50) and the IT provider's standing check; if the seed is ever built, Ajera still only gets read, and what it reads, and how often, is unresolved until the controller is asked.",
+    "Outside consulting firms are suppliers, not owners. They must never be added to the native CRM Accounts board, which holds school districts, cities and counties, and no look-alike 'Consultants' CRM board should be created either. If built, this is Work Management next to the jobs.",
+    "Capitalised 'Monday' is the weekday throughout ('I got my Monday back', 'Monday mornings', 'Every Monday morning'), and the product is never named in this transcript. Do not read a product mention into it.",
+    "Internal-only remarks on this call that must not reach the recap, the SOP, the boards or any message: 'And she'd never say this to you' about the controller; 'I would not have put money on that' about Karen; 'people moan about having to update their own rows'; 'So the fault is that I can't read.'; and the 'menace' joke, however friendly.",
+    "Flag, do not remove (legitimate volume and process facts worth checking before they go into an SOP): about forty submittals a month across eleven or twelve jobs in CA; four Des Moines people with a fifth in February; four pursuits logged by the Des Moines PIC with one short-listed; two addenda logged; a twenty-two-minute staffing call; a close in the first week of each month; two to three outside consultants per job and four on a school.",
+    "The call date is not stated. Des Moines being 'a month and a bit' old, the sign-off being in the past, the watch items running 'between now and the new year' and the hire decided 'in January' fit Tuesday December 8, 2026. Commitments due 'this afternoon' are relative to that unstated date, and 'January' belongs to Tess's hiring decision, not to the seed."
+  ],
+  "requested_changes": [],
+  "should_plugin_propose_a_build": false,
+  "expected_questions_before_building": [
+    "Nothing should be built from this call. The list below is the pool for a future discovery conversation about the outside consultant need, in priority order, if and when the client asks for one. It is not a list to send now, and asking it now would turn a support call into a pitch.",
+    "What stops you carrying on the way you do it now? (The Workaround gap: the client called the current process fine and not urgent, so this is the question that decides whether there is anything to build at all.)",
+    "Who else ends up dealing with this, and how often does someone need an answer about a consultant's remaining fee? (Reach and frequency, so a cost can be worked out with the client rather than guessed.)",
+    "What does this look like next year, once Des Moines is running its own municipal jobs with their own outside consultants? (Trajectory, which nobody has touched.)",
+    "What would you want to see on a consultant's record: the agreed fee, what has been invoiced, what has been paid, what is outstanding, and the markup where it is billed through to the owner?",
+    "Where does the agreed fee come from, and does it change by amendment during a job?",
+    "Should this hang off the job, off the phase, or off both, given that consultant scopes often span phases?",
+    "Who approves a consultant invoice today, and should that approval be recorded in monday or stay in email?",
+    "Ajera holds the payables. What may be read from it, how often, and is it accepted that nothing writes back, as with hours and phase fees?",
+    "Who may see consultant fees, markups and outstanding amounts? The same group as milestone amounts (PMs, PICs, finance and Tess), or narrower?",
+    "Does anything need to start at the pursuit, given that districts want consultant agreements in with the proposal?",
+    "Is this worth doing before or after the other open items (automatic addenda pulls, owner approvals), and is there a date that matters?"
+  ],
+  "expected_verdict": {
+    "verdict": "Discovery complete",
+    "gates_met": [
+      "Solution blueprint (R1 and R2 Met since s1; the built solution is signed off and in live use)",
+      "Build (no extra method gate; the build is complete and no new build is proposed on this call)",
+      "First demo (v0.1): shown September 24 and superseded by v0.2 and the sign-off",
+      "Pricing or proposal prep (R4, R7 and R12 all Met, so the method gate is open for the first time in the set; nothing priced is produced anyway, because pricing and proposal prep are deferred beyond v1 and nobody asked)",
+      "v1.0 sign-off (R6 success criteria agreed and R11 Met for every in-scope pain at the sign-off on October 22; this call adds live-use confirmation)"
+    ],
+    "gates_not_met": [],
+    "note": "The grading instrument for this call is the method's short support-call version (spec 6.4), and all five of its items are met: the issue was solved first, what the fix prevents was named in plain terms and without the money figure behind it, one forward-looking question was asked before the end, it produced a specific seed the Consultant committed to logging as stated, and the call closed with two concrete things to keep an eye on. The cumulative rubric is carried rather than re-run: every criterion is Met except R10, which is Partial because the next step has an owner and a window but no date or time. All five stage gates are open for the first time in the fixture set, which is a fact about the engagement, not permission to act: no build is proposed (P6 is not excavated), no price or proposal is produced (deferred beyond v1), and no portfolio is added (the Enterprise default was set aside at scoping with the reason recorded). The expected output is a short call summary, a backlog entry for the consultant-invoice seed in the client's words, a recap that proposes a specific date and time for the next check-in, and the two watch items."
+  },
+  "account_context": {
+    "tier": "Enterprise",
+    "products_enabled": [
+      "monday Work Management: Jobs, Phases with invoice milestones, Staff allocation with its workload view, and the firm-wide Submittals log",
+      "monday CRM: pursuits on the native Deals/Opportunities board and owners on the native Accounts board, both relabelled to the client's words",
+      "Enterprise plan, bought so that everyone could sign in with their Microsoft account, which the IT provider made a condition",
+      "No monday Service and no monday Dev; neither was bought and nothing on this call calls for either"
+    ],
+    "existing_monday_setup": "A live, paid account with the delivered solution in daily use across four offices, seven weeks after the v1.0 sign-off on October 22, 2026. This field is the reference for what exists, since there is no separate context file for the sign-off version. One workspace holds: pursuits on the account's native CRM Deals/Opportunities board, with the client's stages (logged, go/no-go, go, no-go, submitted, short-listed, interview, won, lost), fee sign-off labels (not ready, ready for sign-off, signed off, sent back), addenda logged per pursuit, the bid portal link and registered portal contacts, the New pursuit form including the portal-registration question, and the saved 'due in the next two weeks' view that Tess opens each Monday; owners on the native Accounts board; Jobs, where one project can carry several Ajera jobs and job types vary; Phases, with phase status (not started, in progress, on hold, complete), phase fee, imported hours, burn at billing rates, and invoice milestones as separate items carrying the milestone in words, the amount, a status of not reached, ready to invoice or invoiced, the invoice date and the Ajera invoice number, with no paid status and amounts restricted to PMs, PICs, finance and Tess; Staff allocation with the workload view that replaced the Wall, including a Des Moines group that now has people in it; and a firm-wide Submittals log carrying the client's four stamp actions and per-job review windows. Two automations run: notify the PIC, PM and marketing when an addendum is logged, and notify the controller when a milestone is marked ready to invoice. A weekly one-way, read-only Ajera import lands hours and phase fees on Monday mornings, with nothing writing back. There is a client-facing SOP whose billing section explains milestone billing, including that a CDs phase can carry two milestones. No portfolio and no connected projects exist: that was decided at the scoping session on September 29 and the reason was recorded. The Firm overview dashboard was removed at v0.2 and was not rebuilt. So this is the first fixture with a real account to audit and extend rather than provision, and the plugin should read the client record and the live account before touching anything, run the change check before any write, and change nothing at all on this call.",
+    "evidence_quote_or_null": "That was Marcus's condition for the whole thing, and it's why we ended up on the enterprise plan in the first place."
+  },
+  "expected_structures": {
+    "native_boards_required": [
+      {
+        "product": "crm",
+        "entity": "Deals/Opportunities",
+        "why": "Already in use and working: pursuits live on the account's native Deals/Opportunities board, relabelled to the client's word, with their own stages, the fee sign-off column, addenda, the form and the saved two-week view. This call confirms it in live use (four Des Moines pursuits with one short-listed, two addenda logged and notified, Tess in the saved view every Monday). The audit expectation is to verify pursuits are still on the native board and were never migrated to a look-alike, not to build anything."
+      },
+      {
+        "product": "crm",
+        "entity": "Accounts",
+        "why": "Already in use: owners, meaning the school districts, cities and counties that buy the work, sit on the native Accounts board with pursuits and jobs hanging off them. The live risk on this call is additive rather than structural: the outside consulting firms in the new seed are suppliers and must never be added here, and no parallel 'Consultants' account board should be created if the seed is ever built."
+      },
+      {
+        "product": "crm",
+        "entity": "Contacts",
+        "why": "Still the open question it was in s1 and s3. Named people on the owner's side exist (a district's facilities director, a school board, GC contacts) but the client has never asked to keep them in monday, and nothing on this call changes that. If contacts are ever added they go on the native Contacts board; consultant firm contacts would raise the same question separately."
+      }
+    ],
+    "portfolio_expected": false,
+    "portfolio_reason": "The account is Enterprise and Work Management is in scope, so a portfolio with connected projects would be the default under the amendment. The documented exception applies and is on the record: at the scoping session on September 29 the portfolio was deliberately left out of v1 and the reason was recorded, so jobs and phases are connected boards with roll-up views instead. Jordan raises it on this call only because Tess asked him to ('the portfolio thing from scoping'), and the Consultant restates the decision rather than reopening it; Jordan then makes the status explicit, 'She was asking, not asking for it.' So portfolio_expected is false for this call: nothing portfolio-shaped is built, the decision and its reason stay recorded, and it remains an item to revisit when there is an actual cross-office reporting need, most plausibly when Des Moines has enough jobs to report on. Adding a portfolio now, or treating the Enterprise tier as a reason to override the recorded decision, is the failure this field is here to catch.",
+    "lookalike_traps": [
+      "Creating a 'Consultants' or 'Subconsultants' board on the native CRM Accounts board, or adding outside engineering firms as accounts alongside school districts and cities, because both are organisations the firm deals with.",
+      "Building anything at all for the seed. The most likely error on this call is not a look-alike but a build: a consultant invoice board, a blueprint or an automation proposed off a pain that is not excavated.",
+      "Re-creating a 'Pursuits' or 'Owners' board as new Work Management boards during any later change, instead of leaving pursuits and owners on the native CRM boards they already occupy.",
+      "Treating the two same-named milestone items as duplicates to be merged or cleaned up, when they are two legitimate milestones on one phase and only need distinct names.",
+      "Rebuilding the Firm overview dashboard that was deliberately removed at v0.2, or adding a new dashboard to 'help' with the consultant question.",
+      "Adding a portfolio, or converting Jobs into projects under one, on the strength of the Enterprise tier alone."
+    ],
+    "notes": "Nothing should be created, renamed or deleted as a result of this call. The CRM half stays on the native boards it already occupies, and the Work Management half stays as built; the only change to anything is Jordan renaming two item names himself, which is client housekeeping. If the consultant-invoice seed is ever taken forward, it belongs in Work Management beside the jobs and phases, with restricted amount columns and a read-only relationship to Ajera (the controller's condition, s3 00:14:44: 'nothing, ever, writes back into Ajera'; confirmed in live use at L50), with what it reads left open, and it needs its own discovery conversation first. Service extras and Dev remain outside v1. Any future write to this account still runs the change check first, and any automation added later is approved as part of one list that names its trigger, conditions, action and exact recipients, and says that API-created automations cannot be switched off through the API."
+  },
+  "accepted_behaviours": [
+    "Grading this call with the five short support-call items and saying so, rather than producing a full discovery grade. Carrying the cumulative R statuses alongside them is expected; re-deriving them from this transcript alone is not.",
+    "Recording all five short items as met, in any wording, provided the evidence points at the Consultant's conduct (issue first, what the fix prevents, the forward-looking question, the seed, the watch items) and the resolution rests on the client's own confirmation.",
+    "Treating the reported problem as user error with no change to the build: no defect, no v1.1, no blueprint change, and an empty requested_changes list. Recording the two-milestone explanation as an SOP or how-to point instead is acceptable, as is noting that Jordan renamed the items himself.",
+    "Logging the outside consultant need to the backlog in the client's own words with its source, and proposing no build, no boards, no blueprint and no price. Offering a future discovery conversation at the client's initiative is acceptable; scheduling or pitching one on this call is not.",
+    "Grading P6 as not excavated, whether the Workaround is read as Partial (as here) or the Reach and Cost inputs are read slightly differently, as long as the conclusion is a seed rather than a build and the gap questions are recorded for later.",
+    "Keeping the bleed and upside exactly as s1 established them, with no revision, no realized-saving figure and no percentage derived from 'I got my Monday back' or the twenty-two-minute staffing call.",
+    "Grading R10 Partial and proposing a specific date and time in the recap, with sending the invite left as an open to-do. Grading it Met is wrong, and so is grading it Missing.",
+    "Reporting that all five stage gates are open while still producing no build, no price and no proposal, and saying plainly why: P6 is not excavated, and pricing and proposal prep sit outside v1.",
+    "Leaving the portfolio out, restating the recorded scoping decision and its reason, and keeping it as an item to revisit. Treating Tess's question as a request, or adding a portfolio because the tier is Enterprise, is not acceptable.",
+    "Reading 'consultants' as the client's outside engineering firms throughout, and keeping them off the native CRM Accounts board in any future design.",
+    "Preserving the Ajera rule in anything it says about the seed: read-only, one direction, nothing writes back (the controller's condition, s3 00:14:44: 'nothing, ever, writes back into Ajera'; confirmed in live use at L50), with payables staying in Ajera, and what would be read left open.",
+    "Treating Jordan's report of the controller's habits, and Gordon's question about a consultant's fee, as secondhand context that shapes questions but never counts as evidence or confirmation.",
+    "Producing a short call summary, a backlog entry, a recap that proposes a concrete next time, and the two watch items, with none of the internal remarks about colleagues reaching the recap, the SOP, the boards or any message.",
+    "Noting that P3 (fee burn) was not confirmed on this call, rather than reporting a blanket confirmation of everything.",
+    "Working and writing in English only."
+  ],
+  "expected_leak_blocklist": [
+    "Everything on the s1 and s3 block lists still applies to this client, because the record is cumulative. In particular the bleed total in every form (504920, 504,920, $504,920, 504k, 'five hundred and four thousand'), its components (360360, 112320, 32240, 'three-sixty', 'one-twelve'), the upside figures (283140, 'Two-eighty-ish', the $800k to $1.2M healthcare range), the loaded and bill rates (105, 90, 62, 165, 'loaded', 'blended'), and the cost inputs behind the math (3 hours a week per PM, 66 hours, 24 hours, 12 hours on the Wall, 10 hours a week, x52).",
+    "Write-off and loss amounts carried from the record: about $210k a year firm-wide, the $38k Rockford DD write-off, and the roughly $1.4M Larkspur Falls fee, along with any retelling of that pursuit as a loss the firm caused.",
+    "The Harwood invoice figure and its framing from s3: 'sixty-some thousand just sitting there', seven weeks late, and 'That was sixty-some thousand just sitting there.' The Consultant deliberately kept the money out of the spoken version on this call, and it must stay out of the recap, the SOP and the boards. Harwood may be named as a job; its late invoice may not be quantified.",
+    "Realized-value arithmetic of any kind: 'I got my Monday back' turned into hours or money, the twenty-two-minute staffing call compared with the old hour as a saving, any percentage, payback, ROI or 'you have already saved' claim, and any before-and-after figure built from the bleed.",
+    "Remarks by client staff about colleagues, all of which appear on this call: 'And she'd never say this to you'; 'She used to send eleven emails and wait.'; 'Karen uses it. I would not have put money on that.'; 'people moan about having to update their own rows'; 'Tess brings it up at every leadership meeting like she invented it.'; and anything implying a named person resisted, was wrong or had to be won over.",
+    "Self-deprecation and blame about the reported issue: 'it might be me', 'So the fault is that I can't read.', and any write-up that identifies the PM who marked the row or names Jordan as the cause. The SOP explanation must be neutral and about the two milestones, not about who misread what.",
+    "The 'menace' joke and the closing banter, however friendly, and any informal aside from this call reused as a quote in client-facing material.",
+    "Stakeholder assessments and decision power carried forward: the $25k threshold and 'anything over twenty-five thousand, Gordon signs'; the controller's effective veto; what Gordon cares about; the IT provider being 'more of a checklist'. Gordon's interest in the consultant question is internal too: do not tell the client that the approver has been identified as a sponsor for an expansion.",
+    "Objection text and the objection names themselves: 'It isn't urgent. It's just the next thing, I think.' used as a timing objection, the adoption signal at L46, and the labels wrong time, team won't adopt it, must check with someone.",
+    "Backlog and expansion framing: the seed described as an opportunity, an upsell, a phase two, a land-and-expand or a next engagement. A neutral 'possible next improvements' list is fine only if the Consultant asks for one, and then without sales framing.",
+    "Readiness and gate language: R1-R12 and their names, P6 and any pain ID, 'Discovery complete', met/partial/missing, excavated, gate, gap question, and any statement about the client's discovery being complete.",
+    "Method vocabulary and markers: bleed, upside, callback, exit ramp, seed, readiness, support-call check, and the [found] and [inferred] markers.",
+    "Internal artefacts: the call summary, this transcript and its line numbers, the client record, log and backlog, the demo scripts from earlier versions, and any 'if asked' or 'do not show' note.",
+    "Pricing material of any kind, even though the pricing gate is now open on method grounds: rates, day rates, totals, discounts, an expansion estimate for the consultant work, or cost-of-waiting math built from the bleed.",
+    "Alternatives in play from s3: the bigger Chicago firm that also demoed, its proposal, and Tess's comparison of the two. It must never appear in client-facing material, and no other client's name, data or example may be used.",
+    "Consulting brand and product names: the consultant appears as 'Consultant' only, with no plugin, tool or brand name in the account or in client-facing text. Note the collision on this call: 'consultants' is the client's word for their outside engineering firms and is legitimate in client-facing text in that sense only.",
+    "Confidential client data that must not reach boards, seed data or SOPs: loaded rates and salaries in any form; write-off amounts per job; milestone and consultant amounts outside the restricted group; consultant markups billed on to public owners; and anything about the county jail addition's security layout.",
+    "Flag, do not remove (legitimate volume and process facts, worth checking with the Consultant before they go into an SOP): about forty submittals a month across eleven or twelve jobs in CA; two to three outside consultants per job and four on a school; four Des Moines people with a fifth starting in February; four pursuits logged there with one short-listed; two addenda logged; the twenty-two-minute staffing call; the close in the first week of each month; the weekly Monday-morning Ajera import.",
+    "Public-records caution: anything written about a school district job, including item names, updates and any future consultant records, can end up in a records request, so remove internal asides, blame and informal remarks even when they are not listed above."
+  ],
+  "readiness": {
+    "schema": "readiness/1",
+    "note": "Derived from this key's pains, entities, products, structure, forks and questions in the fixture fix pass of 2026-10-13. Structure assertions stay provisional until the user has seen a real build (FEEDBACK, top). The key's `should_plugin_propose_a_build: false` answers the v2 sales question; the clearance here is `not-yet` by the readiness definitions, so the two agree, for the reason given under verdict. The questions are for the conversation the client asks for (L65), not for the recap of this call. P7 is the key's seventh pains entry, which the key itself calls not a pain; it is carried so every entry of the key is present, and its element is the delivered build read with distinct names. The call states no goal in the client's own words: the one wanted outcome, knowing what's left on the outside consultants' fees, is the client choosing between two options our side put to him (L61, L62), so the questions carry it.",
+    "goals": [],
+    "pains": [
+      {
+        "id": "P6.1",
+        "quote": "Hm. The consultants, probably. Our outside ones, I mean, not you.",
+        "location": "L54, Jordan Pruitt (Operations Manager)",
+        "speaker_role": "Operations Manager",
+        "stated_or_excavated": "stated",
+        "outcome": "Knowing what's left."
+      },
+      {
+        "id": "P6.2",
+        "quote": "Nobody can tell you what's left.",
+        "location": "L58, Jordan Pruitt (Operations Manager)",
+        "speaker_role": "Operations Manager",
+        "stated_or_excavated": "stated",
+        "outcome": "Knowing what's left."
+      },
+      {
+        "id": "P6.3",
+        "quote": "Gordon asked me last week how much of Fenwick's fee was left on the fire station, and it took me most of an afternoon.",
+        "location": "L58, Jordan Pruitt (Operations Manager)",
+        "speaker_role": "Operations Manager",
+        "stated_or_excavated": "stated",
+        "outcome": "Knowing what's left."
+      },
+      {
+        "id": "P6.4",
+        "quote": "The PM is meant to check the invoice against what we agreed with them, approve it, and pass it to Bev, and she enters it in Ajera and pays it.",
+        "location": "L56, Jordan Pruitt (Operations Manager)",
+        "speaker_role": "Operations Manager",
+        "stated_or_excavated": "stated",
+        "outcome": null
+      },
+      {
+        "id": "P6.5",
+        "quote": "It's that there's no total anywhere except in Bev's head and in Ajera, and Ajera tells you what we've paid them, not what we still owe them.",
+        "location": "L62, Jordan Pruitt (Operations Manager)",
+        "speaker_role": "Operations Manager",
+        "stated_or_excavated": "stated",
+        "outcome": "Knowing what's left."
+      },
+      {
+        "id": "P6.6",
+        "quote": "And on some jobs we mark them up and bill them through to the owner, so it isn't only our own money we're keeping track of.",
+        "location": "L60, Jordan Pruitt (Operations Manager)",
+        "speaker_role": "Operations Manager",
+        "stated_or_excavated": "stated",
+        "outcome": null
+      },
+      {
+        "id": "P7",
+        "quote": "One line that tells me where the money is on that phase. Phase, milestone, invoiced, done.",
+        "location": "L16, Jordan Pruitt (Operations Manager)",
+        "speaker_role": "Operations Manager",
+        "stated_or_excavated": "stated",
+        "outcome": "One line that tells me where the money is on that phase."
+      }
+    ],
+    "signals": [
+      {
+        "quote": "the first thing she does at close now is open the phases and filter to ready to invoice",
+        "location": "L36, Jordan Pruitt (Operations Manager)",
+        "pain": "P5 (carried from s3; not among this key's pains)",
+        "not_confirmed": "the controller's own account of her close; she is not on the call, so this is secondhand and counts for nothing until she says it herself"
+      },
+      {
+        "quote": "Gordon asked me last week how much of Fenwick's fee was left on the fire station",
+        "location": "L58, Jordan Pruitt (Operations Manager)",
+        "pain": "P6.3",
+        "not_confirmed": "whether the managing partner wants this answered routinely or asked once; nobody asked, and he is not on the call"
+      },
+      {
+        "quote": "Marcus asks me about once a fortnight whether anything writes back the other way and I tell him no, same as last time. He likes hearing it.",
+        "location": "L50, Jordan Pruitt (Operations Manager)",
+        "pain": "P6.5",
+        "not_confirmed": "what the IT provider would say to any read of consultant payables from Ajera; his check is relayed and his view on the consultant-fee need was never asked"
+      },
+      {
+        "quote": "the district usually wants the consultant agreements in with the proposal, so it starts back at the pursuit",
+        "location": "L60, Jordan Pruitt (Operations Manager)",
+        "pain": "P6.1",
+        "not_confirmed": "whether a consultant agreement should be recorded at the pursuit stage; our side did not follow it up"
+      },
+      {
+        "quote": "Tess asked me to ask you about the portfolio thing from scoping. For looking across the four offices.",
+        "location": "L66, Jordan Pruitt (Operations Manager)",
+        "pain": "none (a recorded scoping decision, not a pain)",
+        "not_confirmed": "the COO's own reason, if she has one; Jordan says she was asking, not asking for it, and only Jordan was asked"
+      }
+    ],
+    "entities": [
+      {
+        "name": "owner (school district, city, county)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L60, Jordan Pruitt (Operations Manager)"
+      },
+      {
+        "name": "pursuit (on the native Deals/Opportunities board)",
+        "parent": "owner",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L44, Jordan Pruitt (Operations Manager)"
+      },
+      {
+        "name": "addendum",
+        "parent": "pursuit",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L46, Jordan Pruitt (Operations Manager)"
+      },
+      {
+        "name": "New pursuit form",
+        "parent": "pursuit",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L44, Jordan Pruitt (Operations Manager)"
+      },
+      {
+        "name": "saved two-week pursuits view",
+        "parent": "pursuit",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L48, Jordan Pruitt (Operations Manager)"
+      },
+      {
+        "name": "job",
+        "parent": "owner",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L28, Jordan Pruitt (Operations Manager)"
+      },
+      {
+        "name": "phase",
+        "parent": "job",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L10, Jordan Pruitt (Operations Manager)"
+      },
+      {
+        "name": "invoice milestone item (one per milestone; a CDs phase can carry two)",
+        "parent": "phase",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L20, Jordan Pruitt (Operations Manager)"
+      },
+      {
+        "name": "Ajera import of hours and phase fees (weekly, Monday mornings)",
+        "parent": "phase",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "L50, Jordan Pruitt (Operations Manager)"
+      },
+      {
+        "name": "person (staff across the four offices)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": true,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L4, Jordan Pruitt (Operations Manager)"
+      },
+      {
+        "name": "staff allocation row",
+        "parent": "person",
+        "moves_independently": "yes",
+        "shared_resource": true,
+        "goes_stale": true,
+        "source": "documented",
+        "evidence": null
+      },
+      {
+        "name": "Des Moines office (a group on Staff allocation)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L6, Jordan Pruitt (Operations Manager)"
+      },
+      {
+        "name": "submittal",
+        "parent": "job",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L42, Jordan Pruitt (Operations Manager)"
+      },
+      {
+        "name": "month-end close (the controller's, first week of each month)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L76, Jordan Pruitt (Operations Manager)"
+      },
+      {
+        "name": "outside consulting firm (civil, landscape, acoustical, commissioning)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L54, Jordan Pruitt (Operations Manager)"
+      },
+      {
+        "name": "consultant agreement (one per firm per job; on school work it can start at the pursuit)",
+        "parent": "job",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L56, Jordan Pruitt (Operations Manager)"
+      },
+      {
+        "name": "consultant invoice (emailed PDF; received, checked, approved, entered in Ajera, paid)",
+        "parent": "consultant agreement",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L56, Jordan Pruitt (Operations Manager)"
+      },
+      {
+        "name": "what is left of a consultant's fee (derived from the agreement and its invoices)",
+        "parent": "consultant agreement",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "L62, Jordan Pruitt (Operations Manager)"
+      },
+      {
+        "name": "markup billed through to the owner",
+        "parent": "consultant invoice",
+        "moves_independently": "unknown",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "L60, Jordan Pruitt (Operations Manager)"
+      },
+      {
+        "name": "SOP billing section (the two-milestone explanation)",
+        "parent": null,
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "L74, Jordan Pruitt (Operations Manager)"
+      }
+    ],
+    "structure": {
+      "products": [
+        "Work Management",
+        "CRM"
+      ],
+      "build_target": "client-account",
+      "build_target_reason": "existing customer with a live account of their own (A21)",
+      "workspaces": [
+        "the delivered workspace (one workspace holding the CRM and Work Management boards; its name is not in the record), continued under A21; no new workspace is planned from this call"
+      ],
+      "native_reuse": "CRM: the native Deals/Opportunities board (pursuits, relabelled) and the native Accounts board (owners), both already in use; Contacts still unused and still an open question; outside consulting firms never on Accounts and no look-alike board for them. Work Management: the delivered Jobs, Phases, Staff allocation and Submittals boards, as built.",
+      "leanings": [
+        {
+          "question": "If the consultant-fee need is ever taken forward, is a consultant's fee one number on the job row, or an agreement with its invoices as child rows?",
+          "option": "An agreement per outside consultant per job as the parent row (agreed fee, the agreement file, the discipline), each invoice as a child row (received, checked against the agreement, approved, entered in Ajera, paid, and whether it is marked up and billed through), with what is left rolling up on the agreement from the agreed fee less the invoices. One remaining-fee number typed on the job row would copy today's afternoon of adding up PDFs and go stale with the next email. Nothing is built from this call; this is the shape to test in the conversation the Consultant committed to.",
+          "quotes": [
+            "We sign an agreement with each of them for their piece, and then their invoices come in as PDFs, by email, usually to the PM and sometimes straight to Bev.",
+            "It's that there's no total anywhere except in Bev's head and in Ajera, and Ajera tells you what we've paid them, not what we still owe them.",
+            "And on some jobs we mark them up and bill them through to the owner, so it isn't only our own money we're keeping track of."
+          ],
+          "locations": [
+            "L56, Jordan Pruitt (Operations Manager)",
+            "L62, Jordan Pruitt (Operations Manager)",
+            "L60, Jordan Pruitt (Operations Manager)"
+          ],
+          "condition": "The client asks for the conversation (L65). In it: whether the agreed fee changes by amendment during a job; whether the agreement hangs off the job, the phase, or starts on the pursuit (L60); and what may be read from Ajera and how often, with the controller's no-write condition from s3 standing and staying clear of Ajera as our safe default, labelled as ours.",
+          "pattern": "one row where the call describes many"
+        },
+        {
+          "question": "Is anything to be built for the consultant-fee need at all?",
+          "option": "Nothing. The client calls the approving fine and the whole thing not urgent, and our side committed on the call to a conversation before any build. The need stays recorded with no element aimed at it, which is a finding, not an omission.",
+          "quotes": [
+            "Knowing what's left. The approving is fine, honestly, it's email and it works.",
+            "Appreciated. It isn't urgent. It's just the next thing, I think."
+          ],
+          "locations": [
+            "L62, Jordan Pruitt (Operations Manager)",
+            "L64, Jordan Pruitt (Operations Manager)"
+          ],
+          "condition": "The client's answer, in the conversation they ask for, to what stops them carrying on the way they do it now. Until then nothing is cleared.",
+          "pattern": "a pain with no element that fixes it"
+        },
+        {
+          "question": "Do the two same-named milestone items on a CDs phase need a change to the build?",
+          "option": "No. The phase correctly carries one item per milestone, each with its own amount and status; the only flaw was two rows with the same name, which Jordan renames himself. A phase that bills once keeps one row and no placeholder. The naming convention lives in the SOP's billing section, not in a new element.",
+          "quotes": [
+            "One says invoiced, and there's a date and an invoice number next to it. The other says not reached. And -- oh. They're both called CD set.",
+            "Then that's what I'm doing this afternoon. CDs fifty percent set, CDs hundred percent set. Every job in CA."
+          ],
+          "locations": [
+            "L20, Jordan Pruitt (Operations Manager)",
+            "L28, Jordan Pruitt (Operations Manager)"
+          ],
+          "condition": "The rename is done on every job in CA (the first watch item, L69), and the next check-in shows whether anyone else misreads a two-milestone phase.",
+          "pattern": "one row where the call describes many"
+        },
+        {
+          "question": "Does anything show when a Des Moines allocation row was last updated, before the COO reads the workload view for the January hire decision?",
+          "option": "Nothing in the record says so. The leaning is a last-updated stamp per allocation row, or a view of rows untouched for two weeks grouped by office, so the January reading carries its age. It is proposed by us, not asked for by the client, and is not built from this call; Jordan chasing the four PMs is the client's own answer for now.",
+          "quotes": [
+            "January. She wants to decide in January.",
+            "I'll lean on them. Gently."
+          ],
+          "locations": [
+            "L70, Jordan Pruitt (Operations Manager)",
+            "L72, Jordan Pruitt (Operations Manager)"
+          ],
+          "condition": "Whether the four Des Moines PMs keep their rows current through December (the second watch item, L69). If they do, nothing is needed; if not, the COO says whether she wants the age shown before she decides.",
+          "pattern": "an artefact that can go stale with nothing to flag it"
+        }
+      ],
+      "patterns": [
+        "parent-row-with-roll-up: phase with invoice milestones as child items, each with its own amount and status; the phase fee and the imported hours on the parent (in the delivered build)",
+        "parent-row-with-roll-up: pursuit with addenda as child rows, current due date on the pursuit (in the delivered build, L46)",
+        "parent-row-with-roll-up: consultant agreement with invoices as child rows, what is left on the agreement (leaning 1 only; not built)"
+      ],
+      "element_per_pain": [
+        {
+          "pain": "P6.1",
+          "element": "none: nothing in the delivered build or in anything cleared by this record; leaning 1 holds the shape if the need is taken forward",
+          "verdict": "none"
+        },
+        {
+          "pain": "P6.2",
+          "element": "none: nothing in the delivered build or in anything cleared by this record; leaning 1 holds the shape if the need is taken forward",
+          "verdict": "none"
+        },
+        {
+          "pain": "P6.3",
+          "element": "none: nothing in the delivered build or in anything cleared by this record; leaning 1 holds the shape if the need is taken forward",
+          "verdict": "none"
+        },
+        {
+          "pain": "P6.4",
+          "element": "none: the client says the approving by email is fine and works, so no element is wanted for this step",
+          "verdict": "none"
+        },
+        {
+          "pain": "P6.5",
+          "element": "none: nothing in the delivered build or in anything cleared by this record; leaning 1 holds the shape if the need is taken forward",
+          "verdict": "none"
+        },
+        {
+          "pain": "P6.6",
+          "element": "none: nothing in the delivered build or in anything cleared by this record; leaning 1 holds the shape if the need is taken forward",
+          "verdict": "none"
+        },
+        {
+          "pain": "P7",
+          "element": "the existing invoice-milestone items on the Phases board, one per milestone with its own amount, status, invoice date and Ajera invoice number, readable once the two rows carry distinct names (Jordan's own rename; no change to the build)",
+          "verdict": "fixes"
+        }
+      ]
+    },
+    "existing": {
+      "account": "Enterprise, live and paid, one workspace with the delivered solution in daily use across four offices since the v1.0 sign-off (account_context.existing_monday_setup; the plan at L52). Pursuits on the native Deals/Opportunities board and owners on the native Accounts board; Jobs, Phases with invoice milestones, Staff allocation with the workload view, the Submittals log, the New pursuit form, the saved two-week view, two automations and the weekly Ajera import. No portfolio, by the scoping decision; the Firm overview dashboard removed at v0.2. The plugin reads this record and the live account before touching anything and changes nothing on this call.",
+      "incumbents": [
+        {
+          "system": "Ajera",
+          "authority": "stays system of record for: time entry, invoices and payments, consultant payables, job numbers, phase fees and hours ; follower for: nothing; the weekly import is one direction, Ajera into monday, and nothing writes back (the controller's condition, s3 00:14:44, confirmed in live use at L50); what would be read for the consultant-fee need, and how often, is unresolved, nothing from this call depends on it, and staying clear of Ajera is our safe default, labelled as ours",
+          "evidence": "L50, Jordan Pruitt (Operations Manager)"
+        },
+        {
+          "system": "Email / Outlook",
+          "authority": "stays system of record for: receipt and approval of outside consultant invoices, which the client calls fine ; follower for: nothing",
+          "evidence": "L56, Jordan Pruitt (Operations Manager)"
+        },
+        {
+          "system": "Public bid portals",
+          "authority": "stays system of record for: addenda, which are logged by hand on the pursuit ; follower for: nothing",
+          "evidence": "L46, Jordan Pruitt (Operations Manager)"
+        },
+        {
+          "system": "Microsoft 365",
+          "authority": "stays system of record for: identity and sign-in ; follower for: nothing",
+          "evidence": "L52, Jordan Pruitt (Operations Manager)"
+        },
+        {
+          "system": "Bluebeam",
+          "authority": "stays system of record for: submittal markup and stamps (carried from s1; not spoken on this call) ; follower for: nothing",
+          "evidence": null
+        }
+      ]
+    },
+    "assumptions": [
+      {
+        "statement": "If the consultant-fee need is ever built, it belongs in Work Management beside Jobs and Phases, not on a CRM board.",
+        "question": "Where should consultant agreements and invoices live, and next to what do people need to see them?",
+        "kind": "board-architecture",
+        "state": "assumed"
+      },
+      {
+        "statement": "Approval of a consultant invoice stays in email.",
+        "question": "Should the approval be seen in monday, or stay in email as it is now?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "Consultant fees, markups and outstanding amounts need the same restriction as milestone amounts.",
+        "question": "Who may see consultant fees, markups and outstanding amounts?",
+        "kind": "board-architecture",
+        "state": "assumed"
+      },
+      {
+        "statement": "Fenwick is one of the outside consulting firms; its discipline is not stated.",
+        "question": "Which firm is Fenwick, and which discipline does each firm cover on which jobs?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "'The fire station' at L58 is the fire station job named in s1.",
+        "question": "Which fire station job did the managing partner ask about?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "The imported hours on Phases show when they last landed; the record does not say.",
+        "question": "Does the Phases board show the import date beside the hours?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "An 'invoiced' status with an Ajera invoice number means the invoice exists in Ajera; the status is the controller's entry and the number is the tie-out, never confirmation from Ajera.",
+        "question": "Is the controller's own entry enough, or does anyone check the number back against Ajera?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "Any later addition for this client continues the delivered workspace rather than opening a new one (A21).",
+        "question": "Is the delivered workspace where the client wants any later addition, or does a product added later get its own?",
+        "kind": "board-architecture",
+        "state": "assumed"
+      },
+      {
+        "statement": "The next check-in falls in the second week of January 2027 on the stated pattern (the close in the first week of the month, the check-in the week after).",
+        "question": "Which day and time the week after the close suits Jordan? The recap proposes one.",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "Renaming the two milestone items to 'CDs fifty percent set' and 'CDs hundred percent set' is enough to stop the misreading.",
+        "question": "After the rename, does anyone else misread a two-milestone phase?",
+        "kind": "leaning",
+        "state": "assumed"
+      }
+    ],
+    "unmet_needs": [
+      {
+        "need": "Knowing what is left of an outside consultant's fee without pulling Ajera payments and adding up PDFs",
+        "clock": null,
+        "why_not_met": "stated on this call and set aside by the client as not urgent; our side committed to a conversation before any build; nothing is cleared from this call, and the need stays recorded with its questions"
+      },
+      {
+        "need": "Trustworthy staffing data for the structural-hire decision",
+        "clock": "January: the COO decides in January, so the data wants to be right in December",
+        "why_not_met": "answered by the delivered Staff allocation board only if the four Des Moines PMs keep their rows current; nothing flags a stale row (leaning 4); Jordan chases them"
+      },
+      {
+        "need": "A view across the four offices (the client's 'portfolio thing')",
+        "clock": null,
+        "why_not_met": "left out of v1 at the scoping session by a recorded decision; the COO was asking, not asking for it; it is revisited when there is a reason, most plausibly when Des Moines has enough jobs to report on"
+      }
+    ],
+    "ai_opportunities": [
+      {
+        "pain_or_need": "P6.2",
+        "kind": "ai_column",
+        "round": 2,
+        "probe_basis": "unprobed",
+        "idea": "If the need is ever built, an AI column reads each emailed invoice PDF on its child row for the consultant, the job, the invoice number and the amount, so nobody adds up PDFs by hand; the PM still checks it against the agreement."
+      },
+      {
+        "pain_or_need": "P6.3",
+        "kind": "agent",
+        "round": 2,
+        "probe_basis": "unprobed",
+        "idea": "An agent that answers what is left of a named consultant's fee on a named job from the agreement and its invoice rows, saying the as-of date and what is still in flight, instead of an afternoon in an inbox."
+      },
+      {
+        "pain_or_need": "unmet need 2 (staffing data for the January decision)",
+        "kind": "workflow",
+        "round": 2,
+        "probe_basis": "unprobed",
+        "idea": "A workflow that nudges a PM whose allocation rows have not changed in two weeks, by office, so the workload view carries its age before the COO reads it."
+      }
+    ],
+    "verdict": {
+      "cleared_for": "not-yet",
+      "conditions": [
+        "approval stop",
+        "A11-2 asked first (client-account target): sample data inside a live client account is asked before the first such build; nothing is built from this call, so it is not asked now, and the three A11 decisions stay open",
+        "the change check runs before any write to this account, and this call asks for no write: nothing is created, renamed or deleted by the plugin",
+        "the conversation about the consultant-fee need happens at the client's initiative (committed at L65), before any build",
+        "the next check-in is committed, not booked: the Consultant finds a slot the week after the controller's close and sends it; the recap proposes a date and time, and the invite stays an open to-do until sent",
+        "Jordan's rename of the milestone items is committed for the afternoon and done only on evidence"
+      ],
+      "reason": "The only new pain is the consultant-fee need, which the client set aside as not urgent and whose shape is wholly open, our side committed on the call to a conversation before any build, and the delivered build in the client's live account is confirmed in use and needs no change, so nothing new is cleared."
+    },
+    "questions": [
+      {
+        "text": "You said the approving is fine, it's email and it works, and that it isn't urgent. What, if anything, stops you carrying on the way you do it now with the outside consultants' fees?",
+        "kind": "read-back",
+        "role": "Operations Manager, with the COO",
+        "known": "The current process end to end (L56): an agreement per consultant, PDFs by email to the PM or the controller, a check against the agreement, approval by email, entry and payment in Ajera. One occurrence took most of an afternoon and the answer was approximate (L58)."
+      },
+      {
+        "text": "If a consultant's agreement were a row with its invoices under it, what would you want to see on it: the agreed fee and where it comes from, what has been invoiced, approved and paid, what is left, and the markup where it is billed through to the owner?",
+        "kind": "discovery",
+        "role": "Operations Manager and the controller",
+        "known": "Ajera shows what has been paid, not what is still owed (L62); some fees are marked up and billed through to the owner (L60); milestone amounts are restricted to PMs, PICs, finance and the COO (carried from s3)."
+      },
+      {
+        "text": "You said the district usually wants the consultant agreements in with the proposal, so it starts back at the pursuit. Should a consultant agreement hang off the job, off the phase, or start on the pursuit, and does the agreed fee change by amendment during a job?",
+        "kind": "read-back",
+        "role": "Operations Manager and a PM",
+        "known": "Two or three consultants on a typical job, four on a school, almost all school work with a civil and a landscape (L60). That scopes span phases is our assumption, not the client's statement."
+      },
+      {
+        "text": "You told Marcus nothing writes back the other way. For the consultant payables, what may be read from Ajera, and how often, with nothing writing back as before?",
+        "kind": "read-back",
+        "role": "the controller and the IT provider",
+        "known": "The weekly import lands hours and phase fees on Monday mornings (L50); the controller's condition from s3 is one direction, Ajera into monday; payables stay in Ajera. Staying clear of Ajera is our safe default, labelled as ours."
+      },
+      {
+        "text": "Who may see consultant fees, markups and outstanding amounts: the same group as milestone amounts, or narrower?",
+        "kind": "discovery",
+        "role": "COO and the controller",
+        "known": "Milestone amounts are restricted to PMs, PICs, finance and the COO (carried from s3); markups billed on to public owners are commercially sensitive, and anything on a school district job can end up in a records request."
+      }
+    ]
+  }
+}

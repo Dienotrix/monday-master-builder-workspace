@@ -1,0 +1,52 @@
+{
+  "goals": [
+    {
+      "id": "G1",
+      "goal": "Go after loans in: private collectors wanting a report every time it's touched",
+      "quote": "And honestly, the thing I'd go after is loans in.",
+      "location": "L196, 00:34:13 Constance Ayodele",
+      "speaker_role": "operations lead (client; approver up to twenty-five thousand)",
+      "pains": ["P1", "P2"]
+    },
+    {
+      "id": "G2",
+      "goal": "Get to next May with no claim: that's the win",
+      "quote": "And I want to get to next May with no claim.",
+      "location": "L200, 00:35:06 Constance Ayodele",
+      "speaker_role": "operations lead (client; approver up to twenty-five thousand)",
+      "pains": ["P1"]
+    },
+    {
+      "id": "G3",
+      "goal": "Next week's crates on a screen on a Monday morning, not the Friday whiteboard",
+      "quote": "I want to see next week's crates on a screen on a Monday morning, not on a whiteboard I wrote on a Friday.",
+      "location": "L201, 00:35:29 Margit Sowande",
+      "speaker_role": "warehouse and crate shop lead (client; end user; owner of the crate numbers, the whiteboard and the book)",
+      "pains": ["P3"]
+    },
+    {
+      "id": "G4",
+      "goal": "The pack knows the job changed; the packing list and forms drop the object first",
+      "quote": "I want the pack to know the job changed.",
+      "location": "L202, 00:35:44 Eamon Kilbride",
+      "speaker_role": "registrar (client; influencer and end user; the person who does the work on P1 and P2)",
+      "pains": ["P2"]
+    }
+  ],
+  "assumption_kinds": [
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "gap",
+    "gap",
+    "leaning",
+    "gap",
+    "leaning",
+    "gap",
+    "gap",
+    "gap"
+  ],
+  "note_add": null
+}

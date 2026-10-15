@@ -1,0 +1,55 @@
+{
+  "goals": [
+    {
+      "id": "G1",
+      "goal": "Install side working by September, before the first credit union branch (now 14 September)",
+      "quote": "First one's mid-September, so I want the install side working by September.",
+      "location": "rec-4418, 24:53 Wade Strickler (Owner)",
+      "speaker_role": "Owner",
+      "pains": ["P3.1", "P3.2"]
+    },
+    {
+      "id": "G2",
+      "goal": "One list on one screen: what's late and why, without walking out or calling Gwen",
+      "quote": "I want to look at one screen and know what's late and why.",
+      "location": "rec-4418, 27:25 Wade Strickler (Owner)",
+      "speaker_role": "Owner",
+      "pains": ["P1.1", "P1.3"]
+    },
+    {
+      "id": "G3",
+      "goal": "The floor sees its queue on the wall without her reading the board out",
+      "quote": "I want the floor to see the queue without me.",
+      "location": "rec-4418, 27:52 Gwen Tarrant (Production Manager)",
+      "speaker_role": "Production Manager",
+      "pains": ["P5.1"]
+    },
+    {
+      "id": "G4",
+      "goal": "The owner stops getting the branch managers' calls about installs",
+      "quote": "The win is I stop getting the branch manager's calls.",
+      "location": "rec-4418, 28:13 Wade Strickler (Owner)",
+      "speaker_role": "Owner",
+      "pains": ["P3.1", "P3.2"]
+    }
+  ],
+  "assumption_kinds": [
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "board-architecture",
+    "gap",
+    "gap",
+    "gap",
+    "gap",
+    "leaning",
+    "gap",
+    "gap",
+    "gap",
+    "board-architecture"
+  ],
+  "note_add": null
+}

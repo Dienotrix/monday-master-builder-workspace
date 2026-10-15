@@ -1,0 +1,487 @@
+0:02 CONSULTANT: Hi. Tamsin, is that you. I can see a name but no picture.
+0:07 Greaves, Tamsin: It's me.
+0:08 Tamsin: Camera's being.
+0:09 Tamsin Greaves: hang on.
+0:10 Greaves, Tamsin: There.
+0:11 Consultant: There you are. How are you doing.
+0:14 Greaves, Tamsin: Fine, fine. Oisin's just walking in, Dara's here, and Joost is.
+0:18 Tamsin Greaves: Joost, are you on.
+0:21 Joost: I'm on. Sound's a bit crackly my end but I'll live.
+0:26 Oisin: Sorry, sorry.
+0:27 Oisin Farrelly: School run. First day at secondary for my eldest, so.
+0:31 Consultant: Oh, big day. How did it go?
+0:34 Oisin Farrelly: She didn't want me to walk her to the gate. So, that's that.
+0:40 Consultant: Ha. That's the moment, isn't it.
+0:43 Oisin Farrelly: It is.
+0:44 Dara Vasseur: Morning. I've got about forty minutes then I'm back on the floor.
+0:49 Consultant: Forty is plenty. Thank you all for making the time.
+0:53 CONSULTANT: So, just so you know how I'd like to use it. This is a conversation, not a demo. I'll ask a lot about how a sample gets from your front door to a report today, where that hurts, and what you'd want instead. I'm not showing you anything today, or, well, maybe one sketch near the end if it helps. And if what you need is a tidier spreadsheet, I'll say so. Does that work.
+1:21 Tamsin: That works. That's why we asked for you, honestly, we've had enough people show us dashboards.
+1:28 Consultant: Good.
+1:29 OISIN FARRELLY: Yeah.
+1:30 Dara Vasseur: Fine by me.
+1:32 Consultant: Great. Tamsin, can you give me the two-minute version of Marrowbeck. What you test, for whom, how big.
+1:39 TAMSIN GREAVES: Sure. So we're a food and water testing lab. Microbiology and chemistry.
+1:44 Tamsin Greaves: Main lab's at Normanton, just outside Wakefield, and since the spring we've had a sample hub up in Carlisle, which is reception only, couriers overnight from there to us.
+1:55 CONSULTANT: Reception only.
+1:56 Tamsin Greaves: Reception only.
+1:57 Greaves, Tamsin: No testing. It's there because the customers up that way wanted a drop-off point.
+2:03 Consultant: And who are the customers.
+2:05 Tamsin Greaves: Food manufacturers, mostly. Ready meals, bakeries, a couple of dairies.
+2:09 Tamsin: Some caterers. Two water companies for the, for the chemistry side.
+2:12 Tamsin Greaves: And one retail account which is, I'd say, a fifth of our revenue on its own.
+2:18 Consultant: A supermarket.
+2:20 Tamsin: A supermarket group, yeah. I'd rather not name them on a recording, if that's all right.
+2:27 Consultant: Of course. The retail account, then.
+2:30 Tamsin Greaves: The retail account.
+2:32 Consultant: How many people.
+2:34 Tamsin Greaves: Sixty-eight.
+2:35 Greaves, Tamsin: Seventy on Monday, we've got two analysts starting.
+2:39 CONSULTANT: And samples. How many come through the door in a week?
+2:44 TAMSIN GREAVES: It's about 2
+2:45 Tamsin Greaves: thousand a week, in the busy months.
+2:48 TAMSIN GREAVES: Summer's busier.
+2:50 Consultant: Two thousand a week.
+2:52 Tamsin Greaves: Roughly.
+2:54 Dara Vasseur: Bit more in July.
+2:56 Consultant: Okay. And the four of you, where do you sit in that.
+3:01 TAMSIN GREAVES: I'm operations director. Everything that isn't the science and isn't the selling, so reception, client services, systems, the buildings.
+3:08 Tamsin Greaves: Finance is Ngozi, she reports to Halvard, who's the MD.
+3:12 Oisin Farrelly: Client services lead. Three of us including me.
+3:15 Oisin: We're the phone.
+3:16 OISIN FARRELLY: And the shared inbox, and the reports going out.
+3:20 DARA VASSEUR: Lab manager. Micro and chem.
+3:22 Dara Vasseur: Twenty-two analysts across both, six on micro at the moment.
+3:26 Dara: I sign off results, so does the quality manager.
+3:30 Teunissen, Joost: Systems.
+3:31 Joost Teunissen: I run the lab system, the network, the laptops, all of it.
+3:36 Joost: It's me, right.
+3:38 Consultant: Just you.
+3:39 JOOST TEUNISSEN: Just me.
+3:40 Joost Teunissen: There's a contract for the servers but day to day it's, yeah, it's me.
+3:46 Consultant: So what made you pick up the phone now. Rather than, say, this time last year.
+3:53 Greaves, Tamsin: Two things. And they're connected.
+3:55 Tamsin Greaves: The retail account did a technical audit on us in August. They do one every couple of years, it's normal. And one of the findings, in writing, was that we. have no visibility of sample status for the customer. That's a quote. No visibility.
+4:12 Consultant: Mm.
+4:13 Tamsin: And their contract renews in February. So that finding is now sat on the table next to the renewal.
+4:20 Consultant: February.
+4:21 TAMSIN GREAVES: February.
+4:22 Tamsin: And the second thing is Carlisle.
+4:24 Tamsin Greaves: When the hub opened, the where-is-it calls doubled. Because now a sample can be in a van for a night before we've even seen it, and the customer's ringing Oisin on day one asking why it's not logged.
+4:38 Oisin Farrelly: Doubled is fair.
+4:39 Farrelly, Oisin: Might be more than doubled.
+4:42 Consultant: When did the hub open.
+4:45 Oisin Farrelly: April.
+4:46 Oisin: End of April.
+4:48 Consultant: And is there anything else on the calendar I should know about? Audits, moves, anything.
+4:54 Dara Vasseur: The accreditation visit. November.
+4:56 Dara: Our accreditation body comes in every year and nothing changes in the lab that month.
+5:02 Dara Vasseur: Nothing. No new forms, no new screens, nothing.
+5:06 Consultant: Understood. Which days in November.
+5:08 Dara: Second week, usually. We get about three weeks notice on the, on the exact days.
+5:14 Consultant: Okay. I'll come back to that.
+5:17 CONSULTANT: Let's walk a sample through. Start at the front door. A courier turns up at Normanton with a box. What happens.
+5:25 Greaves, Tamsin: Renske's team. Renske's our reception supervisor.
+5:27 Tamsin Greaves: They open the box, and every sample should have a chain of custody form with it. The form says what it is, who it's from, what tests they want.
+5:38 Greaves, Tamsin: The customer fills it in.
+5:41 Consultant: Should have.
+5:43 Greaves, Tamsin: Should have.
+5:44 Tamsin: Half of them are fine. A quarter are missing something.
+5:48 TAMSIN GREAVES: Test code, sample type, a date. And a quarter are, honestly, handwriting.
+5:53 Oisin Farrelly: Some of them are photos of forms. Texted to the driver.
+5:58 Consultant: Right.
+5:59 CONSULTANT: So Renske's team opens the box, checks the form. Then.
+6:04 Tamsin: Then they log it in the lab system. Every sample gets a job number. The job is the sample plus the tests on it. So one sample, one job, but a job can have six tests.
+6:18 Consultant: Job is the sample plus the tests.
+6:22 Tamsin Greaves: Yeah.
+6:23 Tamsin: When we say job we mean the lab system record.
+6:28 Consultant: Okay.
+6:29 Dara: And the tests are scheduled off the job.
+6:32 Dara Vasseur: Micro has to start the same day for most things, because the sample's got a shelf life. Chem can wait.
+6:40 Consultant: So micro starts same day.
+6:43 Dara Vasseur: Same day or it's
+6:45 CONSULTANT: out of date and we can't test it.
+6:49 Consultant: And if the form's incomplete.
+6:52 Tamsin Greaves: Then it goes on hold. Reception puts the sample in the fridge, the job's logged as on hold in the lab system, and somebody's meant to ring the customer.
+7:03 Consultant: Somebody.
+7:05 Tamsin Greaves: Somebody.
+7:06 Greaves, Tamsin: It's supposed to be reception. In practice it's whoever notices.
+7:10 Tamsin Greaves: Which is often Oisin, when the customer rings him.
+7:14 OISIN FARRELLY: It's me. It's me when they ring.
+7:17 Consultant: And Carlisle. Does the hub log into the same system, or does it wait till the box gets to you.
+7:25 Joost Teunissen: Same system. Renske's got one person up there with a login, so it's logged on day one, it just
+7:32 Teunissen, Joost: sits on a shelf in a van overnight.
+7:36 Consultant: Logged on day one. Okay. Hold that thought, I want to come back to on hold. So the job's logged, the tests are scheduled. Then Dara's team does the tests.
+7:48 Dara Vasseur: Then my team does the tests.
+7:50 Dara: Results go into the lab system as they come.
+7:53 DARA VASSEUR: Micro's three to five days depending on the test,
+7:56 Dara: some are longer.
+7:57 Dara Vasseur: Chem is five to ten.
+8:00 Consultant: And then.
+8:02 Vasseur, Dara: Then a signatory authorises the result.
+8:04 Dara: Me, or the quality manager, or two of the seniors.
+8:08 Dara Vasseur: And the lab system generates the report.
+8:11 Oisin Farrelly: And we send it. The report comes to the shared inbox as a PDF and one of us sends it to the customer.
+8:20 Consultant: Every report goes through a person.
+8:23 Oisin Farrelly: Every one.
+8:25 Consultant: How many a week is that.
+8:28 Oisin Farrelly: It's. it's most of the jobs, so.
+8:31 Farrelly, Oisin: call it eighteen hundred, some jobs have
+8:34 Oisin Farrelly: two reports.
+8:36 Consultant: Okay. And Joost, the lab system, who can see what in it.
+8:42 Teunissen, Joost: Lab staff see everything. Reception sees the logging screens.
+8:45 Joost Teunissen: Client services has logins but the status a job's in is a code, right.
+8:50 Joost: It says INC or AUTH or whatever.
+8:53 Joost Teunissen: It doesn't say anything a customer would understand, and it doesn't say when.
+8:59 Consultant: It doesn't say when.
+9:01 Joost Teunissen: It doesn't know when.
+9:03 JOOST TEUNISSEN: It knows what's been done, not what's due.
+9:07 Vasseur, Dara: Due lives in my head and on the whiteboard.
+9:11 CONSULTANT: Tell me about the whiteboard.
+9:14 Dara Vasseur: There's a whiteboard in the lab office. Urgents go on it.
+9:18 DARA VASSEUR: Job number, customer, due date, initials. I wipe it on a Friday.
+9:23 Oisin: And I've got the urgents in a spreadsheet, which is the same list, except it's mine and it's on my laptop.
+9:31 Consultant: Two lists.
+9:32 Oisin Farrelly: Two lists.
+9:33 Oisin: They agree most of the time.
+9:35 Dara Vasseur: Most.
+9:37 Consultant: Let me try a story on you, just to check I've got it. Say a sample lands with Renske on a Tuesday, it's got a form problem, so it goes in the fridge. Dara's team never sees it because it's on hold. Thursday, the customer rings Oisin. In that story, who could have seen it sitting there on the Wednesday.
+9:59 Greaves, Tamsin: Nobody.
+10:00 Tamsin: Well, Renske, if she looked.
+10:02 Oisin: And me, if I opened the lab system and knew to filter on hold,
+10:07 Oisin Farrelly: which I don't.
+10:09 DARA VASSEUR: Not my team.
+10:10 Dara Vasseur: On hold's invisible to us, it's not scheduled.
+10:14 Consultant: Okay. So it's nobody's.
+10:16 Tamsin Greaves: It's nobody's. That's the honest answer.
+10:19 Consultant: And the retail account, the weekly stats they want. Where do those come from.
+10:25 Tamsin Greaves: From me.
+10:26 TAMSIN GREAVES: There's a nightly export out of the lab system, Joost set it up.
+10:31 Tamsin Greaves: It lands in a spreadsheet and I build their turnaround numbers from it.
+10:36 Tamsin: Takes me a morning, most weeks.
+10:39 Consultant: A morning a week.
+10:41 Tamsin Greaves: A morning a week. Which I'm not going to put a price on, before you ask, because it's me and I'd do it anyway.
+10:50 Consultant: Fair. I'll note it as unpriced.
+10:53 Joost Teunissen: The export's a flat file. Job number, customer, status code, dates in, dates done.
+10:58 Teunissen, Joost: It's not bad. It's just not live, right.
+11:01 Consultant: And is any of this in a workflow tool today. Anything outside the lab system.
+11:07 Joost Teunissen: No. I looked at a couple.
+11:09 Teunissen, Joost: I did a free trial of monday last year for the laptop list, actually, one board, it lapsed.
+11:16 Joost Teunissen: Nothing in it.
+11:17 Consultant: Okay. Nothing live, then.
+11:19 Joost Teunissen: Nothing live.
+11:21 CONSULTANT: Oisin, the where-is-it calls. Talk me through one.
+11:25 Farrelly, Oisin: Phone goes. It's a technical manager at a bakery, say, and they've got a batch on hold at their end waiting on our micro result. They want to know if it's today. I open the lab system, I see INC, which means it's incubating, and I don't know if it's out today or Thursday.
+11:45 Oisin Farrelly: So I put them on hold, I ring the lab, or I walk over,
+11:50 Farrelly, Oisin: and I ask.
+11:52 Consultant: You walk over.
+11:54 OISIN FARRELLY: Half the time.
+11:55 Farrelly, Oisin: It's quicker than the phone because the phone doesn't get answered in there.
+12:00 Dara Vasseur: Because we're in a lab.
+12:03 Oisin: Because they're in a lab, yeah, I know.
+12:07 Consultant: And how long is one of those calls, start to finish. Oisin.
+12:12 TAMSIN GREAVES: Eight minutes, about.
+12:14 Consultant: Eight.
+12:15 Oisin Farrelly: If I'm walking over,
+12:17 Oisin: more.
+12:18 OISIN FARRELLY: If I can't find Dara,
+12:20 Oisin: more.
+12:21 Consultant: How many of those a week.
+12:23 Oisin Farrelly: A week. I'd have to. we count them by the month for the retail account, because they ask. It's about four hundred
+12:31 Greaves, Tamsin: and twenty a month. Across the three of us.
+12:35 Consultant: Four hundred and twenty a month.
+12:38 TAMSIN GREAVES: Four hundred-odd calls a month, and that's just the ones that get logged as a status call.
+12:44 Dara: yeah
+12:45 Tamsin Greaves: Some of them come in as something else and turn into one.
+12:50 CONSULTANT: And what happens in the lab when Oisin walks over.
+12:54 Vasseur, Dara: Somebody stops. Somebody takes their gloves off, comes to the door, goes and looks at the incubator log, comes back.
+13:01 Dara Vasseur: Kasimir reckons he loses an hour a day to it.
+13:05 Vasseur, Dara: The others, less, but it's
+13:07 Dara Vasseur: every one of them, some days.
+13:10 CONSULTANT: An hour a day.
+13:13 Dara Vasseur: For Kasimir.
+13:14 DARA VASSEUR: He's the one they know to ask for.
+13:18 Consultant: Right. And who else does this touch. Beyond Oisin's team and the lab.
+13:23 Oisin Farrelly: The customer, obviously. They're stood there with a batch.
+13:26 Farrelly, Oisin: If a result's not out by day five, that customer rings us, every time, and if it's the retail account they ring Tamsin.
+13:35 TAMSIN GREAVES: They ring me.
+13:36 Tamsin: And then I ring Dara, and now three people are looking for one sample.
+13:42 CONSULTANT: Has it ever gone wrong. Properly wrong, not just annoying.
+13:47 TAMSIN GREAVES: The audit finding is it going properly wrong.
+13:50 Tamsin Greaves: But the one I think about is a dairy, in June.
+13:54 Tamsin: They held a tanker on our result for a day and a half because we told them Thursday and it was Friday.
+14:02 TAMSIN GREAVES: They didn't leave, but they asked for a credit,
+14:05 Oisin: and we gave it.
+14:08 Consultant: How much was the credit?
+14:11 Tamsin Greaves: I'm not going to say on a call. It wasn't small.
+14:16 Consultant: Fair enough. What do you do today to stop that happening. The workaround.
+14:21 Farrelly, Oisin: The urgents spreadsheet. If a customer's told me it's urgent I put it on my list and I check the list in the morning.
+14:30 OISIN FARRELLY: And the whiteboard is Dara's version of the same thing.
+14:34 Dara Vasseur: And I do a walk round at four. Every day.
+14:38 Vasseur, Dara: I look at what's due tomorrow and I chase it.
+14:42 Consultant: Does that work.
+14:44 Dara Vasseur: It works when I'm in.
+14:46 Dara: When I'm not in, it doesn't.
+14:49 Greaves, Tamsin: That's the problem in one line. It works when Dara's in.
+14:54 Consultant: What would stop you carrying on like that. It's worked so far, more or less.
+15:00 Tamsin Greaves: The retail account, in writing.
+15:02 Greaves, Tamsin: They've said visibility, and a whiteboard in a room they can't see isn't visibility.
+15:07 Tamsin Greaves: And Carlisle. Renske can't see the whiteboard from Carlisle either.
+15:12 Oisin Farrelly: And we're hiring. Two more analysts, and there's talk of a fourth in client services, and the new people don't know to ask Kasimir.
+15:21 Consultant: So it depends on people knowing who to ask.
+15:25 Oisin Farrelly: It depends on knowing who to ask.
+15:28 Consultant: Where's this going if nothing changes. Next year, say, with the hub and the new people.
+15:35 Tamsin Greaves: More of the same, more of it.
+15:38 Tamsin: If the retail account renews, they've said they'll double the volume from the northern stores through Carlisle.
+15:44 Greaves, Tamsin: If they don't renew we've got a different problem.
+15:47 TAMSIN GREAVES: Either way the calls go up.
+15:50 OISIN FARRELLY: And I lose one of my two.
+15:53 Oisin Farrelly: Because nobody wants to answer that phone for a living.
+15:58 Greaves, Tamsin: That's
+15:59 Tamsin: internal, Oisin.
+16:01 Oisin: I know. I'm saying it.
+16:04 Consultant: Let's go back to on hold. A form's missing a test code, the sample's in the fridge. Then what.
+16:11 Tamsin Greaves: Then it sits.
+16:12 TAMSIN GREAVES: If someone rings the customer that day, fine, the customer tells us the, they tell us the code, reception fixes the job, it's scheduled, it's a day late.
+16:21 Tamsin Greaves: If nobody rings, it sits until the customer rings us, or until Renske does her Friday fridge check.
+16:28 Consultant: Friday.
+16:29 Tamsin Greaves: Friday.
+16:30 Tamsin: And by Friday a micro sample from Tuesday is out of date.
+16:35 Dara: Out of date means we can't test it.
+16:38 Dara Vasseur: So it's either void, which means we tell the customer we can't report and they send another, or, if it's our fault, we ask them to resend and we run it
+16:49 Consultant: at our cost.
+16:50 Dara Vasseur: A re-test.
+16:51 Consultant: How often.
+16:52 CONSULTANT: The re-tests at your cost.
+16:55 Dara Vasseur: Fifteen a month, give or take.
+16:57 DARA VASSEUR: I count them because they come off my budget.
+17:01 Consultant: And what does one cost you.
+17:04 Dara: Depends on the test. Average about one-eighty.
+17:07 Vasseur, Dara: A micro panel's more, a single chem's less.
+17:11 CONSULTANT: One-eighty a re-test, fifteen a month.
+17:14 Dara Vasseur: About that.
+17:15 DARA VASSEUR: It was twenty-something in July.
+17:18 Consultant: And the ones that are void, the customer's fault. What happens to those.
+17:24 OISIN FARRELLY: They're annoyed. They still pay, but they're, they're annoyed, and they remember.
+17:28 Farrelly, Oisin: And half the time they say nobody told them it was on hold, which is true.
+17:35 Consultant: Give me one. A specific one.
+17:37 Farrelly, Oisin: A bakery in Carlisle, three weeks ago.
+17:40 OISIN FARRELLY: Sent twelve samples up through the hub, four of them had the wrong test code because they'd copied last month's form.
+17:48 Oisin: Nobody rang them.
+17:49 Oisin Farrelly: Renske found them on the Friday.
+17:51 OISIN FARRELLY: All four void, and they had to resend, and they'd already shipped the product.
+17:56 Consultant: They'd shipped it.
+17:58 Oisin Farrelly: They'd shipped it.
+17:59 Oisin: On the other eight results.
+18:02 Consultant: And today, what stops that. Is there anything?
+18:05 Tamsin Greaves: Renske's Friday check. And Oisin, if he happens to hear.
+18:09 Greaves, Tamsin: There's no list of what's on hold that anybody looks at.
+18:13 Tamsin Greaves: It's a status code in the lab system and a shelf in a fridge.
+18:19 Consultant: Why won't that do.
+18:22 Tamsin Greaves: Because the hub.
+18:23 Greaves, Tamsin: Carlisle logs it as on hold and the fridge is two hours up the road.
+18:29 Tamsin Greaves: Renske's Friday check is a Normanton check.
+18:33 Dara: And because it's my budget paying for their
+18:36 Dara Vasseur: paperwork.
+18:38 Consultant: Who else feels it.
+18:40 Dara Vasseur: Me, the analysts who re-run it, the customer.
+18:43 Vasseur, Dara: Ngozi, because she sees the re-test line.
+18:47 Consultant: Right.
+18:48 TAMSIN GREAVES: And the retail account, again, because a void on one of their lines is a conversation with their technical team that I'd rather not have.
+18:58 Consultant: Okay. I've got two clear ones. The status chasing, and the on-hold paperwork. Is there a third, or is that it.
+19:07 Tamsin Greaves: The reporting for the retail account is a third,
+19:10 Greaves, Tamsin: but it's a symptom of the first one.
+19:13 Tamsin Greaves: If I could see status I could see turnaround.
+19:17 CONSULTANT: I'll treat it as part of the first, then. Tell me if I'm wrong.
+19:23 Tamsin Greaves: You're not wrong.
+19:25 Consultant: Let's put some numbers on it, if you're willing. Your numbers, not mine. The calls first. Four hundred and twenty a month at eight minutes.
+19:34 Tamsin Greaves: That's fifty-six hours
+19:35 Greaves, Tamsin: a month.
+19:36 Tamsin Greaves: I did that one before the call, actually, because I knew you'd ask.
+19:42 Consultant: Fifty-six hours.
+19:43 Greaves, Tamsin: Fifty-six hours a month on the phones for status.
+19:46 Tamsin: And we cost that team at, what do we use, Oisin.
+19:50 Tamsin Greaves: Thirty
+19:51 Greaves, Tamsin: two an hour, loaded.
+19:54 Oisin Farrelly: Thirty-two pounds, yeah, that's what Ngozi uses.
+19:57 Consultant: Fifty-six times thirty-two.
+19:59 Tamsin Greaves: Seventeen ninety-two a month.
+20:01 Greaves, Tamsin: Call it twenty-one and a half thousand a year,
+20:04 Tamsin: just the phones.
+20:06 Consultant: Twenty-one and a half.
+20:08 Tamsin Greaves: And the re-tests are Dara's.
+20:10 Greaves, Tamsin: Fifteen a month at one-eighty is twenty-seven hundred,
+20:13 Tamsin Greaves: so that's. thirty-two thousand four hundred a year.
+20:17 Vasseur, Dara: Sounds right. It's more some months.
+20:20 Consultant: And the lab time. Kasimir's hour a day.
+20:24 Dara Vasseur: I can give you the hours.
+20:26 Dara: Six on micro,
+20:27 Dara Vasseur: Kasimir's an hour,
+20:28 DARA VASSEUR: the others maybe twenty minutes.
+20:30 Dara Vasseur: I can't give you a rate for an analyst, I genuinely don't know what Ngozi loads them at.
+20:38 Consultant: That's fine. Hours now, rate later.
+20:41 Greaves, Tamsin: Ngozi has that number. I'd rather she gave it to you than I guessed.
+20:47 Consultant: Agreed. So what does that come to, the two you can stand behind.
+20:52 Tamsin: Twenty-one and a half plus thirty-two four. Call it fifty-four. thousand a year that I can actually stand behind. The lab time is on top and I haven't priced it. And my mornings are on top, and I'm not pricing those.
+21:07 Consultant: Fifty-four thousand a year, two components, lab time and your time on top and unpriced. Does that feel right, or does it feel light?
+21:16 Tamsin Greaves: It feels light, if I'm honest. But it's the number I'd put in front of Halvard because I can show my working.
+21:25 Dara Vasseur: It's light.
+21:26 Vasseur, Dara: The re-tests alone were twenty-two in July.
+21:29 Consultant: Noted. I'll use fifty-four and say it's the floor.
+21:33 Greaves, Tamsin: Say it's the floor.
+21:35 Consultant: Other way round. If the calls went away and the on-hold samples got caught the same day. What could you do that you can't do now. More volume, more customers, anything.
+21:47 Tamsin Greaves: Honestly, that's Halvard's question.
+21:49 TAMSIN GREAVES: What we're turning away, what the retail account would give us if we were better, that's the commercial side and I don't see the pipeline.
+21:58 Tamsin: I wouldn't want to guess it.
+22:01 Consultant: Is it something he'd tell me.
+22:04 TAMSIN GREAVES: He'd tell you. He'd probably enjoy telling you.
+22:08 Consultant: Then I'll ask him and not you.
+22:11 CONSULTANT: Fair.
+22:12 Consultant: Fair.
+22:13 CONSULTANT: So picture it working. Oisin, what does a Tuesday look like.
+22:18 Oisin Farrelly: Phone goes, I open one screen, I see the job, I see it says out Thursday, I say Thursday, I hang up.
+22:26 Farrelly, Oisin: Two minutes, not eight.
+22:28 Oisin Farrelly: And I never walk into the lab.
+22:31 Vasseur, Dara: Nobody walks into my lab to ask where something is.
+22:35 Dara Vasseur: That's mine.
+22:36 Tamsin: And I open something on a Monday morning that shows me the retail account's turnaround for last week without a spreadsheet and without me.
+22:45 Consultant: And leadership. What would Halvard call a win, if you had to guess.
+22:51 Tamsin Greaves: Renewal.
+22:52 Tamsin: The retail account renews in February with that audit finding closed. That's the win.
+22:57 TAMSIN GREAVES: He'd say the number too, but the renewal's the thing.
+23:01 Consultant: Has he said that, or is that your read.
+23:05 Tamsin Greaves: That's my read. It's a good read.
+23:09 Consultant: I'll treat it as your read until he says it.
+23:14 CONSULTANT: Can I share my screen for two minutes. This is a sketch I put together before the call, it's not real, ignore the names, I just typed people I knew would be in the room.
+23:28 Tamsin: Go on.
+23:29 Consultant: So. There's a row here, a job for the retail account, say it's a ready meal, micro, and it's at incubation, due Thursday, owner Dara. Next row, a water sample from, I don't know, the Carlisle hub, and it's on hold because the form's missing a test code, and that one's sat with Oisin to ring the customer. And down here, say Joost's got a view that's just the urgents, which is the whiteboard, except Renske can see it from Carlisle.
+23:59 Oisin Farrelly: That on hold one.
+24:01 Consultant: And imagine, I don't know, Dara's off that week and Kasimir's covering, the row doesn't care, it says due Thursday either way. And say Oisin's moved on and it's someone new answering that phone, they open this and they see the same thing. That's the point of it.
+24:19 TAMSIN GREAVES: The on hold one.
+24:21 Tamsin Greaves: That's the one.
+24:22 Greaves, Tamsin: If that existed the bakery thing doesn't happen.
+24:25 Consultant: Say more.
+24:26 Tamsin Greaves: If there's a list of on hold with a name on it, someone rings.
+24:31 Greaves, Tamsin: Today there's a fridge.
+24:33 Dara Vasseur: The due Thursday bit is the bit I'd want to be careful about.
+24:38 Vasseur, Dara: Due is a judgement.
+24:40 Dara Vasseur: It's not in the lab system, it's in my head.
+24:44 DARA VASSEUR: Where does it come from.
+24:47 Consultant: Good question, and I don't know yet. Today it's your head and the whiteboard, so day one it's probably you typing it. Later it might be a rule off the test type. Let's not decide that on this call.
+25:02 Dara Vasseur: Fine.
+25:03 Dara: As long as nobody thinks it's true because it's on a screen.
+25:08 Consultant: Noted, and that's exactly right. Let me stop sharing.
+25:12 Tamsin Greaves: Say forty samples a day of
+25:14 Tamsin: the retail account's on that, what does it look like.
+25:19 Consultant: Then it's a longer list and a filter. I'd rather show you with your export than guess with my sketch. Joost, could I get a copy of the nightly export, one night, with the customer names scrubbed.
+25:33 Joost Teunissen: Yeah.
+25:34 JOOST TEUNISSEN: I can do that.
+25:36 Joost Teunissen: Friday.
+25:37 Consultant: Friday's great.
+25:39 CONSULTANT: Let's talk about how a decision like this gets made at Marrowbeck. If you decided to do this, who has to say yes.
+25:48 Tamsin: Me, for anything under. ten thousand a year, it's in my operations budget. Anything over ten thousand a year and it's Halvard's signature. And honestly for this I'd want him on board either way, because the retail account is his relationship.
+26:03 CONSULTANT: Ten thousand a year.
+26:05 Tamsin: A year.
+26:06 Greaves, Tamsin: It's a yearly number in his head.
+26:09 Consultant: And who else. Not signing, but who could stop it.
+26:13 Tamsin Greaves: Joost.
+26:14 Greaves, Tamsin: Anything that touches the lab system, Joost has to be comfortable, and the vendor has to not throw a fit.
+26:21 TAMSIN GREAVES: And the quality manager, because if the accreditation body sees a new screen in the lab they'll want to know what it is.
+26:30 Joost Teunissen: I'm not the problem.
+26:32 Joost: The vendor might be.
+26:34 Oisin Farrelly: right
+26:35 JOOST TEUNISSEN: They don't love anything, [inaudible], reading their database,
+26:38 Joost Teunissen: but the export's ours, they've said that.
+26:41 CONSULTANT: Okay. And Ngozi.
+26:43 Tamsin Greaves: Ngozi will want to see the number.
+26:46 Tamsin: She won't say no, she'll say show me.
+26:49 Consultant: And formally, how does it go to Halvard. Is there a meeting, a paper, does he want to see it working?
+26:57 TAMSIN GREAVES: It goes on his monthly ops review, first Monday.
+27:00 Tamsin Greaves: Beyond that, it depends on his mood, honestly.
+27:03 TAMSIN GREAVES: Sometimes a page, sometimes he wants to click on it.
+27:07 Consultant: Would it help if he saw something rather than read about it.
+27:12 Tamsin Greaves: Probably.
+27:13 Tamsin: I'd want to ask him.
+27:15 Tamsin Greaves: I'll ask him this week.
+27:18 Consultant: And after a yes. What happens then.
+27:21 Tamsin Greaves: Then Ngozi raises the order and it's done.
+27:24 TAMSIN GREAVES: He doesn't come back to it.
+27:26 Tamsin Greaves: He'll ask me in a quarter how it's going.
+27:30 CONSULTANT: And what would he need to see. What does he care about.
+27:35 Tamsin Greaves: Renewal, and the number. And whether the lab's going to hate it.
+27:40 TAMSIN GREAVES: That's Dara's problem to answer, not mine.
+27:43 Dara Vasseur: The lab will hate anything that means typing something twice. My analysts will not type the same thing twice.
+27:50 DARA VASSEUR: They just won't. And I won't ask them.
+27:54 CONSULTANT: Then it can't ask them to. What goes into the lab system stays in the lab system, and anything else reads from it.
+28:03 DARA VASSEUR: Then we're fine.
+28:05 Joost Teunissen: I did look at doing this in the spreadsheet tool, honestly.
+28:09 Joost: I could get halfway there with the export and some formulas.
+28:13 Joost Teunissen: I got a version of the on hold list going in an afternoon.
+28:18 Consultant: What stopped you.
+28:20 Joost: It's me. If I'm off, it's off.
+28:23 Joost Teunissen: And nobody else could change it.
+28:25 Teunissen, Joost: And the retail account won't accept a spreadsheet as visibility,
+28:29 JOOST TEUNISSEN: Tamsin's already asked.
+28:31 Tamsin Greaves: I asked. They said no.
+28:34 Consultant: And is anyone else in the frame for this. Another supplier, the lab system people.
+28:40 TAMSIN GREAVES: The lab system vendor has been promising a customer portal for two years.
+28:45 Tamsin: It's on there roadmap. It's been on their roadmap.
+28:49 Joost: It's a slide.
+28:51 TAMSIN GREAVES: It's a slide. We can't renew a contract on a slide.
+28:56 Consultant: And timing. When does this need to be working, and when would you like it working.
+29:03 TAMSIN GREAVES: Working before February.
+29:04 Tamsin Greaves: Ideally I've got something to show the retail people in January, because their technical team wants to see it before they sign.
+29:12 Greaves, Tamsin: And realistically that means a first version this side of Christmas,
+29:16 Tamsin Greaves: even a rough one.
+29:18 Consultant: This side of Christmas.
+29:20 Tamsin Greaves: A rough one.
+29:21 Tamsin: I'm not holding you to a date on a first call.
+29:26 Dara Vasseur: And November's out.
+29:27 Dara: We've got the accreditation visit and nothing changes in the lab that month.
+29:32 Consultant: Understood. Then the first version stays out of the lab. It's reception, client services and you looking at it, and the analysts don't touch it in November. Does that work.
+29:44 Dara Vasseur: That works.
+29:45 Dara: If they don't have to touch it, I don't care what month it is.
+29:51 Consultant: What else could get in the way. Anything.
+29:54 Tamsin Greaves: Halvard's going to ask me what it costs before he'll sit in a meeting about it.
+30:00 Tamsin: That's just him.
+30:02 Consultant: That's a fair thing for him to ask. I'll be honest, I don't price on a first call and I'd rather he saw the shape of it first. What I can do before the seventeenth is write down how I'd structure it, so you're not walking in with nothing.
+30:20 Tamsin: That's fine. I just don't want to walk into his office with nothing.
+30:26 Joost Teunissen: And me.
+30:27 Joost: I'm one person and the accreditation visit's mine as well, all the system evidence.
+30:32 Joost Teunissen: So my time in November is nil.
+30:36 Consultant: Noted. Yours is nil in November, the lab's is nil in November. Anything I need from you comes before or after.
+30:44 Joost Teunissen: Before, ideally.
+30:46 Consultant: Let me play back what I'd put in a first version. Just to show you, not to sign anything. One, a board of jobs that mirrors the lab system, one row per job, with a status somebody in client services can read and a due date, fed from Joost's nightly export, so nobody types anything twice, and to start with it's a sample of the export rather than live. Two, an urgents view on the same board that replaces the whiteboard and Oisin's spreadsheet, and Renske can see it from Carlisle. Three, an on-hold list with a name against each one and a step that says the customer's been rung. Four, a turnaround view for the retail account off the same rows. Nothing customer-facing yet. Is that the right shape.
+31:33 Tamsin: That's the right shape.
+31:35 Tamsin Greaves: Nothing customer-facing until Halvard's seen it, I'd say that out loud.
+31:39 Greaves, Tamsin: Customers don't see anything in the first version.
+31:43 Oisin: The on hold list with a name.
+31:46 Farrelly, Oisin: That's the one I'd build first.
+31:48 Dara: And due is typed by me, or not shown.
+31:51 Dara Vasseur: Don't derive it.
+31:53 Consultant: Typed by you, or not shown. Got it.
+31:57 Tamsin Greaves: What we actually sign up for, though, I'll want Halvard in the room for that. This is the first version to look at, not the scope.
+32:08 Consultant: Understood. So the next step. I'd like to walk you through a first version, built from Joost's export, with Halvard there if he'll come. I'm free Thursday the seventeenth at two, for forty-five minutes. Does that work?
+32:22 Tamsin: Two on the seventeenth works.
+32:24 Greaves, Tamsin: Put Halvard on it and I'll chase him this week.
+32:29 Oisin Farrelly: Works for me.
+32:31 Dara Vasseur: Seventeenth is fine.
+32:32 Vasseur, Dara: And nothing in November, I'll keep saying it.
+32:36 Joost Teunissen: Fine.
+32:37 Consultant: Then I'll send the invite today, and a short recap tomorrow of what I heard and the next steps, so you can correct anything I've got wrong. Joost, the export by Friday. Oisin, could you pull a week of the call log out of the phone system, just the status calls, so I'm not guessing at the eight minutes.
+33:00 Oisin Farrelly: Yeah.
+33:01 Farrelly, Oisin: I'll pull a week. It'll be about eight.
+33:05 DARA VASSEUR: I'll take a photo of the whiteboard.
+33:08 Dara Vasseur: You'll enjoy it.
+33:10 Consultant: I will. One last thing.
+33:12 CONSULTANT: Is this worth taking forward, from where you sit.
+33:16 Greaves, Tamsin: Yes.
+33:17 Tamsin Greaves: I want to see it.
+33:19 Greaves, Tamsin: And I want Halvard to see it before the retail people ask me again.
+33:25 Consultant: Then that's what we'll do. Thanks, all of you.
+33:28 CONSULTANT: Dara, go and get your gloves on.
+33:31 Dara: Already gone.
+33:33 Oisin Farrelly: Cheers.
+33:34 Joost: Thanks.
+33:35 TAMSIN GREAVES: Thanks.
+33:36 Tamsin Greaves: Speak on the seventeenth.

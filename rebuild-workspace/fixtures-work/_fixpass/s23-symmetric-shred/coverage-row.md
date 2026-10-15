@@ -1,0 +1,1 @@
+| `s23-symmetric-shred/` | calibration fixture | `transcript.txt`, `answer-key.json`, `README.md` | C104 | R5's companion measure | 36 (27 / 4 / 3 / 1 / 1) | 4 (3) | 8 | 28 (7) | 15 | 6 (2 / 4 / 0) | 198 | reviewed 2026-10-13; fix pass applied 2026-10-13 |

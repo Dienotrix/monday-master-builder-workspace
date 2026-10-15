@@ -1,0 +1,1142 @@
+{
+  "fixture": "s2-discovery-gaps",
+  "sources": [
+    {
+      "name": "transcript.txt",
+      "kind": "transcript",
+      "format": "line-plain",
+      "units": 179,
+      "unsupported": null
+    }
+  ],
+  "counts": {
+    "pairs": 145,
+    "verified": 145,
+    "verified_presence_only": 25,
+    "skipped": 0,
+    "unparsed_prose": 0,
+    "near_misses": 0,
+    "misses": 0,
+    "unsupported": 0,
+    "warnings": 0
+  },
+  "refused_quotes_not_checked": [],
+  "skipped": [],
+  "pairs": [
+    {
+      "path": "/rubric[0]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So the system spits out the routes the night before, right, based on the plans, who's due.",
+      "location": "L147, Travis",
+      "cited": "transcript.txt, L147, Travis"
+    },
+    {
+      "path": "/rubric[0]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It's got all the customers, the plans, it makes the routes.",
+      "location": "L75, Renata",
+      "cited": "transcript.txt, L75, Renata"
+    },
+    {
+      "path": "/rubric[0]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Right, so when they call we put it on the callback sheet.",
+      "location": "L79, Renata",
+      "cited": "transcript.txt, L79, Renata"
+    },
+    {
+      "path": "/rubric[0]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "And then Travis looks at the sheet and puts it on the board.",
+      "location": "L83, Renata",
+      "cited": "transcript.txt, L83, Renata"
+    },
+    {
+      "path": "/rubric[0]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "I'm texting the guys their changes",
+      "location": "L151, Travis",
+      "cited": "transcript.txt, L151, Travis"
+    },
+    {
+      "path": "/rubric[0]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "And right now somebody types those in. Rhonda. Off the paper.",
+      "location": "L197, Renata",
+      "cited": "transcript.txt, L197, Renata"
+    },
+    {
+      "path": "/rubric[0]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "Rhonda does the invoices in QuickBooks, I think the system sends it over?",
+      "location": "L295, Renata",
+      "cited": "transcript.txt, L295, Renata"
+    },
+    {
+      "path": "/rubric[0]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "No. I've seen the ads.",
+      "location": "L55, Renata",
+      "cited": "transcript.txt, L55, Renata"
+    },
+    {
+      "path": "/rubric[0]/evidence[8]/quote",
+      "status": "verified",
+      "quote": "she has her own spreadsheet",
+      "location": "L141, Renata",
+      "cited": "transcript.txt, L141, Renata"
+    },
+    {
+      "path": "/rubric[1]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "the problem is when it doesn't get on the board. Like it just sits on the sheet.",
+      "location": "L107, Renata",
+      "cited": "transcript.txt, L107, Renata"
+    },
+    {
+      "path": "/rubric[1]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Last week I had a lady over on Pheasant Run call three times.",
+      "location": "L111, Renata",
+      "cited": "transcript.txt, L111, Renata"
+    },
+    {
+      "path": "/rubric[1]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "No, I mean, the sheet's fine. It's fine.",
+      "location": "L123, Renata",
+      "cited": "transcript.txt, L123, Renata"
+    },
+    {
+      "path": "/rubric[1]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Yeah, I mean, sure.",
+      "location": "L127, Renata",
+      "cited": "transcript.txt, L127, Renata"
+    },
+    {
+      "path": "/rubric[1]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Mornings are the worst.",
+      "location": "L147, Travis",
+      "cited": "transcript.txt, L147, Travis"
+    },
+    {
+      "path": "/rubric[1]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "So now I've got, what, five stops to move.",
+      "location": "L13, Travis",
+      "cited": "transcript.txt, L13, Travis"
+    },
+    {
+      "path": "/rubric[1]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "honestly the board works. It works. Everybody gets their stops.",
+      "location": "L159, Travis",
+      "cited": "transcript.txt, L159, Travis"
+    },
+    {
+      "path": "/rubric[2]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I think we just need to be more organized.",
+      "location": "L277, Renata",
+      "cited": "transcript.txt, L277, Renata"
+    },
+    {
+      "path": "/rubric[2]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "and it's kind of gotten worse, I don't know.",
+      "location": "L277, Renata",
+      "cited": "transcript.txt, L277, Renata"
+    },
+    {
+      "path": "/rubric[2]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "It's not like we're falling apart, it's just --",
+      "location": "L277, Renata",
+      "cited": "transcript.txt, L277, Renata"
+    },
+    {
+      "path": "/rubric[3]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So call it two hours. Every morning. Saturdays too, in the season.",
+      "location": "L155, Travis",
+      "cited": "transcript.txt, L155, Travis"
+    },
+    {
+      "path": "/rubric[4]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "that's supposed to come to us as a lead, so we can call them.",
+      "location": "L205, Renata",
+      "cited": "transcript.txt, L205, Renata"
+    },
+    {
+      "path": "/rubric[4]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "That's more Gary's side.",
+      "location": "L213, Renata",
+      "cited": "transcript.txt, L213, Renata"
+    },
+    {
+      "path": "/rubric[5]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I just want to be able to look it up. Like, where's that re-treat at. Without walking back to Travis every time.",
+      "location": "L309, Renata",
+      "cited": "transcript.txt, L309, Renata"
+    },
+    {
+      "path": "/rubric[5]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "if a guy calls out, I just want to push it to the guys and be done.",
+      "location": "L317, Travis",
+      "cited": "transcript.txt, L317, Travis"
+    },
+    {
+      "path": "/rubric[6]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Well, Gary would have to see it. He's the owner.",
+      "location": "L301, Renata",
+      "cited": "transcript.txt, L301, Renata"
+    },
+    {
+      "path": "/rubric[6]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And Lorna, probably. If it's going to North.",
+      "location": "L303, Travis",
+      "cited": "transcript.txt, L303, Travis"
+    },
+    {
+      "path": "/rubric[6]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "That's kind of a Gary question.",
+      "location": "L305, Renata",
+      "cited": "transcript.txt, L305, Renata"
+    },
+    {
+      "path": "/rubric[6]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Because Gary's going to ask what it costs.",
+      "location": "L333, Renata",
+      "cited": "transcript.txt, L333, Renata"
+    },
+    {
+      "path": "/rubric[6]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Just email me and I'll forward it to Gary.",
+      "location": "L345, Renata",
+      "cited": "transcript.txt, L345, Renata"
+    },
+    {
+      "path": "/rubric[7]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "it's not, like, a fire. But it'd be nice.",
+      "location": "L321, Renata",
+      "cited": "transcript.txt, L321, Renata"
+    },
+    {
+      "path": "/rubric[7]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Just not in the spring.",
+      "location": "L323, Travis",
+      "cited": "transcript.txt, L323, Travis"
+    },
+    {
+      "path": "/rubric[7]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "March through June is -- no.",
+      "location": "L325, Renata",
+      "cited": "transcript.txt, L325, Renata"
+    },
+    {
+      "path": "/rubric[8]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We tried a scheduling thing, like, three years ago? Some app. Gary bought it. Nobody used it.",
+      "location": "L179, Travis",
+      "cited": "transcript.txt, L179, Travis"
+    },
+    {
+      "path": "/rubric[8]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I've got guys who still want the paper sheet.",
+      "location": "L167, Travis",
+      "cited": "transcript.txt, L167, Travis"
+    },
+    {
+      "path": "/rubric[8]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Oh, I don't think Gary's getting rid of the system.",
+      "location": "L295, Renata",
+      "cited": "transcript.txt, L295, Renata"
+    },
+    {
+      "path": "/rubric[9]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I'll send something over.",
+      "location": "L337, Consultant",
+      "cited": "transcript.txt, L337, Consultant"
+    },
+    {
+      "path": "/rubric[9]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "we can find a time to walk through it.",
+      "location": "L343, Consultant",
+      "cited": "transcript.txt, L343, Consultant"
+    },
+    {
+      "path": "/rubric[12]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "the problem is when it doesn't get on the board. Like it just sits on the sheet.",
+      "location": "L107, Renata",
+      "cited": "transcript.txt, L107, Renata"
+    },
+    {
+      "path": "/rubric[13]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Last week I had a lady over on Pheasant Run call three times.",
+      "location": "L111, Renata",
+      "cited": "transcript.txt, L111, Renata"
+    },
+    {
+      "path": "/rubric[13]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And I go look, and it's on the sheet from the first call. It just never went anywhere.",
+      "location": "L111, Renata",
+      "cited": "transcript.txt, L111, Renata"
+    },
+    {
+      "path": "/rubric[14]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Right, so when they call we put it on the callback sheet.",
+      "location": "L79, Renata",
+      "cited": "transcript.txt, L79, Renata"
+    },
+    {
+      "path": "/rubric[14]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "No, I mean, the sheet's fine. It's fine.",
+      "location": "L123, Renata",
+      "cited": "transcript.txt, L123, Renata"
+    },
+    {
+      "path": "/rubric[14]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "It's more that, um --",
+      "location": "L123, Renata",
+      "cited": "transcript.txt, L123, Renata"
+    },
+    {
+      "path": "/rubric[14]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Yeah, I mean, sure.",
+      "location": "L127, Renata",
+      "cited": "transcript.txt, L127, Renata"
+    },
+    {
+      "path": "/rubric[14]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "I walk back a lot. My step count's great, though.",
+      "location": "L313, Renata",
+      "cited": "transcript.txt, L313, Renata"
+    },
+    {
+      "path": "/rubric[15]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And then she's asking for Gary. And then Gary's asking me.",
+      "location": "L115, Renata",
+      "cited": "transcript.txt, L115, Renata"
+    },
+    {
+      "path": "/rubric[15]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "so Travis doesn't know if it's a re-treat or if we're charging for it, so it sits.",
+      "location": "L111, Renata",
+      "cited": "transcript.txt, L111, Renata"
+    },
+    {
+      "path": "/rubric[16]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Fifteen, twenty a week, maybe? Summer's more. Summer's like double.",
+      "location": "L131, Renata",
+      "cited": "transcript.txt, L131, Renata"
+    },
+    {
+      "path": "/rubric[16]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Yeah. Maybe.",
+      "location": "L137, Travis",
+      "cited": "transcript.txt, L137, Travis"
+    },
+    {
+      "path": "/rubric[18]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Mornings are the worst.",
+      "location": "L147, Travis",
+      "cited": "transcript.txt, L147, Travis"
+    },
+    {
+      "path": "/rubric[18]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And then I come in and it's all wrong.",
+      "location": "L147, Travis",
+      "cited": "transcript.txt, L147, Travis"
+    },
+    {
+      "path": "/rubric[19]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So now I've got, what, five stops to move.",
+      "location": "L13, Travis",
+      "cited": "transcript.txt, L13, Travis"
+    },
+    {
+      "path": "/rubric[19]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "So I'm moving magnets around on the board, and then I'm texting the guys their changes.",
+      "location": "L151, Travis",
+      "cited": "transcript.txt, L151, Travis"
+    },
+    {
+      "path": "/rubric[20]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And half of them don't read the texts, so then I'm calling them.",
+      "location": "L151, Travis",
+      "cited": "transcript.txt, L151, Travis"
+    },
+    {
+      "path": "/rubric[20]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "honestly the board works. It works. Everybody gets their stops.",
+      "location": "L159, Travis",
+      "cited": "transcript.txt, L159, Travis"
+    },
+    {
+      "path": "/rubric[21]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And half of them don't read the texts, so then I'm calling them.",
+      "location": "L151, Travis",
+      "cited": "transcript.txt, L151, Travis"
+    },
+    {
+      "path": "/rubric[22]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I'm in at six. I'm usually still redoing routes at eight, eight-fifteen?",
+      "location": "L155, Travis",
+      "cited": "transcript.txt, L155, Travis"
+    },
+    {
+      "path": "/rubric[22]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "So call it two hours. Every morning. Saturdays too, in the season.",
+      "location": "L155, Travis",
+      "cited": "transcript.txt, L155, Travis"
+    },
+    {
+      "path": "/pains[0]/quote",
+      "status": "verified",
+      "quote": "the problem is when it doesn't get on the board. Like it just sits on the sheet.",
+      "location": "L107, Renata",
+      "cited": "transcript.txt, L107, Renata"
+    },
+    {
+      "path": "/pains[1]/quote",
+      "status": "verified",
+      "quote": "It just never went anywhere.",
+      "location": "L111, Renata",
+      "cited": "transcript.txt, L111, Renata"
+    },
+    {
+      "path": "/pains[2]/quote",
+      "status": "verified",
+      "quote": "so Travis doesn't know if it's a re-treat or if we're charging for it, so it sits.",
+      "location": "L111, Renata",
+      "cited": "transcript.txt, L111, Renata"
+    },
+    {
+      "path": "/pains[3]/quote",
+      "status": "verified",
+      "quote": "there's a rain day and the whole board gets wiped and redone, and that one just doesn't make it back up.",
+      "location": "L111, Renata",
+      "cited": "transcript.txt, L111, Renata"
+    },
+    {
+      "path": "/pains[4]/quote",
+      "status": "verified",
+      "quote": "Mornings are the worst.",
+      "location": "L147, Travis",
+      "cited": "transcript.txt, L147, Travis"
+    },
+    {
+      "path": "/pains[5]/quote",
+      "status": "verified",
+      "quote": "And half of them don't read the texts, so then I'm calling them.",
+      "location": "L151, Travis",
+      "cited": "transcript.txt, L151, Travis"
+    },
+    {
+      "path": "/pains[6]/quote",
+      "status": "verified",
+      "quote": "And then if it rains, like, three, four days, everybody's pushed.",
+      "location": "L231, Travis",
+      "cited": "transcript.txt, L231, Travis"
+    },
+    {
+      "path": "/pains[7]/quote",
+      "status": "verified",
+      "quote": "And I kind of know who's behind, but it's -- it's in my head.",
+      "location": "L235, Travis",
+      "cited": "transcript.txt, L235, Travis"
+    },
+    {
+      "path": "/pains[8]/quote",
+      "status": "verified",
+      "quote": "And then customers call going, where's my guy, and I don't know where their guy is.",
+      "location": "L241, Renata",
+      "cited": "transcript.txt, L241, Renata"
+    },
+    {
+      "path": "/pains[9]/quote",
+      "status": "verified",
+      "quote": "So if they get pushed, we have to call them again. Every time.",
+      "location": "L245, Renata",
+      "cited": "transcript.txt, L245, Renata"
+    },
+    {
+      "path": "/pains[10]/quote",
+      "status": "verified",
+      "quote": "Everywhere. The phones, the office inbox, the website.",
+      "location": "L253, Renata",
+      "cited": "transcript.txt, L253, Renata"
+    },
+    {
+      "path": "/pains[11]/quote",
+      "status": "verified",
+      "quote": "I mean, it's my inbox, so --",
+      "location": "L261, Renata",
+      "cited": "transcript.txt, L261, Renata"
+    },
+    {
+      "path": "/pains[12]/quote",
+      "status": "verified",
+      "quote": "And it doesn't. It's on the ticket. The ticket's in the truck.",
+      "location": "L205, Renata",
+      "cited": "transcript.txt, L205, Renata"
+    },
+    {
+      "path": "/pains[13]/quote",
+      "status": "verified",
+      "quote": "sometimes the skip turns into a cancel and nobody really catches it until, like, billing.",
+      "location": "L249, Renata",
+      "cited": "transcript.txt, L249, Renata"
+    },
+    {
+      "path": "/pains[14]/quote",
+      "status": "verified",
+      "quote": "when I cover for them, I don't know where anything is.",
+      "location": "L143, Travis",
+      "cited": "transcript.txt, L143, Travis"
+    },
+    {
+      "path": "/numbers/bleed/quote",
+      "status": "verified",
+      "quote": "So call it two hours. Every morning. Saturdays too, in the season.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L155, Travis"
+      ]
+    },
+    {
+      "path": "/numbers/upside/quote",
+      "status": "verified",
+      "quote": "that's supposed to come to us as a lead, so we can call them.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L205, Renata"
+      ]
+    },
+    {
+      "path": "/objections[0]/quote",
+      "status": "verified",
+      "quote": "We tried a scheduling thing, like, three years ago? Some app. Gary bought it. Nobody used it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L179, Travis"
+      ]
+    },
+    {
+      "path": "/objections[1]/quote",
+      "status": "verified",
+      "quote": "I've got guys who still want the paper sheet.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L167, Travis"
+      ]
+    },
+    {
+      "path": "/objections[2]/quote",
+      "status": "verified",
+      "quote": "Oh, the guys are gonna love that.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L265, Travis"
+      ]
+    },
+    {
+      "path": "/objections[3]/quote",
+      "status": "verified",
+      "quote": "Because Gary's going to ask what it costs.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L333, Renata"
+      ]
+    },
+    {
+      "path": "/objections[4]/quote",
+      "status": "verified",
+      "quote": "do they each need, like, a login? Because it's sixty guys.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L329, Travis"
+      ]
+    },
+    {
+      "path": "/objections[5]/quote",
+      "status": "verified",
+      "quote": "Well, Gary would have to see it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L301, Renata"
+      ]
+    },
+    {
+      "path": "/objections[6]/quote",
+      "status": "verified",
+      "quote": "Just not in the spring.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L323, Travis"
+      ]
+    },
+    {
+      "path": "/objections[7]/quote",
+      "status": "verified",
+      "quote": "Oh, I don't think Gary's getting rid of the system.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L295, Renata"
+      ]
+    },
+    {
+      "path": "/objections[8]/quote",
+      "status": "verified",
+      "quote": "I mean, it has to be in the system, though.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L193, Travis"
+      ]
+    },
+    {
+      "path": "/objections[9]/quote",
+      "status": "verified",
+      "quote": "Oh. Huh. That sounds interesting.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L219, Renata"
+      ]
+    },
+    {
+      "path": "/objections[10]/quote",
+      "status": "verified",
+      "quote": "Our customers are, like, seventy.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L221, Travis"
+      ]
+    },
+    {
+      "path": "/objections[11]/quote",
+      "status": "verified",
+      "quote": "Yeah. No, maybe.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L227, Renata"
+      ]
+    },
+    {
+      "path": "/objections[12]/quote",
+      "status": "verified",
+      "quote": "Hm. Maybe. That's more Gary's side.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L213, Renata"
+      ]
+    },
+    {
+      "path": "/objections[13]/quote",
+      "status": "verified",
+      "quote": "honestly the board works. It works.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L159, Travis"
+      ]
+    },
+    {
+      "path": "/objections[14]/quote",
+      "status": "verified",
+      "quote": "He's not really a dashboard guy.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L271, Renata"
+      ]
+    },
+    {
+      "path": "/objections[15]/quote",
+      "status": "verified",
+      "quote": "That's a lot of boards.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L289, Renata"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[0]/quote",
+      "status": "verified",
+      "quote": "I'll send something over.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L337, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[1]/quote",
+      "status": "verified",
+      "quote": "I'll put some ballpark numbers in there for him.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L335, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[2]/quote",
+      "status": "verified",
+      "quote": "we can find a time to walk through it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L343, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[3]/quote",
+      "status": "verified",
+      "quote": "Just email me and I'll forward it to Gary.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L345, Renata"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[4]/quote",
+      "status": "verified",
+      "quote": "Oh, yeah, I can do that.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L349, Renata"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[5]/quote",
+      "status": "verified",
+      "quote": "I can take a picture of the board if you want.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L351, Travis"
+      ]
+    },
+    {
+      "path": "/account_context/evidence_quote_or_null",
+      "status": "verified",
+      "quote": "No. I've seen the ads.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L55, Renata"
+      ]
+    },
+    {
+      "path": "/readiness/goals[0]/quote",
+      "status": "verified",
+      "quote": "I think we just need to be more organized.",
+      "location": "L277, Renata",
+      "cited": "transcript.txt, L277, Renata"
+    },
+    {
+      "path": "/readiness/goals[1]/quote",
+      "status": "verified",
+      "quote": "I just want to be able to look it up.",
+      "location": "L309, Renata",
+      "cited": "transcript.txt, L309, Renata"
+    },
+    {
+      "path": "/readiness/goals[2]/quote",
+      "status": "verified",
+      "quote": "if a guy calls out, I just want to push it to the guys and be done.",
+      "location": "L317, Travis",
+      "cited": "transcript.txt, L317, Travis"
+    },
+    {
+      "path": "/readiness/pains[0]/quote",
+      "status": "verified",
+      "quote": "the problem is when it doesn't get on the board. Like it just sits on the sheet.",
+      "location": "L107, Renata",
+      "cited": "transcript.txt, L107, Renata"
+    },
+    {
+      "path": "/readiness/pains[1]/quote",
+      "status": "verified",
+      "quote": "It just never went anywhere.",
+      "location": "L111, Renata",
+      "cited": "transcript.txt, L111, Renata"
+    },
+    {
+      "path": "/readiness/pains[2]/quote",
+      "status": "verified",
+      "quote": "so Travis doesn't know if it's a re-treat or if we're charging for it, so it sits.",
+      "location": "L111, Renata",
+      "cited": "transcript.txt, L111, Renata"
+    },
+    {
+      "path": "/readiness/pains[3]/quote",
+      "status": "verified",
+      "quote": "there's a rain day and the whole board gets wiped and redone, and that one just doesn't make it back up.",
+      "location": "L111, Renata",
+      "cited": "transcript.txt, L111, Renata"
+    },
+    {
+      "path": "/readiness/pains[4]/quote",
+      "status": "verified",
+      "quote": "Mornings are the worst.",
+      "location": "L147, Travis",
+      "cited": "transcript.txt, L147, Travis"
+    },
+    {
+      "path": "/readiness/pains[5]/quote",
+      "status": "verified",
+      "quote": "And half of them don't read the texts, so then I'm calling them.",
+      "location": "L151, Travis",
+      "cited": "transcript.txt, L151, Travis"
+    },
+    {
+      "path": "/readiness/pains[6]/quote",
+      "status": "verified",
+      "quote": "And then if it rains, like, three, four days, everybody's pushed.",
+      "location": "L231, Travis",
+      "cited": "transcript.txt, L231, Travis"
+    },
+    {
+      "path": "/readiness/pains[7]/quote",
+      "status": "verified",
+      "quote": "And I kind of know who's behind, but it's -- it's in my head.",
+      "location": "L235, Travis",
+      "cited": "transcript.txt, L235, Travis"
+    },
+    {
+      "path": "/readiness/pains[8]/quote",
+      "status": "verified",
+      "quote": "And then customers call going, where's my guy, and I don't know where their guy is.",
+      "location": "L241, Renata",
+      "cited": "transcript.txt, L241, Renata"
+    },
+    {
+      "path": "/readiness/pains[9]/quote",
+      "status": "verified",
+      "quote": "So if they get pushed, we have to call them again. Every time.",
+      "location": "L245, Renata",
+      "cited": "transcript.txt, L245, Renata"
+    },
+    {
+      "path": "/readiness/pains[10]/quote",
+      "status": "verified",
+      "quote": "Everywhere. The phones, the office inbox, the website.",
+      "location": "L253, Renata",
+      "cited": "transcript.txt, L253, Renata"
+    },
+    {
+      "path": "/readiness/pains[11]/quote",
+      "status": "verified",
+      "quote": "I mean, it's my inbox, so --",
+      "location": "L261, Renata",
+      "cited": "transcript.txt, L261, Renata"
+    },
+    {
+      "path": "/readiness/pains[12]/quote",
+      "status": "verified",
+      "quote": "And it doesn't. It's on the ticket. The ticket's in the truck.",
+      "location": "L205, Renata",
+      "cited": "transcript.txt, L205, Renata"
+    },
+    {
+      "path": "/readiness/pains[13]/quote",
+      "status": "verified",
+      "quote": "sometimes the skip turns into a cancel and nobody really catches it until, like, billing.",
+      "location": "L249, Renata",
+      "cited": "transcript.txt, L249, Renata"
+    },
+    {
+      "path": "/readiness/pains[14]/quote",
+      "status": "verified",
+      "quote": "when I cover for them, I don't know where anything is.",
+      "location": "L143, Travis",
+      "cited": "transcript.txt, L143, Travis"
+    },
+    {
+      "path": "/readiness/signals[0]/quote",
+      "status": "verified",
+      "quote": "It's more that, um --",
+      "location": "L123, Renata",
+      "cited": "transcript.txt, L123, Renata"
+    },
+    {
+      "path": "/readiness/signals[1]/quote",
+      "status": "verified",
+      "quote": "Yeah. That'd be nice.",
+      "location": "L119, Renata",
+      "cited": "transcript.txt, L119, Renata"
+    },
+    {
+      "path": "/readiness/signals[2]/quote",
+      "status": "verified",
+      "quote": "It's just, if I'm --",
+      "location": "L159, Travis",
+      "cited": "transcript.txt, L159, Travis"
+    },
+    {
+      "path": "/readiness/signals[3]/quote",
+      "status": "verified",
+      "quote": "Would we still be printing the route sheets from the system, or...?",
+      "location": "L291, Travis",
+      "cited": "transcript.txt, L291, Travis"
+    },
+    {
+      "path": "/readiness/signals[4]/quote",
+      "status": "verified",
+      "quote": "The system will show you who's overdue, but it's not great.",
+      "location": "L235, Travis",
+      "cited": "transcript.txt, L235, Travis"
+    },
+    {
+      "path": "/readiness/signals[5]/quote",
+      "status": "verified",
+      "quote": "Oh. Okay. Huh.",
+      "location": "L239, Travis",
+      "cited": "transcript.txt, L239, Travis"
+    },
+    {
+      "path": "/readiness/signals[6]/quote",
+      "status": "verified",
+      "quote": "My leads are better about it. They'll actually text me.",
+      "location": "L215, Travis",
+      "cited": "transcript.txt, L215, Travis"
+    },
+    {
+      "path": "/readiness/signals[7]/quote",
+      "status": "verified",
+      "quote": "everything's in five places, and it's kind of gotten worse, I don't know.",
+      "location": "L277, Renata",
+      "cited": "transcript.txt, L277, Renata"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[0]",
+      "status": "verified",
+      "quote": "So a lawn plan is, like, six rounds a year? Seven if they've got the grub control.",
+      "location": "L231, Travis",
+      "cited": "transcript.txt, L231, Travis"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[1]",
+      "status": "verified",
+      "quote": "And then if it rains, like, three, four days, everybody's pushed.",
+      "location": "L231, Travis",
+      "cited": "transcript.txt, L231, Travis"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[2]",
+      "status": "verified",
+      "quote": "sometimes the skip turns into a cancel and nobody really catches it until, like, billing.",
+      "location": "L249, Renata",
+      "cited": "transcript.txt, L249, Renata"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[0]",
+      "status": "verified",
+      "quote": "honestly the board works. It works. Everybody gets their stops.",
+      "location": "L159, Travis",
+      "cited": "transcript.txt, L159, Travis"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[1]",
+      "status": "verified",
+      "quote": "Would we still be printing the route sheets from the system, or...?",
+      "location": "L291, Travis",
+      "cited": "transcript.txt, L291, Travis"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[2]",
+      "status": "verified",
+      "quote": "And half of them don't read the texts, so then I'm calling them.",
+      "location": "L151, Travis",
+      "cited": "transcript.txt, L151, Travis"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[0]",
+      "status": "verified",
+      "quote": "Last week I had a lady over on Pheasant Run call three times.",
+      "location": "L111, Renata",
+      "cited": "transcript.txt, L111, Renata"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[1]",
+      "status": "verified",
+      "quote": "And I go look, and it's on the sheet from the first call. It just never went anywhere.",
+      "location": "L111, Renata",
+      "cited": "transcript.txt, L111, Renata"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[0]",
+      "status": "verified",
+      "quote": "sometimes a CSR puts it on the sheet but she doesn't put the plan, so Travis doesn't know if it's a re-treat or if we're charging for it, so it sits.",
+      "location": "L111, Renata",
+      "cited": "transcript.txt, L111, Renata"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[1]",
+      "status": "verified",
+      "quote": "If it was a one-time, you get thirty days. So if it's, like, day thirty-four, that's a whole conversation.",
+      "location": "L103, Renata",
+      "cited": "transcript.txt, L103, Renata"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[0]",
+      "status": "verified",
+      "quote": "there's a rain day and the whole board gets wiped and redone, and that one just doesn't make it back up.",
+      "location": "L111, Renata",
+      "cited": "transcript.txt, L111, Renata"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[0]",
+      "status": "verified",
+      "quote": "I'm in at six. I'm usually still redoing routes at eight, eight-fifteen? So call it two hours. Every morning. Saturdays too, in the season.",
+      "location": "L155, Travis",
+      "cited": "transcript.txt, L155, Travis"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[1]",
+      "status": "verified",
+      "quote": "It's just, if I'm --",
+      "location": "L159, Travis",
+      "cited": "transcript.txt, L159, Travis"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[0]",
+      "status": "verified",
+      "quote": "Big whiteboard. Every tech's got a row, every stop's a magnet.",
+      "location": "L89, Travis",
+      "cited": "transcript.txt, L89, Travis"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[1]",
+      "status": "verified",
+      "quote": "So I'm moving magnets around on the board, and then I'm texting the guys their changes.",
+      "location": "L151, Travis",
+      "cited": "transcript.txt, L151, Travis"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[0]",
+      "status": "verified",
+      "quote": "And I kind of know who's behind, but it's -- it's in my head. The system will show you who's overdue, but it's not great.",
+      "location": "L235, Travis",
+      "cited": "transcript.txt, L235, Travis"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[1]",
+      "status": "verified",
+      "quote": "And then customers call going, where's my guy, and I don't know where their guy is.",
+      "location": "L241, Renata",
+      "cited": "transcript.txt, L241, Renata"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[0]",
+      "status": "verified",
+      "quote": "Everywhere. The phones, the office inbox, the website.",
+      "location": "L253, Renata",
+      "cited": "transcript.txt, L253, Renata"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[1]",
+      "status": "verified",
+      "quote": "So now he forwards me everything, screenshots, voicemails, and I've got a folder in my email, and I try to keep track, like, did we call them back, did we send somebody.",
+      "location": "L261, Renata",
+      "cited": "transcript.txt, L261, Renata"
+    },
+    {
+      "path": "/readiness/structure/leanings[9]/quotes[0]",
+      "status": "verified",
+      "quote": "It's a different everything up there. Which, I mean, Lorna's great. It's just, when I cover for them, I don't know where anything is.",
+      "location": "L143, Travis",
+      "cited": "transcript.txt, L143, Travis"
+    },
+    {
+      "path": "/readiness/structure/leanings[9]/quotes[1]",
+      "status": "verified",
+      "quote": "If it's going to North. I don't know if it's going to North. That's kind of a Gary question.",
+      "location": "L305, Renata",
+      "cited": "transcript.txt, L305, Renata"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+# s11-demo-composite (calibration fixture, C56)
+
+A follow-up demo: the second showing of a v0.1 build to an event and party equipment hire company, at a low client share. The Consultant opens with a nine-minute tour and one block in the transcript is labelled with one client's name while holding the Consultant's question, a second client's answer and a vocative addressing the label. The key asserts the repair of each planted defect. Fictional client: a tent, chair and dance-floor hire business with a yard, a warehouse and four trucks. Everything in it is invented. Guards reversal R19 (client tying is not a defect signal).
+
+## Files
+
+| File | What it is |
+|---|---|
+| `transcript.txt` | Plain text, 245 lines, 82 turns as a `[MM:SS] Speaker Name` label line followed by one text line. About 8,761 spoken words. By label: Consultant 81.6%, client 18.4% (Anjali 13.3%, Hattie 3.3%, Desmond 1.8%). Longest turn 1,416 words at [04:19]; the composite block is 878 words at [28:05]. |
+| `answer-key.json` | The 25 fields in the s1 to s10 order, plus an `intake` block. 395 lines. |
+| `README.md` | This file. |
+
+Give the plugin `transcript.txt` alone. The discovery call two weeks earlier and the General Manager's first look at v0.1 are referred to but have no transcript; the key grades this call on its own and says so. Every location is `MM:SS Speaker Name (role)` from the label line the quote sits under, `MM:SS Consultant` for our side, and for the block `28:05 block, segment N, a participant on the client side (speaker not resolvable)` or `28:05 block, segment N, our side (speaker not resolvable by label)`, with the nine segments listed in `intake.composite_blocks`.
+
+## The planted defects
+
+| Defect | Where | What the key asserts |
+|---|---|---|
+| Composite block under one client label | [28:05], 878 words, labelled Anjali Venkataraman | Detected on the decisive signal (second-person address to the block's own label: "Anjali, you told me two weeks ago") plus four supporting signals; split into nine candidate segments (six client side, 782 words; three our side, 96 words); nothing attributed to the labelled speaker; every quote from it `[Q/side]` with the block range; every criterion resting on it Partial, never Missing (P3 is six Partials by design); confirm-by-name questions for the 8th. |
+| Very long single-presenter turn | [04:19], 1,416 words, 8 min 53 s | One own-side stretch from the last client word; every showing inside it over the cap; not composite (first-person narration, names inside screen narration, no self-address). |
+| Names and figures narrated inside our own screen share | 03:12 to 46:19 | `[X]` on the seeded wedding, club, party, dates, chair counts and dollar figures, on a hypothetical about a present attendee ("let's pretend Desmond is out that Thursday, sick"), and on seed data that reuses a real crew lead's name; none becomes a record fact. Client speech inside the share is not quarantined. |
+| Client ties to a screen | 16:30, 22:46, 41:57, 44:26, 47:24, and one side-only inside the block | No defect on any tie. The one the presenter confirmed in the next sentence (P1, 16:36) is logged as a per-pain confirmation; the three answered with "It can also" go on the next close's list; the side-only one is listed for re-confirmation by name; the conditional one travels with the phone test at the yard. |
+| Low client share | whole call | Share reported by label with a composite warning, as attributable-only, as the figure a confirmed split would give (17.3%), per phase, and over the showing window; never as one laundered number. |
+| Second-hand figure and relayed approver remark | inside the block | "a venue is worth thirty weddings" is the absent owner's arithmetic and side-only at once, never a figure; "Gerald walked past it in August" is a relayed remark, never his why-now. The attributed clock ("Before March.", 51:23) carries R3. |
+| Opinion question at the close | 59:03 / 59:13 | "It lands." is non-evidence for R11 and R12; the change-list read-back is not a per-pain confirmation. |
+
+## Counts for the COVERAGE.md row
+
+- Rubric rows: 24. By status: 9 met, 13 partial, 1 missing (P4 Trajectory), 1 met-with-residual (R3). Every row carries `asked` (12 true, 12 false) and, where true, an `asked_quote` with its location.
+- Graded pains: 2 (P3 the Thursday board, P4 charges never raised); 1 excavated (P4). P3's six checks are all partial because its evidence is inside the block. `pains` array: 9 entries (P1 and P2 are restated by the Consultant and not graded from this call; P5, venue coordinators, is a seed).
+- Numbers: bleed partial with a side-only quote, nothing built; upside partial (the Larchmere Hall contract, no value).
+- Objections: 8. By spec name: Team won't adopt it 3, Must check with someone 2, Wrong time, next quarter 1, Just send a proposal or pricing 1, Outside the map 1.
+- Traps: 22. Look-alike traps: 4. Leak block list: 13 entries, including one CAUTION entry (client vocabulary that must survive) and one "flag, do not remove" group.
+- Requested changes: 1 add, 3 change, 1 remove (the v0.2 change list; one change, the Sent back stage, was applied live).
+- Commitments: 9. Pre-build questions: 11. Vocabulary: 13. Entities and workflows: 8. Integrations: 5. Compliance signals: 5. Accepted behaviours: 10.
+- Quotes: 121 checked strings (`quote`, `asked_quote.quote`, `account_context.evidence_quote_or_null` and the one verbatim gap answer), all verified verbatim against the transcript, each inside one line.
+- Verdict: Nearly ready (R2 met, R3 met-with-residual, R4 partial, R7 met). Gates: Solution blueprint met, Build met, First demo (v0.1) met, Pricing or proposal prep not met, v1.0 sign-off not met. `should_plugin_propose_a_build` true (v0.2 from the change list).
+- Products: CRM plus Work Management. Native boards required: 3 CRM (Deals/Opportunities as Quotes, Accounts as Clients, Contacts conditional for venue coordinators). `portfolio_expected` false: no account exists and no tier was stated. Tier unknown; the demo ran in the Consultant's own demo account.
+- Intake block: 1 file typed `demo` with a full type header (five signals, four with quotes; the same-side screen direction signal records that there is nothing to record) and a segment boundary at 46:19 where the screen stops; 1 composite block with 9 candidate segments on 5 signal entries; 0 wedges; 0 re-joined sentences; 8 alias-map entries; 1 quarantined span with 8 item groups; 3 second-hand entries; 3 own-side stretches; talk share by label, attributable-only, if-confirmed, per phase (4) and over the showing window; 6 client ties (1 confirmed, 3 unconfirmed, 1 side-only, 1 conditional); 5 next-close items; 7 gap-register entries; 3 live changes (1 structural, kept); a demo-environment record; 3 corrections-block lines; 4 delivery notes.
+
+## Conventions and deviations worth knowing
+
+- The key uses `met-with-residual` (R3) and the per-criterion `asked` flag with `asked_quote`. It does not use `not-obtainable` or `advisory`: nothing here is unobtainable from the room, and the call type resolves cleanly. Other calibration fixtures carry `not-obtainable`; no calibration fixture carries a positive `advisory` row, because every fixture's type resolves; the value's positive case is the constructed unresolvable fragment of BUILD-PLAN.md section 4.3, item 8 (H50).
+- `call_type` is `demo`, from the thirteen labels of ARCHITECTURE.md 7.1; the type header carries the tokens `shared/record-map.md` pins (the 8.3 step 5 values in their hyphenated form), with the fixture's reasoning in a `_note` beside each field. The reviewed s3 used `follow-up-demo-feedback`, which predates that list.
+- Four `asked_quote` locations point inside the composite block (our own questions at segment 2: R1 and the three P3 checks that were asked), cited with the our-side block location rather than a speaker.
+- Objections carry `quote` and `type` only, as every other key does; the status (raised, answered on the call, answered with a hedge, deferred) sits inside the `type` parenthesis with the stamp of the answer.
+- Rows, pains, objections, traps and most intake entries print on one line each; the composite block, the quarantined span, the type header and the talk share expand so their lists stay readable. The field set and order are unchanged from s1 to s10.
+- Tool references are category words throughout: a spreadsheet, the old rental software, the accounting system, text messages, phones, a notebook. The transcript never names the platform; the key names monday products only where it maps the build.
+- Dates are relative and fit late September 2026: the call is a weekday before Thursday 8 October ("What happens in October?"), probably Wednesday 30 September, though "it's Wednesday" sits inside the block and must not fix it; the next showing is Thursday 8 October at 2:00 pm at the yard; the scanner answer is due the Friday of the call's week. No transcript states its own date, and the 8th at 2:00 pm collides with no other fixture's meeting.
+- The transcript was carried over from the earlier draft of this fixture with one change made before the key was written: the crew lead is Ferenc, because the draft's name for him collided with a crew lead in s19. All other person and organisation names were checked against s1 to s24 and are unique to this fixture.
+- At review the transcript was given some of the mess a real export carries, in spans no quote cites: one `[inaudible]` (01:10), two more ` -- ` restarts (13:12, 54:43), screen fumbles and fillers inside the tour and the committed-column turn, and turn durations that now spread from about 130 to 175 words a minute instead of sitting at one rate (the draft's stamps had been generated at 150). The seeded chair and damage counts drift between the tour and the later walk-throughs on purpose, as improvised demo figures do; the key quarantines every version. Every count in this file and in the key was regenerated after those edits.
+
+## Review status
+
+Written to the s11 row in BUILD-PLAN.md section 4.2 and to C56 in REAL-CALL-LESSONS.md section 6, and to nothing else. Adversarially reviewed once (every checked string re-verified at its location, every count regenerated, the objection shape aligned with s1 to s10, the supporting-signal count and the block's `asked_quote` count corrected). Not yet reviewed by the user; the COVERAGE.md row is written at the acceptance stage from the counts above.
+
+At stage-1 acceptance (2026-09-20) the type-header values in `answer-key.json` were re-spelled as the tokens `shared/record-map.md` pins, with each value's prose moved to a `_note` field beside it; no quote, location, grade or count changed, and the outside-the-map objection took the `Outside the map: ` colon form section 5.2 of `sales-method.md` asks for.

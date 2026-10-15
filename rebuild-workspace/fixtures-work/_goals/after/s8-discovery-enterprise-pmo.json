@@ -1,0 +1,2129 @@
+{
+  "fixture": "s8-discovery-enterprise-pmo",
+  "sources": [
+    {
+      "name": "transcript.txt",
+      "kind": "transcript",
+      "format": "vtt",
+      "units": 417,
+      "unsupported": null
+    }
+  ],
+  "counts": {
+    "pairs": 286,
+    "verified": 286,
+    "verified_presence_only": 25,
+    "skipped": 0,
+    "unparsed_prose": 0,
+    "near_misses": 0,
+    "misses": 0,
+    "unsupported": 0,
+    "warnings": 0
+  },
+  "refused_quotes_not_checked": [],
+  "skipped": [],
+  "pairs": [
+    {
+      "path": "/rubric[0]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Preconstruction wins it.",
+      "location": "cue 56, 00:07:48.245, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 56, L223, 00:07:48.245, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[0]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Roland sets up the job number in Sage.",
+      "location": "cue 59, 00:08:18.456, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 59, L235, 00:08:18.456, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[0]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "The PM sets up the project in Procore, which is where the drawings and RFIs and submittals live.",
+      "location": "cue 59, 00:08:18.456, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 59, L235, 00:08:18.456, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[0]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Insurance certificates, notice to proceed, preconstruction meeting, ICRA, badging, the submittal log setup, the schedule baseline.",
+      "location": "cue 62, 00:08:44.228, Warren Tibbetts",
+      "cited": "transcript.txt, cue 62, L247, 00:08:44.228, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[0]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Every Monday the PMs are supposed to send me a status.",
+      "location": "cue 81, 00:11:22.226, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 81, L323, 00:11:22.226, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[0]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "It's an email, or a tab in a spreadsheet, or in two cases a text message, and it has percent complete, any schedule slip, any budget exposure, and a color.",
+      "location": "cue 82, 00:11:28.341, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 82, L327, 00:11:28.341, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[0]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "Bridget, my analyst, pulls all of it into the monthly deck for the executive committee.",
+      "location": "cue 87, 00:11:56.207, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 87, L347, 00:11:56.207, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[0]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "Two full days a month, and that's if people answer her.",
+      "location": "cue 89, 00:12:15.013, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 89, L355, 00:12:15.013, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[0]/evidence[8]/quote",
+      "status": "verified",
+      "quote": "I keep a forecast in Excel.",
+      "location": "cue 76, 00:10:42.620, Warren Tibbetts",
+      "cited": "transcript.txt, cue 76, L303, 00:10:42.620, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[0]/evidence[9]/quote",
+      "status": "verified",
+      "quote": "Because Sage gives me actuals after the month closes, and that's too late to do anything with, so I carry my own.",
+      "location": "cue 77, 00:10:49.274, Warren Tibbetts",
+      "cited": "transcript.txt, cue 77, L307, 00:10:49.274, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[0]/evidence[10]/quote",
+      "status": "verified",
+      "quote": "We call it the grid.",
+      "location": "cue 138, 00:19:13.232, Ines Kovalenko",
+      "cited": "transcript.txt, cue 138, L551, 00:19:13.232, Ines Kovalenko"
+    },
+    {
+      "path": "/rubric[0]/evidence[11]/quote",
+      "status": "verified",
+      "quote": "A tab per office, every person down the left, weeks across the top, and a percentage in each cell.",
+      "location": "cue 138, 00:19:13.232, Ines Kovalenko",
+      "cited": "transcript.txt, cue 138, L551, 00:19:13.232, Ines Kovalenko"
+    },
+    {
+      "path": "/rubric[0]/evidence[12]/quote",
+      "status": "verified",
+      "quote": "Preconstruction has a board in monday for tracking bids.",
+      "location": "cue 337, 00:47:24.818, Warren Tibbetts",
+      "cited": "transcript.txt, cue 337, L1347, 00:47:24.818, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[0]/evidence[13]/quote",
+      "status": "verified",
+      "quote": "Safety has one too, Lonnie's incident board, and that one's actually used every day.",
+      "location": "cue 339, 00:47:48.605, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 339, L1355, 00:47:48.605, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[0]/evidence[14]/quote",
+      "status": "verified",
+      "quote": "We're on the enterprise plan, work management, about two hundred and twenty seats.",
+      "location": "cue 343, 00:48:21.292, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 343, L1371, 00:48:21.292, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[0]/evidence[15]/quote",
+      "status": "verified",
+      "quote": "Stefan owns the contract and Kyle in preconstruction is the one who actually builds things in it.",
+      "location": "cue 343, 00:48:21.292, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 343, L1371, 00:48:21.292, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[1]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Curt asked me a question I could not answer, which was, of these forty, which ones are actually in trouble.",
+      "location": "cue 112, 00:15:21.677, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 112, L447, 00:15:21.677, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[1]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Five weeks late.",
+      "location": "cue 109, 00:14:55.853, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 109, L435, 00:14:55.853, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[1]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "It's not wrong on purpose.",
+      "location": "cue 101, 00:13:36.272, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 101, L403, 00:13:36.272, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[1]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Once you find out a green row was five weeks late, you can't unsee that.",
+      "location": "cue 120, 00:16:41.352, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 120, L479, 00:16:41.352, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[2]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We signed a four-year master agreement with Cumberland Health in August.",
+      "location": "cue 133, 00:18:28.051, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 133, L531, 00:18:28.051, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[2]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "That takes us from forty active projects to something like fifty-five next year, with the same fourteen PMs and the same one analyst.",
+      "location": "cue 134, 00:18:37.715, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 134, L535, 00:18:37.715, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[2]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Reporting, their PMO has a quarterly program review and the first one is January fifteenth, and I have to stand up in front of their vice president of facilities and show program-level health, budget and milestones across every job we're doing for them.",
+      "location": "cue 227, 00:31:51.207, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 227, L907, 00:31:51.207, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[2]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "And Bridget goes out on parental leave in November.",
+      "location": "cue 134, 00:18:37.715, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 134, L535, 00:18:37.715, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[2]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Next year's budget locks in November.",
+      "location": "cue 231, 00:32:35.139, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 231, L923, 00:32:35.139, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[3]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Fourteen project managers report up through me, and Ines sits in my group.",
+      "location": "cue 53, 00:07:11.335, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 53, L211, 00:07:11.335, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[3]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Call it four hours a week, easily.",
+      "location": "cue 123, 00:17:08.620, Warren Tibbetts",
+      "cited": "transcript.txt, cue 123, L491, 00:17:08.620, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[3]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Four is fair.",
+      "location": "cue 242, 00:34:18.116, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 242, L967, 00:34:18.116, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[3]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "About ninety-five an hour.",
+      "location": "cue 244, 00:34:32.358, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 244, L975, 00:34:32.358, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[3]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Ten, and that's a good week.",
+      "location": "cue 143, 00:19:45.551, Ines Kovalenko",
+      "cited": "transcript.txt, cue 143, L571, 00:19:45.551, Ines Kovalenko"
+    },
+    {
+      "path": "/rubric[3]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "Call it seventy-two.",
+      "location": "cue 251, 00:35:22.140, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 251, L1003, 00:35:22.140, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[3]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "She's at about sixty-five loaded.",
+      "location": "cue 255, 00:35:42.503, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 255, L1019, 00:35:42.503, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[3]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "Half a day a month, reviewing and rewriting the summary page.",
+      "location": "cue 257, 00:35:51.293, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 257, L1027, 00:35:51.293, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[3]/evidence[8]/quote",
+      "status": "verified",
+      "quote": "About fifty thousand in overtime and acceleration.",
+      "location": "cue 160, 00:22:07.198, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 160, L639, 00:22:07.198, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[3]/evidence[9]/quote",
+      "status": "verified",
+      "quote": "Two a year. Maybe three.",
+      "location": "cue 162, 00:22:21.250, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 162, L647, 00:22:21.250, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[3]/evidence[10]/quote",
+      "status": "verified",
+      "quote": "That's what June cost.",
+      "location": "cue 262, 00:36:41.636, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 262, L1047, 00:36:41.636, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[3]/evidence[11]/quote",
+      "status": "verified",
+      "quote": "Four hundred and thirty-two thousand.",
+      "location": "cue 268, 00:37:30.906, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 268, L1071, 00:37:30.906, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[3]/evidence[12]/quote",
+      "status": "verified",
+      "quote": "That number is low, if anything.",
+      "location": "cue 270, 00:37:40.358, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 270, L1079, 00:37:40.358, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[3]/evidence[13]/quote",
+      "status": "verified",
+      "quote": "About right and also horrible.",
+      "location": "cue 275, 00:38:19.209, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 275, L1099, 00:38:19.209, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[4]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I've got two PMs in next year's budget request, at about a hundred and fifty thousand each all in.",
+      "location": "cue 277, 00:38:39.731, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 277, L1107, 00:38:39.731, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[4]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I'd hold one.",
+      "location": "cue 280, 00:39:02.931, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 280, L1119, 00:39:02.931, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[4]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "We turned down two invitations last year because we couldn't staff them.",
+      "location": "cue 285, 00:39:41.819, Ines Kovalenko",
+      "cited": "transcript.txt, cue 285, L1139, 00:39:41.819, Ines Kovalenko"
+    },
+    {
+      "path": "/rubric[4]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Eight to twelve million in revenue, and we make about three and a half points on that kind of work.",
+      "location": "cue 290, 00:40:18.306, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 290, L1159, 00:40:18.306, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[4]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "One is realistic.",
+      "location": "cue 294, 00:40:49.579, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 294, L1175, 00:40:49.579, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[4]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "Waverly wants one partner for their whole outpatient program.",
+      "location": "cue 296, 00:41:07.810, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 296, L1183, 00:41:07.810, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[4]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "And I can't credibly say yes, because I cannot show them how we'd run twenty of their jobs at once when I can't show anybody how we run forty now.",
+      "location": "cue 297, 00:41:22.386, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 297, L1187, 00:41:22.386, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[5]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I open one screen on Monday morning and I see forty projects, with a color and a number, and I believe it.",
+      "location": "cue 301, 00:41:57.390, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 301, L1203, 00:41:57.390, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[5]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And I stop emailing people for it.",
+      "location": "cue 301, 00:41:57.390, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 301, L1203, 00:41:57.390, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[5]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "If I want to know which ones are in trouble I look, I don't ask.",
+      "location": "cue 302, 00:42:11.427, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 302, L1207, 00:42:11.427, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[5]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Budget.",
+      "location": "cue 304, 00:42:22.772, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 304, L1215, 00:42:22.772, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[5]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "He wants to walk into the second Tuesday and not be surprised.",
+      "location": "cue 306, 00:42:39.038, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 306, L1223, 00:42:39.038, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[5]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "If I can pull their program up on a screen in front of their VP of facilities and it's current, that's the win.",
+      "location": "cue 308, 00:42:58.383, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 308, L1231, 00:42:58.383, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[5]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "I enter my numbers once.",
+      "location": "cue 311, 00:43:22.187, Warren Tibbetts",
+      "cited": "transcript.txt, cue 311, L1243, 00:43:22.187, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[5]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "And I'd like somebody to be able to answer Warren without me.",
+      "location": "cue 312, 00:43:36.778, Ines Kovalenko",
+      "cited": "transcript.txt, cue 312, L1247, 00:43:36.778, Ines Kovalenko"
+    },
+    {
+      "path": "/rubric[6]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It's my budget.",
+      "location": "cue 314, 00:44:04.358, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 314, L1255, 00:44:04.358, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[6]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Anything over a hundred and fifty thousand a year goes to Corinne and then the executive committee.",
+      "location": "cue 316, 00:44:18.045, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 316, L1263, 00:44:18.045, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[6]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "So practically, I decide, Corinne's team raises the PO, and Stefan does his security review.",
+      "location": "cue 317, 00:44:28.138, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 317, L1267, 00:44:28.138, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[6]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "And he will have a questionnaire.",
+      "location": "cue 319, 00:44:38.753, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 319, L1275, 00:44:38.753, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[6]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Two to three weeks, and he's thorough.",
+      "location": "cue 319, 00:44:38.753, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 319, L1275, 00:44:38.753, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[6]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "Nothing touches Sage without Roland, and he is protective of Sage, and I'd say rightly.",
+      "location": "cue 321, 00:44:58.406, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 321, L1283, 00:44:58.406, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[6]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "Procore, three years ago.",
+      "location": "cue 323, 00:45:21.184, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 323, L1291, 00:45:21.184, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[6]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "Security review, a pilot, then a rollout with training.",
+      "location": "cue 323, 00:45:21.184, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 323, L1291, 00:45:21.184, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[7]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "This is the thing I'm working on.",
+      "location": "cue 234, 00:33:01.891, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 234, L935, 00:33:01.891, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[7]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "If you'd called me in March I'd have been polite and slow.",
+      "location": "cue 234, 00:33:01.891, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 234, L935, 00:33:01.891, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[7]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I'd want something real running on a handful of jobs by the middle of November, so we've shaken it out before the holidays, and everything on it in time for January fifteenth.",
+      "location": "cue 236, 00:33:17.522, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 236, L943, 00:33:17.522, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[7]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Warren's three, and three of the Chattanooga ones so it's not all one office.",
+      "location": "cue 238, 00:33:36.898, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 238, L951, 00:33:36.898, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[8]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Adoption.",
+      "location": "cue 325, 00:45:43.637, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 325, L1299, 00:45:43.637, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[8]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "We tried Smartsheet in twenty twenty-three and it lasted about a quarter.",
+      "location": "cue 325, 00:45:43.637, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 325, L1299, 00:45:43.637, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[8]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "So it became another thing to update, and the PMs smiled at me and quietly didn't.",
+      "location": "cue 328, 00:46:07.410, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 328, L1311, 00:46:07.410, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[8]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "If it's another thing to update, it's dead.",
+      "location": "cue 329, 00:46:16.465, Warren Tibbetts",
+      "cited": "transcript.txt, cue 329, L1315, 00:46:16.465, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[8]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "And if the supers have to log in, it's dead twice, because they're on a phone in a trailer with one bar.",
+      "location": "cue 330, 00:46:22.657, Warren Tibbetts",
+      "cited": "transcript.txt, cue 330, L1319, 00:46:22.657, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[8]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "Stefan's guy told him he could build this in Power BI in a couple of weeks.",
+      "location": "cue 349, 00:49:25.872, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 349, L1395, 00:49:25.872, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[8]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "I should tell you we're also talking to another partner.",
+      "location": "cue 354, 00:50:16.001, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 354, L1415, 00:50:16.001, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[8]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "And half our sites have no signal inside the building.",
+      "location": "cue 333, 00:46:55.282, Ines Kovalenko",
+      "cited": "transcript.txt, cue 333, L1331, 00:46:55.282, Ines Kovalenko"
+    },
+    {
+      "path": "/rubric[9]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "After one, I've got an OAC at eleven.",
+      "location": "cue 397, 00:57:00.649, Warren Tibbetts",
+      "cited": "transcript.txt, cue 397, L1587, 00:57:00.649, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[9]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Two o'clock Eastern on the twenty-third, then.",
+      "location": "cue 398, 00:57:05.574, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 398, L1591, 00:57:05.574, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[9]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Works.",
+      "location": "cue 399, 00:57:11.153, Ines Kovalenko",
+      "cited": "transcript.txt, cue 399, L1595, 00:57:11.153, Ines Kovalenko"
+    },
+    {
+      "path": "/rubric[9]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Two o'clock Eastern, Wednesday the twenty-third, forty-five minutes.",
+      "location": "cue 400, 00:57:14.344, Consultant",
+      "cited": "transcript.txt, cue 400, L1599, 00:57:14.344, Consultant"
+    },
+    {
+      "path": "/rubric[11]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Yes. Those five. That's what I'd sign up for.",
+      "location": "cue 380, 00:55:05.178, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 380, L1519, 00:55:05.178, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[11]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I'd add that Warren enters his numbers once, but that's inside number one.",
+      "location": "cue 382, 00:55:14.229, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 382, L1527, 00:55:14.229, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[11]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And field crews stay out.",
+      "location": "cue 384, 00:55:28.496, Ines Kovalenko",
+      "cited": "transcript.txt, cue 384, L1535, 00:55:28.496, Ines Kovalenko"
+    },
+    {
+      "path": "/rubric[11]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Go.",
+      "location": "cue 375, 00:54:07.591, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 375, L1499, 00:54:07.591, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[12]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I have forty projects and I could not put that slide together in less than a week.",
+      "location": "cue 17, 00:02:06.753, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 17, L67, 00:02:06.753, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[12]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The summary page.",
+      "location": "cue 97, 00:13:16.205, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 97, L387, 00:13:16.205, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[12]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Because it's wrong.",
+      "location": "cue 99, 00:13:30.245, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 99, L395, 00:13:30.245, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[12]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "It's not wrong on purpose.",
+      "location": "cue 101, 00:13:36.272, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 101, L403, 00:13:36.272, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[13]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The August meeting.",
+      "location": "cue 104, 00:14:06.619, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 104, L415, 00:14:06.619, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[13]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And he says, didn't you tell me last month that one was waiting on a switchgear delivery?",
+      "location": "cue 105, 00:14:19.042, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 105, L419, 00:14:19.042, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[13]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Five weeks late.",
+      "location": "cue 109, 00:14:55.853, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 109, L435, 00:14:55.853, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[13]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Curt asked me a question I could not answer, which was, of these forty, which ones are actually in trouble.",
+      "location": "cue 112, 00:15:21.677, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 112, L447, 00:15:21.677, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[14]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Open the deck from the tenth, which is a month old.",
+      "location": "cue 117, 00:16:08.217, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 117, L467, 00:16:08.217, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[14]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Half a day, and I still wouldn't swear to it.",
+      "location": "cue 117, 00:16:08.217, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 117, L467, 00:16:08.217, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[14]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "The second is that I don't believe it anymore.",
+      "location": "cue 119, 00:16:30.049, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 119, L475, 00:16:30.049, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[14]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Once you find out a green row was five weeks late, you can't unsee that.",
+      "location": "cue 120, 00:16:41.352, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 120, L479, 00:16:41.352, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[15]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The PMs, because they're the ones being chased.",
+      "location": "cue 122, 00:16:59.164, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 122, L487, 00:16:59.164, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[15]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "They don't answer her.",
+      "location": "cue 90, 00:12:18.652, Ines Kovalenko",
+      "cited": "transcript.txt, cue 90, L359, 00:12:18.652, Ines Kovalenko"
+    },
+    {
+      "path": "/rubric[15]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "It reaches Cumberland.",
+      "location": "cue 130, 00:18:01.926, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 130, L519, 00:18:01.926, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[15]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Their PMO wants a monthly report per project in their format, and under the new agreement they want it at program level too.",
+      "location": "cue 130, 00:18:01.926, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 130, L519, 00:18:01.926, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[15]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Same facts, four formats.",
+      "location": "cue 128, 00:17:45.148, Warren Tibbetts",
+      "cited": "transcript.txt, cue 128, L511, 00:17:45.148, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[16]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Call it four hours a week, easily.",
+      "location": "cue 123, 00:17:08.620, Warren Tibbetts",
+      "cited": "transcript.txt, cue 123, L491, 00:17:08.620, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[16]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Four is fair.",
+      "location": "cue 242, 00:34:18.116, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 242, L967, 00:34:18.116, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[16]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "About ninety-five an hour.",
+      "location": "cue 244, 00:34:32.358, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 244, L975, 00:34:32.358, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[16]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Two full days a month, and that's if people answer her.",
+      "location": "cue 89, 00:12:15.013, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 89, L355, 00:12:15.013, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[16]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "She's at about sixty-five loaded.",
+      "location": "cue 255, 00:35:42.503, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 255, L1019, 00:35:42.503, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[16]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "Half a day a month, reviewing and rewriting the summary page.",
+      "location": "cue 257, 00:35:51.293, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 257, L1027, 00:35:51.293, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[17]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Worse, and I can be specific about why.",
+      "location": "cue 133, 00:18:28.051, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 133, L531, 00:18:28.051, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[17]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "That takes us from forty active projects to something like fifty-five next year, with the same fourteen PMs and the same one analyst.",
+      "location": "cue 134, 00:18:37.715, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 134, L535, 00:18:37.715, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[17]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Is gone from November.",
+      "location": "cue 136, 00:18:58.785, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 136, L543, 00:18:58.785, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[17]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "And I don't have a second Bridget.",
+      "location": "cue 136, 00:18:58.785, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 136, L543, 00:18:58.785, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[18]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "When a superintendent calls me from the wrong job site.",
+      "location": "cue 151, 00:20:51.231, Ines Kovalenko",
+      "cited": "transcript.txt, cue 151, L603, 00:20:51.231, Ines Kovalenko"
+    },
+    {
+      "path": "/rubric[18]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The grid tells you who's busy.",
+      "location": "cue 176, 00:24:21.803, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 176, L703, 00:24:21.803, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[18]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "It does not tell you who's the right person.",
+      "location": "cue 176, 00:24:21.803, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 176, L703, 00:24:21.803, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[19]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "June. Junie Rasco.",
+      "location": "cue 153, 00:21:02.687, Ines Kovalenko",
+      "cited": "transcript.txt, cue 153, L611, 00:21:02.687, Ines Kovalenko"
+    },
+    {
+      "path": "/rubric[19]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Warren had him penciled for the Waverly cath lab, and preconstruction had promised him to the Pellham fit-out, and both started the same week.",
+      "location": "cue 154, 00:21:17.366, Ines Kovalenko",
+      "cited": "transcript.txt, cue 154, L615, 00:21:17.366, Ines Kovalenko"
+    },
+    {
+      "path": "/rubric[19]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I did not pencil him. I had him confirmed. Verbally.",
+      "location": "cue 155, 00:21:29.724, Warren Tibbetts",
+      "cited": "transcript.txt, cue 155, L619, 00:21:29.724, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[19]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "We moved Junie to Waverly because that one had a hard date with the owner, and then Pellham started with an assistant super and we ran overtime for six weeks to hold the date.",
+      "location": "cue 158, 00:21:46.169, Ines Kovalenko",
+      "cited": "transcript.txt, cue 158, L631, 00:21:46.169, Ines Kovalenko"
+    },
+    {
+      "path": "/rubric[20]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "By me. Every week. Monday and Tuesday morning are the grid.",
+      "location": "cue 141, 00:19:35.541, Ines Kovalenko",
+      "cited": "transcript.txt, cue 141, L563, 00:19:35.541, Ines Kovalenko"
+    },
+    {
+      "path": "/rubric[20]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Ten, and that's a good week.",
+      "location": "cue 143, 00:19:45.551, Ines Kovalenko",
+      "cited": "transcript.txt, cue 143, L571, 00:19:45.551, Ines Kovalenko"
+    },
+    {
+      "path": "/rubric[20]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Teams messages, mostly.",
+      "location": "cue 145, 00:20:00.947, Ines Kovalenko",
+      "cited": "transcript.txt, cue 145, L579, 00:20:00.947, Ines Kovalenko"
+    },
+    {
+      "path": "/rubric[20]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "It's just that it lives on my laptop and in my head, and nobody can see it.",
+      "location": "cue 174, 00:23:54.228, Ines Kovalenko",
+      "cited": "transcript.txt, cue 174, L695, 00:23:54.228, Ines Kovalenko"
+    },
+    {
+      "path": "/rubric[20]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "And if I'm on holiday, nobody can answer him at all.",
+      "location": "cue 175, 00:24:07.138, Ines Kovalenko",
+      "cited": "transcript.txt, cue 175, L699, 00:24:07.138, Ines Kovalenko"
+    },
+    {
+      "path": "/rubric[21]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The supers, first.",
+      "location": "cue 164, 00:22:31.359, Ines Kovalenko",
+      "cited": "transcript.txt, cue 164, L655, 00:22:31.359, Ines Kovalenko"
+    },
+    {
+      "path": "/rubric[21]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "They're the ones told on a Friday that Monday changed.",
+      "location": "cue 164, 00:22:31.359, Ines Kovalenko",
+      "cited": "transcript.txt, cue 164, L655, 00:22:31.359, Ines Kovalenko"
+    },
+    {
+      "path": "/rubric[21]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And the owner finds out when a date moves, which is the one that actually costs us, because some of those dates have LDs behind them.",
+      "location": "cue 165, 00:22:41.773, Ines Kovalenko",
+      "cited": "transcript.txt, cue 165, L659, 00:22:41.773, Ines Kovalenko"
+    },
+    {
+      "path": "/rubric[21]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Right. On the bed tower there's a date for first patient day and there's money behind it.",
+      "location": "cue 167, 00:22:58.309, Warren Tibbetts",
+      "cited": "transcript.txt, cue 167, L667, 00:22:58.309, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[22]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Ten, and that's a good week.",
+      "location": "cue 143, 00:19:45.551, Ines Kovalenko",
+      "cited": "transcript.txt, cue 143, L571, 00:19:45.551, Ines Kovalenko"
+    },
+    {
+      "path": "/rubric[22]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Call it seventy-two.",
+      "location": "cue 251, 00:35:22.140, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 251, L1003, 00:35:22.140, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[22]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "About fifty thousand in overtime and acceleration.",
+      "location": "cue 160, 00:22:07.198, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 160, L639, 00:22:07.198, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[22]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Two a year. Maybe three.",
+      "location": "cue 162, 00:22:21.250, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 162, L647, 00:22:21.250, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[22]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "That's what June cost.",
+      "location": "cue 262, 00:36:41.636, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 262, L1047, 00:36:41.636, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[23]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "All of Cumberland's work is in occupied buildings.",
+      "location": "cue 179, 00:24:45.267, Ines Kovalenko",
+      "cited": "transcript.txt, cue 179, L715, 00:24:45.267, Ines Kovalenko"
+    },
+    {
+      "path": "/rubric[23]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "So the same four names.",
+      "location": "cue 179, 00:24:45.267, Ines Kovalenko",
+      "cited": "transcript.txt, cue 179, L715, 00:24:45.267, Ines Kovalenko"
+    },
+    {
+      "path": "/rubric[23]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Occupied-renovation supers, there are four.",
+      "location": "cue 176, 00:24:21.803, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 176, L703, 00:24:21.803, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[24]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So on the twelfth of September I find out what August really cost me.",
+      "location": "cue 182, 00:25:14.686, Warren Tibbetts",
+      "cited": "transcript.txt, cue 182, L727, 00:25:14.686, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[24]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "We were four hundred and eighty thousand over on the mechanical buyout and we found out six weeks after it happened.",
+      "location": "cue 187, 00:25:41.938, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 187, L747, 00:25:41.938, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[24]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "There's no such thing as a portfolio number for us.",
+      "location": "cue 199, 00:27:42.240, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 199, L795, 00:27:42.240, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[25]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Cumberland West.",
+      "location": "cue 187, 00:25:41.938, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 187, L747, 00:25:41.938, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[25]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Roland closed the month and called me.",
+      "location": "cue 189, 00:26:01.030, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 189, L755, 00:26:01.030, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[25]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Which is not how I want to learn things.",
+      "location": "cue 189, 00:26:01.030, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 189, L755, 00:26:01.030, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[25]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "The buyout came in high, the PM knew the buyout came in high, and he was working a change order with the owner to cover part of it.",
+      "location": "cue 191, 00:26:13.748, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 191, L763, 00:26:13.748, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[26]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I keep a forecast in Excel.",
+      "location": "cue 76, 00:10:42.620, Warren Tibbetts",
+      "cited": "transcript.txt, cue 76, L303, 00:10:42.620, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[26]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The problem is that I have fourteen of these and no two are built the same, so I cannot add them up.",
+      "location": "cue 198, 00:27:27.050, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 198, L791, 00:27:27.050, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[26]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "There's fourteen spreadsheets.",
+      "location": "cue 199, 00:27:42.240, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 199, L795, 00:27:42.240, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[26]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Mine's good.",
+      "location": "cue 197, 00:27:21.182, Warren Tibbetts",
+      "cited": "transcript.txt, cue 197, L787, 00:27:21.182, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[27]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Roland, because he's the one making the call.",
+      "location": "cue 201, 00:27:53.699, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 201, L803, 00:27:53.699, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[27]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Corinne, because she's forecasting cash off it.",
+      "location": "cue 201, 00:27:53.699, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 201, L803, 00:27:53.699, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[27]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And the owner, honestly, because a change order conversation in week eight looks like we weren't watching.",
+      "location": "cue 201, 00:27:53.699, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 201, L803, 00:27:53.699, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[28]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We were four hundred and eighty thousand over on the mechanical buyout and we found out six weeks after it happened.",
+      "location": "cue 187, 00:25:41.938, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 187, L747, 00:25:41.938, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[28]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Some. Maybe half of it, if I'm honest, and I'm not going to pretend I know which half.",
+      "location": "cue 194, 00:26:49.458, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 194, L775, 00:26:49.458, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[29]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It doesn't get better.",
+      "location": "cue 203, 00:28:13.008, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 203, L811, 00:28:13.008, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[29]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I don't have a number for that one, it just doesn't get better.",
+      "location": "cue 203, 00:28:13.008, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 203, L811, 00:28:13.008, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[30]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "That's the honest answer, yes. Every PM starts a job their own way.",
+      "location": "cue 72, 00:10:06.099, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 72, L287, 00:10:06.099, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[30]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "In practice everybody has their own version.",
+      "location": "cue 71, 00:09:55.838, Warren Tibbetts",
+      "cited": "transcript.txt, cue 71, L283, 00:09:55.838, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[30]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Consistency.",
+      "location": "cue 205, 00:28:36.629, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 205, L819, 00:28:36.629, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[31]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And I can't point you at one job and say, here, this went wrong.",
+      "location": "cue 205, 00:28:36.629, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 205, L819, 00:28:36.629, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[31]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Somebody's baseline schedule is in the system, somebody's is in their drawer.",
+      "location": "cue 206, 00:28:47.619, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 206, L823, 00:28:47.619, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[31]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Somebody's ICRA is tracked with an expiry date, somebody's is a PDF in a folder.",
+      "location": "cue 206, 00:28:47.619, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 206, L823, 00:28:47.619, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[31]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "I've seen it happen. Not to me.",
+      "location": "cue 68, 00:09:37.687, Warren Tibbetts",
+      "cited": "transcript.txt, cue 68, L271, 00:09:37.687, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[32]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "An Excel file.",
+      "location": "cue 62, 00:08:44.228, Warren Tibbetts",
+      "cited": "transcript.txt, cue 62, L247, 00:08:44.228, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[32]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Sixty-something lines.",
+      "location": "cue 62, 00:08:44.228, Warren Tibbetts",
+      "cited": "transcript.txt, cue 62, L247, 00:08:44.228, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[32]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "In theory.",
+      "location": "cue 70, 00:09:53.186, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 70, L279, 00:09:53.186, Marisol Bettencourt"
+    },
+    {
+      "path": "/rubric[32]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Mine's got things on it the master doesn't, because I've been burned.",
+      "location": "cue 71, 00:09:55.838, Warren Tibbetts",
+      "cited": "transcript.txt, cue 71, L283, 00:09:55.838, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[33]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The project engineers, because they're the ones actually doing the steps.",
+      "location": "cue 209, 00:29:19.469, Warren Tibbetts",
+      "cited": "transcript.txt, cue 209, L835, 00:29:19.469, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[33]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The admin who does badging.",
+      "location": "cue 209, 00:29:19.469, Warren Tibbetts",
+      "cited": "transcript.txt, cue 209, L835, 00:29:19.469, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[33]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And the new PMs suffer most.",
+      "location": "cue 207, 00:29:01.762, Warren Tibbetts",
+      "cited": "transcript.txt, cue 207, L827, 00:29:01.762, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[33]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "And the owner sees it, because their first impression of us is whether the first three weeks are organized.",
+      "location": "cue 210, 00:29:29.490, Warren Tibbetts",
+      "cited": "transcript.txt, cue 210, L839, 00:29:29.490, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[36]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "An inbox.",
+      "location": "cue 217, 00:30:32.338, Warren Tibbetts",
+      "cited": "transcript.txt, cue 217, L867, 00:30:32.338, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[36]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Turnover, punch list, closeout documents, and then warranty for a year.",
+      "location": "cue 215, 00:30:21.530, Warren Tibbetts",
+      "cited": "transcript.txt, cue 215, L859, 00:30:21.530, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[37]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We lost one for three weeks.",
+      "location": "cue 219, 00:30:41.702, Warren Tibbetts",
+      "cited": "transcript.txt, cue 219, L875, 00:30:41.702, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[37]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "A door closer at Waverly.",
+      "location": "cue 219, 00:30:41.702, Warren Tibbetts",
+      "cited": "transcript.txt, cue 219, L875, 00:30:41.702, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[37]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Which is a small thing, except the person who called it in was their facilities director, who decides who gets the next fit-out.",
+      "location": "cue 220, 00:30:47.887, Warren Tibbetts",
+      "cited": "transcript.txt, cue 220, L879, 00:30:47.887, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[38]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Somebody watches it, mostly.",
+      "location": "cue 217, 00:30:32.338, Warren Tibbetts",
+      "cited": "transcript.txt, cue 217, L867, 00:30:32.338, Warren Tibbetts"
+    },
+    {
+      "path": "/rubric[38]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Different conversation.",
+      "location": "cue 222, 00:31:09.389, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 222, L887, 00:31:09.389, Marisol Bettencourt"
+    },
+    {
+      "path": "/pains[0]/quote",
+      "status": "verified",
+      "quote": "I have forty projects and I could not put that slide together in less than a week.",
+      "location": "cue 17, 00:02:06.753, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 17, L67, 00:02:06.753, Marisol Bettencourt"
+    },
+    {
+      "path": "/pains[1]/quote",
+      "status": "verified",
+      "quote": "Because it's wrong.",
+      "location": "cue 99, 00:13:30.245, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 99, L395, 00:13:30.245, Marisol Bettencourt"
+    },
+    {
+      "path": "/pains[2]/quote",
+      "status": "verified",
+      "quote": "It's not wrong on purpose.",
+      "location": "cue 101, 00:13:36.272, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 101, L403, 00:13:36.272, Marisol Bettencourt"
+    },
+    {
+      "path": "/pains[3]/quote",
+      "status": "verified",
+      "quote": "Curt asked me a question I could not answer, which was, of these forty, which ones are actually in trouble.",
+      "location": "cue 112, 00:15:21.677, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 112, L447, 00:15:21.677, Marisol Bettencourt"
+    },
+    {
+      "path": "/pains[4]/quote",
+      "status": "verified",
+      "quote": "Five weeks late.",
+      "location": "cue 109, 00:14:55.853, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 109, L435, 00:14:55.853, Marisol Bettencourt"
+    },
+    {
+      "path": "/pains[5]/quote",
+      "status": "verified",
+      "quote": "Once you find out a green row was five weeks late, you can't unsee that.",
+      "location": "cue 120, 00:16:41.352, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 120, L479, 00:16:41.352, Marisol Bettencourt"
+    },
+    {
+      "path": "/pains[6]/quote",
+      "status": "verified",
+      "quote": "Half a day, and I still wouldn't swear to it.",
+      "location": "cue 117, 00:16:08.217, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 117, L467, 00:16:08.217, Marisol Bettencourt"
+    },
+    {
+      "path": "/pains[7]/quote",
+      "status": "verified",
+      "quote": "Same facts, four formats.",
+      "location": "cue 128, 00:17:45.148, Warren Tibbetts",
+      "cited": "transcript.txt, cue 128, L511, 00:17:45.148, Warren Tibbetts"
+    },
+    {
+      "path": "/pains[8]/quote",
+      "status": "verified",
+      "quote": "And I don't have a second Bridget.",
+      "location": "cue 136, 00:18:58.785, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 136, L543, 00:18:58.785, Marisol Bettencourt"
+    },
+    {
+      "path": "/pains[9]/quote",
+      "status": "verified",
+      "quote": "When a superintendent calls me from the wrong job site.",
+      "location": "cue 151, 00:20:51.231, Ines Kovalenko",
+      "cited": "transcript.txt, cue 151, L603, 00:20:51.231, Ines Kovalenko"
+    },
+    {
+      "path": "/pains[10]/quote",
+      "status": "verified",
+      "quote": "Warren had him penciled for the Waverly cath lab, and preconstruction had promised him to the Pellham fit-out, and both started the same week.",
+      "location": "cue 154, 00:21:17.366, Ines Kovalenko",
+      "cited": "transcript.txt, cue 154, L615, 00:21:17.366, Ines Kovalenko"
+    },
+    {
+      "path": "/pains[11]/quote",
+      "status": "verified",
+      "quote": "I did not pencil him. I had him confirmed. Verbally.",
+      "location": "cue 155, 00:21:29.724, Warren Tibbetts",
+      "cited": "transcript.txt, cue 155, L619, 00:21:29.724, Warren Tibbetts"
+    },
+    {
+      "path": "/pains[12]/quote",
+      "status": "verified",
+      "quote": "It's just that it lives on my laptop and in my head, and nobody can see it.",
+      "location": "cue 174, 00:23:54.228, Ines Kovalenko",
+      "cited": "transcript.txt, cue 174, L695, 00:23:54.228, Ines Kovalenko"
+    },
+    {
+      "path": "/pains[13]/quote",
+      "status": "verified",
+      "quote": "It does not tell you who's the right person.",
+      "location": "cue 176, 00:24:21.803, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 176, L703, 00:24:21.803, Marisol Bettencourt"
+    },
+    {
+      "path": "/pains[14]/quote",
+      "status": "verified",
+      "quote": "And then somebody reshuffles it in a meeting I'm not in, and I find out when the grid doesn't match the job site.",
+      "location": "cue 147, 00:20:21.466, Speaker 2",
+      "cited": "transcript.txt, cue 147, L587, 00:20:21.466, Speaker 2"
+    },
+    {
+      "path": "/pains[15]/quote",
+      "status": "verified",
+      "quote": "So on the twelfth of September I find out what August really cost me.",
+      "location": "cue 182, 00:25:14.686, Warren Tibbetts",
+      "cited": "transcript.txt, cue 182, L727, 00:25:14.686, Warren Tibbetts"
+    },
+    {
+      "path": "/pains[16]/quote",
+      "status": "verified",
+      "quote": "We were four hundred and eighty thousand over on the mechanical buyout and we found out six weeks after it happened.",
+      "location": "cue 187, 00:25:41.938, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 187, L747, 00:25:41.938, Marisol Bettencourt"
+    },
+    {
+      "path": "/pains[17]/quote",
+      "status": "verified",
+      "quote": "The problem is that I have fourteen of these and no two are built the same, so I cannot add them up.",
+      "location": "cue 198, 00:27:27.050, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 198, L791, 00:27:27.050, Marisol Bettencourt"
+    },
+    {
+      "path": "/pains[18]/quote",
+      "status": "verified",
+      "quote": "And the owner, honestly, because a change order conversation in week eight looks like we weren't watching.",
+      "location": "cue 201, 00:27:53.699, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 201, L803, 00:27:53.699, Marisol Bettencourt"
+    },
+    {
+      "path": "/pains[19]/quote",
+      "status": "verified",
+      "quote": "That's the honest answer, yes. Every PM starts a job their own way.",
+      "location": "cue 72, 00:10:06.099, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 72, L287, 00:10:06.099, Marisol Bettencourt"
+    },
+    {
+      "path": "/pains[20]/quote",
+      "status": "verified",
+      "quote": "Somebody's ICRA is tracked with an expiry date, somebody's is a PDF in a folder.",
+      "location": "cue 206, 00:28:47.619, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 206, L823, 00:28:47.619, Marisol Bettencourt"
+    },
+    {
+      "path": "/pains[21]/quote",
+      "status": "verified",
+      "quote": "And the new PMs suffer most.",
+      "location": "cue 207, 00:29:01.762, Warren Tibbetts",
+      "cited": "transcript.txt, cue 207, L827, 00:29:01.762, Warren Tibbetts"
+    },
+    {
+      "path": "/pains[22]/quote",
+      "status": "verified",
+      "quote": "An inbox.",
+      "location": "cue 217, 00:30:32.338, Warren Tibbetts",
+      "cited": "transcript.txt, cue 217, L867, 00:30:32.338, Warren Tibbetts"
+    },
+    {
+      "path": "/pains[23]/quote",
+      "status": "verified",
+      "quote": "We lost one for three weeks.",
+      "location": "cue 219, 00:30:41.702, Warren Tibbetts",
+      "cited": "transcript.txt, cue 219, L875, 00:30:41.702, Warren Tibbetts"
+    },
+    {
+      "path": "/numbers/bleed/quote",
+      "status": "verified",
+      "quote": "Four hundred and thirty-two thousand.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 268, L1071, 00:37:30.906, Marisol Bettencourt"
+      ]
+    },
+    {
+      "path": "/numbers/upside/quote",
+      "status": "verified",
+      "quote": "I've got two PMs in next year's budget request, at about a hundred and fifty thousand each all in.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 277, L1107, 00:38:39.731, Marisol Bettencourt"
+      ]
+    },
+    {
+      "path": "/objections[0]/quote",
+      "status": "verified",
+      "quote": "I should tell you we're also talking to another partner.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 354, L1415, 00:50:16.001, Marisol Bettencourt"
+      ]
+    },
+    {
+      "path": "/objections[1]/quote",
+      "status": "verified",
+      "quote": "We tried Smartsheet in twenty twenty-three and it lasted about a quarter.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 325, L1299, 00:45:43.637, Marisol Bettencourt"
+      ]
+    },
+    {
+      "path": "/objections[2]/quote",
+      "status": "verified",
+      "quote": "If it's another thing to update, it's dead.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 329, L1315, 00:46:16.465, Warren Tibbetts"
+      ]
+    },
+    {
+      "path": "/objections[3]/quote",
+      "status": "verified",
+      "quote": "Half the columns are empty and nobody trusts what's in it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 337, L1347, 00:47:24.818, Warren Tibbetts"
+      ]
+    },
+    {
+      "path": "/objections[4]/quote",
+      "status": "verified",
+      "quote": "Stefan's guy told him he could build this in Power BI in a couple of weeks.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 349, L1395, 00:49:25.872, Marisol Bettencourt"
+      ]
+    },
+    {
+      "path": "/objections[5]/quote",
+      "status": "verified",
+      "quote": "Nothing touches Sage without Roland, and he is protective of Sage, and I'd say rightly.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 321, L1283, 00:44:58.406, Marisol Bettencourt"
+      ]
+    },
+    {
+      "path": "/objections[6]/quote",
+      "status": "verified",
+      "quote": "Two to three weeks, and he's thorough.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 319, L1275, 00:44:38.753, Marisol Bettencourt"
+      ]
+    },
+    {
+      "path": "/objections[7]/quote",
+      "status": "verified",
+      "quote": "Send me a scope and a number I can put against my line before the budget lock in November.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 386, L1543, 00:55:46.058, Marisol Bettencourt"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[0]/quote",
+      "status": "verified",
+      "quote": "Two o'clock Eastern on the twenty-third, then.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 398, L1591, 00:57:05.574, Marisol Bettencourt"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[1]/quote",
+      "status": "verified",
+      "quote": "I'll send the invite this afternoon.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 400, L1599, 00:57:14.344, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[2]/quote",
+      "status": "verified",
+      "quote": "And I'll send you Cumberland's template and the summary page from August so you can see the shape of it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 401, L1603, 00:57:22.882, Marisol Bettencourt"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[3]/quote",
+      "status": "verified",
+      "quote": "I can send it today.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 403, L1611, 00:57:46.950, Ines Kovalenko"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[4]/quote",
+      "status": "verified",
+      "quote": "You can have it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 405, L1619, 00:57:58.482, Warren Tibbetts"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[5]/quote",
+      "status": "verified",
+      "quote": "I'll email him today and tell him it's coming.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 407, L1627, 00:58:18.284, Marisol Bettencourt"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[6]/quote",
+      "status": "verified",
+      "quote": "I'll send what he needs with the invite.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 408, L1631, 00:58:26.706, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[7]/quote",
+      "status": "verified",
+      "quote": "You'll get both.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 388, L1551, 00:56:03.885, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[8]/quote",
+      "status": "verified",
+      "quote": "Whatever you show me on the twenty-third, use real names.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 411, L1643, 00:58:51.938, Marisol Bettencourt"
+      ]
+    },
+    {
+      "path": "/requested_changes[0]/quote",
+      "status": "verified",
+      "quote": "Whatever you show me on the twenty-third, use real names.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 411, L1643, 00:58:51.938, Marisol Bettencourt"
+      ]
+    },
+    {
+      "path": "/requested_changes[1]/quote",
+      "status": "verified",
+      "quote": "No. Three, probably.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 212, L847, 00:29:47.743, Marisol Bettencourt"
+      ]
+    },
+    {
+      "path": "/requested_changes[2]/quote",
+      "status": "verified",
+      "quote": "I'd add that Warren enters his numbers once, but that's inside number one.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 382, L1527, 00:55:14.229, Marisol Bettencourt"
+      ]
+    },
+    {
+      "path": "/requested_changes[3]/quote",
+      "status": "verified",
+      "quote": "And if they change a milestone date I want the old date to still exist somewhere.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 373, L1491, 00:53:42.965, Marisol Bettencourt"
+      ]
+    },
+    {
+      "path": "/requested_changes[4]/quote",
+      "status": "verified",
+      "quote": "And field crews stay out.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 384, L1535, 00:55:28.496, Ines Kovalenko"
+      ]
+    },
+    {
+      "path": "/account_context/evidence_quote_or_null",
+      "status": "verified",
+      "quote": "We're on the enterprise plan, work management, about two hundred and twenty seats.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 343, L1371, 00:48:21.292, Marisol Bettencourt"
+      ]
+    },
+    {
+      "path": "/readiness/goals[0]/quote",
+      "status": "verified",
+      "quote": "I open one screen on Monday morning and I see forty projects, with a color and a number, and I believe it.",
+      "location": "cue 301, 00:41:57.390, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 301, L1203, 00:41:57.390, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/goals[1]/quote",
+      "status": "verified",
+      "quote": "If I can pull their program up on a screen in front of their VP of facilities and it's current, that's the win.",
+      "location": "cue 308, 00:42:58.383, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 308, L1231, 00:42:58.383, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/goals[2]/quote",
+      "status": "verified",
+      "quote": "And I'd like somebody to be able to answer Warren without me.",
+      "location": "cue 312, 00:43:36.778, Ines Kovalenko",
+      "cited": "transcript.txt, cue 312, L1247, 00:43:36.778, Ines Kovalenko"
+    },
+    {
+      "path": "/readiness/pains[0]/quote",
+      "status": "verified",
+      "quote": "I have forty projects and I could not put that slide together in less than a week.",
+      "location": "cue 17, 00:02:06.753, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 17, L67, 00:02:06.753, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/pains[1]/quote",
+      "status": "verified",
+      "quote": "Because it's wrong.",
+      "location": "cue 99, 00:13:30.245, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 99, L395, 00:13:30.245, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/pains[2]/quote",
+      "status": "verified",
+      "quote": "It's not wrong on purpose.",
+      "location": "cue 101, 00:13:36.272, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 101, L403, 00:13:36.272, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/pains[3]/quote",
+      "status": "verified",
+      "quote": "Curt asked me a question I could not answer, which was, of these forty, which ones are actually in trouble.",
+      "location": "cue 112, 00:15:21.677, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 112, L447, 00:15:21.677, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/pains[4]/quote",
+      "status": "verified",
+      "quote": "Five weeks late.",
+      "location": "cue 109, 00:14:55.853, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 109, L435, 00:14:55.853, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/pains[5]/quote",
+      "status": "verified",
+      "quote": "Once you find out a green row was five weeks late, you can't unsee that.",
+      "location": "cue 120, 00:16:41.352, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 120, L479, 00:16:41.352, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/pains[6]/quote",
+      "status": "verified",
+      "quote": "Half a day, and I still wouldn't swear to it.",
+      "location": "cue 117, 00:16:08.217, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 117, L467, 00:16:08.217, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/pains[7]/quote",
+      "status": "verified",
+      "quote": "Same facts, four formats.",
+      "location": "cue 128, 00:17:45.148, Warren Tibbetts",
+      "cited": "transcript.txt, cue 128, L511, 00:17:45.148, Warren Tibbetts"
+    },
+    {
+      "path": "/readiness/pains[8]/quote",
+      "status": "verified",
+      "quote": "And I don't have a second Bridget.",
+      "location": "cue 136, 00:18:58.785, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 136, L543, 00:18:58.785, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/pains[9]/quote",
+      "status": "verified",
+      "quote": "When a superintendent calls me from the wrong job site.",
+      "location": "cue 151, 00:20:51.231, Ines Kovalenko",
+      "cited": "transcript.txt, cue 151, L603, 00:20:51.231, Ines Kovalenko"
+    },
+    {
+      "path": "/readiness/pains[10]/quote",
+      "status": "verified",
+      "quote": "Warren had him penciled for the Waverly cath lab, and preconstruction had promised him to the Pellham fit-out, and both started the same week.",
+      "location": "cue 154, 00:21:17.366, Ines Kovalenko",
+      "cited": "transcript.txt, cue 154, L615, 00:21:17.366, Ines Kovalenko"
+    },
+    {
+      "path": "/readiness/pains[11]/quote",
+      "status": "verified",
+      "quote": "I did not pencil him. I had him confirmed. Verbally.",
+      "location": "cue 155, 00:21:29.724, Warren Tibbetts",
+      "cited": "transcript.txt, cue 155, L619, 00:21:29.724, Warren Tibbetts"
+    },
+    {
+      "path": "/readiness/pains[12]/quote",
+      "status": "verified",
+      "quote": "It's just that it lives on my laptop and in my head, and nobody can see it.",
+      "location": "cue 174, 00:23:54.228, Ines Kovalenko",
+      "cited": "transcript.txt, cue 174, L695, 00:23:54.228, Ines Kovalenko"
+    },
+    {
+      "path": "/readiness/pains[13]/quote",
+      "status": "verified",
+      "quote": "It does not tell you who's the right person.",
+      "location": "cue 176, 00:24:21.803, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 176, L703, 00:24:21.803, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/pains[14]/quote",
+      "status": "verified",
+      "quote": "And then somebody reshuffles it in a meeting I'm not in, and I find out when the grid doesn't match the job site.",
+      "location": "cue 147, 00:20:21.466, Speaker 2",
+      "cited": "transcript.txt, cue 147, L587, 00:20:21.466, Speaker 2"
+    },
+    {
+      "path": "/readiness/pains[15]/quote",
+      "status": "verified",
+      "quote": "So on the twelfth of September I find out what August really cost me.",
+      "location": "cue 182, 00:25:14.686, Warren Tibbetts",
+      "cited": "transcript.txt, cue 182, L727, 00:25:14.686, Warren Tibbetts"
+    },
+    {
+      "path": "/readiness/pains[16]/quote",
+      "status": "verified",
+      "quote": "We were four hundred and eighty thousand over on the mechanical buyout and we found out six weeks after it happened.",
+      "location": "cue 187, 00:25:41.938, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 187, L747, 00:25:41.938, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/pains[17]/quote",
+      "status": "verified",
+      "quote": "The problem is that I have fourteen of these and no two are built the same, so I cannot add them up.",
+      "location": "cue 198, 00:27:27.050, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 198, L791, 00:27:27.050, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/pains[18]/quote",
+      "status": "verified",
+      "quote": "And the owner, honestly, because a change order conversation in week eight looks like we weren't watching.",
+      "location": "cue 201, 00:27:53.699, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 201, L803, 00:27:53.699, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/pains[19]/quote",
+      "status": "verified",
+      "quote": "That's the honest answer, yes. Every PM starts a job their own way.",
+      "location": "cue 72, 00:10:06.099, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 72, L287, 00:10:06.099, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/pains[20]/quote",
+      "status": "verified",
+      "quote": "Somebody's ICRA is tracked with an expiry date, somebody's is a PDF in a folder.",
+      "location": "cue 206, 00:28:47.619, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 206, L823, 00:28:47.619, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/pains[21]/quote",
+      "status": "verified",
+      "quote": "And the new PMs suffer most.",
+      "location": "cue 207, 00:29:01.762, Warren Tibbetts",
+      "cited": "transcript.txt, cue 207, L827, 00:29:01.762, Warren Tibbetts"
+    },
+    {
+      "path": "/readiness/pains[22]/quote",
+      "status": "verified",
+      "quote": "An inbox.",
+      "location": "cue 217, 00:30:32.338, Warren Tibbetts",
+      "cited": "transcript.txt, cue 217, L867, 00:30:32.338, Warren Tibbetts"
+    },
+    {
+      "path": "/readiness/pains[23]/quote",
+      "status": "verified",
+      "quote": "We lost one for three weeks.",
+      "location": "cue 219, 00:30:41.702, Warren Tibbetts",
+      "cited": "transcript.txt, cue 219, L875, 00:30:41.702, Warren Tibbetts"
+    },
+    {
+      "path": "/readiness/signals[0]/quote",
+      "status": "verified",
+      "quote": "So we count them, mostly.",
+      "location": "cue 36, 00:04:51.546, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 36, L143, 00:04:51.546, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/signals[1]/quote",
+      "status": "verified",
+      "quote": "And Waverly becomes a second program if we win that. I don't know what you do with that, but it matters to me.",
+      "location": "cue 43, 00:05:48.896, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 43, L171, 00:05:48.896, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/signals[2]/quote",
+      "status": "verified",
+      "quote": "In something. They sent a template. It's a spreadsheet, of course.",
+      "location": "cue 229, 00:32:15.354, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 229, L915, 00:32:15.354, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/signals[3]/quote",
+      "status": "verified",
+      "quote": "If I update my forecast and Marisol's summary page fills itself in, I'll be your biggest fan.",
+      "location": "cue 311, 00:43:22.187, Warren Tibbetts",
+      "cited": "transcript.txt, cue 311, L1243, 00:43:22.187, Warren Tibbetts"
+    },
+    {
+      "path": "/readiness/signals[4]/quote",
+      "status": "verified",
+      "quote": "Two things a week. Tell you whether his date moved, and flag whatever's blocking him.",
+      "location": "cue 332, 00:46:40.105, Warren Tibbetts",
+      "cited": "transcript.txt, cue 332, L1327, 00:46:40.105, Warren Tibbetts"
+    },
+    {
+      "path": "/readiness/signals[5]/quote",
+      "status": "verified",
+      "quote": "I'd assume ours would sit somewhere separate from preconstruction's, but that's yours to advise on. Whatever Stefan and Kyle can live with.",
+      "location": "cue 345, 00:48:44.628, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 345, L1379, 00:48:44.628, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/signals[6]/quote",
+      "status": "verified",
+      "quote": "Kyle should be able to, yes. He's the only person here who actually knows the tool. Bridget too, when she's back.",
+      "location": "cue 347, 00:49:04.474, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 347, L1387, 00:49:04.474, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/signals[7]/quote",
+      "status": "verified",
+      "quote": "Preconstruction, usually. They promise a name to help win the job and nobody tells me.",
+      "location": "cue 149, 00:20:37.189, Speaker 2",
+      "cited": "transcript.txt, cue 149, L595, 00:20:37.189, Speaker 2"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[0]",
+      "status": "verified",
+      "quote": "On the tower? Eleven or twelve that the owner actually cares about.",
+      "location": "cue 169, 00:23:13.152, Warren Tibbetts",
+      "cited": "transcript.txt, cue 169, L675, 00:23:13.152, Warren Tibbetts"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[1]",
+      "status": "verified",
+      "quote": "Several per phase, yes. And when one moves, the owner wants to know what it was before it moved.",
+      "location": "cue 172, 00:23:36.800, Warren Tibbetts",
+      "cited": "transcript.txt, cue 172, L687, 00:23:36.800, Warren Tibbetts"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[2]",
+      "status": "verified",
+      "quote": "And the next owner milestone, with its date, and whether it moved.",
+      "location": "cue 304, 00:42:22.772, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 304, L1215, 00:42:22.772, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[0]",
+      "status": "verified",
+      "quote": "And it's per work area, and it expires.",
+      "location": "cue 65, 00:09:09.623, Warren Tibbetts",
+      "cited": "transcript.txt, cue 65, L259, 00:09:09.623, Warren Tibbetts"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[1]",
+      "status": "verified",
+      "quote": "It expires. And if it lapses and their nurse walks by, you're shut down that day.",
+      "location": "cue 66, 00:09:22.316, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 66, L263, 00:09:22.316, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[2]",
+      "status": "verified",
+      "quote": "Somebody's ICRA is tracked with an expiry date, somebody's is a PDF in a folder.",
+      "location": "cue 206, 00:28:47.619, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 206, L823, 00:28:47.619, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[0]",
+      "status": "verified",
+      "quote": "A tab per office, every person down the left, weeks across the top, and a percentage in each cell.",
+      "location": "cue 138, 00:19:13.232, Ines Kovalenko",
+      "cited": "transcript.txt, cue 138, L551, 00:19:13.232, Ines Kovalenko"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[1]",
+      "status": "verified",
+      "quote": "I did not pencil him. I had him confirmed. Verbally.",
+      "location": "cue 155, 00:21:29.724, Warren Tibbetts",
+      "cited": "transcript.txt, cue 155, L619, 00:21:29.724, Warren Tibbetts"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[2]",
+      "status": "verified",
+      "quote": "Verbally, in the hall, which is the problem.",
+      "location": "cue 156, 00:21:35.701, Ines Kovalenko",
+      "cited": "transcript.txt, cue 156, L623, 00:21:35.701, Ines Kovalenko"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[3]",
+      "status": "verified",
+      "quote": "Warren can't look at it and see that Junie's gone in October. He has to ask me.",
+      "location": "cue 175, 00:24:07.138, Ines Kovalenko",
+      "cited": "transcript.txt, cue 175, L699, 00:24:07.138, Ines Kovalenko"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[0]",
+      "status": "verified",
+      "quote": "All of it. Every active job, all three offices. That's my portfolio.",
+      "location": "cue 38, 00:05:06.861, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 38, L151, 00:05:06.861, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[1]",
+      "status": "verified",
+      "quote": "There'll be twelve, fifteen jobs in it at any time, and their vice president of facilities wants to see it as one thing, not as twelve rows inside my forty.",
+      "location": "cue 41, 00:05:25.184, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 41, L163, 00:05:25.184, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[2]",
+      "status": "verified",
+      "quote": "And Waverly becomes a second program if we win that.",
+      "location": "cue 43, 00:05:48.896, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 43, L171, 00:05:48.896, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[0]",
+      "status": "verified",
+      "quote": "Because Sage gives me actuals after the month closes, and that's too late to do anything with, so I carry my own.",
+      "location": "cue 77, 00:10:49.274, Warren Tibbetts",
+      "cited": "transcript.txt, cue 77, L307, 00:10:49.274, Warren Tibbetts"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[1]",
+      "status": "verified",
+      "quote": "The problem is that I have fourteen of these and no two are built the same, so I cannot add them up.",
+      "location": "cue 198, 00:27:27.050, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 198, L791, 00:27:27.050, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[2]",
+      "status": "verified",
+      "quote": "If I update my forecast and Marisol's summary page fills itself in, I'll be your biggest fan.",
+      "location": "cue 311, 00:43:22.187, Warren Tibbetts",
+      "cited": "transcript.txt, cue 311, L1243, 00:43:22.187, Warren Tibbetts"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[0]",
+      "status": "verified",
+      "quote": "The PM does.",
+      "location": "cue 85, 00:11:50.194, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 85, L339, 00:11:50.194, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[1]",
+      "status": "verified",
+      "quote": "Bridget takes what forty people told her, in whatever form they told her, some of it two weeks old, and puts it in one place, and by the time it's in front of Curt it's a snapshot of a thing that already moved.",
+      "location": "cue 102, 00:13:40.596, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 102, L407, 00:13:40.596, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[2]",
+      "status": "verified",
+      "quote": "Oh, yes. Yes. And if they change a milestone date I want the old date to still exist somewhere. That's the whole trust problem in one question.",
+      "location": "cue 373, 00:53:42.965, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 373, L1491, 00:53:42.965, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[0]",
+      "status": "verified",
+      "quote": "Their PMO wants a monthly report per project in their format, and under the new agreement they want it at program level too.",
+      "location": "cue 130, 00:18:01.926, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 130, L519, 00:18:01.926, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[1]",
+      "status": "verified",
+      "quote": "So Bridget rekeys our numbers into their template.",
+      "location": "cue 131, 00:18:14.798, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 131, L523, 00:18:14.798, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[2]",
+      "status": "verified",
+      "quote": "In something. They sent a template. It's a spreadsheet, of course.",
+      "location": "cue 229, 00:32:15.354, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 229, L915, 00:32:15.354, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[0]",
+      "status": "verified",
+      "quote": "In practice everybody has their own version. Mine's got things on it the master doesn't, because I've been burned.",
+      "location": "cue 71, 00:09:55.838, Warren Tibbetts",
+      "cited": "transcript.txt, cue 71, L283, 00:09:55.838, Warren Tibbetts"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[1]",
+      "status": "verified",
+      "quote": "No. Three, probably. Ground-up is one thing. Occupied renovation is another, that's where all the infection control and the interim life safety stuff lives.",
+      "location": "cue 212, 00:29:47.743, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 212, L847, 00:29:47.743, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[2]",
+      "status": "verified",
+      "quote": "And equipment jobs are their own animal, short and permit-heavy. The milestones are different, the whole list is different.",
+      "location": "cue 213, 00:29:59.530, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 213, L851, 00:29:59.530, Marisol Bettencourt"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[0]",
+      "status": "verified",
+      "quote": "Two things a week. Tell you whether his date moved, and flag whatever's blocking him. That's it. Ask him for eight fields and he'll do it twice and then stop.",
+      "location": "cue 332, 00:46:40.105, Warren Tibbetts",
+      "cited": "transcript.txt, cue 332, L1327, 00:46:40.105, Warren Tibbetts"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[1]",
+      "status": "verified",
+      "quote": "And half our sites have no signal inside the building. They walk out to the parking lot to send anything.",
+      "location": "cue 333, 00:46:55.282, Ines Kovalenko",
+      "cited": "transcript.txt, cue 333, L1331, 00:46:55.282, Ines Kovalenko"
+    },
+    {
+      "path": "/readiness/structure/leanings[9]/quotes[0]",
+      "status": "verified",
+      "quote": "We lost one for three weeks. A door closer at Waverly.",
+      "location": "cue 219, 00:30:41.702, Warren Tibbetts",
+      "cited": "transcript.txt, cue 219, L875, 00:30:41.702, Warren Tibbetts"
+    },
+    {
+      "path": "/readiness/structure/leanings[9]/quotes[1]",
+      "status": "verified",
+      "quote": "Different conversation. I know it's a mess. It's not this year's mess.",
+      "location": "cue 222, 00:31:09.389, Marisol Bettencourt",
+      "cited": "transcript.txt, cue 222, L887, 00:31:09.389, Marisol Bettencourt"
+    }
+  ]
+}

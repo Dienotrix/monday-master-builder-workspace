@@ -1,0 +1,55 @@
+{
+  "goals": [
+    {
+      "id": "G1",
+      "goal": "PMs update their own people's allocations instead of one person doing it all",
+      "quote": "And, honestly, I want the PMs updating their own people in here, which is the big thing.",
+      "location": "00:10:39 Jordan Pruitt (Operations Manager)",
+      "speaker_role": "Operations Manager",
+      "pains": ["P2.2"]
+    },
+    {
+      "id": "G2",
+      "goal": "Decide the Des Moines structural hire from trusted allocation numbers, not the spreadsheet",
+      "quote": "And once it's real numbers, this is what I'd want in front of me for the structural hire in Des Moines.",
+      "location": "00:12:06 Tess Kowalczyk (COO)",
+      "speaker_role": "COO",
+      "pains": ["P2.2"]
+    },
+    {
+      "id": "G3",
+      "goal": "Know the day a PM marks a milestone ready to invoice",
+      "quote": "When a PM marks it ready to invoice, I want to know that day.",
+      "location": "00:20:39 Bev Halvorsen (Controller)",
+      "speaker_role": "Controller",
+      "pains": ["P5.1", "P5.2", "P5.3", "P5.4", "P5.5", "P5.6"]
+    },
+    {
+      "id": "G4",
+      "goal": "Have pursuits live before Des Moines opens",
+      "quote": "And who can have pursuits live before Des Moines opens.",
+      "location": "00:26:28 Tess Kowalczyk (COO)",
+      "speaker_role": "COO",
+      "pains": ["P1.1"]
+    }
+  ],
+  "assumption_kinds": [
+    "leaning",
+    "leaning",
+    "gap",
+    "gap",
+    "board-architecture",
+    "leaning",
+    "gap",
+    "automation-condition",
+    "gap",
+    "board-architecture",
+    "board-architecture",
+    "gap",
+    "gap",
+    "leaning",
+    "gap",
+    "leaning"
+  ],
+  "note_add": null
+}

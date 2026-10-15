@@ -1,0 +1,2783 @@
+{
+  "scenario_id": "s8-discovery-enterprise-pmo",
+  "call_type": "discovery",
+  "purpose_of_this_fixture": "Tests a strong, hour-long discovery call with the PMO of a 400-person healthcare construction and renovation firm, delivered as a WebVTT transcript with '<v Speaker Name>' voice tags, where the account tier is stated plainly and therefore the Enterprise portfolio default fires. The plugin should: (1) Read 'We're on the enterprise plan, work management, about two hundred and twenty seats.' as the trigger for amendment A6 and include a portfolio with connected projects BY DEFAULT, recording the reason. This is the first fixture in the set where that default actually applies, and the client's own stated need agrees with it: a portfolio view across roughly forty active projects showing health, budget burn and the next owner milestone. It must be built with monday's portfolio and project tools, not plain boards dressed up as projects, with the projects connected and the roll-ups checked after creation. (2) Not quietly decide the portfolio's shape. The client uses 'portfolio' for the whole book of active work and 'program' for one health system's work under a master agreement ('A program is one health system's work under a master agreement.'), a job sits in both at once, and Cumberland's vice president of facilities wants the program as one thing. Whether that is one portfolio with a program grouping, or a portfolio per program, is a question for the consultant and the client, not an assumption. (3) Treat the account as an existing Enterprise account with a real setup to audit and extend, not a greenfield: preconstruction has a bid board whose builder left the company, safety has an incident board in daily use, the IT director owns the contract and a preconstruction power user builds things. Ask where the build goes and who administers it before writing anything. (4) Recognise that the 'we already have monday and nobody uses it' objection is a setup problem, not a tool problem, and say so from the evidence in the call (one board with a departed owner, one board with a present owner and daily use). (5) Grade the rubric: Met for R1-R10 and R12, Missing for R11 (no demo has happened), verdict 'Discovery complete'. This is the first fixture where R4, R7 and R12 are all Met, so the method's pricing-or-proposal gate OPENS. Pricing and proposal prep are deferred beyond v1, so the correct behaviour is to say plainly that the gate is open and that this version does not produce pricing or a proposal, and hand the client's explicit request ('Send me a scope and a number I can put against my line before the budget lock in November.') to the consultant as a to-do with its date. Silently drafting a price or a proposal fails; silently ignoring the request also fails. (6) Keep the bleed at the client's own confirmed $432,080 a year, with the collision component taken at the low end and shown as a range, and leave the $480,000 Cumberland West overrun out of the total as unquantified, because the client explicitly would not say how much of it was avoidable. The upside is a $150,000 deferred PM hire plus about $280,000 of fee from one more staffable job a year, with the deferred hire flagged as coming out of the same freed hours as the bleed's reporting time, so it is not added on top. (7) Grade pains with real gaps: P1 (no trustworthy portfolio view) and P2 (resource collisions) are excavated on all six checks; P3 (budget burn seen six weeks late) has Cost inputs and Trajectory Partial; P4 (every PM starts a job differently) has Concrete Partial and Cost inputs and Trajectory Missing; P5 (warranty calls after turnover) has Concrete and Workaround Partial and Reach, Cost inputs and Trajectory Missing, and the client parks it herself ('It's not this year's mess.'). (8) Keep CRM and Service out of this build while handling both correctly: the warranty inbox is ticket-shaped and Service is in v1, but it is out of the agreed scope, so it is a question and a backlog seed, never a hand-built 'Warranty Requests' board; the health systems and their pursuits are CRM-shaped and partly live on preconstruction's existing board, so they are also a question. If either is ever built, it goes on the account's native template boards, and Service extras (customer portal, email-to-ticket, SLA policy setup) stay deferred. monday dev is out of v1 and nothing here calls for it. (9) Honour the client's own words and their homonyms: 'the board' is the executive committee, 'health' is a red-amber-green project status rather than anything clinical, 'the grid' is the resource workbook, 'the deck' is the monthly report, 'the owner' is the health system, and 'program' is not a monday portfolio by definition. (10) Respect the compliance line: no patient information and no photographs containing patients or whiteboards, field staff immunization and background records stay with HR, ICRA permits expire and must be tracked with their dates, loaded rates and cross-job margin are restricted, and changes to a health status or a milestone date need an audit trail with the previous date retained. (11) Design for the field as described: superintendents on phones with one bar, two things a week, and no eight-field form; field crew scheduling is explicitly excluded at the client's request. (12) Read WebVTT voice tags, treat the two cues tagged '<v Speaker 2>' as speaker unclear so they corroborate but never carry a Met on their own, and not be confused by one duplicated cue or one overlapping crosstalk pair. Automations are put forward as a single approval list. should_plugin_propose_a_build is true.",
+  "transcript_format": "WebVTT from a video meeting, using voice tags: a 'WEBVTT' header, then numbered cues, a timing line 'HH:MM:SS.mmm --> HH:MM:SS.mmm', and cue text in the form '<v Speaker Name>text'. There are 417 cues running from 00:00:02.714 to 00:59:44.000, about 6,400 spoken words, for a call of about 60 minutes. Client talk share is about 68 percent (Marisol Bettencourt 48 percent, Warren Tibbetts 12 percent, Ines Kovalenko 8 percent, the unlabelled 'Speaker 2' cues under 1 percent); the Consultant has about 32 percent, and the longest unbroken Consultant stretch is 110 words over 54 seconds from 00:54:10.284, which is under the spec's 90-second threshold, so delivery notes should report no long stretch. Long turns are split across consecutive cues by the same speaker, and every cue boundary falls at a sentence end, so no quote in this key spans two cues. Three transcript artefacts are present on purpose: cues 147 and 149 are tagged '<v Speaker 2>' because the tagging failed on two of Ines Kovalenko's lines (context makes the speaker obvious, but the method requires them to be marked speaker unclear); cue 184 is a duplicate of cue 183, the same Consultant line emitted twice, and its start time also falls inside cue 183; and cue 90 starts before cue 89 ends, which is the one piece of genuine crosstalk and the only overlap between two different speakers. Every location in this key gives the cue number, cue start time and speaker, for example 'cue 268, 00:37:30.906, Marisol Bettencourt'. ASCII only. The call date is not in the transcript; the weekday-date pairs mentioned (Wednesday the twenty-third, the second Tuesday, January fifteenth) fit a call in September 2026.",
+  "company": {
+    "name": "Bellamy Ridge Construction Group",
+    "industry": "Healthcare facilities construction and renovation, exclusively: hospitals, medical office buildings, outpatient clinics and imaging suites, with a large share of renovation inside occupied buildings. Their differentiator is working in live clinical space ('Not everybody can do a cath lab renovation on the second floor while the first floor is doing surgery.'). Work arrives through health-system clients, increasingly under multi-year master agreements.",
+    "size": "About 400 people: roughly 95 salaried office staff and about 300 field staff. Fourteen project managers report up through the PMO, plus one PMO analyst (Bridget, on parental leave from November) and one resource manager. Only four superintendents are qualified for occupied-building work. Thirty-eight to forty active projects ('Thirty-eight. Forty, depending on how you count the equipment jobs.'), heading for about fifty-five next year.",
+    "locations": "Knoxville, Tennessee (headquarters), Chattanooga, and Huntsville, Alabama",
+    "current_tools": [
+      "Procore (drawings, RFIs, submittals, daily reports; the system of record for the job itself and explicitly staying: 'Procore is the job.')",
+      "Sage 300 (accounting and job cost; the book of record for anything with a dollar sign, actuals land around the tenth to twelfth of the following month; controlled by Roland, the controller)",
+      "Excel: the resource workbook they call 'the grid' (a tab per office), the 60-something-line project startup checklist, fourteen different PM cost-to-complete forecasts, and Cumberland's reporting template",
+      "Microsoft 365, Teams (how staffing requests reach the resource manager) and the Microsoft tenant used for single sign-on",
+      "The monthly executive deck: about 40 pages plus a 40-row summary page, assembled by hand by the PMO analyst",
+      "monday.com, already in use: Enterprise plan, Work Management, about 220 seats. A preconstruction bid board built by Dwayne, who left in February, and a safety incident board owned by Lonnie that is used daily. The IT director owns the contract; Kyle in preconstruction is the only person who builds in it",
+      "Smartsheet (abandoned pilot in 2023, died of double entry)",
+      "Power BI (proposed by the IT director's team as a way to build the reporting themselves; not built)",
+      "A shared warranty inbox for post-turnover calls"
+    ]
+  },
+  "attendees": [
+    {
+      "name": "Consultant",
+      "role": "monday.com consultant running the discovery call",
+      "side": "consultant",
+      "decision_role": "not applicable"
+    },
+    {
+      "name": "Marisol Bettencourt",
+      "role": "Director of the Project Management Office; owns project controls, scheduling standards, leadership reporting and the process. Fourteen PMs and the resource manager sit under her; she reports to Curt, VP of Operations",
+      "side": "client",
+      "decision_role": "approver (decides and funds it from her own line: 'It's my budget.'; only spend over $150k a year goes to the CFO and the executive committee, and she says this is not that)"
+    },
+    {
+      "name": "Warren Tibbetts",
+      "role": "Senior Project Manager, 18 years with the firm; runs the Cumberland bed tower (about $48M) plus two Waverly renovations",
+      "side": "client",
+      "decision_role": "influencer and end user (the loudest voice on adoption and on single entry: 'I enter my numbers once.'; his forecast spreadsheet is the model for burn)"
+    },
+    {
+      "name": "Ines Kovalenko",
+      "role": "Resource Manager; maintains the allocation workbook ('the grid') for project managers, superintendents and project engineers across all three offices",
+      "side": "client",
+      "decision_role": "influencer and end user (and the natural day-to-day owner of whatever replaces the grid, so an admin/owner audience for the demo as well)"
+    }
+  ],
+  "expected_monday_products": [
+    {
+      "kind": "core",
+      "why": "monday Work Management, with a portfolio and connected projects, is the whole of this build. The account is Enterprise with Work Management enabled and stated plainly, so amendment A6's portfolio default applies and the client's stated need matches it: one view of every active project with a health status, budget burn against plan, and the next owner milestone and its date (P1, P3). Underneath it, projects built from standard project templates, one per project type rather than one template for all three (ground-up, occupied renovation, and short permit-heavy equipment jobs), with ICRA permits carried as tracked dates that expire (P4). Alongside, allocation for project managers, superintendents and project engineers, including who is qualified for occupied work, visible to the PMs without asking the resource manager, and explicitly excluding field crews (P2). On top, a view for the executive committee and something that can be put in front of Cumberland's program review in January (R6). Build it with monday's portfolio and project tools, connect the projects, and verify the roll-ups fill in; plain boards named 'Portfolio' would fail the rule. monday dev is out of v1 and nothing in this call calls for it."
+    },
+    {
+      "kind": "service",
+      "why": "Not in this build, and correctly so, but it must be handled rather than ignored. Post-turnover warranty calls arrive in a shared inbox and go missing ('We lost one for three weeks.'), which is ticket-shaped work that monday Service covers and that IS inside v1. The client parked it herself ('Different conversation. I know it's a mess. It's not this year's mess.'), so the right behaviour is a backlog seed and a question for later, never a hand-built warranty board smuggled into this scope. If it is ever built, it goes on the account's native Service Tickets board and companions, detected first, and Service extras (customer portal, email-to-ticket, SLA policy setup) stay deferred beyond v1."
+    },
+    {
+      "kind": "crm",
+      "why": "Not in this build. The health systems are accounts and their capital work arrives as pursuits, and preconstruction already tracks bids on an existing monday board built by someone who has left. Nobody asked for a pipeline, preconstruction is not this client's group ('That's not my group.'), and the portfolio need is about work already won. So CRM is a question about the existing board's future, not a proposal. If pursuits or health-system accounts ever come into scope, they must land on the account's native CRM boards (Leads, Contacts, Accounts, Deals/Opportunities, Activities), never on a look-alike 'Owners' or 'Pursuits' board."
+    }
+  ],
+  "rubric": [
+    {
+      "criterion": "R1 Current state mapped",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Preconstruction wins it.",
+          "location": "cue 56, 00:07:48.245, Marisol Bettencourt"
+        },
+        {
+          "quote": "Roland sets up the job number in Sage.",
+          "location": "cue 59, 00:08:18.456, Marisol Bettencourt"
+        },
+        {
+          "quote": "The PM sets up the project in Procore, which is where the drawings and RFIs and submittals live.",
+          "location": "cue 59, 00:08:18.456, Marisol Bettencourt"
+        },
+        {
+          "quote": "Insurance certificates, notice to proceed, preconstruction meeting, ICRA, badging, the submittal log setup, the schedule baseline.",
+          "location": "cue 62, 00:08:44.228, Warren Tibbetts"
+        },
+        {
+          "quote": "Every Monday the PMs are supposed to send me a status.",
+          "location": "cue 81, 00:11:22.226, Marisol Bettencourt"
+        },
+        {
+          "quote": "It's an email, or a tab in a spreadsheet, or in two cases a text message, and it has percent complete, any schedule slip, any budget exposure, and a color.",
+          "location": "cue 82, 00:11:28.341, Marisol Bettencourt"
+        },
+        {
+          "quote": "Bridget, my analyst, pulls all of it into the monthly deck for the executive committee.",
+          "location": "cue 87, 00:11:56.207, Marisol Bettencourt"
+        },
+        {
+          "quote": "Two full days a month, and that's if people answer her.",
+          "location": "cue 89, 00:12:15.013, Marisol Bettencourt"
+        },
+        {
+          "quote": "I keep a forecast in Excel.",
+          "location": "cue 76, 00:10:42.620, Warren Tibbetts"
+        },
+        {
+          "quote": "Because Sage gives me actuals after the month closes, and that's too late to do anything with, so I carry my own.",
+          "location": "cue 77, 00:10:49.274, Warren Tibbetts"
+        },
+        {
+          "quote": "We call it the grid.",
+          "location": "cue 138, 00:19:13.232, Ines Kovalenko"
+        },
+        {
+          "quote": "A tab per office, every person down the left, weeks across the top, and a percentage in each cell.",
+          "location": "cue 138, 00:19:13.232, Ines Kovalenko"
+        },
+        {
+          "quote": "Preconstruction has a board in monday for tracking bids.",
+          "location": "cue 337, 00:47:24.818, Warren Tibbetts"
+        },
+        {
+          "quote": "Safety has one too, Lonnie's incident board, and that one's actually used every day.",
+          "location": "cue 339, 00:47:48.605, Marisol Bettencourt"
+        },
+        {
+          "quote": "We're on the enterprise plan, work management, about two hundred and twenty seats.",
+          "location": "cue 343, 00:48:21.292, Marisol Bettencourt"
+        },
+        {
+          "quote": "Stefan owns the contract and Kyle in preconstruction is the one who actually builds things in it.",
+          "location": "cue 343, 00:48:21.292, Marisol Bettencourt"
+        }
+      ],
+      "note": "Walked end to end: award from preconstruction, job number in Sage, project set up in Procore, the 60-something-line Excel startup checklist including ICRA, then the running job (weekly OAC meeting, schedule updated Thursday, superintendent daily reports in Procore, the PM's Friday forecast), then Monday status emails to the PMO, the analyst's monthly 40-page deck and 40-row summary page, the executive committee on the second Tuesday, Cumberland's own report in their template, and closeout, turnover and a year of warranty. Tools and their disconnections are named: Procore for the job, Sage for cost with actuals around the tenth to twelfth, Excel for the grid and fourteen different PM forecasts, Teams for staffing requests. People and time are given: 14 PMs at about 4 hours a week assembling, the resource manager at 10 hours a week, the analyst 2 days a month, the director half a day a month. monday today is fully described, including who built each board and that one builder has left, plus the plan, product and seat count, which makes this the first fixture where the tier is known from the transcript."
+    },
+    {
+      "criterion": "R2 Pain made concrete",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Curt asked me a question I could not answer, which was, of these forty, which ones are actually in trouble.",
+          "location": "cue 112, 00:15:21.677, Marisol Bettencourt"
+        },
+        {
+          "quote": "Five weeks late.",
+          "location": "cue 109, 00:14:55.853, Marisol Bettencourt"
+        },
+        {
+          "quote": "It's not wrong on purpose.",
+          "location": "cue 101, 00:13:36.272, Marisol Bettencourt"
+        },
+        {
+          "quote": "Once you find out a green row was five weeks late, you can't unsee that.",
+          "location": "cue 120, 00:16:41.352, Marisol Bettencourt"
+        }
+      ],
+      "note": "P1 is excavated: Stated, Concrete and Workaround are all Met, and in fact all six per-pain checks are Met for both P1 and P2. The August executive committee meeting is a specific, recent, dated-by-month occurrence with a named consequence."
+    },
+    {
+      "criterion": "R3 Why now",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "We signed a four-year master agreement with Cumberland Health in August.",
+          "location": "cue 133, 00:18:28.051, Marisol Bettencourt"
+        },
+        {
+          "quote": "That takes us from forty active projects to something like fifty-five next year, with the same fourteen PMs and the same one analyst.",
+          "location": "cue 134, 00:18:37.715, Marisol Bettencourt"
+        },
+        {
+          "quote": "Reporting, their PMO has a quarterly program review and the first one is January fifteenth, and I have to stand up in front of their vice president of facilities and show program-level health, budget and milestones across every job we're doing for them.",
+          "location": "cue 227, 00:31:51.207, Marisol Bettencourt"
+        },
+        {
+          "quote": "And Bridget goes out on parental leave in November.",
+          "location": "cue 134, 00:18:37.715, Marisol Bettencourt"
+        },
+        {
+          "quote": "Next year's budget locks in November.",
+          "location": "cue 231, 00:32:35.139, Marisol Bettencourt"
+        }
+      ],
+      "note": "Four independent triggers, three of them dated: the master agreement signed in August, the first quarterly program review on January fifteenth with an external audience, the analyst who builds the report going on leave in November, and the budget lock in November. The client also contrasts now with earlier in the year ('If you'd called me in March I'd have been polite and slow.'), which is the cleanest possible why-now signal."
+    },
+    {
+      "criterion": "R4 Bleed number",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Fourteen project managers report up through me, and Ines sits in my group.",
+          "location": "cue 53, 00:07:11.335, Marisol Bettencourt"
+        },
+        {
+          "quote": "Call it four hours a week, easily.",
+          "location": "cue 123, 00:17:08.620, Warren Tibbetts"
+        },
+        {
+          "quote": "Four is fair.",
+          "location": "cue 242, 00:34:18.116, Marisol Bettencourt"
+        },
+        {
+          "quote": "About ninety-five an hour.",
+          "location": "cue 244, 00:34:32.358, Marisol Bettencourt"
+        },
+        {
+          "quote": "Ten, and that's a good week.",
+          "location": "cue 143, 00:19:45.551, Ines Kovalenko"
+        },
+        {
+          "quote": "Call it seventy-two.",
+          "location": "cue 251, 00:35:22.140, Marisol Bettencourt"
+        },
+        {
+          "quote": "She's at about sixty-five loaded.",
+          "location": "cue 255, 00:35:42.503, Marisol Bettencourt"
+        },
+        {
+          "quote": "Half a day a month, reviewing and rewriting the summary page.",
+          "location": "cue 257, 00:35:51.293, Marisol Bettencourt"
+        },
+        {
+          "quote": "About fifty thousand in overtime and acceleration.",
+          "location": "cue 160, 00:22:07.198, Marisol Bettencourt"
+        },
+        {
+          "quote": "Two a year. Maybe three.",
+          "location": "cue 162, 00:22:21.250, Marisol Bettencourt"
+        },
+        {
+          "quote": "That's what June cost.",
+          "location": "cue 262, 00:36:41.636, Marisol Bettencourt"
+        },
+        {
+          "quote": "Four hundred and thirty-two thousand.",
+          "location": "cue 268, 00:37:30.906, Marisol Bettencourt"
+        },
+        {
+          "quote": "That number is low, if anything.",
+          "location": "cue 270, 00:37:40.358, Marisol Bettencourt"
+        },
+        {
+          "quote": "About right and also horrible.",
+          "location": "cue 275, 00:38:19.209, Marisol Bettencourt"
+        }
+      ],
+      "note": "$432,080 a year, every input client-supplied and the total confirmed out loud. Math: PM assembling 14 x 4 h/wk x 52 x $95 = $276,640; the grid 10 h/wk x 52 x $72 = $37,440; the monthly deck (16 h x $65 = $1,040 plus 4 h x $115 = $460) x 12 = $18,000; resource collisions 2 x $50,000 = $100,000, taken at the low end of the client's own 'two a year, maybe three' and shown as a $100,000-$150,000 range. The client confirms the figure twice, once numerically and once qualitatively, and volunteers that it is understated. Deliberately excluded and listed separately as unquantified: the $480,000 Cumberland West overrun, because she would not say how much was avoidable ('Some. Maybe half of it, if I'm honest, and I'm not going to pretend I know which half.'). The Consultant does the arithmetic aloud, but every input and the confirmation come from the client, so this is Met rather than Partial."
+    },
+    {
+      "criterion": "R5 Upside number",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "I've got two PMs in next year's budget request, at about a hundred and fifty thousand each all in.",
+          "location": "cue 277, 00:38:39.731, Marisol Bettencourt"
+        },
+        {
+          "quote": "I'd hold one.",
+          "location": "cue 280, 00:39:02.931, Marisol Bettencourt"
+        },
+        {
+          "quote": "We turned down two invitations last year because we couldn't staff them.",
+          "location": "cue 285, 00:39:41.819, Ines Kovalenko"
+        },
+        {
+          "quote": "Eight to twelve million in revenue, and we make about three and a half points on that kind of work.",
+          "location": "cue 290, 00:40:18.306, Marisol Bettencourt"
+        },
+        {
+          "quote": "One is realistic.",
+          "location": "cue 294, 00:40:49.579, Marisol Bettencourt"
+        },
+        {
+          "quote": "Waverly wants one partner for their whole outpatient program.",
+          "location": "cue 296, 00:41:07.810, Marisol Bettencourt"
+        },
+        {
+          "quote": "And I can't credibly say yes, because I cannot show them how we'd run twenty of their jobs at once when I can't show anybody how we run forty now.",
+          "location": "cue 297, 00:41:22.386, Marisol Bettencourt"
+        }
+      ],
+      "note": "Two client-figured components plus the 'what would you go after' answer. Deferred hire: one of two budgeted PMs at about $150,000 all in, held rather than hired, and she refuses to claim both, which is a credibility signal worth keeping. Capacity to bid: two invitations were no-bid last year for lack of a superintendent; a job is $8M-$12M at about 3.5 points, so one more a year is about $280,000 of fee at the low end. The ambition is explicit and unprompted: Waverly's whole outpatient programme, which she cannot credibly pitch while she cannot show how forty jobs run today. Discipline note: the $150,000 comes out of the same freed reporting hours already counted in the bleed, so it must not be added to the bleed total."
+    },
+    {
+      "criterion": "R6 Desired outcome",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "I open one screen on Monday morning and I see forty projects, with a color and a number, and I believe it.",
+          "location": "cue 301, 00:41:57.390, Marisol Bettencourt"
+        },
+        {
+          "quote": "And I stop emailing people for it.",
+          "location": "cue 301, 00:41:57.390, Marisol Bettencourt"
+        },
+        {
+          "quote": "If I want to know which ones are in trouble I look, I don't ask.",
+          "location": "cue 302, 00:42:11.427, Marisol Bettencourt"
+        },
+        {
+          "quote": "Budget.",
+          "location": "cue 304, 00:42:22.772, Marisol Bettencourt"
+        },
+        {
+          "quote": "He wants to walk into the second Tuesday and not be surprised.",
+          "location": "cue 306, 00:42:39.038, Marisol Bettencourt"
+        },
+        {
+          "quote": "If I can pull their program up on a screen in front of their VP of facilities and it's current, that's the win.",
+          "location": "cue 308, 00:42:58.383, Marisol Bettencourt"
+        },
+        {
+          "quote": "I enter my numbers once.",
+          "location": "cue 311, 00:43:22.187, Warren Tibbetts"
+        },
+        {
+          "quote": "And I'd like somebody to be able to answer Warren without me.",
+          "location": "cue 312, 00:43:36.778, Ines Kovalenko"
+        }
+      ],
+      "note": "A day-to-day picture from all three people and a leadership win condition in two forms: the VP of Operations not being surprised at the second Tuesday meeting, and the Cumberland program review in January going well. Turn these into draft success criteria marked proposed, not agreed: they were described, not signed off, which is why the v1.0 sign-off gate stays closed."
+    },
+    {
+      "criterion": "R7 Decision process mapped",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "It's my budget.",
+          "location": "cue 314, 00:44:04.358, Marisol Bettencourt"
+        },
+        {
+          "quote": "Anything over a hundred and fifty thousand a year goes to Corinne and then the executive committee.",
+          "location": "cue 316, 00:44:18.045, Marisol Bettencourt"
+        },
+        {
+          "quote": "So practically, I decide, Corinne's team raises the PO, and Stefan does his security review.",
+          "location": "cue 317, 00:44:28.138, Marisol Bettencourt"
+        },
+        {
+          "quote": "And he will have a questionnaire.",
+          "location": "cue 319, 00:44:38.753, Marisol Bettencourt"
+        },
+        {
+          "quote": "Two to three weeks, and he's thorough.",
+          "location": "cue 319, 00:44:38.753, Marisol Bettencourt"
+        },
+        {
+          "quote": "Nothing touches Sage without Roland, and he is protective of Sage, and I'd say rightly.",
+          "location": "cue 321, 00:44:58.406, Marisol Bettencourt"
+        },
+        {
+          "quote": "Procore, three years ago.",
+          "location": "cue 323, 00:45:21.184, Marisol Bettencourt"
+        },
+        {
+          "quote": "Security review, a pilot, then a rollout with training.",
+          "location": "cue 323, 00:45:21.184, Marisol Bettencourt"
+        }
+      ],
+      "note": "Fully mapped, and the approver is on the call, which is unusual for this fixture set. She decides and funds it from the PMO line; the $150k-a-year threshold that would pull in the CFO and the executive committee is named and she says this is below it; the sequence after a yes is stated (she decides, the CFO's team raises the PO, the IT director runs a two-to-three-week security review with a questionnaire and SSO questions); the controller is a gate on anything touching Sage; and there is prior budgeting experience with the same pattern from buying Procore three years ago. What each person cares about is also given: the VP of Operations wants no surprises, the IT director wants SSO, data location and export control, the controller protects Sage."
+    },
+    {
+      "criterion": "R8 Priority and timing",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "This is the thing I'm working on.",
+          "location": "cue 234, 00:33:01.891, Marisol Bettencourt"
+        },
+        {
+          "quote": "If you'd called me in March I'd have been polite and slow.",
+          "location": "cue 234, 00:33:01.891, Marisol Bettencourt"
+        },
+        {
+          "quote": "I'd want something real running on a handful of jobs by the middle of November, so we've shaken it out before the holidays, and everything on it in time for January fifteenth.",
+          "location": "cue 236, 00:33:17.522, Marisol Bettencourt"
+        },
+        {
+          "quote": "Warren's three, and three of the Chattanooga ones so it's not all one office.",
+          "location": "cue 238, 00:33:36.898, Marisol Bettencourt"
+        }
+      ],
+      "note": "Placed firmly on the now side with a reason, and given real dates: a pilot on six projects by mid-November, everything on it for January fifteenth. The pilot selection is even specified, deliberately spanning two offices."
+    },
+    {
+      "criterion": "R9 Blockers surfaced",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Adoption.",
+          "location": "cue 325, 00:45:43.637, Marisol Bettencourt"
+        },
+        {
+          "quote": "We tried Smartsheet in twenty twenty-three and it lasted about a quarter.",
+          "location": "cue 325, 00:45:43.637, Marisol Bettencourt"
+        },
+        {
+          "quote": "So it became another thing to update, and the PMs smiled at me and quietly didn't.",
+          "location": "cue 328, 00:46:07.410, Marisol Bettencourt"
+        },
+        {
+          "quote": "If it's another thing to update, it's dead.",
+          "location": "cue 329, 00:46:16.465, Warren Tibbetts"
+        },
+        {
+          "quote": "And if the supers have to log in, it's dead twice, because they're on a phone in a trailer with one bar.",
+          "location": "cue 330, 00:46:22.657, Warren Tibbetts"
+        },
+        {
+          "quote": "Stefan's guy told him he could build this in Power BI in a couple of weeks.",
+          "location": "cue 349, 00:49:25.872, Marisol Bettencourt"
+        },
+        {
+          "quote": "I should tell you we're also talking to another partner.",
+          "location": "cue 354, 00:50:16.001, Marisol Bettencourt"
+        },
+        {
+          "quote": "And half our sites have no signal inside the building.",
+          "location": "cue 333, 00:46:55.282, Ines Kovalenko"
+        }
+      ],
+      "note": "Named without being asked twice: adoption with a specific prior failure and its cause (double entry, the old thing never removed), field connectivity, an in-house Power BI alternative, the security review, the controller's protection of Sage, and a competing partner. Each maps to a prevention step rather than a rebuttal."
+    },
+    {
+      "criterion": "R10 Next step committed",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "After one, I've got an OAC at eleven.",
+          "location": "cue 397, 00:57:00.649, Warren Tibbetts"
+        },
+        {
+          "quote": "Two o'clock Eastern on the twenty-third, then.",
+          "location": "cue 398, 00:57:05.574, Marisol Bettencourt"
+        },
+        {
+          "quote": "Works.",
+          "location": "cue 399, 00:57:11.153, Ines Kovalenko"
+        },
+        {
+          "quote": "Two o'clock Eastern, Wednesday the twenty-third, forty-five minutes.",
+          "location": "cue 400, 00:57:14.344, Consultant"
+        }
+      ],
+      "note": "Date, time, length, attendees and owner all settled on the call, with the client naming the time herself and both other attendees confirming. The Consultant commits to sending the invite the same afternoon, so R10 is Met rather than the common 'I'll follow up' failure."
+    },
+    {
+      "criterion": "R11 Solution confirmed",
+      "status": "missing",
+      "evidence": [],
+      "note": "No demo has happened, so no pain has been confirmed against something shown. This closes the v1.0 sign-off gate and becomes the goal of the first walkthrough on the twenty-third."
+    },
+    {
+      "criterion": "R12 Scope agreed verbally",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Yes. Those five. That's what I'd sign up for.",
+          "location": "cue 380, 00:55:05.178, Marisol Bettencourt"
+        },
+        {
+          "quote": "I'd add that Warren enters his numbers once, but that's inside number one.",
+          "location": "cue 382, 00:55:14.229, Marisol Bettencourt"
+        },
+        {
+          "quote": "And field crews stay out.",
+          "location": "cue 384, 00:55:28.496, Ines Kovalenko"
+        },
+        {
+          "quote": "Go.",
+          "location": "cue 375, 00:54:07.591, Marisol Bettencourt"
+        }
+      ],
+      "note": "The Consultant plays back a five-item scope and the approver agrees to it out loud, unhedged, then adds one clarification inside item one and the resource manager adds one explicit exclusion. This is the first fixture in the set where R12 is Met, which opens the pricing-or-proposal gate for the first time. The agreed five: the portfolio view with health, burn and the next owner milestone; a standard project template per project type with ICRA expiry tracked; allocation for PMs, superintendents and project engineers including occupied-work qualification and excluding field crews; a view for the executive committee plus something for Cumberland in January; and a pilot on six projects by mid-November before the rest."
+    },
+    {
+      "criterion": "P1 Stated",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "I have forty projects and I could not put that slide together in less than a week.",
+          "location": "cue 17, 00:02:06.753, Marisol Bettencourt"
+        },
+        {
+          "quote": "The summary page.",
+          "location": "cue 97, 00:13:16.205, Marisol Bettencourt"
+        },
+        {
+          "quote": "Because it's wrong.",
+          "location": "cue 99, 00:13:30.245, Marisol Bettencourt"
+        },
+        {
+          "quote": "It's not wrong on purpose.",
+          "location": "cue 101, 00:13:36.272, Marisol Bettencourt"
+        }
+      ],
+      "note": "Stated twice, in her own words, first as envy at a conference and then as the specific artefact she does not trust."
+    },
+    {
+      "criterion": "P1 Concrete",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "The August meeting.",
+          "location": "cue 104, 00:14:06.619, Marisol Bettencourt"
+        },
+        {
+          "quote": "And he says, didn't you tell me last month that one was waiting on a switchgear delivery?",
+          "location": "cue 105, 00:14:19.042, Marisol Bettencourt"
+        },
+        {
+          "quote": "Five weeks late.",
+          "location": "cue 109, 00:14:55.853, Marisol Bettencourt"
+        },
+        {
+          "quote": "Curt asked me a question I could not answer, which was, of these forty, which ones are actually in trouble.",
+          "location": "cue 112, 00:15:21.677, Marisol Bettencourt"
+        }
+      ],
+      "note": "A specific recent occurrence with month, room, participant, the exact question asked and the real state of the project behind the green row."
+    },
+    {
+      "criterion": "P1 Workaround",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Open the deck from the tenth, which is a month old.",
+          "location": "cue 117, 00:16:08.217, Marisol Bettencourt"
+        },
+        {
+          "quote": "Half a day, and I still wouldn't swear to it.",
+          "location": "cue 117, 00:16:08.217, Marisol Bettencourt"
+        },
+        {
+          "quote": "The second is that I don't believe it anymore.",
+          "location": "cue 119, 00:16:30.049, Marisol Bettencourt"
+        },
+        {
+          "quote": "Once you find out a green row was five weeks late, you can't unsee that.",
+          "location": "cue 120, 00:16:41.352, Marisol Bettencourt"
+        }
+      ],
+      "note": "Names today's method (a month-old deck, her email, calling six PMs, half a day) and why carrying on is not acceptable: even the output of that half day would not be trustworthy, and trust in every green row is now gone."
+    },
+    {
+      "criterion": "P1 Reach",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "The PMs, because they're the ones being chased.",
+          "location": "cue 122, 00:16:59.164, Marisol Bettencourt"
+        },
+        {
+          "quote": "They don't answer her.",
+          "location": "cue 90, 00:12:18.652, Ines Kovalenko"
+        },
+        {
+          "quote": "It reaches Cumberland.",
+          "location": "cue 130, 00:18:01.926, Marisol Bettencourt"
+        },
+        {
+          "quote": "Their PMO wants a monthly report per project in their format, and under the new agreement they want it at program level too.",
+          "location": "cue 130, 00:18:01.926, Marisol Bettencourt"
+        },
+        {
+          "quote": "Same facts, four formats.",
+          "location": "cue 128, 00:17:45.148, Warren Tibbetts"
+        }
+      ],
+      "note": "Reaches the fourteen PMs, the analyst, the director, the executive committee and the client's own customer. Warren's 'same facts, four formats' quantifies the duplication: the PMO status, his forecast, the owner's OAC agenda and staffing."
+    },
+    {
+      "criterion": "P1 Cost inputs",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Call it four hours a week, easily.",
+          "location": "cue 123, 00:17:08.620, Warren Tibbetts"
+        },
+        {
+          "quote": "Four is fair.",
+          "location": "cue 242, 00:34:18.116, Marisol Bettencourt"
+        },
+        {
+          "quote": "About ninety-five an hour.",
+          "location": "cue 244, 00:34:32.358, Marisol Bettencourt"
+        },
+        {
+          "quote": "Two full days a month, and that's if people answer her.",
+          "location": "cue 89, 00:12:15.013, Marisol Bettencourt"
+        },
+        {
+          "quote": "She's at about sixty-five loaded.",
+          "location": "cue 255, 00:35:42.503, Marisol Bettencourt"
+        },
+        {
+          "quote": "Half a day a month, reviewing and rewriting the summary page.",
+          "location": "cue 257, 00:35:51.293, Marisol Bettencourt"
+        }
+      ],
+      "note": "Hours, headcount, frequency and loaded costs for all three roles involved, all client-supplied."
+    },
+    {
+      "criterion": "P1 Trajectory",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Worse, and I can be specific about why.",
+          "location": "cue 133, 00:18:28.051, Marisol Bettencourt"
+        },
+        {
+          "quote": "That takes us from forty active projects to something like fifty-five next year, with the same fourteen PMs and the same one analyst.",
+          "location": "cue 134, 00:18:37.715, Marisol Bettencourt"
+        },
+        {
+          "quote": "Is gone from November.",
+          "location": "cue 136, 00:18:58.785, Marisol Bettencourt"
+        },
+        {
+          "quote": "And I don't have a second Bridget.",
+          "location": "cue 136, 00:18:58.785, Marisol Bettencourt"
+        }
+      ],
+      "note": "A year out is quantified rather than gestured at: about 37 percent more projects on the same headcount, and the one person who assembles the report leaves the picture in November."
+    },
+    {
+      "criterion": "P2 Stated",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "When a superintendent calls me from the wrong job site.",
+          "location": "cue 151, 00:20:51.231, Ines Kovalenko"
+        },
+        {
+          "quote": "The grid tells you who's busy.",
+          "location": "cue 176, 00:24:21.803, Marisol Bettencourt"
+        },
+        {
+          "quote": "It does not tell you who's the right person.",
+          "location": "cue 176, 00:24:21.803, Marisol Bettencourt"
+        }
+      ],
+      "note": "Stated by the person who owns the process, plus the sharper second half from her director: the workbook holds availability but not capability, and capability lives in one person's head."
+    },
+    {
+      "criterion": "P2 Concrete",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "June. Junie Rasco.",
+          "location": "cue 153, 00:21:02.687, Ines Kovalenko"
+        },
+        {
+          "quote": "Warren had him penciled for the Waverly cath lab, and preconstruction had promised him to the Pellham fit-out, and both started the same week.",
+          "location": "cue 154, 00:21:17.366, Ines Kovalenko"
+        },
+        {
+          "quote": "I did not pencil him. I had him confirmed. Verbally.",
+          "location": "cue 155, 00:21:29.724, Warren Tibbetts"
+        },
+        {
+          "quote": "We moved Junie to Waverly because that one had a hard date with the owner, and then Pellham started with an assistant super and we ran overtime for six weeks to hold the date.",
+          "location": "cue 158, 00:21:46.169, Ines Kovalenko"
+        }
+      ],
+      "note": "A dated, named, fully traced instance, including the disagreement about whether the superintendent was penciled or confirmed, which is itself the evidence that the commitment lived in a hallway rather than a system."
+    },
+    {
+      "criterion": "P2 Workaround",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "By me. Every week. Monday and Tuesday morning are the grid.",
+          "location": "cue 141, 00:19:35.541, Ines Kovalenko"
+        },
+        {
+          "quote": "Ten, and that's a good week.",
+          "location": "cue 143, 00:19:45.551, Ines Kovalenko"
+        },
+        {
+          "quote": "Teams messages, mostly.",
+          "location": "cue 145, 00:20:00.947, Ines Kovalenko"
+        },
+        {
+          "quote": "It's just that it lives on my laptop and in my head, and nobody can see it.",
+          "location": "cue 174, 00:23:54.228, Ines Kovalenko"
+        },
+        {
+          "quote": "And if I'm on holiday, nobody can answer him at all.",
+          "location": "cue 175, 00:24:07.138, Ines Kovalenko"
+        }
+      ],
+      "note": "The workaround works, and she says so, which is the honest version: the objection to it is not that it fails but that it is invisible to everyone else and stops entirely when she does."
+    },
+    {
+      "criterion": "P2 Reach",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "The supers, first.",
+          "location": "cue 164, 00:22:31.359, Ines Kovalenko"
+        },
+        {
+          "quote": "They're the ones told on a Friday that Monday changed.",
+          "location": "cue 164, 00:22:31.359, Ines Kovalenko"
+        },
+        {
+          "quote": "And the owner finds out when a date moves, which is the one that actually costs us, because some of those dates have LDs behind them.",
+          "location": "cue 165, 00:22:41.773, Ines Kovalenko"
+        },
+        {
+          "quote": "Right. On the bed tower there's a date for first patient day and there's money behind it.",
+          "location": "cue 167, 00:22:58.309, Warren Tibbetts"
+        }
+      ],
+      "note": "Superintendents, PMs whose schedules assumed a person, the director, and the client's own customer, with liquidated damages behind some owner dates, which is where it turns into money."
+    },
+    {
+      "criterion": "P2 Cost inputs",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Ten, and that's a good week.",
+          "location": "cue 143, 00:19:45.551, Ines Kovalenko"
+        },
+        {
+          "quote": "Call it seventy-two.",
+          "location": "cue 251, 00:35:22.140, Marisol Bettencourt"
+        },
+        {
+          "quote": "About fifty thousand in overtime and acceleration.",
+          "location": "cue 160, 00:22:07.198, Marisol Bettencourt"
+        },
+        {
+          "quote": "Two a year. Maybe three.",
+          "location": "cue 162, 00:22:21.250, Marisol Bettencourt"
+        },
+        {
+          "quote": "That's what June cost.",
+          "location": "cue 262, 00:36:41.636, Marisol Bettencourt"
+        }
+      ],
+      "note": "Both a recurring labour cost and an event cost with a frequency, all from the client. The frequency is a range, so the low end is used and the range is shown."
+    },
+    {
+      "criterion": "P2 Trajectory",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "All of Cumberland's work is in occupied buildings.",
+          "location": "cue 179, 00:24:45.267, Ines Kovalenko"
+        },
+        {
+          "quote": "So the same four names.",
+          "location": "cue 179, 00:24:45.267, Ines Kovalenko"
+        },
+        {
+          "quote": "Occupied-renovation supers, there are four.",
+          "location": "cue 176, 00:24:21.803, Marisol Bettencourt"
+        }
+      ],
+      "note": "The constraint gets tighter rather than looser: the growth is all occupied-building work, which only four superintendents can run."
+    },
+    {
+      "criterion": "P3 Stated",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "So on the twelfth of September I find out what August really cost me.",
+          "location": "cue 182, 00:25:14.686, Warren Tibbetts"
+        },
+        {
+          "quote": "We were four hundred and eighty thousand over on the mechanical buyout and we found out six weeks after it happened.",
+          "location": "cue 187, 00:25:41.938, Marisol Bettencourt"
+        },
+        {
+          "quote": "There's no such thing as a portfolio number for us.",
+          "location": "cue 199, 00:27:42.240, Marisol Bettencourt"
+        }
+      ],
+      "note": "Stated from both ends: the PM's lag between spend and actuals, and the director's inability to add fourteen different forecasts into one number."
+    },
+    {
+      "criterion": "P3 Concrete",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Cumberland West.",
+          "location": "cue 187, 00:25:41.938, Marisol Bettencourt"
+        },
+        {
+          "quote": "Roland closed the month and called me.",
+          "location": "cue 189, 00:26:01.030, Marisol Bettencourt"
+        },
+        {
+          "quote": "Which is not how I want to learn things.",
+          "location": "cue 189, 00:26:01.030, Marisol Bettencourt"
+        },
+        {
+          "quote": "The buyout came in high, the PM knew the buyout came in high, and he was working a change order with the owner to cover part of it.",
+          "location": "cue 191, 00:26:13.748, Marisol Bettencourt"
+        }
+      ],
+      "note": "A named project, a named amount, how it surfaced, and the mechanism: the PM was managing it honestly, but it never reached a number the PMO could see before the next phases were committed."
+    },
+    {
+      "criterion": "P3 Workaround",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "I keep a forecast in Excel.",
+          "location": "cue 76, 00:10:42.620, Warren Tibbetts"
+        },
+        {
+          "quote": "The problem is that I have fourteen of these and no two are built the same, so I cannot add them up.",
+          "location": "cue 198, 00:27:27.050, Marisol Bettencourt"
+        },
+        {
+          "quote": "There's fourteen spreadsheets.",
+          "location": "cue 199, 00:27:42.240, Marisol Bettencourt"
+        },
+        {
+          "quote": "Mine's good.",
+          "location": "cue 197, 00:27:21.182, Warren Tibbetts"
+        }
+      ],
+      "note": "Fourteen private forecasts of varying quality, explicitly not addable, and the good one is not the problem, which is the argument for a standard rather than for policing."
+    },
+    {
+      "criterion": "P3 Reach",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Roland, because he's the one making the call.",
+          "location": "cue 201, 00:27:53.699, Marisol Bettencourt"
+        },
+        {
+          "quote": "Corinne, because she's forecasting cash off it.",
+          "location": "cue 201, 00:27:53.699, Marisol Bettencourt"
+        },
+        {
+          "quote": "And the owner, honestly, because a change order conversation in week eight looks like we weren't watching.",
+          "location": "cue 201, 00:27:53.699, Marisol Bettencourt"
+        }
+      ],
+      "note": "The controller, the CFO's cash forecast, and the client's own credibility with the owner during a change order conversation."
+    },
+    {
+      "criterion": "P3 Cost inputs",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "We were four hundred and eighty thousand over on the mechanical buyout and we found out six weeks after it happened.",
+          "location": "cue 187, 00:25:41.938, Marisol Bettencourt"
+        },
+        {
+          "quote": "Some. Maybe half of it, if I'm honest, and I'm not going to pretend I know which half.",
+          "location": "cue 194, 00:26:49.458, Marisol Bettencourt"
+        }
+      ],
+      "note": "Partial on purpose. There is one large one-off figure and an explicit refusal to say how much was avoidable, and no recurring rate (how often overruns surface late, or the typical size). So the $480,000 sits beside the bleed as unquantified rather than inside it, and the next prep asks for frequency and typical size instead. Treating it as a $240,000-a-year saving would be inventing the client's number for her."
+    },
+    {
+      "criterion": "P3 Trajectory",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "It doesn't get better.",
+          "location": "cue 203, 00:28:13.008, Marisol Bettencourt"
+        },
+        {
+          "quote": "I don't have a number for that one, it just doesn't get better.",
+          "location": "cue 203, 00:28:13.008, Marisol Bettencourt"
+        }
+      ],
+      "note": "Partial: she says it will not improve but gives no year-out picture and no figure, and unlike P1 she does not tie it to the volume increase. A trajectory question for the next conversation, worth asking because fifty-five projects means fifty-five forecasts."
+    },
+    {
+      "criterion": "P4 Stated",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "That's the honest answer, yes. Every PM starts a job their own way.",
+          "location": "cue 72, 00:10:06.099, Marisol Bettencourt"
+        },
+        {
+          "quote": "In practice everybody has their own version.",
+          "location": "cue 71, 00:09:55.838, Warren Tibbetts"
+        },
+        {
+          "quote": "Consistency.",
+          "location": "cue 205, 00:28:36.629, Marisol Bettencourt"
+        }
+      ],
+      "note": "Stated by the director and corroborated immediately by her senior PM, who admits his own version has extra lines on it."
+    },
+    {
+      "criterion": "P4 Concrete",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "And I can't point you at one job and say, here, this went wrong.",
+          "location": "cue 205, 00:28:36.629, Marisol Bettencourt"
+        },
+        {
+          "quote": "Somebody's baseline schedule is in the system, somebody's is in their drawer.",
+          "location": "cue 206, 00:28:47.619, Marisol Bettencourt"
+        },
+        {
+          "quote": "Somebody's ICRA is tracked with an expiry date, somebody's is a PDF in a folder.",
+          "location": "cue 206, 00:28:47.619, Marisol Bettencourt"
+        },
+        {
+          "quote": "I've seen it happen. Not to me.",
+          "location": "cue 68, 00:09:37.687, Warren Tibbetts"
+        }
+      ],
+      "note": "Partial by the spec's definition: she describes what it looks like day to day, which the check allows, but explicitly cannot give a specific recent occurrence, and the one vivid consequence (an ICRA permit lapsing and the job being shut down for a day) is secondhand and undated. A concreteness question for the next conversation, and a reason to ask for the last three project startups rather than a story."
+    },
+    {
+      "criterion": "P4 Workaround",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "An Excel file.",
+          "location": "cue 62, 00:08:44.228, Warren Tibbetts"
+        },
+        {
+          "quote": "Sixty-something lines.",
+          "location": "cue 62, 00:08:44.228, Warren Tibbetts"
+        },
+        {
+          "quote": "In theory.",
+          "location": "cue 70, 00:09:53.186, Marisol Bettencourt"
+        },
+        {
+          "quote": "Mine's got things on it the master doesn't, because I've been burned.",
+          "location": "cue 71, 00:09:55.838, Warren Tibbetts"
+        }
+      ],
+      "note": "The workaround is a 60-something-line Excel checklist that exists but is not followed, and the private variants are the evidence that it does not hold."
+    },
+    {
+      "criterion": "P4 Reach",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "The project engineers, because they're the ones actually doing the steps.",
+          "location": "cue 209, 00:29:19.469, Warren Tibbetts"
+        },
+        {
+          "quote": "The admin who does badging.",
+          "location": "cue 209, 00:29:19.469, Warren Tibbetts"
+        },
+        {
+          "quote": "And the new PMs suffer most.",
+          "location": "cue 207, 00:29:01.762, Warren Tibbetts"
+        },
+        {
+          "quote": "And the owner sees it, because their first impression of us is whether the first three weeks are organized.",
+          "location": "cue 210, 00:29:29.490, Warren Tibbetts"
+        }
+      ],
+      "note": "Project engineers, the badging admin, the safety director, new hires without healthcare experience, and the owner's first impression."
+    },
+    {
+      "criterion": "P4 Cost inputs",
+      "status": "missing",
+      "evidence": [],
+      "note": "No hours, frequency or cost were attached to inconsistent startups. A cost question for the next conversation, and the reason P4 is not excavated."
+    },
+    {
+      "criterion": "P4 Trajectory",
+      "status": "missing",
+      "evidence": [],
+      "note": "Nothing was said about what inconsistent startups look like at fifty-five projects a year with new PMs, which is the obvious follow-up given the growth."
+    },
+    {
+      "criterion": "P5 Stated",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "An inbox.",
+          "location": "cue 217, 00:30:32.338, Warren Tibbetts"
+        },
+        {
+          "quote": "Turnover, punch list, closeout documents, and then warranty for a year.",
+          "location": "cue 215, 00:30:21.530, Warren Tibbetts"
+        }
+      ],
+      "note": "Stated plainly: a year of warranty obligation managed out of a shared inbox."
+    },
+    {
+      "criterion": "P5 Concrete",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "We lost one for three weeks.",
+          "location": "cue 219, 00:30:41.702, Warren Tibbetts"
+        },
+        {
+          "quote": "A door closer at Waverly.",
+          "location": "cue 219, 00:30:41.702, Warren Tibbetts"
+        },
+        {
+          "quote": "Which is a small thing, except the person who called it in was their facilities director, who decides who gets the next fit-out.",
+          "location": "cue 220, 00:30:47.887, Warren Tibbetts"
+        }
+      ],
+      "note": "Partial: there is one instance with a consequence that matters commercially, but no date, no frequency and no description of how it normally runs."
+    },
+    {
+      "criterion": "P5 Workaround",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "Somebody watches it, mostly.",
+          "location": "cue 217, 00:30:32.338, Warren Tibbetts"
+        },
+        {
+          "quote": "Different conversation.",
+          "location": "cue 222, 00:31:09.389, Marisol Bettencourt"
+        }
+      ],
+      "note": "Partial: what they do today is named, but not why carrying on that way is unacceptable. The opposite, in fact, is stated: the client parks the problem for this year, so the workaround stands by her own choice."
+    },
+    {
+      "criterion": "P5 Reach",
+      "status": "missing",
+      "evidence": [],
+      "note": "Nobody said who else the warranty inbox affects, beyond the one facilities director in the single story. The only per-pain check in this fixture graded Missing on Reach."
+    },
+    {
+      "criterion": "P5 Cost inputs",
+      "status": "missing",
+      "evidence": [],
+      "note": "No hours, volume or cost for warranty calls."
+    },
+    {
+      "criterion": "P5 Trajectory",
+      "status": "missing",
+      "evidence": [],
+      "note": "Nothing about what a year of warranty on fifty-five projects looks like. Out of scope by the client's own decision, so this stays a backlog seed rather than a gap to chase."
+    }
+  ],
+  "pains": [
+    {
+      "quote": "I have forty projects and I could not put that slide together in less than a week.",
+      "location": "cue 17, 00:02:06.753, Marisol Bettencourt",
+      "theme": "P1 No trustworthy portfolio view: the director cannot produce a single picture of her own projects"
+    },
+    {
+      "quote": "Because it's wrong.",
+      "location": "cue 99, 00:13:30.245, Marisol Bettencourt",
+      "theme": "P1 The monthly summary page is not believed by the person who produces it"
+    },
+    {
+      "quote": "It's not wrong on purpose.",
+      "location": "cue 101, 00:13:36.272, Marisol Bettencourt",
+      "theme": "P1 The report is assembled from forty people's varying inputs rather than being wrong deliberately"
+    },
+    {
+      "quote": "Curt asked me a question I could not answer, which was, of these forty, which ones are actually in trouble.",
+      "location": "cue 112, 00:15:21.677, Marisol Bettencourt",
+      "theme": "P1 The concrete instance: the August executive committee meeting"
+    },
+    {
+      "quote": "Five weeks late.",
+      "location": "cue 109, 00:14:55.853, Marisol Bettencourt",
+      "theme": "P1 A project showing green was five weeks late"
+    },
+    {
+      "quote": "Once you find out a green row was five weeks late, you can't unsee that.",
+      "location": "cue 120, 00:16:41.352, Marisol Bettencourt",
+      "theme": "P1 Trust in the status colours is gone, which is why the workaround cannot continue"
+    },
+    {
+      "quote": "Half a day, and I still wouldn't swear to it.",
+      "location": "cue 117, 00:16:08.217, Marisol Bettencourt",
+      "theme": "P1 Answering a basic portfolio question today costs half a day and still is not reliable"
+    },
+    {
+      "quote": "Same facts, four formats.",
+      "location": "cue 128, 00:17:45.148, Warren Tibbetts",
+      "theme": "P1 PMs re-assemble the same information for four audiences"
+    },
+    {
+      "quote": "And I don't have a second Bridget.",
+      "location": "cue 136, 00:18:58.785, Marisol Bettencourt",
+      "theme": "P1 Trajectory: the one person who assembles the report goes on leave in November"
+    },
+    {
+      "quote": "When a superintendent calls me from the wrong job site.",
+      "location": "cue 151, 00:20:51.231, Ines Kovalenko",
+      "theme": "P2 Resource collisions: conflicts surface at the job site, not in planning"
+    },
+    {
+      "quote": "Warren had him penciled for the Waverly cath lab, and preconstruction had promised him to the Pellham fit-out, and both started the same week.",
+      "location": "cue 154, 00:21:17.366, Ines Kovalenko",
+      "theme": "P2 The concrete instance: one superintendent promised to two jobs starting the same week in June"
+    },
+    {
+      "quote": "I did not pencil him. I had him confirmed. Verbally.",
+      "location": "cue 155, 00:21:29.724, Warren Tibbetts",
+      "theme": "P2 Commitments live in hallway conversations, so two people can both believe they have the same person"
+    },
+    {
+      "quote": "It's just that it lives on my laptop and in my head, and nobody can see it.",
+      "location": "cue 174, 00:23:54.228, Ines Kovalenko",
+      "theme": "P2 The allocation workbook is invisible to everyone but its owner"
+    },
+    {
+      "quote": "It does not tell you who's the right person.",
+      "location": "cue 176, 00:24:21.803, Marisol Bettencourt",
+      "theme": "P2 Availability is tracked, capability for occupied-building work is not"
+    },
+    {
+      "quote": "And then somebody reshuffles it in a meeting I'm not in, and I find out when the grid doesn't match the job site.",
+      "location": "cue 147, 00:20:21.466, Speaker 2",
+      "theme": "P2 Corroboration only: this cue is tagged '<v Speaker 2>', so the speaker must be recorded as unclear (it is Ines Kovalenko by context) and it cannot carry a Met on its own"
+    },
+    {
+      "quote": "So on the twelfth of September I find out what August really cost me.",
+      "location": "cue 182, 00:25:14.686, Warren Tibbetts",
+      "theme": "P3 Budget burn: actuals arrive up to six weeks after the spend"
+    },
+    {
+      "quote": "We were four hundred and eighty thousand over on the mechanical buyout and we found out six weeks after it happened.",
+      "location": "cue 187, 00:25:41.938, Marisol Bettencourt",
+      "theme": "P3 The concrete instance: the Cumberland West overrun, found six weeks late"
+    },
+    {
+      "quote": "The problem is that I have fourteen of these and no two are built the same, so I cannot add them up.",
+      "location": "cue 198, 00:27:27.050, Marisol Bettencourt",
+      "theme": "P3 Fourteen private PM forecasts cannot be rolled up into a portfolio number"
+    },
+    {
+      "quote": "And the owner, honestly, because a change order conversation in week eight looks like we weren't watching.",
+      "location": "cue 201, 00:27:53.699, Marisol Bettencourt",
+      "theme": "P3 Reach: late visibility damages credibility with the health system during change orders"
+    },
+    {
+      "quote": "That's the honest answer, yes. Every PM starts a job their own way.",
+      "location": "cue 72, 00:10:06.099, Marisol Bettencourt",
+      "theme": "P4 No standard project start: every PM runs their own version of the startup checklist"
+    },
+    {
+      "quote": "Somebody's ICRA is tracked with an expiry date, somebody's is a PDF in a folder.",
+      "location": "cue 206, 00:28:47.619, Marisol Bettencourt",
+      "theme": "P4 Infection-control permits, which expire, are tracked inconsistently"
+    },
+    {
+      "quote": "And the new PMs suffer most.",
+      "location": "cue 207, 00:29:01.762, Warren Tibbetts",
+      "theme": "P4 Reach: PMs hired from outside healthcare do not know what they do not know"
+    },
+    {
+      "quote": "An inbox.",
+      "location": "cue 217, 00:30:32.338, Warren Tibbetts",
+      "theme": "P5 Warranty calls after turnover are managed out of a shared inbox"
+    },
+    {
+      "quote": "We lost one for three weeks.",
+      "location": "cue 219, 00:30:41.702, Warren Tibbetts",
+      "theme": "P5 A warranty call went unanswered for three weeks; ticket-shaped work, parked by the client for this year"
+    }
+  ],
+  "numbers": {
+    "bleed": {
+      "value": "$432,080 per year, confirmed by the client. Components: PM status assembling 14 PMs x 4 h/wk x 52 x $95 loaded = $276,640; the resource grid 10 h/wk x 52 x $72 = $37,440; the monthly deck (16 h x $65 = $1,040 for the analyst, plus 4 h x $115 = $460 for the director) x 12 = $18,000; resource collisions at 2 a year x about $50,000 = $100,000, taken at the low end of the client's 'Two a year. Maybe three.' and shown as a range of $100,000-$150,000. Excluded and listed separately as unquantified: the $480,000 Cumberland West mechanical buyout overrun, because the client explicitly would not say how much of it was avoidable, and there is no frequency for late-surfacing overruns. The client volunteered that the total is understated.",
+      "quote": "Four hundred and thirty-two thousand.",
+      "status": "met"
+    },
+    "upside": {
+      "value": "About $430,000 a year in two client-figured parts, kept separate from the bleed. First, $150,000 of deferred hiring: two PMs are in next year's budget at about $150,000 all in each, and she would hold one (not both) if the existing fourteen could carry their jobs. This comes out of the same freed reporting hours already counted in the bleed, so it must never be added to the bleed total. Second, about $280,000 of fee from one more staffable job a year: two invitations were no-bid last year for lack of a superintendent, such jobs run $8M-$12M in revenue at about 3.5 points, and she calls one more a year realistic while refusing two. The 'what would you go after' answer is explicit: Waverly's entire outpatient programme, which she cannot credibly pursue while she cannot show how forty jobs run today.",
+      "quote": "I've got two PMs in next year's budget request, at about a hundred and fifty thousand each all in.",
+      "status": "met"
+    }
+  },
+  "vocabulary": [
+    {
+      "their_term": "portfolio",
+      "meaning": "Every active job across all three offices, about forty of them; her own word, used before the Consultant used it",
+      "likely_monday_object": "a monday portfolio with the active projects connected to it (Enterprise plus Work Management, so the A6 default applies)"
+    },
+    {
+      "their_term": "program",
+      "meaning": "All of one health system's work under a master agreement, twelve to fifteen jobs at a time; Cumberland is a program and Waverly would become a second one",
+      "likely_monday_object": "open question, and one to ask rather than assume: a grouping or view inside one portfolio, or a portfolio per program. A job belongs to the portfolio and a program at the same time"
+    },
+    {
+      "their_term": "the board",
+      "meaning": "The executive committee (VP of Operations, CFO, two principals) that meets the second Tuesday. The firm is privately held and has no actual board",
+      "likely_monday_object": "nothing; a homonym trap. It is an audience for a dashboard, not a monday board"
+    },
+    {
+      "their_term": "health",
+      "meaning": "A project's red-amber-green status, set by its PM",
+      "likely_monday_object": "status column on the project set by its PM, with the last-changed date and who changed it visible beside it and every change logged (the client's own requirement at cue 373), rolled up to the portfolio with that date; the colour is the PM's claim about the job, never evidence from Procore or Sage; nothing clinical is meant by the word (readiness leaning 6)"
+    },
+    {
+      "their_term": "burn",
+      "meaning": "Cost spent against plan on a job",
+      "likely_monday_object": "numbers or formula columns on the project, mirrored up to the portfolio; the actuals come from Sage, which stays the book of record"
+    },
+    {
+      "their_term": "the grid",
+      "meaning": "Ines's Excel allocation workbook: a tab per office, people down the left, weeks across the top, percentages in the cells",
+      "likely_monday_object": "a resource or allocation board with a workload view, owned by the resource manager"
+    },
+    {
+      "their_term": "the deck",
+      "meaning": "The monthly 40-page executive report plus its 40-row summary page, assembled by the PMO analyst",
+      "likely_monday_object": "portfolio dashboard plus an exportable summary view; the deck itself is the artefact to replace"
+    },
+    {
+      "their_term": "the owner",
+      "meaning": "The health system that owns the building and pays for the work",
+      "likely_monday_object": "the client's own customer, not a monday item owner or People column; if ever tracked as records, health systems belong on the native CRM Accounts board"
+    },
+    {
+      "their_term": "job / project",
+      "meaning": "Used interchangeably for one construction project; 'equipment job' is a short project of the same shape",
+      "likely_monday_object": "a monday project connected to the portfolio, including the equipment jobs"
+    },
+    {
+      "their_term": "equipment job",
+      "meaning": "A six-week, roughly $1.5M scope such as an MRI replacement or a linear accelerator swap, with all the same steps as a large job",
+      "likely_monday_object": "a project from the equipment-job template, connected to the portfolio like any other"
+    },
+    {
+      "their_term": "occupied renovation",
+      "meaning": "Work inside a live clinical building, which is most of what they do and what only four superintendents are qualified to run",
+      "likely_monday_object": "project type on the project template, plus a qualification attribute on people in the allocation board"
+    },
+    {
+      "their_term": "ICRA",
+      "meaning": "Infection control risk assessment: a permit per work area, signed by the hospital's infection control nurse, which expires and can shut the job down if it lapses",
+      "likely_monday_object": "dated, expiring child items under the project, one per work area (the client: 'it's per work area, and it expires'), each with its signed date and expiry, the earliest expiry rolled up to the project and a reminder automation before it; never a single date column on the project, because one job carries several work areas (readiness leaning 2)"
+    },
+    {
+      "their_term": "interim life safety",
+      "meaning": "Interim life safety measures required while working in an occupied healthcare building. They say 'the interim life safety stuff' and never the ILSM abbreviation, so the abbreviation must not be put in their mouths",
+      "likely_monday_object": "template steps inside the occupied-renovation project type"
+    },
+    {
+      "their_term": "super",
+      "meaning": "Superintendent, the field leader of a job",
+      "likely_monday_object": "person record in the allocation board, with an occupied-work qualification"
+    },
+    {
+      "their_term": "project engineer",
+      "meaning": "One of the three office roles the grid tracks; project engineers do many of the startup steps. Said in full on the call, never abbreviated to PE",
+      "likely_monday_object": "person record in the allocation board; an end user of the project template"
+    },
+    {
+      "their_term": "milestone",
+      "meaning": "An owner-facing contractual date; eleven or twelve per large job, several per phase, some with money behind them",
+      "likely_monday_object": "milestone items under the project, not a single date column; the next one rolls up to the portfolio with its date"
+    },
+    {
+      "their_term": "first patient day",
+      "meaning": "The date the owner starts using the space, with liquidated damages behind it on the bed tower",
+      "likely_monday_object": "a milestone item with a flag for contractual exposure"
+    },
+    {
+      "their_term": "LDs",
+      "meaning": "Liquidated damages behind certain owner dates",
+      "likely_monday_object": "an attribute on milestone items; the amounts themselves are commercially sensitive"
+    },
+    {
+      "their_term": "buyout",
+      "meaning": "Awarding a trade package; where the Cumberland West overrun appeared",
+      "likely_monday_object": "a cost or commitment stage on the project, reported as burn rather than rebuilt as accounting"
+    },
+    {
+      "their_term": "turnover, punch list, closeout",
+      "meaning": "The end-of-job sequence, followed by a year of warranty",
+      "likely_monday_object": "closing phases in the project template; warranty is out of this scope"
+    },
+    {
+      "their_term": "OAC meeting",
+      "meaning": "The weekly owner-architect-contractor meeting",
+      "likely_monday_object": "a recurring meeting the project data should serve; one of the four formats PMs currently rebuild by hand"
+    },
+    {
+      "their_term": "no-bid",
+      "meaning": "Declining an invitation to bid, in their case for lack of a superintendent",
+      "likely_monday_object": "nothing in this build; it belongs to preconstruction's existing bid board and is part of the upside story"
+    },
+    {
+      "their_term": "master agreement",
+      "meaning": "A multi-year agreement under which all of a health system's capital work flows to them; the Cumberland one was signed in August",
+      "likely_monday_object": "the thing a 'program' hangs off; a question for the portfolio shape"
+    },
+    {
+      "their_term": "the summary page",
+      "meaning": "The 40-row, four-column front page of the deck that leadership actually reads",
+      "likely_monday_object": "the portfolio view itself; the client should be able to open it rather than receive it"
+    }
+  ],
+  "entities_and_workflows": [
+    "Award handover: preconstruction wins the work and hands it to the PMO, which assigns a project manager and a superintendent. Preconstruction is explicitly not this client's group.",
+    "Project setup: the controller opens a job number in Sage 300, the PM sets up the project in Procore for drawings, RFIs and submittals, and the PM works through a 60-something-line Excel startup checklist (insurance certificates, notice to proceed, preconstruction meeting, ICRA, badging, submittal log, schedule baseline). Every PM has their own variant of the checklist.",
+    "Infection control: an ICRA permit per work area, signed by the hospital's infection control nurse, specifying barriers, negative air and cart routes. It expires, and a lapse means being shut down that day. Interim life safety measures apply alongside it in occupied buildings.",
+    "Project types with different templates and milestone sets: ground-up, occupied renovation (where infection control and life safety live), and short permit-heavy equipment jobs such as an MRI or linear accelerator replacement.",
+    "Running a job week to week: a weekly OAC meeting with owner and architect, the schedule updated Thursday night, superintendent daily reports in Procore, and the PM's Friday cost-to-complete forecast in a private Excel file.",
+    "Owner milestones: eleven or twelve per large job that the owner cares about (permit issued, steel topped out, dry-in, first energization, imaging equipment delivery, substantial completion, first patient day), several per phase, some with liquidated damages, and when one moves the owner wants the previous date to still exist.",
+    "Weekly PMO status: each PM sends the director percent complete, schedule slip, budget exposure and a red-amber-green colour, by email, spreadsheet tab or text message. The PM sets the colour.",
+    "Monthly reporting: the PMO analyst assembles a 40-page deck plus a 40-row summary page, chasing PMs for inputs, and it goes out around the tenth for the executive committee's second-Tuesday meeting.",
+    "Owner-side reporting: Cumberland's PMO wants a monthly report per project in their own template, and under the new master agreement wants it at program level, with a quarterly program review starting January fifteenth.",
+    "Cost reporting: Sage job cost reports land around the tenth to twelfth of the following month, so a PM learns August's real cost in mid-September; overruns can surface after the next phases are committed.",
+    "Resource allocation: the resource manager maintains the grid weekly (Monday and Tuesday morning), requests arrive as Teams messages or hallway conversations, and conflicts surface when a superintendent turns up at the wrong job. Only four superintendents can run occupied work. Field crew scheduling belongs to the superintendents and is explicitly out of scope.",
+    "Turnover and closeout: turnover, punch list, closeout documents, then a year of warranty.",
+    "Warranty: post-turnover calls arrive in a shared inbox that somebody watches 'mostly'; one was lost for three weeks. Ticket-shaped, in v1 as Service, but parked by the client for this year.",
+    "Buying process: the PMO director decides and funds from her own line, the CFO's team raises the PO, the IT director runs a two-to-three-week security review with a questionnaire, the controller gates anything touching Sage, then a pilot and a rollout with training, as they did with Procore three years ago."
+  ],
+  "integrations_mentioned": [
+    "Procore: stays as the system of record for drawings, RFIs, submittals and daily reports, and is explicitly not being replaced ('Procore is the job.'). The boundary must be stated, not blurred; nobody asked to duplicate RFIs.",
+    "Sage 300: the source of cost actuals for budget burn and the book of record for anything with a dollar sign. Access is gated by the controller, and the transcript never says whether an API, export or report feed is available, so this is the biggest open integration question of the build.",
+    "Microsoft 365 and Teams: where staffing requests happen today; Teams is a realistic notification target.",
+    "Microsoft single sign-on: the IT director will require it, along with questions about where the data sits and who can export it.",
+    "Excel: the grid, the startup checklist, fourteen PM forecasts and Cumberland's report template; the template is being sent as an input, so an export or view shaped like it is in scope.",
+    "monday.com already in the account: preconstruction's bid board (builder has left) and safety's incident board (owned and used daily). Both must be audited rather than duplicated or disturbed.",
+    "Power BI: proposed inside the client's IT team as a do-it-ourselves alternative; relevant because it answers reporting but not data capture.",
+    "Smartsheet: an abandoned 2023 pilot, relevant as adoption history rather than as an integration.",
+    "A shared warranty inbox: email-shaped intake, and the natural home of a later Service conversation. Email-to-ticket is deferred beyond v1, so it must not be promised."
+  ],
+  "compliance_or_security_signals": [
+    "No patient information in any of their systems, stated as non-negotiable, and no photographs containing a patient or a whiteboard with names on it. Crews work in occupied clinical units carrying phones, and the client's customers run walk-throughs, so any photo or update field has to be designed with this in mind and seed data must never imply patient data.",
+    "Field staff immunization records and background checks stay with HR and must not go into a project system; the client has already refused this request internally.",
+    "ICRA permits: per work area, signed by the hospital's infection control nurse, with an expiry that can shut the job down if it lapses.",
+    "Interim life safety measures while working in occupied healthcare buildings.",
+    "Badging for field staff at client sites, handled by an admin as part of project startup.",
+    "Loaded rates are restricted: PMs see hours, not each other's rates, and not the cost figures worked out on this call.",
+    "Cross-job margin is restricted: a PM seeing their own job's cost is fine, a PM seeing every job's margin is not, and the client wants to think about the boundary.",
+    "Audit trail on status changes: if a PM moves a health status from yellow to green, she wants to know who did it and when.",
+    "Milestone date history: when a date moves, the previous date must still exist somewhere, for the owner's benefit as well as hers.",
+    "Microsoft single sign-on, plus an IT security questionnaire covering where data sits and who can export it, run by the IT director over two to three weeks.",
+    "Sage is the book of record for anything with a dollar sign, and the controller gates access to it.",
+    "Liquidated damages behind certain owner dates make contractual exposure commercially sensitive."
+  ],
+  "objections": [
+    {
+      "quote": "I should tell you we're also talking to another partner.",
+      "type": "Talking to other partners (raised, and volunteered by the approver: a Nashville firm that did Waverly's rollout, coming in next week, surfaced because the VP of Operations asked around. The spec's response is to welcome it and ask what they have seen and what would make the choice clear, which the Consultant does; the client's answer is a concrete buying criterion, so R6 is being used as prevention. Internal only: the partner and this exchange must never appear in client-facing material)"
+    },
+    {
+      "quote": "We tried Smartsheet in twenty twenty-three and it lasted about a quarter.",
+      "type": "Team won't adopt it (raised as the first-named blocker, with the cause given: double entry and the old process never being removed. Prevention is an end-user conversation and an end-user demo segment, plus a plan for what stops being done)"
+    },
+    {
+      "quote": "If it's another thing to update, it's dead.",
+      "type": "Team won't adopt it (the senior PM's blunter version, extended to the field: superintendents on a phone with one bar, so the design must ask them for two things a week, not eight fields)"
+    },
+    {
+      "quote": "Half the columns are empty and nobody trusts what's in it.",
+      "type": "monday itself is the problem (raised about their existing preconstruction board. The spec's response is to ask what it fails to do and check whether the setup or the tool is the cause, and the call supplies the answer: the builder left in February and nobody took it over, while the safety board with a present owner is used daily. R1 evidence resolves this rather than a rebuttal)"
+    },
+    {
+      "quote": "Stefan's guy told him he could build this in Power BI in a couple of weeks.",
+      "type": "We'll build it ourselves (raised pre-emptively by the approver, who also answers it herself: a report is the easy half and the data capture is the problem. The prevention is the workaround question; the response is to agree that a dashboard is the easy half rather than to argue)"
+    },
+    {
+      "quote": "Nothing touches Sage without Roland, and he is protective of Sage, and I'd say rightly.",
+      "type": "Must check with someone (the controller is a real gate on the integration that the budget-burn half of the build depends on. Prevention is mapping the decision process, which is done; the action is to ask what he will care about and offer to join that conversation)"
+    },
+    {
+      "quote": "Two to three weeks, and he's thorough.",
+      "type": "Must check with someone (the IT director's security review, with a questionnaire, SSO and data questions. It is the longest pole against a mid-November pilot, which is why the Consultant asks to start it now)"
+    },
+    {
+      "quote": "Send me a scope and a number I can put against my line before the budget lock in November.",
+      "type": "Just send a proposal or pricing (raised by the approver with a real deadline behind it. The spec's prevention, agreeing the scope first, has already happened in this call, so R12 is Met and the gate is open. The v1 constraint is what binds instead: pricing and proposal prep are deferred beyond v1, so the plugin must record the request with its date and hand it to the consultant, not draft a figure)"
+    }
+  ],
+  "commitments_and_next_steps": [
+    {
+      "quote": "Two o'clock Eastern on the twenty-third, then.",
+      "what": "Next meeting: a first-cut walkthrough built on six of their real jobs with their real project names, 45 minutes, with Marisol, Warren and Ines",
+      "owner": "Consultant (hosts and builds it); all three client attendees confirmed on the call",
+      "date": "Wednesday the 23rd, 2:00 pm Eastern (month not stated; the 23rd is a Wednesday in September 2026)"
+    },
+    {
+      "quote": "I'll send the invite this afternoon.",
+      "what": "Send the calendar invite for the 23rd to the three client attendees",
+      "owner": "Consultant",
+      "date": "The afternoon of the call"
+    },
+    {
+      "quote": "And I'll send you Cumberland's template and the summary page from August so you can see the shape of it.",
+      "what": "Send the owner's reporting template and August's 40-row summary page as build inputs",
+      "owner": "Marisol Bettencourt",
+      "date": "Not dated; before the 23rd by implication"
+    },
+    {
+      "quote": "I can send it today.",
+      "what": "Send two tabs of the resource grid, checked for any rates and scrubbed if present",
+      "owner": "Ines Kovalenko",
+      "date": "Day of the call"
+    },
+    {
+      "quote": "You can have it.",
+      "what": "Send the senior PM's cost-to-complete forecast spreadsheet, the model for how burn should work",
+      "owner": "Warren Tibbetts",
+      "date": "Not dated"
+    },
+    {
+      "quote": "I'll email him today and tell him it's coming.",
+      "what": "Start the IT director's security review now rather than in three weeks, because it is the longest pole against a mid-November pilot",
+      "owner": "Marisol Bettencourt",
+      "date": "Day of the call"
+    },
+    {
+      "quote": "I'll send what he needs with the invite.",
+      "what": "Send the security and compliance documentation the IT director will want, with the invite",
+      "owner": "Consultant",
+      "date": "The afternoon of the call"
+    },
+    {
+      "quote": "You'll get both.",
+      "what": "Send a written scope and a figure the client can put against her budget line. Note for the plugin: this is the consultant's own commitment and pricing and proposal prep are deferred beyond v1, so it is recorded as a consultant to-do with its November deadline, not drafted by the plugin",
+      "owner": "Consultant",
+      "date": "Before the November budget lock (no exact date given)"
+    },
+    {
+      "quote": "Whatever you show me on the twenty-third, use real names.",
+      "what": "Build the first cut with their real project names (Cumberland bed tower, Waverly cath lab, Pellham), not placeholders; seed data must still respect the no-patient-information rule",
+      "owner": "Consultant",
+      "date": "By the 23rd"
+    }
+  ],
+  "traps": [
+    "The Enterprise portfolio default actually fires here, for the first time in this fixture set. The tier and product are stated by the client ('We're on the enterprise plan, work management, about two hundred and twenty seats.'), so amendment A6 applies and a portfolio with connected projects is included by default, with the reason recorded. Asking for the tier as if it were unknown, or omitting the portfolio, both fail.",
+    "It must be a real monday portfolio with real projects, created with the portfolio and project tools and then connected, with the roll-ups verified afterwards. A plain board named 'Portfolio' with forty rows, or projects faked as groups, fails even if the columns look right.",
+    "'Portfolio' and 'program' are different things in their vocabulary, and both came from the client. A job sits in the portfolio and inside a program at the same time, and the owner's VP of facilities wants the program as one thing. Whether that is one portfolio with a program grouping or a portfolio per program is a question, not a silent decision. Creating five program portfolios unasked fails; so does ignoring the program need.",
+    "'The board' means the executive committee, not a monday board. The firm is privately held and has no actual board of directors.",
+    "'Health' means a red-amber-green project status. In a healthcare-construction fixture it is easy to read it as clinical; it is not, and nothing clinical belongs anywhere in this build.",
+    "The account already has monday, so this is not a greenfield build. Enterprise, Work Management, about 220 seats, a preconstruction bid board whose builder left in February, and a safety incident board in daily use. Audit and extend, ask where the PMO's work should live and who administers it, and do not disturb the safety board. Under A21 the proof of concept itself is built in the user's own account; this trap governs any later build inside the client's account.",
+    "'We already have monday and nobody uses it' is a setup problem, not a tool problem, and the call contains the proof: the neglected board lost its owner, the maintained board still has one. The right move is to ask what it fails to do and say what the evidence shows, not to defend monday.",
+    "R4, R7 and R12 are all Met, so the method's pricing-or-proposal gate opens for the first time in this set, while v1 defers pricing and proposal prep. The passing behaviour is to say both things: the gate is open, and this version does not produce pricing or proposals, so the client's dated request goes to the consultant. Drafting a price, or quietly dropping her request, both fail.",
+    "The bleed total is $432,080 and it must not grow. The $480,000 Cumberland West overrun stays outside it as unquantified, because she explicitly refused to say how much was avoidable. Inventing $240,000 a year from 'maybe half of it' is exactly the move the spec forbids.",
+    "The collision component is a range at the client's own low end: 'Two a year. Maybe three.' at about $50,000 means $100,000, shown as $100,000-$150,000. Using three, or rounding the total up, fails.",
+    "The $150,000 deferred hire comes out of the same freed reporting hours already counted in the bleed. It is upside, not additional bleed, and the two must not be summed.",
+    "The Consultant does the arithmetic aloud, but the inputs and the confirmations are all client-side, so R4 is Met. Do not mistake the Consultant's spoken totals for the evidence; the evidence is 'Four hundred and thirty-two thousand.' and 'That number is low, if anything.'",
+    "Volume and headcount numbers (about forty active projects, fourteen PMs, 220 seats, four occupied-work superintendents, fifty-five projects next year) are legitimate in an SOP and are flagged for the consultant rather than stripped, unlike the cost figures.",
+    "'Thirty-eight. Forty, depending on how you count the equipment jobs.' The project count is fuzzy by their own definition. Do not present forty as a precise figure, and do settle whether equipment jobs are projects in the portfolio (the client implies they are: 'So we count them, mostly.').",
+    "Milestones are not one date. Eleven or twelve per large job, several per phase, some with liquidated damages, and the previous date must survive a change. Collapsing them into a single 'due date' column loses the thing the owner and the executive committee actually ask about.",
+    "Budget burn depends on Sage actuals, and the transcript never says whether an API or export exists. The controller gates access and is protective. This is a question and an assumption to confirm, not an assumed integration, and monday must not rebuild job cost accounting: Sage stays the book of record for anything with a dollar sign.",
+    "Procore stays. Drawings, RFIs, submittals and daily reports are explicitly not moving, and no one asked to duplicate them. The answer to 'why isn't this Procore' is the boundary, not a replacement: 'It does one project beautifully. I don't have a one-project problem.'",
+    "Warranty calls are ticket-shaped and Service is in v1, but the client parked them ('It's not this year's mess.'). They belong in the backlog with her words, as a later question. A hand-built 'Warranty Requests' board, or quietly adding Service to this scope, fails; so does promising email-to-ticket, which is deferred beyond v1.",
+    "The health systems and their pursuits are CRM-shaped, and preconstruction already tracks bids on an existing monday board. Nobody asked for CRM, and preconstruction is not this client's group, so this is a question about the existing board rather than a proposal. If it ever comes in, it goes on native CRM boards, never an 'Owners' or 'Pursuits' look-alike.",
+    "Field crew scheduling is explicitly excluded by the resource manager who would own the replacement ('And field crews stay out.'). Adding it later 'helpfully' contradicts an agreed scope exclusion.",
+    "The field design constraint is concrete: superintendents on phones with one bar, no signal inside many buildings, and a realistic ask of two things a week. An eight-field mobile form is described in advance as the thing that will kill it.",
+    "Cues 147 and 149 are tagged '<v Speaker 2>'. By context they are the resource manager, but the method requires them to be marked speaker unclear and graded Partial until confirmed, so they corroborate P2 and never carry a Met on their own. Every check they touch is already Met from her labelled lines.",
+    "Cue 184 duplicates cue 183 word for word, and cue 90 starts before cue 89 ends. Neither is a second statement: do not count the duplicate twice or read the overlap as an interruption of meaning.",
+    "No call date appears in the transcript. 'Wednesday the twenty-third', 'the second Tuesday', 'January fifteenth' and 'the middle of November' are relative and must not be resolved into invented dates beyond what the weekday-date pairs support.",
+    "No patient information, and no photographs with a patient or a whiteboard in them. This shapes whether an update or photo field should exist at all, and seed data must never look like patient data. Field staff immunization and background records stay with HR.",
+    "Loaded rates and cross-job margin are restricted, and the client wants to think about who sees budget. PMs see hours, not rates. The cost figures worked out on this call are internal-only in every format.",
+    "Remarks about colleagues stay internal: that the departed builder left the bid board to rot, that PMs 'smiled at me and quietly didn't', that some PM forecasts are 'optimistic', that they don't answer the analyst, and that the controller is protective.",
+    "The audit requirement is a design constraint, not a nicety: who changed a health status and when, and the previous milestone date retained. It is the client's own answer to why the current reporting is not trusted.",
+    "Three project templates, not one: ground-up, occupied renovation, and equipment jobs, with different milestone sets. 'No. Three, probably.' is the client correcting the Consultant's own single-template suggestion.",
+    "Automations are put forward as one approval list (amendment A1), with trigger, conditions, action and exact recipients per row, and the handoff noting that API-created automations cannot be switched off through the API. The obvious candidates here are ICRA expiry reminders, milestone-date-change notices and status-change audit notes.",
+    "The approver is on the call and is also the budget holder, which is rare in this fixture set. Do not add an absent-approver gap question or recommend inviting someone who is already present; the people to bring in are the IT director, the controller and, for adoption, a superintendent."
+  ],
+  "requested_changes": [
+    {
+      "type": "change",
+      "description": "Pre-build requirement (no build exists yet): the first cut must use their real project names, not placeholders, on six real jobs. Seed data still has to respect the no-patient-information rule.",
+      "quote": "Whatever you show me on the twenty-third, use real names."
+    },
+    {
+      "type": "change",
+      "description": "Pre-build requirement: there must be a template per project type, not one standard template. The client corrects the Consultant's single-template framing and names three types: ground-up, occupied renovation, and equipment jobs, with different milestone sets.",
+      "quote": "No. Three, probably."
+    },
+    {
+      "type": "add",
+      "description": "Scope clarification the approver added to item one of the agreed five: single entry for PMs, so updating a forecast fills the portfolio view rather than being re-keyed.",
+      "quote": "I'd add that Warren enters his numbers once, but that's inside number one."
+    },
+    {
+      "type": "add",
+      "description": "Pre-build requirement: an audit trail on health status changes and retention of the previous milestone date when a date moves. The client calls this the whole trust problem in one question.",
+      "quote": "And if they change a milestone date I want the old date to still exist somewhere."
+    },
+    {
+      "type": "remove",
+      "description": "Explicit scope exclusion, stated by the person who would own the allocation board: field crew scheduling stays with the superintendents and must not be built, now or added later.",
+      "quote": "And field crews stay out."
+    }
+  ],
+  "should_plugin_propose_a_build": true,
+  "expected_questions_before_building": [
+    "Where should this live in the existing account? The account is Enterprise with Work Management and about 220 seats, and there is already a preconstruction bid board and a safety incident board. Does the PMO get its own workspace, who administers it, and should Kyle in preconstruction and Bridget have build rights as the client suggested?",
+    "One portfolio or one per program? Every active job belongs to the portfolio, and Cumberland's work is also a program that their VP of facilities wants to see as one thing, with Waverly likely to become a second. Should this be one portfolio with a program attribute and per-program views, or a portfolio per program with the projects shared? This changes the build, so it is asked before anything is created.",
+    "Are the equipment jobs projects in the portfolio? They are six weeks and about $1.5M but have the same steps, and the client counts them 'mostly', which is what makes the project count thirty-eight or forty.",
+    "Sage 300: is there an API, a scheduled export or a report feed for job cost actuals, who grants access (Roland), and what is the agreed refresh? Until that is answered, does the first cut carry sample actuals, with the client's agreement, or manual entry of a single cost-to-date figure?",
+    "What is the Procore boundary in writing? Drawings, RFIs, submittals and daily reports stay there. Should anything at all flow between them, or does the portfolio stand alone and link out per project?",
+    "How should milestones be modelled: eleven or twelve owner milestones per large job, several per phase, which ones are contractual, and which single milestone rolls up to the portfolio as 'next milestone'? And should the previous date be kept as history on the item, in an audit log, or both?",
+    "Which project types and which milestone sets? Confirm the three types (ground-up, occupied renovation, equipment) and get the real startup checklist and milestone list per type, including where ICRA expiry, interim life safety measures and badging sit.",
+    "How is health defined, and who may change it? The PM sets the colour today. Should there be a rule behind it (schedule slip or burn thresholds), and who is notified and recorded when it changes?",
+    "Who sees budget? A PM seeing their own job's cost is fine, all jobs' margin is not, and loaded rates are restricted. What are the exact permission boundaries for PMs, the resource manager, the executive committee and anyone from preconstruction?",
+    "Resource granularity: PMs, superintendents and project engineers only, by week and percentage as the grid does today? How should occupied-work qualification be recorded, and should a request-and-confirm step replace hallway commitments, given that 'penciled' versus 'confirmed' caused the June collision?",
+    "What is the field path? Superintendents are on phones with one bar and some buildings have no signal. Is a two-question weekly update from the superintendent in scope for the pilot, or does the PM stay the only person entering anything?",
+    "Which six projects for the pilot, by name, and who are their PMs and superintendents? Warren's three plus three Chattanooga jobs was the client's own suggestion.",
+    "What does the IT director need for the security review, and can it start now? SSO through the Microsoft tenant, where data sits, who can export, plus whatever documentation the questionnaire asks for.",
+    "Can Cumberland's reporting template be shared, and does anything have to be exportable in their format for January fifteenth, or is a live view acceptable to them?",
+    "Confirm the no-patient-information rule as a design constraint: should there be any photo or free-text update field on project items, and what is the instruction to field staff if there is?",
+    "Out of scope but to be settled later, separately: the warranty inbox (Service, on native Tickets boards if it ever comes in) and preconstruction's existing bid board (CRM-shaped). Neither is part of this build, and neither should be touched without a decision."
+  ],
+  "expected_verdict": {
+    "verdict": "Discovery complete",
+    "gates_met": [
+      "Solution blueprint: R1 Met and R2 Met, so the blueprint proceeds. The portfolio with connected projects is included by default under amendment A6, because the account is Enterprise with Work Management and the client said so on the call, and the reason is recorded either way.",
+      "Build: no extra method gate beyond the consultant's approval at the approval stop. There is a real v1 build here, entirely inside Work Management, and the automations go up as one approval list.",
+      "First demo (v0.1): nothing extra required. The walkthrough is booked for the 23rd on six named real projects.",
+      "Pricing or proposal prep: R4, R7 and R12 are all Met, so this gate is open by the method for the first time in the fixture set. The v1 scope still defers pricing and proposal prep, so the correct behaviour is to say the gate is open, say this version does not produce pricing or a proposal, and hand the client's explicit request and its November deadline to the consultant as a to-do."
+    ],
+    "gates_not_met": [
+      "v1.0 sign-off: R11 is Missing because no demo has happened, and the R6 success criteria are only proposed, not agreed. Both become work for the walkthrough on the 23rd and the sign-off demo after it."
+    ],
+    "note": "R2, R3, R4 and R7 are all Met from client-side quotes, so the verdict is 'Discovery complete'. R12 is Met as well, which is what makes this fixture unusual: the approver agreed a five-item scope out loud and then asked for a scope and a number before her November budget lock, so the method's pricing gate opens while the product's own scope keeps pricing out. Remaining gaps are small and become at most five gap questions for the 23rd: P4's cost inputs and trajectory, P3's trajectory and a frequency for late-surfacing overruns, and confirmation of the success criteria as agreed rather than proposed. The build questions that actually block work are not rubric gaps but account and integration facts: where in the existing Enterprise account this lives, one portfolio or one per program, and whether Sage actuals can be fed. P5 (warranty) stays a backlog seed at the client's request, and CRM stays a question about preconstruction's existing board."
+  },
+  "account_context": {
+    "tier": "Enterprise, stated plainly by the client and therefore usable without preflight guessing: 'We're on the enterprise plan, work management, about two hundred and twenty seats.' This is the condition amendment A6 needs, so with Work Management in scope a portfolio with connected projects is the default shape of the build. Preflight still confirms the plan, the seat count and what those seats are used for before building, but the transcript settles the question that other fixtures leave open.",
+    "products_enabled": [
+      "Work Management: enabled and named by the client, and the only product this build uses.",
+      "About 220 seats on the Enterprise plan, owned contractually by Stefan, the IT director.",
+      "CRM: never mentioned, so unknown and not needed. Preconstruction's bid tracking is on a Work Management board, not CRM, and nobody asked for a pipeline.",
+      "Service: never mentioned, so unknown. It would only matter if the parked warranty inbox comes into scope later, and then the native Tickets board would have to be detected first.",
+      "dev: not mentioned and out of v1 either way; nothing in the call calls for it."
+    ],
+    "existing_monday_setup": "A real, live setup that must be audited rather than assumed away. Preconstruction has a bid-tracking board built by Dwayne, who left in February; nobody took it over, half its columns are empty and the senior PM says nobody trusts what is in it. Safety has an incident board owned by Lonnie that is used every day, which is the contrast that proves the first board's problem is ownership rather than the tool. The PMO itself has nothing in monday ('Nothing of mine is in it.'), and the client expects the PMO's work to sit somewhere separate from preconstruction's while leaving that judgement to the consultant. Kyle in preconstruction is the only person who builds in the account and should keep build rights, with the analyst added when she returns from leave in November. Nothing is inherited into this build, but nothing may be disturbed either, and the seat, permission and workspace questions are live because 220 seats already exist.",
+    "evidence_quote_or_null": "We're on the enterprise plan, work management, about two hundred and twenty seats."
+  },
+  "expected_structures": {
+    "native_boards_required": [
+      {
+        "product": "service",
+        "entity": "Tickets (native Service install), conditional and out of this build",
+        "why": "Only if the parked warranty inbox comes into scope later. Post-turnover warranty calls are ticket-shaped and Service is in v1, but the client explicitly deferred them ('It's not this year's mess.'), so nothing is built now. If it is ever built, every warranty record must live on the account's native Tickets board, detected first and recorded per entity; a hand-built 'Warranty Requests' or 'Warranty Calls' board fails the rule even with the right columns. Service extras stay deferred beyond v1, so no customer portal, no email-to-ticket from the warranty inbox, and no SLA policy setup, however naturally the inbox suggests them."
+      },
+      {
+        "product": "crm",
+        "entity": "Accounts and Deals/Opportunities, conditional and out of this build",
+        "why": "Only if health systems and their pursuits ever come into scope. The health systems are accounts, their master agreements and invitations are deal-shaped, and preconstruction already tracks bids on an existing Work Management board. Nobody asked for this, and preconstruction is not this client's group, so it stays a question about that board's future. If it does come in, it goes on the native CRM Accounts and Deals/Opportunities boards, relabelled to their words if that helps, never on an 'Owners' or 'Pursuits' look-alike."
+      }
+    ],
+    "portfolio_expected": true,
+    "portfolio_reason": "Both conditions of amendment A6 are satisfied from the transcript, not from an assumption: the account tier is Enterprise and Work Management is in scope, stated by the client as 'We're on the enterprise plan, work management, about two hundred and twenty seats.' So a portfolio with connected projects is the default shape, and nothing in the call or from the consultant says otherwise. The client's own stated need points the same way and is the first agreed scope item: one view of every active project with a health colour, budget burn and the next owner milestone, which is exactly what a portfolio with connected projects and roll-up columns produces. Build it with monday's portfolio and project tools rather than plain boards, connect each project, and verify the roll-ups fill in after connecting. Two shape decisions must be asked rather than assumed: whether their 'program' (one health system's work under a master agreement, which the owner wants to see as one thing) becomes a grouping and views inside one portfolio or a portfolio per program, and whether the short equipment jobs are projects in the portfolio, which the client implies they are. Record the reason for the portfolio and for whichever program shape is chosen.",
+    "lookalike_traps": [
+      "A plain board called 'Portfolio' or 'Active Projects' with forty rows, instead of a monday portfolio with connected projects. This is the headline failure for this fixture, because the Enterprise plus Work Management conditions are met and stated.",
+      "Projects faked as groups or as items on one big board, so there is nothing to connect to the portfolio and no project-level structure for phases, milestones and the startup template.",
+      "Connecting boards that are not projects to the portfolio, or leaving created projects unconnected so the roll-up columns stay empty and the portfolio looks right while reporting nothing.",
+      "One 'standard project template' board for all three project types, when the client corrected that explicitly: ground-up, occupied renovation and equipment jobs have different milestone sets and different startup steps.",
+      "A hand-built 'Warranty Requests' or 'Warranty Calls' board for the parked warranty inbox, instead of leaving it out of scope and, if it ever comes in, using the native Service Tickets board.",
+      "An 'Owners' or 'Health Systems' board for the client's customers, or a 'Pursuits' board for invitations and no-bids, instead of either leaving them out of scope or using the native CRM Accounts and Deals/Opportunities boards.",
+      "Rebuilding Procore inside monday: an RFI board, a submittal log or a drawings board, when the client said plainly that Procore is the job and is not moving.",
+      "Rebuilding Sage inside monday: a job-cost or commitments board that becomes a second book of record for money, instead of showing burn sourced from Sage with Sage still authoritative.",
+      "For any build in the client's own account: a new account or a disconnected second setup that ignores the existing Enterprise account, its 220 seats, preconstruction's bid board and safety's incident board. The proof of concept itself is built in the user's own account in a brand-new workspace for this client (A21), so this trap governs the later build in their account, which audits and extends what is there.",
+      "A 'field crew schedule' board, which was excluded out loud by the person who would own it."
+    ],
+    "notes": "One product, one rule set. This build is entirely Work Management, so the native-board rule (A5) does not govern anything being built; it governs only the two things being deliberately left out, warranty tickets and any health-system or pursuit records, and it is why both stay questions instead of becoming quick extra boards. The rule that does govern this build is A6: Enterprise plus Work Management means a portfolio with connected projects, built with monday's portfolio and project tools and verified after connecting. Structures the call demands inside that: projects created from three distinct project templates, with ICRA permits as dated expiring items in the occupied-renovation template; eleven or twelve owner milestones per large job, several per phase, some flagged contractual, with the previous date retained when one moves; burn sourced from Sage rather than re-entered, with Sage remaining the book of record; a health status with an audit trail of who changed it and when; an allocation board for PMs, superintendents and project engineers carrying occupied-work qualification and a request-and-confirm step (the qualification is the client's: 'Occupied-renovation supers, there are four.'; the request-and-confirm step is our proposal from the penciled-versus-confirmed dispute and is asked, not the client's words), explicitly excluding field crews; and a portfolio dashboard for the executive committee plus a program view that can be put in front of the owner in January. Permissions are part of the structure, not an afterthought: PMs see hours and their own job's cost, not loaded rates or other jobs' margin. Automations go up as one approval list under A1."
+  },
+  "accepted_behaviours": [
+    "Calling the product 'Work Management' or 'core', in either wording, as long as it is the only product in the build and neither Service nor CRM nor dev is quietly added.",
+    "Including the portfolio with connected projects without being asked for it, on the strength of the stated Enterprise plan and Work Management, and recording that A6 is the reason. Asking the client to confirm the plan in preflight is fine; treating the tier as unknown, or leaving the portfolio out, is not.",
+    "Either program shape passes, provided it is asked rather than assumed and the reason is recorded: one portfolio with a program attribute and per-program views, or a portfolio per program with projects shared. Creating several program portfolios unasked, or ignoring that the owner wants their program as one thing, fails.",
+    "Either answer on the equipment jobs passes if the question is put: projects in the portfolio like any other, or excluded with the reason recorded. The client's 'So we count them, mostly.' points at including them.",
+    "Any reasonable handling of Sage: a confirmed integration if access exists, a scheduled export, or sample actuals in the first cut with the client's agreement and the question flagged. What fails is assuming a live feed, or rebuilding job cost accounting in monday as a second book of record.",
+    "Raising Service for the warranty inbox as a later, separate conversation, or not raising it at all, are both acceptable. Building it into this scope, or promising email-to-ticket or SLA policies, is not.",
+    "Raising preconstruction's bid board as a question, whether as CRM or as a Work Management clean-up, or leaving it alone entirely. Proposing a CRM build off the back of it fails, and so does modifying it without a decision.",
+    "Saying plainly that the pricing gate is open and that this version does not produce pricing or a proposal, in any wording, while recording the client's request and its November deadline as a consultant to-do. Producing a figure, a rate or a proposal draft fails; so does dropping the request.",
+    "Presenting the bleed as $432,080 with the collision component shown as a $100,000-$150,000 range and the $480,000 overrun listed beside the total as unquantified. Any total that absorbs the overrun, uses three collisions, or adds the $150,000 deferred hire to the bleed fails.",
+    "Recording the upside as two separate client-figured items with the overlap noted, in either order, and carrying the Waverly outpatient programme as the client's own ambition rather than as a projected number.",
+    "Grading the two 'Speaker 2' cues as speaker unclear and using them only as corroboration, in any wording. Attributing them to the resource manager as firm client-side evidence fails, even though context makes it obvious; so does treating them as a reason to downgrade P2, whose checks are all Met from her labelled lines.",
+    "Either treatment of the duplicated cue passes: ignoring it, or noting it as a transcript artefact. Counting it as a second statement fails.",
+    "Turning the 'we already have monday and nobody uses it' remark into an evidence-based answer about ownership, in any wording, and proposing an owner for what gets built. Defending the tool, or dismissing the remark, fails.",
+    "Proposing a first-cut walkthrough on six named real projects with real project names for the 23rd, and seed data that carries no patient information and no photographs.",
+    "Bringing the IT director, the controller and a superintendent into the plan (security review, Sage access, adoption) rather than proposing to invite an approver, who is already on the call and holds the budget.",
+    "Putting the automations forward as one approval list with trigger, conditions, action and recipients per row, and noting in the handoff that automations created through the API cannot be switched off through the API.",
+    "At most five gap questions for the next meeting, ordered core first: P4 cost inputs and trajectory, P3 trajectory and overrun frequency, and confirmation of the success criteria as agreed. Account and integration questions are build questions, not rubric gaps, and may be listed separately without counting against the five."
+  ],
+  "expected_leak_blocklist": [
+    "Bleed total in every format: 432080, 432,080, $432,080, 'four hundred and thirty-two thousand', 'four thirty-two', and any rounding such as 'about four hundred and thirty thousand a year' or '$430k'.",
+    "Bleed components and their math: 276640, 276,640, $276,640, 'two hundred seventy-six thousand, six hundred and forty'; 37440, 37,440, $37,440, 'thirty-seven thousand, four hundred and forty'; 18000, $18,000, 'eighteen thousand', 1040, 'one thousand and forty', 460, 'four hundred and sixty', 1500, 'fifteen hundred a month'; 100000, $100,000, 'a hundred thousand', 150000 as the collision high end, and 2912, 'two thousand nine hundred and twelve hours', 56, 'fifty-six hours a week'.",
+    "Loaded hourly costs in every format: 95, $95, 'ninety-five an hour'; 72, 'seventy-two'; 65, 'sixty-five loaded'; 115, 'a hundred and fifteen'. These are the figures the client says PMs must not see.",
+    "Hours and frequency inputs behind the bleed: 'four hours a week', 'Four is fair', 'Ten, and that's a good week', 'Two full days a month', 'Half a day a month', 'Two a year. Maybe three.' Volume numbers (about forty active projects, fourteen PMs, fifty-five next year, 220 seats, four occupied-work superintendents) are flagged for the consultant rather than removed, because they can be legitimate in an SOP.",
+    "The excluded overrun and any derived figure: 480000, 480,000, $480,000, 'four hundred and eighty thousand', and anything built from 'maybe half of it' such as 240000 or '$240k'.",
+    "Upside figures: 150000, $150,000, 'a hundred and fifty thousand each', 'hold one of those'; 280000, $280,000, 'two hundred and eighty thousand'; 'Eight to twelve million', 8000000, 12000000, 'three and a half points', and the $50,000 per collision.",
+    "The spend threshold and budget mechanics: 'a hundred and fifty thousand a year' as the approval limit, who signs above it, the November budget lock as a pressure point, and the request for 'a scope and a number I can put against my line'.",
+    "Alternatives in play: that they are talking to another partner at all, the Nashville firm, that it did Waverly's rollout, that the VP of Operations asked around, and the client's stated buying criterion for choosing between partners.",
+    "Objection text and adoption history: 'nobody trusts what's in it', 'Half the columns are empty', 'it's dead twice', 'another thing to update', 'the PMs smiled at me and quietly didn't', the Smartsheet pilot and that it lasted about a quarter, and the Power BI alternative.",
+    "Stakeholder assessments: that the IT director's review is the long pole, that the controller is protective of Sage, that the CFO's sign-off is procedural, that the resource manager is the single point of failure, that the departed builder left the bid board to rot, and that the analyst goes on parental leave in November.",
+    "Remarks about colleagues: that some PM forecasts are 'optimistic', that PMs 'don't answer her', that a PM 'knew the buyout came in high', that new PMs 'didn't know what they didn't know', and 'I did not pencil him. I had him confirmed. Verbally.'",
+    "Emotional and personal stakes: the conference envy, 'I went back to my office and sat there', 'About right and also horrible', 'this one keeps me up', 'the best meeting I've had in two years', and the credibility damage from the August meeting.",
+    "The August executive committee story as a narrative, including 'of these forty, which ones are actually in trouble', 'Five weeks late' and 'Once you find out a green row was five weeks late, you can't unsee that'. The requirement it produced (an audit trail, a trustworthy status) may be stated neutrally.",
+    "Method vocabulary and internal apparatus: bleed, upside, callback, exit ramp, seed, readiness, gate, verdict, pain IDs P1-P5, criteria R1-R12, and the [found] and [inferred] markers.",
+    "Pricing thinking of any kind: rates, day rates, margins, discount reasoning, cost-of-waiting math against the January fifteenth review or the November budget lock, and any figure presented as what the work is worth.",
+    "Anything that would carry patient or staff medical data into client-facing material or into monday: patient names, photographs of patients or whiteboards, and field staff immunization records or background checks, which stay with HR. Seed data must not imply any of it."
+  ],
+  "readiness": {
+    "schema": "readiness/1",
+    "note": "Derived from this key's pains, entities, products, structure, forks and questions in the fixture fix pass of 2026-10-13. Structure assertions stay provisional until the user has seen a real build (FEEDBACK, top).",
+    "goals": [
+      {"id": "G1", "goal": "One screen on Monday showing forty projects, a color and a number, and believing it", "quote": "I open one screen on Monday morning and I see forty projects, with a color and a number, and I believe it.", "location": "cue 301, 00:41:57.390, Marisol Bettencourt", "speaker_role": "PMO Director", "pains": ["P1.1", "P1.2", "P1.3", "P1.4", "P1.6", "P1.7"]},
+      {"id": "G2", "goal": "Cumberland's program up on a screen, current, in front of their VP of facilities", "quote": "If I can pull their program up on a screen in front of their VP of facilities and it's current, that's the win.", "location": "cue 308, 00:42:58.383, Marisol Bettencourt", "speaker_role": "PMO Director", "pains": ["P1.3", "P1.9"]},
+      {"id": "G3", "goal": "Somebody able to answer Warren about staffing without the resource manager", "quote": "And I'd like somebody to be able to answer Warren without me.", "location": "cue 312, 00:43:36.778, Ines Kovalenko", "speaker_role": "Resource Manager", "pains": ["P2.1", "P2.2", "P2.4", "P2.6"]}
+    ],
+    "pains": [
+      {
+        "id": "P1.1",
+        "quote": "I have forty projects and I could not put that slide together in less than a week.",
+        "location": "cue 17, 00:02:06.753, Marisol Bettencourt",
+        "speaker_role": "PMO Director",
+        "stated_or_excavated": "excavated",
+        "outcome": "I open one screen on Monday morning and I see forty projects, with a color and a number, and I believe it."
+      },
+      {
+        "id": "P1.2",
+        "quote": "Because it's wrong.",
+        "location": "cue 99, 00:13:30.245, Marisol Bettencourt",
+        "speaker_role": "PMO Director",
+        "stated_or_excavated": "excavated",
+        "outcome": "I open one screen on Monday morning and I see forty projects, with a color and a number, and I believe it."
+      },
+      {
+        "id": "P1.3",
+        "quote": "It's not wrong on purpose.",
+        "location": "cue 101, 00:13:36.272, Marisol Bettencourt",
+        "speaker_role": "PMO Director",
+        "stated_or_excavated": "excavated",
+        "outcome": "I open one screen on Monday morning and I see forty projects, with a color and a number, and I believe it."
+      },
+      {
+        "id": "P1.4",
+        "quote": "Curt asked me a question I could not answer, which was, of these forty, which ones are actually in trouble.",
+        "location": "cue 112, 00:15:21.677, Marisol Bettencourt",
+        "speaker_role": "PMO Director",
+        "stated_or_excavated": "excavated",
+        "outcome": "If I want to know which ones are in trouble I look, I don't ask."
+      },
+      {
+        "id": "P1.5",
+        "quote": "Five weeks late.",
+        "location": "cue 109, 00:14:55.853, Marisol Bettencourt",
+        "speaker_role": "PMO Director",
+        "stated_or_excavated": "excavated",
+        "outcome": "He wants to walk into the second Tuesday and not be surprised."
+      },
+      {
+        "id": "P1.6",
+        "quote": "Once you find out a green row was five weeks late, you can't unsee that.",
+        "location": "cue 120, 00:16:41.352, Marisol Bettencourt",
+        "speaker_role": "PMO Director",
+        "stated_or_excavated": "excavated",
+        "outcome": "I open one screen on Monday morning and I see forty projects, with a color and a number, and I believe it."
+      },
+      {
+        "id": "P1.7",
+        "quote": "Half a day, and I still wouldn't swear to it.",
+        "location": "cue 117, 00:16:08.217, Marisol Bettencourt",
+        "speaker_role": "PMO Director",
+        "stated_or_excavated": "excavated",
+        "outcome": "If I want to know which ones are in trouble I look, I don't ask."
+      },
+      {
+        "id": "P1.8",
+        "quote": "Same facts, four formats.",
+        "location": "cue 128, 00:17:45.148, Warren Tibbetts",
+        "speaker_role": "Senior Project Manager",
+        "stated_or_excavated": "excavated",
+        "outcome": "I enter my numbers once."
+      },
+      {
+        "id": "P1.9",
+        "quote": "And I don't have a second Bridget.",
+        "location": "cue 136, 00:18:58.785, Marisol Bettencourt",
+        "speaker_role": "PMO Director",
+        "stated_or_excavated": "excavated",
+        "outcome": "And I stop emailing people for it."
+      },
+      {
+        "id": "P2.1",
+        "quote": "When a superintendent calls me from the wrong job site.",
+        "location": "cue 151, 00:20:51.231, Ines Kovalenko",
+        "speaker_role": "Resource Manager",
+        "stated_or_excavated": "excavated",
+        "outcome": "And I'd like somebody to be able to answer Warren without me."
+      },
+      {
+        "id": "P2.2",
+        "quote": "Warren had him penciled for the Waverly cath lab, and preconstruction had promised him to the Pellham fit-out, and both started the same week.",
+        "location": "cue 154, 00:21:17.366, Ines Kovalenko",
+        "speaker_role": "Resource Manager",
+        "stated_or_excavated": "excavated",
+        "outcome": "If he can see that Junie's committed in October without asking me, I've got my Mondays back."
+      },
+      {
+        "id": "P2.3",
+        "quote": "I did not pencil him. I had him confirmed. Verbally.",
+        "location": "cue 155, 00:21:29.724, Warren Tibbetts",
+        "speaker_role": "Senior Project Manager",
+        "stated_or_excavated": "excavated",
+        "outcome": "If he can see that Junie's committed in October without asking me, I've got my Mondays back."
+      },
+      {
+        "id": "P2.4",
+        "quote": "It's just that it lives on my laptop and in my head, and nobody can see it.",
+        "location": "cue 174, 00:23:54.228, Ines Kovalenko",
+        "speaker_role": "Resource Manager",
+        "stated_or_excavated": "excavated",
+        "outcome": "And I'd like somebody to be able to answer Warren without me."
+      },
+      {
+        "id": "P2.5",
+        "quote": "It does not tell you who's the right person.",
+        "location": "cue 176, 00:24:21.803, Marisol Bettencourt",
+        "speaker_role": "PMO Director",
+        "stated_or_excavated": "excavated",
+        "outcome": null
+      },
+      {
+        "id": "P2.6",
+        "quote": "And then somebody reshuffles it in a meeting I'm not in, and I find out when the grid doesn't match the job site.",
+        "location": "cue 147, 00:20:21.466, Speaker 2",
+        "speaker_role": "speaker unclear (tagged Speaker 2; the resource manager by context)",
+        "stated_or_excavated": "excavated",
+        "outcome": "If he can see that Junie's committed in October without asking me, I've got my Mondays back."
+      },
+      {
+        "id": "P3.1",
+        "quote": "So on the twelfth of September I find out what August really cost me.",
+        "location": "cue 182, 00:25:14.686, Warren Tibbetts",
+        "speaker_role": "Senior Project Manager",
+        "stated_or_excavated": "stated",
+        "outcome": "Budget. Where they are against where they should be."
+      },
+      {
+        "id": "P3.2",
+        "quote": "We were four hundred and eighty thousand over on the mechanical buyout and we found out six weeks after it happened.",
+        "location": "cue 187, 00:25:41.938, Marisol Bettencourt",
+        "speaker_role": "PMO Director",
+        "stated_or_excavated": "stated",
+        "outcome": "It's the kind of thing where if I see it in week two I go and sit with the owner myself, and that conversation goes differently than it does in week eight."
+      },
+      {
+        "id": "P3.3",
+        "quote": "The problem is that I have fourteen of these and no two are built the same, so I cannot add them up.",
+        "location": "cue 198, 00:27:27.050, Marisol Bettencourt",
+        "speaker_role": "PMO Director",
+        "stated_or_excavated": "stated",
+        "outcome": "Budget. Where they are against where they should be."
+      },
+      {
+        "id": "P3.4",
+        "quote": "And the owner, honestly, because a change order conversation in week eight looks like we weren't watching.",
+        "location": "cue 201, 00:27:53.699, Marisol Bettencourt",
+        "speaker_role": "PMO Director",
+        "stated_or_excavated": "stated",
+        "outcome": "It's the kind of thing where if I see it in week two I go and sit with the owner myself, and that conversation goes differently than it does in week eight."
+      },
+      {
+        "id": "P4.1",
+        "quote": "That's the honest answer, yes. Every PM starts a job their own way.",
+        "location": "cue 72, 00:10:06.099, Marisol Bettencourt",
+        "speaker_role": "PMO Director",
+        "stated_or_excavated": "stated",
+        "outcome": null
+      },
+      {
+        "id": "P4.2",
+        "quote": "Somebody's ICRA is tracked with an expiry date, somebody's is a PDF in a folder.",
+        "location": "cue 206, 00:28:47.619, Marisol Bettencourt",
+        "speaker_role": "PMO Director",
+        "stated_or_excavated": "stated",
+        "outcome": null
+      },
+      {
+        "id": "P4.3",
+        "quote": "And the new PMs suffer most.",
+        "location": "cue 207, 00:29:01.762, Warren Tibbetts",
+        "speaker_role": "Senior Project Manager",
+        "stated_or_excavated": "stated",
+        "outcome": null
+      },
+      {
+        "id": "P5.1",
+        "quote": "An inbox.",
+        "location": "cue 217, 00:30:32.338, Warren Tibbetts",
+        "speaker_role": "Senior Project Manager",
+        "stated_or_excavated": "stated",
+        "outcome": null
+      },
+      {
+        "id": "P5.2",
+        "quote": "We lost one for three weeks.",
+        "location": "cue 219, 00:30:41.702, Warren Tibbetts",
+        "speaker_role": "Senior Project Manager",
+        "stated_or_excavated": "stated",
+        "outcome": null
+      }
+    ],
+    "signals": [
+      {
+        "quote": "So we count them, mostly.",
+        "location": "cue 36, 00:04:51.546, Marisol Bettencourt",
+        "pain": "P1.1",
+        "not_confirmed": "whether the equipment jobs are projects in the portfolio; the Consultant went on to the portfolio definition without settling it, so the count of forty rests on an unconfirmed tie"
+      },
+      {
+        "quote": "And Waverly becomes a second program if we win that. I don't know what you do with that, but it matters to me.",
+        "location": "cue 43, 00:05:48.896, Marisol Bettencourt",
+        "pain": "P1.4",
+        "not_confirmed": "what a program is in monday; the Consultant restated that a job sits in both (cue 42) and never answered her"
+      },
+      {
+        "quote": "In something. They sent a template. It's a spreadsheet, of course.",
+        "location": "cue 229, 00:32:15.354, Marisol Bettencourt",
+        "pain": "P1.9",
+        "not_confirmed": "whether Cumberland's PMO accepts a live program view for January fifteenth or needs their spreadsheet filled; the template is committed as an input, not received"
+      },
+      {
+        "quote": "If I update my forecast and Marisol's summary page fills itself in, I'll be your biggest fan.",
+        "location": "cue 311, 00:43:22.187, Warren Tibbetts",
+        "pain": "P3.3",
+        "not_confirmed": "how his Friday forecast becomes the portfolio's figure without a second entry: whether the forecast moves into monday by cost code or stays in Excel with one figure keyed; the five-item playback absorbed 'enters his numbers once' (cue 382) without saying how"
+      },
+      {
+        "quote": "Two things a week. Tell you whether his date moved, and flag whatever's blocking him.",
+        "location": "cue 332, 00:46:40.105, Warren Tibbetts",
+        "pain": "P1.5",
+        "not_confirmed": "whether a superintendent's two-field update is in the pilot or the PM stays the only person entering; the Consultant called it the right thing to say and moved on (cue 334)"
+      },
+      {
+        "quote": "I'd assume ours would sit somewhere separate from preconstruction's, but that's yours to advise on. Whatever Stefan and Kyle can live with.",
+        "location": "cue 345, 00:48:44.628, Marisol Bettencourt",
+        "pain": "P1.1",
+        "not_confirmed": "where the PMO's work sits in the client's own account and who administers it; nothing was advised. Under A21 this is a handover question, not a proof-of-concept one"
+      },
+      {
+        "quote": "Kyle should be able to, yes. He's the only person here who actually knows the tool. Bridget too, when she's back.",
+        "location": "cue 347, 00:49:04.474, Marisol Bettencourt",
+        "pain": "P1.1",
+        "not_confirmed": "the Consultant said this 'changes what I'd propose' (cue 348) and never said what; build rights in the client's account are a handover matter"
+      },
+      {
+        "quote": "Preconstruction, usually. They promise a name to help win the job and nobody tells me.",
+        "location": "cue 149, 00:20:37.189, Speaker 2",
+        "pain": "P2.6",
+        "not_confirmed": "speaker unclear (tagged Speaker 2); whether preconstruction, which is not this client's group, would key its promises as requests was never asked"
+      }
+    ],
+    "entities": [
+      {
+        "name": "portfolio (every active job across the three offices, about forty)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 38, 00:05:06.861, Marisol Bettencourt"
+      },
+      {
+        "name": "program (one health system's work under a master agreement; Cumberland now, Waverly if won)",
+        "parent": "portfolio",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 40, 00:05:17.362, Marisol Bettencourt"
+      },
+      {
+        "name": "master agreement (four years, all of a health system's capital work on a rolling basis)",
+        "parent": "health system",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 224, 00:31:25.171, Marisol Bettencourt"
+      },
+      {
+        "name": "health system, 'the owner' (Cumberland Health, Waverly, Pellham)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 56, 00:07:48.245, Marisol Bettencourt"
+      },
+      {
+        "name": "office (Knoxville, Chattanooga, Huntsville)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 26, 00:03:30.126, Marisol Bettencourt"
+      },
+      {
+        "name": "project / job (one construction project; a job sits in the portfolio and in a program at once)",
+        "parent": "portfolio",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 42, 00:05:40.456, Consultant"
+      },
+      {
+        "name": "equipment job (six weeks, about $1.5M, all the same steps; counted 'mostly')",
+        "parent": "portfolio",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 35, 00:04:39.115, Marisol Bettencourt"
+      },
+      {
+        "name": "project type (ground-up, occupied renovation, equipment job), each with its own template",
+        "parent": null,
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 212, 00:29:47.743, Marisol Bettencourt"
+      },
+      {
+        "name": "phase",
+        "parent": "project",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 172, 00:23:36.800, Warren Tibbetts"
+      },
+      {
+        "name": "owner milestone (eleven or twelve per large job, several per phase, some with liquidated damages)",
+        "parent": "phase",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 169, 00:23:13.152, Warren Tibbetts"
+      },
+      {
+        "name": "previous milestone date (kept when a milestone moves)",
+        "parent": "owner milestone",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 172, 00:23:36.800, Warren Tibbetts"
+      },
+      {
+        "name": "health (the project's red-amber-green colour, set by its PM)",
+        "parent": "project",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 85, 00:11:50.194, Marisol Bettencourt"
+      },
+      {
+        "name": "weekly PMO status (percent complete, slip, exposure, colour; one per project per week)",
+        "parent": "project",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 82, 00:11:28.341, Marisol Bettencourt"
+      },
+      {
+        "name": "monthly deck and its 40-row summary page",
+        "parent": "portfolio",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 87, 00:11:56.207, Marisol Bettencourt"
+      },
+      {
+        "name": "Cumberland's monthly report per project and program-level report (their template)",
+        "parent": "program",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 130, 00:18:01.926, Marisol Bettencourt"
+      },
+      {
+        "name": "PM cost-to-complete forecast (one per PM, in Excel, by cost code)",
+        "parent": "project",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 76, 00:10:42.620, Warren Tibbetts"
+      },
+      {
+        "name": "Sage job cost actuals (monthly, around the tenth to twelfth)",
+        "parent": "project",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 181, 00:25:05.050, Warren Tibbetts"
+      },
+      {
+        "name": "budget burn (spend against plan, the portfolio number that does not exist today)",
+        "parent": "project",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 199, 00:27:42.240, Marisol Bettencourt"
+      },
+      {
+        "name": "buyout (a trade package award) and the change order worked against it",
+        "parent": "project",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 191, 00:26:13.748, Marisol Bettencourt"
+      },
+      {
+        "name": "startup checklist (sixty-something lines; a master and private variants)",
+        "parent": "project",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 62, 00:08:44.228, Warren Tibbetts"
+      },
+      {
+        "name": "work area (the unit an ICRA permit covers)",
+        "parent": "project",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 65, 00:09:09.623, Warren Tibbetts"
+      },
+      {
+        "name": "ICRA permit (signed by the hospital's infection control nurse; expires)",
+        "parent": "work area",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 65, 00:09:09.623, Warren Tibbetts"
+      },
+      {
+        "name": "interim life safety measures (occupied buildings)",
+        "parent": "project",
+        "moves_independently": "unknown",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 212, 00:29:47.743, Marisol Bettencourt"
+      },
+      {
+        "name": "badging of field staff at a client site (an admin's startup step)",
+        "parent": "project",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 62, 00:08:44.228, Warren Tibbetts"
+      },
+      {
+        "name": "person (project manager, superintendent, project engineer)",
+        "parent": "office",
+        "moves_independently": "yes",
+        "shared_resource": true,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 50, 00:06:43.555, Ines Kovalenko"
+      },
+      {
+        "name": "occupied-work qualification (four superintendents; lives 'in Ines' today)",
+        "parent": "person",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 176, 00:24:21.803, Marisol Bettencourt"
+      },
+      {
+        "name": "allocation (person, job, week, percent; a cell of the grid)",
+        "parent": "person",
+        "moves_independently": "yes",
+        "shared_resource": true,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 138, 00:19:13.232, Ines Kovalenko"
+      },
+      {
+        "name": "staffing request (a Teams message, a hallway ask, a sticky note)",
+        "parent": "project",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 146, 00:20:03.565, Ines Kovalenko"
+      },
+      {
+        "name": "the grid (the resource workbook: a tab per office, people down the left, weeks across the top)",
+        "parent": null,
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 138, 00:19:13.232, Ines Kovalenko"
+      },
+      {
+        "name": "OAC meeting (weekly, owner and architect; the schedule updated Thursday night)",
+        "parent": "project",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 74, 00:10:23.662, Warren Tibbetts"
+      },
+      {
+        "name": "superintendent daily report (in Procore; stays there)",
+        "parent": "project",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 74, 00:10:23.662, Warren Tibbetts"
+      },
+      {
+        "name": "Procore project and Sage job number (opened at setup; stay in those systems)",
+        "parent": "project",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 59, 00:08:18.456, Marisol Bettencourt"
+      },
+      {
+        "name": "executive committee meeting (the second Tuesday; 'the board')",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 93, 00:12:36.895, Marisol Bettencourt"
+      },
+      {
+        "name": "Cumberland quarterly program review (first on January fifteenth)",
+        "parent": "program",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 227, 00:31:51.207, Marisol Bettencourt"
+      },
+      {
+        "name": "warranty call (a year after turnover; arrives in a shared inbox; out of this build)",
+        "parent": "project",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 217, 00:30:32.338, Warren Tibbetts"
+      },
+      {
+        "name": "invitation to bid and no-bid (preconstruction's; out of this build)",
+        "parent": "health system",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 285, 00:39:41.819, Ines Kovalenko"
+      }
+    ],
+    "structure": {
+      "products": [
+        "Work Management"
+      ],
+      "build_target": "own-account",
+      "build_target_reason": "prospect, so the user's own account by default (A21); the client's own Enterprise account is a prospect's account, not a customer's, and is audited before any later build there",
+      "workspaces": [
+        "Bellamy Ridge – Ops"
+      ],
+      "native_reuse": "none: no CRM or Service entity in this build. The portfolio and the projects are built with monday's portfolio and project tools (A6), which are native objects rather than template boards. The native CRM Accounts and Deals/Opportunities boards apply only if the health systems or their pursuits ever come into scope, and the native Service Tickets board only if the warranty inbox does; both are questions, and nothing is built for either.",
+      "leanings": [
+        {
+          "question": "Is an owner milestone a row under the project or a date column on it, and which one rolls up to the portfolio as 'next milestone'?",
+          "option": "Milestone rows under the project, one per owner date (eleven or twelve on a large job, several per phase, a contractual flag where money sits behind the date), the previous date kept on the row when it moves, and the portfolio showing the next incomplete milestone, its date and whether it moved. One date column per project would carry one value for twelve dates and lose the history the owner asks for.",
+          "quotes": [
+            "On the tower? Eleven or twelve that the owner actually cares about.",
+            "Several per phase, yes. And when one moves, the owner wants to know what it was before it moved.",
+            "And the next owner milestone, with its date, and whether it moved."
+          ],
+          "locations": [
+            "cue 169, 00:23:13.152, Warren Tibbetts",
+            "cue 172, 00:23:36.800, Warren Tibbetts",
+            "cue 304, 00:42:22.772, Marisol Bettencourt"
+          ],
+          "condition": "the real milestone list per project type (question 4), and whether 'next' means the earliest incomplete milestone or the next contractual one; a date on the row is the PM's entry and the owner's schedule is the evidence",
+          "pattern": "one row where the call describes many"
+        },
+        {
+          "question": "Is an ICRA permit one date on the project or a row per work area?",
+          "option": "A row per work area under the project, with the signed date and the expiry, the earliest expiry rolled up to the project and a reminder before it. The permit's status on the board is the PM's or project engineer's claim; the nurse's signed permit is the evidence. A single date column on the project would carry one expiry for several work areas.",
+          "quotes": [
+            "And it's per work area, and it expires.",
+            "It expires. And if it lapses and their nurse walks by, you're shut down that day.",
+            "Somebody's ICRA is tracked with an expiry date, somebody's is a PDF in a folder."
+          ],
+          "locations": [
+            "cue 65, 00:09:09.623, Warren Tibbetts",
+            "cue 66, 00:09:22.316, Marisol Bettencourt",
+            "cue 206, 00:28:47.619, Marisol Bettencourt"
+          ],
+          "condition": "how many work areas an occupied job carries at once and who renews a permit (question 4); the occupied-renovation template is where the rows live",
+          "pattern": "one row where the call describes many"
+        },
+        {
+          "question": "Is an allocation one row per person, job and week range with a state, or one percent per person per week as the grid has it, and does a request-and-confirm state replace the hallway?",
+          "option": "Allocation rows (person, job, week range, percent, state: requested, penciled, confirmed) under the person, with the weekly load rolled up so a person booked by two jobs shows above 100 percent before the start week, and an occupied-work qualification on the person so the four superintendents can be filtered. One percent per person per week copies the grid's cell, where two bookings for one superintendent hid. The request-and-confirm state is ours, drawn from the penciled-versus-confirmed dispute, not the client's words; a confirmed row is a claim until the person is on the job.",
+          "quotes": [
+            "A tab per office, every person down the left, weeks across the top, and a percentage in each cell.",
+            "I did not pencil him. I had him confirmed. Verbally.",
+            "Verbally, in the hall, which is the problem.",
+            "Warren can't look at it and see that Junie's gone in October. He has to ask me."
+          ],
+          "locations": [
+            "cue 138, 00:19:13.232, Ines Kovalenko",
+            "cue 155, 00:21:29.724, Warren Tibbetts",
+            "cue 156, 00:21:35.701, Ines Kovalenko",
+            "cue 175, 00:24:07.138, Ines Kovalenko"
+          ],
+          "condition": "the two grid tabs (committed for today) show whether a cell carries one job or several; the resource manager says whether PMs and preconstruction will enter requests (question 3); field crews stay out",
+          "pattern": "a shared resource with no reservation tracking"
+        },
+        {
+          "question": "One portfolio with a program view, or a portfolio per program?",
+          "option": "One portfolio of every active project, a program attribute on the project (the health system under its master agreement), and a per-program view or dashboard for Cumberland's review in January. The program is many rows that the owner wants to see as one thing, so it needs its own view, not a second portfolio; a portfolio per program would put a job in two portfolios or leave the forty without one place. Both shapes stay acceptable to this key; the choice is asked, never assumed.",
+          "quotes": [
+            "All of it. Every active job, all three offices. That's my portfolio.",
+            "There'll be twelve, fifteen jobs in it at any time, and their vice president of facilities wants to see it as one thing, not as twelve rows inside my forty.",
+            "And Waverly becomes a second program if we win that."
+          ],
+          "locations": [
+            "cue 38, 00:05:06.861, Marisol Bettencourt",
+            "cue 41, 00:05:25.184, Marisol Bettencourt",
+            "cue 43, 00:05:48.896, Marisol Bettencourt"
+          ],
+          "condition": "whether a filtered portfolio view counts as 'one thing' for the VP of facilities, which Cumberland's template and the client answer (question 1); the first cut shows the leaning and says it is a question",
+          "pattern": "one row where the call describes many"
+        },
+        {
+          "question": "What is burn in v0.1: the PM's forecast, Sage actuals, or both, and where does each figure come from?",
+          "option": "Two figures per project, each with an as-of date and a source: the PM's cost-to-complete forecast entered in monday once (Warren's Friday numbers, in one shape for all fourteen) and the Sage actual as of the last close. The portfolio's burn is forecast against budget with the actual beside it, so the number does not pretend to be fresher than its source. In v0.1 every figure is a sample value keyed by us and no figure is Sage's.",
+          "quotes": [
+            "Because Sage gives me actuals after the month closes, and that's too late to do anything with, so I carry my own.",
+            "The problem is that I have fourteen of these and no two are built the same, so I cannot add them up.",
+            "If I update my forecast and Marisol's summary page fills itself in, I'll be your biggest fan."
+          ],
+          "locations": [
+            "cue 77, 00:10:49.274, Warren Tibbetts",
+            "cue 198, 00:27:27.050, Marisol Bettencourt",
+            "cue 311, 00:43:22.187, Warren Tibbetts"
+          ],
+          "condition": "Warren's sheet (committed, undated) shows the forecast shape; the controller says whether Sage has an API, export or report feed and on what cadence (question 2); writeback and integration direction unresolved, and v0.1 does not depend on either",
+          "pattern": "an artefact that can go stale with nothing to flag it"
+        },
+        {
+          "question": "Is health a status column, or a status with its own history?",
+          "option": "A status column set by the PM with the last-changed date and who changed it visible beside it and every change logged; the weekly status (percent complete, slip, exposure, colour) kept per week rather than overwritten; the portfolio shows the colour and when it was last touched, so a green row cannot be five weeks old without saying so. The colour stays the PM's claim about the job, never evidence from Procore or Sage.",
+          "quotes": [
+            "The PM does.",
+            "Bridget takes what forty people told her, in whatever form they told her, some of it two weeks old, and puts it in one place, and by the time it's in front of Curt it's a snapshot of a thing that already moved.",
+            "Oh, yes. Yes. And if they change a milestone date I want the old date to still exist somewhere. That's the whole trust problem in one question."
+          ],
+          "locations": [
+            "cue 85, 00:11:50.194, Marisol Bettencourt",
+            "cue 102, 00:13:40.596, Marisol Bettencourt",
+            "cue 373, 00:53:42.965, Marisol Bettencourt"
+          ],
+          "condition": "whether a rule sits behind the colour (schedule slip or burn thresholds) and who is notified when it changes; the key's own question 8",
+          "pattern": "an artefact that can go stale with nothing to flag it"
+        },
+        {
+          "question": "Is the owner's monthly and program-level report a live view, an export in their template, or both?",
+          "option": "A per-program view generated from the live projects with its generated-on date, plus a basic export; Cumberland's template, once received, shapes the export. Nothing is rekeyed by hand, because a rekeyed copy is stale the moment a project moves.",
+          "quotes": [
+            "Their PMO wants a monthly report per project in their format, and under the new agreement they want it at program level too.",
+            "So Bridget rekeys our numbers into their template.",
+            "In something. They sent a template. It's a spreadsheet, of course."
+          ],
+          "locations": [
+            "cue 130, 00:18:01.926, Marisol Bettencourt",
+            "cue 131, 00:18:14.798, Marisol Bettencourt",
+            "cue 229, 00:32:15.354, Marisol Bettencourt"
+          ],
+          "condition": "the template arrives (committed, undated) and Cumberland's PMO says whether a live view is acceptable for January fifteenth (question 1)",
+          "pattern": "an artefact that can go stale with nothing to flag it"
+        },
+        {
+          "question": "One project template or three, and what happens to the lines PMs add privately?",
+          "option": "Three project templates (ground-up, occupied renovation, equipment job), each with its startup steps as child rows under the project and the open steps rolled up to it, and a PM's extra line proposed to the template's owner rather than kept in a private copy, so the master stops going stale.",
+          "quotes": [
+            "In practice everybody has their own version. Mine's got things on it the master doesn't, because I've been burned.",
+            "No. Three, probably. Ground-up is one thing. Occupied renovation is another, that's where all the infection control and the interim life safety stuff lives.",
+            "And equipment jobs are their own animal, short and permit-heavy. The milestones are different, the whole list is different."
+          ],
+          "locations": [
+            "cue 71, 00:09:55.838, Warren Tibbetts",
+            "cue 212, 00:29:47.743, Marisol Bettencourt",
+            "cue 213, 00:29:59.530, Marisol Bettencourt"
+          ],
+          "condition": "the real checklist per type and who owns each template (question 4); the PMO director by assumption",
+          "pattern": "an artefact that can go stale with nothing to flag it"
+        },
+        {
+          "question": "Does a superintendent enter anything in the pilot, or does the PM stay the only person entering?",
+          "option": "In v0.1 the PM enters. A two-field update on the project (did the date move; what is blocking) is shown as an option, not required, because the only thing a superintendent will do from a phone with one bar is two things a week, and half the sites have no signal inside. Nothing in v0.1 reaches the superintendents who are told on a Friday that Monday changed; the allocation view reaches the PMs.",
+          "quotes": [
+            "Two things a week. Tell you whether his date moved, and flag whatever's blocking him. That's it. Ask him for eight fields and he'll do it twice and then stop.",
+            "And half our sites have no signal inside the building. They walk out to the parking lot to send anything."
+          ],
+          "locations": [
+            "cue 332, 00:46:40.105, Warren Tibbetts",
+            "cue 333, 00:46:55.282, Ines Kovalenko"
+          ],
+          "condition": "question 5; the six-job pilot shows whether a superintendent touches it at all",
+          "pattern": "a pain with no element that fixes it"
+        },
+        {
+          "question": "Does anything in this build touch warranty calls?",
+          "option": "Nothing. The pain stays in the record with the client's own parking words. If it comes in later it goes on the account's native Service Tickets board, detected first, with email-to-ticket and the other Service extras deferred.",
+          "quotes": [
+            "We lost one for three weeks. A door closer at Waverly.",
+            "Different conversation. I know it's a mess. It's not this year's mess."
+          ],
+          "locations": [
+            "cue 219, 00:30:41.702, Warren Tibbetts",
+            "cue 222, 00:31:09.389, Marisol Bettencourt"
+          ],
+          "condition": "the client reopens it; not before",
+          "pattern": "a pain with no element that fixes it"
+        }
+      ],
+      "patterns": [
+        "parent-row-with-roll-up: portfolio over connected projects, health, burn and the next owner milestone rolled up from each project (A6)",
+        "parent-row-with-roll-up: project with owner milestones as child rows, several per phase, the next incomplete milestone, its date and whether it moved on the project",
+        "parent-row-with-roll-up: project with ICRA permits as child rows, one per work area, the earliest expiry on the project",
+        "parent-row-with-roll-up: project with startup steps as child rows from its type's template, the open steps on the project",
+        "parent-row-with-roll-up: person with allocation rows (job, week range, percent, state) as child rows, the weekly load on the person"
+      ],
+      "element_per_pain": [
+        {
+          "pain": "P1.1",
+          "element": "the portfolio of all active projects (A6) with health, burn and the next owner milestone per project, each with its as-of date; her Monday-morning view",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P1.2",
+          "element": "the same portfolio, with the last-changed date and who changed it beside every health colour (leaning 6)",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P1.3",
+          "element": "the project's own rows (milestones, forecast, status) feed the portfolio instead of forty people's emails; v0.1 proves the shape with sample figures",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P1.4",
+          "element": "the portfolio filtered to red and amber, with what moved since the last second Tuesday",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P1.5",
+          "element": "milestone rows with the previous date kept and 'moved?' on the portfolio (leaning 1); status history (leaning 6)",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P1.6",
+          "element": "the as-of date and the change log on health (leaning 6), so a green row says when it was last touched",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P1.7",
+          "element": "the portfolio view replaces the deck, the email and the six calls",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P1.8",
+          "element": "the project row serves the PMO status and staffing directly, and the forecast once it is entered in monday (leaning 5); the OAC agenda for the owner stays his own",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P1.9",
+          "element": "the portfolio dashboard and summary view assemble themselves; the Cumberland rekeying is leaning 7 and conditional on the template",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P2.1",
+          "element": "allocation rows with a state and the weekly load roll-up (leaning 3): a double booking shows before the start week, not at the job site",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P2.2",
+          "element": "the same rows: two bookings for one superintendent in one week show above 100 percent",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P2.3",
+          "element": "the request-and-confirm state (ours, leaning 3) replaces the hallway for PMs and the resource manager",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P2.4",
+          "element": "the allocation board visible to the PMs, so Warren sees that Junie is committed in October without asking",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P2.5",
+          "element": "the occupied-work qualification on the person, filterable in the allocation view (leaning 3); who maintains it is the condition",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P2.6",
+          "element": "a board shows only the bookings people key; a reshuffle in a meeting the resource manager is not in stays invisible unless preconstruction, which is not this client's group, keys its promises as requests (speaker unclear)",
+          "verdict": "copies-today's-tool"
+        },
+        {
+          "pain": "P3.1",
+          "element": "no element changes when Sage closes the month; the forecast figure (leaning 5) gives earlier sight of committed cost, which is P3.2's fix, not this one's",
+          "verdict": "none"
+        },
+        {
+          "pain": "P3.2",
+          "element": "the PM's forecast per project in monday, visible to the PMO in the week it moves (leaning 5); the fix holds once the forecast is entered in monday rather than Excel, and v0.1 shows it with sample figures",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P3.3",
+          "element": "one forecast shape (cost to complete by cost code) across fourteen projects, rolled up to one portfolio number (leaning 5)",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P3.4",
+          "element": "the same forecast element; the week-two conversation with the owner follows from sight, not from the board",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P4.1",
+          "element": "three project templates with the startup steps as child rows (leaning 8)",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P4.2",
+          "element": "ICRA rows per work area with expiry and a reminder (leaning 2)",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P4.3",
+          "element": "the template's steps are the list a new PM lacks (leaning 8); their healthcare training is not ours",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P5.1",
+          "element": "nothing in this build (leaning 10); the client parked it",
+          "verdict": "none"
+        },
+        {
+          "pain": "P5.2",
+          "element": "nothing in this build (leaning 10); native Service Tickets later, if asked",
+          "verdict": "none"
+        }
+      ]
+    },
+    "existing": {
+      "account": "The client's own account: Enterprise, Work Management, about 220 seats (cue 343), the IT director owns the contract, one preconstruction power user builds in it; a preconstruction bid board whose builder left in February (cues 337 and 338), a safety incident board in daily use (cue 339), nothing of the PMO's (cue 345). Under A21 the proof of concept is built in the user's own account in a new workspace for this client, so none of this is touched now; it is the authority for what a later build in the client's account must audit and extend, and the key's first question (where it lives there, who administers it, build rights for Kyle and Bridget) moves to handover. The user's own account is read at preflight; the A6 shape needs its portfolio and project tools.",
+      "incumbents": [
+        {
+          "system": "Procore",
+          "authority": "stays system of record for: drawings, RFIs, submittals, daily reports, the project itself (the client: 'Procore is the job.') ; follower for: nothing in v0.1, at most a link out per project; writeback and integration direction unresolved; v0.1 does not depend on either; staying clear of Procore is our safe default, labelled as ours",
+          "evidence": "cue 361, 00:51:33.598, Warren Tibbetts"
+        },
+        {
+          "system": "Sage 300",
+          "authority": "stays system of record for: job numbers, job cost, actuals, anything with a dollar sign (the client's words), with the controller gating any access ; follower for: nothing in v0.1 (sample figures keyed by us); writeback and integration direction unresolved; v0.1 does not depend on either; staying clear of Sage is our safe default, labelled as ours",
+          "evidence": "cue 321, 00:44:58.406, Marisol Bettencourt"
+        },
+        {
+          "system": "Excel: the grid",
+          "authority": "stays system of record for: allocations, until the allocation rows are entered and the resource manager stops keeping the workbook ; follower for: the two tabs committed for today are the import source for sample allocations",
+          "evidence": "cue 138, 00:19:13.232, Ines Kovalenko"
+        },
+        {
+          "system": "Excel: the fourteen PM forecasts",
+          "authority": "stays system of record for: each PM's cost to complete, until the forecast is entered in monday ; follower for: Warren's sheet is the shape model, committed and undated",
+          "evidence": "cue 76, 00:10:42.620, Warren Tibbetts"
+        },
+        {
+          "system": "Excel: the startup checklist",
+          "authority": "stays system of record for: the master list of steps, until the three templates carry them ; follower for: the real checklist per type is an input not yet asked for",
+          "evidence": "cue 62, 00:08:44.228, Warren Tibbetts"
+        },
+        {
+          "system": "The monthly deck and summary page",
+          "authority": "stays what the executive committee receives, until the portfolio view is trusted ; follower for: August's summary page is a committed input",
+          "evidence": "cue 87, 00:11:56.207, Marisol Bettencourt"
+        },
+        {
+          "system": "Cumberland's reporting template",
+          "authority": "stays the owner's required format, until Cumberland's PMO accepts a view ; follower for: a committed input, undated",
+          "evidence": "cue 229, 00:32:15.354, Marisol Bettencourt"
+        },
+        {
+          "system": "Microsoft 365 and Teams",
+          "authority": "stays where staffing requests arrive today ; follower for: notifications only if the client asks",
+          "evidence": "cue 145, 00:20:00.947, Ines Kovalenko"
+        },
+        {
+          "system": "The Microsoft tenant (single sign-on)",
+          "authority": "the IT director's requirement for anything in the client's account ; follower for: nothing; it cannot be shown in the user's own account",
+          "evidence": "cue 319, 00:44:38.753, Marisol Bettencourt"
+        },
+        {
+          "system": "The warranty inbox",
+          "authority": "stays the record for warranty calls ; follower for: nothing; out of this build",
+          "evidence": "cue 217, 00:30:32.338, Warren Tibbetts"
+        },
+        {
+          "system": "monday, the client's own account (preconstruction's bid board, safety's incident board)",
+          "authority": "stays as it is: untouched by the proof of concept; the later build in their account audits both before anything is added ; follower for: nothing",
+          "evidence": "cue 339, 00:47:48.605, Marisol Bettencourt"
+        },
+        {
+          "system": "Smartsheet (abandoned 2023 pilot) and Power BI (proposed, not built)",
+          "authority": "neither is a system of record; adoption history and an in-house alternative, carried in the record ; follower for: nothing",
+          "evidence": "cue 325, 00:45:43.637, Marisol Bettencourt"
+        }
+      ]
+    },
+    "assumptions": [
+      {
+        "statement": "The equipment jobs are projects in the portfolio, from their own template, which makes the count forty.",
+        "question": "Are the six-week equipment jobs projects in the portfolio like any other?",
+        "kind": "board-architecture",
+        "state": "assumed"
+      },
+      {
+        "statement": "One portfolio with a program attribute and a per-program view (leaning 4).",
+        "question": "Does a filtered program view count as 'one thing' for Cumberland's VP of facilities, or does the program need its own portfolio?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "Burn in v0.1 is a forecast figure and an actuals figure per project, both sample values keyed by us with an as-of date; nothing is Sage's.",
+        "question": "Does Sage have an API, a scheduled export or a report feed for job cost, who grants it, and what is the refresh?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "Warren's forecast shape (cost to complete by cost code) is the standard for all fourteen PMs.",
+        "question": "Does his sheet, once it arrives, fit the other thirteen, and will the PMs enter the forecast in monday rather than in Excel?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "An allocation is a row per person, job and week range with a percent and a state (requested, penciled, confirmed).",
+        "question": "Does a grid cell carry one job or several, and will PMs and preconstruction enter requests?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "The occupied-work qualification is a yes-or-no attribute on the person, kept by the resource manager.",
+        "question": "Who maintains the qualification list, and is it only the four superintendents or project managers and engineers too?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "The milestone set per large job is the seven named on the tower plus placeholders to eleven or twelve; 'next milestone' is the earliest incomplete one.",
+        "question": "What is the real milestone list per project type, which are contractual, and which one rolls up as next?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "An occupied job carries a handful of work areas, each with one ICRA row; the sample shows two.",
+        "question": "How many work areas does an occupied job carry at once, and who renews a permit?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "The health colour has no rule behind it in v0.1; the PM sets it and the last change and its author are shown.",
+        "question": "Should schedule slip or burn thresholds drive the colour, and who is notified when it changes?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "The superintendent enters nothing in v0.1; the PM is the only entry point; a two-field update is shown as an option.",
+        "question": "Is a two-question weekly update from the superintendent in the pilot?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "Cumberland's report is a per-program view plus a basic export; the template shapes the export when it arrives.",
+        "question": "Does Cumberland's PMO accept a live view for January fifteenth, or must the export match their spreadsheet?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "The executive committee view is the portfolio reduced to the summary page's four columns (health, burn, next milestone, moved?).",
+        "question": "What are the four columns of today's summary page, and is anything else on it leadership reads?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "PMs see hours and their own job's cost, never loaded rates or other jobs' margin; in the user's own account this is designed on sample people, not proven on theirs.",
+        "question": "What are the exact permission boundaries for PMs, the resource manager, the executive committee and preconstruction?",
+        "kind": "board-architecture",
+        "state": "assumed"
+      },
+      {
+        "statement": "The three templates carry the steps named on the call (insurance certificates, notice to proceed, preconstruction meeting, ICRA, badging, submittal log setup, schedule baseline) and placeholders for the rest of the sixty-something lines.",
+        "question": "Can the real startup checklist and milestone list per type be shared before the 23rd?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "The six pilot projects are Warren's three (the Cumberland bed tower and two Waverly renovations) and three Chattanooga jobs not yet named.",
+        "question": "Which six projects, by name, with their PMs and superintendents?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "Sample data uses the client's real project names, as asked, and nothing that looks like patient or staff medical data.",
+        "question": "Is there any project name or site the first cut should not show?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "The user's own account offers monday's portfolio and project tools, so the A6 shape can be built there.",
+        "question": "Preflight: does the bound account's tier include portfolios?",
+        "kind": "board-architecture",
+        "state": "assumed"
+      },
+      {
+        "statement": "The Procore boundary is a link out per project; nothing flows between the systems in v0.1.",
+        "question": "Should anything at all flow between Procore and monday, or does the portfolio stand alone?",
+        "kind": "gap",
+        "state": "assumed"
+      }
+    ],
+    "unmet_needs": [
+      {
+        "need": "Warranty calls tracked after turnover, so none goes unanswered for three weeks (P5)",
+        "clock": "a year of warranty per job; parked by the client for this year",
+        "why_not_met": "the client's own choice ('It's not this year's mess.'); if it comes in, native Service Tickets, with email-to-ticket deferred; nothing in this build"
+      },
+      {
+        "need": "Sage actuals in the portfolio without a second entry",
+        "clock": "the monthly close, around the tenth to twelfth",
+        "why_not_met": "no API, export or report feed was stated; nothing touches Sage without the controller; v0.1 carries sample figures with an as-of date"
+      },
+      {
+        "need": "Single sign-on through the Microsoft tenant and the IT director's security questionnaire",
+        "clock": "two to three weeks from the day it starts; the email starting it is committed for today",
+        "why_not_met": "belongs to the client's own account and cannot be shown in the user's own; the documentation is committed to go with the invite"
+      },
+      {
+        "need": "A superintendent's weekly update from a phone with one bar, inside a building with no signal",
+        "clock": "the pilot by the middle of November",
+        "why_not_met": "no offline capture; v0.1 keeps the PM as the entry point and shows a two-field form as an option"
+      },
+      {
+        "need": "The program-level report in Cumberland's format for the first quarterly review",
+        "clock": "January fifteenth",
+        "why_not_met": "the template is committed but not received, and whether a live view is acceptable is unconfirmed"
+      },
+      {
+        "need": "A written scope and a number she can put against her budget line",
+        "clock": "the November budget lock",
+        "why_not_met": "not something the plugin produces; the user's own commitment ('You'll get both.'), carried in commitments_and_next_steps"
+      },
+      {
+        "need": "Permission boundaries proven on their own people: PMs see hours and their own job's cost, not loaded rates or other jobs' margin",
+        "clock": null,
+        "why_not_met": "the proof of concept carries sample people in the user's own account; the boundary is designed, not proven, until a build in the client's account"
+      }
+    ],
+    "ai_opportunities": [
+      {
+        "pain_or_need": "P2.2",
+        "kind": "workflow",
+        "round": 2,
+        "probe_basis": "P-21",
+        "idea": "When allocation rows put one person above 100 percent in any week, or two confirmed rows for one person overlap, notify the resource manager and both PMs with the rows named."
+      },
+      {
+        "pain_or_need": "P4.2",
+        "kind": "workflow",
+        "round": 2,
+        "probe_basis": "P-21",
+        "idea": "A reminder to the PM and the project engineer a set number of days before an ICRA row's expiry, and a flag on the project when one has lapsed."
+      },
+      {
+        "pain_or_need": "P1.5",
+        "kind": "workflow",
+        "round": 2,
+        "probe_basis": "P-21",
+        "idea": "When a milestone date changes, write the previous date to the row's history and notify the PMO director with the old and new dates and who made the change."
+      },
+      {
+        "pain_or_need": "P1.4",
+        "kind": "ai_column",
+        "round": 2,
+        "probe_basis": "unprobed",
+        "idea": "One line per project of what changed since last month, drawn from its milestone moves, status changes and forecast movement, for the second-Tuesday view."
+      },
+      {
+        "pain_or_need": "P3.3",
+        "kind": "ai_column",
+        "round": 2,
+        "probe_basis": "unprobed",
+        "idea": "Flag a forecast whose cost to complete moved by more than a set share since the previous Friday, so an overrun shows in the week it happens rather than at the close."
+      },
+      {
+        "pain_or_need": "P1.9",
+        "kind": "agent",
+        "round": 2,
+        "probe_basis": "P-19",
+        "idea": "An agent limited to this client's workspace that drafts the summary page text from the portfolio rows for the analyst's stand-in to review; drafts only, never sends, activated as its own step."
+      }
+    ],
+    "verdict": {
+      "cleared_for": "build",
+      "conditions": [
+        "approval stop",
+        "no A11 question first matters here: the target is the user's own account, where sample data needs no decision (A21); A11-2 is asked before any later build inside the client's own Enterprise account; the three A11 decisions stay open",
+        "workspace to create: Bellamy Ridge – Ops, brand new, in the user's own account; the plugin writes into no other workspace; the client's own account, its bid board and its incident board are not touched",
+        "preflight confirms that the user's own account offers monday's portfolio and project tools, which the A6 shape needs; if it does not, the portfolio is not faked with plain boards: the shortfall goes on the approval card and the portfolio layer waits for an account that has it",
+        "sample figures only: every hours, cost, forecast and actuals figure in v0.1 is keyed by us with an as-of date and no figure is Sage's; every health colour and allocation state is a sample claim, not evidence of anything in Procore, Sage or the grid",
+        "sample data carries the client's real project names as asked (cue 411) and nothing that looks like patient or staff medical data",
+        "the program shape is built as the leaning and shown on the 23rd as a question, never as a decision; the equipment jobs are in the portfolio by assumption and said so",
+        "committed, not done (s21): the invite for Wednesday the 23rd, 2:00 pm Eastern, this afternoon (the user); Cumberland's template and August's summary page (the PMO director, undated); two grid tabs (the resource manager, today); the forecast sheet (the senior PM, undated); the email starting the security review (the PMO director, today); the security documentation with the invite (the user); nothing has arrived or been sent"
+      ],
+      "reason": "P1 and P2 have named entities and outcomes in the client's own words and P3 has both as well, the product is Work Management with the A6 portfolio, the structure is stated with ten leanings, and the target is the user's own account with its one workspace named."
+    },
+    "questions": [
+      {
+        "text": "You said Cumberland's vice president of facilities wants their program 'as one thing, not as twelve rows inside my forty', and that Waverly becomes a second program if you win it. Would one portfolio of all forty with a Cumberland view count as one thing for him, or does each program need its own portfolio? And for January fifteenth, will their PMO accept a live view, or must it be their spreadsheet filled in?",
+        "kind": "read-back",
+        "role": "PMO Director (and Cumberland's PMO, through her)",
+        "known": "both terms are hers: the portfolio is every active job, a program is one health system's work under a master agreement; Cumberland holds twelve to fifteen jobs at a time; the first review is January fifteenth; their template is a spreadsheet, committed as an input; the first cut builds one portfolio with a program view and labels it a question"
+      },
+      {
+        "text": "Warren said that if he updates his forecast and the summary page fills itself in, he is our biggest fan. Does his Friday forecast move into monday by cost code, or stay in Excel with one cost-to-complete figure keyed? And for actuals: does Sage 300 have an API, a scheduled export or a report feed, who grants access, and on what refresh?",
+        "kind": "read-back",
+        "role": "Senior Project Manager (the forecast shape), the controller (Sage access), PMO Director",
+        "known": "actuals land around the tenth to twelfth; fourteen forecasts, no two alike; his sheet is committed as an input; nothing on the call says a feed exists; v0.1 carries sample figures with an as-of date; nothing touches Sage without the controller"
+      },
+      {
+        "text": "Ines, on the June collision you said 'Verbally, in the hall, which is the problem'. If an allocation were a row per person, job and week with a requested, penciled or confirmed state, would the PMs enter their requests that way, and would preconstruction key the names it promises to win a job? And who keeps the list of the four superintendents qualified for occupied work?",
+        "kind": "read-back",
+        "role": "Resource Manager; PMO Director for preconstruction",
+        "known": "the grid is a tab per office, people down the left, weeks across the top, a percentage per cell, ten hours a week; requests arrive as Teams messages and hallway asks; the qualification lives in her head; field crews are out; the two grid tabs are committed for today; a reshuffle by preconstruction was described by a speaker the transcript does not label"
+      },
+      {
+        "text": "For each of the three project types, what is the real startup checklist and the real owner milestone list: which milestones are contractual, which one should roll up to the portfolio as 'next', how many work areas and ICRA permits an occupied job carries at once, and who owns the template when a PM wants to add a line?",
+        "kind": "discovery",
+        "role": "Senior Project Manager and PMO Director",
+        "known": "eleven or twelve owner milestones on the tower, several per phase, some with liquidated damages, the previous date to be kept; a sixty-something-line Excel checklist with seven named steps; ICRA is per work area and expires; three types named by the client"
+      },
+      {
+        "text": "Warren said a superintendent will do two things a week from the trailer, say whether his date moved and flag what is blocking him, and Ines said half the sites have no signal inside. Should the pilot ask the superintendents for those two things, or does the PM stay the only person entering?",
+        "kind": "read-back",
+        "role": "Senior Project Manager, and a superintendent if one can join",
+        "known": "phones with one bar, no signal inside half the buildings, eight fields described as the thing that kills it; v0.1 keeps the PM as the entry point and shows a two-field update as an option"
+      }
+    ]
+  }
+}

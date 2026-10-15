@@ -1,0 +1,360 @@
+{
+  "scenario_id": "s1-discovery-strong",
+  "call_type": "discovery",
+  "purpose_of_this_fixture": "A strong discovery call that follows the method: connection first, frame and honest-expert line, current-state walkthrough, pains excavated in the client's words, why now, a bleed the client calculates and confirms, an upside with a 'what would you go after' answer, desired outcome, decision process, priority, blockers, a first-cut scope check and a dated next step. It tests that the plugin (1) grades R1-R10 Met from client-side verbatim evidence, R11 Missing (no demo yet) and R12 Partial (first-version scope agreed for a demo only, approver absent), giving the verdict 'Discovery complete'; (2) grades per-pain checks with realistic gaps (P3 trajectory missing, P4 only partly excavated); (3) keeps unquantified items (write-off share, principals' time, the lost pursuit fee) out of the bleed total and keeps loaded rates apart from bill rates; (4) picks up client vocabulary (pursuits, fee proposals, jobs, phases, submittals, the Wall, owner); (5) treats the Ajera connection as a must-have while asking about hosting, access and data direction; (6) flags the polite timing hedge and the other ambiguities as questions instead of assumptions; and (7) proposes a CRM plus Work Management blueprint and first build.",
+  "transcript_format": "Plain text, one speaker turn per line, each formatted '[HH:MM:SS] Speaker Name: text'. Timestamps are turn start times from [00:00:04] to about [00:45:02]. Three speakers: 'Consultant', 'Tess Kowalczyk' (COO) and 'Jordan Pruitt' (Operations Manager). Non-verbal cues appear in square brackets ([laughs], [sighs], [muffled]); interruptions and self-corrections use ' -- '. No header lines. The call date is not stated; the dates mentioned fit a call on Thursday 10 September 2026. Evidence locations in this key are 'HH:MM:SS, Speaker (role)'.",
+  "company": {
+    "name": "{CO}",
+    "industry": "Architecture and engineering (A/E) consultancy: K-12, municipal and civic (libraries, fire stations, city halls), a growing healthcare practice (mostly outpatient clinics) and justice work; in-house structural and MEP engineering and an interiors studio; also engineering-only work for other architects",
+    "size": "About 120 staff ('a hundred and eighteen' on the last HR report), about 22 PMs, founded 1978",
+    "locations": "Madison, WI (main office), Milwaukee, WI and Rockford, IL; a fourth office opens in Des Moines, IA on November 2 (4 people on day one, about 15 within two years)",
+    "current_tools": [
+      "Ajera (accounting, timesheets, billing; the 'book of record'; possibly the cloud version)",
+      "Excel (pursuit log, fee builder, the Wall staffing sheet, per-job submittal logs, PM burn sheets)",
+      "SharePoint (pursuit log file and job folders)",
+      "Microsoft Teams",
+      "Outlook / email",
+      "Bluebeam (submittal markups and stamps)",
+      "Procore (only through general contractors' own accounts, about half of GCs)",
+      "Public bid portals",
+      "monday.com (one lapsed free-trial board for FF&E built by Anneke in interiors; not in use)"
+    ]
+  },
+  "attendees": [
+    {"name": "Tess Kowalczyk", "role": "COO (finance, IT, HR and operations report to her; owns the operations systems budget)", "side": "client", "decision_role": "decision maker"},
+    {"name": "Jordan Pruitt", "role": "Operations Manager (staffing, project setup, reporting; pulled into pursuits)", "side": "client", "decision_role": "influencer"},
+    {"name": "Consultant", "role": "monday.com consultant running the discovery call", "side": "consultant", "decision_role": "unknown"}
+  ],
+  "expected_monday_products": [
+    {"kind": "crm", "why": "Pursuits pipeline to replace the Excel pursuit log and Friday huddle list: RFQ/RFP intake from bid portals and PIC relationships, due date and time, addenda, go/no-go, PIC and PM, fee proposal and Gordon's fee sign-off, submission, short list and interview, won or lost; owners (clients) and their contacts; handing a won pursuit over to a job; the same pipeline for the new Des Moines office. Directly addresses the missed Larkspur Falls deadline and Tess's Monday-morning view."},
+    {"kind": "core", "why": "Work Management for delivery: jobs split into phases with phase fees and hours from Ajera so fee burn is visible weekly instead of on the monthly WIP report; a staffing board and workload view to replace the Wall (people by office and studio, weekly allocation percent, part-time capacity) and shorten the Tuesday staffing call; a basic submittal log with review due dates (requested for the first version); owner approvals later; dashboards for Tess and Gordon."}
+  ],
+  "rubric": [
+    {"criterion": "R1 Current state mapped", "status": "met", "evidence": [
+      {"quote": "Either way it should get to Hallie, and she puts it in the pursuit log. Which is an Excel file on SharePoint.", "location": null},
+      {"quote": "Then Fridays we have the pursuit huddle. It's supposed to be thirty minutes. We go through what's new and do go/no-go.", "location": null},
+      {"quote": "Now it's an Excel file with a tab per office, every person down the side, weeks across the top, and percentages. And every week I rebuild it.", "location": null},
+      {"quote": "That's most of Monday and half of Tuesday morning.", "location": null},
+      {"quote": "Everything's an export and a copy-paste. Ajera exports to Excel, Excel goes to the Wall, the pursuit log is standalone.", "location": null},
+      {"quote": "Then the PM logs it in the submittal log, which, you guessed it, is an Excel file in the job folder on SharePoint.", "location": null},
+      {"quote": "So Anneke, in interiors, set up a free monday board last year to track furniture selections, FF and E, on a couple of jobs.", "location": null}
+    ], "note": "Pursuit intake to win, job setup in Ajera, weekly time entry, the monthly WIP report, weekly staffing, and CA submittals are all walked through. Tools and their lack of connections are named, and so are the people and time involved (Hallie about 10 h/wk, Jordan about 12 h/wk, a 12-person one-hour staffing call, PMs about 3 h/wk each). monday today is Anneke's lapsed free-trial FF&E board. Thinner areas to list as assumptions: owner-approval handling and where owner contacts live."},
+    {"criterion": "R2 Pain made concrete", "status": "met", "evidence": [
+      {"quote": "We lost it because we missed the deadline.", "location": null},
+      {"quote": "And then the district puts out an addendum that moves the due date up a day, to Thursday, because of some school board thing.", "location": null},
+      {"quote": "And we upload at two-oh-four. The portal closed at two.", "location": null},
+      {"quote": "And nobody knew until Wednesday, when Dev messaged me, basically going, \"I can't do this.\"", "location": null},
+      {"quote": "By the time we saw it, we'd spent about thirty-eight thousand over the phase fee.", "location": null}
+    ], "note": "P1 (pursuit deadlines and fee sign-off), P2 (staffing on the Wall) and P3 (fee burn seen late) each have Stated, Concrete and Workaround Met, so all three count as excavated. P4 (submittals and owner approvals) is stated and concrete, but its workaround is only Partial."},
+    {"criterion": "R3 Why now", "status": "met", "evidence": [
+      {"quote": "The first one is Des Moines. We are about to open a fourth office, and everything we run on is spreadsheets and Jordan's memory.", "location": null},
+      {"quote": "And the second thing is we lost a pursuit in July that we should not have lost.", "location": null},
+      {"quote": "the pursuits side has to be in place before Des Moines starts chasing work, and they open November second.", "location": null},
+      {"quote": "Which, now that I say it out loud, is also when the partners lock the systems budget for the new fiscal year.", "location": null}
+    ], "note": "Triggers: the Des Moines office opens November 2, and the Larkspur Falls pursuit (about $1.4M fee) was lost in July over a missed deadline. Budget deadline: the October 1 partner meeting locks the systems budget for the fiscal year that starts October 1."},
+    {"criterion": "R4 Bleed number", "status": "met", "evidence": [
+      {"quote": "Um. I'd say three hours a week each.", "location": null},
+      {"quote": "Yeah, we use one-oh-five internally for a PM, loaded.", "location": null},
+      {"quote": "So twenty-two times three is sixty-six hours a week. Sixty-six times one-oh-five is... six thousand nine hundred thirty.", "location": null},
+      {"quote": "So I'm, call it twelve hours a week on the Wall. And the call is twelve people for an hour, so twelve hours.", "location": null},
+      {"quote": "So twenty-four times ninety is two thousand one hundred sixty a week, times fifty-two is... a hundred and twelve thousand.", "location": null},
+      {"quote": "So six-twenty a week, times fifty-two, thirty-two thousand two hundred forty.", "location": null},
+      {"quote": "So three-sixty, plus one-twelve, plus thirty-two. That's five hundred and four thousand. A year.", "location": null},
+      {"quote": "No, it feels... honestly, it feels light.", "location": null},
+      {"quote": "Yeah, if anything it's more. I was being nice with the three hours.", "location": null}
+    ], "note": "The client did the math. PM admin: 22 PMs x 3 h/wk = 66 h x $105 loaded x 52 = $360,360. Staffing: Jordan about 12 h + a 12-person one-hour call = 24 h x $90 blended loaded x 52 = $112,320. Pursuit chasing: Hallie 10 h/wk x about $62 loaded x 52 = $32,240. Total $504,920/yr ('five hundred and four thousand'), which the client says is, if anything, light. Not included and unquantified: principals' time, the share of about $210k/yr write-offs caused by late visibility (client declined to estimate), the $38k Rockford clinic DD write-off, and the roughly $1.4M lost Larkspur Falls fee (one-off)."},
+    {"criterion": "R5 Upside number", "status": "met", "evidence": [
+      {"quote": "Not all of it. Let's say half.", "location": null},
+      {"quote": "Thirty-three hours a week at one-sixty-five is... Jordan?", "location": null},
+      {"quote": "Five thousand four hundred forty-five a week. Times fifty-two, two hundred eighty-three thousand, roughly.", "location": null},
+      {"quote": "We no-go, I'd say, two, sometimes three healthcare pursuits a quarter, because we just can't staff the proposal on top of everything else, never mind the job.", "location": null},
+      {"quote": "That's eight hundred thousand to one point two million in fee.", "location": null}
+    ], "note": "Freed capacity: half of 66 PM hours billed = 33 h x $165 average bill rate x 52 = $283,140/yr ('two-eighty-ish'). What they would go after: 2-3 healthcare pursuits a quarter they currently pass on, fees of $400k-$600k and a hit rate of about 1 in 4, so two more wins a year = $800k-$1.2M in fee. Keep the range as a range."},
+    {"criterion": "R6 Desired outcome", "status": "met", "evidence": [
+      {"quote": "Monday morning, I open one screen and I can see every pursuit that's due in the next two weeks, who owns it, whether an addendum came in, and whether the fee's signed off.", "location": null},
+      {"quote": "And I can see which jobs are burning faster than they should, while there's still time to do something about it.", "location": null},
+      {"quote": "And the Tuesday call is a fifteen-minute exceptions call. Who's over, who's light, done.", "location": null},
+      {"quote": "No more missed submissions, and write-offs coming down.", "location": null},
+      {"quote": "He didn't give a number. I'd guess he'd be happy with half, but I'd want to ask him before we write that down anywhere.", "location": null}
+    ], "note": "Day to day: Tess gets one Monday-morning view of pursuits and job burn, and Jordan stops rebuilding the Wall while the staffing call shrinks to 15 minutes. Leadership win (Gordon): no missed submissions, lower write-offs, and Des Moines on the same system. The write-off target is not agreed, so draft success criteria stay 'proposed'."},
+    {"criterion": "R7 Decision process mapped", "status": "met", "evidence": [
+      {"quote": "So I own the operations systems budget. But anything over twenty-five thousand, Gordon signs.", "location": null},
+      {"quote": "Two things. Are we winning work, and are we writing it off.", "location": null},
+      {"quote": "Anything that touches Ajera, she has to be comfortable with. She doesn't sign off, exactly, but she can kill it.", "location": null},
+      {"quote": "And formally, it goes on the agenda for the partner meeting. That's the first Thursday of the month.", "location": null},
+      {"quote": "Bev cuts a PO, or if it's a subscription we just put it on the card, and then it's on me and Jordan to roll it out.", "location": null},
+      {"quote": "I did a one-pager, the cost and what it would save, and he signed it in about a week.", "location": null}
+    ], "note": "Stakeholders not on the call: Gordon, managing partner (approves spend over $25k; cares about winning work and write-offs; wants the pursuit side and PM adoption); Bev, controller (owns Ajera and can effectively veto); Marcus, outsourced IT (sign-in and security checklist); the partner group (formal agenda item; October 1 meeting locks the budget). After a yes: a PO or card payment, then Tess and Jordan roll it out. Prior purchase: the Bluebeam one-pager was approved in about a week. The approver has not been heard directly, so 'check with someone' stays anticipated; Tess will invite Gordon to the next meeting."},
+    {"criterion": "R8 Priority and timing", "status": "met", "evidence": [
+      {"quote": "This quarter. At the very least, the pursuits side has to be in place before Des Moines starts chasing work, and they open November second.", "location": null},
+      {"quote": "Ideally the whole thing's live before Des Moines opens. But, I mean, I don't want to hold anyone to that. Let's see what it looks like first.", "location": null}
+    ], "note": "Placed as 'this quarter', with a real deadline (November 2) for the pursuits side. Go-live for jobs, staffing and burn is politely hedged and must not be assumed."},
+    {"criterion": "R9 Blockers surfaced", "status": "met", "evidence": [
+      {"quote": "Honestly? The PMs. We tried a project management tool, I want to say four years ago, and it was dead in about two months.", "location": null},
+      {"quote": "Double entry. You had to put your stuff in there and still do everything else you were already doing.", "location": null},
+      {"quote": "Nobody's going to want training in October.", "location": null},
+      {"quote": "And if Bev decides this is going to mess with Ajera, that's a hard stop.", "location": null}
+    ], "note": "Three blockers: PM adoption after a failed earlier tool (double entry, PMs not consulted), the October deadline crunch (four CD sets), and Bev rejecting anything that touches Ajera."},
+    {"criterion": "R10 Next step committed", "status": "met", "evidence": [
+      {"quote": "Ten a.m. Central on the twenty-fourth, then.", "location": null},
+      {"quote": "I'll forward it to him today and let you know by Friday the eighteenth if he's in.", "location": null},
+      {"quote": "Yeah, I can do that. By Tuesday? The fifteenth?", "location": null}
+    ], "note": "Thursday 24 September 2026, 10:00 a.m. Central, 45 minutes booked (aim for 30): walkthrough of a first version with Tess, Jordan and Gordon (invited). The Consultant sends the invite today. Gordon's attendance is to be confirmed by Friday 18 September."},
+    {"criterion": "R11 Solution confirmed", "status": "missing", "evidence": [], "note": "Discovery call; no demo has taken place, so this is expected and not a defect of the call."},
+    {"criterion": "R12 Scope agreed verbally", "status": "partial", "evidence": [
+      {"quote": "Yes. That's the right first cut. Although Jordan's going to argue for submittals.", "location": null},
+      {"quote": "Put a basic submittal log in, then. But don't spend a lot of time on it. I care more about the pursuits.", "location": null}
+    ], "note": "Tess agreed a first-version scope to be shown: pursuits through fee sign-off with addenda, jobs and phases with Ajera hours and fees, a staffing view to replace the Wall, and a basic submittal log (owner approvals deferred). The Consultant framed it as 'just to show you, not to sign anything', and the approver (Gordon) has not agreed. Not enough for a proposal; re-confirm scope with Gordon present."},
+    {"criterion": "P1 Stated (pursuit deadlines, addenda and fee sign-off)", "status": "met", "evidence": [
+      {"quote": "There's no one place where a pursuit lives, with the due date and who's on it and what's changed.", "location": null},
+      {"quote": "And the fee sign-off is basically, you email Gordon a PDF and you hope.", "location": null}
+    ], "note": "Defines P1."},
+    {"criterion": "P1 Concrete", "status": "met", "evidence": [
+      {"quote": "It went to whoever was registered on the bid portal, which was Luis, the PM we had lined up, and Luis was on vacation up in Door County with no cell signal.", "location": null},
+      {"quote": "And we upload at two-oh-four. The portal closed at two.", "location": null}
+    ], "note": "The Larkspur Falls School District RFP in July: an addendum moved the due date up a day, the only registered contact was on vacation, the fee used last year's rates and was signed off from a parking lot, and the upload was four minutes late."},
+    {"criterion": "P1 Workaround", "status": "met", "evidence": [
+      {"quote": "Hallie's spreadsheet is a list, it doesn't know about addenda.", "location": null},
+      {"quote": "It works right up until it doesn't, and when it doesn't, it costs us a million four.", "location": null}
+    ], "note": "Workaround: Excel pursuit log, Friday huddle, Hallie chasing by email, fee PDFs emailed to Gordon. Why it is not acceptable: it fails without warning at high cost, and Des Moines adds another inbox."},
+    {"criterion": "P1 Reach", "status": "met", "evidence": [
+      {"quote": "The PICs, because it's their relationship. Gordon, obviously. The PM who's writing the fee at midnight.", "location": null},
+      {"quote": "That middle school would have been two years of work for maybe eight people.", "location": null}
+    ], "note": "Affects Hallie, PICs, Gordon, the PMs writing fees, and the staff who would have been on the job."},
+    {"criterion": "P1 Cost inputs", "status": "met", "evidence": [
+      {"quote": "Oh, a lot. I'd say ten hours a week? And that's just the chasing, not the writing.", "location": null},
+      {"quote": "A million four in fee.", "location": null}
+    ], "note": "Hallie about 10 h/wk (Tess: 'At least') at about $62 loaded; one lost fee of about $1.4M (one-off, not in the bleed total)."},
+    {"criterion": "P1 Trajectory", "status": "met", "evidence": [
+      {"quote": "We're planning to go from, I think we said six or seven fee proposals a month to ten, once Des Moines is up and running. It doesn't scale.", "location": null},
+      {"quote": "Someone's going to save \"pursuit log DSM final v2\" on their desktop.", "location": null}
+    ], "note": "More fee proposals and a second pursuit team in Des Moines with the same process."},
+    {"criterion": "P2 Stated (staffing on the Wall)", "status": "met", "evidence": [
+      {"quote": "So the PMs are supposed to update their people's allocations, and they don't.", "location": null},
+      {"quote": "And it's mostly me reading percentages out loud and people going, \"No, she's not on that anymore.\"", "location": null}
+    ], "note": "Defines P2."},
+    {"criterion": "P2 Concrete", "status": "met", "evidence": [
+      {"quote": "But two other PMs had also, separately, told him he was on their jobs.", "location": null},
+      {"quote": "And nobody knew until Wednesday, when Dev messaged me, basically going, \"I can't do this.\"", "location": null},
+      {"quote": "Dev worked the weekend. Dev did not love that.", "location": null}
+    ], "note": "Three weeks earlier, Dev (structural engineer, Milwaukee) was booked on three jobs with deadlines in the same week while two Rockford engineers were light. The library issue slipped a week."},
+    {"criterion": "P2 Workaround", "status": "met", "evidence": [
+      {"quote": "So Monday I go through the Teams messages, I go through the project schedules, I pull who charged time where out of Ajera, and I basically reconcile it all by hand.", "location": null},
+      {"quote": "Because it lives in my head, honestly. If I get hit by a bus, nobody knows who's on what.", "location": null}
+    ], "note": "Why it is not acceptable: it depends on one person, and a fourth office he cannot walk over to is coming."},
+    {"criterion": "P2 Reach", "status": "met", "evidence": [
+      {"quote": "Then the PMs, because they don't get the people they planned for.", "location": null},
+      {"quote": "We had two resignations last year, and workload came up in both exit interviews.", "location": null}
+    ], "note": "Staff, PMs, studio leads, owners when dates slip, and Tess (burnout and retention). The resignation detail is internal only."},
+    {"criterion": "P2 Cost inputs", "status": "met", "evidence": [
+      {"quote": "So I'm, call it twelve hours a week on the Wall. And the call is twelve people for an hour, so twelve hours.", "location": null},
+      {"quote": "Blended for that group, I'd use ninety an hour loaded.", "location": null}
+    ], "note": "24 h/wk x $90 x 52 = $112,320/yr."},
+    {"criterion": "P2 Trajectory", "status": "met", "evidence": [
+      {"quote": "And I'm about to add a fourth tab with, eventually, fifteen-ish people on it, in an office I'm not in.", "location": null},
+      {"quote": "And I don't trust those numbers enough to make a hundred-thousand-dollar decision off them.", "location": null}
+    ], "note": "Des Moines growth, and hiring decisions made from data nobody trusts."},
+    {"criterion": "P3 Stated (fee burn seen too late)", "status": "met", "evidence": [
+      {"quote": "Mostly, we find out when it's too late.", "location": null},
+      {"quote": "And by the time it shows up on the WIP report, DD is at a hundred and forty percent and there's no fixing it.", "location": null}
+    ], "note": "Defines P3."},
+    {"criterion": "P3 Concrete", "status": "met", "evidence": [
+      {"quote": "By the time we saw it, we'd spent about thirty-eight thousand over the phase fee.", "location": null}
+    ], "note": "Rockford clinic DD phase; written off because the overrun was internal."},
+    {"criterion": "P3 Workaround", "status": "met", "evidence": [
+      {"quote": "Some PMs are great, they export their hours from Ajera into their own burn sheet every week. Half of them don't.", "location": null},
+      {"quote": "It was a rule for about one quarter.", "location": null},
+      {"quote": "And, I mean, the PMs aren't wrong, it's busywork.", "location": null}
+    ], "note": "Workaround: Bev's monthly WIP report plus optional PM burn sheets from an Ajera export and a VLOOKUP. Why it is not acceptable: a mandated rule already failed, and it is busywork."},
+    {"criterion": "P3 Reach", "status": "partial", "evidence": [
+      {"quote": "Ask Bev, and Bev's busy.", "location": null},
+      {"quote": "They'd rather be designing, and I'd rather they were billing.", "location": null}
+    ], "note": "PMs and Bev are implied, and Gordon cares about write-offs, but the client never says how late burn visibility affects each of them."},
+    {"criterion": "P3 Cost inputs", "status": "met", "evidence": [
+      {"quote": "it was about two hundred and ten thousand, firm-wide.", "location": null},
+      {"quote": "Twenty minutes if you know what you're doing. An hour if you don't.", "location": null},
+      {"quote": "I honestly wouldn't put a number on that.", "location": null}
+    ], "note": "Figures: about $210k write-offs last fiscal year, a $38k single instance, and 20-60 minutes per export. The share caused by late visibility is explicitly unquantified, so it stays out of the bleed."},
+    {"criterion": "P3 Trajectory", "status": "missing", "evidence": [], "note": "Nobody says what happens to burn visibility or write-offs next year or as the firm grows. Gap question: 'Say this stays as it is. What do write-offs look like with Des Moines added?'"},
+    {"criterion": "P4 Stated (submittals and owner approvals slipping)", "status": "met", "evidence": [
+      {"quote": "And the log is only as good as the PM keeping it.", "location": null},
+      {"quote": "Or they don't, and we keep going anyway because the schedule says so", "location": null}
+    ], "note": "Defines P4 (CA submittal reviews and SD/DD owner sign-offs)."},
+    {"criterion": "P4 Concrete", "status": "met", "evidence": [
+      {"quote": "A steel shop drawing on a school addition sat for nineteen days.", "location": null},
+      {"quote": "The GC sent a letter claiming a delay.", "location": null}
+    ], "note": "This spring; the reviewer was out sick and nothing was reassigned; the contract allowed ten business days."},
+    {"criterion": "P4 Workaround", "status": "partial", "evidence": [
+      {"quote": "Then the PM logs it in the submittal log, which, you guessed it, is an Excel file in the job folder on SharePoint.", "location": null},
+      {"quote": "The PMs track it however they track it.", "location": null}
+    ], "note": "The workaround is described, but the client never says why carrying on this way is unacceptable; it is only implied."},
+    {"criterion": "P4 Reach", "status": "partial", "evidence": [
+      {"quote": "But it cost us with that contractor. And those contractors talk to school districts.", "location": null}
+    ], "note": "Relationship damage with GCs and possibly owners is mentioned; internal reach (reviewers, PMs) is not described."},
+    {"criterion": "P4 Cost inputs", "status": "partial", "evidence": [
+      {"quote": "If you're deep in CA, it's way more than three.", "location": null}
+    ], "note": "Only bundled into the PMs' 3 h/wk; no submittal-specific hours, count or claim cost."},
+    {"criterion": "P4 Trajectory", "status": "missing", "evidence": [], "note": "Not discussed."}
+  ],
+  "pains": [
+    {"quote": "We lost it because we missed the deadline.", "location": null, "theme": "P1 Missed pursuit deadlines (why now)"},
+    {"quote": "There's no one place where a pursuit lives, with the due date and who's on it and what's changed.", "location": null, "theme": "P1 No single record per pursuit; addenda missed"},
+    {"quote": "And the fee sign-off is basically, you email Gordon a PDF and you hope.", "location": null, "theme": "P1 Fee proposal sign-off bottleneck"},
+    {"quote": "She told me she spends basically every Thursday afternoon emailing PMs going, \"Is this still a go? Did you look at the fee?\"", "location": null, "theme": "P1 Manual chasing of pursuit status"},
+    {"quote": "I can't tell you our win rate with a straight face.", "location": null, "theme": "P1 Pursuit data unreliable (stale open pursuits, win rate)"},
+    {"quote": "Because it lives in my head, honestly. If I get hit by a bus, nobody knows who's on what.", "location": null, "theme": "P2 Staffing depends on one person and a rebuilt spreadsheet"},
+    {"quote": "And it's mostly me reading percentages out loud and people going, \"No, she's not on that anymore.\"", "location": null, "theme": "P2 Staffing call wastes time on stale allocations"},
+    {"quote": "And I don't trust those numbers enough to make a hundred-thousand-dollar decision off them.", "location": null, "theme": "P2 Hiring decisions for the new office made on untrusted data"},
+    {"quote": "And me, because people come to me when they're burnt out.", "location": null, "theme": "P2 Over-allocation and burnout (internal only)"},
+    {"quote": "And by the time it shows up on the WIP report, DD is at a hundred and forty percent and there's no fixing it.", "location": null, "theme": "P3 Fee burn seen too late; write-offs"},
+    {"quote": "And, I mean, the PMs aren't wrong, it's busywork.", "location": null, "theme": "P3 Manual burn sheets are busywork"},
+    {"quote": "It had gone to our structural reviewer, he was out sick for a week, and nobody reassigned it.", "location": null, "theme": "P4 Submittal reviews slip past contract windows"},
+    {"quote": "and then six months later somebody on a school board says \"we never approved that.\"", "location": null, "theme": "P4 Owner approvals not tracked"}
+  ],
+  "numbers": {
+    "bleed": {
+      "value": "$504,920 per year, calculated and confirmed by the client ('five hundred and four thousand', 'feels light'): PM admin 22 x 3 h/wk x $105 loaded x 52 = $360,360; staffing 24 h/wk x $90 blended loaded x 52 = $112,320; pursuit chasing 10 h/wk x about $62 loaded x 52 = $32,240. Not included and unquantified: principals' time, the share of about $210k/yr write-offs due to late visibility, the $38k Rockford DD write-off, and the roughly $1.4M lost Larkspur Falls fee (one-off).",
+      "quote": "So three-sixty, plus one-twelve, plus thirty-two. That's five hundred and four thousand. A year.",
+      "status": "stated"
+    },
+    "upside": {
+      "value": "About $283,140 per year of billable time (half of the 66 PM hours = 33 h/wk x $165 average bill rate x 52), plus $800k-$1.2M per year in fee from two more healthcare wins a year (2-3 healthcare pursuits a quarter currently no-go'd, $400k-$600k fees, about a 1-in-4 hit rate).",
+      "quote": "That's eight hundred thousand to one point two million in fee.",
+      "status": "stated"
+    }
+  },
+  "vocabulary": [
+    {"their_term": "pursuit", "meaning": "A bid or opportunity for new work (from a bid portal RFQ/RFP or a PIC relationship)", "likely_monday_object": "item (CRM deal on a Pursuits board)"},
+    {"their_term": "pursuit log", "meaning": "Hallie's Excel list of all pursuits on SharePoint", "likely_monday_object": "board"},
+    {"their_term": "pursuit huddle", "meaning": "Friday meeting (meant to be 30 minutes) to review new pursuits and decide go/no-go", "likely_monday_object": "view (filtered board view or dashboard)"},
+    {"their_term": "go/no-go", "meaning": "Decision whether to chase a pursuit", "likely_monday_object": "status label"},
+    {"their_term": "fee proposal", "meaning": "The priced proposal (fee by phase and discipline) that Gordon signs off before submission", "likely_monday_object": "column set on the pursuit item (fee amount, file, sign-off status) or linked doc"},
+    {"their_term": "fee builder", "meaning": "Excel template: hours by phase and discipline times rates", "likely_monday_object": "subitems or doc (rates are confidential)"},
+    {"their_term": "fee sign-off", "meaning": "Managing partner's approval of every fee proposal", "likely_monday_object": "status column (approval) with people column"},
+    {"their_term": "addendum / addenda", "meaning": "Changes issued during a pursuit, such as a moved due date", "likely_monday_object": "subitem or update with date and file column"},
+    {"their_term": "RFQ / RFP", "meaning": "Request for qualifications / request for proposals", "likely_monday_object": "dropdown column"},
+    {"their_term": "bid portal", "meaning": "Public procurement site where pursuits are posted, addenda issued and submissions uploaded", "likely_monday_object": "link column"},
+    {"their_term": "short-listed / interview", "meaning": "Pursuit stages after submission", "likely_monday_object": "status label"},
+    {"their_term": "quals, resumes, project sheets", "meaning": "Qualification materials Hallie assembles for a submission", "likely_monday_object": "file column or doc"},
+    {"their_term": "PIC (principal in charge)", "meaning": "Partner accountable for the client relationship and the job", "likely_monday_object": "people column"},
+    {"their_term": "PM", "meaning": "Project manager who writes the fee and runs the job", "likely_monday_object": "people column"},
+    {"their_term": "job", "meaning": "Won work set up in Ajera with a job number; one project or building can have several jobs", "likely_monday_object": "item (Jobs board)"},
+    {"their_term": "job number", "meaning": "Ajera identifier for a job", "likely_monday_object": "text column (from Ajera)"},
+    {"their_term": "phase (SD, DD, CDs, bidding, CA)", "meaning": "Fee-bearing stages of a job: schematic design, design development, construction documents, bidding, construction administration; engineering-only jobs may be just design and CA", "likely_monday_object": "subitem (or item on a connected Phases board)"},
+    {"their_term": "phase fee", "meaning": "The fee budget for a phase", "likely_monday_object": "number column"},
+    {"their_term": "lump sum / hourly not-to-exceed", "meaning": "Fee types; burn means something different on hourly not-to-exceed work", "likely_monday_object": "dropdown column"},
+    {"their_term": "burn / burn sheet", "meaning": "Hours and cost spent against a phase fee; the PM's own Excel tracker", "likely_monday_object": "formula column and dashboard widget"},
+    {"their_term": "WIP report", "meaning": "Bev's monthly work-in-progress report after billing closes (around the 10th-12th)", "likely_monday_object": "dashboard"},
+    {"their_term": "write-off", "meaning": "Fee overrun that cannot be billed", "likely_monday_object": "number column"},
+    {"their_term": "the Wall", "meaning": "The Excel staffing sheet: a tab per office, people down the side, weeks across, allocation percentages (once a physical magnet whiteboard)", "likely_monday_object": "board plus workload view"},
+    {"their_term": "allocation / percentages", "meaning": "Share of a person's week on a job; 40 hours = 100 percent, part-timers differ", "likely_monday_object": "number column (percent) feeding a workload view"},
+    {"their_term": "staffing call", "meaning": "Tuesday 1 p.m. meeting (about 12 people) with studio leads and PICs", "likely_monday_object": "dashboard or filtered view"},
+    {"their_term": "studio / studio lead", "meaning": "A discipline team (e.g. interiors, structural) in an office, and its lead", "likely_monday_object": "dropdown column or team"},
+    {"their_term": "owner", "meaning": "The building owner, i.e. the client (city, school district), not a monday item owner", "likely_monday_object": "item on an Owners (accounts) board linked by connect-boards column"},
+    {"their_term": "submittal", "meaning": "Shop drawings, product data or samples a contractor sends for review during CA", "likely_monday_object": "item (Submittal log board)"},
+    {"their_term": "submittal log", "meaning": "Per-job Excel tracker of submittals on SharePoint", "likely_monday_object": "board"},
+    {"their_term": "GC", "meaning": "General contractor sending submittals (some via their own Procore)", "likely_monday_object": "text or connected-board column"},
+    {"their_term": "sign-off letter / owner approval", "meaning": "Owner's signed approval at the end of SD and DD", "likely_monday_object": "status column plus file column"},
+    {"their_term": "CA", "meaning": "Construction administration phase", "likely_monday_object": "status label or phase subitem"},
+    {"their_term": "additional service", "meaning": "Extra scope set up as its own Ajera job under the same project", "likely_monday_object": "dropdown column (job type)"},
+    {"their_term": "engineering-only job", "meaning": "Job where the firm is the engineer for another architect; different phases", "likely_monday_object": "dropdown column (job type)"},
+    {"their_term": "justice jobs", "meaning": "Jail and secure-facility work with access limited to named people", "likely_monday_object": "private board or restricted permissions"},
+    {"their_term": "DSM", "meaning": "Short name for the Des Moines office", "likely_monday_object": "dropdown label (office)"}
+  ],
+  "entities_and_workflows": [
+    "Pursuit intake from public bid portals or PIC relationships, logged by Hallie in the Excel pursuit log on SharePoint",
+    "Friday pursuit huddle with go/no-go; PIC and PM assigned on a go",
+    "Fee proposal built by the PM in the fee builder (hours by phase and discipline times rates); Hallie assembles quals, resumes and project sheets",
+    "Managing partner (Gordon) signs off every fee proposal before submission",
+    "Addenda issued through the bid portal to the registered contact only; due dates can move",
+    "Submission, short list, interview, won or lost; about 31 open pursuits in the log (many stale)",
+    "Won pursuit becomes a job: Bev sets it up in Ajera by retyping from the fee proposal PDF (job number, phases, phase fees)",
+    "Projects can contain several jobs (base building plus additional services)",
+    "Jobs split into phases: SD, DD, CDs, bidding, CA; engineering-only jobs may be design and CA only; lump sum or hourly not-to-exceed fees",
+    "Weekly time entry in Ajera against job and phase",
+    "Monthly WIP report after billing close; optional PM burn sheets from Ajera exports; write-offs",
+    "Weekly staffing: Jordan rebuilds the Wall on Monday and Tuesday morning from Teams messages, project schedules and Ajera hours; Tuesday 1 p.m. staffing call with about 12 people",
+    "CA submittals: received via GC Procore or emailed PDF, logged in per-job Excel submittal log, reviewed and stamped in Bluebeam, returned within 10 business or 14 calendar days",
+    "Owner approvals: SD and DD packages with sign-off letters sent by email",
+    "Offices and studios: Madison (main), Milwaukee, Rockford, Des Moines from November 2 (4 people, growing to about 15)",
+    "Healthcare pursuits currently declined for lack of capacity",
+    "People mentioned: Gordon (managing partner, approver), Bev (controller, Ajera owner), Marcus (outsourced IT), Hallie (marketing coordinator), Luis (PM), Karen (PM in Rockford, skeptic), Anneke (interiors, half PM, built the old monday board), Dev (structural engineer, Milwaukee)"
+  ],
+  "integrations_mentioned": [
+    "Ajera: must-have. Job numbers, phases, phase fees and hours; time entry stays in Ajera; ideally job numbers come from Ajera when a pursuit is won. Hosting and API access unconfirmed (Bev or Marcus to confirm)",
+    "Microsoft 365 sign-in (single sign-on expected by the IT provider)",
+    "Excel (the Wall, pursuit log, fee builder, submittal logs, burn sheets): likely import sources",
+    "SharePoint (job folders and pursuit log)",
+    "Microsoft Teams (staffing changes sent by chat)",
+    "Outlook / email (addenda, sign-off letters, emailed submittals)",
+    "Bluebeam (submittal markups and stamps)",
+    "Procore (owned by contractors; the firm only has logins)",
+    "Public bid portals"
+  ],
+  "compliance_or_security_signals": [
+    "IT provider expects Microsoft sign-in / single sign-on for any new tool",
+    "Loaded rates and salaries visible only to Bev, Tess and the partners; PMs see hours, not rates",
+    "Justice work (a county jail addition): drawings and security layout details restricted to named people on the team",
+    "Public clients: anything written about a school district job can end up in a records request",
+    "Ajera must remain the book of record for anything with a dollar sign; no double entry of time",
+    "Contractual submittal review windows (10 business days or 14 calendar days) with exposure to delay claims"
+  ],
+  "objections": [
+    {"quote": "We tried a project management tool, I want to say four years ago, and it was dead in about two months.", "type": "adoption (past failed rollout)"},
+    {"quote": "Double entry. You had to put your stuff in there and still do everything else you were already doing.", "type": "adoption (double entry)"},
+    {"quote": "And if Bev decides this is going to mess with Ajera, that's a hard stop.", "type": "integration / technical veto"},
+    {"quote": "Nobody's going to want training in October.", "type": "timing (busy season)"},
+    {"quote": "But anything over twenty-five thousand, Gordon signs.", "type": "check with someone (approver not on the call; anticipated)"},
+    {"quote": "Marcus suggested we just use Planner, since we already pay for Microsoft.", "type": "alternative in play (dismissed by Tess)"},
+    {"quote": "And Bev asked whether Ajera has a project module we're not using.", "type": "alternative in play (use existing system; unchecked)"}
+  ],
+  "commitments_and_next_steps": [
+    {"quote": "Ten a.m. Central on the twenty-fourth, then.", "what": "First-version walkthrough with Tess, Jordan and Gordon (invited); 45 minutes booked, aim for 30", "owner": "Consultant (hosts); Tess and Jordan attend", "date": "2026-09-24 10:00 Central"},
+    {"quote": "I'll send the invite to you both today.", "what": "Send the calendar invite for September 24", "owner": "Consultant", "date": "2026-09-10"},
+    {"quote": "I'll forward it to him today and let you know by Friday the eighteenth if he's in.", "what": "Forward the invite to Gordon and confirm whether he attends", "owner": "Tess Kowalczyk", "date": "2026-09-10 (forward); 2026-09-18 (confirm)"},
+    {"quote": "Yeah, I can do that. By Tuesday? The fifteenth?", "what": "Send a copy of the Wall, the pursuit log and an Ajera export for one job (names and rates may be scrubbed)", "owner": "Jordan Pruitt", "date": "2026-09-15"},
+    {"quote": "I'll talk to her tomorrow.", "what": "Give Bev a heads-up that the Consultant may have questions about Ajera", "owner": "Tess Kowalczyk", "date": "2026-09-11"},
+    {"quote": "And I'll send you a short recap by end of day tomorrow", "what": "Send a recap of what was heard and next steps for correction", "owner": "Consultant", "date": "2026-09-11"},
+    {"quote": "I put together a first version with those pieces, in your language, pursuits, jobs, phases, the Wall, and we walk through it together with Gordon.", "what": "Build a first version: pursuits through fee sign-off, jobs and phases with sample Ajera hours and fees, staffing view replacing the Wall, basic submittal log", "owner": "Consultant", "date": "before 2026-09-24"},
+    {"quote": "I'll check with you how you want those set up before I build anything.", "what": "Confirm how multi-job projects and differing phase sets should be set up", "owner": "Consultant", "date": "before the build (no date set)"},
+    {"quote": "On the PMs, would it make sense for me to talk to one or two of them before we get too far along?", "what": "Talk to PMs Luis and Karen (Rockford) before going far; suggested, not scheduled", "owner": "Consultant (to arrange with Tess and Jordan)", "date": "not set"}
+  ],
+  "traps": [
+    "Polite hedge on timing: Tess wants 'the whole thing' live before Des Moines opens but says she doesn't want to hold anyone to that. Only the pursuits side has a firm November 2 deadline; ask before planning full go-live for November 2.",
+    "'Owner' means the building owner (the client: city, school district), not a monday item owner or person column.",
+    "One project can hold several Ajera jobs (the Oak Street fire station is a base-building job plus an additional-services job); do not model project = job without asking.",
+    "Phases are not uniform: engineering-only jobs may have only design and CA, and hourly not-to-exceed work reads burn differently from lump sum; do not hard-code SD/DD/CD or a single burn rule.",
+    "The Ajera connection is a must-have, but hosting ('the cloud version, I think?'), API access and data direction (read hours and fees, or also create job numbers from won pursuits) are unconfirmed. Time entry must stay in Ajera; do not propose monday time tracking as a replacement.",
+    "Loaded rates ($105 PM, $90 blended, about $62 for Hallie) versus bill rate ($165): the bleed uses loaded rates and the upside uses bill rate. Rates are confidential (PMs see hours, not rates) and must not appear in boards, seed data or client-facing material.",
+    "The bleed total ($504,920) excludes unquantified items: principals' time, the share of about $210k/yr write-offs due to late visibility (client refused to guess), the $38k Rockford write-off and the roughly $1.4M lost Larkspur Falls fee. Do not add them in.",
+    "The write-off target is not agreed: Tess guesses Gordon would be happy with half but wants to ask him first; success criteria stay proposed.",
+    "Scope was agreed only as a first version to show ('just to show you, not to sign anything') and without the approver; R12 is Partial, so no proposal or pricing prep yet.",
+    "Gordon (managing partner, approves spend over $25k) was not on the call and his attendance on September 24 is unconfirmed until September 18; Bev can effectively veto anything touching Ajera.",
+    "Procore belongs to the contractors (the firm only gets logins, and only about half of GCs use it); it is not a required integration.",
+    "Existing monday use is a lapsed free-trial FF&E board built by Anneke; do not assume an active account, reusable structure, or that FF&E is in scope.",
+    "Loose or conflicting numbers: headcount 'a hundred and twenty' vs 'a hundred and eighteen'; PMs 'twenty-two' vs 'twenty-three' (Anneke is half PM); Jordan's Wall time is 'most of Monday and half of Tuesday morning' but costed as 'call it twelve hours'; the pursuit log shows 31 open, but 'half of those are dead'; the win rate ('something like thirty-five percent') is unreliable.",
+    "The call date and year are not stated; 'Tuesday the fifteenth', 'Friday the eighteenth', 'Thursday the twenty-fourth' and the October 1 partner meeting fit a call on Thursday 10 September 2026, but confirm rather than assume.",
+    "'Monday' in the transcript is the weekday (Tess's Monday-morning view, Jordan's Monday rebuild), not the product; the staffing call is on Tuesday; 'the Wall' is a spreadsheet, not a physical board.",
+    "Alternatives in play: Marcus suggested Microsoft Planner (Tess dismissed it) and Bev wondered whether Ajera has an unused project module ('Nobody's actually checked'); either could come back as an objection.",
+    "Submittal review windows differ by contract (10 business days vs 14 calendar days); do not hard-code one.",
+    "Security scoping: justice jobs need access limited to named people, public-sector records requests mean comments must stay professional, and Microsoft single sign-on is expected.",
+    "Personal and emotional details (Gordon's 'We are not a firm that misses deadlines' and everyone looking at Tess, resignations and burnout, Jordan wanting to leave before six on a Tuesday) are internal only and must not leak into recaps, SOPs or the build.",
+    "The suggested PM conversations (Luis, Karen) have no date or owner, and Jordan's 'basic submittal log' push is a first-version add Tess accepted with 'don't spend a lot of time on it'."
+  ],
+  "requested_changes": [],
+  "should_plugin_propose_a_build": true,
+  "expected_questions_before_building": [
+    "Ajera: which edition and hosting do you use, is API or scheduled-export access available, and who (Bev, Marcus) can grant it? Should data flow one way (job numbers, phases, phase fees, hours into monday) or should won pursuits also create jobs in Ajera?",
+    "Is November 2 the go-live target for the pursuits pipeline only, or also for jobs, staffing and fee burn?",
+    "How should a project with several Ajera jobs (base building plus additional services) appear, and at which level do Tess and the PMs want to see burn?",
+    "Which phase sets and fee types exist (SD/DD/CDs/bidding/CA, design and CA for engineering-only, lump sum vs hourly not-to-exceed), and how should burn be judged for each?",
+    "Which pursuit stages and fields matter (RFQ/RFP, bid portal link, due date and time, registered portal contacts, addenda, go/no-go, PIC, PM, fee amount, fee sign-off, short list, interview, won/lost), and is Gordon the only person who can sign off a fee?",
+    "Who may see fees, loaded rates and bill rates; which jobs (e.g. justice work) need restricted access; is Microsoft single sign-on required from day one?",
+    "How should staffing be expressed (percent of a 40-hour week, capacity for about six part-timers, by office and studio), and should allocations come from PM plans, Ajera hours or both?",
+    "Should owners (clients) and their contacts be tracked in the CRM, and where do those contacts live today?",
+    "Build in a new account, or reuse Anneke's existing monday account and board? Who will own and administer the account?",
+    "How much should the basic submittal log include in the first version (fields, review clock of 10 business or 14 calendar days, reviewer reassignment), and are owner approvals definitely deferred?",
+    "Should the first version use Jordan's files due September 15 (names and rates scrubbed) or invented sample data, given the Ajera connection will use sample hours at first?",
+    "What would Gordon count as write-offs 'coming down', so success criteria can move from proposed to agreed?"
+  ]
+}

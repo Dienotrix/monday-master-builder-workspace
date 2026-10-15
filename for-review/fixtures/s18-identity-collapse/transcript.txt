@@ -1,0 +1,266 @@
+Brindlehaven Marina - discovery call
+Recording length: 00:45:02
+Participants (5): Consultant, Tadhg Devlin, Jon Ashby, John Rudge, Maxine Bassett
+
+[00:00:03] Consultant: Hello, hello. I think I can see three of you. Can you hear me all right?
+[00:00:10] Jon Ashby: We can hear you. I'm down at the marina office, so if you hear halyards slapping, that's the wind, not me.
+[00:00:19] Consultant: Noted. It sounds nice, actually.
+[00:00:23] Tadhg Devlin: Morning. Tige here. I'm in the yard office, which is where the dog is, so if you hear a dog, that's Biscuit, ignore him. John's down in the marina office. John's upstairs, above me, because he doesn't like the dog.
+[00:00:40] John Rudge: I can hear the dog through the floor, for the record.
+[00:00:45] Consultant: [laughs] Right. And there's one more square on my screen that says Maxine. Is that Maxine?
+[00:00:52] Maxine Bassett: No, sorry, it's Bernie. I'm on Maxine's laptop because mine's died and the IT company's had it since Friday. So I'll come up as Maxine all morning, I can't change it. Maxine's off till the twenty-eighth.
+[00:01:06] Consultant: Bernie. Got it. I'll try to remember. If I slip, shout.
+[00:01:11] Maxine Bassett: Everyone slips. Bernie Locke, I run the workshop. I'm in the workshop now, actually, up on the mezzanine, so if it goes quiet I've gone down to stop someone doing something stupid.
+[00:01:25] Consultant: Fair enough. Tige, how's the week? You're a few weeks off the busy bit, I think?
+[00:01:33] Tadhg Devlin: Three weeks on Monday. The twelfth. Then it's eight weeks of lifting boats out of the water and I don't see my kids. It's fine. It's the same every year.
+[00:01:45] Jon Ashby: It's not the same every year. It gets bigger every year.
+[00:01:50] Tadhg Devlin: It gets bigger every year, John's right. Sorry. Go on.
+[00:01:56] Consultant: Okay. Before I start asking, let me, let me say how I'd like to use the time, and you tell me if that's wrong. This is a conversation, not a demonstration. I'm not going to show you anything today. I want to understand how a boat gets from the water to the yard and back, where that goes wrong, and what you'd want instead. And if the honest answer at the end is that you need a better spreadsheet and a bigger whiteboard, I'll say so.
+[00:02:30] Tadhg Devlin: Good. That's what I told Aubrey we'd do. Ask away.
+[00:02:36] Consultant: Then give me the thirty-second version of Brindlehaven. Who you are, what you do, roughly how big.
+[00:02:43] Tadhg Devlin: So. We're, um, we're a marina and a boatyard. Four hundred and twenty berths on the pontoons, about a hundred and eighty swinging moorings out in the river, a fuel berth, a chandlery, and the yard, which is the bit that matters for this. The yard is a fifty-tonne hoist, three acres of hardstanding and a workshop with nine engineers. Forty-six staff, nearer sixty in the summer with the seasonals. Family-owned. The Threlfalls have had it since the seventies.
+[00:03:13] Consultant: And the four of you. Just titles, for my notes.
+[00:03:19] Tadhg Devlin: I'm Tige Devlin, general manager, which means everything that floats or doesn't is mine. Fourteen years here, six as GM. John, down at the marina end, is marina manager. Berths, moorings, the hoist, the lads in the yard. John upstairs is finance and admin. Invoices, the office, Maxine reports to him. And Bernie's got the workshop.
+[00:03:40] Consultant: Two Johns. I'll get that wrong at least once.
+[00:03:44] John Rudge: Everybody does. He's Ashby, I'm Rudge. Or he's the wet John and I'm the dry John, which is what the yard calls us.
+[00:03:54] Jon Ashby: I have never once been called that.
+[00:03:58] John Rudge: You have. You just weren't there.
+[00:04:01] Consultant: [laughs] Ashby and Rudge, then, when it matters. And for my notes, Tige Devon, general manager. Yes?
+[00:04:10] Tadhg Devlin: Devlin. Tige Devlin. Close enough, everyone gets the first bit wrong, nobody gets the second.
+[00:04:17] Consultant: Devlin. Sorry. Tyge, what made you pick up the phone now, rather than a year ago?
+[00:04:26] Tadhg Devlin: April. And the pontoon. They're the same thing, really.
+[00:04:30] Consultant: Tell me about April.
+[00:04:33] Tadhg Devlin: So every boat that comes out in the autumn goes back in the spring. Three hundred and forty out, give or take, three hundred and forty back in, between the first of March and the end of April, and every one of them has a date the owner's booked. And this April, forty-one of them weren't ready on their date.
+[00:04:57] Consultant: Forty-one.
+[00:05:00] Tadhg Devlin: Forty-one boats sat on the hardstanding with an owner stood next to them, on the day they'd booked, with the antifoul not done or the anodes not on or, in two cases, the engine in bits on the floor of the workshop. Because the job card was in the wrong pile, or in a van, or in one case, in the skip.
+[00:05:24] Maxine Bassett: That was the Kittiwake. I found it in the skip.
+[00:05:29] Tadhg Devlin: Bernie found it in the skip. So we paid nine and a half thousand in goodwill credits, near enough, we lifted twenty-three boats twice because they went in and had to come straight back out, and eleven owners didn't renew. Eleven annual berths walked across the water to the place opposite.
+[00:05:49] John Rudge: tag, before you go on. The eleven. Say the number, or I will.
+[00:05:55] Tadhg Devlin: Say it, you've got it.
+[00:05:58] John Rudge: Forty-six thousand two hundred a year of berthing. Eleven at four thousand two hundred. Every year they stay over there.
+[00:06:06] Consultant: I'll come back to the numbers, I promise. Teague, you said forty-one. Is that the number Aubrey saw?
+[00:06:14] Tadhg Devlin: That's the number Aubrey saw. He saw the credits first, then he counted the boats himself, on a Sunday, with a clipboard. That's the kind of chairman he is.
+[00:06:26] Consultant: And the pontoon?
+[00:06:29] Tadhg Devlin: C pontoon. Sixty new berths, built, in the water in March. Which is sixty more boats coming out next autumn and sixty more going back in the spring after. And Aubrey, who's the chairman, Aubrey Threlfall, the family, said to me in May, and I'm quoting, "I'm not paying for a pontoon so you can lose the boats off it." So that's the why now.
+[00:06:56] Consultant: When you say owner, just so I write it right.
+[00:07:01] Tadhg Devlin: The boat's owner. The customer. The family's the family. Nobody calls Aubrey the owner, he'd hate it, and it's four of them anyway.
+[00:07:12] Consultant: Got it. That's a clear why now, thank you. Um, Ashby, same question to you. What made it worth an hour of your morning?
+[00:07:21] Jon Ashby: Because I'm the one stood at the hoist at seven in the morning with two boats booked into the same slot and an owner on the phone. Twice a week in October. Three, some weeks.
+[00:07:35] Consultant: Okay. Let's walk it. Start me at the beginning. A boat's in the water, it's September, the owner wants it out for the winter. What happens?
+[00:07:47] Jon Ashby: They ring the office. Or they email the office, or they catch me on the pontoon and I write it on my hand. Most of them ring. Maxine takes it. She puts it in the book.
+[00:08:01] Consultant: The book being?
+[00:08:05] Jon Ashby: The lift-out list. It's a, it's a spreadsheet. One tab for lift-outs, one for launches, a line per boat. Boat name, owner, length, date they want, what they want done while it's out. Maxine runs it. Nobody else touches it.
+[00:08:20] John Rudge: Nobody else can touch it. It's got, I don't know, twenty years of Maxine in it. There's colours that mean things.
+[00:08:29] Consultant: And Maxine's not here.
+[00:08:32] Jon Ashby: Maxine's on leave. Back on the twenty-eighth. So we're describing her bit second-hand, which she'd hate.
+[00:08:41] Consultant: Understood. I'll write it as second-hand and I'll keep a list of things to ask her. Then what?
+[00:08:49] Jon Ashby: Then, on the Friday, I print the next week out of the book and I put the boats onto the hoist board, which is a whiteboard in the yard office, a column a day, and the lads work off a printed sheet from that each morning. Four, five boats a day at the peak. We can only lift two hours either side of high water because the hoist dock dries out, so the tide decides how many slots there are, and the tide moves every day.
+[00:09:21] Consultant: So the slots move.
+[00:09:24] Jon Ashby: The slots move. The book doesn't know about the tide. Maxine puts a date in, I look at the tide tables, and if that date's a neap with high water at five in the morning, that's two boats that day, not five. And I find that out on the Friday.
+[00:09:44] Consultant: And the two hours either side, is that fixed?
+[00:09:48] Jon Ashby: That's Devlin's rule, not mine. Two hours either side, no arguments, after the time we had a forty-footer sat on the mud in the slings. So on a neap it's two boats. On a big spring it's five, six if Wojtek's on form.
+[00:10:05] Consultant: What's on the printed sheet? The one the lads work from.
+[00:10:10] Jon Ashby: Boat name, length, weight if we know it, which berth it's coming off, which cradle it's going on. Every cradle's got a tag on it with a number, and the number's on the sheet, so they know where to put it. Owner's phone number, because half of them want to watch. And a box for who drove, which nobody fills in.
+[00:10:33] Consultant: Weight matters?
+[00:10:36] Jon Ashby: Fifty-tonne hoist, and Wojtek, he won't lift what he can't weigh. If the owner says twelve tonnes and it's sixteen, that's a conversation on the dock with the boat half out. We've got the weights for maybe two thirds of the regulars. In Maxine's head, mostly. Some on the sheet.
+[00:10:56] Consultant: So the weight is a fact about the boat that lives in three places or none.
+[00:11:03] Jon Ashby: Or none. Yes. Usually none.
+[00:11:07] Consultant: Okay. So the boat comes out. Then who?
+[00:11:11] Jon Ashby: Then it's the yard's. Right, tie, your go. It's yours once it's on a cradle.
+[00:11:17] Tadhg Devlin: It's mine once it's on a cradle, yeah. Wojtek drives the hoist, Lorcan and the lads chock it and tie it into the cradle, and it's got a job card by then. Or it should have.
+[00:11:31] Consultant: Where does the card come from?
+[00:11:34] Tadhg Devlin: Maxine. When she takes the booking she writes a card off the book. Triplicate pad. Boat name, owner, what they've asked for. Antifoul, anodes, engine service, whatever. Top copy to Bernie, second copy stays in the office, third copy on the boat in a plastic wallet cable-tied to the pushpit.
+[00:11:54] Maxine Bassett: In theory.
+[00:11:57] Tadhg Devlin: In theory. Bernie?
+[00:12:00] Maxine Bassett: In theory the top copy comes to me and I put it on my wall, which is a whiteboard with hooks on it, one hook a boat, and I give it to an engineer, and he takes it to the boat and writes his hours on it, and when the job's done it comes back to me and I sign it and it goes upstairs to John.
+[00:12:26] Consultant: How do you decide who gets it?
+[00:12:31] Maxine Bassett: Who's nearest, mostly. And what it is, what the job is. Engines go to the two engine lads, GRP and antifoul goes to whoever's got a roller in their hand. There's nine of them and I know what each of them can do, and that's in my head, and it's fine until I'm off.
+[00:12:52] Consultant: And in practice?
+[00:12:57] Maxine Bassett: In practice the card's in his van. Or on the boat. Or he's done the antifoul and moved on to the next one and the card's still on my wall with nothing written on it, and on the Friday I go round with a pen and ask everyone what they did all week. And they tell me, roughly.
+[00:13:20] Tadhg Devlin: [dog barks] Biscuit. Sorry. He heard the word van.
+[00:13:24] Consultant: Roughly.
+[00:13:28] Maxine Bassett: Roughly. They're engineers. They've got hands like shovels and their phones live in a drawer. They can rebuild a gearbox in the rain but they will not write down that they did it.
+[00:13:41] Consultant: And the hours that don't get written down?
+[00:13:46] Maxine Bassett: Don't get billed. John can only invoice what's on the card.
+[00:13:53] John Rudge: I can only invoice what's on the card. If the card says fourteen hours, it's fourteen hours. I've no way of knowing it was twenty-six.
+[00:14:05] Consultant: Was there a job where it was twenty-six?
+[00:14:09] Maxine Bassett: The Kittiwake. The one in the skip. I know it was twenty-six because Lorcan and I did most of it ourselves. The card said fourteen because that's what was on it when I fished it out.
+[00:14:23] Tadhg Devlin: And the other one. The [inaudible] one, with the saildrive.
+[00:14:28] Maxine Bassett: Doesn't matter. That one's on me, not the card.
+[00:14:33] Consultant: How often does that happen? Roughly, I know.
+[00:14:37] Maxine Bassett: Every week. Not the skip. The hours. I'd say three, four hours a week, each engineer, that never make it onto a card. It's not that they're skiving. It's the walk back to the van, it's the second job they did while they were up the ladder, it's the snag they fixed because it was there.
+[00:14:58] Tadhg Devlin: Bernie thinks it's more than that. She's being polite because you're new.
+[00:15:03] Maxine Bassett: tide, hang on, that's not what I said. I said three or four hours a week, each. Not a day. Don't make it bigger than it is, because John will write it down.
+[00:15:16] Tadhg Devlin: Three or four hours a week. Sorry. Each.
+[00:15:21] Consultant: Okay. I'll hold that exactly as Bernie said it. Has it always been like that, or is it getting worse?
+[00:15:29] Maxine Bassett: It's always been a bit like that. It got worse this year, because the two new lads started in March and they don't know yet that I'll come round on the Friday. The old ones tell me. The new ones look at their boots.
+[00:15:48] Consultant: Maxine, sorry, Bernie, when a card comes back to you, who signs it off?
+[00:15:56] Maxine Bassett: Me. And anything over five hundred quid in parts the GM signs, which is Tige, which is fine, he's usually stood next to me anyway.
+[00:16:06] Tadhg Devlin: Bernadette's being modest. She signs most of mine as well.
+[00:16:12] Maxine Bassett: Don't.
+[00:16:15] Consultant: Rudge, your end. A signed card comes upstairs. Then what?
+[00:16:20] John Rudge: I type it into the accounts package. Boat, owner, hours times the rate, parts off the card, and it goes out to the owner. Which, in April, was six to eight weeks after the boat went back in the water, because the cards come up in a heap when Bernie clears her wall, not when the job's done.
+[00:16:44] Consultant: Six to eight weeks.
+[00:16:47] John Rudge: Six to eight. Yeah. And an owner who's been sat on the hardstanding for three days past his date, looking at a boat with no antifoul on it, is not in a mood to pay an invoice in June for work he can't remember.
+[00:17:04] Consultant: And the parts?
+[00:17:08] Maxine Bassett: Parts are me. I ring the suppliers, I've got accounts with four of them, it comes on a van, I put it on the boat. The parts go on the card if I remember to write them on the card. That's a separate mess and honestly I'd leave it out.
+[00:17:27] Consultant: Noted, and I'll come back to whether it's in or out. The launch side. When does a boat get its date to go back in?
+[00:17:37] Jon Ashby: When it comes out. Maxine asks on the phone, when do you want it back in, and they say a Saturday in April because they all say a Saturday in April, and she writes it in the launches tab. And then in February half of them ring and move it, and the new date goes in the book, and the card on the boat still says the old date. If it says a date at all.
+[00:18:06] Consultant: So the date changes and the card doesn't.
+[00:18:10] Jon Ashby: The date changes and the card doesn't. Or the card changes because Bernie heard about it, and the book doesn't. Either way there's two dates and one of them's wrong.
+[00:18:23] Consultant: And who tells the owner it's ready? When it is ready.
+[00:18:28] Jon Ashby: Nobody, formally. If Bernie's happy with it she rings Maxine and Maxine rings the owner. Or the owner rings first, which is most of them.
+[00:18:40] Maxine Bassett: Or I ring the owner myself, because I've got his number off the card, and then Maxine doesn't know I've rung, and she rings him as well. Twice in one afternoon, once. He thought we'd lost the boat.
+[00:18:56] Consultant: And do owners email, or is it all the phone?
+[00:19:01] Jon Ashby: The younger ones email. The older ones ring. One writes letters. Actual letters, with a stamp, and he's not the oldest.
+[00:19:11] Consultant: One more on the process. The berthing, the annual contracts. Where does that live?
+[00:19:17] Jon Ashby: The berthing system. Contracts, direct debits, who's on which berth, the waiting list. It's fine. It does berths. It doesn't know a boat's out of the water and it doesn't want to.
+[00:19:31] John Rudge: And it's not moving. I'll say that now so nobody wastes an hour on it.
+[00:19:37] Consultant: Understood. I wouldn't suggest it. And the, the chandlery, the fuel berth. Do they come into this at all?
+[00:19:47] Tadhg Devlin: No. No, leave the shop out. The shop's the shop, it's got its own till and its own problems, and none of them are boats sat on the hard.
+[00:19:58] Consultant: Then the shop's out. Visitors?
+[00:20:01] Jon Ashby: Visitor lifts, yes, those matter. A boat from up the coast wants a lift for a survey, in and out the same day, no card, and no line in the book half the time because they rang me on the pontoon. Twenty, thirty of those a year. They're the ones that turn up in the slot somebody else had.
+[00:20:23] Consultant: So a visitor lift is a lift with no card and no line in the book.
+[00:20:32] Jon Ashby: A lift with no card, no line, and a surveyor tapping his watch. Tyge, tell them about the survey one in August.
+[00:20:42] Tadhg Devlin: The survey one. Right. A forty-footer in for a survey, lifted at nine, surveyor didn't turn up till two, boat in the slings for five hours, and two of our own lifts went to the next day. Two owners rang Aubrey. Not me, Aubrey. That's a visitor lift.
+[00:21:01] Consultant: Okay. Ashby, the double booking. Tell me about a day it happened.
+[00:21:08] Jon Ashby: Second week of October last year. High water was ten past nine, near enough. So the window's quarter past seven to quarter past eleven, that's four boats if nothing goes wrong. The board said four boats. The book said five, because Maxine had taken a fifth on the Thursday and it hadn't got to the board. And one of the four on the board was a relaunch, not a lift, because a boat that came out in September for a quick job needed to go back in, and that was on Bernie's wall and not in the book at all.
+[00:21:46] Consultant: So three places it could be.
+[00:21:50] Jon Ashby: Three places. And a forty-two-foot boat hanging in the slings for forty minutes while three of us argued about whose was next, with the tide going out under it.
+[00:22:03] Consultant: John, you said twice a week in October?
+[00:22:08] John Rudge: Not me. I only see it when the credit note lands on my desk, and that's a fortnight later.
+[00:22:16] Jon Ashby: That was me. Twice a week. Three, some weeks. Spring's worse, because the launches are all on dates the owner picked back in October, and then the weather has opinions.
+[00:22:28] Consultant: Sorry. Ashby. Twice a week. What do you do about it now?
+[00:22:33] Jon Ashby: I ring the office at half six every morning and ask Maxine what came in yesterday. And I walk round the yard with the sheet before the lads start. That's the system. Me, walking.
+[00:22:46] Consultant: And when Maxine's not there?
+[00:22:49] Jon Ashby: Then there isn't a system. [laughs] No. Then whoever's covering reads me the book down the phone and I hope.
+[00:22:57] Tadhg Devlin: Jonny, the re-lift. When we lift one twice, is that still one-eighty we don't charge?
+[00:23:03] Jon Ashby: One-eighty. Same as a visitor lift. We could charge it. We don't, because it's our fault, mostly.
+[00:23:11] Consultant: Tighe, do you walk the yard as well? Is that the same walk?
+[00:23:18] Tadhg Devlin: Different walk. I do the seven o'clock one in April with the launch list. Every boat that's due in that week, I go and stand next to it and look at whether it's ready. Forty boats, an hour and a half, every morning for eight weeks. And I still missed forty-one, because ready isn't a thing you can see. The antifoul's on, but the anode's in a box in the workshop.
+[00:23:46] Consultant: So the walk finds the boat that isn't ready. It doesn't tell you why, or when it will be.
+[00:23:54] Tadhg Devlin: It tells me who to shout at. That's about all it tells me.
+[00:24:01] John Rudge: Thady, tell them about the Saturday.
+[00:24:04] Tadhg Devlin: The Saturday. Right. Saturday the eighteenth of April. Nineteen launches booked. Six ready. And a man in a deckchair next to his boat with a flask, from eight in the morning, because he'd driven three hours and he'd been told, by Maxine, in good faith, that it was done. He was there till four. We didn't launch him. His boat's one of the eleven.
+[00:24:30] Consultant: That's the picture. Thank you. And on the day, could anyone have told him the week before?
+[00:24:39] Tadhg Devlin: Bernie could have, if she'd known his date. Bernie's wall doesn't have dates on it. It has boats on it.
+[00:24:47] Maxine Bassett: It has boats on it. The date's in the book. The book's Maxine's. I've asked for a copy on the Friday and I get one, sometimes.
+[00:24:58] Consultant: And the owners, generally. While all this is going on, how do they find out?
+[00:25:06] Maxine Bassett: They ring. In April the office phone doesn't stop. Is my boat in, is it done, why isn't it done. Maxine's answerphone message in April actually says, if you're ringing about your launch date we'll ring you. Which they don't believe, so they ring.
+[00:25:23] Consultant: How many calls?
+[00:25:26] Maxine Bassett: Dozens a day. I couldn't tell you. Maxine could.
+[00:25:31] Consultant: Rudge, is there a number on what that costs? Maxine's time on those calls, say?
+[00:25:38] John Rudge: There isn't, and I'm not going to invent one. That's a Maxine number. She'd know what share of April she spends on the phone. I'd be guessing, and you'd write it down.
+[00:25:53] Consultant: Fair. I'd rather have nothing than a guess. It goes on the list for the twenty-eighth.
+[00:26:00] Tadhg Devlin: Put it on the list. Tyge's list is getting long, as John will tell you.
+[00:26:07] Maxine Bassett: Sorry, I had to go down for a second. Someone was about to lift a keel with the forklift. I'm back. Where are we?
+[00:26:17] Consultant: No harm done. We're about to do the money, and I want yours, not mine. Rudge, you've got the credits.
+[00:26:26] Tadhg Devlin: John's got the actual credits number, he pulled it yesterday.
+[00:26:32] Jon Ashby: I haven't, I've only got the re-lifts. Oh. Other John. Rudge. Sorry.
+[00:26:38] John Rudge: Nine thousand four hundred and twelve, in goodwill credits, April and May, all of it launch dates. And twenty-three re-lifts we didn't charge for, which is a hundred and eighty each, so four thousand one hundred and forty. Thirteen and a half thousand, near enough, the pair of them.
+[00:26:59] Consultant: Is that every year?
+[00:27:03] John Rudge: It's the worst year. Last year was maybe half that. But it's not a one-off, it's a curve, and the curve's going the wrong way.
+[00:27:13] Jon Ashby: It wasn't half. [crosstalk] The re-lifts were the same, it was the credits that.
+[00:27:20] John Rudge: The credits were half. The re-lifts I don't count, because you don't charge them, so I never see them.
+[00:27:28] Jon Ashby: Because they're our fault.
+[00:27:31] Consultant: Okay. Credits roughly half last year, re-lifts about the same. Which year do you want me to write?
+[00:27:41] John Rudge: Write this year's. It's the one Aubrey saw.
+[00:27:47] Consultant: Bernie, the hours. Three or four a week per engineer.
+[00:27:53] Maxine Bassett: Three or four. Say three, so John doesn't accuse me of making it up.
+[00:27:59] John Rudge: Three, nine engineers, that's twenty-seven hours a week. We charge fifty-eight an hour. Forty-six weeks, because the workshop's dead over Christmas and half of August. Twenty-seven times fifty-eight is fifteen sixty-six. Times forty-six. Seventy-two thousand. Seventy-two thousand and some.
+[00:28:15] Consultant: And that's revenue you'd have invoiced, not a cost.
+[00:28:19] John Rudge: It's money we did the work for and didn't get. Call it what you like on your form, it's gone.
+[00:28:27] Consultant: Fair. The office side. The retyping, the six-thirty calls, the walking.
+[00:28:33] John Rudge: Maxine and her number two spend, I'd say, twelve hours a week between them typing the same booking three times. Into the book. Onto a card. And when it's done, into the accounts package. Nineteen an hour loaded, forty-eight weeks. Eleven thousand, near enough. That one's my estimate, not Maxine's, so it's soft.
+[00:28:53] Consultant: So what have we got?
+[00:28:56] John Rudge: Seventy-two, plus eleven, plus thirteen and a half. Ninety-six and a half thousand. A year. And that's light, because Bernie's hours are Bernie's guess and my eleven is my guess.
+[00:29:10] Tadhg Devlin: Ninety-six and a half. I'd sign that. It's light, but I'd sign it.
+[00:29:18] John Rudge: Tige signs it, I stand behind it. That's the division of labour here.
+[00:29:24] Consultant: And the eleven berths? The forty-six thousand?
+[00:29:28] John Rudge: Not in the ninety-six. Because it's not every year, I hope. It's forty-six thousand a year for as long as they stay across the water, but I'm not putting it in a number I have to stand behind in front of Aubrey.
+[00:29:44] Consultant: I'll keep it beside the number, not in it. And Bernie's own time, the parts written off, Wojtek's overtime?
+[00:29:52] Maxine Bassett: Don't. I'd be guessing and you'd be quoting me.
+[00:29:56] Consultant: Then they stay out. Other direction. If this worked, what's the upside, in money? Not the pain going away, the thing you'd win.
+[00:30:05] Tadhg Devlin: The sixty berths. C pontoon. Sixty at four thousand two hundred is two hundred and fifty-two thousand a year in berthing, and every one of those boats is a lift and a launch and a workshop job on top. If April happens again with four hundred boats instead of three-forty, they don't stay, and the pontoon's a very expensive place to tie up a dinghy.
+[00:30:31] Consultant: How much of the two fifty-two depends on this, rather than on the pontoon being there?
+[00:30:40] Tadhg Devlin: I can't split that for you. All of it if April happens again. None of it if it doesn't. It's not a number I can give you honestly.
+[00:30:52] Consultant: Then I'll write it as the pontoon's number with a dependency on this, not as this project's number.
+[00:31:01] Tadhg Devlin: Write it like that.
+[00:31:06] Consultant: Say it worked. Say it's next April. What's different, in a sentence?
+[00:31:12] Tadhg Devlin: One list. A boat comes out, and everything about it, the jobs, the parts, the launch date, who's on it, is in one place, and on a Monday morning I can see which ones won't make their date, and the owner's been told a week before, not on the day. That's it. Boats ready on their date, and every hour on a card by the Friday.
+[00:31:37] Consultant: Can I write "no boat misses a launch date without the owner being told a week before" as the measure?
+[00:31:45] Tadhg Devlin: Write fewer than five. I'm not a fool. Five, and every one of them warned.
+[00:31:53] Maxine Bassett: And the hours. Every hour on a card by Friday. That one's mine.
+[00:32:01] Consultant: Fewer than five, all warned, and every hour on a card by Friday. Who decides? If this goes ahead, whose yes is it?
+[00:32:11] Tadhg Devlin: Mine, up to twenty thousand on anything operational. Above that it's Aubrey and the board, which is the family, four of them, and they meet on the fourteenth of October. And honestly Aubrey wants to see it either way, because of what he said in May.
+[00:32:29] Consultant: So the fourteenth.
+[00:32:32] Tadhg Devlin: The fourteenth if it's above twenty. Before that if it isn't. But I'd want him to see it regardless, so plan for the fourteenth.
+[00:32:42] Consultant: Is there a budget line?
+[00:32:47] John Rudge: There's a line called yard systems that's had nothing in it for three years. Aubrey hates anything monthly. He'll ask why it isn't a one-off, and you should have an answer.
+[00:32:59] Consultant: I'll have an answer. Do you have a monday account at all today? Anything?
+[00:33:05] Tadhg Devlin: No. Nothing. Aubrey's other business, the holiday park, uses something with coloured boards for the housekeeping rota, I've seen it on his phone, I couldn't tell you what it is. We've got the berthing system and we've got Maxine.
+[00:33:21] Consultant: Then I'll ask him what it is rather than guess, because it matters for which account this goes in. When does it need to be real?
+[00:33:33] Tadhg Devlin: The honest answer is the launch season. March. If the boats go in on their dates next spring, we've done it. But if you could get the lift-out list, just the list and the slots, in front of John before the twelfth, I'd take that and say thank you.
+[00:33:52] Consultant: Three weeks is tight for anything I'd stand behind. If the walkthrough, and let's find a date in a minute, if that goes well, a small lift-out list with the slots and the tide window is possible for the twelfth. The job cards, the workshop side, that's for the launch season. I'd rather say that now than promise the lot.
+[00:34:16] Jon Ashby: We're three weeks from the busiest eight weeks of the year. I'm not learning a new thing on the twelfth of October with a boat in the slings.
+[00:34:29] Consultant: You wouldn't be. If it isn't, if it isn't ready and quiet by the fifth, it waits till December and you get the launch side first. That's the deal.
+[00:34:41] Jon Ashby: Then fine.
+[00:34:45] John Rudge: That's Devlin's rule as well, to be fair. Nothing new in a lift-out week. Ashby's quoting him back at him.
+[00:34:53] Tadhg Devlin: I did say that. I say a lot of things. He's right, though.
+[00:35:00] Consultant: What stops this? Not the money. The things you already know will get in the way.
+[00:35:09] Maxine Bassett: The engineers. If it needs typing, they won't. Not won't. Can't. Phone in a drawer, gloves on, forty foot up a ladder.
+[00:35:20] Jon Ashby: The signal. Wi-Fi doesn't reach the hardstanding. It reaches the yard office and about ten metres past the door, and then you're on your phone with one bar, if that.
+[00:35:32] Tadhg Devlin: And the lads, the lads change. Half the yard's seasonal, they come in April and they're gone in October, so whoever learns it in the spring isn't here in the autumn. It has to be learnable in a morning by someone who won't be here in six months.
+[00:35:50] John Rudge: The berthing system stays. It's got the direct debits in it and four hundred and twenty contracts and I'm not moving them anywhere for anyone.
+[00:36:02] Consultant: Agreed, and nothing writes to it. Read from it, maybe, later, and only the berth holder list.
+[00:36:10] John Rudge: And Maxine. Maxine is the only person who knows the book, and if she thinks this is replacing her she'll dig in, and she'd be right to.
+[00:36:21] Tadhg Devlin: It's not replacing her. It's replacing the book. She'd be running it.
+[00:36:27] Consultant: That's a conversation for when she's back, and it's yours to have, not mine. I'll give you the questions, not the pitch.
+[00:36:36] Tadhg Devlin: The family don't like subscriptions. And IT's an outside company, so anything that needs a login for the lads means a ticket to a man in a business park who's never seen a boat.
+[00:36:51] Consultant: Then the lads don't get logins in the first go. The office types, the lads read paper. Same as now, one place instead of three.
+[00:37:02] John Rudge: Can I say the obvious thing? The berthing system people have a yard module. They pitched it in June. Three thousand six hundred a year, it does lift bookings against the tide, and it's already where the berths are. Why isn't this that?
+[00:37:20] Tadhg Devlin: Because it doesn't do the workshop, and I've seen it, I have seen it, and it looks like the berthing system, which is the problem with the berthing system.
+[00:37:30] Consultant: I'd want to see it before I said anything about it. If it does the lift list well, it might be the lift list, and this does the workshop. I'm not going to knock something I haven't seen.
+[00:37:45] John Rudge: And isn't this just another place to type things? Genuine question. Not a dig.
+[00:37:52] Consultant: It is another place to type things, yes. The point is, the point is it's one place instead of three, and the person typing is the person who types now. If it's a fourth place, it's failed, and you should say so on the fifth.
+[00:38:09] Maxine Bassett: I tried one of those task apps two summers ago. Free trial. It was me and Lorcan for a month, and then it was me, and then it was nobody.
+[00:38:21] John Rudge: And I could build the lift list in a spreadsheet with the tide in it in a weekend. Honestly. Why don't I?
+[00:38:31] Tadhg Devlin: Because you said that last September, Rudge. And the September before.
+[00:38:36] John Rudge: That's fair. That's annoyingly fair.
+[00:38:40] Consultant: Let me play back what I think the first cut is, and you tell me where I've got it wrong. One, the lift-out list. The bookings, one line a boat, with the hoist slot on it and the tide window, so the board and the book are the same thing, and a printed sheet comes off it each morning for the lads. Two, the job card, on the boat, with the hours, the parts and the launch date, and Bernie's wall becomes a view of that. Three, later, the owner told a week before. Berthing stays where it is. Parts ordering stays with Bernie's suppliers. Nothing writes to the berthing system. Nothing writes to the accounts package either.
+[00:39:24] Tadhg Devlin: That's it. That's the first go. Not the owners typing in, though. I know that's where these things go. Not in the first go. The office types it.
+[00:39:35] Jon Ashby: And the tide window on the slot. If it doesn't know about the tide, it's the book again with a nicer font.
+[00:39:46] Maxine Bassett: And it prints. Whatever it is, it prints, because the lads read paper and they will read paper until they retire.
+[00:39:56] Tadhg Devlin: And the launch date on every card. In red if it's inside a fortnight. That's the one thing I'd have wanted in April.
+[00:40:06] Maxine Bassett: And leave parts out. I'll do parts my way until you've seen how bad my way is, and then we'll talk.
+[00:40:17] Consultant: Parts out. Owners not typing. The tide on the slot. It prints. Launch date on every card, red inside a fortnight. Anything I've dropped?
+[00:40:27] John Rudge: The insurer. Before a boat comes out we're supposed to have the owner's insurance certificate on file, and after it comes out there's a lift record, who drove, what it weighed, date. That's on the card at the moment. Sometimes. The insurer's inspection is January and last year it was a conversation.
+[00:40:48] Consultant: Who keeps the lift record now?
+[00:40:53] John Rudge: John, on the sheet, when the box gets filled in. Which it doesn't, so, nobody.
+[00:41:00] Consultant: That goes on the card, then, as fields, and it's a question for the fifth whether the certificate lives there or stays in the office.
+[00:41:11] John Rudge: Not the certificate itself. Whether we've got it. The certificate has the owner's address on it and I'm not having that on a screen in the yard.
+[00:41:22] Consultant: Then a yes or no and a date, not the document. So can I say we've agreed a first cut. The lift-out list with slots and the tide, and the job card with hours and the launch date. Shown to you, not sold to you.
+[00:41:40] Tadhg Devlin: You can say I've agreed to look at it. I haven't agreed to buy it, and Aubrey hasn't seen it, so don't write agreed anywhere he'll read it.
+[00:41:52] Consultant: I'll write first cut, agreed to be shown. And I'll say so in the note.
+[00:42:00] Tadhg Devlin: What does something like this cost? Roughly. So I can warn Aubrey before the fourteenth.
+[00:42:06] Consultant: I'm not going to give you a number today, and not because I'm being cagey. I'd be guessing at the shape, and a guess becomes the number. Once you've seen the first cut on the walkthrough and we know what's in and what's out, I'll put a proper figure in front of you before the fourteenth, in writing, with what it covers.
+[00:42:31] Tadhg Devlin: Fair. He'll ask. I'll tell him you said that, and I'll tell him you didn't blink.
+[00:42:38] Consultant: Dates, then. I'd like to show you a first cut in about ten days. Monday the fifth?
+[00:42:46] Tadhg Devlin: Monday the fifth. Morning. Half nine, before the yard gets loud. Here, not on a screen, if you can manage it.
+[00:42:55] Consultant: Half nine, Monday the fifth, in the yard office. I'll bring it on a laptop and we'll put it on the big screen. Wellies?
+[00:43:07] Jon Ashby: Always wellies.
+[00:43:10] Tadhg Devlin: Bernie, John, John, all of you. And I'll ask Aubrey. He won't come but I'll ask, and then he can't say he wasn't asked.
+[00:43:20] Consultant: I'll send an invite today for half nine on the fifth, with a note of what we've agreed and the questions I've got for Maxine when she's back on the twenty-eighth.
+[00:43:32] John Rudge: Send it to me and I'll forward it. Thady's inbox is a disgrace.
+[00:43:38] Consultant: [laughs] Noted.
+[00:43:41] John Rudge: Thady's what his mother calls him, by the way, before you write that down as somebody else. I've known him since he was on the fuel berth. I'm allowed.
+[00:43:53] Tadhg Devlin: You're allowed. Nobody else is. Write Tige.
+[00:43:58] Consultant: Last thing. Is there anyone who should have been on this call who wasn't?
+[00:44:06] Tadhg Devlin: Maxine. Obviously. And Lorcan, for the yard, but he'd have said nothing and then told me afterwards it was all wrong. Wojtek drives the hoist and he'll do whatever John tells him, so John speaks for the hoist.
+[00:44:22] Consultant: Then Maxine's questions go on the list for the twenty-eighth, and, um, I'll ask you to walk Lorcan through it before the fifth rather than after.
+[00:44:32] Tadhg Devlin: Done. He'll hate it before and like it after. That's Lorcan.
+[00:44:39] Consultant: Thank you, all of you. Ashby, Rudge, Bernie. Teague. I'll see you on the fifth.
+[00:44:45] Tadhg Devlin: Cheers. Mind the dog on the way out. Metaphorically.
+[00:44:50] John Rudge: Bye.
+[00:44:53] Maxine Bassett: Bye. Back to the mezzanine.
+[00:44:57] Jon Ashby: Bye now.

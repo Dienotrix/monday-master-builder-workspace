@@ -1,0 +1,1314 @@
+{
+  "fixture": "s4-discovery-software",
+  "sources": [
+    {
+      "name": "transcript.txt",
+      "kind": "transcript",
+      "format": "vtt",
+      "units": 263,
+      "unsupported": null
+    }
+  ],
+  "counts": {
+    "pairs": 173,
+    "verified": 173,
+    "verified_presence_only": 19,
+    "skipped": 0,
+    "unparsed_prose": 0,
+    "near_misses": 0,
+    "misses": 0,
+    "unsupported": 0,
+    "warnings": 0
+  },
+  "refused_quotes_not_checked": [],
+  "skipped": [],
+  "pairs": [
+    {
+      "path": "/rubric[0]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And if it's real, they post in the eng escalations channel in Slack with the Zendesk link and a description.",
+      "location": "cue 79, 00:12:27.888, Colleen Brask",
+      "cited": "transcript.txt, cue 79, L315, 00:12:27.888, Colleen Brask"
+    },
+    {
+      "path": "/rubric[0]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And I update it by hand, every morning, by reading the Slack channel.",
+      "location": "cue 87, 00:13:49.634, Colleen Brask",
+      "cited": "transcript.txt, cue 87, L347, 00:13:49.634, Colleen Brask"
+    },
+    {
+      "path": "/rubric[0]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "People are supposed to put the Redmine number in the branch name, like feature slash four-one-two-two, whatever.",
+      "location": "cue 67, 00:10:48.115, Devin Marchetti",
+      "cited": "transcript.txt, cue 67, L267, 00:10:48.115, Devin Marchetti"
+    },
+    {
+      "path": "/rubric[0]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "I go through Redmine for everything closed in the target version, then GitHub for what actually merged, because those never match, and then Slack for the stuff nobody ticketed.",
+      "location": "cue 161, 00:25:34.289, Devin Marchetti",
+      "cited": "transcript.txt, cue 161, L643, 00:25:34.289, Devin Marchetti"
+    },
+    {
+      "path": "/rubric[0]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "The handoff is a Slack thread plus a Google Doc, and the doc is, let's say, aspirational.",
+      "location": "cue 140, 00:22:04.318, Tomasz Wirth",
+      "cited": "transcript.txt, cue 140, L559, 00:22:04.318, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[0]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "Screenshots. In a Google Drive folder.",
+      "location": "cue 135, 00:21:10.259, Tomasz Wirth",
+      "cited": "transcript.txt, cue 135, L539, 00:21:10.259, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[0]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "Jess, their ops person, set up some boards for campaigns. I have no idea what plan they're on or how many seats.",
+      "location": "cue 74, 00:11:28.649, Tomasz Wirth",
+      "cited": "transcript.txt, cue 74, L295, 00:11:28.649, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[1]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "and three days later my T2 is asking in the thread, hey, any update, and nobody knows who has it.",
+      "location": "cue 82, 00:13:00.277, Colleen Brask",
+      "cited": "transcript.txt, cue 82, L327, 00:13:00.277, Colleen Brask"
+    },
+    {
+      "path": "/rubric[1]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It sat for three days before anyone actually started working it.",
+      "location": "cue 93, 00:14:53.310, Colleen Brask",
+      "cited": "transcript.txt, cue 93, L371, 00:14:53.310, Colleen Brask"
+    },
+    {
+      "path": "/rubric[1]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "So. I have a spreadsheet. The escalation tracker. It's a Google Sheet with the Zendesk number, the Redmine number if there is one, who owns it, the status, when we last told the customer something.",
+      "location": "cue 86, 00:13:33.900, Colleen Brask",
+      "cited": "transcript.txt, cue 86, L343, 00:13:33.900, Colleen Brask"
+    },
+    {
+      "path": "/rubric[1]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Because it's me. The whole thing is me. When I'm out it falls apart, like the July thing is literally what happens when I'm out.",
+      "location": "cue 100, 00:15:45.721, Colleen Brask",
+      "cited": "transcript.txt, cue 100, L399, 00:15:45.721, Colleen Brask"
+    },
+    {
+      "path": "/rubric[1]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "The account managers, for sure, because the customer calls them.",
+      "location": "cue 103, 00:16:13.510, Colleen Brask",
+      "cited": "transcript.txt, cue 103, L411, 00:16:13.510, Colleen Brask"
+    },
+    {
+      "path": "/rubric[1]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "Call it forty-ish hours a sprint. Across all the squads.",
+      "location": "cue 113, 00:17:43.961, Tomasz Wirth",
+      "cited": "transcript.txt, cue 113, L451, 00:17:43.961, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[1]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "We're at about eleven hundred tickets a month and maybe sixty, seventy of those go to engineering.",
+      "location": "cue 127, 00:19:46.711, Colleen Brask",
+      "cited": "transcript.txt, cue 127, L507, 00:19:46.711, Colleen Brask"
+    },
+    {
+      "path": "/rubric[2]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The big one is we have our sock two audit coming up. It's our first one. Fieldwork is the second week of January.",
+      "location": "cue 30, 00:04:07.442, Tomasz Wirth",
+      "cited": "transcript.txt, cue 30, L119, 00:04:07.442, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[2]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "But the whole reason we're doing SOC two at all is we have a big prospect, a national facilities group, and their procurement will not sign without the report.",
+      "location": "cue 38, 00:05:45.420, Tomasz Wirth",
+      "cited": "transcript.txt, cue 38, L151, 00:05:45.420, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[2]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "So it's not a nice-to-have. If we don't have a clean report, that deal slides.",
+      "location": "cue 39, 00:06:06.295, Tomasz Wirth",
+      "cited": "transcript.txt, cue 39, L155, 00:06:06.295, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[2]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "The thing is, Redmine is the finding. The auditor literally flagged the server.",
+      "location": "cue 153, 00:24:12.753, Tomasz Wirth",
+      "cited": "transcript.txt, cue 153, L611, 00:24:12.753, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[3]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Call it forty-ish hours a sprint. Across all the squads.",
+      "location": "cue 113, 00:17:43.961, Tomasz Wirth",
+      "cited": "transcript.txt, cue 113, L451, 00:17:43.961, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[3]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Honestly on a bad sprint it's probably more like fifty, but let's say forty so nobody accuses me of making it up.",
+      "location": "cue 114, 00:17:56.577, Tomasz Wirth",
+      "cited": "transcript.txt, cue 114, L455, 00:17:56.577, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[3]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Yeah. Yeah, that's about right.",
+      "location": "cue 116, 00:18:14.756, Tomasz Wirth",
+      "cited": "transcript.txt, cue 116, L463, 00:18:14.756, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[3]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "I'd say an hour a day each, easily, chasing status. And there's five of them. Plus my hour on the tracker.",
+      "location": "cue 118, 00:18:24.915, Colleen Brask",
+      "cited": "transcript.txt, cue 118, L471, 00:18:24.915, Colleen Brask"
+    },
+    {
+      "path": "/rubric[3]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Forty-five minutes on a good day? An hour. And it's wrong by lunch.",
+      "location": "cue 89, 00:13:59.273, Colleen Brask",
+      "cited": "transcript.txt, cue 89, L355, 00:13:59.273, Colleen Brask"
+    },
+    {
+      "path": "/rubric[3]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "It's most of a day every release.",
+      "location": "cue 162, 00:25:46.985, Devin Marchetti",
+      "cited": "transcript.txt, cue 162, L647, 00:25:46.985, Devin Marchetti"
+    },
+    {
+      "path": "/rubric[3]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "For the readiness assessment, Bartek and I spent three weekends pulling PRs and Redmine issues and pasting screenshots into docs.",
+      "location": "cue 135, 00:21:10.259, Tomasz Wirth",
+      "cited": "transcript.txt, cue 135, L539, 00:21:10.259, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[3]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "Uh, honestly, I'm not going to put a dollar figure on it on this call. Finance would kill me.",
+      "location": "cue 178, 00:28:04.909, Tomasz Wirth",
+      "cited": "transcript.txt, cue 178, L711, 00:28:04.909, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[3]/evidence[8]/quote",
+      "status": "verified",
+      "quote": "Mm. I don't know. Maybe? I'd want to check with Linh before anyone writes that down anywhere.",
+      "location": "cue 180, 00:28:28.441, Tomasz Wirth",
+      "cited": "transcript.txt, cue 180, L719, 00:28:28.441, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[4]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Offline mode. The tech app needs to work when a technician's in a basement with no signal. It's been sitting in the backlog for, what, three quarters?",
+      "location": "cue 184, 00:29:03.402, Tomasz Wirth",
+      "cited": "transcript.txt, cue 184, L735, 00:29:03.402, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[4]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I'm not going to guess what it's worth in revenue.",
+      "location": "cue 186, 00:29:21.964, Tomasz Wirth",
+      "cited": "transcript.txt, cue 186, L743, 00:29:21.964, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[4]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I'm really not allowed to say. It would be our biggest customer by a lot.",
+      "location": "cue 188, 00:29:39.854, Tomasz Wirth",
+      "cited": "transcript.txt, cue 188, L751, 00:29:39.854, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[5]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "My T2 escalates something, and from then on I can see who has it and what's happening without asking anybody. And when I'm on PTO nothing falls apart.",
+      "location": "cue 198, 00:31:09.132, Colleen Brask",
+      "cited": "transcript.txt, cue 198, L791, 00:31:09.132, Colleen Brask"
+    },
+    {
+      "path": "/rubric[5]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "click through ticket, approval, PR, release, and export it. In an afternoon. Not three weekends.",
+      "location": "cue 199, 00:31:24.467, Tomasz Wirth",
+      "cited": "transcript.txt, cue 199, L795, 00:31:24.467, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[5]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Release notes that basically write themselves from what actually shipped. And I can see where the roadmap is without my spreadsheet.",
+      "location": "cue 200, 00:31:38.712, Devin Marchetti",
+      "cited": "transcript.txt, cue 200, L799, 00:31:38.712, Devin Marchetti"
+    },
+    {
+      "path": "/rubric[5]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "The report in hand with no engineering findings, and Granite signed by end of Q1. That's the win.",
+      "location": "cue 202, 00:31:53.748, Tomasz Wirth",
+      "cited": "transcript.txt, cue 202, L807, 00:31:53.748, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[6]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It's my call on the tool. Engineering tooling is my budget, up to a point.",
+      "location": "cue 218, 00:34:10.976, Tomasz Wirth",
+      "cited": "transcript.txt, cue 218, L871, 00:34:10.976, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[6]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "If it's over fifty thousand a year it goes to Linh for sign-off, and honestly with sixty-five engineers plus support it probably will be.",
+      "location": "cue 218, 00:34:10.976, Tomasz Wirth",
+      "cited": "transcript.txt, cue 218, L871, 00:34:10.976, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[6]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Not paying for two things at once. And that we're not buying something that turns into shelfware.",
+      "location": "cue 220, 00:34:32.353, Tomasz Wirth",
+      "cited": "transcript.txt, cue 220, L879, 00:34:32.353, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[6]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "And Oren's going to want the vendor's own SOC two report, a DPA, the usual.",
+      "location": "cue 215, 00:33:43.315, Tomasz Wirth",
+      "cited": "transcript.txt, cue 215, L859, 00:33:43.315, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[6]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "To be fair. Call it four to six.",
+      "location": "cue 229, 00:35:56.802, Tomasz Wirth",
+      "cited": "transcript.txt, cue 229, L915, 00:35:56.802, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[6]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "Oren's review, Linh signs, and then I want a pilot. One squad for one sprint, probably Dispatch, because they get the most escalations.",
+      "location": "cue 231, 00:36:06.530, Tomasz Wirth",
+      "cited": "transcript.txt, cue 231, L923, 00:36:06.530, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[6]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "So two years ago we tried to move off Redmine, to another tracker. We got about halfway.",
+      "location": "cue 222, 00:34:46.000, Tomasz Wirth",
+      "cited": "transcript.txt, cue 222, L887, 00:34:46.000, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[7]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "This quarter. It has to be. Engineering off Redmine by end of November, so we've got six weeks of clean evidence before fieldwork.",
+      "location": "cue 233, 00:36:25.762, Tomasz Wirth",
+      "cited": "transcript.txt, cue 233, L931, 00:36:25.762, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[8]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "If engineers hate it, if it feels like more work than Redmine, they'll revolt, and I'm back on Redmine by March with egg on my face.",
+      "location": "cue 225, 00:35:18.041, Tomasz Wirth",
+      "cited": "transcript.txt, cue 225, L899, 00:35:18.041, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[8]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "We have a big release at the end of October. If this lands on top of that it'll get deprioritized, and I'll be the one deprioritizing it.",
+      "location": "cue 235, 00:36:42.383, Tomasz Wirth",
+      "cited": "transcript.txt, cue 235, L939, 00:36:42.383, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[8]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "When we bought Zendesk it took about six weeks. Which, with this timeline, yeah, I'm a little worried about.",
+      "location": "cue 227, 00:35:39.560, Tomasz Wirth",
+      "cited": "transcript.txt, cue 227, L907, 00:35:39.560, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[9]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Twenty-second. Let me look. Yeah, that's the quiet week before the next train. One works.",
+      "location": "cue 250, 00:39:13.112, Tomasz Wirth",
+      "cited": "transcript.txt, cue 250, L999, 00:39:13.112, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[9]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "One's fine, I'll block it.",
+      "location": "cue 252, 00:39:22.340, Colleen Brask",
+      "cited": "transcript.txt, cue 252, L1007, 00:39:22.340, Colleen Brask"
+    },
+    {
+      "path": "/rubric[9]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I'll send the invite for Tuesday the twenty-second at one Eastern to the three of you right after this.",
+      "location": "cue 255, 00:39:38.316, Consultant",
+      "cited": "transcript.txt, cue 255, L1019, 00:39:38.316, Consultant"
+    },
+    {
+      "path": "/rubric[11]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Yeah. Those three. I'd add on-call handoffs if you can. But those three are what I'd want to see first. Don't hold me to that being the whole list.",
+      "location": "cue 240, 00:37:45.611, Tomasz Wirth",
+      "cited": "transcript.txt, cue 240, L959, 00:37:45.611, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[12]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "What actually happens is someone puts eyes on it, and then they get pulled into something else, and three days later my T2 is asking in the thread, hey, any update, and nobody knows who has it.",
+      "location": "cue 82, 00:13:00.277, Colleen Brask",
+      "cited": "transcript.txt, cue 82, L327, 00:13:00.277, Colleen Brask"
+    },
+    {
+      "path": "/rubric[12]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Or there's two Redmine issues for the same thing because two people grabbed it. Or zero.",
+      "location": "cue 83, 00:13:16.691, Colleen Brask",
+      "cited": "transcript.txt, cue 83, L331, 00:13:16.691, Colleen Brask"
+    },
+    {
+      "path": "/rubric[13]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Their dispatch board stopped syncing jobs to the tech app.",
+      "location": "cue 91, 00:14:12.397, Colleen Brask",
+      "cited": "transcript.txt, cue 91, L363, 00:14:12.397, Colleen Brask"
+    },
+    {
+      "path": "/rubric[13]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It sat for three days before anyone actually started working it.",
+      "location": "cue 93, 00:14:53.310, Colleen Brask",
+      "cited": "transcript.txt, cue 93, L371, 00:14:53.310, Colleen Brask"
+    },
+    {
+      "path": "/rubric[13]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "The owner called our CEO directly.",
+      "location": "cue 95, 00:15:01.250, Colleen Brask",
+      "cited": "transcript.txt, cue 95, L379, 00:15:01.250, Colleen Brask"
+    },
+    {
+      "path": "/rubric[14]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So. I have a spreadsheet. The escalation tracker.",
+      "location": "cue 86, 00:13:33.900, Colleen Brask",
+      "cited": "transcript.txt, cue 86, L343, 00:13:33.900, Colleen Brask"
+    },
+    {
+      "path": "/rubric[14]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And I update it by hand, every morning, by reading the Slack channel.",
+      "location": "cue 87, 00:13:49.634, Colleen Brask",
+      "cited": "transcript.txt, cue 87, L347, 00:13:49.634, Colleen Brask"
+    },
+    {
+      "path": "/rubric[14]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Because it's me. The whole thing is me. When I'm out it falls apart",
+      "location": "cue 100, 00:15:45.721, Colleen Brask",
+      "cited": "transcript.txt, cue 100, L399, 00:15:45.721, Colleen Brask"
+    },
+    {
+      "path": "/rubric[14]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "I can nag. I'm a very good nagger. But nagging isn't a process.",
+      "location": "cue 101, 00:15:57.157, Colleen Brask",
+      "cited": "transcript.txt, cue 101, L403, 00:15:57.157, Colleen Brask"
+    },
+    {
+      "path": "/rubric[15]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The account managers, for sure, because the customer calls them.",
+      "location": "cue 103, 00:16:13.510, Colleen Brask",
+      "cited": "transcript.txt, cue 103, L411, 00:16:13.510, Colleen Brask"
+    },
+    {
+      "path": "/rubric[15]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And then the on-call engineer, who usually gets the angriest ping.",
+      "location": "cue 105, 00:16:32.707, Colleen Brask",
+      "cited": "transcript.txt, cue 105, L419, 00:16:32.707, Colleen Brask"
+    },
+    {
+      "path": "/rubric[15]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "So the cost for us is interrupts and rework.",
+      "location": "cue 107, 00:16:47.601, Tomasz Wirth",
+      "cited": "transcript.txt, cue 107, L427, 00:16:47.601, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[16]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Call it forty-ish hours a sprint. Across all the squads.",
+      "location": "cue 113, 00:17:43.961, Tomasz Wirth",
+      "cited": "transcript.txt, cue 113, L451, 00:17:43.961, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[16]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I'd say an hour a day each, easily, chasing status. And there's five of them. Plus my hour on the tracker.",
+      "location": "cue 118, 00:18:24.915, Colleen Brask",
+      "cited": "transcript.txt, cue 118, L471, 00:18:24.915, Colleen Brask"
+    },
+    {
+      "path": "/rubric[16]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "We gave them two months free",
+      "location": "cue 97, 00:15:21.807, Colleen Brask",
+      "cited": "transcript.txt, cue 97, L387, 00:15:21.807, Colleen Brask"
+    },
+    {
+      "path": "/rubric[17]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Worse. We signed, what, thirty-something new customers this year? Ticket volume's up.",
+      "location": "cue 127, 00:19:46.711, Colleen Brask",
+      "cited": "transcript.txt, cue 127, L507, 00:19:46.711, Colleen Brask"
+    },
+    {
+      "path": "/rubric[17]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Last year it was more like forty escalations a month. I think. Don't quote me.",
+      "location": "cue 128, 00:19:59.039, Colleen Brask",
+      "cited": "transcript.txt, cue 128, L511, 00:19:59.039, Colleen Brask"
+    },
+    {
+      "path": "/rubric[17]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And if Granite closes, that's one customer with, like, fifteen hundred technicians.",
+      "location": "cue 129, 00:20:06.951, Tomasz Wirth",
+      "cited": "transcript.txt, cue 129, L515, 00:20:06.951, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[18]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It's just nobody linked anything. It lives in someone's head or in a Slack thread.",
+      "location": "cue 36, 00:05:27.807, Tomasz Wirth",
+      "cited": "transcript.txt, cue 36, L143, 00:05:27.807, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[19]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And out of, I think it was forty changes, something like fourteen had no ticket at all. Or the ticket was for something else entirely.",
+      "location": "cue 35, 00:05:18.072, Tomasz Wirth",
+      "cited": "transcript.txt, cue 35, L139, 00:05:18.072, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[20]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Screenshots. In a Google Drive folder.",
+      "location": "cue 135, 00:21:10.259, Tomasz Wirth",
+      "cited": "transcript.txt, cue 135, L539, 00:21:10.259, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[20]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "For the readiness assessment, Bartek and I spent three weekends pulling PRs and Redmine issues and pasting screenshots into docs.",
+      "location": "cue 135, 00:21:10.259, Tomasz Wirth",
+      "cited": "transcript.txt, cue 135, L539, 00:21:10.259, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[20]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And for each one it's a scavenger hunt.",
+      "location": "cue 136, 00:21:24.128, Tomasz Wirth",
+      "cited": "transcript.txt, cue 136, L543, 00:21:24.128, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[21]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "But the whole reason we're doing SOC two at all is we have a big prospect, a national facilities group, and their procurement will not sign without the report.",
+      "location": "cue 38, 00:05:45.420, Tomasz Wirth",
+      "cited": "transcript.txt, cue 38, L151, 00:05:45.420, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[21]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And everybody knows exactly whose team was the problem in the readiness assessment.",
+      "location": "cue 39, 00:06:06.295, Tomasz Wirth",
+      "cited": "transcript.txt, cue 39, L155, 00:06:06.295, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[22]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Three full weekends.",
+      "location": "cue 135, 00:21:10.259, Tomasz Wirth",
+      "cited": "transcript.txt, cue 135, L539, 00:21:10.259, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[23]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So it's not a nice-to-have. If we don't have a clean report, that deal slides.",
+      "location": "cue 39, 00:06:06.295, Tomasz Wirth",
+      "cited": "transcript.txt, cue 39, L155, 00:06:06.295, Tomasz Wirth"
+    },
+    {
+      "path": "/rubric[23]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And then the Type 2 observation window starts right after, so whatever we set up has to hold up for a year.",
+      "location": "cue 131, 00:20:26.458, Tomasz Wirth",
+      "cited": "transcript.txt, cue 131, L523, 00:20:26.458, Tomasz Wirth"
+    },
+    {
+      "path": "/pains[0]/quote",
+      "status": "verified",
+      "quote": "and three days later my T2 is asking in the thread, hey, any update, and nobody knows who has it.",
+      "location": "cue 82, 00:13:00.277, Colleen Brask",
+      "cited": "transcript.txt, cue 82, L327, 00:13:00.277, Colleen Brask"
+    },
+    {
+      "path": "/pains[1]/quote",
+      "status": "verified",
+      "quote": "Or there's two Redmine issues for the same thing because two people grabbed it. Or zero.",
+      "location": "cue 83, 00:13:16.691, Colleen Brask",
+      "cited": "transcript.txt, cue 83, L331, 00:13:16.691, Colleen Brask"
+    },
+    {
+      "path": "/pains[2]/quote",
+      "status": "verified",
+      "quote": "And it's wrong by lunch.",
+      "location": "cue 89, 00:13:59.273, Colleen Brask",
+      "cited": "transcript.txt, cue 89, L355, 00:13:59.273, Colleen Brask"
+    },
+    {
+      "path": "/pains[3]/quote",
+      "status": "verified",
+      "quote": "Because it's me. The whole thing is me.",
+      "location": "cue 100, 00:15:45.721, Colleen Brask",
+      "cited": "transcript.txt, cue 100, L399, 00:15:45.721, Colleen Brask"
+    },
+    {
+      "path": "/pains[4]/quote",
+      "status": "verified",
+      "quote": "I can nag. I'm a very good nagger. But nagging isn't a process.",
+      "location": "cue 101, 00:15:57.157, Colleen Brask",
+      "cited": "transcript.txt, cue 101, L403, 00:15:57.157, Colleen Brask"
+    },
+    {
+      "path": "/pains[5]/quote",
+      "status": "verified",
+      "quote": "It's like having a person whose whole job is being confused.",
+      "location": "cue 116, 00:18:14.756, Tomasz Wirth",
+      "cited": "transcript.txt, cue 116, L463, 00:18:14.756, Tomasz Wirth"
+    },
+    {
+      "path": "/pains[6]/quote",
+      "status": "verified",
+      "quote": "Two engineers in two different squads fixed the same bug two different ways, and we found out in code review.",
+      "location": "cue 111, 00:17:23.641, Tomasz Wirth",
+      "cited": "transcript.txt, cue 111, L443, 00:17:23.641, Tomasz Wirth"
+    },
+    {
+      "path": "/pains[7]/quote",
+      "status": "verified",
+      "quote": "It lives in someone's head or in a Slack thread.",
+      "location": "cue 36, 00:05:27.807, Tomasz Wirth",
+      "cited": "transcript.txt, cue 36, L143, 00:05:27.807, Tomasz Wirth"
+    },
+    {
+      "path": "/pains[8]/quote",
+      "status": "verified",
+      "quote": "Three full weekends.",
+      "location": "cue 135, 00:21:10.259, Tomasz Wirth",
+      "cited": "transcript.txt, cue 135, L539, 00:21:10.259, Tomasz Wirth"
+    },
+    {
+      "path": "/pains[9]/quote",
+      "status": "verified",
+      "quote": "And for each one it's a scavenger hunt.",
+      "location": "cue 136, 00:21:24.128, Tomasz Wirth",
+      "cited": "transcript.txt, cue 136, L543, 00:21:24.128, Tomasz Wirth"
+    },
+    {
+      "path": "/pains[10]/quote",
+      "status": "verified",
+      "quote": "It does nothing for the fact that our change tickets are a mess. It just shows the auditor the mess faster.",
+      "location": "cue 158, 00:25:11.264, Tomasz Wirth",
+      "cited": "transcript.txt, cue 158, L631, 00:25:11.264, Tomasz Wirth"
+    },
+    {
+      "path": "/pains[11]/quote",
+      "status": "verified",
+      "quote": "It's most of a day every release. And I'm a PM, so that's a day I'm not talking to customers.",
+      "location": "cue 162, 00:25:46.985, Devin Marchetti",
+      "cited": "transcript.txt, cue 162, L647, 00:25:46.985, Devin Marchetti"
+    },
+    {
+      "path": "/pains[12]/quote",
+      "status": "verified",
+      "quote": "My team found out from customers. That's the part that kills me. We look stupid.",
+      "location": "cue 171, 00:26:51.448, Colleen Brask",
+      "cited": "transcript.txt, cue 171, L683, 00:26:51.448, Colleen Brask"
+    },
+    {
+      "path": "/pains[13]/quote",
+      "status": "verified",
+      "quote": "It was in the Slack thread. It was not in the handoff doc.",
+      "location": "cue 143, 00:22:35.321, Tomasz Wirth",
+      "cited": "transcript.txt, cue 143, L571, 00:22:35.321, Tomasz Wirth"
+    },
+    {
+      "path": "/pains[14]/quote",
+      "status": "verified",
+      "quote": "And the postmortem exists. It's in a Google Doc. Somewhere.",
+      "location": "cue 145, 00:22:55.487, Tomasz Wirth",
+      "cited": "transcript.txt, cue 145, L579, 00:22:55.487, Tomasz Wirth"
+    },
+    {
+      "path": "/pains[15]/quote",
+      "status": "verified",
+      "quote": "And it's, it's held together with tape at this point.",
+      "location": "cue 32, 00:04:42.003, Tomasz Wirth",
+      "cited": "transcript.txt, cue 32, L127, 00:04:42.003, Tomasz Wirth"
+    },
+    {
+      "path": "/pains[16]/quote",
+      "status": "verified",
+      "quote": "Unsupported software on a system that holds change records.",
+      "location": "cue 63, 00:10:06.908, Tomasz Wirth",
+      "cited": "transcript.txt, cue 63, L251, 00:10:06.908, Tomasz Wirth"
+    },
+    {
+      "path": "/pains[17]/quote",
+      "status": "verified",
+      "quote": "Like, the page takes eight seconds to load if the backlog is big.",
+      "location": "cue 61, 00:09:44.693, Devin Marchetti",
+      "cited": "transcript.txt, cue 61, L243, 00:09:44.693, Devin Marchetti"
+    },
+    {
+      "path": "/pains[18]/quote",
+      "status": "verified",
+      "quote": "I'd open a spreadsheet. Genuinely.",
+      "location": "cue 55, 00:08:38.825, Devin Marchetti",
+      "cited": "transcript.txt, cue 55, L219, 00:08:38.825, Devin Marchetti"
+    },
+    {
+      "path": "/pains[19]/quote",
+      "status": "verified",
+      "quote": "I just want one place where I can see all our projects and where they're at. Like a portfolio view.",
+      "location": "cue 56, 00:08:49.455, Tomasz Wirth",
+      "cited": "transcript.txt, cue 56, L223, 00:08:49.455, Tomasz Wirth"
+    },
+    {
+      "path": "/pains[20]/quote",
+      "status": "verified",
+      "quote": "Which means homeowner names and phone numbers and addresses end up pasted into Redmine and Slack.",
+      "location": "cue 122, 00:19:04.999, Colleen Brask",
+      "cited": "transcript.txt, cue 122, L487, 00:19:04.999, Colleen Brask"
+    },
+    {
+      "path": "/pains[21]/quote",
+      "status": "verified",
+      "quote": "He does not want customer PII in engineering tools. At all. And right now it's everywhere.",
+      "location": "cue 123, 00:19:15.685, Tomasz Wirth",
+      "cited": "transcript.txt, cue 123, L491, 00:19:15.685, Tomasz Wirth"
+    },
+    {
+      "path": "/pains[22]/quote",
+      "status": "verified",
+      "quote": "The auditor wants an approval on every access grant and a clean record when someone leaves. We don't have that in one place. At all.",
+      "location": "cue 148, 00:23:23.335, Tomasz Wirth",
+      "cited": "transcript.txt, cue 148, L591, 00:23:23.335, Tomasz Wirth"
+    },
+    {
+      "path": "/pains[23]/quote",
+      "status": "verified",
+      "quote": "And IT's never had a real service desk, honestly.",
+      "location": "cue 149, 00:23:32.400, Tomasz Wirth",
+      "cited": "transcript.txt, cue 149, L595, 00:23:32.400, Tomasz Wirth"
+    },
+    {
+      "path": "/pains[24]/quote",
+      "status": "verified",
+      "quote": "Slack is where everything happens and then dies.",
+      "location": "cue 72, 00:11:15.546, Tomasz Wirth",
+      "cited": "transcript.txt, cue 72, L287, 00:11:15.546, Tomasz Wirth"
+    },
+    {
+      "path": "/numbers/bleed/quote",
+      "status": "verified",
+      "quote": "Call it forty-ish hours a sprint.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 113, L451, 00:17:43.961, Tomasz Wirth"
+      ]
+    },
+    {
+      "path": "/numbers/upside/quote",
+      "status": "verified",
+      "quote": "It's been sitting in the backlog for, what, three quarters?",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 184, L735, 00:29:03.402, Tomasz Wirth"
+      ]
+    },
+    {
+      "path": "/objections[0]/quote",
+      "status": "verified",
+      "quote": "Part of me wonders if switching tools right before an audit is insane.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 151, L603, 00:23:50.313, Devin Marchetti"
+      ]
+    },
+    {
+      "path": "/objections[1]/quote",
+      "status": "verified",
+      "quote": "If engineers hate it, if it feels like more work than Redmine, they'll revolt, and I'm back on Redmine by March with egg on my face.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 225, L899, 00:35:18.041, Tomasz Wirth"
+      ]
+    },
+    {
+      "path": "/objections[2]/quote",
+      "status": "verified",
+      "quote": "She'll ask what happened last time.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 220, L879, 00:34:32.353, Tomasz Wirth"
+      ]
+    },
+    {
+      "path": "/objections[3]/quote",
+      "status": "verified",
+      "quote": "I'm not going to put a dollar figure on it on this call.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 178, L711, 00:28:04.909, Tomasz Wirth"
+      ]
+    },
+    {
+      "path": "/objections[4]/quote",
+      "status": "verified",
+      "quote": "Which, with this timeline, yeah, I'm a little worried about.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 227, L907, 00:35:39.560, Tomasz Wirth"
+      ]
+    },
+    {
+      "path": "/objections[5]/quote",
+      "status": "verified",
+      "quote": "I'm not ripping out Zendesk four months before an audit.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 207, L827, 00:32:35.072, Colleen Brask"
+      ]
+    },
+    {
+      "path": "/objections[6]/quote",
+      "status": "verified",
+      "quote": "Sales has their CRM, it's a whole different budget, a whole different VP, and I would like to keep my friends in sales. Let's keep this to engineering and support.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 190, L759, 00:30:08.378, Tomasz Wirth"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[0]/quote",
+      "status": "verified",
+      "quote": "Twenty-second. Let me look. Yeah, that's the quiet week before the next train. One works.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 250, L999, 00:39:13.112, Tomasz Wirth"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[1]/quote",
+      "status": "verified",
+      "quote": "I'll send the invite for Tuesday the twenty-second at one Eastern to the three of you right after this.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 255, L1019, 00:39:38.316, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[2]/quote",
+      "status": "verified",
+      "quote": "Maybe for the last fifteen minutes. I'll ask him, no promises.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 254, L1015, 00:39:31.230, Tomasz Wirth"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[3]/quote",
+      "status": "verified",
+      "quote": "I'll send over Monday's security and compliance documentation today, with a short recap",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 247, L987, 00:38:47.454, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[4]/quote",
+      "status": "verified",
+      "quote": "I can, but I'll have to strip the customer details out first. Give me until Friday.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 243, L971, 00:38:16.809, Colleen Brask"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[5]/quote",
+      "status": "verified",
+      "quote": "Yeah, I can do a CSV of the Dispatch project. Scrubbed. Probably early next week.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 245, L979, 00:38:30.743, Devin Marchetti"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[6]/quote",
+      "status": "verified",
+      "quote": "And I'll send you the relevant bits of the control list, the change management and incident sections. Not the whole readiness report. By Monday.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 246, L983, 00:38:37.102, Tomasz Wirth"
+      ]
+    },
+    {
+      "path": "/requested_changes[0]/quote",
+      "status": "verified",
+      "quote": "I'd add on-call handoffs if you can.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 240, L959, 00:37:45.611, Tomasz Wirth"
+      ]
+    },
+    {
+      "path": "/requested_changes[1]/quote",
+      "status": "verified",
+      "quote": "And the account manager view. If it's easy.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 241, L963, 00:37:58.948, Colleen Brask"
+      ]
+    },
+    {
+      "path": "/account_context/evidence_quote_or_null",
+      "status": "verified",
+      "quote": "I have no idea what plan they're on or how many seats.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 74, L295, 00:11:28.649, Tomasz Wirth"
+      ]
+    },
+    {
+      "path": "/readiness/goals[0]/quote",
+      "status": "verified",
+      "quote": "I just want one place where I can see all our projects and where they're at.",
+      "location": "cue 56, 00:08:49.455, Tomasz Wirth",
+      "cited": "transcript.txt, cue 56, L223, 00:08:49.455, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/goals[1]/quote",
+      "status": "verified",
+      "quote": "That's why I want engineering off Redmine by end of November.",
+      "location": "cue 154, 00:24:31.629, Tomasz Wirth",
+      "cited": "transcript.txt, cue 154, L615, 00:24:31.629, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/goals[2]/quote",
+      "status": "verified",
+      "quote": "My T2 escalates something, and from then on I can see who has it and what's happening without asking anybody.",
+      "location": "cue 198, 00:31:09.132, Colleen Brask",
+      "cited": "transcript.txt, cue 198, L791, 00:31:09.132, Colleen Brask"
+    },
+    {
+      "path": "/readiness/goals[3]/quote",
+      "status": "verified",
+      "quote": "The report in hand with no engineering findings, and Granite signed by end of Q1.",
+      "location": "cue 202, 00:31:53.748, Tomasz Wirth",
+      "cited": "transcript.txt, cue 202, L807, 00:31:53.748, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/pains[0]/quote",
+      "status": "verified",
+      "quote": "and three days later my T2 is asking in the thread, hey, any update, and nobody knows who has it.",
+      "location": "cue 82, 00:13:00.277, Colleen Brask",
+      "cited": "transcript.txt, cue 82, L327, 00:13:00.277, Colleen Brask"
+    },
+    {
+      "path": "/readiness/pains[1]/quote",
+      "status": "verified",
+      "quote": "Or there's two Redmine issues for the same thing because two people grabbed it. Or zero.",
+      "location": "cue 83, 00:13:16.691, Colleen Brask",
+      "cited": "transcript.txt, cue 83, L331, 00:13:16.691, Colleen Brask"
+    },
+    {
+      "path": "/readiness/pains[2]/quote",
+      "status": "verified",
+      "quote": "And it's wrong by lunch.",
+      "location": "cue 89, 00:13:59.273, Colleen Brask",
+      "cited": "transcript.txt, cue 89, L355, 00:13:59.273, Colleen Brask"
+    },
+    {
+      "path": "/readiness/pains[3]/quote",
+      "status": "verified",
+      "quote": "Because it's me. The whole thing is me.",
+      "location": "cue 100, 00:15:45.721, Colleen Brask",
+      "cited": "transcript.txt, cue 100, L399, 00:15:45.721, Colleen Brask"
+    },
+    {
+      "path": "/readiness/pains[4]/quote",
+      "status": "verified",
+      "quote": "I can nag. I'm a very good nagger. But nagging isn't a process.",
+      "location": "cue 101, 00:15:57.157, Colleen Brask",
+      "cited": "transcript.txt, cue 101, L403, 00:15:57.157, Colleen Brask"
+    },
+    {
+      "path": "/readiness/pains[5]/quote",
+      "status": "verified",
+      "quote": "It's like having a person whose whole job is being confused.",
+      "location": "cue 116, 00:18:14.756, Tomasz Wirth",
+      "cited": "transcript.txt, cue 116, L463, 00:18:14.756, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/pains[6]/quote",
+      "status": "verified",
+      "quote": "Two engineers in two different squads fixed the same bug two different ways, and we found out in code review.",
+      "location": "cue 111, 00:17:23.641, Tomasz Wirth",
+      "cited": "transcript.txt, cue 111, L443, 00:17:23.641, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/pains[7]/quote",
+      "status": "verified",
+      "quote": "It lives in someone's head or in a Slack thread.",
+      "location": "cue 36, 00:05:27.807, Tomasz Wirth",
+      "cited": "transcript.txt, cue 36, L143, 00:05:27.807, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/pains[8]/quote",
+      "status": "verified",
+      "quote": "Three full weekends.",
+      "location": "cue 135, 00:21:10.259, Tomasz Wirth",
+      "cited": "transcript.txt, cue 135, L539, 00:21:10.259, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/pains[9]/quote",
+      "status": "verified",
+      "quote": "And for each one it's a scavenger hunt.",
+      "location": "cue 136, 00:21:24.128, Tomasz Wirth",
+      "cited": "transcript.txt, cue 136, L543, 00:21:24.128, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/pains[10]/quote",
+      "status": "verified",
+      "quote": "It does nothing for the fact that our change tickets are a mess. It just shows the auditor the mess faster.",
+      "location": "cue 158, 00:25:11.264, Tomasz Wirth",
+      "cited": "transcript.txt, cue 158, L631, 00:25:11.264, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/pains[11]/quote",
+      "status": "verified",
+      "quote": "It's most of a day every release. And I'm a PM, so that's a day I'm not talking to customers.",
+      "location": "cue 162, 00:25:46.985, Devin Marchetti",
+      "cited": "transcript.txt, cue 162, L647, 00:25:46.985, Devin Marchetti"
+    },
+    {
+      "path": "/readiness/pains[12]/quote",
+      "status": "verified",
+      "quote": "My team found out from customers. That's the part that kills me. We look stupid.",
+      "location": "cue 171, 00:26:51.448, Colleen Brask",
+      "cited": "transcript.txt, cue 171, L683, 00:26:51.448, Colleen Brask"
+    },
+    {
+      "path": "/readiness/pains[13]/quote",
+      "status": "verified",
+      "quote": "It was in the Slack thread. It was not in the handoff doc.",
+      "location": "cue 143, 00:22:35.321, Tomasz Wirth",
+      "cited": "transcript.txt, cue 143, L571, 00:22:35.321, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/pains[14]/quote",
+      "status": "verified",
+      "quote": "And the postmortem exists. It's in a Google Doc. Somewhere.",
+      "location": "cue 145, 00:22:55.487, Tomasz Wirth",
+      "cited": "transcript.txt, cue 145, L579, 00:22:55.487, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/pains[15]/quote",
+      "status": "verified",
+      "quote": "And it's, it's held together with tape at this point.",
+      "location": "cue 32, 00:04:42.003, Tomasz Wirth",
+      "cited": "transcript.txt, cue 32, L127, 00:04:42.003, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/pains[16]/quote",
+      "status": "verified",
+      "quote": "Unsupported software on a system that holds change records.",
+      "location": "cue 63, 00:10:06.908, Tomasz Wirth",
+      "cited": "transcript.txt, cue 63, L251, 00:10:06.908, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/pains[17]/quote",
+      "status": "verified",
+      "quote": "Like, the page takes eight seconds to load if the backlog is big.",
+      "location": "cue 61, 00:09:44.693, Devin Marchetti",
+      "cited": "transcript.txt, cue 61, L243, 00:09:44.693, Devin Marchetti"
+    },
+    {
+      "path": "/readiness/pains[18]/quote",
+      "status": "verified",
+      "quote": "I'd open a spreadsheet. Genuinely.",
+      "location": "cue 55, 00:08:38.825, Devin Marchetti",
+      "cited": "transcript.txt, cue 55, L219, 00:08:38.825, Devin Marchetti"
+    },
+    {
+      "path": "/readiness/pains[19]/quote",
+      "status": "verified",
+      "quote": "I just want one place where I can see all our projects and where they're at. Like a portfolio view.",
+      "location": "cue 56, 00:08:49.455, Tomasz Wirth",
+      "cited": "transcript.txt, cue 56, L223, 00:08:49.455, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/pains[20]/quote",
+      "status": "verified",
+      "quote": "Which means homeowner names and phone numbers and addresses end up pasted into Redmine and Slack.",
+      "location": "cue 122, 00:19:04.999, Colleen Brask",
+      "cited": "transcript.txt, cue 122, L487, 00:19:04.999, Colleen Brask"
+    },
+    {
+      "path": "/readiness/pains[21]/quote",
+      "status": "verified",
+      "quote": "He does not want customer PII in engineering tools. At all. And right now it's everywhere.",
+      "location": "cue 123, 00:19:15.685, Tomasz Wirth",
+      "cited": "transcript.txt, cue 123, L491, 00:19:15.685, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/pains[22]/quote",
+      "status": "verified",
+      "quote": "The auditor wants an approval on every access grant and a clean record when someone leaves. We don't have that in one place. At all.",
+      "location": "cue 148, 00:23:23.335, Tomasz Wirth",
+      "cited": "transcript.txt, cue 148, L591, 00:23:23.335, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/pains[23]/quote",
+      "status": "verified",
+      "quote": "And IT's never had a real service desk, honestly.",
+      "location": "cue 149, 00:23:32.400, Tomasz Wirth",
+      "cited": "transcript.txt, cue 149, L595, 00:23:32.400, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/pains[24]/quote",
+      "status": "verified",
+      "quote": "Slack is where everything happens and then dies.",
+      "location": "cue 72, 00:11:15.546, Tomasz Wirth",
+      "cited": "transcript.txt, cue 72, L287, 00:11:15.546, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/signals[0]/quote",
+      "status": "verified",
+      "quote": "Sorry, I had a Sev 2 I had to hand off to someone. Which is, um, probably relevant to this whole conversation.",
+      "location": "cue 18, 00:02:26.374, Colleen Brask",
+      "cited": "transcript.txt, cue 18, L71, 00:02:26.374, Colleen Brask"
+    },
+    {
+      "path": "/readiness/signals[1]/quote",
+      "status": "verified",
+      "quote": "Engineering thinks everything's a Sev 3, but whatever.",
+      "location": "cue 79, 00:12:27.888, Colleen Brask",
+      "cited": "transcript.txt, cue 79, L315, 00:12:27.888, Colleen Brask"
+    },
+    {
+      "path": "/readiness/signals[2]/quote",
+      "status": "verified",
+      "quote": "T2 escalated it on a Friday afternoon, which is already evening in Kraków.",
+      "location": "cue 92, 00:14:33.633, Colleen Brask",
+      "cited": "transcript.txt, cue 92, L367, 00:14:33.633, Colleen Brask"
+    },
+    {
+      "path": "/readiness/signals[3]/quote",
+      "status": "verified",
+      "quote": "Which is like half of them.",
+      "location": "cue 104, 00:16:29.067, Devin Marchetti",
+      "cited": "transcript.txt, cue 104, L415, 00:16:29.067, Devin Marchetti"
+    },
+    {
+      "path": "/readiness/signals[4]/quote",
+      "status": "verified",
+      "quote": "But then the SOC two project isn't code at all, it's evidence and policies and all that. So kind of both? I don't know. Everything's a project here.",
+      "location": "cue 59, 00:09:23.309, Tomasz Wirth",
+      "cited": "transcript.txt, cue 59, L235, 00:09:23.309, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/signals[5]/quote",
+      "status": "verified",
+      "quote": "But the escalation part, getting from a ticket to engineering and having the status come back, that has to connect to Zendesk somehow.",
+      "location": "cue 208, 00:32:50.654, Colleen Brask",
+      "cited": "transcript.txt, cue 208, L831, 00:32:50.654, Colleen Brask"
+    },
+    {
+      "path": "/readiness/signals[6]/quote",
+      "status": "verified",
+      "quote": "Oren, yeah. He does not want customer PII in engineering tools. At all.",
+      "location": "cue 123, 00:19:15.685, Tomasz Wirth",
+      "cited": "transcript.txt, cue 123, L491, 00:19:15.685, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[0]",
+      "status": "verified",
+      "quote": "The auditor wants an approval on every access grant and a clean record when someone leaves. We don't have that in one place. At all.",
+      "location": "cue 148, 00:23:23.335, Tomasz Wirth",
+      "cited": "transcript.txt, cue 148, L591, 00:23:23.335, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[1]",
+      "status": "verified",
+      "quote": "Who has access to what, who approved it, and quarterly access reviews.",
+      "location": "cue 133, 00:20:53.730, Tomasz Wirth",
+      "cited": "transcript.txt, cue 133, L531, 00:20:53.730, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[0]",
+      "status": "verified",
+      "quote": "Or there's two Redmine issues for the same thing because two people grabbed it. Or zero.",
+      "location": "cue 83, 00:13:16.691, Colleen Brask",
+      "cited": "transcript.txt, cue 83, L331, 00:13:16.691, Colleen Brask"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[1]",
+      "status": "verified",
+      "quote": "Like fifteen tickets in the first hour. And support had no idea anything had changed.",
+      "location": "cue 170, 00:26:45.269, Devin Marchetti",
+      "cited": "transcript.txt, cue 170, L679, 00:26:45.269, Devin Marchetti"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[0]",
+      "status": "verified",
+      "quote": "It's a Google Sheet with the Zendesk number, the Redmine number if there is one, who owns it, the status, when we last told the customer something.",
+      "location": "cue 86, 00:13:33.900, Colleen Brask",
+      "cited": "transcript.txt, cue 86, L343, 00:13:33.900, Colleen Brask"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[1]",
+      "status": "verified",
+      "quote": "Forty-five minutes on a good day? An hour. And it's wrong by lunch.",
+      "location": "cue 89, 00:13:59.273, Colleen Brask",
+      "cited": "transcript.txt, cue 89, L355, 00:13:59.273, Colleen Brask"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[0]",
+      "status": "verified",
+      "quote": "The handoff is a Slack thread plus a Google Doc, and the doc is, let's say, aspirational.",
+      "location": "cue 140, 00:22:04.318, Tomasz Wirth",
+      "cited": "transcript.txt, cue 140, L559, 00:22:04.318, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[1]",
+      "status": "verified",
+      "quote": "It was in the Slack thread. It was not in the handoff doc.",
+      "location": "cue 143, 00:22:35.321, Tomasz Wirth",
+      "cited": "transcript.txt, cue 143, L571, 00:22:35.321, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[0]",
+      "status": "verified",
+      "quote": "GitHub and Slack. Non-negotiable. If PRs don't link to the work item automatically, it's dead on arrival, because that's the whole audit problem.",
+      "location": "cue 204, 00:32:10.441, Tomasz Wirth",
+      "cited": "transcript.txt, cue 204, L815, 00:32:10.441, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[1]",
+      "status": "verified",
+      "quote": "This quarter. It has to be. Engineering off Redmine by end of November, so we've got six weeks of clean evidence before fieldwork.",
+      "location": "cue 233, 00:36:25.762, Tomasz Wirth",
+      "cited": "transcript.txt, cue 233, L931, 00:36:25.762, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[0]",
+      "status": "verified",
+      "quote": "And the auditor sends a PBC list, provided by client, and each request on it is like, show me the approvals for these twenty-five changes. And for each one it's a scavenger hunt.",
+      "location": "cue 136, 00:21:24.128, Tomasz Wirth",
+      "cited": "transcript.txt, cue 136, L543, 00:21:24.128, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[1]",
+      "status": "verified",
+      "quote": "click through ticket, approval, PR, release, and export it. In an afternoon. Not three weekends.",
+      "location": "cue 199, 00:31:24.467, Tomasz Wirth",
+      "cited": "transcript.txt, cue 199, L795, 00:31:24.467, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[0]",
+      "status": "verified",
+      "quote": "Uh. The big stuff? Offline mode, the billing rewrite. I mean, those are epics technically, I guess. Or a bunch of epics.",
+      "location": "cue 58, 00:09:12.291, Tomasz Wirth",
+      "cited": "transcript.txt, cue 58, L231, 00:09:12.291, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[1]",
+      "status": "verified",
+      "quote": "I'd open a spreadsheet. Genuinely. I keep a roadmap sheet and I update it by going squad to squad on Slack like, hey, where's this at.",
+      "location": "cue 55, 00:08:38.825, Devin Marchetti",
+      "cited": "transcript.txt, cue 55, L219, 00:08:38.825, Devin Marchetti"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[0]",
+      "status": "verified",
+      "quote": "Open issues and the epics. Everything else we archive read-only and leave it.",
+      "location": "cue 210, 00:33:07.900, Tomasz Wirth",
+      "cited": "transcript.txt, cue 210, L839, 00:33:07.900, Tomasz Wirth"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[1]",
+      "status": "verified",
+      "quote": "I'd want more history than that. At least the last year, for the audit. If they sample a change from April I don't want to be digging around in a read-only Redmine.",
+      "location": "cue 211, 00:33:14.086, Devin Marchetti",
+      "cited": "transcript.txt, cue 211, L843, 00:33:14.086, Devin Marchetti"
+    }
+  ]
+}

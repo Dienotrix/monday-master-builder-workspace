@@ -1,0 +1,1533 @@
+{
+  "fixture": "s14-shred-block",
+  "sources": [
+    {
+      "name": "transcript.txt",
+      "kind": "transcript",
+      "format": "line-time-first",
+      "units": 415,
+      "unsupported": null
+    }
+  ],
+  "counts": {
+    "pairs": 195,
+    "verified": 195,
+    "verified_presence_only": 34,
+    "skipped": 0,
+    "unparsed_prose": 0,
+    "near_misses": 0,
+    "misses": 0,
+    "unsupported": 0,
+    "warnings": 0
+  },
+  "refused_quotes_not_checked": [
+    {
+      "path": "/intake/refused_quotes",
+      "entries": 8
+    }
+  ],
+  "skipped": [],
+  "pairs": [
+    {
+      "path": "/rubric[0]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Right. So Suzette sells it. She's our bookings lead. It comes in as an enquiry, she quotes it, and when it's confirmed she puts it in the hire system.",
+      "location": "L139, 9:16 Dermot Shanley",
+      "cited": "transcript.txt, L139, 9:16, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[0]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "So it's in the hire system as a booking with a date range. Then a project manager picks it up, and that's Moira for the big ones, and she builds the design and the kit list.",
+      "location": "L151, 10:06 Dermot Shanley",
+      "cited": "transcript.txt, L151, 10:06, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[0]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "The kit list is a spreadsheet, yes. One per show. Lives on the shared drive.",
+      "location": "L155, 10:27 Dermot Shanley",
+      "cited": "transcript.txt, L155, 10:27, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[0]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Crew is me. About three weeks out I look at the grid, I work out how many bodies each show needs and what trades, and I start ringing round.",
+      "location": "L171, 11:26 Dermot Shanley",
+      "cited": "transcript.txt, L171, 11:26, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[0]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Open the case, count it, test what needs testing, mark it back in, and flag anything damaged or missing.",
+      "location": "L249, 17:29 Aileen Rusnak",
+      "cited": "transcript.txt, L249, 17:29, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[0]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "The hire system raises it off the booking, Lenka checks it against the sub-hires and the crew costs, and it goes out. Lenka's our finance manager. She's not on this call.",
+      "location": "L263, 18:23 Meera Ganguly",
+      "cited": "transcript.txt, L263, 18:23, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[0]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "That's it. Eight steps, four places to write things down, and one whiteboard.",
+      "location": "L267, 18:52 Meera Ganguly",
+      "cited": "transcript.txt, L267, 18:52, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[0]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "If the list says twelve of something and we own ten, same.",
+      "location": "L205, 13:22 Meera Ganguly (composite block, side-only)",
+      "cited": "transcript.txt, L205, 13:22, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[1]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Both shows had them. On paper both shows owned them.",
+      "location": "L103, 6:48 Dermot Shanley",
+      "cited": "transcript.txt, L103, 6:48, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[1]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I'm the check. That's the actual answer. There is no system check. I'm it, and I find it on the prep day because that's the first day anyone touches the kit.",
+      "location": "L111, 7:24 Aileen Rusnak",
+      "cited": "transcript.txt, L111, 7:24, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[1]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "It's not the hours that bother me. It's that most of it is work I've already done once. I built that week already. I'm building it again because something moved and nothing told anyone.",
+      "location": "L435, 30:21 Dermot Shanley",
+      "cited": "transcript.txt, L435, 30:21, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[1]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Then the hire system thinks the kit is still out on the last show, so the next show can't have it, so somebody sub-hires something we own and it's sitting on my floor.",
+      "location": "L257, 17:55 Aileen Rusnak",
+      "cited": "transcript.txt, L257, 17:55, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[2]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Two things, really. One is that we've won a framework with a venue group. Six venues, and they'll push work at us from January. On paper that's between a third and a half more shows than we did this year.",
+      "location": "L77, 4:50 Meera Ganguly",
+      "cited": "transcript.txt, L77, 4:50, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[2]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The second thing is the Hallowell conference in September, which we nearly lost in the middle of the show. And I don't mean we nearly lost money. I mean the client sent a letter.",
+      "location": "L89, 5:37 Meera Ganguly",
+      "cited": "transcript.txt, L89, 5:37, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[2]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I'd raise it in the budget round, which is the first week of November. Ferris signs, finance raise a purchase order, and then it's just doing it.",
+      "location": "L575, 40:31 Meera Ganguly",
+      "cited": "transcript.txt, L575, 40:31, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[2]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "If he says no in November, it isn't dead, it's April. But April is after the framework starts, and then we're doing it during the busiest year we've had, which is the worst possible time.",
+      "location": "L813, 57:54 Meera Ganguly",
+      "cited": "transcript.txt, L813, 57:54, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[3]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Last year the sub-hire line was a hundred and ninety-one thousand. I know that one because I sign them.",
+      "location": "L341, 24:24 Meera Ganguly",
+      "cited": "transcript.txt, L341, 24:24, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[3]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Call it a hundred and twenty-five thousand. I'd be comfortable saying that in front of Ferris.",
+      "location": "L353, 25:19 Meera Ganguly",
+      "cited": "transcript.txt, L353, 25:19, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[3]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Forty-two an hour, all in. That's the number I use for a crew chief and I'd use the same for those two.",
+      "location": "L401, 28:29 Meera Ganguly",
+      "cited": "transcript.txt, L401, 28:29, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[3]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Times fifty-two. Forty-five and a half thousand, near enough.",
+      "location": "L417, 29:20 Dermot Shanley",
+      "cited": "transcript.txt, L417, 29:20, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[3]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "A hundred and seventy thousand. Yes. And that's before the write-offs, which I can get you.",
+      "location": "L469, 32:37 Meera Ganguly",
+      "cited": "transcript.txt, L469, 32:37, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[3]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "Not today. I don't have Moira's hours and I'd be making them up.",
+      "location": "L427, 30:00 Meera Ganguly",
+      "cited": "transcript.txt, L427, 30:00, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[4]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Take the framework work without hiring.",
+      "location": "L505, 35:12 Dermot Shanley",
+      "cited": "transcript.txt, L505, 35:12, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[4]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "That's the honest answer. The framework is a third more shows and I have not budgeted a third more people, so the time has to come from somewhere.",
+      "location": "L507, 35:17 Meera Ganguly",
+      "cited": "transcript.txt, L507, 35:17, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[4]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "call it fifty all in",
+      "location": "L451, 31:09 Dermot Shanley",
+      "cited": "transcript.txt, L451, 31:09, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[4]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Four shows, so fifty-six thousand of revenue we didn't take. I'm not going to claim we'd have won all four.",
+      "location": "L525, 36:23 Meera Ganguly",
+      "cited": "transcript.txt, L525, 36:23, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[4]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "The venue group has an in-house services contract coming up next year. That's a different size of thing. But we're not credible for it while we're sub-hiring our own walls, so.",
+      "location": "L529, 36:47 Meera Ganguly",
+      "cited": "transcript.txt, L529, 36:47, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[5]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I want to open one thing and see every show for the next six weeks, what kit it needs, and whether we have it. That's it. That's the whole ask.",
+      "location": "L533, 37:19 Meera Ganguly",
+      "cited": "transcript.txt, L533, 37:19, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[5]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And I want the grid to be somewhere other than a wall, so that when a show moves, the people it affects know without me telling them.",
+      "location": "L535, 37:34 Dermot Shanley",
+      "cited": "transcript.txt, L535, 37:34, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[5]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And I want to know, on the Monday, what's coming back and what hasn't been checked in. Not to have to walk the floor and count cases.",
+      "location": "L537, 37:48 Aileen Rusnak",
+      "cited": "transcript.txt, L537, 37:48, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[5]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "He'd want to see it halved. I'd settle for taking the double-booking part out of it, which is the hundred and twenty-five.",
+      "location": "L545, 38:23 Meera Ganguly",
+      "cited": "transcript.txt, L545, 38:23, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[6]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Operations tools are mine up to thirty thousand. Above that Ferris signs, and he'll want to look at it either way.",
+      "location": "L553, 39:01 Meera Ganguly",
+      "cited": "transcript.txt, L553, 39:01, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[6]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "He'll want to know whether it duplicates the hire system. That's his first question about everything, because we paid for that three years ago and it took four months to put in.",
+      "location": "L557, 39:17 Meera Ganguly",
+      "cited": "transcript.txt, L557, 39:17, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[6]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Lenka, on anything that touches invoicing. Not a veto, but she'd need to be comfortable.",
+      "location": "L565, 39:52 Meera Ganguly",
+      "cited": "transcript.txt, L565, 39:52, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[6]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "And the crew chiefs, in practice. Not formally, but if they won't use it, it's ornamental.",
+      "location": "L567, 40:02 Dermot Shanley",
+      "cited": "transcript.txt, L567, 40:02, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[6]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "I'd raise it in the budget round, which is the first week of November. Ferris signs, finance raise a purchase order, and then it's just doing it.",
+      "location": "L575, 40:31 Meera Ganguly",
+      "cited": "transcript.txt, L575, 40:31, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[7]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "You can't change how crew is scheduled in the middle of peak. October and November are out. If you tried it in October I'd be the one holding it and I'd drop it.",
+      "location": "L579, 40:54 Dermot Shanley",
+      "cited": "transcript.txt, L579, 40:54, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[7]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "December's fine. December's dead after the tenth.",
+      "location": "L583, 41:18 Dermot Shanley",
+      "cited": "transcript.txt, L583, 41:18, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[7]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Which is also when I need it working, because January is the framework.",
+      "location": "L585, 41:24 Meera Ganguly",
+      "cited": "transcript.txt, L585, 41:24, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[7]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "I'd take nothing out. I'd want the check-in one first, because that's the one that makes everything else true.",
+      "location": "L731, 52:18 Meera Ganguly",
+      "cited": "transcript.txt, L731, 52:18, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[8]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The asset records. I'll say it before you find it. What's in the hire system as our kit is about eighty percent right. There's stuff on there we sold. There's stuff we own that's not on there.",
+      "location": "L589, 41:39 Aileen Rusnak",
+      "cited": "transcript.txt, L589, 41:39, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[8]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Honestly? The crew. Not the staff, the freelancers. They'll do what's on the call sheet and they will not log into anything.",
+      "location": "L601, 42:38 Dermot Shanley",
+      "cited": "transcript.txt, L601, 42:38, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[8]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Please do. If he thinks this is a second hire system, it stops there.",
+      "location": "L561, 39:41 Meera Ganguly",
+      "cited": "transcript.txt, L561, 39:41, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[8]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Why isn't this a spreadsheet? A good one. Because that's what Ferris will say, and I half think it myself.",
+      "location": "L619, 43:46 Meera Ganguly",
+      "cited": "transcript.txt, L619, 43:46, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[8]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "The timing and Lenka's face. It's not dead, it's next year.",
+      "location": "L647, 45:48 Meera Ganguly",
+      "cited": "transcript.txt, L647, 45:48, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[9]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Tuesday the sixth at eleven works. Dermot?",
+      "location": "L771, 55:05 Meera Ganguly",
+      "cited": "transcript.txt, L771, 55:05, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[9]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Works.",
+      "location": "L773, 55:11 Dermot Shanley",
+      "cited": "transcript.txt, L773, 55:11, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[9]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I'm here, I'll be in the office that day.",
+      "location": "L775, 55:13 Aileen Rusnak",
+      "cited": "transcript.txt, L775, 55:13, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[9]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Sending it now.",
+      "location": "L823, 58:56 Consultant",
+      "cited": "transcript.txt, L823, 58:56, Consultant"
+    },
+    {
+      "path": "/rubric[11]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Let me play back what I think a first version would be, and I want you to argue with it. Not to sign anything, just to tell me where it's wrong.",
+      "location": "L695, 49:12 Consultant",
+      "cited": "transcript.txt, L695, 49:12, Consultant"
+    },
+    {
+      "path": "/rubric[11]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Yes. That's the sentence that matters.",
+      "location": "L717, 51:18 Meera Ganguly",
+      "cited": "transcript.txt, L717, 51:18, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[11]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Fine. Yes. That's the right first cut, subject to Ferris hearing it.",
+      "location": "L735, 52:47 Meera Ganguly",
+      "cited": "transcript.txt, L735, 52:47, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[11]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Understood, and I'm not treating that as a yes to anything.",
+      "location": "L737, 52:55 Consultant",
+      "cited": "transcript.txt, L737, 52:55, Consultant"
+    },
+    {
+      "path": "/rubric[12]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Because the kit list for a show is a spreadsheet, and the spreadsheet doesn't know about any other show. Moira does Hallowell, someone else did Pinebank, and they both wrote LED wall on their list in, I don't know, July.",
+      "location": "L107, 6:57 Dermot Shanley",
+      "cited": "transcript.txt, L107, 6:57, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[12]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I'm the check. That's the actual answer. There is no system check. I'm it, and I find it on the prep day because that's the first day anyone touches the kit.",
+      "location": "L111, 7:24 Aileen Rusnak",
+      "cited": "transcript.txt, L111, 7:24, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[13]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I can, because it was mine. Hallowell is a three-day conference, two rooms, and one of the rooms had two LED walls in the design. Big ones. They'd been in the quote since June.",
+      "location": "L93, 5:58 Dermot Shanley",
+      "cited": "transcript.txt, L93, 5:58, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[13]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "and on the Monday, the prep day, Aileen goes to pull them and they're not there. They're at the Pinebank awards, which loaded out that morning and went straight to another job.",
+      "location": "L97, 6:19 Dermot Shanley",
+      "cited": "transcript.txt, L97, 6:19, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[13]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Six thousand eight hundred, and yes, out of our margin.",
+      "location": "L125, 8:13 Meera Ganguly",
+      "cited": "transcript.txt, L125, 8:13, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[13]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "The letter was because the second wall went in late. The room opened an hour behind on day one. Their events manager wrote to us about it, politely, and asked what we were putting in place so it didn't happen again. Which is a reasonable question I could not answer well.",
+      "location": "L129, 8:21 Meera Ganguly",
+      "cited": "transcript.txt, L129, 8:21, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[14]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We tried a rule. Kit lists had to be in the hire system three weeks out.",
+      "location": "L303, 21:33 Dermot Shanley",
+      "cited": "transcript.txt, L303, 21:33, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[14]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Because the design changes. A client moves a room or adds a breakout and the list changes twice more before the show. So you're typing it three times instead of once, and the third one's the only one that's true.",
+      "location": "L311, 21:50 Dermot Shanley",
+      "cited": "transcript.txt, L311, 21:50, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[14]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "It holds what's out if somebody put it in. The kit list doesn't go in until a week out, and the check-in is behind, so what it tells you on a Tuesday is a picture of about two weeks ago.",
+      "location": "L297, 20:57 Aileen Rusnak",
+      "cited": "transcript.txt, L297, 20:57, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[15]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Me, because I sign the sub-hire. Moira, because she has to tell the client the design changed. The crew chief on site, who finds out on the day that the thing he was told to rig isn't the thing in the truck.",
+      "location": "L321, 22:47 Meera Ganguly",
+      "cited": "transcript.txt, L321, 22:47, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[15]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "and my two lads, because they're pulling a show while I'm on the phone to a hire company",
+      "location": "L323, 23:05 Aileen Rusnak",
+      "cited": "transcript.txt, L323, 23:05, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[15]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Five or six of us, all pulled off what we were doing.",
+      "location": "L327, 23:19 Dermot Shanley",
+      "cited": "transcript.txt, L327, 23:19, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[16]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Last year the sub-hire line was a hundred and ninety-one thousand. I know that one because I sign them.",
+      "location": "L341, 24:24 Meera Ganguly",
+      "cited": "transcript.txt, L341, 24:24, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[16]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "But the walls, the mic racks, the desks, that's us covering ourselves. I'd say two thirds of that line is us buying back our own kit.",
+      "location": "L349, 24:59 Meera Ganguly",
+      "cited": "transcript.txt, L349, 24:59, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[16]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "seventy nights a year now. Maybe more. That's nights where something on a show is hired in.",
+      "location": "L369, 26:28 Dermot Shanley",
+      "cited": "transcript.txt, L369, 26:28, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[16]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "seventeen hundred a night, and that's the friendly rate because we know them.",
+      "location": "L121, 7:58 Meera Ganguly",
+      "cited": "transcript.txt, L121, 7:58, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[17]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It is, and it's also why I'm nervous, because the way we run now, I don't think it takes another two hundred shows.",
+      "location": "L81, 5:14 Meera Ganguly",
+      "cited": "transcript.txt, L81, 5:14, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[17]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It's whatever we only have a few of. Walls, the good radio mic racks, the big desks. If we own thirty of something it's never the problem. If we own two, it's always the problem.",
+      "location": "L293, 20:31 Aileen Rusnak",
+      "cited": "transcript.txt, L293, 20:31, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[17]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Then the check-in never happens. That's what gives first. And the further behind the check-in gets, the less true the hire system is, and the more we sub-hire. It feeds itself.",
+      "location": "L459, 31:48 Aileen Rusnak",
+      "cited": "transcript.txt, L459, 31:48, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[18]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Crewing and moving crew. It's the moving that gets you. A show moves a day, or someone drops out on the Thursday, and then everything after it moves.",
+      "location": "L187, 12:20 Dermot Shanley",
+      "cited": "transcript.txt, L187, 12:20, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[18]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It's not the hours that bother me. It's that most of it is work I've already done once. I built that week already. I'm building it again because something moved and nothing told anyone.",
+      "location": "L435, 30:21 Dermot Shanley",
+      "cited": "transcript.txt, L435, 30:21, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[19]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Rubbing out and rewriting. It's a whiteboard.",
+      "location": "L381, 27:11 Dermot Shanley",
+      "cited": "transcript.txt, L381, 27:11, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[19]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The vehicle plan, the call times, and Aileen's prep order if the dates moved.",
+      "location": "L385, 27:23 Dermot Shanley",
+      "cited": "transcript.txt, L385, 27:23, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[19]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Me and the project manager. The rest is me remembering.",
+      "location": "L683, 48:32 Dermot Shanley",
+      "cited": "transcript.txt, L683, 48:32, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[19]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "and the transport company usually finds out last, which costs us a cancellation",
+      "location": "L685, 48:39 Aileen Rusnak",
+      "cited": "transcript.txt, L685, 48:39, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[20]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Ringing, mostly messaging. And then they say yes or they don't answer, and I write their name on the grid in pencil until they've said yes properly.",
+      "location": "L175, 11:45 Dermot Shanley",
+      "cited": "transcript.txt, L175, 11:45, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[20]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Message. Or I walk down and say it.",
+      "location": "L197, 12:55 Dermot Shanley",
+      "cited": "transcript.txt, L197, 12:55, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[20]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Then it's a message, and if she's on a forklift it sits there.",
+      "location": "L201, 13:04 Dermot Shanley",
+      "cited": "transcript.txt, L201, 13:04, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[21]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Me, Aileen, the project manager, the crew who are booked, and the transport company if it's a big truck.",
+      "location": "L679, 48:14 Dermot Shanley",
+      "cited": "transcript.txt, L679, 48:14, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[21]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Because I can't see far enough ahead to know if I can crew it, so I say no rather than say yes and fail.",
+      "location": "L517, 35:54 Dermot Shanley",
+      "cited": "transcript.txt, L517, 35:54, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[22]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Fifteen hours. Maybe more in October.",
+      "location": "L183, 12:10 Dermot Shanley",
+      "cited": "transcript.txt, L183, 12:10, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[22]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Chasing what's changed, and chasing what came back? Six hours. Maybe more in a week like last week.",
+      "location": "L393, 27:51 Aileen Rusnak",
+      "cited": "transcript.txt, L393, 27:51, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[22]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Forty-two an hour, all in. That's the number I use for a crew chief and I'd use the same for those two.",
+      "location": "L401, 28:29 Meera Ganguly",
+      "cited": "transcript.txt, L401, 28:29, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[22]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Forty-five thousand on two people moving names around.",
+      "location": "L419, 29:28 Meera Ganguly",
+      "cited": "transcript.txt, L419, 29:28, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[23]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We hire another me.",
+      "location": "L443, 31:01 Dermot Shanley",
+      "cited": "transcript.txt, L443, 31:01, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[23]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Not formally, but a scheduler is thirty-eight, thirty-nine thousand plus on-costs, so",
+      "location": "L447, 31:08 Dermot Shanley",
+      "cited": "transcript.txt, L447, 31:08, Dermot Shanley"
+    },
+    {
+      "path": "/rubric[24]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "In the hire system. That's the bit that should happen and doesn't always.",
+      "location": "L253, 17:43 Aileen Rusnak",
+      "cited": "transcript.txt, L253, 17:43, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[24]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Then the hire system thinks the kit is still out on the last show, so the next show can't have it, so somebody sub-hires something we own and it's sitting on my floor.",
+      "location": "L257, 17:55 Aileen Rusnak",
+      "cited": "transcript.txt, L257, 17:55, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[25]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It sits on the floor by the door until someone checks it in. Which is supposed to be the next morning, and in a normal week it is. In a week like last week, when four shows come back on the same Friday",
+      "location": "L241, 16:53 Aileen Rusnak",
+      "cited": "transcript.txt, L241, 16:53, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[25]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "it's the following Wednesday, if we're honest, and by then nobody can tell you which show a broken thing came off.",
+      "location": "L245, 17:10 Aileen Rusnak",
+      "cited": "transcript.txt, L245, 17:10, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[25]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "We lost eleven radio mic packs last year, I know that one because I had to explain it.",
+      "location": "L489, 33:59 Aileen Rusnak",
+      "cited": "transcript.txt, L489, 33:59, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[26]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And I want to know, on the Monday, what's coming back and what hasn't been checked in. Not to have to walk the floor and count cases.",
+      "location": "L537, 37:48 Aileen Rusnak",
+      "cited": "transcript.txt, L537, 37:48, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[26]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It holds what's out if somebody put it in. The kit list doesn't go in until a week out, and the check-in is behind, so what it tells you on a Tuesday is a picture of about two weeks ago.",
+      "location": "L297, 20:57 Aileen Rusnak",
+      "cited": "transcript.txt, L297, 20:57, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[27]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Then the hire system thinks the kit is still out on the last show, so the next show can't have it, so somebody sub-hires something we own and it's sitting on my floor.",
+      "location": "L257, 17:55 Aileen Rusnak",
+      "cited": "transcript.txt, L257, 17:55, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[27]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Kit that doesn't come back, or comes back broken and nobody knows off which show. It gets written off at the year end.",
+      "location": "L473, 32:51 Aileen Rusnak",
+      "cited": "transcript.txt, L473, 32:51, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[28]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I couldn't tell you. That's a Lenka question. It goes through the accounts, not through me.",
+      "location": "L477, 33:07 Aileen Rusnak",
+      "cited": "transcript.txt, L477, 33:07, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[28]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Not in my head, no. Lenka would have it in about four minutes, but I'm not going to invent it for you.",
+      "location": "L481, 33:20 Meera Ganguly",
+      "cited": "transcript.txt, L481, 33:20, Meera Ganguly"
+    },
+    {
+      "path": "/rubric[28]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "New? Nine hundred and something. We'd not replace them new.",
+      "location": "L497, 34:26 Aileen Rusnak",
+      "cited": "transcript.txt, L497, 34:26, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[29]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Then the check-in never happens. That's what gives first. And the further behind the check-in gets, the less true the hire system is, and the more we sub-hire. It feeds itself.",
+      "location": "L459, 31:48 Aileen Rusnak",
+      "cited": "transcript.txt, L459, 31:48, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[30]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The asset records. I'll say it before you find it. What's in the hire system as our kit is about eighty percent right. There's stuff on there we sold. There's stuff we own that's not on there.",
+      "location": "L589, 41:39 Aileen Rusnak",
+      "cited": "transcript.txt, L589, 41:39, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[30]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The second warehouse. Dunmere. Nothing at Dunmere is in the hire system properly and there's about forty thousand pounds of staging in it.",
+      "location": "L795, 56:41 Aileen Rusnak",
+      "cited": "transcript.txt, L795, 56:41, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[31]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Every case has a barcode. Not every item inside a case.",
+      "location": "L655, 46:27 Aileen Rusnak",
+      "cited": "transcript.txt, L655, 46:27, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[31]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "For most things, yes. Walls and desks are their own thing.",
+      "location": "L659, 46:40 Aileen Rusnak",
+      "cited": "transcript.txt, L659, 46:40, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[31]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I could do two hundred lines in a day and a half.",
+      "location": "L723, 51:49 Aileen Rusnak",
+      "cited": "transcript.txt, L723, 51:49, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[32]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It's a job somebody can do. It's two weeks of my life and nobody's ever given me the two weeks.",
+      "location": "L593, 42:06 Aileen Rusnak",
+      "cited": "transcript.txt, L593, 42:06, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[34]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It's a job somebody can do. It's two weeks of my life and nobody's ever given me the two weeks.",
+      "location": "L593, 42:06 Aileen Rusnak",
+      "cited": "transcript.txt, L593, 42:06, Aileen Rusnak"
+    },
+    {
+      "path": "/rubric[34]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I could do two hundred lines in a day and a half.",
+      "location": "L723, 51:49 Aileen Rusnak",
+      "cited": "transcript.txt, L723, 51:49, Aileen Rusnak"
+    },
+    {
+      "path": "/pains[0]/quote",
+      "status": "verified",
+      "quote": "I'm the check. That's the actual answer. There is no system check. I'm it, and I find it on the prep day because that's the first day anyone touches the kit.",
+      "location": "L111, 7:24 Aileen Rusnak",
+      "cited": "transcript.txt, L111, 7:24, Aileen Rusnak"
+    },
+    {
+      "path": "/pains[1]/quote",
+      "status": "verified",
+      "quote": "It's whatever we only have a few of. Walls, the good radio mic racks, the big desks. If we own thirty of something it's never the problem. If we own two, it's always the problem.",
+      "location": "L293, 20:31 Aileen Rusnak",
+      "cited": "transcript.txt, L293, 20:31, Aileen Rusnak"
+    },
+    {
+      "path": "/pains[2]/quote",
+      "status": "verified",
+      "quote": "It is not a decision, it's a receipt.",
+      "location": "L231, 16:26 Meera Ganguly",
+      "cited": "transcript.txt, L231, 16:26, Meera Ganguly"
+    },
+    {
+      "path": "/pains[3]/quote",
+      "status": "verified",
+      "quote": "I built that week already. I'm building it again because something moved and nothing told anyone.",
+      "location": "L435, 30:21 Dermot Shanley",
+      "cited": "transcript.txt, L435, 30:21, Dermot Shanley"
+    },
+    {
+      "path": "/pains[4]/quote",
+      "status": "verified",
+      "quote": "Then it's a message, and if she's on a forklift it sits there.",
+      "location": "L201, 13:04 Dermot Shanley",
+      "cited": "transcript.txt, L201, 13:04, Dermot Shanley"
+    },
+    {
+      "path": "/pains[5]/quote",
+      "status": "verified",
+      "quote": "Then the hire system thinks the kit is still out on the last show, so the next show can't have it, so somebody sub-hires something we own and it's sitting on my floor.",
+      "location": "L257, 17:55 Aileen Rusnak",
+      "cited": "transcript.txt, L257, 17:55, Aileen Rusnak"
+    },
+    {
+      "path": "/pains[6]/quote",
+      "status": "verified",
+      "quote": "It feeds itself.",
+      "location": "L459, 31:48 Aileen Rusnak",
+      "cited": "transcript.txt, L459, 31:48, Aileen Rusnak"
+    },
+    {
+      "path": "/pains[7]/quote",
+      "status": "verified",
+      "quote": "What's in the hire system as our kit is about eighty percent right. There's stuff on there we sold. There's stuff we own that's not on there.",
+      "location": "L589, 41:39 Aileen Rusnak",
+      "cited": "transcript.txt, L589, 41:39, Aileen Rusnak"
+    },
+    {
+      "path": "/pains[8]/quote",
+      "status": "verified",
+      "quote": "It looked like a wall of colour, honestly, and I couldn't tell what I was looking at, but their operations person swore by it.",
+      "location": "L271, 19:07 Meera Ganguly",
+      "cited": "transcript.txt, L271, 19:07, Meera Ganguly"
+    },
+    {
+      "path": "/pains[9]/quote",
+      "status": "verified",
+      "quote": "They don't. They get told.",
+      "location": "L571, 40:16 Dermot Shanley",
+      "cited": "transcript.txt, L571, 40:16, Dermot Shanley"
+    },
+    {
+      "path": "/numbers/bleed/quote",
+      "status": "verified",
+      "quote": "A hundred and seventy thousand. Yes. And that's before the write-offs, which I can get you.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L469, 32:37, Meera Ganguly"
+      ]
+    },
+    {
+      "path": "/numbers/upside/quote",
+      "status": "verified",
+      "quote": "Four shows, so fifty-six thousand of revenue we didn't take. I'm not going to claim we'd have won all four.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L525, 36:23, Meera Ganguly"
+      ]
+    },
+    {
+      "path": "/objections[0]/quote",
+      "status": "verified",
+      "quote": "Why isn't this a spreadsheet? A good one. Because that's what Ferris will say, and I half think it myself.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L619, 43:46, Meera Ganguly"
+      ]
+    },
+    {
+      "path": "/objections[1]/quote",
+      "status": "verified",
+      "quote": "Operations tools are mine up to thirty thousand. Above that Ferris signs, and he'll want to look at it either way.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L553, 39:01, Meera Ganguly"
+      ]
+    },
+    {
+      "path": "/objections[2]/quote",
+      "status": "verified",
+      "quote": "Please do. If he thinks this is a second hire system, it stops there.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L561, 39:41, Meera Ganguly"
+      ]
+    },
+    {
+      "path": "/objections[3]/quote",
+      "status": "verified",
+      "quote": "Lenka, on anything that touches invoicing. Not a veto, but she'd need to be comfortable.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L565, 39:52, Meera Ganguly"
+      ]
+    },
+    {
+      "path": "/objections[4]/quote",
+      "status": "verified",
+      "quote": "You can't change how crew is scheduled in the middle of peak. October and November are out. If you tried it in October I'd be the one holding it and I'd drop it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L579, 40:54, Dermot Shanley"
+      ]
+    },
+    {
+      "path": "/objections[5]/quote",
+      "status": "verified",
+      "quote": "If he says no in November, it isn't dead, it's April. But April is after the framework starts, and then we're doing it during the busiest year we've had, which is the worst possible time.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L813, 57:54, Meera Ganguly"
+      ]
+    },
+    {
+      "path": "/objections[6]/quote",
+      "status": "verified",
+      "quote": "Honestly? The crew. Not the staff, the freelancers. They'll do what's on the call sheet and they will not log into anything.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L601, 42:38, Dermot Shanley"
+      ]
+    },
+    {
+      "path": "/objections[7]/quote",
+      "status": "verified",
+      "quote": "We asked them to confirm shifts in an app two years ago. About a third of them did it and the rest rang me anyway, so I stopped.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L605, 42:55, Dermot Shanley"
+      ]
+    },
+    {
+      "path": "/objections[8]/quote",
+      "status": "verified",
+      "quote": "The timing and Lenka's face. It's not dead, it's next year.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L647, 45:48, Meera Ganguly"
+      ]
+    },
+    {
+      "path": "/objections[9]/quote",
+      "status": "verified",
+      "quote": "No. I've seen it at a supplier of ours. It looked like a wall of colour, honestly, and I couldn't tell what I was looking at, but their operations person swore by it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L271, 19:07, Meera Ganguly"
+      ]
+    },
+    {
+      "path": "/objections[10]/quote",
+      "status": "verified",
+      "quote": "And I'd want to be able to change it myself. Add a field, change a list. If I have to ring someone to add a column we're back where we were with the app.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L745, 53:26, Aileen Rusnak"
+      ]
+    },
+    {
+      "path": "/objections[11]/quote",
+      "status": "verified",
+      "quote": "I appreciate that, genuinely. The last person who sat in that chair multiplied things.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L501, 34:47, Meera Ganguly"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[0]/quote",
+      "status": "verified",
+      "quote": "Tuesday the sixth at eleven works. Dermot?",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L771, 55:05, Meera Ganguly"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[1]/quote",
+      "status": "verified",
+      "quote": "Sending it now.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L823, 58:56, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[2]/quote",
+      "status": "verified",
+      "quote": "I'll do it today and then it's done.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L763, 54:37, Aileen Rusnak"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[3]/quote",
+      "status": "verified",
+      "quote": "The figure, yes, I'll ask Lenka Thursday. The crew chief, ask Dermot.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L783, 55:53, Meera Ganguly"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[4]/quote",
+      "status": "verified",
+      "quote": "Kenny's in on Wednesday doing kit prep. I'll put you on the phone to him Wednesday afternoon.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L785, 56:02, Dermot Shanley"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[5]/quote",
+      "status": "verified",
+      "quote": "That would be worth a great deal.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L817, 58:31, Meera Ganguly"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[6]/quote",
+      "status": "verified",
+      "quote": "After. Let me see it first and then I'll take it to him with a view.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L779, 55:31, Meera Ganguly"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[7]/quote",
+      "status": "verified",
+      "quote": "You could give me the two weeks in December.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L597, 42:20, Aileen Rusnak"
+      ]
+    },
+    {
+      "path": "/requested_changes[0]/quote",
+      "status": "verified",
+      "quote": "Can I add one? Whatever it is, it has to work on a phone in a loading bay with one bar of signal. If it doesn't, it doesn't exist.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L741, 53:06, Dermot Shanley"
+      ]
+    },
+    {
+      "path": "/requested_changes[1]/quote",
+      "status": "verified",
+      "quote": "And I'd want to be able to change it myself. Add a field, change a list. If I have to ring someone to add a column we're back where we were with the app.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L745, 53:26, Aileen Rusnak"
+      ]
+    },
+    {
+      "path": "/requested_changes[2]/quote",
+      "status": "verified",
+      "quote": "Don't make me look at a wall of colour.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L749, 53:48, Meera Ganguly"
+      ]
+    },
+    {
+      "path": "/requested_changes[3]/quote",
+      "status": "verified",
+      "quote": "Agreed. The hire system raises those.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L713, 50:52, Meera Ganguly"
+      ]
+    },
+    {
+      "path": "/requested_changes[4]/quote",
+      "status": "verified",
+      "quote": "Yes. That's the sentence that matters.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L717, 51:18, Meera Ganguly"
+      ]
+    },
+    {
+      "path": "/requested_changes[5]/quote",
+      "status": "verified",
+      "quote": "I'd take nothing out. I'd want the check-in one first, because that's the one that makes everything else true.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L731, 52:18, Meera Ganguly"
+      ]
+    },
+    {
+      "path": "/requested_changes[6]/quote",
+      "status": "verified",
+      "quote": "Later. Get Farrowgate right first.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L799, 57:05, Meera Ganguly"
+      ]
+    },
+    {
+      "path": "/account_context/evidence_quote_or_null",
+      "status": "verified",
+      "quote": "No. Nothing. Whatever we do would be from nothing.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L275, 19:27, Meera Ganguly"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[0]/quote",
+      "status": "verified",
+      "quote": "I'm not going to show you anything today.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L21, 1:06, Consultant"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[2]/quote",
+      "status": "verified",
+      "quote": "Good. That's the version I wanted.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L23, 1:32, Meera Ganguly"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[3]/quote",
+      "status": "verified",
+      "quote": "Every show as a record with its dates, its venue, its project manager, and the phases it goes through",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L699, 49:29, Consultant"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[4]/quote",
+      "status": "verified",
+      "quote": "Operations tools are mine up to thirty thousand. Above that Ferris signs, and he'll want to look at it either way.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L553, 39:01, Meera Ganguly"
+      ]
+    },
+    {
+      "path": "/readiness/goals[0]/quote",
+      "status": "verified",
+      "quote": "Take the framework work without hiring.",
+      "location": "L505, 35:12 Dermot Shanley",
+      "cited": "transcript.txt, L505, 35:12, Dermot Shanley"
+    },
+    {
+      "path": "/readiness/goals[1]/quote",
+      "status": "verified",
+      "quote": "I want to open one thing and see every show for the next six weeks, what kit it needs, and whether we have it.",
+      "location": "L533, 37:19 Meera Ganguly",
+      "cited": "transcript.txt, L533, 37:19, Meera Ganguly"
+    },
+    {
+      "path": "/readiness/goals[2]/quote",
+      "status": "verified",
+      "quote": "And I want the grid to be somewhere other than a wall, so that when a show moves, the people it affects know without me telling them.",
+      "location": "L535, 37:34 Dermot Shanley",
+      "cited": "transcript.txt, L535, 37:34, Dermot Shanley"
+    },
+    {
+      "path": "/readiness/goals[3]/quote",
+      "status": "verified",
+      "quote": "And I want to know, on the Monday, what's coming back and what hasn't been checked in.",
+      "location": "L537, 37:48 Aileen Rusnak",
+      "cited": "transcript.txt, L537, 37:48, Aileen Rusnak"
+    },
+    {
+      "path": "/readiness/pains[0]/quote",
+      "status": "verified",
+      "quote": "I'm the check. That's the actual answer. There is no system check. I'm it, and I find it on the prep day because that's the first day anyone touches the kit.",
+      "location": "L111, 7:24 Aileen Rusnak",
+      "cited": "transcript.txt, L111, 7:24, Aileen Rusnak"
+    },
+    {
+      "path": "/readiness/pains[1]/quote",
+      "status": "verified",
+      "quote": "It's whatever we only have a few of. Walls, the good radio mic racks, the big desks. If we own thirty of something it's never the problem. If we own two, it's always the problem.",
+      "location": "L293, 20:31 Aileen Rusnak",
+      "cited": "transcript.txt, L293, 20:31, Aileen Rusnak"
+    },
+    {
+      "path": "/readiness/pains[2]/quote",
+      "status": "verified",
+      "quote": "It is not a decision, it's a receipt.",
+      "location": "L231, 16:26 Meera Ganguly",
+      "cited": "transcript.txt, L231, 16:26, Meera Ganguly"
+    },
+    {
+      "path": "/readiness/pains[3]/quote",
+      "status": "verified",
+      "quote": "I built that week already. I'm building it again because something moved and nothing told anyone.",
+      "location": "L435, 30:21 Dermot Shanley",
+      "cited": "transcript.txt, L435, 30:21, Dermot Shanley"
+    },
+    {
+      "path": "/readiness/pains[4]/quote",
+      "status": "verified",
+      "quote": "Then it's a message, and if she's on a forklift it sits there.",
+      "location": "L201, 13:04 Dermot Shanley",
+      "cited": "transcript.txt, L201, 13:04, Dermot Shanley"
+    },
+    {
+      "path": "/readiness/pains[5]/quote",
+      "status": "verified",
+      "quote": "Then the hire system thinks the kit is still out on the last show, so the next show can't have it, so somebody sub-hires something we own and it's sitting on my floor.",
+      "location": "L257, 17:55 Aileen Rusnak",
+      "cited": "transcript.txt, L257, 17:55, Aileen Rusnak"
+    },
+    {
+      "path": "/readiness/pains[6]/quote",
+      "status": "verified",
+      "quote": "It feeds itself.",
+      "location": "L459, 31:48 Aileen Rusnak",
+      "cited": "transcript.txt, L459, 31:48, Aileen Rusnak"
+    },
+    {
+      "path": "/readiness/pains[7]/quote",
+      "status": "verified",
+      "quote": "What's in the hire system as our kit is about eighty percent right. There's stuff on there we sold. There's stuff we own that's not on there.",
+      "location": "L589, 41:39 Aileen Rusnak",
+      "cited": "transcript.txt, L589, 41:39, Aileen Rusnak"
+    },
+    {
+      "path": "/readiness/pains[8]/quote",
+      "status": "verified",
+      "quote": "It looked like a wall of colour, honestly, and I couldn't tell what I was looking at, but their operations person swore by it.",
+      "location": "L271, 19:07 Meera Ganguly",
+      "cited": "transcript.txt, L271, 19:07, Meera Ganguly"
+    },
+    {
+      "path": "/readiness/pains[9]/quote",
+      "status": "verified",
+      "quote": "They don't. They get told.",
+      "location": "L571, 40:16 Dermot Shanley",
+      "cited": "transcript.txt, L571, 40:16, Dermot Shanley"
+    },
+    {
+      "path": "/readiness/signals[0]/quote",
+      "status": "verified",
+      "quote": "that's the one",
+      "location": "L705, 50:10 Aileen Rusnak",
+      "cited": "transcript.txt, L705, 50:10, Aileen Rusnak"
+    },
+    {
+      "path": "/readiness/signals[1]/quote",
+      "status": "verified",
+      "quote": "It isn't. That's right.",
+      "location": "L701, 49:50 Dermot Shanley",
+      "cited": "transcript.txt, L701, 49:50, Dermot Shanley"
+    },
+    {
+      "path": "/readiness/signals[2]/quote",
+      "status": "verified",
+      "quote": "That changes it, actually.",
+      "location": "L727, 52:05 Meera Ganguly",
+      "cited": "transcript.txt, L727, 52:05, Meera Ganguly"
+    },
+    {
+      "path": "/readiness/signals[3]/quote",
+      "status": "verified",
+      "quote": "He'd want to see it halved. I'd settle for taking the double-booking part out of it, which is the hundred and twenty-five.",
+      "location": "L545, 38:23 Meera Ganguly",
+      "cited": "transcript.txt, L545, 38:23, Meera Ganguly"
+    },
+    {
+      "path": "/readiness/signals[4]/quote",
+      "status": "verified",
+      "quote": "He'll want to know whether it duplicates the hire system. That's his first question about everything, because we paid for that three years ago and it took four months to put in.",
+      "location": "L557, 39:17 Meera Ganguly",
+      "cited": "transcript.txt, L557, 39:17, Meera Ganguly"
+    },
+    {
+      "path": "/readiness/signals[5]/quote",
+      "status": "verified",
+      "quote": "I build the show list off the design, and then Aileen adds the consumables and the spares, so it's two of us.",
+      "location": "L205, 13:22 Meera Ganguly (composite block, side-only)",
+      "cited": "transcript.txt, L205, 13:22, Meera Ganguly"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[0]",
+      "status": "verified",
+      "quote": "Because the kit list for a show is a spreadsheet, and the spreadsheet doesn't know about any other show.",
+      "location": "L107, 6:57 Dermot Shanley",
+      "cited": "transcript.txt, L107, 6:57, Dermot Shanley"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[1]",
+      "status": "verified",
+      "quote": "they were never coming back in time. Nobody had them coming back in time.",
+      "location": "L99, 6:36 Aileen Rusnak",
+      "cited": "transcript.txt, L99, 6:36, Aileen Rusnak"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[2]",
+      "status": "verified",
+      "quote": "Every case has a barcode. Not every item inside a case.",
+      "location": "L655, 46:27 Aileen Rusnak",
+      "cited": "transcript.txt, L655, 46:27, Aileen Rusnak"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[0]",
+      "status": "verified",
+      "quote": "And then they say yes or they don't answer, and I write their name on the grid in pencil until they've said yes properly.",
+      "location": "L175, 11:45 Dermot Shanley",
+      "cited": "transcript.txt, L175, 11:45, Dermot Shanley"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[1]",
+      "status": "verified",
+      "quote": "About three weeks out I look at the grid, I work out how many bodies each show needs and what trades, and I start ringing round.",
+      "location": "L171, 11:26 Dermot Shanley",
+      "cited": "transcript.txt, L171, 11:26, Dermot Shanley"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[0]",
+      "status": "verified",
+      "quote": "In the hire system. That's the bit that should happen and doesn't always.",
+      "location": "L253, 17:43 Aileen Rusnak",
+      "cited": "transcript.txt, L253, 17:43, Aileen Rusnak"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[1]",
+      "status": "verified",
+      "quote": "Then the hire system thinks the kit is still out on the last show, so the next show can't have it, so somebody sub-hires something we own and it's sitting on my floor.",
+      "location": "L257, 17:55 Aileen Rusnak",
+      "cited": "transcript.txt, L257, 17:55, Aileen Rusnak"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[0]",
+      "status": "verified",
+      "quote": "It's whatever we only have a few of. Walls, the good radio mic racks, the big desks. If we own thirty of something it's never the problem. If we own two, it's always the problem.",
+      "location": "L293, 20:31 Aileen Rusnak",
+      "cited": "transcript.txt, L293, 20:31, Aileen Rusnak"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[1]",
+      "status": "verified",
+      "quote": "Two hundred lines, not two thousand.",
+      "location": "L721, 51:32 Consultant",
+      "cited": "transcript.txt, L721, 51:32, Consultant"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[2]",
+      "status": "verified",
+      "quote": "I could do two hundred lines in a day and a half.",
+      "location": "L723, 51:49 Aileen Rusnak",
+      "cited": "transcript.txt, L723, 51:49, Aileen Rusnak"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[0]",
+      "status": "verified",
+      "quote": "It isn't. That's right.",
+      "location": "L701, 49:50 Dermot Shanley",
+      "cited": "transcript.txt, L701, 49:50, Dermot Shanley"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[1]",
+      "status": "verified",
+      "quote": "Depends on the show. A one-day conference, half a day. Hallowell was, what, two full days with three of us.",
+      "location": "L209, 15:09 Aileen Rusnak",
+      "cited": "transcript.txt, L209, 15:09, Aileen Rusnak"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[0]",
+      "status": "verified",
+      "quote": "The vehicle plan, the call times, and Aileen's prep order if the dates moved.",
+      "location": "L385, 27:23 Dermot Shanley",
+      "cited": "transcript.txt, L385, 27:23, Dermot Shanley"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[1]",
+      "status": "verified",
+      "quote": "So I work out who's going where, and with what, what vehicle, and I own the grid.",
+      "location": "L47, 3:03 Dermot Shanley",
+      "cited": "transcript.txt, L47, 3:03, Dermot Shanley"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[0]",
+      "status": "verified",
+      "quote": "A client moves a room or adds a breakout and the list changes twice more before the show. So you're typing it three times instead of once, and the third one's the only one that's true.",
+      "location": "L311, 21:50 Dermot Shanley",
+      "cited": "transcript.txt, L311, 21:50, Dermot Shanley"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[1]",
+      "status": "verified",
+      "quote": "If I'm prepping four shows I'm not typing kit lists in twice.",
+      "location": "L161, 10:51 Aileen Rusnak",
+      "cited": "transcript.txt, L161, 10:51, Aileen Rusnak"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[0]",
+      "status": "verified",
+      "quote": "What's in the hire system as our kit is about eighty percent right. There's stuff on there we sold. There's stuff we own that's not on there.",
+      "location": "L589, 41:39 Aileen Rusnak",
+      "cited": "transcript.txt, L589, 41:39, Aileen Rusnak"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[1]",
+      "status": "verified",
+      "quote": "And I'd want to be able to change it myself. Add a field, change a list.",
+      "location": "L745, 53:26 Aileen Rusnak",
+      "cited": "transcript.txt, L745, 53:26, Aileen Rusnak"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[0]",
+      "status": "verified",
+      "quote": "They don't. They get told.",
+      "location": "L571, 40:16 Dermot Shanley",
+      "cited": "transcript.txt, L571, 40:16, Dermot Shanley"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[1]",
+      "status": "verified",
+      "quote": "And the crew chiefs, in practice. Not formally, but if they won't use it, it's ornamental.",
+      "location": "L567, 40:02 Dermot Shanley",
+      "cited": "transcript.txt, L567, 40:02, Dermot Shanley"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[2]",
+      "status": "verified",
+      "quote": "Kenny's in on Wednesday doing kit prep. I'll put you on the phone to him Wednesday afternoon.",
+      "location": "L785, 56:02 Dermot Shanley",
+      "cited": "transcript.txt, L785, 56:02, Dermot Shanley"
+    }
+  ]
+}

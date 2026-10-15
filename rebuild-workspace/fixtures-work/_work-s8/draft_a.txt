@@ -1,0 +1,146 @@
+# s8 draft part A: sections 1-6 (opening, company, current state, P1, P2, P3)
+# Format: "Speaker: text" one turn per line. || marks a forced mid-sentence cue split.
+# [[DUP]] duplicates the turn's first cue. [[OVERLAP]] starts the turn's first cue before the previous cue ends.
+
+Consultant: Marisol, hi. Can you hear me all right?
+Marisol Bettencourt: I can hear you. Give me one second, I'm going to shut this door. They're re-carpeting the whole second floor this week and it sounds like a dentist's office out there.
+Consultant: Take your time.
+Marisol Bettencourt: Okay. Better. Hi. So Warren's dialing in from a job trailer, which means we may get a concrete truck at some point, and Ines is walking over from the other building.
+Consultant: That's fine. I've done calls with worse soundtracks.
+Warren Tibbetts: You can hear me? Sorry. I'm at Cumberland, in the trailer. If you hear beeping it's a lift.
+Consultant: I can hear you fine, Warren. Nice to meet you.
+Warren Tibbetts: Likewise.
+Marisol Bettencourt: And here's Ines.
+Ines Kovalenko: Hi, sorry, hi. I had to find a room. Everybody's in the training room today.
+Consultant: No rush at all. Thanks for making the time, all three of you. Before we get going, Marisol, you said on the phone last week you'd just come back from something. A conference?
+Marisol Bettencourt: A healthcare construction symposium. Three days in Orlando listening to people with better dashboards than mine.
+Consultant: Ha. Anything useful?
+Marisol Bettencourt: Honestly, one thing. There was a woman from a firm about twice our size who put up a single screen with every one of their projects on it, color-coded, and the room went quiet. And I sat there thinking, I cannot do that. I have forty projects and I could not put that slide together in less than a week.
+Consultant: That's a useful kind of jealous.
+Marisol Bettencourt: It's been eating at me for two weeks, which is why you're on my calendar.
+Consultant: Good. So let me tell you how I'd like to use the hour, and you tell me if that works. This is a conversation, not a demo. I'm going to ask a lot of questions about how things actually run today, where it hurts, and what you'd want instead. I'm not going to show you anything. And if it turns out what you need is a couple of fixes to the spreadsheets you already have, I'll say that.
+Marisol Bettencourt: That would be a first, but okay.
+Warren Tibbetts: I'd take that, actually.
+Consultant: Noted. Marisol, give me the thirty-second version of Bellamy Ridge. Who you are, what you build.
+Marisol Bettencourt: Sure. We're a healthcare contractor. About four hundred people, three offices, Knoxville is home, then Chattanooga and Huntsville. Roughly ninety-five of those four hundred are salaried, office people, and the rest are field. And we only do healthcare. Hospitals, medical office buildings, outpatient clinics, imaging suites, a lot of renovation inside buildings that are open and full of patients while we work.
+Consultant: All healthcare. That's unusual, isn't it?
+Marisol Bettencourt: It's the whole pitch. Anybody can pour a slab. Not everybody can do a cath lab renovation on the second floor while the first floor is doing surgery. || That's what we sell.
+Consultant: How many active projects at the moment?
+Marisol Bettencourt: Thirty-eight. Forty, depending on how you count the equipment jobs.
+Consultant: Equipment jobs meaning?
+Marisol Bettencourt: An MRI replacement, a linear accelerator swap. Six weeks, a million and a half, but it has all the same steps as a big one. A permit, an infection control plan, a shutdown, a commissioning. So we count them, mostly.
+Consultant: You said portfolio earlier. What do you mean by it?
+Marisol Bettencourt: All of it. Every active job, all three offices. That's my portfolio.
+Consultant: And a program?
+Marisol Bettencourt: A program is one health system's work under a master agreement. Cumberland is a program. There'll be twelve, fifteen jobs in it at any time, and their vice president of facilities wants to see it as one thing, not as twelve rows inside my forty.
+Consultant: So a job sits in your portfolio and inside a program at the same time.
+Marisol Bettencourt: Right. And Waverly becomes a second program if we win that. I don't know what you do with that, but it matters to me.
+Consultant: And the three of you. Warren, what do you do day to day?
+Warren Tibbetts: I'm a senior PM. Eighteen years here. Right now I've got the Cumberland bed tower, which is the big one, forty-eight million, and two smaller renovations at Waverly. So three jobs, which is about one more than I'd like.
+Consultant: Ines?
+Ines Kovalenko: Resource manager. Which is a nice title for the person everybody calls when they need a superintendent.
+Consultant: Say more about that.
+Ines Kovalenko: I keep track of who is on what. Project managers, superintendents, project engineers. Across all three offices. If Warren needs a super in October, he asks me, and I tell him who's free, and then I move six other things around.
+Consultant: And Marisol, you sit over all of it?
+Marisol Bettencourt: I run the PMO. So project controls, scheduling standards, the reporting to leadership, and I own the process. Fourteen project managers report up through me, and Ines sits in my group. I report to Curt, our VP of operations.
+Consultant: Great. Let's walk through the life of a project. Start where a job becomes real for your group and take me all the way to the end. Where does it start?
+Marisol Bettencourt: Preconstruction wins it. So a health system puts something out, or more often we're already in with them, and our preconstruction group does the estimate and the interview. That's not my group. When we get the award, it comes over to me and I assign a PM and a super.
+Consultant: What happens in the first week?
+Marisol Bettencourt: Roland sets up the job number in Sage. That's our accounting system, Sage 300. The PM sets up the project in Procore, which is where the drawings and RFIs and submittals live. And then the PM is supposed to work through the startup checklist.
+Consultant: Which is what?
+Warren Tibbetts: An Excel file. Sixty-something lines. Insurance certificates, notice to proceed, preconstruction meeting, ICRA, badging, the submittal log setup, the schedule baseline.
+Consultant: ICRA, tell me what that is.
+Warren Tibbetts: Infection control risk assessment. In a hospital you can't open a wall without a permit from their infection control nurse. It says what barriers you put up, negative air, how you route your carts, all of it. And it's per work area, and it expires.
+Marisol Bettencourt: Which is the part people forget. It expires. And if it lapses and their nurse walks by, you're shut down that day.
+Consultant: Has that happened?
+Warren Tibbetts: I've seen it happen. Not to me. A day, and then a very unpleasant meeting.
+Consultant: And the checklist. Does every PM work through the same one?
+Marisol Bettencourt: In theory.
+Warren Tibbetts: In practice everybody has their own version. Mine's got things on it the master doesn't, because I've been burned.
+Marisol Bettencourt: That's the honest answer, yes. Every PM starts a job their own way.
+Consultant: Okay, I want to come back to that. Keep going. The job is running. What happens week to week?
+Warren Tibbetts: OAC meeting every week with the owner and the architect. I update the schedule, usually Thursday night. Daily reports from the super in Procore. And Friday I do my numbers.
+Consultant: Tell me about Friday.
+Warren Tibbetts: I keep a forecast in Excel. Cost to complete, by cost code. Because Sage gives me actuals after the month closes, and that's too late to do anything with, so I carry my own.
+Consultant: Does every PM do that?
+Warren Tibbetts: Everybody does something. No two of them are built the same. Mine's pretty good. I've seen some that are, let's say, optimistic.
+Consultant: And what goes up to you, Marisol?
+Marisol Bettencourt: Every Monday the PMs are supposed to send me a status. It's an email, or a tab in a spreadsheet, or in two cases a text message, and it has percent complete, any schedule slip, any budget exposure, and a color. Green, yellow, red.
+Consultant: Who decides the color?
+Marisol Bettencourt: The PM does.
+Consultant: And then?
+Marisol Bettencourt: Bridget, my analyst, pulls all of it into the monthly deck for the executive committee. Forty pages. One page per project, then a summary page at the front.
+Consultant: How long does that take her?
+Marisol Bettencourt: Two days. Two full days a month, and that's if people answer her.
+Ines Kovalenko: [[OVERLAP]] They don't answer her.
+Marisol Bettencourt: They don't always answer her. So she chases, and then I chase, and then it goes out around the tenth.
+Consultant: And who sees it?
+Marisol Bettencourt: The executive committee. Curt, Corinne our CFO, the two principals. They meet the second Tuesday.
+Consultant: When you say the board, earlier, you meant them?
+Marisol Bettencourt: Sorry, yes. When I say the board I mean the executive committee. There's no actual board, we're privately held.
+Consultant: Good, I'll use your words. So the deck goes out on the tenth for a meeting on the second Tuesday. What's in it that people actually look at?
+Marisol Bettencourt: The summary page. Which is forty rows and four columns and it is the single most painful thing I produce.
+Consultant: Why painful?
+Marisol Bettencourt: Because it's wrong.
+Consultant: Say more.
+Marisol Bettencourt: It's not wrong on purpose. It's assembled. Bridget takes what forty people told her, in whatever form they told her, some of it two weeks old, and puts it in one place, and by the time it's in front of Curt it's a snapshot of a thing that already moved.
+Consultant: Can you give me a recent example?
+Marisol Bettencourt: The August meeting. Yes. So we're going through the summary page, and Curt stops on a row, one of the Waverly jobs, and it's green. And he says, didn't you tell me last month that one was waiting on a switchgear delivery? And I said yes, and it came in. And he said, so why does the schedule show the same finish date as it did in June? || And I didn't know. Because the row said green, and green came from the PM, and I had not looked behind it.
+Consultant: What was actually going on?
+Marisol Bettencourt: Five weeks late. The gear came in, but the inspection window moved and the tie-in had to go to a weekend, and the PM was managing it, he genuinely was, he just hadn't told anybody in a way that reached my summary page.
+Consultant: And in the room?
+Marisol Bettencourt: Curt asked me a question I could not answer, which was, of these forty, which ones are actually in trouble. And I said I'd come back to him. Which is the worst possible answer, because that's my job. That's literally the job.
+Consultant: That's a rough meeting.
+Marisol Bettencourt: It was fine. Curt's not a yeller. But I went back to my office and sat there.
+Consultant: So today, if I asked you right now, which of the forty are in trouble, what would you have to do?
+Marisol Bettencourt: Open the deck from the tenth, which is a month old. Then open my email. Then probably call six PMs. Half a day, and I still wouldn't swear to it.
+Consultant: And what stops you from carrying on the way you are?
+Marisol Bettencourt: Two things. The first is that it doesn't scale. I'll come back to that. The second is that I don't believe it anymore. Once you find out a green row was five weeks late, you can't unsee that. Every green row is now a question.
+Consultant: Who else does this land on, besides you and Bridget?
+Marisol Bettencourt: The PMs, because they're the ones being chased. Warren, how long does the Monday status take you?
+Warren Tibbetts: The status itself, twenty minutes. The stuff around it, pulling my numbers together so the status isn't a lie, that's the rest of it. Call it four hours a week, easily. Some weeks more.
+Consultant: Four hours a week on reporting.
+Warren Tibbetts: On assembling. I don't mind reporting. I mind assembling the same numbers four different ways for four different audiences.
+Consultant: Four?
+Warren Tibbetts: Marisol's status, my forecast, the OAC agenda for the owner, and then whatever Ines needs for staffing. Same facts, four formats.
+Consultant: And it also reaches the owner side?
+Marisol Bettencourt: It reaches Cumberland. Their PMO wants a monthly report per project in their format, and under the new agreement they want it at program level too. So Bridget rekeys our numbers into their template.
+Consultant: Say this stays exactly as it is. What does next year look like?
+Marisol Bettencourt: Worse, and I can be specific about why. We signed a four-year master agreement with Cumberland Health in August. That takes us from forty active projects to something like fifty-five next year, with the same fourteen PMs and the same one analyst. And Bridget goes out on parental leave in November.
+Consultant: So the person who builds the deck.
+Marisol Bettencourt: Is gone from November. Yes. And I don't have a second Bridget.
+Consultant: Okay. Ines, let's come to your side. Tell me how staffing works today.
+Ines Kovalenko: There's a workbook. We call it the grid. A tab per office, every person down the left, weeks across the top, and a percentage in each cell. Forty percent Cumberland, sixty percent Pellham, like that.
+Consultant: And how does it get updated?
+Ines Kovalenko: By me. Every week. Monday and Tuesday morning are the grid.
+Consultant: Ten hours a week?
+Ines Kovalenko: Ten, and that's a good week. If something blows up it's more, because then I'm rebuilding four tabs at once.
+Consultant: How do requests come to you?
+Ines Kovalenko: Teams messages, mostly. Sometimes somebody catches me in the hall and says, I need a super for the Pellham fit-out in October, and then I write it on a sticky note, and then it's on a sticky note.
+Speaker 2: And then somebody reshuffles it in a meeting I'm not in, and I find out when the grid doesn't match the job site.
+Consultant: Who reshuffles it?
+Speaker 2: Preconstruction, usually. They promise a name to help win the job and nobody tells me.
+Consultant: [laughs] And when does a conflict show up?
+Ines Kovalenko: When a superintendent calls me from the wrong job site.
+Consultant: Tell me about the last time that happened.
+Ines Kovalenko: June. Junie Rasco. He's one of four supers who can run occupied work, which matters, because you can't put a guy who's only done ground-up into a hospital that's open. Warren had him penciled for the Waverly cath lab, and preconstruction had promised him to the Pellham fit-out, and both started the same week.
+Warren Tibbetts: I did not pencil him. I had him confirmed. Verbally.
+Ines Kovalenko: Verbally, in the hall, which is the problem.
+Consultant: What did it cost to unpick?
+Ines Kovalenko: We moved Junie to Waverly because that one had a hard date with the owner, and then Pellham started with an assistant super and we ran overtime for six weeks to hold the date. Marisol, what did we call that?
+Marisol Bettencourt: About fifty thousand in overtime and acceleration. That's the number Roland and I landed on.
+Consultant: And how often does something like that happen?
+Marisol Bettencourt: Two a year. Maybe three. That June one was the worst.
+Consultant: Who else feels it?
+Ines Kovalenko: The supers, first. They're the ones told on a Friday that Monday changed. The PMs, because their schedule assumed a person. And the owner finds out when a date moves, which is the one that actually costs us, because some of those dates have LDs behind them.
+Consultant: LDs being liquidated damages?
+Warren Tibbetts: Right. On the bed tower there's a date for first patient day and there's money behind it.
+Consultant: How many dates like that does a job have?
+Warren Tibbetts: On the tower? Eleven or twelve that the owner actually cares about. Permit issued, steel topped out, dry-in, first energization, the imaging equipment delivery, substantial completion, first patient day. Some have money behind them, most don't.
+Consultant: And they sit inside phases?
+Warren Tibbetts: Several per phase, yes. And when one moves, the owner wants to know what it was before it moved.
+Consultant: Ines, what stops you from carrying on with the grid?
+Ines Kovalenko: It works, that's the thing. It works for me. It's just that it lives on my laptop and in my head, and nobody can see it. Warren can't look at it and see that Junie's gone in October. He has to ask me. And if I'm on holiday, nobody can answer him at all.
+Marisol Bettencourt: That's true, and I'd add the other half. The grid tells you who's busy. It does not tell you who's the right person. Occupied-renovation supers, there are four. That's not in the grid, that's in Ines.
+Consultant: And next year, with Cumberland?
+Ines Kovalenko: All of Cumberland's work is in occupied buildings. So the same four names.

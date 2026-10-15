@@ -1,0 +1,726 @@
+Discovery call with Corvane Language Services, Tuesday, mid-morning, about forty-five minutes. This is the transcript as their meeting tool exported it, pasted in untouched, nothing tidied.
+The invite had Mina, Rafael, Devika, Torsten and Ambrose on it, and Mina said in her email that their managing director might listen in from the car. The export did not include a participant list, so those names are from the invite, not from the recording.
+The audio dropped for a couple of seconds somewhere around the twenty-five-minute mark.
+
+-----
+
+Consultant  00:03
+Hi, hello. Can you hear me all right?
+
+Wilhelmina Strachan  00:07
+We can hear you. Can you hear us? We're in the big room, which is the only room, so if you hear the printer, that's the printer.
+
+Consultant  00:19
+Loud and clear, printer and all. Good morning.
+
+Wilhelmina Strachan  00:24
+Morning. So there's a few of us in here and a couple on the line and one more coming, I'll do intros in a second. Rafael, can you turn the laptop so it's not pointing at the window?
+
+Rafael Quintanilla  00:37
+It's pointing at the window because the window is the only thing in this room that isn't a pile of paper. There. Better?
+
+Consultant  00:46
+Much better. Hi Rafael.
+
+Rafael Quintanilla  00:49
+Hi.
+
+Consultant  00:52
+How's the week been? You said in your note things were a bit wild.
+
+Wilhelmina Strachan  00:58
+Wild is generous. We've got the medical device people sending us everything they own before their year-end, and the state agency picked this week to remember they have a deadline, so Niamh's been here till, what, eight most nights, which is why she's late, she's on another call.
+
+Rafael Quintanilla  01:17
+She's always on another call.
+
+Devika Raghunathan  01:20
+[laughs] She is.
+
+Wilhelmina Strachan  01:23
+That's Devika. Devika does accounts, client accounts, not money accounts, you'll hear from her. Sorry, I said I'd do this properly. Do you want to say how you want to run it first, and then I'll go round?
+
+Consultant  01:39
+Yes, let me, it'll take thirty seconds. This is a conversation, not a presentation. I'm going to ask a lot of questions about how a project actually moves through the building today, where it gets stuck, and what you'd want instead. I'm not going to show you anything on a screen today. And if what you need turns out to be two changes to what you already have and not a new system, I'll say so. Does that work?
+
+Wilhelmina Strachan  02:09
+That works. That's the version I asked for. We've had the other kind.
+
+Rafael Quintanilla  02:15
+The kind with the slides.
+
+Consultant  02:19
+No slides. I don't have any open. So, go round, if you would. Who's in the room and who's on the line?
+
+Wilhelmina Strachan  02:29
+Okay. So it's me, Wilhelmina, Mina, nobody calls me Wilhelmina except my mother. I'm operations director, which here means everything between the quote going out and the invoice going out is mine, or it lands on me anyway. Rafael's next to me, he's our vendor manager, so the freelancers, the pool, who's available, who's good at what, that's all him and it's mostly in his head, which we'll get to. Devika, across from me, is account management, she's got the state agency and the retailer and she's the one the clients ring. Torsten is our finance manager, he's dialled in from home because his knee's in a brace -- Torsten, you there? -- he's on mute, he'll wave. He does the invoicing, so anything about money, what's owed, what's late, he's the one to ask, not me, I'll get it wrong. Leonor is in the room, over there with the headphones, she runs quality, the reviewers are hers, in-house and freelance, and she's in the middle of a review right now so she's here and not here, she'll wince at some of what I say about review. And then --
+
+Niamh Kettleborough  03:41
+Sorry, sorry, sorry. The other one ran over. Don't stop. Is this me? Where do I sit.
+
+Rafael Quintanilla  03:48
+Here. Take the chair, the stool's broken.
+
+Consultant  03:52
+Hi, come in, no rush at all. We were just doing introductions.
+
+Wilhelmina Strachan  03:58
+Right. Where was I. This is Niamh, who has just sat down, Niamh is our senior project manager, there are five PMs and she's the one the other four ask, so the tracker, the list, the whole way a project actually moves, that's her, and you are going to hear more from her than from me. And Harriet, our managing director, is meant to be listening in, she's driving between a client and the airport this morning so she may be on and she may not, and she probably won't say anything, but she wanted to hear it. So that's, what, seven of us if Harriet's actually there. I think. Don't hold me to that. Oh, and Ambrose was on the invite, he's head of sales, but he's with a client in Cleveland today, so not today, you'll get him another time.
+
+Consultant  04:49
+That's fine, I'll catch Ambrose another time. Thank you, that's a really useful run-through.
+
+Wilhelmina Strachan  04:55
+She'll be on. Harriet. Probably. Anyway.
+
+Consultant  04:59
+So tell me about the business. What do you do, for whom, and roughly how big are you?
+
+Wilhelmina Strachan  05:08
+We're a translation company. Documents, mostly. Technical manuals, user guides, the paperwork that goes in the box with a medical device, contracts for a couple of law firms, product listings for an online retailer, and a lot of, um, public-facing material for a state agency, notices, forms, letters, in about twelve languages, eleven, twelve. Some interpreting, phone and video, but that's a separate team and a separate problem. We're in Pittsburgh, everybody's here except two PMs who are remote, and the freelancers are everywhere.
+
+Consultant  05:45
+And people?
+
+Wilhelmina Strachan  05:48
+Thirty-four. Thirty-five if you count Harriet, and she'd say count her. Hang on, let me do it properly. Five PMs, Niamh's the senior. Rafael and one more on vendors, part-time, she does the contracts. Leonor and three in-house reviewers, and about a hundred and forty freelancers on the books, of whom maybe sixty do most of the work. One person on layout, desktop publishing, when a manual needs to look like the original. Devika and two more on accounts, Ambrose over them. Torsten and a bookkeeper. Me. The interpreters, a dozen of them, who are their own thing, and three in-house translators who sit with Leonor. And IT is a company down the road, they come in on Thursdays.
+
+Consultant  06:28
+And the clients, mostly?
+
+Wilhelmina Strachan  06:31
+The medical device manufacturer is the big one now. The state agency. Three law firms, one big, two small. The retailer, which is, that's a lot of small jobs. And a hospital system, patient leaflets, which we can't say much about and you'll see why.
+
+Devika Raghunathan  06:49
+And about forty others who send one thing a year.
+
+Consultant  06:54
+Okay. Let me start at the front. A project -- where does it begin? Someone emails?
+
+Devika Raghunathan  07:02
+Someone emails. Or they upload to a portal if they're the medical device people, they have their own portal and we get a notification. Or they ring me. Or Ambrose comes back from somewhere and says, they want a quote for a thing, and it's on a napkin.
+
+Consultant  07:22
+And then?
+
+Devika Raghunathan  07:25
+Then I need to know what it is. Word count, languages, when they need it, is it technical, does it need layout. Sometimes the files are there and I can count. Sometimes they say "about twenty pages", which, twenty pages of what, and I have to guess. Then I build the quote.
+
+Consultant  07:44
+Build it where?
+
+Devika Raghunathan  07:47
+A spreadsheet. We have a template. Words times the rate for the pair, plus review, plus layout if there's layout, plus a project fee, plus rush if it's rush. The template's fine. It's what happens after that's the problem.
+
+Consultant  08:04
+Tell me about after.
+
+Devika Raghunathan  08:07
+Every quote gets a line in the quote log, which is another spreadsheet. That one lives on the shared drive. Number, client, languages, words, amount, date sent, and a status column that says sent, or approved, or lost, or, mostly, sent.
+
+Wilhelmina Strachan  08:26
+Mostly sent.
+
+Devika Raghunathan  08:29
+Mostly sent. Because nobody updates it unless it turns into a project. I've got quotes out there from September I've never heard back on. Are they dead? Probably. Are they in the log as sent? Yes.
+
+Consultant  08:45
+Who follows up on a quote that's gone quiet?
+
+Devika Raghunathan  08:50
+Me, if I remember. Ambrose, if it's his. Nobody, mostly.
+
+Consultant  08:56
+How many quotes a month, roughly?
+
+Devika Raghunathan  09:00
+Sixty? Seventy in a busy month. The retailer's are tiny, a listing at a time. Maybe half turn into projects, I'd have to look, that's a guess.
+
+Consultant  09:12
+Okay. So say they say yes. What happens?
+
+Devika Raghunathan  09:17
+They send a PO, or they reply "approved, go ahead", which is not a PO but we take it, and then I, um, I forward it to whichever PM has room, and then it's theirs.
+
+Niamh Kettleborough  09:33
+Whichever PM has room is a generous way of putting it. She forwards it to me and I forward it to whoever's had fewer emails from me that morning.
+
+Consultant  09:44
+And then it's a project. Does it get a number?
+
+Niamh Kettleborough  09:49
+It gets a number when I set it up in the translation tool. That gives it a project number, and that number goes on everything, the folder, the files, the invoice, eventually. If nobody's set it up yet, it's "the German manual", and there are three German manuals.
+
+Rafael Quintanilla  10:08
+There are always three German manuals.
+
+Consultant  10:12
+What's in the translation tool, for you?
+
+Niamh Kettleborough  10:16
+The files, the memory, the terminology, the word counts. Who's assigned to what step. It's good at the files. It has a project list, and I'll say now, I'll just say it, two of the PMs live in that list and I don't, because it doesn't know about anything that isn't a file. It doesn't know the client's on holiday, it doesn't know the PO hasn't come, it doesn't know Rafael's still looking for a translator.
+
+Consultant  10:44
+So where do you live?
+
+Niamh Kettleborough  10:47
+A spreadsheet. My spreadsheet. One row per project, my columns, my colours. Two of the others use the tool's list. One uses a notebook. An actual notebook. And the one who's remote has her own spreadsheet that looks nothing like mine.
+
+Consultant  11:08
+Five PMs, four systems.
+
+Niamh Kettleborough  11:11
+Four and a half. The notebook has tabs.
+
+Wilhelmina Strachan  11:15
+[laughs] The notebook has tabs.
+
+Consultant  11:19
+Okay. So, a project's set up, it has a number. Then it needs a translator. Rafael, that's you?
+
+Rafael Quintanilla  11:27
+That's me. Or it's supposed to be me. So the PM messages me, "I need German, medical, thirty-eight thousand words, by the twentieth," and I look at who we've -- who we've got. Who's good at medical German, who's not already on something, who's not on holiday, who answered their email last time. And then I email three of them and wait.
+
+Consultant  11:52
+Where does "who's on something" live?
+
+Rafael Quintanilla  11:56
+In my spreadsheet. And in my head. The spreadsheet has everyone, languages, subjects, rates, the last time we used them. It doesn't have what they're doing this week, because I only know that if a PM told me, and half the time the PM emailed the translator directly because it was quicker than asking me.
+
+Niamh Kettleborough  12:19
+Guilty.
+
+Rafael Quintanilla  12:21
+So I email someone and they say, sorry, Niamh's got me till Friday. And I didn't know.
+
+Consultant  12:29
+How often does that happen?
+
+Rafael Quintanilla  12:33
+Weekly. Somebody's double-booked or nearly double-booked every week. Most of the time we catch it. When we don't --
+
+Niamh Kettleborough  12:42
+When we don't, it's the German manual.
+
+Consultant  12:46
+Tell me about the German manual.
+
+Niamh Kettleborough  12:50
+The medical device people. A user manual, thirty-eight thousand words into German, and it's regulated content, it has to go through our best medical German translator and then a review, that's the whole point of us. I set it up, I told Rafael, Rafael lined him up, everything's fine. Day three, the translator emails me: he's finished the first eight thousand words and he's stopping, because he'd already said yes to Devika's retailer job the week before, through Devika, direct, and it's due first.
+
+Devika Raghunathan  13:27
+I didn't know he was your German. I just knew he was fast.
+
+Niamh Kettleborough  13:32
+So we split it. Three translators on the rest, which for a manual is the worst thing you can do, because they all say "power button" differently. Leonor's team then had to reconcile the terminology across the whole thing.
+
+Consultant  13:49
+Is that something like a day each time, or more?
+
+Niamh Kettleborough  13:54
+More. Two days. Two reviewers, two days, on that one. And we delivered two days late, and the client took a credit. They were polite about it. They'd have been within their rights not to be.
+
+Consultant  14:10
+What was the credit?
+
+Wilhelmina Strachan  14:13
+Forty-eight hundred. Off an invoice of about thirty. And a conversation with their procurement person that I'd rather not have again.
+
+Consultant  14:24
+How many times a year does something like that happen? Not the credit, the split.
+
+Rafael Quintanilla  14:31
+A split because someone's double-booked? Four, five times a year, big ones. Little ones I don't count, a two-thousand-word job going to the second-choice person, that's every week.
+
+Niamh Kettleborough  14:46
+And the rush. When we're scrambling, we pay rush. Twenty-five percent on top for the translator to drop everything, and we can't always pass it on because it's our fault.
+
+Consultant  15:00
+How much rush do you pay, in a month?
+
+Rafael Quintanilla  15:04
+I actually know this one because Torsten asked me. Two thousand two hundred in October. It's between fifteen hundred and three thousand most months. Some of it we bill through. Most of it we don't.
+
+Consultant  15:20
+What do you do today to stop the double-booking?
+
+Rafael Quintanilla  15:25
+I ask people to tell me. There's a chat channel called "assignments" where the PMs are supposed to post who they've booked. Niamh posts. Nobody else does.
+
+Niamh Kettleborough  15:37
+I post about half the time.
+
+Rafael Quintanilla  15:40
+She posts about half the time. And I've got a column in the spreadsheet, "busy until", that I update when somebody tells me, which is never.
+
+Consultant  15:52
+Why won't that carry on working?
+
+Rafael Quintanilla  15:56
+Because it's not working now, and in January the medical device volume doubles. It's a hundred and forty people on a spreadsheet and one of me. If I'm off for a week, nobody knows who's free. I was off for a week in September and Niamh booked the same Japanese reviewer twice in one day.
+
+Niamh Kettleborough  16:19
+She was very nice about it.
+
+Consultant  16:22
+Who feels it, when it goes wrong?
+
+Rafael Quintanilla  16:26
+The translator, because they've said yes to two people and they're the one who has to pick. The PM, because they've promised a date. Leonor's team, because they get a manual in three voices. The client, because it's late. Harriet, because it comes off the margin and the margin is the thing she looks at.
+
+Wilhelmina Strachan  16:49
+And me, because I get the call from procurement.
+
+Consultant  16:54
+And is it getting better or worse?
+
+Rafael Quintanilla  16:58
+Worse. More languages, more small jobs, and the medical work is all specialists, so the pool for any one job is four people, not forty. Four people who are all busy.
+
+Consultant  17:12
+Okay. Niamh, I want to come to where a project lives. Mina, you said in your email that Harriet asks you what's late. How does that go?
+
+Wilhelmina Strachan  17:23
+Harriet walks past my desk on a Friday afternoon and asks what's going out next week, and I tell her from memory. Then she asks what's late, and I tell her from memory too. And I'm usually right, which is the problem, because it means nobody's fixed it.
+
+Niamh Kettleborough  17:43
+And before Mina tells her from memory, Mina's come round all five of us and asked, and we've each looked at our own thing.
+
+Consultant  17:53
+Every Friday?
+
+Niamh Kettleborough  17:56
+Every Friday. And then Monday morning there's the list. Mina emails a list of everything that's open with a date next to it, and by Tuesday it's wrong.
+
+Wilhelmina Strachan  18:08
+By Tuesday lunchtime.
+
+Consultant  18:12
+Give me one where it hurt. A project nobody could find.
+
+Niamh Kettleborough  18:17
+The state agency. In the spring. They rang Devika about a set of forms, twelve languages, and asked when it was coming, and Devika said, it's been delivered, hasn't it, and it hadn't. The PM on it was off sick, and her spreadsheet was on her laptop, at her house. It was in review. It had been in review for six days, waiting on one language, and nobody knew, because review is Leonor's world and the PM's tracker is the PM's world.
+
+Consultant  18:52
+How long to find that out?
+
+Niamh Kettleborough  18:55
+A day and a half. We rang her in the end. She was in bed.
+
+Devika Raghunathan  19:01
+And I'd told the agency it was delivered. So that was fun.
+
+Consultant  19:06
+What's the cost of that, day to day? Not the one time, the every-week version.
+
+Niamh Kettleborough  19:13
+Time. My time and everyone's. Answering "where is it". From Mina, from Devika, from the client, from Rafael. Half a day a week, each of us, easily. Call it four hours. Some weeks it's a day.
+
+Wilhelmina Strachan  19:32
+Four's fair. And that's five people.
+
+Consultant  19:37
+Who else does it touch?
+
+Niamh Kettleborough  19:40
+Devika, because she's the one telling the client something that isn't true. Torsten, because he can't invoice what he can't see is finished. Harriet, obviously. And the reviewers, because they get "is this done yet" from three directions.
+
+Consultant  19:58
+And where does that go, with the framework in January?
+
+Niamh Kettleborough  20:03
+More of everything. I mean, I'd assume more. Twice the volume from one client, same five of us, same four spreadsheets. I don't know exactly what that does to the Friday round. Longer.
+
+Consultant  20:19
+Okay. The other end. A project finishes. What tells Torsten to invoice?
+
+Niamh Kettleborough  20:26
+Me. I email Torsten, "project such-and-such delivered, invoice it". When I remember. Usually the same day. Sometimes the following week when he asks. The tool has a status called delivered but Torsten's not in the tool. So it's the email.
+
+Wilhelmina Strachan  20:47
+And that's how we ended up with the three. Torsten went through the delivered folder in the spring, for the year-end, and found three projects that had been delivered and never invoiced. Eleven thousand dollars, sitting there since the previous autumn. Not lost, we invoiced them, but the clients weren't thrilled getting a bill for something from eight months ago.
+
+Consultant  21:12
+How long, normally, between delivered and invoiced?
+
+Wilhelmina Strachan  21:17
+Torsten told me it's about ten days on average, but that was off the top of his head, don't quote him. He'd want to check.
+
+Consultant  21:27
+Torsten, is that a number you'd have to hand, or would it need working out?
+
+Wilhelmina Strachan  21:38
+He's on mute. Or the dog. Hang on. No, he's -- I'll get it from him. Write that down as mine.
+
+Consultant  21:47
+I will. And what it costs, the lag -- is that a number anyone has?
+
+Wilhelmina Strachan  21:53
+Torsten would. I don't. It's cash, it's cash sitting with them instead of us, and it's Harriet asking me why the bank looks like that. I'm not going to guess at it in front of you.
+
+Consultant  22:08
+Then don't. What's the system for catching it today?
+
+Wilhelmina Strachan  22:13
+Torsten goes through the delivered folder on the shared drive on a Friday. He's looking for things he hasn't seen an email about. That's the system. He'd tell you it's not a system.
+
+Consultant  22:26
+Okay. I want to go back to the -- sorry, to the freelancer side for a second. Rafael, when a freelancer finishes, how do they get paid?
+
+Rafael Quintanilla  22:36
+They invoice us. Monthly, most of them. Torsten matches their invoice to the PO we sent them, which is an email. If the words don't match, he asks me, and I ask the PM, and the PM looks in the tool. It works. It's slow. It's about two days of Torsten a month, he says.
+
+Consultant  22:59
+I'll leave that with Torsten, then. Leonor's side -- review. Niamh, you said review is Leonor's world. What does the handover look like?
+
+Niamh Kettleborough  23:10
+The translator delivers into the tool, the tool moves it to the review step, Leonor assigns a reviewer, in-house or freelance, the reviewer does it, it comes back. That bit's fine, actually, the tool's good at that. What's not fine is when it's tight. When it's tight, review is the thing that gets squeezed, and nobody writes down that it was squeezed. So a manual goes out with a light review and six months later the certification people ask us to show the review record and there's a gap.
+
+Wilhelmina Strachan  23:47
+Leonor's wincing. Told you.
+
+Consultant  23:51
+Is that a certification thing, or a client thing?
+
+Wilhelmina Strachan  23:55
+Both. The certification wants the review evidenced, and the medical device contract says the same thing in, in more words. It hasn't bitten us yet. It will.
+
+Consultant  24:07
+Okay. Let me ask the why-now question, because you've mentioned January a few times. Why are we talking about this now and not last year, or next year?
+
+Wilhelmina Strachan  24:20
+Three things. One, the framework. The medical device people signed a framework contract with us, from January, and it's roughly double what they send now, four hundred thousand words a year, with a forty-eight-hour turnaround on the small ones. That's signed. That's happening. And we cannot run that on four spreadsheets and a notebook.
+
+Niamh Kettleborough  24:47
+We can't run what we've got on four spreadsheets and a notebook.
+
+Wilhelmina Strachan  24:52
+Two, we lost a PM in August. Good PM. She left, and it took Niamh two weeks to work out what she had open, because it was in her spreadsheet and her spreadsheet was [inaudible] her.
+
+Consultant  25:08
+Sorry, I lost a second there -- her spreadsheet was what?
+
+Wilhelmina Strachan  25:13
+Was hers. It was on her laptop, in her way, with her colours, and nobody else could read it. You dropped for a second, we saw it.
+
+Consultant  25:23
+Sorry about that. Got it. And three?
+
+Wilhelmina Strachan  25:27
+Three is me, honestly. I've been the person Harriet asks for six years and I make the answer up from memory and I'm tired of being right by luck. If I'm off, the Friday answer stops. That's not a business.
+
+Consultant  25:44
+So the clock is January.
+
+Wilhelmina Strachan  25:48
+The clock is before January. Before the framework starts. I want the first framework project to go into something that isn't a spreadsheet.
+
+Consultant  25:59
+Okay. Let me try to put the current state into numbers, from what you've told me, and you tell me where I'm wrong. Chasing: four hours a week per PM, five PMs.
+
+Niamh Kettleborough  26:12
+Yes.
+
+Consultant  26:15
+Rush surcharges: about twenty-two hundred a month, not passed on.
+
+Rafael Quintanilla  26:20
+Most of it not. Call it all of it, it's easier and it's not far off.
+
+Wilhelmina Strachan  26:26
+Take all of it. Harriet would take all of it.
+
+Consultant  26:30
+What's a PM cost you, loaded? Rough is fine.
+
+Wilhelmina Strachan  26:35
+Niamh, cover your ears. Call it forty-two an hour, loaded, across the five. Niamh's more, the junior's less.
+
+Consultant  26:46
+I'm going to let you do the arithmetic, not me.
+
+Wilhelmina Strachan  26:51
+Fine. Twenty hours a week times forty-two is eight hundred and forty a week. Times fifty-two is -- forty-three thousand, six hundred and eighty. And twenty-two hundred times twelve is twenty-six thousand four hundred. So that's, what, forty-three and twenty-six. Seventy thousand. Seventy. A year. Before the credit notes and before Torsten's bit.
+
+Consultant  27:22
+Torsten's bit meaning the invoicing lag.
+
+Wilhelmina Strachan  27:26
+The lag, which I don't have a number for and which is cash, not cost, and Torsten will tell me off for adding them together anyway. And the credit notes, which were three last year, I think, the forty-eight hundred and two smaller ones, and I'm not guessing the total in front of you, I'll get it from him with the other thing.
+
+Rafael Quintanilla  27:49
+Or the reviewers' time on the splits.
+
+Wilhelmina Strachan  27:52
+Or Leonor's people. Which I'm not putting a number on today either. But seventy is real. That's wages and surcharges we actually paid for nothing.
+
+Consultant  28:05
+Does seventy feel right, or does it feel light?
+
+Wilhelmina Strachan  28:09
+It feels light. If anything it's low.
+
+Rafael Quintanilla  28:13
+It's low. The rush number's a good month.
+
+Consultant  28:17
+Okay. That's your number, not mine, and I'll write down what's not in it. And the other side -- if this stopped, what would you go after?
+
+Wilhelmina Strachan  28:28
+The second lot of the state agency framework. They split it in two last year and we bid the first half and said no to the second half, because we couldn't staff it, not with the PMs we had. That was about a hundred and thirty thousand of work. It comes round again in the spring.
+
+Consultant  28:49
+Is that a number you're confident in, the hundred and thirty?
+
+Wilhelmina Strachan  28:53
+It's what the tender said. Devika's got the document.
+
+Devika Raghunathan  28:57
+It's a hundred and twenty-eight and change. Two-year term.
+
+Consultant  29:02
+And what does good look like? If we're sitting here in March and it worked, what's different?
+
+Wilhelmina Strachan  29:10
+I want a project to be one thing. One place. Quote to invoice. Who's on it, what step it's at, whether the PO's in, whether review happened, when it's due -- on the project, not in five spreadsheets and Rafael's head. And I want the Friday answer to come off a screen, not out of me. That's the honest answer.
+
+Niamh Kettleborough  29:35
+I want one status. One word that means the same thing to me, to Rafael, to Leonor and to Torsten. Not "delivered" in the tool and "sent" in my spreadsheet. And "done" in Devika's email.
+
+Rafael Quintanilla  29:50
+I want to see who's free. Before I email them. And I want the PMs to be able to see it too, so they stop asking me and stop going round me.
+
+Devika Raghunathan  30:02
+I want to know which quotes are dead.
+
+Consultant  30:07
+Is there a number that would make Harriet say it worked?
+
+Wilhelmina Strachan  30:12
+The credit notes. Harriet's line is, she wants to stop being asked for credits. If we got the splits down to one a year, she'd notice that. But that's me guessing what she'd say, I haven't asked her.
+
+Consultant  30:28
+Harriet, if you're still there -- anything you'd add to that?
+
+Wilhelmina Strachan  30:40
+She's gone, I think. Her icon's gone. She had the airport thing at eleven. I'll fill her in.
+
+Consultant  30:49
+Okay. Tell me how a decision like this gets made here. If you wanted to go ahead, who says yes?
+
+Wilhelmina Strachan  30:57
+It's my call on the tool. Anything over twelve thousand a year, Harriet signs, and honestly she'd want to see it before that. Harriet would want to see it before anything gets signed. That's not a maybe.
+
+Consultant  31:13
+And Torsten?
+
+Wilhelmina Strachan  31:16
+Torsten has to be fine with anything that touches the accounting system, because if it double-invoices something he's the one who finds out from a client. He doesn't sign, exactly. He can stop it.
+
+Consultant  31:31
+And IT?
+
+Wilhelmina Strachan  31:34
+The IT company has a checklist. They'll want it to sign in with our email accounts, not another password, and they'll want to know where the data is. That's a form, not a fight.
+
+Consultant  31:47
+What would Harriet care about most, seeing it?
+
+Wilhelmina Strachan  31:52
+That the PMs use it. She's been here twenty years, she's seen us buy things. We bought a project tool in twenty-twenty-two and it died in three months, and she paid for the year. She'll want to see Niamh put something in it, not me.
+
+Niamh Kettleborough  32:10
+In fairness, the twenty-twenty-two thing died because nobody took anything away. We had the tool. And we still had the spreadsheets, and the notebook. It was one more place.
+
+Wilhelmina Strachan  32:22
+We didn't take anything away. That's what we did wrong. I'll own that.
+
+Consultant  32:28
+And where does this sit against everything else you've got on? The framework, the year-end, whatever else.
+
+Wilhelmina Strachan  32:37
+This is the thing for now. The framework is January, so this is November. Above the website? Yes. Above the new memory server thing Niamh wants? Also yes, sorry Niamh.
+
+Niamh Kettleborough  32:50
+I'll live.
+
+Consultant  32:53
+What would stop it? Be honest.
+
+Niamh Kettleborough  32:58
+If I have to put it in the translation tool and in yours, I'll do the translation tool, because the files are there, and yours will be wrong in a week. I'll say that now so nobody's surprised.
+
+Consultant  33:12
+That's fair, and it's the right thing to say now.
+
+Niamh Kettleborough  33:17
+And I'll say the other thing, which is that the tool has a project list. We've paid for it. Two of us use it. Somebody's going to ask why this isn't just that, and the somebody might be Harriet.
+
+Consultant  33:33
+Somebody should ask that, and I'd rather answer it with the two of them side by side than with a sentence. Hold it. Rafael?
+
+Rafael Quintanilla  33:44
+The freelancers will not log into anything. I'll say that now too. They're in six time zones and they've each got twelve agencies sending them work, and they will not learn our thing. They'll answer an email. They'll click a link. They will not log in.
+
+Consultant  34:03
+Clicking a link is a lot.
+
+Rafael Quintanilla  34:06
+Clicking a link is a lot. Answering an email is what they do. That's the ceiling.
+
+Devika Raghunathan  34:13
+And December. If this lands in December it's dead. Every client wants everything before the holidays and nobody will look at anything new. If it's in by the end of November, fine. December, no.
+
+Consultant  34:29
+Noted, and I agree with you. Anything else?
+
+Wilhelmina Strachan  34:33
+And I'll say it, since we're being honest: we're a thirty-four-person translation company, not a bank, so the budget for this is not big. I'm not going to pretend it is.
+
+Consultant  34:47
+I hear that. Let me not talk about money today at all, actually, and I'll tell you why in a minute. Can I play back what I think the first version is, and you tell me if it's the right shape? Not to sign anything. Just to see if I heard you.
+
+Wilhelmina Strachan  35:07
+Go.
+
+Consultant  35:11
+Okay. So -- a project is one thing, from the PO landing to the invoice going out. On it: the client and the languages, who's assigned at each step, whether the PO's in, whether review happened and who did it, the due date, and one status, one status that everyone uses. Freelancer availability sits beside it, next to it, so Rafael and every PM can see who's free before anyone emails. The translation tool keeps the files and the memory, that doesn't move, and the project number comes from there and gets copied across once. Torsten gets a list of what's delivered and not invoiced. Harriet gets one screen: what's open, what's due this week, what's late. Quotes come after, once that's standing. And nothing for the interpreting team in the first cut.
+
+Wilhelmina Strachan  36:03
+That's the right shape. To show us. I'm not agreeing to anything with Harriet in a car. Three things.
+
+Consultant  36:12
+Go.
+
+Wilhelmina Strachan  36:16
+A project isn't a project until the PO's in, or the written go-ahead. "Approved, go ahead" in an email counts. A phone call doesn't. If a quote turns into a project on your thing because someone said yes on the phone, we'll be right back where we are.
+
+Consultant  36:34
+Understood. Written go-ahead or PO, not a verbal yes.
+
+Niamh Kettleborough  36:39
+One status. I mean it. If the status on your thing and the status in the tool can say different words for the same step, we've done nothing. Whatever the word is, it's the same word.
+
+Consultant  36:53
+One status, one word per step, same in both places. Yes.
+
+Rafael Quintanilla  36:58
+And the freelancers never see it. They see an email. Whatever you build, it emails them and they reply, and nothing they reply to has another client's name on it.
+
+Consultant  37:12
+Email out, reply in, nothing that names another client. And Mina, you said no interpreting?
+
+Wilhelmina Strachan  37:19
+Leave interpreting out. Different team, different problem, different people. Later, maybe.
+
+Consultant  37:27
+Okay. Some things I need to ask about that I can't tell from today. The accounting system -- what is it, who can get into it, and can a project number come out of it or does it get typed twice?
+
+Wilhelmina Strachan  37:45
+It's a normal accounting package, Torsten runs it. The project number goes in by hand off the email. I think it has an export. I couldn't tell you if it talks to anything. That's a Torsten question. Put it on the list.
+
+Consultant  38:01
+On the list. The translation tool -- does it have a way out? Can something read its project list?
+
+Niamh Kettleborough  38:08
+It has an API, I think. The vendor keeps telling us it does. Nobody here has ever used it. I can ask them.
+
+Consultant  38:18
+Please do, before we talk next. I'd want to know whether the project number can come across on its own, or whether that's, whether that's someone typing it. Rafael, the vendor spreadsheet -- can you send me the column headings? Not the people, not the rates. Just the headings.
+
+Rafael Quintanilla  38:36
+Headings, no names, no rates. I can do that tonight.
+
+Consultant  38:41
+And the medical device portal -- is that theirs?
+
+Devika Raghunathan  38:45
+It's theirs. It emails us a, um, a notification and we go and get the files. You can't do anything with it except look and download.
+
+Consultant  38:54
+So a new request from them is something you'd enter, not something that arrives.
+
+Devika Raghunathan  39:00
+Somebody enters it. Me. Which is fine if it's one place.
+
+Consultant  39:05
+And the hospital leaflets, and the law firms -- what can't be seen by whom?
+
+Wilhelmina Strachan  39:12
+The hospital material has nothing personal in it, it's leaflets, but the contract says their name doesn't go anywhere a freelancer can see it. The law firms are stricter: the content is privileged and the freelancer signs a separate agreement per matter. And the medical device people, their product names are under NDA until launch. So, um, the short version: client names not visible to freelancers, and freelancer rates not visible to anyone but Rafael and Torsten.
+
+Rafael Quintanilla  39:47
+Rates especially. They talk to each other.
+
+Consultant  39:51
+Understood. So, next step. I'd like to come back with a first version to show you, not slides, a real one, with projects on it -- made-up ones, unless you want to give me a handful with the client names scrubbed -- and walk it with you. Would the same group work?
+
+Wilhelmina Strachan  40:12
+Same group plus Harriet. And Torsten, if he can get in the room by then. When?
+
+Consultant  40:19
+How's next week? Thursday the nineteenth?
+
+Wilhelmina Strachan  40:24
+Thursday the nineteenth. Ten o'clock. Eastern. Niamh, you're not on the agency call at ten?
+
+Niamh Kettleborough  40:31
+Not on the nineteenth. Ten's fine.
+
+Rafael Quintanilla  40:34
+Fine for me.
+
+Consultant  40:38
+Ten o'clock Eastern, Thursday the nineteenth. I'll send the invite this afternoon.
+
+Wilhelmina Strachan  40:44
+Send it to me and I'll add Harriet and Torsten. And I'll have Torsten's numbers before then, the lag and the credit notes. Both.
+
+Niamh Kettleborough  40:53
+And I'll send you my spreadsheet. With the client names taken off. So you can see what my columns are, because whatever you build had better have my columns.
+
+Consultant  41:04
+I'd like that very much. Anything you want from me before then?
+
+Wilhelmina Strachan  41:09
+Can you give me a number to take to Harriet? Even a range. That's what she'll ask me at four o'clock.
+
+Consultant  41:17
+Not today, and I'd rather be straight about why than give you a number that means nothing. What it costs depends on what we agree it covers, and we've agreed the shape but not the scope, and Harriet hasn't seen it. When she's seen the first version and we've agreed what's in and what's out, I'll give you a number the same day, and it'll be a real one. Tell her that's what I said.
+
+Wilhelmina Strachan  41:47
+I'll tell her that's what you said. She'll say fine. She'll say it in a voice.
+
+Consultant  41:54
+I'll take the voice. I'll also send a short recap tomorrow, what I heard and the list, so you can correct me. Before we close -- anything I should have asked and didn't?
+
+Devika Raghunathan  42:06
+The quotes. The dead quotes. Don't forget that's a thing.
+
+Consultant  42:11
+Not forgotten. It's after the projects, but it's on the list.
+
+Rafael Quintanilla  42:17
+And it has to work from a phone. Not the freelancers, us. I'm not at my desk half the day.
+
+Consultant  42:24
+On a phone. Yes.
+
+Niamh Kettleborough  42:28
+Nothing from me. Except the API thing, I'll ask them.
+
+Consultant  42:33
+Then one last question, and I'd like the honest answer. Is this worth taking forward, from your side?
+
+Wilhelmina Strachan  42:41
+Yes. I want to see it. And I want Harriet to see it, which is the harder part.
+
+Consultant  42:49
+Then that's the nineteenth. Thank you, all of you. And thank Torsten and Leonor for listening, and Harriet, wherever she is.
+
+Wilhelmina Strachan  42:58
+I'll pass it on. Thanks. Raf, get the laptop.
+
+Rafael Quintanilla  43:03
+I'm getting it.
+

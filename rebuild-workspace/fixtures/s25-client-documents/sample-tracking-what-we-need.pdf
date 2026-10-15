@@ -1,0 +1,85 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 4 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 7 0 R >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 8 0 R >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+7 0 obj
+<< /Length 2348 >>
+stream
+BT /F2 16 Tf 72 760 Td (Sample tracking: what we need) Tj ET
+BT /F1 11 Tf 72 734 Td (Wexcombe Seed Testing Laboratory) Tj ET
+BT /F1 11 Tf 72 718 Td (Notes for the systems review) Tj ET
+BT /F2 12 Tf 72 688 Td (1. Why we are looking at this) Tj ET
+BT /F1 10 Tf 72 668 Td (We cannot see where a sample is without going to the bench or ringing.) Tj ET
+BT /F1 10 Tf 72 654 Td (Every result is written three times: bench sheet, results database, certificate.) Tj ET
+BT /F1 10 Tf 72 640 Td (A priority agreed with a submitter is not visible to the bench once it is allocated.) Tj ET
+BT /F1 10 Tf 72 626 Td (Turnaround is not measured while a sample is in progress.) Tj ET
+BT /F1 10 Tf 72 612 Td (A late certificate is found when the submitter rings.) Tj ET
+BT /F1 10 Tf 72 598 Td (Reception, the benches and the Laboratory Manager each keep a list, and they disagree.) Tj ET
+BT /F2 12 Tf 72 570 Td (2. What we want) Tj ET
+BT /F1 10 Tf 72 550 Td (W-1 One register that reception, the benches and the Laboratory Manager all work from.) Tj ET
+BT /F1 10 Tf 72 536 Td (W-2 The status of every sample visible at each stage, from receipt to certificate,) Tj ET
+BT /F1 10 Tf 72 522 Td (without asking anyone.) Tj ET
+BT /F1 10 Tf 72 508 Td (W-3 Priority requests approved by the Laboratory Manager on screen, not on the form,) Tj ET
+BT /F1 10 Tf 72 494 Td (and visible to every bench the same day.) Tj ET
+BT /F1 10 Tf 72 480 Td (W-4 Results entered once. The results database stays the system of record for results.) Tj ET
+BT /F1 10 Tf 72 466 Td (W-5 The certificate prepared from recorded results without re-typing, ready to sign.) Tj ET
+BT /F1 10 Tf 72 452 Td (W-6 Turnaround measured for every sample against the targets in QP-07 section 6.5,) Tj ET
+BT /F1 10 Tf 72 438 Td (with a sample shown before it is late rather than after.) Tj ET
+BT /F1 10 Tf 72 424 Td (W-7 Re-test requests raised and authorised on screen, with the authorisation number) Tj ET
+BT /F1 10 Tf 72 410 Td (carried to the bench sheet.) Tj ET
+BT /F1 10 Tf 72 396 Td (W-8 A daily list for each bench of the samples allocated to it, in priority order.) Tj ET
+BT /F1 10 Tf 72 382 Td (W-9 A monthly summary of samples received, certified and late, by submitter and test.) Tj ET
+BT /F1 10 Tf 72 368 Td (W-10 The whole picture for the Laboratory Director without asking anyone for a report.) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Length 1171 >>
+stream
+BT /F2 12 Tf 72 746 Td (3. Constraints) Tj ET
+BT /F1 10 Tf 72 726 Td (The results database cannot be replaced or altered.) Tj ET
+BT /F1 10 Tf 72 712 Td (It is validated for the accreditation, and results must continue to be held there.) Tj ET
+BT /F1 10 Tf 72 698 Td (Certificates must be signed by an authorised signatory as QP-07 section 6.4 requires.) Tj ET
+BT /F1 10 Tf 72 684 Td (Nothing may issue a certificate without a signature.) Tj ET
+BT /F1 10 Tf 72 670 Td (Bench analysts must not enter a result twice.) Tj ET
+BT /F1 10 Tf 72 656 Td (Analysts must not need a keyboard at the bench while they are handling seed.) Tj ET
+BT /F1 10 Tf 72 642 Td (Bench sheets, test requests and certificates must still be retained for six years.) Tj ET
+BT /F1 10 Tf 72 628 Td (Submitters' names, samples and results are confidential to the submitter.) Tj ET
+BT /F2 12 Tf 72 600 Td (4. Out of scope) Tj ET
+BT /F1 10 Tf 72 580 Td (Invoicing and the accounts system.) Tj ET
+BT /F1 10 Tf 72 566 Td (The methods manual and the tests themselves.) Tj ET
+BT /F1 10 Tf 72 552 Td (The results database and its validation.) Tj ET
+BT /F1 10 Tf 72 538 Td (Seed health testing \(QP-09\).) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000263 00000 n 
+0000000399 00000 n 
+0000000496 00000 n 
+0000000598 00000 n 
+0000002997 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+4219
+%%EOF

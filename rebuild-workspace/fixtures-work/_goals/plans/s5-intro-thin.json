@@ -1,0 +1,30 @@
+{
+  "goals": [
+    {
+      "id": "G1",
+      "goal": "One place to see everything, instead of asking five people",
+      "quote": "i guess just like one place where we can see stuff? instead of asking five people.",
+      "location": "00:06:45 Jolene Varga",
+      "speaker_role": "membership coordinator (client; influencer, likely end user)",
+      "pains": ["P1", "P3", "P4", "P6", "P8", "P11"]
+    }
+  ],
+  "assumption_kinds": [
+    "leaning",
+    "gap",
+    "leaning",
+    "leaning",
+    "board-architecture",
+    "gap",
+    "leaning",
+    "gap",
+    "gap",
+    "gap",
+    "gap",
+    "gap",
+    "gap",
+    "board-architecture",
+    "gap"
+  ],
+  "note_add": null
+}

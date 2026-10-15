@@ -1,0 +1,2002 @@
+{
+  "fixture": "s22-degrading-commitment",
+  "sources": [
+    {
+      "name": "transcript-1.txt",
+      "kind": "transcript",
+      "format": "line-bracket",
+      "units": 191,
+      "unsupported": null
+    },
+    {
+      "name": "transcript-2.txt",
+      "kind": "transcript",
+      "format": "line-time-last",
+      "units": 150,
+      "unsupported": null
+    }
+  ],
+  "counts": {
+    "pairs": 265,
+    "verified": 263,
+    "verified_presence_only": 27,
+    "skipped": 1,
+    "unparsed_prose": 2,
+    "near_misses": 0,
+    "misses": 0,
+    "unsupported": 0,
+    "warnings": 0
+  },
+  "refused_quotes_not_checked": [],
+  "skipped": [
+    {
+      "path": "/intake/claims_by_our_side[0]/quote",
+      "reason": "null or empty"
+    }
+  ],
+  "pairs": [
+    {
+      "path": "/rubric[0]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Sure. So. Every account has a par. A par is, for each item, how many they're supposed to have on hand. Two hundred king sheets, four hundred bath towels, whatever. That lives in the route software. And the route software prints the route sheets every night for the next day, one sheet per stop, and it says, deliver this many of this, based on the par and what they sent back.",
+      "location": "call 1, 00:05:42 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L32, 00:05:42, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[0]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It does pars, it prints route sheets, it closes the route, it feeds the accounting side. Ezekiel runs it.",
+      "location": "call 1, 00:06:16 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L34, 00:06:16, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[0]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Then the pack floor packs off the sheet. Night shift. They pull off the shelf, they build the bags, they put the bags on the dock in route order. Morning, the driver comes in, scans the bags onto the truck with the handheld, and goes.",
+      "location": "call 1, 00:06:34 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L36, 00:06:34, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[0]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "The handhelds know what left the dock. They don't know what was supposed to leave.",
+      "location": "call 1, 00:06:54 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L38, 00:06:54, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[0]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Drops the clean in the hotel's cage, pulls the soiled, scans the soiled bags back, next stop. When the last stop's done he closes the route on the handheld. Comes back. Soiled goes to the soil side, gets sorted, washed, finished, folded, back on the shelf. And the par sheet says what goes back out.",
+      "location": "call 1, 00:07:48 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L43, 00:07:48, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[0]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "The route office is four people. Nadia's the route supervisor, she runs the routes and the drivers day to day. Two on the desk keying pars and answering the phone. One at Halcott. Then the pack floor's about twenty a night here, twelve at Halcott. Then the drivers.",
+      "location": "call 1, 00:08:34 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L47, 00:08:34, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[0]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "There isn't one. There's the whiteboard in the route office, and there's Nadia's memory. The whiteboard's this week. Last week's gone.",
+      "location": "call 1, 00:12:55 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L71, 00:12:55, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[0]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "There's the whiteboard. And we text. A lot.",
+      "location": "call 1, 00:23:18 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L127, 00:23:18, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[0]/evidence[8]/quote",
+      "status": "verified",
+      "quote": "Ezekiel built us a shared spreadsheet for shorts and par changes, two summers ago. One file, a tab per week, both plants. It lasted about a season. It got slow, people made copies, Halcott stopped filling theirs in, and by the autumn everybody was back to the whiteboard.",
+      "location": "call 1, 00:23:44 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L130, 00:23:44, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[0]/evidence[9]/quote",
+      "status": "verified",
+      "quote": "Overnight the closed routes go across to the accounting system. The invoice runs weekly, Sunday night, off whatever the closed routes say was delivered.",
+      "location": "call 2, 00:02:39 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L21, 00:02:39, Annika Brannock"
+    },
+    {
+      "path": "/rubric[0]/evidence[10]/quote",
+      "status": "verified",
+      "quote": "Everything comes out of one route software, one database, Halcott just prints there.",
+      "location": "call 2, 00:03:05 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L23, 00:03:05, Annika Brannock"
+    },
+    {
+      "path": "/rubric[0]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Okay. Hold on to that, I'll come back to it. Can you walk me through how it runs today? Say a hotel's on a Tuesday route. From the par sheet to the truck coming back. Declan, this is probably yours.",
+      "location": "call 1, 00:05:26 Consultant",
+      "cited": "transcript-1.txt, L31, 00:05:26, Consultant"
+    },
+    {
+      "path": "/rubric[1]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "A short is when the hotel opens the cage and it's forty king sheets light.",
+      "location": "call 1, 00:09:37 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L54, 00:09:37, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[1]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "If it's lost, it's a short the next Tuesday, or it's forty extra bath mats sitting in their cage that we're washing and delivering for nothing.",
+      "location": "call 1, 00:15:57 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L91, 00:15:57, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[1]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "The Sable Point sent back two hundred pool towels in July with sunscreen through them. Ruined. Every one. We ate it.",
+      "location": "call 1, 00:18:21 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L105, 00:18:21, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[1]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Okay. Let's go to the thing that lost you the Lindenmoor. Shortages. What does one look like from your end?",
+      "location": "call 1, 00:09:28 Consultant",
+      "cited": "transcript-1.txt, L53, 00:09:28, Consultant"
+    },
+    {
+      "path": "/rubric[2]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Which is a hotel group, four hotels, we've never had them, and we signed them in September. They start the first week of January. All four at once.",
+      "location": "call 1, 00:03:53 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L24, 00:03:53, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[2]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "If we short them past a certain number of times in the first ninety days, they can walk.",
+      "location": "call 1, 00:03:53 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L24, 00:03:53, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[2]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Their GM rang Gustav on the Monday. And they gave notice.",
+      "location": "call 1, 00:04:41 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L28, 00:04:41, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[2]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Honestly, if shorts are on it by early December I'll sleep, because that's the piece that's going to hurt first.",
+      "location": "call 1, 00:29:19 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L163, 00:29:19, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[2]/asked_quote/quote",
+      "status": "verified",
+      "quote": "I'll use your words. So, why now? What made you pick up the phone this autumn rather than a year ago?",
+      "location": "call 1, 00:03:44 Consultant",
+      "cited": "transcript-1.txt, L23, 00:03:44, Consultant"
+    },
+    {
+      "path": "/rubric[3]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "A dozen a week, honestly. Twelve. Fifteen on a bad week, in season.",
+      "location": "call 1, 00:11:03 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L62, 00:11:03, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[3]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Twelve last week. Eleven, no, twelve, there was one on the Friday afternoon after I'd counted.",
+      "location": "call 1, 00:11:22 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L64, 00:11:22, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[3]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Then Nadia's on the phone for forty minutes for every one of them.",
+      "location": "call 1, 00:10:32 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L60, 00:10:32, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[3]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "And maybe a third of them we send a van back out. That's a driver and a van for an hour and a half, minimum, because it's never the hotel next door.",
+      "location": "call 1, 00:10:32 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L60, 00:10:32, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[3]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "The route office is thirty-one an hour loaded. A driver with the van is forty-four.",
+      "location": "call 2, 00:09:11 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L57, 00:09:11, Annika Brannock"
+    },
+    {
+      "path": "/rubric[3]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "Last year we wrote off fifty-eight thousand four hundred in linen we never charged back. Fifty-eight four.",
+      "location": "call 2, 00:04:14 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L27, 00:04:14, Annika Brannock"
+    },
+    {
+      "path": "/rubric[3]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "Okay. So. Twenty shorts a week at forty minutes is, what, thirteen hours, thirteen and a bit. At thirty-one that's four hundred and a bit a week. A third of them we send a van, call it seven, an hour and a half each at forty-four, that's another four-sixty. Eight-sixty a week. Times fifty-two. Forty-four, forty-five thousand. Plus fifty-eight four in write-off. A hundred and three thousand. Round it.",
+      "location": "call 2, 00:09:32 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L59, 00:09:32, Annika Brannock"
+    },
+    {
+      "path": "/rubric[3]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "It holds up as arithmetic. I'd want it written down with where every number came from before I say it in front of Gustav.",
+      "location": "call 2, 00:10:07 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L61, 00:10:07, Annika Brannock"
+    },
+    {
+      "path": "/rubric[3]/asked_quote/quote",
+      "status": "verified",
+      "quote": "About a hundred and three thousand a year. Does that hold up, from where you sit?",
+      "location": "call 2, 00:10:00 Consultant",
+      "cited": "transcript-2.txt, L60, 00:10:00, Consultant"
+    },
+    {
+      "path": "/rubric[4]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The gain is the two hotels we said no to in the summer. We turned them down because I couldn't promise them Saturday counts, not with the shelf the way it is. Those are sixty to eighty a year each, and they'd still take us, they rang again in October.",
+      "location": "call 2, 00:11:16 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-2.txt, L68, 00:11:16, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[4]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I'd take the two hotels as the number. Sixty to eighty each. Don't add Brindlewood to it.",
+      "location": "call 2, 00:11:35 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L69, 00:11:35, Annika Brannock"
+    },
+    {
+      "path": "/rubric[4]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "But that's a keep, not a gain. I wouldn't count it as upside, I'd count it as not losing the biggest thing we've ever signed.",
+      "location": "call 2, 00:10:57 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L67, 00:10:57, Annika Brannock"
+    },
+    {
+      "path": "/rubric[4]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Speaking of Gustav's argument. If this were working, what would you go after? Business you turn away, or can't take, because of the counts.",
+      "location": "call 2, 00:10:46 Consultant",
+      "cited": "transcript-2.txt, L66, 00:10:46, Consultant"
+    },
+    {
+      "path": "/rubric[5]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "One screen. Every short this week, both plants, which stop, what we did about it, and every par change that's come in and whether it's landed. And Nadia not on the phone.",
+      "location": "call 1, 00:24:56 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L138, 00:24:56, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[5]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The par change is on the route sheet before the pack floor prints it.",
+      "location": "call 1, 00:25:26 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L143, 00:25:26, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[5]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Annika would say the loss charges. That's her whole thing, she's been saying it for two years. Gustav would say no more Lindenmoors. That we don't lose a ten-year account over a weekend nobody made a phone call.",
+      "location": "call 1, 00:25:48 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L145, 00:25:48, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[5]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Loss charges on the invoice. Not a credit memo three weeks later, not a second invoice, on the invoice, inside the thirty days. If the soil dock writes it up on the day with the hotel's name on it and it's on the route before the route closes, I've got it.",
+      "location": "call 2, 00:11:49 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L71, 00:11:49, Annika Brannock"
+    },
+    {
+      "path": "/rubric[5]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "No more paying a driver and a van to deliver the thing we should have delivered that morning. That's just embarrassing.",
+      "location": "call 2, 00:12:12 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L73, 00:12:12, Annika Brannock"
+    },
+    {
+      "path": "/rubric[5]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Okay. So, imagine it's a Tuesday morning in February and this is working. What do you see?",
+      "location": "call 1, 00:24:49 Consultant",
+      "cited": "transcript-1.txt, L137, 00:24:49, Consultant"
+    },
+    {
+      "path": "/rubric[6]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So I own the ops tools up to ten thousand. Over ten it's Annika, and Annika's a co-owner, so that's real. Gustav's the other owner, he runs sales, and on anything ops-shaped he'll go with Annika. He doesn't want to be in the room for this, he wants it to work.",
+      "location": "call 1, 00:27:08 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L151, 00:27:08, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[6]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The handhelds themselves. Three years ago. That was over ten, well over. She approved it in about a week, once Ezekiel said yes to it.",
+      "location": "call 1, 00:27:54 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L155, 00:27:54, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[6]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Ezekiel. He runs the route software. He runs the handhelds too, he administers both. He also did the accounting connection, so he's been through this once. Anything that touches either, he says yes or no, and Annika listens to him.",
+      "location": "call 1, 00:28:14 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L157, 00:28:14, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[6]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Over ten thousand it's me and Gustav, and Gustav goes with me on anything that isn't a hotel, he's said so. Under ten, Genevieve can do it. Ezekiel has to be comfortable with what touches his systems, and after Monday he is, so that's done, subject to your piece of paper.",
+      "location": "call 2, 00:17:41 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L103, 00:17:41, Annika Brannock"
+    },
+    {
+      "path": "/rubric[6]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Gustav and I do Tuesday mornings. If I bring it Tuesday with one page and a number, he'll say yes. He said yes to the accounting thing in about ten minutes and regretted it for five months.",
+      "location": "call 2, 00:18:10 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L105, 00:18:10, Annika Brannock"
+    },
+    {
+      "path": "/rubric[6]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "Then I raise a PO, or it goes on the card if it's a subscription. And Genevieve runs it. I don't want to run it.",
+      "location": "call 2, 00:18:26 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L107, 00:18:26, Annika Brannock"
+    },
+    {
+      "path": "/rubric[6]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "That we don't lose another Lindenmoor. That's his whole thing. And that his hotels never see a form. If a hotel has to do anything different, he'll kill it.",
+      "location": "call 2, 00:18:44 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L110, 00:18:44, Annika Brannock"
+    },
+    {
+      "path": "/rubric[6]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "Please. Because that's my condition. In writing, before the twenty-fourth, not on the day.",
+      "location": "call 2, 00:14:02 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L81, 00:14:02, Annika Brannock"
+    },
+    {
+      "path": "/rubric[6]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Got it. Let me go to the decision. Annika, if the four of you decided to do this, how does it actually happen?",
+      "location": "call 2, 00:17:32 Consultant",
+      "cited": "transcript-2.txt, L102, 00:17:32, Consultant"
+    },
+    {
+      "path": "/rubric[7]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Before Brindlewood. First week of January.",
+      "location": "call 1, 00:29:19 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L163, 00:29:19, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[7]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It's now. It's this quarter or it's not worth doing, because January's when it hurts and after that we're either fine or we've lost Brindlewood.",
+      "location": "call 1, 00:29:36 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L165, 00:29:36, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[7]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Before Brindlewood. First week of January. Not during the boiler, that's the second week of December, the plant's dark for three days and nobody's touching anything.",
+      "location": "call 2, 00:19:01 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L112, 00:19:01, Annika Brannock"
+    },
+    {
+      "path": "/rubric[7]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "And shorts by early December, if we can. That was my thing last week and it still is.",
+      "location": "call 2, 00:19:12 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-2.txt, L113, 00:19:12, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[7]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And on a now-versus-later scale? Is this a this-quarter thing or a next-year thing?",
+      "location": "call 1, 00:29:30 Consultant",
+      "cited": "transcript-1.txt, L164, 00:29:30, Consultant"
+    },
+    {
+      "path": "/rubric[8]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The drivers. The drivers don't type. They'll scan a bag. They will not fill in a form on a screen at six in the morning with a bag in the other hand. Whatever this is, it has to be a phone in one hand and a bag in the other, or it has to be nothing for them at all.",
+      "location": "call 1, 00:29:54 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L167, 00:29:54, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[8]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And it can't fight the route software. If the pack floor has to look at two things, they'll look at the one that prints. If the drivers have to scan into two things, they'll scan into the one they already know.",
+      "location": "call 1, 00:30:18 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L168, 00:30:18, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[8]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And December. The boiler's being replaced the second week of December, the plant's down for three days, and every single person is on the floor that week. Nobody's in a meeting. Nobody's learning anything.",
+      "location": "call 1, 00:30:35 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L169, 00:30:35, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[8]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Three taps, they'll do it. Four, they stop. I've watched it.",
+      "location": "call 2, 00:19:41 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-2.txt, L116, 00:19:41, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[8]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "The boiler week. Nothing that week. And honestly nothing the week after either, we'll be catching up.",
+      "location": "call 2, 00:20:01 Ezekiel Quist (Systems Administrator)",
+      "cited": "transcript-2.txt, L118, 00:20:01, Ezekiel Quist"
+    },
+    {
+      "path": "/rubric[8]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "And the handheld piece. If that isn't real, Ezekiel's out, and if Ezekiel's out, I'm out. I'm not paying for two systems.",
+      "location": "call 2, 00:20:08 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L119, 00:20:08, Annika Brannock"
+    },
+    {
+      "path": "/rubric[8]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Shorts first, then. And blockers. What's in the way that you can see already?",
+      "location": "call 2, 00:19:20 Consultant",
+      "cited": "transcript-2.txt, L114, 00:19:20, Consultant"
+    },
+    {
+      "path": "/rubric[9]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Then the next step. A walkthrough of the first version, all four of you, on Tuesday the twenty-fourth. Two o'clock Eastern? That's before the holiday.",
+      "location": "call 2, 00:23:35 Consultant",
+      "cited": "transcript-2.txt, L136, 00:23:35, Consultant"
+    },
+    {
+      "path": "/rubric[9]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The twenty-fourth at two works for me.",
+      "location": "call 2, 00:23:46 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L137, 00:23:46, Annika Brannock"
+    },
+    {
+      "path": "/rubric[9]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Two on the twenty-fourth, fine. Before then I want the handheld thing in writing, though. Not on the day.",
+      "location": "call 2, 00:23:56 Ezekiel Quist (Systems Administrator)",
+      "cited": "transcript-2.txt, L140, 00:23:56, Ezekiel Quist"
+    },
+    {
+      "path": "/rubric[9]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "You'll have it in writing before the twenty-fourth. I'll talk to Linnea this week and send you and Annika exactly what was shown, what's confirmed, and what still needs checking, in those three columns. I'll send the invite for the twenty-fourth today.",
+      "location": "call 2, 00:24:04 Consultant",
+      "cited": "transcript-2.txt, L141, 00:24:04, Consultant"
+    },
+    {
+      "path": "/rubric[9]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Then the next step. A walkthrough of the first version, all four of you, on Tuesday the twenty-fourth. Two o'clock Eastern? That's before the holiday.",
+      "location": "call 2, 00:23:35 Consultant",
+      "cited": "transcript-2.txt, L136, 00:23:35, Consultant"
+    },
+    {
+      "path": "/rubric[11]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Noted. Let me play back what I'd put in a first version, just to show you on the twenty-fourth, not to sign anything. A stops view that mirrors the route sheets, one line per stop, both plants, a sample day typed in. Against each stop, a short logged from a phone, what was short, what we did. A par-change form that lands on the stop it belongs to. A loss write-up from the soil dock, from a phone, dated, with the hotel on it, inside the thirty days. And one screen for Genevieve and one for Annika. The first version doesn't connect to the route software at all, the real connection gets worked out with Ezekiel and Linnea, and I say that out loud when I show it.",
+      "location": "call 2, 00:21:19 Consultant",
+      "cited": "transcript-2.txt, L126, 00:21:19, Consultant"
+    },
+    {
+      "path": "/rubric[11]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Fine as a first look. I'm not signing up to anything until I see the handheld piece in writing, but as a thing to look at, fine.",
+      "location": "call 2, 00:22:08 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L127, 00:22:08, Annika Brannock"
+    },
+    {
+      "path": "/rubric[11]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Yes. That's what I asked for.",
+      "location": "call 2, 00:22:19 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-2.txt, L128, 00:22:19, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[11]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Show me the par change landing on the sheet and I'm in.",
+      "location": "call 2, 00:22:22 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-2.txt, L129, 00:22:22, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[11]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Show me nothing writing into the route software and I'm in.",
+      "location": "call 2, 00:22:28 Ezekiel Quist (Systems Administrator)",
+      "cited": "transcript-2.txt, L130, 00:22:28, Ezekiel Quist"
+    },
+    {
+      "path": "/rubric[11]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "Yes. Shorts first. If I had to pick one thing, it's that the whiteboard stops being the only place that knows.",
+      "location": "call 1, 00:31:47 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L173, 00:31:47, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[11]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "Shorts first. And I want to see how the par change gets onto the sheet before I believe it.",
+      "location": "call 1, 00:31:56 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L174, 00:31:56, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[11]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Does that match?",
+      "location": "call 1, 00:31:01 Consultant",
+      "cited": "transcript-1.txt, L172, 00:31:01, Consultant"
+    },
+    {
+      "path": "/rubric[12]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "A short is when the hotel opens the cage and it's forty king sheets light. That's it. That's the whole thing.",
+      "location": "call 1, 00:09:37 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L54, 00:09:37, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[12]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Okay. Let's go to the thing that lost you the Lindenmoor. Shortages. What does one look like from your end?",
+      "location": "call 1, 00:09:28 Consultant",
+      "cited": "transcript-1.txt, L53, 00:09:28, Consultant"
+    },
+    {
+      "path": "/rubric[13]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Last week. Tuesday. The Sable Point, that's a resort, big account. They'd changed their pool towel par for the off season, down, and the change went to the desk by email and got keyed onto the wrong item, so they got a hundred extra pool towels and forty fewer bath towels. Which is a short and an over on the same stop. Their housekeeping manager was, um. Not happy. Nadia was on that for most of the morning.",
+      "location": "call 1, 00:11:42 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L66, 00:11:42, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[13]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Nadia did. Wednesday. It took her an hour, because the housekeeping manager wanted to go through every item while she had her. And it's still not clear it's right, because the change came in as 'the winter numbers', and nobody had the winter numbers written down anywhere.",
+      "location": "call 1, 00:12:29 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L69, 00:12:29, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[13]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And we shorted them forty king sheets on the Saturday, and then on the Sunday it was two hundred napkins, and nobody rang them on either day to say it was coming short, they just opened the cage and it was light.",
+      "location": "call 1, 00:04:41 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L28, 00:04:41, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[13]/asked_quote/quote",
+      "status": "verified",
+      "quote": "A dozen a week. Twelve to fifteen. Okay. When did the last bad one happen?",
+      "location": "call 1, 00:11:35 Consultant",
+      "cited": "transcript-1.txt, L65, 00:11:35, Consultant"
+    },
+    {
+      "path": "/rubric[14]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "There isn't one. There's the whiteboard in the route office, and there's Nadia's memory. The whiteboard's this week. Last week's gone.",
+      "location": "call 1, 00:12:55 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L71, 00:12:55, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[14]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Because it's in one room, in one plant, and Halcott's got its own whiteboard. And because when Brindlewood asks us in February how many times we shorted them, the answer's going to be, um, ask Nadia.",
+      "location": "call 1, 00:13:17 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L74, 00:13:17, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[14]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "So it's Nadia. Everything's Nadia.",
+      "location": "call 1, 00:10:19 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L58, 00:10:19, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[14]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And what stops you from carrying on with the whiteboard? It's worked, more or less.",
+      "location": "call 1, 00:13:10 Consultant",
+      "cited": "transcript-1.txt, L73, 00:13:10, Consultant"
+    },
+    {
+      "path": "/rubric[15]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The driver, because he gets shouted at on the dock and it wasn't him, the bag was short when he scanned it. The pack floor, because they get blamed next. Nadia, obviously. Annika's people, because there's a credit, or an argument about a credit.",
+      "location": "call 1, 00:13:41 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L77, 00:13:41, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[15]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And a van went back out with the bath towels at lunchtime. So that's a driver off his route for the afternoon and the rest of his stops late.",
+      "location": "call 1, 00:12:13 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L67, 00:12:13, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[15]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Who else feels it when a short happens? Beyond the hotel.",
+      "location": "call 1, 00:13:37 Consultant",
+      "cited": "transcript-1.txt, L76, 00:13:37, Consultant"
+    },
+    {
+      "path": "/rubric[16]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "A dozen a week, honestly. Twelve. Fifteen on a bad week, in season.",
+      "location": "call 1, 00:11:03 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L62, 00:11:03, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[16]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Twelve last week.",
+      "location": "call 1, 00:11:22 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L64, 00:11:22, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[16]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Forty minutes, easy.",
+      "location": "call 1, 00:10:32 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L60, 00:10:32, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[16]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "The route office is thirty-one an hour loaded. A driver with the van is forty-four.",
+      "location": "call 2, 00:09:11 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L57, 00:09:11, Annika Brannock"
+    },
+    {
+      "path": "/rubric[16]/asked_quote/quote",
+      "status": "verified",
+      "quote": "How often? A specific week, if you can.",
+      "location": "call 1, 00:10:59 Consultant",
+      "cited": "transcript-1.txt, L61, 00:10:59, Consultant"
+    },
+    {
+      "path": "/rubric[17]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Four hotels, all at once, all with the same par sheets we haven't set up yet, a ninety-day clause, and a whiteboard. That's what it looks like. It looks like the Lindenmoor four times.",
+      "location": "call 1, 00:14:11 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L80, 00:14:11, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[17]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And if nothing changes, with Brindlewood coming in January, what does that look like?",
+      "location": "call 1, 00:14:04 Consultant",
+      "cited": "transcript-1.txt, L79, 00:14:04, Consultant"
+    },
+    {
+      "path": "/rubric[18]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Every which way. They email the route office. Or they ring. Or they tell the driver on the dock, and the driver tells Nadia, or doesn't. Or their housekeeping manager tells Gustav at lunch and Gustav tells me a week later.",
+      "location": "call 1, 00:14:46 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L83, 00:14:46, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[18]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Okay. You mentioned a par change going to the wrong item. Let's do par changes. How does a change come in?",
+      "location": "call 1, 00:14:38 Consultant",
+      "cited": "transcript-1.txt, L82, 00:14:38, Consultant"
+    },
+    {
+      "path": "/rubric[19]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "If it's lost, it's a short the next Tuesday, or it's forty extra bath mats sitting in their cage that we're washing and delivering for nothing. Half our shorts are a par change that didn't land. Declan would say more than half.",
+      "location": "call 1, 00:15:57 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L91, 00:15:57, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[19]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "They'd changed their pool towel par for the off season, down, and the change went to the desk by email and got keyed onto the wrong item, so they got a hundred extra pool towels and forty fewer bath towels.",
+      "location": "call 1, 00:11:42 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L66, 00:11:42, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[19]/asked_quote/quote",
+      "status": "verified",
+      "quote": "How many a week, roughly?",
+      "location": "call 1, 00:15:44 Consultant",
+      "cited": "transcript-1.txt, L88, 00:15:44, Consultant"
+    },
+    {
+      "path": "/rubric[20]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Nadia. Nadia reads every email and checks it got keyed. When she's there. When she's not there, it's whoever's on the desk, and the desk is answering the phone.",
+      "location": "call 1, 00:16:22 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L94, 00:16:22, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[20]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What do you do today to make sure a change lands?",
+      "location": "call 1, 00:16:17 Consultant",
+      "cited": "transcript-1.txt, L93, 00:16:17, Consultant"
+    },
+    {
+      "path": "/rubric[21]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The pack floor, because they pack the wrong number and get blamed for it. The driver, same. The hotel, obviously. And Halcott, because if a hotel with two properties changes a par and one property's on Halcott's routes, Halcott never hears.",
+      "location": "call 1, 00:16:38 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L96, 00:16:38, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[21]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The two plants can't see each other's pars. I mean, they can, it's one system. Nobody looks. Halcott gets a change, we don't know. We get a change, Halcott doesn't.",
+      "location": "call 1, 00:16:54 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L97, 00:16:54, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[21]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Who else does that reach?",
+      "location": "call 1, 00:16:35 Consultant",
+      "cited": "transcript-1.txt, L95, 00:16:35, Consultant"
+    },
+    {
+      "path": "/rubric[22]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Thirty, forty a week, across both plants. More in December, the hotels change everything for the holidays.",
+      "location": "call 1, 00:15:47 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L89, 00:15:47, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[22]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Five minutes if it's clean. Twenty if it isn't, because you're ringing the hotel to ask which par they actually meant, or whether it's for both their properties or one.",
+      "location": "call 1, 00:15:06 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L85, 00:15:06, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[22]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And five minutes is the clean ones. There aren't many clean ones.",
+      "location": "call 2, 00:07:49 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-2.txt, L48, 00:07:49, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[22]/asked_quote/quote",
+      "status": "verified",
+      "quote": "How many a week, roughly?",
+      "location": "call 1, 00:15:44 Consultant",
+      "cited": "transcript-1.txt, L88, 00:15:44, Consultant"
+    },
+    {
+      "path": "/rubric[23]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "More in the run-up to the holidays, the hotels change everything in December.",
+      "location": "call 2, 00:07:49 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-2.txt, L48, 00:07:49, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[23]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Not yet. Ezekiel's keying them the first week of December, before the boiler. Four hotels' worth.",
+      "location": "call 2, 00:17:16 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-2.txt, L100, 00:17:16, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[24]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Every contract has a loss clause. If they lose our linen or wreck it, we can charge it back, within thirty days, documented. And we almost never do.",
+      "location": "call 1, 00:17:40 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L101, 00:17:40, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[24]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Understood. Let me go to the money side of a short. You said there's a credit or an argument. Is that the loss clause, or is that separate?",
+      "location": "call 1, 00:17:28 Consultant",
+      "cited": "transcript-1.txt, L100, 00:17:28, Consultant"
+    },
+    {
+      "path": "/rubric[25]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The Sable Point sent back two hundred pool towels in July with sunscreen through them. Ruined. Every one. We ate it. We could have charged them for two hundred pool towels and we didn't, because nobody wrote it up on the day, and by the time Annika saw the replacement order it was September.",
+      "location": "call 1, 00:18:21 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L105, 00:18:21, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[25]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "We find out in September about towels from July.",
+      "location": "call 2, 00:04:36 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L29, 00:04:36, Annika Brannock"
+    },
+    {
+      "path": "/rubric[25]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Has that happened recently?",
+      "location": "call 1, 00:18:19 Consultant",
+      "cited": "transcript-1.txt, L104, 00:18:19, Consultant"
+    },
+    {
+      "path": "/rubric[26]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Because by the time anyone counts, the thirty days are gone. The linen comes back, it goes through the soil side, somebody notices a hundred pool towels are ruined, and by then it's three weeks later and which hotel was it, which week, who's going to write it up.",
+      "location": "call 1, 00:17:59 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L103, 00:17:59, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[26]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "So by the time somebody sees a ruined pool towel, it's a pool towel in a bin. Could be anyone's.",
+      "location": "call 1, 00:22:48 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L124, 00:22:48, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[26]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Why not?",
+      "location": "call 1, 00:17:57 Consultant",
+      "cited": "transcript-1.txt, L102, 00:17:57, Consultant"
+    },
+    {
+      "path": "/rubric[27]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The soil side, because they're the ones who see it and have nowhere to put it. The office, because when Annika does find it she asks who saw it and when, and nobody wrote it down. And it's a fight with the hotel every time we do try, because it's three weeks old and they say prove it.",
+      "location": "call 1, 00:19:10 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L109, 00:19:10, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[27]/asked_quote/quote",
+      "status": "verified",
+      "quote": "That's fine, I'd rather have her number than a guess. Who else does that reach, beyond the money?",
+      "location": "call 1, 00:19:03 Consultant",
+      "cited": "transcript-1.txt, L108, 00:19:03, Consultant"
+    },
+    {
+      "path": "/rubric[28]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Last year we wrote off fifty-eight thousand four hundred in linen we never charged back. Fifty-eight four. I pulled it yesterday, it's the replacement purchases against accounts that had a loss event we could name, plus the write-down.",
+      "location": "call 2, 00:04:14 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L27, 00:04:14, Annika Brannock"
+    },
+    {
+      "path": "/rubric[28]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Some is wear. But I'd count all of it, because if it's written up inside the thirty days with the hotel's name on it, it's their argument, not ours.",
+      "location": "call 2, 00:04:36 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L29, 00:04:36, Annika Brannock"
+    },
+    {
+      "path": "/rubric[28]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Annika has the number. It's not small. I want to say it's in the tens of thousands, but I'd rather she said it than me, she's going to correct me if I guess.",
+      "location": "call 1, 00:18:49 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L107, 00:18:49, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[28]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Let's do the second one. Loss you were allowed to charge and didn't. Do you have a number for last year?",
+      "location": "call 2, 00:04:04 Consultant",
+      "cited": "transcript-2.txt, L26, 00:04:04, Consultant"
+    },
+    {
+      "path": "/rubric[29]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Brindlewood's contract has the same clause, and four hotels' worth of linen, and the only way we ever charge any of it is if it's written up on the day. So if it stays like this, we're washing their losses for free from January. Annika will tell you the number, and she'll tell you it goes up.",
+      "location": "call 1, 00:19:37 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L111, 00:19:37, Genevieve Okundaye"
+    },
+    {
+      "path": "/rubric[29]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And if it stays like this?",
+      "location": "call 1, 00:19:33 Consultant",
+      "cited": "transcript-1.txt, L110, 00:19:33, Consultant"
+    },
+    {
+      "path": "/rubric[30]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Anything that comes off the line stained goes back round. Rewash.",
+      "location": "call 1, 00:20:08 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L113, 00:20:08, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[30]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Understood. Declan, you mentioned the wash being behind. Is that a pain in its own right, or is that just November?",
+      "location": "call 1, 00:19:59 Consultant",
+      "cited": "transcript-1.txt, L112, 00:19:59, Consultant"
+    },
+    {
+      "path": "/rubric[31]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "A week ago, the sunscreen thing was July, but a week ago we had two full bins come off the line grey because somebody put a clinic load through with the hotel whites.",
+      "location": "call 1, 00:20:54 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L117, 00:20:54, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[31]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Nobody counts it at all?",
+      "location": "call 1, 00:20:31 Consultant",
+      "cited": "transcript-1.txt, L114, 00:20:31, Consultant"
+    },
+    {
+      "path": "/rubric[32]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "There's a tally sheet on the soil dock. It gets a tick when somebody remembers.",
+      "location": "call 1, 00:20:33 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L115, 00:20:33, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[32]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Nobody counts it at all?",
+      "location": "call 1, 00:20:31 Consultant",
+      "cited": "transcript-1.txt, L114, 00:20:31, Consultant"
+    },
+    {
+      "path": "/rubric[33]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The night shift, because they stay. The morning pack, because the shelf's short. And Annika, because it's the boiler bill and the chemical bill and she asks me why and I say, rewash, and she says how much, and I say, a lot.",
+      "location": "call 1, 00:21:19 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L119, 00:21:19, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[33]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Who feels it?",
+      "location": "call 1, 00:21:18 Consultant",
+      "cited": "transcript-1.txt, L118, 00:21:18, Consultant"
+    },
+    {
+      "path": "/rubric[34]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I've got dollars for chemicals, not bins. I couldn't tell you how many bins go back round.",
+      "location": "call 2, 00:06:09 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L37, 00:06:09, Annika Brannock"
+    },
+    {
+      "path": "/rubric[34]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Okay. Nadia says, and I'm reading her back, six or seven bins a day, maybe, but that's off the top of her head, she's never counted them, and she says don't put that in anything.",
+      "location": "call 2, 00:06:49 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-2.txt, L41, 00:06:49, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[34]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "She said don't put it in anything.",
+      "location": "call 2, 00:07:10 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-2.txt, L44, 00:07:10, Declan Pellingham"
+    },
+    {
+      "path": "/rubric[34]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Good. Declan mentioned rewash last week, and that nobody counts it. Annika, do you see it anywhere?",
+      "location": "call 2, 00:06:01 Consultant",
+      "cited": "transcript-2.txt, L36, 00:06:01, Consultant"
+    },
+    {
+      "path": "/pains[0]/quote",
+      "status": "verified",
+      "quote": "A short is when the hotel opens the cage and it's forty king sheets light.",
+      "location": "call 1, 00:09:37 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L54, 00:09:37, Declan Pellingham"
+    },
+    {
+      "path": "/pains[1]/quote",
+      "status": "verified",
+      "quote": "Their GM rang Gustav on the Monday. And they gave notice.",
+      "location": "call 1, 00:04:41 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L28, 00:04:41, Genevieve Okundaye"
+    },
+    {
+      "path": "/pains[2]/quote",
+      "status": "verified",
+      "quote": "So it's Nadia. Everything's Nadia.",
+      "location": "call 1, 00:10:19 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L58, 00:10:19, Declan Pellingham"
+    },
+    {
+      "path": "/pains[3]/quote",
+      "status": "verified",
+      "quote": "Every which way. They email the route office. Or they ring. Or they tell the driver on the dock, and the driver tells Nadia, or doesn't. Or their housekeeping manager tells Gustav at lunch and Gustav tells me a week later.",
+      "location": "call 1, 00:14:46 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L83, 00:14:46, Genevieve Okundaye"
+    },
+    {
+      "path": "/pains[4]/quote",
+      "status": "verified",
+      "quote": "Half our shorts are a par change that didn't land.",
+      "location": "call 1, 00:15:57 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L91, 00:15:57, Genevieve Okundaye"
+    },
+    {
+      "path": "/pains[5]/quote",
+      "status": "verified",
+      "quote": "And we almost never do.",
+      "location": "call 1, 00:17:40 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L101, 00:17:40, Genevieve Okundaye"
+    },
+    {
+      "path": "/pains[6]/quote",
+      "status": "verified",
+      "quote": "Because by the time anyone counts, the thirty days are gone.",
+      "location": "call 1, 00:17:59 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L103, 00:17:59, Genevieve Okundaye"
+    },
+    {
+      "path": "/pains[7]/quote",
+      "status": "verified",
+      "quote": "And nobody counts it.",
+      "location": "call 1, 00:20:08 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L113, 00:20:08, Declan Pellingham"
+    },
+    {
+      "path": "/pains[8]/quote",
+      "status": "verified",
+      "quote": "The pack floor packs what's on the shelf, which might be a hundred and sixty because the wash is behind.",
+      "location": "call 1, 00:07:09 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L40, 00:07:09, Declan Pellingham"
+    },
+    {
+      "path": "/pains[9]/quote",
+      "status": "verified",
+      "quote": "Halcott gets a change, we don't know. We get a change, Halcott doesn't.",
+      "location": "call 1, 00:16:54 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L97, 00:16:54, Declan Pellingham"
+    },
+    {
+      "path": "/numbers/bleed/quote",
+      "status": "verified",
+      "quote": "Okay. So. Twenty shorts a week at forty minutes is, what, thirteen hours, thirteen and a bit. At thirty-one that's four hundred and a bit a week. A third of them we send a van, call it seven, an hour and a half each at forty-four, that's another four-sixty. Eight-sixty a week. Times fifty-two. Forty-four, forty-five thousand. Plus fifty-eight four in write-off. A hundred and three thousand. Round it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript-2.txt, L59, 00:09:32, Annika Brannock"
+      ]
+    },
+    {
+      "path": "/numbers/upside/quote",
+      "status": "verified",
+      "quote": "The gain is the two hotels we said no to in the summer. We turned them down because I couldn't promise them Saturday counts, not with the shelf the way it is. Those are sixty to eighty a year each, and they'd still take us, they rang again in October.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript-2.txt, L68, 00:11:16, Genevieve Okundaye"
+      ]
+    },
+    {
+      "path": "/objections[0]/quote",
+      "status": "verified",
+      "quote": "The drivers. The drivers don't type. They'll scan a bag. They will not fill in a form on a screen at six in the morning with a bag in the other hand. Whatever this is, it has to be a phone in one hand and a bag in the other, or it has to be nothing for them at all.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript-1.txt, L167, 00:29:54, Genevieve Okundaye"
+      ]
+    },
+    {
+      "path": "/objections[1]/quote",
+      "status": "verified",
+      "quote": "Ezekiel built us a shared spreadsheet for shorts and par changes, two summers ago. One file, a tab per week, both plants. It lasted about a season. It got slow, people made copies, Halcott stopped filling theirs in, and by the autumn everybody was back to the whiteboard.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript-1.txt, L130, 00:23:44, Genevieve Okundaye"
+      ]
+    },
+    {
+      "path": "/objections[2]/quote",
+      "status": "verified",
+      "quote": "Half of it, honestly. The shortage log I could hack into the notes on the stop. Nobody'd read it, but I could. The par change landing on the sheet, that I can't do.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript-2.txt, L91, 00:15:47, Ezekiel Quist"
+      ]
+    },
+    {
+      "path": "/objections[3]/quote",
+      "status": "verified",
+      "quote": "Over ten thousand it's me and Gustav, and Gustav goes with me on anything that isn't a hotel, he's said so.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript-2.txt, L103, 00:17:41, Annika Brannock"
+      ]
+    },
+    {
+      "path": "/objections[4]/quote",
+      "status": "verified",
+      "quote": "And December. The boiler's being replaced the second week of December, the plant's down for three days, and every single person is on the floor that week. Nobody's in a meeting. Nobody's learning anything.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript-1.txt, L169, 00:30:35, Genevieve Okundaye"
+      ]
+    },
+    {
+      "path": "/objections[5]/quote",
+      "status": "verified",
+      "quote": "What does something like this run, ballpark? I'm not going to hold you to it. I just don't want to walk into Tuesday with Gustav blind.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript-2.txt, L132, 00:22:38, Annika Brannock"
+      ]
+    },
+    {
+      "path": "/objections[6]/quote",
+      "status": "verified",
+      "quote": "The route software people pitched me a shortage module last month. It's a form that emails somebody. I said I'd think about it. I haven't thought about it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript-1.txt, L134, 00:24:17, Genevieve Okundaye"
+      ]
+    },
+    {
+      "path": "/objections[7]/quote",
+      "status": "verified",
+      "quote": "Please. Because that's my condition. In writing, before the twenty-fourth, not on the day.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript-2.txt, L81, 00:14:02, Annika Brannock"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[0]/quote",
+      "status": "verified",
+      "quote": "Then the next step. A walkthrough of the first version, all four of you, on Tuesday the twenty-fourth. Two o'clock Eastern? That's before the holiday.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript-2.txt, L136, 00:23:35, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[1]/quote",
+      "status": "verified",
+      "quote": "I'll send the invite for the twenty-fourth today.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript-2.txt, L141, 00:24:04, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[2]/quote",
+      "status": "verified",
+      "quote": "I'll talk to Linnea this week and send you and Annika exactly what was shown, what's confirmed, and what still needs checking, in those three columns.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript-2.txt, L141, 00:24:04, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[3]/quote",
+      "status": "verified",
+      "quote": "It depends on the plan and on how it's set up, and I'd rather answer that properly than off the top of my head. I'll put it in the writing with a straight answer.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript-2.txt, L34, 00:05:45, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[4]/quote",
+      "status": "verified",
+      "quote": "That's the right way to keep it. Then I'll write it down with every input and where it came from, and you tell me which ones you'd defend.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript-2.txt, L64, 00:10:34, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[5]/quote",
+      "status": "verified",
+      "quote": "She can count for a week.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript-2.txt, L46, 00:07:29, Declan Pellingham"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[6]/quote",
+      "status": "verified",
+      "quote": "It matters a lot, actually. Thank you, I'll fix that.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript-2.txt, L24, 00:03:23, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[7]/quote",
+      "status": "verified",
+      "quote": "Ezekiel's keying them the first week of December, before the boiler.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript-2.txt, L100, 00:17:16, Genevieve Okundaye"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[8]/quote",
+      "status": "verified",
+      "quote": "Thursday the twelfth at two works. I'll send the invite to you both today, and you forward it to Annika and Ezekiel?",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript-1.txt, L179, 00:33:00, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[9]/quote",
+      "status": "verified",
+      "quote": "And I'll tell Ezekiel to expect a call from your Linnea before then.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript-1.txt, L180, 00:33:10, Genevieve Okundaye"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[10]/quote",
+      "status": "verified",
+      "quote": "I can send you a route sheet. The whiteboard, um, Nadia would have to -- she'd want to wipe some of it first, so give me till Monday.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript-1.txt, L182, 00:33:30, Declan Pellingham"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[11]/quote",
+      "status": "verified",
+      "quote": "Monday's fine. And I'll send you both a short recap by tomorrow, what I heard, so you can correct anything I got wrong.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript-1.txt, L183, 00:33:41, Consultant"
+      ]
+    },
+    {
+      "path": "/requested_changes[0]/quote",
+      "status": "verified",
+      "quote": "Show me the par change landing on the sheet and I'm in.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript-2.txt, L129, 00:22:22, Declan Pellingham"
+      ]
+    },
+    {
+      "path": "/requested_changes[1]/quote",
+      "status": "verified",
+      "quote": "So whatever counts them has to count both plants, or it's counting half.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript-2.txt, L51, 00:08:26, Declan Pellingham"
+      ]
+    },
+    {
+      "path": "/requested_changes[2]/quote",
+      "status": "verified",
+      "quote": "Read out of it, fine. Write into it, no.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript-2.txt, L86, 00:14:56, Ezekiel Quist"
+      ]
+    },
+    {
+      "path": "/requested_changes[3]/quote",
+      "status": "verified",
+      "quote": "Three taps, they'll do it. Four, they stop.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript-2.txt, L116, 00:19:41, Declan Pellingham"
+      ]
+    },
+    {
+      "path": "/account_context/evidence_quote_or_null",
+      "status": "verified",
+      "quote": "It's not ours. I can still see one board from a hotel group I don't work for any more. I should probably delete it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript-2.txt, L122, 00:20:37, Genevieve Okundaye"
+      ]
+    },
+    {
+      "path": "/intake/package_order/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Genevieve and Declan walked me through how a route runs last week, and I sent you all the recap.",
+      "location": "call 2, 00:00:42 Consultant",
+      "cited": "transcript-2.txt, L7, 00:00:42, Consultant"
+    },
+    {
+      "path": "/intake/package_order/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Let me go back to last week for the time side, and correct me if I've got it wrong.",
+      "location": "call 2, 00:07:35 Consultant",
+      "cited": "transcript-2.txt, L47, 00:07:35, Consultant"
+    },
+    {
+      "path": "/intake/package_order/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And shorts by early December, if we can. That was my thing last week and it still is.",
+      "location": "call 2, 00:19:12 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-2.txt, L113, 00:19:12, Genevieve Okundaye"
+    },
+    {
+      "path": "/intake/package_order/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Annika's at Halcott Monday and Tuesday. Thursday's better. Thursday the twelfth, two o'clock? Eastern.",
+      "location": "call 1, 00:32:54 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L178, 00:32:54, Genevieve Okundaye"
+    },
+    {
+      "path": "/intake/type_header/call_1/signals[2]/quote/quote",
+      "status": "verified",
+      "quote": "I'm going to ask a lot of questions about how things actually run today, where it goes wrong, and what you'd want instead. I'm not going to show you anything today.",
+      "location": "call 1, 00:01:24 Consultant",
+      "cited": "transcript-1.txt, L11, 00:01:24, Consultant"
+    },
+    {
+      "path": "/intake/type_header/call_1/signals[2]/client_answer/quote",
+      "status": "verified",
+      "quote": "Good. That's why I rang you and not the software people. Ask away.",
+      "location": "call 1, 00:01:55 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L12, 00:01:55, Genevieve Okundaye"
+    },
+    {
+      "path": "/intake/type_header/call_2/signals[2]/quote/quote",
+      "status": "verified",
+      "quote": "I'd like to spend this time on the two things I couldn't get from them, which is the money side from Annika and the systems side from Ezekiel, and then check the scope with all four of you at the end.",
+      "location": "call 2, 00:00:42 Consultant",
+      "cited": "transcript-2.txt, L7, 00:00:42, Consultant"
+    },
+    {
+      "path": "/intake/type_header/call_2/signals[2]/client_answer/quote",
+      "status": "verified",
+      "quote": "Works. I read the recap. One line in it's wrong, I'll get to it.",
+      "location": "call 2, 00:01:09 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L8, 00:01:09, Annika Brannock"
+    },
+    {
+      "path": "/intake/rejoined_sentences[0]/interior_backchannel/quote",
+      "status": "verified",
+      "quote": "Mm-hm.",
+      "location": "call 1, 00:25:25 Consultant",
+      "cited": "transcript-1.txt, L142, 00:25:25, Consultant"
+    },
+    {
+      "path": "/intake/meetings_not_attended[0]/first_report/quote",
+      "status": "verified",
+      "quote": "We did. Monday afternoon. So Linnea and I went through it, and she said the handhelds could post the shorts straight onto your board, same day, out of the box, no extra step for the drivers. Which was honestly the thing I was worried about, so. Good.",
+      "location": "call 2, 00:01:27 Ezekiel Quist (Systems Administrator)",
+      "cited": "transcript-2.txt, L12, 00:01:27, Ezekiel Quist"
+    },
+    {
+      "path": "/intake/meetings_not_attended[0]/what_was_shown_per_the_client/quote",
+      "status": "verified",
+      "quote": "I showed her the route software. The par screen, the route sheet print, the handheld close-out, the push to accounting. She showed me, on her side, how a stop would come across as a line with a status on it. And we talked about the handhelds.",
+      "location": "call 2, 00:12:30 Ezekiel Quist (Systems Administrator)",
+      "cited": "transcript-2.txt, L75, 00:12:30, Ezekiel Quist"
+    },
+    {
+      "path": "/intake/meetings_not_attended[0]/narrowed_by_the_same_reporter/quote",
+      "status": "verified",
+      "quote": "She showed me a form on a phone. Tap, tap, it's on the board. And she said the handheld could do the same thing, out of the box. I didn't see the handheld do it, if that's what you're asking.",
+      "location": "call 2, 00:13:20 Ezekiel Quist (Systems Administrator)",
+      "cited": "transcript-2.txt, L79, 00:13:20, Ezekiel Quist"
+    },
+    {
+      "path": "/intake/second_hand[0]/requote/quote",
+      "status": "verified",
+      "quote": "And the shorts, Genevieve, I think you said about twenty a week?",
+      "location": "call 2, 00:08:40 Consultant",
+      "cited": "transcript-2.txt, L52, 00:08:40, Consultant"
+    },
+    {
+      "path": "/intake/second_hand[0]/figure_as_requoted",
+      "status": "unparsed",
+      "quote": "about twenty a week, hedged ('I think', 'about')",
+      "location": null,
+      "reason": "a description about a quote, not a quotation"
+    },
+    {
+      "path": "/intake/second_hand[0]/true_source/quote",
+      "status": "verified",
+      "quote": "A dozen a week, honestly. Twelve. Fifteen on a bad week, in season.",
+      "location": "call 1, 00:11:03 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L62, 00:11:03, Declan Pellingham"
+    },
+    {
+      "path": "/intake/second_hand[0]/true_source_confirmed_by_count/quote",
+      "status": "verified",
+      "quote": "Twelve last week.",
+      "location": "call 1, 00:11:22 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L64, 00:11:22, Declan Pellingham"
+    },
+    {
+      "path": "/intake/second_hand[0]/client_response[0]/quote",
+      "status": "verified",
+      "quote": "Mm. About that, probably. Declan?",
+      "location": "call 2, 00:08:46 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-2.txt, L53, 00:08:46, Genevieve Okundaye"
+    },
+    {
+      "path": "/intake/second_hand[0]/client_response[1]/quote",
+      "status": "verified",
+      "quote": "Somewhere in there. It moves around.",
+      "location": "call 2, 00:08:49 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-2.txt, L54, 00:08:49, Declan Pellingham"
+    },
+    {
+      "path": "/intake/second_hand[0]/taken_up_by/quote",
+      "status": "verified",
+      "quote": "Twenty a week. Fine. Let me do this properly, then, because nobody else is going to.",
+      "location": "call 2, 00:08:52 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L55, 00:08:52, Annika Brannock"
+    },
+    {
+      "path": "/intake/second_hand[0]/contrast/our_correct_readback/quote",
+      "status": "verified",
+      "quote": "Genevieve, par changes. Thirty to forty a week, five to twenty minutes each on the desk?",
+      "location": "call 2, 00:07:35 Consultant",
+      "cited": "transcript-2.txt, L47, 00:07:35, Consultant"
+    },
+    {
+      "path": "/intake/second_hand[0]/contrast/fresh_client_statement/quote",
+      "status": "verified",
+      "quote": "Thirty, forty. Yeah. More in the run-up to the holidays, the hotels change everything in December.",
+      "location": "call 2, 00:07:49 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-2.txt, L48, 00:07:49, Genevieve Okundaye"
+    },
+    {
+      "path": "/intake/second_hand[1]/requote/quote",
+      "status": "verified",
+      "quote": "Forty minutes on the phone, per short. And a van back out about a third of the time, an hour and a half.",
+      "location": "call 2, 00:09:02 Consultant",
+      "cited": "transcript-2.txt, L56, 00:09:02, Consultant"
+    },
+    {
+      "path": "/intake/second_hand[1]/client_question/quote",
+      "status": "verified",
+      "quote": "What did Nadia say a short costs her? Time.",
+      "location": "call 2, 00:08:52 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L55, 00:08:52, Annika Brannock"
+    },
+    {
+      "path": "/intake/second_hand[1]/true_source[0]/quote",
+      "status": "verified",
+      "quote": "Then Nadia's on the phone for forty minutes for every one of them.",
+      "location": "call 1, 00:10:32 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L60, 00:10:32, Declan Pellingham"
+    },
+    {
+      "path": "/intake/second_hand[1]/true_source[1]/quote",
+      "status": "verified",
+      "quote": "And maybe a third of them we send a van back out. That's a driver and a van for an hour and a half, minimum, because it's never the hotel next door.",
+      "location": "call 1, 00:10:32 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L60, 00:10:32, Declan Pellingham"
+    },
+    {
+      "path": "/intake/second_hand[1]/contrast_with_the_wrong_requote",
+      "status": "unparsed",
+      "quote": "right numbers, right meaning, no assent sought; the only defect is the source named in the room, and the repair is in the writing, where the time inputs are sourced to the plant manager on the first call",
+      "location": null,
+      "reason": "a description about a quote, not a quotation"
+    },
+    {
+      "path": "/intake/reported_commitments[0]/reported_by/quote",
+      "status": "verified",
+      "quote": "We did. Monday afternoon. So Linnea and I went through it, and she said the handhelds could post the shorts straight onto your board, same day, out of the box, no extra step for the drivers. Which was honestly the thing I was worried about, so. Good.",
+      "location": "call 2, 00:01:27 Ezekiel Quist (Systems Administrator)",
+      "cited": "transcript-2.txt, L12, 00:01:27, Ezekiel Quist"
+    },
+    {
+      "path": "/intake/reported_commitments[0]/narrowed_by_the_same_reporter/quote",
+      "status": "verified",
+      "quote": "She showed me a form on a phone. Tap, tap, it's on the board. And she said the handheld could do the same thing, out of the box. I didn't see the handheld do it, if that's what you're asking.",
+      "location": "call 2, 00:13:20 Ezekiel Quist (Systems Administrator)",
+      "cited": "transcript-2.txt, L79, 00:13:20, Ezekiel Quist"
+    },
+    {
+      "path": "/intake/reported_commitments[0]/device_constraint_first_hand/quote",
+      "status": "verified",
+      "quote": "They're the route software vendor's own devices. Locked down. I can't put anything on them the vendor didn't put there, I can't even change the sleep timer.",
+      "location": "call 2, 00:12:53 Ezekiel Quist (Systems Administrator)",
+      "cited": "transcript-2.txt, L77, 00:12:53, Ezekiel Quist"
+    },
+    {
+      "path": "/intake/reported_commitments[0]/accepted_by_room[0]/quote",
+      "status": "verified",
+      "quote": "Good. Then that's my condition met.",
+      "location": "call 2, 00:01:47 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L13, 00:01:47, Annika Brannock"
+    },
+    {
+      "path": "/intake/reported_commitments[0]/accepted_by_room[1]/quote",
+      "status": "verified",
+      "quote": "That's the piece. That's the whole piece.",
+      "location": "call 2, 00:01:50 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-2.txt, L14, 00:01:50, Genevieve Okundaye"
+    },
+    {
+      "path": "/intake/reported_commitments[0]/accepted_by_room[2]/quote",
+      "status": "verified",
+      "quote": "Ezekiel has to be comfortable with what touches his systems, and after Monday he is, so that's done, subject to your piece of paper.",
+      "location": "call 2, 00:17:41 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L103, 00:17:41, Annika Brannock"
+    },
+    {
+      "path": "/intake/reported_commitments[0]/our_side_in_room[0]/quote",
+      "status": "verified",
+      "quote": "Good, glad that landed. I'll make sure it's written up for you.",
+      "location": "call 2, 00:01:53 Consultant",
+      "cited": "transcript-2.txt, L15, 00:01:53, Consultant"
+    },
+    {
+      "path": "/intake/reported_commitments[0]/our_side_in_room[1]/quote",
+      "status": "verified",
+      "quote": "That's what I'm asking, and thank you. A form on a phone is a normal thing to build, I've built that. The handheld feeding it directly is a different thing, and I'd want to see it before I say it. I'm going to check with Linnea exactly what she showed and what she said, and put it in writing, in three columns. Shown, confirmed, still to check.",
+      "location": "call 2, 00:13:36 Consultant",
+      "cited": "transcript-2.txt, L80, 00:13:36, Consultant"
+    },
+    {
+      "path": "/intake/relayed_figures[0]/quote/quote",
+      "status": "verified",
+      "quote": "Okay. Nadia says, and I'm reading her back, six or seven bins a day, maybe, but that's off the top of her head, she's never counted them, and she says don't put that in anything.",
+      "location": "call 2, 00:06:49 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-2.txt, L41, 00:06:49, Declan Pellingham"
+    },
+    {
+      "path": "/intake/relayed_figures[0]/reaction_not_a_figure/quote",
+      "status": "verified",
+      "quote": "That's more than I'd have said.",
+      "location": "call 2, 00:07:04 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L42, 00:07:04, Annika Brannock"
+    },
+    {
+      "path": "/intake/relayed_figures[0]/rounding_not_a_figure/quote",
+      "status": "verified",
+      "quote": "Call it six, then.",
+      "location": "call 2, 00:07:07 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-2.txt, L43, 00:07:07, Genevieve Okundaye"
+    },
+    {
+      "path": "/intake/relayed_figures[0]/hedge_reasserted/quote",
+      "status": "verified",
+      "quote": "She said don't put it in anything.",
+      "location": "call 2, 00:07:10 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-2.txt, L44, 00:07:10, Declan Pellingham"
+    },
+    {
+      "path": "/intake/relayed_figures[0]/our_handling/quote",
+      "status": "verified",
+      "quote": "Then I won't. It's her guess with her caveat, and nothing gets built on it.",
+      "location": "call 2, 00:07:13 Consultant",
+      "cited": "transcript-2.txt, L45, 00:07:13, Consultant"
+    },
+    {
+      "path": "/intake/conflicts[0]/a/quote",
+      "status": "verified",
+      "quote": "Fifty-eight routes a week between the two plants, give or take.",
+      "location": "call 1, 00:03:12 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L20, 00:03:12, Declan Pellingham"
+    },
+    {
+      "path": "/intake/conflicts[0]/b/quote",
+      "status": "verified",
+      "quote": "We bill forty-nine routes a week. That's the route software's number, not mine.",
+      "location": "call 2, 00:02:39 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L21, 00:02:39, Annika Brannock"
+    },
+    {
+      "path": "/intake/fresh_statements_beside_our_recaps[0]/our_recap/quote",
+      "status": "verified",
+      "quote": "Thirty to forty a week, five to twenty minutes each on the desk?",
+      "location": "call 2, 00:07:35 Consultant",
+      "cited": "transcript-2.txt, L47, 00:07:35, Consultant"
+    },
+    {
+      "path": "/intake/fresh_statements_beside_our_recaps[0]/client_statement/quote",
+      "status": "verified",
+      "quote": "Thirty, forty. Yeah. More in the run-up to the holidays, the hotels change everything in December. And five minutes is the clean ones. There aren't many clean ones.",
+      "location": "call 2, 00:07:49 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-2.txt, L48, 00:07:49, Genevieve Okundaye"
+    },
+    {
+      "path": "/intake/fresh_statements_beside_our_recaps[1]/client_statement/quote",
+      "status": "verified",
+      "quote": "No. The wrong line is Halcott. The recap says Halcott runs its own par sheets. It doesn't. Everything comes out of one route software, one database, Halcott just prints there. Small thing. It matters because it means one place to fix, not two.",
+      "location": "call 2, 00:03:05 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L23, 00:03:05, Annika Brannock"
+    },
+    {
+      "path": "/intake/deferred_answers_register[0]/question/quote",
+      "status": "verified",
+      "quote": "Are we going to be paying per head for twenty-four drivers who'd open this twice a day?",
+      "location": "call 2, 00:05:31 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L33, 00:05:31, Annika Brannock"
+    },
+    {
+      "path": "/intake/deferred_answers_register[0]/our_answer/quote",
+      "status": "verified",
+      "quote": "It depends on the plan and on how it's set up, and I'd rather answer that properly than off the top of my head. I'll put it in the writing with a straight answer.",
+      "location": "call 2, 00:05:45 Consultant",
+      "cited": "transcript-2.txt, L34, 00:05:45, Consultant"
+    },
+    {
+      "path": "/intake/deferred_answers_register[1]/question/quote",
+      "status": "verified",
+      "quote": "Do, because I'm going to hold you to it.",
+      "location": "call 2, 00:01:59 Ezekiel Quist (Systems Administrator)",
+      "cited": "transcript-2.txt, L16, 00:01:59, Ezekiel Quist"
+    },
+    {
+      "path": "/intake/deferred_answers_register[1]/our_answer/quote",
+      "status": "verified",
+      "quote": "I'm going to check with Linnea exactly what she showed and what she said, and put it in writing, in three columns. Shown, confirmed, still to check.",
+      "location": "call 2, 00:13:36 Consultant",
+      "cited": "transcript-2.txt, L80, 00:13:36, Consultant"
+    },
+    {
+      "path": "/intake/deferred_answers_register[2]/question/quote",
+      "status": "verified",
+      "quote": "What does something like this run, ballpark? I'm not going to hold you to it. I just don't want to walk into Tuesday with Gustav blind.",
+      "location": "call 2, 00:22:38 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L132, 00:22:38, Annika Brannock"
+    },
+    {
+      "path": "/intake/deferred_answers_register[2]/our_answer/quote",
+      "status": "verified",
+      "quote": "I'm not going to give you a number today, and I'd rather say why than dodge it.",
+      "location": "call 2, 00:22:50 Consultant",
+      "cited": "transcript-2.txt, L133, 00:22:50, Consultant"
+    },
+    {
+      "path": "/intake/claims_by_our_side[1]/quote",
+      "status": "verified",
+      "quote": "A form on a phone is a normal thing to build, I've built that.",
+      "location": "call 2, 00:13:36 Consultant",
+      "cited": "transcript-2.txt, L80, 00:13:36, Consultant"
+    },
+    {
+      "path": "/intake/claims_by_our_side[2]/quote",
+      "status": "verified",
+      "quote": "The handheld feeding it directly is a different thing, and I'd want to see it before I say it.",
+      "location": "call 2, 00:13:36 Consultant",
+      "cited": "transcript-2.txt, L80, 00:13:36, Consultant"
+    },
+    {
+      "path": "/intake/claims_by_our_side[3]/quote",
+      "status": "verified",
+      "quote": "Nothing I build writes into the route software.",
+      "location": "call 1, 00:32:05 Consultant",
+      "cited": "transcript-1.txt, L175, 00:32:05, Consultant"
+    },
+    {
+      "path": "/intake/delivery_notes/call_1/commitment_question/quote",
+      "status": "verified",
+      "quote": "Based on what we've talked about, is this worth taking forward?",
+      "location": "call 1, 00:33:56 Consultant",
+      "cited": "transcript-1.txt, L185, 00:33:56, Consultant"
+    },
+    {
+      "path": "/intake/delivery_notes/call_2/acceptance_defect/quote",
+      "status": "verified",
+      "quote": "Good, glad that landed. I'll make sure it's written up for you.",
+      "location": "call 2, 00:01:53 Consultant",
+      "cited": "transcript-2.txt, L15, 00:01:53, Consultant"
+    },
+    {
+      "path": "/intake/delivery_notes/call_2/recovery/quote",
+      "status": "verified",
+      "quote": "When you say straight onto the board, what did she actually show you doing that?",
+      "location": "call 2, 00:13:13 Consultant",
+      "cited": "transcript-2.txt, L78, 00:13:13, Consultant"
+    },
+    {
+      "path": "/intake/delivery_notes/call_2/check_in_to_quiet_attendee/quote",
+      "status": "verified",
+      "quote": "Declan, you've been quiet, is anything wrong from where you sit?",
+      "location": "call 2, 00:08:16 Consultant",
+      "cited": "transcript-2.txt, L50, 00:08:16, Consultant"
+    },
+    {
+      "path": "/intake/delivery_notes/call_2/commitment_question/quote",
+      "status": "verified",
+      "quote": "Based on what we've talked about, is this worth taking forward?",
+      "location": "call 2, 00:24:29 Consultant",
+      "cited": "transcript-2.txt, L143, 00:24:29, Consultant"
+    },
+    {
+      "path": "/readiness/pains[0]/quote",
+      "status": "verified",
+      "quote": "A short is when the hotel opens the cage and it's forty king sheets light.",
+      "location": "call 1, 00:09:37 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L54, 00:09:37, Declan Pellingham"
+    },
+    {
+      "path": "/readiness/pains[1]/quote",
+      "status": "verified",
+      "quote": "Their GM rang Gustav on the Monday. And they gave notice.",
+      "location": "call 1, 00:04:41 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L28, 00:04:41, Genevieve Okundaye"
+    },
+    {
+      "path": "/readiness/pains[2]/quote",
+      "status": "verified",
+      "quote": "So it's Nadia. Everything's Nadia.",
+      "location": "call 1, 00:10:19 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L58, 00:10:19, Declan Pellingham"
+    },
+    {
+      "path": "/readiness/pains[3]/quote",
+      "status": "verified",
+      "quote": "Every which way. They email the route office. Or they ring. Or they tell the driver on the dock, and the driver tells Nadia, or doesn't. Or their housekeeping manager tells Gustav at lunch and Gustav tells me a week later.",
+      "location": "call 1, 00:14:46 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L83, 00:14:46, Genevieve Okundaye"
+    },
+    {
+      "path": "/readiness/pains[4]/quote",
+      "status": "verified",
+      "quote": "Half our shorts are a par change that didn't land.",
+      "location": "call 1, 00:15:57 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L91, 00:15:57, Genevieve Okundaye"
+    },
+    {
+      "path": "/readiness/pains[5]/quote",
+      "status": "verified",
+      "quote": "And we almost never do.",
+      "location": "call 1, 00:17:40 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L101, 00:17:40, Genevieve Okundaye"
+    },
+    {
+      "path": "/readiness/pains[6]/quote",
+      "status": "verified",
+      "quote": "Because by the time anyone counts, the thirty days are gone.",
+      "location": "call 1, 00:17:59 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L103, 00:17:59, Genevieve Okundaye"
+    },
+    {
+      "path": "/readiness/pains[7]/quote",
+      "status": "verified",
+      "quote": "And nobody counts it.",
+      "location": "call 1, 00:20:08 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L113, 00:20:08, Declan Pellingham"
+    },
+    {
+      "path": "/readiness/pains[8]/quote",
+      "status": "verified",
+      "quote": "The pack floor packs what's on the shelf, which might be a hundred and sixty because the wash is behind.",
+      "location": "call 1, 00:07:09 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L40, 00:07:09, Declan Pellingham"
+    },
+    {
+      "path": "/readiness/pains[9]/quote",
+      "status": "verified",
+      "quote": "Halcott gets a change, we don't know. We get a change, Halcott doesn't.",
+      "location": "call 1, 00:16:54 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L97, 00:16:54, Declan Pellingham"
+    },
+    {
+      "path": "/readiness/signals[0]/quote",
+      "status": "verified",
+      "quote": "That's the piece. That's the whole piece.",
+      "location": "call 2, 00:01:50 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-2.txt, L14, 00:01:50, Genevieve Okundaye"
+    },
+    {
+      "path": "/readiness/signals[1]/quote",
+      "status": "verified",
+      "quote": "Good. Then that's my condition met.",
+      "location": "call 2, 00:01:47 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L13, 00:01:47, Annika Brannock"
+    },
+    {
+      "path": "/readiness/signals[2]/quote",
+      "status": "verified",
+      "quote": "It's one of them. They scan. They already scan. If the answer is they scan and it lands, fine. If the answer is they scan and then also type, no.",
+      "location": "call 2, 00:06:36 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L40, 00:06:36, Annika Brannock"
+    },
+    {
+      "path": "/readiness/signals[3]/quote",
+      "status": "verified",
+      "quote": "So whatever counts them has to count both plants, or it's counting half.",
+      "location": "call 2, 00:08:26 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-2.txt, L51, 00:08:26, Declan Pellingham"
+    },
+    {
+      "path": "/readiness/signals[4]/quote",
+      "status": "verified",
+      "quote": "Yes. That's what I asked for.",
+      "location": "call 2, 00:22:19 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-2.txt, L128, 00:22:19, Genevieve Okundaye"
+    },
+    {
+      "path": "/readiness/signals[5]/quote",
+      "status": "verified",
+      "quote": "Show me the par change landing on the sheet and I'm in.",
+      "location": "call 2, 00:22:22 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-2.txt, L129, 00:22:22, Declan Pellingham"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[0]",
+      "status": "verified",
+      "quote": "Twenty if it isn't, because you're ringing the hotel to ask which par they actually meant, or whether it's for both their properties or one.",
+      "location": "call 1, 00:15:06 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L85, 00:15:06, Genevieve Okundaye"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[1]",
+      "status": "verified",
+      "quote": "And Halcott, because if a hotel with two properties changes a par and one property's on Halcott's routes, Halcott never hears.",
+      "location": "call 1, 00:16:38 Genevieve Okundaye (Director of Operations)",
+      "cited": "transcript-1.txt, L96, 00:16:38, Genevieve Okundaye"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[0]",
+      "status": "verified",
+      "quote": "so they got a hundred extra pool towels and forty fewer bath towels. Which is a short and an over on the same stop.",
+      "location": "call 1, 00:11:42 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L66, 00:11:42, Declan Pellingham"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[0]",
+      "status": "verified",
+      "quote": "There's a tally sheet on the soil dock. It gets a tick when somebody remembers.",
+      "location": "call 1, 00:20:33 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L115, 00:20:33, Declan Pellingham"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[1]",
+      "status": "verified",
+      "quote": "She said don't put it in anything.",
+      "location": "call 2, 00:07:10 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-2.txt, L44, 00:07:10, Declan Pellingham"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[0]",
+      "status": "verified",
+      "quote": "Nobody sits between the sheet and the bag and goes, did we actually pack two hundred. That's me, at five in the morning, with a printout, when I'm here. Or it's nobody.",
+      "location": "call 1, 00:07:09 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L40, 00:07:09, Declan Pellingham"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[0]",
+      "status": "verified",
+      "quote": "Show me the par change landing on the sheet and I'm in.",
+      "location": "call 2, 00:22:22 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-2.txt, L129, 00:22:22, Declan Pellingham"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[1]",
+      "status": "verified",
+      "quote": "Show me nothing writing into the route software and I'm in.",
+      "location": "call 2, 00:22:28 Ezekiel Quist (Systems Administrator)",
+      "cited": "transcript-2.txt, L130, 00:22:28, Ezekiel Quist"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[2]",
+      "status": "verified",
+      "quote": "The sheet prints from the par table and the par table's the par table, there's no -- there's no queue in front of it.",
+      "location": "call 2, 00:15:47 Ezekiel Quist (Systems Administrator)",
+      "cited": "transcript-2.txt, L91, 00:15:47, Ezekiel Quist"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[0]",
+      "status": "verified",
+      "quote": "If the soil dock writes it up on the day with the hotel's name on it and it's on the route before the route closes, I've got it.",
+      "location": "call 2, 00:11:49 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L71, 00:11:49, Annika Brannock"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[1]",
+      "status": "verified",
+      "quote": "When the last stop's done he closes the route on the handheld.",
+      "location": "call 1, 00:07:48 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L43, 00:07:48, Declan Pellingham"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[2]",
+      "status": "verified",
+      "quote": "Then the bag gets tipped into a bin on the soil side with four other hotels' bags and the bin goes to the sort.",
+      "location": "call 1, 00:22:48 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L124, 00:22:48, Declan Pellingham"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[0]",
+      "status": "verified",
+      "quote": "Okay. As long as it's said out loud that it's a sample.",
+      "location": "call 1, 00:32:31 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L176, 00:32:31, Declan Pellingham"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[0]",
+      "status": "verified",
+      "quote": "and by Wednesday night when we print, it's on the sheet, and nobody had to ring anybody.",
+      "location": "call 1, 00:25:26 Declan Pellingham (Plant Manager)",
+      "cited": "transcript-1.txt, L143, 00:25:26, Declan Pellingham"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[0]",
+      "status": "verified",
+      "quote": "Read out of it, fine. Write into it, no.",
+      "location": "call 2, 00:14:56 Ezekiel Quist (Systems Administrator)",
+      "cited": "transcript-2.txt, L86, 00:14:56, Ezekiel Quist"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[1]",
+      "status": "verified",
+      "quote": "If the answer is they scan and it lands, fine. If the answer is they scan and then also type, no.",
+      "location": "call 2, 00:06:36 Annika Brannock (Finance Director)",
+      "cited": "transcript-2.txt, L40, 00:06:36, Annika Brannock"
+    }
+  ]
+}

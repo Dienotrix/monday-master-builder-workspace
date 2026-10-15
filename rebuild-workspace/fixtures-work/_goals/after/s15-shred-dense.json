@@ -1,0 +1,1633 @@
+{
+  "fixture": "s15-shred-dense",
+  "sources": [
+    {
+      "name": "transcript.txt",
+      "kind": "transcript",
+      "format": "line-time-first",
+      "units": 487,
+      "unsupported": null
+    }
+  ],
+  "counts": {
+    "pairs": 212,
+    "verified": 212,
+    "verified_presence_only": 30,
+    "skipped": 0,
+    "unparsed_prose": 0,
+    "near_misses": 0,
+    "misses": 0,
+    "unsupported": 0,
+    "warnings": 0
+  },
+  "refused_quotes_not_checked": [],
+  "skipped": [],
+  "pairs": [
+    {
+      "path": "/rubric[0]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "They open the box, and every sample should have a chain of custody form with it. The form says what it is, who it's from, what tests they want.",
+      "location": "L85, 5:27, Tamsin Greaves",
+      "cited": "transcript.txt, L85, 5:27, Tamsin Greaves"
+    },
+    {
+      "path": "/rubric[0]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Then they log it in the lab system. Every sample gets a job number. The job is the sample plus the tests on it. So one sample, one job, but a job can have six tests.",
+      "location": "L94, 6:04, Tamsin",
+      "cited": "transcript.txt, L94, 6:04, Tamsin"
+    },
+    {
+      "path": "/rubric[0]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Micro has to start the same day for most things, because the sample's got a shelf life. Chem can wait.",
+      "location": "L100, 6:32, Dara Vasseur",
+      "cited": "transcript.txt, L100, 6:32, Dara Vasseur"
+    },
+    {
+      "path": "/rubric[0]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Then it goes on hold. Reception puts the sample in the fridge, the job's logged as on hold in the lab system, and somebody's meant to ring the customer.",
+      "location": "L105, 6:52, Tamsin Greaves",
+      "cited": "transcript.txt, L105, 6:52, Tamsin Greaves"
+    },
+    {
+      "path": "/rubric[0]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Same system. Renske's got one person up there with a login, so it's logged on day one, it just sits on a shelf in a van overnight.",
+      "location": "L112-113, 7:25, Joost Teunissen (merged run)",
+      "cited": "transcript.txt, L112, 7:25, Joost Teunissen, transcript.txt, L113, 7:32, Teunissen, Joost"
+    },
+    {
+      "path": "/rubric[0]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "And we send it. The report comes to the shared inbox as a PDF and one of us sends it to the customer.",
+      "location": "L124, 8:11, Oisin Farrelly",
+      "cited": "transcript.txt, L124, 8:11, Oisin Farrelly"
+    },
+    {
+      "path": "/rubric[0]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "Client services has logins but the status a job's in is a code, right.",
+      "location": "L133, 8:45, Joost Teunissen",
+      "cited": "transcript.txt, L133, 8:45, Joost Teunissen"
+    },
+    {
+      "path": "/rubric[0]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "It knows what's been done, not what's due.",
+      "location": "L138, 9:03, JOOST TEUNISSEN",
+      "cited": "transcript.txt, L138, 9:03, JOOST TEUNISSEN"
+    },
+    {
+      "path": "/rubric[0]/evidence[8]/quote",
+      "status": "verified",
+      "quote": "Job number, customer, due date, initials. I wipe it on a Friday.",
+      "location": "L142, 9:18, DARA VASSEUR",
+      "cited": "transcript.txt, L142, 9:18, DARA VASSEUR"
+    },
+    {
+      "path": "/rubric[0]/evidence[9]/quote",
+      "status": "verified",
+      "quote": "And I've got the urgents in a spreadsheet, which is the same list, except it's mine and it's on my laptop.",
+      "location": "L143, 9:23, Oisin",
+      "cited": "transcript.txt, L143, 9:23, Oisin"
+    },
+    {
+      "path": "/rubric[0]/evidence[10]/quote",
+      "status": "verified",
+      "quote": "There's a nightly export out of the lab system, Joost set it up.",
+      "location": "L159, 10:26, TAMSIN GREAVES",
+      "cited": "transcript.txt, L159, 10:26, TAMSIN GREAVES"
+    },
+    {
+      "path": "/rubric[0]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Let's walk a sample through. Start at the front door. A courier turns up at Normanton with a box. What happens.",
+      "location": "L83, 5:17, CONSULTANT",
+      "cited": "transcript.txt, L83, 5:17, CONSULTANT"
+    },
+    {
+      "path": "/rubric[1]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "They held a tanker on our result for a day and a half because we told them Thursday and it was Friday.",
+      "location": "L212, 13:54, Tamsin",
+      "cited": "transcript.txt, L212, 13:54, Tamsin"
+    },
+    {
+      "path": "/rubric[1]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "All four void, and they had to resend, and they'd already shipped the product.",
+      "location": "L272, 17:51, OISIN FARRELLY",
+      "cited": "transcript.txt, L272, 17:51, OISIN FARRELLY"
+    },
+    {
+      "path": "/rubric[1]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Has it ever gone wrong. Properly wrong, not just annoying.",
+      "location": "L209, 13:42, CONSULTANT",
+      "cited": "transcript.txt, L209, 13:42, CONSULTANT"
+    },
+    {
+      "path": "/rubric[2]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The retail account did a technical audit on us in August.",
+      "location": "L64, 3:55, Tamsin Greaves",
+      "cited": "transcript.txt, L64, 3:55, Tamsin Greaves"
+    },
+    {
+      "path": "/rubric[2]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "That's a quote. No visibility.",
+      "location": "L64, 3:55, Tamsin Greaves",
+      "cited": "transcript.txt, L64, 3:55, Tamsin Greaves"
+    },
+    {
+      "path": "/rubric[2]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And their contract renews in February. So that finding is now sat on the table next to the renewal.",
+      "location": "L66, 4:13, Tamsin",
+      "cited": "transcript.txt, L66, 4:13, Tamsin"
+    },
+    {
+      "path": "/rubric[2]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "When the hub opened, the where-is-it calls doubled.",
+      "location": "L70, 4:24, Tamsin Greaves",
+      "cited": "transcript.txt, L70, 4:24, Tamsin Greaves"
+    },
+    {
+      "path": "/rubric[2]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "End of April.",
+      "location": "L75, 4:46, Oisin",
+      "cited": "transcript.txt, L75, 4:46, Oisin"
+    },
+    {
+      "path": "/rubric[2]/asked_quote/quote",
+      "status": "verified",
+      "quote": "So what made you pick up the phone now. Rather than, say, this time last year.",
+      "location": "L62, 3:46, Consultant",
+      "cited": "transcript.txt, L62, 3:46, Consultant"
+    },
+    {
+      "path": "/rubric[3]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Fifty-six hours a month on the phones for status.",
+      "location": "L302, 19:43, Greaves, Tamsin",
+      "cited": "transcript.txt, L302, 19:43, Greaves, Tamsin"
+    },
+    {
+      "path": "/rubric[3]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Thirty-two pounds, yeah, that's what Ngozi uses.",
+      "location": "L306, 19:54, Oisin Farrelly",
+      "cited": "transcript.txt, L306, 19:54, Oisin Farrelly"
+    },
+    {
+      "path": "/rubric[3]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Seventeen ninety-two a month.",
+      "location": "L308, 19:59, Tamsin Greaves",
+      "cited": "transcript.txt, L308, 19:59, Tamsin Greaves"
+    },
+    {
+      "path": "/rubric[3]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Call it twenty-one and a half thousand a year,",
+      "location": "L309, 20:01, Greaves, Tamsin",
+      "cited": "transcript.txt, L309, 20:01, Greaves, Tamsin"
+    },
+    {
+      "path": "/rubric[3]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Fifteen a month at one-eighty is twenty-seven hundred,",
+      "location": "L313, 20:10, Greaves, Tamsin",
+      "cited": "transcript.txt, L313, 20:10, Greaves, Tamsin"
+    },
+    {
+      "path": "/rubric[3]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "so that's. thirty-two thousand four hundred a year.",
+      "location": "L314, 20:13, Tamsin Greaves",
+      "cited": "transcript.txt, L314, 20:13, Tamsin Greaves"
+    },
+    {
+      "path": "/rubric[3]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "Call it fifty-four. thousand a year that I can actually stand behind. The lab time is on top and I haven't priced it. And my mornings are on top, and I'm not pricing those.",
+      "location": "L325, 20:52, Tamsin",
+      "cited": "transcript.txt, L325, 20:52, Tamsin"
+    },
+    {
+      "path": "/rubric[3]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "It feels light, if I'm honest. But it's the number I'd put in front of Halvard because I can show my working.",
+      "location": "L327, 21:16, Tamsin Greaves",
+      "cited": "transcript.txt, L327, 21:16, Tamsin Greaves"
+    },
+    {
+      "path": "/rubric[3]/evidence[8]/quote",
+      "status": "verified",
+      "quote": "Say it's the floor.",
+      "location": "L331, 21:33, Greaves, Tamsin",
+      "cited": "transcript.txt, L331, 21:33, Greaves, Tamsin"
+    },
+    {
+      "path": "/rubric[3]/evidence[9]/quote",
+      "status": "verified",
+      "quote": "I can't give you a rate for an analyst, I genuinely don't know what Ngozi loads them at.",
+      "location": "L321, 20:30, Dara Vasseur",
+      "cited": "transcript.txt, L321, 20:30, Dara Vasseur"
+    },
+    {
+      "path": "/rubric[3]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Let's put some numbers on it, if you're willing. Your numbers, not mine.",
+      "location": "L297, 19:25, Consultant",
+      "cited": "transcript.txt, L297, 19:25, Consultant"
+    },
+    {
+      "path": "/rubric[4]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Honestly, that's Halvard's question.",
+      "location": "L333, 21:47, Tamsin Greaves",
+      "cited": "transcript.txt, L333, 21:47, Tamsin Greaves"
+    },
+    {
+      "path": "/rubric[4]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "What we're turning away, what the retail account would give us if we were better, that's the commercial side and I don't see the pipeline.",
+      "location": "L334, 21:49, TAMSIN GREAVES",
+      "cited": "transcript.txt, L334, 21:49, TAMSIN GREAVES"
+    },
+    {
+      "path": "/rubric[4]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I wouldn't want to guess it.",
+      "location": "L335, 21:58, Tamsin",
+      "cited": "transcript.txt, L335, 21:58, Tamsin"
+    },
+    {
+      "path": "/rubric[4]/asked_quote/quote",
+      "status": "verified",
+      "quote": "If the calls went away and the on-hold samples got caught the same day. What could you do that you can't do now. More volume, more customers, anything.",
+      "location": "L332, 21:35, Consultant",
+      "cited": "transcript.txt, L332, 21:35, Consultant"
+    },
+    {
+      "path": "/rubric[5]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Phone goes, I open one screen, I see the job, I see it says out Thursday, I say Thursday, I hang up.",
+      "location": "L342, 22:18, Oisin Farrelly",
+      "cited": "transcript.txt, L342, 22:18, Oisin Farrelly"
+    },
+    {
+      "path": "/rubric[5]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Two minutes, not eight.",
+      "location": "L343, 22:26, Farrelly, Oisin",
+      "cited": "transcript.txt, L343, 22:26, Farrelly, Oisin"
+    },
+    {
+      "path": "/rubric[5]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Nobody walks into my lab to ask where something is.",
+      "location": "L345, 22:31, Vasseur, Dara",
+      "cited": "transcript.txt, L345, 22:31, Vasseur, Dara"
+    },
+    {
+      "path": "/rubric[5]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "And I open something on a Monday morning that shows me the retail account's turnaround for last week without a spreadsheet and without me.",
+      "location": "L347, 22:36, Tamsin",
+      "cited": "transcript.txt, L347, 22:36, Tamsin"
+    },
+    {
+      "path": "/rubric[5]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "The retail account renews in February with that audit finding closed. That's the win.",
+      "location": "L350, 22:52, Tamsin",
+      "cited": "transcript.txt, L350, 22:52, Tamsin"
+    },
+    {
+      "path": "/rubric[5]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "That's my read. It's a good read.",
+      "location": "L353, 23:05, Tamsin Greaves",
+      "cited": "transcript.txt, L353, 23:05, Tamsin Greaves"
+    },
+    {
+      "path": "/rubric[5]/asked_quote/quote",
+      "status": "verified",
+      "quote": "So picture it working. Oisin, what does a Tuesday look like.",
+      "location": "L341, 22:13, CONSULTANT",
+      "cited": "transcript.txt, L341, 22:13, CONSULTANT"
+    },
+    {
+      "path": "/rubric[6]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Anything over ten thousand a year and it's Halvard's signature. And honestly for this I'd want him on board either way, because the retail account is his relationship.",
+      "location": "L382, 25:48, Tamsin",
+      "cited": "transcript.txt, L382, 25:48, Tamsin"
+    },
+    {
+      "path": "/rubric[6]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Anything that touches the lab system, Joost has to be comfortable, and the vendor has to not throw a fit.",
+      "location": "L388, 26:14, Greaves, Tamsin",
+      "cited": "transcript.txt, L388, 26:14, Greaves, Tamsin"
+    },
+    {
+      "path": "/rubric[6]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And the quality manager, because if the accreditation body sees a new screen in the lab they'll want to know what it is.",
+      "location": "L389, 26:21, TAMSIN GREAVES",
+      "cited": "transcript.txt, L389, 26:21, TAMSIN GREAVES"
+    },
+    {
+      "path": "/rubric[6]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Ngozi will want to see the number.",
+      "location": "L396, 26:43, Tamsin Greaves",
+      "cited": "transcript.txt, L396, 26:43, Tamsin Greaves"
+    },
+    {
+      "path": "/rubric[6]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "It goes on his monthly ops review, first Monday.",
+      "location": "L399, 26:57, TAMSIN GREAVES",
+      "cited": "transcript.txt, L399, 26:57, TAMSIN GREAVES"
+    },
+    {
+      "path": "/rubric[6]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "Then Ngozi raises the order and it's done.",
+      "location": "L407, 27:21, Tamsin Greaves",
+      "cited": "transcript.txt, L407, 27:21, Tamsin Greaves"
+    },
+    {
+      "path": "/rubric[6]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "Renewal, and the number. And whether the lab's going to hate it.",
+      "location": "L411, 27:35, Tamsin Greaves",
+      "cited": "transcript.txt, L411, 27:35, Tamsin Greaves"
+    },
+    {
+      "path": "/rubric[6]/asked_quote/quote",
+      "status": "verified",
+      "quote": "If you decided to do this, who has to say yes.",
+      "location": "L381, 25:39, CONSULTANT",
+      "cited": "transcript.txt, L381, 25:39, CONSULTANT"
+    },
+    {
+      "path": "/rubric[7]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Working before February.",
+      "location": "L432, 29:03, TAMSIN GREAVES",
+      "cited": "transcript.txt, L432, 29:03, TAMSIN GREAVES"
+    },
+    {
+      "path": "/rubric[7]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Ideally I've got something to show the retail people in January, because their technical team wants to see it before they sign.",
+      "location": "L433, 29:04, Tamsin Greaves",
+      "cited": "transcript.txt, L433, 29:04, Tamsin Greaves"
+    },
+    {
+      "path": "/rubric[7]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And realistically that means a first version this side of Christmas,",
+      "location": "L434, 29:12, Greaves, Tamsin",
+      "cited": "transcript.txt, L434, 29:12, Greaves, Tamsin"
+    },
+    {
+      "path": "/rubric[7]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "I'm not holding you to a date on a first call.",
+      "location": "L438, 29:21, Tamsin",
+      "cited": "transcript.txt, L438, 29:21, Tamsin"
+    },
+    {
+      "path": "/rubric[7]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "And November's out.",
+      "location": "L439, 29:26, Dara Vasseur",
+      "cited": "transcript.txt, L439, 29:26, Dara Vasseur"
+    },
+    {
+      "path": "/rubric[7]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And timing. When does this need to be working, and when would you like it working.",
+      "location": "L431, 28:56, Consultant",
+      "cited": "transcript.txt, L431, 28:56, Consultant"
+    },
+    {
+      "path": "/rubric[8]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The lab will hate anything that means typing something twice. My analysts will not type the same thing twice.",
+      "location": "L413, 27:43, Dara Vasseur",
+      "cited": "transcript.txt, L413, 27:43, Dara Vasseur"
+    },
+    {
+      "path": "/rubric[8]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "We've got the accreditation visit and nothing changes in the lab that month.",
+      "location": "L440, 29:27, Dara",
+      "cited": "transcript.txt, L440, 29:27, Dara"
+    },
+    {
+      "path": "/rubric[8]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Halvard's going to ask me what it costs before he'll sit in a meeting about it.",
+      "location": "L445, 29:54, Tamsin Greaves",
+      "cited": "transcript.txt, L445, 29:54, Tamsin Greaves"
+    },
+    {
+      "path": "/rubric[8]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "So my time in November is nil.",
+      "location": "L451, 30:32, Joost Teunissen",
+      "cited": "transcript.txt, L451, 30:32, Joost Teunissen"
+    },
+    {
+      "path": "/rubric[8]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "The vendor might be.",
+      "location": "L391, 26:32, Joost",
+      "cited": "transcript.txt, L391, 26:32, Joost"
+    },
+    {
+      "path": "/rubric[8]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What else could get in the way. Anything.",
+      "location": "L444, 29:51, Consultant",
+      "cited": "transcript.txt, L444, 29:51, Consultant"
+    },
+    {
+      "path": "/rubric[9]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Two on the seventeenth works.",
+      "location": "L465, 32:22, Tamsin",
+      "cited": "transcript.txt, L465, 32:22, Tamsin"
+    },
+    {
+      "path": "/rubric[9]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Put Halvard on it and I'll chase him this week.",
+      "location": "L466, 32:24, Greaves, Tamsin",
+      "cited": "transcript.txt, L466, 32:24, Greaves, Tamsin"
+    },
+    {
+      "path": "/rubric[9]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Seventeenth is fine.",
+      "location": "L468, 32:31, Dara Vasseur",
+      "cited": "transcript.txt, L468, 32:31, Dara Vasseur"
+    },
+    {
+      "path": "/rubric[9]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "I want to see it.",
+      "location": "L479, 33:17, Tamsin Greaves",
+      "cited": "transcript.txt, L479, 33:17, Tamsin Greaves"
+    },
+    {
+      "path": "/rubric[9]/asked_quote/quote",
+      "status": "verified",
+      "quote": "I'm free Thursday the seventeenth at two, for forty-five minutes. Does that work?",
+      "location": "L464, 32:08, Consultant",
+      "cited": "transcript.txt, L464, 32:08, Consultant"
+    },
+    {
+      "path": "/rubric[11]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Let me play back what I'd put in a first version. Just to show you, not to sign anything.",
+      "location": "L454, 30:46, Consultant",
+      "cited": "transcript.txt, L454, 30:46, Consultant"
+    },
+    {
+      "path": "/rubric[11]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "That's the right shape.",
+      "location": "L455, 31:33, Tamsin",
+      "cited": "transcript.txt, L455, 31:33, Tamsin"
+    },
+    {
+      "path": "/rubric[11]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Customers don't see anything in the first version.",
+      "location": "L457, 31:39, Greaves, Tamsin",
+      "cited": "transcript.txt, L457, 31:39, Greaves, Tamsin"
+    },
+    {
+      "path": "/rubric[11]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "What we actually sign up for, though, I'll want Halvard in the room for that. This is the first version to look at, not the scope.",
+      "location": "L463, 31:57, Tamsin Greaves",
+      "cited": "transcript.txt, L463, 31:57, Tamsin Greaves"
+    },
+    {
+      "path": "/rubric[11]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Is that the right shape.",
+      "location": "L454, 30:46, Consultant",
+      "cited": "transcript.txt, L454, 30:46, Consultant"
+    },
+    {
+      "path": "/rubric[12]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It doesn't say anything a customer would understand, and it doesn't say when.",
+      "location": "L135, 8:53, Joost Teunissen",
+      "cited": "transcript.txt, L135, 8:53, Joost Teunissen"
+    },
+    {
+      "path": "/rubric[12]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I open the lab system, I see INC, which means it's incubating, and I don't know if it's out today or Thursday.",
+      "location": "L174, 11:25, Farrelly, Oisin",
+      "cited": "transcript.txt, L174, 11:25, Farrelly, Oisin"
+    },
+    {
+      "path": "/rubric[12]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Oisin, the where-is-it calls. Talk me through one.",
+      "location": "L173, 11:21, CONSULTANT",
+      "cited": "transcript.txt, L173, 11:21, CONSULTANT"
+    },
+    {
+      "path": "/rubric[13]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "But the one I think about is a dairy, in June.",
+      "location": "L211, 13:50, Tamsin Greaves",
+      "cited": "transcript.txt, L211, 13:50, Tamsin Greaves"
+    },
+    {
+      "path": "/rubric[13]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "They held a tanker on our result for a day and a half because we told them Thursday and it was Friday.",
+      "location": "L212, 13:54, Tamsin",
+      "cited": "transcript.txt, L212, 13:54, Tamsin"
+    },
+    {
+      "path": "/rubric[13]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "They didn't leave, but they asked for a credit,",
+      "location": "L213, 14:02, TAMSIN GREAVES",
+      "cited": "transcript.txt, L213, 14:02, TAMSIN GREAVES"
+    },
+    {
+      "path": "/rubric[13]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "I'm not going to say on a call. It wasn't small.",
+      "location": "L216, 14:11, Tamsin Greaves",
+      "cited": "transcript.txt, L216, 14:11, Tamsin Greaves"
+    },
+    {
+      "path": "/rubric[13]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Properly wrong, not just annoying.",
+      "location": "L209, 13:42, CONSULTANT",
+      "cited": "transcript.txt, L209, 13:42, CONSULTANT"
+    },
+    {
+      "path": "/rubric[14]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The urgents spreadsheet. If a customer's told me it's urgent I put it on my list and I check the list in the morning.",
+      "location": "L218, 14:21, Farrelly, Oisin",
+      "cited": "transcript.txt, L218, 14:21, Farrelly, Oisin"
+    },
+    {
+      "path": "/rubric[14]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And I do a walk round at four. Every day.",
+      "location": "L220, 14:34, Dara Vasseur",
+      "cited": "transcript.txt, L220, 14:34, Dara Vasseur"
+    },
+    {
+      "path": "/rubric[14]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "It works when I'm in.",
+      "location": "L223, 14:44, Dara Vasseur",
+      "cited": "transcript.txt, L223, 14:44, Dara Vasseur"
+    },
+    {
+      "path": "/rubric[14]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "They've said visibility, and a whiteboard in a room they can't see isn't visibility.",
+      "location": "L228, 15:02, Greaves, Tamsin",
+      "cited": "transcript.txt, L228, 15:02, Greaves, Tamsin"
+    },
+    {
+      "path": "/rubric[14]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "And we're hiring. Two more analysts, and there's talk of a fourth in client services, and the new people don't know to ask Kasimir.",
+      "location": "L230, 15:12, Oisin Farrelly",
+      "cited": "transcript.txt, L230, 15:12, Oisin Farrelly"
+    },
+    {
+      "path": "/rubric[14]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What would stop you carrying on like that. It's worked so far, more or less.",
+      "location": "L226, 14:54, Consultant",
+      "cited": "transcript.txt, L226, 14:54, Consultant"
+    },
+    {
+      "path": "/rubric[15]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Somebody stops. Somebody takes their gloves off, comes to the door, goes and looks at the incubator log, comes back.",
+      "location": "L197, 12:54, Vasseur, Dara",
+      "cited": "transcript.txt, L197, 12:54, Vasseur, Dara"
+    },
+    {
+      "path": "/rubric[15]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The customer, obviously. They're stood there with a batch.",
+      "location": "L205, 13:23, Oisin Farrelly",
+      "cited": "transcript.txt, L205, 13:23, Oisin Farrelly"
+    },
+    {
+      "path": "/rubric[15]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "If a result's not out by day five, that customer rings us, every time, and if it's the retail account they ring Tamsin.",
+      "location": "L206, 13:26, Farrelly, Oisin",
+      "cited": "transcript.txt, L206, 13:26, Farrelly, Oisin"
+    },
+    {
+      "path": "/rubric[15]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "And then I ring Dara, and now three people are looking for one sample.",
+      "location": "L208, 13:36, Tamsin",
+      "cited": "transcript.txt, L208, 13:36, Tamsin"
+    },
+    {
+      "path": "/rubric[15]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And who else does this touch. Beyond Oisin's team and the lab.",
+      "location": "L204, 13:18, Consultant",
+      "cited": "transcript.txt, L204, 13:18, Consultant"
+    },
+    {
+      "path": "/rubric[16]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Eight minutes, about.",
+      "location": "L183, 12:12, TAMSIN GREAVES",
+      "cited": "transcript.txt, L183, 12:12, TAMSIN GREAVES"
+    },
+    {
+      "path": "/rubric[16]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Four hundred-odd calls a month, and that's just the ones that get logged as a status call.",
+      "location": "L193, 12:38, TAMSIN GREAVES",
+      "cited": "transcript.txt, L193, 12:38, TAMSIN GREAVES"
+    },
+    {
+      "path": "/rubric[16]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Fifty-six hours a month on the phones for status.",
+      "location": "L302, 19:43, Greaves, Tamsin",
+      "cited": "transcript.txt, L302, 19:43, Greaves, Tamsin"
+    },
+    {
+      "path": "/rubric[16]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Thirty-two pounds, yeah, that's what Ngozi uses.",
+      "location": "L306, 19:54, Oisin Farrelly",
+      "cited": "transcript.txt, L306, 19:54, Oisin Farrelly"
+    },
+    {
+      "path": "/rubric[16]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Six on micro, Kasimir's an hour, the others maybe twenty minutes.",
+      "location": "L318-320, 20:26, Dara Vasseur (merged run)",
+      "cited": "transcript.txt, L318, 20:26, Dara, transcript.txt, L319, 20:27, Dara Vasseur, transcript.txt, L320, 20:28, DARA VASSEUR"
+    },
+    {
+      "path": "/rubric[16]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "I can't give you a rate for an analyst, I genuinely don't know what Ngozi loads them at.",
+      "location": "L321, 20:30, Dara Vasseur",
+      "cited": "transcript.txt, L321, 20:30, Dara Vasseur"
+    },
+    {
+      "path": "/rubric[16]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And how long is one of those calls, start to finish. Oisin.",
+      "location": "L182, 12:07, Consultant",
+      "cited": "transcript.txt, L182, 12:07, Consultant"
+    },
+    {
+      "path": "/rubric[17]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "If the retail account renews, they've said they'll double the volume from the northern stores through Carlisle.",
+      "location": "L235, 15:38, Tamsin",
+      "cited": "transcript.txt, L235, 15:38, Tamsin"
+    },
+    {
+      "path": "/rubric[17]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Either way the calls go up.",
+      "location": "L237, 15:47, TAMSIN GREAVES",
+      "cited": "transcript.txt, L237, 15:47, TAMSIN GREAVES"
+    },
+    {
+      "path": "/rubric[17]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And I lose one of my two.",
+      "location": "L238, 15:50, OISIN FARRELLY",
+      "cited": "transcript.txt, L238, 15:50, OISIN FARRELLY"
+    },
+    {
+      "path": "/rubric[17]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Where's this going if nothing changes. Next year, say, with the hub and the new people.",
+      "location": "L233, 15:28, Consultant",
+      "cited": "transcript.txt, L233, 15:28, Consultant"
+    },
+    {
+      "path": "/rubric[18]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It's nobody's. That's the honest answer.",
+      "location": "L156, 10:16, Tamsin Greaves",
+      "cited": "transcript.txt, L156, 10:16, Tamsin Greaves"
+    },
+    {
+      "path": "/rubric[18]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "There's no list of what's on hold that anybody looks at.",
+      "location": "L278, 18:09, Greaves, Tamsin",
+      "cited": "transcript.txt, L278, 18:09, Greaves, Tamsin"
+    },
+    {
+      "path": "/rubric[18]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "It's supposed to be reception. In practice it's whoever notices.",
+      "location": "L108, 7:06, Greaves, Tamsin",
+      "cited": "transcript.txt, L108, 7:06, Greaves, Tamsin"
+    },
+    {
+      "path": "/rubric[19]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "A bakery in Carlisle, three weeks ago.",
+      "location": "L268, 17:37, Farrelly, Oisin",
+      "cited": "transcript.txt, L268, 17:37, Farrelly, Oisin"
+    },
+    {
+      "path": "/rubric[19]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Sent twelve samples up through the hub, four of them had the wrong test code because they'd copied last month's form.",
+      "location": "L269, 17:40, OISIN FARRELLY",
+      "cited": "transcript.txt, L269, 17:40, OISIN FARRELLY"
+    },
+    {
+      "path": "/rubric[19]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Nobody rang them.",
+      "location": "L270, 17:48, Oisin",
+      "cited": "transcript.txt, L270, 17:48, Oisin"
+    },
+    {
+      "path": "/rubric[19]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "All four void, and they had to resend, and they'd already shipped the product.",
+      "location": "L272, 17:51, OISIN FARRELLY",
+      "cited": "transcript.txt, L272, 17:51, OISIN FARRELLY"
+    },
+    {
+      "path": "/rubric[20]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Renske's Friday check. And Oisin, if he happens to hear.",
+      "location": "L277, 18:05, Tamsin Greaves",
+      "cited": "transcript.txt, L277, 18:05, Tamsin Greaves"
+    },
+    {
+      "path": "/rubric[20]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It's a status code in the lab system and a shelf in a fridge.",
+      "location": "L279, 18:13, Tamsin Greaves",
+      "cited": "transcript.txt, L279, 18:13, Tamsin Greaves"
+    },
+    {
+      "path": "/rubric[20]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Carlisle logs it as on hold and the fridge is two hours up the road.",
+      "location": "L282, 18:23, Greaves, Tamsin",
+      "cited": "transcript.txt, L282, 18:23, Greaves, Tamsin"
+    },
+    {
+      "path": "/rubric[20]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Renske's Friday check is a Normanton check.",
+      "location": "L283, 18:29, Tamsin Greaves",
+      "cited": "transcript.txt, L283, 18:29, Tamsin Greaves"
+    },
+    {
+      "path": "/rubric[21]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Me, the analysts who re-run it, the customer.",
+      "location": "L287, 18:40, Dara Vasseur",
+      "cited": "transcript.txt, L287, 18:40, Dara Vasseur"
+    },
+    {
+      "path": "/rubric[21]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Ngozi, because she sees the re-test line.",
+      "location": "L288, 18:43, Vasseur, Dara",
+      "cited": "transcript.txt, L288, 18:43, Vasseur, Dara"
+    },
+    {
+      "path": "/rubric[21]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And the retail account, again, because a void on one of their lines is a conversation with their technical team that I'd rather not have.",
+      "location": "L290, 18:48, TAMSIN GREAVES",
+      "cited": "transcript.txt, L290, 18:48, TAMSIN GREAVES"
+    },
+    {
+      "path": "/rubric[22]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Fifteen a month, give or take.",
+      "location": "L256, 16:55, Dara Vasseur",
+      "cited": "transcript.txt, L256, 16:55, Dara Vasseur"
+    },
+    {
+      "path": "/rubric[22]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I count them because they come off my budget.",
+      "location": "L257, 16:57, DARA VASSEUR",
+      "cited": "transcript.txt, L257, 16:57, DARA VASSEUR"
+    },
+    {
+      "path": "/rubric[22]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Depends on the test. Average about one-eighty.",
+      "location": "L259, 17:04, Dara",
+      "cited": "transcript.txt, L259, 17:04, Dara"
+    },
+    {
+      "path": "/rubric[22]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "It was twenty-something in July.",
+      "location": "L263, 17:15, DARA VASSEUR",
+      "cited": "transcript.txt, L263, 17:15, DARA VASSEUR"
+    },
+    {
+      "path": "/rubric[22]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "The re-tests alone were twenty-two in July.",
+      "location": "L329, 21:26, Vasseur, Dara",
+      "cited": "transcript.txt, L329, 21:26, Vasseur, Dara"
+    },
+    {
+      "path": "/rubric[23]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "If the retail account renews, they've said they'll double the volume from the northern stores through Carlisle.",
+      "location": "L235, 15:38, Tamsin",
+      "cited": "transcript.txt, L235, 15:38, Tamsin"
+    },
+    {
+      "path": "/pains[0]/quote",
+      "status": "verified",
+      "quote": "It doesn't say anything a customer would understand, and it doesn't say when.",
+      "location": "L135, 8:53, Joost Teunissen",
+      "cited": "transcript.txt, L135, 8:53, Joost Teunissen"
+    },
+    {
+      "path": "/pains[1]/quote",
+      "status": "verified",
+      "quote": "It's quicker than the phone because the phone doesn't get answered in there.",
+      "location": "L179, 11:55, Farrelly, Oisin",
+      "cited": "transcript.txt, L179, 11:55, Farrelly, Oisin"
+    },
+    {
+      "path": "/pains[2]/quote",
+      "status": "verified",
+      "quote": "Kasimir reckons he loses an hour a day to it.",
+      "location": "L198, 13:01, Dara Vasseur",
+      "cited": "transcript.txt, L198, 13:01, Dara Vasseur"
+    },
+    {
+      "path": "/pains[3]/quote",
+      "status": "verified",
+      "quote": "And then I ring Dara, and now three people are looking for one sample.",
+      "location": "L208, 13:36, Tamsin",
+      "cited": "transcript.txt, L208, 13:36, Tamsin"
+    },
+    {
+      "path": "/pains[4]/quote",
+      "status": "verified",
+      "quote": "It works when I'm in.",
+      "location": "L223, 14:44, Dara Vasseur",
+      "cited": "transcript.txt, L223, 14:44, Dara Vasseur"
+    },
+    {
+      "path": "/pains[5]/quote",
+      "status": "verified",
+      "quote": "It's nobody's. That's the honest answer.",
+      "location": "L156, 10:16, Tamsin Greaves",
+      "cited": "transcript.txt, L156, 10:16, Tamsin Greaves"
+    },
+    {
+      "path": "/pains[6]/quote",
+      "status": "verified",
+      "quote": "If nobody rings, it sits until the customer rings us, or until Renske does her Friday fridge check.",
+      "location": "L246, 16:21, Tamsin Greaves",
+      "cited": "transcript.txt, L246, 16:21, Tamsin Greaves"
+    },
+    {
+      "path": "/pains[7]/quote",
+      "status": "verified",
+      "quote": "And by Friday a micro sample from Tuesday is out of date.",
+      "location": "L249, 16:30, Tamsin",
+      "cited": "transcript.txt, L249, 16:30, Tamsin"
+    },
+    {
+      "path": "/pains[8]/quote",
+      "status": "verified",
+      "quote": "And half the time they say nobody told them it was on hold, which is true.",
+      "location": "L266, 17:28, Farrelly, Oisin",
+      "cited": "transcript.txt, L266, 17:28, Farrelly, Oisin"
+    },
+    {
+      "path": "/pains[9]/quote",
+      "status": "verified",
+      "quote": "Test code, sample type, a date. And a quarter are, honestly, handwriting.",
+      "location": "L90, 5:48, TAMSIN GREAVES",
+      "cited": "transcript.txt, L90, 5:48, TAMSIN GREAVES"
+    },
+    {
+      "path": "/pains[10]/quote",
+      "status": "verified",
+      "quote": "A morning a week. Which I'm not going to put a price on, before you ask, because it's me and I'd do it anyway.",
+      "location": "L163, 10:41, Tamsin Greaves",
+      "cited": "transcript.txt, L163, 10:41, Tamsin Greaves"
+    },
+    {
+      "path": "/pains[11]/quote",
+      "status": "verified",
+      "quote": "but it's a symptom of the first one.",
+      "location": "L293, 19:10, Greaves, Tamsin",
+      "cited": "transcript.txt, L293, 19:10, Greaves, Tamsin"
+    },
+    {
+      "path": "/pains[12]/quote",
+      "status": "verified",
+      "quote": "And I lose one of my two.",
+      "location": "L238, 15:50, OISIN FARRELLY",
+      "cited": "transcript.txt, L238, 15:50, OISIN FARRELLY"
+    },
+    {
+      "path": "/numbers/bleed/quote",
+      "status": "verified",
+      "quote": "Call it fifty-four. thousand a year that I can actually stand behind.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L325, 20:52, Tamsin"
+      ]
+    },
+    {
+      "path": "/numbers/upside/quote",
+      "status": "verified",
+      "quote": "Honestly, that's Halvard's question.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L333, 21:47, Tamsin Greaves"
+      ]
+    },
+    {
+      "path": "/objections[0]/quote",
+      "status": "verified",
+      "quote": "Anything over ten thousand a year and it's Halvard's signature.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L382, 25:48, Tamsin"
+      ]
+    },
+    {
+      "path": "/objections[1]/quote",
+      "status": "verified",
+      "quote": "Halvard's going to ask me what it costs before he'll sit in a meeting about it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L445, 29:54, Tamsin Greaves"
+      ]
+    },
+    {
+      "path": "/objections[2]/quote",
+      "status": "verified",
+      "quote": "The lab will hate anything that means typing something twice. My analysts will not type the same thing twice.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L413, 27:43, Dara Vasseur"
+      ]
+    },
+    {
+      "path": "/objections[3]/quote",
+      "status": "verified",
+      "quote": "And November's out.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L439, 29:26, Dara Vasseur"
+      ]
+    },
+    {
+      "path": "/objections[4]/quote",
+      "status": "verified",
+      "quote": "I did look at doing this in the spreadsheet tool, honestly.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L417, 28:05, Joost Teunissen"
+      ]
+    },
+    {
+      "path": "/objections[5]/quote",
+      "status": "verified",
+      "quote": "The lab system vendor has been promising a customer portal for two years.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L427, 28:40, TAMSIN GREAVES"
+      ]
+    },
+    {
+      "path": "/objections[6]/quote",
+      "status": "verified",
+      "quote": "The vendor might be.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L391, 26:32, Joost"
+      ]
+    },
+    {
+      "path": "/objections[7]/quote",
+      "status": "verified",
+      "quote": "And the quality manager, because if the accreditation body sees a new screen in the lab they'll want to know what it is.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L389, 26:21, TAMSIN GREAVES"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[0]/quote",
+      "status": "verified",
+      "quote": "Two on the seventeenth works.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L465, 32:22, Tamsin"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[1]/quote",
+      "status": "verified",
+      "quote": "Then I'll send the invite today, and a short recap tomorrow of what I heard and the next steps, so you can correct anything I've got wrong.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L471, 32:37, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[2]/quote",
+      "status": "verified",
+      "quote": "Put Halvard on it and I'll chase him this week.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L466, 32:24, Greaves, Tamsin"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[3]/quote",
+      "status": "verified",
+      "quote": "Friday.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L142, 9:18, DARA VASSEUR",
+        "transcript.txt, L212, 13:54, Tamsin",
+        "transcript.txt, L247, 16:28, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[4]/quote",
+      "status": "verified",
+      "quote": "I'll pull a week. It'll be about eight.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L473, 33:01, Farrelly, Oisin"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[5]/quote",
+      "status": "verified",
+      "quote": "I'll take a photo of the whiteboard.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L474, 33:05, DARA VASSEUR"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[6]/quote",
+      "status": "verified",
+      "quote": "I'll ask him this week.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L405, 27:15, Tamsin Greaves"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[7]/quote",
+      "status": "verified",
+      "quote": "What I can do before the seventeenth is write down how I'd structure it, so you're not walking in with nothing.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L447, 30:02, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[8]/quote",
+      "status": "verified",
+      "quote": "Then I'll ask him and not you.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L338, 22:08, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[9]/quote",
+      "status": "verified",
+      "quote": "I'd like to walk you through a first version, built from Joost's export, with Halvard there if he'll come.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L464, 32:08, Consultant"
+      ]
+    },
+    {
+      "path": "/requested_changes[0]/quote",
+      "status": "verified",
+      "quote": "That's the one I'd build first.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L459, 31:46, Farrelly, Oisin"
+      ]
+    },
+    {
+      "path": "/requested_changes[1]/quote",
+      "status": "verified",
+      "quote": "Don't derive it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L461, 31:51, Dara Vasseur"
+      ]
+    },
+    {
+      "path": "/requested_changes[2]/quote",
+      "status": "verified",
+      "quote": "Customers don't see anything in the first version.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L457, 31:39, Greaves, Tamsin"
+      ]
+    },
+    {
+      "path": "/requested_changes[3]/quote",
+      "status": "verified",
+      "quote": "My analysts will not type the same thing twice.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L413, 27:43, Dara Vasseur"
+      ]
+    },
+    {
+      "path": "/requested_changes[4]/quote",
+      "status": "verified",
+      "quote": "If they don't have to touch it, I don't care what month it is.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L443, 29:45, Dara"
+      ]
+    },
+    {
+      "path": "/account_context/evidence_quote_or_null",
+      "status": "verified",
+      "quote": "I did a free trial of monday last year for the laptop list, actually, one board, it lapsed.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L169, 11:09, Teunissen, Joost"
+      ]
+    },
+    {
+      "path": "/intake/type_signals[0]/quote",
+      "status": "verified",
+      "quote": "Can I share my screen for two minutes.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L355, 23:14, CONSULTANT"
+      ]
+    },
+    {
+      "path": "/intake/type_signals[2]/quote",
+      "status": "verified",
+      "quote": "That works. That's why we asked for you, honestly, we've had enough people show us dashboards.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L19, 1:21, Tamsin"
+      ]
+    },
+    {
+      "path": "/intake/type_signals[3]/quote",
+      "status": "verified",
+      "quote": "As long as nobody thinks it's true because it's on a screen.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L372, 25:03, Dara"
+      ]
+    },
+    {
+      "path": "/intake/type_signals[4]/quote",
+      "status": "verified",
+      "quote": "Anything over ten thousand a year and it's Halvard's signature.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L382, 25:48, Tamsin"
+      ]
+    },
+    {
+      "path": "/readiness/goals[0]/quote",
+      "status": "verified",
+      "quote": "Phone goes, I open one screen, I see the job, I see it says out Thursday, I say Thursday, I hang up.",
+      "location": "L342, 22:18, Oisin Farrelly",
+      "cited": "transcript.txt, L342, 22:18, Oisin Farrelly"
+    },
+    {
+      "path": "/readiness/goals[1]/quote",
+      "status": "verified",
+      "quote": "And I open something on a Monday morning that shows me the retail account's turnaround for last week without a spreadsheet and without me.",
+      "location": "L347, 22:36, Tamsin",
+      "cited": "transcript.txt, L347, 22:36, Tamsin"
+    },
+    {
+      "path": "/readiness/goals[2]/quote",
+      "status": "verified",
+      "quote": "The retail account renews in February with that audit finding closed.",
+      "location": "L350, 22:52, Tamsin",
+      "cited": "transcript.txt, L350, 22:52, Tamsin"
+    },
+    {
+      "path": "/readiness/pains[0]/quote",
+      "status": "verified",
+      "quote": "It doesn't say anything a customer would understand, and it doesn't say when.",
+      "location": "L135, 8:53, Joost Teunissen",
+      "cited": "transcript.txt, L135, 8:53, Joost Teunissen"
+    },
+    {
+      "path": "/readiness/pains[1]/quote",
+      "status": "verified",
+      "quote": "It's quicker than the phone because the phone doesn't get answered in there.",
+      "location": "L179, 11:55, Farrelly, Oisin",
+      "cited": "transcript.txt, L179, 11:55, Farrelly, Oisin"
+    },
+    {
+      "path": "/readiness/pains[2]/quote",
+      "status": "verified",
+      "quote": "Kasimir reckons he loses an hour a day to it.",
+      "location": "L198, 13:01, Dara Vasseur",
+      "cited": "transcript.txt, L198, 13:01, Dara Vasseur"
+    },
+    {
+      "path": "/readiness/pains[3]/quote",
+      "status": "verified",
+      "quote": "And then I ring Dara, and now three people are looking for one sample.",
+      "location": "L208, 13:36, Tamsin",
+      "cited": "transcript.txt, L208, 13:36, Tamsin"
+    },
+    {
+      "path": "/readiness/pains[4]/quote",
+      "status": "verified",
+      "quote": "It works when I'm in.",
+      "location": "L223, 14:44, Dara Vasseur",
+      "cited": "transcript.txt, L223, 14:44, Dara Vasseur"
+    },
+    {
+      "path": "/readiness/pains[5]/quote",
+      "status": "verified",
+      "quote": "It's nobody's. That's the honest answer.",
+      "location": "L156, 10:16, Tamsin Greaves",
+      "cited": "transcript.txt, L156, 10:16, Tamsin Greaves"
+    },
+    {
+      "path": "/readiness/pains[6]/quote",
+      "status": "verified",
+      "quote": "If nobody rings, it sits until the customer rings us, or until Renske does her Friday fridge check.",
+      "location": "L246, 16:21, Tamsin Greaves",
+      "cited": "transcript.txt, L246, 16:21, Tamsin Greaves"
+    },
+    {
+      "path": "/readiness/pains[7]/quote",
+      "status": "verified",
+      "quote": "And by Friday a micro sample from Tuesday is out of date.",
+      "location": "L249, 16:30, Tamsin",
+      "cited": "transcript.txt, L249, 16:30, Tamsin"
+    },
+    {
+      "path": "/readiness/pains[8]/quote",
+      "status": "verified",
+      "quote": "And half the time they say nobody told them it was on hold, which is true.",
+      "location": "L266, 17:28, Farrelly, Oisin",
+      "cited": "transcript.txt, L266, 17:28, Farrelly, Oisin"
+    },
+    {
+      "path": "/readiness/pains[9]/quote",
+      "status": "verified",
+      "quote": "Test code, sample type, a date. And a quarter are, honestly, handwriting.",
+      "location": "L90, 5:48, TAMSIN GREAVES",
+      "cited": "transcript.txt, L90, 5:48, TAMSIN GREAVES"
+    },
+    {
+      "path": "/readiness/pains[10]/quote",
+      "status": "verified",
+      "quote": "A morning a week. Which I'm not going to put a price on, before you ask, because it's me and I'd do it anyway.",
+      "location": "L163, 10:41, Tamsin Greaves",
+      "cited": "transcript.txt, L163, 10:41, Tamsin Greaves"
+    },
+    {
+      "path": "/readiness/pains[11]/quote",
+      "status": "verified",
+      "quote": "but it's a symptom of the first one.",
+      "location": "L293, 19:10, Greaves, Tamsin",
+      "cited": "transcript.txt, L293, 19:10, Greaves, Tamsin"
+    },
+    {
+      "path": "/readiness/pains[12]/quote",
+      "status": "verified",
+      "quote": "And I lose one of my two.",
+      "location": "L238, 15:50, OISIN FARRELLY",
+      "cited": "transcript.txt, L238, 15:50, OISIN FARRELLY"
+    },
+    {
+      "path": "/readiness/signals[0]/quote",
+      "status": "verified",
+      "quote": "If that existed the bakery thing doesn't happen.",
+      "location": "L362, 24:22, Greaves, Tamsin",
+      "cited": "transcript.txt, L362, 24:22, Greaves, Tamsin"
+    },
+    {
+      "path": "/readiness/signals[1]/quote",
+      "status": "verified",
+      "quote": "That's the one I'd build first.",
+      "location": "L459, 31:46, Farrelly, Oisin",
+      "cited": "transcript.txt, L459, 31:46, Farrelly, Oisin"
+    },
+    {
+      "path": "/readiness/signals[2]/quote",
+      "status": "verified",
+      "quote": "Ideally I've got something to show the retail people in January, because their technical team wants to see it before they sign.",
+      "location": "L433, 29:04, Tamsin Greaves",
+      "cited": "transcript.txt, L433, 29:04, Tamsin Greaves"
+    },
+    {
+      "path": "/readiness/signals[3]/quote",
+      "status": "verified",
+      "quote": "That's my read. It's a good read.",
+      "location": "L353, 23:05, Tamsin Greaves",
+      "cited": "transcript.txt, L353, 23:05, Tamsin Greaves"
+    },
+    {
+      "path": "/readiness/signals[4]/quote",
+      "status": "verified",
+      "quote": "And Carlisle. Renske can't see the whiteboard from Carlisle either.",
+      "location": "L229, 15:07, Tamsin Greaves",
+      "cited": "transcript.txt, L229, 15:07, Tamsin Greaves"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[0]",
+      "status": "verified",
+      "quote": "So one sample, one job, but a job can have six tests.",
+      "location": "L94, 6:04, Tamsin",
+      "cited": "transcript.txt, L94, 6:04, Tamsin"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[1]",
+      "status": "verified",
+      "quote": "And the tests are scheduled off the job.",
+      "location": "L99, 6:29, Dara",
+      "cited": "transcript.txt, L99, 6:29, Dara"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[2]",
+      "status": "verified",
+      "quote": "Results go into the lab system as they come.",
+      "location": "L116, 7:50, Dara",
+      "cited": "transcript.txt, L116, 7:50, Dara"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[0]",
+      "status": "verified",
+      "quote": "The export's a flat file. Job number, customer, status code, dates in, dates done.",
+      "location": "L165, 10:53, Joost Teunissen",
+      "cited": "transcript.txt, L165, 10:53, Joost Teunissen"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[1]",
+      "status": "verified",
+      "quote": "since the spring we've had a sample hub up in Carlisle, which is reception only",
+      "location": "L25, 1:44, Tamsin Greaves",
+      "cited": "transcript.txt, L25, 1:44, Tamsin Greaves"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[2]",
+      "status": "verified",
+      "quote": "Chem is five to ten.",
+      "location": "L119, 7:57, Dara Vasseur",
+      "cited": "transcript.txt, L119, 7:57, Dara Vasseur"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[0]",
+      "status": "verified",
+      "quote": "If a result's not out by day five, that customer rings us, every time, and if it's the retail account they ring Tamsin.",
+      "location": "L206, 13:26, Farrelly, Oisin",
+      "cited": "transcript.txt, L206, 13:26, Farrelly, Oisin"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[1]",
+      "status": "verified",
+      "quote": "Chem is five to ten.",
+      "location": "L119, 7:57, Dara Vasseur",
+      "cited": "transcript.txt, L119, 7:57, Dara Vasseur"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[0]",
+      "status": "verified",
+      "quote": "It's not bad. It's just not live, right.",
+      "location": "L166, 10:58, Teunissen, Joost",
+      "cited": "transcript.txt, L166, 10:58, Teunissen, Joost"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[1]",
+      "status": "verified",
+      "quote": "As long as nobody thinks it's true because it's on a screen.",
+      "location": "L372, 25:03, Dara",
+      "cited": "transcript.txt, L372, 25:03, Dara"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[0]",
+      "status": "verified",
+      "quote": "They held a tanker on our result for a day and a half because we told them Thursday and it was Friday.",
+      "location": "L212, 13:54, Tamsin",
+      "cited": "transcript.txt, L212, 13:54, Tamsin"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[1]",
+      "status": "verified",
+      "quote": "Due is a judgement.",
+      "location": "L367, 24:38, Vasseur, Dara",
+      "cited": "transcript.txt, L367, 24:38, Vasseur, Dara"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[2]",
+      "status": "verified",
+      "quote": "Don't derive it.",
+      "location": "L461, 31:51, Dara Vasseur",
+      "cited": "transcript.txt, L461, 31:51, Dara Vasseur"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[0]",
+      "status": "verified",
+      "quote": "And by Friday a micro sample from Tuesday is out of date.",
+      "location": "L249, 16:30, Tamsin",
+      "cited": "transcript.txt, L249, 16:30, Tamsin"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[1]",
+      "status": "verified",
+      "quote": "If there's a list of on hold with a name on it, someone rings.",
+      "location": "L364, 24:26, Tamsin Greaves",
+      "cited": "transcript.txt, L364, 24:26, Tamsin Greaves"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[2]",
+      "status": "verified",
+      "quote": "Carlisle logs it as on hold and the fridge is two hours up the road.",
+      "location": "L282, 18:23, Greaves, Tamsin",
+      "cited": "transcript.txt, L282, 18:23, Greaves, Tamsin"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[0]",
+      "status": "verified",
+      "quote": "A supermarket group, yeah. I'd rather not name them on a recording, if that's all right.",
+      "location": "L34, 2:20, Tamsin",
+      "cited": "transcript.txt, L34, 2:20, Tamsin"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[1]",
+      "status": "verified",
+      "quote": "And I open something on a Monday morning that shows me the retail account's turnaround for last week without a spreadsheet and without me.",
+      "location": "L347, 22:36, Tamsin",
+      "cited": "transcript.txt, L347, 22:36, Tamsin"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[0]",
+      "status": "verified",
+      "quote": "And one of the findings, in writing, was that we. have no visibility of sample status for the customer. That's a quote. No visibility.",
+      "location": "L64, 3:55, Tamsin Greaves",
+      "cited": "transcript.txt, L64, 3:55, Tamsin Greaves"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[1]",
+      "status": "verified",
+      "quote": "The retail account renews in February with that audit finding closed. That's the win.",
+      "location": "L350, 22:52, Tamsin",
+      "cited": "transcript.txt, L350, 22:52, Tamsin"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[2]",
+      "status": "verified",
+      "quote": "Customers don't see anything in the first version.",
+      "location": "L457, 31:39, Greaves, Tamsin",
+      "cited": "transcript.txt, L457, 31:39, Greaves, Tamsin"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[0]",
+      "status": "verified",
+      "quote": "Test code, sample type, a date. And a quarter are, honestly, handwriting.",
+      "location": "L90, 5:48, TAMSIN GREAVES",
+      "cited": "transcript.txt, L90, 5:48, TAMSIN GREAVES"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[1]",
+      "status": "verified",
+      "quote": "Sent twelve samples up through the hub, four of them had the wrong test code because they'd copied last month's form.",
+      "location": "L269, 17:40, OISIN FARRELLY",
+      "cited": "transcript.txt, L269, 17:40, OISIN FARRELLY"
+    },
+    {
+      "path": "/readiness/structure/leanings[9]/quotes[0]",
+      "status": "verified",
+      "quote": "And I lose one of my two.",
+      "location": "L238, 15:50, OISIN FARRELLY",
+      "cited": "transcript.txt, L238, 15:50, OISIN FARRELLY"
+    },
+    {
+      "path": "/readiness/structure/leanings[9]/quotes[1]",
+      "status": "verified",
+      "quote": "Because nobody wants to answer that phone for a living.",
+      "location": "L239, 15:53, Oisin Farrelly",
+      "cited": "transcript.txt, L239, 15:53, Oisin Farrelly"
+    }
+  ]
+}

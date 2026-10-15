@@ -1,0 +1,1523 @@
+{
+  "fixture": "s18-identity-collapse",
+  "sources": [
+    {
+      "name": "transcript.txt",
+      "kind": "transcript",
+      "format": "line-bracket",
+      "units": 262,
+      "unsupported": null
+    }
+  ],
+  "counts": {
+    "pairs": 196,
+    "verified": 196,
+    "verified_presence_only": 31,
+    "skipped": 0,
+    "unparsed_prose": 0,
+    "near_misses": 0,
+    "misses": 0,
+    "unsupported": 0,
+    "warnings": 0
+  },
+  "refused_quotes_not_checked": [],
+  "skipped": [],
+  "pairs": [
+    {
+      "path": "/rubric[0]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "They ring the office. Or they email the office, or they catch me on the pontoon and I write it on my hand. Most of them ring. Maxine takes it. She puts it in the book.",
+      "location": "00:07:47 Jon Ashby",
+      "cited": "transcript.txt, L50, 00:07:47, Jon Ashby"
+    },
+    {
+      "path": "/rubric[0]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Then, on the Friday, I print the next week out of the book and I put the boats onto the hoist board, which is a whiteboard in the yard office, a column a day, and the lads work off a printed sheet from that each morning.",
+      "location": "00:08:49 Jon Ashby",
+      "cited": "transcript.txt, L57, 00:08:49, Jon Ashby"
+    },
+    {
+      "path": "/rubric[0]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "When she takes the booking she writes a card off the book. Triplicate pad.",
+      "location": "00:11:34 Tadhg Devlin",
+      "cited": "transcript.txt, L72, 00:11:34, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[0]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "In theory the top copy comes to me and I put it on my wall, which is a whiteboard with hooks on it, one hook a boat, and I give it to an engineer, and he takes it to the boat and writes his hours on it, and when the job's done it comes back to me and I sign it and it goes upstairs to John.",
+      "location": "00:12:00 Maxine Bassett",
+      "cited": "transcript.txt, L75, 00:12:00, Maxine Bassett"
+    },
+    {
+      "path": "/rubric[0]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "I type it into the accounts package. Boat, owner, hours times the rate, parts off the card, and it goes out to the owner.",
+      "location": "00:16:20 John Rudge",
+      "cited": "transcript.txt, L102, 00:16:20, John Rudge"
+    },
+    {
+      "path": "/rubric[0]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "And then in February half of them ring and move it, and the new date goes in the book, and the card on the boat still says the old date.",
+      "location": "00:17:37 Jon Ashby",
+      "cited": "transcript.txt, L108, 00:17:37, Jon Ashby"
+    },
+    {
+      "path": "/rubric[0]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "The berthing system. Contracts, direct debits, who's on which berth, the waiting list.",
+      "location": "00:19:17 Jon Ashby",
+      "cited": "transcript.txt, L117, 00:19:17, Jon Ashby"
+    },
+    {
+      "path": "/rubric[0]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Okay. Let's walk it. Start me at the beginning. A boat's in the water, it's September, the owner wants it out for the winter. What happens?",
+      "location": "00:07:35 Consultant",
+      "cited": "transcript.txt, L49, 00:07:35, Consultant"
+    },
+    {
+      "path": "/rubric[1]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And this April, forty-one of them weren't ready on their date.",
+      "location": "00:04:33 Tadhg Devlin",
+      "cited": "transcript.txt, L33, 00:04:33, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[1]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Saturday the eighteenth of April. Nineteen launches booked. Six ready.",
+      "location": "00:24:04 Tadhg Devlin",
+      "cited": "transcript.txt, L144, 00:24:04, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[1]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I know it was twenty-six because Lorcan and I did most of it ourselves. The card said fourteen because that's what was on it when I fished it out.",
+      "location": "00:14:09 Maxine Bassett",
+      "cited": "transcript.txt, L87, 00:14:09, Maxine Bassett"
+    },
+    {
+      "path": "/rubric[1]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "And a forty-two-foot boat hanging in the slings for forty minutes while three of us argued about whose was next, with the tide going out under it.",
+      "location": "00:21:50 Jon Ashby",
+      "cited": "transcript.txt, L129, 00:21:50, Jon Ashby"
+    },
+    {
+      "path": "/rubric[1]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Tell me about April.",
+      "location": "00:04:30 Consultant",
+      "cited": "transcript.txt, L32, 00:04:30, Consultant"
+    },
+    {
+      "path": "/rubric[2]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "April. And the pontoon. They're the same thing, really.",
+      "location": "00:04:26 Tadhg Devlin",
+      "cited": "transcript.txt, L31, 00:04:26, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[2]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "eleven owners didn't renew. Eleven annual berths walked across the water to the place opposite.",
+      "location": "00:05:29 Tadhg Devlin",
+      "cited": "transcript.txt, L37, 00:05:29, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[2]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "C pontoon. Sixty new berths, built, in the water in March.",
+      "location": "00:06:29 Tadhg Devlin",
+      "cited": "transcript.txt, L44, 00:06:29, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[2]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "So that's the why now.",
+      "location": "00:06:29 Tadhg Devlin",
+      "cited": "transcript.txt, L44, 00:06:29, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[2]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Tyge, what made you pick up the phone now, rather than a year ago?",
+      "location": "00:04:17 Consultant",
+      "cited": "transcript.txt, L30, 00:04:17, Consultant"
+    },
+    {
+      "path": "/rubric[3]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Three, nine engineers, that's twenty-seven hours a week. We charge fifty-eight an hour. Forty-six weeks, because the workshop's dead over Christmas and half of August.",
+      "location": "00:27:59 John Rudge",
+      "cited": "transcript.txt, L170, 00:27:59, John Rudge"
+    },
+    {
+      "path": "/rubric[3]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Nine thousand four hundred and twelve, in goodwill credits, April and May, all of it launch dates.",
+      "location": "00:26:38 John Rudge",
+      "cited": "transcript.txt, L160, 00:26:38, John Rudge"
+    },
+    {
+      "path": "/rubric[3]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Nineteen an hour loaded, forty-eight weeks. Eleven thousand, near enough. That one's my estimate, not Maxine's, so it's soft.",
+      "location": "00:28:33 John Rudge",
+      "cited": "transcript.txt, L174, 00:28:33, John Rudge"
+    },
+    {
+      "path": "/rubric[3]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Seventy-two, plus eleven, plus thirteen and a half. Ninety-six and a half thousand. A year.",
+      "location": "00:28:56 John Rudge",
+      "cited": "transcript.txt, L176, 00:28:56, John Rudge"
+    },
+    {
+      "path": "/rubric[3]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Ninety-six and a half. I'd sign that. It's light, but I'd sign it.",
+      "location": "00:29:10 Tadhg Devlin",
+      "cited": "transcript.txt, L177, 00:29:10, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[3]/asked_quote/quote",
+      "status": "verified",
+      "quote": "We're about to do the money, and I want yours, not mine. Rudge, you've got the credits.",
+      "location": "00:26:17 Consultant",
+      "cited": "transcript.txt, L157, 00:26:17, Consultant"
+    },
+    {
+      "path": "/rubric[4]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Sixty at four thousand two hundred is two hundred and fifty-two thousand a year in berthing",
+      "location": "00:30:05 Tadhg Devlin",
+      "cited": "transcript.txt, L184, 00:30:05, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[4]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I can't split that for you. All of it if April happens again. None of it if it doesn't. It's not a number I can give you honestly.",
+      "location": "00:30:40 Tadhg Devlin",
+      "cited": "transcript.txt, L186, 00:30:40, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[4]/asked_quote/quote",
+      "status": "verified",
+      "quote": "If this worked, what's the upside, in money? Not the pain going away, the thing you'd win.",
+      "location": "00:29:56 Consultant",
+      "cited": "transcript.txt, L183, 00:29:56, Consultant"
+    },
+    {
+      "path": "/rubric[5]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "One list. A boat comes out, and everything about it, the jobs, the parts, the launch date, who's on it, is in one place, and on a Monday morning I can see which ones won't make their date, and the owner's been told a week before, not on the day.",
+      "location": "00:31:12 Tadhg Devlin",
+      "cited": "transcript.txt, L190, 00:31:12, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[5]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Write fewer than five. I'm not a fool. Five, and every one of them warned.",
+      "location": "00:31:45 Tadhg Devlin",
+      "cited": "transcript.txt, L192, 00:31:45, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[5]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And the hours. Every hour on a card by Friday. That one's mine.",
+      "location": "00:31:53 Maxine Bassett",
+      "cited": "transcript.txt, L193, 00:31:53, Maxine Bassett"
+    },
+    {
+      "path": "/rubric[5]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Say it worked. Say it's next April. What's different, in a sentence?",
+      "location": "00:31:06 Consultant",
+      "cited": "transcript.txt, L189, 00:31:06, Consultant"
+    },
+    {
+      "path": "/rubric[6]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Mine, up to twenty thousand on anything operational. Above that it's Aubrey and the board, which is the family, four of them, and they meet on the fourteenth of October.",
+      "location": "00:32:11 Tadhg Devlin",
+      "cited": "transcript.txt, L195, 00:32:11, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[6]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The fourteenth if it's above twenty. Before that if it isn't. But I'd want him to see it regardless, so plan for the fourteenth.",
+      "location": "00:32:32 Tadhg Devlin",
+      "cited": "transcript.txt, L197, 00:32:32, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[6]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "There's a line called yard systems that's had nothing in it for three years. Aubrey hates anything monthly.",
+      "location": "00:32:47 John Rudge",
+      "cited": "transcript.txt, L199, 00:32:47, John Rudge"
+    },
+    {
+      "path": "/rubric[6]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Who decides? If this goes ahead, whose yes is it?",
+      "location": "00:32:01 Consultant",
+      "cited": "transcript.txt, L194, 00:32:01, Consultant"
+    },
+    {
+      "path": "/rubric[7]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The honest answer is the launch season. March. If the boats go in on their dates next spring, we've done it.",
+      "location": "00:33:33 Tadhg Devlin",
+      "cited": "transcript.txt, L203, 00:33:33, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[7]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "But if you could get the lift-out list, just the list and the slots, in front of John before the twelfth, I'd take that and say thank you.",
+      "location": "00:33:33 Tadhg Devlin",
+      "cited": "transcript.txt, L203, 00:33:33, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[7]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Three weeks on Monday. The twelfth.",
+      "location": "00:01:33 Tadhg Devlin",
+      "cited": "transcript.txt, L15, 00:01:33, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[7]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Then fine.",
+      "location": "00:34:41 Jon Ashby",
+      "cited": "transcript.txt, L207, 00:34:41, Jon Ashby"
+    },
+    {
+      "path": "/rubric[7]/asked_quote/quote",
+      "status": "verified",
+      "quote": "When does it need to be real?",
+      "location": "00:33:21 Consultant",
+      "cited": "transcript.txt, L202, 00:33:21, Consultant"
+    },
+    {
+      "path": "/rubric[8]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The engineers. If it needs typing, they won't. Not won't. Can't. Phone in a drawer, gloves on, forty foot up a ladder.",
+      "location": "00:35:09 Maxine Bassett",
+      "cited": "transcript.txt, L211, 00:35:09, Maxine Bassett"
+    },
+    {
+      "path": "/rubric[8]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The signal. Wi-Fi doesn't reach the hardstanding.",
+      "location": "00:35:20 Jon Ashby",
+      "cited": "transcript.txt, L212, 00:35:20, Jon Ashby"
+    },
+    {
+      "path": "/rubric[8]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "It has to be learnable in a morning by someone who won't be here in six months.",
+      "location": "00:35:32 Tadhg Devlin",
+      "cited": "transcript.txt, L213, 00:35:32, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[8]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "The berthing system stays.",
+      "location": "00:35:50 John Rudge",
+      "cited": "transcript.txt, L214, 00:35:50, John Rudge"
+    },
+    {
+      "path": "/rubric[8]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Maxine is the only person who knows the book, and if she thinks this is replacing her she'll dig in, and she'd be right to.",
+      "location": "00:36:10 John Rudge",
+      "cited": "transcript.txt, L216, 00:36:10, John Rudge"
+    },
+    {
+      "path": "/rubric[8]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "The family don't like subscriptions.",
+      "location": "00:36:36 Tadhg Devlin",
+      "cited": "transcript.txt, L219, 00:36:36, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[8]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What stops this? Not the money. The things you already know will get in the way.",
+      "location": "00:35:00 Consultant",
+      "cited": "transcript.txt, L210, 00:35:00, Consultant"
+    },
+    {
+      "path": "/rubric[9]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Monday the fifth. Morning. Half nine, before the yard gets loud. Here, not on a screen, if you can manage it.",
+      "location": "00:42:46 Tadhg Devlin",
+      "cited": "transcript.txt, L249, 00:42:46, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[9]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Bernie, John, John, all of you. And I'll ask Aubrey. He won't come but I'll ask, and then he can't say he wasn't asked.",
+      "location": "00:43:10 Tadhg Devlin",
+      "cited": "transcript.txt, L252, 00:43:10, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[9]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I'll send an invite today for half nine on the fifth, with a note of what we've agreed and the questions I've got for Maxine when she's back on the twenty-eighth.",
+      "location": "00:43:20 Consultant",
+      "cited": "transcript.txt, L253, 00:43:20, Consultant"
+    },
+    {
+      "path": "/rubric[9]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Dates, then. I'd like to show you a first cut in about ten days. Monday the fifth?",
+      "location": "00:42:38 Consultant",
+      "cited": "transcript.txt, L248, 00:42:38, Consultant"
+    },
+    {
+      "path": "/rubric[11]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "That's it. That's the first go. Not the owners typing in, though.",
+      "location": "00:39:24 Tadhg Devlin",
+      "cited": "transcript.txt, L231, 00:39:24, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[11]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "You can say I've agreed to look at it. I haven't agreed to buy it, and Aubrey hasn't seen it, so don't write agreed anywhere he'll read it.",
+      "location": "00:41:40 Tadhg Devlin",
+      "cited": "transcript.txt, L243, 00:41:40, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[11]/asked_quote/quote",
+      "status": "verified",
+      "quote": "So can I say we've agreed a first cut. The lift-out list with slots and the tide, and the job card with hours and the launch date. Shown to you, not sold to you.",
+      "location": "00:41:22 Consultant",
+      "cited": "transcript.txt, L242, 00:41:22, Consultant"
+    },
+    {
+      "path": "/rubric[12]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Forty-one boats sat on the hardstanding with an owner stood next to them, on the day they'd booked, with the antifoul not done or the anodes not on or, in two cases, the engine in bits on the floor of the workshop.",
+      "location": "00:05:00 Tadhg Devlin",
+      "cited": "transcript.txt, L35, 00:05:00, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[12]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Tell me about April.",
+      "location": "00:04:30 Consultant",
+      "cited": "transcript.txt, L32, 00:04:30, Consultant"
+    },
+    {
+      "path": "/rubric[13]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Because the job card was in the wrong pile, or in a van, or in one case, in the skip.",
+      "location": "00:05:00 Tadhg Devlin",
+      "cited": "transcript.txt, L35, 00:05:00, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[13]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And a man in a deckchair next to his boat with a flask, from eight in the morning, because he'd driven three hours and he'd been told, by Maxine, in good faith, that it was done.",
+      "location": "00:24:04 Tadhg Devlin",
+      "cited": "transcript.txt, L144, 00:24:04, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[13]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Forty-one.",
+      "location": "00:04:57 Consultant",
+      "cited": "transcript.txt, L34, 00:04:57, Consultant"
+    },
+    {
+      "path": "/rubric[14]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Forty boats, an hour and a half, every morning for eight weeks. And I still missed forty-one, because ready isn't a thing you can see.",
+      "location": "00:23:18 Tadhg Devlin",
+      "cited": "transcript.txt, L140, 00:23:18, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[14]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Bernie's wall doesn't have dates on it. It has boats on it.",
+      "location": "00:24:39 Tadhg Devlin",
+      "cited": "transcript.txt, L146, 00:24:39, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[14]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Tighe, do you walk the yard as well? Is that the same walk?",
+      "location": "00:23:11 Consultant",
+      "cited": "transcript.txt, L139, 00:23:11, Consultant"
+    },
+    {
+      "path": "/rubric[15]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Two owners rang Aubrey. Not me, Aubrey.",
+      "location": "00:20:42 Tadhg Devlin",
+      "cited": "transcript.txt, L125, 00:20:42, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[15]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "is not in a mood to pay an invoice in June for work he can't remember.",
+      "location": "00:16:47 John Rudge",
+      "cited": "transcript.txt, L104, 00:16:47, John Rudge"
+    },
+    {
+      "path": "/rubric[16]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And twenty-three re-lifts we didn't charge for, which is a hundred and eighty each, so four thousand one hundred and forty.",
+      "location": "00:26:38 John Rudge",
+      "cited": "transcript.txt, L160, 00:26:38, John Rudge"
+    },
+    {
+      "path": "/rubric[16]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Forty-six thousand two hundred a year of berthing. Eleven at four thousand two hundred.",
+      "location": "00:05:58 John Rudge",
+      "cited": "transcript.txt, L40, 00:05:58, John Rudge"
+    },
+    {
+      "path": "/rubric[16]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And the eleven berths? The forty-six thousand?",
+      "location": "00:29:24 Consultant",
+      "cited": "transcript.txt, L179, 00:29:24, Consultant"
+    },
+    {
+      "path": "/rubric[17]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Which is sixty more boats coming out next autumn and sixty more going back in the spring after.",
+      "location": "00:06:29 Tadhg Devlin",
+      "cited": "transcript.txt, L44, 00:06:29, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[17]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "But it's not a one-off, it's a curve, and the curve's going the wrong way.",
+      "location": "00:27:03 John Rudge",
+      "cited": "transcript.txt, L162, 00:27:03, John Rudge"
+    },
+    {
+      "path": "/rubric[17]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And the pontoon?",
+      "location": "00:06:26 Consultant",
+      "cited": "transcript.txt, L43, 00:06:26, Consultant"
+    },
+    {
+      "path": "/rubric[18]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Don't get billed. John can only invoice what's on the card.",
+      "location": "00:13:46 Maxine Bassett",
+      "cited": "transcript.txt, L84, 00:13:46, Maxine Bassett"
+    },
+    {
+      "path": "/rubric[18]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And the hours that don't get written down?",
+      "location": "00:13:41 Consultant",
+      "cited": "transcript.txt, L83, 00:13:41, Consultant"
+    },
+    {
+      "path": "/rubric[19]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The Kittiwake. The one in the skip. I know it was twenty-six because Lorcan and I did most of it ourselves.",
+      "location": "00:14:09 Maxine Bassett",
+      "cited": "transcript.txt, L87, 00:14:09, Maxine Bassett"
+    },
+    {
+      "path": "/rubric[19]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Was there a job where it was twenty-six?",
+      "location": "00:14:05 Consultant",
+      "cited": "transcript.txt, L86, 00:14:05, Consultant"
+    },
+    {
+      "path": "/rubric[20]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "and on the Friday I go round with a pen and ask everyone what they did all week. And they tell me, roughly.",
+      "location": "00:12:57 Maxine Bassett",
+      "cited": "transcript.txt, L79, 00:12:57, Maxine Bassett"
+    },
+    {
+      "path": "/rubric[20]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And in practice?",
+      "location": "00:12:52 Consultant",
+      "cited": "transcript.txt, L78, 00:12:52, Consultant"
+    },
+    {
+      "path": "/rubric[21]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Which, in April, was six to eight weeks after the boat went back in the water, because the cards come up in a heap when Bernie clears her wall, not when the job's done.",
+      "location": "00:16:20 John Rudge",
+      "cited": "transcript.txt, L102, 00:16:20, John Rudge"
+    },
+    {
+      "path": "/rubric[22]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I'd say three, four hours a week, each engineer, that never make it onto a card.",
+      "location": "00:14:37 Maxine Bassett",
+      "cited": "transcript.txt, L91, 00:14:37, Maxine Bassett"
+    },
+    {
+      "path": "/rubric[22]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "We charge fifty-eight an hour.",
+      "location": "00:27:59 John Rudge",
+      "cited": "transcript.txt, L170, 00:27:59, John Rudge"
+    },
+    {
+      "path": "/rubric[22]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Bernie, the hours. Three or four a week per engineer.",
+      "location": "00:27:47 Consultant",
+      "cited": "transcript.txt, L168, 00:27:47, Consultant"
+    },
+    {
+      "path": "/rubric[23]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It got worse this year, because the two new lads started in March and they don't know yet that I'll come round on the Friday.",
+      "location": "00:15:29 Maxine Bassett",
+      "cited": "transcript.txt, L96, 00:15:29, Maxine Bassett"
+    },
+    {
+      "path": "/rubric[23]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Has it always been like that, or is it getting worse?",
+      "location": "00:15:21 Consultant",
+      "cited": "transcript.txt, L95, 00:15:21, Consultant"
+    },
+    {
+      "path": "/rubric[24]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Because I'm the one stood at the hoist at seven in the morning with two boats booked into the same slot and an owner on the phone.",
+      "location": "00:07:21 Jon Ashby",
+      "cited": "transcript.txt, L48, 00:07:21, Jon Ashby"
+    },
+    {
+      "path": "/rubric[24]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Ashby, same question to you. What made it worth an hour of your morning?",
+      "location": "00:07:12 Consultant",
+      "cited": "transcript.txt, L47, 00:07:12, Consultant"
+    },
+    {
+      "path": "/rubric[25]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The board said four boats. The book said five, because Maxine had taken a fifth on the Thursday and it hadn't got to the board.",
+      "location": "00:21:08 Jon Ashby",
+      "cited": "transcript.txt, L127, 00:21:08, Jon Ashby"
+    },
+    {
+      "path": "/rubric[25]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "That was me. Twice a week. Three, some weeks.",
+      "location": "00:22:16 Jon Ashby",
+      "cited": "transcript.txt, L132, 00:22:16, Jon Ashby"
+    },
+    {
+      "path": "/rubric[25]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Okay. Ashby, the double booking. Tell me about a day it happened.",
+      "location": "00:21:01 Consultant",
+      "cited": "transcript.txt, L126, 00:21:01, Consultant"
+    },
+    {
+      "path": "/rubric[26]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I ring the office at half six every morning and ask Maxine what came in yesterday. And I walk round the yard with the sheet before the lads start. That's the system. Me, walking.",
+      "location": "00:22:33 Jon Ashby",
+      "cited": "transcript.txt, L134, 00:22:33, Jon Ashby"
+    },
+    {
+      "path": "/rubric[26]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Then there isn't a system.",
+      "location": "00:22:49 Jon Ashby",
+      "cited": "transcript.txt, L136, 00:22:49, Jon Ashby"
+    },
+    {
+      "path": "/rubric[26]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What do you do about it now?",
+      "location": "00:22:28 Consultant",
+      "cited": "transcript.txt, L133, 00:22:28, Consultant"
+    },
+    {
+      "path": "/rubric[27]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "and two of our own lifts went to the next day.",
+      "location": "00:20:42 Tadhg Devlin",
+      "cited": "transcript.txt, L125, 00:20:42, Tadhg Devlin"
+    },
+    {
+      "path": "/rubric[27]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "One-eighty. Same as a visitor lift. We could charge it. We don't, because it's our fault, mostly.",
+      "location": "00:23:03 Jon Ashby",
+      "cited": "transcript.txt, L138, 00:23:03, Jon Ashby"
+    },
+    {
+      "path": "/rubric[28]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Don't. I'd be guessing and you'd be quoting me.",
+      "location": "00:29:52 Maxine Bassett",
+      "cited": "transcript.txt, L182, 00:29:52, Maxine Bassett"
+    },
+    {
+      "path": "/rubric[28]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And Bernie's own time, the parts written off, Wojtek's overtime?",
+      "location": "00:29:44 Consultant",
+      "cited": "transcript.txt, L181, 00:29:44, Consultant"
+    },
+    {
+      "path": "/rubric[29]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Spring's worse, because the launches are all on dates the owner picked back in October, and then the weather has opinions.",
+      "location": "00:22:16 Jon Ashby",
+      "cited": "transcript.txt, L132, 00:22:16, Jon Ashby"
+    },
+    {
+      "path": "/rubric[30]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "They ring. In April the office phone doesn't stop. Is my boat in, is it done, why isn't it done.",
+      "location": "00:25:06 Maxine Bassett",
+      "cited": "transcript.txt, L149, 00:25:06, Maxine Bassett"
+    },
+    {
+      "path": "/rubric[30]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And the owners, generally. While all this is going on, how do they find out?",
+      "location": "00:24:58 Consultant",
+      "cited": "transcript.txt, L148, 00:24:58, Consultant"
+    },
+    {
+      "path": "/rubric[31]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Dozens a day. I couldn't tell you. Maxine could.",
+      "location": "00:25:26 Maxine Bassett",
+      "cited": "transcript.txt, L151, 00:25:26, Maxine Bassett"
+    },
+    {
+      "path": "/rubric[31]/asked_quote/quote",
+      "status": "verified",
+      "quote": "How many calls?",
+      "location": "00:25:23 Consultant",
+      "cited": "transcript.txt, L150, 00:25:23, Consultant"
+    },
+    {
+      "path": "/rubric[32]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Nobody, formally. If Bernie's happy with it she rings Maxine and Maxine rings the owner.",
+      "location": "00:18:28 Jon Ashby",
+      "cited": "transcript.txt, L112, 00:18:28, Jon Ashby"
+    },
+    {
+      "path": "/rubric[32]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Which they don't believe, so they ring.",
+      "location": "00:25:06 Maxine Bassett",
+      "cited": "transcript.txt, L149, 00:25:06, Maxine Bassett"
+    },
+    {
+      "path": "/rubric[32]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And who tells the owner it's ready? When it is ready.",
+      "location": "00:18:23 Consultant",
+      "cited": "transcript.txt, L111, 00:18:23, Consultant"
+    },
+    {
+      "path": "/rubric[33]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Twice in one afternoon, once. He thought we'd lost the boat.",
+      "location": "00:18:40 Maxine Bassett",
+      "cited": "transcript.txt, L113, 00:18:40, Maxine Bassett"
+    },
+    {
+      "path": "/rubric[34]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "There isn't, and I'm not going to invent one. That's a Maxine number.",
+      "location": "00:25:38 John Rudge",
+      "cited": "transcript.txt, L153, 00:25:38, John Rudge"
+    },
+    {
+      "path": "/rubric[34]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Rudge, is there a number on what that costs? Maxine's time on those calls, say?",
+      "location": "00:25:31 Consultant",
+      "cited": "transcript.txt, L152, 00:25:31, Consultant"
+    },
+    {
+      "path": "/pains[0]/quote",
+      "status": "verified",
+      "quote": "And this April, forty-one of them weren't ready on their date.",
+      "location": "00:04:33 Tadhg Devlin",
+      "cited": "transcript.txt, L33, 00:04:33, Tadhg Devlin"
+    },
+    {
+      "path": "/pains[1]/quote",
+      "status": "verified",
+      "quote": "Because the job card was in the wrong pile, or in a van, or in one case, in the skip.",
+      "location": "00:05:00 Tadhg Devlin",
+      "cited": "transcript.txt, L35, 00:05:00, Tadhg Devlin"
+    },
+    {
+      "path": "/pains[2]/quote",
+      "status": "verified",
+      "quote": "The date changes and the card doesn't. Or the card changes because Bernie heard about it, and the book doesn't. Either way there's two dates and one of them's wrong.",
+      "location": "00:18:10 Jon Ashby",
+      "cited": "transcript.txt, L110, 00:18:10, Jon Ashby"
+    },
+    {
+      "path": "/pains[3]/quote",
+      "status": "verified",
+      "quote": "It's the walk back to the van, it's the second job they did while they were up the ladder, it's the snag they fixed because it was there.",
+      "location": "00:14:37 Maxine Bassett",
+      "cited": "transcript.txt, L91, 00:14:37, Maxine Bassett"
+    },
+    {
+      "path": "/pains[4]/quote",
+      "status": "verified",
+      "quote": "If the card says fourteen hours, it's fourteen hours. I've no way of knowing it was twenty-six.",
+      "location": "00:13:53 John Rudge",
+      "cited": "transcript.txt, L85, 00:13:53, John Rudge"
+    },
+    {
+      "path": "/pains[5]/quote",
+      "status": "verified",
+      "quote": "Three places. And a forty-two-foot boat hanging in the slings for forty minutes while three of us argued about whose was next, with the tide going out under it.",
+      "location": "00:21:50 Jon Ashby",
+      "cited": "transcript.txt, L129, 00:21:50, Jon Ashby"
+    },
+    {
+      "path": "/pains[6]/quote",
+      "status": "verified",
+      "quote": "The book doesn't know about the tide.",
+      "location": "00:09:24 Jon Ashby",
+      "cited": "transcript.txt, L59, 00:09:24, Jon Ashby"
+    },
+    {
+      "path": "/pains[7]/quote",
+      "status": "verified",
+      "quote": "Maxine's answerphone message in April actually says, if you're ringing about your launch date we'll ring you. Which they don't believe, so they ring.",
+      "location": "00:25:06 Maxine Bassett",
+      "cited": "transcript.txt, L149, 00:25:06, Maxine Bassett"
+    },
+    {
+      "path": "/pains[8]/quote",
+      "status": "verified",
+      "quote": "A lift with no card, no line, and a surveyor tapping his watch.",
+      "location": "00:20:32 Jon Ashby",
+      "cited": "transcript.txt, L124, 00:20:32, Jon Ashby"
+    },
+    {
+      "path": "/pains[9]/quote",
+      "status": "verified",
+      "quote": "We've got the weights for maybe two thirds of the regulars. In Maxine's head, mostly. Some on the sheet.",
+      "location": "00:10:36 Jon Ashby",
+      "cited": "transcript.txt, L65, 00:10:36, Jon Ashby"
+    },
+    {
+      "path": "/numbers/bleed/quote",
+      "status": "verified",
+      "quote": "Seventy-two, plus eleven, plus thirteen and a half. Ninety-six and a half thousand. A year.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L176, 00:28:56, John Rudge"
+      ]
+    },
+    {
+      "path": "/numbers/upside/quote",
+      "status": "verified",
+      "quote": "Sixty at four thousand two hundred is two hundred and fifty-two thousand a year in berthing",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L184, 00:30:05, Tadhg Devlin"
+      ]
+    },
+    {
+      "path": "/objections[0]/quote",
+      "status": "verified",
+      "quote": "They can rebuild a gearbox in the rain but they will not write down that they did it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L82, 00:13:28, Maxine Bassett"
+      ]
+    },
+    {
+      "path": "/objections[1]/quote",
+      "status": "verified",
+      "quote": "The engineers. If it needs typing, they won't. Not won't. Can't. Phone in a drawer, gloves on, forty foot up a ladder.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L211, 00:35:09, Maxine Bassett"
+      ]
+    },
+    {
+      "path": "/objections[2]/quote",
+      "status": "verified",
+      "quote": "I tried one of those task apps two summers ago. Free trial. It was me and Lorcan for a month, and then it was me, and then it was nobody.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L226, 00:38:09, Maxine Bassett"
+      ]
+    },
+    {
+      "path": "/objections[3]/quote",
+      "status": "verified",
+      "quote": "I haven't agreed to buy it, and Aubrey hasn't seen it, so don't write agreed anywhere he'll read it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L243, 00:41:40, Tadhg Devlin"
+      ]
+    },
+    {
+      "path": "/objections[4]/quote",
+      "status": "verified",
+      "quote": "We're three weeks from the busiest eight weeks of the year. I'm not learning a new thing on the twelfth of October with a boat in the slings.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L205, 00:34:16, Jon Ashby"
+      ]
+    },
+    {
+      "path": "/objections[5]/quote",
+      "status": "verified",
+      "quote": "And I could build the lift list in a spreadsheet with the tide in it in a weekend. Honestly. Why don't I?",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L227, 00:38:21, John Rudge"
+      ]
+    },
+    {
+      "path": "/objections[6]/quote",
+      "status": "verified",
+      "quote": "The berthing system people have a yard module. They pitched it in June.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L221, 00:37:02, John Rudge"
+      ]
+    },
+    {
+      "path": "/objections[7]/quote",
+      "status": "verified",
+      "quote": "And isn't this just another place to type things? Genuine question. Not a dig.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L224, 00:37:45, John Rudge"
+      ]
+    },
+    {
+      "path": "/objections[8]/quote",
+      "status": "verified",
+      "quote": "What does something like this cost? Roughly. So I can warn Aubrey before the fourteenth.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L245, 00:42:00, Tadhg Devlin"
+      ]
+    },
+    {
+      "path": "/objections[9]/quote",
+      "status": "verified",
+      "quote": "Aubrey hates anything monthly. He'll ask why it isn't a one-off, and you should have an answer.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L199, 00:32:47, John Rudge"
+      ]
+    },
+    {
+      "path": "/objections[10]/quote",
+      "status": "verified",
+      "quote": "The signal. Wi-Fi doesn't reach the hardstanding.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L212, 00:35:20, Jon Ashby"
+      ]
+    },
+    {
+      "path": "/objections[11]/quote",
+      "status": "verified",
+      "quote": "Half the yard's seasonal, they come in April and they're gone in October, so whoever learns it in the spring isn't here in the autumn.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L213, 00:35:32, Tadhg Devlin"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[0]/quote",
+      "status": "verified",
+      "quote": "Monday the fifth. Morning. Half nine, before the yard gets loud. Here, not on a screen, if you can manage it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L249, 00:42:46, Tadhg Devlin"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[1]/quote",
+      "status": "verified",
+      "quote": "I'll send an invite today for half nine on the fifth, with a note of what we've agreed and the questions I've got for Maxine when she's back on the twenty-eighth.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L253, 00:43:20, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[2]/quote",
+      "status": "verified",
+      "quote": "And I'll ask Aubrey. He won't come but I'll ask, and then he can't say he wasn't asked.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L252, 00:43:10, Tadhg Devlin"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[3]/quote",
+      "status": "verified",
+      "quote": "Done. He'll hate it before and like it after. That's Lorcan.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L261, 00:44:32, Tadhg Devlin"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[4]/quote",
+      "status": "verified",
+      "quote": "I'll put a proper figure in front of you before the fourteenth, in writing, with what it covers.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L246, 00:42:06, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[5]/quote",
+      "status": "verified",
+      "quote": "Fair. I'd rather have nothing than a guess. It goes on the list for the twenty-eighth.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L154, 00:25:53, Consultant"
+      ]
+    },
+    {
+      "path": "/requested_changes[0]/quote",
+      "status": "verified",
+      "quote": "And it prints. Whatever it is, it prints, because the lads read paper and they will read paper until they retire.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L233, 00:39:46, Maxine Bassett"
+      ]
+    },
+    {
+      "path": "/requested_changes[1]/quote",
+      "status": "verified",
+      "quote": "And the launch date on every card. In red if it's inside a fortnight. That's the one thing I'd have wanted in April.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L234, 00:39:56, Tadhg Devlin"
+      ]
+    },
+    {
+      "path": "/requested_changes[2]/quote",
+      "status": "verified",
+      "quote": "Not the certificate itself. Whether we've got it. The certificate has the owner's address on it and I'm not having that on a screen in the yard.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L241, 00:41:11, John Rudge"
+      ]
+    },
+    {
+      "path": "/requested_changes[3]/quote",
+      "status": "verified",
+      "quote": "Not the owners typing in, though. I know that's where these things go. Not in the first go. The office types it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L231, 00:39:24, Tadhg Devlin"
+      ]
+    },
+    {
+      "path": "/requested_changes[4]/quote",
+      "status": "verified",
+      "quote": "And the tide window on the slot. If it doesn't know about the tide, it's the book again with a nicer font.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L232, 00:39:35, Jon Ashby"
+      ]
+    },
+    {
+      "path": "/requested_changes[5]/quote",
+      "status": "verified",
+      "quote": "And leave parts out. I'll do parts my way until you've seen how bad my way is, and then we'll talk.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L235, 00:40:06, Maxine Bassett"
+      ]
+    },
+    {
+      "path": "/account_context/evidence_quote_or_null",
+      "status": "verified",
+      "quote": "No. Nothing. Aubrey's other business, the holiday park, uses something with coloured boards for the housekeeping rota, I've seen it on his phone, I couldn't tell you what it is.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L201, 00:33:05, Tadhg Devlin"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[0]/quote",
+      "status": "verified",
+      "quote": "I'm not going to show you anything today.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L18, 00:01:56, Consultant"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[2]/quote",
+      "status": "verified",
+      "quote": "Good. That's what I told Aubrey we'd do. Ask away.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L19, 00:02:30, Tadhg Devlin"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[3]/quote",
+      "status": "verified",
+      "quote": "One list. A boat comes out, and everything about it, the jobs, the parts, the launch date, who's on it, is in one place",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L190, 00:31:12, Tadhg Devlin"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[4]/quote",
+      "status": "verified",
+      "quote": "Mine, up to twenty thousand on anything operational.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L195, 00:32:11, Tadhg Devlin"
+      ]
+    },
+    {
+      "path": "/readiness/goals[0]/quote",
+      "status": "verified",
+      "quote": "A boat comes out, and everything about it, the jobs, the parts, the launch date, who's on it, is in one place, and on a Monday morning I can see which ones won't make their date, and the owner's been told a week before, not on the day.",
+      "location": "00:31:12 Tadhg Devlin",
+      "cited": "transcript.txt, L190, 00:31:12, Tadhg Devlin"
+    },
+    {
+      "path": "/readiness/goals[1]/quote",
+      "status": "verified",
+      "quote": "Every hour on a card by Friday.",
+      "location": "00:31:53 Maxine Bassett",
+      "cited": "transcript.txt, L193, 00:31:53, Maxine Bassett"
+    },
+    {
+      "path": "/readiness/goals[2]/quote",
+      "status": "verified",
+      "quote": "If the boats go in on their dates next spring, we've done it.",
+      "location": "00:33:33 Tadhg Devlin",
+      "cited": "transcript.txt, L203, 00:33:33, Tadhg Devlin"
+    },
+    {
+      "path": "/readiness/pains[0]/quote",
+      "status": "verified",
+      "quote": "And this April, forty-one of them weren't ready on their date.",
+      "location": "00:04:33 Tadhg Devlin",
+      "cited": "transcript.txt, L33, 00:04:33, Tadhg Devlin"
+    },
+    {
+      "path": "/readiness/pains[1]/quote",
+      "status": "verified",
+      "quote": "Because the job card was in the wrong pile, or in a van, or in one case, in the skip.",
+      "location": "00:05:00 Tadhg Devlin",
+      "cited": "transcript.txt, L35, 00:05:00, Tadhg Devlin"
+    },
+    {
+      "path": "/readiness/pains[2]/quote",
+      "status": "verified",
+      "quote": "The date changes and the card doesn't. Or the card changes because Bernie heard about it, and the book doesn't. Either way there's two dates and one of them's wrong.",
+      "location": "00:18:10 Jon Ashby",
+      "cited": "transcript.txt, L110, 00:18:10, Jon Ashby"
+    },
+    {
+      "path": "/readiness/pains[3]/quote",
+      "status": "verified",
+      "quote": "It's the walk back to the van, it's the second job they did while they were up the ladder, it's the snag they fixed because it was there.",
+      "location": "00:14:37 Maxine Bassett",
+      "cited": "transcript.txt, L91, 00:14:37, Maxine Bassett"
+    },
+    {
+      "path": "/readiness/pains[4]/quote",
+      "status": "verified",
+      "quote": "If the card says fourteen hours, it's fourteen hours. I've no way of knowing it was twenty-six.",
+      "location": "00:13:53 John Rudge",
+      "cited": "transcript.txt, L85, 00:13:53, John Rudge"
+    },
+    {
+      "path": "/readiness/pains[5]/quote",
+      "status": "verified",
+      "quote": "Three places. And a forty-two-foot boat hanging in the slings for forty minutes while three of us argued about whose was next, with the tide going out under it.",
+      "location": "00:21:50 Jon Ashby",
+      "cited": "transcript.txt, L129, 00:21:50, Jon Ashby"
+    },
+    {
+      "path": "/readiness/pains[6]/quote",
+      "status": "verified",
+      "quote": "The book doesn't know about the tide.",
+      "location": "00:09:24 Jon Ashby",
+      "cited": "transcript.txt, L59, 00:09:24, Jon Ashby"
+    },
+    {
+      "path": "/readiness/pains[7]/quote",
+      "status": "verified",
+      "quote": "Maxine's answerphone message in April actually says, if you're ringing about your launch date we'll ring you. Which they don't believe, so they ring.",
+      "location": "00:25:06 Maxine Bassett",
+      "cited": "transcript.txt, L149, 00:25:06, Maxine Bassett"
+    },
+    {
+      "path": "/readiness/pains[8]/quote",
+      "status": "verified",
+      "quote": "A lift with no card, no line, and a surveyor tapping his watch.",
+      "location": "00:20:32 Jon Ashby",
+      "cited": "transcript.txt, L124, 00:20:32, Jon Ashby"
+    },
+    {
+      "path": "/readiness/pains[9]/quote",
+      "status": "verified",
+      "quote": "We've got the weights for maybe two thirds of the regulars. In Maxine's head, mostly. Some on the sheet.",
+      "location": "00:10:36 Jon Ashby",
+      "cited": "transcript.txt, L65, 00:10:36, Jon Ashby"
+    },
+    {
+      "path": "/readiness/signals[0]/quote",
+      "status": "verified",
+      "quote": "And it prints. Whatever it is, it prints, because the lads read paper and they will read paper until they retire.",
+      "location": "00:39:46 Maxine Bassett",
+      "cited": "transcript.txt, L233, 00:39:46, Maxine Bassett"
+    },
+    {
+      "path": "/readiness/signals[1]/quote",
+      "status": "verified",
+      "quote": "It's not replacing her. It's replacing the book. She'd be running it.",
+      "location": "00:36:21 Tadhg Devlin",
+      "cited": "transcript.txt, L217, 00:36:21, Tadhg Devlin"
+    },
+    {
+      "path": "/readiness/signals[2]/quote",
+      "status": "verified",
+      "quote": "Bernie could have, if she'd known his date. Bernie's wall doesn't have dates on it. It has boats on it.",
+      "location": "00:24:39 Tadhg Devlin",
+      "cited": "transcript.txt, L146, 00:24:39, Tadhg Devlin"
+    },
+    {
+      "path": "/readiness/signals[3]/quote",
+      "status": "verified",
+      "quote": "And I could build the lift list in a spreadsheet with the tide in it in a weekend. Honestly. Why don't I?",
+      "location": "00:38:21 John Rudge",
+      "cited": "transcript.txt, L227, 00:38:21, John Rudge"
+    },
+    {
+      "path": "/readiness/signals[4]/quote",
+      "status": "verified",
+      "quote": "The berthing system people have a yard module. They pitched it in June.",
+      "location": "00:37:02 John Rudge",
+      "cited": "transcript.txt, L221, 00:37:02, John Rudge"
+    },
+    {
+      "path": "/readiness/signals[5]/quote",
+      "status": "verified",
+      "quote": "And leave parts out. I'll do parts my way until you've seen how bad my way is, and then we'll talk.",
+      "location": "00:40:06 Maxine Bassett",
+      "cited": "transcript.txt, L235, 00:40:06, Maxine Bassett"
+    },
+    {
+      "path": "/readiness/signals[6]/quote",
+      "status": "verified",
+      "quote": "And Lorcan, for the yard, but he'd have said nothing and then told me afterwards it was all wrong.",
+      "location": "00:44:06 Tadhg Devlin",
+      "cited": "transcript.txt, L259, 00:44:06, Tadhg Devlin"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[0]",
+      "status": "verified",
+      "quote": "we lifted twenty-three boats twice",
+      "location": "00:05:29 Tadhg Devlin",
+      "cited": "transcript.txt, L37, 00:05:29, Tadhg Devlin"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[1]",
+      "status": "verified",
+      "quote": "And one of the four on the board was a relaunch, not a lift, because a boat that came out in September for a quick job needed to go back in, and that was on Bernie's wall and not in the book at all.",
+      "location": "00:21:08 Jon Ashby",
+      "cited": "transcript.txt, L127, 00:21:08, Jon Ashby"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[2]",
+      "status": "verified",
+      "quote": "in and out the same day, no card, and no line in the book half the time",
+      "location": "00:20:01 Jon Ashby",
+      "cited": "transcript.txt, L122, 00:20:01, Jon Ashby"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[3]",
+      "status": "verified",
+      "quote": "So on a neap it's two boats. On a big spring it's five, six if Wojtek's on form.",
+      "location": "00:09:48 Jon Ashby",
+      "cited": "transcript.txt, L61, 00:09:48, Jon Ashby"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[0]",
+      "status": "verified",
+      "quote": "with the antifoul not done or the anodes not on or, in two cases, the engine in bits on the floor of the workshop",
+      "location": "00:05:00 Tadhg Devlin",
+      "cited": "transcript.txt, L35, 00:05:00, Tadhg Devlin"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[1]",
+      "status": "verified",
+      "quote": "Boat name, owner, what they've asked for. Antifoul, anodes, engine service, whatever.",
+      "location": "00:11:34 Tadhg Devlin",
+      "cited": "transcript.txt, L72, 00:11:34, Tadhg Devlin"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[2]",
+      "status": "verified",
+      "quote": "The antifoul's on, but the anode's in a box in the workshop.",
+      "location": "00:23:18 Tadhg Devlin",
+      "cited": "transcript.txt, L140, 00:23:18, Tadhg Devlin"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[3]",
+      "status": "verified",
+      "quote": "Then the lads don't get logins in the first go. The office types, the lads read paper.",
+      "location": "00:36:51 Consultant",
+      "cited": "transcript.txt, L220, 00:36:51, Consultant"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[0]",
+      "status": "verified",
+      "quote": "So the weight is a fact about the boat that lives in three places or none.",
+      "location": "00:10:56 Consultant",
+      "cited": "transcript.txt, L66, 00:10:56, Consultant"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[1]",
+      "status": "verified",
+      "quote": "Or none. Yes. Usually none.",
+      "location": "00:11:03 Jon Ashby",
+      "cited": "transcript.txt, L67, 00:11:03, Jon Ashby"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[2]",
+      "status": "verified",
+      "quote": "We've got the weights for maybe two thirds of the regulars. In Maxine's head, mostly. Some on the sheet.",
+      "location": "00:10:36 Jon Ashby",
+      "cited": "transcript.txt, L65, 00:10:36, Jon Ashby"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[0]",
+      "status": "verified",
+      "quote": "Two, the job card, on the boat, with the hours, the parts and the launch date, and Bernie's wall becomes a view of that.",
+      "location": "00:38:40 Consultant",
+      "cited": "transcript.txt, L230, 00:38:40, Consultant"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[1]",
+      "status": "verified",
+      "quote": "And it prints. Whatever it is, it prints, because the lads read paper and they will read paper until they retire.",
+      "location": "00:39:46 Maxine Bassett",
+      "cited": "transcript.txt, L233, 00:39:46, Maxine Bassett"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[0]",
+      "status": "verified",
+      "quote": "The book said five, because Maxine had taken a fifth on the Thursday and it hadn't got to the board.",
+      "location": "00:21:08 Jon Ashby",
+      "cited": "transcript.txt, L127, 00:21:08, Jon Ashby"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[1]",
+      "status": "verified",
+      "quote": "I ring the office at half six every morning and ask Maxine what came in yesterday.",
+      "location": "00:22:33 Jon Ashby",
+      "cited": "transcript.txt, L134, 00:22:33, Jon Ashby"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[0]",
+      "status": "verified",
+      "quote": "Before a boat comes out we're supposed to have the owner's insurance certificate on file, and after it comes out there's a lift record, who drove, what it weighed, date.",
+      "location": "00:40:27 John Rudge",
+      "cited": "transcript.txt, L237, 00:40:27, John Rudge"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[1]",
+      "status": "verified",
+      "quote": "Not the certificate itself. Whether we've got it.",
+      "location": "00:41:11 John Rudge",
+      "cited": "transcript.txt, L241, 00:41:11, John Rudge"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[0]",
+      "status": "verified",
+      "quote": "They can rebuild a gearbox in the rain but they will not write down that they did it.",
+      "location": "00:13:28 Maxine Bassett",
+      "cited": "transcript.txt, L82, 00:13:28, Maxine Bassett"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[1]",
+      "status": "verified",
+      "quote": "and on the Friday I go round with a pen and ask everyone what they did all week. And they tell me, roughly.",
+      "location": "00:12:57 Maxine Bassett",
+      "cited": "transcript.txt, L79, 00:12:57, Maxine Bassett"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[2]",
+      "status": "verified",
+      "quote": "And the hours. Every hour on a card by Friday. That one's mine.",
+      "location": "00:31:53 Maxine Bassett",
+      "cited": "transcript.txt, L193, 00:31:53, Maxine Bassett"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[0]",
+      "status": "verified",
+      "quote": "Three, later, the owner told a week before.",
+      "location": "00:38:40 Consultant",
+      "cited": "transcript.txt, L230, 00:38:40, Consultant"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[1]",
+      "status": "verified",
+      "quote": "Not the owners typing in, though. I know that's where these things go. Not in the first go. The office types it.",
+      "location": "00:39:24 Tadhg Devlin",
+      "cited": "transcript.txt, L231, 00:39:24, Tadhg Devlin"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[2]",
+      "status": "verified",
+      "quote": "The younger ones email. The older ones ring. One writes letters.",
+      "location": "00:19:01 Jon Ashby",
+      "cited": "transcript.txt, L115, 00:19:01, Jon Ashby"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[0]",
+      "status": "verified",
+      "quote": "Above that it's Aubrey and the board, which is the family, four of them, and they meet on the fourteenth of October.",
+      "location": "00:32:11 Tadhg Devlin",
+      "cited": "transcript.txt, L195, 00:32:11, Tadhg Devlin"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[1]",
+      "status": "verified",
+      "quote": "Nobody calls Aubrey the owner, he'd hate it, and it's four of them anyway.",
+      "location": "00:07:01 Tadhg Devlin",
+      "cited": "transcript.txt, L46, 00:07:01, Tadhg Devlin"
+    },
+    {
+      "path": "/readiness/structure/leanings[9]/quotes[0]",
+      "status": "verified",
+      "quote": "The berthing system stays. It's got the direct debits in it and four hundred and twenty contracts and I'm not moving them anywhere for anyone.",
+      "location": "00:35:50 John Rudge",
+      "cited": "transcript.txt, L214, 00:35:50, John Rudge"
+    },
+    {
+      "path": "/readiness/structure/leanings[9]/quotes[1]",
+      "status": "verified",
+      "quote": "And it's not moving. I'll say that now so nobody wastes an hour on it.",
+      "location": "00:19:31 John Rudge",
+      "cited": "transcript.txt, L118, 00:19:31, John Rudge"
+    },
+    {
+      "path": "/readiness/structure/leanings[9]/quotes[2]",
+      "status": "verified",
+      "quote": "Agreed, and nothing writes to it. Read from it, maybe, later, and only the berth holder list.",
+      "location": "00:36:02 Consultant",
+      "cited": "transcript.txt, L215, 00:36:02, Consultant"
+    },
+    {
+      "path": "/readiness/structure/leanings[10]/quotes[0]",
+      "status": "verified",
+      "quote": "Three thousand six hundred a year, it does lift bookings against the tide, and it's already where the berths are. Why isn't this that?",
+      "location": "00:37:02 John Rudge",
+      "cited": "transcript.txt, L221, 00:37:02, John Rudge"
+    },
+    {
+      "path": "/readiness/structure/leanings[10]/quotes[1]",
+      "status": "verified",
+      "quote": "Because it doesn't do the workshop, and I've seen it, I have seen it, and it looks like the berthing system, which is the problem with the berthing system.",
+      "location": "00:37:20 Tadhg Devlin",
+      "cited": "transcript.txt, L222, 00:37:20, Tadhg Devlin"
+    }
+  ]
+}

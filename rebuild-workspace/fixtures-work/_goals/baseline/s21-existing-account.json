@@ -1,0 +1,1485 @@
+{
+  "fixture": "s21-existing-account",
+  "sources": [
+    {
+      "name": "transcript.txt",
+      "kind": "transcript",
+      "format": "line-bracket",
+      "units": 262,
+      "unsupported": null
+    }
+  ],
+  "counts": {
+    "pairs": 194,
+    "verified": 191,
+    "verified_presence_only": 25,
+    "skipped": 3,
+    "unparsed_prose": 0,
+    "near_misses": 0,
+    "misses": 0,
+    "unsupported": 0,
+    "warnings": 0
+  },
+  "refused_quotes_not_checked": [],
+  "skipped": [],
+  "pairs": [
+    {
+      "path": "/rubric[0]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The Studies board is the thing that works. Every brief goes on it, the account leads live on it, and the Friday email goes out off it without anybody touching it.",
+      "location": "00:03:20 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L21, 00:03:20, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[0]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Don't touch the Friday email. I mean that. The account leads would notice before I did.",
+      "location": "00:03:33 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L22, 00:03:33, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[0]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "The rota board's dead. It's still in there, but nobody's put anything on it in about a year.",
+      "location": "00:04:25 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L28, 00:04:25, Idris Machado"
+    },
+    {
+      "path": "/rubric[0]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "They went back to the sheet inside three months. Leonie was doing it twice, once on the board and once on the sheet, and the sheet won.",
+      "location": "00:04:36 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L30, 00:04:36, Idris Machado"
+    },
+    {
+      "path": "/rubric[0]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Nobody, really.",
+      "location": "00:05:08 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L33, 00:05:08, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[0]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "It's a board with a form on the front, one item per brief, and the cells are subitems.",
+      "location": "00:06:24 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L41, 00:06:24, Bethan Tull"
+    },
+    {
+      "path": "/rubric[0]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "No. Studies, Incentives, the Friday email. The rota's dead, the costing board is Bethan's. That's the estate.",
+      "location": "00:06:47 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L43, 00:06:47, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[0]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "Every brief gets costed in the sheet, and the sheet is a copy of a copy of a copy.",
+      "location": "00:07:55 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L49, 00:07:55, Bethan Tull"
+    },
+    {
+      "path": "/rubric[0]/evidence[8]/quote",
+      "status": "verified",
+      "quote": "Leonie does the sheet, colour codes it, and takes a photo of it. The photo goes in the group chat. That's the system.",
+      "location": "00:24:11 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L165, 00:24:11, Idris Machado"
+    },
+    {
+      "path": "/rubric[0]/asked_quote/quote",
+      "status": "verified",
+      "quote": "tell me what's actually live from what we did, and what isn't. Don't spare me.",
+      "location": "00:03:07 Consultant",
+      "cited": "transcript.txt, L20, 00:03:07, Consultant"
+    },
+    {
+      "path": "/rubric[1]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The Farraday one. The incentive line was in there twice, once per cell and once at the bottom, and I didn't catch it, and the number went to the agency doubled up on the incentives and light everywhere else, and we ate it.",
+      "location": "00:09:16 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L57, 00:09:16, Bethan Tull"
+    },
+    {
+      "path": "/rubric[1]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Three weeks ago we had a Saturday session with two recruiters booked on it and neither of them knew. Twelve respondents turned up to an empty room and the account lead had to ring round apologising.",
+      "location": "00:23:13 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L159, 00:23:13, Idris Machado"
+    },
+    {
+      "path": "/rubric[1]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Noted. And where does it go wrong?",
+      "location": "00:09:12 Consultant",
+      "cited": "transcript.txt, L56, 00:09:12, Consultant"
+    },
+    {
+      "path": "/rubric[2]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "What's changed is we picked up three, no, two new agency clients since the summer, and both of them want a costed brief back inside forty-eight hours. We've never worked like that.",
+      "location": "00:13:05 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L86, 00:13:05, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[2]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "We've always been a week. A week was fine. It's not fine any more.",
+      "location": "00:13:19 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L87, 00:13:19, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[2]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "End of the summer. It was the thing that tipped it, for me.",
+      "location": "00:09:41 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L60, 00:09:41, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[2]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "No. Honestly, no. There's no date. It's just been getting worse and I'm tired of it.",
+      "location": "00:29:42 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L205, 00:29:42, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[2]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Fair. Is there anything on your side that puts a date on this? A wave, a contract, a year end?",
+      "location": "00:29:33 Consultant",
+      "cited": "transcript.txt, L204, 00:29:33, Consultant"
+    },
+    {
+      "path": "/rubric[3]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The costing sheet is my Friday. Every Friday. Four hours, sometimes five, just re-keying cells and checking the sums against each other.",
+      "location": "00:10:15 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L66, 00:10:15, Bethan Tull"
+    },
+    {
+      "path": "/rubric[3]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Every Friday. And the other two fieldwork managers do the same for theirs, less than me, they've got fewer cells, call it half that each.",
+      "location": "00:10:27 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L68, 00:10:27, Bethan Tull"
+    },
+    {
+      "path": "/rubric[3]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Between the three of us we cost, what, twelve, fifteen briefs a month? Fifteen in a busy month.",
+      "location": "00:11:38 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L74, 00:11:38, Bethan Tull"
+    },
+    {
+      "path": "/rubric[3]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "I don't carry loaded rates around in my head. That's Philippa's, and I'd rather she gave you the real number than I guessed at one.",
+      "location": "00:13:57 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L93, 00:13:57, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[3]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Don't. Get it from Philippa.",
+      "location": "00:14:14 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L95, 00:14:14, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[3]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "I genuinely don't. It's not something I've timed and I'd be making it up. Ask Leonie.",
+      "location": "00:24:59 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L171, 00:24:59, Idris Machado"
+    },
+    {
+      "path": "/rubric[3]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What's that time worth, roughly? Do you carry a loaded rate for a fieldwork manager?",
+      "location": "00:13:45 Consultant",
+      "cited": "transcript.txt, L92, 00:13:45, Consultant"
+    },
+    {
+      "path": "/rubric[4]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We'd stop losing the short-notice ones. I'm not going to put a number on that today, I'd be guessing.",
+      "location": "00:30:01 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L207, 00:30:01, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[4]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It's more than I'd like to say out loud without checking.",
+      "location": "00:30:13 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L209, 00:30:13, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[4]/asked_quote/quote",
+      "status": "verified",
+      "quote": "If a costed brief went back in a day instead of a week, what does that do for you?",
+      "location": "00:29:50 Consultant",
+      "cited": "transcript.txt, L206, 00:29:50, Consultant"
+    },
+    {
+      "path": "/rubric[5]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "A brief comes in, Bethan costs it once, in one place, and the number that goes to the agency is the number Philippa sees. That's it. That's the whole thing.",
+      "location": "00:28:25 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L196, 00:28:25, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[5]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Meaning I don't care where, as long as there's one of it. If the number's on Beth's board and the Studies board shows it and Philippa reads it off the same thing, that's one place. If it's three files that agree, that's not.",
+      "location": "00:28:41 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L198, 00:28:41, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[5]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And I get my Fridays back.",
+      "location": "00:28:59 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L199, 00:28:59, Bethan Tull"
+    },
+    {
+      "path": "/rubric[5]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "And the recruiters can see their week without Leonie retyping it.",
+      "location": "00:29:03 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L200, 00:29:03, Idris Machado"
+    },
+    {
+      "path": "/rubric[5]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Hamish just wants to stop hearing about the sheet. That's his win condition, if you want one.",
+      "location": "00:29:08 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L201, 00:29:08, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[5]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Imagine this is running well in the spring. What's different in a normal week?",
+      "location": "00:28:15 Consultant",
+      "cited": "transcript.txt, L195, 00:28:15, Consultant"
+    },
+    {
+      "path": "/rubric[6]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Bethan runs it. I am not going to be in the weeds on this one. But anything that touches the Studies board or the Friday email, I want to see it and say yes before it goes live.",
+      "location": "00:30:28 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L211, 00:30:28, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[6]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Spend is mine, up to what Hamish set for systems this year. The renewal plus this is inside that, I think. I'd want to check the number before I say it out loud.",
+      "location": "00:30:45 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L212, 00:30:45, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[6]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Then it's a conversation with Hamish, and he'll say yes if it's the sheet. But I don't think it's over.",
+      "location": "00:31:06 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L215, 00:31:06, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[6]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Philippa has to be fine with anything that goes near the Incentives board. She doesn't sign, but she can stop it.",
+      "location": "00:31:15 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L216, 00:31:15, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[6]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "We don't do purchase orders for this. It goes on the card, same as the renewal. Then it's Beth's.",
+      "location": "00:31:30 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L218, 00:31:30, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[6]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "Same way. On the card, nobody blinked. The number was small enough that it never went near Hamish, and it won't this time either unless the two of you go mad.",
+      "location": "00:31:45 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L220, 00:31:45, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[6]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Decision-wise. If we go ahead, who's involved, and who says yes?",
+      "location": "00:30:19 Consultant",
+      "cited": "transcript.txt, L210, 00:30:19, Consultant"
+    },
+    {
+      "path": "/rubric[7]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Now. The costing piece, now. I'm not going to put a date on it, we did that with the rota and it just moved.",
+      "location": "00:29:22 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L203, 00:29:22, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[7]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Yes. The costing piece, yes, today. The rota, show me.",
+      "location": "00:35:53 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L247, 00:35:53, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[7]/asked_quote/quote",
+      "status": "verified",
+      "quote": "I'll take it. Is this something for this quarter, or later on?",
+      "location": "00:29:16 Consultant",
+      "cited": "transcript.txt, L202, 00:29:16, Consultant"
+    },
+    {
+      "path": "/rubric[8]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The recruiters, we've talked about. The IT people and how you get in. And Philippa, if she thinks it touches her board.",
+      "location": "00:32:32 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L224, 00:32:32, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[8]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And the wave.",
+      "location": "00:32:42 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L225, 00:32:42, Idris Machado"
+    },
+    {
+      "path": "/rubric[8]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Leonie's got the sheet down to a fine art, honestly. She'd rather keep it. That's the thing you're up against.",
+      "location": "00:25:52 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L179, 00:25:52, Idris Machado"
+    },
+    {
+      "path": "/rubric[8]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "No. It's in my own workspace. I'd have to add you, and I'll need to ask the IT people how you're meant to come in, they have opinions about guests.",
+      "location": "00:20:26 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L137, 00:20:26, Bethan Tull"
+    },
+    {
+      "path": "/rubric[8]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "The one thing is recruitment can't take anything new in the last two weeks of a wave, and there's one starting the week after next. So whatever we do, it's not then.",
+      "location": "00:28:00 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L194, 00:28:00, Idris Machado"
+    },
+    {
+      "path": "/rubric[8]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What could stop it? Honestly.",
+      "location": "00:32:29 Consultant",
+      "cited": "transcript.txt, L223, 00:32:29, Consultant"
+    },
+    {
+      "path": "/rubric[9]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Yes. Send it. I'll grab something next week, once the wave's started it goes quiet for me.",
+      "location": "00:36:18 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L249, 00:36:18, Bethan Tull"
+    },
+    {
+      "path": "/rubric[9]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I'll send Bethan a booking link today, for forty-five minutes, just the two of us, where you walk me through the costing board cell by cell and I try the two approaches on a copy of it. Bethan, you pick the slot.",
+      "location": "00:35:58 Consultant",
+      "cited": "transcript.txt, L248, 00:35:58, Consultant"
+    },
+    {
+      "path": "/rubric[9]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I'll put you two in touch. Leave that with me.",
+      "location": "00:36:32 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L251, 00:36:32, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[9]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "I'll add you to the board once the IT people come back to me. Might be a few days.",
+      "location": "00:36:57 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L254, 00:36:57, Bethan Tull"
+    },
+    {
+      "path": "/rubric[9]/asked_quote/quote",
+      "status": "verified",
+      "quote": "I'll send Bethan a booking link today, for forty-five minutes, just the two of us, where you walk me through the costing board cell by cell and I try the two approaches on a copy of it. Bethan, you pick the slot.",
+      "location": "00:35:58 Consultant",
+      "cited": "transcript.txt, L248, 00:35:58, Consultant"
+    },
+    {
+      "path": "/rubric[10]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Either of those would do it, honestly. The first one. I don't want to lose the form.",
+      "location": "00:19:57 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L132, 00:19:57, Bethan Tull"
+    },
+    {
+      "path": "/rubric[10]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Because the account leads will fill in a form. They will not open a board and add an item. I've watched them not do it.",
+      "location": "00:20:07 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L134, 00:20:07, Bethan Tull"
+    },
+    {
+      "path": "/rubric[10]/asked_quote/quote",
+      "status": "verified",
+      "quote": "There are two ways I'd want to try. One, keep your cells as subitems and get the total onto the parent in a way the Studies board can read through a connection. Two, put the costing onto the Studies board itself and retire the second board.",
+      "location": "00:19:16 Consultant",
+      "cited": "transcript.txt, L130, 00:19:16, Consultant"
+    },
+    {
+      "path": "/rubric[11]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Inherited. Bethan's costing board as it stands, the form, the cells as subitems, the cell totals.",
+      "location": "00:33:57 Consultant",
+      "cited": "transcript.txt, L235, 00:33:57, Consultant"
+    },
+    {
+      "path": "/rubric[11]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "That's the shape. The rota is a maybe until I've seen it. The rest, yes.",
+      "location": "00:34:33 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L236, 00:34:33, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[11]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "One condition on the Studies board. No new columns the account leads have to fill in. They fill in the form and they read the status, that's all they'll do, and I'm not going to make them do more.",
+      "location": "00:34:40 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L237, 00:34:40, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[11]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Yes to that. Show her how and then it's hers.",
+      "location": "00:35:21 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L242, 00:35:21, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[11]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Fine. Whatever gets it out of the sidebar.",
+      "location": "00:35:42 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L245, 00:35:42, Idris Machado"
+    },
+    {
+      "path": "/rubric[11]/asked_quote/quote",
+      "status": "verified",
+      "quote": "After, I think, but let me play back what I think the whole shape is, and tell me where I'm wrong.",
+      "location": "00:33:48 Consultant",
+      "cited": "transcript.txt, L234, 00:33:48, Consultant"
+    },
+    {
+      "path": "/rubric[12]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And costing it means the sheet. Every brief gets costed in the sheet, and the sheet is a copy of a copy of a copy. There's no version of it that's the real one.",
+      "location": "00:07:55 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L49, 00:07:55, Bethan Tull"
+    },
+    {
+      "path": "/rubric[12]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And the number the client gets is not the number finance sees, because they're two different sheets by then.",
+      "location": "00:12:40 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L82, 00:12:40, Bethan Tull"
+    },
+    {
+      "path": "/rubric[12]/asked_quote/quote",
+      "status": "verified",
+      "quote": "So, costing. Bethan, walk me through it as it is today, before your board. Where does a brief start?",
+      "location": "00:07:24 Consultant",
+      "cited": "transcript.txt, L47, 00:07:24, Consultant"
+    },
+    {
+      "path": "/rubric[13]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The Farraday one. The incentive line was in there twice, once per cell and once at the bottom, and I didn't catch it, and the number went to the agency doubled up on the incentives and light everywhere else, and we ate it.",
+      "location": "00:09:16 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L57, 00:09:16, Bethan Tull"
+    },
+    {
+      "path": "/rubric[13]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "About six thousand, all in.",
+      "location": "00:09:36 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L58, 00:09:36, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[13]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Once a study. Nearly every study. The agency comes back with one more audience, or the brand wants a boost sample, and it's a fifth cell.",
+      "location": "00:11:57 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L77, 00:11:57, Bethan Tull"
+    },
+    {
+      "path": "/rubric[13]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Noted. And where does it go wrong?",
+      "location": "00:09:12 Consultant",
+      "cited": "transcript.txt, L56, 00:09:12, Consultant"
+    },
+    {
+      "path": "/rubric[14]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I open the brief email. I copy each cell into the sheet, n, incentive, recruit cost, by hand, because the agencies all send it differently.",
+      "location": "00:10:44 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L70, 00:10:44, Bethan Tull"
+    },
+    {
+      "path": "/rubric[14]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And the version of the sheet Philippa has is a different file. It's the same sheet, it's just not the same file.",
+      "location": "00:11:23 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L72, 00:11:23, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[14]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Which is partly why I built the costing thing on my own. I didn't want to email and wait.",
+      "location": "00:06:09 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L39, 00:06:09, Bethan Tull"
+    },
+    {
+      "path": "/rubric[14]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "But I can't get that number into a formula on the parent, and I can't get the Studies board to read it, and I've tried it four ways.",
+      "location": "00:16:53 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L114, 00:16:53, Bethan Tull"
+    },
+    {
+      "path": "/rubric[15]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The account leads sit on their hands until I'm done, because they can't send a number they haven't got. And then Philippa re-keys the whole thing into the accounting system for the invoice, so it's typed three times before anyone gets paid.",
+      "location": "00:12:22 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L81, 00:12:22, Bethan Tull"
+    },
+    {
+      "path": "/rubric[15]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Okay, twelve to fifteen. And who else is stuck while that's happening?",
+      "location": "00:12:16 Consultant",
+      "cited": "transcript.txt, L80, 00:12:16, Consultant"
+    },
+    {
+      "path": "/rubric[16]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The costing sheet is my Friday. Every Friday. Four hours, sometimes five, just re-keying cells and checking the sums against each other.",
+      "location": "00:10:15 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L66, 00:10:15, Bethan Tull"
+    },
+    {
+      "path": "/rubric[16]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Between the three of us we cost, what, twelve, fifteen briefs a month? Fifteen in a busy month.",
+      "location": "00:11:38 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L74, 00:11:38, Bethan Tull"
+    },
+    {
+      "path": "/rubric[16]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "At least twice. Some of them three times.",
+      "location": "00:12:12 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L79, 00:12:12, Bethan Tull"
+    },
+    {
+      "path": "/rubric[16]/asked_quote/quote",
+      "status": "verified",
+      "quote": "How long does the sheet take you, a normal week?",
+      "location": "00:10:10 Consultant",
+      "cited": "transcript.txt, L65, 00:10:10, Consultant"
+    },
+    {
+      "path": "/rubric[17]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "If we keep doing it in the sheet we will lose one of them. Not might. Will. They've said so.",
+      "location": "00:13:30 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L89, 00:13:30, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[17]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "In a review. Politely. But yes.",
+      "location": "00:13:41 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L91, 00:13:41, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[17]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And if it stays as it is?",
+      "location": "00:13:26 Consultant",
+      "cited": "transcript.txt, L88, 00:13:26, Consultant"
+    },
+    {
+      "path": "/rubric[18]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So the recruiters don't know their week until Leonie's done the sheet, and Leonie doesn't do the sheet until the field dates are in, and the field dates move.",
+      "location": "00:22:41 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L153, 00:22:41, Idris Machado"
+    },
+    {
+      "path": "/rubric[18]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Idris, the recruiters. Tell me where it is.",
+      "location": "00:22:31 Consultant",
+      "cited": "transcript.txt, L152, 00:22:31, Consultant"
+    },
+    {
+      "path": "/rubric[19]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Three weeks ago we had a Saturday session with two recruiters booked on it and neither of them knew. Twelve respondents turned up to an empty room and the account lead had to ring round apologising.",
+      "location": "00:23:13 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L159, 00:23:13, Idris Machado"
+    },
+    {
+      "path": "/rubric[19]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The field dates moved on the Wednesday. The Studies board had the new dates, because the account lead changed them, which is right. Leonie's sheet had the old ones, because nobody told her. And the photo in the chat was from the Monday. The two things don't know about each other.",
+      "location": "00:23:33 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L161, 00:23:33, Idris Machado"
+    },
+    {
+      "path": "/rubric[19]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What does wrong look like?",
+      "location": "00:23:10 Consultant",
+      "cited": "transcript.txt, L158, 00:23:10, Consultant"
+    },
+    {
+      "path": "/rubric[20]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Leonie does the sheet, colour codes it, and takes a photo of it. The photo goes in the group chat. That's the system.",
+      "location": "00:24:11 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L165, 00:24:11, Idris Machado"
+    },
+    {
+      "path": "/rubric[20]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "When she was off for a week in the summer nobody could read the colours and we lost two sessions.",
+      "location": "00:24:24 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L167, 00:24:24, Idris Machado"
+    },
+    {
+      "path": "/rubric[20]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "A second copy. For Thornbury. Which is exactly what we said we wouldn't do.",
+      "location": "00:25:35 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L177, 00:25:35, Idris Machado"
+    },
+    {
+      "path": "/rubric[20]/asked_quote/quote",
+      "status": "verified",
+      "quote": "How does the sheet work, day to day?",
+      "location": "00:24:07 Consultant",
+      "cited": "transcript.txt, L164, 00:24:07, Consultant"
+    },
+    {
+      "path": "/rubric[21]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The recruiters, obviously. The respondents, who've given up a Saturday. And whichever account lead has to ring the agency and explain.",
+      "location": "00:24:45 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L169, 00:24:45, Idris Machado"
+    },
+    {
+      "path": "/rubric[21]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "That one got to Hamish.",
+      "location": "00:24:04 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L163, 00:24:04, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[21]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Who else ends up dealing with it when it goes wrong?",
+      "location": "00:24:39 Consultant",
+      "cited": "transcript.txt, L168, 00:24:39, Consultant"
+    },
+    {
+      "path": "/rubric[22]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I genuinely don't. It's not something I've timed and I'd be making it up. Ask Leonie.",
+      "location": "00:24:59 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L171, 00:24:59, Idris Machado"
+    },
+    {
+      "path": "/rubric[22]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Ask Leonie. Don't take a number from us on that.",
+      "location": "00:25:07 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L172, 00:25:07, Henrietta Weyland"
+    },
+    {
+      "path": "/rubric[22]/asked_quote/quote",
+      "status": "verified",
+      "quote": "How long does the sheet take Leonie, do you know?",
+      "location": "00:24:54 Consultant",
+      "cited": "transcript.txt, L170, 00:24:54, Consultant"
+    },
+    {
+      "path": "/rubric[23]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It'll be worse with the second centre, probably. Thornbury's got its own recruiters and they'll want the same sheet. I don't know.",
+      "location": "00:25:17 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L174, 00:25:17, Idris Machado"
+    },
+    {
+      "path": "/rubric[23]/asked_quote/quote",
+      "status": "verified",
+      "quote": "I won't. And if nothing changes, a year from now?",
+      "location": "00:25:12 Consultant",
+      "cited": "transcript.txt, L173, 00:25:12, Consultant"
+    },
+    {
+      "path": "/pains[0]/quote",
+      "status": "verified",
+      "quote": "There's no version of it that's the real one.",
+      "location": "00:07:55 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L49, 00:07:55, Bethan Tull"
+    },
+    {
+      "path": "/pains[1]/quote",
+      "status": "verified",
+      "quote": "The Farraday one. The incentive line was in there twice, once per cell and once at the bottom, and I didn't catch it, and the number went to the agency doubled up on the incentives and light everywhere else, and we ate it.",
+      "location": "00:09:16 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L57, 00:09:16, Bethan Tull"
+    },
+    {
+      "path": "/pains[2]/quote",
+      "status": "verified",
+      "quote": "And the number the client gets is not the number finance sees, because they're two different sheets by then.",
+      "location": "00:12:40 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L82, 00:12:40, Bethan Tull"
+    },
+    {
+      "path": "/pains[3]/quote",
+      "status": "verified",
+      "quote": "Once a study. Nearly every study. The agency comes back with one more audience, or the brand wants a boost sample, and it's a fifth cell.",
+      "location": "00:11:57 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L77, 00:11:57, Bethan Tull"
+    },
+    {
+      "path": "/pains[4]/quote",
+      "status": "verified",
+      "quote": "But I can't get that number into a formula on the parent, and I can't get the Studies board to read it, and I've tried it four ways.",
+      "location": "00:16:53 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L114, 00:16:53, Bethan Tull"
+    },
+    {
+      "path": "/pains[5]/quote",
+      "status": "verified",
+      "quote": "-- against what it actually came in at. Costed versus actual. Because right now that's a question I get asked and can't answer.",
+      "location": "00:22:02 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L147, 00:22:02, Bethan Tull"
+    },
+    {
+      "path": "/pains[6]/quote",
+      "status": "verified",
+      "quote": "So it's always late and it's always wrong somewhere.",
+      "location": "00:22:54 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L154, 00:22:54, Idris Machado"
+    },
+    {
+      "path": "/pains[7]/quote",
+      "status": "verified",
+      "quote": "And the recruiters look at the photo. Not the board. The board's never had the sessions on it.",
+      "location": "00:23:55 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L162, 00:23:55, Idris Machado"
+    },
+    {
+      "path": "/pains[8]/quote",
+      "status": "verified",
+      "quote": "The honest thing is every time we wanted a label changed we had to email you and wait, and after a while people stopped asking.",
+      "location": "00:05:08 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L33, 00:05:08, Henrietta Weyland"
+    },
+    {
+      "path": "/numbers/bleed/quote",
+      "status": "verified",
+      "quote": "The costing sheet is my Friday. Every Friday. Four hours, sometimes five, just re-keying cells and checking the sums against each other.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L66, 00:10:15, Bethan Tull"
+      ]
+    },
+    {
+      "path": "/numbers/upside/quote",
+      "status": "verified",
+      "quote": "We'd stop losing the short-notice ones. I'm not going to put a number on that today, I'd be guessing.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L207, 00:30:01, Henrietta Weyland"
+      ]
+    },
+    {
+      "path": "/objections[0]/quote",
+      "status": "verified",
+      "quote": "The honest thing is every time we wanted a label changed we had to email you and wait, and after a while people stopped asking.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L33, 00:05:08, Henrietta Weyland"
+      ]
+    },
+    {
+      "path": "/objections[1]/quote",
+      "status": "verified",
+      "quote": "Leonie's got the sheet down to a fine art, honestly. She'd rather keep it. That's the thing you're up against.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L179, 00:25:52, Idris Machado"
+      ]
+    },
+    {
+      "path": "/objections[2]/quote",
+      "status": "verified",
+      "quote": "But I can't get that number into a formula on the parent, and I can't get the Studies board to read it, and I've tried it four ways.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L114, 00:16:53, Bethan Tull"
+      ]
+    },
+    {
+      "path": "/objections[3]/quote",
+      "status": "verified",
+      "quote": "I did wonder, honestly, whether it's just not the right tool for the costing bit.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L129, 00:19:07, Bethan Tull"
+      ]
+    },
+    {
+      "path": "/objections[4]/quote",
+      "status": "verified",
+      "quote": "They went back to the sheet inside three months. Leonie was doing it twice, once on the board and once on the sheet, and the sheet won.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L30, 00:04:36, Idris Machado"
+      ]
+    },
+    {
+      "path": "/objections[5]/quote",
+      "status": "verified",
+      "quote": "Spend is mine, up to what Hamish set for systems this year. The renewal plus this is inside that, I think. I'd want to check the number before I say it out loud.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L212, 00:30:45, Henrietta Weyland"
+      ]
+    },
+    {
+      "path": "/objections[6]/quote",
+      "status": "verified",
+      "quote": "When you send the renewal through, can the extra piece be on the same sheet? I'd rather sign one thing.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L228, 00:32:50, Henrietta Weyland"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[0]/quote",
+      "status": "verified",
+      "quote": "I'll send Bethan a booking link today, for forty-five minutes, just the two of us, where you walk me through the costing board cell by cell and I try the two approaches on a copy of it. Bethan, you pick the slot.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L248, 00:35:58, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[1]/quote",
+      "status": "verified",
+      "quote": "Yes. Send it. I'll grab something next week, once the wave's started it goes quiet for me.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L249, 00:36:18, Bethan Tull"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[2]/quote",
+      "status": "verified",
+      "quote": "I'll put you two in touch. Leave that with me.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L251, 00:36:32, Henrietta Weyland"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[3]/quote",
+      "status": "verified",
+      "quote": "I'll send a short recap tomorrow, what I heard and the next steps, so you can correct anything I got wrong. And I'll say plainly in it that there's no number on the costing piece yet.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L252, 00:36:37, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[4]/quote",
+      "status": "verified",
+      "quote": "I'll add you to the board once the IT people come back to me. Might be a few days.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L254, 00:36:57, Bethan Tull"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[5]/quote",
+      "status": "verified",
+      "quote": "[laughs] A photo is literally how we do it. I'll send one today.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L256, 00:37:13, Idris Machado"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[6]/quote",
+      "status": "verified",
+      "quote": "Happy to, once we've agreed what it covers, and I won't put a number on the costing piece until I've read Bethan's board. So it may be two sheets, or one sheet later. I'd rather it was right.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L229, 00:33:00, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[7]/quote",
+      "status": "verified",
+      "quote": "Yes to that. Show her how and then it's hers.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L242, 00:35:21, Henrietta Weyland"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[8]/quote",
+      "status": "verified",
+      "quote": "I'd archive it rather than delete it, so it's out of the way and still there if anyone asks.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L244, 00:35:33, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[9]/quote",
+      "status": "verified",
+      "quote": "I'd want to check the number before I say it out loud.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L212, 00:30:45, Henrietta Weyland"
+      ]
+    },
+    {
+      "path": "/requested_changes[0]/quote",
+      "status": "verified",
+      "quote": "Either of those would do it, honestly. The first one. I don't want to lose the form.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L132, 00:19:57, Bethan Tull"
+      ]
+    },
+    {
+      "path": "/requested_changes[1]/quote",
+      "status": "verified",
+      "quote": "And I want to be able to change a label on the Studies board without emailing you.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L240, 00:35:06, Bethan Tull"
+      ]
+    },
+    {
+      "path": "/requested_changes[2]/quote",
+      "status": "verified",
+      "quote": "One condition on the Studies board. No new columns the account leads have to fill in.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L237, 00:34:40, Henrietta Weyland"
+      ]
+    },
+    {
+      "path": "/requested_changes[3]/quote",
+      "status": "verified",
+      "quote": "But if it was on the screen in the recruitment room, the big one, and it was right, they'd use it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L180, 00:26:01, Idris Machado"
+      ]
+    },
+    {
+      "path": "/requested_changes[4]/quote",
+      "status": "verified",
+      "quote": "And bin the old rota board. Nothing on it's been real for a year.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L243, 00:35:26, Idris Machado"
+      ]
+    },
+    {
+      "path": "/account_context/evidence_quote_or_null",
+      "status": "verified",
+      "quote": "The Studies board is the thing that works. Every brief goes on it, the account leads live on it, and the Friday email goes out off it without anybody touching it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L21, 00:03:20, Henrietta Weyland"
+      ]
+    },
+    {
+      "path": "/intake/type_header/relationship_evidence/quote",
+      "status": "verified",
+      "quote": "Anything of ours that's changed since I last looked?",
+      "location": "00:06:36 Consultant",
+      "cited": "transcript.txt, L42, 00:06:36, Consultant"
+    },
+    {
+      "path": "/intake/type_header/signals[0]/quote/quote",
+      "status": "verified",
+      "quote": "Can I share my screen? It's easier if you just see it.",
+      "location": "00:14:30 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L99, 00:14:30, Bethan Tull"
+    },
+    {
+      "path": "/intake/type_header/signals[2]/quote/quote",
+      "status": "verified",
+      "quote": "That's it. And the costing piece is the bigger one, by a distance.",
+      "location": "00:03:00 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L19, 00:03:00, Henrietta Weyland"
+    },
+    {
+      "path": "/intake/type_header/signals[3]/quote/quote",
+      "status": "verified",
+      "quote": "It's a board with a form on the front, one item per brief, and the cells are subitems.",
+      "location": "00:06:24 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L41, 00:06:24, Bethan Tull"
+    },
+    {
+      "path": "/intake/type_header/signals[4]/quote/quote",
+      "status": "verified",
+      "quote": "Spend is mine, up to what Hamish set for systems this year. The renewal plus this is inside that, I think. I'd want to check the number before I say it out loud.",
+      "location": "00:30:45 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L212, 00:30:45, Henrietta Weyland"
+    },
+    {
+      "path": "/intake/type_header/agenda/quote",
+      "status": "verified",
+      "quote": "So, you emailed saying two things. You want the costing board Bethan's been building to actually get finished, and you want the recruiter side back in some form.",
+      "location": "00:02:32 Consultant",
+      "cited": "transcript.txt, L18, 00:02:32, Consultant"
+    },
+    {
+      "path": "/intake/current_state_met_early/from_quotes[0]",
+      "status": "skipped",
+      "quote": "00:03:20 Henrietta Weyland (Director of Operations)",
+      "location": null,
+      "reason": "location pointer (no quote text); it resolves to a real unit"
+    },
+    {
+      "path": "/intake/current_state_met_early/from_quotes[1]",
+      "status": "skipped",
+      "quote": "00:04:25 Idris Machado (Recruitment Team Lead)",
+      "location": null,
+      "reason": "location pointer (no quote text); it resolves to a real unit"
+    },
+    {
+      "path": "/intake/current_state_met_early/from_quotes[2]",
+      "status": "skipped",
+      "quote": "00:05:08 Henrietta Weyland (Director of Operations)",
+      "location": null,
+      "reason": "location pointer (no quote text); it resolves to a real unit"
+    },
+    {
+      "path": "/intake/current_wins_to_preserve[0]/quote",
+      "status": "verified",
+      "quote": "Don't touch the Friday email. I mean that. The account leads would notice before I did.",
+      "location": "00:03:33 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L22, 00:03:33, Henrietta Weyland"
+    },
+    {
+      "path": "/intake/current_wins_to_preserve[1]/quote",
+      "status": "verified",
+      "quote": "Finance runs the Incentives board and Philippa would riot if anyone went near it.",
+      "location": "00:04:10 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L26, 00:04:10, Henrietta Weyland"
+    },
+    {
+      "path": "/intake/current_wins_to_preserve[2]/quote",
+      "status": "verified",
+      "quote": "Either of those would do it, honestly. The first one. I don't want to lose the form.",
+      "location": "00:19:57 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L132, 00:19:57, Bethan Tull"
+    },
+    {
+      "path": "/intake/incumbent_friction/quote",
+      "status": "verified",
+      "quote": "The honest thing is every time we wanted a label changed we had to email you and wait, and after a while people stopped asking.",
+      "location": "00:05:08 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L33, 00:05:08, Henrietta Weyland"
+    },
+    {
+      "path": "/intake/prior_build_by_us_still_live/do_not_disturb[0]/quote",
+      "status": "verified",
+      "quote": "Don't touch the Friday email. I mean that. The account leads would notice before I did.",
+      "location": "00:03:33 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L22, 00:03:33, Henrietta Weyland"
+    },
+    {
+      "path": "/intake/prior_build_by_us_still_live/do_not_disturb[1]/quote",
+      "status": "verified",
+      "quote": "Finance runs the Incentives board and Philippa would riot if anyone went near it.",
+      "location": "00:04:10 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L26, 00:04:10, Henrietta Weyland"
+    },
+    {
+      "path": "/intake/prior_build_by_us_still_live/handover_lesson/quote",
+      "status": "verified",
+      "quote": "That's the thing I'd do differently, honestly. Last time it was built and handed over and the handover was a call. This time I want someone here who can change things.",
+      "location": "00:05:55 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L38, 00:05:55, Henrietta Weyland"
+    },
+    {
+      "path": "/intake/client_built_assets/why/quote",
+      "status": "verified",
+      "quote": "Which is partly why I built the costing thing on my own. I didn't want to email and wait.",
+      "location": "00:06:09 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L39, 00:06:09, Bethan Tull"
+    },
+    {
+      "path": "/intake/client_built_assets/blocker_in_their_words/quote",
+      "status": "verified",
+      "quote": "But I can't get that number into a formula on the parent, and I can't get the Studies board to read it, and I've tried it four ways.",
+      "location": "00:16:53 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L114, 00:16:53, Bethan Tull"
+    },
+    {
+      "path": "/intake/client_built_assets/access_state/quote",
+      "status": "verified",
+      "quote": "No. It's in my own workspace. I'd have to add you, and I'll need to ask the IT people how you're meant to come in, they have opinions about guests.",
+      "location": "00:20:26 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L137, 00:20:26, Bethan Tull"
+    },
+    {
+      "path": "/intake/client_built_assets/their_own_completeness/quote",
+      "status": "verified",
+      "quote": "I'm, like, eighty percent there. It's the last bit.",
+      "location": "00:20:49 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L139, 00:20:49, Bethan Tull"
+    },
+    {
+      "path": "/intake/commercial_clock_our_side/quote",
+      "status": "verified",
+      "quote": "The pricing on the renewal quote I sent you is held until the twentieth of November. That's my constraint, not yours, and I'm saying it so it's on the table and not a surprise.",
+      "location": "00:33:20 Consultant",
+      "cited": "transcript.txt, L231, 00:33:20, Consultant"
+    },
+    {
+      "path": "/intake/commercial_clock_our_side/client_acknowledgement/quote",
+      "status": "verified",
+      "quote": "Noted.",
+      "location": "00:33:40 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L232, 00:33:40, Henrietta Weyland"
+    },
+    {
+      "path": "/intake/commercial_clock_our_side/other_constraints_our_side[0]/quote",
+      "status": "verified",
+      "quote": "Happy to, once we've agreed what it covers, and I won't put a number on the costing piece until I've read Bethan's board. So it may be two sheets, or one sheet later. I'd rather it was right.",
+      "location": "00:33:00 Consultant",
+      "cited": "transcript.txt, L229, 00:33:00, Consultant"
+    },
+    {
+      "path": "/intake/next_step/assent/quote",
+      "status": "verified",
+      "quote": "Yes. Send it. I'll grab something next week, once the wave's started it goes quiet for me.",
+      "location": "00:36:18 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L249, 00:36:18, Bethan Tull"
+    },
+    {
+      "path": "/intake/next_step/second_item/quote",
+      "status": "verified",
+      "quote": "I'll put you two in touch. Leave that with me.",
+      "location": "00:36:32 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L251, 00:36:32, Henrietta Weyland"
+    },
+    {
+      "path": "/intake/rejoined_sentences[0]/interior_backchannel/quote",
+      "status": "verified",
+      "quote": "Mm-hm.",
+      "location": "00:22:01 Consultant",
+      "cited": "transcript.txt, L146, 00:22:01, Consultant"
+    },
+    {
+      "path": "/intake/quarantine/test_rows/quote",
+      "status": "verified",
+      "quote": "Ignore the numbers, those are made up, I put test rows in so the formulas had something to chew on.",
+      "location": "00:14:51 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L101, 00:14:51, Bethan Tull"
+    },
+    {
+      "path": "/intake/delivery_notes/client_interviewer/quote",
+      "status": "verified",
+      "quote": "Beth, how many of those get a cell added after you've costed them? Actually, not roughly.",
+      "location": "00:11:49 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L76, 00:11:49, Henrietta Weyland"
+    },
+    {
+      "path": "/intake/delivery_notes/commitment_question/quote",
+      "status": "verified",
+      "quote": "Before we do next steps. Is this worth taking forward, from where you sit?",
+      "location": "00:35:46 Consultant",
+      "cited": "transcript.txt, L246, 00:35:46, Consultant"
+    },
+    {
+      "path": "/intake/claims_by_our_side[0]/quote",
+      "status": "verified",
+      "quote": "I've built the first before. I haven't tried it against a form like yours, so I'm not promising it until I've done it on a copy.",
+      "location": "00:19:46 Consultant",
+      "cited": "transcript.txt, L131, 00:19:46, Consultant"
+    },
+    {
+      "path": "/intake/claims_by_our_side[1]/quote",
+      "status": "verified",
+      "quote": "Sure. If we said, I don't know, forty an hour just to --",
+      "location": "00:14:08 Consultant",
+      "cited": "transcript.txt, L94, 00:14:08, Consultant"
+    },
+    {
+      "path": "/readiness/pains[0]/quote",
+      "status": "verified",
+      "quote": "There's no version of it that's the real one.",
+      "location": "00:07:55 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L49, 00:07:55, Bethan Tull"
+    },
+    {
+      "path": "/readiness/pains[1]/quote",
+      "status": "verified",
+      "quote": "The Farraday one. The incentive line was in there twice, once per cell and once at the bottom, and I didn't catch it, and the number went to the agency doubled up on the incentives and light everywhere else, and we ate it.",
+      "location": "00:09:16 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L57, 00:09:16, Bethan Tull"
+    },
+    {
+      "path": "/readiness/pains[2]/quote",
+      "status": "verified",
+      "quote": "And the number the client gets is not the number finance sees, because they're two different sheets by then.",
+      "location": "00:12:40 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L82, 00:12:40, Bethan Tull"
+    },
+    {
+      "path": "/readiness/pains[3]/quote",
+      "status": "verified",
+      "quote": "Once a study. Nearly every study. The agency comes back with one more audience, or the brand wants a boost sample, and it's a fifth cell.",
+      "location": "00:11:57 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L77, 00:11:57, Bethan Tull"
+    },
+    {
+      "path": "/readiness/pains[4]/quote",
+      "status": "verified",
+      "quote": "But I can't get that number into a formula on the parent, and I can't get the Studies board to read it, and I've tried it four ways.",
+      "location": "00:16:53 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L114, 00:16:53, Bethan Tull"
+    },
+    {
+      "path": "/readiness/pains[5]/quote",
+      "status": "verified",
+      "quote": "-- against what it actually came in at. Costed versus actual. Because right now that's a question I get asked and can't answer.",
+      "location": "00:22:02 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L147, 00:22:02, Bethan Tull"
+    },
+    {
+      "path": "/readiness/pains[6]/quote",
+      "status": "verified",
+      "quote": "So it's always late and it's always wrong somewhere.",
+      "location": "00:22:54 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L154, 00:22:54, Idris Machado"
+    },
+    {
+      "path": "/readiness/pains[7]/quote",
+      "status": "verified",
+      "quote": "And the recruiters look at the photo. Not the board. The board's never had the sessions on it.",
+      "location": "00:23:55 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L162, 00:23:55, Idris Machado"
+    },
+    {
+      "path": "/readiness/pains[8]/quote",
+      "status": "verified",
+      "quote": "The honest thing is every time we wanted a label changed we had to email you and wait, and after a while people stopped asking.",
+      "location": "00:05:08 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L33, 00:05:08, Henrietta Weyland"
+    },
+    {
+      "path": "/readiness/signals[0]/quote",
+      "status": "verified",
+      "quote": "If the number's on Beth's board and the Studies board shows it and Philippa reads it off the same thing, that's one place.",
+      "location": "00:28:41 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L198, 00:28:41, Henrietta Weyland"
+    },
+    {
+      "path": "/readiness/signals[1]/quote",
+      "status": "verified",
+      "quote": "It's the number that doesn't follow.",
+      "location": "00:18:33 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L125, 00:18:33, Bethan Tull"
+    },
+    {
+      "path": "/readiness/signals[2]/quote",
+      "status": "verified",
+      "quote": "The two things don't know about each other.",
+      "location": "00:23:33 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L161, 00:23:33, Idris Machado"
+    },
+    {
+      "path": "/readiness/signals[3]/quote",
+      "status": "verified",
+      "quote": "If it was hers and not something done to her, maybe. Maybe. She'd need to be in the room when it's built, not shown it after.",
+      "location": "00:26:30 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L184, 00:26:30, Idris Machado"
+    },
+    {
+      "path": "/readiness/signals[4]/quote",
+      "status": "verified",
+      "quote": "If we keep doing it in the sheet we will lose one of them. Not might. Will. They've said so.",
+      "location": "00:13:30 Henrietta Weyland (Director of Operations)",
+      "cited": "transcript.txt, L89, 00:13:30, Henrietta Weyland"
+    },
+    {
+      "path": "/readiness/signals[5]/quote",
+      "status": "verified",
+      "quote": "I think you're still an admin on it. You and Hamish, and that's it. I'm a member, I think, I've never checked.",
+      "location": "00:05:34 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L36, 00:05:34, Bethan Tull"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[0]",
+      "status": "verified",
+      "quote": "And the recruiters look at the photo. Not the board. The board's never had the sessions on it.",
+      "location": "00:23:55 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L162, 00:23:55, Idris Machado"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[1]",
+      "status": "verified",
+      "quote": "Sessions, rooms, which recruiter, how many needed. Never who the respondents are. That's the line.",
+      "location": "00:27:38 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L191, 00:27:38, Idris Machado"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[2]",
+      "status": "verified",
+      "quote": "The field dates moved on the Wednesday. The Studies board had the new dates, because the account lead changed them, which is right. Leonie's sheet had the old ones, because nobody told her.",
+      "location": "00:23:33 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L161, 00:23:33, Idris Machado"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[0]",
+      "status": "verified",
+      "quote": "Three weeks ago we had a Saturday session with two recruiters booked on it and neither of them knew. Twelve respondents turned up to an empty room and the account lead had to ring round apologising.",
+      "location": "00:23:13 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L159, 00:23:13, Idris Machado"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[1]",
+      "status": "verified",
+      "quote": "When she was off for a week in the summer nobody could read the colours and we lost two sessions.",
+      "location": "00:24:24 Idris Machado (Recruitment Team Lead)",
+      "cited": "transcript.txt, L167, 00:24:24, Idris Machado"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[0]",
+      "status": "verified",
+      "quote": "Someone adds a cell after it's costed. Then the summary moves and the parent doesn't, and nobody -- nobody notices until Philippa does.",
+      "location": "00:18:20 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L123, 00:18:20, Bethan Tull"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[1]",
+      "status": "verified",
+      "quote": "Same thing. Anything that changes after I've looked at it, I have to go back and look at it again, and I don't always know it's changed.",
+      "location": "00:18:49 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L127, 00:18:49, Bethan Tull"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[0]",
+      "status": "verified",
+      "quote": "Typed twice. I type it on the form, well, the account lead types it on the form, and they've already typed it on Studies. If they don't match, they don't match. I've had one with a space in it that never lined up.",
+      "location": "00:16:13 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L110, 00:16:13, Bethan Tull"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[1]",
+      "status": "verified",
+      "quote": "The code. Same as the Studies board. We never put the brand on a board.",
+      "location": "00:15:58 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L108, 00:15:58, Bethan Tull"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[0]",
+      "status": "verified",
+      "quote": "Add up the study totals per agency, per month. Which is the other thing I want, so I'll come back to it. It showed me a number I didn't trust, so I stopped.",
+      "location": "00:17:34 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L118, 00:17:34, Bethan Tull"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[1]",
+      "status": "verified",
+      "quote": "In Philippa's system. The accounting one. It doesn't live anywhere I can see.",
+      "location": "00:22:25 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L151, 00:22:25, Bethan Tull"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[0]",
+      "status": "verified",
+      "quote": "Form on the front. So the account lead fills it in, brief name, agency, field dates, how many cells, um, that makes the item. Then I go in and add the cells.",
+      "location": "00:15:14 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L103, 00:15:14, Bethan Tull"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[1]",
+      "status": "verified",
+      "quote": "The Farraday one. The incentive line was in there twice, once per cell and once at the bottom, and I didn't catch it, and the number went to the agency doubled up on the incentives and light everywhere else, and we ate it.",
+      "location": "00:09:16 Bethan Tull (Fieldwork Manager)",
+      "cited": "transcript.txt, L57, 00:09:16, Bethan Tull"
+    }
+  ]
+}

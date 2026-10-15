@@ -1,0 +1,187 @@
+Consultant (00:00:03): Morning, everyone. Can you all hear me okay?
+Tess Kowalczyk (00:00:08): Morning. Yes, we've got you. We're in the big conference room in Madison today, so, no closet. And Bev's here with me.
+Bev Halvorsen (00:00:17): Hi. Bev Halvorsen. I'm the controller. Which I think you've heard.
+Consultant (00:00:23): I have. Good to finally meet you, Bev. I've heard a lot about Ajera from these two.
+Bev Halvorsen (00:00:31): [laughs] I bet you have. I'm mostly here to make sure nobody breaks Ajera.
+Jordan Pruitt (00:00:38): And I'm in Rockford today, hi. There's a guy on a riding mower right outside this window, so if you hear an engine, it's not me.
+Consultant (00:00:50): Noted. Tess, how's the freight elevator? Who's winning?
+Tess Kowalczyk (00:00:56): Oh, don't. So the inspector came Tuesday and it failed. Something about the, um, the gate interlock? So now there's a part coming from Ohio. The contractor still says November second. I am still choosing to believe him.
+Jordan Pruitt (00:01:12): Five and a half weeks.
+Tess Kowalczyk (00:01:16): Jordan has a countdown on his whiteboard. Literally. In marker.
+Jordan Pruitt (00:01:21): It's motivational.
+Consultant (00:01:23): [laughs] I'd have one too. So, for today. I'd like to go back through what you saw yesterday, piece by piece, mainly so Bev can see it and so I can hear what you'd change. Everything in there ties back to something you told me, so if a piece isn't earning its place, say so. And interrupt whenever you like. Before we start, has anything shifted since yesterday?
+Tess Kowalczyk (00:01:52): A couple of things. Um. The first one, in the interest of being upfront, and honestly I should have said it yesterday. Gordon asked us to also talk to another partner. A bigger firm, out of Chicago. They did a demo for us last Friday.
+Consultant (00:02:08): That's a sensible thing to do, and I appreciate you telling me. What have you seen from them so far, and what would make the choice clear for you?
+Tess Kowalczyk (00:02:20): Can I come back to that at the end? I'd like Bev to see yours first without me coloring it.
+Consultant (00:02:30): Of course. And the second thing?
+Tess Kowalczyk (00:02:33): The partner meeting is next Thursday. The first. Which is also day one of the new fiscal year. So Gordon wants a recommendation from me on Thursday, even if the actual approval comes later.
+Consultant (00:02:51): Okay. Thursday the first. Let me share my screen. Tell me when you can see a board called Pursuits.
+Jordan Pruitt (00:03:04): I see your email. Oh, no, there it goes. Got it.
+Tess Kowalczyk (00:03:09): Yep. Bev, lean in, the screen in here is tiny.
+Consultant (00:03:15): So, Tess. On our first call you said there's no one place where a pursuit lives, with the due date and who's on it and what's changed. This is the city hall renovation I clicked into yesterday. Due date and time up top, the bid portal link, who's registered on the portal, and down here each addendum gets logged with the date and what it changed. When someone marks a new addendum, the PIC, the PM and marketing all get a notification. How close is that to what you had in mind?
+Tess Kowalczyk (00:03:52): This part, very close. I said it yesterday and I'll say it again for Bev. If we'd had this in July, Hallie would have seen addendum two on the Monday, not on Thursday at eleven.
+Bev Halvorsen (00:04:07): And it goes to more than one person.
+Tess Kowalczyk (00:04:12): And it goes to more than one person, which is the whole point. Gordon said the same thing yesterday, before he left. His words were, "That's the Larkspur fix."
+Consultant (00:04:25): Good. What about it is off?
+Jordan Pruitt (00:04:28): The statuses. Sorry, the, uh, the stage column. Can you click it open?
+Consultant (00:04:35): Sure. Right now it's New, Qualified, Proposal, Negotiation, Won, Lost.
+Jordan Pruitt (00:04:40): Yeah, so. Nobody here says qualified. And there's no negotiation. It's a public RFP. You don't negotiate, you submit and you pray.
+Tess Kowalczyk (00:04:50): [laughs] We negotiate a little. After we win.
+Jordan Pruitt (00:04:55): After. It's not a stage.
+Consultant (00:04:58): Give me the words you actually use, in order.
+Tess Kowalczyk (00:05:03): Okay. Logged. Then go/no-go, which means it's on Friday's huddle list. Then go. Then submitted. Short-listed. Interview. Won. Lost.
+Jordan Pruitt (00:05:12): And no-go. No-go is not lost.
+Tess Kowalczyk (00:05:15): Right, yes. No-go is its own thing. If we never submitted, it doesn't count against the hit rate. Gordon is very particular about the hit rate.
+Consultant (00:05:27): So no-go stays separate from lost. And while the fee's being written, is that its own stage?
+Tess Kowalczyk (00:05:35): No, that's still go. The fee has its own column. Which, while we're here, that column says approved.
+Consultant (00:05:43): Fee sign-off. Pending, Approved, Rejected.
+Tess Kowalczyk (00:05:47): We don't approve fees. Gordon signs off. And he doesn't reject things, he sends them back with red pen all over them.
+Jordan Pruitt (00:05:57): So much red pen.
+Tess Kowalczyk (00:06:00): So: not ready, ready for sign-off, signed off, sent back. Those four.
+Consultant (00:06:06): Not ready, ready for sign-off, signed off, sent back. And the form Hallie was trying out, how did that go?
+Tess Kowalczyk (00:06:15): She liked it. She put two test ones in yesterday afternoon. Her one ask is a question on the form for who's registered on the portal, because that's the thing she checks now.
+Consultant (00:06:30): A question for who's registered on the portal. Got it.
+Jordan Pruitt (00:06:35): Can I ask a "can it also" question?
+Consultant (00:06:39): Go for it.
+Jordan Pruitt (00:06:42): Can it go get the addenda off the bid portals by itself? So nobody has to go look?
+Consultant (00:06:50): Say more. Which portals are we talking about?
+Jordan Pruitt (00:06:55): Oh, all of them. There's the state one, there's, like, three county ones, and every school district has its own thing. Some of them email you, some don't.
+Consultant (00:07:07): That's a real question, and with that many different portals I don't want to guess at an answer. I'll note it for later and look into it properly. For now, does logging the addendum and notifying the team cover what went wrong in July?
+Jordan Pruitt (00:07:26): Yeah. Yes. As long as more than one person is registered on the portal, which is a process thing, not a software thing.
+Tess Kowalczyk (00:07:37): And that's fixed. Hallie registers on every portal now. Since July.
+Consultant (00:07:42): Good. Tess, on our first call you described opening one screen on a Monday morning. Yesterday I filtered this board to what's due in the next two weeks. Was that the screen, or was the dashboard closer?
+Tess Kowalczyk (00:07:58): Oh, the filter. The filter is the screen. And honestly, the dashboard, can you just take it out?
+Consultant (00:08:06): Sure. Tell me what didn't work about it.
+Tess Kowalczyk (00:08:11): It's noise. It's six colored charts. Pursuits by stage in a pie, fee by office, and none of them tells me what to do on a Monday. I don't need to know that forty percent of something is green. I need the list.
+Jordan Pruitt (00:08:29): I kind of liked the pie chart.
+Tess Kowalczyk (00:08:34): You like all pie charts.
+Consultant (00:08:37): So the Firm overview dashboard comes out, and that two-week filter gets saved as a view on the pursuits board. Due in the next two weeks, with the PIC, the addenda and the fee sign-off showing. Is that right?
+Tess Kowalczyk (00:08:53): That's it. Save it as that and I'll bookmark it.
+Consultant (00:09:01): Jordan, your turn. Two weeks ago you said the PMs are supposed to update their people's allocations and they don't, and every week you rebuild the Wall. This is the Staff allocation board, and the view I showed you yesterday.
+Jordan Pruitt (00:09:18): Yes. Okay. So I was in this view for, like, an hour last night. That is the Wall. That is exactly the Wall. Except I didn't have to build it at nine at night.
+Consultant (00:09:32): [laughs] What made it click?
+Jordan Pruitt (00:09:36): The red. You put a structural engineer at a hundred and forty percent in the sample data, and I, uh, wonder where you got that idea.
+Tess Kowalczyk (00:09:47): [laughs] Poor Ravi.
+Jordan Pruitt (00:09:50): But I could see it from across the room. Red, the person, which three jobs, which weeks. And two Rockford engineers sitting at sixty percent right underneath. That is the whole mess from last month, on one screen.
+Consultant (00:10:06): If this were live, what happens to Tuesday's staffing call?
+Jordan Pruitt (00:10:11): I open this, filter to anybody over a hundred or under, say, seventy, and that's the call. Fifteen minutes. Maybe twenty the first month while the studio leads argue about it.
+Tess Kowalczyk (00:10:25): They will argue about it.
+Jordan Pruitt (00:10:28): They'll argue. But they'll be arguing about the same numbers, which would be new.
+Consultant (00:10:35): Who would have this open every morning?
+Jordan Pruitt (00:10:39): Me. The studio leads. And, honestly, I want the PMs updating their own people in here, which is the big thing. Can a PM change their own job's rows and not somebody else's? Sorry -- hang on, the mower's back. Okay. Can they?
+Consultant (00:10:58): That's a permissions question I'd rather get right than answer on the fly, so I'll write it down and we'll settle it in the setup. Would it matter if PMs could see everyone's allocation but only change their own?
+Jordan Pruitt (00:11:14): Seeing everything is fine. Seeing everything is actually good. It's the changing I care about.
+Tess Kowalczyk (00:11:22): One thing. Don't rename this the Wall.
+Consultant (00:11:26): I was going to ask. You all call it the Wall.
+Tess Kowalczyk (00:11:31): We do, but Des Moines won't know what that means. There's no wall. Leave it Staff allocation.
+Jordan Pruitt (00:11:39): Everyone's going to call it the Wall anyway.
+Tess Kowalczyk (00:11:44): And that's fine. They can call it that. The board says Staff allocation.
+Consultant (00:11:50): Staff allocation it stays. And Des Moines is already a group on here, just empty for now.
+Jordan Pruitt (00:11:58): Four people on day one. I'll get you names once HR says I'm allowed to.
+Tess Kowalczyk (00:12:06): And once it's real numbers, this is what I'd want in front of me for the structural hire in Des Moines. Not the spreadsheet.
+Consultant (00:12:16): That's the decision you said you didn't trust the numbers for.
+Tess Kowalczyk (00:12:22): Right. I'd trust these. Well. I'd trust these once Jordan isn't the only one updating them.
+Jordan Pruitt (00:12:30): Which is the PM permissions thing again.
+Consultant (00:12:36): Then jobs and phases. Bev, this is the part that touches your world, so I'll slow down. Each job has its job number, the job type, and the project it belongs to, so the Oak Street fire station shows up as one project with two jobs. Then the Phases board. Each phase has its fee, hours and spent to date, and a burn percentage. And to be really clear, those hours and dollars are made-up sample numbers. Nothing is connected to Ajera.
+Bev Halvorsen (00:13:10): Okay. Good. Because I looked at the clinic on Jordan's laptop yesterday and thought, that is not what DD burned.
+Tess Kowalczyk (00:13:19): Gordon asked me that last night, actually. Would this have caught the clinic, and would it free people up to chase the healthcare work. I told him to ask me again when it's our numbers.
+Consultant (00:13:34): Right, sample only. Tess, when we first talked you said by the time it shows up on the WIP report, there's no fixing it. Setting the fake numbers aside, does seeing burn by phase here get at that?
+Tess Kowalczyk (00:13:49): Um. I think so? It looks right. But I'll be honest, this is the part I got the least out of yesterday. I can't really react to a burn number that isn't ours.
+Bev Halvorsen (00:14:04): I'd go further. I don't believe any number I didn't put there. Not until I know where it came from and when. And sorry -- when you say spent, is that at cost or at billing rates?
+Consultant (00:14:20): In the sample it's just a dollar figure. Which should it be?
+Bev Halvorsen (00:14:26): Billing. The fee is at billing rates, so burn has to be at billing rates too, or it looks better than it is.
+Consultant (00:14:36): Billing rates. Good to know. What else would you need to know about where it comes from?
+Bev Halvorsen (00:14:44): Three things. What it reads out of Ajera. How often. And that nothing, ever, writes back into Ajera. It's one direction, Ajera to this. Time entry stays in Ajera, invoices stay in Ajera, and I am not reconciling two systems at month-end.
+Consultant (00:15:03): One direction, read only, and time and invoices stay in Ajera. That matches what Tess and Jordan said. Tess thought you might be on the cloud version?
+Bev Halvorsen (00:15:16): We are. Cloud, since, what, spring of twenty-four? Marcus has the admin login. He says there's some kind of API on the cloud version, but he's never turned it on, and before he does, he wants to know exactly what it would read.
+Consultant (00:15:35): That's the right question for him to ask. Can I ask you one about burn, since you see it first? When a phase runs over, who ends up dealing with it?
+Bev Halvorsen (00:15:48): Me, first. I see it on the WIP. Then I go to the PM, and the PM says it'll even out in CDs. It never evens out in CDs. Then I go to Tess. And then it's a write-off conversation with the PIC, and nobody enjoys that one.
+Tess Kowalczyk (00:16:09): Nobody.
+Bev Halvorsen (00:16:11): And with a fourth office, I'm not getting the WIP out by the tenth anymore. It'll be the fifteenth. So add another week to how late we see it.
+Consultant (00:16:23): That's helpful. Jordan, the statuses on phases. I saw you wince yesterday.
+Jordan Pruitt (00:16:30): [laughs] Was it that obvious? Working on it, Stuck, Done. Nobody is going to mark their own job Stuck. Ever.
+Tess Kowalczyk (00:16:39): Not in a system Gordon can see.
+Jordan Pruitt (00:16:43): Not started, in progress, on hold, complete. That's how we talk about phases.
+Bev Halvorsen (00:16:50): And complete does not mean billed. Can I get into that now?
+Consultant (00:16:56): Please, go ahead.
+Bev Halvorsen (00:16:58): So this is really what I came for. Half our public jobs don't bill hourly. They bill on milestones. The district pays the SD fee when their board approves SD, the city pays when the CD set goes out, that kind of thing. And I find out a phase hit its milestone after the fact. Sometimes weeks after.
+Consultant (00:17:23): When did that last happen?
+Bev Halvorsen (00:17:26): The Harwood library renovation. The library board signed off DD in June. The PM got the signed letter, saved it in the job folder, very organized, and told no one. I found it at the August close. So we invoiced it seven weeks late. That was sixty-some thousand just sitting there.
+Consultant (00:17:48): What do you do today to catch them?
+Bev Halvorsen (00:17:52): Every month-end, I email every PM on a milestone job. Did anything get signed? Did the CD set go out? About half of them answer. The other half I chase. It's two days of every close, honestly. And I can't keep doing it that way with Des Moines, because Des Moines is going to be almost all municipal. Which means almost all milestone jobs.
+Consultant (00:18:19): Who else feels it when one goes out late?
+Bev Halvorsen (00:18:24): Tess, in cash. The PMs, because they get my emails. And the owners, actually. School districts pay on their board calendar, so if my invoice misses their cutoff, it's another month. And then their AP person calls the PM asking where the invoice is, which is embarrassing for everybody.
+Consultant (00:18:45): Would you put a number on it? The two days, or the late invoices?
+Bev Halvorsen (00:18:52): Hmm. The two days, I suppose, but I don't know what I'd multiply it by. And the late ones, it's a couple a month? Thirty to sixty days late. But that's cash flow, not a loss. We get paid eventually. I wouldn't add it to anything.
+Consultant (00:19:12): Fair enough. I'll keep it as timing, not a cost. Is this something for this fiscal year, or later on?
+Bev Halvorsen (00:19:21): Now. The new fiscal year starts Thursday, but my first close of the new year is the first week of November. That's six weeks out. If milestones aren't tracked by then, I'm running the first close of the year the old way, and then it's another twelve months of emails.
+Consultant (00:19:43): So what would you want to see on a phase?
+Bev Halvorsen (00:19:48): Is it a milestone job or hourly. What the milestone is, in words. The amount. Has it been hit. Have I invoiced it, with the date and the Ajera invoice number, so I can tie it out. That's it. Don't show me paid. Paid lives in Ajera.
+Jordan Pruitt (00:20:08): That's owner approvals sneaking back in, by the way.
+Tess Kowalczyk (00:20:13): No. It's just the billing piece. We said owner approvals later, and I still mean later.
+Bev Halvorsen (00:20:21): And some phases have two milestones. CDs sometimes bill at the fifty percent set and again at the hundred percent set. So it's not always one per phase.
+Consultant (00:20:33): Good catch. When a milestone is hit, who needs to know?
+Bev Halvorsen (00:20:39): Me. Don't make me go look. When a PM marks it ready to invoice, I want to know that day.
+Consultant (00:20:48): And who should be able to see the amounts?
+Bev Halvorsen (00:20:53): PMs, PICs, finance, Tess. Not every designer in the firm. They're all on the staff board, right? I don't want the whole office seeing what we bill the county.
+Consultant (00:21:06): Understood. Let me check I've got it. On each phase: billing type, milestone or hourly. The milestone in words. The amount. A status for not reached, ready to invoice, and invoiced. The invoice date and the Ajera invoice number. Room for more than one milestone on a phase. You get notified when it's marked ready to invoice. Amounts visible to PMs, PICs, finance and Tess only. And no paid status. Does that capture it?
+Bev Halvorsen (00:21:36): That's it. That's actually it.
+Tess Kowalczyk (00:21:40): Bev doesn't say that very often.
+Bev Halvorsen (00:21:43): I don't.
+Consultant (00:21:46): Last piece, and then I want to hear where your heads are. Jordan, submittals. In what you saw yesterday, they were subitems under each job.
+Jordan Pruitt (00:21:56): Yeah. Okay. So I know Tess said don't spend a lot of time on it, and I get why you put them under the job. But that's not a log. A log is one list.
+Consultant (00:22:11): Walk me through what one list means.
+Jordan Pruitt (00:22:15): One board. Every submittal, on every job that's in CA. Submittal number, spec section, what it is, which job, which GC sent it, the date we got it, who's reviewing it, when it's due back, whose court the ball's in, and the action. No exceptions taken, make corrections noted, revise and resubmit, rejected. That's our stamp. Those four. And about half of them still come in through the GC's Procore, so somebody types those in. That's fine, that's today too.
+Consultant (00:22:48): And the due-back date. Does that come from the contract?
+Jordan Pruitt (00:22:53): It has to. Some jobs are ten business days, some are fourteen calendar. So it's per job.
+Consultant (00:23:01): What's wrong with keeping it per job, like the Excel logs today?
+Jordan Pruitt (00:23:07): Nobody can see across jobs. That's the steel shop drawing. The reviewer was out sick, and his queue was in, like, four different spreadsheets in four job folders, so nobody knew he had anything. With one list, I filter by reviewer and I see it in ten seconds.
+Tess Kowalczyk (00:23:28): How many jobs do we have in CA right now, eleven?
+Jordan Pruitt (00:23:34): Eleven. Fifteen by spring, with the two schools going into construction. And it's something like forty submittals a month right now, give or take. So it only gets worse.
+Consultant (00:23:46): So a firm-wide Submittals log board, with those columns and your four stamp actions, the due date worked out from each job's review window, and the subitems come off the jobs. Tess, does that change "don't spend a lot of time on it"?
+Tess Kowalczyk (00:24:05): [sighs] Fine. Jordan wins. But pursuits and Bev's milestones come first.
+Jordan Pruitt (00:24:11): I'll take it.
+Consultant (00:24:14): Okay, let me read back the changes for the next version, and you tell me what I got wrong. One, pursuit stages become logged, go/no-go, go, no-go, submitted, short-listed, interview, won, lost. Two, fee sign-off becomes not ready, ready for sign-off, signed off, sent back. Three, phase status becomes not started, in progress, on hold, complete. Four, the dashboard comes out, and the two-week view is saved on Pursuits. Five, the portal question goes on Hallie's form. Six, a Submittals log board replaces the subitems. Seven, invoice milestones on each phase, the way Bev described. Staff allocation stays as it is. Anything missing?
+Tess Kowalczyk (00:24:56): No. That's the list.
+Jordan Pruitt (00:24:59): And the portal thing goes on the someday list.
+Consultant (00:25:04): It's on the someday list.
+Jordan Pruitt (00:25:07): And I'll say it again. Whatever we do, nobody is doing training in October. Four CD sets.
+Consultant (00:25:16): I haven't forgotten. We'll plan around October.
+Jordan Pruitt (00:25:20): Thank you.
+Consultant (00:25:23): So, from what you saw yesterday and today, does this deal with the problems you described?
+Tess Kowalczyk (00:25:30): The pursuits, yes. The staffing, yes, Jordan's basically moved in. The burn, I'll believe it when it's our numbers. And Bev's piece we haven't seen yet, obviously.
+Consultant (00:25:42): That's fair. So where would you like to go from here?
+Tess Kowalczyk (00:25:48): Okay. So this is where I come back to the other firm.
+Consultant (00:25:54): Please.
+Tess Kowalczyk (00:25:56): Theirs was slicker. I'll be honest about that. Lots of dashboards, very polished. But it was their template with our logo on it. Nobody asked about the Wall. Nobody asked about submittals. And when Jordan asked about Ajera, they said, oh, no problem, we've done that before.
+Bev Halvorsen (00:26:16): Nobody has asked me a single question about Ajera. So I don't know how it's no problem.
+Consultant (00:26:24): So what would make the choice clear?
+Tess Kowalczyk (00:26:28): Honestly? Two things. Who gets the Ajera piece right without making Bev's life harder. And who can have pursuits live before Des Moines opens. The rest is nice to have.
+Bev Halvorsen (00:26:41): And whoever tells me, in writing, exactly what touches Ajera. Not "no problem."
+Consultant (00:26:48): What could get in the way of going ahead, between now and Thursday?
+Tess Kowalczyk (00:26:54): Honestly? Gordon liking the shinier one. He does like a dashboard. And Bev, if the Ajera answer is vague.
+Bev Halvorsen (00:27:03): I'm not a blocker. I'm a very reasonable person with a checklist.
+Tess Kowalczyk (00:27:09): [laughs] She is. It's a long checklist. And, look, I have to give Gordon something on Thursday. They're sending a proposal on Monday. Could you get me a ballpark by Wednesday?
+Consultant (00:27:23): Happy to. I'd like us to agree what it covers first, though, so the number means something and you're comparing like with like. Could we do a scoping session before Thursday? An hour, the three of you, and Gordon for part of it if he can. We agree the scope in a handful of bullets, and what the Ajera piece is and isn't. Then you have a number from me on Wednesday.
+Tess Kowalczyk (00:27:53): Yes. That works. When?
+Consultant (00:27:56): How about Tuesday the twenty-ninth? Jordan, your staffing call is at one, so, the morning?
+Jordan Pruitt (00:28:03): Morning's fine. Not before nine, though. I'm back in Rockford on Monday and driving home that night.
+Bev Halvorsen (00:28:11): I'm buried in month-end prep on Wednesday, so Tuesday is actually better for me.
+Tess Kowalczyk (00:28:18): Nine-thirty Central, Tuesday the twenty-ninth, then. Gordon has a site visit at ten on Tuesdays, so I'll get him for the first half hour.
+Consultant (00:28:27): Great. Nine-thirty to ten-thirty Central, Tuesday the twenty-ninth. I'll send the invite to all three of you right after we hang up. Tess, could you get it to Gordon?
+Tess Kowalczyk (00:28:40): I'll walk it down the hall to him this afternoon.
+Consultant (00:28:45): And so Tuesday is useful, Bev, could you send me the milestone schedule for one job, and a list of which jobs bill on milestones? Scrub whatever you like.
+Bev Halvorsen (00:28:58): Harwood, since we talked about it. I can do that Monday.
+Consultant (00:29:04): Monday's perfect. Jordan, the submittal log for one job?
+Jordan Pruitt (00:29:09): The school addition. The one with the steel. Also Monday.
+Consultant (00:29:14): And Bev, I'll put what you asked for in writing. One page. What we'd read from Ajera, how often, and that nothing writes back. By end of day Monday, so you can hand it to Marcus.
+Bev Halvorsen (00:29:29): Good. And I'll ask Marcus about turning the API on before Tuesday, so we at least know if it's there.
+Consultant (00:29:38): And I'll send the written change list today, so you can correct it before Tuesday. The renames, the form question, the saved view and taking out the dashboard, I'll have done by Tuesday. The submittal log and the milestones I'll build once I have your samples.
+Tess Kowalczyk (00:29:58): Great.
+Consultant (00:30:00): Last thing. Is there anything you expected to talk about today that we didn't get to?
+Bev Halvorsen (00:30:07): Only that I'd like to be on the next one of these. Not just the scoping.
+Tess Kowalczyk (00:30:15): You're on all of them now, Bev.
+Bev Halvorsen (00:30:19): [laughs] I walked right into that.
+Consultant (00:30:23): Glad to have you. Talk to you all Tuesday.
+Tess Kowalczyk (00:30:28): Thanks. Bye.
+Jordan Pruitt (00:30:30): Bye. The mower says bye too.

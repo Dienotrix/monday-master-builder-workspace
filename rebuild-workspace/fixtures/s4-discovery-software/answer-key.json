@@ -1,0 +1,2142 @@
+{
+  "scenario_id": "s4-discovery-software",
+  "call_type": "discovery",
+  "purpose_of_this_fixture": "Tests a strong discovery call at a B2B software company of about 200 people, delivered as a WebVTT auto-transcript, where the engagement falls on both sides of the v1 scope line: monday service is in v1 and covers a real part of what they need, while monday dev, the best fit for the engineering half, is not. The plugin should: (1) Propose a monday service build for the request-and-ticket work, which is the support-to-engineering escalation intake and/or IT's access requests, laptops and offboarding, and build it on the account's NATIVE Service template boards (Tickets and its native companions), never look-alike boards, and only after preflight has confirmed Service is provisioned and recorded those board ids. Service extras stay out of v1: no customer portal, no email-to-ticket channel, no SLA policy setup. (2) Name monday dev as the best fit for the engineering half (two-week sprints, three for Mobile, epics, the release train and release notes, and above all PR-to-work-item linking through GitHub, which is the heart of the SOC 2 change-management problem), say plainly that it is outside v1, and then EITHER offer a clearly labelled Work Management approach for that half, with its limits and the risk of a second migration, OR recommend waiting on that part. Either passes. Building dev structures as if supported, or presenting Work Management as the right fit for sprints and epics, fails. A single undifferentiated 'we'll do it all in Work Management' also fails: the answer has to separate the in-scope Service build from the out-of-scope engineering half. (3) Not be steered by the loose word 'projects' or the VP's 'portfolio view': these mean epics and initiatives, not a project-management need, and not a monday portfolio. The account tier is never stated, so the Enterprise portfolio default cannot fire here. (4) Not propose monday CRM: the consultant's CRM pitch was politely turned down, and the account managers' wish to see escalation status is a view on escalation data, not an Accounts board. (5) Grade the rubric as follows. Met: R2, R3, R6, R7, R8, R9, R10. Partial: R1, R4, R5, R12. Missing: R11. Per pain: P1 (escalations) is Met on all six checks, so it is excavated; P2 (SOC 2 change evidence) is Met on all checks except Workaround, which is Partial. Verdict 'Nearly ready', because R4 is Partial: the client gave hours but no cost, and the consultant's $120/hour placeholder was not confirmed. The blueprint gate is met; the pricing/proposal and v1.0 sign-off gates are not. (6) Capture the why-now (first SOC 2 audit, fieldwork in the second week of January, about four months out, required by a large prospect) and the SOC 2 signals: change-management evidence, incident records, access approvals, audit logs, SSO, a vendor security review, and no customer PII in engineering tools. (7) Treat GitHub and Slack as must-have integrations and Zendesk as staying until at least its March renewal, so the Service tickets built here are internal escalation and request records that link to the Zendesk ticket. (8) Parse WebVTT cues and see through speech-recognition errors ('sock two', 'Zen desk', 'Monday's' meaning monday.com's). should_plugin_propose_a_build is true, and unlike earlier versions of this fixture it is now true without qualification on the Service side: there is a real in-scope build to propose on native Service boards, plus either a clearly labelled Work Management approach or a recommendation to wait for the engineering half.",
+  "transcript_format": "WebVTT auto-transcript from a video meeting. It has a 'WEBVTT' header, numbered cues, timing lines in the form 'HH:MM:SS.mmm --> HH:MM:SS.mmm', and cue text in the form 'Speaker Name: text'. Long turns are split across several consecutive cues by the same speaker, and interrupted turns end mid-sentence with no punctuation. There are 263 cues covering about 40.6 minutes and about 5,140 spoken words (client share about 72 percent). The consultant is labelled 'Consultant'. Typical speech-recognition errors are kept: 'sock two' for SOC 2, 'Zen desk' for Zendesk, and 'Monday dev' / 'Monday's' capitalised like the weekday. Every location in this key gives the cue number, cue start time and speaker, for example 'cue 30, 00:04:07.442, Tomasz Wirth'. The call date is not in the transcript.",
+  "company": {
+    "name": "Tollgrove",
+    "industry": "B2B SaaS: dispatch and scheduling software for HVAC, plumbing and electrical trade contractors (web app for the office plus the 'tech app' mobile app for field technicians)",
+    "size": "About 200 employees ('a little over'). Engineering is about 65 people in five squads, with shared QA and a small SRE group. Tier-two support has 5 support engineers. IT is 2 people who report to the VP of Engineering and have never had a service desk.",
+    "locations": "Office in Raleigh (VP of Engineering); about half of engineering in Kraków; remote staff including the PM in Asheville",
+    "current_tools": [
+      "Redmine (self-hosted, old unpatched version; the legacy issue tracker they want to leave)",
+      "Zendesk (customer helpdesk; staying at least until the March renewal)",
+      "GitHub",
+      "Slack",
+      "Google Sheets (escalation tracker, PM roadmap sheet)",
+      "Google Docs (on-call handoff doc, postmortems)",
+      "Google Drive (SOC 2 evidence screenshots)",
+      "Google Forms (some access requests; otherwise Slack DMs, no IT service desk)",
+      "Google sign-in (SSO requirement)",
+      "monday.com (used by Marketing for campaign boards and by Customer Education for a webinar calendar; plan and seat count unknown)",
+      "Compliance automation platform (in procurement, not named)",
+      "On-call tooling owned by SRE (not named)"
+    ]
+  },
+  "attendees": [
+    {
+      "name": "Consultant",
+      "role": "monday.com consultant running the discovery call",
+      "side": "consultant",
+      "decision_role": "not applicable"
+    },
+    {
+      "name": "Tomasz Wirth",
+      "role": "VP of Engineering",
+      "side": "client",
+      "decision_role": "approver (decides on the tool: 'It's my call on the tool.'; spend over $50k a year goes to the CFO for sign-off, and she was not on the call)"
+    },
+    {
+      "name": "Colleen Brask",
+      "role": "Support Operations Manager",
+      "side": "client",
+      "decision_role": "influencer and end user (owns the escalation process day to day; would be the main user of an escalation queue)"
+    },
+    {
+      "name": "Devin Marchetti",
+      "role": "Product Manager (dispatch and the tech app; also writes release notes)",
+      "side": "client",
+      "decision_role": "influencer and end user (product manager; would use the epics roll-up and the release notes)"
+    }
+  ],
+  "expected_monday_products": [
+    {
+      "kind": "service",
+      "why": "IN v1, and the part of this engagement the plugin can actually build. Two candidate scopes. First, the support-to-engineering escalation intake: an escalation record with an owner, a status support can see, a severity, and a link back to the Zendesk ticket, so Colleen stops rebuilding her spreadsheet and account managers can see status for their accounts. Second, IT's service desk: access requests, laptops and offboarding, which arrive as Slack DMs or a Google Form today, and which SOC 2 needs an approval and a clean leaver record for. Both must be built on the account's NATIVE Service template boards (Tickets, plus native companions such as Incidents, Asset management and Employee lifecycle where those entities are in scope), never on look-alike boards, with the board ids detected and recorded in preflight first. Service extras are deferred: no customer portal, no email-to-ticket channel, no SLA policy setup. Zendesk stays as the customer helpdesk until at least the March renewal, so these tickets are internal records that link to the Zendesk ticket rather than replacing it."
+    },
+    {
+      "kind": "software",
+      "why": "Best fit for the engineering half, but OUT of v1; the plugin must say so plainly and must not build it. monday dev would replace Redmine for sprints (two weeks for most squads, three for Mobile), epics, bugs and escalation work items, and releases and release notes. Linking PRs to work items through GitHub is the heart of the SOC 2 change-management problem, and Slack is a must-have. The 'portfolio view of projects' the VP wants is a roll-up of epics and sprints across squads, which is also dev. Name it as the fit, not as something being built, and do not quietly rebuild its structures under another product's name."
+    },
+    {
+      "kind": "core",
+      "why": "Acceptable only as a clearly labelled approach for the engineering half, because dev is outside v1; never as the recommended fit for sprints and epics, and never chosen because the client says 'projects' or 'portfolio view'. Recommending waiting on that half instead also passes. If offered, the plugin must say what it does not replicate compared with monday dev, must not promise GitHub behaviour it has not verified, and should note the risk of a second migration later (the CFO does not want to pay for two things, and the last move off Redmine failed halfway). Plausible pieces: an epics roll-up, an audit evidence (PBC) board, a change record linking ticket to PR to release, an on-call handoff and incident log, and a releases board. No portfolio by default: the tier is never stated and the 'portfolio view' means epics (see expected_structures). monday CRM is not expected at all: the pitch was turned down, and the account-manager need is a view or dashboard on escalation data."
+    }
+  ],
+  "rubric": [
+    {
+      "criterion": "R1 Current state mapped",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "And if it's real, they post in the eng escalations channel in Slack with the Zendesk link and a description.",
+          "location": "cue 79, 00:12:27.888, Colleen Brask"
+        },
+        {
+          "quote": "And I update it by hand, every morning, by reading the Slack channel.",
+          "location": "cue 87, 00:13:49.634, Colleen Brask"
+        },
+        {
+          "quote": "People are supposed to put the Redmine number in the branch name, like feature slash four-one-two-two, whatever.",
+          "location": "cue 67, 00:10:48.115, Devin Marchetti"
+        },
+        {
+          "quote": "I go through Redmine for everything closed in the target version, then GitHub for what actually merged, because those never match, and then Slack for the stuff nobody ticketed.",
+          "location": "cue 161, 00:25:34.289, Devin Marchetti"
+        },
+        {
+          "quote": "The handoff is a Slack thread plus a Google Doc, and the doc is, let's say, aspirational.",
+          "location": "cue 140, 00:22:04.318, Tomasz Wirth"
+        },
+        {
+          "quote": "Screenshots. In a Google Drive folder.",
+          "location": "cue 135, 00:21:10.259, Tomasz Wirth"
+        },
+        {
+          "quote": "Jess, their ops person, set up some boards for campaigns. I have no idea what plan they're on or how many seats.",
+          "location": "cue 74, 00:11:28.649, Tomasz Wirth"
+        }
+      ],
+      "note": "Well described, with tools, people and time: the escalation path, the Redmine setup (projects, faked epics, target versions), GitHub linking by branch name, release-notes compilation, the on-call handoff and evidence collection. Gaps: how production changes are approved and deployed today (who approves, where it is recorded) is never described. The access-request and offboarding flow is thin (Slack DMs, a Google Form, no service desk; who approves is not said). How the Zendesk ticket gets updated once a fix ships is only implied. The on-call and paging tooling is unnamed. The existing monday use in Marketing has unknown plan, seats and admin. Because monday service is in v1, two of those gaps now gate the buildable part: who approves an access grant today is never said, and the account's own monday setup (tier, which products are provisioned, whether Service exists at all, who administers it) is unknown, so the native Service board ids cannot be assumed and must be detected in preflight."
+    },
+    {
+      "criterion": "R2 Pain made concrete",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "and three days later my T2 is asking in the thread, hey, any update, and nobody knows who has it.",
+          "location": "cue 82, 00:13:00.277, Colleen Brask"
+        },
+        {
+          "quote": "It sat for three days before anyone actually started working it.",
+          "location": "cue 93, 00:14:53.310, Colleen Brask"
+        },
+        {
+          "quote": "So. I have a spreadsheet. The escalation tracker. It's a Google Sheet with the Zendesk number, the Redmine number if there is one, who owns it, the status, when we last told the customer something.",
+          "location": "cue 86, 00:13:33.900, Colleen Brask"
+        },
+        {
+          "quote": "Because it's me. The whole thing is me. When I'm out it falls apart, like the July thing is literally what happens when I'm out.",
+          "location": "cue 100, 00:15:45.721, Colleen Brask"
+        },
+        {
+          "quote": "The account managers, for sure, because the customer calls them.",
+          "location": "cue 103, 00:16:13.510, Colleen Brask"
+        },
+        {
+          "quote": "Call it forty-ish hours a sprint. Across all the squads.",
+          "location": "cue 113, 00:17:43.961, Tomasz Wirth"
+        },
+        {
+          "quote": "We're at about eleven hundred tickets a month and maybe sixty, seventy of those go to engineering.",
+          "location": "cue 127, 00:19:46.711, Colleen Brask"
+        }
+      ],
+      "note": "P1, support-to-engineering escalations, is excavated: all six per-pain checks are Met (see the P1 rows). Stated in Colleen's words; Concrete: the July incident with a Denver contractor, three business days, the owner calling the CEO; Workaround: the escalation tracker sheet plus the Slack channel, not acceptable because it depends on one person and support cannot enforce follow-through. P2, SOC 2 change evidence, is Stated and Concrete (about 14 of 40 sampled changes had no ticket) but its Workaround is only Partial. P3 (release notes), P4 (on-call handoffs), P5 (Redmine as a liability), P6 (roadmap visibility), P7 (customer PII) and P8 (access requests) are Stated, most with a concrete example; only P1 and P2 are graded check by check in this key."
+    },
+    {
+      "criterion": "R3 Why now",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "The big one is we have our sock two audit coming up. It's our first one. Fieldwork is the second week of January.",
+          "location": "cue 30, 00:04:07.442, Tomasz Wirth"
+        },
+        {
+          "quote": "But the whole reason we're doing SOC two at all is we have a big prospect, a national facilities group, and their procurement will not sign without the report.",
+          "location": "cue 38, 00:05:45.420, Tomasz Wirth"
+        },
+        {
+          "quote": "So it's not a nice-to-have. If we don't have a clean report, that deal slides.",
+          "location": "cue 39, 00:06:06.295, Tomasz Wirth"
+        },
+        {
+          "quote": "The thing is, Redmine is the finding. The auditor literally flagged the server.",
+          "location": "cue 153, 00:24:12.753, Tomasz Wirth"
+        }
+      ],
+      "note": "Their first SOC 2 audit: Type 1 fieldwork in the second week of January, about four months after the call, with the Type 2 observation window starting right after, so the setup has to hold for a year. The trigger is a large prospect ('the Granite deal') whose procurement requires the report. The readiness assessment flagged engineering's change tracking and the unpatched Redmine server."
+    },
+    {
+      "criterion": "R4 Bleed number",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "Call it forty-ish hours a sprint. Across all the squads.",
+          "location": "cue 113, 00:17:43.961, Tomasz Wirth"
+        },
+        {
+          "quote": "Honestly on a bad sprint it's probably more like fifty, but let's say forty so nobody accuses me of making it up.",
+          "location": "cue 114, 00:17:56.577, Tomasz Wirth"
+        },
+        {
+          "quote": "Yeah. Yeah, that's about right.",
+          "location": "cue 116, 00:18:14.756, Tomasz Wirth"
+        },
+        {
+          "quote": "I'd say an hour a day each, easily, chasing status. And there's five of them. Plus my hour on the tracker.",
+          "location": "cue 118, 00:18:24.915, Colleen Brask"
+        },
+        {
+          "quote": "Forty-five minutes on a good day? An hour. And it's wrong by lunch.",
+          "location": "cue 89, 00:13:59.273, Colleen Brask"
+        },
+        {
+          "quote": "It's most of a day every release.",
+          "location": "cue 162, 00:25:46.985, Devin Marchetti"
+        },
+        {
+          "quote": "For the readiness assessment, Bartek and I spent three weekends pulling PRs and Redmine issues and pasting screenshots into docs.",
+          "location": "cue 135, 00:21:10.259, Tomasz Wirth"
+        },
+        {
+          "quote": "Uh, honestly, I'm not going to put a dollar figure on it on this call. Finance would kill me.",
+          "location": "cue 178, 00:28:04.909, Tomasz Wirth"
+        },
+        {
+          "quote": "Mm. I don't know. Maybe? I'd want to check with Linh before anyone writes that down anywhere.",
+          "location": "cue 180, 00:28:28.441, Tomasz Wirth"
+        }
+      ],
+      "note": "The client supplied hour inputs but no cost. Engineering: about 40 hours per two-week sprint (40 to 50 on a bad sprint). Tier-two support: 5 engineers at about 1 hour a day each. Support ops manager: 45 to 60 minutes a day. PM: most of a day per biweekly release. Audit evidence: 3 weekends for 2 people. Tomasz's 'that's about right' confirms only the hours framing (about one engineer per sprint), not a money figure. No loaded hourly cost, no yearly total, no confirmation. The consultant's '$120 an hour' placeholder is NOT evidence: the answer 'Mm. I don't know. Maybe?' plus deferring to the CFO is at best unconfirmed. Unquantified costs: the July near-churn (two months free), duplicate fixes in May, and the June invoice-export incident (about 15 tickets in the first hour). Hold pricing prep; get the loaded cost via Linh (CFO)."
+    },
+    {
+      "criterion": "R5 Upside number",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "Offline mode. The tech app needs to work when a technician's in a basement with no signal. It's been sitting in the backlog for, what, three quarters?",
+          "location": "cue 184, 00:29:03.402, Tomasz Wirth"
+        },
+        {
+          "quote": "I'm not going to guess what it's worth in revenue.",
+          "location": "cue 186, 00:29:21.964, Tomasz Wirth"
+        },
+        {
+          "quote": "I'm really not allowed to say. It would be our biggest customer by a lot.",
+          "location": "cue 188, 00:29:39.854, Tomasz Wirth"
+        }
+      ],
+      "note": "The client names what freed capacity would go to (offline mode, their top customer request) but gives no value, and withholds the Granite deal's value."
+    },
+    {
+      "criterion": "R6 Desired outcome",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "My T2 escalates something, and from then on I can see who has it and what's happening without asking anybody. And when I'm on PTO nothing falls apart.",
+          "location": "cue 198, 00:31:09.132, Colleen Brask"
+        },
+        {
+          "quote": "click through ticket, approval, PR, release, and export it. In an afternoon. Not three weekends.",
+          "location": "cue 199, 00:31:24.467, Tomasz Wirth"
+        },
+        {
+          "quote": "Release notes that basically write themselves from what actually shipped. And I can see where the roadmap is without my spreadsheet.",
+          "location": "cue 200, 00:31:38.712, Devin Marchetti"
+        },
+        {
+          "quote": "The report in hand with no engineering findings, and Granite signed by end of Q1. That's the win.",
+          "location": "cue 202, 00:31:53.748, Tomasz Wirth"
+        }
+      ],
+      "note": "All three described a normal week once this is solved, and the leadership win was stated. Draft success criteria (proposed, not yet agreed): (1) an escalation's owner and status are visible without asking anyone; (2) nothing falls apart when Colleen is on PTO; (3) an auditor's change sample can be traced from ticket to approval to PR to release and exported in an afternoon; (4) release notes are generated from what shipped; (5) roadmap status is visible without a spreadsheet."
+    },
+    {
+      "criterion": "R7 Decision process mapped",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "It's my call on the tool. Engineering tooling is my budget, up to a point.",
+          "location": "cue 218, 00:34:10.976, Tomasz Wirth"
+        },
+        {
+          "quote": "If it's over fifty thousand a year it goes to Linh for sign-off, and honestly with sixty-five engineers plus support it probably will be.",
+          "location": "cue 218, 00:34:10.976, Tomasz Wirth"
+        },
+        {
+          "quote": "Not paying for two things at once. And that we're not buying something that turns into shelfware.",
+          "location": "cue 220, 00:34:32.353, Tomasz Wirth"
+        },
+        {
+          "quote": "And Oren's going to want the vendor's own SOC two report, a DPA, the usual.",
+          "location": "cue 215, 00:33:43.315, Tomasz Wirth"
+        },
+        {
+          "quote": "To be fair. Call it four to six.",
+          "location": "cue 229, 00:35:56.802, Tomasz Wirth"
+        },
+        {
+          "quote": "Oren's review, Linh signs, and then I want a pilot. One squad for one sprint, probably Dispatch, because they get the most escalations.",
+          "location": "cue 231, 00:36:06.530, Tomasz Wirth"
+        },
+        {
+          "quote": "So two years ago we tried to move off Redmine, to another tracker. We got about halfway.",
+          "location": "cue 222, 00:34:46.000, Tomasz Wirth"
+        }
+      ],
+      "note": "Tomasz (VP of Engineering) decides on the tool. Spend over $50k a year needs sign-off from Linh (CFO), which Tomasz expects. Linh cares about not paying for two tools at once and not buying shelfware. Oren (security and compliance) runs a vendor review of about 4 to 6 weeks (the Zendesk purchase took about six) and needs the vendor's SOC 2 report and a DPA. After a yes: security review, CFO signature, a one-sprint pilot with the Dispatch squad, then roll-out in October and November. Prior experience: a migration off Redmine two years ago failed halfway. Linh and Oren were not on the call; Oren might join the last 15 minutes of the next one."
+    },
+    {
+      "criterion": "R8 Priority and timing",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "This quarter. It has to be. Engineering off Redmine by end of November, so we've got six weeks of clean evidence before fieldwork.",
+          "location": "cue 233, 00:36:25.762, Tomasz Wirth"
+        }
+      ],
+      "note": "Now, not later. Target: engineering off Redmine by end of November, ahead of fieldwork in the second week of January."
+    },
+    {
+      "criterion": "R9 Blockers surfaced",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "If engineers hate it, if it feels like more work than Redmine, they'll revolt, and I'm back on Redmine by March with egg on my face.",
+          "location": "cue 225, 00:35:18.041, Tomasz Wirth"
+        },
+        {
+          "quote": "We have a big release at the end of October. If this lands on top of that it'll get deprioritized, and I'll be the one deprioritizing it.",
+          "location": "cue 235, 00:36:42.383, Tomasz Wirth"
+        },
+        {
+          "quote": "When we bought Zendesk it took about six weeks. Which, with this timeline, yeah, I'm a little worried about.",
+          "location": "cue 227, 00:35:39.560, Tomasz Wirth"
+        }
+      ],
+      "note": "Three blockers: engineers rejecting it (with scar tissue from the failed migration), the late-October release crunch, and the length of the security review against the timeline."
+    },
+    {
+      "criterion": "R10 Next step committed",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Twenty-second. Let me look. Yeah, that's the quiet week before the next train. One works.",
+          "location": "cue 250, 00:39:13.112, Tomasz Wirth"
+        },
+        {
+          "quote": "One's fine, I'll block it.",
+          "location": "cue 252, 00:39:22.340, Colleen Brask"
+        },
+        {
+          "quote": "I'll send the invite for Tuesday the twenty-second at one Eastern to the three of you right after this.",
+          "location": "cue 255, 00:39:38.316, Consultant"
+        }
+      ],
+      "note": "Next call: Tuesday the 22nd, 1:00 pm Eastern, 45 minutes, a first look built from this call. The consultant sends the invite right after the call; Tomasz forwards it to Oren. The client confirmed the time. The month is not stated (the 22nd is a Tuesday in September 2026)."
+    },
+    {
+      "criterion": "R11 Solution confirmed",
+      "status": "missing",
+      "evidence": [],
+      "note": "Discovery call; nothing was shown."
+    },
+    {
+      "criterion": "R12 Scope agreed verbally",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "Yeah. Those three. I'd add on-call handoffs if you can. But those three are what I'd want to see first. Don't hold me to that being the whole list.",
+          "location": "cue 240, 00:37:45.611, Tomasz Wirth"
+        }
+      ],
+      "note": "The VP agreed what the first demo should show: the escalation flow, change traceability for audit evidence, and a cross-squad view of epics and sprints. He asked to add on-call handoffs, and Colleen asked for an account manager view. The agreement is explicitly hedged and covers the demo, not an engagement scope. No proposal."
+    },
+    {
+      "criterion": "P1 Stated",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "What actually happens is someone puts eyes on it, and then they get pulled into something else, and three days later my T2 is asking in the thread, hey, any update, and nobody knows who has it.",
+          "location": "cue 82, 00:13:00.277, Colleen Brask"
+        },
+        {
+          "quote": "Or there's two Redmine issues for the same thing because two people grabbed it. Or zero.",
+          "location": "cue 83, 00:13:16.691, Colleen Brask"
+        }
+      ],
+      "note": "P1 Escalations. Colleen describes escalations going unowned once posted in Slack, with duplicate or missing Redmine issues."
+    },
+    {
+      "criterion": "P1 Concrete",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Their dispatch board stopped syncing jobs to the tech app.",
+          "location": "cue 91, 00:14:12.397, Colleen Brask"
+        },
+        {
+          "quote": "It sat for three days before anyone actually started working it.",
+          "location": "cue 93, 00:14:53.310, Colleen Brask"
+        },
+        {
+          "quote": "The owner called our CEO directly.",
+          "location": "cue 95, 00:15:01.250, Colleen Brask"
+        }
+      ],
+      "note": "July: a Denver contractor's dispatch board stopped syncing jobs to the tech app; the escalation sat for three business days while Colleen was on PTO; the owner called the CEO and said they were evaluating other options."
+    },
+    {
+      "criterion": "P1 Workaround",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "So. I have a spreadsheet. The escalation tracker.",
+          "location": "cue 86, 00:13:33.900, Colleen Brask"
+        },
+        {
+          "quote": "And I update it by hand, every morning, by reading the Slack channel.",
+          "location": "cue 87, 00:13:49.634, Colleen Brask"
+        },
+        {
+          "quote": "Because it's me. The whole thing is me. When I'm out it falls apart",
+          "location": "cue 100, 00:15:45.721, Colleen Brask"
+        },
+        {
+          "quote": "I can nag. I'm a very good nagger. But nagging isn't a process.",
+          "location": "cue 101, 00:15:57.157, Colleen Brask"
+        }
+      ],
+      "note": "Workaround: Colleen's escalation tracker (a Google Sheet) updated by hand each morning from the Slack channel. Not acceptable because it depends on her and she cannot enforce follow-through in engineering."
+    },
+    {
+      "criterion": "P1 Reach",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "The account managers, for sure, because the customer calls them.",
+          "location": "cue 103, 00:16:13.510, Colleen Brask"
+        },
+        {
+          "quote": "And then the on-call engineer, who usually gets the angriest ping.",
+          "location": "cue 105, 00:16:32.707, Colleen Brask"
+        },
+        {
+          "quote": "So the cost for us is interrupts and rework.",
+          "location": "cue 107, 00:16:47.601, Tomasz Wirth"
+        }
+      ],
+      "note": "Account managers, the PM (about half of escalations are should-this-even-work-this-way questions), the on-call engineer, and the squads (interrupts and rework)."
+    },
+    {
+      "criterion": "P1 Cost inputs",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Call it forty-ish hours a sprint. Across all the squads.",
+          "location": "cue 113, 00:17:43.961, Tomasz Wirth"
+        },
+        {
+          "quote": "I'd say an hour a day each, easily, chasing status. And there's five of them. Plus my hour on the tracker.",
+          "location": "cue 118, 00:18:24.915, Colleen Brask"
+        },
+        {
+          "quote": "We gave them two months free",
+          "location": "cue 97, 00:15:21.807, Colleen Brask"
+        }
+      ],
+      "note": "Hours and a concession: engineering about 40 hours per two-week sprint (up to 50 on a bad sprint), 5 tier-two engineers at about an hour a day each, Colleen's 45 to 60 minutes a day, and two months free for the July customer. No money value (see R4)."
+    },
+    {
+      "criterion": "P1 Trajectory",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Worse. We signed, what, thirty-something new customers this year? Ticket volume's up.",
+          "location": "cue 127, 00:19:46.711, Colleen Brask"
+        },
+        {
+          "quote": "Last year it was more like forty escalations a month. I think. Don't quote me.",
+          "location": "cue 128, 00:19:59.039, Colleen Brask"
+        },
+        {
+          "quote": "And if Granite closes, that's one customer with, like, fifteen hundred technicians.",
+          "location": "cue 129, 00:20:06.951, Tomasz Wirth"
+        }
+      ],
+      "note": "Getting worse: about 1,100 tickets and 60 to 70 escalations a month now, against about 40 escalations a month last year (loose), and the Granite prospect would add about 1,500 technicians."
+    },
+    {
+      "criterion": "P2 Stated",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "It's just nobody linked anything. It lives in someone's head or in a Slack thread.",
+          "location": "cue 36, 00:05:27.807, Tomasz Wirth"
+        }
+      ],
+      "note": "P2 SOC 2 change evidence. Production changes cannot be traced to tickets; the link lives in people's heads or in Slack."
+    },
+    {
+      "criterion": "P2 Concrete",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "And out of, I think it was forty changes, something like fourteen had no ticket at all. Or the ticket was for something else entirely.",
+          "location": "cue 35, 00:05:18.072, Tomasz Wirth"
+        }
+      ],
+      "note": "Summer readiness assessment: of about 40 sampled production changes, about 14 had no ticket or the wrong one."
+    },
+    {
+      "criterion": "P2 Workaround",
+      "status": "partial",
+      "evidence": [
+        {
+          "quote": "Screenshots. In a Google Drive folder.",
+          "location": "cue 135, 00:21:10.259, Tomasz Wirth"
+        },
+        {
+          "quote": "For the readiness assessment, Bartek and I spent three weekends pulling PRs and Redmine issues and pasting screenshots into docs.",
+          "location": "cue 135, 00:21:10.259, Tomasz Wirth"
+        },
+        {
+          "quote": "And for each one it's a scavenger hunt.",
+          "location": "cue 136, 00:21:24.128, Tomasz Wirth"
+        }
+      ],
+      "note": "The workaround is named (screenshots pulled by hand into a Drive folder, a scavenger hunt per auditor request), but why it cannot carry on is only implied (the Type 2 window means the setup must hold for a year); nobody says it about the screenshot process itself. Next prep: 'What stops you from carrying on with screenshots through the Type 2 year?'"
+    },
+    {
+      "criterion": "P2 Reach",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "But the whole reason we're doing SOC two at all is we have a big prospect, a national facilities group, and their procurement will not sign without the report.",
+          "location": "cue 38, 00:05:45.420, Tomasz Wirth"
+        },
+        {
+          "quote": "And everybody knows exactly whose team was the problem in the readiness assessment.",
+          "location": "cue 39, 00:06:06.295, Tomasz Wirth"
+        }
+      ],
+      "note": "The CEO and the Granite deal, Bartek's weekends, and engineering's standing after the readiness assessment."
+    },
+    {
+      "criterion": "P2 Cost inputs",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "Three full weekends.",
+          "location": "cue 135, 00:21:10.259, Tomasz Wirth"
+        }
+      ],
+      "note": "Three weekends for two people (Tomasz and Bartek), plus an error rate of about 14 in 40 sampled changes. No hours per request and no money value."
+    },
+    {
+      "criterion": "P2 Trajectory",
+      "status": "met",
+      "evidence": [
+        {
+          "quote": "So it's not a nice-to-have. If we don't have a clean report, that deal slides.",
+          "location": "cue 39, 00:06:06.295, Tomasz Wirth"
+        },
+        {
+          "quote": "And then the Type 2 observation window starts right after, so whatever we set up has to hold up for a year.",
+          "location": "cue 131, 00:20:26.458, Tomasz Wirth"
+        }
+      ],
+      "note": "If nothing changes, the report is not clean and the Granite deal slides; the Type 2 observation window then runs for a year."
+    }
+  ],
+  "pains": [
+    {
+      "quote": "and three days later my T2 is asking in the thread, hey, any update, and nobody knows who has it.",
+      "location": "cue 82, 00:13:00.277, Colleen Brask",
+      "theme": "P1 Escalations: nobody clearly owns an escalation once it is posted in Slack"
+    },
+    {
+      "quote": "Or there's two Redmine issues for the same thing because two people grabbed it. Or zero.",
+      "location": "cue 83, 00:13:16.691, Colleen Brask",
+      "theme": "P1 Escalations: duplicate or missing engineering issues"
+    },
+    {
+      "quote": "And it's wrong by lunch.",
+      "location": "cue 89, 00:13:59.273, Colleen Brask",
+      "theme": "P1 Escalations: hand-maintained escalation tracker is always stale"
+    },
+    {
+      "quote": "Because it's me. The whole thing is me.",
+      "location": "cue 100, 00:15:45.721, Colleen Brask",
+      "theme": "P1 Escalations: the process depends on one person"
+    },
+    {
+      "quote": "I can nag. I'm a very good nagger. But nagging isn't a process.",
+      "location": "cue 101, 00:15:57.157, Colleen Brask",
+      "theme": "P1 Escalations: support cannot enforce follow-through in engineering"
+    },
+    {
+      "quote": "It's like having a person whose whole job is being confused.",
+      "location": "cue 116, 00:18:14.756, Tomasz Wirth",
+      "theme": "P1 Escalations: engineering time lost chasing context"
+    },
+    {
+      "quote": "Two engineers in two different squads fixed the same bug two different ways, and we found out in code review.",
+      "location": "cue 111, 00:17:23.641, Tomasz Wirth",
+      "theme": "P1 Escalations: duplicate work across squads"
+    },
+    {
+      "quote": "It lives in someone's head or in a Slack thread.",
+      "location": "cue 36, 00:05:27.807, Tomasz Wirth",
+      "theme": "P2 SOC 2: production changes not linked to tickets"
+    },
+    {
+      "quote": "Three full weekends.",
+      "location": "cue 135, 00:21:10.259, Tomasz Wirth",
+      "theme": "P2 SOC 2: manual evidence collection"
+    },
+    {
+      "quote": "And for each one it's a scavenger hunt.",
+      "location": "cue 136, 00:21:24.128, Tomasz Wirth",
+      "theme": "P2 SOC 2: answering the auditor's PBC requests"
+    },
+    {
+      "quote": "It does nothing for the fact that our change tickets are a mess. It just shows the auditor the mess faster.",
+      "location": "cue 158, 00:25:11.264, Tomasz Wirth",
+      "theme": "P2 SOC 2: compliance platform does not fix change traceability"
+    },
+    {
+      "quote": "It's most of a day every release. And I'm a PM, so that's a day I'm not talking to customers.",
+      "location": "cue 162, 00:25:46.985, Devin Marchetti",
+      "theme": "P3 Release notes: manual compilation from three sources"
+    },
+    {
+      "quote": "My team found out from customers. That's the part that kills me. We look stupid.",
+      "location": "cue 171, 00:26:51.448, Colleen Brask",
+      "theme": "P3 Release notes: support learns about changes too late"
+    },
+    {
+      "quote": "It was in the Slack thread. It was not in the handoff doc.",
+      "location": "cue 143, 00:22:35.321, Tomasz Wirth",
+      "theme": "P4 On-call: handoffs drop pending work"
+    },
+    {
+      "quote": "And the postmortem exists. It's in a Google Doc. Somewhere.",
+      "location": "cue 145, 00:22:55.487, Tomasz Wirth",
+      "theme": "P4 On-call: incident and postmortem records scattered"
+    },
+    {
+      "quote": "And it's, it's held together with tape at this point.",
+      "location": "cue 32, 00:04:42.003, Tomasz Wirth",
+      "theme": "P5 Redmine: legacy tracker"
+    },
+    {
+      "quote": "Unsupported software on a system that holds change records.",
+      "location": "cue 63, 00:10:06.908, Tomasz Wirth",
+      "theme": "P5 Redmine: unpatched server is an audit finding"
+    },
+    {
+      "quote": "Like, the page takes eight seconds to load if the backlog is big.",
+      "location": "cue 61, 00:09:44.693, Devin Marchetti",
+      "theme": "P5 Redmine: slow sprint planning"
+    },
+    {
+      "quote": "I'd open a spreadsheet. Genuinely.",
+      "location": "cue 55, 00:08:38.825, Devin Marchetti",
+      "theme": "P6 Roadmap: no view of epic status across squads"
+    },
+    {
+      "quote": "I just want one place where I can see all our projects and where they're at. Like a portfolio view.",
+      "location": "cue 56, 00:08:49.455, Tomasz Wirth",
+      "theme": "P6 Roadmap: VP wants one cross-squad status view (means epics; see traps)"
+    },
+    {
+      "quote": "Which means homeowner names and phone numbers and addresses end up pasted into Redmine and Slack.",
+      "location": "cue 122, 00:19:04.999, Colleen Brask",
+      "theme": "P7 Customer PII copied into engineering tools"
+    },
+    {
+      "quote": "He does not want customer PII in engineering tools. At all. And right now it's everywhere.",
+      "location": "cue 123, 00:19:15.685, Tomasz Wirth",
+      "theme": "P7 Customer PII copied into engineering tools"
+    },
+    {
+      "quote": "The auditor wants an approval on every access grant and a clean record when someone leaves. We don't have that in one place. At all.",
+      "location": "cue 148, 00:23:23.335, Tomasz Wirth",
+      "theme": "P8 Access requests: no approval record for SOC 2"
+    },
+    {
+      "quote": "And IT's never had a real service desk, honestly.",
+      "location": "cue 149, 00:23:32.400, Tomasz Wirth",
+      "theme": "P8 Access requests: IT has no service desk; requests arrive as DMs"
+    },
+    {
+      "quote": "Slack is where everything happens and then dies.",
+      "location": "cue 72, 00:11:15.546, Tomasz Wirth",
+      "theme": "Cross-cutting: decisions and context lost in Slack"
+    }
+  ],
+  "numbers": {
+    "bleed": {
+      "value": "Hour inputs only, no money and no confirmed total. Engineering: about 40 hours per two-week sprint lost to escalation chasing (about 50 on a bad sprint). Tier-two support: 5 engineers at about 1 hour a day each. Support ops manager: 45 to 60 minutes a day on the tracker. PM: most of a day per biweekly release. Audit evidence: 3 weekends for 2 people. The consultant's $120/hour loaded-rate placeholder was not confirmed.",
+      "quote": "Call it forty-ish hours a sprint.",
+      "status": "partial"
+    },
+    "upside": {
+      "value": "Not quantified. Freed engineering capacity would go to offline mode for the tech app (the top customer request, in the backlog about three quarters). The Granite deal would be their largest customer, but its value was withheld.",
+      "quote": "It's been sitting in the backlog for, what, three quarters?",
+      "status": "partial"
+    }
+  },
+  "vocabulary": [
+    {
+      "their_term": "squads (Dispatch, Billing, Mobile, Platform, plus one unnamed)",
+      "meaning": "Engineering teams, each with a lead",
+      "likely_monday_object": "team per squad (monday dev); in a Work Management approximation, a squad dropdown or group"
+    },
+    {
+      "their_term": "sprints",
+      "meaning": "Two-week iterations; Mobile runs three weeks",
+      "likely_monday_object": "sprint (monday dev); in a Work Management approximation, a sprint dropdown or timeline column, keeping Mobile's three-week cadence"
+    },
+    {
+      "their_term": "epics",
+      "meaning": "Large engineering initiatives, faked in Redmine as parent issues with an 'Epic' custom field",
+      "likely_monday_object": "epic (monday dev epics and roadmap); in a Work Management approximation, an epics board connected to tasks"
+    },
+    {
+      "their_term": "projects (in Redmine)",
+      "meaning": "Redmine containers, roughly one per product area; about eleven by Devin's hedged count ('I think, eleven projects?'), plus a Support Escalations project and Misc, and whether eleven includes those two is not said",
+      "likely_monday_object": "product-area dropdown or group; not one board per Redmine project, and not a Work Management project template"
+    },
+    {
+      "their_term": "projects (the big stuff, e.g. offline mode, billing rewrite)",
+      "meaning": "Initiatives the VP wants a 'portfolio view' of; he concedes they are epics",
+      "likely_monday_object": "epic item with a roll-up (roadmap) view; not a project or portfolio template unless the client confirms"
+    },
+    {
+      "their_term": "the SOC two project",
+      "meaning": "Non-code audit readiness work: evidence and policies",
+      "likely_monday_object": "audit evidence board (confirm whether it belongs in the same roll-up as the epics)"
+    },
+    {
+      "their_term": "tickets",
+      "meaning": "Customer support tickets in Zendesk",
+      "likely_monday_object": "linked Zendesk ticket ID or link column on the Service ticket; Zendesk stays the customer helpdesk, so a monday Service ticket here is the internal escalation or request record, not a copy of the customer ticket"
+    },
+    {
+      "their_term": "eng escalations / escalation",
+      "meaning": "A support ticket tier two believes is a real bug, handed to engineering",
+      "likely_monday_object": "item on the account's native Service Tickets board (monday service is in v1); the engineering work item it links to would be a dev item, which is outside v1, so in a Work Management approach that becomes a clearly labelled task"
+    },
+    {
+      "their_term": "the eng escalations channel",
+      "meaning": "Slack channel where tier two posts escalations",
+      "likely_monday_object": "Slack integration target channel"
+    },
+    {
+      "their_term": "tier one / tier two (T2)",
+      "meaning": "Support levels; T2 are the 5 support engineers who reproduce bugs and escalate",
+      "likely_monday_object": "people column / team"
+    },
+    {
+      "their_term": "Sev 1 to Sev 4",
+      "meaning": "Severity set by tier two when escalating",
+      "likely_monday_object": "status label (severity column)"
+    },
+    {
+      "their_term": "put eyes on it (eyes emoji)",
+      "meaning": "An engineer claiming an escalation in Slack",
+      "likely_monday_object": "people column (owner) plus status label such as acknowledged"
+    },
+    {
+      "their_term": "the escalation tracker",
+      "meaning": "Colleen's Google Sheet: Zendesk number, Redmine number, owner, status, last customer update",
+      "likely_monday_object": "replaced by the native Service Tickets board and its columns, plus a saved view for support ops; not a new look-alike tracker board"
+    },
+    {
+      "their_term": "target versions",
+      "meaning": "Redmine's container for sprint/release planning",
+      "likely_monday_object": "sprint or release"
+    },
+    {
+      "their_term": "release train",
+      "meaning": "Release every other Thursday",
+      "likely_monday_object": "release (monday dev), or a releases board in an approximation"
+    },
+    {
+      "their_term": "hotfix",
+      "meaning": "Out-of-cycle production fix",
+      "likely_monday_object": "item type / status label"
+    },
+    {
+      "their_term": "release notes (internal and customer-facing)",
+      "meaning": "Summary of shipped changes for support, customer success and customers",
+      "likely_monday_object": "doc generated from release items"
+    },
+    {
+      "their_term": "on-call / handoff doc",
+      "meaning": "Weekly on-call rotation and Monday handoff between Raleigh and Kraków",
+      "likely_monday_object": "board (on-call handoffs): one item per handoff with pending items as child rows that stay open until closed; not a doc, which is today's artefact and is what dropped the Monday hotfix (readiness leaning 4)"
+    },
+    {
+      "their_term": "incident / postmortem",
+      "meaning": "Production incident record and its write-up",
+      "likely_monday_object": "either the native Service Incidents companion, if incidents live in Service, or a clearly labelled Work Management item on the engineering side; decide which and say so, rather than creating a look-alike Incidents board"
+    },
+    {
+      "their_term": "PBC list (provided by client)",
+      "meaning": "Auditor's evidence request list",
+      "likely_monday_object": "board (one item per evidence request)"
+    },
+    {
+      "their_term": "production change / change sample",
+      "meaning": "A change the auditor samples; must trace ticket, approval, reviewed PR, release",
+      "likely_monday_object": "item with GitHub PR link, approval status and release connection"
+    },
+    {
+      "their_term": "access requests / access reviews",
+      "meaning": "Requests to IT for system access, and quarterly reviews of who has access",
+      "likely_monday_object": "ticket on the account's native Service Tickets board (IT service desk install) with an approval status and an audit trail; where one request names several systems, each grant is a child row with its own approver and date, so 'an approval on every access grant' is a row, not a cell (readiness leaning 1); quarterly access reviews as recurring items. monday service is in v1, so this is buildable"
+    },
+    {
+      "their_term": "service desk (IT)",
+      "meaning": "What IT has never had: a queue for laptops, access and offboarding requests",
+      "likely_monday_object": "monday service on the account's native Tickets board, with native companions where the entity is in scope (Incidents, Asset management for laptops, Employee lifecycle for offboarding); the customer portal, email-to-ticket and SLA policies are deferred beyond v1"
+    },
+    {
+      "their_term": "the tech app / the web app",
+      "meaning": "Their two products (mobile app for technicians, office web app)",
+      "likely_monday_object": "status label or dropdown (product column)"
+    },
+    {
+      "their_term": "the Granite deal",
+      "meaning": "Internal codename for the large prospect that requires the SOC 2 report",
+      "likely_monday_object": "none (sales context only; not a CRM need)"
+    },
+    {
+      "their_term": "account managers",
+      "meaning": "Customer-facing staff who get calls about escalations",
+      "likely_monday_object": "view or dashboard of escalation status per account (not CRM)"
+    }
+  ],
+  "entities_and_workflows": [
+    "Support-to-engineering escalation. Customer email or call becomes a Zendesk ticket; tier one triages; tier two reproduces and sets Sev 1-4, then posts in the eng escalations Slack channel with the Zendesk link. A squad member or the on-call engineer claims it with the eyes emoji and should create a Redmine issue in the Support Escalations project (often skipped or duplicated). Then fix, release, and customer update. Colleen tracks it all by hand in a Google Sheet.",
+    "Sprint planning per squad in Redmine target versions: two-week sprints, except three weeks for Mobile.",
+    "Epics faked as Redmine parent issues with an 'Epic' custom field; roadmap status kept in the PM's spreadsheet, updated by asking squads in Slack.",
+    "Production change management for SOC 2: ticket, then approval, then GitHub pull request and review, then release. The branch name should carry the Redmine number (about 60 percent of the time at best: 'Sixty is generous') and a script comments back.",
+    "Release train every other Thursday plus ad hoc hotfixes. The PM compiles internal and customer-facing release notes from Redmine, GitHub and Slack, finishing the morning of release.",
+    "Weekly on-call rotation, handed off Monday morning Raleigh time (afternoon in Kraków) via a Slack thread and a Google Doc.",
+    "Incident logging and postmortems, kept in Google Docs.",
+    "Access requests, approvals, offboarding and quarterly access reviews, handled by a two-person IT team that has never had a service desk, through Slack DMs and a Google Form.",
+    "SOC 2 evidence collection against the auditor's PBC list: screenshots into a Google Drive folder.",
+    "Redmine migration: open issues and epics at least; whether to bring history is disputed.",
+    "Pilot: the Dispatch squad for one sprint, then roll-out to the other squads in October and November.",
+    "Account manager view of escalation status for their own accounts.",
+    "Stakeholders not on the call: Linh (CFO; approves spend over $50k a year), Oren (security and compliance lead; runs the vendor review; may join the next call), Bartek (staff engineer in Kraków; maintains the Redmine server), Jess (marketing ops; built Marketing's monday boards), the CEO (wants the report and the Granite deal).",
+    "Alternatives in play: a compliance automation platform in procurement (helps with policies and cloud config, not change traceability); a move off Redmine to another, unnamed tracker two years ago that failed halfway."
+  ],
+  "integrations_mentioned": [
+    "GitHub (must-have: PRs must link to work items automatically)",
+    "Slack (must-have: where engineers work; escalations are posted there today)",
+    "Zendesk (the escalation flow must connect: from a ticket to engineering, with status back; the helpdesk itself stays)",
+    "Redmine (migration source; existing branch-name comment script)",
+    "Google Workspace sign-in (SSO requirement)",
+    "Google Sheets, Docs, Drive and Forms (current tracker, handoff doc, evidence folder, access-request form)",
+    "Compliance automation platform (in procurement, not named)"
+  ],
+  "compliance_or_security_signals": [
+    "First SOC 2 audit: Type 1 fieldwork in the second week of January, with the Type 2 observation window right after, so the setup must hold for a year.",
+    "Readiness assessment finding: about 14 of 40 sampled production changes had no ticket, or the wrong one.",
+    "Change management: every production change must trace to a ticket, an approval, a reviewed PR and a release.",
+    "Incident management: incidents logged, with postmortems where required.",
+    "Access control: an approval for every access grant, a clean record when someone leaves, quarterly access reviews.",
+    "The self-hosted Redmine server runs an old, unpatched version and was flagged by the auditors.",
+    "No customer PII (homeowner names, phone numbers, addresses) in engineering tools or Slack; link to the Zendesk ticket instead of copying it.",
+    "SSO via Google.",
+    "Vendor security review by Oren, about 4 to 6 weeks; needs the vendor's SOC 2 report and a DPA.",
+    "Audit logs: who changed an approval and when; approvals must not be quietly editable after the fact."
+  ],
+  "objections": [
+    {
+      "quote": "Part of me wonders if switching tools right before an audit is insane.",
+      "type": "Wrong time, next quarter (raised by the PM as the risk of switching mid-audit, and answered on the call by the VP: 'Redmine is the finding'; prevention is R3 and R8, both Met)"
+    },
+    {
+      "quote": "If engineers hate it, if it feels like more work than Redmine, they'll revolt, and I'm back on Redmine by March with egg on my face.",
+      "type": "Team won't adopt it (raised as the main blocker, with scar tissue from a migration that failed halfway two years ago; plan an end-user session and the Dispatch pilot)"
+    },
+    {
+      "quote": "She'll ask what happened last time.",
+      "type": "Must check with someone (the CFO signs above $50k a year, was not on the call, and will ask about the failed migration; ask what she will care about and offer to join that conversation)"
+    },
+    {
+      "quote": "I'm not going to put a dollar figure on it on this call.",
+      "type": "Price feels high (anticipated, not raised: the cost-discovery step was deflected to the CFO, which is the spec's R4-Missing signal; R4 stays Partial and pricing prep is held)"
+    },
+    {
+      "quote": "Which, with this timeline, yeah, I'm a little worried about.",
+      "type": "Wrong time, next quarter (anticipated: a four-to-six-week vendor security review against an end-of-November target)"
+    },
+    {
+      "quote": "I'm not ripping out Zendesk four months before an audit.",
+      "type": "Wrong time, next quarter (helpdesk replacement only: Zendesk stays at least until the March renewal. It does not block the in-scope Service build, which links to Zendesk instead of replacing it)"
+    },
+    {
+      "quote": "Sales has their CRM, it's a whole different budget, a whole different VP, and I would like to keep my friends in sales. Let's keep this to engineering and support.",
+      "type": "Must check with someone (not this buyer's decision: sales has its own CRM, budget and VP. Treat it as a scope refusal after an unrequested pitch, not as interest to follow up)"
+    }
+  ],
+  "commitments_and_next_steps": [
+    {
+      "quote": "Twenty-second. Let me look. Yeah, that's the quiet week before the next train. One works.",
+      "what": "Next call: first look built from this discovery, 45 minutes, with Tomasz, Colleen and Devin",
+      "owner": "Consultant (runs it and sends the invite); client attendees confirmed",
+      "date": "Tuesday the 22nd, 1:00 pm Eastern (month not stated; the 22nd is a Tuesday in September 2026)"
+    },
+    {
+      "quote": "I'll send the invite for Tuesday the twenty-second at one Eastern to the three of you right after this.",
+      "what": "Send the calendar invite to the three client attendees",
+      "owner": "Consultant",
+      "date": "Right after the call"
+    },
+    {
+      "quote": "Maybe for the last fifteen minutes. I'll ask him, no promises.",
+      "what": "Ask Oren (security) to join the last 15 minutes of the next call and forward him the invite (tentative)",
+      "owner": "Tomasz Wirth",
+      "date": "Before the next call"
+    },
+    {
+      "quote": "I'll send over Monday's security and compliance documentation today, with a short recap",
+      "what": "Send monday.com's security and compliance documentation for Oren's review, plus a short recap ('Monday's' means monday.com's)",
+      "owner": "Consultant",
+      "date": "Same day as the call"
+    },
+    {
+      "quote": "I can, but I'll have to strip the customer details out first. Give me until Friday.",
+      "what": "Share the escalation tracker spreadsheet with customer details removed",
+      "owner": "Colleen Brask",
+      "date": "Friday (the week of the call; exact date not stated)"
+    },
+    {
+      "quote": "Yeah, I can do a CSV of the Dispatch project. Scrubbed. Probably early next week.",
+      "what": "Export a scrubbed CSV of the Redmine Dispatch project",
+      "owner": "Devin Marchetti",
+      "date": "Early next week (loose)"
+    },
+    {
+      "quote": "And I'll send you the relevant bits of the control list, the change management and incident sections. Not the whole readiness report. By Monday.",
+      "what": "Send the change management and incident sections of the SOC 2 control list",
+      "owner": "Tomasz Wirth",
+      "date": "By Monday (the weekday)"
+    }
+  ],
+  "traps": [
+    "The engagement straddles the v1 scope line, and the plugin has to split it. monday service IS in v1: the escalation intake and IT's access requests, laptops and offboarding can be blueprinted, built and audited, at the same depth as CRM. monday dev is NOT: sprints, epics, the release train and PR-to-work-item linking are the best fit for the engineering half and cannot be built. Passing: propose the Service build, name dev as the fit for the rest, and either offer a clearly labelled Work Management approach for it or recommend waiting. Failing: building dev structures as if supported, presenting Work Management as the right fit for sprints and epics, or answering with one undifferentiated build that hides which half is out of scope.",
+    "Service must be built on the account's NATIVE Service template boards. A hand-built 'Escalations', 'Support Tickets', 'IT Requests' or 'Access Requests' board is a look-alike and fails even if its columns are right. The native boards are found by detection (template lineage walked as a chain, template view ids, or the reserved Tickets column fingerprint), and their ids are recorded per entity in the client record before any write. Renaming a native board to the client's vocabulary is fine, because board names prove nothing; recreating the entity beside it is not.",
+    "Service extras are deferred beyond v1 even though this call invites all three: no customer portal (the account managers get a view or dashboard, not a portal), no email-to-ticket channel (the Zendesk hop is a link plus an automation, not an inbound mail channel), and no SLA policy setup (the Sev 1-4 scale and 'when we last told the customer something' both tempt it). Naming them as later work is fine; building them fails.",
+    "Whether the account even has Service provisioned is unknown. The only monday use described is Marketing's campaign boards plus a webinar calendar, with plan, seats and admin unknown, and engineering has never touched it. If Service is not enabled there is no native Tickets board to build on: ask, and do not hand-build a look-alike in its place.",
+    "The Enterprise portfolio default does not fire here. The tier is never stated ('I have no idea what plan they're on or how many seats'), and the transcript says otherwise anyway: the VP's 'portfolio view' of 'all our projects' means a roll-up of epics across squads. Record the reason for not proposing one. If preflight later finds an Enterprise account and a Work Management approach is agreed for the engineering half, the default then applies and should be built with monday's portfolio and project tools, not plain boards.",
+    "'Projects' is used loosely. Redmine 'projects' are containers, roughly one per product area (about eleven by Devin's hedged count, 'I think, eleven projects?', plus Support Escalations and Misc), and 'the Dispatch project' in Devin's commitment is one of them. The VP's 'portfolio view' of 'all our projects' means epics and initiatives across squads (he says 'those are epics technically, I guess'), with the non-code 'SOC two project' mixed in. The word does not signal a project-management need, a monday portfolio, or a reason to choose Work Management; map it to epics and a roll-up view, and ask whether the non-code audit work belongs in the same view.",
+    "The consultant's CRM pitch was politely turned down ('Please don't open that can.'). Do not add monday CRM, and do not treat the Granite deal as a pipeline need. The account managers' wish to see escalation status calls for a view or dashboard on escalation data, not an Accounts, Customers or Deals board, and certainly not a hand-built look-alike of one.",
+    "The consultant's $120/hour placeholder is not client evidence. Tomasz answered 'Mm. I don't know. Maybe?' and deferred to the CFO, so R4 stays Partial. His earlier 'that's about right' confirms only the hours framing (about one engineer per sprint). Do not present a computed bleed total as confirmed.",
+    "Engineering hours are a loose range: 'forty-ish' per sprint and 'more like fifty' on a bad sprint; Tomasz chose forty. Keep the range and do not round up.",
+    "The consultant promised 'a first look' for the next call. That promise does not override the v1 scope line. The Service part can be shown as a real build; anything covering sprints, epics, releases or PR linking is either a clearly labelled approximation framed as a direction check, or left out with the reason given.",
+    "Zendesk stays until at least the March renewal ('I'd look at it then. Maybe.'). Do not plan a helpdesk migration, and do not read Service being in v1 as permission to replace Zendesk. The escalation flow still has to connect to it, and the connection must not be described as email-to-ticket, which is deferred.",
+    "Sprint lengths differ: two weeks for most squads, three weeks for Mobile.",
+    "Five squads, but only four are named (Dispatch, Billing, Mobile, Platform). Ask for the fifth; do not invent it.",
+    "The Redmine migration scope is disputed. Tomasz wants only open issues and epics; Devin wants at least the last year of history for the audit ('We can argue about that later.'). Leaning (readiness leaning 8): v0.1 migrates nothing and the Service build does not depend on the answer; for the engineering half, lean to a year of history because the auditor samples back in time, unless the auditor confirms the sample starts at cutover; the auditor's sample window, through Oren, settles it.",
+    "monday is already in use: Marketing (and Customer Education) use boards Jess built, with unknown plan and seats. Ask whether to build in that account or a separate one, and who administers it.",
+    "Speech-recognition errors: 'sock two' is SOC 2 and 'Zen desk' is Zendesk. 'Monday's security and compliance documentation' means monday.com's, while 'By Monday' in Tomasz's commitment is the weekday.",
+    "Oren's attendance at the next call is tentative ('no promises'); do not list him as a confirmed attendee.",
+    "The timeline is tight: a 4 to 6 week security review, a one-sprint pilot and a big release at the end of October, against 'off Redmine by end of November'. Flag feasibility; ask whether the review and pilot can overlap. Note that the Service build does not depend on the Redmine cutover, so it can be sequenced first.",
+    "Customer PII must not appear in the build or seed data (homeowner names, phone numbers, addresses). Escalation items link to the Zendesk ticket instead of copying it: 'Link to the ticket, sure. Copy the ticket, no.'",
+    "The consultant started describing a monday dev GitHub integration while the client was still describing pains, then stopped mid-sentence. No product claim was completed and nothing was agreed; it is a delivery note, not a commitment, not client interest, and not licence to treat dev as in scope.",
+    "The scope agreement covers only the first demo and is hedged ('Don't hold me to that being the whole list.'). R12 is not Met: no proposal.",
+    "The production deploy and approval process was never described, and neither was who approves an access grant today. Do not assume where approvals happen (GitHub review, a release sign-off, a status on a ticket); for the Service build this matters, because the approval record is the audit evidence.",
+    "There are two different invoice incidents: the May 'invoice PDF thing' (the same bug fixed twice by two squads) and the June invoice CSV export change (support not told). Do not merge them.",
+    "The call date is not in the transcript. 'Friday', 'by Monday', 'early next week' and 'Tuesday the twenty-second' are relative."
+  ],
+  "requested_changes": [
+    {
+      "type": "add",
+      "description": "Request for the first demo (no build exists yet): include on-call handoffs if possible",
+      "quote": "I'd add on-call handoffs if you can."
+    },
+    {
+      "type": "add",
+      "description": "Request for the first demo (no build exists yet): a view for account managers showing escalation status for their accounts, if it is easy",
+      "quote": "And the account manager view. If it's easy."
+    }
+  ],
+  "should_plugin_propose_a_build": true,
+  "expected_questions_before_building": [
+    "(For the consultant, before any blueprint) The request-and-ticket half is buildable now: monday service covers the escalation intake and IT's access requests, on your account's native Tickets boards. The engineering half (sprints, epics, releases, PR-to-ticket linking) is monday dev, which this version does not build. Do you want a clearly labelled Work Management approach for that half in the first look on the 22nd, or should we wait on it and show the Service part only?",
+    "Does the account have Service provisioned, and where are its native Tickets boards? Which products and tier is the account on, who administers the boards Marketing uses, and should this be built in that account or a separate one?",
+    "Which Service scope comes first: the support-to-engineering escalation intake, IT's access requests, laptops and offboarding, or both? If both, should they share one Tickets board with separate groups and views, or two native installs?",
+    "The customer portal, email-to-ticket and SLA policies are out of this version. Is a link from the Zendesk ticket plus an automation enough for the escalation hop for now, and do you want response-time expectations recorded as a plain status rather than an SLA policy?",
+    "When you say a portfolio view of all your projects, do you mean a roll-up of epics across the squads? Should non-code work like the SOC 2 evidence tracking sit in the same view?",
+    "What is the fifth squad called? Does Mobile keep its three-week sprints while the others run two weeks, and which day do sprints start?",
+    "How does a production change get approved and deployed today, and where should that approval be recorded so it counts as audit evidence?",
+    "Who approves an access grant today, and what has to be on the record for the auditor: the approver, the date, the systems granted, and the quarterly review?",
+    "Which fields does tier two need when escalating, and how should the Zendesk ticket be linked so no customer personal details are copied?",
+    "Which Redmine data should come across: only open issues and epics, or the last year of history too?",
+    "Which GitHub organisation and repositories, and which Slack channels and notifications, need connecting?",
+    "What must an on-call handoff record contain, and where should incidents and postmortems live: on the native Service Incidents board, or with the engineering work?",
+    "What should account managers see about escalations on their accounts, and do they need to change anything or only view it?"
+  ],
+  "expected_verdict": {
+    "verdict": "Nearly ready",
+    "gates_met": [
+      "Solution blueprint: R1 is Partial and R2 is Met",
+      "Build: no extra method gate beyond the consultant's approval at the approval stop. Within v1 there is a real build to propose: monday service for the escalation intake and/or IT's service desk, on the account's native Tickets board and its native companions, with Service extras (portal, email-to-ticket, SLA policies) excluded. The engineering half is either a clearly labelled Work Management approach or a recommendation to wait.",
+      "First demo (v0.1): nothing extra required"
+    ],
+    "gates_not_met": [
+      "Pricing or proposal prep: needs R4, R7 and R12 Met; R4 is Partial (hours but no loaded cost; the $120/hour placeholder was not confirmed) and R12 is Partial (a hedged agreement on first-demo content only)",
+      "v1.0 sign-off: needs agreed R6 success criteria and R11 Met; the success criteria are only proposed and R11 is Missing"
+    ],
+    "note": "Verdict criteria: R2 Met (P1 escalations excavated), R3 Met (first SOC 2 audit, fieldwork in the second week of January, required by the Granite prospect), R7 Met (the VP decides, the CFO signs above $50k a year, a 4 to 6 week security review, then a one-squad pilot), R4 Partial. None Missing and one Partial, so 'Nearly ready', not 'Discovery complete'. On scope: monday service is in v1, so the escalation intake and IT's access requests are a genuine build target, on the account's native Service boards, with Service extras deferred. monday dev is not in v1, so the engineering half (sprints, epics, releases, PR-to-work-item linking) is named as the fit and then either approximated in Work Management with clear labelling or deferred, with the reason given. Next prep should close R4 (loaded hourly cost via the CFO, then a yearly figure the client confirms) and R12 (a short scope agreed out loud), and settle the account questions the build depends on: tier, provisioned products, and the native Service board ids."
+  },
+  "account_context": {
+    "tier": "unknown. The tier is never stated. The only monday use described belongs to Marketing, and the VP says plainly that he does not know the plan or the seat count, so the Enterprise-only portfolio default cannot be applied from this transcript. Preflight must establish it.",
+    "products_enabled": [
+      "unknown overall: nothing in the transcript names a monday product, and the plugin must detect this in preflight rather than assume it.",
+      "Work Management: implied but not confirmed. Marketing has campaign boards built by their ops person, and Customer Education uses one of those boards for a webinar calendar.",
+      "Service: unknown, and this is the gating unknown for the buildable part of the engagement. If Service is not provisioned there are no native Tickets boards to build the escalation intake or the IT service desk on, and the answer is to ask, not to hand-build a look-alike.",
+      "CRM: unknown, and not needed. The CRM pitch was turned down.",
+      "dev: unknown, and outside v1 either way."
+    ],
+    "existing_monday_setup": "Marketing uses monday for campaign boards, set up by Jess, their marketing ops person. Customer Education uses one of those boards for the webinar calendar. Engineering, support and IT have never used it, and none of the three people on the call knows the plan, the seat count or who administers it. There is no existing setup to audit or extend for this engagement, so the question of whether to build in that account or a separate one is open.",
+    "evidence_quote_or_null": "I have no idea what plan they're on or how many seats."
+  },
+  "expected_structures": {
+    "native_boards_required": [
+      {
+        "product": "service",
+        "entity": "Tickets (native Service template install: the base Tickets family or the customer-service family)",
+        "why": "Required if the support-to-engineering escalation intake is built. Every escalation record must live on the account's native Tickets board, found in preflight by template lineage walked as a chain, by a template view id, or by the reserved Tickets column fingerprint, and the board id recorded per entity in the client record. A new 'Escalations' or 'Support Tickets' board would be a look-alike and fails the rule. Renaming the native board to their vocabulary is fine."
+      },
+      {
+        "product": "service",
+        "entity": "Tickets (native Service IT-service-desk install)",
+        "why": "Required if IT's requests are built: access requests, laptops and offboarding, which arrive as Slack DMs or a Google Form today and which SOC 2 needs an approval and a clean leaver record for. Use the account's native install rather than a hand-built 'Access Requests' board. If both this and the escalation intake are in scope, state plainly whether they share one Tickets board with separate groups and views or use two native installs, and ask."
+      },
+      {
+        "product": "service",
+        "entity": "Incidents (native IT-service-desk companion)",
+        "why": "Conditional. If production incident logging and postmortems go into Service, they belong on the native Incidents companion, not on a new 'Incidents' or 'Postmortems' board. If they stay with the engineering work instead, say so and record the choice. Detection caveat: the native Incidents board's column ids are all monday defaults, so a copy with broken lineage cannot be told from an ordinary board by columns alone; it needs lineage or a template view id, and a weak match is a question for the consultant, not a reason to build a new board."
+      },
+      {
+        "product": "service",
+        "entity": "Employee lifecycle (native IT-service-desk companion)",
+        "why": "Conditional on offboarding being in scope: 'Laptops, access, offboarding, it's all DMs' and the auditor wants a clean record when someone leaves. If offboarding is built, use this native companion rather than a new leavers board."
+      },
+      {
+        "product": "service",
+        "entity": "Asset management (native IT-service-desk companion)",
+        "why": "Conditional on laptop and asset tracking being asked for. It is part of the native IT service-desk family, so if assets are in scope it is the board to use, but do not add it unasked just because the family ships it."
+      }
+    ],
+    "portfolio_expected": false,
+    "portfolio_reason": "The portfolio-by-default rule applies to Enterprise accounts with Work Management in scope, and neither condition is established here. The tier is never stated ('I have no idea what plan they're on or how many seats'), and the transcript says otherwise in any case: the VP's 'portfolio view' of 'all our projects' means a roll-up of epics and initiatives across squads, which he half-concedes himself ('those are epics technically, I guess'), and that is monday dev, outside v1. The reason is recorded either way. If preflight finds an Enterprise account AND the consultant agrees a Work Management approach for the engineering half, the default then applies: build it with monday's portfolio and project tools rather than plain boards, connect the projects, check the roll-ups fill in, and record that decision too.",
+    "lookalike_traps": [
+      "A hand-built 'Escalations' or 'Support Tickets' board for the escalation intake while Service is in scope. It fails even with the right columns, severity and owner: the entity belongs on the account's native Tickets board.",
+      "A hand-built 'Access Requests', 'IT Requests' or 'Service Desk' board for IT's queue, instead of the native IT-service-desk Tickets install.",
+      "A hand-built 'Incidents' or 'Postmortems' board sitting inside the Service setup beside a native Incidents companion.",
+      "A CRM look-alike for the account-manager need: an 'Accounts', 'Customers' or 'Clients' board, or a deals or pipeline board for the Granite deal. CRM is out of scope here entirely, and the need is a view or dashboard on escalation data. If an account entity were ever required it would have to be the native CRM Accounts board.",
+      "Treating a duplicate of a native Tickets board as 'not native' and building a parallel board beside it. A duplicate keeps the column fingerprint and is still the native entity; an ambiguous detection result is a question for the consultant, not licence to create another board.",
+      "Naming an ordinary Work Management board 'Tickets', 'Sprints', 'Epics' or 'Releases' and presenting it as the Service or dev equivalent. The name is not the problem; presenting it as the product is, and in a Work Management approach every board is an ordinary board and must be labelled as an approximation."
+    ],
+    "notes": "Service extras stay out of v1, which shapes the structures: no customer portal object, no email-to-ticket channel, and no SLA policy setup, so where the account's native Tickets board already carries SLA helper columns they are left alone and no response-time promises enter the blueprint. Do not add native companions the client never asked for (CSAT Survey, Contacts) merely because the template family includes them. Zendesk stays the customer helpdesk until at least the March renewal, so a monday Service ticket here is an internal escalation or request record that links to the Zendesk ticket, with no customer PII copied across: 'Link to the ticket, sure. Copy the ticket, no.' The engineering half carries no native-board requirement because monday dev is outside v1; if a Work Management approach is built for it, every board is an ordinary board, labelled as an approximation, with the second-migration risk stated. Preflight records the native board ids per entity in the client record before any write, and the post-build audit verifies that every Service entity in the blueprint sits on its native board."
+  },
+  "accepted_behaviours": [
+    "Splitting the answer along the v1 scope line: a real monday service build for the escalation intake and/or IT's requests, and the engineering half named as monday dev, out of scope, then either approximated with clear labelling or deferred. Both halves have to be visible in the answer.",
+    "For the engineering half, either option passes: a clearly labelled Work Management approximation with its limits, what it does not replicate compared with monday dev, and the risk of a second migration; or a recommendation to wait on that part, with the same explanation. What fails is presenting Work Management as the right fit for sprints and epics, or building dev structures as if supported.",
+    "On the Service side, either sequencing passes: proposing the escalation intake now, or proposing IT's access requests and offboarding first as the safer opening build (nothing depends on the Redmine cutover and Zendesk stays) and asking about the escalation intake. What fails is a hand-built look-alike ticket board in either case.",
+    "Running preflight before any write: confirming Service is provisioned, detecting the native Tickets board and any native companions, recording their ids per entity in the client record, and recording the change check. Stopping to ask when Service turns out not to be provisioned, or when detection is ambiguous, is correct behaviour rather than a failure to deliver.",
+    "Asking about the account before assuming structures: tier, which products are provisioned, who administers the boards Marketing uses, and whether to build in that account or a separate one.",
+    "Not proposing a portfolio here, and recording why (tier unknown; 'portfolio view' means epics). Proposing one later, after preflight finds an Enterprise account and a Work Management approach for the engineering half is agreed, also passes, provided it uses monday's portfolio and project tools and the reason is recorded.",
+    "Keeping Service extras out while naming them as later work: no customer portal, no email-to-ticket channel, no SLA policy setup. Describing the Zendesk hop as a link plus an automation rather than an inbound mail channel.",
+    "Not proposing monday CRM, and meeting the account-manager need with a view or dashboard on escalation data.",
+    "Presenting the automations as one list for a single approval, each row naming trigger, conditions, action and exact recipients, with the note that automations created through the API cannot be switched off through the API, and a 'turn off in monday' step per automation in the handoff.",
+    "Keeping the hours as a range ('forty-ish', 'more like fifty') and not presenting a computed bleed as confirmed; holding pricing and proposal prep because R4 and R12 are Partial.",
+    "Using the client's vocabulary for names and labels (squads, epics, escalations, Sev 1-4, release train, hotfix, PBC list) while keeping internal method vocabulary and the cost figures out of anything client-facing.",
+    "Seed data and item names that carry no customer PII, no real customer identity from the July incident, and no internal notes; escalation examples link to a ticket reference rather than copying ticket content.",
+    "Flagging the timeline honestly: a 4 to 6 week security review, a one-sprint pilot and an end-of-October release against 'off Redmine by end of November', and noting that the Service build can be sequenced ahead of the Redmine cutover.",
+    "All output in English, including anything the Kraków half of engineering will read; v1 is English only, so offering a translated SOP is out of scope.",
+    "Treating the consultant's unfinished monday dev GitHub remark and the $120/hour placeholder as non-evidence, and treating the CRM exchange as a refusal rather than a lead."
+  ],
+  "expected_leak_blocklist": [
+    "The unconfirmed loaded-rate placeholder in every format: '120', '$120', 'a hundred and twenty an hour', and any yearly or per-sprint total computed from it.",
+    "Cost inputs and the hours behind them: 'forty-ish hours a sprint', 'forty hours', 'more like fifty', 'an hour a day each', Colleen's hour on the tracker, 'most of a day every release', 'Three full weekends'. Volume numbers (about 1,100 tickets a month, 60 to 70 escalations, about 40 last year) are flagged for the consultant rather than removed, because they can be legitimate in an SOP.",
+    "The spend threshold and budget mechanics: 'fifty thousand', '$50k', who signs above it, and the expectation that this deal will cross it ('it probably will be').",
+    "Stakeholder assessments: that the CFO is the spend approver who will ask about the failed migration, that the security lead is the long pole on the timeline, that 'IT is two people and they report to me', and that Bartek 'did not sign up to be the Redmine guy'.",
+    "Objection text and the adoption risk, raised or anticipated: 'they'll revolt', 'egg on my face', 'shelfware', 'scar tissue', 'Engineers hate clicking', 'Part of me wonders if switching tools right before an audit is insane', 'I'm not ripping out Zendesk', and any planned response to them.",
+    "Emotional and personal stakes: 'I groveled a lot', 'We look stupid', 'about had a heart attack', 'whose team was the problem', 'whole job is being confused', and the readiness-assessment embarrassment in engineering.",
+    "Remarks by client staff about colleagues or other teams: 'Engineering thinks everything's a Sev 3', 'Engineers hate clicking', 'God help them', the nagging line, and the sales-politics asides ('a whole different VP', 'keep my friends in sales', 'Please don't open that can').",
+    "Sales context that must not reach engineering tools or client-facing documents: the internal deal codename 'the Granite deal', the prospect's identity as a national facilities group, 'biggest customer by a lot', 'fifteen hundred technicians', and the fact that the deal slides without a clean report. The audit deadline itself may be stated neutrally.",
+    "Customer identity and the concession from the July escalation: 'out in Denver', 'forty-some trucks', 'evaluating other options', 'two months free', and the owner calling the CEO. None of it belongs in seed data either.",
+    "Customer PII of any kind, which is also the client's own rule: 'homeowner names and phone numbers and addresses' must never appear in board names, item names, descriptions, updates, docs or seed data. Link to the ticket instead: 'Link to the ticket, sure. Copy the ticket, no.'",
+    "Alternatives in play and what was said about them: the 'compliance automation platforms' purchase in procurement, and the move to 'another tracker' two years ago that failed halfway.",
+    "Reliability judgements about their current process that read as criticism of named people: 'Sixty is generous', 'the doc is, let's say, aspirational', and 'Slack is where everything happens and then dies'.",
+    "Method vocabulary and internal grading: bleed, upside, callback, exit ramp, seed, readiness, excavated, pain IDs such as P1 and P2, criterion IDs such as R4 and R12, gate names, the verdict wording 'Nearly ready', and the [found] and [inferred] markers.",
+    "Internal artefacts in full: the demo script and its prep block, call summaries, the raw transcript and cue locations, gap questions, and anything from the change log.",
+    "The scope-limit reasoning as an internal note: phrasing such as 'outside v1' or product-roadmap language belongs in the consultant's record, while client-facing material says plainly and neutrally what is being built now and what is deferred."
+  ],
+  "readiness": {
+    "schema": "readiness/1",
+    "note": "Derived from this key's pains, entities, products, structure, forks and questions in the fixture fix pass of 2026-10-13. Structure assertions stay provisional until the user has seen a real build (FEEDBACK, top).",
+    "goals": [
+      {"id": "G1", "goal": "One place to see all projects and where they stand", "quote": "I just want one place where I can see all our projects and where they're at.", "location": "cue 56, 00:08:49.455, Tomasz Wirth", "speaker_role": "VP of Engineering", "pains": ["P6.1", "P6.2"]},
+      {"id": "G2", "goal": "Engineering off Redmine by end of November, leaving time for clean evidence", "quote": "That's why I want engineering off Redmine by end of November.", "location": "cue 154, 00:24:31.629, Tomasz Wirth", "speaker_role": "VP of Engineering", "pains": ["P5.1", "P5.2", "P5.3"]},
+      {"id": "G3", "goal": "See who has each escalation and what is happening without asking anybody", "quote": "My T2 escalates something, and from then on I can see who has it and what's happening without asking anybody.", "location": "cue 198, 00:31:09.132, Colleen Brask", "speaker_role": "Support Operations Manager", "pains": ["P1.1", "P1.2", "P1.3", "P1.4", "P1.5"]},
+      {"id": "G4", "goal": "The audit report in hand with no engineering findings", "quote": "The report in hand with no engineering findings, and Granite signed by end of Q1.", "location": "cue 202, 00:31:53.748, Tomasz Wirth", "speaker_role": "VP of Engineering", "pains": ["P2.1", "P2.4", "P5.2", "P8.1"]}
+    ],
+    "pains": [
+      {
+        "id": "P1.1",
+        "quote": "and three days later my T2 is asking in the thread, hey, any update, and nobody knows who has it.",
+        "location": "cue 82, 00:13:00.277, Colleen Brask",
+        "speaker_role": "Support Operations Manager",
+        "stated_or_excavated": "excavated",
+        "outcome": "My T2 escalates something, and from then on I can see who has it and what's happening without asking anybody."
+      },
+      {
+        "id": "P1.2",
+        "quote": "Or there's two Redmine issues for the same thing because two people grabbed it. Or zero.",
+        "location": "cue 83, 00:13:16.691, Colleen Brask",
+        "speaker_role": "Support Operations Manager",
+        "stated_or_excavated": "excavated",
+        "outcome": "My T2 escalates something, and from then on I can see who has it and what's happening without asking anybody."
+      },
+      {
+        "id": "P1.3",
+        "quote": "And it's wrong by lunch.",
+        "location": "cue 89, 00:13:59.273, Colleen Brask",
+        "speaker_role": "Support Operations Manager",
+        "stated_or_excavated": "excavated",
+        "outcome": "That I'm not the escalation tracker anymore."
+      },
+      {
+        "id": "P1.4",
+        "quote": "Because it's me. The whole thing is me.",
+        "location": "cue 100, 00:15:45.721, Colleen Brask",
+        "speaker_role": "Support Operations Manager",
+        "stated_or_excavated": "excavated",
+        "outcome": "And when I'm on PTO nothing falls apart."
+      },
+      {
+        "id": "P1.5",
+        "quote": "I can nag. I'm a very good nagger. But nagging isn't a process.",
+        "location": "cue 101, 00:15:57.157, Colleen Brask",
+        "speaker_role": "Support Operations Manager",
+        "stated_or_excavated": "excavated",
+        "outcome": "My T2 escalates something, and from then on I can see who has it and what's happening without asking anybody."
+      },
+      {
+        "id": "P1.6",
+        "quote": "It's like having a person whose whole job is being confused.",
+        "location": "cue 116, 00:18:14.756, Tomasz Wirth",
+        "speaker_role": "VP of Engineering",
+        "stated_or_excavated": "excavated",
+        "outcome": null
+      },
+      {
+        "id": "P1.7",
+        "quote": "Two engineers in two different squads fixed the same bug two different ways, and we found out in code review.",
+        "location": "cue 111, 00:17:23.641, Tomasz Wirth",
+        "speaker_role": "VP of Engineering",
+        "stated_or_excavated": "excavated",
+        "outcome": null
+      },
+      {
+        "id": "P2.1",
+        "quote": "It lives in someone's head or in a Slack thread.",
+        "location": "cue 36, 00:05:27.807, Tomasz Wirth",
+        "speaker_role": "VP of Engineering",
+        "stated_or_excavated": "stated",
+        "outcome": "click through ticket, approval, PR, release, and export it. In an afternoon. Not three weekends."
+      },
+      {
+        "id": "P2.2",
+        "quote": "Three full weekends.",
+        "location": "cue 135, 00:21:10.259, Tomasz Wirth",
+        "speaker_role": "VP of Engineering",
+        "stated_or_excavated": "stated",
+        "outcome": "click through ticket, approval, PR, release, and export it. In an afternoon. Not three weekends."
+      },
+      {
+        "id": "P2.3",
+        "quote": "And for each one it's a scavenger hunt.",
+        "location": "cue 136, 00:21:24.128, Tomasz Wirth",
+        "speaker_role": "VP of Engineering",
+        "stated_or_excavated": "stated",
+        "outcome": "click through ticket, approval, PR, release, and export it. In an afternoon. Not three weekends."
+      },
+      {
+        "id": "P2.4",
+        "quote": "It does nothing for the fact that our change tickets are a mess. It just shows the auditor the mess faster.",
+        "location": "cue 158, 00:25:11.264, Tomasz Wirth",
+        "speaker_role": "VP of Engineering",
+        "stated_or_excavated": "stated",
+        "outcome": "click through ticket, approval, PR, release, and export it. In an afternoon. Not three weekends."
+      },
+      {
+        "id": "P3.1",
+        "quote": "It's most of a day every release. And I'm a PM, so that's a day I'm not talking to customers.",
+        "location": "cue 162, 00:25:46.985, Devin Marchetti",
+        "speaker_role": "Product Manager",
+        "stated_or_excavated": "stated",
+        "outcome": "Release notes that basically write themselves from what actually shipped."
+      },
+      {
+        "id": "P3.2",
+        "quote": "My team found out from customers. That's the part that kills me. We look stupid.",
+        "location": "cue 171, 00:26:51.448, Colleen Brask",
+        "speaker_role": "Support Operations Manager",
+        "stated_or_excavated": "stated",
+        "outcome": null
+      },
+      {
+        "id": "P4.1",
+        "quote": "It was in the Slack thread. It was not in the handoff doc.",
+        "location": "cue 143, 00:22:35.321, Tomasz Wirth",
+        "speaker_role": "VP of Engineering",
+        "stated_or_excavated": "stated",
+        "outcome": null
+      },
+      {
+        "id": "P4.2",
+        "quote": "And the postmortem exists. It's in a Google Doc. Somewhere.",
+        "location": "cue 145, 00:22:55.487, Tomasz Wirth",
+        "speaker_role": "VP of Engineering",
+        "stated_or_excavated": "stated",
+        "outcome": null
+      },
+      {
+        "id": "P5.1",
+        "quote": "And it's, it's held together with tape at this point.",
+        "location": "cue 32, 00:04:42.003, Tomasz Wirth",
+        "speaker_role": "VP of Engineering",
+        "stated_or_excavated": "stated",
+        "outcome": "Engineering off Redmine by end of November, so we've got six weeks of clean evidence before fieldwork."
+      },
+      {
+        "id": "P5.2",
+        "quote": "Unsupported software on a system that holds change records.",
+        "location": "cue 63, 00:10:06.908, Tomasz Wirth",
+        "speaker_role": "VP of Engineering",
+        "stated_or_excavated": "stated",
+        "outcome": "Engineering off Redmine by end of November, so we've got six weeks of clean evidence before fieldwork."
+      },
+      {
+        "id": "P5.3",
+        "quote": "Like, the page takes eight seconds to load if the backlog is big.",
+        "location": "cue 61, 00:09:44.693, Devin Marchetti",
+        "speaker_role": "Product Manager",
+        "stated_or_excavated": "stated",
+        "outcome": null
+      },
+      {
+        "id": "P6.1",
+        "quote": "I'd open a spreadsheet. Genuinely.",
+        "location": "cue 55, 00:08:38.825, Devin Marchetti",
+        "speaker_role": "Product Manager",
+        "stated_or_excavated": "stated",
+        "outcome": "And I can see where the roadmap is without my spreadsheet."
+      },
+      {
+        "id": "P6.2",
+        "quote": "I just want one place where I can see all our projects and where they're at. Like a portfolio view.",
+        "location": "cue 56, 00:08:49.455, Tomasz Wirth",
+        "speaker_role": "VP of Engineering",
+        "stated_or_excavated": "stated",
+        "outcome": "I just want one place where I can see all our projects and where they're at."
+      },
+      {
+        "id": "P7.1",
+        "quote": "Which means homeowner names and phone numbers and addresses end up pasted into Redmine and Slack.",
+        "location": "cue 122, 00:19:04.999, Colleen Brask",
+        "speaker_role": "Support Operations Manager",
+        "stated_or_excavated": "stated",
+        "outcome": "Link to the ticket, sure. Copy the ticket, no."
+      },
+      {
+        "id": "P7.2",
+        "quote": "He does not want customer PII in engineering tools. At all. And right now it's everywhere.",
+        "location": "cue 123, 00:19:15.685, Tomasz Wirth",
+        "speaker_role": "VP of Engineering",
+        "stated_or_excavated": "stated",
+        "outcome": "Link to the ticket, sure. Copy the ticket, no."
+      },
+      {
+        "id": "P8.1",
+        "quote": "The auditor wants an approval on every access grant and a clean record when someone leaves. We don't have that in one place. At all.",
+        "location": "cue 148, 00:23:23.335, Tomasz Wirth",
+        "speaker_role": "VP of Engineering",
+        "stated_or_excavated": "stated",
+        "outcome": null
+      },
+      {
+        "id": "P8.2",
+        "quote": "And IT's never had a real service desk, honestly.",
+        "location": "cue 149, 00:23:32.400, Tomasz Wirth",
+        "speaker_role": "VP of Engineering",
+        "stated_or_excavated": "stated",
+        "outcome": null
+      },
+      {
+        "id": "P9.1",
+        "quote": "Slack is where everything happens and then dies.",
+        "location": "cue 72, 00:11:15.546, Tomasz Wirth",
+        "speaker_role": "VP of Engineering",
+        "stated_or_excavated": "stated",
+        "outcome": null
+      }
+    ],
+    "signals": [
+      {
+        "quote": "Sorry, I had a Sev 2 I had to hand off to someone. Which is, um, probably relevant to this whole conversation.",
+        "location": "cue 18, 00:02:26.374, Colleen Brask",
+        "pain": "P1.1",
+        "not_confirmed": "what a hand-off inside support looks like and whether it is the same record as an escalation to engineering; our side said it sounded relevant and moved on"
+      },
+      {
+        "quote": "Engineering thinks everything's a Sev 3, but whatever.",
+        "location": "cue 79, 00:12:27.888, Colleen Brask",
+        "pain": "P1.1",
+        "not_confirmed": "who settles the severity when support and engineering disagree, and whether the Sev set by tier two stands on the record; never asked"
+      },
+      {
+        "quote": "T2 escalated it on a Friday afternoon, which is already evening in Kraków.",
+        "location": "cue 92, 00:14:33.633, Colleen Brask",
+        "pain": "P1.4",
+        "not_confirmed": "who picks up an escalation outside the Raleigh and Kraków overlap; the time-zone point was promised early (cue 13) and came back only for the on-call handoff"
+      },
+      {
+        "quote": "Which is like half of them.",
+        "location": "cue 104, 00:16:29.067, Devin Marchetti",
+        "pain": "P1.6",
+        "not_confirmed": "whether the should-this-even-work-this-way questions are a separate type of escalation routed to the product manager rather than to a squad; never asked"
+      },
+      {
+        "quote": "But then the SOC two project isn't code at all, it's evidence and policies and all that. So kind of both? I don't know. Everything's a project here.",
+        "location": "cue 59, 00:09:23.309, Tomasz Wirth",
+        "pain": "P6.2",
+        "not_confirmed": "whether the non-code audit work belongs in the same view as the epics; the Consultant said he would come back to it (cue 60) and did not"
+      },
+      {
+        "quote": "But the escalation part, getting from a ticket to engineering and having the status come back, that has to connect to Zendesk somehow.",
+        "location": "cue 208, 00:32:50.654, Colleen Brask",
+        "pain": "P1.3",
+        "not_confirmed": "what 'come back' means on the Zendesk side (a field on the ticket, an internal note, a reply to the customer), who reads it, and the direction of any connection; our side asked only whether Zendesk stays"
+      },
+      {
+        "quote": "Oren, yeah. He does not want customer PII in engineering tools. At all.",
+        "location": "cue 123, 00:19:15.685, Tomasz Wirth",
+        "pain": "P7.2",
+        "not_confirmed": "Oren's rule is relayed; what counts as personal data for him beyond names, phones and addresses, and whether a link to the Zendesk ticket satisfies him; Oren was not on the call"
+      }
+    ],
+    "entities": [
+      {
+        "name": "Zendesk ticket (the customer's ticket)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 78, 00:12:07.500, Colleen Brask"
+      },
+      {
+        "name": "escalation (support to engineering)",
+        "parent": "Zendesk ticket (the customer's ticket)",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 79, 00:12:27.888, Colleen Brask"
+      },
+      {
+        "name": "engineering work item (a Redmine issue today; a dev item later)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 83, 00:13:16.691, Colleen Brask"
+      },
+      {
+        "name": "customer update on an escalation ('when we last told the customer something')",
+        "parent": "escalation (support to engineering)",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 86, 00:13:33.900, Colleen Brask"
+      },
+      {
+        "name": "squad (Dispatch, Billing, Mobile, Platform, one unnamed)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 46, 00:07:19.085, Tomasz Wirth"
+      },
+      {
+        "name": "sprint (two weeks; three for Mobile)",
+        "parent": "squad (Dispatch, Billing, Mobile, Platform, one unnamed)",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 49, 00:07:39.959, Devin Marchetti"
+      },
+      {
+        "name": "initiative ('project', the big stuff: offline mode, the billing rewrite)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 58, 00:09:12.291, Tomasz Wirth"
+      },
+      {
+        "name": "epic",
+        "parent": "initiative ('project', the big stuff: offline mode, the billing rewrite)",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 53, 00:08:14.954, Devin Marchetti"
+      },
+      {
+        "name": "Redmine project (a container per product area, plus Support Escalations and Misc)",
+        "parent": null,
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 51, 00:07:56.541, Devin Marchetti"
+      },
+      {
+        "name": "release (the train, every other Thursday) and hotfix",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 160, 00:25:26.239, Devin Marchetti"
+      },
+      {
+        "name": "release notes (internal and customer-facing)",
+        "parent": "release (the train, every other Thursday) and hotfix",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 161, 00:25:34.289, Devin Marchetti"
+      },
+      {
+        "name": "on-call week (the weekly rotation)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": true,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 140, 00:22:04.318, Tomasz Wirth"
+      },
+      {
+        "name": "handoff record (Monday morning Raleigh, afternoon Kraków)",
+        "parent": "on-call week (the weekly rotation)",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 140, 00:22:04.318, Tomasz Wirth"
+      },
+      {
+        "name": "pending item carried in a handoff (the Monday hotfix)",
+        "parent": "handoff record (Monday morning Raleigh, afternoon Kraków)",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 143, 00:22:35.321, Tomasz Wirth"
+      },
+      {
+        "name": "incident",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 142, 00:22:21.891, Tomasz Wirth"
+      },
+      {
+        "name": "postmortem",
+        "parent": "incident",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 145, 00:22:55.487, Tomasz Wirth"
+      },
+      {
+        "name": "production change (the auditor's sample unit: ticket, approval, PR, review, release)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 34, 00:05:02.833, Tomasz Wirth"
+      },
+      {
+        "name": "pull request",
+        "parent": "production change (the auditor's sample unit: ticket, approval, PR, review, release)",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 67, 00:10:48.115, Devin Marchetti"
+      },
+      {
+        "name": "approval of a production change",
+        "parent": "production change (the auditor's sample unit: ticket, approval, PR, review, release)",
+        "moves_independently": "unknown",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "assumed",
+        "evidence": null
+      },
+      {
+        "name": "PBC request (one line of the auditor's list)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 136, 00:21:24.128, Tomasz Wirth"
+      },
+      {
+        "name": "evidence item (a screenshot in the Drive folder)",
+        "parent": "PBC request (one line of the auditor's list)",
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 135, 00:21:10.259, Tomasz Wirth"
+      },
+      {
+        "name": "access request",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 147, 00:23:13.188, Tomasz Wirth"
+      },
+      {
+        "name": "access grant (one person, one system)",
+        "parent": "access request",
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 148, 00:23:23.335, Tomasz Wirth"
+      },
+      {
+        "name": "quarterly access review",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 133, 00:20:53.730, Tomasz Wirth"
+      },
+      {
+        "name": "offboarding (the leaver record)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 149, 00:23:32.400, Tomasz Wirth"
+      },
+      {
+        "name": "laptop (named once, as a request type)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": true,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 149, 00:23:32.400, Tomasz Wirth"
+      },
+      {
+        "name": "customer account (the contractor, for the account manager view; not a CRM board)",
+        "parent": null,
+        "moves_independently": "yes",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 193, 00:30:29.909, Devin Marchetti"
+      },
+      {
+        "name": "escalation tracker (Colleen's Google Sheet)",
+        "parent": null,
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 86, 00:13:33.900, Colleen Brask"
+      },
+      {
+        "name": "roadmap sheet (Devin's spreadsheet)",
+        "parent": null,
+        "moves_independently": "no",
+        "shared_resource": false,
+        "goes_stale": true,
+        "source": "spoken",
+        "evidence": "cue 55, 00:08:38.825, Devin Marchetti"
+      },
+      {
+        "name": "Marketing's campaign boards and the webinar calendar in monday",
+        "parent": null,
+        "moves_independently": "unknown",
+        "shared_resource": false,
+        "goes_stale": false,
+        "source": "spoken",
+        "evidence": "cue 74, 00:11:28.649, Tomasz Wirth"
+      }
+    ],
+    "structure": {
+      "products": [
+        "Service",
+        "Work Management"
+      ],
+      "build_target": "own-account",
+      "build_target_reason": "prospect, so the user's own account by default (A21)",
+      "workspaces": [
+        "Tollgrove – Service",
+        "Tollgrove – Ops"
+      ],
+      "native_reuse": "Service: the native Tickets board of the user's own account, detected by template lineage, a template view id or the reserved column fingerprint and recorded by id before any write (A5): the IT-service-desk install for access requests, laptops and offboarding, and the base Tickets family for the escalation intake, or one install with two groups and views (question 1); the Incidents and Employee lifecycle companions only where incidents and offboarding are in scope; no Asset management, CSAT or Contacts unasked. CRM: none; the pitch was turned down and the account manager need is a view on escalation data. Work Management: ordinary boards for on-call handoffs and the PBC request list, labelled as such; nothing for sprints, epics, releases or PR linking, which is monday dev and outside v1.",
+      "leanings": [
+        {
+          "question": "Does an access request carry one approval, or one per system granted?",
+          "option": "One ticket per request on the native IT-service-desk Tickets board, with each system granted as a child row carrying its own approver, date and revoked date. The quarterly review and the leaver record read the child rows, so 'an approval on every access grant' is a row, not a cell on the request.",
+          "quotes": [
+            "The auditor wants an approval on every access grant and a clean record when someone leaves. We don't have that in one place. At all.",
+            "Who has access to what, who approved it, and quarterly access reviews."
+          ],
+          "locations": [
+            "cue 148, 00:23:23.335, Tomasz Wirth",
+            "cue 133, 00:20:53.730, Tomasz Wirth"
+          ],
+          "condition": "Tomasz or the IT team on whether a request today names one system or several, and what the auditor samples: the request or the grant.",
+          "pattern": "one row where the call describes many"
+        },
+        {
+          "question": "Is the escalation the engineering work item?",
+          "option": "No. One escalation ticket per Zendesk ticket, owned by one engineer, with a reference to the engineering work item. Several escalations can point at one work item (the June export change produced fifteen tickets) and one escalation can have none yet. The work item's own status is monday dev and outside v1, so in v0.1 the reference is a text or link column and nothing on the ticket is evidence of the engineering tracker's state.",
+          "quotes": [
+            "Or there's two Redmine issues for the same thing because two people grabbed it. Or zero.",
+            "Like fifteen tickets in the first hour. And support had no idea anything had changed."
+          ],
+          "locations": [
+            "cue 83, 00:13:16.691, Colleen Brask",
+            "cue 170, 00:26:45.269, Devin Marchetti"
+          ],
+          "condition": "Whether the engineering half is built as a labelled Work Management approach (then the work item is a connected board and the status is mirrored) or waits (then the reference stays a link).",
+          "pattern": "one row where the call describes many"
+        },
+        {
+          "question": "Which values on the escalation ticket are the record, and which are claims about another system?",
+          "option": "Owner, severity, acknowledged and status are set on the ticket by tier two and the owning engineer, so the ticket is the event and Colleen's morning rewrite goes away. 'Last customer update' is a claim about Zendesk and shows who set it and when; 'released' is a claim about GitHub and the release train until a connection exists. A mirrored value without its as-of date would be the sheet again.",
+          "quotes": [
+            "It's a Google Sheet with the Zendesk number, the Redmine number if there is one, who owns it, the status, when we last told the customer something.",
+            "Forty-five minutes on a good day? An hour. And it's wrong by lunch."
+          ],
+          "locations": [
+            "cue 86, 00:13:33.900, Colleen Brask",
+            "cue 89, 00:13:59.273, Colleen Brask"
+          ],
+          "condition": "Colleen's scrubbed tracker, due Friday, shows which columns are copied from Zendesk and which are hers; and what 'the status come back' to Zendesk means (question 2).",
+          "pattern": "an artefact that can go stale with nothing to flag it"
+        },
+        {
+          "question": "Does the handoff record carry pending work forward?",
+          "option": "An on-call handoff board, an ordinary Work Management board labelled as such: one row per handoff with pending items as child rows that stay open until someone closes them, so a Saturday hotfix is still on Monday's handoff whether or not anyone rewrote the doc; a view of open items older than the current handoff. Not a doc, which is today's artefact.",
+          "quotes": [
+            "The handoff is a Slack thread plus a Google Doc, and the doc is, let's say, aspirational.",
+            "It was in the Slack thread. It was not in the handoff doc."
+          ],
+          "locations": [
+            "cue 140, 00:22:04.318, Tomasz Wirth",
+            "cue 143, 00:22:35.321, Tomasz Wirth"
+          ],
+          "condition": "What SRE's on-call tooling (unnamed) already records, and whether incidents go to the native Service Incidents companion or stay with the engineering work (question 5).",
+          "pattern": "an artefact that can go stale with nothing to flag it"
+        },
+        {
+          "question": "Which pains have no element in v0.1 because their fix is monday dev?",
+          "option": "P2.1, P2.4, P3.1, P3.2, P5.1, P5.2, P5.3, P6.1 and P6.2 have no element in the Service build, and P1.7 only a reference. The fit is monday dev (sprints, epics, releases, PR-to-work-item linking through GitHub), outside v1. The user chooses between a clearly labelled Work Management approach, with what it does not replicate and the second-migration risk, and waiting on that half. The pains stay visible as findings and in unmet_needs with the end-of-November clock; nothing is built for them as if supported.",
+          "quotes": [
+            "GitHub and Slack. Non-negotiable. If PRs don't link to the work item automatically, it's dead on arrival, because that's the whole audit problem.",
+            "This quarter. It has to be. Engineering off Redmine by end of November, so we've got six weeks of clean evidence before fieldwork."
+          ],
+          "locations": [
+            "cue 204, 00:32:10.441, Tomasz Wirth",
+            "cue 233, 00:36:25.762, Tomasz Wirth"
+          ],
+          "condition": "The user's choice at the approval stop, and Tomasz's answer on whether a labelled approach is worth seeing on the 22nd (question 4).",
+          "pattern": "a pain with no element that fixes it"
+        },
+        {
+          "question": "Does a PBC board fix the scavenger hunt, or index it?",
+          "option": "An ordinary board with one row per auditor request, linked evidence and a status is the Drive folder with an index: it tracks the request, not the trace from ticket to approval to PR to release. The honest verdict for P2.2 and P2.3 is copies-today's-tool until that trace exists, which is dev. Built only if the user wants the request list visible in the first look.",
+          "quotes": [
+            "And the auditor sends a PBC list, provided by client, and each request on it is like, show me the approvals for these twenty-five changes. And for each one it's a scavenger hunt.",
+            "click through ticket, approval, PR, release, and export it. In an afternoon. Not three weekends."
+          ],
+          "locations": [
+            "cue 136, 00:21:24.128, Tomasz Wirth",
+            "cue 199, 00:31:24.467, Tomasz Wirth"
+          ],
+          "condition": "The change-management and incident sections of the control list Tomasz sends by Monday, which say what each request must show; and the engineering-half decision (leaning 5).",
+          "pattern": "a pain with no element that fixes it"
+        },
+        {
+          "question": "If a Work Management approach is built for the engineering half, is a 'project' one row?",
+          "option": "An initiative (offline mode, the billing rewrite) is a parent with epics as child rows and a status rolled up from them, never typed by the product manager; that typed status is the roadmap sheet again. The non-code audit work joins the view only if Tomasz wants it there. Nothing portfolio-shaped: the tier is unknown and 'portfolio view' means epics.",
+          "quotes": [
+            "Uh. The big stuff? Offline mode, the billing rewrite. I mean, those are epics technically, I guess. Or a bunch of epics.",
+            "I'd open a spreadsheet. Genuinely. I keep a roadmap sheet and I update it by going squad to squad on Slack like, hey, where's this at."
+          ],
+          "locations": [
+            "cue 58, 00:09:12.291, Tomasz Wirth",
+            "cue 55, 00:08:38.825, Devin Marchetti"
+          ],
+          "condition": "Whether that approach is built at all (leaning 5); Tomasz on the SOC 2 project (question 4); the account tier, which decides whether portfolio tools apply later.",
+          "pattern": "one row where the call describes many"
+        },
+        {
+          "question": "How much Redmine history comes across?",
+          "option": "A disagreement between two client speakers: Tomasz wants open issues and the epics, with the rest archived read-only; Devin wants at least the last year for the audit. v0.1 migrates nothing and the Service build does not depend on the answer. For the engineering half, lean to a year of history, because the auditor samples back in time, unless the auditor confirms the sample starts at cutover.",
+          "quotes": [
+            "Open issues and the epics. Everything else we archive read-only and leave it.",
+            "I'd want more history than that. At least the last year, for the audit. If they sample a change from April I don't want to be digging around in a read-only Redmine."
+          ],
+          "locations": [
+            "cue 210, 00:33:07.900, Tomasz Wirth",
+            "cue 211, 00:33:14.086, Devin Marchetti"
+          ],
+          "condition": "The auditor's sample window for the Type 1 and the Type 2 period, through Oren; Tomasz and Devin said they would argue it later.",
+          "pattern": "fork"
+        }
+      ],
+      "patterns": [
+        "parent-row-with-roll-up: access request with access grants (one per system) as child rows, approval state and open-grant count on the request",
+        "parent-row-with-roll-up: on-call handoff with pending items as child rows, open-item count on the handoff",
+        "parent-row-with-roll-up: engineering work item with escalations as linked rows, affected-ticket count on the work item (only in a labelled Work Management approach)",
+        "parent-row-with-roll-up: initiative with epics as child rows, status on the initiative (only in a labelled Work Management approach)"
+      ],
+      "element_per_pain": [
+        {
+          "pain": "P1.1",
+          "element": "escalation ticket on the native Tickets board: owner (people column), status, severity Sev 1 to 4, Zendesk link; created by tier two at escalation, so a record exists before anyone claims it",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P1.2",
+          "element": "one ticket per Zendesk escalation with a single owner column, so two people cannot both hold it and 'zero' cannot happen; duplicate engineering issues are outside the Service build (leaning 2)",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P1.3",
+          "element": "status set on the ticket by the owning engineer; mirrored values carry who set them and when (leaning 3); the morning rewrite of the sheet goes away",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P1.4",
+          "element": "the board is the record and the support-ops view and the nudge automation do not depend on Colleen",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P1.5",
+          "element": "an automation that notifies the owner when a ticket stays unacknowledged or unchanged past a set time, and the squad lead after it; recipients listed on the approval card; a nag that is a process",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P1.6",
+          "element": "required intake fields on the ticket form (repro steps, Sev, product, Zendesk link), so the engineer does not dig up the Slack thread",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P1.7",
+          "element": "none in v0.1: duplicate fixes across squads are caught in the engineering tracker and code review, which is dev; the ticket's work-item reference helps only once the engineering half exists (leaning 2)",
+          "verdict": "none"
+        },
+        {
+          "pain": "P2.1",
+          "element": "none in v0.1: PR-to-work-item linking through GitHub is monday dev (leaning 5)",
+          "verdict": "none"
+        },
+        {
+          "pain": "P2.2",
+          "element": "a PBC request board (ordinary board, labelled) with linked evidence: the Drive folder with an index (leaning 6)",
+          "verdict": "copies-today's-tool"
+        },
+        {
+          "pain": "P2.3",
+          "element": "the same PBC request board: it tracks the request, not the trace (leaning 6)",
+          "verdict": "copies-today's-tool"
+        },
+        {
+          "pain": "P2.4",
+          "element": "none: change traceability is the engineering half (leaning 5); the compliance platform is an incumbent, not connected",
+          "verdict": "none"
+        },
+        {
+          "pain": "P3.1",
+          "element": "none in v0.1: release notes from shipped items need the release and the work items, which are dev (leaning 5)",
+          "verdict": "none"
+        },
+        {
+          "pain": "P3.2",
+          "element": "none in v0.1: support learning of a change before release depends on release notes (leaning 5); a 'released' status on an escalation ticket covers escalation fixes only, and the June change was not one",
+          "verdict": "none"
+        },
+        {
+          "pain": "P4.1",
+          "element": "on-call handoff board with pending items as child rows that stay open until closed (leaning 4)",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P4.2",
+          "element": "incidents on the native Service Incidents companion, or with the engineering work, with the postmortem linked from the incident row; which home is question 5",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P5.1",
+          "element": "none: replacing Redmine is monday dev (leaning 5)",
+          "verdict": "none"
+        },
+        {
+          "pain": "P5.2",
+          "element": "none: the unpatched server stays until the cutover, which this build does not perform (leaning 5)",
+          "verdict": "none"
+        },
+        {
+          "pain": "P5.3",
+          "element": "none: sprint planning is monday dev (leaning 5)",
+          "verdict": "none"
+        },
+        {
+          "pain": "P6.1",
+          "element": "none in v0.1: the cross-squad epic roll-up is dev; only a labelled Work Management approach would carry it (leanings 5 and 7)",
+          "verdict": "none"
+        },
+        {
+          "pain": "P6.2",
+          "element": "none in v0.1: the same roll-up; no portfolio, since the tier is unknown and 'portfolio view' means epics (leanings 5 and 7)",
+          "verdict": "none"
+        },
+        {
+          "pain": "P7.1",
+          "element": "a Zendesk link column and a repro field on the ticket, and no name, phone or address field anywhere on the form; the form text says link, do not copy. The element cannot stop a paste; an assumption carries that",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P7.2",
+          "element": "the same ticket design; sample rows carry a ticket reference and a product, never a person",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P8.1",
+          "element": "native IT-service-desk Tickets with approver, approval date and grants as child rows (leaning 1); the approval happens in monday, so it is the event, with Oren's audit-log condition in unmet_needs",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P8.2",
+          "element": "the native IT-service-desk install: a queue with a form in place of DMs, for access, laptops and offboarding",
+          "verdict": "fixes"
+        },
+        {
+          "pain": "P9.1",
+          "element": "for the two queues in scope, the ticket is the record that outlives the Slack thread; for engineering decisions there is no element (leaning 5). The Slack connection comes later; v0.1 posts nothing to Slack",
+          "verdict": "fixes"
+        }
+      ]
+    },
+    "existing": {
+      "account": "unknown, no account bound. The key's account_context: tier unknown; Marketing has campaign boards built by Jess and Customer Education a webinar calendar on one of them (cue 74, cue 75); plan, seats and administrator unknown; whether Service is provisioned there unknown; engineering, support and IT have never used it. Under A21 the proof of concept goes into the user's own account in the two workspaces named above, so which account the client builds in, and whether Service is provisioned there, moves from pre-build to handover. What preflight must establish is that the user's own account has Service and where its native Tickets boards are.",
+      "incumbents": [
+        {
+          "system": "Zendesk",
+          "authority": "stays system of record for: customer tickets, the customer conversation, macros ; follower for: nothing in v0.1. The client asked for the status to come back to Zendesk somehow (cue 208); how, and in which direction data moves, is unresolved; v0.1 does not depend on it; a link column on the ticket is our safe default, labelled as ours, and it is not an email-to-ticket channel",
+          "evidence": "cue 207, 00:32:35.072, Colleen Brask"
+        },
+        {
+          "system": "Redmine",
+          "authority": "stays system of record for: engineering issues, epics and target versions until the cutover the client wants by end of November ; follower for: nothing. v0.1 writes nothing into it and migrates nothing; archiving it read-only is Tomasz's plan and the history question is a fork (leaning 8)",
+          "evidence": "cue 210, 00:33:07.900, Tomasz Wirth"
+        },
+        {
+          "system": "GitHub",
+          "authority": "stays system of record for: pull requests, reviews and merges ; follower for: nothing. The PR-to-work-item link is the client's must-have and is monday dev, outside v1; no GitHub behaviour is promised unverified",
+          "evidence": "cue 204, 00:32:10.441, Tomasz Wirth"
+        },
+        {
+          "system": "Slack",
+          "authority": "stays system of record for: nothing; it is where escalations are posted and engineers talk ; follower for: nothing in v0.1. The Slack connection is a must-have for later; v0.1 posts nothing to Slack and every notification is monday-side",
+          "evidence": "cue 205, 00:32:18.918, Tomasz Wirth"
+        },
+        {
+          "system": "Google Sheets escalation tracker",
+          "authority": "stays system of record for: escalations until tier two keys into the Tickets board ; follower for: nothing; replaced at cutover, not mirrored; Colleen's scrubbed copy, due Friday, is the seed shape",
+          "evidence": "cue 86, 00:13:33.900, Colleen Brask"
+        },
+        {
+          "system": "Google Docs handoff doc and postmortems",
+          "authority": "stays system of record for: postmortems, linked from the incident row ; follower for: nothing; the handoff doc is replaced by the handoff board if that board is built",
+          "evidence": "cue 145, 00:22:55.487, Tomasz Wirth"
+        },
+        {
+          "system": "Google Drive evidence folder",
+          "authority": "stays system of record for: screenshots already collected ; follower for: nothing; a PBC request board links to it",
+          "evidence": "cue 135, 00:21:10.259, Tomasz Wirth"
+        },
+        {
+          "system": "Google Forms and Slack DMs for access requests",
+          "authority": "stays system of record for: nothing once the IT-service-desk form exists ; follower for: nothing; replaced at cutover",
+          "evidence": "cue 147, 00:23:13.188, Tomasz Wirth"
+        },
+        {
+          "system": "Google sign-in (SSO)",
+          "authority": "stays system of record for: identity ; follower for: nothing; cannot be shown in the user's own account; an unmet need for Oren's review",
+          "evidence": "cue 215, 00:33:43.315, Tomasz Wirth"
+        },
+        {
+          "system": "compliance automation platform (in procurement, unnamed)",
+          "authority": "stays system of record for: policies and cloud-configuration evidence ; follower for: nothing; not connected",
+          "evidence": "cue 157, 00:24:59.947, Tomasz Wirth"
+        },
+        {
+          "system": "SRE on-call tooling (unnamed)",
+          "authority": "stays system of record for: the rotation and paging ; follower for: nothing; the handoff board does not replace it",
+          "evidence": "cue 46, 00:07:19.085, Tomasz Wirth"
+        },
+        {
+          "system": "Marketing's monday boards",
+          "authority": "stays system of record for: campaigns and the webinar calendar ; follower for: nothing; untouched, and not this build's account by default (A21)",
+          "evidence": "cue 74, 00:11:28.649, Tomasz Wirth"
+        }
+      ]
+    },
+    "assumptions": [
+      {
+        "statement": "Tier two creates the escalation ticket, through a form, at the moment they would post in Slack today; the Slack post becomes a notification rather than the record.",
+        "question": "Will tier two create the ticket, or should the Slack post stay first with the ticket created from it later?",
+        "kind": "automation-condition",
+        "state": "assumed"
+      },
+      {
+        "statement": "One escalation per Zendesk ticket; where several customers hit one bug, each escalation links to one work-item reference.",
+        "question": "Do you want one escalation per customer ticket, or one per bug with the customer tickets listed on it?",
+        "kind": "board-architecture",
+        "state": "assumed"
+      },
+      {
+        "statement": "The Sev set by tier two stands on the record; engineering's disagreement is a comment, not a change.",
+        "question": "Who settles the severity when engineering disagrees with support?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "The account manager view is a saved view per customer account on the escalation board, read only.",
+        "question": "What should account managers see about escalations on their accounts, and do they change anything or only view it?",
+        "kind": "board-architecture",
+        "state": "assumed"
+      },
+      {
+        "statement": "The IT-service-desk install covers access requests, laptops and offboarding from the start; Asset management is not added unless asked.",
+        "question": "Do laptops need tracking as assets with a holder, or is a laptop only a request type?",
+        "kind": "board-architecture",
+        "state": "assumed"
+      },
+      {
+        "statement": "An access approval recorded on the ticket by the approver is the audit evidence, and Tomasz is the approver until IT says otherwise.",
+        "question": "Who approves an access grant today, and where is that recorded?",
+        "kind": "automation-condition",
+        "state": "assumed"
+      },
+      {
+        "statement": "Engineers act on monday notifications in the proof of concept; the Slack connection comes later.",
+        "question": "Which Slack channels and which notifications are wanted once the connection exists?",
+        "kind": "automation-condition",
+        "state": "assumed"
+      },
+      {
+        "statement": "On-call handoffs are an ordinary board in the Ops workspace, labelled as such; incidents go to the native Incidents companion only if the client wants them in Service.",
+        "question": "Where should incidents and postmortems live: on the native Service Incidents board, or with the engineering work?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "The fifth squad's name is unknown; the squad dropdown ships with the four named squads and a placeholder.",
+        "question": "What is the fifth squad called?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "Sample escalations carry a ticket reference and a product, never a person, an address or a phone number; nothing from the July customer appears in seed rows.",
+        "question": "What counts as personal data for Oren beyond names, phones and addresses, and does a Zendesk ticket number pass?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "v0.1 connects nothing: no Zendesk, GitHub or Slack connection; every reference is a typed value labelled sample.",
+        "question": "Which GitHub organisation and repositories, which Slack channels and which Zendesk instance, when the connections are built?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "Response-time expectations, if wanted at all, are a plain status, not an SLA policy (A7).",
+        "question": "Do you want response-time expectations on the escalation record, and in what form?",
+        "kind": "automation-condition",
+        "state": "assumed"
+      },
+      {
+        "statement": "The non-code SOC 2 work sits in no epic view in v0.1.",
+        "question": "Should the SOC 2 evidence work sit in the same view as the epics?",
+        "kind": "leaning",
+        "state": "assumed"
+      },
+      {
+        "statement": "monday's activity log is enough for 'who changed an approval and when'; this is unverified.",
+        "question": "What does the auditor accept as an approval record that cannot be quietly edited, and does Oren accept monday's log for it?",
+        "kind": "gap",
+        "state": "assumed"
+      },
+      {
+        "statement": "The Service build goes ahead of the Redmine cutover and does not depend on it.",
+        "question": "Can the Service part be piloted with the Dispatch squad before the engineering half is decided?",
+        "kind": "leaning",
+        "state": "assumed"
+      }
+    ],
+    "unmet_needs": [
+      {
+        "need": "Every production change traceable to a ticket, an approval, a reviewed PR and a release, with PRs linked to work items automatically",
+        "clock": "clean evidence from end of November; fieldwork in the second week of January; the Type 2 window runs a year after",
+        "why_not_met": "monday dev, outside v1; a Work Management approach cannot promise GitHub behaviour it has not verified"
+      },
+      {
+        "need": "Sprints across five squads with Mobile's three-week cadence, epics, and a cross-squad roll-up of where the big things are",
+        "clock": "off Redmine by end of November",
+        "why_not_met": "monday dev, outside v1; offered only as a clearly labelled approach or deferred, with the second-migration risk stated"
+      },
+      {
+        "need": "Release notes generated from what shipped, read by support before the release",
+        "clock": null,
+        "why_not_met": "depends on releases and work items, which are dev; the June export incident stays unaddressed by this build"
+      },
+      {
+        "need": "Leaving Redmine, with the history question settled",
+        "clock": "end of November",
+        "why_not_met": "the move itself is the engineering half; v0.1 migrates nothing; the history fork (leaning 8) waits on the auditor's sample window"
+      },
+      {
+        "need": "Escalation status visible on the Zendesk ticket, 'come back' in Colleen's words",
+        "clock": null,
+        "why_not_met": "the Zendesk connection is unresolved and email-to-ticket is deferred (A7); v0.1 shows a link to the ticket and nothing flows back"
+      },
+      {
+        "need": "SSO through Google and an approval record the auditor accepts as unalterable",
+        "clock": "Oren's review, four to six weeks, before any yes",
+        "why_not_met": "neither can be shown in the user's own account; Oren checks them against monday's documentation, which the Consultant committed to send the same day"
+      },
+      {
+        "need": "A customer portal, email-to-ticket and SLA policies",
+        "clock": null,
+        "why_not_met": "deferred beyond v1 (A7); the client did not ask for them, and the Sev scale and 'when we last told the customer something' tempt an SLA that is not built"
+      },
+      {
+        "need": "Quarterly access reviews as evidence",
+        "clock": "quarterly; first before fieldwork",
+        "why_not_met": "a recurring review item records that a review happened; the list of who has access to each system comes from the systems themselves, which this build does not read"
+      }
+    ],
+    "ai_opportunities": [
+      {
+        "pain_or_need": "P1.5",
+        "kind": "workflow",
+        "round": 2,
+        "probe_basis": "P-21",
+        "idea": "A workflow that notifies the owner when an escalation stays unacknowledged past a set time and then the squad lead, published once with its activation state decided on the card."
+      },
+      {
+        "pain_or_need": "P1.6",
+        "kind": "ai_column",
+        "round": 2,
+        "probe_basis": "unprobed",
+        "idea": "An AI column that drafts a one-line reproduction summary from the ticket's intake fields for the engineer who picks it up, shown on sample rows only."
+      },
+      {
+        "pain_or_need": "P8.1",
+        "kind": "workflow",
+        "round": 2,
+        "probe_basis": "P-21",
+        "idea": "A workflow that routes an access request to its approver and opens the grant rows when the approval is recorded, with the approver as the only recipient."
+      },
+      {
+        "pain_or_need": "P4.1",
+        "kind": "ai_column",
+        "round": 2,
+        "probe_basis": "unprobed",
+        "idea": "An AI column on the handoff row that summarises the open child items into a handoff note, so the Monday on-call reads one paragraph instead of a Slack thread."
+      }
+    ],
+    "verdict": {
+      "cleared_for": "build",
+      "conditions": [
+        "approval stop",
+        "no A11 question first matters here: the target is the user's own account, where sample data needs no decision (A21); the three A11 decisions stay open",
+        "workspaces to create: Tollgrove – Service and Tollgrove – Ops, brand new, in the user's own account; the plugin writes into no other workspace",
+        "Service provisioned in the user's own account, and the native Tickets board (with the IT-service-desk install, Incidents and Employee lifecycle where in scope) detected and recorded by id before any write (A5); if Service is absent or detection is ambiguous, stop and ask, never a look-alike",
+        "the Service scope chosen at approval: the escalation intake, IT's requests, or both, and one install or two (question 1)",
+        "the engineering half named on the card as monday dev and outside v1, with the user's choice between a clearly labelled Work Management approach and waiting; nothing built for sprints, epics, releases or PR linking as if supported",
+        "Service extras out: no customer portal, no email-to-ticket channel, no SLA policy (A7)",
+        "sample data only: no Zendesk, GitHub or Slack connection; no customer personal data and nothing from the July customer in seed rows; every mirrored value labelled a claim with who set it and when",
+        "the invite for Tuesday the 22nd at 1:00 pm Eastern is committed, not sent; Oren's attendance is tentative; Colleen's scrubbed tracker (Friday), Devin's Dispatch CSV (early next week) and Tomasz's control-list sections (by Monday) are committed inputs, not received"
+      ],
+      "reason": "The escalation and access pains have named entities and outcomes in the client's own words, Service is chosen with Work Management for the handoff and request boards, the structure is stated with its leanings, and the target is the user's own account with its two workspaces named; the engineering half is outside v1 and is named, not built."
+    },
+    "questions": [
+      {
+        "text": "Which queue comes first on the native Tickets board: the support-to-engineering escalation intake, IT's access requests, laptops and offboarding, or both? If both, one install with two groups and views, or two native installs?",
+        "kind": "discovery",
+        "role": "Tomasz Wirth (VP of Engineering), with Colleen Brask for the escalation side",
+        "known": "both were described; the escalation intake has the fullest picture (the sheet's columns, Sev 1 to 4, the eyes-emoji claim, the July case) and IT's queue is DMs and a Google Form with no approver named; the Service build does not depend on the Redmine cutover, so either can go first."
+      },
+      {
+        "text": "You said 'Link to the ticket, sure. Copy the ticket, no.', and that the status 'has to connect to Zendesk somehow'. Which fields does tier two need on an escalation to reproduce it without customer details, what does 'come back' mean on the Zendesk side, and are the should-this-even-work-this-way questions, 'like half of them', a separate type routed to Devin?",
+        "kind": "read-back",
+        "role": "Colleen Brask (Support Operations Manager), with Devin Marchetti for the product-question route",
+        "known": "the sheet holds Zendesk number, Redmine number, owner, status and last customer update; repro steps are not copied today; Oren's rule is no personal data in engineering tools; v0.1 shows a link and nothing flows back to Zendesk."
+      },
+      {
+        "text": "Who approves an access grant today, and what has to be on the record for the auditor: the approver, the date, the systems granted, the revocation when someone leaves, and the quarterly review? Does one request cover one system or several?",
+        "kind": "discovery",
+        "role": "Tomasz Wirth and the two-person IT team",
+        "known": "the auditor wants an approval on every grant and a clean leaver record; requests arrive as Slack DMs or a Google Form; who approves was never said; the leaning is one grant per child row (leaning 1)."
+      },
+      {
+        "text": "You said the big stuff is 'those are epics technically, I guess', and that the SOC two project 'isn't code at all', 'So kind of both?'. The cross-squad view is monday dev, which this version does not build. Do you want a clearly labelled Work Management approach for the engineering half in the first look on the 22nd, with its limits and the second-migration risk, or the Service part only? And does the non-code audit work belong in the same view?",
+        "kind": "read-back",
+        "role": "Tomasz Wirth (VP of Engineering); the approach itself is the user's choice at the approval stop",
+        "known": "five squads, two-week sprints with three for Mobile, epics faked in Redmine, the roadmap in Devin's sheet; GitHub linking is the must-have; the last migration failed halfway; the tier is unknown, so nothing portfolio-shaped is planned."
+      },
+      {
+        "text": "What must a Monday handoff record carry so that a Saturday hotfix is still visible to the on-call in Kraków, and where should incidents and postmortems live: on the native Service Incidents board, or with the engineering work?",
+        "kind": "discovery",
+        "role": "Tomasz Wirth, with SRE, who own the on-call tooling",
+        "known": "weekly rotation, handed off Monday morning Raleigh time; a Slack thread plus a Google Doc; the payments-webhook hotfix slipped a day and a half; postmortems are Google Docs; the on-call tooling is unnamed; Tomasz asked for handoffs in the first look if possible."
+      }
+    ]
+  }
+}

@@ -1,0 +1,663 @@
+
+########## s1-discovery-strong TRAPS (33)
+   1. Polite hedge: Tess says the whole thing should 'ideally' be live before Des Moines opens, then adds 'I don't want to hold anyone to that. Let's see wh
+   2. 'Owner' means the building owner, i.e. the client (city, school district), not a monday item owner or People column.
+   3. One project can hold several Ajera jobs (the Oak Street fire station is a base-building job plus an additional-services job); do not model a project a
+   4. Phases vary by job type: engineering-only jobs may be just design and CA; do not hard-code SD, DD, CDs, bidding and CA for every job.
+   5. Ajera is a must-have and the book of record, but its hosting ('the cloud version, I think?'), API access and data direction are unconfirmed. Time entr
+   6. Loaded rates ($105 PM, $90 blended, about $62 for Hallie) differ from the bill rate (about $165 average): the bleed uses loaded rates, the upside uses
+   7. The bleed is the client's own total: $504,920, spoken as 'five hundred and four thousand'. Do not round it up, and do not add the unquantified items (
+   8. Tess says 'I didn't count the principals at all', yet 'a couple of the PICs' sit on the staffing call, and that call's 12 hours are already in the sta
+   9. The upside's 33 billable hours come out of the same 66 PM hours as the bleed's PM line, so do not add bleed and upside together. The healthcare figure
+  10. The PM line (3 h/wk each) covers the chasing the Consultant listed: submittal logs, sign-off follow-up and burn sheets. The client never split it by p
+  11. Speakers correct themselves: headcount 'a hundred and twenty' then 'a hundred and eighteen'; PMs 'Twenty-three if you count Ravi -- no, not Ravi. Anne
+  12. Loose numbers kept as spoken: Jordan's Wall time is 'most of Monday and half of Tuesday morning' but costed as 'call it twelve hours'; the staffing ca
+  13. The write-off target is not agreed: 'half' is Tess's guess and she wants to ask Gordon first, so success criteria stay proposed.
+  14. R12 is Partial, not Met: Tess agrees the first cut ('That's the right first cut'), but the Consultant played it back 'just to show you, not to sign an
+  15. Gordon (managing partner, signs over $25k) was not on the call, and his attendance on the 24th is unconfirmed until Friday the 18th. Bev (controller) 
+  16. The October 1 budget lock is a preference, not a hard deadline: 'I could get it approved later as a one-off. But it's a lot easier if it's in the budg
+  17. The only monday use is a free board Anneke built last year for FF and E, which lapsed when the trial ended. Do not assume an active account or reusabl
+  18. Capitalised 'Monday' is the weekday (Tess's Monday-morning screen, Jordan's Monday rebuild, 'an RFQ lands on a Monday'); the product appears in lowerc
+  19. 'The Wall' is an Excel spreadsheet today (a magnet whiteboard before COVID), not a physical board or a monday board.
+  20. Procore belongs to the general contractors (the firm only gets logins, and only about half of GCs use it), and the bid portals are external. Neither w
+  21. Submittal review windows differ by contract (ten business days or 14 calendar days); do not hard-code one.
+  22. No alternatives in play were discussed (no other vendors, partners or in-house build), so do not invent any. The project management tool that died fou
+  23. The call date and year are not in the transcript. 'Tuesday the fifteenth', 'Friday the eighteenth', 'Thursday the twenty-fourth' and an October 1 part
+  24. Internal-only details that must not reach recaps, SOPs, seed data or the build: Gordon's partner-meeting remark and 'everyone sort of looked at me'; t
+  25. Security scoping: justice jobs need access limited to named people, school district work is subject to records requests, and Microsoft single sign-on 
+  26. The suggested PM conversations (Luis and Karen) have no date; treat them as an open action, not a commitment.
+  27. The account tier is never stated on the call, so it is 'unknown' and has to be asked. Do not assume Enterprise and do not add a portfolio by default. 
+  28. CRM has to be built on the account's native CRM template boards. 'Pursuits' and 'owners' are the client's labels for deals and accounts, not a reason 
+  29. There is no usable monday account to build on yet: Anneke's free board lapsed ('It kind of fizzled when the trial ended and nobody was paying for it.'
+  30. Submittals look like a ticket queue with an SLA ('most of our contracts say ten business days. Some say fourteen calendar days.', plus a GC's delay le
+  31. Automations are approved once as a single list, with each row naming its trigger, conditions, action and exact recipients. Automations created through
+  32. Objection status: all seven entries are anticipated or raised as blockers, and none was resolved on the call. The three PM-adoption lines are one recu
+  33. Pricing and proposal prep are out of v1, and R12 is Partial in any case, so produce neither: no price, no proposal, no ROI sheet, even though the clie
+
+---------- s1-discovery-strong LEAK BLOCKLIST (21)
+   1. Bleed total in every form: 504920, 504,920, $504,920, $504920, 504k, $504k, 'five hundred and four thousand', 'five-oh-four', 'abo
+   2. Bleed components: 360360, 360,360, $360,360, 'three hundred sixty thousand, three hundred sixty', 'three-sixty'; 112320, 112,320, 
+   3. Upside figures: 283140, 283,140, $283,140, 'two hundred eighty-three thousand', 'Two-eighty-ish', 5445, 'Five thousand four hundre
+   4. Loaded hourly costs and the bill rate: 105, $105, '105/hr', 'one-oh-five'; 90, $90, 'ninety an hour', 'blended'; 62, $62, 'sixty-t
+   5. Cost inputs behind the math: 3 hours a week per PM and 'I was being nice with the three hours', 66 hours a week, 24 hours a week, 
+   6. Write-off and loss amounts: 210000, $210k, 'about two hundred and ten thousand'; 38000, $38k, 'about thirty-eight thousand'; the $
+   7. The whole lost-pursuit narrative as a failure story: Larkspur Falls described as a loss caused by the firm, 'We lost it because we
+   8. Emotional and personal stakes: 'everyone sort of looked at me'; 'We had two resignations last year, and workload came up in both e
+   9. Stakeholder assessments and decision power: 'anything over twenty-five thousand, Gordon signs' and the $25k threshold itself, 2500
+  10. Who is a risk and who is friendly: 'Luis would be great. He's the one who was on vacation, so he's very motivated.'; 'And someone 
+  11. Objection text and planned responses: 'Honestly? The PMs.'; 'We tried a project management tool, I want to say four years ago, and
+  12. Remarks by client staff about colleagues: 'Ask Bev, and Bev's busy.'; 'the PMs aren't wrong, it's busywork'; 'the PMs are supposed
+  13. Readiness and gate language: R1-R12 and their names, 'Discovery complete', 'Nearly ready', 'Not ready', met/partial/missing grades
+  14. Method vocabulary and markers: bleed, upside, callback, exit ramp, seed or seed data, readiness, discovery rubric, pain IDs (P1, P
+  15. Internal artefacts quoted or attached: the demo script and its prep block, the call summary, the raw transcript and its timestamps
+  16. Pricing material of any kind, since pricing and proposal prep are deferred beyond v1: rates, day rates, totals, discounts, ROI or 
+  17. Alternatives and other clients: no other vendor, partner or in-house build may be named, because none was discussed. The project m
+  18. Consulting brand and product names: the consultant appears as 'Consultant' only, and no plugin, tool or brand name of the Consulta
+  19. Confidential client data that must not reach boards, seed data or SOPs: loaded rates and salaries in any form (only Bev, Tess and 
+  20. Flag, do not remove (volume and process facts that are legitimate in an SOP or a board, but worth checking with the Consultant fir
+  21. Public-records caution: anything written about a school district job can end up in a records request, so remove internal asides, b
+
+---------- s1-discovery-strong ACCEPTED_BEHAVIOURS (16)
+   1. Naming the two products in either order and with either label ('monday CRM' or 'CRM' for pursuits, 'Work Management' or 
+   2. Raising monday Service as a possible later fit for submittals or owner approvals, provided it is labelled as outside thi
+   3. Recording the account tier as 'unknown' and asking for it, in any wording, before designing anything tier-dependent. Ass
+   4. Either leaving the portfolio out of v0.1 with the tier question open, or offering it as a clearly conditional option ('i
+   5. Mapping pursuits and owners onto the account's native CRM boards under any reasonable relabelling (Pursuits for Deals/Op
+   6. Putting the native-board detection step and the account question ahead of the build, given that the only prior monday us
+   7. Presenting the automations as one approval list with trigger, conditions, action and exact recipients per row, rather th
+   8. Running the change check (API version, release notes, live schema for the planned calls, connector roster diff) before a
+   9. Proposing a blueprint and a v0.1 build, because R1 and R2 are Met, while listing the unanswered pre-build questions eith
+  10. Using sample Ajera hours in v0.1 and describing the real Ajera connection as still to be worked out with Bev, without pr
+  11. Including a basic submittal log and keeping owner approvals out, in line with what Tess agreed, and carrying the two mod
+  12. Stating the bleed as the client's own confirmed figure ($504,920, or 'about $504,000' / 'five hundred and four thousand'
+  13. Splitting P4 into two pains (submittal reviews, owner approvals) or keeping it as one, as long as neither half is graded
+  14. Grading R12 Partial and holding pricing and proposal prep, even if the client asks about budget, since those are deferre
+  15. Treating Gordon's and Bev's views as secondhand throughout: they shape questions and the invitation to the 24th, but nev
+  16. Working and writing in English only, including all board, column and item names in the account.
+
+########## s2-discovery-gaps TRAPS (27)
+   1. 'Callback' means different things: Marisol uses it for any customer call-in that needs follow-up (re-treat, billing, wants a call), Travis for a truck
+   2. 'The board' is the physical dispatch whiteboard, not a monday board.
+   3. 'Service ticket' is a scheduled visit in the system, not a customer request. Marisol corrected the consultant's 'that call becomes a ticket'. This col
+   4. 'Leads' is ambiguous: add-on sales requests from tech notes (Marisol) versus, probably, lead technicians ('My leads', Travis).
+   5. Service is in v1, so the intake the consultant pitched is genuinely in scope -- but it must go on the account's native Service Tickets board, not a lo
+   6. Do not choose monday CRM. The consultant pitched a sales pipeline for add-ons and Marisol deflected ('That's more Gary's side'). Add-on requests fit a
+   7. Only one hours figure exists (Travis, about two hours every morning, Saturdays too in season). No wage, hours per week, weeks in season or other roles
+   8. Re-treat volume 'Fifteen, twenty a week, maybe?' is an unconfirmed range for the main branch only, and 'Summer's like double' is loose. Keep it as a r
+   9. Why now is vague: 'it's kind of gotten worse, I don't know' names no change or date. The spring bad reviews and the North branch opening are possible 
+  10. The owner, Gary, is the likely approver but was not on the call. Lorna (North branch) and Kelsey (owner's daughter, built the callback sheet, may have
+  11. Whether North is in scope is open ('I don't know if it's going to North'), yet the consultant already suggested copying the setup to North.
+  12. 'The system' stays according to Marisol, unconfirmed with Gary. Its product name, data, export or API options and link to QuickBooks are unknown, and 
+  13. Routes are generated nightly by the system. Whether monday should hold daily routes, mirror them, or only track exceptions (call-outs, re-treats, rain
+  14. The workarounds were described as working ('the sheet's fine. It's fine.', 'the board works. It works. Everybody gets their stops.', 'We always catch 
+  15. The polite hedge 'Oh. Huh. That sounds interesting.' followed an unrequested pitch for a customer self-service form and was followed by 'Our customers
+  16. Seat count is unknown: about 60 technicians plus seasonal hires, a mix of company and personal phones, and some who want paper. The consultant's 'some
+  17. The consultant promised rough pricing, but R4, R7 and R12 are not Met. Pricing prep should be held, and the recap should propose a scoping conversatio
+  18. The consultant's own claims ('in monday that basically can't happen', 'monday connects to pretty much everything', 'Most people pick it up in a day') 
+  19. Customers call and text the owner's personal cell and he forwards screenshots and voicemails. Do not plan to connect a personal phone; ask how these s
+  20. Remarks about colleagues ('Hector will die before he gives up the paper', the review printed for the break room, 'Kind of in a mean way') and Gary tak
+  21. Rhonda re-keys paper tickets, but her time was never quantified and she was not on the call.
+  22. Lawn plan structure is loose ('like, six rounds a year? Seven if they've got the grub control'). Confirm before building round columns or labels.
+  23. The deferred Service extras are exactly what the consultant demonstrated most vividly: a customer self-service form on the website, everything landing
+  24. The AI pitch (reading email, tagging complaint versus re-treat versus billing, sentiment, draft replies) hangs off the deferred email intake and was n
+  25. No monday account exists ('No. I've seen the ads.'), so native-board detection (A5 layer 1) has nothing to run against and no board ids can be recorde
+  26. No account tier was discussed, so the Enterprise portfolio default (A6) does not apply. Do not infer Enterprise from about 60 technicians or two branc
+  27. The consultant's multi-board sketch ('you'd have a customers board, a plans board with every plan and what round they're on, a routes board for Travis
+
+---------- s2-discovery-gaps LEAK BLOCKLIST (15)
+   1. Cost inputs and any figure derived from them: 'two hours', '2 hours', 'two hours every morning', 'two hours a day', and any weekly
+   2. Any hourly rate, wage or loaded cost. None was ever given, so any such number is fabricated as well as internal.
+   3. Method vocabulary: bleed, upside, exit ramp, callback in its method sense (opening a demo segment by pointing at a stated pain), s
+   4. CAUTION, do not strip: 'callback', 'callback sheet' and 'callbacks' are this client's own words for a real work item and belong in
+   5. Identifiers and markers: P1 to P7, R1 to R12, N# number ids, S# stakeholder ids, O# objection ids, C# commitment ids, '[found]', '
+   6. Objection text and the fact that anything was treated as an objection: 'Because Gary's going to ask what it costs.', 'Well, Gary w
+   7. Stakeholder assessments: that Gary is the approver or decision maker, that Marisol is an influencer, that Travis is an end user, t
+   8. Emotional and personal stakes: 'she wasn't crying, but she was upset', 'And then she's asking for Gary. And then Gary's asking me.
+   9. Remarks by staff about colleagues: 'Hector will die before he gives up the paper', 'Hector's gonna be buried with a clipboard', 'H
+  10. Closing and pricing thinking: the held pricing prep, the promise 'I'll put some ballpark numbers in there for him.', seat-count si
+  11. Consultant claims repeated as fact: 'in monday that basically can't happen', 'monday connects to pretty much everything.', 'Most p
+  12. Backlog framed as an upsell: the customer self-service form, AI tagging and draft replies, the owner dashboard, the CRM pipeline f
+  13. FLAG, do not remove automatically: volume figures that could legitimately belong in an SOP -- 'Fifteen, twenty a week, maybe?' and
+  14. Sensitive operational detail that must not land in seed data or examples even though it is the client's own: the Pheasant Run cust
+  15. There are no alternatives in play in this record -- no other partners, vendors or in-house build plans were mentioned -- so that c
+
+---------- s2-discovery-gaps ACCEPTED_BEHAVIOURS (12)
+   1. Grading R3 as Missing instead of Partial, which yields 'Not ready' instead of 'Nearly ready'. The gates, the held pricin
+   2. Grading R5 as Missing instead of Partial. R5 is advisory and changes no verdict or gate.
+   3. Grading P1 Workaround and P2 Workaround as Missing instead of Partial. What matters is that neither is Met, so no pain i
+   4. Either naming monday Service as the intake target outright, or naming it while asking first whether re-treats and callba
+   5. Sketching the intended shape (native Tickets for call-ins and complaints, Work Management for dispatch exceptions, round
+   6. Listing the deferred Service extras explicitly as deferred, or leaving them out entirely. Both keep them out of v1; pres
+   7. Using the client's vocabulary instead of monday's for the intake items (a request, a callback, a call-in), as long as th
+   8. Fewer than five gap questions, or a different subset of expected_questions_before_building, as long as core criteria (R2
+   9. Delivery-note figures within a couple of points or tens of words of the key's estimates (client share about 56%, a 245-w
+  10. Recording the two-hours figure as a cost input, or as an unquantified volume note. Either is fine; multiplying it into a
+  11. Naming Kelsey, Lorna, Gary or Rhonda as stakeholders with unknown or unconfirmed roles, or listing them as open question
+  12. Either treating the North branch as out of scope for now or listing it as an open scope question. Assuming it is include
+
+########## s3-followup-demo-feedback TRAPS (29)
+   1. Fiscal year: consistent with s1, it starts October 1, 'next Thursday'. 'That's six weeks out' is Bev's first close of the new fiscal year (first week 
+   2. The call date is not stated. The v0.1 walkthrough was 'yesterday' (Thursday September 24 per context-v0.1.md), and 'next Thursday. The first.' and 'Tu
+   3. There is no transcript of the v0.1 walkthrough. Gordon's reactions ('That's the Larkspur fix'; whether it would have caught the clinic and freed peopl
+   4. The Consultant's callbacks repeat s1 client quotes ('there's no one place where a pursuit lives...', 'by the time it shows up on the WIP report, there
+   5. The 'staff allocation view' the client loves is the Workload view on the Staff allocation board, not the Firm overview dashboard. Removing the dashboa
+   6. Removing the only dashboard does not remove Tess's Monday screen: she wants a saved 'due in the next two weeks' view on Pursuits. Tess later says Gord
+   7. No-go is a label of its own, separate from Lost, because no-gos do not count against the hit rate. Fee writing is not a stage; it stays under Go. Tess
+   8. The board name stays 'Staff allocation' although everyone calls it the Wall: an explicit client exception to reusing their vocabulary.
+   9. Fees are 'signed off' or 'sent back', never 'approved' or 'rejected'. Owner approvals stay deferred ('I still mean later'). The milestone status cover
+  10. Milestones are not always one per phase (CDs can bill at the 50 and 100 percent sets), so single columns on the phase item will not do; use subitems o
+  11. No payment status in monday ('Paid lives in Ajera'). Invoices are created in Ajera; monday holds only the milestone status, invoice date and Ajera inv
+  12. Burn must be measured at billing rates, not cost. v0.1's 'Spent to date' had no stated basis. Individual rates stay confidential.
+  13. P3 is lukewarm, not confirmed. Bev saw 'the clinic' in the sample data and knew it was not real. Sample burn numbers must never be presented as the cl
+  14. Ajera: cloud hosting is confirmed, but API availability is not ('some kind of API', 'never turned it on'), and Marcus must approve. Do not promise a l
+  15. P5 inputs do not change the bleed: 'two days of every close' has no rate, late invoices are cash timing ('not a loss'), and 'sixty-some thousand' is a
+  16. Loose numbers kept as spoken: 'Five and a half weeks'; 'Half our public jobs'; 'sixty-some thousand'; 'a couple a month? Thirty to sixty days late'; '
+  17. Not in the v0.2 change list: automatic addenda from bid portals ('someday list', backlog); PM edit permissions on Staff allocation (a setup question t
+  18. The October training objection was raised on s1 and again here, so mark it recurring and plan rollout and training around October.
+  19. The other partner is unnamed ('A bigger firm, out of Chicago'). Record it as an alternative in play, internal only, and never name or invent a firm.
+  20. Tess's ballpark request is a pricing ask before scope. 'No. That's the list.' agrees the v0.2 change list, not the engagement scope, so R12 stays Part
+  21. In 'another partner', partner means a monday implementation firm; in 'partner meeting', it means the firm's own partners.
+  22. Hallie 'put two test ones in' through the trial form. They are test items, not real pursuits.
+  23. The v0.1 sample data put 'a structural engineer at a hundred and forty percent', which the client recognised as a real person ('Poor Ravi'). Future se
+  24. Internal only; keep out of recaps, SOPs, seed data and the build: 'Poor Ravi'; 'embarrassing for everybody'; 'nobody enjoys that one'; 'Gordon liking 
+  25. v1 scope, CRM on native boards: pursuits and owners must live on the account's native CRM template boards. v0.1 shipped boards called Pursuits and Own
+  26. v1 scope, no portfolio: the account tier is never stated on this call or on s1, so the Enterprise default of a portfolio with connected projects does 
+  27. v1 scope, Service and Dev: neither belongs in this engagement. The Submittals log is a Work Management board with the firm's four stamp actions, not a
+  28. v1 scope, pricing: pricing and proposal prep sit outside v1. The plugin prepares the scoping session (scope in five bullets or fewer) and the written 
+  29. Automations are approved as one list, not one at a time: the v0.1 addendum notification (confirmed as is) plus the new same-day notification to Bev wh
+
+---------- s3-followup-demo-feedback LEAK BLOCKLIST (14)
+   1. The bleed total carried from s1, in every format: 504920, 504,920, $504,920, 504k, and the spoken five hundred and four thousand; 
+   2. The upside figures from s1: 283140, 283,140, $283,140, and the fee range for two more healthcare wins, 800,000 to 1,200,000, writt
+   3. Loaded hourly costs and hours used as cost inputs, from s1: $62, $90, the Consultant's $120 placeholder, about 10 hours a week for
+   4. Write-off and overrun figures from s1: about $210k of write-offs last fiscal year, and the roughly $38k clinic overrun.
+   5. The P5 cost inputs from this call: 'two days of every close', the late-invoice pattern 'a couple a month? Thirty to sixty days lat
+   6. Alternatives in play: that another implementation partner is being evaluated at all, 'A bigger firm, out of Chicago.', 'Theirs was
+   7. Objection text and the plan for it: 'Could you get me a ballpark by Wednesday?', 'Gordon liking the shinier one.', 'He does like a
+   8. Stakeholder assessments: decision roles (approver, influencer, end user), the s1 reading that the controller can kill it, her effe
+   9. Remarks by client staff about colleagues: 'Poor Ravi.', 'Nobody is going to mark their own job Stuck. Ever.', 'Not in a system Gor
+  10. Emotional and personal stakes: 'embarrassing for everybody', 'nobody enjoys that one', and anything about who dreads the write-off
+  11. Internal credit for the July fix as the approver framed it: 'That's the Larkspur fix.'
+  12. Method vocabulary and grading: bleed, upside, callback, exit ramp, seed, readiness, excavated, gate, verdict wording such as Disco
+  13. Any consulting brand, any name for this plugin, and any other client's name, data or example, in board and column names, docs, ite
+  14. Flag rather than remove: volume numbers an SOP may legitimately need, such as 'forty submittals a month', 'Eleven. Fifteen by spri
+
+---------- s3-followup-demo-feedback ACCEPTED_BEHAVIOURS (16)
+   1. Proposes v0.2 as a change to the existing trial account: edits to the pursuits, phases and jobs boards, the form and the
+   2. Keeps the build inside the v1 products, Work Management and CRM. Naming monday Service or Dev as the fit here, or offeri
+   3. Maps pursuits to the account's native CRM Deals/Opportunities board and owners to the native Accounts board, records the
+   4. Adds no portfolio and no connected projects, and records why: the tier is unknown, so the Enterprise default does not ap
+   5. Presents the automations as a single list for one approval, with trigger, conditions, action and exact recipients per ro
+   6. Turns the feedback into a numbered v0.2 change list that matches the Consultant's read-back, and keeps backlog seeds and
+   7. Grades R11 per pain from client quotes made while v0.1 was on screen, and keeps relayed approver remarks out of it: 'Tha
+   8. Holds pricing: treats the ballpark request as the moment to agree scope, books the scoping session, and produces no pric
+   9. Keeps the accounting integration out of v0.2: one direction, read-only, nothing written back ('It's one direction, Ajera
+  10. Applies the client's exact labels, including the exception that the board keeps its plain name although everyone calls i
+  11. Supports more than one milestone per phase (subitems of a phase or items on a connected board are both acceptable) and a
+  12. Says how milestone amounts will be restricted to PMs, PICs, finance and Tess, given that designers use the staffing boar
+  13. Runs the change check against the live monday API and records it before touching this account, then reads back every obj
+  14. Keeps seed and sample data neutral: no mirroring of a real over-allocated employee, no real figures, no internal notes, 
+  15. Plans rollout and training around October and marks that objection recurring, rather than proposing training in October.
+  16. Writes client-facing material (the recap, the written accounting page, later the SOP) in neutral wording, with no consul
+
+########## s4-discovery-software TRAPS (24)
+   1. The engagement straddles the v1 scope line, and the plugin has to split it. monday service IS in v1: the escalation intake and IT's access requests, l
+   2. Service must be built on the account's NATIVE Service template boards. A hand-built 'Escalations', 'Support Tickets', 'IT Requests' or 'Access Request
+   3. Service extras are deferred beyond v1 even though this call invites all three: no customer portal (the account managers get a view or dashboard, not a
+   4. Whether the account even has Service provisioned is unknown. The only monday use described is Marketing's campaign boards plus a webinar calendar, wit
+   5. The Enterprise portfolio default does not fire here. The tier is never stated ('I have no idea what plan they're on or how many seats'), and the trans
+   6. 'Projects' is used loosely. Redmine 'projects' are containers, roughly one per product area (eleven, including Support Escalations and Misc), and 'the
+   7. The consultant's CRM pitch was politely turned down ('Please don't open that can.'). Do not add monday CRM, and do not treat the Granite deal as a pip
+   8. The consultant's $120/hour placeholder is not client evidence. Tomasz answered 'Mm. I don't know. Maybe?' and deferred to the CFO, so R4 stays Partial
+   9. Engineering hours are a loose range: 'forty-ish' per sprint and 'more like fifty' on a bad sprint; Tomasz chose forty. Keep the range and do not round
+  10. The consultant promised 'a first look' for the next call. That promise does not override the v1 scope line. The Service part can be shown as a real bu
+  11. Zendesk stays until at least the March renewal ('I'd look at it then. Maybe.'). Do not plan a helpdesk migration, and do not read Service being in v1 
+  12. Sprint lengths differ: two weeks for most squads, three weeks for Mobile.
+  13. Five squads, but only four are named (Dispatch, Billing, Mobile, Platform). Ask for the fifth; do not invent it.
+  14. The Redmine migration scope is disputed. Tomasz wants only open issues and epics; Devin wants at least the last year of history for the audit ('We can
+  15. monday is already in use: Marketing (and Customer Education) use boards Jess built, with unknown plan and seats. Ask whether to build in that account 
+  16. Speech-recognition errors: 'sock two' is SOC 2 and 'Zen desk' is Zendesk. 'Monday's security and compliance documentation' means monday.com's, while '
+  17. Oren's attendance at the next call is tentative ('no promises'); do not list him as a confirmed attendee.
+  18. The timeline is tight: a 4 to 6 week security review, a one-sprint pilot and a big release at the end of October, against 'off Redmine by end of Novem
+  19. Customer PII must not appear in the build or seed data (homeowner names, phone numbers, addresses). Escalation items link to the Zendesk ticket instea
+  20. The consultant started describing a monday dev GitHub integration while the client was still describing pains, then stopped mid-sentence. No product c
+  21. The scope agreement covers only the first demo and is hedged ('Don't hold me to that being the whole list.'). R12 is not Met: no proposal.
+  22. The production deploy and approval process was never described, and neither was who approves an access grant today. Do not assume where approvals happ
+  23. There are two different invoice incidents: the May 'invoice PDF thing' (the same bug fixed twice by two squads) and the June invoice CSV export change
+  24. The call date is not in the transcript. 'Friday', 'by Monday', 'early next week' and 'Tuesday the twenty-second' are relative.
+
+---------- s4-discovery-software LEAK BLOCKLIST (15)
+   1. The unconfirmed loaded-rate placeholder in every format: '120', '$120', 'a hundred and twenty an hour', and any yearly or per-spri
+   2. Cost inputs and the hours behind them: 'forty-ish hours a sprint', 'forty hours', 'more like fifty', 'an hour a day each', Colleen
+   3. The spend threshold and budget mechanics: 'fifty thousand', '$50k', who signs above it, and the expectation that this deal will cr
+   4. Stakeholder assessments: that the CFO is the spend approver who will ask about the failed migration, that the security lead is the
+   5. Objection text and the adoption risk, raised or anticipated: 'they'll revolt', 'egg on my face', 'shelfware', 'scar tissue', 'Engi
+   6. Emotional and personal stakes: 'I groveled a lot', 'We look stupid', 'about had a heart attack', 'whose team was the problem', 'wh
+   7. Remarks by client staff about colleagues or other teams: 'Engineering thinks everything's a Sev 3', 'Engineers hate clicking', 'Go
+   8. Sales context that must not reach engineering tools or client-facing documents: the internal deal codename 'the Granite deal', the
+   9. Customer identity and the concession from the July escalation: 'out in Denver', 'forty-some trucks', 'evaluating other options', '
+  10. Customer PII of any kind, which is also the client's own rule: 'homeowner names and phone numbers and addresses' must never appear
+  11. Alternatives in play and what was said about them: the 'compliance automation platforms' purchase in procurement, and the move to 
+  12. Reliability judgements about their current process that read as criticism of named people: 'Sixty is generous', 'the doc is, let's
+  13. Method vocabulary and internal grading: bleed, upside, callback, exit ramp, seed, readiness, excavated, pain IDs such as P1 and P2
+  14. Internal artefacts in full: the demo script and its prep block, call summaries, the raw transcript and cue locations, gap question
+  15. The scope-limit reasoning as an internal note: phrasing such as 'outside v1' or product-roadmap language belongs in the consultant
+
+---------- s4-discovery-software ACCEPTED_BEHAVIOURS (15)
+   1. Splitting the answer along the v1 scope line: a real monday service build for the escalation intake and/or IT's requests
+   2. For the engineering half, either option passes: a clearly labelled Work Management approximation with its limits, what i
+   3. On the Service side, either sequencing passes: proposing the escalation intake now, or proposing IT's access requests an
+   4. Running preflight before any write: confirming Service is provisioned, detecting the native Tickets board and any native
+   5. Asking about the account before assuming structures: tier, which products are provisioned, who administers the boards Ma
+   6. Not proposing a portfolio here, and recording why (tier unknown; 'portfolio view' means epics). Proposing one later, aft
+   7. Keeping Service extras out while naming them as later work: no customer portal, no email-to-ticket channel, no SLA polic
+   8. Not proposing monday CRM, and meeting the account-manager need with a view or dashboard on escalation data.
+   9. Presenting the automations as one list for a single approval, each row naming trigger, conditions, action and exact reci
+  10. Keeping the hours as a range ('forty-ish', 'more like fifty') and not presenting a computed bleed as confirmed; holding 
+  11. Using the client's vocabulary for names and labels (squads, epics, escalations, Sev 1-4, release train, hotfix, PBC list
+  12. Seed data and item names that carry no customer PII, no real customer identity from the July incident, and no internal n
+  13. Flagging the timeline honestly: a 4 to 6 week security review, a one-sprint pilot and an end-of-October release against 
+  14. All output in English, including anything the Kraków half of engineering will read; v1 is English only, so offering a tr
+  15. Treating the consultant's unfinished monday dev GitHub remark and the $120/hour placeholder as non-evidence, and treatin
+
+########## s5-intro-thin TRAPS (24)
+   1. Mentions of 'the board', 'board retreat' and 'board members' mean the board of directors, not a monday board. Do not create boards from these mentions
+   2. 'or it might have been monday actually' is unconfirmed, and in lowercase captions it could read as the weekday. Ask whether an old monday account exis
+   3. The membership database's name is [inaudible]. Its capabilities, export options and contract end ('next year? maybe') are unknown, and it may remain t
+   4. Member count ('a couple thousand members? don't quote me on that') and staff count ('fifteen-ish') are hedged. Do not use them as volumes or cost inpu
+   5. 'instead of asking five people' is a figure of speech, not a headcount or cost input.
+   6. Neither the April annual conference nor 'renewal season' is a stated deadline for this project, and the timing of renewal season is never given.
+   7. Everything about Denise (what prompted this, her desired outcome, budget, the decision) is secondhand or guessed by Jolene. Do not record it as Denise
+   8. Denise's attendance on the 22nd is unconfirmed ('she might only be able to do half'). Prep should work with or without her.
+   9. Product fit is unclear: a dedicated association management system, or 'a better spreadsheet and a couple of habits', may fit better, and the Consultan
+  10. The renewal tracker contains personal data and may never arrive. Only a blank copy with headers was requested; never use member details for seed data.
+  11. One committee has two names (education / professional development), and the young professionals committee may no longer exist.
+  12. 'Speaker 3' is identified as Wendell only by Jolene's next turn. He interrupts for a few seconds about another meeting and says nothing about the proj
+  13. The transcript carries no call date, so the month of 'tuesday the twenty second' has to come from the file's metadata or the Consultant, not a guess.
+  14. No price or rate was given ('pricing honestly depends on what we find'). Do not generate pricing or a proposal.
+  15. Denise is not a confirmed approver: Jolene does not know whether spend goes to the board. Record the approver as unknown rather than defaulting to the
+  16. 'i follow up with some of them' suggests not every lapsed member gets a follow-up, but no pain, count or lost-dues figure was stated. Ask about it; do
+  17. 'somebody set something up and then nobody used it' is an adoption warning from an earlier attempt, not a stated pain. Carry it as an anticipated obje
+  18. The Consultant did ask about the decision, timing, blockers and time spent, and every answer was hedged or 'ask denise'. These are asked-but-unanswere
+  19. 'some weeks it's most of what i do and some weeks it's barely anything' is not an hours figure. Do not turn 'most of what i do' into a share of a sala
+  20. Do not propose a portfolio with connected projects. The Enterprise-plus-Work-Management default cannot apply here: the account tier is unknown, no mon
+  21. If CRM is later confirmed for members and renewals, it must reuse the account's native CRM boards (Leads, Contacts, Accounts, Deals/Opportunities, Act
+  22. Nothing in the call indicates Service, and Dev is outside v1. The website registration form and the committee email chains are not an email-to-ticket 
+  23. No automations list arises. Automations are approved as one list against a blueprint, and there is no blueprint, so proposing automations from this ca
+  24. All eight objections are anticipated signals, not objections raised against a proposal: nothing was pitched and no price was named. Record each with s
+
+---------- s5-intro-thin LEAK BLOCKLIST (10)
+   1. No bleed or upside figures exist in this record, so there are none to block. Any money figure, hours figure or yearly cost attribu
+   2. Method vocabulary: bleed, upside, callback, exit ramp, seed, readiness, excavated, gap question, fit risk, pain ids such as P1, cr
+   3. Objection text and the fact that objections were anticipated at all: "well we're a nonprofit so budget's always a thing", "honestl
+   4. Stakeholder assessments: "i'm not the one who'd decide anything", the note that the approver is unknown and may be the board, that
+   5. Remarks by staff about colleagues or their tools: "sixteen if you count our part time bookkeeper i never know if she counts", "one
+   6. Alternatives in play: the unnamed association management software and the suggestion that Denise may be looking at it - "one of ou
+   7. The internal fit judgement: that the engagement may not be a fit, that priority leans towards later, and that the society may only
+   8. Member personal data: "addresses license numbers" and anything from the renewal tracker. None of it may reach monday, seed data, o
+   9. Raw transcript material: quoted lines with their timestamps and locations, the [inaudible] markers, the Speaker 3 label, and the c
+  10. Volume figures to flag rather than delete, per the leak-check rule: "a couple thousand members? don't quote me on that" and "fifte
+
+---------- s5-intro-thin ACCEPTED_BEHAVIOURS (15)
+   1. Naming Work Management as a possibility with CRM as an open question, or naming no product at all and asking about fit f
+   2. Saying plainly that a dedicated association management system, or a better spreadsheet and a couple of habits, may suit 
+   3. Grading R2 or R7 Partial rather than Missing. The verdict stays Not ready because R4 is Missing, and the blueprint gate 
+   4. Grading R9 Met, since she answered a direct question about blockers. It is advisory and changes no gate.
+   5. Splitting renewals out as a second pain with Concrete Partial, as long as no pain is called excavated.
+   6. Recording Jolene as end user rather than influencer, and leaving Wendell out of the attendee list altogether or holding 
+   7. Recording the account, tier and products as unknown and asking, rather than assuming Enterprise, assuming no account exi
+   8. Asking fewer than five gap questions, or reordering them, provided the core criteria (R2, R3, R4, R7) come first and the
+   9. Leaving the month of Tuesday the 22nd unresolved, or asking the Consultant for it, rather than guessing.
+  10. Declining to produce a blueprint, a build, an automations list, a portfolio plan, a native-entity map, a demo script, se
+  11. Producing only the light outputs: the Not ready verdict with a one-line reason, a call summary, discovery prep for the 2
+  12. Flagging the hedged figures ('a couple thousand' members, 'fifteen-ish' staff) as unconfirmed volumes to check, rather t
+  13. Carrying the abandoned committee tool as an anticipated adoption objection and a question about what happened, rather th
+  14. Leaving the monday change check and preflight for build time. Neither is due on an intro call, but neither may be skippe
+  15. Working in English throughout.
+
+########## s6-discovery-crm-sales TRAPS (26)
+   1. The vocabulary trap is the centre of this fixture. 'Prospects' means leads and 'opportunities' or 'quotes' means deals, and nobody on the call ever sa
+   2. 'Quote' has two meanings in this account and the client confirmed both: the priced document in Prophet 21, and the pursuit itself. The deal record is 
+   3. A hand-built Prospects board already exists in the account, created by the sales ops analyst in April and abandoned after three weeks with about forty
+   4. The CRM product is present but unused ('a whole sales CRM section in there with nothing in it'), which is not the same as native boards existing. Pref
+   5. The tier is stated as Pro, so the Enterprise portfolio default does not fire. Record the tier and the reason no portfolio is proposed. Nothing in this
+   6. Twenty-two reps, three territories and two warehouses invite a board per rep, per territory or per branch. The client's own diagnosis of the workbook 
+   7. The workbook must not be rebuilt column for column. That is exactly what the analyst did in her abandoned attempt ('I was copying the workbook columns
+   8. 'Accounts' is the client's word for existing customers, so the native Accounts board fits with no translation. Do not create a 'Customers' board becau
+   9. The bleed is the client's own $306,520, built from their inputs and confirmed. The Consultant's larger figure, floated from an assumption that half th
+  10. Bleed and upside must not be added together, and the upside is a launch-year figure, not an annual one, which the client agreed out loud. The $62,000 
+  11. The 38 percent and the 471 quotes are volume measures that can legitimately appear in an SOP, so they are flagged for the Consultant rather than strip
+  12. R12 is Met and R4 and R7 are Met, so the method's pricing-or-proposal gate is open for the first time in this fixture set, and the client asked for a 
+  13. Service is not in scope and nothing in the call describes a ticket desk. The vendor returns board on the operations side is purchasing's existing work
+  14. The client named three things as later items in the same breath as agreeing scope: new rep onboarding, the bid calendar and the house account campaign
+  15. Inside sales were named in the first two minutes and appear in the flow as quote builders and the house-account channel, but their volume and their pl
+  16. The Brightline Metalworks loss and the Kestrel Fabrication duplicate call are two separate incidents with different causes. Do not merge them, and do 
+  17. Two figures about reps must not be confused: twenty-two reps today, twenty-six after the launch. The company is eighty-five people. The launch adds fo
+  18. 'one screen on Monday morning' is the outcome the VP described, and 'Monday morning call' is the manager's weekly meeting. Neither is a reference to m
+  19. Success criteria are proposed, not agreed. The president's 'within ten percent' test came secondhand from the VP, and the president was not on the cal
+  20. The ERP connection is unverified. Nobody knows the Prophet 21 version or whether an API exists; the client took that away as an action. Do not promise
+  21. GoldMine is a migration trap. The client trusts nothing in it except possibly the account list, precisely because some of those companies never bought
+  22. Margin and pricing permissions are a hard requirement, not a preference: owner, their manager, the analyst, the VP and the president, never other reps
+  23. The one-minute rule is a real design constraint from the person whose team must comply: logging a visit from a truck has to be quicker than a minute o
+  24. Dates are relative and no call date is stated. The next call is Wednesday the 23rd at 2:00 pm Eastern; the first new rep starts 1 December; the territ
+  25. The abrasives line was picked up in June and the competitor's people are unhappy after an acquisition. Those are why-now context, not requirements, an
+  26. Remarks about colleagues and internal candour stay internal: the departed rep taking his notebook, 'some of them are excellent and some of them are no
+
+---------- s6-discovery-crm-sales LEAK BLOCKLIST (19)
+   1. The bleed total in every form: 306520, 306,520, $306,520, '$306k', 'three hundred and six thousand', 'three hundred and six thousa
+   2. Bleed components and subtotals: 260520, 260,520, '$260,520', 'two hundred and sixty thousand five hundred and twenty'; 205920, 205
+   3. Loaded hourly costs and the words around them: 35, '$35', 'thirty-five an hour', 'Delia loaded'; 60, '$60', 'sixty an hour'; 70, '
+   4. Hour inputs behind the math: 'six hours a week', 'three hours a week', 'four hours', 'sixty-six hours', 'twelve hours a week', 'ti
+   5. The Consultant's rejected figure and the assumption behind it: 'four hundred and seventy thousand', 'half of those', and any total
+   6. Upside figures and their inputs: 275000, 275,000, '$275,000', 'two hundred and seventy-five thousand'; 'one point one million'; 't
+   7. Margin percentages and their shorthand next to any figure: 'twenty-five points', '25 percent margin', 'two thousand a quote', 'abo
+   8. The one-off loss amounts: 62000, '$62,000', 'sixty-two thousand', 'the Brightline sixty-two', and 'A few hundred dollars of margin
+   9. Budget mechanics and the spend threshold: 'forty thousand a year', '$40k', who signs above it, 'I'd rather stay under it', and the
+  10. Stakeholder assessments: that the VP is the approver and the president is informed rather than consulted, that the analyst is the 
+  11. Objection text and planned responses, raised or anticipated: 'What am I paying for?', 'I've paid for GoldMine twice', 'The boards 
+  12. The stalled DIY attempt as an argument: that the analyst's Prospects board died in three weeks, that she 'didn't really know how i
+  13. Emotional and personal stakes: 'That number made me feel sick, honestly', 'that's the part that keeps me up', 'That was embarrassi
+  14. Remarks by client staff about colleagues: 'some of them are excellent and some of them are not', the reps deciding the old CRM was
+  15. Readiness and method vocabulary: bleed, upside, callback, exit ramp, seed, readiness, gate status, P1 to P8, R1 to R12, [found] an
+  16. Competitive and relationship context: that Vantage Industrial won the Brightline order, that a competitor in the new territory was
+  17. Named customers attached to failures, in any client-facing document that is not for the people involved: Brightline Metalworks as 
+  18. Pricing strategy of any kind for the engagement itself, including the proposal the client asked for, any rate, and any comparison 
+  19. Volume numbers are a flag for the Consultant rather than an automatic removal, because they can be legitimate in an SOP: 'thirty-e
+
+---------- s6-discovery-crm-sales ACCEPTED_BEHAVIOURS (18)
+   1. Proposing a monday CRM build on the account's native CRM boards for all five agreed scope items, with the client's words
+   2. Running preflight before any write: confirming the tier and products through the API, detecting the native CRM boards an
+   3. Either resolution of an empty CRM workspace passes: installing monday's native CRM template set and saying so, or asking
+   4. Either treatment of the quote step passes, provided it is asked rather than assumed: the native Quotes & Invoices board 
+   5. Recording the tier as Pro and proposing no portfolio, with the reason recorded. Raising the portfolio only to rule it ou
+   6. Dealing with the abandoned Prospects board explicitly: migrating its real rows onto the native Leads board and retiring 
+   7. Not proposing monday Service or dev, and not reading purchasing's vendor returns board as a Service opportunity.
+   8. Stating the bleed as the client's own confirmed $306,520 a year (or 'Three hundred and six thousand'), without rounding 
+   9. Grading the verdict Discovery complete and saying plainly that the pricing-or-proposal gate is open on the method (R4, R
+  10. Treating the 'build it ourselves' objection the way the call did: the workaround question rather than a defence, the cli
+  11. Treating the 'is monday the problem' question as a current-state question, and reviewing the existing operations boards 
+  12. Carrying the three client-stated non-negotiables into the design: Prophet 21 keeps quoting and pricing, margin visibilit
+  13. Turning the Prophet 21 connection into a question and a document for the MSP rather than a promised sync, and planning f
+  14. Keeping the deferred items in the backlog in the client's words (new rep onboarding, the bid calendar, the house account
+  15. Presenting the automations, including the quote follow-up prompts and stalled-quote notifications, as one approval list 
+  16. Meeting the forecast item either way: a dashboard for the VP and the president, or saved views over the native Deals boa
+  17. Designing around the client's calendar: usable before 1 December, no training in Thanksgiving week, and reps unavailable
+  18. Marking the success criteria as proposed rather than agreed, and flagging that the president's 'within ten percent' test
+
+########## s7-discovery-service-desk TRAPS (35)
+   1. The vocabulary trap at the centre of this fixture: 'work order' is this client's word for a ticket, and 'request' is the same thing by their own accou
+   2. Curtis's abandoned monday 'work order tracker' from two years ago is the second half of the same trap. It is still in the account and full of dead wor
+   3. 'PM' means preventive maintenance, never project manager. PMs are contracted recurring visits planned months ahead, they live in Sage plus Delia's spr
+   4. 'Portal' means two different things in this call. The client-owned vendor portals (ServiceChannel for Brightmoor, Fairlane's own system) are where wor
+   5. All three of the extras this client wants most are deferred beyond v1: the customer portal, email-to-ticket from the service inbox, and SLA policy set
+   6. The client pushed back directly on the email-to-ticket deferral, because the July breach was an email nobody opened. The answer has to be honest: on d
+   7. Their priority language is three words and nothing more: emergency, urgent and routine, each tied to a contractual window. They never use numbered pri
+   8. The account tier is loose and unverified: 'Standard, I think? Whatever the middle one is. I'd have to look.' Plan limits that actually bear on this bu
+   9. Microsoft single sign-on is a stated IT requirement that may not exist on their current plan. Raise it as a plan question with a cost implication; do 
+  10. Whether monday Service is provisioned at all is unknown. The only known monday use is Work Management boards belonging to other teams. If Service is n
+  11. This is the first fixture with a live monday account holding other teams' work: a safety inspections board and an estimating bid board, fifteen to twe
+  12. 'We tried monday two years ago and it didn't stick' is the platform objection, and the transcript supplies its own answer: nothing arrived in the old 
+  13. Do not add the unquantified items to any cost figure: the Cavender Medical loss is 'six clinics' with no value, the Brightmoor contract value was decl
+  14. 'Just under a fifth of our book' is a proportion with no revenue base. It cannot be turned into a dollar figure, and the base must not be inferred fro
+  15. The $35 loaded hourly cost is the director's own guess, offered with 'Don't hold me to that' and then explicitly withdrawn pending the CFO. The Consul
+  16. The director refused to price her own time ('I'm not going to put a number on my own time'). Do not fill that with an assumed director or executive ra
+  17. The reporting hours have two client figures: the components she listed sum to about twenty-four hours a month and she said 'Call it twenty'. Use her t
+  18. 'Four hundred-ish a week' is hedged, is reactive calls only, and explicitly excludes preventive maintenance visits. Confirm the split before using any
+  19. 'Fifteen or twenty escalations a day' and 'one or two' vanishing are hedged volumes from one speaker, prefixed with 'I don't know'. Treat them as figu
+  20. The closure date in the current spreadsheet is when the help desk typed it in, not when the technician finished, which the client knows and says makes
+  21. Escalation must not be designed from this call alone. The client said to talk to a field supervisor first and not to design it for a desk, because sup
+  22. Data modelling: a client has many buildings (Brightmoor has forty-one) and a work order belongs to a building, not just a client. Do not flatten clien
+  23. Data modelling: return visits exist in this business but were never named on the call. Do not invent a 'recalls' board or assume a term; ask what they
+  24. Service levels differ per client and per priority (four hours for most, two for the hospital group, same day or next business day, five business days)
+  25. Part of the double entry is contractual: 'If we don't close it in their system, we don't get paid.' The client portals cannot simply be replaced, the 
+  26. Fairlane is a hospital group: badging, escorted areas, and an explicit instruction not to record anything about patients or which room. No patient-ide
+  27. Contract terms, rates and penalties are confidential, and the sample report only comes with the client name and footer removed. Never use real client 
+  28. Remarks about colleagues stay internal: that a named supervisor does not answer his phone, that a named staff member hates the portal work, that a pre
+  29. No portfolio. The Enterprise-plus-Work-Management default cannot be applied: the tier is loosely Standard and unverified, and Work Management is only 
+  30. Automations are approved as one list, and two constraints attach on this account: the monthly automation action cap on their real plan has to be check
+  31. Keep the dates apart: the next Brightmoor quarterly review is the second week of December, the renewal decision is January, the county RFP is 'in the 
+  32. The next step has a day but no time, because the CFO's availability is unknown. Do not record a fabricated time, and do not report R10 as fully met wi
+  33. The Consultant's own suggestions and framings are not client requirements. The four-part first cut was the Consultant's play-back, agreed in draft onl
+  34. One cue is mis-attributed (cue 33 is labelled Tansy Whitlock but is plainly the Consultant's question), and cues 13 and 14 are a duplicated caption pa
+  35. The competing facilities system's name is lost to '[inaudible]'. Record it as an unnamed alternative in play, internal only, and do not guess the prod
+
+---------- s7-discovery-service-desk LEAK BLOCKLIST (14)
+   1. Cost inputs and the unconfirmed total in every form: 35, $35, 'thirty-five an hour', 'thirty-five all in', 'loaded'; 65, 'sixty-fi
+   2. The withheld and unquantifiable figures, which must not be reconstructed or estimated: the Brightmoor contract value, 'just under 
+   3. Objection text and the fact that objections were recorded at all: 'We tried monday two years ago and it didn't stick.', 'I could p
+   4. Stakeholder assessments and decision mechanics: that the director decides the tool but not the money, that the CFO is 'careful' ra
+   5. Emotional and personal stakes: 'I couldn't defend either number in the room', 'That's worse than being wrong. I sat there with not
+   6. Remarks by staff about colleagues and their tools: 'Dewey is excellent, and Dewey does not answer his phone.', 'Rosalie hates it.'
+   7. The failure narrative about their own client relationships: Brightmoor described as a client they failed, the ninety-day performan
+   8. Confidential contract material, which the client flagged explicitly: contract terms, rates and penalties, the service level penalt
+   9. Healthcare-site data: anything about patients or which room, per Fairlane's compliance instruction, plus badging and escort detail
+  10. Third-party personal data moved out of the binder: property managers' names, direct numbers and after-hours mobile numbers, and th
+  11. The internal fit and risk assessment: that the unnamed competing facilities system is a live alternative, what the client said abo
+  12. Method vocabulary, grades and artefacts: bleed, upside, callback, exit ramp, seed or seed data, readiness, excavated, gap question
+  13. Pricing material of any kind, since pricing and proposal prep are deferred beyond v1 and the gate is shut: rates, day rates, total
+  14. Flag, do not remove (volume and process facts that are legitimate in an SOP or on a board, but worth confirming with the Consultan
+
+---------- s7-discovery-service-desk ACCEPTED_BEHAVIOURS (20)
+   1. Building the work order queue on the account's native Service Tickets board and relabelling it to 'Work Orders' and thei
+   2. Naming the customer portal, email-to-ticket and SLA policy setup as deferred beyond v1, putting them on a visible backlo
+   3. Either sequencing of the first build passes: the whole four-part first cut, or the queue and the report first with escal
+   4. Treating the platform objection as a current-state finding: asking what monday failed to do, establishing that the old a
+   5. Answering the build-it-ourselves question the way the method suggests, by asking what held it up last time and whose wee
+   6. Grading R4 Partial and holding pricing and proposal prep even though the client asked for a number for the CFO. Presenti
+   7. Grading R10 Partial and flagging that no time was agreed, with a recap that proposes specific times. Grading it Met beca
+   8. Grading P5 Concrete Partial rather than Met, and P5 Reach, Cost inputs and Trajectory Missing rather than inferring them
+   9. Grading P1 Cost inputs Partial rather than Met on the grounds that no money attaches to it. The excavated set and the ve
+  10. Reading the account live at preflight rather than trusting 'Standard, I think': the plan, seats, administrator, whether 
+  11. Auditing the existing account, leaving the safety and estimating boards untouched, proposing what to do with the dead wo
+  12. Not proposing a portfolio, and recording why (tier loosely Standard and unverified; Work Management secondary and deferr
+  13. Not proposing CRM, and not reading the January renewal or the spring county bid as a pipeline. Asking which existing nat
+  14. Presenting the automations as one list for a single approval, each row naming trigger, conditions, action and exact reci
+  15. Using their vocabulary throughout (work order, request, PM, emergency, urgent, routine, the clock, building, supervisor,
+  16. Flagging the data-quality constraint on closure timestamps as a design question rather than building the monthly report 
+  17. Seed data and item names with no real client names, no contract terms or penalties, no reference to the performance plan
+  18. Preparing the scoping session around closing R4 and R12 with the CFO present, at most five gap questions, core criteria 
+  19. Being straight about the December deadline as the client's own decision criterion between this and the competing facilit
+  20. Working in English throughout.
+
+########## s8-discovery-enterprise-pmo TRAPS (31)
+   1. The Enterprise portfolio default actually fires here, for the first time in this fixture set. The tier and product are stated by the client ('We're on
+   2. It must be a real monday portfolio with real projects, created with the portfolio and project tools and then connected, with the roll-ups verified aft
+   3. 'Portfolio' and 'program' are different things in their vocabulary, and both came from the client. A job sits in the portfolio and inside a program at
+   4. 'The board' means the executive committee, not a monday board. The firm is privately held and has no actual board of directors.
+   5. 'Health' means a red-amber-green project status. In a healthcare-construction fixture it is easy to read it as clinical; it is not, and nothing clinic
+   6. The account already has monday, so this is not a greenfield build. Enterprise, Work Management, about 220 seats, a preconstruction bid board whose bui
+   7. 'We already have monday and nobody uses it' is a setup problem, not a tool problem, and the call contains the proof: the neglected board lost its owne
+   8. R4, R7 and R12 are all Met, so the method's pricing-or-proposal gate opens for the first time in this set, while v1 defers pricing and proposal prep. 
+   9. The bleed total is $432,080 and it must not grow. The $480,000 Cumberland West overrun stays outside it as unquantified, because she explicitly refuse
+  10. The collision component is a range at the client's own low end: 'Two a year. Maybe three.' at about $50,000 means $100,000, shown as $100,000-$150,000
+  11. The $150,000 deferred hire comes out of the same freed reporting hours already counted in the bleed. It is upside, not additional bleed, and the two m
+  12. The Consultant does the arithmetic aloud, but the inputs and the confirmations are all client-side, so R4 is Met. Do not mistake the Consultant's spok
+  13. Volume and headcount numbers (about forty active projects, fourteen PMs, 220 seats, four occupied-work superintendents, fifty-five projects next year)
+  14. 'Thirty-eight. Forty, depending on how you count the equipment jobs.' The project count is fuzzy by their own definition. Do not present forty as a pr
+  15. Milestones are not one date. Eleven or twelve per large job, several per phase, some with liquidated damages, and the previous date must survive a cha
+  16. Budget burn depends on Sage actuals, and the transcript never says whether an API or export exists. The controller gates access and is protective. Thi
+  17. Procore stays. Drawings, RFIs, submittals and daily reports are explicitly not moving, and no one asked to duplicate them. The answer to 'why isn't th
+  18. Warranty calls are ticket-shaped and Service is in v1, but the client parked them ('It's not this year's mess.'). They belong in the backlog with her 
+  19. The health systems and their pursuits are CRM-shaped, and preconstruction already tracks bids on an existing monday board. Nobody asked for CRM, and p
+  20. Field crew scheduling is explicitly excluded by the resource manager who would own the replacement ('And field crews stay out.'). Adding it later 'hel
+  21. The field design constraint is concrete: superintendents on phones with one bar, no signal inside many buildings, and a realistic ask of two things a 
+  22. Cues 147 and 149 are tagged '<v Speaker 2>'. By context they are the resource manager, but the method requires them to be marked speaker unclear and g
+  23. Cue 184 duplicates cue 183 word for word, and cue 90 starts before cue 89 ends. Neither is a second statement: do not count the duplicate twice or rea
+  24. No call date appears in the transcript. 'Wednesday the twenty-third', 'the second Tuesday', 'January fifteenth' and 'the middle of November' are relat
+  25. No patient information, and no photographs with a patient or a whiteboard in them. This shapes whether an update or photo field should exist at all, a
+  26. Loaded rates and cross-job margin are restricted, and the client wants to think about who sees budget. PMs see hours, not rates. The cost figures work
+  27. Remarks about colleagues stay internal: that the departed builder left the bid board to rot, that PMs 'smiled at me and quietly didn't', that some PM 
+  28. The audit requirement is a design constraint, not a nicety: who changed a health status and when, and the previous milestone date retained. It is the 
+  29. Three project templates, not one: ground-up, occupied renovation, and equipment jobs, with different milestone sets. 'No. Three, probably.' is the cli
+  30. Automations are put forward as one approval list (amendment A1), with trigger, conditions, action and exact recipients per row, and the handoff noting
+  31. The approver is on the call and is also the budget holder, which is rare in this fixture set. Do not add an absent-approver gap question or recommend 
+
+---------- s8-discovery-enterprise-pmo LEAK BLOCKLIST (16)
+   1. Bleed total in every format: 432080, 432,080, $432,080, 'four hundred and thirty-two thousand', 'four thirty-two', and any roundin
+   2. Bleed components and their math: 276640, 276,640, $276,640, 'two hundred seventy-six thousand, six hundred and forty'; 37440, 37,4
+   3. Loaded hourly costs in every format: 95, $95, 'ninety-five an hour'; 72, 'seventy-two'; 65, 'sixty-five loaded'; 115, 'a hundred a
+   4. Hours and frequency inputs behind the bleed: 'four hours a week', 'Four is fair', 'Ten, and that's a good week', 'Two full days a 
+   5. The excluded overrun and any derived figure: 480000, 480,000, $480,000, 'four hundred and eighty thousand', and anything built fro
+   6. Upside figures: 150000, $150,000, 'a hundred and fifty thousand each', 'hold one of those'; 280000, $280,000, 'two hundred and eig
+   7. The spend threshold and budget mechanics: 'a hundred and fifty thousand a year' as the approval limit, who signs above it, the Nov
+   8. Alternatives in play: that they are talking to another partner at all, the Nashville firm, that it did Waverly's rollout, that the
+   9. Objection text and adoption history: 'nobody trusts what's in it', 'Half the columns are empty', 'it's dead twice', 'another thing
+  10. Stakeholder assessments: that the IT director's review is the long pole, that the controller is protective of Sage, that the CFO's
+  11. Remarks about colleagues: that some PM forecasts are 'optimistic', that PMs 'don't answer her', that a PM 'knew the buyout came in
+  12. Emotional and personal stakes: the conference envy, 'I went back to my office and sat there', 'About right and also horrible', 'th
+  13. The August executive committee story as a narrative, including 'of these forty, which ones are actually in trouble', 'Five weeks l
+  14. Method vocabulary and internal apparatus: bleed, upside, callback, exit ramp, seed, readiness, gate, verdict, pain IDs P1-P5, crit
+  15. Pricing thinking of any kind: rates, day rates, margins, discount reasoning, cost-of-waiting math against the January fifteenth re
+  16. Anything that would carry patient or staff medical data into client-facing material or into monday: patient names, photographs of 
+
+---------- s8-discovery-enterprise-pmo ACCEPTED_BEHAVIOURS (17)
+   1. Calling the product 'Work Management' or 'core', in either wording, as long as it is the only product in the build and n
+   2. Including the portfolio with connected projects without being asked for it, on the strength of the stated Enterprise pla
+   3. Either program shape passes, provided it is asked rather than assumed and the reason is recorded: one portfolio with a p
+   4. Either answer on the equipment jobs passes if the question is put: projects in the portfolio like any other, or excluded
+   5. Any reasonable handling of Sage: a confirmed integration if access exists, a scheduled export, or sample actuals in the 
+   6. Raising Service for the warranty inbox as a later, separate conversation, or not raising it at all, are both acceptable.
+   7. Raising preconstruction's bid board as a question, whether as CRM or as a Work Management clean-up, or leaving it alone 
+   8. Saying plainly that the pricing gate is open and that this version does not produce pricing or a proposal, in any wordin
+   9. Presenting the bleed as $432,080 with the collision component shown as a $100,000-$150,000 range and the $480,000 overru
+  10. Recording the upside as two separate client-figured items with the overlap noted, in either order, and carrying the Wave
+  11. Grading the two 'Speaker 2' cues as speaker unclear and using them only as corroboration, in any wording. Attributing th
+  12. Either treatment of the duplicated cue passes: ignoring it, or noting it as a transcript artefact. Counting it as a seco
+  13. Turning the 'we already have monday and nobody uses it' remark into an evidence-based answer about ownership, in any wor
+  14. Proposing a first-cut walkthrough on six named real projects with real project names for the 23rd, and seed data that ca
+  15. Bringing the IT director, the controller and a superintendent into the plan (security review, Sage access, adoption) rat
+  16. Putting the automations forward as one approval list with trigger, conditions, action and recipients per row, and noting
+  17. At most five gap questions for the next meeting, ordered core first: P4 cost inputs and trajectory, P3 trajectory and ov
+
+########## s9-followup-no-portfolio-unlabelled TRAPS (31)
+   1. THE HEADLINE TRAP. Amendment A6's Enterprise portfolio default fired in s8 and a portfolio was built, but A6 contains its own exception: unless the tr
+   2. Deferring the portfolio does NOT mean building plain boards. The projects stay real monday projects, created with the project tools, so that next quar
+   3. Deferring the portfolio does NOT defer the PMO director's own view. She says plainly that she still wants her own screen and that what she is refusing
+   4. The deferral collides with the January fifteenth Cumberland program review, which was the strongest why-now in s8 and needs program-level health, budg
+   5. 'Next quarter' must not be resolved into a date. The client says after the fifteenth of January, once Cumberland is done, and explicitly refuses to pi
+   6. THE CONTRADICTED NUMBER. The four hours a week from s8 becomes a measured two and a half. The spec says the latest client statement wins and the super
+   7. Only the PM assembling hours were contradicted. The grid at ten hours a week, the monthly deck, and the collisions at two a year times $50,000 are unt
+   8. The knock-on to the upside must be flagged, not buried. The $150,000 hold-one-hire argument leans on the same freed reporting hours. If those hours sh
+   9. Two separate incidents that happen to share two causes. The senior PM says first patient day on the Cumberland bed tower has moved twice, once by nine
+  10. The project count moving from 'thirty-eight, forty depending on how you count' to forty-one is NOT a contradiction. It is the same counting ambiguity 
+  11. NO SPEAKER LABELS ANYWHERE. Every attribution in this transcript is an inference. Per the spec, evidence is marked speaker unclear and graded Partial 
+  12. No talk share and no delivery notes. Spec 6.5 restricts them to speaker-labelled transcripts, and this has none. Any client-talk-share percentage or l
+  13. The format trap reaches R10, R11 and R12, which is the point rather than an accident. The next step is genuinely set, the demo genuinely confirmed thi
+  14. Paragraphs 55 and 60 each run two speakers together in a single paragraph with no break. Both are exchanges between the senior PM and the resource man
+  15. Consecutive paragraphs are often the same speaker, and paragraph breaks are not turn changes. Counting paragraphs as turns, or alternating speakers by
+  16. The pricing-or-proposal gate OPENED in s8 and CLOSES again here, because R4 and R12 have both fallen to Partial. That is on top of pricing and proposa
+  17. R11 is Partial, not Met, and the reason is specific rather than general: the burn column could not be confirmed because it holds sample figures and Sa
+  18. Percent complete is a removal, not a rename or a hide. The objection is to the measure itself, which the PM says he invents, not to its label or its p
+  19. The health status audit trail was requested in s8 and is missing from v0.1. That is a delivery gap the client found, not a new feature request, and th
+  20. Milestones need a change history with a typed reason, not a baseline-versus-current pair, and the reason must be free text because a picklist will not
+  21. Sage must not be assumed live and must not be rebuilt. The controller has refused a live connection for this year and the sanctioned path is an upload
+  22. There are two monday accounts in play. v0.1 is in the Consultant's own account; the client's Enterprise account with its 220 seats, preconstruction's 
+  23. The preconstruction pipeline is relayed, not requested. The VP of Operations raised it; the PMO director says outright she is not asking for it and th
+  24. The warranty inbox from s8 is not mentioned at all here and stays parked. Silence is not permission to add Service to this scope, and Service extras r
+  25. Two different fifteenths. 'Thursday the fifteenth' is the next working session in October; 'January fifteenth' is Cumberland's program review. Conflat
+  26. 'The board' means the executive committee, as established in s8, and is used twice here in that sense. In an unlabelled transcript about building boar
+  27. 'Health' is a red-amber-green project status and is discussed here as a colour. Nothing clinical is meant anywhere in a healthcare-construction fixtur
+  28. Automations go up as one approval list under amendment A1, with trigger, conditions, action and exact recipients per row. The ICRA reminder's recipien
+  29. The adoption commitment is load-bearing and belongs in the scope, because the client asked for it to be written there: the Monday status email is reti
+  30. Remarks about colleagues stay internal: that the VP of Operations declined the roll-up, that nobody but the senior PM tracked anything, that some PMs 
+  31. The competing partner came in as promised in s8 and the client volunteers a mildly favourable comparison. It is an alternative in play: internal only,
+
+---------- s9-followup-no-portfolio-unlabelled LEAK BLOCKLIST (15)
+   1. Every bleed figure in every format, superseded and current: 432080, 432,080, $432,080, 'four hundred and thirty-two thousand'; the
+   2. The contradicted input and the whole correction thread: 'four hours a week', 'two and a half, not four', the 2.5-to-4 range, that 
+   3. Loaded hourly costs in every format: 95, $95, 'ninety-five an hour'; 72, 'seventy-two'; 65, 'sixty-five loaded'; 115, 'a hundred a
+   4. The excluded overrun and anything derived from it: 480000, 480,000, $480,000, 'four hundred and eighty thousand', and any figure b
+   5. Upside figures and the hiring plan: 150000, $150,000, the two PMs in the November budget, holding one of them, 280000, $280,000, '
+   6. The budget mechanics and pressure points: the $150k-a-year approval threshold, the November budget lock as leverage, and the reque
+   7. The portfolio deferral as a story about leadership: that the VP of Operations declined it, 'I don't want a dashboard I have to lea
+   8. Alternatives in play: that a competing partner exists at all, the Nashville firm, that it came in, and the client's comparison of 
+   9. Objection text and adoption history: the Smartsheet pilot and that it lasted a quarter, 'another thing to update', 'you'll be back
+  10. Stakeholder assessments: that the controller must stop being pushed on Sage, that the IT director is the long pole, that the resou
+  11. Remarks about colleagues: 'Because it's a number I make up', that the senior PM has never given a defensible figure in six years, 
+  12. Emotional and personal stakes: that the VP's remark stung, thinking about January at three in the morning, 'I've done that once th
+  13. Anything about the transcript itself and the method apparatus: that speakers had to be inferred, speaker-unclear markings, bleed, 
+  14. Pricing thinking of any kind: rates, day rates, margins, discount reasoning, and cost-of-waiting math against January fifteenth or
+  15. Carried from s8 and unchanged: anything that would carry patient or staff medical data into client-facing material or into monday,
+
+---------- s9-followup-no-portfolio-unlabelled ACCEPTED_BEHAVIOURS (20)
+   1. Honouring the portfolio deferral in any wording, provided the next version contains no portfolio layer, the client's rea
+   2. Either treatment of the revisit passes if it stays condition-based: a diarised conversation after January fifteenth, or 
+   3. Keeping the projects as real monday projects underneath, in any wording, and saying why (so the portfolio is later a con
+   4. Keeping a cross-project view for the PMO director while pointing nothing at leadership. Either a dashboard re-sourced fr
+   5. Flagging the January fifteenth collision as a live risk with the client's own mitigation and her ownership of it. Either
+   6. On the contradicted number, any presentation that shows the change rather than performing it silently: a 2.5-to-4 range 
+   7. Recomputing the arithmetic at either end of the range for internal reference is fine, and so is showing both ends, as lo
+   8. Flagging that the upside's deferred-hire argument leans on the same freed hours and therefore moves with them, in any wo
+   9. Treating the project count of forty-one as ordinary drift plus one new equipment job rather than as a second contradicti
+  10. Producing inferred speaker attributions, marking them inferred or speaker-unclear, and asking the consultant to confirm.
+  11. Grading R10, R11 and R12 as Partial and saying that the transcript format is the reason and that confirming speakers wou
+  12. Producing no talk-share figure and no delivery notes for this call, and saying why. Any client-talk-share percentage for
+  13. Saying plainly that the pricing gate has closed again and giving both reasons, the method gate and the v1 deferral, whil
+  14. Grading R11 Partial with the burn column named as the unconfirmed pain, in any wording. Marking R11 Met because the demo
+  15. Treating the health status audit trail as an undelivered s8 request rather than a new idea, in any wording.
+  16. Handling Sage as an uploaded monthly report presented as knowingly about a month old, with Sage still the book of record
+  17. Keeping the next version in the consultant's own account until the security review clears, and treating the migration in
+  18. Raising preconstruction's pipeline as a backlog seed and a January question, or leaving it alone entirely. Proposing a C
+  19. Putting the automations forward as one approval list with trigger, conditions, action and recipients per row, with the I
+  20. At most five gap questions for the next session, core first: confirm the speakers, the two PMs' hours, confirm the amend
+
+########## s10-support-checkin TRAPS (21)
+   1. 'Consultants' on this call means the client's outside engineering firms (civil, landscape, acoustical, a commissioning agent), not the Consultant spea
+   2. The reported problem is user error, not a defect and not a change request. The Harwood CDs phase has two milestone items because the controller said C
+   3. Renaming the two milestone items is the client's own housekeeping, which Jordan says he will do that afternoon, and the Consultant explicitly confirms
+   4. P6 is a seed, not a build trigger. It is Stated and Concrete but its Workaround is only Partial, because the client says the current way is fine and n
+   5. Do not turn realized value into numbers. 'I got my Monday back' and 'The Tuesday call was twenty-two minutes last week.' are descriptions, not cost in
+   6. 'Most of an afternoon' is a loose duration for one incident. Do not convert it to four hours, do not pair it with a rate, and do not build a bleed for
+   7. R10 is Partial, not Met and not Missing: the next step has a purpose, an owner and a window (the week after the controller's close) but no date and no
+   8. The account is Enterprise and Work Management is in scope, yet no portfolio exists and none should be added. The amendment's default has an exception,
+   9. A support call is graded with the short version (spec 6.4), not by re-running a full discovery rubric. The cumulative R statuses are still carried in 
+  10. The engagement is past v1.0 sign-off, so R11, R12 and the v1.0 sign-off gate are Met for the first time in this set. The sign-off demo has no transcri
+  11. R12 Met means the pricing-or-proposal-prep gate is open on method grounds for the first time in the set. It still produces nothing, because pricing an
+  12. Jordan reporting the controller's behaviour at close ('the first thing she does at close now is open the phases and filter to ready to invoice') is se
+  13. Gordon asking what was left of a consultant's fee shows the approver has an interest in P6. That is an internal note about who might sponsor a future 
+  14. P3, fee burn seen too late, gets no confirmation at all on this call. Do not infer one from the general good news, and do not report every pain as re-
+  15. Do not merge this seed with the other open items. The backlog already holds automatic addenda pulls from the bid portals (s3) and owner approvals (def
+  16. Ajera stays one direction and read-only. The seed's natural shape touches money that lives in Ajera as payables, so the tempting answer is a write-bac
+  17. Outside consulting firms are suppliers, not owners. They must never be added to the native CRM Accounts board, which holds school districts, cities an
+  18. Capitalised 'Monday' is the weekday throughout ('I got my Monday back', 'Monday mornings', 'Every Monday morning'), and the product is never named in 
+  19. Internal-only remarks on this call that must not reach the recap, the SOP, the boards or any message: 'And she'd never say this to you' about the cont
+  20. Flag, do not remove (legitimate volume and process facts worth checking before they go into an SOP): about forty submittals a month across eleven or t
+  21. The call date is not stated. Des Moines being 'a month and a bit' old, the sign-off being in the past, the watch items running 'between now and the ne
+
+---------- s10-support-checkin LEAK BLOCKLIST (19)
+   1. Everything on the s1 and s3 block lists still applies to this client, because the record is cumulative. In particular the bleed to
+   2. Write-off and loss amounts carried from the record: about $210k a year firm-wide, the $38k Rockford DD write-off, and the roughly 
+   3. The Harwood invoice figure and its framing from s3: 'sixty-some thousand just sitting there', seven weeks late, and 'That was sixt
+   4. Realized-value arithmetic of any kind: 'I got my Monday back' turned into hours or money, the twenty-two-minute staffing call comp
+   5. Remarks by client staff about colleagues, all of which appear on this call: 'And she'd never say this to you'; 'She used to send e
+   6. Self-deprecation and blame about the reported issue: 'it might be me', 'So the fault is that I can't read.', and any write-up that
+   7. The 'menace' joke and the closing banter, however friendly, and any informal aside from this call reused as a quote in client-faci
+   8. Stakeholder assessments and decision power carried forward: the $25k threshold and 'anything over twenty-five thousand, Gordon sig
+   9. Objection text and the objection names themselves: 'It isn't urgent. It's just the next thing, I think.' used as a timing objectio
+  10. Backlog and expansion framing: the seed described as an opportunity, an upsell, a phase two, a land-and-expand or a next engagemen
+  11. Readiness and gate language: R1-R12 and their names, P6 and any pain ID, 'Discovery complete', met/partial/missing, excavated, gat
+  12. Method vocabulary and markers: bleed, upside, callback, exit ramp, seed, readiness, support-call check, and the [found] and [infer
+  13. Internal artefacts: the call summary, this transcript and its line numbers, the client record, log and backlog, the demo scripts f
+  14. Pricing material of any kind, even though the pricing gate is now open on method grounds: rates, day rates, totals, discounts, an 
+  15. Alternatives in play from s3: the bigger Chicago firm that also demoed, its proposal, and Tess's comparison of the two. It must ne
+  16. Consulting brand and product names: the consultant appears as 'Consultant' only, with no plugin, tool or brand name in the account
+  17. Confidential client data that must not reach boards, seed data or SOPs: loaded rates and salaries in any form; write-off amounts p
+  18. Flag, do not remove (legitimate volume and process facts, worth checking with the Consultant before they go into an SOP): about fo
+  19. Public-records caution: anything written about a school district job, including item names, updates and any future consultant reco
+
+---------- s10-support-checkin ACCEPTED_BEHAVIOURS (15)
+   1. Grading this call with the five short support-call items and saying so, rather than producing a full discovery grade. Ca
+   2. Recording all five short items as met, in any wording, provided the evidence points at the Consultant's conduct (issue f
+   3. Treating the reported problem as user error with no change to the build: no defect, no v1.1, no blueprint change, and an
+   4. Logging the outside consultant need to the backlog in the client's own words with its source, and proposing no build, no
+   5. Grading P6 as not excavated, whether the Workaround is read as Partial (as here) or the Reach and Cost inputs are read s
+   6. Keeping the bleed and upside exactly as s1 established them, with no revision, no realized-saving figure and no percenta
+   7. Grading R10 Partial and proposing a specific date and time in the recap, with sending the invite left as an open to-do. 
+   8. Reporting that all five stage gates are open while still producing no build, no price and no proposal, and saying plainl
+   9. Leaving the portfolio out, restating the recorded scoping decision and its reason, and keeping it as an item to revisit.
+  10. Reading 'consultants' as the client's outside engineering firms throughout, and keeping them off the native CRM Accounts
+  11. Preserving the Ajera rule in anything it says about the seed: read-only, one direction, nothing writes back, with payabl
+  12. Treating Jordan's report of the controller's habits, and Gordon's question about a consultant's fee, as secondhand conte
+  13. Producing a short call summary, a backlog entry, a recap that proposes a concrete next time, and the two watch items, wi
+  14. Noting that P3 (fee burn) was not confirmed on this call, rather than reporting a blanket confirmation of everything.
+  15. Working and writing in English only.

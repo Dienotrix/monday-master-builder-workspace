@@ -1,0 +1,68 @@
+{
+ "goals": [
+  {
+   "id": "G1",
+   "goal": "Go after the hospital framework, showing how they'd run forty sites at once",
+   "quote": "There's a regional health system that tenders its signage on a five-year framework, and we've not bid, because I can't show them how we'd run forty sites at once.",
+   "location": "00:32:40 Delphine Castellane (Operations Director)",
+   "speaker_role": "operations director",
+   "pains": [
+    "P2.3",
+    "P2.4"
+   ]
+  },
+  {
+   "id": "G2",
+   "goal": "One thing showing every live job, where it is, who's got it, what's late",
+   "quote": "I open one thing and I can see every live job, where it is, who's got it, and what's late.",
+   "location": "00:36:23 Delphine Castellane (Operations Director)",
+   "speaker_role": "operations director",
+   "pains": [
+    "P2.2",
+    "P2.3",
+    "P2.4"
+   ]
+  },
+  {
+   "id": "G3",
+   "goal": "The ticket is never wrong: the floor sees what the customer signed",
+   "quote": "For me, the ticket is never wrong.",
+   "location": "00:36:48 Imogen Achebe (Production Manager)",
+   "speaker_role": "production manager",
+   "pains": [
+    "P1.1",
+    "P1.2",
+    "P1.3",
+    "P5.1"
+   ]
+  },
+  {
+   "id": "G4",
+   "goal": "The building running on it in January, before the rollout's first stores",
+   "quote": "The first stores go in the week of February ninth, and I want the building running on it in January, not learning it in February.",
+   "location": "00:40:54 Delphine Castellane (Operations Director)",
+   "speaker_role": "operations director",
+   "pains": [
+    "P2.4"
+   ]
+  }
+ ],
+ "assumption_kinds": [
+  "leaning",
+  "leaning",
+  "gap",
+  "gap",
+  "leaning",
+  "leaning",
+  "leaning",
+  "leaning",
+  "leaning",
+  "leaning",
+  "gap",
+  "automation-condition",
+  "gap",
+  "gap",
+  "leaning"
+ ],
+ "note_add": null
+}

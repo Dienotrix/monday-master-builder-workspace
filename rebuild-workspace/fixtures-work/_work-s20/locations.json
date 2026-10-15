@@ -1,0 +1,884 @@
+{
+ "bron_hardstop": {
+  "location": "00:00:39 Bronwyn Tsai (Finance Controller)",
+  "line": 9,
+  "speaker": "Bronwyn Tsai",
+  "text": "Before we start. I have to drop at half past, the auditors are in this week and I've got them at half past two. So if you want numbers out of me, get them early."
+ },
+ "gideon_intro": {
+  "location": "00:01:03 Delphine Castellane (Operations Director)",
+  "line": 12,
+  "speaker": "Delphine Castellane",
+  "text": "Emeric's on. Calum. Lettie's on. Saoirse. Anton, are you there? He's on the list, camera off, that's Anton. And Gideon's here. Gideon's our MD, he said he's here to listen, so don't expect a lot out of him."
+ },
+ "con_welcome": {
+  "location": "00:01:22 Consultant",
+  "line": 13,
+  "speaker": "Consultant",
+  "text": "Understood. Welcome, all of you, and thank you for making the time. I know a Tuesday afternoon is not free for anyone in a sign shop."
+ },
+ "why_this_room": {
+  "location": "00:03:06 Delphine Castellane (Operations Director)",
+  "line": 24,
+  "speaker": "Delphine Castellane",
+  "text": "Because a job touches every one of them and none of them can see what the others are doing. Fergus sells it. Henrike's team turn it into a job. Emeric's studio draws it. Rosalind builds it. Calum puts it on a wall. Bronwyn invoices it, eventually, when someone remembers to tell her. And then something goes wrong in the middle and all of them end up in my office at once."
+ },
+ "roster_roles": {
+  "location": "00:03:37 Delphine Castellane (Operations Director)",
+  "line": 25,
+  "speaker": "Delphine Castellane",
+  "text": "So I wanted everybody hearing the same thing at the same time. Saoirse's here from HR because whatever we pick, the training lands on her. Anton's from our IT provider, so nobody promises anything about passwords. And Lettie, who does the job tickets for the floor, so she lives this more than any of us."
+ },
+ "del_company": {
+  "location": "00:04:09 Delphine Castellane (Operations Director)",
+  "line": 27,
+  "speaker": "Delphine Castellane",
+  "text": "We make signs. Wayfinding, mostly, for hospitals, universities, hotels, and retail rollouts. We design them, we fabricate them, print, cut, paint, and we install them. About ninety-five people. Saginaw is the main plant, that's where most of us are sitting. Flint is a branch, twelve people and one install crew, that's Yolanda's."
+ },
+ "ros_live_jobs": {
+  "location": "00:04:39 Rosalind Achebe (Production Manager)",
+  "line": 30,
+  "speaker": "Rosalind Achebe",
+  "text": "On the floor board right now, a hundred and ten, a hundred and fifteen. That's what's in production. Live in the sense of sold and not invoiced, it's more like two hundred and something."
+ },
+ "del_240": {
+  "location": "00:04:55 Delphine Castellane (Operations Director)",
+  "line": 31,
+  "speaker": "Delphine Castellane",
+  "text": "Two-forty was the number I had in August. It's gone up."
+ },
+ "con_whynow_q": {
+  "location": "00:05:01 Consultant",
+  "line": 32,
+  "speaker": "Consultant",
+  "text": "Okay. Two-forty-ish, and it's gone up. I'll come back to what a job is, because I suspect it means a few things. But first, why now. What's made this matter this autumn rather than last year?"
+ },
+ "whynow_rollout": {
+  "location": "00:05:18 Delphine Castellane (Operations Director)",
+  "line": 33,
+  "speaker": "Delphine Castellane",
+  "text": "Two things. The first is we won a rollout. A pharmacy chain, a hundred and forty stores, and I can't name them until the contract's countersigned, so don't write the name down because I'm not going to say it. Every store gets an exterior sign, a wayfinding package inside, and a pharmacy counter set. First stores go in the week of February ninth and it runs through to June."
+ },
+ "del_140_anything": {
+  "location": "00:05:57 Delphine Castellane (Operations Director)",
+  "line": 35,
+  "speaker": "Delphine Castellane",
+  "text": "It's about a third again on top of everything else we do. And it's a hundred and forty of nearly the same job, which we've never done. We do one hospital. We do one hotel. We don't do a hundred and forty of anything."
+ },
+ "rollout_shape": {
+  "location": "00:06:22 Delphine Castellane (Operations Director)",
+  "line": 37,
+  "speaker": "Delphine Castellane",
+  "text": "Three things per store. An exterior fascia sign, which is the big one and the one with permits. An interior wayfinding package, eight to twelve panels. And a pharmacy counter set, which is small but it's the one their compliance people care about. Five states, phased by region. And their project manager wants a weekly status on all hundred and forty, which today would mean Henrike building it by hand every Friday."
+ },
+ "del_quarrington_trigger": {
+  "location": "00:07:16 Delphine Castellane (Operations Director)",
+  "line": 41,
+  "speaker": "Delphine Castellane",
+  "text": "The second thing is Quarrington. Rosalind, you tell it, you were closest."
+ },
+ "quarrington_concrete": {
+  "location": "00:07:22 Rosalind Achebe (Production Manager)",
+  "line": 42,
+  "speaker": "Rosalind Achebe",
+  "text": "Quarrington Hotels. Lobby package for their flagship, twenty-two panels, brushed aluminium with routed letters. We built it, we shipped it, Calum's crew hung it, and eleven of the twenty-two were the wrong size. Not by a lot. By about an inch and a half on the width, which on a routed panel is the whole panel."
+ },
+ "ros_quarrington_cause": {
+  "location": "00:07:52 Rosalind Achebe (Production Manager)",
+  "line": 44,
+  "speaker": "Rosalind Achebe",
+  "text": "The dimensions on the job ticket were the survey dimensions, not the approved drawing dimensions. Somebody typed the wrong column into the ticket. We never found out who, and I'm not looking, because it could have been anyone."
+ },
+ "hen_admits": {
+  "location": "00:08:10 Henrike Solano (Customer Service Lead)",
+  "line": 45,
+  "speaker": "Henrike Solano",
+  "text": "It was one of mine. It's fine. It was one of mine."
+ },
+ "quarrington_reach": {
+  "location": "00:08:33 Delphine Castellane (Operations Director)",
+  "line": 47,
+  "speaker": "Delphine Castellane",
+  "text": "So we remade eleven panels, we re-sent a crew, and the customer's regional director was standing in the lobby when the second set went up. Which is not the sort of thing that goes away."
+ },
+ "del_august": {
+  "location": "00:08:52 Delphine Castellane (Operations Director)",
+  "line": 49,
+  "speaker": "Delphine Castellane",
+  "text": "August. The remake shipped the first week of September."
+ },
+ "yol_join": {
+  "location": "00:09:20 Yolanda Brekke (Flint Branch Manager)",
+  "line": 52,
+  "speaker": "Yolanda Brekke",
+  "text": "Sorry, sorry. The highway was shut at the river. [inaudible] I'm here. Yolanda."
+ },
+ "con_monday_q": {
+  "location": "00:09:53 Consultant",
+  "line": 56,
+  "speaker": "Consultant",
+  "text": "Before the walk, one thing I always ask. Does anything of yours live in monday today?"
+ },
+ "tier_turn": {
+  "location": "00:10:01 Delphine Castellane (Operations Director)",
+  "line": 57,
+  "speaker": "Delphine Castellane",
+  "text": "We have one, actually. Marketing has it. Ottoline's team run their content calendar on it, twenty-five seats, and we're on the Pro plan. Actually, no. Hang on. We dropped to Standard in January when we trimmed the seats, I signed the renewal myself. Standard. Twenty-five seats on Standard. Who set it up originally I genuinely couldn't tell you, it predates me."
+ },
+ "con_walk": {
+  "location": "00:10:46 Consultant",
+  "line": 61,
+  "speaker": "Consultant",
+  "text": "Fine. Let's walk a job, then, from the first phone call to the invoice, and I'd like each of you to take your own part. Fergus, it starts with you."
+ },
+ "fer_quote_process": {
+  "location": "00:11:00 Fergus Lindqvist (Sales Manager)",
+  "line": 62,
+  "speaker": "Fergus Lindqvist",
+  "text": "It starts with a request. A customer, or a general contractor, or an architect sends us drawings or a brief. Kwame or I go and survey the site, or Calum's crew do if it's local. Then we build the quote in the estimating tool. That part works, I want to say that now, because I know where this conversation goes. The estimating tool is fine. It's after we win that it falls apart."
+ },
+ "fer_volume": {
+  "location": "00:11:36 Fergus Lindqvist (Sales Manager)",
+  "line": 64,
+  "speaker": "Fergus Lindqvist",
+  "text": "Sixty, seventy. We win about a third. [inaudible] Kwame?"
+ },
+ "kwa_survey": {
+  "location": "00:12:03 Kwame Oduya (Account Manager)",
+  "line": 68,
+  "speaker": "Kwame Oduya",
+  "text": "A form on a clipboard and photos on a phone. Dimensions, wall type, power, access, whether we need a lift. It gets typed up into the quote. And then the original stays in the van, or in a drawer, or in Kwame's car, which is where the Quarrington one was when we needed it."
+ },
+ "fer_handover": {
+  "location": "00:12:41 Fergus Lindqvist (Sales Manager)",
+  "line": 72,
+  "speaker": "Fergus Lindqvist",
+  "text": "It becomes an email to Henrike. That's the handover. I send Henrike the quote and I say, we won it."
+ },
+ "hen_handover": {
+  "location": "00:12:51 Henrike Solano (Customer Service Lead)",
+  "line": 73,
+  "speaker": "Henrike Solano",
+  "text": "Sometimes you say we won it. Sometimes I find out because the customer rings me asking where the proof is."
+ },
+ "hen_jobsheet": {
+  "location": "00:13:11 Henrike Solano (Customer Service Lead)",
+  "line": 76,
+  "speaker": "Henrike Solano",
+  "text": "So I have six coordinators, including me, and we own a job from won to installed. The first thing we do is open the job in the job sheet. The job sheet is a spreadsheet. It's one file, one row per job, about forty columns. It lives on the shared drive."
+ },
+ "hen_retype": {
+  "location": "00:13:35 Henrike Solano (Customer Service Lead)",
+  "line": 77,
+  "speaker": "Henrike Solano",
+  "text": "We retype the quote into it. Customer, site, panel count, sizes, materials, finishes, the due date. It's all in the quote already. We type it again, because the quote lives in the estimating tool and the floor can't see the estimating tool."
+ },
+ "hen_calls": {
+  "location": "00:14:18 Henrike Solano (Customer Service Lead)",
+  "line": 80,
+  "speaker": "Henrike Solano",
+  "text": "And every one of those steps, somebody rings me. I counted one day. Thirty-one calls asking where a job is. Thirty-one. Not one of them was something I could answer without ringing someone else first."
+ },
+ "bro_jobnumber": {
+  "location": "00:14:54 Bronwyn Tsai (Finance Controller)",
+  "line": 83,
+  "speaker": "Bronwyn Tsai",
+  "text": "I open the job in the accounting system and it gives me a number. Same day, usually. Unless I'm in an audit, in which case you're waiting."
+ },
+ "eme_proof": {
+  "location": "00:15:09 Emeric Sandoval (Design Studio Lead)",
+  "line": 85,
+  "speaker": "Emeric Sandoval",
+  "text": "We get the job sheet row and the survey and whatever the customer sent, and we draw the proof. The proof is the drawing the customer signs off. Sizes, layout, colours, mounting. Everything the floor needs is on the proof."
+ },
+ "eme_approval": {
+  "location": "00:15:28 Emeric Sandoval (Design Studio Lead)",
+  "line": 86,
+  "speaker": "Emeric Sandoval",
+  "text": "And the customer signs it off by email. That's the whole approval system. Someone replies to the proof saying approved, and that email is the record."
+ },
+ "eme_versions": {
+  "location": "00:15:43 Emeric Sandoval (Design Studio Lead)",
+  "line": 88,
+  "speaker": "Emeric Sandoval",
+  "text": "Revisions are where we die. A hospital proof goes round four, five times. Version two, version three, version three b, final, final final. Every one is a file. We name them, we're disciplined about it, but the approval is a reply to one of them and you have to find which one."
+ },
+ "con_p2_concrete_q": {
+  "location": "00:16:06 Consultant",
+  "line": 89,
+  "speaker": "Consultant",
+  "text": "Has that gone wrong recently?"
+ },
+ "eme_concrete": {
+  "location": "00:16:10 Emeric Sandoval (Design Studio Lead)",
+  "line": 90,
+  "speaker": "Emeric Sandoval",
+  "text": "The university library job went to print on version four. The customer had approved version five. Version five moved the directory panel from the left wall to the right wall, which changes the reading direction of every arrow on it. We printed twenty-two arrows pointing the wrong way."
+ },
+ "eme_reach": {
+  "location": "00:16:35 Emeric Sandoval (Design Studio Lead)",
+  "line": 92,
+  "speaker": "Emeric Sandoval",
+  "text": "Nineteen, then. It's the same problem as Quarrington from a different door. The floor built what it was handed, and what it was handed was wrong."
+ },
+ "con_p2_workaround_q": {
+  "location": "00:16:48 Consultant",
+  "line": 93,
+  "speaker": "Consultant",
+  "text": "So today, if I'm on the floor and I want to know which proof is approved, what do I do?"
+ },
+ "eme_workaround": {
+  "location": "00:16:59 Emeric Sandoval (Design Studio Lead)",
+  "line": 94,
+  "speaker": "Emeric Sandoval",
+  "text": "You ask me. Or you ask a coordinator, who asks me. I'm the one who can find the reply. If I'm off, you wait, or you guess."
+ },
+ "eme_why_not": {
+  "location": "00:17:17 Emeric Sandoval (Design Studio Lead)",
+  "line": 96,
+  "speaker": "Emeric Sandoval",
+  "text": "Me being off. And a hundred and forty stores, which will each have their own proof, and I have five designers."
+ },
+ "ros_floorboard": {
+  "location": "00:17:31 Rosalind Achebe (Production Manager)",
+  "line": 98,
+  "speaker": "Rosalind Achebe",
+  "text": "The floor gets a job ticket. Lettie prints it off the job sheet, one ticket per job, and it goes in a plastic sleeve on the floor board. The floor board is a whiteboard, twelve feet of it, columns for print, cut, fab, paint, assembly, ready. The ticket moves along the board as the job moves. That's the system, and honestly it works better than anything on a screen has ever worked for us."
+ },
+ "ros_ready": {
+  "location": "00:18:34 Rosalind Achebe (Production Manager)",
+  "line": 102,
+  "speaker": "Rosalind Achebe",
+  "text": "Ready means it's in the ready column. Which means someone moved it there. Which usually means it's ready. Usually."
+ },
+ "ros_stale_ticket": {
+  "location": "00:18:55 Rosalind Achebe (Production Manager)",
+  "line": 105,
+  "speaker": "Rosalind Achebe",
+  "text": "Then the ticket's wrong and nobody knows. That's Quarrington in one sentence. That's most of our remakes in one sentence."
+ },
+ "kwa_changeorder": {
+  "location": "00:19:06 Kwame Oduya (Account Manager)",
+  "line": 106,
+  "speaker": "Kwame Oduya",
+  "text": "Can I add to that, because that's mine. A customer changes the copy on a panel after sign-off. Happens every week. I tell Henrike by email. Whether that reaches the floor before the panel's cut is a coin flip, and I'm not exaggerating, it's about half."
+ },
+ "kwa_withdraws": {
+  "location": "00:19:30 Kwame Oduya (Account Manager)",
+  "line": 108,
+  "speaker": "Kwame Oduya",
+  "text": "It's a lot."
+ },
+ "hen_not_half": {
+  "location": "00:19:33 Henrike Solano (Customer Service Lead)",
+  "line": 109,
+  "speaker": "Henrike Solano",
+  "text": "It's a lot. It's not half."
+ },
+ "kwa_co_def": {
+  "location": "00:19:44 Kwame Oduya (Account Manager)",
+  "line": 111,
+  "speaker": "Kwame Oduya",
+  "text": "A change order. If it's big enough to charge for. If it's small we just do it, which is its own problem."
+ },
+ "del_calum_defer": {
+  "location": "00:20:03 Delphine Castellane (Operations Director)",
+  "line": 113,
+  "speaker": "Delphine Castellane",
+  "text": "Install is next. Calum will tell you install is where it all lands, because he gets the job last and he gets it with whatever's gone wrong upstream."
+ },
+ "con_install_deferred": {
+  "location": "00:20:16 Consultant",
+  "line": 114,
+  "speaker": "Consultant",
+  "text": "We'll come to install. Bronwyn, I promised you early. Where does finance touch a job?"
+ },
+ "bro_p4_stated": {
+  "location": "00:20:24 Bronwyn Tsai (Finance Controller)",
+  "line": 115,
+  "speaker": "Bronwyn Tsai",
+  "text": "Twice. I open it and give it a number at the start, we've covered that. And I invoice it at the end, when I know it's installed. And there's the problem. I don't know it's installed. Nobody tells finance a job is on the wall. I find out because a coordinator mentions it, or a customer rings about something else, or I walk the floor on a Friday and ask."
+ },
+ "con_p4_concrete_q": {
+  "location": "00:20:56 Consultant",
+  "line": 116,
+  "speaker": "Consultant",
+  "text": "How late does that make the invoice?"
+ },
+ "bro_p4_concrete": {
+  "location": "00:21:00 Bronwyn Tsai (Finance Controller)",
+  "line": 117,
+  "speaker": "Bronwyn Tsai",
+  "text": "I pulled it before this call. Average from install to invoice, forty-one days. Forty-one. For work we've already done and already paid the crew for."
+ },
+ "con_p4_reach_q": {
+  "location": "00:21:13 Consultant",
+  "line": 118,
+  "speaker": "Consultant",
+  "text": "Who feels that?"
+ },
+ "bro_p4_reach": {
+  "location": "00:21:16 Bronwyn Tsai (Finance Controller)",
+  "line": 119,
+  "speaker": "Bronwyn Tsai",
+  "text": "Me, and the line of credit. There's about a million two sitting installed and not invoiced at any moment. Gideon feels it when I show him the cash position, which is why he's here, I imagine."
+ },
+ "con_p4_workaround_q": {
+  "location": "00:21:33 Consultant",
+  "line": 120,
+  "speaker": "Consultant",
+  "text": "And the Friday walk is the workaround. What stops you carrying on that way?"
+ },
+ "bro_p4_workaround": {
+  "location": "00:21:40 Bronwyn Tsai (Finance Controller)",
+  "line": 121,
+  "speaker": "Bronwyn Tsai",
+  "text": "It doesn't scale. I can walk the Saginaw floor. I can't walk Flint, and I certainly can't walk a hundred and forty pharmacies."
+ },
+ "yol_own_sheet": {
+  "location": "00:21:52 Yolanda Brekke (Flint Branch Manager)",
+  "line": 122,
+  "speaker": "Yolanda Brekke",
+  "text": "Can I say how Flint does it, since it's come up twice. We keep our own copy of the job sheet. The Saginaw one is unusable by Wednesday, there are two hundred rows and half the filters are somebody's leftovers. So we have the Flint sheet, twelve of us, one crew, and it's clean. And Bronwyn finds out we've installed something when I email her, which I do, mostly."
+ },
+ "kwa_seat_question": {
+  "location": "00:22:38 Kwame Oduya (Account Manager)",
+  "line": 127,
+  "speaker": "Kwame Oduya",
+  "text": "Can I ask a boring one before I forget? If everyone who touches a job needs a login, that's the crews, that's the floor. Are we going to end up paying per head for people who'd open it twice a month?"
+ },
+ "con_deferred_seats": {
+  "location": "00:22:58 Consultant",
+  "line": 128,
+  "speaker": "Consultant",
+  "text": "It depends on the plan and on how it's set up, and I'd rather answer that properly than off the top of my head. I'll put it in the recap with a straight answer."
+ },
+ "con_p1_cost_q": {
+  "location": "00:23:19 Consultant",
+  "line": 130,
+  "speaker": "Consultant",
+  "text": "Let me pause the walk there, because I want to go back over the pieces that hurt and put some weight on them. Henrike, the retyping. You said twenty minutes to an hour per job, and then the chasing. Across the six of you, roughly how many hours a week go into retyping and chasing?"
+ },
+ "hen_hours": {
+  "location": "00:23:44 Henrike Solano (Customer Service Lead)",
+  "line": 131,
+  "speaker": "Henrike Solano",
+  "text": "Retyping alone, maybe two hours a week each. The chasing is the rest of it. If I'm honest, six hours a week each on things that only exist because the quote and the ticket and the proof don't talk to each other. Six each, and there are six of us."
+ },
+ "bro_rates": {
+  "location": "00:24:27 Bronwyn Tsai (Finance Controller)",
+  "line": 135,
+  "speaker": "Bronwyn Tsai",
+  "text": "Thirty-eight an hour loaded, give or take. Production leads are fifty-two. I'm not giving you the crew rate off the top of my head, it's a different structure with the overtime."
+ },
+ "ros_wait_hours": {
+  "location": "00:24:57 Rosalind Achebe (Production Manager)",
+  "line": 137,
+  "speaker": "Rosalind Achebe",
+  "text": "My two leads. Call it eight hours a week between the two of them standing at the board with a ticket in one hand and a phone in the other, waiting for someone to tell them what the job actually is. Eight hours a week, easily. And that's the leads, not the people behind them who are also waiting."
+ },
+ "con_p1_workaround_q": {
+  "location": "00:25:25 Consultant",
+  "line": 138,
+  "speaker": "Consultant",
+  "text": "And today, how do you stop a wrong ticket getting to the floor?"
+ },
+ "hen_p1_workaround": {
+  "location": "00:25:31 Henrike Solano (Customer Service Lead)",
+  "line": 139,
+  "speaker": "Henrike Solano",
+  "text": "We ring. A coordinator rings the floor and reads the ticket back against the quote, on the big ones. On the small ones we don't, there isn't time, and the small ones are where it goes wrong."
+ },
+ "hen_p1_why_not": {
+  "location": "00:25:55 Henrike Solano (Customer Service Lead)",
+  "line": 141,
+  "speaker": "Henrike Solano",
+  "text": "A hundred and forty stores. I can't read a hundred and forty tickets down the phone. And it depends on who's in. When I'm off, nobody reads anything back."
+ },
+ "con_p1_reach_q": {
+  "location": "00:26:08 Consultant",
+  "line": 142,
+  "speaker": "Consultant",
+  "text": "Who else ends up dealing with a wrong ticket?"
+ },
+ "ros_p1_reach": {
+  "location": "00:26:13 Rosalind Achebe (Production Manager)",
+  "line": 143,
+  "speaker": "Rosalind Achebe",
+  "text": "My leads, who wait. Calum's crew, who go back out. Kwame, who explains it to the customer. And Bronwyn, who writes it off. It's everybody. That's the point Delphine made at the start."
+ },
+ "con_remake_q": {
+  "location": "00:26:29 Consultant",
+  "line": 144,
+  "speaker": "Consultant",
+  "text": "And the materials. Remakes. How often does a job get remade?"
+ },
+ "fer_remake_rate": {
+  "location": "00:26:36 Fergus Lindqvist (Sales Manager)",
+  "line": 145,
+  "speaker": "Fergus Lindqvist",
+  "text": "Honestly? One in ten. One in ten jobs has something remade. At our volume that's just a cost of doing business, and I say that as the person who has to explain it to the customer."
+ },
+ "ros_remake_rate": {
+  "location": "00:27:39 Rosalind Achebe (Production Manager)",
+  "line": 151,
+  "speaker": "Rosalind Achebe",
+  "text": "No. It is not one in ten. From where I stand it's closer to one in four. One in four jobs has at least one panel go through the shop twice. I would put money on that."
+ },
+ "fer_crosstalk": {
+  "location": "00:27:56 Fergus Lindqvist (Sales Manager)",
+  "line": 152,
+  "speaker": "Fergus Lindqvist",
+  "text": "[crosstalk] That's not -- that can't be right, we'd be --"
+ },
+ "ros_crosstalk": {
+  "location": "00:28:03 Rosalind Achebe (Production Manager)",
+  "line": 153,
+  "speaker": "Rosalind Achebe",
+  "text": "[crosstalk] It depends whether you count the ones we catch before they ship."
+ },
+ "con_which_is_it": {
+  "location": "00:28:10 Consultant",
+  "line": 154,
+  "speaker": "Consultant",
+  "text": "So one in ten and one in four. Which is it?"
+ },
+ "del_never_measured": {
+  "location": "00:28:29 Delphine Castellane (Operations Director)",
+  "line": 157,
+  "speaker": "Delphine Castellane",
+  "text": "We've never measured it. That's the honest answer. Rosalind, you keep the remake log, can you pull it for the last quarter?"
+ },
+ "con_both_numbers": {
+  "location": "00:28:50 Consultant",
+  "line": 159,
+  "speaker": "Consultant",
+  "text": "Then I'll write down both numbers and neither of them, if that makes sense, until the book says. Bronwyn, is there a money figure on remakes?"
+ },
+ "bro_writeoff": {
+  "location": "00:29:02 Bronwyn Tsai (Finance Controller)",
+  "line": 160,
+  "speaker": "Bronwyn Tsai",
+  "text": "There's a budget line. We budget ninety a year for remake materials, that's materials only. Last year we actually wrote off, I want to say fifty-five. Fifty-five, fifty-six, on remake materials. That's the actual, and it's materials, it doesn't have the hours in it."
+ },
+ "con_arith": {
+  "location": "00:29:36 Consultant",
+  "line": 163,
+  "speaker": "Consultant",
+  "text": "I won't. Let me do the arithmetic out loud and you stop me. Coordinators, six people at six hours a week, thirty-six hours, at thirty-eight an hour, times fifty-two."
+ },
+ "del_math_coord": {
+  "location": "00:29:50 Delphine Castellane (Operations Director)",
+  "line": 164,
+  "speaker": "Delphine Castellane",
+  "text": "Thirty-six times thirty-eight is... thirteen sixty-eight a week. Times fifty-two. Seventy-one thousand and change."
+ },
+ "del_math_leads": {
+  "location": "00:30:00 Delphine Castellane (Operations Director)",
+  "line": 166,
+  "speaker": "Delphine Castellane",
+  "text": "Four-sixteen a week. Times fifty-two. Twenty-one, twenty-two thousand."
+ },
+ "del_bleed_total": {
+  "location": "00:30:10 Delphine Castellane (Operations Director)",
+  "line": 168,
+  "speaker": "Delphine Castellane",
+  "text": "So seventy-one, plus twenty-two, plus fifty-five. A hundred and forty-eight thousand, near enough. A year. And that's without the remake hours, which nobody's counted, and without the install side, which we haven't got to."
+ },
+ "bro_bleed_confirm": {
+  "location": "00:30:36 Bronwyn Tsai (Finance Controller)",
+  "line": 170,
+  "speaker": "Bronwyn Tsai",
+  "text": "That's about right, and it's light. The remake hours would be the biggest number in there if we had it."
+ },
+ "bro_audit": {
+  "location": "00:30:59 Bronwyn Tsai (Finance Controller)",
+  "line": 173,
+  "speaker": "Bronwyn Tsai",
+  "text": "Nothing touches the accounting system before November. We're mid-audit until the end of the month and I'm not opening a connection to anything while they're in the building. After November, talk to me."
+ },
+ "bro_leaves": {
+  "location": "00:31:20 Bronwyn Tsai (Finance Controller)",
+  "line": 175,
+  "speaker": "Bronwyn Tsai",
+  "text": "That's me, I'm afraid. Auditors. Send me the list of what you need and I'll get you the numbers by end of week, the write-off figure properly and whatever else."
+ },
+ "con_upside_q": {
+  "location": "00:31:41 Consultant",
+  "line": 178,
+  "speaker": "Consultant",
+  "text": "Let me turn it round. If the retyping and the chasing went away, the thirty-six hours a week, what would the coordinators do with it?"
+ },
+ "hen_upside": {
+  "location": "00:31:53 Henrike Solano (Customer Service Lead)",
+  "line": 179,
+  "speaker": "Henrike Solano",
+  "text": "Answer the phone. Half of what comes in is customers asking where their job is, and we can't tell them without ringing the floor."
+ },
+ "fer_upside_hedge": {
+  "location": "00:32:04 Fergus Lindqvist (Sales Manager)",
+  "line": 180,
+  "speaker": "Fergus Lindqvist",
+  "text": "From my side, we'd quote faster. There's a lag between winning and the proof going out, and we lose jobs in that lag. Maybe two a month, I'd guess, maybe, where the customer gets bored and goes to someone quicker. I couldn't put a value on that, it's a guess."
+ },
+ "del_upside_target": {
+  "location": "00:32:40 Delphine Castellane (Operations Director)",
+  "line": 182,
+  "speaker": "Delphine Castellane",
+  "text": "The hospital framework. There's a regional health system that tenders its signage on a five-year framework, and we've not bid, because I can't show them how we'd run forty sites at once. That's the one. I'm not putting a number on it either."
+ },
+ "con_open_checkin": {
+  "location": "00:33:00 Consultant",
+  "line": 183,
+  "speaker": "Consultant",
+  "text": "Understood. Before we go to what solved looks like, let me stop and ask the room something. Is there a part of how a job moves through this building that hasn't come up yet? Anyone. I'm happy with silence."
+ },
+ "cal_first": {
+  "location": "00:33:21 Calum Fairweather (Install Scheduler)",
+  "line": 185,
+  "speaker": "Calum Fairweather",
+  "text": "Install."
+ },
+ "cal_p3_stated": {
+  "location": "00:33:26 Calum Fairweather (Install Scheduler)",
+  "line": 187,
+  "speaker": "Calum Fairweather",
+  "text": "Install's where it lands, like Delphine said. I've got six crews, two people each, five here and Yolanda's one. I schedule them on a spreadsheet, a week at a time. And the thing nobody's said is that a crew turns up to a site and the job isn't ready. The sign's still in paint, or the permit's not through, or the site's not ready for us, and two people have driven two hours for nothing."
+ },
+ "con_concrete_q": {
+  "location": "00:34:01 Consultant",
+  "line": 188,
+  "speaker": "Consultant",
+  "text": "When did that last happen?"
+ },
+ "cal_p3_concrete": {
+  "location": "00:34:04 Calum Fairweather (Install Scheduler)",
+  "line": 189,
+  "speaker": "Calum Fairweather",
+  "text": "Traverse City, three weeks ago. Retail unit, four panels. The ticket said ready. The board said ready. One panel was in paint because it had been remade, and nobody moved the ticket back. Crew drove up, hung three, drove home, drove up again the following Tuesday for one panel."
+ },
+ "cal_p3_workaround": {
+  "location": "00:34:31 Calum Fairweather (Install Scheduler)",
+  "line": 191,
+  "speaker": "Calum Fairweather",
+  "text": "I ring the floor every morning. I walk it if I'm in. I ring Yolanda for hers. And I ring the site the day before, if I remember, and I don't always remember because I've got six crews and one of me."
+ },
+ "con_p3_workaround_q": {
+  "location": "00:34:50 Consultant",
+  "line": 192,
+  "speaker": "Consultant",
+  "text": "And what stops you carrying on ringing?"
+ },
+ "cal_p3_trajectory": {
+  "location": "00:34:54 Calum Fairweather (Install Scheduler)",
+  "line": 193,
+  "speaker": "Calum Fairweather",
+  "text": "The rollout. Eight crews on the road instead of six, if we hire, in five states. I can't ring five states every morning. I can barely ring Flint."
+ },
+ "con_p3_reach_q": {
+  "location": "00:35:08 Consultant",
+  "line": 194,
+  "speaker": "Consultant",
+  "text": "Who else feels a wasted trip?"
+ },
+ "cal_p3_reach": {
+  "location": "00:35:12 Calum Fairweather (Install Scheduler)",
+  "line": 195,
+  "speaker": "Calum Fairweather",
+  "text": "The crew, because it's overtime nobody planned. The customer, because we've turned up twice. And the next job, because that crew was supposed to be somewhere else the day they go back."
+ },
+ "con_p3_cost_q": {
+  "location": "00:35:28 Consultant",
+  "line": 196,
+  "speaker": "Consultant",
+  "text": "How often does a wasted trip happen?"
+ },
+ "cal_p3_cost": {
+  "location": "00:35:33 Calum Fairweather (Install Scheduler)",
+  "line": 197,
+  "speaker": "Calum Fairweather",
+  "text": "Two a month. Some months three. Call it two. Four hours each, two people, so sixteen hours a month of crew time, before the fuel."
+ },
+ "con_crew_rate_q": {
+  "location": "00:35:45 Consultant",
+  "line": 198,
+  "speaker": "Consultant",
+  "text": "Sixteen hours a month. And the crew rate, is that something you carry?"
+ },
+ "del_crew_rate_gone": {
+  "location": "00:35:55 Delphine Castellane (Operations Director)",
+  "line": 200,
+  "speaker": "Delphine Castellane",
+  "text": "That's a Bronwyn number and she's gone. Put it on her list."
+ },
+ "con_outcome_q": {
+  "location": "00:36:09 Consultant",
+  "line": 202,
+  "speaker": "Consultant",
+  "text": "Let me ask the forward question, then. Imagine this is running well by the time the pharmacy stores are going in. It's a normal Tuesday in March. What's different?"
+ },
+ "del_outcome": {
+  "location": "00:36:23 Delphine Castellane (Operations Director)",
+  "line": 203,
+  "speaker": "Delphine Castellane",
+  "text": "I open one thing and I can see every live job, where it is, who's got it, and what's late. One screen. Not the job sheet, not two job sheets, not asking Henrike to ask Rosalind. And when a customer changes a panel, the floor knows before the panel's cut, not after."
+ },
+ "ros_outcome": {
+  "location": "00:36:48 Rosalind Achebe (Production Manager)",
+  "line": 204,
+  "speaker": "Rosalind Achebe",
+  "text": "For me, the ticket is never wrong. Whatever the floor is looking at is the same thing the customer signed. If that's on a screen on the wall, fine. If it's a printed ticket that reprints itself when something changes, also fine. I don't care how, I care that it's the same thing."
+ },
+ "hen_outcome": {
+  "location": "00:37:12 Henrike Solano (Customer Service Lead)",
+  "line": 205,
+  "speaker": "Henrike Solano",
+  "text": "And I stop being a switchboard. Somebody asks where their job is and I can tell them without ringing anyone."
+ },
+ "yol_outcome": {
+  "location": "00:37:22 Yolanda Brekke (Flint Branch Manager)",
+  "line": 206,
+  "speaker": "Yolanda Brekke",
+  "text": "And Flint sees the same screen as Saginaw. I'll say that now so I'm on the record as having said it, given what I said earlier."
+ },
+ "con_leadership_q": {
+  "location": "00:37:35 Consultant",
+  "line": 207,
+  "speaker": "Consultant",
+  "text": "And leadership. What would count as a win, from where Gideon sits?"
+ },
+ "del_gideon_relay": {
+  "location": "00:37:42 Delphine Castellane (Operations Director)",
+  "line": 208,
+  "speaker": "Delphine Castellane",
+  "text": "I can tell you what he's said to me, which is that he wants the rollout to go in without a Quarrington, and he wants the cash position to stop being a surprise. Those are his two. I'm not going to put words in his mouth beyond that."
+ },
+ "con_yours_until_his": {
+  "location": "00:38:04 Consultant",
+  "line": 209,
+  "speaker": "Consultant",
+  "text": "Fair. I'll write those down as yours until they're his."
+ },
+ "fer_departure_reported": {
+  "location": "00:38:10 Delphine Castellane (Operations Director)",
+  "line": 210,
+  "speaker": "Delphine Castellane",
+  "text": "Fergus has had to drop, by the way, he's got the Quarrington call at three. He said to say sorry."
+ },
+ "kwa_departure": {
+  "location": "00:38:20 Kwame Oduya (Account Manager)",
+  "line": 211,
+  "speaker": "Kwame Oduya",
+  "text": "And I'm going with him, I'm on the same call. Sorry. Send me anything you need."
+ },
+ "con_decision_q": {
+  "location": "00:38:29 Consultant",
+  "line": 212,
+  "speaker": "Consultant",
+  "text": "No problem, thank you both. Let's talk about how a decision like this gets made here, then, while I've still got most of you. Delphine, if you decided this was worth doing, what actually happens?"
+ },
+ "del_decision": {
+  "location": "00:38:45 Delphine Castellane (Operations Director)",
+  "line": 213,
+  "speaker": "Delphine Castellane",
+  "text": "I own operations systems. Up to twenty thousand a year I can sign it, and I'd still tell Gideon. Over twenty it's Gideon, full stop. And for something like this, honestly, even under twenty I'd want him in, because if he's not using it the managers won't."
+ },
+ "del_after_yes": {
+  "location": "00:39:12 Delphine Castellane (Operations Director)",
+  "line": 215,
+  "speaker": "Delphine Castellane",
+  "text": "Bronwyn raises a purchase order, or if it's a subscription it goes on the company card and she'd rather it didn't. Anton's firm will have a security checklist, they always do, and I'll get that to you rather than make you guess. Then it's me and Henrike rolling it out, and Saoirse on the training."
+ },
+ "hen_ottoline": {
+  "location": "00:39:38 Henrike Solano (Customer Service Lead)",
+  "line": 216,
+  "speaker": "Henrike Solano",
+  "text": "Can I ask something. Shouldn't Ottoline be on this? If it's her account we'd be going into."
+ },
+ "del_ottoline_commit": {
+  "location": "00:39:47 Delphine Castellane (Operations Director)",
+  "line": 217,
+  "speaker": "Delphine Castellane",
+  "text": "She should. That's on me. I'll bring her in for the next one."
+ },
+ "del_prior_purchase": {
+  "location": "00:40:02 Delphine Castellane (Operations Director)",
+  "line": 219,
+  "speaker": "Delphine Castellane",
+  "text": "The router. The big CNC router, two years ago, which was a lot more than twenty. I did a one-page case, what it cost and what it saved, and he signed it inside a fortnight. If the numbers are on one page, he's fast. If they're not, he asks a lot of questions."
+ },
+ "del_gideon_cares": {
+  "location": "00:40:32 Delphine Castellane (Operations Director)",
+  "line": 221,
+  "speaker": "Delphine Castellane",
+  "text": "The rollout. That we can run a hundred and forty stores without me living in the job sheet. And the cash thing, Bronwyn's forty-one days. That's what he'll ask about."
+ },
+ "con_priority_q": {
+  "location": "00:40:48 Consultant",
+  "line": 222,
+  "speaker": "Consultant",
+  "text": "Understood. Priority and timing. Is this a fix for this quarter, or later on?"
+ },
+ "del_priority": {
+  "location": "00:40:54 Delphine Castellane (Operations Director)",
+  "line": 223,
+  "speaker": "Delphine Castellane",
+  "text": "Before the rollout. The first stores go in the week of February ninth, and I want the building running on it in January, not learning it in February. So, this quarter to build, January to be live. If it slips into February we've missed the point."
+ },
+ "con_p4_traj_q": {
+  "location": "00:41:16 Consultant",
+  "line": 224,
+  "speaker": "Consultant",
+  "text": "January live. One more forward question, and it's Bronwyn's really. The invoicing lag, the forty-one days. Say nothing changes. What does that look like a year from now, with the rollout on top?"
+ },
+ "del_p4_traj_gone": {
+  "location": "00:41:31 Delphine Castellane (Operations Director)",
+  "line": 225,
+  "speaker": "Delphine Castellane",
+  "text": "That's a Bronwyn question and she's gone. I'd be guessing. Put it on her list."
+ },
+ "con_blockers_q": {
+  "location": "00:41:40 Consultant",
+  "line": 226,
+  "speaker": "Consultant",
+  "text": "On her list. What could get in the way of this going ahead? Anyone."
+ },
+ "ros_blocker": {
+  "location": "00:41:47 Rosalind Achebe (Production Manager)",
+  "line": 227,
+  "speaker": "Rosalind Achebe",
+  "text": "The floor won't touch a tablet with gloves on. I'm telling you now. If the answer is everyone gets a tablet, it's dead by the second week. Screens on the wall, big ones, and the ticket prints. That's the only version that lives."
+ },
+ "yol_blocker": {
+  "location": "00:42:08 Yolanda Brekke (Flint Branch Manager)",
+  "line": 228,
+  "speaker": "Yolanda Brekke",
+  "text": "And Flint runs its own sheet and, honestly, we like it that way. If this means we go back to the Saginaw one, I'll be polite about it and then we'll quietly keep ours."
+ },
+ "del_blocker": {
+  "location": "00:42:30 Delphine Castellane (Operations Director)",
+  "line": 230,
+  "speaker": "Delphine Castellane",
+  "text": "And mine is the one I always say. If it's another thing to keep up to date, it's dead. We tried a job-tracking app two years ago, the crews never opened it, and the coordinators ended up updating it and the job sheet. Double work. It lasted a quarter."
+ },
+ "eme_maybe_gone": {
+  "location": "00:43:06 Delphine Castellane (Operations Director)",
+  "line": 233,
+  "speaker": "Delphine Castellane",
+  "text": "He may have dropped. He had a four o'clock print deadline. I'll ask him."
+ },
+ "con_scope_playback": {
+  "location": "00:43:29 Consultant",
+  "line": 236,
+  "speaker": "Consultant",
+  "text": "Let me play back what I'd put in a first version, just so you can hear it, not to sign anything. One. A job board, one row per job, from won quote to invoiced, with the stages you use, proofing, production, ready, installed, invoiced. Both sites on it, with a site column, so Flint has its own view of the same thing rather than its own copy. Two. The proof and its approval on the job, so the floor sees the signed version and only the signed version, and a change after sign-off is a visible change, not a reply in someone's inbox. Three. The ticket printed from the job, so it reprints when the job changes. Four. Install scheduling for the six crews, off the same jobs, so a job that's gone back into paint can't show as ready. Five. An installed flag that tells Bronwyn, so the invoice follows the install and not the Friday walk. Quoting stays in the estimating tool and the job number keeps coming from the accounting system. Is that the right shape?"
+ },
+ "del_scope_agree": {
+  "location": "00:44:48 Delphine Castellane (Operations Director)",
+  "line": 237,
+  "speaker": "Delphine Castellane",
+  "text": "That's the right shape. Two things. Don't build the quoting in it, ever, Fergus will never forgive me. The estimating tool stays. And the job number has to come from the accounting system, we're not typing that twice either."
+ },
+ "hen_jobnumber_req": {
+  "location": "00:45:06 Henrike Solano (Customer Service Lead)",
+  "line": 238,
+  "speaker": "Henrike Solano",
+  "text": "The job number has to come from the accounting system. That's mine as well. If a coordinator's typing it, it'll be wrong one time in fifty and that's the one that goes to the wrong customer."
+ },
+ "ros_screen_req": {
+  "location": "00:45:23 Rosalind Achebe (Production Manager)",
+  "line": 239,
+  "speaker": "Rosalind Achebe",
+  "text": "And the floor gets a screen on the wall, not tablets. I said it, I'll say it again so it's written down."
+ },
+ "con_asks_delphine_about_gideon": {
+  "location": "00:45:34 Consultant",
+  "line": 240,
+  "speaker": "Consultant",
+  "text": "Written down. Delphine, Gideon's view on that shape?"
+ },
+ "del_relayed_nod": {
+  "location": "00:45:39 Delphine Castellane (Operations Director)",
+  "line": 241,
+  "speaker": "Delphine Castellane",
+  "text": "He's nodding. Take that as a yes. He's not going to say anything on a call with fourteen people on it, he never does."
+ },
+ "con_commitment_q": {
+  "location": "00:45:51 Consultant",
+  "line": 242,
+  "speaker": "Consultant",
+  "text": "I can see a few nods, which I'll take as encouragement and not as an answer. So let me ask it properly. Delphine, is this worth taking forward to a first version you can look at?"
+ },
+ "del_commitment": {
+  "location": "00:46:09 Delphine Castellane (Operations Director)",
+  "line": 243,
+  "speaker": "Delphine Castellane",
+  "text": "Yes. Show me something. I don't want a proposal, I don't want a price, I want to see it run a job."
+ },
+ "con_propose_next": {
+  "location": "00:46:20 Consultant",
+  "line": 244,
+  "speaker": "Consultant",
+  "text": "Then here's what I'd propose. I put a first version together with those five pieces, in your words, jobs, tickets, proofs, crews, installed, on made-up jobs unless you'd rather I used real ones, and we walk through it together. Forty-five minutes. Wednesday the twenty-first, two o'clock Eastern?"
+ },
+ "del_nextstep": {
+  "location": "00:46:43 Delphine Castellane (Operations Director)",
+  "line": 245,
+  "speaker": "Delphine Castellane",
+  "text": "Wednesday the twenty-first at two works. Same room, or as much of it as I can get. I'll ask Gideon."
+ },
+ "con_invite": {
+  "location": "00:46:52 Consultant",
+  "line": 246,
+  "speaker": "Consultant",
+  "text": "Wednesday the twenty-first, two o'clock Eastern. I'll send the invite to you today and you forward it to whoever should be there."
+ },
+ "del_send_sheets": {
+  "location": "00:47:04 Delphine Castellane (Operations Director)",
+  "line": 247,
+  "speaker": "Delphine Castellane",
+  "text": "I'll forward it today. And I'll send you the job sheet by Friday, both of them, so you can see what forty columns looks like. Names off, if that's all right."
+ },
+ "con_log_q": {
+  "location": "00:47:18 Consultant",
+  "line": 248,
+  "speaker": "Consultant",
+  "text": "Names off is fine. Rosalind, the remake log count for the last quarter, in a week?"
+ },
+ "ros_log_commit": {
+  "location": "00:47:26 Rosalind Achebe (Production Manager)",
+  "line": 249,
+  "speaker": "Rosalind Achebe",
+  "text": "In a week. I'll count it myself so it's counted the same way all the way through."
+ },
+ "con_bron_list": {
+  "location": "00:47:35 Consultant",
+  "line": 250,
+  "speaker": "Consultant",
+  "text": "And Bronwyn's list. The crew rate, the write-off figure from the books, and the invoicing question. I'll send that to her tonight."
+ },
+ "del_chase_bron": {
+  "location": "00:47:47 Delphine Castellane (Operations Director)",
+  "line": 251,
+  "speaker": "Delphine Castellane",
+  "text": "Copy me and I'll chase her."
+ },
+ "con_admin_q": {
+  "location": "00:47:51 Consultant",
+  "line": 252,
+  "speaker": "Consultant",
+  "text": "One more, and it's a question rather than an action. Anton's checklist, and who in marketing looks after the account you've already got. I'd like to know both before I build anything in an account that already has people in it."
+ },
+ "del_admin_commit": {
+  "location": "00:48:10 Delphine Castellane (Operations Director)",
+  "line": 253,
+  "speaker": "Delphine Castellane",
+  "text": "I'll find out who the admin is. And I'll get Anton's list. He's still on, he'll have heard that."
+ },
+ "con_recap": {
+  "location": "00:48:19 Consultant",
+  "line": 254,
+  "speaker": "Consultant",
+  "text": "Thank you. And I'll send a short recap by end of day tomorrow, what I heard and the next steps, so you can correct anything I've got wrong. That's it from me. Thank you all, genuinely, this was a lot of people giving up an hour."
+ }
+}

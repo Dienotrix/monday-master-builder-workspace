@@ -1,0 +1,255 @@
+line	time	label	segments (owner: text)
+1	00:00:03	Consultant	Consultant: Perpetua, hi. Can you hear me all right? || Perpetua Thackeray: I can
+2	00:00:07	Perpetua Thackeray	Perpetua Thackeray: hear you. Hang on, let me get
+3	00:00:10	Consultant	Perpetua Thackeray: the door. Liesl's just coming in. || Consultant: No rush. || Perpetua Thackeray: Okay. We're here. Liesl's in
+4	00:00:21	Perpetua Thackeray	Perpetua Thackeray: the room with me, and Tariq's on from his desk because he's got the phones, so if he goes quiet it's a doctor, || Tariq Paulsen: not us. I'm
+5	00:00:31	Tariq Paulsen	Tariq Paulsen: here. I've muted the desk phone but it'll flash. || Consultant: That's fine. Tariq, thanks for making the time.
+6	00:00:38	Consultant	Consultant: I know the afternoon's your busy || Tariq Paulsen: stretch. It's all
+7	00:00:42	Tariq Paulsen	Tariq Paulsen: busy. This is fine. || Consultant: Good. And on my side, this is Maren. Maren works with me
+8	00:00:48	Consultant	Consultant: on connections to other systems, the plumbing side. You said on the phone that the lab software was going to come up a lot, so I asked her along, and she's mostly here to || Maren Solberg: listen. Hi
+9	00:01:02	Maren Solberg	Maren Solberg: everyone. Mostly listening, yes. I'll have a few questions about the lab software when we get there, and I promise they'll be short. || Perpetua Thackeray: Good. Because that's the bit
+10	00:01:13	Perpetua Thackeray	Perpetua Thackeray: Bertrand's going to
+11	00:01:15	Consultant	Perpetua Thackeray: ask me about, so. || Consultant: Understood. So before we get into it, how I'd like to use the forty minutes. This is a conversation, not a pitch. I want to understand how a case gets through the building today, where that hurts, and what you'd want instead. I'm not going to show you anything. And if what you need is a better whiteboard, I'll say that.
+12	00:01:39	Perpetua Thackeray	Perpetua Thackeray: [laughs] That's why you're here and not the last lot. || Liesl Vandermeulen: Ask away. Yeah.
+13	00:01:44	Liesl Vandermeulen	Liesl Vandermeulen: We've had the dashboard version.
+14	00:01:46	Consultant	Consultant: I'm sure you have. Perpetua, give me the two-minute version of Ketteridge. What you make, for whom, how big. || Perpetua Thackeray: Sure. We're a full-service dental
+15	00:01:55	Perpetua Thackeray	Perpetua Thackeray: lab. Crowns and bridges, that's most of it, then removables, dentures and partials, and implant work, which is the bit that's || Consultant: growing. And
+16	00:02:04	Consultant	Consultant: who are the customers? Dentists, I assume, but
+17	00:02:08	Perpetua Thackeray	Consultant: how many? || Perpetua Thackeray: About a hundred and ninety practices. Individual dentists, mostly, and then one group. Riverbend Dental Partners, which is forty-two offices across the state, and they're
+18	00:02:18	Perpetua Thackeray	Perpetua Thackeray: about thirty percent of the work now. They came on in March. Two hundred and seventy-odd cases a month between them.
+19	00:02:26	Consultant	Consultant: Thirty percent from one customer.
+20	00:02:28	Perpetua Thackeray	Perpetua Thackeray: One customer, forty-two offices, and about three hundred dentists who each think they're the customer. || Liesl Vandermeulen: Which they
+21	00:02:35	Perpetua Thackeray	Liesl Vandermeulen: are,
+22	00:02:36	Liesl Vandermeulen	Liesl Vandermeulen: on the floor. Every one of them has a way they like their margins, and a shade they swear by, and half of them write it on the Rx and half of them || Perpetua Thackeray: don't. And
+23	00:02:49	Perpetua Thackeray	Perpetua Thackeray: the half that don't are the ones who
+24	00:02:53	Consultant	Perpetua Thackeray: send it back. || Consultant: Right. And size, headcount?
+25	00:02:56	Perpetua Thackeray	Perpetua Thackeray: Forty-eight people. Thirty-four technicians across the departments, four drivers, six in the office, which is Tariq and his team, and then me and Bertrand. Bertrand's my co-owner. He founded the place, he's still the best ceramist in it, and he's not on this call because he's at the bench, which tells you || Consultant: something.
+26	00:03:16	Consultant	Consultant: It does. And it's one building? || Perpetua Thackeray: One building here in Lexington, and
+27	00:03:21	Perpetua Thackeray	Perpetua Thackeray: then a small room in Louisville, three technicians doing removables only. We call it the Louisville room. It's on the same lab software, || Liesl Vandermeulen: supposedly.
+28	00:03:30	Liesl Vandermeulen	Liesl Vandermeulen: Supposedly. It's on it. They just don't touch it. They've got their own whiteboard and their own way and I go up once a month and || Perpetua Thackeray: pretend I don't see it. She || Perpetua Thackeray: does. And
+29	00:03:43	Perpetua Thackeray	Perpetua Thackeray: I pretend I don't know
+30	00:03:45	Maren Solberg	Perpetua Thackeray: she pretends. || Maren Solberg: Can I ask one thing now, because it'll shape what I listen
+31	00:03:51	Tariq Paulsen	Maren Solberg: for. The lab software. Is it installed on a computer in the building or is it something you log into? || Tariq Paulsen: Log in. It moved to the hosted version two years ago. || Maren Solberg: So || Maren Solberg: the vendor holds the data and you
+32	00:04:06	Maren Solberg	Maren Solberg: reach it through a browser.
+33	00:04:08	Tariq Paulsen	Tariq Paulsen: Yes. Which Bertrand hates, || Maren Solberg: for the record. Noted. || Consultant: We'll come back to that.
+34	00:04:13	Consultant	Consultant: So how did you two end up on a call with me? What happened?
+35	00:04:19	Perpetua Thackeray	Perpetua Thackeray: Two things. The honest one is Riverbend. Their contract renews in January, and the renewal has a line in it now that says they want turnaround reporting per case, per office. Days from received to shipped, holds, remakes, by the second week of January, or they || Tariq Paulsen: start
+36	00:04:36	Tariq Paulsen	Perpetua Thackeray: looking. || Tariq Paulsen: Sorry. Go on. || Perpetua Thackeray: No, that's the sentence. They start looking. And we can't produce it. We can produce it
+37	00:04:44	Perpetua Thackeray	Perpetua Thackeray: for a case if you give me twenty minutes and a highlighter. For a month of cases, for forty-two offices, || Consultant: no. And
+38	00:04:53	Consultant	Consultant: the second thing?
+39	00:04:55	Perpetua Thackeray	Perpetua Thackeray: We lost a group in the spring. Twelve offices, Bluegrass Family Dental, nine years with us. They left over remakes. Not the number of remakes, the fact that when they asked us what their remake rate was, we couldn't tell them. We guessed. And they had a number, because they'd counted. || Consultant: So
+40	00:05:14	Consultant	Consultant: they knew more about your work than you did. || Perpetua Thackeray: That's exactly how
+41	00:05:19	Perpetua Thackeray	Perpetua Thackeray: it felt. And it was May, and I said never again, and it's November already and here we || Consultant: are. Okay.
+42	00:05:27	Consultant	Consultant: That's a clear pair of reasons. Before I write them down, what exactly does the letter ask for?
+43	00:05:34	Perpetua Thackeray	Perpetua Thackeray: Their operations person sent it, and the line says, and I'm reading it off my screen, per-case turnaround and remake reporting by office, available on request, from the renewal date. Available on request. Which means somebody in one of forty-two offices can email Tariq on a Tuesday and ask for a month, and Tariq || Tariq Paulsen: can't. I can't.
+44	00:05:55	Tariq Paulsen	Tariq Paulsen: I can do one case. I can't do a month.
+45	00:05:59	Perpetua Thackeray	Perpetua Thackeray: And in September their operations person sat in this room and said, we love your work and we can't see it. That's the sentence I keep hearing. We love it and we can't see it. The renewal meeting is the second week of January, in their office, and I'm going to walk in with a report or I'm going to walk in with an apology.
+46	00:06:23	Consultant	Consultant: Okay. Let's do the boring bit now. Liesl, walk me through a case. From the moment something arrives at the door to the moment it goes back out. Slowly, and assume I know nothing about a dental lab. || Liesl Vandermeulen: Okay. So a
+47	00:06:38	Liesl Vandermeulen	Liesl Vandermeulen: case is one prescription from one doctor for one patient. The doctor sends an Rx, that's the script, with either an impression in a box or a scan, and increasingly it's a scan. || Tariq Paulsen: It
+48	00:06:51	Tariq Paulsen	Tariq Paulsen: comes to me, or one of my two, and we enter it into the lab software. Case number, doctor, office, patient, what they've ordered, units, || Consultant: the seat date. The
+49	00:07:02	Consultant	Consultant: seat date being? || Liesl Vandermeulen: The appointment when
+50	00:07:05	Liesl Vandermeulen	Liesl Vandermeulen: the dentist puts it in the patient's mouth. That's the date that matters. Everything runs backwards from the || Consultant: seat date.
+51	00:07:13	Consultant	Consultant: Got it. So it's not a seat like a user seat, it's a date.
+52	00:07:19	Tariq Paulsen	Tariq Paulsen: It's the appointment. Yeah. || Liesl Vandermeulen: And that's || Liesl Vandermeulen: when we get a ticket. The lab software
+53	00:07:25	Liesl Vandermeulen	Liesl Vandermeulen: prints a ticket, it's a paper form, it goes in a pan, || Tariq Paulsen: the pan's
+54	00:07:31	Liesl Vandermeulen	Liesl Vandermeulen: a plastic tray, and the pan goes to the first department. Model room, for an impression. Design, for
+55	00:07:38	Consultant	Liesl Vandermeulen: a scan. || Consultant: And then? || Liesl Vandermeulen: And then it walks.
+56	00:07:42	Liesl Vandermeulen	Liesl Vandermeulen: Model room to design to whichever department makes the thing, so crown and bridge, removables, implants, and then finishing, and then QC, which is my bench, and then shipping. Six departments, || Consultant: roughly
+57	00:07:54	Consultant	Consultant: and each one, how do they know it's their turn? || Liesl Vandermeulen: Because the pan
+58	00:07:59	Liesl Vandermeulen	Liesl Vandermeulen: turns up. That's the system. The pan turns up on your || Consultant: bench. Okay.
+59	00:08:04	Consultant	Consultant: [laughs] And how does a pan end up on the wrong bench? || Liesl Vandermeulen: Colour. The
+60	00:08:09	Liesl Vandermeulen	Liesl Vandermeulen: pans are colour coded by product, red for crown and bridge, blue for removables, green for implants, and if you're new and it's four o'clock and the pan's grey because we ran out of red, it goes wherever the last grey one went. The four new techs are where the wrong pans come from. Two of them are good, || Perpetua Thackeray: by the way. She || Perpetua Thackeray: says that so Bertrand
+61	00:08:34	Perpetua Thackeray	Perpetua Thackeray: doesn't hear it from me first.
+62	00:08:37	Consultant	Consultant: And the ticket, does anyone write on it?
+63	00:08:41	Consultant	Liesl Vandermeulen: Everybody writes
+64	00:08:42	Liesl Vandermeulen	Liesl Vandermeulen: on it. The tech initials it when they finish their bit, sometimes. The date, sometimes. If there's a problem it gets a sticky note. || Perpetua Thackeray: And the
+65	00:08:52	Perpetua Thackeray	Perpetua Thackeray: lab software, which is the thing Bertrand will say does all of this, has a status field on every case, and the status on every case is received, and then one day it's shipped, and nothing
+66	00:09:06	Consultant	Perpetua Thackeray: in between. || Consultant: Nothing in between. || Perpetua Thackeray: Nobody updates it.
+67	00:09:10	Perpetua Thackeray	Perpetua Thackeray: They've got gloves on. They're at a bench with a handpiece. The computer's in the office. || Consultant: So
+68	00:09:17	Consultant	Consultant: the software knows a case came in and a case went out.
+69	00:09:22	Consultant	Perpetua Thackeray: And what
+70	00:09:23	Perpetua Thackeray	Perpetua Thackeray: it cost. And who to bill. It's very good at the billing. || Tariq Paulsen: It is
+71	00:09:29	Tariq Paulsen	Tariq Paulsen: good at the billing. That's the one thing I'd fight for. Invoices come out of it the day a case ships and go to the accounting system overnight, and I don't want to touch || Consultant: that. Noted, || Consultant: Tariq, what happens when a
+72	00:09:44	Consultant	Consultant: doctor calls and
+73	00:09:46	Tariq Paulsen	Consultant: says where's my case? || Tariq Paulsen: I look it up. It says received. || Liesl Vandermeulen: And then he || Liesl Vandermeulen: gets
+74	00:09:52	Liesl Vandermeulen	Liesl Vandermeulen: up. Tell them, || Tariq Paulsen: Tariq. I
+75	00:09:54	Tariq Paulsen	Tariq Paulsen: get up.
+76	00:09:55	Consultant	Consultant: You get up.
+77	00:09:57	Tariq Paulsen	Tariq Paulsen: I go and find the pan. I start where it should be from the date, and I walk the departments until I find it, and then I || Consultant: call them. How
+78	00:10:08	Consultant	Consultant: many times a day?
+79	00:10:10	Tariq Paulsen	Tariq Paulsen: Twenty. Twenty-five on a Monday. Fifteen before || Consultant: Riverbend. And
+80	00:10:14	Consultant	Consultant: each one is?
+81	00:10:16	Tariq Paulsen	Tariq Paulsen: Five minutes if it's where it should be. Fifteen if it isn't. Call it an hour and a half a day, all in, and my two do some of it || Perpetua Thackeray: too. Yes. I've watched || Perpetua Thackeray: Tariq do the
+82	00:10:30	Perpetua Thackeray	Perpetua Thackeray: walk while a doctor's office is on hold and it's the single most expensive thing in the building, I think, and it's not on
+83	00:10:39	Consultant	Perpetua Thackeray: any report. || Consultant: I want to come back to that as a pain in its own right. Let me finish the journey first. Finishing, QC, shipping. Liesl, QC is you? || Liesl Vandermeulen: QC is me, or
+84	00:10:51	Liesl Vandermeulen	Liesl Vandermeulen: one of two seniors if I'm not there. I look at every case that leaves. Every one. Bertrand looks at the implant cases as well, because he doesn't trust anyone with those, including me, [laughs] which is fair. If it's right it goes to shipping, || Consultant: if it's
+85	00:11:08	Consultant	Consultant: not right? || Liesl Vandermeulen: It goes back to whoever
+86	00:11:11	Liesl Vandermeulen	Liesl Vandermeulen: did it, with a note, and it gets fixed, or if it can't be fixed it's a remake, and that's a whole || Tariq Paulsen: thing.
+87	00:11:20	Tariq Paulsen	Tariq Paulsen: Sorry. Go on. || Consultant: Hold that. We'll do remakes
+88	00:11:24	Consultant	Consultant: properly in a minute. Shipping? || Liesl Vandermeulen: Shipping's four drivers, each with
+89	00:11:28	Liesl Vandermeulen	Liesl Vandermeulen: a route, and the pan gets a box and a label and goes on the route for the seat date. Or before it, hopefully. The drivers don't know a case is ready until they walk into shipping in the morning, so if it's ready at two in the afternoon it waits for || Tariq Paulsen: tomorrow. Which
+90	00:11:48	Tariq Paulsen	Tariq Paulsen: is another call I get.
+91	00:11:50	Consultant	Consultant: And the Louisville room? || Liesl Vandermeulen: Same thing but
+92	00:11:53	Liesl Vandermeulen	Liesl Vandermeulen: smaller. Their pans don't come here unless it's an implant case, and those come down on the afternoon route because the mill's here. They ship from there. And they have their own || Consultant: whiteboard. Their
+93	00:12:06	Consultant	Consultant: own whiteboard. Let's talk about yours. What is on the whiteboard? || Liesl Vandermeulen: Every case that's
+94	00:12:12	Liesl Vandermeulen	Liesl Vandermeulen: due in the next three days, by department, in my handwriting. It's a six-foot whiteboard and it's full by Wednesday. I update it twice a day, morning and after lunch, from walking the floor. And then I type the same thing into a spreadsheet so Tariq can see it without || Tariq Paulsen: walking. Which
+95	00:12:31	Tariq Paulsen	Tariq Paulsen: helps. When it's up to date. By two o'clock it || Liesl Vandermeulen: isn't. || Liesl Vandermeulen: By two o'clock it isn't, no. Because a pan moves the
+96	00:12:40	Liesl Vandermeulen	Liesl Vandermeulen: minute I've written it down. || Perpetua Thackeray: And the
+97	00:12:43	Perpetua Thackeray	Perpetua Thackeray: spreadsheet is the thing we send Riverbend when they ask. A screenshot of Liesl's spreadsheet. That's our reporting. That's what a forty-two office group gets
+98	00:12:53	Consultant	Perpetua Thackeray: from us. || Consultant: Let me say back what I've heard, and you tell me where I'm wrong. A case comes in, Tariq enters it, it gets a paper ticket and a pan, the pan walks through six departments, the software says received the whole time, the whiteboard and a spreadsheet are the only view of where anything is, and Tariq walks the floor twenty times a day to answer the phone. And it ships and it bills, and that part works.
+99	00:13:22	Perpetua Thackeray	Perpetua Thackeray: That's it. That's the whole lab. || Liesl Vandermeulen: You missed
+100	00:13:26	Liesl Vandermeulen	Liesl Vandermeulen: holds and remakes,
+101	00:13:28	Consultant	Liesl Vandermeulen: but you said you'd come back. || Consultant: Right now. Remakes first, because it's the reason Bluegrass left. Liesl, what's a remake, and how many do you get?
+102	00:13:38	Liesl Vandermeulen	Liesl Vandermeulen: A remake is a case that comes back from the doctor because it doesn't fit, or the shade's wrong, or it broke, and we do it again. From the model. || Consultant: Thirty-one last month.
+103	00:13:50	Consultant	Consultant: Thirty-one out of how many?
+104	00:13:52	Liesl Vandermeulen	Liesl Vandermeulen: About nine hundred cases a month. So three and a bit percent, which sounds fine until you know that || Perpetua Thackeray: Riverbend
+105	00:14:00	Perpetua Thackeray	Perpetua Thackeray: told us, in the renewal letter, that the number they'll accept is two. And Bluegrass was at four and a half when they left, which we know because they told us, and we checked afterwards from the clipboards, and they were right.
+106	00:14:16	Consultant	Consultant: And when a remake comes in, what happens? || Liesl Vandermeulen: It comes to my bench first.
+107	00:14:22	Liesl Vandermeulen	Liesl Vandermeulen: I decide if it's a remake or a repair, || Consultant: and
+108	00:14:26	Consultant	Consultant: the difference is? || Liesl Vandermeulen: A repair I
+109	00:14:29	Liesl Vandermeulen	Liesl Vandermeulen: can fix in an hour, a remake starts from the model again, and the doctor doesn't care which it is, it's late either way. If it's a remake, Tariq makes a new ticket, same case number, dash R, and it goes to the front of the line in whatever department, which is its own problem, because it || Tariq Paulsen: bumps
+110	00:14:50	Tariq Paulsen	Liesl Vandermeulen: everything. || Tariq Paulsen: Yeah. The front of the line means somebody else's case moves, and then that one's late, and then that's a || Consultant: call. Right.
+111	00:14:59	Consultant	Consultant: And do you track them? Remakes? || Liesl Vandermeulen: There's a
+112	00:15:03	Liesl Vandermeulen	Liesl Vandermeulen: clipboard. By the QC bench. I write the case number and the doctor and what went wrong, and at the end of the month I add them up.
+113	00:15:14	Consultant	Liesl Vandermeulen: That's the thirty-one. || Consultant: And who's on the clipboard? Which doctors, I mean.
+114	00:15:19	Liesl Vandermeulen	Liesl Vandermeulen: The same ones, mostly. || Perpetua Thackeray: One office
+115	00:15:22	Perpetua Thackeray	Perpetua Thackeray: in the group, one office, I'm not going to say which one on a call, is about half of the group's remakes on its own. And the group doesn't know that, and I'm not sure I want them to find out from || Consultant: us. Understood,
+116	00:15:38	Consultant	Consultant: and I won't write the name down. What does a remake cost you? Materials first.
+117	00:15:44	Liesl Vandermeulen	Liesl Vandermeulen: A hundred and forty in materials, average. Zirconia's less, an implant case is a lot more. I do the materials orders, so I know that one. || Consultant: And the
+118	00:15:55	Consultant	Consultant: bench time?
+119	00:15:56	Liesl Vandermeulen	Liesl Vandermeulen: Three hours. Sometimes more for an implant case, but three, across the departments, because it goes through all of them again.
+120	00:16:04	Consultant	Consultant: Who feels a remake? Beyond the doctor.
+121	00:16:07	Liesl Vandermeulen	Liesl Vandermeulen: Everybody. The tech does it again and doesn't get paid extra for it, the driver does the run again, the doctor's chair sits empty for the second appointment, and I hear about it from Bertrand, because he sees the materials go out twice. || Consultant: And the
+122	00:16:24	Consultant	Consultant: drivers? || Liesl Vandermeulen: A remake gets picked up
+123	00:16:27	Liesl Vandermeulen	Liesl Vandermeulen: and delivered again, so two more stops, but the route's going there anyway. I wouldn't || Consultant: count it. Fair.
+124	00:16:34	Consultant	Consultant: Perpetua, what's a technician's loaded rate? Or what would you use?
+125	00:16:39	Perpetua Thackeray	Perpetua Thackeray: Thirty-eight. Loaded, with benefits. Bertrand uses forty-two but he's thinking of himself. Use thirty-eight.
+126	00:16:45	Consultant	Consultant: Thirty-eight. And is it getting worse? The remake rate?
+127	00:16:49	Liesl Vandermeulen	Liesl Vandermeulen: It feels like it. Since March, since the volume went up and we hired four new techs. I couldn't prove it. I'd have to go back through the || Consultant: clipboards. Could
+128	00:17:00	Consultant	Consultant: the software tell you?
+129	00:17:02	Perpetua Thackeray	Perpetua Thackeray: It could tell me remakes by month, because of the dash R. If I asked it. I haven't asked it. || Consultant: That's
+130	00:17:10	Consultant	Consultant: a report I'd want before we meet again, if you're willing.
+131	00:17:15	Perpetua Thackeray	Perpetua Thackeray: I'll pull it.
+132	00:17:17	Consultant	Consultant: Tariq, the walk. Give me a bad one.
+133	00:17:21	Tariq Paulsen	Tariq Paulsen: Last Tuesday. The Nicholasville office, Riverbend, calls at ten about a bridge for a seat on Thursday. Crown and bridge, not there. Design, not there. It's in removables, || Liesl Vandermeulen: because || Liesl Vandermeulen: somebody put it
+134	00:17:33	Liesl Vandermeulen	Liesl Vandermeulen: in the wrong pan colour, so it went to the wrong bench, and it sat there two || Tariq Paulsen: days. Two days
+135	00:17:41	Tariq Paulsen	Tariq Paulsen: on a bench where nobody was going to touch it. I found it because I asked everybody in the building. Forty minutes.
+136	00:17:50	Consultant	Consultant: And the seat?
+137	00:17:52	Tariq Paulsen	Tariq Paulsen: [crosstalk] We missed it. They rescheduled the patient. That's a credit.
+138	00:17:56	Consultant	Consultant: A credit meaning?
+139	00:17:58	Perpetua Thackeray	Perpetua Thackeray: Meaning we don't charge for it, or we knock something off. Late credits. Last year, twenty-eight thousand -- no, twenty-eight thousand six hundred in credits for late cases. Twenty-eight six. That's from the books, Tariq pulled it for me last week.
+140	00:18:13	Tariq Paulsen	Tariq Paulsen: That's the number. It's everything coded late, though, not just || Perpetua Thackeray: the walk.
+141	00:18:18	Perpetua Thackeray	Perpetua Thackeray: Not just the walk. Holds are in there too. Most of it's holds, I think.
+142	00:18:24	Consultant	Consultant: Could you split it?
+143	00:18:26	Consultant	Perpetua Thackeray: Not without
+144	00:18:27	Perpetua Thackeray	Perpetua Thackeray: going through every one. || Tariq Paulsen: Tariq? Not
+145	00:18:30	Tariq Paulsen	Tariq Paulsen: easily. The code just says late. || Consultant: Then I'll carry it as one number for late cases and not pretend to know the
+146	00:18:39	Consultant	Consultant: split. Tariq's rate, or the office's? Perpetua?
+147	00:18:42	Perpetua Thackeray	Perpetua Thackeray: Thirty-one for the office. Loaded.
+148	00:18:44	Consultant	Consultant: Thanks. And is the walk
+149	00:18:46	Tariq Paulsen	Consultant: getting worse, or is it just Riverbend? || Tariq Paulsen: It's Riverbend. It's twenty-five a day now and it was fifteen. It's not going to get better on its own, if that's what you're asking, because they're bringing on more || Consultant: offices. Right.
+150	00:19:01	Consultant	Consultant: Holds. Liesl, what's a hold? || Liesl Vandermeulen: A hold is
+151	00:19:05	Liesl Vandermeulen	Liesl Vandermeulen: when a case can't go forward. The impression's bad, or the scan's got a gap in it, or the doctor's asked for something that doesn't make sense and we need to ask. So the tech stops and the pan goes on the hold shelf with
+152	00:19:22	Consultant	Liesl Vandermeulen: a sticky note. || Consultant: And then?
+153	00:19:24	Liesl Vandermeulen	Liesl Vandermeulen: And then somebody calls the office. || Perpetua Thackeray: Somebody.
+154	00:19:27	Perpetua Thackeray	Perpetua Thackeray: That's the problem. It's
+155	00:19:29	Liesl Vandermeulen	Perpetua Thackeray: whoever remembers. || Liesl Vandermeulen: And the reason it's whoever remembers is that the tech who puts it on the shelf is the one least likely to want to call, because it's usually their own fault it took so long to notice. So the pan sits and the sticky note goes yellow. || Perpetua Thackeray: And then it's my
+156	00:19:49	Perpetua Thackeray	Perpetua Thackeray: problem, or Tariq's, or nobody's.
+157	00:19:51	Perpetua Thackeray	Perpetua Thackeray: It's whoever remembers. The tech's supposed to tell Tariq, Tariq's supposed to email the office, the office is supposed to answer, and any one of those can take two days. Twenty holds a week, roughly, and every one of them loses two days on average, and the seat date doesn't || Consultant: move. Twenty
+158	00:20:10	Consultant	Consultant: a week.
+159	00:20:11	Liesl Vandermeulen	Liesl Vandermeulen: About that. Nobody
+160	00:20:13	Consultant	Liesl Vandermeulen: counts them. || Consultant: Tell me about one.
+161	00:20:16	Consultant	Liesl Vandermeulen: Last month.
+162	00:20:17	Liesl Vandermeulen	Liesl Vandermeulen: Riverbend again, a partial, the scan had a hole in it where the [inaudible] was. It went on the shelf on a Monday, I saw it Thursday when I did the whiteboard, and nobody had called the office. Four days. The office said, why didn't you tell us Monday, and there's no answer to that. || Tariq Paulsen: It became
+163	00:20:38	Tariq Paulsen	Tariq Paulsen: a credit.
+164	00:20:39	Consultant	Consultant: Is it getting worse? Holds? || Liesl Vandermeulen: Honestly, I don't know.
+165	00:20:43	Liesl Vandermeulen	Liesl Vandermeulen: Nobody counts them. I couldn't tell you if it's more than last || Perpetua Thackeray: year. Tariq?
+166	00:20:49	Tariq Paulsen	Tariq Paulsen: I only see the ones that turn into credits. The department leads would know, they're the ones who put a case on the || Perpetua Thackeray: shelf. And they're || Perpetua Thackeray: at the bench. Which
+167	00:21:00	Perpetua Thackeray	Perpetua Thackeray: is the whole point.
+168	00:21:02	Consultant	Consultant: Noted as something the leads could tell us and this room can't. Who does a hold reach? Who feels it? || Liesl Vandermeulen: The tech, because
+169	00:21:11	Liesl Vandermeulen	Liesl Vandermeulen: the case comes back to them cold a week later. Tariq, because the office calls him. The driver, because the route changes. And the patient, || Perpetua Thackeray: who's
+170	00:21:21	Liesl Vandermeulen	Perpetua Thackeray: sitting
+171	00:21:22	Perpetua Thackeray	Perpetua Thackeray: in a chair with a temporary that's falling out. That's who Riverbend
+172	00:21:27	Consultant	Perpetua Thackeray: hears from. || Consultant: Different kind of question. If this worked, a year from now, what's different? Perpetua first.
+173	00:21:34	Perpetua Thackeray	Perpetua Thackeray: I want Tariq to answer where's my case without standing up. And I want to tell Riverbend their remake rate before they tell me. Those two. Everything else is nice. || Liesl Vandermeulen: If the
+174	00:21:46	Liesl Vandermeulen	Liesl Vandermeulen: pans tell me where they are without me walking, I'm happy. That's the whole thing for me. And no typing on the floor. If it needs typing it || Tariq Paulsen: dies. I just
+175	00:21:58	Tariq Paulsen	Tariq Paulsen: want to stop being the person who finds things. || Consultant: I'm writing those down as yours. Who decides on something like this? Money
+176	00:22:07	Consultant	Consultant: and the tool both.
+177	00:22:09	Perpetua Thackeray	Perpetua Thackeray: Me, up to twenty thousand. Above that it's me and Bertrand together, and Bertrand's line is going to be that the lab software already does this if we'd just use it. Which is true, in the sense that it has a status field. And we've never disagreed on anything over a thousand dollars in eleven years, so it's not a fight, it's a conversation I have to have with him before I have it with you. || Consultant: And
+178	00:22:37	Consultant	Consultant: will he be on the next call? || Perpetua Thackeray: If I ask
+179	00:22:41	Perpetua Thackeray	Perpetua Thackeray: him he'll come. He'll sit at the back and say nothing until the end and then say the thing about the status || Consultant: field. Then
+180	00:22:50	Consultant	Consultant: I'd like him there. What would he need to see?
+181	00:22:54	Perpetua Thackeray	Perpetua Thackeray: Techs not typing. That's it. He's said it to me, he'll say it to you. If a tech has to type, he's out, and honestly so am I, because Liesl's right, it dies.
+182	00:23:06	Consultant	Consultant: Understood. What else would get in the way? Anything. || Liesl Vandermeulen: We tried a
+183	00:23:11	Liesl Vandermeulen	Liesl Vandermeulen: task app on the floor two years ago. Somebody's nephew set it up. It lasted a month, because it was typing. || Perpetua Thackeray: The Louisville || Perpetua Thackeray: room.
+184	00:23:20	Perpetua Thackeray	Perpetua Thackeray: If Louisville isn't on it from day one, it's not real. They're three people and a whiteboard and they've been there six years, and Riverbend's Louisville offices go there, and the group doesn't care which building it is, it's one
+185	00:23:35	Tariq Paulsen	Perpetua Thackeray: lab to them. || Tariq Paulsen: December. Nothing changes on the floor in December. Everybody's using their insurance before the year ends, we do twelve hundred cases, and if you put a new thing in front of the techs then, you'll lose it and || Consultant: them. So
+186	00:23:51	Consultant	Consultant: January, but Riverbend wants it in January.
+187	00:23:54	Perpetua Thackeray	Perpetua Thackeray: The second week of January. So it has to exist before December and the techs have to be using it in the first week of January. Which is tight, I know that. And in order, it's remakes, then the walk, then holds, and I'll fight Liesl on that.
+188	00:24:12	Liesl Vandermeulen	Liesl Vandermeulen: Holds first. But it's her money, so remakes first.
+189	00:24:16	Consultant	Consultant: It's tight. I'll say that back at the end. Anything else? What's the lab software vendor going to say? || Perpetua Thackeray: They'll say buy
+190	00:24:25	Perpetua Thackeray	Perpetua Thackeray: their tracking module. We had one of their consultants in for an afternoon in July, and they showed Bertrand a screen with a keyboard in front of it, in each department, and somebody typing at it between cases. It's typing. So, no. But the quote's on Bertrand's desk still, and he reads it when he's
+191	00:24:45	Consultant	Perpetua Thackeray: cross with me. || Consultant: Okay. That's an alternative in play and I'd rather know than not.
+192	00:24:51	Consultant	Consultant: Can I try to put a number on this? Not to scare anyone, just so we're all looking at the same thing, and you tell me where it's wrong. Remakes: thirty-one a month, a hundred and forty in materials, three hours at thirty-eight. That's a hundred and forty plus a hundred and fourteen, two hundred and fifty-four a remake, times thirty-one is seven thousand eight hundred and seventy-four a month, times twelve, ninety-four thousand four hundred and eighty-eight a year. The walk: an hour and a half a day for Tariq, call it seven and a half hours a week at thirty-one, fifty weeks, eleven thousand six hundred and twenty-five. Credits, twenty-eight thousand six hundred. That's a hundred and thirty-four thousand seven hundred and thirteen. Call it a hundred and thirty-five thousand a year. That's before Riverbend walks and before anybody's time but Tariq's. Perpetua, does that hold up, from where you sit? || Perpetua Thackeray [assent]: Yeah. That holds.
+193	00:25:47	Consultant	Consultant: Okay. I'm going to write that down as yours, not mine, and you'll see it again in what I send. || Liesl Vandermeulen: It's low. You
+194	00:25:56	Liesl Vandermeulen	Liesl Vandermeulen: haven't got my two seniors doing the walk when Tariq's out, which means QC stops, || Consultant: or
+195	00:26:02	Consultant	Consultant: the bumping. The front-of-the-line thing. || Liesl Vandermeulen: Or the bumping.
+196	00:26:06	Liesl Vandermeulen	Liesl Vandermeulen: It's a floor. It's the stuff
+197	00:26:09	Consultant	Liesl Vandermeulen: we can count. || Consultant: A floor you'd defend is worth more than a ceiling you wouldn't. The other direction. If the remake number was where Riverbend wants it and you could show it, what would you go after? Anything you'd not go after today.
+198	00:26:25	Perpetua Thackeray	Perpetua Thackeray: Riverbend has another sixty-odd offices in the next state that they're bringing on next year, and if we're the lab of record with the reporting, we get first look. That's probably another three hundred thousand a year. Honestly. Maybe more. And I'd go back to Bluegrass, but I'm not counting || Consultant: that. I'll
+199	00:26:44	Consultant	Consultant: write three hundred as your number with the probably attached to it.
+200	00:26:49	Perpetua Thackeray	Perpetua Thackeray: Keep the probably. And write down that Bluegrass was fifty-two thousand a year to us, because that's what a remake rate costs when nobody can say it out loud.
+201	00:27:00	Perpetua Thackeray	Perpetua Thackeray: Can I ask the question Bertrand's going to ask me? How does anything you build even get the cases out of the lab software? Because if Tariq has to type them in twice, we're done before we start.
+202	00:27:14	Consultant	Consultant: Maren, that's yours, but let me frame it. The case list is the thing we'd want. Every case, with its number, doctor, office, due date, product, units. Read out of the lab software on a schedule.
+203	00:27:28	Maren Solberg	Maren Solberg: Right. And the first question is whether it has an export or an interface. Most of these have a nightly export at least, a file that lands somewhere.
+204	00:27:39	Consultant	Consultant: A nightly file would be too slow for the walk, though. If a case comes in at nine and Tariq's asked about it at ten, it's not on the board yet.
+205	00:27:51	Maren Solberg	Maren Solberg: Then we'd want the interface, if there is one, and poll it. Every fifteen minutes is usually fine for a lab. The question is whether the vendor exposes the case list at all or only the invoices.
+206	00:28:05	Consultant	Consultant: And whether the Louisville room is in the same database. Because if it's a second instance, that's two feeds.
+207	00:28:12	Maren Solberg	Maren Solberg: Perpetua said it's on the same lab software, so I'd assume one database with a location field, but I'd want to see it. The other thing is the key. The case number.
+208	00:28:24	Consultant	Consultant: With the dash R for remakes. So a remake is the same case number with a suffix, which means the feed would give us two rows with the same root.
+209	00:28:35	Maren Solberg	Maren Solberg: Which is fine, actually. That's useful. We'd link them, remake to original, and that's your remake rate by doctor falling out of it for free. If the suffix is consistent.
+210	00:28:46	Consultant	Consultant: And if it isn't, if somebody types dash R in one place and R in another.
+211	00:28:52	Maren Solberg	Maren Solberg: Then we normalise it and log it. It's a small thing. The bigger thing is that the status field is never updated, so we can't read stage from the lab software. Stage has to live on our side.
+212	00:29:06	Consultant	Consultant: Which is the whole point. The lab software knows received and shipped, and everything between is ours.
+213	00:29:13	Maren Solberg	Maren Solberg: Right, and then the question is whether shipped comes back to us from the lab software or whether we set it. I'd read it. Their shipping is the truth, because it bills.
+214	00:29:25	Consultant	Consultant: Read it. Yes. And received we read. And everything in between is a tap on the floor.
+215	00:29:32	Maren Solberg	Maren Solberg: And nothing goes back. That's the other half of the answer for Bertrand, I think. We read the list, we never write to it.
+216	00:29:41	Consultant	Consultant: Is that a constraint we're choosing or one we're stuck with?
+217	00:29:46	Maren Solberg	Maren Solberg: Both, probably. Most of these don't let you write status through the interface anyway, and I wouldn't want to. Invoicing runs off it.
+218	00:29:55	Consultant	Consultant: Okay. So the feed question is: export or interface, how often, one database or two, is the case number consistent, and does shipped come through. Five questions.
+219	00:30:05	Maren Solberg	Maren Solberg: Five questions. I'll write them up for Tariq, because he'll know or he'll know who to ask at the vendor.
+220	00:30:13	Consultant	Consultant: And the answer to Perpetua's question is nobody types anything twice.
+221	00:30:18	Perpetua Thackeray	Perpetua Thackeray: Sorry, are you two done? Because I have a question.
+222	00:30:22	Consultant	Consultant: [laughs] We're done. That was us thinking out loud, and I'm aware you watched it.
+223	00:30:28	Perpetua Thackeray	Perpetua Thackeray: It was interesting. It was also nearly three minutes I didn't say anything, and I'm the customer. Go on, what's the answer?
+224	00:30:37	Consultant	Consultant: The answer is that we'd read the case list out of the lab software and nothing would be typed twice,
+225	00:30:45	Consultant	Consultant: and Maren's going to send Tariq five questions about how. Maren, the invoicing thing, since Tariq raised it. Say that part plainly.
+226	00:30:54	Maren Solberg	Maren Solberg: Plainly. Tariq, this is your worry, isn't it, that something touches the invoicing. So the way this would work is that we read the case list out of the lab software on a schedule, every fifteen minutes or so, and we never write anything back into it, || Tariq Paulsen [assent]: yeah, exactly, nothing back, || Maren Solberg: which means your invoices keep coming out of the same place they do today, the day a case ships, and the accounting system never knows we exist. The only thing that changes is that when a doctor calls, the answer is on a screen instead of on a bench. And if the vendor turns out to have no interface at all, we'd know that before anybody built anything, because that's the first of the five questions, and then the honest answer is a nightly file and a slower board, and I'd tell you that rather than pretend.
+227	00:31:48	Consultant	Consultant: And that's the thing to put in writing for Bertrand.
+228	00:31:52	Maren Solberg	Maren Solberg: I'll put it in the same note as the questions. || Tariq Paulsen: As long
+229	00:31:57	Tariq Paulsen	Tariq Paulsen: as I'm not the one typing the five answers. || Maren Solberg: You're not. You're forwarding them
+230	00:32:03	Maren Solberg	Maren Solberg: to whoever the vendor gives || Tariq Paulsen: you. That I
+231	00:32:07	Tariq Paulsen	Tariq Paulsen: can do. || Maren Solberg: One more for the note, Tariq. Does the case
+232	00:32:12	Maren Solberg	Maren Solberg: number ever change once
+233	00:32:14	Tariq Paulsen	Maren Solberg: it's entered, or is it fixed for life? || Tariq Paulsen: Fixed. Only thing that never changes. || Maren Solberg: Good. That's the thing I most
+234	00:32:22	Maren Solberg	Maren Solberg: wanted to hear today.
+235	00:32:24	Consultant	Consultant: Let me play back a first cut, and this is just so you can hear it, not to sign anything. One board of cases, fed from the lab software, one row per case with the doctor, the office, the seat date and the product. A stage on every row, model, design, the department, finishing, QC, shipping, and the stage moves when a tech taps a button on a screen at the bench, one tap, no typing, and I'd want to watch a tech do it before I believed it. A hold is a stage too, with a reason picked from a list, and the moment a case goes on hold the office gets an email and Tariq gets a flag, and a case on hold more than a day goes red. Remakes come in as their own rows, linked to the original, so remakes by doctor and by office is a view you open rather than a clipboard you add up, and that's the Riverbend report. Louisville on the same board with a location column, day one. And the phone answer is Tariq looking at the board. Nothing goes into the lab software, nothing changes about invoicing. Is that the right first cut, for the three of you? || Perpetua Thackeray [assent]: Yeah. Yes.
+236	00:33:40	Maren Solberg	Maren Solberg: And I'll write up the feed questions separately, so that doesn't hold up the rest.
+237	00:33:46	Perpetua Thackeray	Perpetua Thackeray: Remakes by doctor first, though. If I get one report out of this, it's that one. The walk's Tariq's problem and I love him, but the report's the one that keeps a || Tariq Paulsen: customer. Thanks.
+238	00:33:59	Perpetua Thackeray	Perpetua Thackeray: [laughs] You know what I mean.
+239	00:34:01	Liesl Vandermeulen	Liesl Vandermeulen: And I want to see a tech tap it. Before December. With gloves on. If that works, the rest I'll believe.
+240	00:34:09	Consultant	Consultant: Then that's the test, and I'd rather fail it in a walkthrough than in December. Perpetua, next step. I'd like to build a first version of that board with a handful of sample cases,
+241	00:34:22	Consultant	Consultant: not yours, and walk the three of you and Bertrand through it, and Liesl taps it with gloves on. When?
+242	00:34:30	Perpetua Thackeray	Perpetua Thackeray: Thursday the twelfth. Eleven, our time. I'll get Bertrand in the room if I have to carry him.
+243	00:34:37	Consultant	Consultant: Thursday the twelfth at eleven Eastern. Forty-five minutes?
+244	00:34:41	Perpetua Thackeray	Perpetua Thackeray: Forty-five. We'll take thirty if it's good.
+245	00:34:44	Consultant	Consultant: And before then. Maren sends Tariq the five feed questions this week, Tariq forwards them to the vendor or answers what he can. Perpetua pulls the remakes-by-month report from the lab software. And Tariq, if you can send me a sample of the case list with no patient names on it, ten rows, that's plenty.
+246	00:35:04	Tariq Paulsen	Tariq Paulsen: Initials and case numbers. That's what's on the pan anyway.
+247	00:35:08	Perpetua Thackeray	Perpetua Thackeray: I'll pull the report tonight, actually, because now I want to know.
+248	00:35:13	Consultant	Consultant: And I'll send a recap tomorrow, with the number and the questions. Anything I've missed? || Liesl Vandermeulen: Colour. If the
+249	00:35:20	Liesl Vandermeulen	Liesl Vandermeulen: board knows the pan colour, I'll be very happy. Half the problem is the wrong colour pan, and I'd like the board to shout about it before a
+250	00:35:31	Consultant	Liesl Vandermeulen: tech does. || Consultant: Noted, and that's a good one. Perpetua? || Perpetua Thackeray: No. Just don't
+251	00:35:36	Perpetua Thackeray	Perpetua Thackeray: let Bertrand talk you out of it
+252	00:35:39	Consultant	Perpetua Thackeray: on the twelfth. || Consultant: I'll bring the status-field answer with me. Thank you, all three
+253	00:35:45	Tariq Paulsen	Consultant: of you. Tariq, go and answer your phone. || Tariq Paulsen: It's been flashing for ten minutes.
+254	00:35:51	Perpetua Thackeray	Perpetua Thackeray: Thanks. Talk on the twelfth.

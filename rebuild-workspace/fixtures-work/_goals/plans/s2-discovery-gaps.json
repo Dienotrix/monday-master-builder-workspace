@@ -1,0 +1,46 @@
+{
+  "goals": [
+    {
+      "id": "G1",
+      "goal": "Be more organized, with everything no longer scattered in five places",
+      "quote": "I think we just need to be more organized.",
+      "location": "L277, Renata",
+      "speaker_role": "customer service lead, main branch (client; influencer)",
+      "pains": ["P1.1", "P4.1"]
+    },
+    {
+      "id": "G2",
+      "goal": "Look up where a re-treat stands without walking back to the dispatcher",
+      "quote": "I just want to be able to look it up.",
+      "location": "L309, Renata",
+      "speaker_role": "customer service lead, main branch (client; influencer)",
+      "pains": ["P1.1", "P1.2", "P1.3", "P1.4", "P3.3"]
+    },
+    {
+      "id": "G3",
+      "goal": "Push a route change to the technicians once and be done, not chase them",
+      "quote": "if a guy calls out, I just want to push it to the guys and be done.",
+      "location": "L317, Travis",
+      "speaker_role": "dispatcher, main branch (client; end user)",
+      "pains": ["P2.1", "P2.2"]
+    }
+  ],
+  "assumption_kinds": [
+    "leaning",
+    "leaning",
+    "leaning",
+    "leaning",
+    "gap",
+    "gap",
+    "automation-condition",
+    "board-architecture",
+    "leaning",
+    "gap",
+    "leaning",
+    "leaning",
+    "automation-condition",
+    "gap",
+    "board-architecture"
+  ],
+  "note_add": null
+}

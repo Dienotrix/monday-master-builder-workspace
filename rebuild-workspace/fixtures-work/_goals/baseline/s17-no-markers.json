@@ -1,0 +1,1280 @@
+{
+  "fixture": "s17-no-markers",
+  "sources": [
+    {
+      "name": "transcript.txt",
+      "kind": "transcript",
+      "format": "header-time-last",
+      "units": 260,
+      "unsupported": null
+    }
+  ],
+  "counts": {
+    "pairs": 160,
+    "verified": 160,
+    "verified_presence_only": 32,
+    "skipped": 0,
+    "unparsed_prose": 0,
+    "near_misses": 0,
+    "misses": 0,
+    "unsupported": 0,
+    "warnings": 0
+  },
+  "refused_quotes_not_checked": [
+    {
+      "path": "/intake/refused_quotes",
+      "entries": 6
+    }
+  ],
+  "skipped": [],
+  "pairs": [
+    {
+      "path": "/rubric[0]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So on Friday Rasmus or one of the leads walks the beds with a clipboard and counts. Every bed, every size.",
+      "location": "turn 31, 03:43, Ilse Salvesen",
+      "cited": "transcript.txt, L91, turn 31, 03:43, Ilse Salvesen"
+    },
+    {
+      "path": "/rubric[0]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Customers read the avail, they get in touch, Kenji or I take it, we write it up as a sales order in the accounting system,",
+      "location": "turn 35, 04:25, Teodora Okoro",
+      "cited": "transcript.txt, L103, turn 35, 04:25, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[0]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "The pick list goes on the board in the yard office, the lead pulls the order onto a trailer, it gets tagged, the driver takes it, and I invoice off the pick list when the driver's paperwork comes back.",
+      "location": "turn 36, 04:38, Ilse Salvesen",
+      "cited": "transcript.txt, L106, turn 36, 04:38, Ilse Salvesen"
+    },
+    {
+      "path": "/rubric[0]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "I can see the orders if I walk to the office and Ilse prints them. She prints me the open orders on a Friday.",
+      "location": "turn 103, 12:05, Rasmus Wrenfield",
+      "cited": "transcript.txt, L307, turn 103, 12:05, Rasmus Wrenfield"
+    },
+    {
+      "path": "/rubric[0]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Gunnar priced it because it was over fifteen.",
+      "location": "turn 164, 18:59, Teodora Okoro",
+      "cited": "transcript.txt, L490, turn 164, 18:59, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[1]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And on the Wednesday a garden centre took two hundred off the same line because the line still said three hundred and forty.",
+      "location": "turn 62, 07:19, Teodora Okoro",
+      "cited": "transcript.txt, L184, turn 62, 07:19, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[1]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Last October. Six hundred five-gallon hydrangea went in the skip.",
+      "location": "turn 107, 12:30, Rasmus Wrenfield",
+      "cited": "transcript.txt, L319, turn 107, 12:30, Rasmus Wrenfield"
+    },
+    {
+      "path": "/rubric[1]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "He sent the order in June, and by June the Thuja were gone, four hundred of them, to a garden centre, because nothing on the avail said they were spoken for.",
+      "location": "turn 164, 18:59, Teodora Okoro",
+      "cited": "transcript.txt, L490, turn 164, 18:59, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[2]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "In August they had a supplier review and they put us on notice. Politely.",
+      "location": "turn 132, 15:13, Teodora Okoro",
+      "cited": "transcript.txt, L394, turn 132, 15:13, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[2]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "So the avail has to be right, actually right, by the first week of February, because that's when they build their spring order.",
+      "location": "turn 142, 16:36, Teodora Okoro",
+      "cited": "transcript.txt, L424, turn 142, 16:36, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[2]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "It's why Gunnar let me call you. He'd have said no in March.",
+      "location": "turn 144, 16:59, Teodora Okoro",
+      "cited": "transcript.txt, L430, turn 144, 16:59, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[3]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Thirty-one thousand and some. Thirty-one two, something like that, for the year.",
+      "location": "turn 82, 09:42, Ilse Salvesen",
+      "cited": "transcript.txt, L244, turn 82, 09:42, Ilse Salvesen"
+    },
+    {
+      "path": "/rubric[3]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Call it two-thirds. I'm guessing, but I'm guessing from the ones I had to phone about.",
+      "location": "turn 86, 10:11, Teodora Okoro",
+      "cited": "transcript.txt, L256, turn 86, 10:11, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[3]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Kenji's about thirty-four an hour loaded. I'm more than that but I'm not doing it all, so call it thirty-four for the two of us and you're not far off.",
+      "location": "turn 91, 10:50, Teodora Okoro",
+      "cited": "transcript.txt, L271, turn 91, 10:50, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[3]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Forty pallets at, I don't know, four hundred a pallet in what's in it. Sixteen thousand. That's a guess.",
+      "location": "turn 114, 13:19, Rasmus Wrenfield",
+      "cited": "transcript.txt, L340, turn 114, 13:19, Rasmus Wrenfield"
+    },
+    {
+      "path": "/rubric[3]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "So twenty, forty-four, sixteen. Eighty thousand. Call it eighty.",
+      "location": "turn 192, 25:43, Teodora Okoro",
+      "cited": "transcript.txt, L574, turn 192, 25:43, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[3]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "But it's what I can stand behind. Eighty, and it's light.",
+      "location": "turn 194, 25:52, Teodora Okoro",
+      "cited": "transcript.txt, L580, turn 194, 25:52, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[4]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "if the trial goes they're talking about a hundred and eighty thousand a season in pre-orders, two seasons,",
+      "location": "turn 132, 15:13, Teodora Okoro",
+      "cited": "transcript.txt, L394, turn 132, 15:13, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[4]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Their buyer said it. I'm not counting it till the trial's done. But yes.",
+      "location": "turn 135, 15:57, Teodora Okoro",
+      "cited": "transcript.txt, L403, turn 135, 15:57, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[4]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I'd sell more. I don't know how much more.",
+      "location": "turn 199, 26:29, Teodora Okoro",
+      "cited": "transcript.txt, L595, turn 199, 26:29, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[5]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "want to say yes to a customer and know it's true. That's it.",
+      "location": "turn 172, 20:18, Teodora Okoro",
+      "cited": "transcript.txt, L514, turn 172, 20:18, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[5]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I want to see what's sold before I pot on. And I want to see it on my phone, standing in the tunnel, not on a printout from Friday.",
+      "location": "turn 174, 20:29, Rasmus Wrenfield",
+      "cited": "transcript.txt, L520, turn 174, 20:29, Rasmus Wrenfield"
+    },
+    {
+      "path": "/rubric[5]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I want to stop building the avail on a Monday morning by hand. If the counts went in once and the list came out of that, I'd get my Mondays back.",
+      "location": "turn 176, 20:39, Ilse Salvesen",
+      "cited": "transcript.txt, L526, turn 176, 20:39, Ilse Salvesen"
+    },
+    {
+      "path": "/rubric[6]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "nothing gets bought here without him nodding",
+      "location": "turn 12, 01:22, Teodora Okoro",
+      "cited": "transcript.txt, L34, turn 12, 01:22, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[6]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "He decides what we sign up for, and I mean that as how it works here, not as me hedging.",
+      "location": "turn 237, 31:29, Teodora Okoro",
+      "cited": "transcript.txt, L709, turn 237, 31:29, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[6]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Anything over ten thousand a year on a system, or anything that touches the accounting side, that's him, he signs it.",
+      "location": "turn 183, 21:36, labelled Teodora Okoro, segment 3 (side-only)",
+      "cited": "transcript.txt, L547, turn 183, 21:36, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[6]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "And he said if it's under ten for the year he doesn't need to be in the room at all, over that he does, and I think he'd want Yolanda to look at it too because of the accounting side.",
+      "location": "turn 183, 21:36, labelled Teodora Okoro, segment 4 (side-only)",
+      "cited": "transcript.txt, L547, turn 183, 21:36, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[7]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "avail. If the avail is right, the rest follows.",
+      "location": "turn 201, 26:53, Teodora Okoro",
+      "cited": "transcript.txt, L601, turn 201, 26:53, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[7]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Avail, orders, quotes. In that order.",
+      "location": "turn 205, 27:21, Teodora Okoro",
+      "cited": "transcript.txt, L613, turn 205, 27:21, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[7]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "First week of February. The chain builds their spring order the second week.",
+      "location": "turn 207, 27:33, Teodora Okoro",
+      "cited": "transcript.txt, L619, turn 207, 27:33, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[8]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "leads will not sit at a computer. Phone, yes. They'll take a photo, they'll type a number into a phone. Computer, no.",
+      "location": "turn 211, 27:54, Rasmus Wrenfield",
+      "cited": "transcript.txt, L631, turn 211, 27:54, Rasmus Wrenfield"
+    },
+    {
+      "path": "/rubric[8]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And the accounting system stays. I invoice out of it, the accountant does the year end out of it, Gunnar reads the reports out of it.",
+      "location": "turn 212, 28:06, Ilse Salvesen",
+      "cited": "transcript.txt, L634, turn 212, 28:06, Ilse Salvesen"
+    },
+    {
+      "path": "/rubric[8]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And November. Don't touch us in November.",
+      "location": "turn 220, 29:04, Rasmus Wrenfield",
+      "cited": "transcript.txt, L658, turn 220, 29:04, Rasmus Wrenfield"
+    },
+    {
+      "path": "/rubric[8]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "if this replaces that he'll fight it quietly.",
+      "location": "turn 225, 29:43, Teodora Okoro",
+      "cited": "transcript.txt, L673, turn 225, 29:43, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[8]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Just that it has to work in the rain.",
+      "location": "turn 253, 33:23, Rasmus Wrenfield",
+      "cited": "transcript.txt, L757, turn 253, 33:23, Rasmus Wrenfield"
+    },
+    {
+      "path": "/rubric[9]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Tuesday the thirteenth. After the last truck's back. Four.",
+      "location": "turn 240, 32:00, Rasmus Wrenfield",
+      "cited": "transcript.txt, L718, turn 240, 32:00, Rasmus Wrenfield"
+    },
+    {
+      "path": "/rubric[9]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Four on the thirteenth works.",
+      "location": "turn 241, 32:04, Teodora Okoro",
+      "cited": "transcript.txt, L721, turn 241, 32:04, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[9]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I'll forward it. And I'll tell him it's a conversation, not a sales pitch, or he'll come in with his arms folded.",
+      "location": "turn 244, 32:22, Teodora Okoro",
+      "cited": "transcript.txt, L730, turn 244, 32:22, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[11]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Let me play back what I'd put in a first version. Just to show you, not to sign.",
+      "location": "turn 231, 30:17, Consultant",
+      "cited": "transcript.txt, L691, turn 231, 30:17, Consultant"
+    },
+    {
+      "path": "/rubric[11]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "That's the right order. Avail first, then orders, then quotes.",
+      "location": "turn 232, 31:14, Teodora Okoro",
+      "cited": "transcript.txt, L694, turn 232, 31:14, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[11]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And I don't want to agree to anything for Gunnar. That's the right first cut to show him.",
+      "location": "turn 237, 31:29, Teodora Okoro",
+      "cited": "transcript.txt, L709, turn 237, 31:29, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[12]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "sell what we don't have. Not on purpose. The list says it's there and it isn't, or it's there and I've sold it twice.",
+      "location": "turn 57, 07:01, Teodora Okoro",
+      "cited": "transcript.txt, L169, turn 57, 07:01, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[12]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "So it's wrong before it's sent.",
+      "location": "turn 46, 05:45, Teodora Okoro",
+      "cited": "transcript.txt, L136, turn 46, 05:45, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[13]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We had three hundred and forty three-gallon boxwood on the avail, the Emerald Fold, and a landscaper, Pinecrest, took three hundred for a school job on the Tuesday.",
+      "location": "turn 62, 07:19, Teodora Okoro",
+      "cited": "transcript.txt, L184, turn 62, 07:19, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[13]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It's a fine plant that they sent back on the next truck, and I raised a credit for two thousand four hundred, and they haven't ordered since.",
+      "location": "turn 68, 08:11, Ilse Salvesen",
+      "cited": "transcript.txt, L202, turn 68, 08:11, Ilse Salvesen"
+    },
+    {
+      "path": "/rubric[13]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "They were maybe a thirty-thousand-a-year account. I've called. They're polite.",
+      "location": "turn 71, 08:24, Teodora Okoro",
+      "cited": "transcript.txt, L211, turn 71, 08:24, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[14]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Or I walk out. If it's over fifty units of anything I don't confirm it till one of us has looked at the bed. That's the rule.",
+      "location": "turn 51, 06:25, Teodora Okoro",
+      "cited": "transcript.txt, L151, turn 51, 06:25, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[14]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "My phone goes forty times a day in April and thirty of them are is it still there.",
+      "location": "turn 50, 06:16, Rasmus Wrenfield",
+      "cited": "transcript.txt, L148, turn 50, 06:16, Rasmus Wrenfield"
+    },
+    {
+      "path": "/rubric[14]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "So I was typing it twice and it was still wrong. It lasted a season.",
+      "location": "turn 124, 14:24, Ilse Salvesen",
+      "cited": "transcript.txt, L370, turn 124, 14:24, Ilse Salvesen"
+    },
+    {
+      "path": "/rubric[15]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Me, because I have to call the customer. Ilse, because she does the credit and reprints everything. The driver, because he's the one standing there when they say no.",
+      "location": "turn 78, 09:07, Teodora Okoro",
+      "cited": "transcript.txt, L232, turn 78, 09:07, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[15]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And Gunnar, because the customer calls Gunnar. They've all got his cell.",
+      "location": "turn 79, 09:22, Rasmus Wrenfield",
+      "cited": "transcript.txt, L235, turn 79, 09:22, Rasmus Wrenfield"
+    },
+    {
+      "path": "/rubric[16]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Between me and Kenji, a morning. A morning a day, in season.",
+      "location": "turn 53, 06:39, Teodora Okoro",
+      "cited": "transcript.txt, L157, turn 53, 06:39, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[16]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Kenji's about thirty-four an hour loaded. I'm more than that but I'm not doing it all, so call it thirty-four for the two of us and you're not far off.",
+      "location": "turn 91, 10:50, Teodora Okoro",
+      "cited": "transcript.txt, L271, turn 91, 10:50, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[16]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Thirty-one thousand and some. Thirty-one two, something like that, for the year.",
+      "location": "turn 82, 09:42, Ilse Salvesen",
+      "cited": "transcript.txt, L244, turn 82, 09:42, Ilse Salvesen"
+    },
+    {
+      "path": "/rubric[17]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "They want a confirmed availability every week, confirmed meaning if it's on the list it's theirs when they order it.",
+      "location": "turn 132, 15:13, Teodora Okoro",
+      "cited": "transcript.txt, L394, turn 132, 15:13, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[17]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "and if it doesn't go they've got another supplier down the valley",
+      "location": "turn 132, 15:13, Teodora Okoro",
+      "cited": "transcript.txt, L394, turn 132, 15:13, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[18]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "grow blind. That's the short version. I pot on what I think will sell, based on last year and my gut, and I don't know what's sold until somebody phones me to ask if it's still there.",
+      "location": "turn 101, 11:49, Rasmus Wrenfield",
+      "cited": "transcript.txt, L301, turn 101, 11:49, Rasmus Wrenfield"
+    },
+    {
+      "path": "/rubric[18]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "and the other half it sits on the bed till October and goes in the skip.",
+      "location": "turn 105, 12:23, Rasmus Wrenfield",
+      "cited": "transcript.txt, L313, turn 105, 12:23, Rasmus Wrenfield"
+    },
+    {
+      "path": "/rubric[19]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The chain had a standing order for them and they cancelled it in July and nobody told me, so I kept feeding and spacing them for three months for nothing.",
+      "location": "turn 107, 12:30, Rasmus Wrenfield",
+      "cited": "transcript.txt, L319, turn 107, 12:30, Rasmus Wrenfield"
+    },
+    {
+      "path": "/rubric[19]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Fifteen dollars each is conservative. Call it nine thousand in the skip in one afternoon.",
+      "location": "turn 112, 13:03, Rasmus Wrenfield",
+      "cited": "transcript.txt, L334, turn 112, 13:03, Rasmus Wrenfield"
+    },
+    {
+      "path": "/rubric[20]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "She prints me the open orders on a Friday. But a Friday list on a Wednesday is the same problem as Teodora's, backwards.",
+      "location": "turn 103, 12:05, Rasmus Wrenfield",
+      "cited": "transcript.txt, L307, turn 103, 12:05, Rasmus Wrenfield"
+    },
+    {
+      "path": "/rubric[20]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "We tried a Friday meeting. Me, Teodora, Ilse, half an hour, what's sold, what's coming on.",
+      "location": "turn 119, 14:03, Rasmus Wrenfield",
+      "cited": "transcript.txt, L355, turn 119, 14:03, Rasmus Wrenfield"
+    },
+    {
+      "path": "/rubric[20]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "It lasted till April.",
+      "location": "turn 121, 14:10, Rasmus Wrenfield",
+      "cited": "transcript.txt, L361, turn 121, 14:10, Rasmus Wrenfield"
+    },
+    {
+      "path": "/rubric[21]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The crew, because they potted it and they watch it go in the skip. Gunnar, because he walks past the skip.",
+      "location": "turn 116, 13:45, Rasmus Wrenfield",
+      "cited": "transcript.txt, L346, turn 116, 13:45, Rasmus Wrenfield"
+    },
+    {
+      "path": "/rubric[22]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Forty pallets, maybe. I'm guessing at that, I don't count what goes in the skip, I count what's on the bed.",
+      "location": "turn 114, 13:19, Rasmus Wrenfield",
+      "cited": "transcript.txt, L340, turn 114, 13:19, Rasmus Wrenfield"
+    },
+    {
+      "path": "/rubric[22]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Fifteen dollars each is conservative. Call it nine thousand in the skip in one afternoon.",
+      "location": "turn 112, 13:03, Rasmus Wrenfield",
+      "cited": "transcript.txt, L334, turn 112, 13:03, Rasmus Wrenfield"
+    },
+    {
+      "path": "/rubric[22]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And the sixteen's a guess. I said that.",
+      "location": "turn 195, 26:06, Rasmus Wrenfield",
+      "cited": "transcript.txt, L583, turn 195, 26:06, Rasmus Wrenfield"
+    },
+    {
+      "path": "/rubric[23]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And if we get it, the blind bit gets worse, not better, because now I'm growing to an order I can't see.",
+      "location": "turn 136, 16:02, Rasmus Wrenfield",
+      "cited": "transcript.txt, L406, turn 136, 16:02, Rasmus Wrenfield"
+    },
+    {
+      "path": "/rubric[23]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Or doesn't. So the same thing that killed six hundred kills six thousand.",
+      "location": "turn 140, 16:28, Rasmus Wrenfield",
+      "cited": "transcript.txt, L418, turn 140, 16:28, Rasmus Wrenfield"
+    },
+    {
+      "path": "/rubric[24]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "A landscaper bidding on a job sends me a plant schedule, a list, and I price it, and then I lose track of it.",
+      "location": "turn 162, 18:44, Teodora Okoro",
+      "cited": "transcript.txt, L484, turn 162, 18:44, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[25]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The Ridgemont school. We quoted it in March, a hundred and ten lines, about forty-eight thousand dollars of plants.",
+      "location": "turn 164, 18:59, Teodora Okoro",
+      "cited": "transcript.txt, L490, turn 164, 18:59, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[25]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "So I could be holding four hundred Thuja for a bid that lost, or I could sell them to a garden centre and the bid wins. I don't know which.",
+      "location": "turn 188, 24:59, Rasmus Wrenfield",
+      "cited": "transcript.txt, L562, turn 188, 24:59, Rasmus Wrenfield"
+    },
+    {
+      "path": "/rubric[26]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I put it in a spreadsheet, I go line by line, I check the avail, I check what Rasmus has coming on,",
+      "location": "turn 183, 21:36, labelled Teodora Okoro, segment 1 (side-only)",
+      "cited": "transcript.txt, L547, turn 183, 21:36, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[26]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "That's the system, the sent folder.",
+      "location": "turn 183, 21:36, labelled Teodora Okoro, segment 1 (side-only)",
+      "cited": "transcript.txt, L547, turn 183, 21:36, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[26]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Never again. That's exactly it.",
+      "location": "turn 187, 24:54, Teodora Okoro",
+      "cited": "transcript.txt, L559, turn 187, 24:54, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[27]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Gunnar, because he priced it and he's the one who gets the call. The landscaper, obviously.",
+      "location": "turn 169, 19:45, Teodora Okoro",
+      "cited": "transcript.txt, L505, turn 169, 19:45, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[27]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And Rasmus, because I've now promised his plants twice, once to the landscaper in March and once to whoever bought them in",
+      "location": "turn 169, 19:45, Teodora Okoro",
+      "cited": "transcript.txt, L505, turn 169, 19:45, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[28]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So I've got, what, forty of those live at any one time and they're in my sent folder.",
+      "location": "turn 183, 21:36, labelled Teodora Okoro, segment 1 (side-only)",
+      "cited": "transcript.txt, L547, turn 183, 21:36, Teodora Okoro"
+    },
+    {
+      "path": "/rubric[28]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "No. I wouldn't know how to put one on it. The Ridgemont one cost a phone call.",
+      "location": "turn 190, 25:19, Teodora Okoro",
+      "cited": "transcript.txt, L568, turn 190, 25:19, Teodora Okoro"
+    },
+    {
+      "path": "/pains[0]/quote",
+      "status": "verified",
+      "quote": "sell what we don't have. Not on purpose. The list says it's there and it isn't, or it's there and I've sold it twice.",
+      "location": "turn 57, 07:01, Teodora Okoro",
+      "cited": "transcript.txt, L169, turn 57, 07:01, Teodora Okoro"
+    },
+    {
+      "path": "/pains[1]/quote",
+      "status": "verified",
+      "quote": "It's less wrong on Monday and more wrong on Wednesday, and by Thursday I don't trust a",
+      "location": "turn 46, 05:45, Teodora Okoro",
+      "cited": "transcript.txt, L136, turn 46, 05:45, Teodora Okoro"
+    },
+    {
+      "path": "/pains[2]/quote",
+      "status": "verified",
+      "quote": "Every week. I do the credits so I see it. Some weeks it's three.",
+      "location": "turn 74, 08:46, Ilse Salvesen",
+      "cited": "transcript.txt, L220, turn 74, 08:46, Ilse Salvesen"
+    },
+    {
+      "path": "/pains[3]/quote",
+      "status": "verified",
+      "quote": "grow blind. That's the short version. I pot on what I think will sell, based on last year and my gut, and I don't know what's sold until somebody phones me to ask if it's still there.",
+      "location": "turn 101, 11:49, Rasmus Wrenfield",
+      "cited": "transcript.txt, L301, turn 101, 11:49, Rasmus Wrenfield"
+    },
+    {
+      "path": "/pains[4]/quote",
+      "status": "verified",
+      "quote": "Last October. Six hundred five-gallon hydrangea went in the skip.",
+      "location": "turn 107, 12:30, Rasmus Wrenfield",
+      "cited": "transcript.txt, L319, turn 107, 12:30, Rasmus Wrenfield"
+    },
+    {
+      "path": "/pains[5]/quote",
+      "status": "verified",
+      "quote": "A landscaper bidding on a job sends me a plant schedule, a list, and I price it, and then I lose track of it.",
+      "location": "turn 162, 18:44, Teodora Okoro",
+      "cited": "transcript.txt, L484, turn 162, 18:44, Teodora Okoro"
+    },
+    {
+      "path": "/pains[6]/quote",
+      "status": "verified",
+      "quote": "So I could be holding four hundred Thuja for a bid that lost, or I could sell them to a garden centre and the bid wins. I don't know which.",
+      "location": "turn 188, 24:59, Rasmus Wrenfield",
+      "cited": "transcript.txt, L562, turn 188, 24:59, Rasmus Wrenfield"
+    },
+    {
+      "path": "/pains[7]/quote",
+      "status": "verified",
+      "quote": "And then I do it again on Wednesday for the chain, because they asked for a mid-week one, and that's another two hours, and it's already",
+      "location": "turn 149, 17:27, Ilse Salvesen",
+      "cited": "transcript.txt, L445, turn 149, 17:27, Ilse Salvesen"
+    },
+    {
+      "path": "/pains[8]/quote",
+      "status": "verified",
+      "quote": "They ring me from the road if it's a refusal and I try to find a home for it before they get back,",
+      "location": "turn 156, 18:01, Ilse Salvesen",
+      "cited": "transcript.txt, L466, turn 156, 18:01, Ilse Salvesen"
+    },
+    {
+      "path": "/pains[9]/quote",
+      "status": "verified",
+      "quote": "So Kenji has to chase the number before I can invoice, and that's a separate spreadsheet that only he understands.",
+      "location": "turn 159, 18:24, Ilse Salvesen",
+      "cited": "transcript.txt, L475, turn 159, 18:24, Ilse Salvesen"
+    },
+    {
+      "path": "/pains[10]/quote",
+      "status": "verified",
+      "quote": "They've all got his cell. He's been here thirty years.",
+      "location": "turn 79, 09:22, Rasmus Wrenfield",
+      "cited": "transcript.txt, L235, turn 79, 09:22, Rasmus Wrenfield"
+    },
+    {
+      "path": "/numbers/bleed/quote",
+      "status": "verified",
+      "quote": "So twenty, forty-four, sixteen. Eighty thousand. Call it eighty.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L574, turn 192, 25:43, Teodora Okoro"
+      ]
+    },
+    {
+      "path": "/numbers/upside/quote",
+      "status": "verified",
+      "quote": "Their buyer said it. I'm not counting it till the trial's done. But yes.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L403, turn 135, 15:57, Teodora Okoro"
+      ]
+    },
+    {
+      "path": "/objections[0]/quote",
+      "status": "verified",
+      "quote": "Gunnar isn't on today, he's at an auction, but nothing gets bought here without him nodding, so you should know that going in.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L34, turn 12, 01:22, Teodora Okoro"
+      ]
+    },
+    {
+      "path": "/objections[1]/quote",
+      "status": "verified",
+      "quote": "leads will not sit at a computer. Phone, yes. They'll take a photo, they'll type a number into a phone. Computer, no. If any of this needs a lead at a desk it's dead.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L631, turn 211, 27:54, Rasmus Wrenfield"
+      ]
+    },
+    {
+      "path": "/objections[2]/quote",
+      "status": "verified",
+      "quote": "Good. Because Gunnar will say we can do this in the spreadsheet. He'll say it. He said it about the stock module.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L640, turn 214, 28:22, Ilse Salvesen"
+      ]
+    },
+    {
+      "path": "/objections[3]/quote",
+      "status": "verified",
+      "quote": "And then he'll say what does it cost, and if it costs more than the credits it's a hard sell to him. I'm telling you that now.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L643, turn 215, 28:29, Teodora Okoro"
+      ]
+    },
+    {
+      "path": "/objections[4]/quote",
+      "status": "verified",
+      "quote": "Can you just send us something with a number on it, though? For Gunnar. He reads numbers.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L649, turn 217, 28:46, Teodora Okoro"
+      ]
+    },
+    {
+      "path": "/objections[5]/quote",
+      "status": "verified",
+      "quote": "And November. Don't touch us in November. We're lifting field stock, it's forty people in the mud, nobody's learning anything in November.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L658, turn 220, 29:04, Rasmus Wrenfield"
+      ]
+    },
+    {
+      "path": "/objections[6]/quote",
+      "status": "verified",
+      "quote": "It was worse. Because now the wrong number was in the system, so people",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L373, turn 125, 14:50, Rasmus Wrenfield"
+      ]
+    },
+    {
+      "path": "/objections[7]/quote",
+      "status": "verified",
+      "quote": "Kenji. He's good, but he's twenty-four and he's got his own system, he's got a free task app on his phone with his own list of who wants what, and if this replaces that he'll fight it quietly.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L673, turn 225, 29:43, Teodora Okoro"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[0]/quote",
+      "status": "verified",
+      "quote": "Tuesday the thirteenth. After the last truck's back. Four.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L718, turn 240, 32:00, Rasmus Wrenfield"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[1]/quote",
+      "status": "verified",
+      "quote": "I'll send the invite to the three of you today, and Teodora, you'll forward it to Gunnar?",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L727, turn 243, 32:10, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[2]/quote",
+      "status": "verified",
+      "quote": "I'll forward it. And I'll tell him it's a conversation, not a sales pitch, or he'll come in with his arms folded.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L730, turn 244, 32:22, Teodora Okoro"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[3]/quote",
+      "status": "verified",
+      "quote": "I can send the avail today. The credits, give me till Friday, I'll take the names off.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L736, turn 246, 32:42, Ilse Salvesen"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[4]/quote",
+      "status": "verified",
+      "quote": "I'll take a photo of it and text it to you.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L742, turn 248, 32:52, Rasmus Wrenfield"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[5]/quote",
+      "status": "verified",
+      "quote": "And I'll send a short recap tomorrow, what I heard and the next steps, so you can correct me.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L748, turn 250, 33:04, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[6]/quote",
+      "status": "verified",
+      "quote": "and I'll check it with Gunnar himself in person, because I'd rather hear the threshold from him than write it down from a call he wasn't on.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L550, turn 184, 24:31, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[7]/quote",
+      "status": "verified",
+      "quote": "Yolanda's in on a Tuesday too, if you want her.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L724, turn 242, 32:06, Ilse Salvesen"
+      ]
+    },
+    {
+      "path": "/requested_changes[0]/quote",
+      "status": "verified",
+      "quote": "And the counts from the phone, by bed. Not by product. I count beds.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L697, turn 233, 31:18, Rasmus Wrenfield"
+      ]
+    },
+    {
+      "path": "/requested_changes[1]/quote",
+      "status": "verified",
+      "quote": "And the customers still get the email.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L703, turn 235, 31:25, Ilse Salvesen"
+      ]
+    },
+    {
+      "path": "/requested_changes[2]/quote",
+      "status": "verified",
+      "quote": "And the accounting system stays.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L634, turn 212, 28:06, Ilse Salvesen"
+      ]
+    },
+    {
+      "path": "/requested_changes[3]/quote",
+      "status": "verified",
+      "quote": "Phones in the rain, gloves, the whole thing. If it needs a dry hand it's dead.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L757, turn 253, 33:23, Rasmus Wrenfield"
+      ]
+    },
+    {
+      "path": "/requested_changes[4]/quote",
+      "status": "verified",
+      "quote": "Avail, orders, quotes. In that order.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L613, turn 205, 27:21, Teodora Okoro"
+      ]
+    },
+    {
+      "path": "/account_context/evidence_quote_or_null",
+      "status": "verified",
+      "quote": "We've got nothing like that. Kenji has a free task app on his phone for his own list, and that's it. Gunnar has a clipboard.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L685, turn 229, 30:07, Teodora Okoro"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[0]/quote",
+      "status": "verified",
+      "quote": "I'm not going to show you anything today, there's no screen.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L25, turn 9, 00:45, Consultant"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[2]/quote",
+      "status": "verified",
+      "quote": "Good. That's what I told Gunnar you'd say.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L28, turn 10, 01:14, Teodora Okoro"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[3]/quote",
+      "status": "verified",
+      "quote": "And the counts from the phone, by bed. Not by product. I count beds.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L697, turn 233, 31:18, Rasmus Wrenfield"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[4]/quote",
+      "status": "verified",
+      "quote": "nothing gets bought here without him nodding",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L34, turn 12, 01:22, Teodora Okoro"
+      ]
+    },
+    {
+      "path": "/intake/composite_blocks[0]/signals[0]/quote",
+      "status": "verified",
+      "quote": "and Teodora you were in the room for this",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L547, turn 183, 21:36, Teodora Okoro"
+      ]
+    },
+    {
+      "path": "/intake/composite_blocks[0]/signals[1]/quote",
+      "status": "verified",
+      "quote": "And who actually signs off on a change like this, if it's not you, is that Gunnar.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L547, turn 183, 21:36, Teodora Okoro"
+      ]
+    },
+    {
+      "path": "/intake/composite_blocks[0]/signals[2]/quote",
+      "status": "verified",
+      "quote": "It's Gunnar.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L547, turn 183, 21:36, Teodora Okoro"
+      ]
+    },
+    {
+      "path": "/intake/composite_blocks[0]/signals[3]/quote",
+      "status": "verified",
+      "quote": "Yes, that's what he said.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L547, turn 183, 21:36, Teodora Okoro"
+      ]
+    },
+    {
+      "path": "/readiness/pains[0]/quote",
+      "status": "verified",
+      "quote": "sell what we don't have. Not on purpose. The list says it's there and it isn't, or it's there and I've sold it twice.",
+      "location": "turn 57, 07:01, Teodora Okoro",
+      "cited": "transcript.txt, L169, turn 57, 07:01, Teodora Okoro"
+    },
+    {
+      "path": "/readiness/pains[1]/quote",
+      "status": "verified",
+      "quote": "It's less wrong on Monday and more wrong on Wednesday, and by Thursday I don't trust a",
+      "location": "turn 46, 05:45, Teodora Okoro",
+      "cited": "transcript.txt, L136, turn 46, 05:45, Teodora Okoro"
+    },
+    {
+      "path": "/readiness/pains[2]/quote",
+      "status": "verified",
+      "quote": "Every week. I do the credits so I see it. Some weeks it's three.",
+      "location": "turn 74, 08:46, Ilse Salvesen",
+      "cited": "transcript.txt, L220, turn 74, 08:46, Ilse Salvesen"
+    },
+    {
+      "path": "/readiness/pains[3]/quote",
+      "status": "verified",
+      "quote": "grow blind. That's the short version. I pot on what I think will sell, based on last year and my gut, and I don't know what's sold until somebody phones me to ask if it's still there.",
+      "location": "turn 101, 11:49, Rasmus Wrenfield",
+      "cited": "transcript.txt, L301, turn 101, 11:49, Rasmus Wrenfield"
+    },
+    {
+      "path": "/readiness/pains[4]/quote",
+      "status": "verified",
+      "quote": "Last October. Six hundred five-gallon hydrangea went in the skip.",
+      "location": "turn 107, 12:30, Rasmus Wrenfield",
+      "cited": "transcript.txt, L319, turn 107, 12:30, Rasmus Wrenfield"
+    },
+    {
+      "path": "/readiness/pains[5]/quote",
+      "status": "verified",
+      "quote": "A landscaper bidding on a job sends me a plant schedule, a list, and I price it, and then I lose track of it.",
+      "location": "turn 162, 18:44, Teodora Okoro",
+      "cited": "transcript.txt, L484, turn 162, 18:44, Teodora Okoro"
+    },
+    {
+      "path": "/readiness/pains[6]/quote",
+      "status": "verified",
+      "quote": "So I could be holding four hundred Thuja for a bid that lost, or I could sell them to a garden centre and the bid wins. I don't know which.",
+      "location": "turn 188, 24:59, Rasmus Wrenfield",
+      "cited": "transcript.txt, L562, turn 188, 24:59, Rasmus Wrenfield"
+    },
+    {
+      "path": "/readiness/pains[7]/quote",
+      "status": "verified",
+      "quote": "And then I do it again on Wednesday for the chain, because they asked for a mid-week one, and that's another two hours, and it's already",
+      "location": "turn 149, 17:27, Ilse Salvesen",
+      "cited": "transcript.txt, L445, turn 149, 17:27, Ilse Salvesen"
+    },
+    {
+      "path": "/readiness/pains[8]/quote",
+      "status": "verified",
+      "quote": "They ring me from the road if it's a refusal and I try to find a home for it before they get back,",
+      "location": "turn 156, 18:01, Ilse Salvesen",
+      "cited": "transcript.txt, L466, turn 156, 18:01, Ilse Salvesen"
+    },
+    {
+      "path": "/readiness/pains[9]/quote",
+      "status": "verified",
+      "quote": "So Kenji has to chase the number before I can invoice, and that's a separate spreadsheet that only he understands.",
+      "location": "turn 159, 18:24, Ilse Salvesen",
+      "cited": "transcript.txt, L475, turn 159, 18:24, Ilse Salvesen"
+    },
+    {
+      "path": "/readiness/pains[10]/quote",
+      "status": "verified",
+      "quote": "They've all got his cell. He's been here thirty years.",
+      "location": "turn 79, 09:22, Rasmus Wrenfield",
+      "cited": "transcript.txt, L235, turn 79, 09:22, Rasmus Wrenfield"
+    },
+    {
+      "path": "/readiness/signals[0]/quote",
+      "status": "verified",
+      "quote": "He'd say he wants to walk the tunnels with it on a tablet and see bed twelve on the screen and see that it matches bed twelve.",
+      "location": "turn 179, 21:08, Teodora Okoro",
+      "cited": "transcript.txt, L535, turn 179, 21:08, Teodora Okoro"
+    },
+    {
+      "path": "/readiness/signals[1]/quote",
+      "status": "verified",
+      "quote": "Anything over ten thousand a year on a system, or anything that touches the accounting side, that's him, he signs it.",
+      "location": "turn 183, 21:36, labelled Teodora Okoro, segment 3 (side-only)",
+      "cited": "transcript.txt, L547, turn 183, 21:36, Teodora Okoro"
+    },
+    {
+      "path": "/readiness/signals[2]/quote",
+      "status": "verified",
+      "quote": "So I've got, what, forty of those live at any one time and they're in my sent folder.",
+      "location": "turn 183, 21:36, labelled Teodora Okoro, segment 1 (side-only)",
+      "cited": "transcript.txt, L547, turn 183, 21:36, Teodora Okoro"
+    },
+    {
+      "path": "/readiness/signals[3]/quote",
+      "status": "verified",
+      "quote": "Never again. That's exactly it.",
+      "location": "turn 187, 24:54, Teodora Okoro",
+      "cited": "transcript.txt, L559, turn 187, 24:54, Teodora Okoro"
+    },
+    {
+      "path": "/readiness/signals[4]/quote",
+      "status": "verified",
+      "quote": "Their buyer said it. I'm not counting it till the trial's done. But yes.",
+      "location": "turn 135, 15:57, Teodora Okoro",
+      "cited": "transcript.txt, L403, turn 135, 15:57, Teodora Okoro"
+    },
+    {
+      "path": "/readiness/signals[5]/quote",
+      "status": "verified",
+      "quote": "if this replaces that he'll fight it quietly.",
+      "location": "turn 225, 29:43, Teodora Okoro",
+      "cited": "transcript.txt, L673, turn 225, 29:43, Teodora Okoro"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[0]",
+      "status": "verified",
+      "quote": "And the garden centre got the forty that were left and a hundred and sixty of something else that Rasmus found, a different cultivar,",
+      "location": "turn 66, 07:52, Teodora Okoro",
+      "cited": "transcript.txt, L196, turn 66, 07:52, Teodora Okoro"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[1]",
+      "status": "verified",
+      "quote": "The pick list, signed, with anything refused crossed off.",
+      "location": "turn 156, 18:01, Ilse Salvesen",
+      "cited": "transcript.txt, L466, turn 156, 18:01, Ilse Salvesen"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[2]",
+      "status": "verified",
+      "quote": "And then they come back and change the order I've already printed.",
+      "location": "turn 54, 06:47, Ilse Salvesen",
+      "cited": "transcript.txt, L160, turn 54, 06:47, Ilse Salvesen"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[0]",
+      "status": "verified",
+      "quote": "we write it up as a sales order in the accounting system,",
+      "location": "turn 35, 04:25, Teodora Okoro",
+      "cited": "transcript.txt, L103, turn 35, 04:25, Teodora Okoro"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[1]",
+      "status": "verified",
+      "quote": "I invoice off the pick list when the driver's paperwork comes back.",
+      "location": "turn 36, 04:38, Ilse Salvesen",
+      "cited": "transcript.txt, L106, turn 36, 04:38, Ilse Salvesen"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[2]",
+      "status": "verified",
+      "quote": "So I was typing it twice and it was still wrong. It lasted a season.",
+      "location": "turn 124, 14:24, Ilse Salvesen",
+      "cited": "transcript.txt, L370, turn 124, 14:24, Ilse Salvesen"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[3]",
+      "status": "verified",
+      "quote": "And the accounting system stays. I invoice out of it, the accountant does the year end out of it, Gunnar reads the reports out of it.",
+      "location": "turn 212, 28:06, Ilse Salvesen",
+      "cited": "transcript.txt, L634, turn 212, 28:06, Ilse Salvesen"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[0]",
+      "status": "verified",
+      "quote": "So I could be holding four hundred Thuja for a bid that lost, or I could sell them to a garden centre and the bid wins. I don't know which.",
+      "location": "turn 188, 24:59, Rasmus Wrenfield",
+      "cited": "transcript.txt, L562, turn 188, 24:59, Rasmus Wrenfield"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[1]",
+      "status": "verified",
+      "quote": "because nothing on the avail said they were spoken for",
+      "location": "turn 164, 18:59, Teodora Okoro",
+      "cited": "transcript.txt, L490, turn 164, 18:59, Teodora Okoro"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[2]",
+      "status": "verified",
+      "quote": "And Rasmus, because I've now promised his plants twice, once to the landscaper in March and once to whoever bought them in",
+      "location": "turn 169, 19:45, Teodora Okoro",
+      "cited": "transcript.txt, L505, turn 169, 19:45, Teodora Okoro"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[0]",
+      "status": "verified",
+      "quote": "So it's wrong before it's sent.",
+      "location": "turn 46, 05:45, Teodora Okoro",
+      "cited": "transcript.txt, L136, turn 46, 05:45, Teodora Okoro"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[1]",
+      "status": "verified",
+      "quote": "And the customers still get the email.",
+      "location": "turn 235, 31:25, Ilse Salvesen",
+      "cited": "transcript.txt, L703, turn 235, 31:25, Ilse Salvesen"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[2]",
+      "status": "verified",
+      "quote": "If it's over fifty units of anything I don't confirm it till one of us has looked at the bed. That's the rule.",
+      "location": "turn 51, 06:25, Teodora Okoro",
+      "cited": "transcript.txt, L151, turn 51, 06:25, Teodora Okoro"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[0]",
+      "status": "verified",
+      "quote": "So on Friday Rasmus or one of the leads walks the beds with a clipboard and counts. Every bed, every size.",
+      "location": "turn 31, 03:43, Ilse Salvesen",
+      "cited": "transcript.txt, L91, turn 31, 03:43, Ilse Salvesen"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[1]",
+      "status": "verified",
+      "quote": "The avail, but the avail is only right if the counts come from the beds, from my leads, on their phones.",
+      "location": "turn 202, 26:57, Rasmus Wrenfield",
+      "cited": "transcript.txt, L604, turn 202, 26:57, Rasmus Wrenfield"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[0]",
+      "status": "verified",
+      "quote": "They ring me from the road if it's a refusal and I try to find a home for it before they get back,",
+      "location": "turn 156, 18:01, Ilse Salvesen",
+      "cited": "transcript.txt, L466, turn 156, 18:01, Ilse Salvesen"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[1]",
+      "status": "verified",
+      "quote": "and I find it Monday. Two weeks later, sometimes.",
+      "location": "turn 157, 18:17, Rasmus Wrenfield",
+      "cited": "transcript.txt, L469, turn 157, 18:17, Rasmus Wrenfield"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[0]",
+      "status": "verified",
+      "quote": "They want a purchase order number on everything or they won't pay.",
+      "location": "turn 159, 18:24, Ilse Salvesen",
+      "cited": "transcript.txt, L475, turn 159, 18:24, Ilse Salvesen"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[1]",
+      "status": "verified",
+      "quote": "So Kenji has to chase the number before I can invoice, and that's a separate spreadsheet that only he understands.",
+      "location": "turn 159, 18:24, Ilse Salvesen",
+      "cited": "transcript.txt, L475, turn 159, 18:24, Ilse Salvesen"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[0]",
+      "status": "verified",
+      "quote": "And if we get it, the blind bit gets worse, not better, because now I'm growing to an order I can't see.",
+      "location": "turn 136, 16:02, Rasmus Wrenfield",
+      "cited": "transcript.txt, L406, turn 136, 16:02, Rasmus Wrenfield"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[1]",
+      "status": "verified",
+      "quote": "If they pre-order six thousand hydrangea in March for September, I need to know that in March, and I need to know if they cancel it in July,",
+      "location": "turn 138, 16:11, Rasmus Wrenfield",
+      "cited": "transcript.txt, L412, turn 138, 16:11, Rasmus Wrenfield"
+    }
+  ]
+}

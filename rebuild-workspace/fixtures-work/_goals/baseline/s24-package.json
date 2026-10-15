@@ -1,0 +1,2394 @@
+{
+  "fixture": "s24-package",
+  "sources": [
+    {
+      "name": "rec-4397-production-walkthrough.txt",
+      "kind": "transcript",
+      "format": "header-dot",
+      "units": 77,
+      "unsupported": null
+    },
+    {
+      "name": "rec-4402-first-look.txt",
+      "kind": "transcript",
+      "format": "header-dot",
+      "units": 91,
+      "unsupported": null
+    },
+    {
+      "name": "rec-4409-pricing.txt",
+      "kind": "transcript",
+      "format": "header-dot",
+      "units": 63,
+      "unsupported": null
+    },
+    {
+      "name": "rec-4418-discovery.txt",
+      "kind": "transcript",
+      "format": "header-dot",
+      "units": 173,
+      "unsupported": null
+    },
+    {
+      "name": "rec-4431-internal-review.txt",
+      "kind": "transcript",
+      "format": "header-dot",
+      "units": 34,
+      "unsupported": null
+    }
+  ],
+  "counts": {
+    "pairs": 313,
+    "verified": 313,
+    "verified_presence_only": 37,
+    "skipped": 0,
+    "unparsed_prose": 0,
+    "near_misses": 0,
+    "misses": 0,
+    "unsupported": 0,
+    "warnings": 0
+  },
+  "refused_quotes_not_checked": [],
+  "skipped": [],
+  "pairs": [
+    {
+      "path": "/rubric[0]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I build the quote in the estimating system. That's got our pricing in it, materials, labor. The quote goes out as a PDF. They say yes, I convert it to an order, and that's when it gets a job number.",
+      "location": "rec-4418, 04:31 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4418-discovery.txt, L61, turn 22, 04:31, Jesse Corrigan"
+    },
+    {
+      "path": "/rubric[0]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Then it's released to me. There's a printed ticket. The ticket has the job number, the customer, the due date, and a proof stapled to it, and it goes in the rack. I put it on the board.",
+      "location": "rec-4418, 06:30 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L83, turn 33, 06:30, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[0]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "The schedule is the spreadsheet, the board is the wall. They're supposed to match.",
+      "location": "rec-4418, 07:12 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L91, turn 37, 07:12, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[0]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Print. Laminate if it's laminated. Cut, or weed if it's vinyl. QC, which is me or the lead looking at it against the proof. Then it's ready. If it's a pickup, Jesse calls them. If it's an install, Ronnie gets it. Ronnie has a group text with the crews, and that's the install schedule.",
+      "location": "rec-4418, 07:58 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L105, turn 44, 07:58, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[0]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "And then Lupe invoices it out of the accounting package once Jesse tells her it's done. Lupe's our office manager, she does the books.",
+      "location": "rec-4418, 08:35 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L111, turn 47, 08:35, Wade Strickler"
+    },
+    {
+      "path": "/rubric[0]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "My spreadsheet. I keep my own list. Every open job, what it's waiting on, when I last heard from the customer. It's the only thing that tells me where a job is without walking out there.",
+      "location": "rec-4418, 09:17 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4418-discovery.txt, L115, turn 49, 09:17, Jesse Corrigan"
+    },
+    {
+      "path": "/rubric[0]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "That's the shape of it. Let's see it first.",
+      "location": "rec-4418, 32:11 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L370, turn 163, 32:11, Wade Strickler"
+    },
+    {
+      "path": "/rubric[0]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Okay. Let's start there, actually. Walk me through a job. From the phone ringing to the invoice going out.",
+      "location": "rec-4418, 04:18 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L56, turn 21, 04:18, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[1]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Tamarack Peaks. The credit union. Their Valley branch, the exterior faces and the window vinyl. Nate sent the proof on a Tuesday. It sat in the branch manager's inbox for nine days. Nobody chased it, because I thought Nate had it and Nate thought I had it.",
+      "location": "rec-4418, 12:12 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4418-discovery.txt, L144, turn 62, 12:12, Jesse Corrigan"
+    },
+    {
+      "path": "/rubric[1]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Larch Mountain. The brewery. Four hundred tap handle labels. They approved v3, which had a changed ABV line, five point two instead of five point four or whatever it was. We ran v2.",
+      "location": "rec-4418, 16:29 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L189, turn 83, 16:29, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[1]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "We had two crews show up at the Valley branch for the credit union. Two trucks, four guys, one job.",
+      "location": "rec-4418, 19:37 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L226, turn 100, 19:37, Wade Strickler"
+    },
+    {
+      "path": "/rubric[1]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Can you give me a recent one? Something that actually happened.",
+      "location": "rec-4418, 12:05 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L142, turn 61, 12:05, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[2]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Three things. The credit union. Tamarack Peaks signed with us in May for the rebrand, all fourteen branches, exterior faces, window vinyl, interior wayfinding, and wraps on six of their vehicles.",
+      "location": "rec-4418, 23:39 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L280, turn 124, 23:39, Wade Strickler"
+    },
+    {
+      "path": "/rubric[2]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Losing two weeks of the schedule off a shared drive told me we're running on luck.",
+      "location": "rec-4418, 23:39 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L280, turn 124, 23:39, Wade Strickler"
+    },
+    {
+      "path": "/rubric[2]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Every year it's \"after the busy season\" and there isn't one, it's all busy season.",
+      "location": "rec-4418, 23:39 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L280, turn 124, 23:39, Wade Strickler"
+    },
+    {
+      "path": "/rubric[2]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "So this is the one that got me to call you, honestly.",
+      "location": "rec-4418, 19:37 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L226, turn 100, 19:37, Wade Strickler"
+    },
+    {
+      "path": "/rubric[2]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Wade, you said the Valley thing got you to call. Was there anything else? Why now and not last year?",
+      "location": "rec-4418, 23:28 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L278, turn 123, 23:28, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[3]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I'd say I spend an hour and a half a day, easy, just answering where's-my-job, on the phone or walking out to the floor.",
+      "location": "rec-4418, 11:10 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4418-discovery.txt, L136, turn 58, 11:10, Jesse Corrigan"
+    },
+    {
+      "path": "/rubric[3]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "An hour, hour and a half a day, chasing proofs and art.",
+      "location": "rec-4418, 11:30 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L140, turn 60, 11:30, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[3]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Sure, whatever you want to use for the model, but that's your number.",
+      "location": "rec-4418, 26:02 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L299, turn 132, 26:02, Wade Strickler"
+    },
+    {
+      "path": "/rubric[3]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "It feels like a lot of things I'd want Lupe to look at. The forty is the one I'd stand behind, if she says so.",
+      "location": "rec-4418, 26:45 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L307, turn 136, 26:45, Wade Strickler"
+    },
+    {
+      "path": "/rubric[3]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "The hours are right. If anything I'm low.",
+      "location": "rec-4418, 26:59 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L309, turn 137, 26:59, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[3]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "I never gave you the fifty.",
+      "location": "rec-4409, 01:31 Wade Strickler (Owner)",
+      "cited": "rec-4409-pricing.txt, L35, turn 9, 01:31, Wade Strickler"
+    },
+    {
+      "path": "/rubric[3]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "Right. So your ninety-six is your number. Mine's the forty, if Lupe's right about the forty.",
+      "location": "rec-4409, 01:56 Wade Strickler (Owner)",
+      "cited": "rec-4409-pricing.txt, L41, turn 12, 01:56, Wade Strickler"
+    },
+    {
+      "path": "/rubric[3]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What do you load an hour at, for the two of them?",
+      "location": "rec-4418, 25:12 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L293, turn 129, 25:12, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[4]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "If Jesse weren't on the phone all day he'd be selling. He's supposed to be an account manager, not a switchboard. We turned down the county parks wayfinding bid in May because we couldn't take it on with the credit union coming. That was a hundred and twenty-ish, over two years.",
+      "location": "rec-4418, 28:39 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L332, turn 147, 28:39, Wade Strickler"
+    },
+    {
+      "path": "/rubric[4]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "We did their last one. So, probably.",
+      "location": "rec-4418, 29:09 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L336, turn 149, 29:09, Wade Strickler"
+    },
+    {
+      "path": "/rubric[4]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Vern would count it a win if the credit union re-signs in two years, which they won't if we do the Cheney thing fourteen times.",
+      "location": "rec-4418, 28:13 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L328, turn 145, 28:13, Wade Strickler"
+    },
+    {
+      "path": "/rubric[4]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And if Jesse weren't on the phone all day?",
+      "location": "rec-4418, 28:33 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L330, turn 146, 28:33, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[5]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I want to look at one screen and know what's late and why. Not walk out to the board, not call Gwen. One screen. And Jesse answers \"where's my job\" by looking, not walking.",
+      "location": "rec-4418, 27:25 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L320, turn 141, 27:25, Wade Strickler"
+    },
+    {
+      "path": "/rubric[5]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "If I could answer the call while I'm on the call, that's it. That's the job.",
+      "location": "rec-4418, 27:43 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4418-discovery.txt, L322, turn 142, 27:43, Jesse Corrigan"
+    },
+    {
+      "path": "/rubric[5]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I want the floor to see the queue without me. What's on the laminator today, what's on the plotter, what's ready. Not me reading the board out loud at seven-thirty.",
+      "location": "rec-4418, 27:52 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L324, turn 143, 27:52, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[5]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "I'm the leadership. The win is I stop getting the branch manager's calls.",
+      "location": "rec-4418, 28:13 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L328, turn 145, 28:13, Wade Strickler"
+    },
+    {
+      "path": "/rubric[5]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "I don't want a dashboard with twelve widgets. One list. What's late and why. That's my Friday.",
+      "location": "rec-4397, 07:45 Wade Strickler (Owner)",
+      "cited": "rec-4397-production-walkthrough.txt, L122, turn 48, 07:45, Wade Strickler"
+    },
+    {
+      "path": "/rubric[5]/asked_quote/quote",
+      "status": "verified",
+      "quote": "If this were working, six months from now, what's different on a Tuesday?",
+      "location": "rec-4418, 27:17 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L318, turn 140, 27:17, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[6]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Me. I sign it. Anything over five grand a year I'll talk to my brother Vern, he's the other half of the company, but he'll do what I say on this. He'll want to know what it costs a month. Lupe sets up the payment, and she'll want to see the seat count. She's particular about seats. We pay for six of something we use two of.",
+      "location": "rec-4418, 29:20 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L343, turn 151, 29:20, Wade Strickler"
+    },
+    {
+      "path": "/rubric[6]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Me. Twenty twenty-two. Took me two weeks, I just did it. Vern found out when the [inaudible] invoice came.",
+      "location": "rec-4418, 30:01 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L347, turn 153, 30:01, Wade Strickler"
+    },
+    {
+      "path": "/rubric[6]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Gwen and Jesse. And me, if I'm honest, because if I don't use it, nobody will.",
+      "location": "rec-4418, 30:17 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L351, turn 155, 30:17, Wade Strickler"
+    },
+    {
+      "path": "/rubric[6]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Yes. That's it. Those five. The second one, Gwen decides, not me.",
+      "location": "rec-4409, 03:40 Wade Strickler (Owner)",
+      "cited": "rec-4409-pricing.txt, L58, turn 19, 03:40, Wade Strickler"
+    },
+    {
+      "path": "/rubric[6]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Here's where I am. I need to run it past Vern. Anything over five a year and he hears about it, and this is over five in year one by a lot. He'll ask what it is a month, so I need the seats in a number.",
+      "location": "rec-4409, 07:07 Wade Strickler (Owner)",
+      "cited": "rec-4409-pricing.txt, L118, turn 46, 07:07, Wade Strickler"
+    },
+    {
+      "path": "/rubric[6]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "And I'm not signing anything until I know the floor will use it. Gwen said the floor guys won't touch a computer, and she's not wrong. If she says they'll use the screen on the wall, fine. If she doesn't, I'm paying eighteen five for Jesse to have a nicer spreadsheet.",
+      "location": "rec-4409, 07:35 Wade Strickler (Owner)",
+      "cited": "rec-4409-pricing.txt, L122, turn 48, 07:35, Wade Strickler"
+    },
+    {
+      "path": "/rubric[6]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Who decides on something like this?",
+      "location": "rec-4418, 29:16 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L341, turn 150, 29:16, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[7]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Before the branches start. First one's mid-September, so I want the install side working by September. The rest, I'd like it before Thanksgiving, because I don't want to be doing this in November.",
+      "location": "rec-4418, 24:53 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L288, turn 128, 24:53, Wade Strickler"
+    },
+    {
+      "path": "/rubric[7]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Before the branches start. I said September. I'm not doing this in November.",
+      "location": "rec-4418, 31:15 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L363, turn 161, 31:15, Wade Strickler"
+    },
+    {
+      "path": "/rubric[7]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "The first branch moved. It's the fourteenth of September now, they pushed it a week. Valley. Then one a week after that, roughly. Which means Ronnie's back from leave on the first, so we've got two weeks with him before the first one.",
+      "location": "rec-4397, 09:45 Wade Strickler (Owner)",
+      "cited": "rec-4397-production-walkthrough.txt, L155, turn 63, 09:45, Wade Strickler"
+    },
+    {
+      "path": "/rubric[7]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Understood. Priority, then. This quarter, next quarter?",
+      "location": "rec-4418, 31:10 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L361, turn 160, 31:10, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[8]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The floor. Half of them don't want to touch a computer. If it isn't on the whiteboard it doesn't exist. So whatever it is, it's on a screen on the wall or it's on their phone, or it's not happening.",
+      "location": "rec-4418, 30:31 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L355, turn 157, 30:31, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[8]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And me. If I don't use it, nobody will. That's what killed the last two things we tried.",
+      "location": "rec-4418, 30:52 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L357, turn 158, 30:52, Wade Strickler"
+    },
+    {
+      "path": "/rubric[8]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And Ronnie. If it's not on his phone he's not looking at it.",
+      "location": "rec-4418, 31:02 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4418-discovery.txt, L359, turn 159, 31:02, Jesse Corrigan"
+    },
+    {
+      "path": "/rubric[8]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Please. We're already paying for six of the accounting thing and using two. I'm not doing that again.",
+      "location": "rec-4409, 06:32 Lupe Arrieta (Office Manager)",
+      "cited": "rec-4409-pricing.txt, L105, turn 41, 06:32, Lupe Arrieta"
+    },
+    {
+      "path": "/rubric[8]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "If it's on a screen on the wall, yes. If it's on a laptop in my office, no.",
+      "location": "rec-4402, 09:36 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4402-first-look.txt, L118, turn 49, 09:36, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[8]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What could stop this going ahead? Gwen?",
+      "location": "rec-4418, 30:26 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L353, turn 156, 30:26, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[9]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Nine on the twenty-seventh. Fine. Lupe, you too.",
+      "location": "rec-4409, 09:28 Wade Strickler (Owner)",
+      "cited": "rec-4409-pricing.txt, L143, turn 57, 09:28, Wade Strickler"
+    },
+    {
+      "path": "/rubric[9]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I'll be here.",
+      "location": "rec-4409, 09:33 Lupe Arrieta (Office Manager)",
+      "cited": "rec-4409-pricing.txt, L145, turn 58, 09:33, Lupe Arrieta"
+    },
+    {
+      "path": "/rubric[9]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And can we get back together Thursday the twenty-seventh, nine a.m., after you've talked to Vern?",
+      "location": "rec-4409, 09:02 Clodagh Rennard (seller)",
+      "cited": "rec-4409-pricing.txt, L141, turn 56, 09:02, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[9]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "And the reprint codes. Lupe, pull them before the twenty-seventh so I stop arguing with Gwen.",
+      "location": "rec-4409, 09:40 Wade Strickler (Owner)",
+      "cited": "rec-4409-pricing.txt, L149, turn 60, 09:40, Wade Strickler"
+    },
+    {
+      "path": "/rubric[9]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Then here's what I'd suggest. I'll send the proposal Friday, with the seats as a monthly number for Vern. Kofi does an hour on the floor with Gwen, next week if she'll have him. And can we get back together Thursday the twenty-seventh, nine a.m., after you've talked to Vern?",
+      "location": "rec-4409, 09:02 Clodagh Rennard (seller)",
+      "cited": "rec-4409-pricing.txt, L141, turn 56, 09:02, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[10]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It does.",
+      "location": "rec-4402, 13:58 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4402-first-look.txt, L185, turn 78, 13:58, Jesse Corrigan"
+    },
+    {
+      "path": "/rubric[10]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "If it's by piece. I'm not sold on the sub-item thing.",
+      "location": "rec-4402, 14:09 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4402-first-look.txt, L189, turn 80, 14:09, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[10]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "That's the branch calls.",
+      "location": "rec-4397, 07:11 Wade Strickler (Owner)",
+      "cited": "rec-4397-production-walkthrough.txt, L109, turn 43, 07:11, Wade Strickler"
+    },
+    {
+      "path": "/rubric[10]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "If that's true, that's the reprints gone. The version ones, anyway.",
+      "location": "rec-4397, 04:42 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4397-production-walkthrough.txt, L66, turn 23, 04:42, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[10]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "I still want to see the job first. If the job row does what he says, fine. If it doesn't, I want the sub-items.",
+      "location": "rec-4397, 03:38 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4397-production-walkthrough.txt, L53, turn 18, 03:38, Jesse Corrigan"
+    },
+    {
+      "path": "/rubric[10]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Let me check where we are. Jesse, the proof status and the three-day rule, does that answer your call?",
+      "location": "rec-4402, 13:47 Clodagh Rennard (seller)",
+      "cited": "rec-4402-first-look.txt, L183, turn 77, 13:47, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[11]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Yes. That's it. Those five. The second one, Gwen decides, not me.",
+      "location": "rec-4409, 03:40 Wade Strickler (Owner)",
+      "cited": "rec-4409-pricing.txt, L58, turn 19, 03:40, Wade Strickler"
+    },
+    {
+      "path": "/rubric[11]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Jesse will live with whatever Gwen picks as long as his one line works. He said so.",
+      "location": "rec-4409, 03:51 Wade Strickler (Owner)",
+      "cited": "rec-4409-pricing.txt, L62, turn 21, 03:51, Wade Strickler"
+    },
+    {
+      "path": "/rubric[11]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Fine.",
+      "location": "rec-4409, 04:15 Wade Strickler (Owner)",
+      "cited": "rec-4409-pricing.txt, L66, turn 23, 04:15, Wade Strickler"
+    },
+    {
+      "path": "/rubric[11]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Good.",
+      "location": "rec-4409, 04:28 Lupe Arrieta (Office Manager)",
+      "cited": "rec-4409-pricing.txt, L72, turn 26, 04:28, Lupe Arrieta"
+    },
+    {
+      "path": "/rubric[11]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "That system's fine, by the way. I want to say that before you pitch me something. Quotes live in the estimating system and they're fine there.",
+      "location": "rec-4418, 05:15 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L67, turn 25, 05:15, Wade Strickler"
+    },
+    {
+      "path": "/rubric[11]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Scope. Five things.",
+      "location": "rec-4409, 02:46 Clodagh Rennard (seller)",
+      "cited": "rec-4409-pricing.txt, L56, turn 18, 02:46, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[12]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Where's my job. That's the call. Every day.",
+      "location": "rec-4418, 10:33 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4418-discovery.txt, L132, turn 56, 10:33, Jesse Corrigan"
+    },
+    {
+      "path": "/rubric[12]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I chase designers for art and I chase customers for approvals, because if I don't, the job doesn't get to me, and then it's due tomorrow and nobody's printed it.",
+      "location": "rec-4418, 11:30 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L140, turn 60, 11:30, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[12]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Jesse, you said you're the one who gets called. Tell me about that.",
+      "location": "rec-4418, 10:25 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L130, turn 55, 10:25, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[13]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It sat in the branch manager's inbox for nine days. Nobody chased it, because I thought Nate had it and Nate thought I had it.",
+      "location": "rec-4418, 12:12 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4418-discovery.txt, L144, turn 62, 12:12, Jesse Corrigan"
+    },
+    {
+      "path": "/rubric[13]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "We pushed it a week. She was fine about it, but she's the one who's got fourteen more of these coming.",
+      "location": "rec-4418, 12:56 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4418-discovery.txt, L148, turn 64, 12:56, Jesse Corrigan"
+    },
+    {
+      "path": "/rubric[13]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Can you give me a recent one? Something that actually happened.",
+      "location": "rec-4418, 12:05 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L142, turn 61, 12:05, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[14]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "My spreadsheet. There's a column that says \"waiting on,\" and I put customer or design or production. And I walk the floor twice a day. And I read Nate's sent folder, when he lets me.",
+      "location": "rec-4418, 13:18 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4418-discovery.txt, L152, turn 66, 13:18, Jesse Corrigan"
+    },
+    {
+      "path": "/rubric[14]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "J, you've got the sheet, I've got the wall. Neither of us has the email.",
+      "location": "rec-4418, 13:36 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L154, turn 67, 13:36, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[14]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Nothing stops me. That's the problem. It works right up until I'm out for a day. When I was out in June, Wade got every call.",
+      "location": "rec-4418, 13:54 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4418-discovery.txt, L160, turn 70, 13:54, Jesse Corrigan"
+    },
+    {
+      "path": "/rubric[14]/asked_quote/quote",
+      "status": "verified",
+      "quote": "We'll come back to the fourteen. So today, what do you do to stop that? What's the workaround?",
+      "location": "rec-4418, 13:08 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L150, turn 65, 13:08, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[15]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I got every call. I don't know the jobs. I'd go find Gwen, Gwen would go find Nate. It's three people to answer one question.",
+      "location": "rec-4418, 14:08 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L162, turn 71, 14:08, Wade Strickler"
+    },
+    {
+      "path": "/rubric[15]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The customer. The branch manager, in that case. And the reputation. We're the ones who say we'll take care of it, and then the job sits because a proof's in somebody's inbox.",
+      "location": "rec-4418, 14:28 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L166, turn 73, 14:28, Wade Strickler"
+    },
+    {
+      "path": "/rubric[15]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "The floor. Because when the approval finally comes it's a rush, and a rush bumps something else.",
+      "location": "rec-4418, 14:45 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L168, turn 74, 14:45, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[15]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Who else does it touch, besides the three of you?",
+      "location": "rec-4418, 14:22 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L164, turn 72, 14:22, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[16]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I'd say I spend an hour and a half a day, easy, just answering where's-my-job, on the phone or walking out to the floor.",
+      "location": "rec-4418, 11:10 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4418-discovery.txt, L136, turn 58, 11:10, Jesse Corrigan"
+    },
+    {
+      "path": "/rubric[16]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "An hour, hour and a half a day, chasing proofs and art.",
+      "location": "rec-4418, 11:30 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L140, turn 60, 11:30, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[16]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Don't know. Lupe would know what we load. I'd guess... no, I'm not going to guess.",
+      "location": "rec-4418, 25:41 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L295, turn 130, 25:41, Wade Strickler"
+    },
+    {
+      "path": "/rubric[16]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "The hours are right. If anything I'm low.",
+      "location": "rec-4418, 26:59 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L309, turn 137, 26:59, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[16]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "I haven't done it. I can. Loaded, it's not fifty for Jesse, it's more, and it's less for the floor. I'd have to do it properly.",
+      "location": "rec-4409, 01:42 Lupe Arrieta (Office Manager)",
+      "cited": "rec-4409-pricing.txt, L39, turn 11, 01:42, Lupe Arrieta"
+    },
+    {
+      "path": "/rubric[16]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What do you load an hour at, for the two of them?",
+      "location": "rec-4418, 25:12 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L293, turn 129, 25:12, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[17]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It'll get worse with the credit union, fourteen branches, each one with its own proof, its own branch manager, its own install. That's fourteen inboxes to chase instead of one.",
+      "location": "rec-4418, 15:02 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4418-discovery.txt, L172, turn 76, 15:02, Jesse Corrigan"
+    },
+    {
+      "path": "/rubric[17]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And we're growing. Not fast, but every year.",
+      "location": "rec-4418, 15:18 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L174, turn 77, 15:18, Wade Strickler"
+    },
+    {
+      "path": "/rubric[17]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Where does this go if nothing changes? Say a year from now.",
+      "location": "rec-4418, 14:55 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L170, turn 75, 14:55, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[18]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Oh, that's my favorite. We print the wrong version. The customer approves version three, the press runs version two, because version two is what's on the drive with the right name.",
+      "location": "rec-4418, 15:38 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L181, turn 79, 15:38, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[18]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "They're not the same thing. So the designer makes a change, saves a new file, and now there's \"brewery labels final\" and \"brewery labels final final\" and \"brewery labels FINAL v3.\" And the press operator grabs the one that looks right.",
+      "location": "rec-4418, 15:58 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L185, turn 81, 15:58, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[18]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What about the other direction? Printing the wrong thing.",
+      "location": "rec-4418, 15:25 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L179, turn 78, 15:25, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[19]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Larch Mountain. The brewery. Four hundred tap handle labels. They approved v3, which had a changed ABV line, five point two instead of five point four or whatever it was. We ran v2.",
+      "location": "rec-4418, 16:29 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L189, turn 83, 16:29, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[19]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Reprinted the whole run. Our material, our press time, our courier, and Nate's weekend.",
+      "location": "rec-4418, 16:29 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L189, turn 83, 16:29, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[19]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Recent one?",
+      "location": "rec-4418, 16:26 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L187, turn 82, 16:26, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[20]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "There's a naming rule, which nobody follows. And the printed proof stapled to the ticket, which is the real control. The rule is the operator prints what's on the ticket, not what's on the drive.",
+      "location": "rec-4418, 17:07 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L193, turn 85, 17:07, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[20]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It works until someone grabs the file off the drive instead of off the ticket. Which is always, because the ticket's a printout and the file's what you actually load.",
+      "location": "rec-4418, 17:07 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L193, turn 85, 17:07, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[20]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What do you do today to stop it?",
+      "location": "rec-4418, 17:02 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L191, turn 84, 17:02, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[21]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The customer, obviously. Nate, because it's his weekend. The operator, who feels terrible about it. Me. And whatever job was supposed to be on that press that afternoon.",
+      "location": "rec-4418, 18:51 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L213, turn 95, 18:51, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[21]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And me, because I'm the one who calls the brewery.",
+      "location": "rec-4418, 19:06 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4418-discovery.txt, L215, turn 96, 19:06, Jesse Corrigan"
+    },
+    {
+      "path": "/rubric[21]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Who else does a reprint touch?",
+      "location": "rec-4418, 18:47 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L211, turn 94, 18:47, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[22]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We reprint six, seven jobs a week, easy. Not all big. Some of it's a laminator eating a print, that's not a version thing. But a couple of those a week are wrong version, wrong size, wrong color because the proof was on a screen.",
+      "location": "rec-4418, 17:44 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L197, turn 87, 17:44, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[22]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Reprints last year, I want to say it was around forty thousand? Lupe pulled it for the accountant, there's a job code for it. I'd want her to check that before anyone writes it down.",
+      "location": "rec-4418, 18:20 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L205, turn 91, 18:20, Wade Strickler"
+    },
+    {
+      "path": "/rubric[22]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "To be checked. Don't hold me to it.",
+      "location": "rec-4418, 18:42 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L209, turn 93, 18:42, Wade Strickler"
+    },
+    {
+      "path": "/rubric[22]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "I can pull it. There's a reprint code on every job that gets rerun.",
+      "location": "rec-4409, 02:32 Lupe Arrieta (Office Manager)",
+      "cited": "rec-4409-pricing.txt, L49, turn 16, 02:32, Lupe Arrieta"
+    },
+    {
+      "path": "/rubric[22]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Wade, do you know what that costs?",
+      "location": "rec-4418, 18:15 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L203, turn 90, 18:15, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[23]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We're adding a designer in the fall and doing more remote proofing, so more versions flying around. It'll be worse, not better.",
+      "location": "rec-4418, 19:16 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L219, turn 98, 19:16, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[23]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And a year from now?",
+      "location": "rec-4418, 19:12 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L217, turn 97, 19:12, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[24]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So this is the one that got me to call you, honestly.",
+      "location": "rec-4418, 19:37 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L226, turn 100, 19:37, Wade Strickler"
+    },
+    {
+      "path": "/rubric[24]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The group text and Ronnie's head.",
+      "location": "rec-4418, 08:31 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L109, turn 46, 08:31, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[24]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Wade, you started to say something about installs. The group text.",
+      "location": "rec-4418, 19:30 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L224, turn 99, 19:30, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[25]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And nobody at the Cheney branch, where the sign permit hadn't been pulled anyway, so it wouldn't have mattered, except the branch manager in Cheney was standing in her parking lot waiting for us.",
+      "location": "rec-4418, 19:37 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L226, turn 100, 19:37, Wade Strickler"
+    },
+    {
+      "path": "/rubric[25]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Ronnie sent it in the group text. Somebody read the wrong day. And the permit, that's a whole other thing. Ronnie pulls permits, and he thought Jesse had, and Jesse thought Ronnie had.",
+      "location": "rec-4418, 20:20 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L230, turn 102, 20:20, Wade Strickler"
+    },
+    {
+      "path": "/rubric[25]/asked_quote/quote",
+      "status": "verified",
+      "quote": "How did that happen?",
+      "location": "rec-4418, 20:16 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L228, turn 101, 20:16, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[26]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Ronnie's group text. The whiteboard has an install column, sort of. And Ronnie's head. He's been here nineteen years, he knows every job. And Ronnie's taking two weeks in August and I'm going to be the one holding the phone.",
+      "location": "rec-4418, 20:56 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L238, turn 106, 20:56, Wade Strickler"
+    },
+    {
+      "path": "/rubric[26]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "August stops me. And fourteen branches stops me. Ronnie can hold three or four installs a week in his head. He can't hold fourteen branches plus everything else.",
+      "location": "rec-4418, 21:24 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L242, turn 108, 21:24, Wade Strickler"
+    },
+    {
+      "path": "/rubric[26]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What's the workaround today?",
+      "location": "rec-4418, 20:52 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L236, turn 105, 20:52, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[27]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The crews, because they drive to the wrong place. The branch managers. Me. And the permit thing reaches the city, which I don't want.",
+      "location": "rec-4418, 21:43 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L246, turn 110, 21:43, Wade Strickler"
+    },
+    {
+      "path": "/rubric[27]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And me, because if a crew comes back with the job, I get it back on my board and now it's late.",
+      "location": "rec-4418, 21:56 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L248, turn 111, 21:56, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[27]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Who does that reach?",
+      "location": "rec-4418, 21:39 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L244, turn 109, 21:39, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[28]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "A wasted crew day is two guys and a truck, call it a thousand bucks, and it happens, what, twice a month?",
+      "location": "rec-4418, 22:13 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L252, turn 113, 22:13, Wade Strickler"
+    },
+    {
+      "path": "/rubric[28]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "More.",
+      "location": "rec-4418, 22:25 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L254, turn 114, 22:25, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[28]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Fine. Twice a month that I hear about.",
+      "location": "rec-4418, 22:27 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L256, turn 115, 22:27, Wade Strickler"
+    },
+    {
+      "path": "/rubric[28]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What does a wasted crew day cost you?",
+      "location": "rec-4418, 22:08 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L250, turn 112, 22:08, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[29]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And that's before the credit union. Fourteen branches by end of November. That's fourteen installs, fourteen permits, fourteen chances to do the Cheney thing again.",
+      "location": "rec-4418, 22:39 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L260, turn 117, 22:39, Wade Strickler"
+    },
+    {
+      "path": "/rubric[30]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Materials. We run out of a substrate mid-job because nobody ordered it. I order from memory. It happens.",
+      "location": "rec-4418, 23:02 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L267, turn 119, 23:02, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[30]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Anything else on the floor that gets in the way? Gwen?",
+      "location": "rec-4418, 22:55 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L265, turn 118, 22:55, Clodagh Rennard"
+    },
+    {
+      "path": "/rubric[31]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Last Tuesday we sat for a day waiting on a roll of the reflective. The piece was approved, the plotter was free, and I had no material. A day.",
+      "location": "rec-4397, 10:07 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4397-production-walkthrough.txt, L157, turn 64, 10:07, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[31]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Materials. None of this knows whether I've got the substrate. A piece can be approved and sitting in the queue and I've got no reflective in the building.",
+      "location": "rec-4402, 13:13 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4402-first-look.txt, L174, turn 74, 13:13, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[32]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Thin's fine. Just so somebody sees \"not ordered\" before the day it's due.",
+      "location": "rec-4397, 10:38 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4397-production-walkthrough.txt, L161, turn 66, 10:38, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[33]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The piece was approved, the plotter was free, and I had no material. A day.",
+      "location": "rec-4397, 10:07 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4397-production-walkthrough.txt, L157, turn 64, 10:07, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[34]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Often enough. I don't have a number. It's not the big one.",
+      "location": "rec-4418, 23:14 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L271, turn 121, 23:14, Gwen Tarrant"
+    },
+    {
+      "path": "/rubric[34]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Often?",
+      "location": "rec-4418, 23:12 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L269, turn 120, 23:12, Clodagh Rennard"
+    },
+    {
+      "path": "/pains[0]/quote",
+      "status": "verified",
+      "quote": "Where's my job. That's the call. Every day.",
+      "location": "rec-4418, 10:33 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4418-discovery.txt, L132, turn 56, 10:33, Jesse Corrigan"
+    },
+    {
+      "path": "/pains[1]/quote",
+      "status": "verified",
+      "quote": "I shouldn't be emailing customers.",
+      "location": "rec-4418, 11:30 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L140, turn 60, 11:30, Gwen Tarrant"
+    },
+    {
+      "path": "/pains[2]/quote",
+      "status": "verified",
+      "quote": "Or they approve it to Nate, and Nate doesn't tell me, and I find out when Jesse asks me why it isn't printed yet.",
+      "location": "rec-4418, 06:11 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L77, turn 30, 06:11, Gwen Tarrant"
+    },
+    {
+      "path": "/pains[3]/quote",
+      "status": "verified",
+      "quote": "We print the wrong version.",
+      "location": "rec-4418, 15:38 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L181, turn 79, 15:38, Gwen Tarrant"
+    },
+    {
+      "path": "/pains[4]/quote",
+      "status": "verified",
+      "quote": "It's still a person picking the right file. That's what we have now, with a stapler.",
+      "location": "rec-4402, 11:03 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4402-first-look.txt, L139, turn 58, 11:03, Gwen Tarrant"
+    },
+    {
+      "path": "/pains[5]/quote",
+      "status": "verified",
+      "quote": "The group text and Ronnie's head.",
+      "location": "rec-4418, 08:31 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L109, turn 46, 08:31, Gwen Tarrant"
+    },
+    {
+      "path": "/pains[6]/quote",
+      "status": "verified",
+      "quote": "Ronnie pulls permits, and he thought Jesse had, and Jesse thought Ronnie had.",
+      "location": "rec-4418, 20:20 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L230, turn 102, 20:20, Wade Strickler"
+    },
+    {
+      "path": "/pains[7]/quote",
+      "status": "verified",
+      "quote": "Materials. We run out of a substrate mid-job because nobody ordered it. I order from memory. It happens.",
+      "location": "rec-4418, 23:02 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L267, turn 119, 23:02, Gwen Tarrant"
+    },
+    {
+      "path": "/pains[8]/quote",
+      "status": "verified",
+      "quote": "The schedule got saved over in June. Somebody opened it off the shared drive, it was the wrong copy, they saved, and we lost two weeks of it. That was a bad week.",
+      "location": "rec-4418, 07:26 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L97, turn 40, 07:26, Wade Strickler"
+    },
+    {
+      "path": "/numbers/bleed/quote",
+      "status": "verified",
+      "quote": "It feels like a lot of things I'd want Lupe to look at. The forty is the one I'd stand behind, if she says so.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4418-discovery.txt, L307, turn 136, 26:45, Wade Strickler"
+      ]
+    },
+    {
+      "path": "/numbers/upside/quote",
+      "status": "verified",
+      "quote": "That was a hundred and twenty-ish, over two years.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4418-discovery.txt, L332, turn 147, 28:39, Wade Strickler"
+      ]
+    },
+    {
+      "path": "/objections[0]/quote",
+      "status": "verified",
+      "quote": "That's more than I had in my head.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4409-pricing.txt, L83, turn 30, 05:04, Wade Strickler"
+      ]
+    },
+    {
+      "path": "/objections[1]/quote",
+      "status": "verified",
+      "quote": "Against forty, eighteen five is still a lot for year one.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4409-pricing.txt, L91, turn 34, 05:38, Wade Strickler"
+      ]
+    },
+    {
+      "path": "/objections[2]/quote",
+      "status": "verified",
+      "quote": "It's more than the estimating system was, and that took two weeks and I did it myself.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4409-pricing.txt, L87, turn 32, 05:14, Wade Strickler"
+      ]
+    },
+    {
+      "path": "/objections[3]/quote",
+      "status": "verified",
+      "quote": "Here's where I am. I need to run it past Vern. Anything over five a year and he hears about it, and this is over five in year one by a lot. He'll ask what it is a month, so I need the seats in a number.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4409-pricing.txt, L118, turn 46, 07:07, Wade Strickler"
+      ]
+    },
+    {
+      "path": "/objections[4]/quote",
+      "status": "verified",
+      "quote": "I'm here. I'm just listening. Wade wants me to understand what it is before I'm asked to pay for it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4397-production-walkthrough.txt, L18, turn 2, 00:13, Lupe Arrieta"
+      ]
+    },
+    {
+      "path": "/objections[5]/quote",
+      "status": "verified",
+      "quote": "The floor. Half of them don't want to touch a computer. If it isn't on the whiteboard it doesn't exist. So whatever it is, it's on a screen on the wall or it's on their phone, or it's not happening.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4418-discovery.txt, L355, turn 157, 30:31, Gwen Tarrant"
+      ]
+    },
+    {
+      "path": "/objections[6]/quote",
+      "status": "verified",
+      "quote": "And me. If I don't use it, nobody will. That's what killed the last two things we tried.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4418-discovery.txt, L357, turn 158, 30:52, Wade Strickler"
+      ]
+    },
+    {
+      "path": "/objections[7]/quote",
+      "status": "verified",
+      "quote": "And I'm not signing anything until I know the floor will use it. Gwen said the floor guys won't touch a computer, and she's not wrong. If she says they'll use the screen on the wall, fine. If she doesn't, I'm paying eighteen five for Jesse to have a nicer spreadsheet.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4409-pricing.txt, L122, turn 48, 07:35, Wade Strickler"
+      ]
+    },
+    {
+      "path": "/objections[8]/quote",
+      "status": "verified",
+      "quote": "Can I ask something? How many seats does this need? And what's that a month?",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4397-production-walkthrough.txt, L130, turn 52, 08:17, Lupe Arrieta"
+      ]
+    },
+    {
+      "path": "/objections[9]/quote",
+      "status": "verified",
+      "quote": "Vern's cousin does something with a different system, he keeps sending me links. I haven't opened them. I'm not shopping it. I just want to know it'll get used.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4409-pricing.txt, L134, turn 54, 08:42, Wade Strickler"
+      ]
+    },
+    {
+      "path": "/objections[10]/quote",
+      "status": "verified",
+      "quote": "Vernon told me he doesn't want another monthly thing. For what that's worth. He said it about the accounting package too.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4409-pricing.txt, L128, turn 51, 08:16, Lupe Arrieta"
+      ]
+    },
+    {
+      "path": "/objections[11]/quote",
+      "status": "verified",
+      "quote": "Good. Because I've been sold a lot of software.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4418-discovery.txt, L40, turn 13, 02:21, Wade Strickler"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[0]/quote",
+      "status": "verified",
+      "quote": "Ten on the twenty-third works. Gwen?",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4418-discovery.txt, L376, turn 166, 32:38, Wade Strickler"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[1]/quote",
+      "status": "verified",
+      "quote": "I can send you my spreadsheet. I'll take the customer names out.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4418-discovery.txt, L384, turn 170, 33:03, Jesse Corrigan"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[2]/quote",
+      "status": "verified",
+      "quote": "Sixth works.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4402-first-look.txt, L197, turn 84, 14:41, Wade Strickler"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[3]/quote",
+      "status": "verified",
+      "quote": "Both ways. And I'll have looked at the estimating system export and the files thing.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4402-first-look.txt, L203, turn 87, 14:57, Kofi Danquah"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[4]/quote",
+      "status": "verified",
+      "quote": "I'll add an owner on it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4397-production-walkthrough.txt, L115, turn 46, 07:29, Kofi Danquah"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[5]/quote",
+      "status": "verified",
+      "quote": "Two approvals on one proof. That's a change. Let me note it, I don't want to say yes on the fly.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4397-production-walkthrough.txt, L165, turn 68, 10:59, Kofi Danquah"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[6]/quote",
+      "status": "verified",
+      "quote": "Wednesday? Afternoon. Two.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4397-production-walkthrough.txt, L176, turn 72, 11:46, Wade Strickler"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[7]/quote",
+      "status": "verified",
+      "quote": "You'll have it Friday.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4409-pricing.txt, L120, turn 47, 07:31, Clodagh Rennard"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[8]/quote",
+      "status": "verified",
+      "quote": "It would help Gwen decide. Yeah.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4409-pricing.txt, L126, turn 50, 08:12, Wade Strickler"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[9]/quote",
+      "status": "verified",
+      "quote": "Nine on the twenty-seventh. Fine. Lupe, you too.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4409-pricing.txt, L143, turn 57, 09:28, Wade Strickler"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[10]/quote",
+      "status": "verified",
+      "quote": "I'll pull them.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4409-pricing.txt, L151, turn 61, 09:49, Lupe Arrieta"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[11]/quote",
+      "status": "verified",
+      "quote": "I haven't done it. I can. Loaded, it's not fifty for Jesse, it's more, and it's less for the floor. I'd have to do it properly.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4409-pricing.txt, L39, turn 11, 01:42, Lupe Arrieta"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[12]/quote",
+      "status": "verified",
+      "quote": "I'll check.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4409-pricing.txt, L107, turn 42, 06:42, Clodagh Rennard"
+      ]
+    },
+    {
+      "path": "/requested_changes[0]/quote",
+      "status": "verified",
+      "quote": "Ronnie. Always Ronnie. We'll put that in the rule.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4397-production-walkthrough.txt, L113, turn 45, 07:23, Wade Strickler"
+      ]
+    },
+    {
+      "path": "/requested_changes[1]/quote",
+      "status": "verified",
+      "quote": "Thin's fine. Just so somebody sees \"not ordered\" before the day it's due.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4397-production-walkthrough.txt, L161, turn 66, 10:38, Gwen Tarrant"
+      ]
+    },
+    {
+      "path": "/requested_changes[2]/quote",
+      "status": "verified",
+      "quote": "And the credit union proofs. They've got a marketing person now who has to approve, as well as the branch manager. Two approvals.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4397-production-walkthrough.txt, L163, turn 67, 10:46, Jesse Corrigan"
+      ]
+    },
+    {
+      "path": "/requested_changes[3]/quote",
+      "status": "verified",
+      "quote": "A list. On my phone, ideally.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4397-production-walkthrough.txt, L126, turn 50, 08:09, Wade Strickler"
+      ]
+    },
+    {
+      "path": "/requested_changes[4]/quote",
+      "status": "verified",
+      "quote": "If it's on a screen on the wall, yes. If it's on a laptop in my office, no.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4402-first-look.txt, L118, turn 49, 09:36, Gwen Tarrant"
+      ]
+    },
+    {
+      "path": "/requested_changes[5]/quote",
+      "status": "verified",
+      "quote": "Three's about right. Two for the credit union.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4402-first-look.txt, L55, turn 19, 03:42, Jesse Corrigan"
+      ]
+    },
+    {
+      "path": "/requested_changes[6]/quote",
+      "status": "verified",
+      "quote": "If the approved one was the only one they could see. If the old ones went away.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4402-first-look.txt, L143, turn 60, 11:17, Gwen Tarrant"
+      ]
+    },
+    {
+      "path": "/requested_changes[7]/quote",
+      "status": "verified",
+      "quote": "His phone. If it's on his phone he'll look at it.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4402-first-look.txt, L162, turn 68, 12:35, Wade Strickler"
+      ]
+    },
+    {
+      "path": "/requested_changes[8]/quote",
+      "status": "verified",
+      "quote": "That system's fine, by the way. I want to say that before you pitch me something. Quotes live in the estimating system and they're fine there.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4418-discovery.txt, L67, turn 25, 05:15, Wade Strickler"
+      ]
+    },
+    {
+      "path": "/account_context/evidence_quote_or_null",
+      "status": "verified",
+      "quote": "I do. It's a personal one. I put my to-do list in it. I tried to put jobs in it last year and I hit the wall on it pretty fast, honestly.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "rec-4418-discovery.txt, L119, turn 51, 09:44, Jesse Corrigan"
+      ]
+    },
+    {
+      "path": "/intake/files[0]/type_quote/quote",
+      "status": "verified",
+      "quote": "Good. Because I've been sold a lot of software.",
+      "location": "rec-4418, 02:21 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L40, turn 13, 02:21, Wade Strickler"
+    },
+    {
+      "path": "/intake/files[0]/listed_not_present[0]/evidence/quote",
+      "status": "verified",
+      "quote": "Kofi was going to join us today and he got pulled onto another call, so it's just me. He'll be on the next one.",
+      "location": "rec-4418, 00:50 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L26, turn 6, 00:50, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/files[1]/type_quote/quote",
+      "status": "verified",
+      "quote": "Sharing now. Can you see a screen with a list of jobs?",
+      "location": "rec-4402, 01:31 Kofi Danquah (sales engineer)",
+      "cited": "rec-4402-first-look.txt, L32, turn 9, 01:31, Kofi Danquah"
+    },
+    {
+      "path": "/intake/files[1]/listed_not_present[0]/evidence/quote",
+      "status": "verified",
+      "quote": "Morning. We've got Lupe with us today, Wade said.",
+      "location": "rec-4397, 00:07 Clodagh Rennard (seller)",
+      "cited": "rec-4397-production-walkthrough.txt, L16, turn 1, 00:07, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/files[2]/type_quote/quote",
+      "status": "verified",
+      "quote": "Okay, recording. Just so we've got notes. Kof, this morning's demo. How did you feel it went?",
+      "location": "rec-4431, 00:05 Clodagh Rennard (seller)",
+      "cited": "rec-4431-internal-review.txt, L16, turn 1, 00:05, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/files[3]/type_quote/quote",
+      "status": "verified",
+      "quote": "Sharing. So, the jobs board first, same as last time, that's Jesse's view. Nothing's changed there except I've put the three-day proof rule at two days for anything with the credit union's name on it.",
+      "location": "rec-4397, 00:52 Kofi Danquah (sales engineer)",
+      "cited": "rec-4397-production-walkthrough.txt, L24, turn 5, 00:52, Kofi Danquah"
+    },
+    {
+      "path": "/intake/files[3]/segments[1]/event/quote",
+      "status": "verified",
+      "quote": "Can I go off script for a minute?",
+      "location": "rec-4397, 09:01 Wade Strickler (Owner)",
+      "cited": "rec-4397-production-walkthrough.txt, L143, turn 57, 09:01, Wade Strickler"
+    },
+    {
+      "path": "/intake/files[4]/type_quote/quote",
+      "status": "verified",
+      "quote": "Before the number, let me play back what we heard, in your words, and then the scope, and then the number. Stop me anywhere.",
+      "location": "rec-4409, 00:26 Clodagh Rennard (seller)",
+      "cited": "rec-4409-pricing.txt, L22, turn 4, 00:26, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/ties[0]/evidence/quote",
+      "status": "verified",
+      "quote": "Okay, recording. Just so we've got notes. Kof, this morning's demo. How did you feel it went?",
+      "location": "rec-4431, 00:05 Clodagh Rennard (seller)",
+      "cited": "rec-4431-internal-review.txt, L16, turn 1, 00:05, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/order_evidence[0]/quote",
+      "status": "verified",
+      "quote": "We'll be done by eleven. So, when we spoke two weeks ago, you told us three things, and I want to make sure we build around them and not around what we like showing.",
+      "location": "rec-4402, 00:31 Clodagh Rennard (seller)",
+      "cited": "rec-4402-first-look.txt, L24, turn 5, 00:31, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/order_evidence[1]/quote",
+      "status": "verified",
+      "quote": "Then let's show you. I'd like Kofi to walk you through what that looks like, in your language, not a generic demo. Thursday the twenty-third at ten?",
+      "location": "rec-4418, 32:23 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L374, turn 165, 32:23, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/order_evidence[2]/quote",
+      "status": "verified",
+      "quote": "Welcome, Lupe. So last time, Gwen asked for the pieces on their own board, and Jesse wanted the job first, so Kofi's built it both ways, and we'll show you both and you can tell us. And the permit and the phone for the installs. And materials. Kofi.",
+      "location": "rec-4397, 00:27 Clodagh Rennard (seller)",
+      "cited": "rec-4397-production-walkthrough.txt, L22, turn 4, 00:27, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/order_evidence[3]/quote",
+      "status": "verified",
+      "quote": "Then I think we owe you a second session to go through the production side properly, with the pieces done both ways, and the permit, and the phone. How's the sixth of August, same time?",
+      "location": "rec-4402, 14:23 Clodagh Rennard (seller)",
+      "cited": "rec-4402-first-look.txt, L195, turn 83, 14:23, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/order_evidence[4]/quote",
+      "status": "verified",
+      "quote": "Sixth of August. Lead with sub-items, have the production board ready, permit column, phone, materials. Then pricing the week after, or the week after that.",
+      "location": "rec-4431, 04:20 Clodagh Rennard (seller)",
+      "cited": "rec-4431-internal-review.txt, L79, turn 28, 04:20, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/order_evidence[5]/quote",
+      "status": "verified",
+      "quote": "Two on the nineteenth. Lupe?",
+      "location": "rec-4397, 11:49 Clodagh Rennard (seller)",
+      "cited": "rec-4397-production-walkthrough.txt, L178, turn 73, 11:49, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/order_evidence[6]/quote",
+      "status": "verified",
+      "quote": "Two, the production pieces, and we'll work out with Gwen whether they're sub-items or their own board, we've written it up both ways.",
+      "location": "rec-4409, 02:46 Clodagh Rennard (seller)",
+      "cited": "rec-4409-pricing.txt, L56, turn 18, 02:46, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/second_hand[0]/requotes[0]/quote",
+      "status": "verified",
+      "quote": "The numbers. Wade said reprints are forty thousand a year. That's our anchor for the proposal.",
+      "location": "rec-4431, 01:31 Clodagh Rennard (seller)",
+      "cited": "rec-4431-internal-review.txt, L35, turn 9, 01:31, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/second_hand[0]/requotes[1]/quote",
+      "status": "verified",
+      "quote": "We'll go with Wade's number for now. And the forty thousand a year you mentioned.",
+      "location": "rec-4397, 05:46 Clodagh Rennard (seller)",
+      "cited": "rec-4397-production-walkthrough.txt, L86, turn 33, 05:46, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/second_hand[0]/requotes[2]/quote",
+      "status": "verified",
+      "quote": "You told us it's forty thousand a year in reprints.",
+      "location": "rec-4409, 00:43 Clodagh Rennard (seller)",
+      "cited": "rec-4409-pricing.txt, L29, turn 6, 00:43, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/second_hand[0]/true_source/quote",
+      "status": "verified",
+      "quote": "Reprints last year, I want to say it was around forty thousand? Lupe pulled it for the accountant, there's a job code for it. I'd want her to check that before anyone writes it down.",
+      "location": "rec-4418, 18:20 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L205, turn 91, 18:20, Wade Strickler"
+    },
+    {
+      "path": "/intake/second_hand[0]/client_response_to_requotes[0]/quote",
+      "status": "verified",
+      "quote": "Mm-hm.",
+      "location": "rec-4397, 05:55 Wade Strickler (Owner)",
+      "cited": "rec-4397-production-walkthrough.txt, L88, turn 34, 05:55, Wade Strickler"
+    },
+    {
+      "path": "/intake/second_hand[0]/client_response_to_requotes[1]/quote",
+      "status": "verified",
+      "quote": "I haven't pulled that yet.",
+      "location": "rec-4397, 05:57 Lupe Arrieta (Office Manager)",
+      "cited": "rec-4397-production-walkthrough.txt, L90, turn 35, 05:57, Lupe Arrieta"
+    },
+    {
+      "path": "/intake/second_hand[0]/client_response_to_requotes[2]/quote",
+      "status": "verified",
+      "quote": "Right. So your ninety-six is your number. Mine's the forty, if Lupe's right about the forty.",
+      "location": "rec-4409, 01:56 Wade Strickler (Owner)",
+      "cited": "rec-4409-pricing.txt, L41, turn 12, 01:56, Wade Strickler"
+    },
+    {
+      "path": "/intake/second_hand[0]/client_response_to_requotes[3]/quote",
+      "status": "verified",
+      "quote": "I haven't checked it yet. The job code's there, I just haven't run it.",
+      "location": "rec-4409, 02:05 Lupe Arrieta (Office Manager)",
+      "cited": "rec-4409-pricing.txt, L43, turn 13, 02:05, Lupe Arrieta"
+    },
+    {
+      "path": "/intake/second_hand[0]/own_side_dissent/quote",
+      "status": "verified",
+      "quote": "Did he? I thought he said he'd have to check.",
+      "location": "rec-4431, 01:40 Kofi Danquah (sales engineer)",
+      "cited": "rec-4431-internal-review.txt, L37, turn 10, 01:40, Kofi Danquah"
+    },
+    {
+      "path": "/intake/second_hand[1]/requote/quote",
+      "status": "verified",
+      "quote": "And with six or seven of these a week, that's where the forty thousand goes.",
+      "location": "rec-4397, 05:00 Clodagh Rennard (seller)",
+      "cited": "rec-4397-production-walkthrough.txt, L74, turn 27, 05:00, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/second_hand[1]/true_sources[0]/quote",
+      "status": "verified",
+      "quote": "We reprint six, seven jobs a week, easy.",
+      "location": "rec-4418, 17:44 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L197, turn 87, 17:44, Gwen Tarrant"
+    },
+    {
+      "path": "/intake/second_hand[1]/true_sources[1]/quote",
+      "status": "verified",
+      "quote": "Reprints last year, I want to say it was around forty thousand?",
+      "location": "rec-4418, 18:20 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L205, turn 91, 18:20, Wade Strickler"
+    },
+    {
+      "path": "/intake/second_hand[2]/spoken[0]/quote",
+      "status": "verified",
+      "quote": "Understood, it's mine. So twelve and a half hours at fifty is six twenty-five a week, thirty-two five a year, roughly. Plus the forty in reprints. Plus the crew days, a thousand twice a month, twenty-four. So with the forty, that's sixty-four thousand plus the hours. Call it ninety-six, ninety-seven thousand a year.",
+      "location": "rec-4418, 26:10 Clodagh Rennard (seller)",
+      "cited": "rec-4418-discovery.txt, L301, turn 133, 26:10, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/second_hand[2]/spoken[1]/quote",
+      "status": "verified",
+      "quote": "Ninety-six thousand five hundred a year, give or take, on the current way of doing it.",
+      "location": "rec-4409, 00:43 Clodagh Rennard (seller)",
+      "cited": "rec-4409-pricing.txt, L29, turn 6, 00:43, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/second_hand[2]/client_response[0]/quote",
+      "status": "verified",
+      "quote": "Sure, whatever you want to use for the model, but that's your number.",
+      "location": "rec-4418, 26:02 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L299, turn 132, 26:02, Wade Strickler"
+    },
+    {
+      "path": "/intake/second_hand[2]/client_response[1]/quote",
+      "status": "verified",
+      "quote": "I never gave you the fifty.",
+      "location": "rec-4409, 01:31 Wade Strickler (Owner)",
+      "cited": "rec-4409-pricing.txt, L35, turn 9, 01:31, Wade Strickler"
+    },
+    {
+      "path": "/intake/second_hand[3]/requote/quote",
+      "status": "verified",
+      "quote": "Jesse spends an hour and a half a day answering where's-my-job. Gwen spends an hour, hour and a half chasing proofs and art.",
+      "location": "rec-4409, 00:43 Clodagh Rennard (seller)",
+      "cited": "rec-4409-pricing.txt, L29, turn 6, 00:43, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/conflicts[0]/a/quote",
+      "status": "verified",
+      "quote": "We reprint six, seven jobs a week, easy. Not all big. Some of it's a laminator eating a print, that's not a version thing. But a couple of those a week are wrong version, wrong size, wrong color because the proof was on a screen.",
+      "location": "rec-4418, 17:44 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L197, turn 87, 17:44, Gwen Tarrant"
+    },
+    {
+      "path": "/intake/conflicts[0]/b/quote",
+      "status": "verified",
+      "quote": "Six or seven? No. Reprints, real ones, it's two, maybe three a week. Not six. Gwen counts every time the laminator eats a print.",
+      "location": "rec-4397, 05:09 Wade Strickler (Owner)",
+      "cited": "rec-4397-production-walkthrough.txt, L76, turn 28, 05:09, Wade Strickler"
+    },
+    {
+      "path": "/intake/conflicts[0]/c/quote",
+      "status": "verified",
+      "quote": "We reprinted five last week.",
+      "location": "rec-4397, 05:38 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4397-production-walkthrough.txt, L82, turn 31, 05:38, Gwen Tarrant"
+    },
+    {
+      "path": "/intake/conflicts[0]/denominator_note/quote",
+      "status": "verified",
+      "quote": "Not jobs, it isn't. [crosstalk] Two or three jobs a week is what costs real money.",
+      "location": "rec-4397, 05:29 Wade Strickler (Owner)",
+      "cited": "rec-4397-production-walkthrough.txt, L80, turn 30, 05:29, Wade Strickler"
+    },
+    {
+      "path": "/intake/conflicts[0]/in_room_exchange[0]/quote",
+      "status": "verified",
+      "quote": "It's more than that, Wade. I count them because they cost material.",
+      "location": "rec-4397, 05:22 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4397-production-walkthrough.txt, L78, turn 29, 05:22, Gwen Tarrant"
+    },
+    {
+      "path": "/intake/conflicts[0]/in_room_exchange[1]/quote",
+      "status": "verified",
+      "quote": "Last week was a bad week.",
+      "location": "rec-4397, 05:42 Wade Strickler (Owner)",
+      "cited": "rec-4397-production-walkthrough.txt, L84, turn 32, 05:42, Wade Strickler"
+    },
+    {
+      "path": "/intake/conflicts[0]/our_side_in_room/quote",
+      "status": "verified",
+      "quote": "We'll go with Wade's number for now. And the forty thousand a year you mentioned.",
+      "location": "rec-4397, 05:46 Clodagh Rennard (seller)",
+      "cited": "rec-4397-production-walkthrough.txt, L86, turn 33, 05:46, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/conflicts[0]/settlement/quote",
+      "status": "verified",
+      "quote": "And the reprints. I told Gwen two or three a week and she still says more. We're going to pull the codes and settle it.",
+      "location": "rec-4409, 02:18 Wade Strickler (Owner)",
+      "cited": "rec-4409-pricing.txt, L47, turn 15, 02:18, Wade Strickler"
+    },
+    {
+      "path": "/intake/forks[0]/facts_agreed[0]/quote",
+      "status": "verified",
+      "quote": "We're not disagreeing. A job's got pieces. The pieces are what I run, the job's what they buy.",
+      "location": "rec-4402, 07:26 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4402-first-look.txt, L98, turn 39, 07:26, Gwen Tarrant"
+    },
+    {
+      "path": "/intake/forks[0]/facts_agreed[1]/quote",
+      "status": "verified",
+      "quote": "No, you're right, you want the job.",
+      "location": "rec-4402, 07:17 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4402-first-look.txt, L94, turn 37, 07:17, Gwen Tarrant"
+    },
+    {
+      "path": "/intake/forks[0]/facts_agreed[2]/quote",
+      "status": "verified",
+      "quote": "And you want the pieces.",
+      "location": "rec-4402, 07:22 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4402-first-look.txt, L96, turn 38, 07:22, Jesse Corrigan"
+    },
+    {
+      "path": "/intake/forks[0]/option_a/condition/quote",
+      "status": "verified",
+      "quote": "I'd want to see the job first. But if the job row still shows me where it is, I don't care where the pieces live.",
+      "location": "rec-4402, 08:34 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4402-first-look.txt, L108, turn 44, 08:34, Jesse Corrigan"
+    },
+    {
+      "path": "/intake/forks[0]/option_b/condition/quote",
+      "status": "verified",
+      "quote": "Could the pieces be their own rows? On their own board? So I can sort by what's on the laminator.",
+      "location": "rec-4402, 08:15 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4402-first-look.txt, L102, turn 41, 08:15, Gwen Tarrant"
+    },
+    {
+      "path": "/intake/forks[0]/later_statements[0]/quote",
+      "status": "verified",
+      "quote": "That second one. That's my board. That's the whiteboard, except it's right.",
+      "location": "rec-4397, 02:06 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4397-production-walkthrough.txt, L33, turn 8, 02:06, Gwen Tarrant"
+    },
+    {
+      "path": "/intake/forks[0]/later_statements[1]/quote",
+      "status": "verified",
+      "quote": "Then I don't care where the pieces live, as long as I don't have to open four things to answer a call.",
+      "location": "rec-4397, 02:30 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4397-production-walkthrough.txt, L39, turn 11, 02:30, Jesse Corrigan"
+    },
+    {
+      "path": "/intake/forks[0]/later_statements[2]/quote",
+      "status": "verified",
+      "quote": "Then it's the separate board, for me.",
+      "location": "rec-4397, 03:33 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4397-production-walkthrough.txt, L51, turn 17, 03:33, Gwen Tarrant"
+    },
+    {
+      "path": "/intake/forks[0]/later_statements[3]/quote",
+      "status": "verified",
+      "quote": "I still want to see the job first. If the job row does what he says, fine. If it doesn't, I want the sub-items.",
+      "location": "rec-4397, 03:38 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4397-production-walkthrough.txt, L53, turn 18, 03:38, Jesse Corrigan"
+    },
+    {
+      "path": "/intake/forks[0]/approver/quote",
+      "status": "verified",
+      "quote": "I said. I don't care which. Gwen runs the floor, Jesse runs the phones. They'll pick.",
+      "location": "rec-4397, 03:01 Wade Strickler (Owner)",
+      "cited": "rec-4397-production-walkthrough.txt, L47, turn 15, 03:01, Wade Strickler"
+    },
+    {
+      "path": "/intake/forks[0]/delegation/quote",
+      "status": "verified",
+      "quote": "Yes. That's it. Those five. The second one, Gwen decides, not me.",
+      "location": "rec-4409, 03:40 Wade Strickler (Owner)",
+      "cited": "rec-4409-pricing.txt, L58, turn 19, 03:40, Wade Strickler"
+    },
+    {
+      "path": "/intake/forks[0]/reversibility/quote",
+      "status": "verified",
+      "quote": "One thing I should say, since I said last time we could change it later. Going from sub-items to a separate board later means re-entering the pieces. It's not a switch. So it's worth picking before we build a lot of history into it.",
+      "location": "rec-4397, 03:10 Kofi Danquah (sales engineer)",
+      "cited": "rec-4397-production-walkthrough.txt, L49, turn 16, 03:10, Kofi Danquah"
+    },
+    {
+      "path": "/intake/forks[0]/our_side_in_room[0]/quote",
+      "status": "verified",
+      "quote": "Let's not lock it on the call. We'll write it up both ways and Gwen and Jesse can look at it cold.",
+      "location": "rec-4397, 03:51 Clodagh Rennard (seller)",
+      "cited": "rec-4397-production-walkthrough.txt, L55, turn 19, 03:51, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/forks[0]/our_side_in_room[1]/quote",
+      "status": "verified",
+      "quote": "Let's just build it with sub-items for the next one. Jesse's the one who talks to the customers, and Wade signs.",
+      "location": "rec-4431, 00:53 Clodagh Rennard (seller)",
+      "cited": "rec-4431-internal-review.txt, L24, turn 5, 00:53, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/forks[0]/leaning/quotes[0]",
+      "status": "verified",
+      "quote": "Could the pieces be their own rows? On their own board? So I can sort by what's on the laminator.",
+      "location": "rec-4402, 08:15 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4402-first-look.txt, L102, turn 41, 08:15, Gwen Tarrant"
+    },
+    {
+      "path": "/intake/forks[0]/leaning/quotes[1]",
+      "status": "verified",
+      "quote": "That second one. That's my board. That's the whiteboard, except it's right.",
+      "location": "rec-4397, 02:06 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4397-production-walkthrough.txt, L33, turn 8, 02:06, Gwen Tarrant"
+    },
+    {
+      "path": "/intake/forks[0]/leaning/quotes[2]",
+      "status": "verified",
+      "quote": "Then it's the separate board, for me.",
+      "location": "rec-4397, 03:33 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4397-production-walkthrough.txt, L51, turn 17, 03:33, Gwen Tarrant"
+    },
+    {
+      "path": "/intake/forks[0]/leaning/quotes[3]",
+      "status": "verified",
+      "quote": "I'd want to see the job first. But if the job row still shows me where it is, I don't care where the pieces live.",
+      "location": "rec-4402, 08:34 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4402-first-look.txt, L108, turn 44, 08:34, Jesse Corrigan"
+    },
+    {
+      "path": "/intake/forks[0]/leaning/quotes[4]",
+      "status": "verified",
+      "quote": "I still want to see the job first. If the job row does what he says, fine. If it doesn't, I want the sub-items.",
+      "location": "rec-4397, 03:38 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4397-production-walkthrough.txt, L53, turn 18, 03:38, Jesse Corrigan"
+    },
+    {
+      "path": "/intake/forks[0]/leaning/quotes[5]",
+      "status": "verified",
+      "quote": "I said. I don't care which. Gwen runs the floor, Jesse runs the phones. They'll pick.",
+      "location": "rec-4397, 03:01 Wade Strickler (Owner)",
+      "cited": "rec-4397-production-walkthrough.txt, L47, turn 15, 03:01, Wade Strickler"
+    },
+    {
+      "path": "/intake/forks[0]/leaning/quotes[6]",
+      "status": "verified",
+      "quote": "Yes. That's it. Those five. The second one, Gwen decides, not me.",
+      "location": "rec-4409, 03:40 Wade Strickler (Owner)",
+      "cited": "rec-4409-pricing.txt, L58, turn 19, 03:40, Wade Strickler"
+    },
+    {
+      "path": "/intake/relayed_statements[0]/quote",
+      "status": "verified",
+      "quote": "Vernon told me he doesn't want another monthly thing. For what that's worth. He said it about the accounting package too.",
+      "location": "rec-4409, 08:16 Lupe Arrieta (Office Manager)",
+      "cited": "rec-4409-pricing.txt, L128, turn 51, 08:16, Lupe Arrieta"
+    },
+    {
+      "path": "/intake/relayed_statements[1]/quote",
+      "status": "verified",
+      "quote": "Jesse will live with whatever Gwen picks as long as his one line works. He said so.",
+      "location": "rec-4409, 03:51 Wade Strickler (Owner)",
+      "cited": "rec-4409-pricing.txt, L62, turn 21, 03:51, Wade Strickler"
+    },
+    {
+      "path": "/intake/relayed_statements[2]/quote",
+      "status": "verified",
+      "quote": "Gwen said the floor guys won't touch a computer, and she's not wrong.",
+      "location": "rec-4409, 07:35 Wade Strickler (Owner)",
+      "cited": "rec-4409-pricing.txt, L122, turn 48, 07:35, Wade Strickler"
+    },
+    {
+      "path": "/intake/claims_by_the_previous_seller[0]/spoken/quote",
+      "status": "verified",
+      "quote": "What we can do is send them the proof from here, and the customer can approve the proof straight from the email, no login, and it moves to approved on its own.",
+      "location": "rec-4402, 03:47 Kofi Danquah (sales engineer)",
+      "cited": "rec-4402-first-look.txt, L57, turn 20, 03:47, Kofi Danquah"
+    },
+    {
+      "path": "/intake/claims_by_the_previous_seller[0]/client_built_on_it/quote",
+      "status": "verified",
+      "quote": "That'd be the thing. That's Nate's inbox gone.",
+      "location": "rec-4402, 04:28 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4402-first-look.txt, L63, turn 23, 04:28, Gwen Tarrant"
+    },
+    {
+      "path": "/intake/claims_by_the_previous_seller[0]/internal_doubt/quote",
+      "status": "verified",
+      "quote": "Three. I said they could approve from the email, no login. I should check that. I think it needs a form, or the customer needs a guest seat, or something. I don't think it's just a click.",
+      "location": "rec-4431, 03:26 Kofi Danquah (sales engineer)",
+      "cited": "rec-4431-internal-review.txt, L64, turn 22, 03:26, Kofi Danquah"
+    },
+    {
+      "path": "/intake/claims_by_the_previous_seller[0]/internal_instruction/quote",
+      "status": "verified",
+      "quote": "Don't bring it up unless they ask. If they ask, say we'll set it up the right way for them.",
+      "location": "rec-4431, 03:45 Clodagh Rennard (seller)",
+      "cited": "rec-4431-internal-review.txt, L66, turn 23, 03:45, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/claims_by_the_previous_seller[1]/spoken/quote",
+      "status": "verified",
+      "quote": "You could do it either way, honestly. And we can always change it later.",
+      "location": "rec-4402, 08:53 Kofi Danquah (sales engineer)",
+      "cited": "rec-4402-first-look.txt, L112, turn 46, 08:53, Kofi Danquah"
+    },
+    {
+      "path": "/intake/claims_by_the_previous_seller[1]/corrected_by_our_side/quote",
+      "status": "verified",
+      "quote": "One thing I should say, since I said last time we could change it later. Going from sub-items to a separate board later means re-entering the pieces. It's not a switch. So it's worth picking before we build a lot of history into it.",
+      "location": "rec-4397, 03:10 Kofi Danquah (sales engineer)",
+      "cited": "rec-4397-production-walkthrough.txt, L49, turn 16, 03:10, Kofi Danquah"
+    },
+    {
+      "path": "/intake/claims_by_the_previous_seller[2]/spoken/quote",
+      "status": "verified",
+      "quote": "When the job goes to approved, the approved file column locks. Once it's approved, the file's locked, nobody can swap it, and the operator only sees that column on the floor view.",
+      "location": "rec-4397, 04:16 Kofi Danquah (sales engineer)",
+      "cited": "rec-4397-production-walkthrough.txt, L64, turn 22, 04:16, Kofi Danquah"
+    },
+    {
+      "path": "/intake/claims_by_the_previous_seller[2]/where_shown/quote",
+      "status": "verified",
+      "quote": "On our demo account, yes.",
+      "location": "rec-4397, 04:56 Kofi Danquah (sales engineer)",
+      "cited": "rec-4397-production-walkthrough.txt, L72, turn 26, 04:56, Kofi Danquah"
+    },
+    {
+      "path": "/intake/claims_by_the_previous_seller[2]/internal_doubt/quote",
+      "status": "verified",
+      "quote": "I'll ask. Two, the files column. Gwen wants the old versions to go away once one's approved. I don't know that we can do that on their plan.",
+      "location": "rec-4431, 02:44 Kofi Danquah (sales engineer)",
+      "cited": "rec-4431-internal-review.txt, L56, turn 18, 02:44, Kofi Danquah"
+    },
+    {
+      "path": "/intake/claims_by_the_previous_seller[2]/client_acceptance/quote",
+      "status": "verified",
+      "quote": "If that's true, that's the reprints gone. The version ones, anyway.",
+      "location": "rec-4397, 04:42 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4397-production-walkthrough.txt, L66, turn 23, 04:42, Gwen Tarrant"
+    },
+    {
+      "path": "/intake/claims_by_the_previous_seller[3]/spoken/quote",
+      "status": "verified",
+      "quote": "Kofi's checked, and your estimating system has an export we can pull from. It's a second step, but it's there.",
+      "location": "rec-4409, 06:52 Clodagh Rennard (seller)",
+      "cited": "rec-4409-pricing.txt, L111, turn 44, 06:52, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/claims_by_the_previous_seller[3]/against/quote",
+      "status": "verified",
+      "quote": "My list. One, the estimating system. I said I'd look at what it exposes. I don't know what it is yet, Jesse just calls it the estimating system.",
+      "location": "rec-4431, 02:25 Kofi Danquah (sales engineer)",
+      "cited": "rec-4431-internal-review.txt, L52, turn 16, 02:25, Kofi Danquah"
+    },
+    {
+      "path": "/intake/claims_by_the_previous_seller[4]/spoken[0]/quote",
+      "status": "verified",
+      "quote": "Eight, on the Pro plan, I'd think. I'll confirm the exact per-seat when I send it. Gwen, Jesse, Wade, Nate, Ronnie, the two other designers, and one for the floor screen.",
+      "location": "rec-4409, 06:05 Clodagh Rennard (seller)",
+      "cited": "rec-4409-pricing.txt, L99, turn 38, 06:05, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/claims_by_the_previous_seller[4]/spoken[1]/quote",
+      "status": "verified",
+      "quote": "It needs a login. I'll check whether that can be a viewer.",
+      "location": "rec-4409, 06:25 Clodagh Rennard (seller)",
+      "cited": "rec-4409-pricing.txt, L103, turn 40, 06:25, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/claims_by_the_previous_seller[4]/internal/quote",
+      "status": "verified",
+      "quote": "He didn't say. I'll put Pro in the proposal, we'll need it for the workload views anyway.",
+      "location": "rec-4431, 03:16 Clodagh Rennard (seller)",
+      "cited": "rec-4431-internal-review.txt, L62, turn 21, 03:16, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/claims_by_the_previous_seller[5]/spoken/quote",
+      "status": "verified",
+      "quote": "And the two approvals for the credit union, the marketing person. That's in one, as a second approver on the proof. Kofi's looked at it.",
+      "location": "rec-4409, 04:01 Clodagh Rennard (seller)",
+      "cited": "rec-4409-pricing.txt, L64, turn 22, 04:01, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/claims_by_the_previous_seller[5]/earlier/quote",
+      "status": "verified",
+      "quote": "Noted, not promised. Anything else?",
+      "location": "rec-4397, 11:11 Clodagh Rennard (seller)",
+      "cited": "rec-4397-production-walkthrough.txt, L167, turn 69, 11:11, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/claims_by_the_previous_seller[6]/spoken[0]/quote",
+      "status": "verified",
+      "quote": "Then the number. The build is eighteen thousand five hundred, and the seats are on top, which Lupe and I can go through. That's the five things, built, with your people trained on it, and thirty days of us on the other end of the phone after it goes live.",
+      "location": "rec-4409, 04:32 Clodagh Rennard (seller)",
+      "cited": "rec-4409-pricing.txt, L77, turn 27, 04:32, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/claims_by_the_previous_seller[6]/spoken[1]/quote",
+      "status": "verified",
+      "quote": "Against forty it pays back in six months.",
+      "location": "rec-4409, 05:53 Clodagh Rennard (seller)",
+      "cited": "rec-4409-pricing.txt, L93, turn 35, 05:53, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/claims_by_the_previous_seller[6]/internal/quote",
+      "status": "verified",
+      "quote": "I'm going to go in at eighteen five for the build plus the seats. Eight seats on Pro. He'll push back and land at sixteen.",
+      "location": "rec-4431, 04:38 Clodagh Rennard (seller)",
+      "cited": "rec-4431-internal-review.txt, L83, turn 30, 04:38, Clodagh Rennard"
+    },
+    {
+      "path": "/intake/claims_by_the_previous_seller[6]/client_response[0]/quote",
+      "status": "verified",
+      "quote": "That's more than I had in my head.",
+      "location": "rec-4409, 05:04 Wade Strickler (Owner)",
+      "cited": "rec-4409-pricing.txt, L83, turn 30, 05:04, Wade Strickler"
+    },
+    {
+      "path": "/intake/claims_by_the_previous_seller[6]/client_response[1]/quote",
+      "status": "verified",
+      "quote": "If the forty's right.",
+      "location": "rec-4409, 05:58 Wade Strickler (Owner)",
+      "cited": "rec-4409-pricing.txt, L95, turn 36, 05:58, Wade Strickler"
+    },
+    {
+      "path": "/readiness/pains[0]/quote",
+      "status": "verified",
+      "quote": "Where's my job. That's the call. Every day.",
+      "location": "rec-4418, 10:33 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4418-discovery.txt, L132, turn 56, 10:33, Jesse Corrigan"
+    },
+    {
+      "path": "/readiness/pains[1]/quote",
+      "status": "verified",
+      "quote": "I shouldn't be emailing customers.",
+      "location": "rec-4418, 11:30 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L140, turn 60, 11:30, Gwen Tarrant"
+    },
+    {
+      "path": "/readiness/pains[2]/quote",
+      "status": "verified",
+      "quote": "Or they approve it to Nate, and Nate doesn't tell me, and I find out when Jesse asks me why it isn't printed yet.",
+      "location": "rec-4418, 06:11 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L77, turn 30, 06:11, Gwen Tarrant"
+    },
+    {
+      "path": "/readiness/pains[3]/quote",
+      "status": "verified",
+      "quote": "We print the wrong version.",
+      "location": "rec-4418, 15:38 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L181, turn 79, 15:38, Gwen Tarrant"
+    },
+    {
+      "path": "/readiness/pains[4]/quote",
+      "status": "verified",
+      "quote": "It's still a person picking the right file. That's what we have now, with a stapler.",
+      "location": "rec-4402, 11:03 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4402-first-look.txt, L139, turn 58, 11:03, Gwen Tarrant"
+    },
+    {
+      "path": "/readiness/pains[5]/quote",
+      "status": "verified",
+      "quote": "The group text and Ronnie's head.",
+      "location": "rec-4418, 08:31 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L109, turn 46, 08:31, Gwen Tarrant"
+    },
+    {
+      "path": "/readiness/pains[6]/quote",
+      "status": "verified",
+      "quote": "Ronnie pulls permits, and he thought Jesse had, and Jesse thought Ronnie had.",
+      "location": "rec-4418, 20:20 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L230, turn 102, 20:20, Wade Strickler"
+    },
+    {
+      "path": "/readiness/pains[7]/quote",
+      "status": "verified",
+      "quote": "Materials. We run out of a substrate mid-job because nobody ordered it. I order from memory. It happens.",
+      "location": "rec-4418, 23:02 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L267, turn 119, 23:02, Gwen Tarrant"
+    },
+    {
+      "path": "/readiness/pains[8]/quote",
+      "status": "verified",
+      "quote": "The schedule got saved over in June. Somebody opened it off the shared drive, it was the wrong copy, they saved, and we lost two weeks of it. That was a bad week.",
+      "location": "rec-4418, 07:26 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L97, turn 40, 07:26, Wade Strickler"
+    },
+    {
+      "path": "/readiness/signals[0]/quote",
+      "status": "verified",
+      "quote": "That'd be the thing. That's Nate's inbox gone.",
+      "location": "rec-4402, 04:28 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4402-first-look.txt, L63, turn 23, 04:28, Gwen Tarrant"
+    },
+    {
+      "path": "/readiness/signals[1]/quote",
+      "status": "verified",
+      "quote": "If that's true, that's the reprints gone. The version ones, anyway.",
+      "location": "rec-4397, 04:42 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4397-production-walkthrough.txt, L66, turn 23, 04:42, Gwen Tarrant"
+    },
+    {
+      "path": "/readiness/signals[2]/quote",
+      "status": "verified",
+      "quote": "If it's by piece. I'm not sold on the sub-item thing.",
+      "location": "rec-4402, 14:09 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4402-first-look.txt, L189, turn 80, 14:09, Gwen Tarrant"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[0]",
+      "status": "verified",
+      "quote": "Could the pieces be their own rows? On their own board? So I can sort by what's on the laminator.",
+      "location": "rec-4402, 08:15 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4402-first-look.txt, L102, turn 41, 08:15, Gwen Tarrant"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[1]",
+      "status": "verified",
+      "quote": "That second one. That's my board. That's the whiteboard, except it's right.",
+      "location": "rec-4397, 02:06 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4397-production-walkthrough.txt, L33, turn 8, 02:06, Gwen Tarrant"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[2]",
+      "status": "verified",
+      "quote": "Then it's the separate board, for me.",
+      "location": "rec-4397, 03:33 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4397-production-walkthrough.txt, L51, turn 17, 03:33, Gwen Tarrant"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[3]",
+      "status": "verified",
+      "quote": "I'd want to see the job first. But if the job row still shows me where it is, I don't care where the pieces live.",
+      "location": "rec-4402, 08:34 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4402-first-look.txt, L108, turn 44, 08:34, Jesse Corrigan"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[4]",
+      "status": "verified",
+      "quote": "I still want to see the job first. If the job row does what he says, fine. If it doesn't, I want the sub-items.",
+      "location": "rec-4397, 03:38 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4397-production-walkthrough.txt, L53, turn 18, 03:38, Jesse Corrigan"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[5]",
+      "status": "verified",
+      "quote": "I said. I don't care which. Gwen runs the floor, Jesse runs the phones. They'll pick.",
+      "location": "rec-4397, 03:01 Wade Strickler (Owner)",
+      "cited": "rec-4397-production-walkthrough.txt, L47, turn 15, 03:01, Wade Strickler"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[6]",
+      "status": "verified",
+      "quote": "Yes. That's it. Those five. The second one, Gwen decides, not me.",
+      "location": "rec-4409, 03:40 Wade Strickler (Owner)",
+      "cited": "rec-4409-pricing.txt, L58, turn 19, 03:40, Wade Strickler"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[0]",
+      "status": "verified",
+      "quote": "Quoted, art, proof out, approved, in production, ready, installed, invoiced.",
+      "location": "rec-4402, 01:43 Kofi Danquah (sales engineer)",
+      "cited": "rec-4402-first-look.txt, L39, turn 11, 01:43, Kofi Danquah"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[1]",
+      "status": "verified",
+      "quote": "That's my spreadsheet with colors.",
+      "location": "rec-4402, 02:17 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4402-first-look.txt, L41, turn 12, 02:17, Jesse Corrigan"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[2]",
+      "status": "verified",
+      "quote": "They say yes, I convert it to an order, and that's when it gets a job number.",
+      "location": "rec-4418, 04:31 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4418-discovery.txt, L61, turn 22, 04:31, Jesse Corrigan"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[3]",
+      "status": "verified",
+      "quote": "Quotes live in the estimating system and they're fine there.",
+      "location": "rec-4418, 05:15 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L67, turn 25, 05:15, Wade Strickler"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[4]",
+      "status": "verified",
+      "quote": "That's the shape of it. Let's see it first.",
+      "location": "rec-4418, 32:11 Wade Strickler (Owner)",
+      "cited": "rec-4418-discovery.txt, L370, turn 163, 32:11, Wade Strickler"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[0]",
+      "status": "verified",
+      "quote": "Print. Laminate if it's laminated. Cut, or weed if it's vinyl. QC, which is me or the lead looking at it against the proof. Then it's ready.",
+      "location": "rec-4418, 07:58 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L105, turn 44, 07:58, Gwen Tarrant"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[1]",
+      "status": "verified",
+      "quote": "Press, finish, QC, ready. I move them.",
+      "location": "rec-4418, 06:53 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L87, turn 35, 06:53, Gwen Tarrant"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[2]",
+      "status": "verified",
+      "quote": "Each one has its own stage. Printed, laminated, cut, QC, ready.",
+      "location": "rec-4402, 05:27 Kofi Danquah (sales engineer)",
+      "cited": "rec-4402-first-look.txt, L80, turn 30, 05:27, Kofi Danquah"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[0]",
+      "status": "verified",
+      "quote": "And the credit union proofs. They've got a marketing person now who has to approve, as well as the branch manager. Two approvals.",
+      "location": "rec-4397, 10:46 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4397-production-walkthrough.txt, L163, turn 67, 10:46, Jesse Corrigan"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[1]",
+      "status": "verified",
+      "quote": "Two approvals on one proof. That's a change. Let me note it, I don't want to say yes on the fly.",
+      "location": "rec-4397, 10:59 Kofi Danquah (sales engineer)",
+      "cited": "rec-4397-production-walkthrough.txt, L165, turn 68, 10:59, Kofi Danquah"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[0]",
+      "status": "verified",
+      "quote": "I chase designers for art and I chase customers for approvals, because if I don't, the job doesn't get to me, and then it's due tomorrow and nobody's printed it.",
+      "location": "rec-4418, 11:30 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L140, turn 60, 11:30, Gwen Tarrant"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[0]",
+      "status": "verified",
+      "quote": "It'll get worse with the credit union, fourteen branches, each one with its own proof, its own branch manager, its own install. That's fourteen inboxes to chase instead of one.",
+      "location": "rec-4418, 15:02 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4418-discovery.txt, L172, turn 76, 15:02, Jesse Corrigan"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[1]",
+      "status": "verified",
+      "quote": "Their Valley branch, the exterior faces and the window vinyl.",
+      "location": "rec-4418, 12:12 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4418-discovery.txt, L144, turn 62, 12:12, Jesse Corrigan"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[2]",
+      "status": "verified",
+      "quote": "Yeah. Five digits. Everything hangs off that number.",
+      "location": "rec-4418, 05:10 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4418-discovery.txt, L65, turn 24, 05:10, Jesse Corrigan"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[0]",
+      "status": "verified",
+      "quote": "The schedule is the spreadsheet, the board is the wall. They're supposed to match.",
+      "location": "rec-4418, 07:12 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L91, turn 37, 07:12, Gwen Tarrant"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[1]",
+      "status": "verified",
+      "quote": "The floor. Because when the approval finally comes it's a rush, and a rush bumps something else.",
+      "location": "rec-4418, 14:45 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L168, turn 74, 14:45, Gwen Tarrant"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[2]",
+      "status": "verified",
+      "quote": "And whatever job was supposed to be on that press that afternoon.",
+      "location": "rec-4418, 18:51 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L213, turn 95, 18:51, Gwen Tarrant"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[0]",
+      "status": "verified",
+      "quote": "There's a printed ticket. The ticket has the job number, the customer, the due date, and a proof stapled to it, and it goes in the rack.",
+      "location": "rec-4418, 06:30 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L83, turn 33, 06:30, Gwen Tarrant"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[1]",
+      "status": "verified",
+      "quote": "And the printed proof stapled to the ticket, which is the real control.",
+      "location": "rec-4418, 17:07 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4418-discovery.txt, L193, turn 85, 17:07, Gwen Tarrant"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[0]",
+      "status": "verified",
+      "quote": "If the approved one was the only one they could see. If the old ones went away.",
+      "location": "rec-4402, 11:17 Gwen Tarrant (Production Manager)",
+      "cited": "rec-4402-first-look.txt, L143, turn 60, 11:17, Gwen Tarrant"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[1]",
+      "status": "verified",
+      "quote": "When the job goes to approved, the approved file column locks. Once it's approved, the file's locked, nobody can swap it, and the operator only sees that column on the floor view.",
+      "location": "rec-4397, 04:16 Kofi Danquah (sales engineer)",
+      "cited": "rec-4397-production-walkthrough.txt, L64, turn 22, 04:16, Kofi Danquah"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[2]",
+      "status": "verified",
+      "quote": "I'll ask. Two, the files column. Gwen wants the old versions to go away once one's approved. I don't know that we can do that on their plan.",
+      "location": "rec-4431, 02:44 Kofi Danquah (sales engineer)",
+      "cited": "rec-4431-internal-review.txt, L56, turn 18, 02:44, Kofi Danquah"
+    },
+    {
+      "path": "/readiness/structure/leanings[9]/quotes[0]",
+      "status": "verified",
+      "quote": "What we can do is send them the proof from here, and the customer can approve the proof straight from the email, no login, and it moves to approved on its own.",
+      "location": "rec-4402, 03:47 Kofi Danquah (sales engineer)",
+      "cited": "rec-4402-first-look.txt, L57, turn 20, 03:47, Kofi Danquah"
+    },
+    {
+      "path": "/readiness/structure/leanings[9]/quotes[1]",
+      "status": "verified",
+      "quote": "Three. I said they could approve from the email, no login. I should check that. I think it needs a form, or the customer needs a guest seat, or something. I don't think it's just a click.",
+      "location": "rec-4431, 03:26 Kofi Danquah (sales engineer)",
+      "cited": "rec-4431-internal-review.txt, L64, turn 22, 03:26, Kofi Danquah"
+    },
+    {
+      "path": "/readiness/structure/leanings[9]/quotes[2]",
+      "status": "verified",
+      "quote": "They email back. \"Looks good.\" Or they call me. Or they don't, and it sits.",
+      "location": "rec-4418, 06:02 Jesse Corrigan (Account Manager)",
+      "cited": "rec-4418-discovery.txt, L75, turn 29, 06:02, Jesse Corrigan"
+    }
+  ]
+}

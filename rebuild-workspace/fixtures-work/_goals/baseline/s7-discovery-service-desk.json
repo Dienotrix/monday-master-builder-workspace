@@ -1,0 +1,1494 @@
+{
+  "fixture": "s7-discovery-service-desk",
+  "sources": [
+    {
+      "name": "transcript.txt",
+      "kind": "transcript",
+      "format": "srt",
+      "units": 267,
+      "unsupported": null
+    }
+  ],
+  "counts": {
+    "pairs": 193,
+    "verified": 193,
+    "verified_presence_only": 29,
+    "skipped": 0,
+    "unparsed_prose": 0,
+    "near_misses": 0,
+    "misses": 0,
+    "unsupported": 0,
+    "warnings": 0
+  },
+  "refused_quotes_not_checked": [],
+  "skipped": [],
+  "pairs": [
+    {
+      "path": "/rubric[0]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So it comes in one of three ways. Either they call us, which is still most of it, or they email the service inbox, or for two of our clients they put it into their own system and we have to go and find it.",
+      "location": "cue 20, 00:02:12,520, Tansy Whitlock",
+      "cited": "transcript.txt, cue 20, L77, 00:02:12,520, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[0]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Then we open a work order. There's a shared Excel file on the SharePoint with a tab for each month, and we put in the client, the building, what's wrong, who we dispatched it to, the date.",
+      "location": "cue 26, 00:03:10,820, Tansy Whitlock",
+      "cited": "transcript.txt, cue 26, L101, 00:03:10,820, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[0]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Depends on the trade and the branch. There's a whiteboard in the dispatch room, techs down the side, days across the top, and whoever's dispatching moves magnets around. Then we text the tech. Or call him, if it's an emergency.",
+      "location": "cue 30, 00:03:57,940, Tansy Whitlock",
+      "cited": "transcript.txt, cue 30, L117, 00:03:57,940, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[0]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "The whiteboard is the truth. The spreadsheet is what we tell people.",
+      "location": "cue 32, 00:04:19,640, Tansy Whitlock",
+      "cited": "transcript.txt, cue 32, L125, 00:04:19,640, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[0]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "No. They live in Sage. Sort of. They live in Sage and then they live in another spreadsheet that Odette keeps, because Sage won't show them the way we need to see them.",
+      "location": "cue 43, 00:05:37,280, Yvette Carnahan",
+      "cited": "transcript.txt, cue 43, L169, 00:05:37,280, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[0]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "After six it goes to an answering service, and they email the service inbox. So an emergency at seven at night is an email nobody's looking at.",
+      "location": "cue 53, 00:06:55,160, Tansy Whitlock",
+      "cited": "transcript.txt, cue 53, L209, 00:06:55,160, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[0]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "Knoxville's the same. Roanoke came in through an acquisition and they've got their own spreadsheet and their own way of doing it, and their own whiteboard, and honestly I can't see any of it from here.",
+      "location": "cue 36, 00:04:36,680, Tansy Whitlock",
+      "cited": "transcript.txt, cue 36, L141, 00:04:36,680, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[0]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "I built a work order tracker. Columns for the client, the building, status, who's assigned, a date. It was fine. Nobody used it after about six weeks.",
+      "location": "cue 58, 00:07:36,900, Curtis Vandergrift",
+      "cited": "transcript.txt, cue 58, L229, 00:07:36,900, Curtis Vandergrift"
+    },
+    {
+      "path": "/rubric[0]/evidence[8]/quote",
+      "status": "verified",
+      "quote": "Yeah, we still pay for it. Safety uses it, Rob's got an inspections board he likes. And estimating keeps a bid board in there. Fifteen, twenty people in it maybe.",
+      "location": "cue 65, 00:08:34,520, Curtis Vandergrift",
+      "cited": "transcript.txt, cue 65, L257, 00:08:34,520, Curtis Vandergrift"
+    },
+    {
+      "path": "/rubric[1]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The one that hurt was July. Brightmoor, the Carrolton building. A chiller went down on a Friday afternoon. It came into the service inbox at four-something on the Friday and nobody opened that inbox again until Monday morning.",
+      "location": "cue 77, 00:10:15,140, Yvette Carnahan",
+      "cited": "transcript.txt, cue 77, L305, 00:10:15,140, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[1]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Two floors of offices with no cooling, in July, all weekend. Their property manager called my cell phone on the Monday at seven in the morning. That was a four-hour emergency and we responded in about sixty-six hours.",
+      "location": "cue 79, 00:10:34,240, Yvette Carnahan",
+      "cited": "transcript.txt, cue 79, L313, 00:10:34,240, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[1]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "It works when I'm here. It doesn't work when I'm on vacation, it doesn't work at five past five, and it really doesn't work on a Friday at four-something.",
+      "location": "cue 93, 00:12:53,840, Tansy Whitlock",
+      "cited": "transcript.txt, cue 93, L369, 00:12:53,840, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[2]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It led to a quarterly review where their director of operations had a slide with our response times on it. Not our numbers. Theirs, out of ServiceChannel. And then a letter putting us on a ninety-day performance plan. That's a formal thing. It goes in the file.",
+      "location": "cue 81, 00:10:55,280, Yvette Carnahan",
+      "cited": "transcript.txt, cue 81, L321, 00:10:55,280, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[2]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It renews in January. They've told us they'll make the decision on the back of the next two quarterly reviews. The next one is the second week of December.",
+      "location": "cue 83, 00:11:18,900, Yvette Carnahan",
+      "cited": "transcript.txt, cue 83, L329, 00:11:18,900, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[2]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And we have already lost a client over it. Not Brightmoor. Cavender Medical, back in March. Six clinics. Their facilities guy said, and I've not forgotten it, he said I never know if you've got it. He wasn't even angry about the work. Our technicians are good. He just couldn't see anything.",
+      "location": "cue 94, 00:13:07,240, Yvette Carnahan",
+      "cited": "transcript.txt, cue 94, L373, 00:13:07,240, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[3]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Three each, five days a week.",
+      "location": "cue 165, 00:23:38,600, Tansy Whitlock",
+      "cited": "transcript.txt, cue 165, L657, 00:23:38,600, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[3]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Seven, with me.",
+      "location": "cue 167, 00:23:55,140, Tansy Whitlock",
+      "cited": "transcript.txt, cue 167, L665, 00:23:55,140, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[3]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "That sounds about right. It might be light, because that doesn't count the sweep at the end of the day.",
+      "location": "cue 169, 00:24:09,080, Tansy Whitlock",
+      "cited": "transcript.txt, cue 169, L673, 00:24:09,080, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[3]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Thirty-five? I'd guess thirty-five all in. Don't hold me to that, Pete would know.",
+      "location": "cue 171, 00:24:25,140, Yvette Carnahan",
+      "cited": "transcript.txt, cue 171, L681, 00:24:25,140, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[3]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "And that's the bit I want to push back on. Not the hours. The hours sound right, if anything they're light. But thirty-five is me guessing, and I don't want a wrong number walking around in front of Pete. Let me get the real one from him, and then we can talk about what it adds up to.",
+      "location": "cue 176, 00:25:16,270, Yvette Carnahan",
+      "cited": "transcript.txt, cue 176, L701, 00:25:16,270, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[3]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "Half a day a month, more with the follow-up. I'm not going to put a number on my own time.",
+      "location": "cue 110, 00:16:06,700, Yvette Carnahan",
+      "cited": "transcript.txt, cue 110, L437, 00:16:06,700, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[4]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Rosalie and Miriam would be doing account work. Actual relationships with the property managers instead of data entry. And I'd stop being the escalation path.",
+      "location": "cue 180, 00:26:20,310, Yvette Carnahan",
+      "cited": "transcript.txt, cue 180, L717, 00:26:20,310, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[4]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Yes. There's a county contract going out in the spring. Eleven buildings, and we've seen the draft RFP, and it asks for monthly response-time reporting per building. We can't answer that today. We'd be promising something we can't prove.",
+      "location": "cue 182, 00:26:37,210, Yvette Carnahan",
+      "cited": "transcript.txt, cue 182, L725, 00:26:37,210, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[4]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Not yet. It'll be a real number. I'm not going to invent one for you.",
+      "location": "cue 184, 00:26:58,610, Yvette Carnahan",
+      "cited": "transcript.txt, cue 184, L733, 00:26:58,610, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[5]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Every work order is in one place, with a clock on it and a name on it. I can look at one screen on a Monday morning and see what's about to breach and who's holding it. And when I walk into a quarterly review, the numbers on my slide came out of the system, and I can click into any line of it while they're watching.",
+      "location": "cue 186, 00:27:16,530, Yvette Carnahan",
+      "cited": "transcript.txt, cue 186, L741, 00:27:16,530, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[5]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And I'd like to not be the system. I'd like to go on vacation and have it still work.",
+      "location": "cue 187, 00:27:45,350, Tansy Whitlock",
+      "cited": "transcript.txt, cue 187, L745, 00:27:45,350, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[5]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Pete would count keeping Brightmoor as a win, and he'd count not hiring a tenth person into client services as a win. Hollis would count the county contract as a win.",
+      "location": "cue 189, 00:27:58,950, Yvette Carnahan",
+      "cited": "transcript.txt, cue 189, L753, 00:27:58,950, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[5]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Yes, actually. Can it be ugly and working in December and pretty afterwards? Because that's what I need. I don't need beautiful.",
+      "location": "cue 262, 00:41:05,370, Yvette Carnahan",
+      "cited": "transcript.txt, cue 262, L1045, 00:41:05,370, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[6]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I decide the tool. That's mine, client services is my department and this is my problem. The money is Pete's. Anything over ten thousand he signs off, and over fifty he'd want Hollis to nod at it.",
+      "location": "cue 193, 00:28:32,730, Yvette Carnahan",
+      "cited": "transcript.txt, cue 193, L769, 00:28:32,730, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[6]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The owner. He's not in the weeds on this. He'll ask Pete whether it's a good idea, and Pete will ask me.",
+      "location": "cue 191, 00:28:14,990, Yvette Carnahan",
+      "cited": "transcript.txt, cue 191, L761, 00:28:14,990, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[6]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "He needs to see that somebody other than Curtis is going to keep it alive. And he needs to see what it costs next to what it saves, and he'll want that second part in writing.",
+      "location": "cue 198, 00:29:14,410, Yvette Carnahan",
+      "cited": "transcript.txt, cue 198, L789, 00:29:14,410, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[6]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "He bought monday, two years ago. [laughs] So.",
+      "location": "cue 195, 00:28:52,030, Yvette Carnahan",
+      "cited": "transcript.txt, cue 195, L777, 00:28:52,030, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[6]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "If I tell him it's about the January renewal, he'll come.",
+      "location": "cue 200, 00:29:33,890, Yvette Carnahan",
+      "cited": "transcript.txt, cue 200, L797, 00:29:33,890, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[7]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It's a before-December thing. I want to put something in front of Brightmoor at the December quarterly, even if it's partial. Then January is the renewal decision.",
+      "location": "cue 202, 00:29:46,110, Yvette Carnahan",
+      "cited": "transcript.txt, cue 202, L805, 00:29:46,110, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[7]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "As long as I can see what's late. That's what I need in December.",
+      "location": "cue 225, 00:34:36,090, Yvette Carnahan",
+      "cited": "transcript.txt, cue 225, L897, 00:34:36,090, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[7]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Whether I can get to December with something that works. If the answer is no, I may as well do the big thing properly next year and take my chances with Brightmoor.",
+      "location": "cue 236, 00:36:33,290, Yvette Carnahan",
+      "cited": "transcript.txt, cue 236, L941, 00:36:33,290, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[8]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Pete. Not because he's difficult, because he's careful. And the memory of the last one.",
+      "location": "cue 204, 00:30:04,690, Yvette Carnahan",
+      "cited": "transcript.txt, cue 204, L813, 00:30:04,690, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[8]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And me, a bit. I'm one person. I've got the phones, the laptops, Sage, the network, and now this. If it's built so that every little change is a ticket to me, it'll die the same way it died last time.",
+      "location": "cue 205, 00:30:12,030, Curtis Vandergrift",
+      "cited": "transcript.txt, cue 205, L817, 00:30:12,030, Curtis Vandergrift"
+    },
+    {
+      "path": "/rubric[8]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Can I say the other risk? My team. Not because they won't like it. Because if it's slower than the spreadsheet on a Tuesday at nine with four phones going, they'll go back to the spreadsheet and I won't be able to stop them.",
+      "location": "cue 209, 00:30:50,150, Tansy Whitlock",
+      "cited": "transcript.txt, cue 209, L833, 00:30:50,150, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[8]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "I just can't do it this year.",
+      "location": "cue 234, 00:35:59,830, Yvette Carnahan",
+      "cited": "transcript.txt, cue 234, L933, 00:35:59,830, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[9]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Wednesday's usually clear for me. The twenty-third.",
+      "location": "cue 247, 00:39:14,050, Yvette Carnahan",
+      "cited": "transcript.txt, cue 247, L985, 00:39:14,050, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[9]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "That depends on Pete, and Pete's doing month-end this week, so I don't want to speak for him. Let me ask him tomorrow and I'll tell you what he says.",
+      "location": "cue 249, 00:39:20,550, Yvette Carnahan",
+      "cited": "transcript.txt, cue 249, L993, 00:39:20,550, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[9]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Then here's what I'll do. I'll hold Wednesday the twenty-third, and I'll send you three times to choose from, and you pick whichever one suits Pete.",
+      "location": "cue 250, 00:39:34,190, Consultant",
+      "cited": "transcript.txt, cue 250, L997, 00:39:34,190, Consultant"
+    },
+    {
+      "path": "/rubric[9]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Yes. I'll come back to you tomorrow or Thursday.",
+      "location": "cue 253, 00:39:55,350, Yvette Carnahan",
+      "cited": "transcript.txt, cue 253, L1009, 00:39:55,350, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[11]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "That's the first cut, yeah. Don't hold me to the wording until Pete's heard it. And I'd want to know how the PM side works eventually, because that's half the contract value, but not first.",
+      "location": "cue 244, 00:38:33,550, Yvette Carnahan",
+      "cited": "transcript.txt, cue 244, L973, 00:38:33,550, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[11]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And the knowledge thing. Not first. But I'd want it.",
+      "location": "cue 245, 00:38:48,990, Tansy Whitlock",
+      "cited": "transcript.txt, cue 245, L977, 00:38:48,990, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[11]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Two. Can you send me something with a number on it? Pete is going to ask what it costs before he gives me twenty minutes of his day.",
+      "location": "cue 238, 00:36:56,130, Yvette Carnahan",
+      "cited": "transcript.txt, cue 238, L949, 00:36:56,130, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[12]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We are missing response times. And it has already cost us.",
+      "location": "cue 71, 00:09:31,400, Yvette Carnahan",
+      "cited": "transcript.txt, cue 71, L281, 00:09:31,400, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[12]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "We don't know whether we're hitting it until somebody tells us we didn't. Usually the client tells us.",
+      "location": "cue 75, 00:10:03,700, Yvette Carnahan",
+      "cited": "transcript.txt, cue 75, L297, 00:10:03,700, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[12]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "The inbox. It's a shared mailbox, so everybody can see it and nobody owns it. You open it and there's forty emails, and some of them are work orders and some of them are Marley saying thank you, and you can't tell which ones somebody already dealt with unless they remembered to flag it.",
+      "location": "cue 89, 00:12:02,340, Tansy Whitlock",
+      "cited": "transcript.txt, cue 89, L353, 00:12:02,340, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[13]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The one that hurt was July. Brightmoor, the Carrolton building. A chiller went down on a Friday afternoon. It came into the service inbox at four-something on the Friday and nobody opened that inbox again until Monday morning.",
+      "location": "cue 77, 00:10:15,140, Yvette Carnahan",
+      "cited": "transcript.txt, cue 77, L305, 00:10:15,140, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[13]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Two floors of offices with no cooling, in July, all weekend. Their property manager called my cell phone on the Monday at seven in the morning. That was a four-hour emergency and we responded in about sixty-six hours.",
+      "location": "cue 79, 00:10:34,240, Yvette Carnahan",
+      "cited": "transcript.txt, cue 79, L313, 00:10:34,240, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[13]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "It's not isolated. It's the weekends and the evenings and the handoffs. Things sit.",
+      "location": "cue 87, 00:11:53,180, Tansy Whitlock",
+      "cited": "transcript.txt, cue 87, L345, 00:11:53,180, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[14]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We flag them. Or we drag them into a folder. I've got a rule that drops the Fairlane ones into their own folder. And I do a sweep at the end of my day and anything that looks stuck goes on a sticky note on my monitor.",
+      "location": "cue 91, 00:12:29,200, Tansy Whitlock",
+      "cited": "transcript.txt, cue 91, L361, 00:12:29,200, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[14]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It works when I'm here. It doesn't work when I'm on vacation, it doesn't work at five past five, and it really doesn't work on a Friday at four-something.",
+      "location": "cue 93, 00:12:53,840, Tansy Whitlock",
+      "cited": "transcript.txt, cue 93, L369, 00:12:53,840, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[15]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Me. The supervisors, because I'm the one calling them. And the branch managers when I can't get hold of a supervisor.",
+      "location": "cue 96, 00:13:33,680, Yvette Carnahan",
+      "cited": "transcript.txt, cue 96, L381, 00:13:33,680, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[15]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And the technicians get it, because they turn up at something that's been sitting three days and the client's already furious with them before they're out of the van.",
+      "location": "cue 97, 00:13:43,360, Tansy Whitlock",
+      "cited": "transcript.txt, cue 97, L385, 00:13:43,360, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[16]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Reactive, so calls, four hundred-ish a week across the three branches. More in the summer when the air conditioning starts going.",
+      "location": "cue 38, 00:04:57,540, Tansy Whitlock",
+      "cited": "transcript.txt, cue 38, L149, 00:04:57,540, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[16]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "That was a four-hour emergency and we responded in about sixty-six hours.",
+      "location": "cue 79, 00:10:34,240, Yvette Carnahan",
+      "cited": "transcript.txt, cue 79, L313, 00:10:34,240, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[16]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And we have already lost a client over it. Not Brightmoor. Cavender Medical, back in March. Six clinics.",
+      "location": "cue 94, 00:13:07,240, Yvette Carnahan",
+      "cited": "transcript.txt, cue 94, L373, 00:13:07,240, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[17]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "In a year? If we lose Brightmoor in January then we're not growing, we're shrinking, and I'd be looking hard at whether I need nine people in client services. And the contracts we're bidding on now are bigger, and the bigger they are the more reporting they want. So it gets worse, not better, because the work we're chasing has more of this in it.",
+      "location": "cue 99, 00:14:01,100, Yvette Carnahan",
+      "cited": "transcript.txt, cue 99, L393, 00:14:01,100, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[18]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I build it. Every month. I pull the spreadsheet, filter it to that client, and go line by line working out whether we made the window.",
+      "location": "cue 101, 00:14:37,380, Tansy Whitlock",
+      "cited": "transcript.txt, cue 101, L401, 00:14:37,380, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[18]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Because I can't take it into a quarterly review if I don't believe it. And last time I didn't believe it, and I was right not to.",
+      "location": "cue 106, 00:15:31,480, Yvette Carnahan",
+      "cited": "transcript.txt, cue 106, L421, 00:15:31,480, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[19]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We had ninety-four percent on our sheet and they had seventy-eight on theirs. And I couldn't defend either number in the room. That's worse than being wrong. I sat there with nothing to say.",
+      "location": "cue 108, 00:15:45,600, Yvette Carnahan",
+      "cited": "transcript.txt, cue 108, L429, 00:15:45,600, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[19]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The date it came in and the date the technician closed it. Except the date it was closed is the date I typed it in, which might be two days after he actually did it. So I know it's not right. I have to go and ask people.",
+      "location": "cue 103, 00:14:53,800, Tansy Whitlock",
+      "cited": "transcript.txt, cue 103, L409, 00:14:53,800, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[20]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Two days. Give or take. Two days out of my month. And then Yvette reads it and finds something that doesn't look right and I do parts of it again.",
+      "location": "cue 105, 00:15:17,840, Tansy Whitlock",
+      "cited": "transcript.txt, cue 105, L417, 00:15:17,840, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[20]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "So I know it's not right. I have to go and ask people.",
+      "location": "cue 103, 00:14:53,800, Tansy Whitlock",
+      "cited": "transcript.txt, cue 103, L409, 00:14:53,800, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[21]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Odette pulls the PM completion part out of Sage, because that's in the report too. That's another half day of hers.",
+      "location": "cue 112, 00:16:20,720, Tansy Whitlock",
+      "cited": "transcript.txt, cue 112, L445, 00:16:20,720, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[21]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Half a day a month, more with the follow-up. I'm not going to put a number on my own time.",
+      "location": "cue 110, 00:16:06,700, Yvette Carnahan",
+      "cited": "transcript.txt, cue 110, L437, 00:16:06,700, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[22]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Two days. Give or take. Two days out of my month. And then Yvette reads it and finds something that doesn't look right and I do parts of it again.",
+      "location": "cue 105, 00:15:17,840, Tansy Whitlock",
+      "cited": "transcript.txt, cue 105, L417, 00:15:17,840, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[22]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Call it twenty. My two days isn't always two days.",
+      "location": "cue 114, 00:16:40,920, Tansy Whitlock",
+      "cited": "transcript.txt, cue 114, L453, 00:16:40,920, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[22]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Odette pulls the PM completion part out of Sage, because that's in the report too. That's another half day of hers.",
+      "location": "cue 112, 00:16:20,720, Tansy Whitlock",
+      "cited": "transcript.txt, cue 112, L445, 00:16:20,720, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[23]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I mean, it just, it's the same every month. It's not getting worse exactly. It's just always there.",
+      "location": "cue 116, 00:16:51,100, Tansy Whitlock",
+      "cited": "transcript.txt, cue 116, L461, 00:16:51,100, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[24]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "There isn't one, really. There's me calling Dewey.",
+      "location": "cue 118, 00:17:05,360, Yvette Carnahan",
+      "cited": "transcript.txt, cue 118, L469, 00:17:05,360, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[24]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Officially, if a work order is going to blow its window, or the technician can't get in, or it needs a part we haven't got, we escalate it to the field supervisor for that trade in that region.",
+      "location": "cue 119, 00:17:09,580, Tansy Whitlock",
+      "cited": "transcript.txt, cue 119, L473, 00:17:09,580, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[24]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And then nothing, sometimes. You text Dewey and you don't know if he's read it, and he's up on a roof, so fair enough, but I've got a client on hold.",
+      "location": "cue 123, 00:17:34,660, Tansy Whitlock",
+      "cited": "transcript.txt, cue 123, L489, 00:17:34,660, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[25]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Every day there's one or two. Out of, I don't know, fifteen or twenty escalations a day across the branches, a couple of them just vanish, and then somebody remembers at four o'clock.",
+      "location": "cue 126, 00:17:59,620, Tansy Whitlock",
+      "cited": "transcript.txt, cue 126, L501, 00:17:59,620, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[26]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I keep a list on a legal pad and I re-text people. That's the system. It's a legal pad.",
+      "location": "cue 128, 00:18:18,680, Tansy Whitlock",
+      "cited": "transcript.txt, cue 128, L509, 00:18:18,680, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[26]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Call or text. Usually text.",
+      "location": "cue 121, 00:17:29,840, Tansy Whitlock",
+      "cited": "transcript.txt, cue 121, L481, 00:17:29,840, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[27]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The client feels it first. Then me, because they ring me. And the supervisors will tell you they're getting texted about the same job by three different people, which is also true.",
+      "location": "cue 130, 00:18:30,660, Yvette Carnahan",
+      "cited": "transcript.txt, cue 130, L517, 00:18:30,660, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[28]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "An hour a day each, easily, for the people who aren't stuck on the portals. Just chasing and re-asking.",
+      "location": "cue 132, 00:18:49,240, Tansy Whitlock",
+      "cited": "transcript.txt, cue 132, L525, 00:18:49,240, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[28]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Seven, with me.",
+      "location": "cue 167, 00:23:55,140, Tansy Whitlock",
+      "cited": "transcript.txt, cue 167, L665, 00:23:55,140, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[30]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Brightmoor and Fairlane. Everything they send us we have to accept in their system, then when it's done we close it in their system with a note, and photos sometimes. And we still have to have it in our spreadsheet, because the dispatcher hasn't got a ServiceChannel login.",
+      "location": "cue 134, 00:19:08,720, Tansy Whitlock",
+      "cited": "transcript.txt, cue 134, L533, 00:19:08,720, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[30]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Twice, or three times. And their system logs you out every twenty minutes.",
+      "location": "cue 136, 00:19:33,960, Tansy Whitlock",
+      "cited": "transcript.txt, cue 136, L541, 00:19:33,960, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[31]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Rosalie is in Brightmoor's portal from eight until half eleven, twelve. Every day. Miriam does Fairlane, which is a smaller account, but she's got the badging to deal with as well, so call it the same. Three hours each. Easily three hours each.",
+      "location": "cue 138, 00:19:44,140, Tansy Whitlock",
+      "cited": "transcript.txt, cue 138, L549, 00:19:44,140, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[32]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We type it twice. That's what we do about it.",
+      "location": "cue 142, 00:20:25,560, Tansy Whitlock",
+      "cited": "transcript.txt, cue 142, L565, 00:20:25,560, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[32]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I mean, it's the job. Rosalie hates it. The girl before Rosalie quit, and she said the portal was part of why.",
+      "location": "cue 144, 00:20:33,040, Tansy Whitlock",
+      "cited": "transcript.txt, cue 144, L573, 00:20:33,040, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[33]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I'd add that the portal work isn't optional. It's in the contract. If we don't close it in their system, we don't get paid.",
+      "location": "cue 145, 00:20:42,780, Yvette Carnahan",
+      "cited": "transcript.txt, cue 145, L577, 00:20:42,780, Yvette Carnahan"
+    },
+    {
+      "path": "/rubric[33]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Rosalie is in Brightmoor's portal from eight until half eleven, twelve. Every day. Miriam does Fairlane, which is a smaller account, but she's got the badging to deal with as well, so call it the same. Three hours each. Easily three hours each.",
+      "location": "cue 138, 00:19:44,140, Tansy Whitlock",
+      "cited": "transcript.txt, cue 138, L549, 00:19:44,140, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[34]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Three each, five days a week.",
+      "location": "cue 165, 00:23:38,600, Tansy Whitlock",
+      "cited": "transcript.txt, cue 165, L657, 00:23:38,600, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[34]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Three hours each. Easily three hours each.",
+      "location": "cue 138, 00:19:44,140, Tansy Whitlock",
+      "cited": "transcript.txt, cue 138, L549, 00:19:44,140, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[36]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "They sit next to me.",
+      "location": "cue 153, 00:22:04,660, Tansy Whitlock",
+      "cited": "transcript.txt, cue 153, L609, 00:22:04,660, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[36]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "There's a binder. And there's a folder on the SharePoint with some Word documents in it, and I don't think anybody's opened that since Imani made it.",
+      "location": "cue 157, 00:22:19,720, Tansy Whitlock",
+      "cited": "transcript.txt, cue 157, L625, 00:22:19,720, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[36]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Who to call at each building. Which buildings need badges. The after-hours numbers. Which clients you're allowed to quote a price to and which ones you're not. Fairlane has a whole page about where you're allowed to park.",
+      "location": "cue 159, 00:22:35,960, Tansy Whitlock",
+      "cited": "transcript.txt, cue 159, L633, 00:22:35,960, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[37]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "All the time. I couldn't tell you a specific one, it's just the day.",
+      "location": "cue 161, 00:23:00,480, Tansy Whitlock",
+      "cited": "transcript.txt, cue 161, L641, 00:23:00,480, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[37]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "More than that. I don't want to guess at it.",
+      "location": "cue 163, 00:23:12,880, Tansy Whitlock",
+      "cited": "transcript.txt, cue 163, L649, 00:23:12,880, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[38]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Realistically? Four months before I'd leave them on their own with Brightmoor.",
+      "location": "cue 155, 00:22:09,660, Tansy Whitlock",
+      "cited": "transcript.txt, cue 155, L617, 00:22:09,660, Tansy Whitlock"
+    },
+    {
+      "path": "/rubric[38]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "There's a binder. And there's a folder on the SharePoint with some Word documents in it, and I don't think anybody's opened that since Imani made it.",
+      "location": "cue 157, 00:22:19,720, Tansy Whitlock",
+      "cited": "transcript.txt, cue 157, L625, 00:22:19,720, Tansy Whitlock"
+    },
+    {
+      "path": "/pains[0]/quote",
+      "status": "verified",
+      "quote": "We are missing response times. And it has already cost us.",
+      "location": "cue 71, 00:09:31,400, Yvette Carnahan",
+      "cited": "transcript.txt, cue 71, L281, 00:09:31,400, Yvette Carnahan"
+    },
+    {
+      "path": "/pains[1]/quote",
+      "status": "verified",
+      "quote": "We don't know whether we're hitting it until somebody tells us we didn't. Usually the client tells us.",
+      "location": "cue 75, 00:10:03,700, Yvette Carnahan",
+      "cited": "transcript.txt, cue 75, L297, 00:10:03,700, Yvette Carnahan"
+    },
+    {
+      "path": "/pains[2]/quote",
+      "status": "verified",
+      "quote": "The inbox. It's a shared mailbox, so everybody can see it and nobody owns it.",
+      "location": "cue 89, 00:12:02,340, Tansy Whitlock",
+      "cited": "transcript.txt, cue 89, L353, 00:12:02,340, Tansy Whitlock"
+    },
+    {
+      "path": "/pains[3]/quote",
+      "status": "verified",
+      "quote": "It came into the service inbox at four-something on the Friday and nobody opened that inbox again until Monday morning.",
+      "location": "cue 77, 00:10:15,140, Yvette Carnahan",
+      "cited": "transcript.txt, cue 77, L305, 00:10:15,140, Yvette Carnahan"
+    },
+    {
+      "path": "/pains[4]/quote",
+      "status": "verified",
+      "quote": "It's not isolated. It's the weekends and the evenings and the handoffs. Things sit.",
+      "location": "cue 87, 00:11:53,180, Tansy Whitlock",
+      "cited": "transcript.txt, cue 87, L345, 00:11:53,180, Tansy Whitlock"
+    },
+    {
+      "path": "/pains[5]/quote",
+      "status": "verified",
+      "quote": "I build it. Every month. I pull the spreadsheet, filter it to that client, and go line by line working out whether we made the window.",
+      "location": "cue 101, 00:14:37,380, Tansy Whitlock",
+      "cited": "transcript.txt, cue 101, L401, 00:14:37,380, Tansy Whitlock"
+    },
+    {
+      "path": "/pains[6]/quote",
+      "status": "verified",
+      "quote": "We had ninety-four percent on our sheet and they had seventy-eight on theirs. And I couldn't defend either number in the room.",
+      "location": "cue 108, 00:15:45,600, Yvette Carnahan",
+      "cited": "transcript.txt, cue 108, L429, 00:15:45,600, Yvette Carnahan"
+    },
+    {
+      "path": "/pains[7]/quote",
+      "status": "verified",
+      "quote": "Except the date it was closed is the date I typed it in, which might be two days after he actually did it.",
+      "location": "cue 103, 00:14:53,800, Tansy Whitlock",
+      "cited": "transcript.txt, cue 103, L409, 00:14:53,800, Tansy Whitlock"
+    },
+    {
+      "path": "/pains[8]/quote",
+      "status": "verified",
+      "quote": "There isn't one, really. There's me calling Dewey.",
+      "location": "cue 118, 00:17:05,360, Yvette Carnahan",
+      "cited": "transcript.txt, cue 118, L469, 00:17:05,360, Yvette Carnahan"
+    },
+    {
+      "path": "/pains[9]/quote",
+      "status": "verified",
+      "quote": "And then nothing, sometimes. You text Dewey and you don't know if he's read it, and he's up on a roof, so fair enough, but I've got a client on hold.",
+      "location": "cue 123, 00:17:34,660, Tansy Whitlock",
+      "cited": "transcript.txt, cue 123, L489, 00:17:34,660, Tansy Whitlock"
+    },
+    {
+      "path": "/pains[10]/quote",
+      "status": "verified",
+      "quote": "I keep a list on a legal pad and I re-text people. That's the system. It's a legal pad.",
+      "location": "cue 128, 00:18:18,680, Tansy Whitlock",
+      "cited": "transcript.txt, cue 128, L509, 00:18:18,680, Tansy Whitlock"
+    },
+    {
+      "path": "/pains[11]/quote",
+      "status": "verified",
+      "quote": "And we still have to have it in our spreadsheet, because the dispatcher hasn't got a ServiceChannel login.",
+      "location": "cue 134, 00:19:08,720, Tansy Whitlock",
+      "cited": "transcript.txt, cue 134, L533, 00:19:08,720, Tansy Whitlock"
+    },
+    {
+      "path": "/pains[12]/quote",
+      "status": "verified",
+      "quote": "Three hours each. Easily three hours each.",
+      "location": "cue 138, 00:19:44,140, Tansy Whitlock",
+      "cited": "transcript.txt, cue 138, L549, 00:19:44,140, Tansy Whitlock"
+    },
+    {
+      "path": "/pains[13]/quote",
+      "status": "verified",
+      "quote": "They sit next to me.",
+      "location": "cue 153, 00:22:04,660, Tansy Whitlock",
+      "cited": "transcript.txt, cue 153, L609, 00:22:04,660, Tansy Whitlock"
+    },
+    {
+      "path": "/pains[14]/quote",
+      "status": "verified",
+      "quote": "There's a binder. And there's a folder on the SharePoint with some Word documents in it, and I don't think anybody's opened that since Imani made it.",
+      "location": "cue 157, 00:22:19,720, Tansy Whitlock",
+      "cited": "transcript.txt, cue 157, L625, 00:22:19,720, Tansy Whitlock"
+    },
+    {
+      "path": "/pains[15]/quote",
+      "status": "verified",
+      "quote": "Roanoke came in through an acquisition and they've got their own spreadsheet and their own way of doing it, and their own whiteboard, and honestly I can't see any of it from here.",
+      "location": "cue 36, 00:04:36,680, Tansy Whitlock",
+      "cited": "transcript.txt, cue 36, L141, 00:04:36,680, Tansy Whitlock"
+    },
+    {
+      "path": "/pains[16]/quote",
+      "status": "verified",
+      "quote": "Some of them fill out a paper ticket and it comes back in the truck on Friday.",
+      "location": "cue 49, 00:06:31,680, Tansy Whitlock",
+      "cited": "transcript.txt, cue 49, L193, 00:06:31,680, Tansy Whitlock"
+    },
+    {
+      "path": "/pains[17]/quote",
+      "status": "verified",
+      "quote": "So an emergency at seven at night is an email nobody's looking at.",
+      "location": "cue 53, 00:06:55,160, Tansy Whitlock",
+      "cited": "transcript.txt, cue 53, L209, 00:06:55,160, Tansy Whitlock"
+    },
+    {
+      "path": "/numbers/bleed/quote",
+      "status": "verified",
+      "quote": "But thirty-five is me guessing, and I don't want a wrong number walking around in front of Pete. Let me get the real one from him, and then we can talk about what it adds up to.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 176, L701, 00:25:16,270, Yvette Carnahan"
+      ]
+    },
+    {
+      "path": "/numbers/upside/quote",
+      "status": "verified",
+      "quote": "Not yet. It'll be a real number. I'm not going to invent one for you.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 184, L733, 00:26:58,610, Yvette Carnahan"
+      ]
+    },
+    {
+      "path": "/objections[0]/quote",
+      "status": "verified",
+      "quote": "We do. We tried monday two years ago and it didn't stick.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 56, L221, 00:07:25,160, Curtis Vandergrift"
+      ]
+    },
+    {
+      "path": "/objections[1]/quote",
+      "status": "verified",
+      "quote": "Honestly? Because nothing came into it by itself. Somebody still had to type the work order in, and they were already typing it into the spreadsheet, so now it's two places. So they did the spreadsheet, because that's what the dispatcher looks at.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 60, L237, 00:07:52,300, Curtis Vandergrift"
+      ]
+    },
+    {
+      "path": "/objections[2]/quote",
+      "status": "verified",
+      "quote": "Can I ask something? I could probably put most of this together myself, honestly. What am I buying if you do it?",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 229, L913, 00:35:09,230, Curtis Vandergrift"
+      ]
+    },
+    {
+      "path": "/objections[3]/quote",
+      "status": "verified",
+      "quote": "Can I say the other risk? My team. Not because they won't like it. Because if it's slower than the spreadsheet on a Tuesday at nine with four phones going, they'll go back to the spreadsheet and I won't be able to stop them.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 209, L833, 00:30:50,150, Tansy Whitlock"
+      ]
+    },
+    {
+      "path": "/objections[4]/quote",
+      "status": "verified",
+      "quote": "And me, a bit. I'm one person. I've got the phones, the laptops, Sage, the network, and now this. If it's built so that every little change is a ticket to me, it'll die the same way it died last time.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 205, L817, 00:30:12,030, Curtis Vandergrift"
+      ]
+    },
+    {
+      "path": "/objections[5]/quote",
+      "status": "verified",
+      "quote": "He bought monday because I asked him for it, and then it didn't get used, and he has mentioned that to me more than once since.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 196, L781, 00:28:56,250, Curtis Vandergrift"
+      ]
+    },
+    {
+      "path": "/objections[6]/quote",
+      "status": "verified",
+      "quote": "He needs to see that somebody other than Curtis is going to keep it alive. And he needs to see what it costs next to what it saves, and he'll want that second part in writing.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 198, L789, 00:29:14,410, Yvette Carnahan"
+      ]
+    },
+    {
+      "path": "/objections[7]/quote",
+      "status": "verified",
+      "quote": "Two. Can you send me something with a number on it? Pete is going to ask what it costs before he gives me twenty minutes of his day.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 238, L949, 00:36:56,130, Yvette Carnahan"
+      ]
+    },
+    {
+      "path": "/objections[8]/quote",
+      "status": "verified",
+      "quote": "Two things from me. One, we had a demo in the spring from a proper facilities system. Full [inaudible], asset registers, PM schedules, mobile app for the technicians, the lot. It was a lot of money, it was a six-month implementation, and we'd have had to move things out of Sage into it. I didn't hate it. I just can't do it this year.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 234, L933, 00:35:59,830, Yvette Carnahan"
+      ]
+    },
+    {
+      "path": "/objections[9]/quote",
+      "status": "verified",
+      "quote": "Whether I can get to December with something that works. If the answer is no, I may as well do the big thing properly next year and take my chances with Brightmoor.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 236, L941, 00:36:33,290, Yvette Carnahan"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[0]/quote",
+      "status": "verified",
+      "quote": "Then here's what I'll do. I'll hold Wednesday the twenty-third, and I'll send you three times to choose from, and you pick whichever one suits Pete.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 250, L997, 00:39:34,190, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[1]/quote",
+      "status": "verified",
+      "quote": "And the invite comes from me as soon as you've told me which time.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 252, L1005, 00:39:48,790, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[2]/quote",
+      "status": "verified",
+      "quote": "Yes. I'll come back to you tomorrow or Thursday.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 253, L1009, 00:39:55,350, Yvette Carnahan"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[3]/quote",
+      "status": "verified",
+      "quote": "I'll ask him tomorrow.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 260, L1037, 00:40:53,810, Yvette Carnahan"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[4]/quote",
+      "status": "verified",
+      "quote": "I can get all that today.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 255, L1017, 00:40:13,990, Curtis Vandergrift"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[5]/quote",
+      "status": "verified",
+      "quote": "I can do the counts. The report I'd want Yvette to okay before I send it, there's contract stuff in the footer.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 257, L1025, 00:40:32,510, Tansy Whitlock"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[6]/quote",
+      "status": "verified",
+      "quote": "Take the footer off and take the name off and it's fine.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 258, L1029, 00:40:42,310, Yvette Carnahan"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[7]/quote",
+      "status": "verified",
+      "quote": "What I'll send you is a short recap of what I heard today in plain language, and the shape of what I'd propose. Then we agree the scope with you and Pete in the room, and the number comes with that.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 239, L953, 00:37:08,510, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[8]/quote",
+      "status": "verified",
+      "quote": "Talk to Dewey. And don't design it for a desk. He'll look at it on a phone in a parking lot, or he won't look at it at all.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 227, L905, 00:34:51,370, Yvette Carnahan"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[9]/quote",
+      "status": "verified",
+      "quote": "Both go on the list, and I'll show you the list rather than keep it to myself.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 246, L981, 00:38:54,170, Consultant"
+      ]
+    },
+    {
+      "path": "/requested_changes[0]/quote",
+      "status": "verified",
+      "quote": "And don't design it for a desk.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 227, L905, 00:34:51,370, Yvette Carnahan"
+      ]
+    },
+    {
+      "path": "/requested_changes[1]/quote",
+      "status": "verified",
+      "quote": "Not typing the client and the building and the contact every single time. None of those change.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 211, L841, 00:31:18,030, Tansy Whitlock"
+      ]
+    },
+    {
+      "path": "/requested_changes[2]/quote",
+      "status": "verified",
+      "quote": "I want to be able to add a column without calling a consultant.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 207, L825, 00:30:38,710, Curtis Vandergrift"
+      ]
+    },
+    {
+      "path": "/requested_changes[3]/quote",
+      "status": "verified",
+      "quote": "Can it be ugly and working in December and pretty afterwards?",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 262, L1045, 00:41:05,370, Yvette Carnahan"
+      ]
+    },
+    {
+      "path": "/requested_changes[4]/quote",
+      "status": "verified",
+      "quote": "As long as I can see what's late. That's what I need in December.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 225, L897, 00:34:36,090, Yvette Carnahan"
+      ]
+    },
+    {
+      "path": "/requested_changes[5]/quote",
+      "status": "verified",
+      "quote": "Yeah. I'd want Microsoft sign-in.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 213, L849, 00:31:42,850, Curtis Vandergrift"
+      ]
+    },
+    {
+      "path": "/account_context/evidence_quote_or_null",
+      "status": "verified",
+      "quote": "Standard, I think? Whatever the middle one is. I'd have to look.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, cue 67, L265, 00:08:51,660, Curtis Vandergrift"
+      ]
+    },
+    {
+      "path": "/readiness/pains[0]/quote",
+      "status": "verified",
+      "quote": "We are missing response times. And it has already cost us.",
+      "location": "cue 71, 00:09:31,400, Yvette Carnahan",
+      "cited": "transcript.txt, cue 71, L281, 00:09:31,400, Yvette Carnahan"
+    },
+    {
+      "path": "/readiness/pains[1]/quote",
+      "status": "verified",
+      "quote": "We don't know whether we're hitting it until somebody tells us we didn't. Usually the client tells us.",
+      "location": "cue 75, 00:10:03,700, Yvette Carnahan",
+      "cited": "transcript.txt, cue 75, L297, 00:10:03,700, Yvette Carnahan"
+    },
+    {
+      "path": "/readiness/pains[2]/quote",
+      "status": "verified",
+      "quote": "The inbox. It's a shared mailbox, so everybody can see it and nobody owns it.",
+      "location": "cue 89, 00:12:02,340, Tansy Whitlock",
+      "cited": "transcript.txt, cue 89, L353, 00:12:02,340, Tansy Whitlock"
+    },
+    {
+      "path": "/readiness/pains[3]/quote",
+      "status": "verified",
+      "quote": "It came into the service inbox at four-something on the Friday and nobody opened that inbox again until Monday morning.",
+      "location": "cue 77, 00:10:15,140, Yvette Carnahan",
+      "cited": "transcript.txt, cue 77, L305, 00:10:15,140, Yvette Carnahan"
+    },
+    {
+      "path": "/readiness/pains[4]/quote",
+      "status": "verified",
+      "quote": "It's not isolated. It's the weekends and the evenings and the handoffs. Things sit.",
+      "location": "cue 87, 00:11:53,180, Tansy Whitlock",
+      "cited": "transcript.txt, cue 87, L345, 00:11:53,180, Tansy Whitlock"
+    },
+    {
+      "path": "/readiness/pains[5]/quote",
+      "status": "verified",
+      "quote": "I build it. Every month. I pull the spreadsheet, filter it to that client, and go line by line working out whether we made the window.",
+      "location": "cue 101, 00:14:37,380, Tansy Whitlock",
+      "cited": "transcript.txt, cue 101, L401, 00:14:37,380, Tansy Whitlock"
+    },
+    {
+      "path": "/readiness/pains[6]/quote",
+      "status": "verified",
+      "quote": "We had ninety-four percent on our sheet and they had seventy-eight on theirs. And I couldn't defend either number in the room.",
+      "location": "cue 108, 00:15:45,600, Yvette Carnahan",
+      "cited": "transcript.txt, cue 108, L429, 00:15:45,600, Yvette Carnahan"
+    },
+    {
+      "path": "/readiness/pains[7]/quote",
+      "status": "verified",
+      "quote": "Except the date it was closed is the date I typed it in, which might be two days after he actually did it.",
+      "location": "cue 103, 00:14:53,800, Tansy Whitlock",
+      "cited": "transcript.txt, cue 103, L409, 00:14:53,800, Tansy Whitlock"
+    },
+    {
+      "path": "/readiness/pains[8]/quote",
+      "status": "verified",
+      "quote": "There isn't one, really. There's me calling Dewey.",
+      "location": "cue 118, 00:17:05,360, Yvette Carnahan",
+      "cited": "transcript.txt, cue 118, L469, 00:17:05,360, Yvette Carnahan"
+    },
+    {
+      "path": "/readiness/pains[9]/quote",
+      "status": "verified",
+      "quote": "And then nothing, sometimes. You text Dewey and you don't know if he's read it, and he's up on a roof, so fair enough, but I've got a client on hold.",
+      "location": "cue 123, 00:17:34,660, Tansy Whitlock",
+      "cited": "transcript.txt, cue 123, L489, 00:17:34,660, Tansy Whitlock"
+    },
+    {
+      "path": "/readiness/pains[10]/quote",
+      "status": "verified",
+      "quote": "I keep a list on a legal pad and I re-text people. That's the system. It's a legal pad.",
+      "location": "cue 128, 00:18:18,680, Tansy Whitlock",
+      "cited": "transcript.txt, cue 128, L509, 00:18:18,680, Tansy Whitlock"
+    },
+    {
+      "path": "/readiness/pains[11]/quote",
+      "status": "verified",
+      "quote": "And we still have to have it in our spreadsheet, because the dispatcher hasn't got a ServiceChannel login.",
+      "location": "cue 134, 00:19:08,720, Tansy Whitlock",
+      "cited": "transcript.txt, cue 134, L533, 00:19:08,720, Tansy Whitlock"
+    },
+    {
+      "path": "/readiness/pains[12]/quote",
+      "status": "verified",
+      "quote": "Three hours each. Easily three hours each.",
+      "location": "cue 138, 00:19:44,140, Tansy Whitlock",
+      "cited": "transcript.txt, cue 138, L549, 00:19:44,140, Tansy Whitlock"
+    },
+    {
+      "path": "/readiness/pains[13]/quote",
+      "status": "verified",
+      "quote": "They sit next to me.",
+      "location": "cue 153, 00:22:04,660, Tansy Whitlock",
+      "cited": "transcript.txt, cue 153, L609, 00:22:04,660, Tansy Whitlock"
+    },
+    {
+      "path": "/readiness/pains[14]/quote",
+      "status": "verified",
+      "quote": "There's a binder. And there's a folder on the SharePoint with some Word documents in it, and I don't think anybody's opened that since Imani made it.",
+      "location": "cue 157, 00:22:19,720, Tansy Whitlock",
+      "cited": "transcript.txt, cue 157, L625, 00:22:19,720, Tansy Whitlock"
+    },
+    {
+      "path": "/readiness/pains[15]/quote",
+      "status": "verified",
+      "quote": "Roanoke came in through an acquisition and they've got their own spreadsheet and their own way of doing it, and their own whiteboard, and honestly I can't see any of it from here.",
+      "location": "cue 36, 00:04:36,680, Tansy Whitlock",
+      "cited": "transcript.txt, cue 36, L141, 00:04:36,680, Tansy Whitlock"
+    },
+    {
+      "path": "/readiness/pains[16]/quote",
+      "status": "verified",
+      "quote": "Some of them fill out a paper ticket and it comes back in the truck on Friday.",
+      "location": "cue 49, 00:06:31,680, Tansy Whitlock",
+      "cited": "transcript.txt, cue 49, L193, 00:06:31,680, Tansy Whitlock"
+    },
+    {
+      "path": "/readiness/pains[17]/quote",
+      "status": "verified",
+      "quote": "So an emergency at seven at night is an email nobody's looking at.",
+      "location": "cue 53, 00:06:55,160, Tansy Whitlock",
+      "cited": "transcript.txt, cue 53, L209, 00:06:55,160, Tansy Whitlock"
+    },
+    {
+      "path": "/readiness/signals[0]/quote",
+      "status": "verified",
+      "quote": "Honestly, if it just stopped being an inbox I'd take that today.",
+      "location": "cue 223, 00:34:07,670, Tansy Whitlock",
+      "cited": "transcript.txt, cue 223, L889, 00:34:07,670, Tansy Whitlock"
+    },
+    {
+      "path": "/readiness/signals[1]/quote",
+      "status": "verified",
+      "quote": "All right. I can live with that.",
+      "location": "cue 222, 00:34:03,990, Yvette Carnahan",
+      "cited": "transcript.txt, cue 222, L885, 00:34:03,990, Yvette Carnahan"
+    },
+    {
+      "path": "/readiness/signals[2]/quote",
+      "status": "verified",
+      "quote": "Not typing the client and the building and the contact every single time. None of those change.",
+      "location": "cue 211, 00:31:18,030, Tansy Whitlock",
+      "cited": "transcript.txt, cue 211, L841, 00:31:18,030, Tansy Whitlock"
+    },
+    {
+      "path": "/readiness/signals[3]/quote",
+      "status": "verified",
+      "quote": "ServiceChannel has an API, I'm fairly sure, but it's their tenant, not ours, and Brightmoor's IT people were not enthusiastic.",
+      "location": "cue 140, 00:20:06,800, Curtis Vandergrift",
+      "cited": "transcript.txt, cue 140, L557, 00:20:06,800, Curtis Vandergrift"
+    },
+    {
+      "path": "/readiness/signals[4]/quote",
+      "status": "verified",
+      "quote": "He'll look at it on a phone in a parking lot, or he won't look at it at all.",
+      "location": "cue 227, 00:34:51,370, Yvette Carnahan",
+      "cited": "transcript.txt, cue 227, L905, 00:34:51,370, Yvette Carnahan"
+    },
+    {
+      "path": "/readiness/signals[5]/quote",
+      "status": "verified",
+      "quote": "If I tell him it's about the January renewal, he'll come.",
+      "location": "cue 200, 00:29:33,890, Yvette Carnahan",
+      "cited": "transcript.txt, cue 200, L797, 00:29:33,890, Yvette Carnahan"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[0]",
+      "status": "verified",
+      "quote": "There's a whiteboard in the dispatch room, techs down the side, days across the top, and whoever's dispatching moves magnets around.",
+      "location": "cue 30, 00:03:57,940, Tansy Whitlock",
+      "cited": "transcript.txt, cue 30, L117, 00:03:57,940, Tansy Whitlock"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[1]",
+      "status": "verified",
+      "quote": "The whiteboard is the truth. The spreadsheet is what we tell people.",
+      "location": "cue 32, 00:04:19,640, Tansy Whitlock",
+      "cited": "transcript.txt, cue 32, L125, 00:04:19,640, Tansy Whitlock"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[2]",
+      "status": "verified",
+      "quote": "if it's slower than the spreadsheet on a Tuesday at nine with four phones going, they'll go back to the spreadsheet",
+      "location": "cue 209, 00:30:50,150, Tansy Whitlock",
+      "cited": "transcript.txt, cue 209, L833, 00:30:50,150, Tansy Whitlock"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[0]",
+      "status": "verified",
+      "quote": "Except the date it was closed is the date I typed it in, which might be two days after he actually did it.",
+      "location": "cue 103, 00:14:53,800, Tansy Whitlock",
+      "cited": "transcript.txt, cue 103, L409, 00:14:53,800, Tansy Whitlock"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[1]",
+      "status": "verified",
+      "quote": "They text us photos and they text us done. Some of them fill out a paper ticket and it comes back in the truck on Friday.",
+      "location": "cue 49, 00:06:31,680, Tansy Whitlock",
+      "cited": "transcript.txt, cue 49, L193, 00:06:31,680, Tansy Whitlock"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[0]",
+      "status": "verified",
+      "quote": "Every contract we sign has service levels in it. Emergency is four hours for most clients, two hours for Fairlane because it's a hospital. Urgent is same day or next business day depending on the contract. Routine is five business days.",
+      "location": "cue 73, 00:09:39,540, Yvette Carnahan",
+      "cited": "transcript.txt, cue 73, L289, 00:09:39,540, Yvette Carnahan"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[1]",
+      "status": "verified",
+      "quote": "As long as I can see what's late. That's what I need in December.",
+      "location": "cue 225, 00:34:36,090, Yvette Carnahan",
+      "cited": "transcript.txt, cue 225, L897, 00:34:36,090, Yvette Carnahan"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[0]",
+      "status": "verified",
+      "quote": "Forty-one buildings.",
+      "location": "cue 85, 00:11:35,260, Yvette Carnahan",
+      "cited": "transcript.txt, cue 85, L337, 00:11:35,260, Yvette Carnahan"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[1]",
+      "status": "verified",
+      "quote": "it asks for monthly response-time reporting per building",
+      "location": "cue 182, 00:26:37,210, Yvette Carnahan",
+      "cited": "transcript.txt, cue 182, L725, 00:26:37,210, Yvette Carnahan"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[2]",
+      "status": "verified",
+      "quote": "That was Marley at the Ridgeline property.",
+      "location": "cue 16, 00:01:36,440, Tansy Whitlock",
+      "cited": "transcript.txt, cue 16, L61, 00:01:36,440, Tansy Whitlock"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[0]",
+      "status": "verified",
+      "quote": "Every contract has a schedule in it. So many filter changes, so many inspections, quarterly this, annual that. Those are planned months ahead. That's a different animal from a call.",
+      "location": "cue 41, 00:05:12,220, Yvette Carnahan",
+      "cited": "transcript.txt, cue 41, L161, 00:05:12,220, Yvette Carnahan"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[1]",
+      "status": "verified",
+      "quote": "And I'd want to know how the PM side works eventually, because that's half the contract value, but not first.",
+      "location": "cue 244, 00:38:33,550, Yvette Carnahan",
+      "cited": "transcript.txt, cue 244, L973, 00:38:33,550, Yvette Carnahan"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[0]",
+      "status": "verified",
+      "quote": "After six it goes to an answering service, and they email the service inbox. So an emergency at seven at night is an email nobody's looking at.",
+      "location": "cue 53, 00:06:55,160, Tansy Whitlock",
+      "cited": "transcript.txt, cue 53, L209, 00:06:55,160, Tansy Whitlock"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[1]",
+      "status": "verified",
+      "quote": "If it can't read the inbox, what stops the Friday afternoon chiller happening again?",
+      "location": "cue 220, 00:33:23,510, Yvette Carnahan",
+      "cited": "transcript.txt, cue 220, L877, 00:33:23,510, Yvette Carnahan"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[0]",
+      "status": "verified",
+      "quote": "If we don't close it in their system, we don't get paid.",
+      "location": "cue 145, 00:20:42,780, Yvette Carnahan",
+      "cited": "transcript.txt, cue 145, L577, 00:20:42,780, Yvette Carnahan"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[1]",
+      "status": "verified",
+      "quote": "ServiceChannel has an API, I'm fairly sure, but it's their tenant, not ours, and Brightmoor's IT people were not enthusiastic.",
+      "location": "cue 140, 00:20:06,800, Curtis Vandergrift",
+      "cited": "transcript.txt, cue 140, L557, 00:20:06,800, Curtis Vandergrift"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[0]",
+      "status": "verified",
+      "quote": "Who to call at each building. Which buildings need badges. The after-hours numbers. Which clients you're allowed to quote a price to and which ones you're not. Fairlane has a whole page about where you're allowed to park.",
+      "location": "cue 159, 00:22:35,960, Tansy Whitlock",
+      "cited": "transcript.txt, cue 159, L633, 00:22:35,960, Tansy Whitlock"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[1]",
+      "status": "verified",
+      "quote": "And the knowledge thing. Not first. But I'd want it.",
+      "location": "cue 245, 00:38:48,990, Tansy Whitlock",
+      "cited": "transcript.txt, cue 245, L977, 00:38:48,990, Tansy Whitlock"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[0]",
+      "status": "verified",
+      "quote": "Roanoke came in through an acquisition and they've got their own spreadsheet and their own way of doing it, and their own whiteboard, and honestly I can't see any of it from here.",
+      "location": "cue 36, 00:04:36,680, Tansy Whitlock",
+      "cited": "transcript.txt, cue 36, L141, 00:04:36,680, Tansy Whitlock"
+    },
+    {
+      "path": "/readiness/structure/leanings[9]/quotes[0]",
+      "status": "verified",
+      "quote": "You text Dewey and you don't know if he's read it, and he's up on a roof, so fair enough, but I've got a client on hold.",
+      "location": "cue 123, 00:17:34,660, Tansy Whitlock",
+      "cited": "transcript.txt, cue 123, L489, 00:17:34,660, Tansy Whitlock"
+    },
+    {
+      "path": "/readiness/structure/leanings[9]/quotes[1]",
+      "status": "verified",
+      "quote": "the supervisors will tell you they're getting texted about the same job by three different people, which is also true",
+      "location": "cue 130, 00:18:30,660, Yvette Carnahan",
+      "cited": "transcript.txt, cue 130, L517, 00:18:30,660, Yvette Carnahan"
+    },
+    {
+      "path": "/readiness/structure/leanings[9]/quotes[2]",
+      "status": "verified",
+      "quote": "Talk to Dewey. And don't design it for a desk. He'll look at it on a phone in a parking lot, or he won't look at it at all.",
+      "location": "cue 227, 00:34:51,370, Yvette Carnahan",
+      "cited": "transcript.txt, cue 227, L905, 00:34:51,370, Yvette Carnahan"
+    },
+    {
+      "path": "/readiness/structure/leanings[10]/quotes[0]",
+      "status": "verified",
+      "quote": "Somebody still had to type the work order in, and they were already typing it into the spreadsheet, so now it's two places. So they did the spreadsheet, because that's what the dispatcher looks at.",
+      "location": "cue 60, 00:07:52,300, Curtis Vandergrift",
+      "cited": "transcript.txt, cue 60, L237, 00:07:52,300, Curtis Vandergrift"
+    },
+    {
+      "path": "/readiness/structure/leanings[10]/quotes[1]",
+      "status": "verified",
+      "quote": "Not typing the client and the building and the contact every single time. None of those change.",
+      "location": "cue 211, 00:31:18,030, Tansy Whitlock",
+      "cited": "transcript.txt, cue 211, L841, 00:31:18,030, Tansy Whitlock"
+    }
+  ]
+}

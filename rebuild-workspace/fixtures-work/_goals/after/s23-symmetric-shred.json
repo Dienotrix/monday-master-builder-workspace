@@ -1,0 +1,1546 @@
+{
+  "fixture": "s23-symmetric-shred",
+  "sources": [
+    {
+      "name": "transcript.txt",
+      "kind": "transcript",
+      "format": "line-time-first",
+      "units": 264,
+      "unsupported": null
+    }
+  ],
+  "counts": {
+    "pairs": 202,
+    "verified": 202,
+    "verified_presence_only": 25,
+    "skipped": 0,
+    "unparsed_prose": 0,
+    "near_misses": 0,
+    "misses": 0,
+    "unsupported": 0,
+    "warnings": 0
+  },
+  "refused_quotes_not_checked": [
+    {
+      "path": "/intake/refused_quotes",
+      "entries": 10
+    }
+  ],
+  "skipped": [],
+  "pairs": [
+    {
+      "path": "/rubric[0]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Okay. So a job starts with an enquiry. A museum registrar emails, usually me, sometimes Lionel, and says we've got twelve works going to such-and-such in March, can you quote. Lionel or Constance quotes it.",
+      "location": "L52, 00:08:22 Eamon Kilbride",
+      "cited": "transcript.txt, L52, 00:08:22, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[0]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "When it's confirmed it becomes a job in the inventory system. Job number, the client, the dates, and then I add the objects. Each object gets a line.",
+      "location": "L54, 00:08:42 Eamon Kilbride",
+      "cited": "transcript.txt, L54, 00:08:42, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[0]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Then I build the pack. The job pack. Which is the loan agreement, the insurance certificate, the packing list, the condition report forms, one per object, blank, the customs paperwork if it's leaving the country, and the crew brief",
+      "location": "L58, 00:09:30 Eamon Kilbride",
+      "cited": "transcript.txt, L58, 00:09:30, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[0]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "It's a folder. A physical folder, and a copy of most of it on the shared drive. The agreement comes from the museum by email. The certificate comes from the insurer, also by email. The packing list I make in a spreadsheet.",
+      "location": "L60, 00:09:57 Eamon Kilbride",
+      "cited": "transcript.txt, L60, 00:09:57, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[0]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Booked. It says booked, and then one day it says out, and four months later it says returned. Three states, and out lasts four months.",
+      "location": "L64, 00:10:53 Eamon Kilbride",
+      "cited": "transcript.txt, L64, 00:10:53, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[0]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "On the whiteboard in the shop, by the week it's needed. And in the book. The book is a hardback notebook that's been going since before I started, and it has every crate we've built in it, by number, with the dimensions, and what it was built for.",
+      "location": "L68, 00:11:36 Margit Sowande",
+      "cited": "transcript.txt, L68, 00:11:36, Margit Sowande"
+    },
+    {
+      "path": "/rubric[0]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "Marek. He's the crew chief. He does the grid, which is a shared calendar for the vans and a printed grid for the people, and he does it on a Friday for the week after, and then he does it again on the Monday because something moved.",
+      "location": "L74, 00:12:35 Constance Ayodele",
+      "cited": "transcript.txt, L74, 00:12:35, Constance Ayodele"
+    },
+    {
+      "path": "/rubric[0]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "The crew take the pack and the van. At the museum they do the outgoing condition report, on paper, one form per object, front and back, and they take photographs on a phone.",
+      "location": "L76, 00:12:59 Eamon Kilbride",
+      "cited": "transcript.txt, L76, 00:12:59, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[0]/evidence[8]/quote",
+      "status": "verified",
+      "quote": "By job number. So if a museum asks about one object, I have to know which job it was on, which I usually do, and then find the form, and then find the photographs, which are in a folder on the shared drive named by job number, and hope they're labelled.",
+      "location": "L84, 00:13:50 Eamon Kilbride",
+      "cited": "transcript.txt, L84, 00:13:50, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[0]/evidence[9]/quote",
+      "status": "verified",
+      "quote": "Out of the inventory system. The day the job closes. It goes to the accounting system overnight and Mireille never has to touch it, and she would like it to stay that way.",
+      "location": "L96, 00:15:34 Eamon Kilbride",
+      "cited": "transcript.txt, L96, 00:15:34, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[0]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Eamon, walk me through a job. From the moment a museum phones to the moment the object is back on their wall.",
+      "location": "L51, 00:08:07 Consultant",
+      "cited": "transcript.txt, L51, 00:08:07, Consultant"
+    },
+    {
+      "path": "/rubric[1]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The second is that we paid a claim in May. A frame came back from a loan with a chip in the gilding, and the museum said it went out chipped, and we said it didn't, and when they asked for the outgoing condition report we had the form and we could not find the photographs.",
+      "location": "L42, 00:06:26 Constance Ayodele",
+      "cited": "transcript.txt, L42, 00:06:26, Constance Ayodele"
+    },
+    {
+      "path": "/rubric[1]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I'm the one who knows. If I'm off, the pack doesn't get built, or it gets built wrong. Which has happened.",
+      "location": "L62, 00:10:28 Eamon Kilbride",
+      "cited": "transcript.txt, L62, 00:10:28, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[1]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Two things. Crates get built late, because I find out late, and crates get built twice, because I didn't know we had one. Late is the one that costs.",
+      "location": "L145, 00:24:21 Margit Sowande",
+      "cited": "transcript.txt, L145, 00:24:21, Margit Sowande"
+    },
+    {
+      "path": "/rubric[1]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Eamon, when a museum asks for the condition report on one object, what actually",
+      "location": "L102, 00:16:56 Consultant",
+      "cited": "transcript.txt, L102, 00:16:56, Consultant"
+    },
+    {
+      "path": "/rubric[2]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We've won a framework with the consortium, which is seven museums across the region who tender together. It starts in February. On paper it's about a third more jobs than we did this year, and the paperwork on every single one of them.",
+      "location": "L36, 00:05:31 Constance Ayodele",
+      "cited": "transcript.txt, L36, 00:05:31, Constance Ayodele"
+    },
+    {
+      "path": "/rubric[2]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "A third more, and I have not budgeted a third more people. And the framework has a clause in it. Condition reports with photographs within twenty-four hours of collection, and available on request to any of the seven.",
+      "location": "L38, 00:05:53 Constance Ayodele",
+      "cited": "transcript.txt, L38, 00:05:53, Constance Ayodele"
+    },
+    {
+      "path": "/rubric[2]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "The second is that we paid a claim in May.",
+      "location": "L42, 00:06:26 Constance Ayodele",
+      "cited": "transcript.txt, L42, 00:06:26, Constance Ayodele"
+    },
+    {
+      "path": "/rubric[2]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Now. It has to exist before Christmas, because the second half of December is the only quiet fortnight we get, and January is the consortium's onboarding, and February it's real. If we miss December we miss the year.",
+      "location": "L213, 00:37:33 Constance Ayodele",
+      "cited": "transcript.txt, L213, 00:37:33, Constance Ayodele"
+    },
+    {
+      "path": "/rubric[2]/asked_quote/quote",
+      "status": "verified",
+      "quote": "So how did you and I end up on a call?",
+      "location": "L35, 00:05:24 Consultant",
+      "cited": "transcript.txt, L35, 00:05:24, Consultant"
+    },
+    {
+      "path": "/rubric[3]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Fourteen hours a week, and most of it is chasing the five sources, not assembling.",
+      "location": "L133, 00:22:41 Eamon Kilbride",
+      "cited": "transcript.txt, L133, 00:22:41, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[3]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I'd say nine hours a week of overtime in the shop that's about a crate I found out about late. Some weeks none, some weeks twenty. Nine is fair.",
+      "location": "L147, 00:24:45 Margit Sowande",
+      "cited": "transcript.txt, L147, 00:24:45, Margit Sowande"
+    },
+    {
+      "path": "/rubric[3]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Time and a half. A handler or a shop hand is thirty-four an hour loaded, so overtime is fifty-one. And Eamon is more like thirty-eight, before you ask.",
+      "location": "L149, 00:25:04 Constance Ayodele",
+      "cited": "transcript.txt, L149, 00:25:04, Constance Ayodele"
+    },
+    {
+      "path": "/rubric[3]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "We paid the excess. Six thousand four hundred.",
+      "location": "L43, 00:06:52 Eamon Kilbride",
+      "cited": "transcript.txt, L43, 00:06:52, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[3]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Call it two thousand between them.",
+      "location": "L118, 00:19:51 Eamon Kilbride",
+      "cited": "transcript.txt, L118, 00:19:51, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[3]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "A day out is about nineteen hundred pounds, with the van. That's Mireille's number for a lost day, she uses it for quoting, so I'll use it here.",
+      "location": "L129, 00:22:01 Constance Ayodele",
+      "cited": "transcript.txt, L129, 00:22:01, Constance Ayodele"
+    },
+    {
+      "path": "/rubric[3]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "Three, last year. The port, and two where the crew got to a museum and the loan agreement in the pack was the unsigned version and the registrar wouldn't release the object.",
+      "location": "L131, 00:22:19 Eamon Kilbride",
+      "cited": "transcript.txt, L131, 00:22:19, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[3]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "You haven't got Marek rebooking crews in there, or me ringing Eamon every Monday morning.",
+      "location": "L190, 00:33:09 Margit Sowande",
+      "cited": "transcript.txt, L190, 00:33:09, Margit Sowande"
+    },
+    {
+      "path": "/rubric[3]/evidence[8]/quote",
+      "status": "verified",
+      "quote": "Mireille will argue the nineteen hundred and I'll let her, but it's her number, so keep it in.",
+      "location": "L192, 00:33:27 Constance Ayodele",
+      "cited": "transcript.txt, L192, 00:33:27, Constance Ayodele"
+    },
+    {
+      "path": "/rubric[3]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Constance, would you stand behind that in front of Lionel?",
+      "location": "L189, 00:32:19 Consultant",
+      "cited": "transcript.txt, L189, 00:32:19, Consultant"
+    },
+    {
+      "path": "/rubric[4]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It's about a hundred and forty thousand a year in revenue if we take all of it, and right now I'm planning to take two thirds of it and let the rest go to whoever else is on the framework, because I can't see how we'd do the paperwork.",
+      "location": "L194, 00:33:46 Constance Ayodele",
+      "cited": "transcript.txt, L194, 00:33:46, Constance Ayodele"
+    },
+    {
+      "path": "/rubric[4]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And honestly, the thing I'd go after is loans in. Private collectors who want things stored and moved and want a report every time it's touched. We turn that away, quietly, because Eamon can't do the reports. I don't have a figure for it. I've never let myself count it.",
+      "location": "L196, 00:34:13 Constance Ayodele",
+      "cited": "transcript.txt, L196, 00:34:13, Constance Ayodele"
+    },
+    {
+      "path": "/rubric[4]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "my fourteen hours would go on the consortium's reporting, which somebody has to do anyway. It's not a saving, it's a swap.",
+      "location": "L198, 00:34:46 Eamon Kilbride",
+      "cited": "transcript.txt, L198, 00:34:46, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[4]/asked_quote/quote",
+      "status": "verified",
+      "quote": "If the reports were real and the packs built themselves, what would you go after that you don't go after today?",
+      "location": "L193, 00:33:35 Consultant",
+      "cited": "transcript.txt, L193, 00:33:35, Consultant"
+    },
+    {
+      "path": "/rubric[5]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I want to answer a museum's question about their object from my desk, with the photograph, in under a minute, without walking to a filing cabinet or asking Eamon. And I want to get to next May with no claim. That's the win, and it's Lionel's win too, he's said it at every management meeting since June.",
+      "location": "L200, 00:35:06 Constance Ayodele",
+      "cited": "transcript.txt, L200, 00:35:06, Constance Ayodele"
+    },
+    {
+      "path": "/rubric[5]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I want to see next week's crates on a screen on a Monday morning, not on a whiteboard I wrote on a Friday. And no typing in the shop. If it needs typing it dies.",
+      "location": "L201, 00:35:29 Margit Sowande",
+      "cited": "transcript.txt, L201, 00:35:29, Margit Sowande"
+    },
+    {
+      "path": "/rubric[5]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I want the pack to know the job changed. That's it. If the museum drops an object, the packing list and the forms should drop it before I do.",
+      "location": "L202, 00:35:44 Eamon Kilbride",
+      "cited": "transcript.txt, L202, 00:35:44, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[5]/asked_quote/quote",
+      "status": "verified",
+      "quote": "If this worked, a year from now, what's different? Constance first.",
+      "location": "L199, 00:34:56 Consultant",
+      "cited": "transcript.txt, L199, 00:34:56, Consultant"
+    },
+    {
+      "path": "/rubric[6]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Me, up to twenty-five thousand. Above that it's me and Lionel together, and Lionel's first question about anything is whether it replaces the inventory system, because we paid for that four years ago and it took five months to put in. It won't, so that's fine, but he'll ask. And Mireille needs to be comfortable with anything that goes near invoicing. Not a veto. Comfortable.",
+      "location": "L207, 00:36:25 Constance Ayodele",
+      "cited": "transcript.txt, L207, 00:36:25, Constance Ayodele"
+    },
+    {
+      "path": "/rubric[6]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "If I ask him he'll come. He'll sit at the back with his arms folded until the last five minutes and then he'll ask about the",
+      "location": "L209, 00:36:55 Constance Ayodele",
+      "cited": "transcript.txt, L209, 00:36:55, Constance Ayodele"
+    },
+    {
+      "path": "/rubric[6]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Handlers not typing. And that the values never leave the inventory system. He's said both to me, he'll say both to you, and if either one isn't true he's out and honestly so am I.",
+      "location": "L211, 00:37:12 Constance Ayodele",
+      "cited": "transcript.txt, L211, 00:37:12, Constance Ayodele"
+    },
+    {
+      "path": "/rubric[6]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Who decides on something like this? Money and the tool both.",
+      "location": "L206, 00:36:19 Consultant",
+      "cited": "transcript.txt, L206, 00:36:19, Consultant"
+    },
+    {
+      "path": "/rubric[7]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Now. It has to exist before Christmas, because the second half of December is the only quiet fortnight we get, and January is the consortium's onboarding, and February it's real.",
+      "location": "L213, 00:37:33 Constance Ayodele",
+      "cited": "transcript.txt, L213, 00:37:33, Constance Ayodele"
+    },
+    {
+      "path": "/rubric[7]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And nothing changes in the shop in November. We've got two auction weeks and an exhibition going out and I'm not putting a new thing in front of the handlers then. December after the fifteenth, fine.",
+      "location": "L214, 00:37:48 Margit Sowande",
+      "cited": "transcript.txt, L214, 00:37:48, Margit Sowande"
+    },
+    {
+      "path": "/rubric[7]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Condition reports, then packs, then crates. And I'll fight Margit on that.",
+      "location": "L216, 00:38:11 Constance Ayodele",
+      "cited": "transcript.txt, L216, 00:38:11, Constance Ayodele"
+    },
+    {
+      "path": "/rubric[7]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Timing. Is this a now thing or",
+      "location": "L212, 00:37:27 Consultant",
+      "cited": "transcript.txt, L212, 00:37:27, Consultant"
+    },
+    {
+      "path": "/rubric[8]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The handlers. They wear cotton gloves and they're holding something worth more than their house. If the thing needs a keyboard, it's dead. If it's a phone in a pocket and one tap, maybe. Maybe. I've seen a nephew's app die in a month here.",
+      "location": "L220, 00:38:36 Margit Sowande",
+      "cited": "transcript.txt, L220, 00:38:36, Margit Sowande"
+    },
+    {
+      "path": "/rubric[8]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The vendor. They've quoted Lionel a tracking module, with a screen in the store and condition reports inside the system, and the quote is on his desk. We had them in for a morning in July. It's typing, so I don't think it's happening, but he reads that quote when he's cross with me.",
+      "location": "L221, 00:38:54 Constance Ayodele",
+      "cited": "transcript.txt, L221, 00:38:54, Constance Ayodele"
+    },
+    {
+      "path": "/rubric[8]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "In the inventory system there's one reference field per object, and it's got our reference in it, or the museum's accession number, or both with a slash between them, depending on who entered it and when. So the same object can be two different strings on two different jobs.",
+      "location": "L223, 00:39:20 Eamon Kilbride",
+      "cited": "transcript.txt, L223, 00:39:20, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[8]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "And Ravensdale. If it isn't in the system it isn't in your feed, so half my crates aren't in your feed, and that's before you ask about the bay numbers.",
+      "location": "L226, 00:40:00 Margit Sowande",
+      "cited": "transcript.txt, L226, 00:40:00, Margit Sowande"
+    },
+    {
+      "path": "/rubric[8]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What could get in the way of this going ahead? Anything.",
+      "location": "L219, 00:38:30 Consultant",
+      "cited": "transcript.txt, L219, 00:38:30, Consultant"
+    },
+    {
+      "path": "/rubric[9]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Thursday the fifth at ten, your time? Yes. Good. Forty-five minutes, and we'll take thirty if it's good.",
+      "location": "L252, 00:45:45 Consultant",
+      "cited": "transcript.txt, L252, 00:45:45, Consultant"
+    },
+    {
+      "path": "/rubric[9]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "me the invite, I don't hold dates in my head. And I want Marek in the room for the photo part, because they're his handlers and he'll say what they'll actually do.",
+      "location": "L257, 00:46:56 Margit Sowande",
+      "cited": "transcript.txt, L257, 00:46:56, Margit Sowande"
+    },
+    {
+      "path": "/rubric[9]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "It'll read like a list. I'll send the invite and the recap tomorrow, with the number and the questions.",
+      "location": "L260, 00:47:28 Consultant",
+      "cited": "transcript.txt, L260, 00:47:28, Consultant"
+    },
+    {
+      "path": "/rubric[9]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Thursday the fifth at ten, your time?",
+      "location": "L252, 00:45:45 Consultant",
+      "cited": "transcript.txt, L252, 00:45:45, Consultant"
+    },
+    {
+      "path": "/rubric[11]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Condition reports first, though. If I get one thing out of this before February, it's that one.",
+      "location": "L247, 00:44:55 Eamon Kilbride",
+      "cited": "transcript.txt, L247, 00:44:55, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[11]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And I want to see a handler do the photo with gloves on before I believe any of it. Before Christmas, in the yard, not in a meeting room.",
+      "location": "L248, 00:45:03 Margit Sowande",
+      "cited": "transcript.txt, L248, 00:45:03, Margit Sowande"
+    },
+    {
+      "path": "/rubric[11]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And I don't want the feed holding anything up. If the vendor takes six weeks to answer Thandiwe, build it with Eamon typing ten jobs in by hand and we'll live with that for a month.",
+      "location": "L250, 00:45:22 Constance Ayodele",
+      "cited": "transcript.txt, L250, 00:45:22, Constance Ayodele"
+    },
+    {
+      "path": "/rubric[11]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Is that the right first cut, for the three of you?",
+      "location": "L246, 00:43:50 Consultant",
+      "cited": "transcript.txt, L246, 00:43:50, Consultant"
+    },
+    {
+      "path": "/rubric[12]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I get up. I go to the filing cabinet, find the job, find the form. Then I go to the shared drive, find the job folder, and open photographs until I find the ones that look like that object.",
+      "location": "L103, 00:17:04 Eamon Kilbride",
+      "cited": "transcript.txt, L103, 00:17:04, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[12]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "They're labelled by the phone. So it's whatever number the phone gave it.",
+      "location": "L86, 00:14:12 Eamon Kilbride",
+      "cited": "transcript.txt, L86, 00:14:12, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[12]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Eamon, when a museum asks for the condition report on one object, what actually",
+      "location": "L102, 00:16:56 Consultant",
+      "cited": "transcript.txt, L102, 00:16:56, Consultant"
+    },
+    {
+      "path": "/rubric[13]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "A loan, three paintings, one of them in a gilt frame from the eighteen hundreds. Out in January, back in May. Came back with a chip on the lower left corner.",
+      "location": "L107, 00:17:51 Eamon Kilbride",
+      "cited": "transcript.txt, L107, 00:17:51, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[13]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And their courier had photos, taken at their end, which showed nothing on the lower left, and we had a form that said no damage and no picture to go with it. So we paid.",
+      "location": "L109, 00:18:27 Eamon Kilbride",
+      "cited": "transcript.txt, L109, 00:18:27, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[13]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Twenty minutes if it's all there. An hour if it isn't. Half a day if the photos never got uploaded and I'm ringing a handler who's on a roof somewhere.",
+      "location": "L103, 00:17:04 Eamon Kilbride",
+      "cited": "transcript.txt, L103, 00:17:04, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[13]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Four or five a week.",
+      "location": "L105, 00:17:36 Eamon Kilbride",
+      "cited": "transcript.txt, L105, 00:17:36, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[13]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And the May one. Tell me that one properly.",
+      "location": "L106, 00:17:46 Consultant",
+      "cited": "transcript.txt, L106, 00:17:46, Consultant"
+    },
+    {
+      "path": "/rubric[14]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I chase. I've got a list of jobs where I haven't seen photos, and on a Friday I go round. And I've made the handlers write the object reference on a card and put the card in the photo, so at least I can tell which object it is.",
+      "location": "L120, 00:20:16 Eamon Kilbride",
+      "cited": "transcript.txt, L120, 00:20:16, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[14]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Which they do when they remember, and it doesn't fix the phone, because the photo is still on the phone.",
+      "location": "L122, 00:20:40 Eamon Kilbride",
+      "cited": "transcript.txt, L122, 00:20:40, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[14]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And because I found out in May that a chase list doesn't help you when the phone's in a drawer somewhere.",
+      "location": "L124, 00:20:53 Eamon Kilbride",
+      "cited": "transcript.txt, L124, 00:20:53, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[14]/asked_quote/quote",
+      "status": "verified",
+      "quote": "do, the chasing?",
+      "location": "L123, 00:20:49 Consultant",
+      "cited": "transcript.txt, L123, 00:20:49, Consultant"
+    },
+    {
+      "path": "/rubric[15]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Constance, because she signs the cheque. Mireille, because it's a line she didn't budget. Marek, because it's his handler and he's the one who had to say the photos were gone. The insurer, obviously. And the museum's registrar, who's been our contact for nine years and now double-checks everything we send her.",
+      "location": "L115, 00:19:16 Eamon Kilbride",
+      "cited": "transcript.txt, L115, 00:19:16, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[15]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And me in front of the consortium, because they asked about our claims history in the tender",
+      "location": "L116, 00:19:37 Constance Ayodele",
+      "cited": "transcript.txt, L116, 00:19:37, Constance Ayodele"
+    },
+    {
+      "path": "/rubric[15]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Good. And what does a claim like that reach? Who feels it, beyond you?",
+      "location": "L114, 00:19:10 Consultant",
+      "cited": "transcript.txt, L114, 00:19:10, Consultant"
+    },
+    {
+      "path": "/rubric[16]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We paid the excess. Six thousand four hundred.",
+      "location": "L43, 00:06:52 Eamon Kilbride",
+      "cited": "transcript.txt, L43, 00:06:52, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[16]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "There were two smaller ones last year we just absorbed, no claim, a bit of re-gilding and a glass. Call it two thousand between them.",
+      "location": "L118, 00:19:51 Eamon Kilbride",
+      "cited": "transcript.txt, L118, 00:19:51, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[16]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Four or five a week.",
+      "location": "L105, 00:17:36 Eamon Kilbride",
+      "cited": "transcript.txt, L105, 00:17:36, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[16]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Is it getting worse, or was May a one-off?",
+      "location": "L117, 00:19:47 Consultant",
+      "cited": "transcript.txt, L117, 00:19:47, Consultant"
+    },
+    {
+      "path": "/rubric[17]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And it'll get worse, because the framework doubles the number of objects going out with a report, and the report's the same clipboard.",
+      "location": "L118, 00:19:51 Eamon Kilbride",
+      "cited": "transcript.txt, L118, 00:19:51, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[17]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It'll be more with the consortium, because the clause says on request, and they've told us they'll request.",
+      "location": "L105, 00:17:36 Eamon Kilbride",
+      "cited": "transcript.txt, L105, 00:17:36, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[17]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Is it getting worse, or was May a one-off?",
+      "location": "L117, 00:19:47 Consultant",
+      "cited": "transcript.txt, L117, 00:19:47, Consultant"
+    },
+    {
+      "path": "/rubric[18]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I'm the one who knows. If I'm off, the pack doesn't get built, or it gets built wrong. Which has happened.",
+      "location": "L62, 00:10:28 Eamon Kilbride",
+      "cited": "transcript.txt, L62, 00:10:28, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[18]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The checklist doesn't know anything. It knows I ticked it.",
+      "location": "L137, 00:23:21 Eamon Kilbride",
+      "cited": "transcript.txt, L137, 00:23:21, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[18]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Where does the pack live?",
+      "location": "L59, 00:09:54 Consultant",
+      "cited": "transcript.txt, L59, 00:09:54, Consultant"
+    },
+    {
+      "path": "/rubric[19]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Last March. A loan going out to a museum abroad, two crates, one van, three handlers, and an export licence. The licence was issued, I had the email, and the copy in the pack was the draft, not the issued one, because the issued one came in at six the night before and I'd already built the pack. The port wouldn't accept the draft. The van sat there for four hours and came back.",
+      "location": "L126, 00:21:14 Eamon Kilbride",
+      "cited": "transcript.txt, L126, 00:21:14, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[19]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Last month a museum dropped two works the week before and added one, and I rebuilt the pack from scratch because I couldn't trust which bits I'd already done.",
+      "location": "L137, 00:23:21 Eamon Kilbride",
+      "cited": "transcript.txt, L137, 00:23:21, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[19]/asked_quote/quote",
+      "status": "verified",
+      "quote": "The pack. Give me a bad one.",
+      "location": "L125, 00:21:10 Consultant",
+      "cited": "transcript.txt, L125, 00:21:10, Consultant"
+    },
+    {
+      "path": "/rubric[20]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It works until the museum changes the object list, which they do, and then the packing list is wrong and the condition forms are wrong and the tick is still there.",
+      "location": "L135, 00:22:57 Eamon Kilbride",
+      "cited": "transcript.txt, L135, 00:22:57, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[20]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The checklist doesn't know anything. It knows I ticked it.",
+      "location": "L137, 00:23:21 Eamon Kilbride",
+      "cited": "transcript.txt, L137, 00:23:21, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[20]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Fourteen. And what stops you doing it differently today?",
+      "location": "L134, 00:22:52 Consultant",
+      "cited": "transcript.txt, L134, 00:22:52, Consultant"
+    },
+    {
+      "path": "/rubric[21]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The crew, who are standing in a loading bay with a courier looking at them. Marek, who has to find them another day. The museum. And Constance, because the museum rings Constance, not me.",
+      "location": "L139, 00:23:39 Eamon Kilbride",
+      "cited": "transcript.txt, L139, 00:23:39, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[21]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "They ring me. And with the consortium there's seven of them to ring me.",
+      "location": "L140, 00:23:53 Constance Ayodele",
+      "cited": "transcript.txt, L140, 00:23:53, Constance Ayodele"
+    },
+    {
+      "path": "/rubric[21]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Who else feels a bad pack?",
+      "location": "L138, 00:23:36 Consultant",
+      "cited": "transcript.txt, L138, 00:23:36, Consultant"
+    },
+    {
+      "path": "/rubric[22]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Fourteen hours a week, and most of it is chasing the five sources, not assembling.",
+      "location": "L133, 00:22:41 Eamon Kilbride",
+      "cited": "transcript.txt, L133, 00:22:41, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[22]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "A day out is about nineteen hundred pounds, with the van. That's Mireille's number for a lost day, she uses it for quoting, so I'll use it here.",
+      "location": "L129, 00:22:01 Constance Ayodele",
+      "cited": "transcript.txt, L129, 00:22:01, Constance Ayodele"
+    },
+    {
+      "path": "/rubric[22]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Three, last year.",
+      "location": "L131, 00:22:19 Eamon Kilbride",
+      "cited": "transcript.txt, L131, 00:22:19, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[22]/asked_quote/quote",
+      "status": "verified",
+      "quote": "How long does building packs take you, across a normal week?",
+      "location": "L132, 00:22:35 Consultant",
+      "cited": "transcript.txt, L132, 00:22:35, Consultant"
+    },
+    {
+      "path": "/rubric[23]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We hire another Eamon, or we lose this one. That's not a figure of speech. He's told me.",
+      "location": "L142, 00:24:06 Constance Ayodele",
+      "cited": "transcript.txt, L142, 00:24:06, Constance Ayodele"
+    },
+    {
+      "path": "/rubric[23]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I have told her. Twice.",
+      "location": "L143, 00:24:14 Eamon Kilbride",
+      "cited": "transcript.txt, L143, 00:24:14, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[23]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Constance, if this stays as it is, with a third",
+      "location": "L141, 00:23:59 Consultant",
+      "cited": "transcript.txt, L141, 00:23:59, Consultant"
+    },
+    {
+      "path": "/rubric[24]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Two things. Crates get built late, because I find out late, and crates get built twice, because I didn't know we had one. Late is the one that costs.",
+      "location": "L145, 00:24:21 Margit Sowande",
+      "cited": "transcript.txt, L145, 00:24:21, Margit Sowande"
+    },
+    {
+      "path": "/rubric[24]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Margit. The shop. What goes wrong?",
+      "location": "L144, 00:24:17 Consultant",
+      "cited": "transcript.txt, L144, 00:24:17, Consultant"
+    },
+    {
+      "path": "/rubric[25]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "If I find out on a Tuesday that a job going Thursday needs a two-metre crate, that's the shop on overtime Tuesday and Wednesday nights, and it's not their fault.",
+      "location": "L145, 00:24:21 Margit Sowande",
+      "cited": "transcript.txt, L145, 00:24:21, Margit Sowande"
+    },
+    {
+      "path": "/rubric[25]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Every week there's something.",
+      "location": "L147, 00:24:45 Margit Sowande",
+      "cited": "transcript.txt, L147, 00:24:45, Margit Sowande"
+    },
+    {
+      "path": "/rubric[25]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Four or five times a year I build a crate and then find one in the book that would have done. Or a job gets cancelled after the crate's built.",
+      "location": "L151, 00:25:20 Margit Sowande",
+      "cited": "transcript.txt, L151, 00:25:20, Margit Sowande"
+    },
+    {
+      "path": "/rubric[25]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And built twice?",
+      "location": "L150, 00:25:16 Consultant",
+      "cited": "transcript.txt, L150, 00:25:16, Consultant"
+    },
+    {
+      "path": "/rubric[26]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I ask. I walk up to Eamon's desk on a Monday and read his screen over his shoulder. If he's off, I ring Lionel, and Lionel tells me what he remembers.",
+      "location": "L153, 00:25:47 Margit Sowande",
+      "cited": "transcript.txt, L153, 00:25:47, Margit Sowande"
+    },
+    {
+      "path": "/rubric[26]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Which is accurate and about half. And the whiteboard is mine, so if I'm off nobody can read it, because it's my shorthand.",
+      "location": "L155, 00:26:04 Margit Sowande",
+      "cited": "transcript.txt, L155, 00:26:04, Margit Sowande"
+    },
+    {
+      "path": "/rubric[26]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "In February there's a third more crates and the same whiteboard, and I'm not building them at night. I've said that to Constance.",
+      "location": "L157, 00:26:15 Margit Sowande",
+      "cited": "transcript.txt, L157, 00:26:15, Margit Sowande"
+    },
+    {
+      "path": "/rubric[26]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What do you do today to see further ahead?",
+      "location": "L152, 00:25:41 Consultant",
+      "cited": "transcript.txt, L152, 00:25:41, Consultant"
+    },
+    {
+      "path": "/rubric[27]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And the handlers, who end up packing in the yard at seven in the morning instead of the afternoon before",
+      "location": "L160, 00:26:34 Margit Sowande",
+      "cited": "transcript.txt, L160, 00:26:34, Margit Sowande"
+    },
+    {
+      "path": "/rubric[27]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "that's the shop on overtime Tuesday and Wednesday nights, and it's not their fault.",
+      "location": "L145, 00:24:21 Margit Sowande",
+      "cited": "transcript.txt, L145, 00:24:21, Margit Sowande"
+    },
+    {
+      "path": "/rubric[27]/asked_quote/quote",
+      "status": "verified",
+      "quote": "late crate reach?",
+      "location": "L159, 00:26:30 Consultant",
+      "cited": "transcript.txt, L159, 00:26:30, Consultant"
+    },
+    {
+      "path": "/rubric[28]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I'd say nine hours a week of overtime in the shop that's about a crate I found out about late. Some weeks none, some weeks twenty. Nine is fair.",
+      "location": "L147, 00:24:45 Margit Sowande",
+      "cited": "transcript.txt, L147, 00:24:45, Margit Sowande"
+    },
+    {
+      "path": "/rubric[28]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Time and a half. A handler or a shop hand is thirty-four an hour loaded, so overtime is fifty-one.",
+      "location": "L149, 00:25:04 Constance Ayodele",
+      "cited": "transcript.txt, L149, 00:25:04, Constance Ayodele"
+    },
+    {
+      "path": "/rubric[28]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Nine hours. And overtime's paid at?",
+      "location": "L148, 00:25:01 Consultant",
+      "cited": "transcript.txt, L148, 00:25:01, Consultant"
+    },
+    {
+      "path": "/rubric[29]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "In February there's a third more crates and the same whiteboard, and I'm not building them at night. I've said that to Constance.",
+      "location": "L157, 00:26:15 Margit Sowande",
+      "cited": "transcript.txt, L157, 00:26:15, Margit Sowande"
+    },
+    {
+      "path": "/rubric[29]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And in February?",
+      "location": "L156, 00:26:13 Consultant",
+      "cited": "transcript.txt, L156, 00:26:13, Consultant"
+    },
+    {
+      "path": "/rubric[30]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "In the inventory system there's one reference field per object, and it's got our reference in it, or the museum's accession number, or both with a slash between them, depending on who entered it and when.",
+      "location": "L223, 00:39:20 Eamon Kilbride",
+      "cited": "transcript.txt, L223, 00:39:20, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[30]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The other half is in the book, with my location, which is a bay number I made up. If Eamon puts a Ravensdale crate on a job, he's guessing it exists.",
+      "location": "L162, 00:26:57 Margit Sowande",
+      "cited": "transcript.txt, L162, 00:26:57, Margit Sowande"
+    },
+    {
+      "path": "/rubric[30]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And the second store, since you raised it.",
+      "location": "L161, 00:26:50 Consultant",
+      "cited": "transcript.txt, L161, 00:26:50, Consultant"
+    },
+    {
+      "path": "/rubric[31]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Live, about four thousand. It's a couple of weeks of my life to sort out, and nobody has ever given me the two weeks.",
+      "location": "L225, 00:39:50 Eamon Kilbride",
+      "cited": "transcript.txt, L225, 00:39:50, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[31]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "So the same object can be two different strings on two different jobs. I've been meaning to clean it up for two years.",
+      "location": "L223, 00:39:20 Eamon Kilbride",
+      "cited": "transcript.txt, L223, 00:39:20, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[31]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "About half of what's there is in the inventory system with a location.",
+      "location": "L162, 00:26:57 Margit Sowande",
+      "cited": "transcript.txt, L162, 00:26:57, Margit Sowande"
+    },
+    {
+      "path": "/rubric[31]/asked_quote/quote",
+      "status": "verified",
+      "quote": "How many objects?",
+      "location": "L224, 00:39:48 Consultant",
+      "cited": "transcript.txt, L224, 00:39:48, Consultant"
+    },
+    {
+      "path": "/rubric[32]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "You're usually right because you ring me.",
+      "location": "L164, 00:27:20 Margit Sowande",
+      "cited": "transcript.txt, L164, 00:27:20, Margit Sowande"
+    },
+    {
+      "path": "/rubric[32]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "nobody has ever given me the two weeks.",
+      "location": "L225, 00:39:50 Eamon Kilbride",
+      "cited": "transcript.txt, L225, 00:39:50, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[34]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I couldn't tell you. Mireille would know what we've written off at the year end, because that's where a crate that doesn't exist ends up. It goes through the accounts, not through me.",
+      "location": "L167, 00:27:41 Eamon Kilbride",
+      "cited": "transcript.txt, L167, 00:27:41, Eamon Kilbride"
+    },
+    {
+      "path": "/rubric[34]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Not in my head either. Mireille would have it in about four minutes, but I'm not going to make it up for you.",
+      "location": "L168, 00:27:54 Constance Ayodele",
+      "cited": "transcript.txt, L168, 00:27:54, Constance Ayodele"
+    },
+    {
+      "path": "/rubric[34]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Does anyone know what that costs you, the guessing?",
+      "location": "L166, 00:27:31 Consultant",
+      "cited": "transcript.txt, L166, 00:27:31, Consultant"
+    },
+    {
+      "path": "/pains[0]/quote",
+      "status": "verified",
+      "quote": "They're labelled by the phone. So it's whatever number the phone gave it.",
+      "location": "L86, 00:14:12 Eamon Kilbride",
+      "cited": "transcript.txt, L86, 00:14:12, Eamon Kilbride"
+    },
+    {
+      "path": "/pains[1]/quote",
+      "status": "verified",
+      "quote": "I'm the one who knows. If I'm off, the pack doesn't get built, or it gets built wrong. Which has happened.",
+      "location": "L62, 00:10:28 Eamon Kilbride",
+      "cited": "transcript.txt, L62, 00:10:28, Eamon Kilbride"
+    },
+    {
+      "path": "/pains[2]/quote",
+      "status": "verified",
+      "quote": "Two things. Crates get built late, because I find out late, and crates get built twice, because I didn't know we had one. Late is the one that costs.",
+      "location": "L145, 00:24:21 Margit Sowande",
+      "cited": "transcript.txt, L145, 00:24:21, Margit Sowande"
+    },
+    {
+      "path": "/pains[3]/quote",
+      "status": "verified",
+      "quote": "So the same object can be two different strings on two different jobs. I've been meaning to clean it up for two years.",
+      "location": "L223, 00:39:20 Eamon Kilbride",
+      "cited": "transcript.txt, L223, 00:39:20, Eamon Kilbride"
+    },
+    {
+      "path": "/pains[4]/quote",
+      "status": "verified",
+      "quote": "and then he does it again on the Monday because something moved.",
+      "location": "L74, 00:12:35 Constance Ayodele",
+      "cited": "transcript.txt, L74, 00:12:35, Constance Ayodele"
+    },
+    {
+      "path": "/pains[5]/quote",
+      "status": "verified",
+      "quote": "Three states, and out lasts four months.",
+      "location": "L64, 00:10:53 Eamon Kilbride",
+      "cited": "transcript.txt, L64, 00:10:53, Eamon Kilbride"
+    },
+    {
+      "path": "/numbers/bleed/quote",
+      "status": "verified",
+      "quote": "Fourteen hours a week, and most of it is chasing the five sources, not assembling.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L133, 00:22:41, Eamon Kilbride"
+      ]
+    },
+    {
+      "path": "/numbers/upside/quote",
+      "status": "verified",
+      "quote": "It's about a hundred and forty thousand a year in revenue if we take all of it, and right now I'm planning to take two thirds of it and let the rest go to whoever else is on the framework, because I can't see how we'd do the paperwork.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L194, 00:33:46, Constance Ayodele"
+      ]
+    },
+    {
+      "path": "/objections[0]/quote",
+      "status": "verified",
+      "quote": "Above that it's me and Lionel together, and Lionel's first question about anything is whether it replaces the inventory system, because we paid for that four years ago and it took five months to put in.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L207, 00:36:25, Constance Ayodele"
+      ]
+    },
+    {
+      "path": "/objections[1]/quote",
+      "status": "verified",
+      "quote": "Handlers not typing. And that the values never leave the inventory system. He's said both to me, he'll say both to you, and if either one isn't true he's out and honestly so am I.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L211, 00:37:12, Constance Ayodele"
+      ]
+    },
+    {
+      "path": "/objections[2]/quote",
+      "status": "verified",
+      "quote": "And Mireille needs to be comfortable with anything that goes near invoicing. Not a veto. Comfortable.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L207, 00:36:25, Constance Ayodele"
+      ]
+    },
+    {
+      "path": "/objections[3]/quote",
+      "status": "verified",
+      "quote": "The handlers. They wear cotton gloves and they're holding something worth more than their house. If the thing needs a keyboard, it's dead.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L220, 00:38:36, Margit Sowande"
+      ]
+    },
+    {
+      "path": "/objections[4]/quote",
+      "status": "verified",
+      "quote": "And no typing in the shop. If it needs typing it dies.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L201, 00:35:29, Margit Sowande"
+      ]
+    },
+    {
+      "path": "/objections[5]/quote",
+      "status": "verified",
+      "quote": "And nothing changes in the shop in November. We've got two auction weeks and an exhibition going out and I'm not putting a new thing in front of the handlers then. December after the fifteenth, fine.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L214, 00:37:48, Margit Sowande"
+      ]
+    },
+    {
+      "path": "/objections[6]/quote",
+      "status": "verified",
+      "quote": "The vendor. They've quoted Lionel a tracking module, with a screen in the store and condition reports inside the system, and the quote is on his desk.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L221, 00:38:54, Constance Ayodele"
+      ]
+    },
+    {
+      "path": "/objections[7]/quote",
+      "status": "verified",
+      "quote": "Send the recap to Lionel as well as me, and don't dress it up. If it reads like a brochure he'll stop at the second line, and so will I.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L259, 00:47:16, Constance Ayodele"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[0]/quote",
+      "status": "verified",
+      "quote": "Thursday the fifth at ten, your time? Yes. Good. Forty-five minutes, and we'll take thirty if it's good.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L252, 00:45:45, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[1]/quote",
+      "status": "verified",
+      "quote": "I'll send the invite and the recap tomorrow, with the number and the questions.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L260, 00:47:28, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[2]/quote",
+      "status": "verified",
+      "quote": "Then that's one of the five answered already. I'll write the other four up for you today.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L256, 00:46:48, Thandiwe Rourke"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[3]/quote",
+      "status": "verified",
+      "quote": "I'll answer what I can tonight, actually. The export one I know. There's a nightly file, it lands on the shared drive at two in the morning. Whether there's an interface I'll have to ask them.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L253, 00:46:18, Eamon Kilbride"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[4]/quote",
+      "status": "verified",
+      "quote": "And the sample, ten objects, no values. Thank you, all three of you.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L262, 00:47:40, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[5]/quote",
+      "status": "verified",
+      "quote": "And I want to see a handler do the photo with gloves on before I believe any of it. Before Christmas, in the yard, not in a meeting room.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L248, 00:45:03, Margit Sowande"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[6]/quote",
+      "status": "verified",
+      "quote": "me the invite, I don't hold dates in my head. And I want Marek in the room for the photo part, because they're his handlers and he'll say what they'll actually do.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L257, 00:46:56, Margit Sowande"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[7]/quote",
+      "status": "verified",
+      "quote": "they'll be large. I'd rather test it than say a number. Then we test it before the walkthrough and say what we found, whichever way it goes.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L235, 00:42:05, Consultant"
+      ]
+    },
+    {
+      "path": "/requested_changes[0]/quote",
+      "status": "verified",
+      "quote": "Condition reports first, though. If I get one thing out of this before February, it's that one.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L247, 00:44:55, Eamon Kilbride"
+      ]
+    },
+    {
+      "path": "/requested_changes[1]/quote",
+      "status": "verified",
+      "quote": "And I don't want the feed holding anything up. If the vendor takes six weeks to answer Thandiwe, build it with Eamon typing ten jobs in by hand and we'll live with that for a month.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L250, 00:45:22, Constance Ayodele"
+      ]
+    },
+    {
+      "path": "/requested_changes[2]/quote",
+      "status": "verified",
+      "quote": "Whatever you key on, the crate number is mine, and I'm not renumbering four hundred crates for a computer.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L238, 00:42:47, Margit Sowande"
+      ]
+    },
+    {
+      "path": "/requested_changes[3]/quote",
+      "status": "verified",
+      "quote": "Handlers not typing. And that the values never leave the inventory system.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L211, 00:37:12, Constance Ayodele"
+      ]
+    },
+    {
+      "path": "/requested_changes[4]/quote",
+      "status": "verified",
+      "quote": "And I want to see a handler do the photo with gloves on before I believe any of it. Before Christmas, in the yard, not in a meeting room.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L248, 00:45:03, Margit Sowande"
+      ]
+    },
+    {
+      "path": "/requested_changes[5]/quote",
+      "status": "verified",
+      "quote": "And I want Marek in the room for the photo part, because they're his handlers and he'll say what they'll actually do.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L257, 00:46:56, Margit Sowande"
+      ]
+    },
+    {
+      "path": "/account_context/evidence_quote_or_null",
+      "status": "verified",
+      "quote": "No. Nothing. Eamon's seen it at a museum.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L204, 00:36:05, Constance Ayodele"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[0]/quote/quote",
+      "status": "verified",
+      "quote": "I'm not going to show you anything.",
+      "location": "L12, 00:01:37 Consultant",
+      "cited": "transcript.txt, L12, 00:01:37, Consultant"
+    },
+    {
+      "path": "/intake/type_header/signals[1]/quote/quote",
+      "status": "verified",
+      "quote": "Thandiwe, that's yours, but let me frame it.",
+      "location": "L171, 00:28:29 Consultant",
+      "cited": "transcript.txt, L171, 00:28:29, Consultant"
+    },
+    {
+      "path": "/intake/type_header/signals[2]/quote/quote",
+      "status": "verified",
+      "quote": "That's why you're on the call and not the last lot. Go on.",
+      "location": "L13, 00:02:01 Constance Ayodele",
+      "cited": "transcript.txt, L13, 00:02:01, Constance Ayodele"
+    },
+    {
+      "path": "/intake/type_header/signals[3]/quote/quote",
+      "status": "verified",
+      "quote": "I want to see next week's crates on a screen on a Monday morning, not on a whiteboard I wrote on a Friday.",
+      "location": "L201, 00:35:29 Margit Sowande",
+      "cited": "transcript.txt, L201, 00:35:29, Margit Sowande"
+    },
+    {
+      "path": "/intake/type_header/signals[4]/quote/quote",
+      "status": "verified",
+      "quote": "Me, up to twenty-five thousand.",
+      "location": "L207, 00:36:25 Constance Ayodele",
+      "cited": "transcript.txt, L207, 00:36:25, Constance Ayodele"
+    },
+    {
+      "path": "/readiness/goals[0]/quote",
+      "status": "verified",
+      "quote": "And honestly, the thing I'd go after is loans in.",
+      "location": "L196, 00:34:13 Constance Ayodele",
+      "cited": "transcript.txt, L196, 00:34:13, Constance Ayodele"
+    },
+    {
+      "path": "/readiness/goals[1]/quote",
+      "status": "verified",
+      "quote": "And I want to get to next May with no claim.",
+      "location": "L200, 00:35:06 Constance Ayodele",
+      "cited": "transcript.txt, L200, 00:35:06, Constance Ayodele"
+    },
+    {
+      "path": "/readiness/goals[2]/quote",
+      "status": "verified",
+      "quote": "I want to see next week's crates on a screen on a Monday morning, not on a whiteboard I wrote on a Friday.",
+      "location": "L201, 00:35:29 Margit Sowande",
+      "cited": "transcript.txt, L201, 00:35:29, Margit Sowande"
+    },
+    {
+      "path": "/readiness/goals[3]/quote",
+      "status": "verified",
+      "quote": "I want the pack to know the job changed.",
+      "location": "L202, 00:35:44 Eamon Kilbride",
+      "cited": "transcript.txt, L202, 00:35:44, Eamon Kilbride"
+    },
+    {
+      "path": "/readiness/pains[0]/quote",
+      "status": "verified",
+      "quote": "They're labelled by the phone. So it's whatever number the phone gave it.",
+      "location": "L86, 00:14:12 Eamon Kilbride",
+      "cited": "transcript.txt, L86, 00:14:12, Eamon Kilbride"
+    },
+    {
+      "path": "/readiness/pains[1]/quote",
+      "status": "verified",
+      "quote": "I'm the one who knows. If I'm off, the pack doesn't get built, or it gets built wrong. Which has happened.",
+      "location": "L62, 00:10:28 Eamon Kilbride",
+      "cited": "transcript.txt, L62, 00:10:28, Eamon Kilbride"
+    },
+    {
+      "path": "/readiness/pains[2]/quote",
+      "status": "verified",
+      "quote": "Two things. Crates get built late, because I find out late, and crates get built twice, because I didn't know we had one. Late is the one that costs.",
+      "location": "L145, 00:24:21 Margit Sowande",
+      "cited": "transcript.txt, L145, 00:24:21, Margit Sowande"
+    },
+    {
+      "path": "/readiness/pains[3]/quote",
+      "status": "verified",
+      "quote": "So the same object can be two different strings on two different jobs. I've been meaning to clean it up for two years.",
+      "location": "L223, 00:39:20 Eamon Kilbride",
+      "cited": "transcript.txt, L223, 00:39:20, Eamon Kilbride"
+    },
+    {
+      "path": "/readiness/pains[4]/quote",
+      "status": "verified",
+      "quote": "and then he does it again on the Monday because something moved.",
+      "location": "L74, 00:12:35 Constance Ayodele",
+      "cited": "transcript.txt, L74, 00:12:35, Constance Ayodele"
+    },
+    {
+      "path": "/readiness/pains[5]/quote",
+      "status": "verified",
+      "quote": "Three states, and out lasts four months.",
+      "location": "L64, 00:10:53 Eamon Kilbride",
+      "cited": "transcript.txt, L64, 00:10:53, Eamon Kilbride"
+    },
+    {
+      "path": "/readiness/signals[0]/quote",
+      "status": "verified",
+      "quote": "Condition reports first, though. If I get one thing out of this before February, it's that one.",
+      "location": "L247, 00:44:55 Eamon Kilbride",
+      "cited": "transcript.txt, L247, 00:44:55, Eamon Kilbride"
+    },
+    {
+      "path": "/readiness/signals[1]/quote",
+      "status": "verified",
+      "quote": "If it's a phone in a pocket and one tap, maybe. Maybe. I've seen a nephew's app die in a month here.",
+      "location": "L220, 00:38:36 Margit Sowande",
+      "cited": "transcript.txt, L220, 00:38:36, Margit Sowande"
+    },
+    {
+      "path": "/readiness/signals[2]/quote",
+      "status": "verified",
+      "quote": "That's the win, and it's Lionel's win too, he's said it at every management meeting since June.",
+      "location": "L200, 00:35:06 Constance Ayodele",
+      "cited": "transcript.txt, L200, 00:35:06, Constance Ayodele"
+    },
+    {
+      "path": "/readiness/signals[3]/quote",
+      "status": "verified",
+      "quote": "Handlers not typing. And that the values never leave the inventory system. He's said both to me, he'll say both to you, and if either one isn't true he's out and honestly so am I.",
+      "location": "L211, 00:37:12 Constance Ayodele",
+      "cited": "transcript.txt, L211, 00:37:12, Constance Ayodele"
+    },
+    {
+      "path": "/readiness/signals[4]/quote",
+      "status": "verified",
+      "quote": "me the invite, I don't hold dates in my head. And I want Marek in the room for the photo part, because they're his handlers and he'll say what they'll actually do.",
+      "location": "L257, 00:46:56 Margit Sowande",
+      "cited": "transcript.txt, L257, 00:46:56, Margit Sowande"
+    },
+    {
+      "path": "/readiness/signals[5]/quote",
+      "status": "verified",
+      "quote": "And Ravensdale. If it isn't in the system it isn't in your feed, so half my crates aren't in your feed, and that's before you ask about the bay numbers.",
+      "location": "L226, 00:40:00 Margit Sowande",
+      "cited": "transcript.txt, L226, 00:40:00, Margit Sowande"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[0]",
+      "status": "verified",
+      "quote": "The licence was issued, I had the email, and the copy in the pack was the draft, not the issued one, because the issued one came in at six the night before and I'd already built the pack. The port wouldn't accept the draft.",
+      "location": "L126, 00:21:14 Eamon Kilbride",
+      "cited": "transcript.txt, L126, 00:21:14, Eamon Kilbride"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[1]",
+      "status": "verified",
+      "quote": "two where the crew got to a museum and the loan agreement in the pack was the unsigned version and the registrar wouldn't release the object",
+      "location": "L131, 00:22:19 Eamon Kilbride",
+      "cited": "transcript.txt, L131, 00:22:19, Eamon Kilbride"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[2]",
+      "status": "verified",
+      "quote": "It works until the museum changes the object list, which they do, and then the packing list is wrong and the condition forms are wrong and the tick is still there.",
+      "location": "L135, 00:22:57 Eamon Kilbride",
+      "cited": "transcript.txt, L135, 00:22:57, Eamon Kilbride"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[0]",
+      "status": "verified",
+      "quote": "Never. A number is a crate for life. If it's scrapped, the number is scrapped with it, and I write scrapped in the book.",
+      "location": "L70, 00:12:05 Margit Sowande",
+      "cited": "transcript.txt, L70, 00:12:05, Margit Sowande"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[1]",
+      "status": "verified",
+      "quote": "Some things reuse a crate we already have, or a travel frame, which is a crate without a lid, more or less.",
+      "location": "L66, 00:11:06 Margit Sowande",
+      "cited": "transcript.txt, L66, 00:11:06, Margit Sowande"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[2]",
+      "status": "verified",
+      "quote": "If Eamon puts a Ravensdale crate on a job, he's guessing it exists.",
+      "location": "L162, 00:26:57 Margit Sowande",
+      "cited": "transcript.txt, L162, 00:26:57, Margit Sowande"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[3]",
+      "status": "verified",
+      "quote": "Four or five times a year I build a crate and then find one in the book that would have done.",
+      "location": "L151, 00:25:20 Margit Sowande",
+      "cited": "transcript.txt, L151, 00:25:20, Margit Sowande"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[0]",
+      "status": "verified",
+      "quote": "The phone. Then the drive, if we're lucky. Nothing in the inventory system, it doesn't take pictures, it takes money.",
+      "location": "L88, 00:14:26 Eamon Kilbride",
+      "cited": "transcript.txt, L88, 00:14:26, Eamon Kilbride"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[1]",
+      "status": "verified",
+      "quote": "I've got a list of jobs where I haven't seen photos, and on a Friday I go round.",
+      "location": "L120, 00:20:16 Eamon Kilbride",
+      "cited": "transcript.txt, L120, 00:20:16, Eamon Kilbride"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[2]",
+      "status": "verified",
+      "quote": "Condition reports with photographs within twenty-four hours of collection, and available on request to any of the seven.",
+      "location": "L38, 00:05:53 Constance Ayodele",
+      "cited": "transcript.txt, L38, 00:05:53, Constance Ayodele"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[0]",
+      "status": "verified",
+      "quote": "Job number, the client, the dates, and then I add the objects. Each object gets a line.",
+      "location": "L54, 00:08:42 Eamon Kilbride",
+      "cited": "transcript.txt, L54, 00:08:42, Eamon Kilbride"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[1]",
+      "status": "verified",
+      "quote": "So if a museum asks about one object, I have to know which job it was on, which I usually do, and then find the form",
+      "location": "L84, 00:13:50 Eamon Kilbride",
+      "cited": "transcript.txt, L84, 00:13:50, Eamon Kilbride"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[2]",
+      "status": "verified",
+      "quote": "So the same object can be two different strings on two different jobs.",
+      "location": "L223, 00:39:20 Eamon Kilbride",
+      "cited": "transcript.txt, L223, 00:39:20, Eamon Kilbride"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[0]",
+      "status": "verified",
+      "quote": "There's a nightly file, it lands on the shared drive at two in the morning.",
+      "location": "L253, 00:46:18 Eamon Kilbride",
+      "cited": "transcript.txt, L253, 00:46:18, Eamon Kilbride"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[1]",
+      "status": "verified",
+      "quote": "If the vendor takes six weeks to answer Thandiwe, build it with Eamon typing ten jobs in by hand and we'll live with that for a month.",
+      "location": "L250, 00:45:22 Constance Ayodele",
+      "cited": "transcript.txt, L250, 00:45:22, Constance Ayodele"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[0]",
+      "status": "verified",
+      "quote": "And no typing in the shop. If it needs typing it dies.",
+      "location": "L201, 00:35:29 Margit Sowande",
+      "cited": "transcript.txt, L201, 00:35:29, Margit Sowande"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[1]",
+      "status": "verified",
+      "quote": "Whatever you key on, the crate number is mine, and I'm not renumbering four hundred crates for a computer.",
+      "location": "L238, 00:42:47 Margit Sowande",
+      "cited": "transcript.txt, L238, 00:42:47, Margit Sowande"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[2]",
+      "status": "verified",
+      "quote": "The other half is in the book, with my location, which is a bay number I made up.",
+      "location": "L162, 00:26:57 Margit Sowande",
+      "cited": "transcript.txt, L162, 00:26:57, Margit Sowande"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[0]",
+      "status": "verified",
+      "quote": "and then he does it again on the Monday because something moved.",
+      "location": "L74, 00:12:35 Constance Ayodele",
+      "cited": "transcript.txt, L74, 00:12:35, Constance Ayodele"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[1]",
+      "status": "verified",
+      "quote": "Marek, who has to find them another day.",
+      "location": "L139, 00:23:39 Eamon Kilbride",
+      "cited": "transcript.txt, L139, 00:23:39, Eamon Kilbride"
+    }
+  ]
+}

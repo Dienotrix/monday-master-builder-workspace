@@ -1,0 +1,150 @@
+Consultant (00:00:03): Afternoon, everyone. Can you all hear me?
+Genevieve Okundaye (00:00:07): We've got you. We're in the, um, the conference room over the office, Annika and Ezekiel are with me, and Declan's -- Declan's down in the dock office again.
+Declan Pellingham (00:00:17): I'm in the dock office. Different truck. Same dock.
+Annika Brannock (00:00:22): Hi. Annika Brannock. Finance, and I own half of it with Gustav, so I'm the one who's supposed to have numbers.
+Consultant (00:00:31): You are, and I appreciate you making the time. Hi Ezekiel.
+Ezekiel Quist (00:00:35): Hey. Ezekiel. Systems. The route software. And the handhelds, the network, anything with a plug on it.
+Consultant (00:00:42): Good. So, for today. Genevieve and Declan walked me through how a route runs last week, and I sent you all the recap. I'd like to spend this time on the two things I couldn't get from them, which is the money side from Annika and the systems side from Ezekiel, and then check the scope with all four of you at the end. Interrupt me whenever. Does that work?
+Annika Brannock (00:01:09): Works. I read the recap. One line in it's wrong, I'll get to it.
+Consultant (00:01:15): Which line?
+Annika Brannock (00:01:17): I'll get to it. Go on.
+Consultant (00:01:20): Then let me start with Ezekiel, actually, because I understand you and Linnea spoke on Monday.
+Ezekiel Quist (00:01:27): We did. Monday afternoon. So Linnea and I went through it, and she said the handhelds could post the shorts straight onto your board, same day, out of the box, no extra step for the drivers. Which was honestly the thing I was worried about, so. Good.
+Annika Brannock (00:01:47): Good. Then that's my condition met.
+Genevieve Okundaye (00:01:50): That's the piece. That's the whole piece.
+Consultant (00:01:53): Good, glad that landed. I'll make sure it's written up for you.
+Ezekiel Quist (00:01:59): Do, because I'm going to hold you to it. [laughs] Half joking.
+Genevieve Okundaye (00:02:04): He's been a different person since Monday, honestly. I'd never seen him say 'good' about anything with a plug on it.
+Ezekiel Quist (00:02:12): I say good. I said good about the boiler.
+Annika Brannock (00:02:17): You said the boiler was 'acceptable'.
+Consultant (00:02:21): Understood. Let me come back to the systems side properly in a minute, because I want to know what you actually showed each other. Annika, can I start with -- can I start with how the money moves on a route today? From the truck getting back to the invoice going out.
+Annika Brannock (00:02:39): Sure. The driver closes the route on the handheld when the last stop's done. Overnight the closed routes go across to the accounting system. The invoice runs weekly, Sunday night, off whatever the closed routes say was delivered. So the cash side's fine, that's not the problem. We bill forty-nine routes a week. That's the route software's number, not mine.
+Consultant (00:03:02): Is that the wrong line?
+Annika Brannock (00:03:05): No. The wrong line is Halcott. The recap says Halcott runs its own par sheets. It doesn't. Everything comes out of one route software, one database, Halcott just prints there. Small thing. It matters because it means one place to fix, not two.
+Consultant (00:03:23): It matters a lot, actually. Thank you, I'll fix that. So the invoice goes out weekly off the closed routes. And the problem is what's on them?
+Annika Brannock (00:03:33): The problem is what's not on them. The invoice says what the par said, less what they sent back, more or less. It doesn't say they got, what, forty light on Saturday, so there's a credit coming. And it doesn't say they sent back two hundred ruined pool towels, so there's a loss charge coming. The first one we find out about when the hotel rings. The second one we find out about when I see the replacement order.
+Consultant (00:04:04): Let's do the second one. Loss you were allowed to charge and didn't. Do you have a number for last year?
+Annika Brannock (00:04:14): Last year we wrote off fifty-eight thousand four hundred in linen we never charged back. Fifty-eight four. I pulled it yesterday, it's the replacement purchases against accounts that had a loss event we could name, plus the write-down.
+Consultant (00:04:29): Is all of that chargeable, or is some of it just wear nobody would pay for?
+Annika Brannock (00:04:36): Some is wear. But I'd count all of it, because if it's written up inside the thirty days with the hotel's name on it, it's their argument, not ours. Right now we don't get to have the argument. We find out in September about towels from July.
+Consultant (00:04:54): Understood. And the credits, when you short somebody?
+Annika Brannock (00:04:59): I don't have that split out. It's in with the general credits and there are a lot of reasons for a credit. I could get it, but I'd be -- I'd be building it by hand. Don't count it today. I signed nine in October that I know were shorts, because the GM's email was stapled to them. That's the ones big enough to credit. It's not the count.
+Consultant (00:05:25): Understood. Nine credited in October, not the count of shorts. I'll keep those apart.
+Annika Brannock (00:05:31): Keep them apart. While I've got you. Are we going to be paying per head for twenty-four drivers who'd open this twice a day? Because that's the kind of thing I get asked on a Tuesday.
+Consultant (00:05:45): It depends on the plan and on how it's set up, and I'd rather answer that properly than off the top of my head. I'll put it in the writing with a straight answer.
+Annika Brannock (00:05:59): Fine. In the writing.
+Consultant (00:06:01): Good. Declan mentioned rewash last week, and that nobody counts it. Annika, do you see it anywhere?
+Annika Brannock (00:06:09): I see it as chemicals and gas. I've got dollars for chemicals, not bins. I couldn't tell you how many bins go back round.
+Declan Pellingham (00:06:19): Nadia would know. Hang on, she's on the floor, let me -- [muffled] -- she's on my other line, give me a second.
+Consultant (00:06:27): Please. Annika, while he does that. Genevieve said you'd want the drivers to do nothing extra. Is that still the condition?
+Annika Brannock (00:06:36): It's one of them. They scan. They already scan. If the answer is they scan and it lands, fine. If the answer is they scan and then also type, no.
+Declan Pellingham (00:06:49): Okay. Nadia says, and I'm reading her back, six or seven bins a day, maybe, but that's off the top of her head, she's never counted them, and she says don't put that in anything.
+Annika Brannock (00:07:04): That's more than I'd have said.
+Genevieve Okundaye (00:07:07): Call it six, then.
+Declan Pellingham (00:07:10): She said don't put it in anything.
+Consultant (00:07:13): Then I won't. It's her guess with her caveat, and nothing gets built on it. Could she count for a week? Just a tick per bin, both plants, and we'd have a real number by the twenty-fourth.
+Declan Pellingham (00:07:29): She can count for a week. She'll hate it, but she can count.
+Consultant (00:07:35): Thank you. Let me go back to last week for the time side, and correct me if I've got it wrong. Genevieve, par changes. Thirty to forty a week, five to twenty minutes each on the desk?
+Genevieve Okundaye (00:07:49): Thirty, forty. Yeah. More in the run-up to the holidays, the hotels change everything in December. And five minutes is the clean ones. There aren't many clean ones.
+Declan Pellingham (00:08:01): The Sable Point's actually fixed now, by the way. Nadia went back through every line with them yesterday, another hour on the phone, and we've now got their winter numbers. On the back of another route sheet.
+Consultant (00:08:16): That's good to hear, and it's a good example of the thing. Declan, you've been quiet, is anything wrong from where you sit?
+Declan Pellingham (00:08:26): No. The only thing I'd add is the Halcott shorts don't get to Nadia at all, they go to Rhiannon. So whatever counts them has to count both plants, or it's counting half.
+Consultant (00:08:40): And the shorts, Genevieve, I think you said about twenty a week?
+Genevieve Okundaye (00:08:46): Mm. About that, probably. Declan?
+Declan Pellingham (00:08:49): Somewhere in there. It moves around.
+Annika Brannock (00:08:52): Twenty a week. Fine. Let me do this properly, then, because nobody else is going to. What did Nadia say a short costs her? Time.
+Consultant (00:09:02): Forty minutes on the phone, per short. And a van back out about a third of the time, an hour and a half.
+Annika Brannock (00:09:11): Right. The route office is thirty-one an hour loaded. A driver with the van is forty-four. And those two numbers do not leave this room, they don't go on anything the floor can see.
+Consultant (00:09:24): They stay with you. Nothing I build shows a rate to anyone who doesn't have it today.
+Annika Brannock (00:09:32): Okay. So. Twenty shorts a week at forty minutes is, what, thirteen hours, thirteen and a bit. At thirty-one that's four hundred and a bit a week. A third of them we send a van, call it seven, an hour and a half each at forty-four, that's another four-sixty. Eight-sixty a week. Times fifty-two. Forty-four, forty-five thousand. Plus fifty-eight four in write-off. A hundred and three thousand. Round it.
+Consultant (00:10:00): About a hundred and three thousand a year. Does that hold up, from where you sit?
+Annika Brannock (00:10:07): It holds up as arithmetic. I'd want it written down with where every number came from before I say it in front of Gustav. And it doesn't count Genevieve's time or mine on the arguments, or the credits.
+Genevieve Okundaye (00:10:23): Or the Lindenmoor.
+Annika Brannock (00:10:25): That's revenue. I'm not putting a lost hotel in a cost number. I know what you mean. Gustav can make that argument.
+Consultant (00:10:34): That's the right way to keep it. Then I'll write it down with every input and where it came from, and you tell me which ones you'd defend.
+Annika Brannock (00:10:45): Do that.
+Consultant (00:10:46): Speaking of Gustav's argument. If this were working, what would you go after? Business you turn away, or can't take, because of the counts.
+Annika Brannock (00:10:57): Brindlewood is three hundred and ten a year, and shorts are the one thing in that contract that can end it. But that's a keep, not a gain. I wouldn't count it as upside, I'd count it as not losing the biggest thing we've ever signed.
+Genevieve Okundaye (00:11:16): The gain is the two hotels we said no to in the summer. We turned them down because I couldn't promise them Saturday counts, not with the shelf the way it is. Those are sixty to eighty a year each, and they'd still take us, they rang again in October.
+Annika Brannock (00:11:35): I'd take the two hotels as the number. Sixty to eighty each. Don't add Brindlewood to it.
+Consultant (00:11:42): I won't. And Annika, if this were working, what does it look like from where you sit?
+Annika Brannock (00:11:49): Loss charges on the invoice. Not a credit memo three weeks later, not a second invoice, on the invoice, inside the thirty days. If the soil dock writes it up on the day with the hotel's name on it and it's on the route before the route closes, I've got it.
+Consultant (00:12:10): And on the shortage side?
+Annika Brannock (00:12:12): No more paying a driver and a van to deliver the thing we should have delivered that morning. That's just embarrassing.
+Consultant (00:12:21): Ezekiel, let me come back to you. What did you actually show Linnea on Monday, and what did she show you?
+Ezekiel Quist (00:12:30): I showed her the route software. The par screen, the route sheet print, the handheld close-out, the push to accounting. She showed me, on her side, how a stop would come across as a line with a status on it. And we talked about the handhelds.
+Consultant (00:12:49): What are the handhelds, exactly? Whose are they?
+Ezekiel Quist (00:12:53): They're the route software vendor's own devices. Locked down. I can't put anything on them the vendor didn't put there, I can't even change the sleep timer. I said that to Linnea, and she said the posting wouldn't need anything on the device. Which, okay. I'd like to see that.
+Consultant (00:13:13): When you say straight onto the board, what did she actually show you doing that?
+Ezekiel Quist (00:13:20): She showed me a form on a phone. Tap, tap, it's on the board. And she said the handheld could do the same thing, out of the box. I didn't see the handheld do it, if that's what you're asking.
+Consultant (00:13:36): That's what I'm asking, and thank you. A form on a phone is a normal thing to build, I've built that. The handheld feeding it directly is a different thing, and I'd want to see it before I say it. I'm going to check with Linnea exactly what she showed and what she said, and put it in writing, in three columns. Shown, confirmed, still to check.
+Annika Brannock (00:14:02): Please. Because that's my condition. In writing, before the twenty-fourth, not on the day.
+Ezekiel Quist (00:14:08): Same. I'm not being difficult. I've been sold out of the box before. The accounting connection was sold to me as a weekend. It took five months and I did most of it.
+Consultant (00:14:21): Genevieve mentioned. What made it five months?
+Ezekiel Quist (00:14:25): The route software's export was fine. The accounting side wanted the data shaped, um, differently, and nobody had looked at that before they sold it. So I'm asking now, before anybody sells anything.
+Consultant (00:14:38): That's exactly the right time to ask. Let me ask the other way round. If, when I check with Linnea, it turns out the handheld can't post to the board directly, and the shorts get logged from a form instead, what does that do? To the first version, I mean.
+Ezekiel Quist (00:14:56): For the first version, honestly, a phone's probably fine. As long as nothing on your side tries to write into the route software, I'm okay. Read out of it, fine. Write into it, no. The handheld thing was nice to hear. It's not what I'd die on.
+Annika Brannock (00:15:15): It's what I'd die on. If the drivers are logging things in two places, it doesn't get done. That's the whole reason we're talking.
+Consultant (00:15:25): Then I've got two different answers on how much the handheld piece matters, which is worth knowing. I'll bring back what it actually is, and we can decide with the facts.
+Annika Brannock (00:15:39): Fine.
+Consultant (00:15:40): Ezekiel, the other thing. Could you do this yourself, in the route software? Custom fields, the notes, the reports?
+Ezekiel Quist (00:15:47): Half of it, honestly. The shortage log I could hack into the notes on the stop. Nobody'd read it, but I could. The par change landing on the sheet, that I can't do. The sheet prints from the par table and the par table's the par table, there's no -- there's no queue in front of it. And I don't have the time. I've got the boiler and two plants on one server.
+Consultant (00:16:15): And the two plants. On the route software, can they see each other?
+Ezekiel Quist (00:16:21): Same server, same database. Halcott can see our pars and we can see theirs. They just don't look. There's an exceptions report. It's a report you run. It's not a thing that tells you. I've asked the vendor for a notification twice.
+Annika Brannock (00:16:38): Which is how the Sable Point got a hundred pool towels.
+Ezekiel Quist (00:16:44): [crosstalk] Which is how the Sable Point got a hundred pool towels, yeah. A report nobody ran.
+Annika Brannock (00:16:51): And the route software people's module? Genevieve said they'd pitched one.
+Genevieve Okundaye (00:16:56): It's a form that emails the desk. It doesn't land anywhere, it's just another email. I said I'd think about it.
+Annika Brannock (00:17:04): Don't.
+Consultant (00:17:06): Noted, and I'll leave that with you. One thing on Brindlewood before I go to the decision. Are their pars in the route software yet?
+Genevieve Okundaye (00:17:16): Not yet. Ezekiel's keying them the first week of December, before the boiler. Four hotels' worth. Which is its own week.
+Ezekiel Quist (00:17:26): First week of December. It's on the wall. Literally, it's on the wall behind me.
+Consultant (00:17:32): Got it. Let me go to the decision. Annika, if the four of you decided to do this, how does it actually happen?
+Annika Brannock (00:17:41): Over ten thousand it's me and Gustav, and Gustav goes with me on anything that isn't a hotel, he's said so. Under ten, Genevieve can do it. Ezekiel has to be comfortable with what touches his systems, and after Monday he is, so that's done, subject to your piece of paper.
+Consultant (00:18:02): Is there a meeting, or a paper, or is it the two of you in a corridor?
+Annika Brannock (00:18:10): Gustav and I do Tuesday mornings. If I bring it Tuesday with one page and a number, he'll say yes. He said yes to the accounting thing in about ten minutes and regretted it for five months.
+Consultant (00:18:24): And then?
+Annika Brannock (00:18:26): Then I raise a PO, or it goes on the card if it's a subscription. And Genevieve runs it. I don't want to run it.
+Genevieve Okundaye (00:18:37): I'll run it. Declan and I.
+Consultant (00:18:41): What would Gustav want to see, if anything?
+Annika Brannock (00:18:44): That we don't lose another Lindenmoor. That's his whole thing. And that his hotels never see a form. If a hotel has to do anything different, he'll kill it.
+Consultant (00:18:57): Noted. Timing. When do you want this in place?
+Annika Brannock (00:19:01): Before Brindlewood. First week of January. Not during the boiler, that's the second week of December, the plant's dark for three days and nobody's touching anything.
+Genevieve Okundaye (00:19:12): And shorts by early December, if we can. That was my thing last week and it still is.
+Consultant (00:19:20): Shorts first, then. And blockers. What's in the way that you can see already?
+Annika Brannock (00:19:27): The drivers. Genevieve will have told you. They'll scan, they won't type. If the short's three taps on a phone, Declan says they'll do it. I'll believe it when I see a driver do it.
+Declan Pellingham (00:19:41): Three taps, they'll do it. Four, they stop. I've watched it. We did a fuel log on a phone, what, two years ago, three taps, they did it. The vendor added a fourth screen in an update and it died in a month.
+Genevieve Okundaye (00:19:58): That's true. That's exactly what happened.
+Ezekiel Quist (00:20:01): The boiler week. Nothing that week. And honestly nothing the week after either, we'll be catching up.
+Annika Brannock (00:20:08): And the handheld piece. If that isn't real, Ezekiel's out, and if Ezekiel's out, I'm out. I'm not paying for two systems.
+Consultant (00:20:17): That's clear, and it's the same three things Genevieve named, plus the handheld piece, which is mine to bring back. One more before I play it back. Do you have anything in monday today? An account, a trial, anything?
+Ezekiel Quist (00:20:33): Nothing. Genevieve's got some login from her old job.
+Genevieve Okundaye (00:20:37): It's not ours. I can still see one board from a hotel group I don't work for any more. I should probably delete it.
+Consultant (00:20:48): Then it's a clean start, and which account it goes in and who administers it is a question for later, not today.
+Ezekiel Quist (00:20:57): It's me. Whatever it is, I administer it. That's not negotiable. And it's on our sign-in, not -- no offence, Genevieve -- not somebody's personal login, and nothing with a hotel's name in it lives anywhere I can't see.
+Annika Brannock (00:21:10): And nothing with a rate on it goes anywhere the drivers can see it. I've said it twice. That's three.
+Consultant (00:21:19): Noted. Let me play back what I'd put in a first version, just to show you on the twenty-fourth, not to sign anything. A stops view that mirrors the route sheets, one line per stop, both plants, a sample day typed in. Against each stop, a short logged from a phone, what was short, what we did. A par-change form that lands on the stop it belongs to. A loss write-up from the soil dock, from a phone, dated, with the hotel on it, inside the thirty days. And one screen for Genevieve and one for Annika. The first version doesn't connect to the route software at all, the real connection gets worked out with Ezekiel and Linnea, and I say that out loud when I show it.
+Annika Brannock (00:22:08): Fine as a first look. I'm not signing up to anything until I see the handheld piece in writing, but as a thing to look at, fine.
+Genevieve Okundaye (00:22:19): Yes. That's what I asked for.
+Declan Pellingham (00:22:22): Show me the par change landing on the sheet and I'm in.
+Ezekiel Quist (00:22:28): Show me nothing writing into the route software and I'm in.
+Consultant (00:22:34): Both fair. Both will be said out loud on the twenty-fourth.
+Annika Brannock (00:22:38): What does something like this run, ballpark? I'm not going to hold you to it. I just don't want to walk into Tuesday with Gustav blind.
+Consultant (00:22:50): I'm not going to give you a number today, and I'd rather say why than dodge it. I don't know the scope yet, the handheld question changes it, it changes it quite a lot, and a ballpark I say out loud becomes the price you remember. What I'd suggest is you see the first version on the twenty-fourth, we agree what's actually in scope in a short session after that, and then you get a real number in writing for a Tuesday. If that's too slow for the Tuesday you have in mind, tell me and we'll move things.
+Annika Brannock (00:23:26): No, that's fine. I'd rather have a real one. I've been quoted 'a weekend' before.
+Ezekiel Quist (00:23:33): [laughs] Five months.
+Consultant (00:23:35): Then the next step. A walkthrough of the first version, all four of you, on Tuesday the twenty-fourth. Two o'clock Eastern? That's before the holiday.
+Annika Brannock (00:23:46): The twenty-fourth at two works for me.
+Genevieve Okundaye (00:23:50): Works. Declan?
+Declan Pellingham (00:23:52): I'll be here. I'm always here.
+Ezekiel Quist (00:23:56): Two on the twenty-fourth, fine. Before then I want the handheld thing in writing, though. Not on the day.
+Consultant (00:24:04): You'll have it in writing before the twenty-fourth. I'll talk to Linnea this week and send you and Annika exactly what was shown, what's confirmed, and what still needs checking, in those three columns. I'll send the invite for the twenty-fourth today. And Declan, the route sheet?
+Declan Pellingham (00:24:22): It went yesterday, with the whiteboard photo. Nadia wiped the bit she wanted wiped.
+Consultant (00:24:29): Then I have what I need. Last thing, and I ask everyone. Based on what we've talked about, is this worth taking forward?
+Annika Brannock (00:24:39): Yes, with the condition I've said three times.
+Genevieve Okundaye (00:24:42): Yes.
+Ezekiel Quist (00:24:43): Yes, if it doesn't write into my system.
+Declan Pellingham (00:24:48): Yes. Show me the par change.
+Consultant (00:24:50): You'll see it. Thank you, all four of you.
+Annika Brannock (00:24:54): Thanks. Send the writing.
+Consultant (00:24:57): I will. Talk on the twenty-fourth.

@@ -1,0 +1,52 @@
+{
+  "goals": [
+    {
+      "id": "G1",
+      "goal": "This time, someone here who can change things, not emailing and waiting",
+      "quote": "This time I want someone here who can change things.",
+      "location": "00:05:55 Henrietta Weyland (Director of Operations)",
+      "speaker_role": "Director of Operations",
+      "pains": ["P3.1"]
+    },
+    {
+      "id": "G2",
+      "goal": "A monthly view per agency of what was costed against what it came in at",
+      "quote": "The other thing I want out of it, and this is the bit Henrietta actually cares about, is a monthly view per agency of what we costed against what",
+      "location": "00:21:47 Bethan Tull (Fieldwork Manager)",
+      "speaker_role": "Fieldwork Manager",
+      "pains": ["P1.6"]
+    },
+    {
+      "id": "G3",
+      "goal": "Each brief costed once, in one place; the agency's number is Philippa's number",
+      "quote": "A brief comes in, Bethan costs it once, in one place, and the number that goes to the agency is the number Philippa sees.",
+      "location": "00:28:25 Henrietta Weyland (Director of Operations)",
+      "speaker_role": "Director of Operations",
+      "pains": ["P1.1", "P1.2", "P1.3", "P1.4", "P1.5"]
+    },
+    {
+      "id": "G4",
+      "goal": "The recruiters see their week without Leonie retyping it",
+      "quote": "And the recruiters can see their week without Leonie retyping it.",
+      "location": "00:29:03 Idris Machado (Recruitment Team Lead)",
+      "speaker_role": "Recruitment Team Lead",
+      "pains": ["P2.1", "P2.2"]
+    }
+  ],
+  "assumption_kinds": [
+    "gap",
+    "leaning",
+    "board-architecture",
+    "leaning",
+    "leaning",
+    "leaning",
+    "automation-condition",
+    "gap",
+    "board-architecture",
+    "leaning",
+    "gap",
+    "gap",
+    "gap"
+  ],
+  "note_add": null
+}

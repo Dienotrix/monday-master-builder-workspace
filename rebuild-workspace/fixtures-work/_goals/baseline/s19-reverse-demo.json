@@ -1,0 +1,1771 @@
+{
+  "fixture": "s19-reverse-demo",
+  "sources": [
+    {
+      "name": "transcript.txt",
+      "kind": "transcript",
+      "format": "line-bracket",
+      "units": 334,
+      "unsupported": null
+    }
+  ],
+  "counts": {
+    "pairs": 233,
+    "verified": 233,
+    "verified_presence_only": 27,
+    "skipped": 1,
+    "unparsed_prose": 0,
+    "near_misses": 0,
+    "misses": 0,
+    "unsupported": 0,
+    "warnings": 0
+  },
+  "refused_quotes_not_checked": [],
+  "skipped": [
+    {
+      "path": "/numbers/upside/quote",
+      "reason": "null or empty"
+    }
+  ],
+  "pairs": [
+    {
+      "path": "/rubric[0]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So this tab here, this is the Active tab. Every job that's sold and not installed is a row on here. That's it. That's the whole system. Every row's a job.",
+      "location": "00:04:16 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L31, 00:04:16, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[0]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "That's the job number. That comes from the accounting system, Bettina makes it when the quote's accepted, and I copy it over by hand.",
+      "location": "00:04:36 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L33, 00:04:36, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[0]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "The colours are the permit. Red means we don't have it, yellow means it's in, green means it's approved.",
+      "location": "00:05:09 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L35, 00:05:09, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[0]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Friday afternoon I print this tab. Hang on. I'll hold it up. Can you see that? That's last week's. It goes on the wall by the door, and each crew lead gets one, and that's what they drive off on Monday.",
+      "location": "00:08:22 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L59, 00:08:22, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[0]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "So this is Active Jobs. She set it up with four groups. Quoted, In Production, Install Scheduled, Done. And every job's supposed to be on here too. Same job number.",
+      "location": "00:10:37 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L73, 00:10:37, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[0]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "I update it when Ingrid asks. So, like, monthly.",
+      "location": "00:10:52 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L75, 00:10:52, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[0]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "Nobody. Lorraine owned it. I'm the one who touches it.",
+      "location": "00:11:24 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L80, 00:11:24, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[0]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "The Sheet's maybe an hour a day. Little bits. Twenty minutes in the morning, and then every time the phone rings. The board's an hour a month when Ingrid asks.",
+      "location": "00:14:18 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L103, 00:14:18, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[0]/evidence[8]/quote",
+      "status": "verified",
+      "quote": "I have a physical binder. Tabs by municipality. It's very nineteen ninety-eight and it works.",
+      "location": "00:07:16 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L52, 00:07:16, Noor Abdelrazek"
+    },
+    {
+      "path": "/rubric[0]/evidence[9]/quote",
+      "status": "verified",
+      "quote": "The paper packet. Every job's got a manila folder that walks through the shop with it. The proof's stapled to the front. Rev whatever.",
+      "location": "00:18:23 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L133, 00:18:23, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[0]/evidence[10]/quote",
+      "status": "verified",
+      "quote": "It's Pro. I see the invoice every month. Twelve seats, and I think four people actually log in.",
+      "location": "00:21:12 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L156, 00:21:12, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[0]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Reuben, would you be willing to share your screen and walk me through what you actually look at on a Monday morning? Just open what you'd open. Don't tidy it.",
+      "location": "00:03:12 Consultant",
+      "cited": "transcript.txt, L21, 00:03:12, Consultant"
+    },
+    {
+      "path": "/rubric[1]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Two weeks ago. Tobias's crew drove out to the Ashgrove plaza with the whole pylon on the flatbed and the permit hadn't come through, and they sat in the parking lot for -- what was it, Noor?",
+      "location": "00:09:06 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L63, 00:09:06, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[1]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "We built rev three. Sixty-eight hundred dollars in material and shop time and we ate it.",
+      "location": "00:19:21 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L140, 00:19:21, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[1]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I was out three days in September with my back and it waited.",
+      "location": "00:22:17 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L165, 00:22:17, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[1]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Has that happened?",
+      "location": "00:09:03 Consultant",
+      "cited": "transcript.txt, L62, 00:09:03, Consultant"
+    },
+    {
+      "path": "/rubric[2]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Copperline. We signed Copperline Foods in September. Forty-one stores, full rebrand, exterior and interior, first store goes in the week of January eleventh and the last one has to be done by the end of March.",
+      "location": "00:30:37 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L227, 00:30:37, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[2]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Call it forty-one. We've never done more than nine installs in a week. This is going to be fifteen, some weeks, on top of everything else. The Sheet doesn't survive that. Reuben doesn't survive that.",
+      "location": "00:30:59 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L229, 00:30:59, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[2]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And the other thing, which isn't public yet, so -- Reuben's going to three days a week from April. And the Sheet goes with him. That's not a criticism. It's just true.",
+      "location": "00:31:17 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L231, 00:31:17, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[2]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Before Thanksgiving. Realistically nothing changes on the floor in December, so if it's not moving by Thanksgiving it's not moving till January, and January's too late.",
+      "location": "00:38:55 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L281, 00:38:55, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[2]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Why now? You've run on the Sheet for years and it works, Reuben says so. What changed?",
+      "location": "00:30:22 Consultant",
+      "cited": "transcript.txt, L226, 00:30:22, Consultant"
+    },
+    {
+      "path": "/rubric[3]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Honestly? Call it twice a month. Not always that bad. Sometimes it's the customer's not there to open the building. But twice a month somebody drives somewhere they shouldn't have.",
+      "location": "00:09:42 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L67, 00:09:42, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[3]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "We cost a crew at about a hundred and ninety an hour. That's the three of them and the truck.",
+      "location": "00:34:19 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L250, 00:34:19, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[3]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Four hours. Seven to eleven. Sometimes they're back by ten.",
+      "location": "00:34:31 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L252, 00:34:31, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[3]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "So, four hours, twice, that's... fifteen hundred and change a month. Call it eighteen thousand a year. Eighteen, eighteen and a half. That's just the trips. That's not the sign sitting on the rack.",
+      "location": "00:34:36 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L253, 00:34:36, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[3]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "It sounds light. It's the number I can defend, though. Put eighteen.",
+      "location": "00:36:09 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L264, 00:36:09, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[3]/evidence[5]/quote",
+      "status": "verified",
+      "quote": "It's light. It doesn't count the guys standing around when a sign comes back.",
+      "location": "00:36:14 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L265, 00:36:14, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[3]/evidence[6]/quote",
+      "status": "verified",
+      "quote": "Thursday. All of Thursday, and bits of the other days. Six hours? Seven.",
+      "location": "00:35:22 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L258, 00:35:22, Noor Abdelrazek"
+    },
+    {
+      "path": "/rubric[3]/evidence[7]/quote",
+      "status": "verified",
+      "quote": "I'm not going to say Noor's rate with Noor on the call. [laughs] We can do that offline. It's real though. Call it six hours a week of a person who should be doing something else.",
+      "location": "00:35:34 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L260, 00:35:34, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[3]/evidence[8]/quote",
+      "status": "verified",
+      "quote": "Bettina would know. I don't. Nobody adds it up.",
+      "location": "00:20:05 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L146, 00:20:05, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[3]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Ingrid, can I put some numbers on the wasted trips? Reuben said three guys and a truck for half a day, twice a month. What does a crew cost you an hour?",
+      "location": "00:34:05 Consultant",
+      "cited": "transcript.txt, L249, 00:34:05, Consultant"
+    },
+    {
+      "path": "/rubric[4]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "What we do with the freed-up capacity is a Harlan question. He's the one deciding whether we take the second chain. I can't give you that number and I'm not going to guess at it.",
+      "location": "00:36:31 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L267, 00:36:31, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[4]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It's a Harlan question.",
+      "location": "00:36:52 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L269, 00:36:52, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[4]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Eighteen, then, and I'll say it's light. If those hours and those trips came back to you, what would you do with them?",
+      "location": "00:36:21 Consultant",
+      "cited": "transcript.txt, L266, 00:36:21, Consultant"
+    },
+    {
+      "path": "/rubric[5]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I want a crew to see a change on their phone before they leave the yard. That's it. If Tobias sees it on his phone at six-forty and doesn't drive to Ashgrove, I'm happy.",
+      "location": "00:37:03 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L271, 00:37:03, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[5]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I want to stop being the person who knows where every permit is. I want it to be in the thing and the thing to tell Reuben.",
+      "location": "00:37:17 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L272, 00:37:17, Noor Abdelrazek"
+    },
+    {
+      "path": "/rubric[5]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "I want to open one thing on Monday and know what's going out this week and what's stuck and why. And I want to stop getting the six a.m. call because a crew's standing in a parking lot.",
+      "location": "00:37:29 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L273, 00:37:29, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[5]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Harlan hasn't said what good looks like. Fewer wasted trips, I assume. Copperline done on time. I'd ask him before we write anything down.",
+      "location": "00:37:50 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L275, 00:37:50, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[5]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "It's the answer. When it's been right for a month. Four Mondays. If it's right four Mondays running, I'll close the Sheet.",
+      "location": "00:41:22 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L302, 00:41:22, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[5]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Let me ask each of you the same thing. If this worked, what's different on a Monday morning?",
+      "location": "00:36:54 Consultant",
+      "cited": "transcript.txt, L270, 00:36:54, Consultant"
+    },
+    {
+      "path": "/rubric[6]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I'm the one who signs off on tools, up to a point. Harlan's the owner. He's not on this, he doesn't do calls, but anything over ten thousand a year goes to Harlan. And this will. So you'll hear his name.",
+      "location": "00:01:59 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L13, 00:01:59, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[6]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I pick the tool. Anything over ten thousand a year goes to Harlan, and this will, with the seats. He decides in the Monday managers' meeting, he doesn't do it by email. He'll want to see it work on Reuben's stuff, not a demo of somebody else's jobs. And Bettina has to be okay with the job numbers still matching the accounting system, because if they don't, she'll shut it down.",
+      "location": "00:38:08 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L277, 00:38:08, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[6]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Copperline. And not paying for things twice. He asked me last month what we're paying for twelve seats when four people log in, so that's coming.",
+      "location": "00:38:40 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L279, 00:38:40, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[6]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "That's the shape. Harlan needs to see it before anyone signs anything, so don't take that as a yes from me.",
+      "location": "00:42:48 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L309, 00:42:48, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[6]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Then I won't write it down. How does a decision like this get made, in practice?",
+      "location": "00:38:00 Consultant",
+      "cited": "transcript.txt, L276, 00:38:00, Consultant"
+    },
+    {
+      "path": "/rubric[7]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Before Thanksgiving. Realistically nothing changes on the floor in December, so if it's not moving by Thanksgiving it's not moving till January, and January's too late.",
+      "location": "00:38:55 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L281, 00:38:55, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[7]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The first store. Week of the eleventh. Everything else is a preference.",
+      "location": "00:39:11 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L283, 00:39:11, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[7]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "And the crews have to have it before Christmas or they won't touch it in January. They'll be too busy.",
+      "location": "00:39:16 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L284, 00:39:16, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[7]/asked_quote/quote",
+      "status": "verified",
+      "quote": "When would you want his yes?",
+      "location": "00:38:51 Consultant",
+      "cited": "transcript.txt, L280, 00:38:51, Consultant"
+    },
+    {
+      "path": "/rubric[8]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The crews. Half of them have the app and none of them open it. Tobias will. The others, I don't know.",
+      "location": "00:40:17 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L292, 00:40:17, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[8]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Reuben's trust, honestly. If it's slower than the Sheet he'll go back to the Sheet and I won't stop him.",
+      "location": "00:40:26 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L293, 00:40:26, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[8]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "You did. And Bettina uses the job list from that board for something, I don't know what, so we can't just delete Active Jobs.",
+      "location": "00:40:38 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L295, 00:40:38, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[8]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "And December. Nobody's going to learn anything in December.",
+      "location": "00:40:49 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L296, 00:40:49, Noor Abdelrazek"
+    },
+    {
+      "path": "/rubric[8]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What gets in the way? Honestly.",
+      "location": "00:40:14 Consultant",
+      "cited": "transcript.txt, L291, 00:40:14, Consultant"
+    },
+    {
+      "path": "/rubric[9]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Tuesday the twentieth, seven-thirty, before the shop starts. I'm here anyway.",
+      "location": "00:45:23 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L322, 00:45:23, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[9]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I can do seven-thirty.",
+      "location": "00:45:29 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L323, 00:45:29, Noor Abdelrazek"
+    },
+    {
+      "path": "/rubric[9]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Do it without me. I'll take the read-back.",
+      "location": "00:45:31 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L324, 00:45:31, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[9]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Tuesday the twentieth at seven-thirty Eastern, an hour, and I'll send the invite to the three of you today.",
+      "location": "00:45:36 Consultant",
+      "cited": "transcript.txt, L325, 00:45:36, Consultant"
+    },
+    {
+      "path": "/rubric[9]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What I'd like next is a working session, Reuben and Noor, no slides from me, where we walk the Sheet column by column and Noor's board row by row, before the shop starts so nobody's phone rings. An hour. When works?",
+      "location": "00:45:03 Consultant",
+      "cited": "transcript.txt, L321, 00:45:03, Consultant"
+    },
+    {
+      "path": "/rubric[11]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Let me play back what I think a first version looks like, so you can tell me where it's wrong. Not to sign anything.",
+      "location": "00:41:46 Consultant",
+      "cited": "transcript.txt, L306, 00:41:46, Consultant"
+    },
+    {
+      "path": "/rubric[11]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "If it does what the Sheet does, I'll use it. Put that in.",
+      "location": "00:42:39 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L307, 00:42:39, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[11]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Yes. That's the shape.",
+      "location": "00:42:45 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L308, 00:42:45, Noor Abdelrazek"
+    },
+    {
+      "path": "/rubric[11]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "That's the shape. Harlan needs to see it before anyone signs anything, so don't take that as a yes from me.",
+      "location": "00:42:48 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L309, 00:42:48, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[11]/evidence[4]/quote",
+      "status": "verified",
+      "quote": "Same answer. On the job. Noor can filter.",
+      "location": "00:43:13 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L311, 00:43:13, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[11]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Let me play back what I think a first version looks like, so you can tell me where it's wrong. Not to sign anything.",
+      "location": "00:41:46 Consultant",
+      "cited": "transcript.txt, L306, 00:41:46, Consultant"
+    },
+    {
+      "path": "/rubric[12]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It's always got handwriting on it. Because things change Friday night, Saturday, Monday morning, and I change it on the Sheet, and I go write it on the wall, and I text Tobias, and then whatever crew didn't get the text drives to the wrong place.",
+      "location": "00:08:44 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L61, 00:08:44, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[12]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Reuben, when you say the crews have that -- how do they get it?",
+      "location": "00:08:12 Consultant",
+      "cited": "transcript.txt, L58, 00:08:12, Consultant"
+    },
+    {
+      "path": "/rubric[13]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Two weeks ago. Tobias's crew drove out to the Ashgrove plaza with the whole pylon on the flatbed and the permit hadn't come through, and they sat in the parking lot for -- what was it, Noor?",
+      "location": "00:09:06 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L63, 00:09:06, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[13]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Till eleven. They left at seven.",
+      "location": "00:09:22 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L64, 00:09:22, Noor Abdelrazek"
+    },
+    {
+      "path": "/rubric[13]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Three guys and a truck for half a day. And then they came back and unloaded it. And the sign's still on the rack.",
+      "location": "00:09:25 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L65, 00:09:25, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[13]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Honestly? Call it twice a month. Not always that bad. Sometimes it's the customer's not there to open the building. But twice a month somebody drives somewhere they shouldn't have.",
+      "location": "00:09:42 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L67, 00:09:42, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[13]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Has that happened?",
+      "location": "00:09:03 Consultant",
+      "cited": "transcript.txt, L62, 00:09:03, Consultant"
+    },
+    {
+      "path": "/rubric[14]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I change the Sheet, I write on the wall, I text Tobias. If it's Fort Wayne I call Dale. That's the workaround. It's me.",
+      "location": "00:10:08 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L70, 00:10:08, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[14]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Call it forty-one. We've never done more than nine installs in a week. This is going to be fifteen, some weeks, on top of everything else. The Sheet doesn't survive that. Reuben doesn't survive that.",
+      "location": "00:30:59 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L229, 00:30:59, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[14]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What do you do about it today, when you know on Friday night that Monday's changed?",
+      "location": "00:10:01 Consultant",
+      "cited": "transcript.txt, L69, 00:10:01, Consultant"
+    },
+    {
+      "path": "/rubric[15]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "It's light. It doesn't count the guys standing around when a sign comes back.",
+      "location": "00:36:14 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L265, 00:36:14, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[15]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I want to open one thing on Monday and know what's going out this week and what's stuck and why. And I want to stop getting the six a.m. call because a crew's standing in a parking lot.",
+      "location": "00:37:29 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L273, 00:37:29, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[16]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "We cost a crew at about a hundred and ninety an hour. That's the three of them and the truck.",
+      "location": "00:34:19 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L250, 00:34:19, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[16]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Four hours. Seven to eleven. Sometimes they're back by ten.",
+      "location": "00:34:31 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L252, 00:34:31, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[16]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Honestly? Call it twice a month. Not always that bad. Sometimes it's the customer's not there to open the building. But twice a month somebody drives somewhere they shouldn't have.",
+      "location": "00:09:42 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L67, 00:09:42, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[16]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Ingrid, can I put some numbers on the wasted trips? Reuben said three guys and a truck for half a day, twice a month. What does a crew cost you an hour?",
+      "location": "00:34:05 Consultant",
+      "cited": "transcript.txt, L249, 00:34:05, Consultant"
+    },
+    {
+      "path": "/rubric[17]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And it'll be worse with the stores. That's the whole thing.",
+      "location": "00:09:55 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L68, 00:09:55, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[17]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Call it forty-one. We've never done more than nine installs in a week. This is going to be fifteen, some weeks, on top of everything else. The Sheet doesn't survive that. Reuben doesn't survive that.",
+      "location": "00:30:59 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L229, 00:30:59, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[18]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Usually. Sometimes he forwards the reply and the PDF's fallen off, and I go find it on the shared drive, and there's four of them in there called final.",
+      "location": "00:19:02 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L137, 00:19:02, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[18]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Five. There's a final final.",
+      "location": "00:19:14 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L138, 00:19:14, Noor Abdelrazek"
+    },
+    {
+      "path": "/rubric[18]/asked_quote/quote",
+      "status": "verified",
+      "quote": "And where does that go wrong?",
+      "location": "00:19:18 Consultant",
+      "cited": "transcript.txt, L139, 00:19:18, Consultant"
+    },
+    {
+      "path": "/rubric[19]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Rev whatever. The credit union one. Prairie Lakes. Rashid sent the customer rev three, they came back with changes, he sent rev four, they approved rev four, and rev three was already stapled to the traveller because I'd printed the first one. We built rev three. Sixty-eight hundred dollars in material and shop time and we ate it.",
+      "location": "00:19:21 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L140, 00:19:21, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[19]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "August. And it's not the first time.",
+      "location": "00:19:48 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L142, 00:19:48, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[19]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Three, four. Not always that much money. But three, four.",
+      "location": "00:19:55 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L144, 00:19:55, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[19]/asked_quote/quote",
+      "status": "verified",
+      "quote": "When was that?",
+      "location": "00:19:45 Consultant",
+      "cited": "transcript.txt, L141, 00:19:45, Consultant"
+    },
+    {
+      "path": "/rubric[20]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I write the rev number on the traveller in marker now. Big. And Rashid's supposed to put \"FINAL\" in the subject line. Supposed to.",
+      "location": "00:20:34 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L150, 00:20:34, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[20]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "He does about half the time. I go into his sent folder and check. That's part of my Thursday.",
+      "location": "00:20:44 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L151, 00:20:44, Noor Abdelrazek"
+    },
+    {
+      "path": "/rubric[20]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What's the workaround on the proofs today? How do you stop rev three going on the traveller?",
+      "location": "00:20:26 Consultant",
+      "cited": "transcript.txt, L149, 00:20:26, Consultant"
+    },
+    {
+      "path": "/rubric[21]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "He does about half the time. I go into his sent folder and check. That's part of my Thursday.",
+      "location": "00:20:44 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L151, 00:20:44, Noor Abdelrazek"
+    },
+    {
+      "path": "/rubric[22]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Rev whatever. The credit union one. Prairie Lakes. Rashid sent the customer rev three, they came back with changes, he sent rev four, they approved rev four, and rev three was already stapled to the traveller because I'd printed the first one. We built rev three. Sixty-eight hundred dollars in material and shop time and we ate it.",
+      "location": "00:19:21 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L140, 00:19:21, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[22]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Three, four. Not always that much money. But three, four.",
+      "location": "00:19:55 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L144, 00:19:55, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[22]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Bettina would know. I don't. Nobody adds it up.",
+      "location": "00:20:05 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L146, 00:20:05, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[22]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Yeah, that's a Bettina number. I genuinely don't know. I'd want her to pull it before anyone writes it down.",
+      "location": "00:20:10 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L147, 00:20:10, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[22]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Do you know what that costs across a year, the rework?",
+      "location": "00:20:00 Consultant",
+      "cited": "transcript.txt, L145, 00:20:00, Consultant"
+    },
+    {
+      "path": "/rubric[24]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "That's it, that's the thing. It's not that I don't know if it's approved. It's that it's approved and then it isn't. And nothing tells me. The Sheet doesn't know when it was approved, it just knows it's green.",
+      "location": "00:33:17 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L243, 00:33:17, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[24]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Can I add something? What Reuben didn't get to say earlier, when you jumped in -- sorry -- is the permits expire. Ashgrove's ninety days, Marlow's a hundred and eighty, and if the install slips past that we pay the fee again and we file again.",
+      "location": "00:32:51 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L241, 00:32:51, Noor Abdelrazek"
+    },
+    {
+      "path": "/rubric[24]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Go back to the permits for a second, if you don't mind. You said Marlow takes forever. What actually happens on a permit, start to finish?",
+      "location": "00:15:43 Consultant",
+      "cited": "transcript.txt, L116, 00:15:43, Consultant"
+    },
+    {
+      "path": "/rubric[25]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The colours are the permit. Red means we don't have it, yellow means it's in, green means it's approved. That one -- see that one? That's been yellow for six weeks. That's the city of Marlow, they take forever.",
+      "location": "00:05:09 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L35, 00:05:09, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[25]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Six? Seven. Let me -- yeah, seven. Two of those are Marlow.",
+      "location": "00:15:37 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L115, 00:15:37, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[26]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The binder knows. I write the date on the tab.",
+      "location": "00:33:33 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L244, 00:33:33, Noor Abdelrazek"
+    },
+    {
+      "path": "/rubric[26]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Me. When Noor tells me. Or when I remember to ask Noor.",
+      "location": "00:05:28 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L37, 00:05:28, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[26]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Or when I walk out to the shop and stand there until he does it.",
+      "location": "00:05:34 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L38, 00:05:34, Noor Abdelrazek"
+    },
+    {
+      "path": "/rubric[26]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "I want to stop being the person who knows where every permit is. I want it to be in the thing and the thing to tell Reuben.",
+      "location": "00:37:17 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L272, 00:37:17, Noor Abdelrazek"
+    },
+    {
+      "path": "/rubric[26]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Who turns it green?",
+      "location": "00:05:25 Consultant",
+      "cited": "transcript.txt, L36, 00:05:25, Consultant"
+    },
+    {
+      "path": "/rubric[27]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "So every city's different. That's the thing. Some of them you file online, some of them Noor drives down there. Marlow you drive down there. And then they sit on it. And the thing is, the permits, every city's different, like Ashgrove wants --",
+      "location": "00:15:54 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L117, 00:15:54, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[27]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Typed. It doesn't know about permits at all, really. I type what's in my binder. So now it's in three places. The binder, the Sheet, and this.",
+      "location": "00:25:50 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L189, 00:25:50, Noor Abdelrazek"
+    },
+    {
+      "path": "/rubric[29]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And two permits, usually. Exterior's a sign permit, interior's usually nothing, but some cities want an electrical.",
+      "location": "00:32:15 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L237, 00:32:15, Noor Abdelrazek"
+    },
+    {
+      "path": "/rubric[29]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "And they're all over. Half of them are down by Fort Wayne, so Dale's crews take those, and I've got no idea what Dale's doing on any given day.",
+      "location": "00:32:23 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L238, 00:32:23, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[30]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "Nobody. Me. Noor can look at it. Ingrid can look at it.",
+      "location": "00:22:08 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L163, 00:22:08, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[30]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "The Sheet is you, is the problem. Which we'll get to.",
+      "location": "00:22:53 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L170, 00:22:53, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[30]/asked_quote/quote",
+      "status": "verified",
+      "quote": "Reuben, one more on the Sheet, then I'll let you stop. Who else can edit it?",
+      "location": "00:22:00 Consultant",
+      "cited": "transcript.txt, L162, 00:22:00, Consultant"
+    },
+    {
+      "path": "/rubric[31]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "When I'm out, Noor texts me and I do it from my phone. Or it waits. I was out three days in September with my back and it waited.",
+      "location": "00:22:17 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L165, 00:22:17, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[31]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It did not wait. I texted him eleven times.",
+      "location": "00:22:29 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L166, 00:22:29, Noor Abdelrazek"
+    },
+    {
+      "path": "/rubric[31]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What happens when you're out?",
+      "location": "00:22:13 Consultant",
+      "cited": "transcript.txt, L164, 00:22:13, Consultant"
+    },
+    {
+      "path": "/rubric[32]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "When I'm out, Noor texts me and I do it from my phone. Or it waits. I was out three days in September with my back and it waited.",
+      "location": "00:22:17 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L165, 00:22:17, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[32]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Which is why nobody can tell me what we installed in a given month without asking Bettina.",
+      "location": "00:06:25 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L44, 00:06:25, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[32]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "You remember. That's the system.",
+      "location": "00:06:36 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L46, 00:06:36, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[32]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "And the other thing, which isn't public yet, so -- Reuben's going to three days a week from April. And the Sheet goes with him. That's not a criticism. It's just true.",
+      "location": "00:31:17 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L231, 00:31:17, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[32]/asked_quote/quote",
+      "status": "verified",
+      "quote": "What happens when you're out?",
+      "location": "00:22:13 Consultant",
+      "cited": "transcript.txt, L164, 00:22:13, Consultant"
+    },
+    {
+      "path": "/rubric[33]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "I ask him. And when he's out?",
+      "location": "00:15:16 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L110, 00:15:16, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[33]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "I'm making a point, in case it's not landing.",
+      "location": "00:15:22 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L112, 00:15:22, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[33]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "It did not wait. I texted him eleven times.",
+      "location": "00:22:29 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L166, 00:22:29, Noor Abdelrazek"
+    },
+    {
+      "path": "/rubric[33]/evidence[3]/quote",
+      "status": "verified",
+      "quote": "Which is why nobody can tell me what we installed in a given month without asking Bettina.",
+      "location": "00:06:25 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L44, 00:06:25, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[34]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "The Sheet's maybe an hour a day. Little bits. Twenty minutes in the morning, and then every time the phone rings. The board's an hour a month when Ingrid asks.",
+      "location": "00:14:18 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L103, 00:14:18, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[34]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "Give or take. Some days it's nothing. Some days it's the whole morning.",
+      "location": "00:14:45 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L105, 00:14:45, Reuben Castellanos"
+    },
+    {
+      "path": "/rubric[34]/evidence[2]/quote",
+      "status": "verified",
+      "quote": "Same answer. Later.",
+      "location": "00:35:58 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L262, 00:35:58, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[34]/asked_quote/quote",
+      "status": "verified",
+      "quote": "How long does it take you, a week, keeping the two of them and the wall in step? Roughly.",
+      "location": "00:14:10 Consultant",
+      "cited": "transcript.txt, L102, 00:14:10, Consultant"
+    },
+    {
+      "path": "/rubric[35]/evidence[0]/quote",
+      "status": "verified",
+      "quote": "And the other thing, which isn't public yet, so -- Reuben's going to three days a week from April. And the Sheet goes with him. That's not a criticism. It's just true.",
+      "location": "00:31:17 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L231, 00:31:17, Ingrid Sallinen"
+    },
+    {
+      "path": "/rubric[35]/evidence[1]/quote",
+      "status": "verified",
+      "quote": "It's true. My back's true.",
+      "location": "00:31:33 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L232, 00:31:33, Reuben Castellanos"
+    },
+    {
+      "path": "/pains[0]/quote",
+      "status": "verified",
+      "quote": "It's always got handwriting on it. Because things change Friday night, Saturday, Monday morning, and I change it on the Sheet, and I go write it on the wall, and I text Tobias, and then whatever crew didn't get the text drives to the wrong place.",
+      "location": "00:08:44 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L61, 00:08:44, Reuben Castellanos"
+    },
+    {
+      "path": "/pains[1]/quote",
+      "status": "verified",
+      "quote": "Three guys and a truck for half a day. And then they came back and unloaded it. And the sign's still on the rack.",
+      "location": "00:09:25 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L65, 00:09:25, Reuben Castellanos"
+    },
+    {
+      "path": "/pains[2]/quote",
+      "status": "verified",
+      "quote": "We've got, I want to say, thirty, forty thousand dollars of finished signs on the rack right now waiting on a permit or waiting on somebody to call the customer.",
+      "location": "00:34:50 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L254, 00:34:50, Reuben Castellanos"
+    },
+    {
+      "path": "/pains[3]/quote",
+      "status": "verified",
+      "quote": "We built rev three. Sixty-eight hundred dollars in material and shop time and we ate it.",
+      "location": "00:19:21 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L140, 00:19:21, Reuben Castellanos"
+    },
+    {
+      "path": "/pains[4]/quote",
+      "status": "verified",
+      "quote": "Usually. Sometimes he forwards the reply and the PDF's fallen off, and I go find it on the shared drive, and there's four of them in there called final.",
+      "location": "00:19:02 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L137, 00:19:02, Reuben Castellanos"
+    },
+    {
+      "path": "/pains[5]/quote",
+      "status": "verified",
+      "quote": "That's it, that's the thing. It's not that I don't know if it's approved. It's that it's approved and then it isn't. And nothing tells me. The Sheet doesn't know when it was approved, it just knows it's green.",
+      "location": "00:33:17 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L243, 00:33:17, Reuben Castellanos"
+    },
+    {
+      "path": "/pains[6]/quote",
+      "status": "verified",
+      "quote": "Typed. It doesn't know about permits at all, really. I type what's in my binder. So now it's in three places. The binder, the Sheet, and this.",
+      "location": "00:25:50 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L189, 00:25:50, Noor Abdelrazek"
+    },
+    {
+      "path": "/pains[7]/quote",
+      "status": "verified",
+      "quote": "The Sheet is you, is the problem. Which we'll get to.",
+      "location": "00:22:53 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L170, 00:22:53, Ingrid Sallinen"
+    },
+    {
+      "path": "/pains[8]/quote",
+      "status": "verified",
+      "quote": "I was out three days in September with my back and it waited.",
+      "location": "00:22:17 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L165, 00:22:17, Reuben Castellanos"
+    },
+    {
+      "path": "/pains[9]/quote",
+      "status": "verified",
+      "quote": "Which is why nobody can tell me what we installed in a given month without asking Bettina.",
+      "location": "00:06:25 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L44, 00:06:25, Ingrid Sallinen"
+    },
+    {
+      "path": "/pains[10]/quote",
+      "status": "verified",
+      "quote": "Thursday. All of Thursday, and bits of the other days. Six hours? Seven.",
+      "location": "00:35:22 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L258, 00:35:22, Noor Abdelrazek"
+    },
+    {
+      "path": "/pains[11]/quote",
+      "status": "verified",
+      "quote": "Nothing. That's the problem. I couldn't get it to stop me from putting two crews on the same morning. Or one crew on two mornings, I mean. It just lets you.",
+      "location": "00:25:16 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L185, 00:25:16, Noor Abdelrazek"
+    },
+    {
+      "path": "/numbers/bleed/quote",
+      "status": "verified",
+      "quote": "So, four hours, twice, that's... fifteen hundred and change a month. Call it eighteen thousand a year. Eighteen, eighteen and a half. That's just the trips. That's not the sign sitting on the rack.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L253, 00:34:36, Ingrid Sallinen"
+      ]
+    },
+    {
+      "path": "/objections[0]/quote",
+      "status": "verified",
+      "quote": "Reuben's trust, honestly. If it's slower than the Sheet he'll go back to the Sheet and I won't stop him.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L293, 00:40:26, Ingrid Sallinen"
+      ]
+    },
+    {
+      "path": "/objections[1]/quote",
+      "status": "verified",
+      "quote": "The crews. Half of them have the app and none of them open it. Tobias will. The others, I don't know.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L292, 00:40:17, Reuben Castellanos"
+      ]
+    },
+    {
+      "path": "/objections[2]/quote",
+      "status": "verified",
+      "quote": "And December. Nobody's going to learn anything in December.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L296, 00:40:49, Noor Abdelrazek"
+      ]
+    },
+    {
+      "path": "/objections[3]/quote",
+      "status": "verified",
+      "quote": "That's the shape. Harlan needs to see it before anyone signs anything, so don't take that as a yes from me.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L309, 00:42:48, Ingrid Sallinen"
+      ]
+    },
+    {
+      "path": "/objections[4]/quote",
+      "status": "verified",
+      "quote": "And Bettina has to be okay with the job numbers still matching the accounting system, because if they don't, she'll shut it down.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L277, 00:38:08, Ingrid Sallinen"
+      ]
+    },
+    {
+      "path": "/objections[5]/quote",
+      "status": "verified",
+      "quote": "He asked me last month what we're paying for twelve seats when four people log in, so that's coming.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L279, 00:38:40, Ingrid Sallinen"
+      ]
+    },
+    {
+      "path": "/objections[6]/quote",
+      "status": "verified",
+      "quote": "No. Permits live on the job. I'm not looking in two places.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L219, 00:29:40, Reuben Castellanos"
+      ]
+    },
+    {
+      "path": "/objections[7]/quote",
+      "status": "verified",
+      "quote": "That's fair. That's the Sheet. The Sheet works. The Sheet's not the problem, the people not looking at the Sheet is the problem.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L169, 00:22:43, Reuben Castellanos"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[0]/quote",
+      "status": "verified",
+      "quote": "Tuesday the twentieth, seven-thirty, before the shop starts. I'm here anyway.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L322, 00:45:23, Reuben Castellanos"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[1]/quote",
+      "status": "verified",
+      "quote": "Tuesday the twentieth at seven-thirty Eastern, an hour, and I'll send the invite to the three of you today.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L325, 00:45:36, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[2]/quote",
+      "status": "verified",
+      "quote": "I'll send it by end of day tomorrow with the next step in it and the three unconfirmed things marked as unconfirmed.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L327, 00:45:54, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[3]/quote",
+      "status": "verified",
+      "quote": "Send me the read-back in writing too, the list you just did. I want to forward it to Harlan before the managers' meeting.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L326, 00:45:44, Ingrid Sallinen"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[4]/quote",
+      "status": "verified",
+      "quote": "And I'll get Bettina to pull the rework number. And ask her about the Copperline job numbers.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L328, 00:46:04, Ingrid Sallinen"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[5]/quote",
+      "status": "verified",
+      "quote": "I'll bring the binder on the twentieth. The actual binder.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L329, 00:46:12, Noor Abdelrazek"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[6]/quote",
+      "status": "verified",
+      "quote": "I'll have the Sheet up. I always have the Sheet up.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L330, 00:46:17, Reuben Castellanos"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[7]/quote",
+      "status": "verified",
+      "quote": "Thank you for saying it plainly. I'll keep the April part out of anything that leaves this room until you say otherwise.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L233, 00:31:36, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[8]/quote",
+      "status": "verified",
+      "quote": "I'd put that on a list rather than do it today. Noor, if someone wanted to change this board, who'd they ask?",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L203, 00:27:19, Consultant"
+      ]
+    },
+    {
+      "path": "/commitments_and_next_steps[9]/quote",
+      "status": "verified",
+      "quote": "Understood. Six hours a week, rate to come. And Reuben's hour a day on the Sheet, same question, later.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L261, 00:35:50, Consultant"
+      ]
+    },
+    {
+      "path": "/requested_changes[0]/quote",
+      "status": "verified",
+      "quote": "Write that down too.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L248, 00:34:03, Ingrid Sallinen"
+      ]
+    },
+    {
+      "path": "/requested_changes[1]/quote",
+      "status": "verified",
+      "quote": "They see the job, the address, the date, what's going on the truck, and who they're meeting. That's it. That's what's on the wall now.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L287, 00:39:46, Reuben Castellanos"
+      ]
+    },
+    {
+      "path": "/requested_changes[2]/quote",
+      "status": "verified",
+      "quote": "The weeks. The weeks as groups is right. That's how Reuben thinks. And the connect column. The rest I don't care about.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L210, 00:28:14, Noor Abdelrazek"
+      ]
+    },
+    {
+      "path": "/requested_changes[3]/quote",
+      "status": "verified",
+      "quote": "The part I couldn't do is the part that matters, which is stopping the double-booking and knowing about the permits.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L212, 00:28:34, Noor Abdelrazek"
+      ]
+    },
+    {
+      "path": "/requested_changes[4]/quote",
+      "status": "verified",
+      "quote": "Same answer. On the job. Noor can filter.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L311, 00:43:13, Reuben Castellanos"
+      ]
+    },
+    {
+      "path": "/requested_changes[5]/quote",
+      "status": "verified",
+      "quote": "If it does what the Sheet does, I'll use it. Put that in.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L307, 00:42:39, Reuben Castellanos"
+      ]
+    },
+    {
+      "path": "/requested_changes[6]/quote",
+      "status": "verified",
+      "quote": "Fort Wayne's not in this. I want to be clear about that. Get it working here, then we'll talk about Dale. If I try to do both, I'll do neither.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L239, 00:32:35, Ingrid Sallinen"
+      ]
+    },
+    {
+      "path": "/account_context/evidence_quote_or_null",
+      "status": "verified",
+      "quote": "It's Pro. I see the invoice every month. Twelve seats, and I think four people actually log in.",
+      "location": null,
+      "reason": "presence only: no location cited; found in the file",
+      "presence_only": true,
+      "found_at": [
+        "transcript.txt, L156, 00:21:12, Ingrid Sallinen"
+      ]
+    },
+    {
+      "path": "/intake/type_header/signals[0]/quote/quote",
+      "status": "verified",
+      "quote": "Reuben, can you share your screen? Just show them what you look at.",
+      "location": "00:03:27 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L22, 00:03:27, Ingrid Sallinen"
+    },
+    {
+      "path": "/intake/type_header/signals[2]/quote/quote",
+      "status": "verified",
+      "quote": "Good. That's what we wanted. Last time we did one of these with somebody we got a forty-minute slideshow and nobody looked at Reuben's spreadsheet.",
+      "location": "00:01:27 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L9, 00:01:27, Ingrid Sallinen"
+    },
+    {
+      "path": "/intake/type_header/signals[3]/quote/quote",
+      "status": "verified",
+      "quote": "So this is Active Jobs. She set it up with four groups. Quoted, In Production, Install Scheduled, Done. And every job's supposed to be on here too. Same job number.",
+      "location": "00:10:37 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L73, 00:10:37, Reuben Castellanos"
+    },
+    {
+      "path": "/intake/type_header/signals[4]/quote/quote",
+      "status": "verified",
+      "quote": "I'm the one who signs off on tools, up to a point. Harlan's the owner. He's not on this, he doesn't do calls, but anything over ten thousand a year goes to Harlan. And this will. So you'll hear his name.",
+      "location": "00:01:59 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L13, 00:01:59, Ingrid Sallinen"
+    },
+    {
+      "path": "/intake/second_hand[0]/requote/quote",
+      "status": "verified",
+      "quote": "Their guy said forty-one, might be forty-four by the time they're done, he wasn't sure.",
+      "location": "00:30:52 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L228, 00:30:52, Reuben Castellanos"
+    },
+    {
+      "path": "/intake/second_hand[0]/client_figure/quote",
+      "status": "verified",
+      "quote": "Call it forty-one. We've never done more than nine installs in a week. This is going to be fifteen, some weeks, on top of everything else. The Sheet doesn't survive that. Reuben doesn't survive that.",
+      "location": "00:30:59 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L229, 00:30:59, Ingrid Sallinen"
+    },
+    {
+      "path": "/intake/second_hand[1]/requote/quote",
+      "status": "verified",
+      "quote": "Copperline. And not paying for things twice. He asked me last month what we're paying for twelve seats when four people log in, so that's coming.",
+      "location": "00:38:40 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L279, 00:38:40, Ingrid Sallinen"
+    },
+    {
+      "path": "/intake/second_hand[1]/also/quote",
+      "status": "verified",
+      "quote": "Harlan hasn't said what good looks like. Fewer wasted trips, I assume. Copperline done on time. I'd ask him before we write anything down.",
+      "location": "00:37:50 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L275, 00:37:50, Ingrid Sallinen"
+    },
+    {
+      "path": "/intake/claims_store[0]/claim/quote",
+      "status": "verified",
+      "quote": "So what we'd do there is a permit status column with an automation that pings Tobias when it flips to approved. Honestly that's a ten-minute thing.",
+      "location": "00:16:12 Consultant",
+      "cited": "transcript.txt, L118, 00:16:12, Consultant"
+    },
+    {
+      "path": "/intake/structure_inventory/read_back/confirmations[0]/quote",
+      "status": "verified",
+      "quote": "That's it, yeah.",
+      "location": "00:44:32 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L317, 00:44:32, Ingrid Sallinen"
+    },
+    {
+      "path": "/intake/structure_inventory/read_back/confirmations[1]/quote",
+      "status": "verified",
+      "quote": "And the connect column, yeah. That's right. And the count widget, but that's nothing.",
+      "location": "00:44:35 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L318, 00:44:35, Noor Abdelrazek"
+    },
+    {
+      "path": "/intake/structure_inventory/read_back/correction/quote",
+      "status": "verified",
+      "quote": "Hold's not on the board. Hold's on the Sheet. I put \"hold\" in the notes.",
+      "location": "00:44:21 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L315, 00:44:21, Reuben Castellanos"
+    },
+    {
+      "path": "/intake/structure_inventory/read_back/residual/quote",
+      "status": "verified",
+      "quote": "There were three things I couldn't name: the tab you scrolled past, the thing at the top of the board, and the column you pointed at when they were side by side. I'll list those as unconfirmed rather than guess.",
+      "location": "00:44:42 Consultant",
+      "cited": "transcript.txt, L319, 00:44:42, Consultant"
+    },
+    {
+      "path": "/intake/structure_inventory/read_back/residual/client_answer/quote",
+      "status": "verified",
+      "quote": "The tab's old. The other two I'd have to look.",
+      "location": "00:44:58 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L320, 00:44:58, Reuben Castellanos"
+    },
+    {
+      "path": "/intake/structure_inventory/prototype_inheritance/named_gap/quote",
+      "status": "verified",
+      "quote": "It's maybe sixty percent of what we need. Don't quote me. It's the part I could do. The part I couldn't do is the part that matters, which is stopping the double-booking and knowing about the permits.",
+      "location": "00:28:34 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L212, 00:28:34, Noor Abdelrazek"
+    },
+    {
+      "path": "/intake/structure_inventory/prototype_inheritance/who_owns_it/quote",
+      "status": "verified",
+      "quote": "Me. It's mine. Nobody else has touched it. I'd rather someone did, honestly.",
+      "location": "00:27:29 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L204, 00:27:29, Noor Abdelrazek"
+    },
+    {
+      "path": "/readiness/pains[0]/quote",
+      "status": "verified",
+      "quote": "It's always got handwriting on it. Because things change Friday night, Saturday, Monday morning, and I change it on the Sheet, and I go write it on the wall, and I text Tobias, and then whatever crew didn't get the text drives to the wrong place.",
+      "location": "00:08:44 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L61, 00:08:44, Reuben Castellanos"
+    },
+    {
+      "path": "/readiness/pains[1]/quote",
+      "status": "verified",
+      "quote": "Three guys and a truck for half a day. And then they came back and unloaded it. And the sign's still on the rack.",
+      "location": "00:09:25 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L65, 00:09:25, Reuben Castellanos"
+    },
+    {
+      "path": "/readiness/pains[2]/quote",
+      "status": "verified",
+      "quote": "We've got, I want to say, thirty, forty thousand dollars of finished signs on the rack right now waiting on a permit or waiting on somebody to call the customer.",
+      "location": "00:34:50 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L254, 00:34:50, Reuben Castellanos"
+    },
+    {
+      "path": "/readiness/pains[3]/quote",
+      "status": "verified",
+      "quote": "We built rev three. Sixty-eight hundred dollars in material and shop time and we ate it.",
+      "location": "00:19:21 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L140, 00:19:21, Reuben Castellanos"
+    },
+    {
+      "path": "/readiness/pains[4]/quote",
+      "status": "verified",
+      "quote": "Usually. Sometimes he forwards the reply and the PDF's fallen off, and I go find it on the shared drive, and there's four of them in there called final.",
+      "location": "00:19:02 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L137, 00:19:02, Reuben Castellanos"
+    },
+    {
+      "path": "/readiness/pains[5]/quote",
+      "status": "verified",
+      "quote": "That's it, that's the thing. It's not that I don't know if it's approved. It's that it's approved and then it isn't. And nothing tells me. The Sheet doesn't know when it was approved, it just knows it's green.",
+      "location": "00:33:17 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L243, 00:33:17, Reuben Castellanos"
+    },
+    {
+      "path": "/readiness/pains[6]/quote",
+      "status": "verified",
+      "quote": "Typed. It doesn't know about permits at all, really. I type what's in my binder. So now it's in three places. The binder, the Sheet, and this.",
+      "location": "00:25:50 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L189, 00:25:50, Noor Abdelrazek"
+    },
+    {
+      "path": "/readiness/pains[7]/quote",
+      "status": "verified",
+      "quote": "The Sheet is you, is the problem. Which we'll get to.",
+      "location": "00:22:53 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L170, 00:22:53, Ingrid Sallinen"
+    },
+    {
+      "path": "/readiness/pains[8]/quote",
+      "status": "verified",
+      "quote": "I was out three days in September with my back and it waited.",
+      "location": "00:22:17 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L165, 00:22:17, Reuben Castellanos"
+    },
+    {
+      "path": "/readiness/pains[9]/quote",
+      "status": "verified",
+      "quote": "Which is why nobody can tell me what we installed in a given month without asking Bettina.",
+      "location": "00:06:25 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L44, 00:06:25, Ingrid Sallinen"
+    },
+    {
+      "path": "/readiness/pains[10]/quote",
+      "status": "verified",
+      "quote": "Thursday. All of Thursday, and bits of the other days. Six hours? Seven.",
+      "location": "00:35:22 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L258, 00:35:22, Noor Abdelrazek"
+    },
+    {
+      "path": "/readiness/pains[11]/quote",
+      "status": "verified",
+      "quote": "Nothing. That's the problem. I couldn't get it to stop me from putting two crews on the same morning. Or one crew on two mornings, I mean. It just lets you.",
+      "location": "00:25:16 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L185, 00:25:16, Noor Abdelrazek"
+    },
+    {
+      "path": "/readiness/signals[0]/quote",
+      "status": "verified",
+      "quote": "And two permits, usually. Exterior's a sign permit, interior's usually nothing, but some cities want an electrical.",
+      "location": "00:32:15 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L237, 00:32:15, Noor Abdelrazek"
+    },
+    {
+      "path": "/readiness/signals[1]/quote",
+      "status": "verified",
+      "quote": "Two rows. Same job in the connect column twice. Which I don't love, but that's what I did.",
+      "location": "00:28:00 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L208, 00:28:00, Noor Abdelrazek"
+    },
+    {
+      "path": "/readiness/signals[2]/quote",
+      "status": "verified",
+      "quote": "You did. And Bettina uses the job list from that board for something, I don't know what, so we can't just delete Active Jobs.",
+      "location": "00:40:38 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L295, 00:40:38, Ingrid Sallinen"
+    },
+    {
+      "path": "/readiness/signals[3]/quote",
+      "status": "verified",
+      "quote": "They got logins. Two of them still have seats. That's part of the twelve.",
+      "location": "00:13:01 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L93, 00:13:01, Ingrid Sallinen"
+    },
+    {
+      "path": "/readiness/signals[4]/quote",
+      "status": "verified",
+      "quote": "This column's the crew, that's a people column, I put Tobias and the guys in as users, they don't know that yet.",
+      "location": "00:24:09 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L179, 00:24:09, Noor Abdelrazek"
+    },
+    {
+      "path": "/readiness/signals[5]/quote",
+      "status": "verified",
+      "quote": "It's on here as a word. It's not a job yet. There's no job number because there's no -- there's no quote accepted, because it's the whole contract, and Bettina hasn't figured out how she's doing the numbers for that yet.",
+      "location": "00:17:24 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L126, 00:17:24, Reuben Castellanos"
+    },
+    {
+      "path": "/readiness/signals[6]/quote",
+      "status": "verified",
+      "quote": "Reuben's trust, honestly. If it's slower than the Sheet he'll go back to the Sheet and I won't stop him.",
+      "location": "00:40:26 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L293, 00:40:26, Ingrid Sallinen"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[0]",
+      "status": "verified",
+      "quote": "And two permits, usually. Exterior's a sign permit, interior's usually nothing, but some cities want an electrical.",
+      "location": "00:32:15 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L237, 00:32:15, Noor Abdelrazek"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[1]",
+      "status": "verified",
+      "quote": "is the permits expire. Ashgrove's ninety days, Marlow's a hundred and eighty, and if the install slips past that we pay the fee again and we file again.",
+      "location": "00:32:51 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L241, 00:32:51, Noor Abdelrazek"
+    },
+    {
+      "path": "/readiness/structure/leanings[0]/quotes[2]",
+      "status": "verified",
+      "quote": "No. Permits live on the job. I'm not looking in two places.",
+      "location": "00:29:40 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L219, 00:29:40, Reuben Castellanos"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[0]",
+      "status": "verified",
+      "quote": "Two rows. Same job in the connect column twice. Which I don't love, but that's what I did.",
+      "location": "00:28:00 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L208, 00:28:00, Noor Abdelrazek"
+    },
+    {
+      "path": "/readiness/structure/leanings[1]/quotes[1]",
+      "status": "verified",
+      "quote": "their guy wants the exterior done before the interior, so it's two visits.",
+      "location": "00:31:53 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L236, 00:31:53, Reuben Castellanos"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[0]",
+      "status": "verified",
+      "quote": "That's a Bettina question too. Whether Copperline is one job number or forty-one.",
+      "location": "00:17:40 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L127, 00:17:40, Ingrid Sallinen"
+    },
+    {
+      "path": "/readiness/structure/leanings[2]/quotes[1]",
+      "status": "verified",
+      "quote": "It matters for everything.",
+      "location": "00:17:53 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L129, 00:17:53, Reuben Castellanos"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[0]",
+      "status": "verified",
+      "quote": "Nothing. That's the problem. I couldn't get it to stop me from putting two crews on the same morning. Or one crew on two mornings, I mean. It just lets you.",
+      "location": "00:25:16 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L185, 00:25:16, Noor Abdelrazek"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[1]",
+      "status": "verified",
+      "quote": "I tried the workload thing and it just showed everyone as green. I think because I didn't tell it what a day was. I don't know.",
+      "location": "00:25:32 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L187, 00:25:32, Noor Abdelrazek"
+    },
+    {
+      "path": "/readiness/structure/leanings[3]/quotes[2]",
+      "status": "verified",
+      "quote": "The part I couldn't do is the part that matters, which is stopping the double-booking and knowing about the permits.",
+      "location": "00:28:34 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L212, 00:28:34, Noor Abdelrazek"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[0]",
+      "status": "verified",
+      "quote": "It's always got handwriting on it. Because things change Friday night, Saturday, Monday morning, and I change it on the Sheet, and I go write it on the wall, and I text Tobias, and then whatever crew didn't get the text drives to the wrong place.",
+      "location": "00:08:44 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L61, 00:08:44, Reuben Castellanos"
+    },
+    {
+      "path": "/readiness/structure/leanings[4]/quotes[1]",
+      "status": "verified",
+      "quote": "The crews. Half of them have the app and none of them open it. Tobias will. The others, I don't know.",
+      "location": "00:40:17 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L292, 00:40:17, Reuben Castellanos"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[0]",
+      "status": "verified",
+      "quote": "they approved rev four, and rev three was already stapled to the traveller because I'd printed the first one. We built rev three.",
+      "location": "00:19:21 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L140, 00:19:21, Reuben Castellanos"
+    },
+    {
+      "path": "/readiness/structure/leanings[5]/quotes[1]",
+      "status": "verified",
+      "quote": "I write the rev number on the traveller in marker now. Big. And Rashid's supposed to put \"FINAL\" in the subject line. Supposed to.",
+      "location": "00:20:34 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L150, 00:20:34, Reuben Castellanos"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[0]",
+      "status": "verified",
+      "quote": "The left. The Sheet's right. The Sheet's always right, because I'm the one who moves it.",
+      "location": "00:13:55 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L99, 00:13:55, Reuben Castellanos"
+    },
+    {
+      "path": "/readiness/structure/leanings[6]/quotes[1]",
+      "status": "verified",
+      "quote": "It's the answer. When it's been right for a month. Four Mondays. If it's right four Mondays running, I'll close the Sheet.",
+      "location": "00:41:22 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L302, 00:41:22, Reuben Castellanos"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[0]",
+      "status": "verified",
+      "quote": "I delete the row. Bettina's got it in the accounting system, so it's not lost. Well. It's not lost lost. It's lost from here.",
+      "location": "00:06:16 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L43, 00:06:16, Reuben Castellanos"
+    },
+    {
+      "path": "/readiness/structure/leanings[7]/quotes[1]",
+      "status": "verified",
+      "quote": "Which is why nobody can tell me what we installed in a given month without asking Bettina.",
+      "location": "00:06:25 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L44, 00:06:25, Ingrid Sallinen"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[0]",
+      "status": "verified",
+      "quote": "We've got, I want to say, thirty, forty thousand dollars of finished signs on the rack right now waiting on a permit or waiting on somebody to call the customer.",
+      "location": "00:34:50 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L254, 00:34:50, Reuben Castellanos"
+    },
+    {
+      "path": "/readiness/structure/leanings[8]/quotes[1]",
+      "status": "verified",
+      "quote": "Keep it separate. Harlan will ask about it though.",
+      "location": "00:35:11 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L256, 00:35:11, Ingrid Sallinen"
+    },
+    {
+      "path": "/readiness/structure/leanings[9]/quotes[0]",
+      "status": "verified",
+      "quote": "She wanted Tobias and Marco and Sal in there. They never got logins.",
+      "location": "00:12:48 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L92, 00:12:48, Reuben Castellanos"
+    },
+    {
+      "path": "/readiness/structure/leanings[9]/quotes[1]",
+      "status": "verified",
+      "quote": "Ashgrove's ninety days, Marlow's a hundred and eighty",
+      "location": "00:32:51 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L241, 00:32:51, Noor Abdelrazek"
+    },
+    {
+      "path": "/readiness/structure/leanings[10]/quotes[0]",
+      "status": "verified",
+      "quote": "The binder knows. I write the date on the tab.",
+      "location": "00:33:33 Noor Abdelrazek (Project Coordinator)",
+      "cited": "transcript.txt, L244, 00:33:33, Noor Abdelrazek"
+    },
+    {
+      "path": "/readiness/structure/leanings[10]/quotes[1]",
+      "status": "verified",
+      "quote": "Yes. That.",
+      "location": "00:33:52 Reuben Castellanos (Production Manager)",
+      "cited": "transcript.txt, L246, 00:33:52, Reuben Castellanos"
+    },
+    {
+      "path": "/readiness/structure/leanings[10]/quotes[2]",
+      "status": "verified",
+      "quote": "Write that down too.",
+      "location": "00:34:03 Ingrid Sallinen (Operations Director)",
+      "cited": "transcript.txt, L248, 00:34:03, Ingrid Sallinen"
+    }
+  ]
+}

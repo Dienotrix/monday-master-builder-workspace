@@ -1,0 +1,254 @@
+# s23-symmetric-shred authoring source. One turn per line: LABEL|text.
+# LABEL is the label the export prints. Words inside {X:...} truly belong to speaker X
+# (the export credited them to LABEL). {X!:...} marks a swallowed assent.
+# Codes: C Consultant, M Maren Solberg (our side), P Perpetua Thackeray, L Liesl Vandermeulen, T Tariq Paulsen.
+# Directives: @pause N (seconds of silence before the next turn), @duet-start, @duet-end.
+C|Perpetua, hi. Can you hear me all right?
+P|I can hear you. Hang on, let me get the door. Liesl's just coming in.
+C|No rush.
+@pause 6
+P|Okay. We're here. Liesl's in the room with me, and Tariq's on from his desk because he's got the phones, so if he goes quiet it's a doctor, {T:not us. I'm}
+T|here. I've muted the desk phone but it'll flash.
+C|That's fine. Tariq, thanks for making the time. I know the afternoon's your busy {T:stretch. It's all}
+T|busy. This is fine.
+C|Good. And on my side, this is Maren. Maren works with me on connections to other systems, the plumbing side. You said on the phone that the lab software was going to come up a lot, so I asked her along, and she's mostly here to {M:listen. Hi}
+M|everyone. Mostly listening, yes. I'll have a few questions about the lab software when we get there, and I promise they'll be short.
+P|Good. Because that's the bit Bertrand's going to ask me about, so.
+C=|Understood. So before we get into it, how I'd like to use the forty minutes. This is a conversation, not a pitch. I want to understand how a case gets through the building today, where that hurts, and what you'd want instead. I'm not going to show you anything. And if what you need is a better whiteboard, I'll say that.
+P=|[laughs] That's why you're here and not the last lot. {L:Ask away. Yeah.}
+L|We've had the dashboard version.
+C|I'm sure you have. Perpetua, give me the two-minute version of Ketteridge. What you make, for whom, how big.
+P|Sure. We're a full-service dental lab. Crowns and bridges, that's most of it, then removables, dentures and partials, and implant work, which is the bit that's {C:growing. And}
+C|who are the customers? Dentists, I assume, but
+P|{C:how many?} About a hundred and ninety practices. Individual dentists, mostly, and then one group. Riverbend Dental Partners, which is forty-two offices across the state, and they're
+P=|about thirty percent of the work now. They came on in March. Two hundred and seventy-odd cases a month between them.
+C|Thirty percent from one customer.
+P=|One customer, forty-two offices, and about three hundred dentists who each think they're the customer. {L:Which they}
+L|are, on the floor. Every one of them has a way they like their margins, and a shade they swear by, and half of them write it on the Rx and half of them {P:don't. And}
+P|the half that don't are the ones who send it back.
+C|Right. And size, headcount?
+P=|Forty-eight people. Thirty-four technicians across the departments, four drivers, six in the office, which is Tariq and his team, and then me and Bertrand. Bertrand's my co-owner. He founded the place, he's still the best ceramist in it, and he's not on this call because he's at the bench, which tells you {C:something.}
+C|It does. And it's one building?
+P|One building here in Lexington, and then a small room in Louisville, three technicians doing removables only. We call it the Louisville room. It's on the same lab software, {L:supposedly.}
+L|Supposedly. It's on it. They just don't touch it. They've got their own whiteboard and their own way and I go up once a month and {P:pretend I don't see it. She}
+P|does. And I pretend I don't know she pretends.
+M|Can I ask one thing now, because it'll shape what I listen for. The lab software. Is it installed on a computer in the building or is it something you log into?
+T=|Log in. It moved to the hosted version two years ago. {M:So}
+M|the vendor holds the data and you reach it through a browser.
+T|Yes. Which Bertrand hates, {M:for the record. Noted.}
+C|We'll come back to that. So how did you two end up on a call with me? What happened?
+P=|Two things. The honest one is Riverbend. Their contract renews in January, and the renewal has a line in it now that says they want turnaround reporting per case, per office. Days from received to shipped, holds, remakes, by the second week of January, or they {T:start}
+T|{P:looking.} Sorry. Go on.
+P|No, that's the sentence. They start looking. And we can't produce it. We can produce it for a case if you give me twenty minutes and a highlighter. For a month of cases, for forty-two offices, {C:no. And}
+C|the second thing?
+P=|We lost a group in the spring. Twelve offices, Bluegrass Family Dental, nine years with us. They left over remakes. Not the number of remakes, the fact that when they asked us what their remake rate was, we couldn't tell them. We guessed. And they had a number, because they'd counted. {C:So}
+C|they knew more about your work than you did.
+P~|That's exactly how it felt. And it was May, and I said never again, and it's November already and here we {C:are. Okay.}
+C|That's a clear pair of reasons. Before I write them down, what exactly does the letter ask for?
+P=|Their operations person sent it, and the line says, and I'm reading it off my screen, per-case turnaround and remake reporting by office, available on request, from the renewal date. Available on request. Which means somebody in one of forty-two offices can email Tariq on a Tuesday and ask for a month, and Tariq {T:can't. I can't.}
+T~|I can do one case. I can't do a month.
+P=|And in September their operations person sat in this room and said, we love your work and we can't see it. That's the sentence I keep hearing. We love it and we can't see it. The renewal meeting is the second week of January, in their office, and I'm going to walk in with a report or I'm going to walk in with an apology.
+C|Okay. Let's do the boring bit now. Liesl, walk me through a case. From the moment something arrives at the door to the moment it goes back out. Slowly, and assume I know nothing about a dental lab.
+L~|Okay. So a case is one prescription from one doctor for one patient. The doctor sends an Rx, that's the script, with either an impression in a box or a scan, and increasingly it's a scan. {T:It}
+T|comes to me, or one of my two, and we enter it into the lab software. Case number, doctor, office, patient, what they've ordered, units, {C:the seat date. The}
+C|seat date being?
+L~|The appointment when the dentist puts it in the patient's mouth. That's the date that matters. Everything runs backwards from the {C:seat date.}
+C=|Got it. So it's not a seat like a user seat, it's a date.
+T|It's the appointment. Yeah. {L:And that's}
+L|when we get a ticket. The lab software prints a ticket, it's a paper form, it goes in a pan, {T:the pan's}
+L|a plastic tray, and the pan goes to the first department. Model room, for an impression. Design, for a scan.
+C|And then?
+L|And then it walks. Model room to design to whichever department makes the thing, so crown and bridge, removables, implants, and then finishing, and then QC, which is my bench, and then shipping. Six departments, {C:roughly}
+C|and each one, how do they know it's their turn?
+L~|Because the pan turns up. That's the system. The pan turns up on your {C:bench. Okay.}
+C|[laughs] And how does a pan end up on the wrong bench?
+L|Colour. The pans are colour coded by product, red for crown and bridge, blue for removables, green for implants, and if you're new and it's four o'clock and the pan's grey because we ran out of red, it goes wherever the last grey one went. The four new techs are where the wrong pans come from. Two of them are good, {P:by the way. She}
+P|says that so Bertrand doesn't hear it from me first.
+C|And the ticket, does anyone write on it?
+L|Everybody writes on it. The tech initials it when they finish their bit, sometimes. The date, sometimes. If there's a problem it gets a sticky note. {P:And the}
+P~|lab software, which is the thing Bertrand will say does all of this, has a status field on every case, and the status on every case is received, and then one day it's shipped, and nothing in between.
+C|Nothing in between.
+P~|Nobody updates it. They've got gloves on. They're at a bench with a handpiece. The computer's in the office. {C:So}
+C|the software knows a case came in and a case went out.
+P|And what it cost. And who to bill. It's very good at the billing. {T:It is}
+T~|good at the billing. That's the one thing I'd fight for. Invoices come out of it the day a case ships and go to the accounting system overnight, and I don't want to touch {C:that. Noted,}
+C|Tariq, what happens when a doctor calls and says where's my case?
+T|I look it up. It says received. {L:And then he}
+L|gets up. Tell them, {T:Tariq. I}
+T|get up.
+C|You get up.
+T~|I go and find the pan. I start where it should be from the date, and I walk the departments until I find it, and then I {C:call them. How}
+C|many times a day?
+T=|Twenty. Twenty-five on a Monday. Fifteen before {C:Riverbend. And}
+C|each one is?
+T=|Five minutes if it's where it should be. Fifteen if it isn't. Call it an hour and a half a day, all in, and my two do some of it {P:too. Yes. I've watched}
+P~|Tariq do the walk while a doctor's office is on hold and it's the single most expensive thing in the building, I think, and it's not on any report.
+C|I want to come back to that as a pain in its own right. Let me finish the journey first. Finishing, QC, shipping. Liesl, QC is you?
+L|QC is me, or one of two seniors if I'm not there. I look at every case that leaves. Every one. Bertrand looks at the implant cases as well, because he doesn't trust anyone with those, including me, [laughs] which is fair. If it's right it goes to shipping, {C:if it's}
+C|not right?
+L|It goes back to whoever did it, with a note, and it gets fixed, or if it can't be fixed it's a remake, and that's a whole {T:thing.}
+T|Sorry. Go on.
+C|Hold that. We'll do remakes properly in a minute. Shipping?
+L|Shipping's four drivers, each with a route, and the pan gets a box and a label and goes on the route for the seat date. Or before it, hopefully. The drivers don't know a case is ready until they walk into shipping in the morning, so if it's ready at two in the afternoon it waits for {T:tomorrow. Which}
+T|is another call I get.
+C|And the Louisville room?
+L|Same thing but smaller. Their pans don't come here unless it's an implant case, and those come down on the afternoon route because the mill's here. They ship from there. And they have their own {C:whiteboard. Their}
+C|own whiteboard. Let's talk about yours. What is on the whiteboard?
+L~|Every case that's due in the next three days, by department, in my handwriting. It's a six-foot whiteboard and it's full by Wednesday. I update it twice a day, morning and after lunch, from walking the floor. And then I type the same thing into a spreadsheet so Tariq can see it without {T:walking. Which}
+T|helps. When it's up to date. By two o'clock it {L:isn't.}
+L|By two o'clock it isn't, no. Because a pan moves the minute I've written it down. {P:And the}
+P~|spreadsheet is the thing we send Riverbend when they ask. A screenshot of Liesl's spreadsheet. That's our reporting. That's what a forty-two office group gets from us.
+C|Let me say back what I've heard, and you tell me where I'm wrong. A case comes in, Tariq enters it, it gets a paper ticket and a pan, the pan walks through six departments, the software says received the whole time, the whiteboard and a spreadsheet are the only view of where anything is, and Tariq walks the floor twenty times a day to answer the phone. And it ships and it bills, and that part works.
+P|That's it. That's the whole lab. {L:You missed}
+L|holds and remakes, but you said you'd come back.
+C|Right now. Remakes first, because it's the reason Bluegrass left. Liesl, what's a remake, and how many do you get?
+L=|A remake is a case that comes back from the doctor because it doesn't fit, or the shade's wrong, or it broke, and we do it again. From the model. {C:Thirty-one last month.}
+C|Thirty-one out of how many?
+L=|About nine hundred cases a month. So three and a bit percent, which sounds fine until you know that {P:Riverbend}
+P=|told us, in the renewal letter, that the number they'll accept is two. And Bluegrass was at four and a half when they left, which we know because they told us, and we checked afterwards from the clipboards, and they were right.
+C|And when a remake comes in, what happens?
+L|It comes to my bench first. I decide if it's a remake or a repair, {C:and}
+C|the difference is?
+L~|A repair I can fix in an hour, a remake starts from the model again, and the doctor doesn't care which it is, it's late either way. If it's a remake, Tariq makes a new ticket, same case number, dash R, and it goes to the front of the line in whatever department, which is its own problem, because it {T:bumps}
+T|{L:everything.} Yeah. The front of the line means somebody else's case moves, and then that one's late, and then that's a {C:call. Right.}
+C|And do you track them? Remakes?
+L~|There's a clipboard. By the QC bench. I write the case number and the doctor and what went wrong, and at the end of the month I add them up. That's the thirty-one.
+C|And who's on the clipboard? Which doctors, I mean.
+L|The same ones, mostly. {P:One office}
+P=|in the group, one office, I'm not going to say which one on a call, is about half of the group's remakes on its own. And the group doesn't know that, and I'm not sure I want them to find out from {C:us. Understood,}
+C|and I won't write the name down. What does a remake cost you? Materials first.
+L=|A hundred and forty in materials, average. Zirconia's less, an implant case is a lot more. I do the materials orders, so I know that one. {C:And the}
+C|bench time?
+L=|Three hours. Sometimes more for an implant case, but three, across the departments, because it goes through all of them again.
+C|Who feels a remake? Beyond the doctor.
+L=|Everybody. The tech does it again and doesn't get paid extra for it, the driver does the run again, the doctor's chair sits empty for the second appointment, and I hear about it from Bertrand, because he sees the materials go out twice. {C:And the}
+C|drivers?
+L|A remake gets picked up and delivered again, so two more stops, but the route's going there anyway. I wouldn't {C:count it. Fair.}
+C|Perpetua, what's a technician's loaded rate? Or what would you use?
+P=|Thirty-eight. Loaded, with benefits. Bertrand uses forty-two but he's thinking of himself. Use thirty-eight.
+C|Thirty-eight. And is it getting worse? The remake rate?
+L=|It feels like it. Since March, since the volume went up and we hired four new techs. I couldn't prove it. I'd have to go back through the {C:clipboards. Could}
+C|the software tell you?
+P=|It could tell me remakes by month, because of the dash R. If I asked it. I haven't asked it. {C:That's}
+C|a report I'd want before we meet again, if you're willing.
+P|I'll pull it.
+C|Tariq, the walk. Give me a bad one.
+T=|Last Tuesday. The Nicholasville office, Riverbend, calls at ten about a bridge for a seat on Thursday. Crown and bridge, not there. Design, not there. It's in removables, {L:because}
+L~|somebody put it in the wrong pan colour, so it went to the wrong bench, and it sat there two {T:days. Two days}
+T~|on a bench where nobody was going to touch it. I found it because I asked everybody in the building. Forty minutes.
+C|And the seat?
+T~|[crosstalk] We missed it. They rescheduled the patient. That's a credit.
+C|A credit meaning?
+P=|Meaning we don't charge for it, or we knock something off. Late credits. Last year, twenty-eight thousand -- no, twenty-eight thousand six hundred in credits for late cases. Twenty-eight six. That's from the books, Tariq pulled it for me last week.
+T=|That's the number. It's everything coded late, though, not just {P:the walk.}
+P=|Not just the walk. Holds are in there too. Most of it's holds, I think.
+C|Could you split it?
+P|Not without going through every one. {T:Tariq? Not}
+T|easily. The code just says late.
+C|Then I'll carry it as one number for late cases and not pretend to know the split. Tariq's rate, or the office's? Perpetua?
+P=|Thirty-one for the office. Loaded.
+C|Thanks. And is the walk getting worse, or is it just Riverbend?
+T=|It's Riverbend. It's twenty-five a day now and it was fifteen. It's not going to get better on its own, if that's what you're asking, because they're bringing on more {C:offices. Right.}
+C|Holds. Liesl, what's a hold?
+L~|A hold is when a case can't go forward. The impression's bad, or the scan's got a gap in it, or the doctor's asked for something that doesn't make sense and we need to ask. So the tech stops and the pan goes on the hold shelf with a sticky note.
+C|And then?
+L|And then somebody calls the office. {P:Somebody.}
+P|That's the problem. It's whoever remembers.
+L~|And the reason it's whoever remembers is that the tech who puts it on the shelf is the one least likely to want to call, because it's usually their own fault it took so long to notice. So the pan sits and the sticky note goes yellow.
+P|And then it's my problem, or Tariq's, or nobody's.
+P=|It's whoever remembers. The tech's supposed to tell Tariq, Tariq's supposed to email the office, the office is supposed to answer, and any one of those can take two days. Twenty holds a week, roughly, and every one of them loses two days on average, and the seat date doesn't {C:move. Twenty}
+C|a week.
+L|About that. Nobody counts them.
+C|Tell me about one.
+L~|Last month. Riverbend again, a partial, the scan had a hole in it where the [inaudible] was. It went on the shelf on a Monday, I saw it Thursday when I did the whiteboard, and nobody had called the office. Four days. The office said, why didn't you tell us Monday, and there's no answer to that. {T:It became}
+T|a credit.
+C|Is it getting worse? Holds?
+L|Honestly, I don't know. Nobody counts them. I couldn't tell you if it's more than last {P:year. Tariq?}
+T~|I only see the ones that turn into credits. The department leads would know, they're the ones who put a case on the {P:shelf. And they're}
+P|at the bench. Which is the whole point.
+C|Noted as something the leads could tell us and this room can't. Who does a hold reach? Who feels it?
+L~|The tech, because the case comes back to them cold a week later. Tariq, because the office calls him. The driver, because the route changes. And the patient, {P:who's}
+P~|sitting in a chair with a temporary that's falling out. That's who Riverbend hears from.
+C|Different kind of question. If this worked, a year from now, what's different? Perpetua first.
+P=|I want Tariq to answer where's my case without standing up. And I want to tell Riverbend their remake rate before they tell me. Those two. Everything else is nice. {L:If the}
+L=|pans tell me where they are without me walking, I'm happy. That's the whole thing for me. And no typing on the floor. If it needs typing it {T:dies. I just}
+T=|want to stop being the person who finds things.
+C|I'm writing those down as yours. Who decides on something like this? Money and the tool both.
+P=|Me, up to twenty thousand. Above that it's me and Bertrand together, and Bertrand's line is going to be that the lab software already does this if we'd just use it. Which is true, in the sense that it has a status field. And we've never disagreed on anything over a thousand dollars in eleven years, so it's not a fight, it's a conversation I have to have with him before I have it with you. {C:And}
+C|will he be on the next call?
+P~|If I ask him he'll come. He'll sit at the back and say nothing until the end and then say the thing about the status {C:field. Then}
+C|I'd like him there. What would he need to see?
+P=|Techs not typing. That's it. He's said it to me, he'll say it to you. If a tech has to type, he's out, and honestly so am I, because Liesl's right, it dies.
+C|Understood. What else would get in the way? Anything.
+L~|We tried a task app on the floor two years ago. Somebody's nephew set it up. It lasted a month, because it was typing. {P:The Louisville}
+P~|room. If Louisville isn't on it from day one, it's not real. They're three people and a whiteboard and they've been there six years, and Riverbend's Louisville offices go there, and the group doesn't care which building it is, it's one lab to them.
+T=|December. Nothing changes on the floor in December. Everybody's using their insurance before the year ends, we do twelve hundred cases, and if you put a new thing in front of the techs then, you'll lose it and {C:them. So}
+C|January, but Riverbend wants it in January.
+P=|The second week of January. So it has to exist before December and the techs have to be using it in the first week of January. Which is tight, I know that. And in order, it's remakes, then the walk, then holds, and I'll fight Liesl on that.
+L=|Holds first. But it's her money, so remakes first.
+C|It's tight. I'll say that back at the end. Anything else? What's the lab software vendor going to say?
+P~|They'll say buy their tracking module. We had one of their consultants in for an afternoon in July, and they showed Bertrand a screen with a keyboard in front of it, in each department, and somebody typing at it between cases. It's typing. So, no. But the quote's on Bertrand's desk still, and he reads it when he's cross with me.
+C|Okay. That's an alternative in play and I'd rather know than not.
+C|Can I try to put a number on this? Not to scare anyone, just so we're all looking at the same thing, and you tell me where it's wrong. Remakes: thirty-one a month, a hundred and forty in materials, three hours at thirty-eight. That's a hundred and forty plus a hundred and fourteen, two hundred and fifty-four a remake, times thirty-one is seven thousand eight hundred and seventy-four a month, times twelve, ninety-four thousand four hundred and eighty-eight a year. The walk: an hour and a half a day for Tariq, call it seven and a half hours a week at thirty-one, fifty weeks, eleven thousand six hundred and twenty-five. Credits, twenty-eight thousand six hundred. That's a hundred and thirty-four thousand seven hundred and thirteen. Call it a hundred and thirty-five thousand a year. That's before Riverbend walks and before anybody's time but Tariq's. Perpetua, does that hold up, from where you sit? {P!:Yeah. That holds.}
+C|Okay. I'm going to write that down as yours, not mine, and you'll see it again in what I send.
+L~|It's low. You haven't got my two seniors doing the walk when Tariq's out, which means QC stops, {C:or}
+C|the bumping. The front-of-the-line thing.
+L~|Or the bumping. It's a floor. It's the stuff we can count.
+C|A floor you'd defend is worth more than a ceiling you wouldn't. The other direction. If the remake number was where Riverbend wants it and you could show it, what would you go after? Anything you'd not go after today.
+P=|Riverbend has another sixty-odd offices in the next state that they're bringing on next year, and if we're the lab of record with the reporting, we get first look. That's probably another three hundred thousand a year. Honestly. Maybe more. And I'd go back to Bluegrass, but I'm not counting {C:that. I'll}
+C|write three hundred as your number with the probably attached to it.
+P=|Keep the probably. And write down that Bluegrass was fifty-two thousand a year to us, because that's what a remake rate costs when nobody can say it out loud.
+P|Can I ask the question Bertrand's going to ask me? How does anything you build even get the cases out of the lab software? Because if Tariq has to type them in twice, we're done before we start.
+@duet-start
+C|Maren, that's yours, but let me frame it. The case list is the thing we'd want. Every case, with its number, doctor, office, due date, product, units. Read out of the lab software on a schedule.
+M|Right. And the first question is whether it has an export or an interface. Most of these have a nightly export at least, a file that lands somewhere.
+C|A nightly file would be too slow for the walk, though. If a case comes in at nine and Tariq's asked about it at ten, it's not on the board yet.
+M|Then we'd want the interface, if there is one, and poll it. Every fifteen minutes is usually fine for a lab. The question is whether the vendor exposes the case list at all or only the invoices.
+C|And whether the Louisville room is in the same database. Because if it's a second instance, that's two feeds.
+M|Perpetua said it's on the same lab software, so I'd assume one database with a location field, but I'd want to see it. The other thing is the key. The case number.
+C|With the dash R for remakes. So a remake is the same case number with a suffix, which means the feed would give us two rows with the same root.
+M|Which is fine, actually. That's useful. We'd link them, remake to original, and that's your remake rate by doctor falling out of it for free. If the suffix is consistent.
+C|And if it isn't, if somebody types dash R in one place and R in another.
+M|Then we normalise it and log it. It's a small thing. The bigger thing is that the status field is never updated, so we can't read stage from the lab software. Stage has to live on our side.
+C|Which is the whole point. The lab software knows received and shipped, and everything between is ours.
+M|Right, and then the question is whether shipped comes back to us from the lab software or whether we set it. I'd read it. Their shipping is the truth, because it bills.
+C|Read it. Yes. And received we read. And everything in between is a tap on the floor.
+M|And nothing goes back. That's the other half of the answer for Bertrand, I think. We read the list, we never write to it.
+C|Is that a constraint we're choosing or one we're stuck with?
+M|Both, probably. Most of these don't let you write status through the interface anyway, and I wouldn't want to. Invoicing runs off it.
+C|Okay. So the feed question is: export or interface, how often, one database or two, is the case number consistent, and does shipped come through. Five questions.
+M|Five questions. I'll write them up for Tariq, because he'll know or he'll know who to ask at the vendor.
+C|And the answer to Perpetua's question is nobody types anything twice.
+@duet-end
+P|Sorry, are you two done? Because I have a question.
+C|[laughs] We're done. That was us thinking out loud, and I'm aware you watched it.
+P=|It was interesting. It was also nearly three minutes I didn't say anything, and I'm the customer. Go on, what's the answer?
+C|The answer is that we'd read the case list out of the lab software and nothing would be typed twice, and Maren's going to send Tariq five questions about how. Maren, the invoicing thing, since Tariq raised it. Say that part plainly.
+M|Plainly. Tariq, this is your worry, isn't it, that something touches the invoicing. So the way this would work is that we read the case list out of the lab software on a schedule, every fifteen minutes or so, and we never write anything back into it, {T!:yeah, exactly, nothing back,} which means your invoices keep coming out of the same place they do today, the day a case ships, and the accounting system never knows we exist. The only thing that changes is that when a doctor calls, the answer is on a screen instead of on a bench. And if the vendor turns out to have no interface at all, we'd know that before anybody built anything, because that's the first of the five questions, and then the honest answer is a nightly file and a slower board, and I'd tell you that rather than pretend.
+C|And that's the thing to put in writing for Bertrand.
+M|I'll put it in the same note as the questions. {T:As long}
+T|as I'm not the one typing the five answers.
+M|You're not. You're forwarding them to whoever the vendor gives {T:you. That I}
+T|can do.
+M|One more for the note, Tariq. Does the case number ever change once it's entered, or is it fixed for life?
+T=|Fixed. Only thing that never changes.
+M|Good. That's the thing I most wanted to hear today.
+C|Let me play back a first cut, and this is just so you can hear it, not to sign anything. One board of cases, fed from the lab software, one row per case with the doctor, the office, the seat date and the product. A stage on every row, model, design, the department, finishing, QC, shipping, and the stage moves when a tech taps a button on a screen at the bench, one tap, no typing, and I'd want to watch a tech do it before I believed it. A hold is a stage too, with a reason picked from a list, and the moment a case goes on hold the office gets an email and Tariq gets a flag, and a case on hold more than a day goes red. Remakes come in as their own rows, linked to the original, so remakes by doctor and by office is a view you open rather than a clipboard you add up, and that's the Riverbend report. Louisville on the same board with a location column, day one. And the phone answer is Tariq looking at the board. Nothing goes into the lab software, nothing changes about invoicing. Is that the right first cut, for the three of you? {P!:Yeah. Yes.}
+M|And I'll write up the feed questions separately, so that doesn't hold up the rest.
+P=|Remakes by doctor first, though. If I get one report out of this, it's that one. The walk's Tariq's problem and I love him, but the report's the one that keeps a {T:customer. Thanks.}
+P|[laughs] You know what I mean.
+L=|And I want to see a tech tap it. Before December. With gloves on. If that works, the rest I'll believe.
+C|Then that's the test, and I'd rather fail it in a walkthrough than in December. Perpetua, next step. I'd like to build a first version of that board with a handful of sample cases, not yours, and walk the three of you and Bertrand through it, and Liesl taps it with gloves on. When?
+P=|Thursday the twelfth. Eleven, our time. I'll get Bertrand in the room if I have to carry him.
+C=|Thursday the twelfth at eleven Eastern. Forty-five minutes?
+P=|Forty-five. We'll take thirty if it's good.
+C=|And before then. Maren sends Tariq the five feed questions this week, Tariq forwards them to the vendor or answers what he can. Perpetua pulls the remakes-by-month report from the lab software. And Tariq, if you can send me a sample of the case list with no patient names on it, ten rows, that's plenty.
+T=|Initials and case numbers. That's what's on the pan anyway.
+P=|I'll pull the report tonight, actually, because now I want to know.
+C|And I'll send a recap tomorrow, with the number and the questions. Anything I've missed?
+L~|Colour. If the board knows the pan colour, I'll be very happy. Half the problem is the wrong colour pan, and I'd like the board to shout about it before a tech does.
+C|Noted, and that's a good one. Perpetua?
+P~|No. Just don't let Bertrand talk you out of it on the twelfth.
+C|I'll bring the status-field answer with me. Thank you, all three of you. Tariq, go and answer your phone.
+T|It's been flashing for ten minutes.
+P|Thanks. Talk on the twelfth.

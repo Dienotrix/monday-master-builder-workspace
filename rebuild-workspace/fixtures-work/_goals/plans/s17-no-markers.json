@@ -1,0 +1,46 @@
+{
+  "goals": [
+    {
+      "id": "G1",
+      "goal": "The avail actually right by the first week of February, when the chain orders",
+      "quote": "So the avail has to be right, actually right, by the first week of February, because that's when they build their spring order.",
+      "location": "turn 142, 16:36, Teodora Okoro",
+      "speaker_role": "sales manager",
+      "pains": ["P1.1", "P1.2"]
+    },
+    {
+      "id": "G2",
+      "goal": "Look at a line, say yes, three hundred, Thursday, and not phone anybody",
+      "quote": "I want to look at a line and say yes, three hundred, Thursday, and not phone anybody.",
+      "location": "turn 172, 20:18, Teodora Okoro",
+      "speaker_role": "sales manager",
+      "pains": ["P1.1", "P1.2", "P1.3"]
+    },
+    {
+      "id": "G3",
+      "goal": "See what's sold before he pots on",
+      "quote": "I want to see what's sold before I pot on.",
+      "location": "turn 174, 20:29, Rasmus Wrenfield",
+      "speaker_role": "grower and production manager",
+      "pains": ["P2.1", "P2.2"]
+    }
+  ],
+  "assumption_kinds": [
+    "board-architecture",
+    "gap",
+    "leaning",
+    "leaning",
+    "automation-condition",
+    "leaning",
+    "board-architecture",
+    "leaning",
+    "gap",
+    "leaning",
+    "gap",
+    "gap",
+    "board-architecture",
+    "gap",
+    "gap"
+  ],
+  "note_add": null
+}
