@@ -1,0 +1,72 @@
+# `ledger.py` part 1, for the part-2 agent
+
+Date: 2026-10-16. Internal build file: never client-facing.
+
+`plugins/monday-master-builder/scripts/ledger.py` (2,569 lines), tested by `tests/unit/test_ledger.py` (1,676 lines, 71 tests). Part 1 builds the frame and `check`, `bind`, `workspaces`, `approval`, `change-check`, `run start`, `run heartbeat`, `run end`, `intent`, `record`, `verify`, `depart`, `ui-step`, `irreversible-yes`, `live-map` and `live-map set`. Part 2 fills in `classify`, `native-map`, `snapshot`, `compare`, `reconcile` and `estimate`, which sit in `COMMANDS` as `None` and answer "not built yet" with exit 3. Gates at hand-over: the three test patterns green under `py -3.9` and `py -3.14` (71; WP2's 140 with one skip; 21), lint 0 errors with the `ledger` pinned pair checked.
+
+## The frame
+
+- Launch: `[interpreter, <plugin>/scripts/ledger.py, (--record <client folder>), <command> [action] flags...]`. `--record` is global and comes first; the current folder is the default. A folder without `CLIENT.md` or `account.json` is exit 3 naming the missing file.
+- `main()` holds `mc.record_mutex(root)` once around the command and its `emit` (W25: the hold lasts until the command has printed). Every lease primitive the commands call re-enters it (W26, proved by the first test).
+- Envelope: `{"ok": code != 1, "command": "<name as typed>", "asked_by": <--strand or null>, **payload}`; `refusals` on exit 1 (`mc.Refusal`), `error` on exit 3 (`mc.CannotRun`), plus a top-level `committed` when the exception carries one. A usage error is exit 3 with file `ledger.py`, field `arguments`. Any other exception is exit 3 with the envelope.
+- `COMMANDS` maps the 22 forms to `cmd_x(root, args) -> (code, payload)`. `run` is a group (`start`, `heartbeat`, `end`); `live-map` takes an optional positional `set`. A command left `None` skips the unknown-argument check, so part 2 must add its flags in `build_parser()` and replace `None`.
+- Adding a part-2 command: write `cmd_x`, put it in `COMMANDS`, add its flags in `build_parser()` (`groups[name].add_argument`; `--strand` is already there for `classify`, `native-map`, `estimate`, `compare`, `snapshot`, `reconcile`). Inside, start with `led = Ledger(root, short)` and `refuse(*led.newer())`, collect every refusal, `refuse(*reasons)`, then write through `commit()`.
+
+## Helpers inside `ledger.py`
+
+- **Vocabulary**: the pinned region (`TYPES`, `ORIGINS`, `STATUSES`, `RESULTS`, `STATES`, `APPROVAL_MODES`, `YES_MODES`, `CLASSES`, `OPERATIONS`, `RUN_KINDS`, `RUN_STATES`, `CONSTRAINTS`, `CHANGE_RESULTS`, `DECISIONS`, `UI_STATUSES`, `RECONCILE_CLASSES`, `RECONCILE_MODES`, `CONFIDENCES`) holds the backticked tokens of `record-map.md` `## Pinned: ledger` and no other literal; put nothing else between `# pinned: ledger` and `# end pinned`, or the lint fails. Outside it: `KEY_FORMS` (key shape per type), `ACCOUNT_LEVEL`, `LIST_TYPES`, `LISTS` (type to approval list field), `PROMPT_TYPES`, `IDENTITY` (W73's identity fields per kind), `POLL_CEILINGS`, `COMPANIONS`, `LIVE_FIELDS`, `ROW_FIELDS`, `SKELETON`, `MAP_HEAD`, `A21`.
+- **Digests (W73)**: `canon(value)`, `hash8(fields)`, `digest(prefix, fields)` and `identity(kind, obj)`; `reconcile`, `snapshot` and `compare` should use these, not their own copies. `verify` stores `digest(key.lower(), identity(type, read object))`.
+- **Reading**: `Ledger(root, short=None)` reads `account.json`, `CLIENT.md` and, with a short id, `STRAND.md` and `build.json` (`.build` is `None` when absent). It provides `reload()`, `newer()` (W36 findings), `require_build()` (K40), `version`, `qualified`, `version_fields()`, `approval(ref)` (W43, read from the file as it is now), `frozen(entry)` -> `(text, record-relative name)`, `objects`, `index`, `client_ids`, `targets(short)`, `place(monday_id)` (W40), `row_workspace(key)`, `run(run_id)`, `operational()` (W41's list). The module also provides `operational_workspaces()`, `sandbox_lines()`, `input_json(root, value, flag)` (W91 inside-the-record rule plus W35's numeric-id refusal), `numeric_ids(data)`, `digits(flag, value)`.
+- **Blueprints (U1, W42)**: `element_table(text) -> (rows or None, problems)` and `prompt_block(text, key)`; `parse_ref("v0.1r4#B1") -> ("v0.1", 4, "B1")`.
+- **Fence and run (W28, W29)**: `fenced(root, args, states)` is the common opening of a fenced strand command: newer schemas, the three fence flags (missing ones are refusals, never read from the lock), `--expect-sha`, the holder strand (`mc.lease_status`), and the presented run. `fence(root, args)` calls `mc.lease_fence`: `(False, reason)` is exit 1, an exception (mutex timeout, torn lock) propagates as exit 3. After the fence, call `led.reload()`: the passing fence rewrote `account.json`'s lease mirror.
+- **Writing (W25, W33, W34)**: `commit(command, steps, run_id, next_call)` runs `[(record-relative name, callable, lease mark), ...]` in order. A failure of the first is exit 3 naming its file with nothing committed; a later one is exit 3 with error field `committed` and the `committed` object `{command, written, not_written, lease, run_id, next}`. `json_step(root, path, data)` writes JSON through `mc.write_file` (backup, then in place). `save_build(led, command)` stamps `updated_at` and writes one `build.json`, returning `{name: new sha}`. `sha_reason(led, expect)` is W34's check (`none` = must not exist). `map_step(led)` renders `live/live-map.md` from `live_objects` and returns `None` when the rows are unchanged; `map_rows(text)` and `map_view(row)` read and compare the map (nine or ten columns).
+- **Logs (W21)**: `entry_log(strand, type, version, key, lines)` builds the `log` entries a command prints; ledger.py never writes `log.md`.
+- **Check (W63)**: `Checker(root, only).run()` gives `blocking`, `warnings` and `shas`. Part 2 can extend it, for example by checking the `reconcile` findings or the `native_map` shape, with `self.block(...)` and `self.warn(...)`.
+
+## How the tests build roots and records
+
+- `make_plugin(target)` copies `tests/unit/fixtures/plugin/` and `mmb_common.py`, `record.py` and `ledger.py` into `target/scripts/`. `Base.setUpClass` loads `ledger.py` and `record.py` from that copy; `mmb_common` is the module the test file imported, so `mock.patch.object(mc, "now_utc", ...)` pins the clock for both scripts. `tearDownClass` asserts that `tests/unit/fixtures/` hashes the same as before (K14).
+- `Base.setUp` and `copy_home()` copy `fixtures/home/` into a folder whose name holds a space, point `MMB_HOME` at it and `HOME`/`USERPROFILE` at an empty canary, and pin the clock to `2026-11-05T14:30:00Z`. A test that needs a fresh record mid-way calls `copy_home()` and sets `os.environ["MMB_HOME"]` again.
+- Variants: `make_v2()` writes `versions/v0.2/` with a blueprint carrying the `## Element keys` table `TABLE` (every kind, a referenced `B9`, the publication and activation rows, `U1`), the prompt blocks of `PROMPTS` and the ids `AS1`, `AT1`, `FK1`, and moves `STRAND.md` to `v0.2`; `approve()` runs `approval` on it with `IRREVERSIBLE` and `--referenced B9`; `client()` makes the record a client-account one. The C129 stand-in (`CheckTest.table_in_v01`) rewrites the v0.1 frozen file's heading in the copy only.
+- Steps: `change_check()`, `start()` (sets `self.run_id`), `fence()`, `argv(command, ...)` (adds `--strand 001`, the fence flags and the current sha), `go`/`no` (exit 0 / refused with the tree unchanged), `intent`, `record`, `verify(key, obj, result, note)`, `yes(key, mode)`, `end()`, `sales()` (W2 built and recorded through `workspaces`), `agent()`, `retake()` (release and take through the primitives only, K37), `failing(name, nth)` (patches `mc.write_file` to fail on the nth write of a file name).
+- Assertions: `ledger(*argv)` runs `main()` in process and checks the envelope, no `\r`, and four non-empty parts on every finding with a POSIX file; `refused()` returns the refusals; `check()` returns `(code, blocking pairs, warning pairs)` and asserts nothing was written. `SubprocessTest.sequence()` runs one call of every subcommand group in its own process at the machine's clock: with `PYTHONDONTWRITEBYTECODE=1` in one test, and without it against a fresh plugin copy in `test_K04_G49_...`, which asserts the copy's file list is unchanged.
+- At the pinned clock the fence's heartbeat write changes nothing when the clock has not moved, so `mmb_common` skips the mirror and lock writes; a test that counts writes moves `self.now` first (see `test_K48_...`).
+- Part 2's `test_ledger_read.py` can import `Base` from `test_ledger` as `test_record_part2.py` does from `test_record`.
+
+## Choices taken where the decisions are silent (worth the user's nod)
+
+1. **Referenced rows at approval.** The element-key table carries key, kind and name only, so `approval` takes `--referenced <key>` (repeatable) to plan a row as `pre-existing-referenced` (W12 needs approval to plan it).
+2. **Other origins at intent.** `intent --origin pre-existing-modified|other-strand-modified` may change a planned `created` row's origin, only while it is planned; `pre-existing-referenced` never goes through `intent`.
+3. **Two keys on `attempt`.** `attempt` carries `operation` and `retry` beside `run_id`, `started_at` and `intent_digest`: `record` needs to know that the call was an archive, and `retry` (true only for a retry out of `mismatch`) enforces "once" for the one different call form. `check` accepts the extra keys.
+4. **`intent --product`** sets a workspace row's `product` (W11 names the field and no flag). It is required on a workspace create and refused on other rows.
+5. **`irreversible-yes --approval-ref`** (optional, default the row's ref): an archive or a change of a row kept from an earlier revision is approved by the later revision, whose `irreversible_listed` names it.
+6. **Missing `--expect-sha`** is a refusal (exit 1), like the fence flags (W29), not a usage error.
+7. **String ids for column, AI column and group rows.** monday gives these string keys, so `record --id` accepts `[A-Za-z0-9_]+` for them; every other `--id` must be digits (W35).
+8. **An item batch's `approval_ref`** is the approval of the strand's current version, else its board's.
+9. **Moves the table leaves to the operation:** `archive` only from `verified` (with an id or item ids); `connect` and `convert` from `planned` or `verified`; `update` from `verified` or `written`; an `update` is classed as its type's create.
+10. **Row normalisation.** A row a command changes is rewritten with every `build/2` field in record-map order (the optional ones at their defaults); rows the command does not touch stay as found.
+11. **`bind`** reads the data object itself (no `data` wrapper); `name` falls back to the slug and `tier` to `unknown`; a refresh prints no log entry; `kind` and `build_target` are copied from `CLIENT.md` at every bind.
+12. **`workspaces`** refuses re-recording the same id for the same product ("nothing to record").
+13. **The holder strand.** Every fenced command, and `run start`, refuses when the lease is held by a strand other than `--strand` (W92's "the fence checks that strand's lease"), before the fence runs.
+14. **`run start --kind`** (default `build`; `doc-copy` refused as deferred), and `--answer-words` required with a yes.
+15. **Archive evidence at the yes.** `irreversible-yes` refuses a `--what` that mentions archiving without `--evidence`; the hard check is at `intent`, which refuses an archive whose yes (or, under `own-account-poc`, whose `--evidence`) has none (K215).
+16. **`check` and card entries.** A `card` entry counts as listed when its key is a row of the ledger; `per-item` and `grouped` entries must be in an approval's lists. An account-level row without a scope blocks only once it is past `planned`. A record with live objects and no `live/live-map.md` blocks.
+17. **Publication and activation of an account-level parent** take the parent's scope; a publication's name must say `active` or `inactive` (K160's decided state).
+18. **Digests of the kinds W73 does not list** (form, widget, AI column, sequence, webhook) cover the whole read object.
+19. **An other-strand-modified row at `run end`** refreshes the owner's live row (`monday_id`, `kind`, `workspace`, `state`, `digest`, `last_verified`) and keeps its `dependants`.
+20. **State from a read.** `verify` sets `state` from the read's `state` when it is a state token (`ACTIVE` lowered), else `active` on a first match.
+21. **`do-not-change` beyond other-strand rows.** `intent` refuses any write whose own live row or whose parent's live row is `do-not-change` (K157's third case, generalised).
+22. **The `build/2` skeleton** a first approval creates is embedded in `ledger.py`, not read from the template.
+23. **The element table's header** must begin `key | kind | name`; any other header is a problem, as is a heading with no table.
+24. **The live-map header is ten columns** (W59), where K218's text still lists nine.
+
+## Clauses not met, or met another way
+
+- **K13**: `test_ledger_read.py` is part 2's and `tests/fixtures/snapshots/` with `test_snapshots.py` is step 4's; part 1 provides `ledger.py` and `test_ledger.py`.
+- **K17, K18**: the suite passed here on Windows under 3.9 and 3.14 as a gate; the kept Windows run (step 10) and the macOS run (step 11) are still owed.
+- **K19, K33, K37**: inspections for the checklist. No test writes the lock or the lease block, and no other script writes `build.json`; there is no runtime test of either.
+- **K79**: the `card` entry is written by `intent` under `own-account-poc`, as W48 decides, not by `irreversible-yes` (which takes `per-item` or `grouped` only). The test asserts the card entries `intent` writes.
+- **K111**: a torn lock and a held mutex are exit 3 with nothing written. A lock that parses but is malformed is refused by `mmb_common.lease_fence` itself (`(False, reason)`), so it is exit 1 with nothing written. Changing this would mean editing `mmb_common.py`, which is outside part 1.
+- **K104**: the spy test proves that every read and write sits inside a hold and that the fence runs before the ledger write. It does not order the fence against every write of every fenced command one by one.
+- **K181**: `companions` takes seven keys (W15 adds `tasks_board_id` and `folder_id`), not five.
+- **K114**: proved through the lock's history length read with `mc.read_lock` (a primitive), since `lease_status` carries no history.
