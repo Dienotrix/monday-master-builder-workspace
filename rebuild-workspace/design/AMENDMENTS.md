@@ -7,6 +7,12 @@
 
 The user made these decisions after the design workflow started. They take precedence over anything in SPEC.md, ARCHITECTURE.md or BUILD-PLAN.md that conflicts. The design revision step folds them in.
 
+## A29. WP3's recorded reads are synthetic first; a scrubbed live capture confirms them later (decided 2026-10-16)
+WP3's classification tests need recorded monday reads, and none exist yet. Asked whether to capture them from a live account or build them, the user decided, in their words: "synthetic recorded reads first, built from the probe findings in shared/ and monday's published schema, clearly marked synthetic; a scrubbed read-only capture to confirm them waits until I name a test workspace (A11-1)."
+- **Synthetic first.** The reads WP3 grades `classify`, `compare` and `reconcile` against are built from the findings in the plugin's `shared/` files and from monday's published API schema, and each one is marked synthetic.
+- **A capture confirms them later.** A read-only capture from a live account, scrubbed, confirms the synthetic reads once the user names a test workspace. A11-1 stays open, and this decision takes no default for it.
+- **Consequences the design takes (the assistant's reading, for the user's nod):** each synthetic fixture names its sources and the ring whose shapes it follows, and every id and name in it is made up, so no account, workspace or object id enters a project file; BUILD-PLAN WP3's inputs line (recorded reads with the ring each was taken on, re-captured when older than the current ring) reads as synthetic reads with the ring they model until the capture; WP3's classification acceptance is met against the synthetic reads and says so; the capture, and the comparison of synthetic against captured shapes, join the A11-1 moment; nothing here writes to any account.
+
 ## A28. One yes for a proof of concept in the user's own account; realism over the hour (decided 2026-10-13)
 Round 3 of the SPEC interview.
 - **One yes.** For a proof of concept in the user's own account, where notifications reach only the user, the approval card takes one yes for the whole revision, lists included. The separate yes per list of A1, A17 and A18 stays for a build in a client's account and for any list whose rows notify real people. On that same proof of concept the card's yes also covers the irreversible steps, so the build does not stop again at execution to ask by number (round 6 of the interview); the execution-time confirmation stays for a build in a client's account.
