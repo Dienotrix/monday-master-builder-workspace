@@ -536,6 +536,8 @@ In `shared/record-map.md` line order; another step applies them.
 
 ## Design touch-ups
 
+**Applied 2026-10-16**, at the user's word: every entry below, and the design-text follow-ups the later sections name (the lease fixes' R1, R2, R4, R5 and R6, and G23 as settled and refined on 2026-10-15), except BUILD-PLAN's WP2 size line and A§9.8's carry rule, which were applied on 2026-10-15. The `safety.md` section 8 entry was already true after the lease fixes, and the WP1 vocabulary pass on the rest of `safety.md` is done. Logs: `touchups-log-architecture.md` (with the check's fixes) and `touchups-log-buildplan.md`.
+
 ARCHITECTURE, in line order:
 
 - **A§5.2:336** (G36): the scripts find the plugin from their own path; only the interpreter command waits for the Windows re-run.
@@ -635,5 +637,5 @@ These settle the four not-met clauses of `CHECKLIST.md` other than the size limi
 
 - **G23: the default stands.** Every `v0.x` during the sales process is a functional proof of concept; a sign-off of a `v0.x` leaves it one; when the user reports the sale closed, the plugin proposes `v1.0`, the working solution (AMENDMENTS A25, answered 2026-10-15). The code needs no change.
 - **C26, size:** the built size is accepted; BUILD-PLAN's WP2 size line now carries the built figures.
-- **G23, refined by the user the same day:** the move from proof of concept to working solution is smooth. `v1.0` continues the same strand and workspaces from the last `v0.x` as one more iteration (A21's continue rule), never a fresh build; the open assumptions are listed to confirm. Design touch-up owed: A§7.4 and A§8.8 say so; the front door (WP8) proposes `v1.0` when the user reports the sale closed.
+- **G23, refined by the user the same day:** the move from proof of concept to working solution is smooth. `v1.0` continues the same strand and workspaces from the last `v0.x` as one more iteration (A21's continue rule), never a fresh build; the open assumptions are listed to confirm. Design touch-up owed: A§7.4 and A§8.8 say so; the front door (WP8) proposes `v1.0` when the user reports the sale closed. Applied 2026-10-16 (ARCHITECTURE 7.4 and 8.8; BUILD-PLAN WP2, WP7, WP8 and H66).
 - **Lease review finding 12: option (a), the user's choice of 2026-10-15.** A session that lost its epoch and label waits until the lease is stale (60 minutes after the last refresh), then the lease is broken with the user's yes and taken afresh; no same-strand takeover. As built; A§9.8's carry-rule sentence now says so.

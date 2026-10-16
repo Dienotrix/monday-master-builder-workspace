@@ -195,8 +195,8 @@ Date: 2026-10-15. Applied by the lease-fix pass; the decisions are recorded unde
 
 ### Not done here
 
-- `shared/safety.md` sections 1 to 5, 7, 9, 10, 12 and 13 still say "chat" where A§9.8 says "session" (a WP1 vocabulary pass, listed in DECISIONS).
-- The design text touch-ups the new decisions list (A§5.3, A§5.4, A§7.1, A§9.8, BP:134, BP:248, BP:502) are not applied; they are listed with each decision.
+- `shared/safety.md` sections 1 to 5, 7, 9, 10, 12 and 13 still say "chat" where A§9.8 says "session" (a WP1 vocabulary pass, listed in DECISIONS). Done 2026-10-16.
+- The design text touch-ups the new decisions list (A§5.3, A§5.4, A§7.1, A§9.8, BP:134, BP:248, BP:502) are not applied; they are listed with each decision. Applied 2026-10-16 (DECISIONS, Design touch-ups).
 - The Windows run list above stands; finding 8's test and the write-order change (items 1, 5 and 7) are the parts it now also exercises.
 
 **Finding 12, settled 2026-10-15:** the user chose to keep the 60-minute wait (option a). No code change; ARCHITECTURE 9.8's carry rule corrected to match.
