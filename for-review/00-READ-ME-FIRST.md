@@ -15,11 +15,12 @@ Everything in this folder is yours to look at. The documents here are copies (re
 | R7 | What the real calls changed (optional) | `06-REAL-CALL-LESSONS.md` — top section and §9 | `…/design/REAL-CALL-LESSONS.md` | Skim; object where a rule is wrong. | Background to R4 and R5; the intake lessons still apply to v1. | 3 | optional |
 | R8 | **Stage 1b run plan and the build-readiness check** | not copied here; read `~/DelOps/monday-master-builder-dev/rebuild-workspace/design/stage-1b/PLAN.md` (section 2 is the decisions list) and `build-readiness-spec.md` | same files | Nod or object to the decisions in chat; the run starts on your go with multi-agent mode on for that run | They shape every v1 document the run rewrites | **1** | **complete 2026-10-13**: run done, 36 findings fixed; acceptance and seven open points in `stage-1b/acceptance.md`; the re-cut documents are rows R1 to R3 |
 
-## 2. Run (stage 0)
+## 2. Run
 
 | # | Item | Where | What to do | Status |
 |---|---|---|---|---|
 | P1 | **Stage-0 probe pack** | `stage0/README.md` (what to run), `stage0/results.md` (where answers go) — linked into the repo | Run with the assistant as guided steps on 2026-10-12. | **done for v1** (A20: v1 runs in Claude Code on the Mac; every plugin-behaviour probe passed) |
+| P2 | **WP2 Windows checks** | `windows-run/wp2-windows-bundle.zip` (copy-only route), or `monday-master-builder/tests/windows/` in a clone | Run under Python 3.9 and the newest Python 3; the results go to `rebuild-workspace/build/wp2/windows-results/`. | **done 2026-10-16** with the assistant, from a clone on Windows 11 under Python 3.9.13 and 3.14.5: every automated check passed; the four optional manual checks (OneDrive, Ctrl+C, WSL, network share) were not run |
 
 ## 3. Decide (asked at the moment each first matters — nothing to do now)
 

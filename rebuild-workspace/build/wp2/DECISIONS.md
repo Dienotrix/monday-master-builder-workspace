@@ -298,6 +298,8 @@ Each entry gives the decision, one sentence of reason naming the source that win
 
 **Follow-up.** Design text touch-up: A§5.2:336 records that the scripts find the plugin from their own path, so only the interpreter command remains for the re-run.
 
+**Windows evidence (2026-10-16), for the stage-5 re-run.** On a Windows 11 machine with python.org Python 3.9.13 and 3.14.5 installed, `py -3.9 <script>` and `py -3.14 <script>` ran the Windows checks, which launched `record.py` as `[sys.executable, script, ...]` under both with no trouble. `python3` there is the Microsoft Store alias: it prints that Python was not found and exits 9009. `python` reached the python.org install only because the installer put its folder ahead of the same alias on PATH, which is an installer option. So the shared form above, `python3 ...`, does not run on such a machine, and the Windows spelling the re-run settles has to be one that resolves without the Store alias; `py -3` does where the python.org launcher is installed. Nothing is decided here; C22 waits for the re-run as before.
+
 ### G37 Range of the `CLAUDE.md` warning
 
 **Decision.** The warning names every folder from the home itself (`MMB_HOME` or the default) up to the filesystem anchor (walking `Path.parents`, so up to `C:\` or `/`) that holds a file named `CLAUDE.md`; `clients/` and everything below it are not searched, since a client folder's own `CLAUDE.md` is intended (A22). Each hit is one warning with the folder as `file` and expected "no CLAUDE.md above the clients folder"; the test plants the file in the temporary home's parent and asserts that folder is named.

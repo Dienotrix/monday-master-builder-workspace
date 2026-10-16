@@ -139,16 +139,29 @@ Severity: **blocking** (fix before WP2 is accepted), **should fix** (fix in WP2 
 ## What a real Windows run must exercise
 
 1. `test_C52_G09_mutex_serialises_processes` and `test_G09_mutex_is_reentrant_and_times_out` under a python.org Python: the `msvcrt` branch, a second handle in the same process refused, and the timeout path.
+   Outcome (2026-10-16): passed under both Pythons. Four processes by 20 cycles ended at 80, and a second handle in the same process was refused after its 0.5-second timeout with exit 3.
 2. The take race of R1 (eight processes) and the refresh-against-break race of R2.
+   Outcome: passed under both. One winner of eight, epoch 3, mirrors agreeing; the refresh against the break was consistent in 3 of 3 rounds.
 3. A process killed with `taskkill /F` while it holds the mutex: time how long until another process gets it (Windows releases such locks "depending on available resources").
+   Outcome: passed under both. The harness killed the holder with `Popen.kill()` (TerminateProcess, as `taskkill /F` does), and another process had the mutex 0.06 seconds later under 3.9 and 0.05 under 3.14, well inside the 30-second mutex timeout.
 4. Unlock after the body raised: `seek(0)` then `LK_UNLCK` must not raise, so an error inside the hold is not masked.
+   Outcome: passed under both. The error reached the caller unmasked, the mutex was free in and out of the process at once, and unlocking after the file position moved did not raise.
 5. Sharing violations during take, release and break: hold `account.json`, `CLIENT.md` and `log.md` open with no write sharing (a small `CreateFileW` call with share mode 0 is enough) and record the output; this is findings 4 and 5 on real Windows.
+   Outcome: passed under both; every command answered with one JSON object. With share mode 0 on any of the three files, or writes denied on `account.json` or `CLIENT.md`, the command exited 3 with the lock unchanged, and a retry after the hold closed succeeded. With writes denied on `log.md`, the lease change committed and the exit 3 carried `committed`, as finding 4's fix intends; a retry was then refused (exit 1) because the change had already happened, and `lease sync` left the mirrors agreeing.
 6. A record home inside a OneDrive-synced folder: take and refresh during an upload.
+   Outcome: not run; it needs a person and was optional. `safety.md` section 8 already keeps the record home out of a synced folder.
 7. Ctrl+C in a Windows console during `lease take`: the state of `lock.json` afterwards (finding 6).
+   Outcome: not run; it needs a person and was optional.
 8. A WSL session and a native session on the same record under `C:\`: confirm the two mutexes do not exclude each other (finding 11), and read the WSL clock against the host after the machine sleeps (finding 10).
+   Outcome: not run; it needs a person and was optional. Findings 10 and 11 stay as kept below, with the rule in `safety.md` section 8.
 9. Which `os.name` and lock branch each Python on the machine reports (python.org, Store, MSYS2 or Cygwin if present).
+   Outcome: observed. Two python.org Pythons, 3.9.13 and 3.14.5, both `nt` on the `msvcrt` branch with the mutex probe ok; no MSYS2 or Cygwin Python was found.
 10. A home given with a different drive-letter case or an 8.3 short name: the mutex re-entrance key is the absolute path string, so two spellings in one process would wait on themselves.
+   Outcome: passed under both. The other drive-letter case and the 8.3 short name each entered the mutex at once. The 8.3 spelling differs from the given one under `normcase(abspath)` and agrees under `Path.resolve()`.
 11. `msvcrt.locking` on an SMB share, if a record is ever kept on one.
+   Outcome: not run; it needs a person and a share, and was optional.
+
+The run of 2026-10-16 used python.org Python 3.9.13 and 3.14.5 on Windows 11; the results, with the Windows user name replaced by `<user>`, are in `windows-results/`. Finding 8's test, `test_R8_G09_a_locking_error_is_named_not_read_as_contention`, ran on the `msvcrt` branch in the unit suite under both and passed.
 
 ## Fixes
 
