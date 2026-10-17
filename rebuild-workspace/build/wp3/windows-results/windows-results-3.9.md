@@ -1,26 +1,25 @@
 # WP3 Windows run, Python 3.9
 
-Date: 2026-10-16 21:55 UTC. Internal build file: never client-facing. Step 10 of `PLAN.md`, run by the main session on this machine.
+Date: 2026-10-17 11:49 UTC. Internal build file: never client-facing. Step 10 of `PLAN.md`, run by the main session on this machine.
 
 ## System
 
 - System: Windows-10-10.0.26200-SP0
 - Python: 3.9.13 (<home>\AppData\Local\Programs\Python\Python39\python.exe)
 - File system encoding: utf-8; `os.name`: nt
-- Plugin repository at commit `37ebda4`, with these files changed since it (the review fixes and part 2, not yet committed):
+- Plugin repository at commit `1baecc9`, with these files changed since it (the review fixes and part 2, not yet committed):
 
   - ` M plugins/monday-master-builder/scripts/ledger.py`
   - ` M plugins/monday-master-builder/shared/record-map.md`
   - ` M tests/unit/test_ledger.py`
-  - `?? tests/unit/test_ledger_read.py`
 
 ## Unit suite
 
-`py -3.9 -m unittest discover -s tests/unit -v`, with `PYTHONDONTWRITEBYTECODE=1`: exit 0, 322 tests in 86.0 s, result `OK (skipped=1)`.
+`py -3.9 -m unittest discover -s tests/unit -v`, with `PYTHONDONTWRITEBYTECODE=1`: exit 0, 330 tests in 52.3 s, result `OK (skipped=1)`.
 
 | Test file | Tests |
 |---|---|
-| `test_ledger.py` | 99 |
+| `test_ledger.py` | 107 |
 | `test_ledger_read.py` | 48 |
 | `test_lint_plugin.py` | 21 |
 | `test_mmb_common.py` | 50 |

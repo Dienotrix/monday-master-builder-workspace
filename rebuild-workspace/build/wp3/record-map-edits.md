@@ -36,3 +36,18 @@ Run from the repo root with `PYTHONDONTWRITEBYTECODE=1`.
 - Lint, `py -3.14 tools\lint_plugin.py --root .`: 0 errors, 1 warning (the personal-names list is absent on this machine), 7 not present yet, including `scripts/ledger.py: pinned-agreement ... (ledger unchecked)` as information.
 - `test_[mr]*.py`: 140 tests, OK with 1 skipped, under Python 3.9 and 3.14.
 - `test_lint_plugin.py`: 21 tests, 20 pass and 1 fails under both Pythons. `test_clean_tree_passes` asserts "0 not present yet" for the `tests/fixtures/lint-clean` tree, which has no `scripts/ledger.py`, so the new tuple adds one information line. No record-map sentence is involved. The fix is outside this step's files: either a stub `scripts/ledger.py` with the pinned region in `tests/fixtures/lint-clean`, or the assertion changed to "1 not present yet".
+
+## Changed by the user's decisions of 2026-10-17
+
+Items 21 to 24 apply R17 and R20 (a) as the user settled them (`DECISIONS.md`, "Settled with the user, 2026-10-17"). No pinned token changed, so `## Pinned: ledger` and the `# pinned: ledger` region of `ledger.py` are as they were. Line numbers are in `record-map.md` after these edits.
+
+| Item | W ids | Where in `record-map.md` | What changed |
+|---|---|---|---|
+| 21 | R20 (a), W42, W45 | `### summary/1, scope/1, version/1 and the rest`, `blueprint/1` sentences, line 121 | The `## Element keys` header must include a `notifies` column after `key \| kind \| name`: empty for nobody, `user` for the user alone, or recipients in the `notifies[]` forms, separated by commas, each once, empty on a UI step. `approval` refuses a table without it and records `notifies_approved` (`{key: [recipient]}`) in its entry; `intent` refuses a row whose `notifies` is not that set (`user` read as the bound user), and a recipient other than the user gives the row its own yes in either account. |
+| 22 | R20 (a), W42 | `blueprint/1` example table, lines 125 to 133 | The example gains the `notifies` column and an automation row `A1` that notifies `user`. |
+| 23 | R17, W60, W62 | `### live-map/1`, paragraph line 204 | A row a run end creates takes `owner_strand` the strand, or null on a `client` or `native` row; `live-map set` sets a strand-built row only from its strand, and a `client` or `native` row from any strand's session, only with a client quote and its location (a `calls/` or `inputs/` file and a location of its grammar) or a user decision with its log entry's header line; `check` blocks a strand-built row with no `owner_strand`. |
+| 24 | R17 | `## The reading contract`, line 89 | "edit a live-map row it did not build" gains the exception for a `client` or `native` row, which no strand owns and any strand's session may set from a client quote or a user decision. |
+
+### Gates after items 21 to 24
+
+Run from the repo root with `PYTHONDONTWRITEBYTECODE=1`: `py -3.9 -m unittest discover -s tests\unit` and the same under `py -3.14`, 330 tests, OK with 1 skipped (Windows); `py -3.14 tools\lint_plugin.py --root .`, 0 errors.
