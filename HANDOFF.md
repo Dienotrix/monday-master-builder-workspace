@@ -6,7 +6,7 @@ Read this first in any new session. The project lives in one folder, `~/DelOps/m
 Take any form of information — normally starting as transcripts — and build a monday.com proof of concept or functional demo for the potential client: CRM, Service and Work Management, the proper structure selected, the API reviewed as needed, the correct boards used, and built on top of monday's main AI offerings. Selling, coaching, the voice and the client SOP come later (v2, v3).
 
 ## 2. Authority order — where the truth is
-1. `rebuild-workspace/design/AMENDMENTS.md` — the user's decisions A1–A29. **Overrides everything.** Read A29, A28, A27, A26, A25, A24, A23, A22, A21, A20, A19, A12, A11, A13–A18 before doing anything.
+1. `rebuild-workspace/design/AMENDMENTS.md` — the user's decisions A1–A30. **Overrides everything.** Read A30, A29, A28, A27, A26, A25, A24, A23, A22, A21, A20, A19, A12, A11, A13–A18 before doing anything.
 2. `rebuild-workspace/design/ARCHITECTURE.md` — the full design (cited as A§n), re-cut 2026-10-13 and again 2026-10-14 under A24 to A28. About 1,230 lines; read the section you need, not the whole file.
 3. `rebuild-workspace/design/BUILD-PLAN.md` — 21 work packages (WP-S0, WP0 to WP19) with tiers and acceptance criteria, the test plan, the release checks; re-cut 2026-10-13 and again 2026-10-14 under A24 to A28. The acceptance list of a package is the contract a builder is held to.
 4. `rebuild-workspace/design/SPEC.md` (what the product is, re-cut 2026-10-13, aligned 2026-10-14), `ROADMAP.md` (v1 / v2 / v3 checklist and stage table, re-cut 2026-10-14), `REAL-CALL-LESSONS.md` (125 calibration changes; the intake ones apply to v1, the delivery ones are v2).
