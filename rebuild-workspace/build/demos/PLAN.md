@@ -20,6 +20,16 @@ Work Management only, cleared to build, a clean transcript with a header. The fi
 6. **The user looks at it in monday** and says what is wrong; that is the demo's real acceptance.
 7. **The log.** `demo1-log.md` beside this file records every place a script got in the way, every gap in the design the build found, and what the lean skills must say. A script that refuses for a reason the design did not foresee is logged, and the build continues by the nearest path rather than stopping to polish the script.
 
+## Demo 2: s19, Bramblewood Signs, through the lean skills (2026-10-22)
+
+The user's go: "write the lean solution blueprint and account-build skills from demo 1's log, then run demo 2 through them." A sign shop rolling out a chain's store refits: jobs, installs, permits on their own expiry clocks, crews, and a Monday view of what goes out. Work Management only, cleared to build, in a new folder in the same test workspace.
+
+- **The skills:** `plugins/monday-master-builder/skills/solution-blueprint/SKILL.md` and `skills/account-build/` (SKILL.md and `references/write-path.md`), written from demo 1's log; `tools/dev_test_workspace.py` (development only, never shipped) gives a record the named test workspace as a build target, in place of demo 1's hand edit.
+- **The test:** a fresh agent that has read only the skill, not demo 1, writes the blueprint and the card; the user says yes or changes it; a fresh agent then builds it through account-build. Whatever the skills leave out shows up as a question or a mistake, and goes into `demo2-log.md`.
+- **Set up by the main session, not by a skill** (no intake or readiness skill yet): the record `clients/bramblewood-signs/`, strand `001-store-rollout`, the transcript saved as a fixture, `readiness.md` rendered from the answer key.
+- **The leak lint is loosened first** (A33), so the blueprint and payload checks no longer block on structural ids, small numbers, the blueprint's own prose or sample-row numbers.
+- **Status, 2026-10-22:** the blueprint written by a fresh agent from the skill alone (v0.1 revision 1 frozen, lint clean), its card and 29 notes on the skill in `demo2-card.md` and `demo2-skill-notes.md`; the card approved by the user ("Ah okay, the card looks good."). The leak lint changed again first (A34: a client's own figures warn). **Built the same day** by a fresh agent from `account-build` alone, in three sittings with 103 monday calls: 70 of 76 rows verified, the five widgets not checkable, A2 departed into UI step U3; its notes are in `demo2-build-notes.md`. Both skills are revised from the two sets of notes, and `demo2-log.md` holds the findings. The user's look comes next (read-me row P7).
+
 ## Taken for demo 1 (worth the user's nod)
 
 - The plugin has no templates yet (WP7). The record templates `record.py` needs are copied from the unit-test stand-ins into `plugins/monday-master-builder/templates/` as the first lean set, and grow from what the demos show.
