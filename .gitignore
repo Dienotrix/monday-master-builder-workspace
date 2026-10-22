@@ -6,6 +6,16 @@ monday-master-builder/
 clients/*
 !clients/.gitkeep
 
+# This folder is the development home (MMB_HOME) for the demo builds (A31). What `record.py home init`
+# and the scripts write beside clients/ holds the user's own settings and ids; never tracked.
+/local/
+/archive/
+/cards/
+/sandbox/
+/monday-knowledge/
+/clients-index.json
+/.work/
+
 # Scratch and generated files
 __pycache__/
 *.py[cod]

@@ -7,6 +7,22 @@
 
 The user made these decisions after the design workflow started. They take precedence over anything in SPEC.md, ARCHITECTURE.md or BUILD-PLAN.md that conflicts. The design revision step folds them in.
 
+## A32. Connect columns are two-way by default (decided 2026-10-22)
+Looking at demo 1, the user said, in their words: "You created a connect board column but only 1 way from batches to analyses. We almost always create a 2 way connection, so make that the default unless told otherwise."
+- **Every connect boards column a build plans is two-way by default:** the connected board gets its own connect column back, so each side shows its links. A one-way connection is built only where the user says so, and the blueprint then says why.
+- **Demo 1's Batches–Analyses link is made two-way** as revision 2 of its blueprint, before the demo-first work is committed.
+- Folded into the lean build skills that demo 1 feeds; the touch-ups to ARCHITECTURE and to the blueprint guide come with them.
+
+## A31. Demo first: real builds before more safety work (decided 2026-10-21)
+After the WP4 Windows run the user said, in their words: "don't you think we've spent enough time in the section of safety features, we need to start trying to build real demos and see if the plug in can build real solutions." Offered a demo-first plan, the user said "yes, switch to demo first plan", and added that they have connected their own monday account for development to the session and will answer the account questions as they come up.
+- **The order changes.** After WP4 the next work is real demo builds in monday from the fictional fixtures: the assistant proposed s6 first (CRM), then s7 (Service), s1 (CRM and Work Management) and s8 (an enterprise portfolio); the test workspace changes the first one (below). The skills and templates a demo needs are built from what the demos show. WP5's transcript scripts, the agnostic sweep, WP14's headless runner and graders, the hooks and the release tooling wait until after the first demos. BUILD-PLAN's order of work reads with this amendment.
+- **The scripts already built stay on the write path.** Every write goes through `record.py`, `ledger.py` and `leak_lint.py`, so the demos test them for real; where one gets in the way, the problem is logged and the build carries on rather than stopping to polish it.
+- **WP4 closes lightly.** The builders' small choices listed in row R10 of the read-me (the nods) are accepted as a batch; the design-document touch-ups are parked until after the first demos.
+- **A11-1, answered (2026-10-21).** The demo builds go into the account the user connected for development, and the same day the user named the test workspace for this work ("This is the test workspace"), a closed Work Management workspace the user owns, described as safe to clear. Every live write goes there; each demo gets its own folder inside it, in place of A21's brand-new workspace per client, while the plugin is being developed. Under A18 as narrowed on 2026-10-14, the development tooling may delete test objects it created there and nowhere else. Anything else the account raises is asked when it first matters, as the user said. No account, workspace or object id goes into a project file.
+- **The first demo is s12, not s6.** The named test workspace is a Work Management workspace, and CRM's native boards cannot be made in one (A5, never a look-alike), so the first demo is s12 (Work Management only, cleared to build). s6 and the other CRM and Service fixtures wait for a test workspace in that product, asked when they come up.
+- **Unchanged:** A11-2 and A11-3 stay open (the fixtures are fictional, so no real transcript is saved); account-level objects (agents, Vibe apps, workflows, webhooks) need the user's yes first; people columns assign only the user and automations notify only the user.
+- **The assistant's reading, for the user's nod:** the first demo is run by the session from the design documents, by hand, so the result is seen quickly; the lean skills are then written from what it showed, and the second demo runs through them.
+
 ## A30. Names: strict while the plugin is built, relaxed once it is in use (decided 2026-10-19)
 Asked which WP4 file to review, the user clarified the name rules, in their words: "it's okay to have client name recorded [while] building the demo, no need to be so strict. Same for when being used in the organization. Point is not to use names when building the plug in, but once plug in is built, rules can be more relaxed."
 - **While the plugin is built.** A12 and the agnostic rule stand for the plugin's own files and its development material: the repository, `shared/`, the fixtures, the tests, and the design and build files. No real person, client or account is named there.
@@ -179,7 +195,7 @@ This changes guidance only. The client record stays the memory, and every chat s
 
 ## A11. Three decisions still OPEN (2026-09-12)
 The user has not decided these, and no default may be assumed. The design must mark them open and ask at the moment they first matter:
-- **Test account for write probes and scenarios.** Open. No live writes until the user names a test workspace for that work; don't commit to a long-term answer.
+- **Test account for write probes and scenarios.** Open. No live writes until the user names a test workspace for that work; don't commit to a long-term answer. **Answered 2026-10-21 (A31):** the user named the test workspace in the account they connected for development; every live write goes there, each demo in its own folder; the rest is asked when it first matters.
 - **Sample data inside a live client account.** Ask before the first client build; no client build has happened yet.
 - **Transcript redaction and retention.** Ask before the first real client transcript is saved; only fictional fixtures exist so far.
 
