@@ -30,6 +30,15 @@ The user's go: "write the lean solution blueprint and account-build skills from 
 - **The leak lint is loosened first** (A33), so the blueprint and payload checks no longer block on structural ids, small numbers, the blueprint's own prose or sample-row numbers.
 - **Status, 2026-10-22:** the blueprint written by a fresh agent from the skill alone (v0.1 revision 1 frozen, lint clean), its card and 29 notes on the skill in `demo2-card.md` and `demo2-skill-notes.md`; the card approved by the user ("Ah okay, the card looks good."). The leak lint changed again first (A34: a client's own figures warn). **Built the same day** by a fresh agent from `account-build` alone, in three sittings with 103 monday calls: 70 of 76 rows verified, the five widgets not checkable, A2 departed into UI step U3; its notes are in `demo2-build-notes.md`. Both skills are revised from the two sets of notes, and `demo2-log.md` holds the findings. The user's look comes next (read-me row P7).
 
+## Demo 3: s6, an industrial supplies distributor, CRM, through every lean skill (2026-10-22)
+
+The user's go: "Yes, please create a new test workspace in CRM then." The first demo from a raw transcript, the first CRM build, and the first in which the build installs monday's native CRM boards (A37, A38).
+
+- **Where:** a new folder in the CRM test workspace, a closed workspace in the CRM product made by the main session (A37). A Service demo needs a Service workspace, asked when it comes up.
+- **The skills, in turn, each by a fresh agent:** `call-intake` and `build-readiness` (new) on the transcript, graded against the s6 key by a Sonnet agent; `solution-blueprint`; `account-build`.
+- **Native boards:** probed first (`crm-natives-probe.md`), then built into the ledger, `native-objects.md` and both skills (A38).
+- **Status, 2026-10-22:** built. 47 elements verified (48 with the referenced workspace), eight widgets not checkable, and the quiet-quote alert departed into UI step U4 (its condition stored inverted). The findings are in `demo3-log.md`, and every skill is revised from its agent's notes. The user's look comes next (read-me row P8).
+
 ## Taken for demo 1 (worth the user's nod)
 
 - The plugin has no templates yet (WP7). The record templates `record.py` needs are copied from the unit-test stand-ins into `plugins/monday-master-builder/templates/` as the first lean set, and grow from what the demos show.

@@ -80,6 +80,8 @@ Four blocks, none a leak, and no warnings. Candidates to loosen, for the user to
 
 ## Worth the user's nod
 
+**Accepted as a batch by the user on 2026-10-22** ("yes do all 3 and the batch", A36), with the three lint candidates under "Every lint block and warning" taken as A36 (a), (b) and (c).
+
 - **A3 to A6 built as a probe,** at the user's word, and kept, since all four matched.
 - **The resend rule** (finding 11): one resend in another documented form when monday ignored or reshaped a planned value, then a departure and the run goes on. The main session took it for B1.V2 and wrote it into `write-path.md`; every other mismatch still stops.
 - **The ledger's label-id fix** (finding 10), made in the build sitting under the rule that a gap in a built package is fixed at once.
