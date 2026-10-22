@@ -26,7 +26,7 @@ All three derive from `MMBError`. `e.findings` is a list of `{"file", "field", "
 
 **Reading, hashing, writing**
 - `read_text(path, name=None) -> str`: UTF-8 with or without BOM, CRLF or LF read as LF; `CannotRun` when unreadable.
-- `read_json(path, name=None) -> object`; `CannotRun` when unreadable or not JSON. `json_text(data) -> str`: the one JSON form (indent 2, `ensure_ascii=False`, final LF).
+- `read_json(path, name=None) -> object`; `CannotRun` when unreadable, not JSON, or a key is written twice in one object (WP4's R55, below). `json_text(data) -> str`: the one JSON form (indent 2, `ensure_ascii=False`, final LF).
 - `sha256_file(path) -> str`: hash of the bytes as stored (G60). `sha256_text(text) -> str`: the G08 entry hash (LF, trailing blank lines dropped, each line LF-ended); it matches the fixture's `history.json`.
 - `backup_file(path, root, backup_dir=None) -> Path`: copies the old bytes to `<backup_dir or root/.work/backup>/<path from root>.<UTC stamp>`, `-2`, `-3` on a clash. For `settings.json` pass `root=home()/"local"`, `backup_dir=home()/"local"/"backup"`; for a card, `root=home()`, `backup_dir=<record>/.work/backup/home`.
 - `write_file(path, data, root, backup=True, backup_dir=None) -> None`: `str` is written UTF-8 with LF (CRLF folded); `bytes` byte for byte (raw inputs, frozen copies). An existing file is backed up, then truncated and rewritten in place; a new file is created with `"xb"`. No rename, no delete.
@@ -80,3 +80,13 @@ See `lease-review.md` "Fixes" and the last section of `DECISIONS.md`.
 - `lease_sync(root) -> {epoch, state, rewritten}`: both mirrors from the lock, the lock unchanged.
 - `lease_repair(root, user_yes) -> {epoch, state, reserved_for, from_backup, mirror}`: rebuilds a missing, torn or malformed lock in place, as DECISIONS states.
 - `record_mutex`: a locking error other than contention is `CannotRun` at once (field `lock`).
+
+## Changed by WP4, 2026-10-21
+
+See WP4's `DECISIONS.md` R39, R40 and R55.
+
+- `digest(prefix, form) -> str`: sha256 of `prefix + form` as UTF-8, its first 32 hex characters; the clients-index hash (WP4's X02, X28). `leak_lint.py` uses it for every index key and list value (`digest = mc.digest`).
+- `slug_key(slug) -> str`: `digest("s:", slug)`, a client's key in `<home>/clients-index.json`; `leak_lint.py` writes under it and `record.py init` checks it, so the key has one implementation.
+- `former_names(value) -> list[str]`: the client's earlier names from `CLIENT.md`'s `former_names` field, one-line names joined by `; `, an absent or empty value meaning none (R40). `record.py client rename` writes the field and `leak_lint.py` reads it, both through this.
+- `strict_json(text, base="$") -> object`: the one strict JSON reader, moved unchanged from `leak_lint.py` (R55, WP4's R54). `json.loads` with a key written twice in one object refused: `ValueError` when the text is not JSON, `RepeatedKey(path, key)` when a key repeats, the path in X22's form ending in `<key>` (`$.firm.name<key>`); the second parse that finds the path runs only after a repeat is found. `key_path(path, key)` gives a key's path (`.key` for a plain name, `["key"]` otherwise, `SIMPLE_KEY`). `leak_lint.py` uses all three under its old names.
+- `read_json` reads through `strict_json`: a repeated key is `CannotRun` with the file, the key's path as the field, the problem "the key "<key>" is written twice in one object, so what the file says depends on the program that reads it" and the expected "each key written once in its object: keep the copy meant and remove the other". `read_settings`, `read_lock` (field `lock`, the repair named) and `plugin_version` inherit it; `lease_repair` reads such a lock as torn and skips such a backup. The library's own writer never repeats a key.

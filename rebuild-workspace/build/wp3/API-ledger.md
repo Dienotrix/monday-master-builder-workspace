@@ -171,3 +171,7 @@ The user settled R17 and R20 (a) (`DECISIONS.md`, "Settled with the user, 2026-1
 3. **An item batch has no row in the table**, so its approved set is empty and it notifies nobody.
 4. **Several recipients are separated by commas**, which none of W45's three forms contains, and the column is found by its header rather than pinned to the fourth place.
 5. **What counts as a location or a log reference** for a client or native row's source is matched anywhere in the text, so a quote may stand before its location; a plain "decision of <date>" without the log entry's header line is refused on such a row.
+
+# Changed by WP4, 2026-10-21
+
+- **`appendix_documents` (W77)** reads each `json` fenced block with `mc.strict_json`; a key written twice in one object gives the document no text and the reason "a json block in which the key "<key>" is written twice in one object", so `compare` refuses it as it refuses a block that does not parse (WP4's R59). No output shape changes.

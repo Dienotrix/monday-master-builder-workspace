@@ -114,3 +114,27 @@ C37 (the two doors, which G32 moves to WP8's `first-run.md`) and the connector h
 - A failure after a lease change committed (the log insert of a take, a release, a break or a repair, a park's `STRAND.md`, the index) exits 3 with `"error"` field `committed` and a `"committed"` object holding what was committed and the entries still to write; a take's also holds its epoch and label.
 - `check` blocks on a malformed lock (`mmb_common.lock_findings`) instead of exiting 3 (a lock that is not JSON still exits 3, naming the repair), and its mirror findings name `lease sync`.
 - `init` repeats the empty-folder check inside the record mutex. `refuse_newer(root, *paths, skip=())` can leave out a fixed file (the repair skips the lock).
+
+## Changed by WP4, 2026-10-21
+
+See WP4's `DECISIONS.md` R39 and the last section of this package's `DECISIONS.md`.
+
+- **`init`** also refuses (exit 1, `CLIENT.md`, field `slug`) a slug another client record holds: a folder of that name under `<home>/archive/`, a folder of that name under `<home>/clients/` other than the init's own, or the slug's key (`mmb_common.slug_key`) in `<home>/clients-index.json`. Problem "the slug <slug> is already used by another client record under the home, open or archived, and a slug belongs to one client for good"; expected "a slug no client record has used: choose another slug, then run init again". It names only the slug typed. The check runs before anything is written.
+- **`init`** stops (exit 3) when the index cannot be read as `clients-index/1` with 32-hex keys (`<home>/clients-index.json`, `(whole file)`, naming `<home>/local/backup/` for the last copy), and when the index, the home mutex, or `<home>/clients/<slug>` or `<home>/archive/<slug>` cannot be looked at (the root or the index named, never a folder). The index is read under `<home>/.work/record.mutex` when that mutex exists; init never creates it.
+- New helpers inside `record.py`: `looked_at(path, name)`, `index_keys(home)`, `slug_used(home, root, slug)`.
+
+See WP4's `DECISIONS.md` R55.
+
+- **Strict JSON**: every `mc.read_json` read now stops on a key written twice in one object (exit 3, the key's path as the field), through each caller's existing path for a file that is not JSON: `home init`'s `local/settings.json` and the record's own JSON files exit 3; `check`'s settings check warns, as for a torn file. `index_keys` reads `<home>/clients-index.json` through `mc.strict_json`, and a repeated key is the unreadable-index stop above, its message unchanged.
+
+See WP4's `DECISIONS.md` R40.
+
+- **`client rename --name "<new>"`** (new command, catalogue key `"client rename"`): under the record mutex, after `refuse_newer`, sets `CLIENT.md`'s `name` to the new name and appends the old one to `former_names` (joined by `; `, appended as the last front-matter key when the field is absent, never added twice, no entry dropped); `updated` moves with the change, the old bytes are backed up, and a record-level entry `## <time> · - · decision · - · rename` is logged with the body lines `name: <old> to <new>` and `former_names: <the new value>`. Result `{"name", "former_names": [..]}`, exit 0. Refusals (exit 1, nothing written): a new name that is not one line or holds `;` (`CLIENT.md`, `name`); a current name that is not one line or holds `;`, which could not be kept (`name`); the new name equal to the current one (`name`); the new name already a former name (`former_names`). A missing `--name` is argparse's usage error (exit 3). The slug never changes.
+- **`check`**: `former_names` is the optional last field of `client/2` (`CLIENT_VALUES`, with `CLIENT_OPTIONAL`; `Check.values` gains `optional=()`). Absent, it is neither blocked nor warned on; present, it blocks when a name between the `;` is empty or blank. `status` returns it in `record` like any other field.
+- **`mmb_common.former_names(value)`** splits the field into its names, stripped, empties dropped; `leak_lint.py` reads the field through it.
+
+See WP4's `DECISIONS.md` R48.
+
+- **The index after a write**, in `main()`, for every command but `status` and `home init`: `index_baseline(target)` loads `leak_lint.py` from this file's folder by path, once per process (`lint_module()`, `LINT_FILE`, `LOADED`), and marks the record's harvested files (`harvested_marks(lint, root)`: `{name: (st_mtime_ns, st_ctime_ns, st_size)}` over `record_walk` and `feeds_entry`; `{}` for a folder not made yet, as at `init`; `None` when the record cannot be walked). After a command that returned 0 or 2, `keep_index(root, lint, before)` marks again and, when the marks differ or either is `None`, calls `leak_lint.run_command(["--record", <record>, "index"])`. The command's mutex is released by then and `index` takes only the home's. `init`'s folder comes from `init_folder(record, slug)`, which `cmd_init` uses too.
+- **Output**: unchanged when nothing was owed or the index ran. When the index stops (exit 1 or 3) or `leak_lint.py` cannot be loaded, the envelope gains `warnings: [{file, field, problem, expected}]` (appended to a command's own `warnings`, as `check`'s), built by `index_warning(file, field, cause, expected)` from the index's error, and the exit code is 2; the command's writes stay. `status` and refusals are unchanged.
+- **Tests**: `make_plugin` copies `leak_lint.py` and `shared/leak-terms.txt` into the plugin copy through `add_lint(plugin)`, which `test_ledger.py` imports; a test that inits outside the home now sees the index's R46 warning, so `init` tests that expect exit 0 init under `<home>/clients/`.

@@ -130,6 +130,7 @@ This section holds the clauses for a good read. A file that cannot be read is ex
 
 - **L33** The shipped list is read from `shared/leak-terms.txt` of the plugin folder, found from the script's own location, and a literal row matches case-insensitively wherever the characters on either side are not letters or digits.
   - Src: LT:18 to 19; A§:916. Accept: stage 2 unit. Test: a row `exit ramp` blocks "the exit ramp" and `exit ramp.`, and does not block inside "boexit rampx" (letters on both sides).
+  - Changed by decision (R13 (b), R61): the shipped spaced row `exit ramp` is removed and the hyphenated row `exit-ramp` blocks only hyphenated, so the example reads: `exit-ramp` blocks "the exit-ramp" and `exit-ramp.`, does not block inside "boexit-rampx", and "the exit ramp" passes (`test_L33_literal_boundaries`).
 - **L34** A line starting with `#` and a blank line are ignored, and a `class: <name>` line puts every row below it, until the next `class:` line, in that class; every hit reports its class.
   - Src: LT:17, 20 to 21. Accept: stage 2 unit. Test: a two-class sample list gives each hit its own class name in the finding.
 - **L35** A `re: <pattern>` row is a Python regular expression matched case-insensitively.
@@ -287,22 +288,29 @@ This section holds the clauses for a good read. A file that cannot be read is ex
 
 - **L104** Both assertions run on every scan, whatever the subcommand and whatever the input kind, and no flag turns either off.
   - Src: BP:158.26; A§:918 ("run on every scan"). Accept: stage 2 unit. Test: run each subcommand on a file that trips each assertion; every run reports it.
+  - Changed by decision (A30, R64): the tool-category assertion is dropped, so one assertion runs on every scan, the split figure; the test runs it in a payload (`test_L104_R64_the_split_figure_assertion_runs_in_payloads_too`).
 - **L105** A document that carries a figure of the record only in split renderings fails: digits broken across tokens, or a number spelled across a line break.
   - Src: BP:158.24; A§:918. Accept: stage 2 unit. Test: the planted `45 000` and "forty-\nfive thousand" cases fail and the report names the rule `split-figure`.
 - **L106** A split rendering of a number that is not in the record's set does not fail.
   - Src: A§:918 ("a figure" read as a client figure); A§:920. Accept: stage 2 unit. Test: the twin with an unrelated split number exits 0 or 2, not 1.
 - **L107** A proper-noun-free paragraph that names three of the client's tool categories in one sentence fails.
   - Src: BP:158.25; A§:918. Accept: stage 2 unit. Test: the planted sentence with three category words fails and the report names the rule `tool-categories`.
+  - Changed by decision (A30, R64): the lint runs no tool-category check; nothing here is tested, and L107's planted sentence is clean (`test_L107_R64_three_tool_categories_in_one_sentence_are_no_finding`).
 - **L108** The same paragraph with two categories in the sentence passes.
   - Src: BP:158.25; A§:918. Accept: stage 2 unit. Test: the twin with two category words exits 0.
+  - Changed by decision (A30, R64): the lint runs no tool-category check; nothing here is tested, and L107's planted sentence is clean (`test_L107_R64_three_tool_categories_in_one_sentence_are_no_finding`).
 - **L109** Three categories spread over three sentences of the paragraph pass; the assertion counts a sentence, not a paragraph.
   - Src: A§:918 ("in one sentence"). Accept: stage 2 unit. Test: the same three words in three sentences exit 0 on this rule.
+  - Changed by decision (A30, R64): the lint runs no tool-category check; nothing here is tested, and L107's planted sentence is clean (`test_L107_R64_three_tool_categories_in_one_sentence_are_no_finding`).
 - **L110** A paragraph that holds a proper noun is outside this assertion; it may still be blocked by another rule.
   - Src: A§:918 ("a proper-noun-free paragraph"). Accept: stage 2 unit. Test: the planted sentence with one invented proper noun added is not reported by this assertion.
+  - Changed by decision (A30, R64): the lint runs no tool-category check; nothing here is tested, and L107's planted sentence is clean (`test_L107_R64_three_tool_categories_in_one_sentence_are_no_finding`).
 - **L111** A single category word alone never produces a finding.
   - Src: PLAN §8.6 ("a class the lint counts rather than blocks"). Accept: stage 2 unit. Test: a paragraph with one category word exits 0. The vocabulary and the count rule across the client's own categories are X12.
+  - Changed by decision (A30, R64): no row is counted any more; the tool-category classes are gone from the shipped list, and a sentence with a category word is checked by the other rules only.
 - **L112** Both assertions are proved on `tests/fixtures/leak/`: each has a planted failing case and a passing twin, and the fixture names them.
   - Src: BP:158.26; BP:368.2. Accept: stage 2 unit. Test: the fixture README lists the four cases; each case's expected exit is asserted by `test_leak_fixture.py`.
+  - Changed by decision (A30, R64): the split-figure assertion alone is proved on the fixture; the tool-category case R12-p and its twin go (the fixture patch of R64), so the README lists two cases.
 
 ### 2.9 The allowlist, the warnings and the two non-removals
 
@@ -546,6 +554,7 @@ The fixture is the specification the lint is graded on: every planted case has a
   - Src: AM:159 to 163 (A12); BP:158.30; PLAN §8.11. Accept: stage 2 unit (inspection). Test: the README states each name as invented; the sweep of `tools/agnostic_sweep.py` runs over the fixture once WP16 builds it (X18); until then the self-test and the trace check enforce it.
 - **L218** Nothing in the fixture is copied from an answer key, a transcript of the fixtures workspace, a call or an earlier plugin: no run of six words in common with any of them.
   - Src: A§:918 ("not from any call", D24); PLAN §3 (step 4). Accept: stage 2 unit (inspection). Test: a throwaway probe outside the repository compares every fixture line with the arrays and transcripts for shared runs and reports none; the probe is not part of the repository.
+  - Changed by decision (R65, the user, 2026-10-21): the clause covers the fixture's content; the record map's pinned front-matter field names and their fixed values are schema, so the two runs across `provenance: "first-hand"` and `handed_over_by: "none"` that the probe found do not count against it.
 - **L219** No term of the shipped list appears in any clean twin, so a twin that fails fails for a real reason.
   - Src: PLAN §3 (step 4). Accept: stage 2 unit. Test: the self-test runs the shipped list's literal and regular-expression rows over every twin file and asserts no hit (other than rows the twin is meant to carry, listed in the README).
 - **L220** Every fixture file is LF, UTF-8, no byte-order mark, and a `.gitattributes` keeps every file LF on both systems.
@@ -636,6 +645,7 @@ The next clauses are the rule cases of BP:158 and PLAN §4.1, each planted with 
   - Src: BP:158.13; PLAN §4.1. Accept: stage 2 unit. Test: one passes and one blocks.
 - **L260** Three tool categories in one sentence of a proper-noun-free paragraph (fails) and two (passes).
   - Src: BP:158.25; PLAN §4.1. Accept: stage 2 unit. Test: one fails and one passes.
+  - Changed by decision (A30, R64): the tool-category case and its twin leave the fixture.
 - **L261** The firm's renderings, its phonetic variants, its whitelisted uses and one ordinary word that sounds like it (passes).
   - Src: BP:158.27 to BP:158.29; PLAN §4.1. Accept: stage 2 unit. Test: renderings and variants block; whitelisted use and ordinary word pass.
 - **L262** The "flag, do not remove" group and the "caution" case, rebuilt as invented text in the same shape the keys describe.
@@ -672,6 +682,7 @@ The next clauses are the rule cases of BP:158 and PLAN §4.1, each planted with 
   - Src: PLAN §8.5; A§:920. Accept: stage 2 unit (inspection). Test: the markers exist and the list length is in the checklist; no new file under `shared/`. Open: X19.
 - **L275** The tool-category vocabulary is shipped in `leak-terms.txt` under a class the lint counts and does not block.
   - Src: PLAN §8.6. Accept: stage 2 unit. Test: the class is in the file; a sentence with one of its words exits 0 (L111). Open: X12.
+  - Changed by decision (A30, R64): no tool-category vocabulary is shipped and no class is counted; `test_L274_L275_embedded_regions_and_no_counted_class` asserts the list holds no `tool-category` class.
 - **L276** The shared edits leave WP2's and WP3's tests passing under both interpreters, and `record.py`, `ledger.py` and `mmb_common.py` are byte-equal to their copies before WP4.
   - Src: PLAN §3 (steps 3, 5), §8.10. Accept: stage 2 unit. Test: the whole suite passes; hash the three scripts before and after.
 - **L277** The lint's API note says where the lint sits in the write path (after `ledger.py intent`, before the call, as BP:252 orders them), what a caller reads (the exit code and the input hashes) and that exit 3 is a stop.
@@ -894,8 +905,8 @@ BP:158 is one sentence. It is split here into 33 parts, numbered as the `BP:158.
 | 22 | "a 'flag, do not remove' group is reported and kept (s1, s5, s6, s10)" | L120, L262, L268 |
 | 23 | "a blocked word that is also the client's own vocabulary survives with a caution" | L121, L262, L268 |
 | 24 | "a document carrying a figure only in split renderings fails" | L105, L106, L250 |
-| 25 | "a proper-noun-free paragraph naming three of the client's tool categories in one sentence fails while two pass" | L107 to L111, L260, L275 |
-| 26 | "the two structural assertions run on every scan and are proved on `tests/fixtures/leak/`" | L104, L112 |
+| 25 | "a proper-noun-free paragraph naming three of the client's tool categories in one sentence fails while two pass" | L107 to L111, L260, L275; changed by decision (A30, R64): dropped |
+| 26 | "the two structural assertions run on every scan and are proved on `tests/fixtures/leak/`" | L104, L112; changed by decision (A30, R64): the split-figure assertion alone |
 | 27 | "the firm-name rule reads the firm's renderings from `local/settings.json`, catches every rendering the fixture plants" | L40 to L42, L49 to L52, L55, L261 |
 | 28 | "its whitelist clears the legitimate uses" | L53, L261 |
 | 29 | "a test asserts no false positive on an ordinary word" | L54, L261 |

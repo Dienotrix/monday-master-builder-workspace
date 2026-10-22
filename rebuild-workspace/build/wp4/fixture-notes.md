@@ -56,7 +56,7 @@ Choices taken where the decisions are silent. Each is the safe or the plain read
 10. **The raw transcript is an excerpt** and does not hold the quoted words. In a full record it would, and then R04's seven-word twin would block on the run rule from the transcript.
 11. **K23b's supply clause sits in the snapshot's analyst note**, outside the block and not in the client's document, because X36 exempts only document text.
 12. **Invented token shapes in R16** (`ghp_`, `AKIA`, `pk_test_`, a JSON web token) are fake, but a host's secret scanning may still flag them on a push. If it does, the user can allow them, or the tests can assemble them at run time.
-13. **Two six-word runs remain in common with the answer keys** (section 6): both are the call summary's pinned front-matter fields `provenance: "first-hand"` and `handed_over_by: "none"`, not content.
+13. **Two six-word runs remain in common with the answer keys** (section 6): both are the call summary's pinned front-matter fields `provenance: "first-hand"` and `handed_over_by: "none"`, not content. **Answered 2026-10-21 (the user, after a walkthrough):** "L218: accept. The two runs are the record map's pinned field names and values, not content. Record it as a decision and mark L218 met by decision." Recorded as R65 in `DECISIONS.md`.
 
 ### Found while building, for steps 5 and 6
 
@@ -209,3 +209,45 @@ What changed in the fixture:
 | `find` for `__pycache__` in the repository and the scratch folder | none |
 | byte check of all 290 fixture files | UTF-8, LF only, no byte-order mark |
 | six-word probe against `rebuild-workspace/fixtures/` | the same two pinned front-matter runs as before (nod 13), nothing else |
+
+## 8. Changed by the review fixes, part 2: R49 (G18), 2026-10-21
+
+DECISIONS R49 has `blueprint` stop with exit 3 unless level-2 headings numbered 1 to 15 are each found once and in order, and no other level-1 or level-2 heading sits among them before section 16. A real blueprint always holds the sixteen sections (A§6, D19), so a blueprint with sections 1 to 3 only is now exit 3, and the two blueprint cases would have stopped there.
+
+- `cases/blueprint/R10c-p.md` and `R10c-t.md` gain the empty headings `## 4. Structure mapping` to `## 16. Internal`, appended after section 3. Sections 1 to 3, their text and every line number are unchanged, so R10c-p's run still sits at line 12 in section 3 and R10c-t's in the glossary of section 2. The manifest and the README need no change.
+- The headings use no capitalised word but the first of each, so the invented-names check (X18) is unaffected, and no shipped term.
+- `test_leak_fixture.py` and `test_leak_grading.py` pass unchanged with the new files.
+
+## 9. Changed by the follow-up, run 5 (step 8), 2026-10-21
+
+### R61 (R13 (b)): "cost of waiting" hyphenated, made by the main session at the user's word
+
+With the shipped spaced row `cost of waiting` removed from `shared/leak-terms.txt` (the user's approval is in `shared-edits.md`), the spaced phrase no longer blocks, and the cases that planted it spaced would have lost their expected `method` finding. The main session wrote it hyphenated, which still blocks through the row `cost-of-waiting`:
+
+- `cases/key/K19-p.md` line 1: "The cost-of-waiting is shown on the board."
+- `cases/trap/T09-p.md` line 1: "Our day rate of 1,450 means the cost-of-waiting grows each week."
+- `cases/payload/P-view-p.json` `$.description`: "Shows the cost-of-waiting".
+- `cases/payload/P-workflow-p.json` `$.description`: "Runs the cost-of-waiting check".
+- `cases/payload/P-generic-p.json` `$.prompt`: "Explain the cost-of-waiting".
+- `manifest.json`: the two `match` entries that read `cost of waiting` now read `cost-of-waiting`.
+- `README.md`: the rows of T09-p, K19-p, P-view-p, P-workflow-p and P-generic-p name the hyphenated words.
+
+No twin changed, every case keeps its exit code and verdict, and the grading harness's 250 cases kept their outcomes.
+
+### A30 (R64): the tool-category case removed, as a patch for the main session
+
+The lint runs no tool-category check (A30, R64), so the fixture's case for it goes. The R64 run did not edit the fixture; it wrote the change as `r64-fixture.patch` in the session's scratch folder (`wp4-run5/`), a unified diff that `git apply` takes from the plugin repository's root, for the main session to apply at the user's word:
+
+- `cases/rule/R12-p.md` (the planted sentence with three tool categories) and `cases/rule/R12-t.md` (its twin with two) are deleted.
+- `manifest.json`: the entries of R12-p and R12-t are removed, and `tool-categories-three-two` leaves `categories.rule`. The file is otherwise byte-equal, written back with the same two-space indent.
+- `README.md`: R12-p's row is removed; the counts read 124 planted cases, 124 twins and 288 files; the heading of the rule cases reads "(27)". The case ids are not renumbered, so the rule cases go from R11 to R13a.
+- T20-p's summary and T20-t's `why_clean` still mention tool categories as plain text. No rule reads them, and they are left as they are.
+
+`test_leak_fixture.py` (the rule categories, 15 pinned rules, no skip of the counted classes) and `test_leak_grading.py` (248 cases: 124 planted, 124 twins; 109 blocks, 3 warns, 1 caution, 11 limits, 124 passes; 166 `scan`, 80 `payload`, 2 `blueprint`) are changed in the repository and pass once the patch is applied.
+
+| Command (in a scratch copy of the plugin repository with the patch applied, `PYTHONDONTWRITEBYTECODE=1`) | Result |
+|---|---|
+| `/usr/bin/python3 -m unittest discover -s tests/unit` | Python 3.9.6: 634 tests, OK |
+| the four leak files under `cpython-3.14.6-macos-aarch64-none/bin/python3.14` | Python 3.14.6: 283 tests, OK (`test_leak_fixture.py` 16, `test_leak_grading.py` 3) |
+| `git apply` of the patch on a fresh copy of `tests/fixtures/leak/` | applies cleanly; the result equals the edited copy file for file |
+| `git apply --check` in the plugin repository | clean |
