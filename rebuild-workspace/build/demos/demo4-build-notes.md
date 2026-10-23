@@ -40,8 +40,17 @@ No ids appear in this file. "The user" is the account's bound user; "the two tes
 24. **The agent: G-110 did not recur, but G-111 did.** The first identity update read back word for word, so no second write was needed. It also switched the agent on, so I switched it off at once, and it stayed off through the job and the two grants. The doc was granted by its object id (the number in its address), and `manage_agent_knowledge list` shows that id (G-53, which phase 11 asks to report).
 25. **After activation, the agent row still reads `inactive`.** The ledger keeps the agent row's state from its own verify (INACTIVE, as required) and holds the activation row as `active`. The live map therefore shows the agent `inactive` while monday has it ACTIVE. The switch-off section says "for each agent that is active", so a switch-off that reads the agent row would skip this agent. Either the switch-off should look at the activation row, or verifying the activation should update the agent row's state.
 26. **A departed workflow reads `active`.** A workflow object reads `state: active` even as a draft (G-135), so the live map shows the departed, unpublished workflow as `active`. Anyone reading the map, the audit included, needs to know it does not run until the user publishes it (U10).
+27. **Revision 2's `--touches` and the board the mirrors read.** The skill now says to pass `--touches` for each live object that section 16 names. Section 16's list still names the folder and three boards (Leads, Accounts and Opportunities). r2's own build checks add that the Contact name mirror reads the Contacts board. I passed the Contacts board too, so that the approval records every board this revision reads.
+28. **Binding on a later build.** The skill binds "once". For revision 2 I did not run `bind` again. One account read (the account, the bound user, the ring and the user's time zone) served the run's account check. The skill could say that a later build of a bound record reads the account for `--account-check` and skips the bind.
+29. **The replanned workflow is recorded without being created.** As section 16 of r2 says, the replanned row went through `intent --operation create` and then straight to `record` with the existing draft's id; no create call was made. The ledger accepted this sequence. However, the attempt's digest then describes a create that never happened. An adopt-style intent for a replanned row whose object still exists would say what actually happened.
+30. **The lint's "on board" cue fired again, on a board id.** A43 now passes this strand's own ids in a workflow request. The paraphrase rule still blocked "the trigger item from step 1 on board <the board's id>" as a remark about a person. I reworded it to "(board <id>)". The rule should not read "on board" followed by a board id or a board's name as an assessment.
+31. **G-136's checks worked.** Giving all eight AI-step fields, by id, in the one request that touched the step worked first time. The describe read, asked place by place, reported every field as a dynamic field. The run once proved it: the draft named the quote's real customer and contact and the quote number, and held no column id.
+32. **The mirror of a linked item's name works.** The card listed it as unproved. A mirror over a connect column with `displayed_linked_columns` naming the linked board's `name` column was accepted. Its `display_value` read the linked customer's and contact's names on the planted quote, and the AI step was offered both mirrors as fields. This is G-137's way round, now observed once; it is worth a gotcha entry.
+33. **A published workflow reads `inactive` in the live map.** Write-path has the workflow's verify write its state `inactive` while it is an unpublished draft. The publication is verified `needs-user`, and a `needs-user` row never reaches the live map. After the publication, therefore, the live map shows the workflow `inactive` although it is published and runs. This is the same gap as note 25, from the other side. The publication's verify (or `run end`) should set the workflow row `active`, or the live map should take the publication's state. I said so under `## Build` so that the audit is not misled.
+34. **Closing U9 and U10.** The skill says nothing about closing a UI step. The card said they close when the build publishes the workflow. I closed them with `ledger.py ui-step --key U<n> --done`, which takes no fence, after the publication's `needs-user` verify. That verify is the only one a publication gets.
+35. **Reading "the newest notification".** `notifications(limit: 2)` returned the run's notification first. The second entry was a notification with no text, from before the run. The read should be matched to the run by `created_at` after the run started, not by position alone. The draft's last full stop and the message's own full stop also make ".." in the notice; that is cosmetic and comes from the card's wording.
 
-## The build
+## The build of revision 1
 
 **What was approved and where.** v0.2 adds an AI layer to v0.1's four CRM boards, in the same folder of the CRM test workspace: seven columns (three of them AI columns), fourteen sample rows, a doc, a workflow and an account-level agent. At the start of each run, the account and the bound user matched the record, and the change check found nothing affecting the build.
 
@@ -100,3 +109,54 @@ Each AI column was verified by its recipes on the board: kind, source, target an
 4. Second run: no blocks. Every payload actually sent in either run was clean, and there were no warnings.
 
 **Checks at the end.** `record.py check` and `ledger.py check --strand 001` are both clean. `version.md` is `built`, with its `## Build` section, and `STRAND.md` `version_state` is `built`. The audit is the next step.
+
+## The build of revision 2
+
+**Approval and setup.** The user approved revision 2 in chat: "Yes, build v0.2 revision 2 as the card shows."
+- The approval kept the twelve rows revision 1 had verified, added the two name mirrors, and replanned the workflow and its publication from departed to planned.
+- The change check found no change affecting the build, and the development tool kept the workspace's CRM product without being told it.
+- There was one run, with 19 monday calls. All of v0.2 now stands at 99 calls over three runs.
+
+**Built and verified in this run (3).**
+- **Account name and Contact name on Opportunities:** mirrors over the Account and Contacts links, showing each linked item's name. Read on the planted quote, they show its real customer and its linked contact.
+- **The Quiet quote follow-up draft workflow,** changed in place; no second workflow was made.
+  - One request gave the AI step its new prompt and all eight fields by id. The describe read found every field dynamic, and the trigger (08:00 eastern), the condition (Stage is Quoted), the two column changes and the notify step (the user alone, by id) as approved. Validation was clean.
+  - The one run once, on Harborview Metal Works stocking agreement, succeeded in all six steps. It drafted a next step naming the quote's real customer and contact and its quote number, with no column id. It set Follow-up check to Waiting and sent the user one notification with the approved message.
+
+**Needs the user (1).** The publication. The workflow was published switched on, and the live version validates clean. No read shows a live workflow's trigger, so the check is the run once, plus the user seeing the next Quoted deal's follow-up date fire.
+
+**Not checkable:** none. **Departed:** none.
+
+**UI steps.** U9 and U10, revision 1's two workflow steps, are done. Still open:
+- U6: add the Enquiry question to the New lead form.
+- U7: run the forecast job once and read the note.
+- U8: switch the workflow off after the demonstration.
+- U1 to U5, from v0.1.
+
+**What runs now, and who hears.**
+- The workflow drafts a next step on each Quoted deal whose follow-up date arrives, at 08:00 eastern, and notifies the user alone. The card counts eleven sample deals from 26 October to 12 November.
+- The agent writes its first note on 1 November.
+- The AI columns keep filling new rows.
+- No one but the user is notified.
+
+**Leak-lint blocks and warnings, each judged.** There was one block, on the first draft of the AI-step request: "on board" was read as a remark about a person (note 30). It was not a real leak, since the words meant a monday board. I reworded the request and it was clean. Every payload sent was clean, and there were no warnings.
+
+**Checks at the end.** `record.py check` and `ledger.py check --strand 001` are both clean. `version.md` is `built`, and its `## Build` covers revision 2; `STRAND.md` `version_state` is `built`. Across v0.2: 15 rows built and verified, 1 needing the user (the publication), none not checkable, none departed. The audit is the next step.
+
+## The switch-off of all three demo records
+
+At the user's word on 2026-10-23 ("Switch off everything"), before the demos move to a dedicated demo account. I followed the skill's "Switching the automations and agents off" on each record, each in its own lease and run.
+
+36. **How the runs were set up.** One account read served all three runs' account check: the same account and the same bound user. I left each version's state as it was (`built`). The switch-off section points to "Before the first write", step 6, for the lease and the run; that step also sets the states to `building`, which does not fit a switch-off on a built version.
+37. **The switch-off section misses the change check.** `intent` refused the first switch-off on demo 1 because no change check of today existed for that strand. Demos 1 and 2 each needed `ledger.py change-check` with today's tool diff before any intent. The section should list the change check as step 1.
+38. **`--notifies user` does not fit every automation.** Step 2 gives every automation's intent `--notifies user`. The ledger refuses that flag on an automation whose approved revision records no recipient, which was the case for four of demo 2's six automations (a status change, a date set, two group moves). I ran their intents without the flag.
+39. **Demo 1 (lab operations).** Both alerts were switched off and read back with `is_active` false, `updated_at` moved and the definition unchanged. They were verified, and the ledger and live map hold them `inactive`. Nothing is left for the user in monday. 4 monday calls, including the shared account read.
+40. **Demo 2 (sign rollout).** Five automations were switched off and verified the same way: the permit alert and the four that change a status, set a date or move an item. The departed install-date alert takes no ledger write. It is still on, and the user switches it off in monday (its U3, and U2). 8 monday calls.
+41. **Demos 3 and 4 (sales pipeline).**
+    - The New lead alert was switched off and verified. The Forecast note helper was switched off and verified with the merged read: INACTIVE, with its identity, job, trigger and knowledge unchanged.
+    - The departed Quiet quote alert is still on, and the user switches it off in monday (U4, U5).
+    - The published Quiet quote follow-up draft workflow cannot be switched off through the API, so it is still on and the user switches it off in monday (U8).
+    - The three AI columns stay on (A42).
+    - 7 monday calls.
+42. **The agent's two rows are out of step again, now the other way.** After the switch-off, the agent row reads `inactive` and its activation row still reads `active` in the ledger and the live map, while monday has the agent off. The workflow row still reads `inactive` while the workflow runs (note 33). Together with note 25, this suggests a pair of rows should be kept in step by whichever verify is last.
+43. **Totals.** 19 monday calls across the three runs. Every payload was clean on the lint, and there were no refusals. `record.py check` and `ledger.py check --strand 001` were clean on all three records afterwards.
