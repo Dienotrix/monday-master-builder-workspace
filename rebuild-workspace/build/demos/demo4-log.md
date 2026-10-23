@@ -61,6 +61,10 @@ For the user, not changed (A34):
 - **Lint, build note 9:** the Product line labels, the client's own product lines planned and approved on the card, met the copied-run rule against the call's transcript when the label colours were numbers, and passed with colour names, which break the joined run. Candidates: a planned label list is not a copied run from the source the plan cites, and the verdict should not turn on the payload's shape.
 - **Lint, build note 11:** "on board" was read by the paraphrase rule as a remark about a person.
 
+## The user's look, 2026-10-23
+
+"Done. One piece of feedback for dashboards. Everything is the same size. For us humans, it's nice to have slight variance, for example, the var charts with the months, would be nice if it was the full length so that it is easier to see among the rest of the other widgets. Outside of that, demo looks fine so far." Recorded as A44. The connector has no way to size or place a widget (G-163), so the blueprint now plans each widget's size and the order the build makes them in, and the resizing is a UI step on the card. A read of the workflow after the user's "Done" still found no live version, so U9 and U10 stay open.
+
 ## Open, for later
 
 - **The user's steps in monday:** U9 (map the AI step's Account and Contacts, if the builder offers them) and U10 (publish the workflow switched on), with v0.1's U1 to U5 and v0.2's U6 to U8.
