@@ -650,3 +650,14 @@ These settle the four not-met clauses of `CHECKLIST.md` other than the size limi
 ## Added by the demos' fixes, 2026-10-22
 
 - **`freeze` writes its own `blueprint` log entry (demo 2, 4).** In WP3's `DECISIONS.md`, "Added by the demos' fixes", fix 5; `committed` takes the file its failure names, `log.md` for the freeze.
+
+## Added by the intake fold, 2026-10-22
+
+The record's own points from demo 3's intake fold (`build/demos/demo3-intake-fold.md`, "Not the skills'"), picked by the user on 2026-10-22; per point detail, the templates and the nods in `build/demos/group1-log.md`.
+
+- **A call summary's budget grows with its transcript (point 1).** `check` gives `calls/<stem>.md` one line per 30 words of `calls/<stem>.transcript.txt`, at least 120 and at most 250, and 120 with no transcript. It stays a warning. Reason: a full discovery call no longer fits 120 lines now that every pain and entity takes its own line.
+- **`client/2` gains an optional `build_target_reason` (point 2).** `init` writes the default's reason and prints the target and the reason. `check` reads a record without it as having none, so the schema stays `client/2` (G57). Reason: the readiness check copies the reason from `CLIENT.md`. Follow-up: `ledger.py bind` does not rewrite it.
+- **`check` reads `@MM:SS` (point 4).** Reason: files whose lines carry minutes and seconds. Follow-up: `leak_lint.py` and `ledger.py` still read a two-digit hour, so the zero hour stays the written form.
+- **`check` reads a call summary's six type-header fields (points 12 and 13).** Each is `<value> <state>` (`detected`, `assumed`, `confirmed`) or `unresolved`. `proposed` reads as `assumed`. Anything else is a warning. Reason: A27 names the state `assumed`, and records written with `proposed` must still pass. The signals stay in the body under `## Call type`.
+- **A corrected call type keeps the stem (point 14).** `add-transcript`'s refusal of bytes already saved says so for a transcript. Reason: a raw file is saved once.
+- **New record templates (points 3, 7, 9, 15 and 16):** `call-summary.md`, `document-summary.md`, `meetings.md` and `open-questions.md`; `STRAND.md` gains `## Open commitments` and `## What this build rests on`. Their shapes are pinned in `shared/record-map.md`.

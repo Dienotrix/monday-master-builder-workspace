@@ -41,5 +41,4 @@ Each note says what was open or missing, and what the skills took. The ones that
 27. **Not tested on a real input yet.** The skills have been linted, and their command forms dry-run, but not run on a transcript by a fresh agent. The first demo through them is the test, as with demo 2.
 28. **The dry run (scratch home, fictional values, deleted afterwards).** `home init`, `init`, `add-transcript --fixture`, the second save refused as already saved and for the open A11-3 fields, `guard` on a new `calls/<stem>.md`, on `exclusions.md` with the `## Exclusions` heading after the table, on a new `meetings.md`, on `readiness.md` and on `STRAND.md`, `log` at the strand and at `-`, `leak_lint.py scan` on the summary (mode `client-safe-block`, clean), `record.py check` (clean), and the strand index picking up the clearance. A payload carrying the excluded name was blocked by the `exclusion` rule, so note 2's form works.
 29. **Reference file names.** WP8 names the intake reference `summary-and-recap.md` and WP19 names `readiness-guide.md`. The second is used. The first is `intake-shapes.md`, because this session's tooling refused to write a file with "summary" in its name; the full skill can rename it.
-</content>
-</invoke>
+

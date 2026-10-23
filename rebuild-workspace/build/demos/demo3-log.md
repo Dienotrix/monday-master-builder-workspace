@@ -85,7 +85,7 @@ A fresh agent built it from `account-build` alone, in two sittings, with 102 mon
 | Build, status columns | record-number (warn) | label colour numbers matching numbers in the transcript | no |
 | Build, sample deal values | figure (warn) | invented values near the call's cost figures, A34's own-figure warning | no |
 
-**The user took all three on 2026-10-22, as A39** ("I agree with the rules to loosen for the lint"), to be built in the next session.
+**The user took all three on 2026-10-22, as A39** ("I agree with the rules to loosen for the lint"), to be built in the next session. **Built the same day in the next session** as R75 to R77 in WP4's `DECISIONS.md`, with six tests; the demo records re-indexed, and `terms` over `shared/` is clean against the development home. The three records' entries lost every code and everyday word (87, 108 and 125 single words before, 39, 47 and 70 after).
 
 Every block, none a leak. The same pattern showed in the main session's `terms` run over `shared/`, where the demo records' indexes publish `account_id`, `desc`, `P-2` and "an AI" as names. Candidates to loosen, for the user to pick from:
 
@@ -102,8 +102,8 @@ Every block, none a leak. The same pattern showed in the main session's `terms` 
   - a second native of one entity in a workspace is refused;
   - groups are narrowed with columns;
   - `items_count` counts active rows only, which a live read confirmed.
-- **G-65 may be stale.** The connector's `manage_automations` lists activate, deactivate and delete. If deactivate works on an automation the API made, the "switch off the automations" UI steps become build steps. It is not probed yet.
-- **Guard R-H** asks on a `create_board` named like a native (Leads, Contacts …). A38 narrowed R-B and R-D only, so whether R-H should skip a planned native install is open.
+- **G-65 was stale; probed 2026-10-22 in the next session.** On the probe Leads board, one automation notifying only the user: `manage_automations` deactivate and activate both worked, read back by `list_automations` as `is_active` false and then true. G-65 is rewritten, and `safety.md`, `read-back.md` and the never-say line follow it. Switching a demo's automations off is now a build step (account-build, "Switching the automations off", run as `switch-off`), tried on a scratch copy of this record: A2 went `inactive` through the ledger and both checks stayed clean. A departed automation (A1 here) takes no ledger write, so it stays a UI step. The probe automation is left switched off.
+- **Guard R-H, answered 2026-10-22:** the user chose to have R-H skip a planned native install under R-D's conditions; a native-named board with no template id still asks (A38, `native-objects.md` 6.3 and 6.6).
 - **Demo 3 went on from the readiness as written,** rather than re-running intake after the fold.
 - **The blueprint skill now puts sample names through the payload lint before freezing,** and plans no phone numbers.
 
@@ -129,6 +129,6 @@ In the CRM test workspace, folder "Industrial supplies distributor, Toledo – C
 - U2: log a few calls and visits on sample accounts' activity timelines.
 - U3: try the CRM's own lead conversion on one sample lead.
 - U4: in the quiet-quote alert, change "is not" to "is" Quoted, and check the trigger reads 7 days after Last activity.
-- U5: switch both alerts off when the demonstration ends.
+- U5: switch both alerts off when the demonstration ends. Since G-65's probe, the build switches A2 off itself on the user's word (`switch-off`); A1, departed, stays this UI step.
 
 Also worth a look: the Leads template's own "Web Form" view, whose login setting the build did not read, and the eight widgets, which only an eye can check. The planted quiet quote alerts on Monday 26 October at 8:00, once U4 is done. The two probe folders ("Probe – native install", "Probe – use_template check") are test objects the development tooling may clear.

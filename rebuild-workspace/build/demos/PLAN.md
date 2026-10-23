@@ -39,6 +39,15 @@ The user's go: "Yes, please create a new test workspace in CRM then." The first 
 - **Native boards:** probed first (`crm-natives-probe.md`), then built into the ledger, `native-objects.md` and both skills (A38).
 - **Status, 2026-10-22:** built. 47 elements verified (48 with the referenced workspace), eight widgets not checkable, and the quiet-quote alert departed into UI step U4 (its condition stored inverted). The findings are in `demo3-log.md`, and every skill is revised from its agent's notes. The user's look comes next (read-me row P8).
 
+## Demo 4: the AI layer on demo 3 (chosen 2026-10-23)
+
+Asked what the next demo is, a Service fixture or the AI layer on demo 3, the user chose "AI layer on demo 3". It is round two of A27 on the CRM build that exists, with no new workspace.
+
+- **What:** the four AI opportunities demo 3's `readiness.md` marks for round 2: a workflow that drafts the next step for a quiet quote and asks the owner to confirm it (P-21), an AI column summarising each account's last visits, an AI column sorting each new enquiry by product line and region, and an agent that drafts a monthly forecast note for the sales leader (P-19). Built as the next version of strand 001, in the same folder, on its own approval card.
+- **Probe first (A17, A18):** AI columns are unprobed; P-19 and P-21 are re-checked against the connector as it is now, since G-65 showed it changes. Each finding becomes a gotcha entry before anything is built. Every account-level object (the agent, the workflow) takes the user's yes before it is made, the probe's included.
+- **The skills:** solution-blueprint and account-build learn the element kinds `agent`, `workflow` and the AI column, with the ledger's kind words checked first. Agents and workflows notify only the user and reach only the strand's workspace (A21); no credit figure anywhere (A17).
+- **Then:** the card, the user's yes, the build through account-build, and the user's look.
+
 ## Taken for demo 1 (worth the user's nod)
 
 - The plugin has no templates yet (WP7). The record templates `record.py` needs are copied from the unit-test stand-ins into `plugins/monday-master-builder/templates/` as the first lean set, and grow from what the demos show.

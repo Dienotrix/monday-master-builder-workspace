@@ -98,4 +98,6 @@ Line counts after: `call-intake/SKILL.md` 90, `call-intake/references/intake-sha
 17. A bare `leak_lint.py scan --strand <id>` with no path returns `could-not-run`; it could say that no draft exists instead. Intake notes, script refusals.
 18. The reference is named `intake-shapes.md`, not WP8's `summary-and-recap.md`, because of a tooling refusal; the full skill can rename it. Author note C29.
 
+**Status, 2026-10-22 (the next session).** Shown these points in three groups, the user picked all three to fix now: the record's own points (1 to 7, 9, 10 and 12 to 16, by one agent; `group1-log.md`, the record map patch applied by the main session), point 11 (the seven sweep patterns, now in `intake-shapes.md`; `group2-log.md`) and point 17 (R78 in WP4's `DECISIONS.md`). Point 4 is done for `record.py check` only; the leak lint and `ledger.py` still read a two-digit hour, so the zero hour stays the written form. Point 8 (the intake scripts) waits for WP5, and point 18 (the rename) for the full skill.
+
 Author note A2 (the exclusions template's table) is already resolved in the template; only the skills' sentence about it needed removing (call-intake change 18, build-readiness change 19). Notes B13 to B25 are choices the skills already carry; C26 to C28 are status, not fixes.

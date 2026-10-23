@@ -7,6 +7,20 @@
 
 The user made these decisions after the design workflow started. They take precedence over anything in SPEC.md, ARCHITECTURE.md or BUILD-PLAN.md that conflicts. The design revision step folds them in.
 
+## A41. A platform change is made and noted, not asked first (decided 2026-10-23)
+Told that G-65 was out of date (monday's API now switches automations off and on) and how the skills and `shared/` had been changed to follow it, the user said, in their words: "Whenever there is a change in platform (such as the API update), just write a note letting user know, and unless user says to not change, you can change/update".
+- **When a probe or a live read shows that monday changed** (a tool, a verb, a read shape, a limit), the assistant updates what depends on it in the same session: the gotcha entry, the other `shared/` files that repeat it, the skills and their references, and a script where the change needs one, each with its tests and gates. It does not stop to ask.
+- **And writes a note:** in the session, in plain words, what changed in monday, how it was found, and what was updated; and in the log of the work it came up in. The user may say not to change, and then it is put back.
+- **Unchanged:** a change is still probed before anything is built on it (A17, A18); the hard lines stay asked (live writes outside the named test workspaces, client accounts, deletes, account-level objects, names and ids in files, A11).
+- **The assistant's reading, for the user's nod:** the shipped plugin's own knowledge overlay (A4) reads the same way: a change the change check finds is applied and reported to the user, not proposed for approval first, except where it would alter a build the user has already approved, which still waits for the user.
+
+## A40. Two test users may be assigned in the demos (decided 2026-10-22)
+While A39 was being built, the user said, in their words: "Heads up you can also use test user and test admin to assign for these demos". These are the account's two test users, the first of the test people A35 and A37 waited for.
+- **People columns may assign the user and the two test users** in a demonstration build in the user's own account, spread across the sample rows. Their names and ids live only in the user's `local/settings.json`, as `test_people`, never in a project file; the solution-blueprint skill reads them from there.
+- **Per-person charts fill in** (A35): a chart of items per person now shows three people.
+- **The assistant's reading, for the user's nod:** the user said "assign", so automations still notify only the user, and the ledger's one place that decides who counts as the user (`counts_as_user`) is unchanged; the test users are assignees, not recipients. Demos 1 to 3 stay as built unless the user asks for a new revision.
+- **Nodded 2026-10-23,** with every other point of that session put to the user (the switch-off as a build step and a departed automation left as a UI step, the seven sweep patterns' open questions, R75 to R77's nods, the intake fold's nods in `build/demos/group1-log.md`): "Per your previous points, this all make sense."
+
 ## A39. The leak lint loosened from demo 3's list (decided 2026-10-22)
 Shown demo 3's lint blocks and warnings, none a leak, and three candidates to loosen (`build/demos/demo3-log.md`, "Every lint block and warning in demo 3"), the user said, in their words: "I agree with the rules to loosen for the lint." So:
 - **(d) A phone value is not an id.** A value under a phone column (digits only, often eight or more) no longer meets the id-pattern rule; a run of digits written into a name, a description, a label or a message still does.
@@ -21,6 +35,7 @@ The probe of 2026-10-22 (`build/demos/crm-natives-probe.md`) found a CRM workspa
 - **The template's rows are archived, not deleted (the assistant's reading, for the user's nod).** The plugin deletes nothing in any account (A18 as narrowed), so "clear" reads as archive: the template's sample items are archived, which keeps them recoverable, and the build's own sample rows (A28) take their place.
 - **R-B and R-D narrowed for these boards only.** R-D (a raw `create_board` naming a template id) is allowed for a native-install row of the holding strand, in a CRM or Service workspace that is one of its build targets. R-B (structural verbs on a native) is allowed on a native this strand installed, for the planned linking, columns and groups. A native the build did not install keeps every guard as before: R-B, R-D, R-G and the change-table row with its own yes.
 - **Probed before it is built:** the main session installs and links a set in the CRM test workspace (A37) first, and the probe's findings become gotcha entries and the build steps.
+- **Answered 2026-10-22, the next session: R-H skips a planned native install.** Asked whether guard R-H (the ask on a `create_board` named like a native board) should skip a native-install row the approved revision plans, under the same conditions as R-D's exception, the user chose "Yes, skip it". A native-named `create_board` with no template id still asks. Applied to `shared/native-objects.md` 6.3 and 6.6.
 
 ## A37. A new test workspace in the CRM product for the CRM demos (decided 2026-10-22)
 Offered the first CRM demo (s6) next, from its transcript, the user said, in their words: "Yes, please create a new test workspace in CRM then", and, asked where it should build: "Create a new workspace."
